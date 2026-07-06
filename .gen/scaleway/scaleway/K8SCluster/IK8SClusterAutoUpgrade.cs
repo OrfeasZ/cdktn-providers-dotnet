@@ -9,7 +9,7 @@ namespace scaleway.K8SCluster
     {
         /// <summary>Enables the Kubernetes patch version auto upgrade.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#enable K8SCluster#enable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#enable K8SCluster#enable}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Day of the maintenance window.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#maintenance_window_day K8SCluster#maintenance_window_day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#maintenance_window_day K8SCluster#maintenance_window_day}
         /// </remarks>
         [JsiiProperty(name: "maintenanceWindowDay", typeJson: "{\"primitive\":\"string\"}")]
         string MaintenanceWindowDay
@@ -30,7 +30,7 @@ namespace scaleway.K8SCluster
 
         /// <summary>Start hour of the 2-hour maintenance window.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#maintenance_window_start_hour K8SCluster#maintenance_window_start_hour}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#maintenance_window_start_hour K8SCluster#maintenance_window_start_hour}
         /// </remarks>
         [JsiiProperty(name: "maintenanceWindowStartHour", typeJson: "{\"primitive\":\"number\"}")]
         double MaintenanceWindowStartHour
@@ -47,7 +47,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Enables the Kubernetes patch version auto upgrade.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#enable K8SCluster#enable}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#enable K8SCluster#enable}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enable", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -58,7 +58,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Day of the maintenance window.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#maintenance_window_day K8SCluster#maintenance_window_day}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#maintenance_window_day K8SCluster#maintenance_window_day}
             /// </remarks>
             [JsiiProperty(name: "maintenanceWindowDay", typeJson: "{\"primitive\":\"string\"}")]
             public string MaintenanceWindowDay
@@ -68,7 +68,7 @@ namespace scaleway.K8SCluster
 
             /// <summary>Start hour of the 2-hour maintenance window.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/k8s_cluster#maintenance_window_start_hour K8SCluster#maintenance_window_start_hour}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/k8s_cluster#maintenance_window_start_hour K8SCluster#maintenance_window_start_hour}
             /// </remarks>
             [JsiiProperty(name: "maintenanceWindowStartHour", typeJson: "{\"primitive\":\"number\"}")]
             public double MaintenanceWindowStartHour

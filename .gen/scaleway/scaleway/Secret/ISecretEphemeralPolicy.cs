@@ -9,7 +9,7 @@ namespace scaleway.Secret
     {
         /// <summary>Action to perform when the version of a secret expires.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#action Secret#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#action Secret#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
@@ -19,7 +19,7 @@ namespace scaleway.Secret
 
         /// <summary>True if the secret version expires after a single user access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#expires_once_accessed Secret#expires_once_accessed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#expires_once_accessed Secret#expires_once_accessed}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "expiresOnceAccessed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace scaleway.Secret
         /// <remarks>
         /// Has to be specified in Go Duration format
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#ttl Secret#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#ttl Secret#ttl}
         /// </remarks>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace scaleway.Secret
 
             /// <summary>Action to perform when the version of a secret expires.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#action Secret#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#action Secret#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
@@ -67,7 +67,7 @@ namespace scaleway.Secret
 
             /// <summary>True if the secret version expires after a single user access.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#expires_once_accessed Secret#expires_once_accessed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#expires_once_accessed Secret#expires_once_accessed}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace scaleway.Secret
             /// <remarks>
             /// Has to be specified in Go Duration format
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/secret#ttl Secret#ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/secret#ttl Secret#ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

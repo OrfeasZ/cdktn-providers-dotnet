@@ -9,7 +9,7 @@ namespace scaleway.InstanceSecurityGroupRules
     {
         /// <summary>The security group associated with this volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#security_group_id InstanceSecurityGroupRules#security_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#security_group_id InstanceSecurityGroupRules#security_group_id}
         /// </remarks>
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityGroupId
@@ -17,7 +17,7 @@ namespace scaleway.InstanceSecurityGroupRules
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#id InstanceSecurityGroupRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#id InstanceSecurityGroupRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
         /// <summary>inbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#inbound_rule InstanceSecurityGroupRules#inbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#inbound_rule InstanceSecurityGroupRules#inbound_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesInboundRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "inboundRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesInboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
         /// <summary>outbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#outbound_rule InstanceSecurityGroupRules#outbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#outbound_rule InstanceSecurityGroupRules#outbound_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesOutboundRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outboundRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesOutboundRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#timeouts InstanceSecurityGroupRules#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#timeouts InstanceSecurityGroupRules#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
             /// <summary>The security group associated with this volume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#security_group_id InstanceSecurityGroupRules#security_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#security_group_id InstanceSecurityGroupRules#security_group_id}
             /// </remarks>
             [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityGroupId
@@ -93,7 +93,7 @@ namespace scaleway.InstanceSecurityGroupRules
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#id InstanceSecurityGroupRules#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#id InstanceSecurityGroupRules#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
             /// <summary>inbound_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#inbound_rule InstanceSecurityGroupRules#inbound_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#inbound_rule InstanceSecurityGroupRules#inbound_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesInboundRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -119,7 +119,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
             /// <summary>outbound_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#outbound_rule InstanceSecurityGroupRules#outbound_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#outbound_rule InstanceSecurityGroupRules#outbound_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceSecurityGroupRules.IInstanceSecurityGroupRulesOutboundRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -131,7 +131,7 @@ namespace scaleway.InstanceSecurityGroupRules
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/instance_security_group_rules#timeouts InstanceSecurityGroupRules#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/instance_security_group_rules#timeouts InstanceSecurityGroupRules#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceSecurityGroupRules.InstanceSecurityGroupRulesTimeouts\"}", isOptional: true)]

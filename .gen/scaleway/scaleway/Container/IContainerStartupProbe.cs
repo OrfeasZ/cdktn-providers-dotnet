@@ -9,7 +9,7 @@ namespace scaleway.Container
     {
         /// <summary>Number of consecutive failures before considering the container has to be restarted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#failure_threshold Container#failure_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#failure_threshold Container#failure_threshold}
         /// </remarks>
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}")]
         double FailureThreshold
@@ -19,7 +19,7 @@ namespace scaleway.Container
 
         /// <summary>Time interval between checks (in duration notation).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#interval Container#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#interval Container#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
@@ -29,7 +29,7 @@ namespace scaleway.Container
 
         /// <summary>Duration before the check times out (in duration notation).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#timeout Container#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#timeout Container#timeout}
         /// </remarks>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"string\"}")]
         string Timeout
@@ -39,7 +39,7 @@ namespace scaleway.Container
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#http Container#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#http Container#http}
         /// </remarks>
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"scaleway.container.ContainerStartupProbeHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace scaleway.Container
 
         /// <summary>Perform TCP check on the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#tcp Container#tcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#tcp Container#tcp}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "tcp", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.Container
 
             /// <summary>Number of consecutive failures before considering the container has to be restarted.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#failure_threshold Container#failure_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#failure_threshold Container#failure_threshold}
             /// </remarks>
             [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}")]
             public double FailureThreshold
@@ -85,7 +85,7 @@ namespace scaleway.Container
 
             /// <summary>Time interval between checks (in duration notation).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#interval Container#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#interval Container#interval}
             /// </remarks>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
@@ -95,7 +95,7 @@ namespace scaleway.Container
 
             /// <summary>Duration before the check times out (in duration notation).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#timeout Container#timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#timeout Container#timeout}
             /// </remarks>
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"string\"}")]
             public string Timeout
@@ -105,7 +105,7 @@ namespace scaleway.Container
 
             /// <summary>http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#http Container#http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#http Container#http}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"scaleway.container.ContainerStartupProbeHttp\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.Container
 
             /// <summary>Perform TCP check on the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/container#tcp Container#tcp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/container#tcp Container#tcp}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

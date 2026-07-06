@@ -5,7 +5,7 @@ namespace scaleway.BlockVolume
     /// <remarks>
     /// <h1><c>scaleway_block_volume</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/block_volume"><c>scaleway_block_volume</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/block_volume"><c>scaleway_block_volume</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

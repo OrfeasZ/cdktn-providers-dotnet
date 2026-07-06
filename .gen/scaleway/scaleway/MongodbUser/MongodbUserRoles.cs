@@ -11,7 +11,7 @@ namespace scaleway.MongodbUser
     {
         /// <summary>Role name (read, read_write, db_admin, sync).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/mongodb_user#role MongodbUser#role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/mongodb_user#role MongodbUser#role}
         /// </remarks>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
@@ -24,7 +24,7 @@ namespace scaleway.MongodbUser
 
         /// <summary>Apply role to any database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/mongodb_user#any_database MongodbUser#any_database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/mongodb_user#any_database MongodbUser#any_database}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -57,7 +57,7 @@ namespace scaleway.MongodbUser
 
         /// <summary>Database name for the role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/mongodb_user#database_name MongodbUser#database_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/mongodb_user#database_name MongodbUser#database_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

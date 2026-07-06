@@ -11,7 +11,7 @@ namespace scaleway.InferenceDeployment
 
         /// <summary>Disable the authentication on the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/inference_deployment#disable_auth InferenceDeployment#disable_auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/inference_deployment#disable_auth InferenceDeployment#disable_auth}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.InferenceDeployment
 
         /// <summary>The id of the private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/inference_deployment#private_network_id InferenceDeployment#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/inference_deployment#private_network_id InferenceDeployment#private_network_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

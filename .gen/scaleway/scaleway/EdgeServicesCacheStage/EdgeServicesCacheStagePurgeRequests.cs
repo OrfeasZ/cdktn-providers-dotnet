@@ -11,7 +11,7 @@ namespace scaleway.EdgeServicesCacheStage
 
         /// <summary>Defines whether to purge all content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.EdgeServicesCacheStage
 
         /// <summary>The list of asserts to purge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.EdgeServicesCacheStage
 
         /// <summary>The pipeline ID in which the purge request will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

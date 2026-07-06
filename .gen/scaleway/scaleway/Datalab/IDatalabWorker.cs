@@ -9,7 +9,7 @@ namespace scaleway.Datalab
     {
         /// <summary>The number of worker nodes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/datalab#node_count Datalab#node_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/datalab#node_count Datalab#node_count}
         /// </remarks>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double NodeCount
@@ -19,7 +19,7 @@ namespace scaleway.Datalab
 
         /// <summary>The node type for worker nodes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/datalab#node_type Datalab#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/datalab#node_type Datalab#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         string NodeType
@@ -36,7 +36,7 @@ namespace scaleway.Datalab
 
             /// <summary>The number of worker nodes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/datalab#node_count Datalab#node_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/datalab#node_count Datalab#node_count}
             /// </remarks>
             [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double NodeCount
@@ -46,7 +46,7 @@ namespace scaleway.Datalab
 
             /// <summary>The node type for worker nodes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/datalab#node_type Datalab#node_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/datalab#node_type Datalab#node_type}
             /// </remarks>
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeType

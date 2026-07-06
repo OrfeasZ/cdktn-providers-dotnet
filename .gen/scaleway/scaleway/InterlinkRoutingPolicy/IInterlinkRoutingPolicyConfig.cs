@@ -7,7 +7,7 @@ namespace scaleway.InterlinkRoutingPolicy
     [JsiiInterface(nativeType: typeof(IInterlinkRoutingPolicyConfig), fullyQualifiedName: "scaleway.interlinkRoutingPolicy.InterlinkRoutingPolicyConfig")]
     public interface IInterlinkRoutingPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#id InterlinkRoutingPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#id InterlinkRoutingPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>IP prefixes version of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#is_ipv6 InterlinkRoutingPolicy#is_ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#is_ipv6 InterlinkRoutingPolicy#is_ipv6}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isIpv6", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>The name of the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#name InterlinkRoutingPolicy#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#name InterlinkRoutingPolicy#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>IP prefixes to accept from the peer (ranges of route announcements to accept).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#prefix_filter_in InterlinkRoutingPolicy#prefix_filter_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#prefix_filter_in InterlinkRoutingPolicy#prefix_filter_in}
         /// </remarks>
         [JsiiProperty(name: "prefixFilterIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>IP prefix filters to advertise to the peer (ranges of routes to advertise).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#prefix_filter_out InterlinkRoutingPolicy#prefix_filter_out}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#prefix_filter_out InterlinkRoutingPolicy#prefix_filter_out}
         /// </remarks>
         [JsiiProperty(name: "prefixFilterOut", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#project_id InterlinkRoutingPolicy#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#project_id InterlinkRoutingPolicy#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#region InterlinkRoutingPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#region InterlinkRoutingPolicy#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
         /// <summary>The list of tags associated with the routing policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#tags InterlinkRoutingPolicy#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#tags InterlinkRoutingPolicy#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace scaleway.InterlinkRoutingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#id InterlinkRoutingPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#id InterlinkRoutingPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>IP prefixes version of the routing policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#is_ipv6 InterlinkRoutingPolicy#is_ipv6}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#is_ipv6 InterlinkRoutingPolicy#is_ipv6}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -154,7 +154,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>The name of the routing policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#name InterlinkRoutingPolicy#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#name InterlinkRoutingPolicy#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -165,7 +165,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>IP prefixes to accept from the peer (ranges of route announcements to accept).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#prefix_filter_in InterlinkRoutingPolicy#prefix_filter_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#prefix_filter_in InterlinkRoutingPolicy#prefix_filter_in}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefixFilterIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>IP prefix filters to advertise to the peer (ranges of routes to advertise).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#prefix_filter_out InterlinkRoutingPolicy#prefix_filter_out}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#prefix_filter_out InterlinkRoutingPolicy#prefix_filter_out}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefixFilterOut", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -187,7 +187,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#project_id InterlinkRoutingPolicy#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#project_id InterlinkRoutingPolicy#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -198,7 +198,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#region InterlinkRoutingPolicy#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#region InterlinkRoutingPolicy#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace scaleway.InterlinkRoutingPolicy
 
             /// <summary>The list of tags associated with the routing policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/interlink_routing_policy#tags InterlinkRoutingPolicy#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/interlink_routing_policy#tags InterlinkRoutingPolicy#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

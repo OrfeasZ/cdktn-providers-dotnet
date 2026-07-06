@@ -9,7 +9,7 @@ namespace scaleway.EdgeServicesTlsStage
     {
         /// <summary>The ID of the pipeline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#pipeline_id EdgeServicesTlsStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#pipeline_id EdgeServicesTlsStage#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         string PipelineId
@@ -19,7 +19,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>The backend stage ID the TLS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#backend_stage_id EdgeServicesTlsStage#backend_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#backend_stage_id EdgeServicesTlsStage#backend_stage_id}
         /// </remarks>
         [JsiiProperty(name: "backendStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>The cache stage ID the TLS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#cache_stage_id EdgeServicesTlsStage#cache_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#cache_stage_id EdgeServicesTlsStage#cache_stage_id}
         /// </remarks>
         [JsiiProperty(name: "cacheStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace scaleway.EdgeServicesTlsStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#id EdgeServicesTlsStage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#id EdgeServicesTlsStage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>Set to true when Scaleway generates and manages a Let's Encrypt certificate for the TLS stage/custom endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "managedCertificate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#project_id EdgeServicesTlsStage#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#project_id EdgeServicesTlsStage#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +91,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>The route stage ID the TLS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#route_stage_id EdgeServicesTlsStage#route_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#route_stage_id EdgeServicesTlsStage#route_stage_id}
         /// </remarks>
         [JsiiProperty(name: "routeStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>secrets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "secrets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.edgeServicesTlsStage.EdgeServicesTlsStageSecrets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace scaleway.EdgeServicesTlsStage
 
         /// <summary>The WAF stage ID the TLS stage will be linked to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#waf_stage_id EdgeServicesTlsStage#waf_stage_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#waf_stage_id EdgeServicesTlsStage#waf_stage_id}
         /// </remarks>
         [JsiiProperty(name: "wafStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The ID of the pipeline.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#pipeline_id EdgeServicesTlsStage#pipeline_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#pipeline_id EdgeServicesTlsStage#pipeline_id}
             /// </remarks>
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
             public string PipelineId
@@ -151,7 +151,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The backend stage ID the TLS stage will be linked to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#backend_stage_id EdgeServicesTlsStage#backend_stage_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#backend_stage_id EdgeServicesTlsStage#backend_stage_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backendStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The cache stage ID the TLS stage will be linked to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#cache_stage_id EdgeServicesTlsStage#cache_stage_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#cache_stage_id EdgeServicesTlsStage#cache_stage_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace scaleway.EdgeServicesTlsStage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#id EdgeServicesTlsStage#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#id EdgeServicesTlsStage#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -185,7 +185,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>Set to true when Scaleway generates and manages a Let's Encrypt certificate for the TLS stage/custom endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#managed_certificate EdgeServicesTlsStage#managed_certificate}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -197,7 +197,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#project_id EdgeServicesTlsStage#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#project_id EdgeServicesTlsStage#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The route stage ID the TLS stage will be linked to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#route_stage_id EdgeServicesTlsStage#route_stage_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#route_stage_id EdgeServicesTlsStage#route_stage_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routeStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>secrets block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#secrets EdgeServicesTlsStage#secrets}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.EdgeServicesTlsStage.IEdgeServicesTlsStageSecrets" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -231,7 +231,7 @@ namespace scaleway.EdgeServicesTlsStage
 
             /// <summary>The WAF stage ID the TLS stage will be linked to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.77.1/docs/resources/edge_services_tls_stage#waf_stage_id EdgeServicesTlsStage#waf_stage_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/edge_services_tls_stage#waf_stage_id EdgeServicesTlsStage#waf_stage_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wafStageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
