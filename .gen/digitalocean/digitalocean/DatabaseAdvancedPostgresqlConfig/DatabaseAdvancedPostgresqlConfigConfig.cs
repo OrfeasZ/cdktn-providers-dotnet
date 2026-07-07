@@ -9,7 +9,7 @@ namespace digitalocean.DatabaseAdvancedPostgresqlConfig
     [JsiiByValue(fqn: "digitalocean.databaseAdvancedPostgresqlConfig.DatabaseAdvancedPostgresqlConfigConfig")]
     public class DatabaseAdvancedPostgresqlConfigConfig : digitalocean.DatabaseAdvancedPostgresqlConfig.IDatabaseAdvancedPostgresqlConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_advanced_postgresql_config#cluster_id DatabaseAdvancedPostgresqlConfig#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/database_advanced_postgresql_config#cluster_id DatabaseAdvancedPostgresqlConfig#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DatabaseAdvancedPostgresqlConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_advanced_postgresql_config#id DatabaseAdvancedPostgresqlConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/database_advanced_postgresql_config#id DatabaseAdvancedPostgresqlConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace digitalocean.DatabaseAdvancedPostgresqlConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/database_advanced_postgresql_config#pg_parameters DatabaseAdvancedPostgresqlConfig#pg_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/database_advanced_postgresql_config#pg_parameters DatabaseAdvancedPostgresqlConfig#pg_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pgParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? PgParameters

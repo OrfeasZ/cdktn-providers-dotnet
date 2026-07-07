@@ -11,7 +11,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>agreement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#agreement GradientaiOpenaiApiKey#agreement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#agreement GradientaiOpenaiApiKey#agreement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiOpenaiApiKey.IGradientaiOpenaiApiKeyModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Inference name of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#inference_name GradientaiOpenaiApiKey#inference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#inference_name GradientaiOpenaiApiKey#inference_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Infernce version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#inference_version GradientaiOpenaiApiKey#inference_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#inference_version GradientaiOpenaiApiKey#inference_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#is_foundational GradientaiOpenaiApiKey#is_foundational}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#is_foundational GradientaiOpenaiApiKey#is_foundational}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -103,7 +103,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#name GradientaiOpenaiApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#name GradientaiOpenaiApiKey#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Parent UUID of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#parent_uuid GradientaiOpenaiApiKey#parent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#parent_uuid GradientaiOpenaiApiKey#parent_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Provider of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#provider GradientaiOpenaiApiKey#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#provider GradientaiOpenaiApiKey#provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#upload_complete GradientaiOpenaiApiKey#upload_complete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#upload_complete GradientaiOpenaiApiKey#upload_complete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -174,7 +174,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>URL of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#url GradientaiOpenaiApiKey#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#url GradientaiOpenaiApiKey#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>List of Usecases for the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#usecases GradientaiOpenaiApiKey#usecases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#usecases GradientaiOpenaiApiKey#usecases}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace digitalocean.GradientaiOpenaiApiKey
 
         /// <summary>versions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/resources/gradientai_openai_api_key#versions GradientaiOpenaiApiKey#versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/gradientai_openai_api_key#versions GradientaiOpenaiApiKey#versions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.GradientaiOpenaiApiKey.IGradientaiOpenaiApiKeyModelVersions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,21 +7,21 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanGradientaiCustomModelsFilter), fullyQualifiedName: "digitalocean.dataDigitaloceanGradientaiCustomModels.DataDigitaloceanGradientaiCustomModelsFilter")]
     public interface IDataDigitaloceanGradientaiCustomModelsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#key DataDigitaloceanGradientaiCustomModels#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#key DataDigitaloceanGradientaiCustomModels#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#values DataDigitaloceanGradientaiCustomModels#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#values DataDigitaloceanGradientaiCustomModels#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#all DataDigitaloceanGradientaiCustomModels#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#all DataDigitaloceanGradientaiCustomModels#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#match_by DataDigitaloceanGradientaiCustomModels#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#match_by DataDigitaloceanGradientaiCustomModels#match_by}.</summary>
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MatchBy
@@ -53,21 +53,21 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#key DataDigitaloceanGradientaiCustomModels#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#key DataDigitaloceanGradientaiCustomModels#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#values DataDigitaloceanGradientaiCustomModels#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#values DataDigitaloceanGradientaiCustomModels#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#all DataDigitaloceanGradientaiCustomModels#all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#all DataDigitaloceanGradientaiCustomModels#all}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.93.0/docs/data-sources/gradientai_custom_models#match_by DataDigitaloceanGradientaiCustomModels#match_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/gradientai_custom_models#match_by DataDigitaloceanGradientaiCustomModels#match_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MatchBy

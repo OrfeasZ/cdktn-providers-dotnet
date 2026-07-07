@@ -71,6 +71,12 @@ namespace digitalocean.DataDigitaloceanGradientaiCustomModels
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "errorMessage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ErrorMessage
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "fileCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double FileCount
         {
