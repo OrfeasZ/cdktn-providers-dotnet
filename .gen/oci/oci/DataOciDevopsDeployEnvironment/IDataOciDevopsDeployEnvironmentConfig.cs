@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsDeployEnvironment
     [JsiiInterface(nativeType: typeof(IDataOciDevopsDeployEnvironmentConfig), fullyQualifiedName: "oci.dataOciDevopsDeployEnvironment.DataOciDevopsDeployEnvironmentConfig")]
     public interface IDataOciDevopsDeployEnvironmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
         [JsiiProperty(name: "deployEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string DeployEnvironmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsDeployEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_deploy_environment#deploy_environment_id DataOciDevopsDeployEnvironment#deploy_environment_id}.</summary>
             [JsiiProperty(name: "deployEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeployEnvironmentId
             {

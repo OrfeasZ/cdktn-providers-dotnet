@@ -7,7 +7,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLink
     [JsiiInterface(nativeType: typeof(IDataOciLustreFileStorageObjectStorageLinkConfig), fullyQualifiedName: "oci.dataOciLustreFileStorageObjectStorageLink.DataOciLustreFileStorageObjectStorageLinkConfig")]
     public interface IDataOciLustreFileStorageObjectStorageLinkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
         [JsiiProperty(name: "objectStorageLinkId", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectStorageLinkId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLink
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
             [JsiiProperty(name: "objectStorageLinkId", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectStorageLinkId
             {

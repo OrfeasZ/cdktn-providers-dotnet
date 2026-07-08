@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         /// <summary>locked block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserLocked\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxConcurrentSessions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxConcurrentSessions
@@ -30,7 +30,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>recovery_locked block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryLocked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserRecoveryLocked\"}", isOptional: true)]

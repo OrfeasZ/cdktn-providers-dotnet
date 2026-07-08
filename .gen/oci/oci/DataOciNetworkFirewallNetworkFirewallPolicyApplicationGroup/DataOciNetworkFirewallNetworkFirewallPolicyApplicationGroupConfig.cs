@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup.IDataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {

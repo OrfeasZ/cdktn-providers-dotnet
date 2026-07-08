@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesFilter")]
     public class DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesFilter : oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes.IDataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#name DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#name DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#values DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#values DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#regex DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#regex DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

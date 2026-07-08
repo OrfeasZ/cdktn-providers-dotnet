@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementReportMetadata
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementReportMetadata.DataOciFleetAppsManagementReportMetadataConfig")]
     public class DataOciFleetAppsManagementReportMetadataConfig : oci.DataOciFleetAppsManagementReportMetadata.IDataOciFleetAppsManagementReportMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_report_metadata#compartment_id DataOciFleetAppsManagementReportMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_report_metadata#compartment_id DataOciFleetAppsManagementReportMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementReportMetadata
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_report_metadata#filter DataOciFleetAppsManagementReportMetadata#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_report_metadata#filter DataOciFleetAppsManagementReportMetadata#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementReportMetadata.IDataOciFleetAppsManagementReportMetadataFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciFleetAppsManagementReportMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_report_metadata#id DataOciFleetAppsManagementReportMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_report_metadata#id DataOciFleetAppsManagementReportMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciFleetAppsManagementReportMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_report_metadata#report_name DataOciFleetAppsManagementReportMetadata#report_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_report_metadata#report_name DataOciFleetAppsManagementReportMetadata#report_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reportName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReportName

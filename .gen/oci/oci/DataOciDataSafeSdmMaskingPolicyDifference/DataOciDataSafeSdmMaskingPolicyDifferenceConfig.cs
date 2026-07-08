@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSdmMaskingPolicyDifference
     [JsiiByValue(fqn: "oci.dataOciDataSafeSdmMaskingPolicyDifference.DataOciDataSafeSdmMaskingPolicyDifferenceConfig")]
     public class DataOciDataSafeSdmMaskingPolicyDifferenceConfig : oci.DataOciDataSafeSdmMaskingPolicyDifference.IDataOciDataSafeSdmMaskingPolicyDifferenceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sdm_masking_policy_difference#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifference#sdm_masking_policy_difference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sdm_masking_policy_difference#sdm_masking_policy_difference_id DataOciDataSafeSdmMaskingPolicyDifference#sdm_masking_policy_difference_id}.</summary>
         [JsiiProperty(name: "sdmMaskingPolicyDifferenceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SdmMaskingPolicyDifferenceId
         {

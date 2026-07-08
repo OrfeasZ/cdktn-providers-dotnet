@@ -11,7 +11,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
     {
         private object _enableDatabaseManagement;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_database_managements_management#enable_database_management DatabaseManagementExternalDbSystemDatabaseManagementsManagement#enable_database_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_db_system_database_managements_management#enable_database_management DatabaseManagementExternalDbSystemDatabaseManagementsManagement#enable_database_management}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_database_managements_management#external_db_system_id DatabaseManagementExternalDbSystemDatabaseManagementsManagement#external_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_db_system_database_managements_management#external_db_system_id DatabaseManagementExternalDbSystemDatabaseManagementsManagement#external_db_system_id}.</summary>
         [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbSystemId
         {
@@ -50,7 +50,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_database_managements_management#id DatabaseManagementExternalDbSystemDatabaseManagementsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_db_system_database_managements_management#id DatabaseManagementExternalDbSystemDatabaseManagementsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_database_managements_management#license_model DatabaseManagementExternalDbSystemDatabaseManagementsManagement#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_db_system_database_managements_management#license_model DatabaseManagementExternalDbSystemDatabaseManagementsManagement#license_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseModel
@@ -74,7 +74,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_db_system_database_managements_management#timeouts DatabaseManagementExternalDbSystemDatabaseManagementsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_db_system_database_managements_management#timeouts DatabaseManagementExternalDbSystemDatabaseManagementsManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalDbSystemDatabaseManagementsManagement.DatabaseManagementExternalDbSystemDatabaseManagementsManagementTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DatabaseDbNodeConsoleConnection
     [JsiiByValue(fqn: "oci.databaseDbNodeConsoleConnection.DatabaseDbNodeConsoleConnectionTimeouts")]
     public class DatabaseDbNodeConsoleConnectionTimeouts : oci.DatabaseDbNodeConsoleConnection.IDatabaseDbNodeConsoleConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_node_console_connection#create DatabaseDbNodeConsoleConnection#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_db_node_console_connection#create DatabaseDbNodeConsoleConnection#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseDbNodeConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_node_console_connection#delete DatabaseDbNodeConsoleConnection#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_db_node_console_connection#delete DatabaseDbNodeConsoleConnection#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbNodeConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_db_node_console_connection#update DatabaseDbNodeConsoleConnection#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_db_node_console_connection#update DatabaseDbNodeConsoleConnection#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.DataOciOptimizerProfile
     [JsiiInterface(nativeType: typeof(IDataOciOptimizerProfileConfig), fullyQualifiedName: "oci.dataOciOptimizerProfile.DataOciOptimizerProfileConfig")]
     public interface IDataOciOptimizerProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOptimizerProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/optimizer_profile#profile_id DataOciOptimizerProfile#profile_id}.</summary>
             [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileId
             {

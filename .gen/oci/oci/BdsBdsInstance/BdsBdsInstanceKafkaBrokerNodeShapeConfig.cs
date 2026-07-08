@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstance
     [JsiiByValue(fqn: "oci.bdsBdsInstance.BdsBdsInstanceKafkaBrokerNodeShapeConfig")]
     public class BdsBdsInstanceKafkaBrokerNodeShapeConfig : oci.BdsBdsInstance.IBdsBdsInstanceKafkaBrokerNodeShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance#memory_in_gbs BdsBdsInstance#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.BdsBdsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance#nvmes BdsBdsInstance#nvmes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nvmes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Nvmes
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance#ocpus BdsBdsInstance#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

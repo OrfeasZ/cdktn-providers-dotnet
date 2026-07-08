@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
     [JsiiByValue(fqn: "oci.databaseManagementCloudExadataStorageConnector.DatabaseManagementCloudExadataStorageConnectorTimeouts")]
     public class DatabaseManagementCloudExadataStorageConnectorTimeouts : oci.DatabaseManagementCloudExadataStorageConnector.IDatabaseManagementCloudExadataStorageConnectorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_storage_connector#create DatabaseManagementCloudExadataStorageConnector#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_storage_connector#create DatabaseManagementCloudExadataStorageConnector#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_storage_connector#delete DatabaseManagementCloudExadataStorageConnector#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_storage_connector#delete DatabaseManagementCloudExadataStorageConnector#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_storage_connector#update DatabaseManagementCloudExadataStorageConnector#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_storage_connector#update DatabaseManagementCloudExadataStorageConnector#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

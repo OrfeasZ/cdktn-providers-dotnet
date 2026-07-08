@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsMySmtpCredential
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsMySmtpCredentialConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsMySmtpCredential.DataOciIdentityDomainsMySmtpCredentialConfig")]
     public interface IDataOciIdentityDomainsMySmtpCredentialConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#idcs_endpoint DataOciIdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#idcs_endpoint DataOciIdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#my_smtp_credential_id DataOciIdentityDomainsMySmtpCredential#my_smtp_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#my_smtp_credential_id DataOciIdentityDomainsMySmtpCredential#my_smtp_credential_id}.</summary>
         [JsiiProperty(name: "mySmtpCredentialId", typeJson: "{\"primitive\":\"string\"}")]
         string MySmtpCredentialId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#authorization DataOciIdentityDomainsMySmtpCredential#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#authorization DataOciIdentityDomainsMySmtpCredential#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsMySmtpCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#resource_type_schema_version DataOciIdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#resource_type_schema_version DataOciIdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -50,21 +50,21 @@ namespace oci.DataOciIdentityDomainsMySmtpCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#idcs_endpoint DataOciIdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#idcs_endpoint DataOciIdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#my_smtp_credential_id DataOciIdentityDomainsMySmtpCredential#my_smtp_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#my_smtp_credential_id DataOciIdentityDomainsMySmtpCredential#my_smtp_credential_id}.</summary>
             [JsiiProperty(name: "mySmtpCredentialId", typeJson: "{\"primitive\":\"string\"}")]
             public string MySmtpCredentialId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#authorization DataOciIdentityDomainsMySmtpCredential#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#authorization DataOciIdentityDomainsMySmtpCredential#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -72,7 +72,7 @@ namespace oci.DataOciIdentityDomainsMySmtpCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_domains_my_smtp_credential#resource_type_schema_version DataOciIdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_smtp_credential#resource_type_schema_version DataOciIdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

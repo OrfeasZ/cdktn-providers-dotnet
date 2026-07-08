@@ -7,21 +7,21 @@ namespace oci.DataOciIotDigitalTwinRelationships
     [JsiiInterface(nativeType: typeof(IDataOciIotDigitalTwinRelationshipsFilter), fullyQualifiedName: "oci.dataOciIotDigitalTwinRelationships.DataOciIotDigitalTwinRelationshipsFilter")]
     public interface IDataOciIotDigitalTwinRelationshipsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#name DataOciIotDigitalTwinRelationships#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#name DataOciIotDigitalTwinRelationships#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#values DataOciIotDigitalTwinRelationships#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#values DataOciIotDigitalTwinRelationships#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#regex DataOciIotDigitalTwinRelationships#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#regex DataOciIotDigitalTwinRelationships#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciIotDigitalTwinRelationships
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#name DataOciIotDigitalTwinRelationships#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#name DataOciIotDigitalTwinRelationships#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#values DataOciIotDigitalTwinRelationships#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#values DataOciIotDigitalTwinRelationships#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_digital_twin_relationships#regex DataOciIotDigitalTwinRelationships#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_digital_twin_relationships#regex DataOciIotDigitalTwinRelationships#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

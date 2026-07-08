@@ -7,7 +7,7 @@ namespace oci.DataOciKmsVault
     [JsiiInterface(nativeType: typeof(IDataOciKmsVaultConfig), fullyQualifiedName: "oci.dataOciKmsVault.DataOciKmsVaultConfig")]
     public interface IDataOciKmsVaultConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         string VaultId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciKmsVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/kms_vault#vault_id DataOciKmsVault#vault_id}.</summary>
             [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string VaultId
             {

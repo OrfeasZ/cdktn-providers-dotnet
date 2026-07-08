@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiAgentAgent
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiAgentAgentConfig), fullyQualifiedName: "oci.dataOciGenerativeAiAgentAgent.DataOciGenerativeAiAgentAgentConfig")]
     public interface IDataOciGenerativeAiAgentAgentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_agent_agent#agent_id DataOciGenerativeAiAgentAgent#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_agent_agent#agent_id DataOciGenerativeAiAgentAgent#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiAgentAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_agent_agent#agent_id DataOciGenerativeAiAgentAgent#agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_agent_agent#agent_id DataOciGenerativeAiAgentAgent#agent_id}.</summary>
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentId
             {

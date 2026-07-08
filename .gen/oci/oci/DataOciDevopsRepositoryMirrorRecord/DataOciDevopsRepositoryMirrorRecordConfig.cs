@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecord
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryMirrorRecord.DataOciDevopsRepositoryMirrorRecordConfig")]
     public class DataOciDevopsRepositoryMirrorRecordConfig : oci.DataOciDevopsRepositoryMirrorRecord.IDataOciDevopsRepositoryMirrorRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_mirror_record#mirror_record_type DataOciDevopsRepositoryMirrorRecord#mirror_record_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_repository_mirror_record#mirror_record_type DataOciDevopsRepositoryMirrorRecord#mirror_record_type}.</summary>
         [JsiiProperty(name: "mirrorRecordType", typeJson: "{\"primitive\":\"string\"}")]
         public string MirrorRecordType
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_mirror_record#repository_id DataOciDevopsRepositoryMirrorRecord#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_repository_mirror_record#repository_id DataOciDevopsRepositoryMirrorRecord#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository_mirror_record#id DataOciDevopsRepositoryMirrorRecord#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_repository_mirror_record#id DataOciDevopsRepositoryMirrorRecord#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

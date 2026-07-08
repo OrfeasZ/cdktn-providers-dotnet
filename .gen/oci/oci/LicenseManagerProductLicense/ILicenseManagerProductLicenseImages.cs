@@ -7,14 +7,14 @@ namespace oci.LicenseManagerProductLicense
     [JsiiInterface(nativeType: typeof(ILicenseManagerProductLicenseImages), fullyQualifiedName: "oci.licenseManagerProductLicense.LicenseManagerProductLicenseImages")]
     public interface ILicenseManagerProductLicenseImages
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/license_manager_product_license#listing_id LicenseManagerProductLicense#listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/license_manager_product_license#listing_id LicenseManagerProductLicense#listing_id}.</summary>
         [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}")]
         string ListingId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/license_manager_product_license#package_version LicenseManagerProductLicense#package_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/license_manager_product_license#package_version LicenseManagerProductLicense#package_version}.</summary>
         [JsiiProperty(name: "packageVersion", typeJson: "{\"primitive\":\"string\"}")]
         string PackageVersion
         {
@@ -28,14 +28,14 @@ namespace oci.LicenseManagerProductLicense
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/license_manager_product_license#listing_id LicenseManagerProductLicense#listing_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/license_manager_product_license#listing_id LicenseManagerProductLicense#listing_id}.</summary>
             [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}")]
             public string ListingId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/license_manager_product_license#package_version LicenseManagerProductLicense#package_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/license_manager_product_license#package_version LicenseManagerProductLicense#package_version}.</summary>
             [JsiiProperty(name: "packageVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string PackageVersion
             {

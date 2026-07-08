@@ -7,7 +7,7 @@ namespace oci.ApmTracesScheduledQuery
     [JsiiInterface(nativeType: typeof(IApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming), fullyQualifiedName: "oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming")]
     public interface IApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}.</summary>
         [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StreamId
@@ -25,7 +25,7 @@ namespace oci.ApmTracesScheduledQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StreamId

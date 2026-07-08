@@ -5,7 +5,7 @@ namespace oci.CostadCostAnomalyEvent
     /// <remarks>
     /// <h1><c>oci_costad_cost_anomaly_event</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/costad_cost_anomaly_event"><c>oci_costad_cost_anomaly_event</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/costad_cost_anomaly_event"><c>oci_costad_cost_anomaly_event</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

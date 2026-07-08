@@ -7,14 +7,14 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiGenerativeAiPrivateEndpointsConfig), fullyQualifiedName: "oci.dataOciGenerativeAiGenerativeAiPrivateEndpoints.DataOciGenerativeAiGenerativeAiPrivateEndpointsConfig")]
     public interface IDataOciGenerativeAiGenerativeAiPrivateEndpointsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#compartment_id DataOciGenerativeAiGenerativeAiPrivateEndpoints#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#compartment_id DataOciGenerativeAiGenerativeAiPrivateEndpoints#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#display_name DataOciGenerativeAiGenerativeAiPrivateEndpoints#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#display_name DataOciGenerativeAiGenerativeAiPrivateEndpoints#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#filter DataOciGenerativeAiGenerativeAiPrivateEndpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#filter DataOciGenerativeAiGenerativeAiPrivateEndpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints.IDataOciGenerativeAiGenerativeAiPrivateEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGenerativeAiGenerativeAiPrivateEndpoints.DataOciGenerativeAiGenerativeAiPrivateEndpointsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#id DataOciGenerativeAiGenerativeAiPrivateEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#id DataOciGenerativeAiGenerativeAiPrivateEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#state DataOciGenerativeAiGenerativeAiPrivateEndpoints#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#state DataOciGenerativeAiGenerativeAiPrivateEndpoints#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +73,14 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#compartment_id DataOciGenerativeAiGenerativeAiPrivateEndpoints#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#compartment_id DataOciGenerativeAiGenerativeAiPrivateEndpoints#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#display_name DataOciGenerativeAiGenerativeAiPrivateEndpoints#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#display_name DataOciGenerativeAiGenerativeAiPrivateEndpoints#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -90,7 +90,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#filter DataOciGenerativeAiGenerativeAiPrivateEndpoints#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#filter DataOciGenerativeAiGenerativeAiPrivateEndpoints#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints.IDataOciGenerativeAiGenerativeAiPrivateEndpointsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#id DataOciGenerativeAiGenerativeAiPrivateEndpoints#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#id DataOciGenerativeAiGenerativeAiPrivateEndpoints#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#state DataOciGenerativeAiGenerativeAiPrivateEndpoints#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#state DataOciGenerativeAiGenerativeAiPrivateEndpoints#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

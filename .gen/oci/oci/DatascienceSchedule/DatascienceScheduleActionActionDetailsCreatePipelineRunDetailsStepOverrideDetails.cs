@@ -9,7 +9,7 @@ namespace oci.DatascienceSchedule
     {
         /// <summary>step_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_schedule#step_configuration_details DatascienceSchedule#step_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_schedule#step_configuration_details DatascienceSchedule#step_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.DatascienceSchedule
 
         /// <summary>step_container_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_schedule#step_container_configuration_details DatascienceSchedule#step_container_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_schedule#step_container_configuration_details DatascienceSchedule#step_container_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepContainerConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepContainerConfigurationDetails\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_schedule#step_name DatascienceSchedule#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_schedule#step_name DatascienceSchedule#step_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StepName

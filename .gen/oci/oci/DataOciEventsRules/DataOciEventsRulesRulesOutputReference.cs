@@ -53,6 +53,12 @@ namespace oci.DataOciEventsRules
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "conditionDetails", typeJson: "{\"fqn\":\"oci.dataOciEventsRules.DataOciEventsRulesRulesConditionDetailsList\"}")]
+        public virtual oci.DataOciEventsRules.DataOciEventsRulesRulesConditionDetailsList ConditionDetails
+        {
+            get => GetInstanceProperty<oci.DataOciEventsRules.DataOciEventsRulesRulesConditionDetailsList>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

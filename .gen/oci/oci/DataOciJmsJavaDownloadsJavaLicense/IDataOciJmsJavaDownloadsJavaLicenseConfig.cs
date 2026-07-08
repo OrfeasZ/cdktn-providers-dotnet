@@ -7,14 +7,14 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicense
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaLicenseConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaLicense.DataOciJmsJavaDownloadsJavaLicenseConfig")]
     public interface IDataOciJmsJavaDownloadsJavaLicenseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license#license_type DataOciJmsJavaDownloadsJavaLicense#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license#license_type DataOciJmsJavaDownloadsJavaLicense#license_type}.</summary>
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}")]
         string LicenseType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license#id DataOciJmsJavaDownloadsJavaLicense#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license#id DataOciJmsJavaDownloadsJavaLicense#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicense
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license#license_type DataOciJmsJavaDownloadsJavaLicense#license_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license#license_type DataOciJmsJavaDownloadsJavaLicense#license_type}.</summary>
             [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}")]
             public string LicenseType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license#id DataOciJmsJavaDownloadsJavaLicense#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license#id DataOciJmsJavaDownloadsJavaLicense#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

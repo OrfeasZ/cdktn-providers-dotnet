@@ -5,7 +5,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
     /// <remarks>
     /// <h1><c>data_oci_dblm_patch_management_databases</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dblm_patch_management_databases"><c>data_oci_dblm_patch_management_databases</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dblm_patch_management_databases"><c>data_oci_dblm_patch_management_databases</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

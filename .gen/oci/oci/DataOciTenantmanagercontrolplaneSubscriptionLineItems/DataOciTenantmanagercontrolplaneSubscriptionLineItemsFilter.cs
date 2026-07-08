@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneSubscriptionLineItems.DataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter")]
     public class DataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter : oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems.IDataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#name DataOciTenantmanagercontrolplaneSubscriptionLineItems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#name DataOciTenantmanagercontrolplaneSubscriptionLineItems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#values DataOciTenantmanagercontrolplaneSubscriptionLineItems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#values DataOciTenantmanagercontrolplaneSubscriptionLineItems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#regex DataOciTenantmanagercontrolplaneSubscriptionLineItems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#regex DataOciTenantmanagercontrolplaneSubscriptionLineItems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

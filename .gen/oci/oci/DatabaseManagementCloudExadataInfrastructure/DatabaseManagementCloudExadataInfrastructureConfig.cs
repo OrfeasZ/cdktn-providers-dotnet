@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
     [JsiiByValue(fqn: "oci.databaseManagementCloudExadataInfrastructure.DatabaseManagementCloudExadataInfrastructureConfig")]
     public class DatabaseManagementCloudExadataInfrastructureConfig : oci.DatabaseManagementCloudExadataInfrastructure.IDatabaseManagementCloudExadataInfrastructureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#compartment_id DatabaseManagementCloudExadataInfrastructure#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#compartment_id DatabaseManagementCloudExadataInfrastructure#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#vm_cluster_ids DatabaseManagementCloudExadataInfrastructure#vm_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#vm_cluster_ids DatabaseManagementCloudExadataInfrastructure#vm_cluster_ids}.</summary>
         [JsiiProperty(name: "vmClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] VmClusterIds
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#defined_tags DatabaseManagementCloudExadataInfrastructure#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#defined_tags DatabaseManagementCloudExadataInfrastructure#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#discovery_key DatabaseManagementCloudExadataInfrastructure#discovery_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#discovery_key DatabaseManagementCloudExadataInfrastructure#discovery_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "discoveryKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiscoveryKey
@@ -43,7 +43,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#display_name DatabaseManagementCloudExadataInfrastructure#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#display_name DatabaseManagementCloudExadataInfrastructure#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -52,7 +52,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#freeform_tags DatabaseManagementCloudExadataInfrastructure#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#freeform_tags DatabaseManagementCloudExadataInfrastructure#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#id DatabaseManagementCloudExadataInfrastructure#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#id DatabaseManagementCloudExadataInfrastructure#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#license_model DatabaseManagementCloudExadataInfrastructure#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#license_model DatabaseManagementCloudExadataInfrastructure#license_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseModel
@@ -83,7 +83,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#storage_server_names DatabaseManagementCloudExadataInfrastructure#storage_server_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#storage_server_names DatabaseManagementCloudExadataInfrastructure#storage_server_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageServerNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StorageServerNames
@@ -94,7 +94,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructure
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_cloud_exadata_infrastructure#timeouts DatabaseManagementCloudExadataInfrastructure#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_exadata_infrastructure#timeouts DatabaseManagementCloudExadataInfrastructure#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataInfrastructure.DatabaseManagementCloudExadataInfrastructureTimeouts\"}", isOptional: true)]

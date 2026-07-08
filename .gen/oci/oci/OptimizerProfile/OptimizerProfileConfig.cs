@@ -9,7 +9,7 @@ namespace oci.OptimizerProfile
     [JsiiByValue(fqn: "oci.optimizerProfile.OptimizerProfileConfig")]
     public class OptimizerProfileConfig : oci.OptimizerProfile.IOptimizerProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#compartment_id OptimizerProfile#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#compartment_id OptimizerProfile#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#description OptimizerProfile#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#description OptimizerProfile#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -27,7 +27,7 @@ namespace oci.OptimizerProfile
 
         /// <summary>levels_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#levels_configuration OptimizerProfile#levels_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#levels_configuration OptimizerProfile#levels_configuration}
         /// </remarks>
         [JsiiProperty(name: "levelsConfiguration", typeJson: "{\"fqn\":\"oci.optimizerProfile.OptimizerProfileLevelsConfiguration\"}")]
         public oci.OptimizerProfile.IOptimizerProfileLevelsConfiguration LevelsConfiguration
@@ -36,7 +36,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#name OptimizerProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#name OptimizerProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -44,7 +44,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#aggregation_interval_in_days OptimizerProfile#aggregation_interval_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#aggregation_interval_in_days OptimizerProfile#aggregation_interval_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aggregationIntervalInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AggregationIntervalInDays
@@ -53,7 +53,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#defined_tags OptimizerProfile#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#defined_tags OptimizerProfile#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -62,7 +62,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#freeform_tags OptimizerProfile#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#freeform_tags OptimizerProfile#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -71,7 +71,7 @@ namespace oci.OptimizerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#id OptimizerProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#id OptimizerProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace oci.OptimizerProfile
 
         /// <summary>target_compartments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#target_compartments OptimizerProfile#target_compartments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#target_compartments OptimizerProfile#target_compartments}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetCompartments", typeJson: "{\"fqn\":\"oci.optimizerProfile.OptimizerProfileTargetCompartments\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace oci.OptimizerProfile
 
         /// <summary>target_tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#target_tags OptimizerProfile#target_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#target_tags OptimizerProfile#target_tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetTags", typeJson: "{\"fqn\":\"oci.optimizerProfile.OptimizerProfileTargetTags\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace oci.OptimizerProfile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/optimizer_profile#timeouts OptimizerProfile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_profile#timeouts OptimizerProfile#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.optimizerProfile.OptimizerProfileTimeouts\"}", isOptional: true)]

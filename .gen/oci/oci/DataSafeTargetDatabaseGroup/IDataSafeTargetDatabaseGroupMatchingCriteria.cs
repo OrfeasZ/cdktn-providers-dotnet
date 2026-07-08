@@ -9,7 +9,7 @@ namespace oci.DataSafeTargetDatabaseGroup
     {
         /// <summary>include block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_target_database_group#include DataSafeTargetDatabaseGroup#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_target_database_group#include DataSafeTargetDatabaseGroup#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"oci.dataSafeTargetDatabaseGroup.DataSafeTargetDatabaseGroupMatchingCriteriaInclude\"}")]
         oci.DataSafeTargetDatabaseGroup.IDataSafeTargetDatabaseGroupMatchingCriteriaInclude Include
@@ -19,7 +19,7 @@ namespace oci.DataSafeTargetDatabaseGroup
 
         /// <summary>exclude block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_target_database_group#exclude DataSafeTargetDatabaseGroup#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_target_database_group#exclude DataSafeTargetDatabaseGroup#exclude}
         /// </remarks>
         [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"oci.dataSafeTargetDatabaseGroup.DataSafeTargetDatabaseGroupMatchingCriteriaExclude\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace oci.DataSafeTargetDatabaseGroup
 
             /// <summary>include block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_target_database_group#include DataSafeTargetDatabaseGroup#include}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_target_database_group#include DataSafeTargetDatabaseGroup#include}
             /// </remarks>
             [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"oci.dataSafeTargetDatabaseGroup.DataSafeTargetDatabaseGroupMatchingCriteriaInclude\"}")]
             public oci.DataSafeTargetDatabaseGroup.IDataSafeTargetDatabaseGroupMatchingCriteriaInclude Include
@@ -50,7 +50,7 @@ namespace oci.DataSafeTargetDatabaseGroup
 
             /// <summary>exclude block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_target_database_group#exclude DataSafeTargetDatabaseGroup#exclude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_target_database_group#exclude DataSafeTargetDatabaseGroup#exclude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"oci.dataSafeTargetDatabaseGroup.DataSafeTargetDatabaseGroupMatchingCriteriaExclude\"}", isOptional: true)]

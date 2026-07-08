@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSet
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheDefaultConfigSet.DataOciRedisOciCacheDefaultConfigSetConfig")]
     public class DataOciRedisOciCacheDefaultConfigSetConfig : oci.DataOciRedisOciCacheDefaultConfigSet.IDataOciRedisOciCacheDefaultConfigSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_default_config_set#compartment_id DataOciRedisOciCacheDefaultConfigSet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/redis_oci_cache_default_config_set#compartment_id DataOciRedisOciCacheDefaultConfigSet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_default_config_set#oci_cache_default_config_set_id DataOciRedisOciCacheDefaultConfigSet#oci_cache_default_config_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/redis_oci_cache_default_config_set#oci_cache_default_config_set_id DataOciRedisOciCacheDefaultConfigSet#oci_cache_default_config_set_id}.</summary>
         [JsiiProperty(name: "ociCacheDefaultConfigSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciCacheDefaultConfigSetId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/redis_oci_cache_default_config_set#id DataOciRedisOciCacheDefaultConfigSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/redis_oci_cache_default_config_set#id DataOciRedisOciCacheDefaultConfigSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,21 +7,21 @@ namespace oci.VaultSecret
     [JsiiInterface(nativeType: typeof(IVaultSecretReplicationConfigReplicationTargets), fullyQualifiedName: "oci.vaultSecret.VaultSecretReplicationConfigReplicationTargets")]
     public interface IVaultSecretReplicationConfigReplicationTargets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}.</summary>
         [JsiiProperty(name: "targetKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetKeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_region VaultSecret#target_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_region VaultSecret#target_region}.</summary>
         [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}")]
         string TargetRegion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}.</summary>
         [JsiiProperty(name: "targetVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetVaultId
         {
@@ -35,21 +35,21 @@ namespace oci.VaultSecret
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_key_id VaultSecret#target_key_id}.</summary>
             [JsiiProperty(name: "targetKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetKeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_region VaultSecret#target_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_region VaultSecret#target_region}.</summary>
             [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetRegion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/vault_secret#target_vault_id VaultSecret#target_vault_id}.</summary>
             [JsiiProperty(name: "targetVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetVaultId
             {

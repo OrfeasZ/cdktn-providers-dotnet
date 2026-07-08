@@ -7,7 +7,7 @@ namespace oci.CertificatesManagementCertificateAuthority
     [JsiiByValue(fqn: "oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails")]
     public class CertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails : oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityConfigActionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/certificates_management_certificate_authority#action_type CertificatesManagementCertificateAuthority#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/certificates_management_certificate_authority#action_type CertificatesManagementCertificateAuthority#action_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionType
@@ -16,7 +16,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/certificates_management_certificate_authority#certificate_pem CertificatesManagementCertificateAuthority#certificate_pem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/certificates_management_certificate_authority#certificate_pem CertificatesManagementCertificateAuthority#certificate_pem}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificatePem

@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerProtocols
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerProtocols.DataOciLoadBalancerProtocolsFilter")]
     public class DataOciLoadBalancerProtocolsFilter : oci.DataOciLoadBalancerProtocols.IDataOciLoadBalancerProtocolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_protocols#name DataOciLoadBalancerProtocols#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/load_balancer_protocols#name DataOciLoadBalancerProtocols#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoadBalancerProtocols
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_protocols#values DataOciLoadBalancerProtocols#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/load_balancer_protocols#values DataOciLoadBalancerProtocols#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLoadBalancerProtocols
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/load_balancer_protocols#regex DataOciLoadBalancerProtocols#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/load_balancer_protocols#regex DataOciLoadBalancerProtocols#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

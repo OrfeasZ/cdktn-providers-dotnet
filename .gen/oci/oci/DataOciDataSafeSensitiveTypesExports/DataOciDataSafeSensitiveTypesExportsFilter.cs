@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveTypesExports
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveTypesExports.DataOciDataSafeSensitiveTypesExportsFilter")]
     public class DataOciDataSafeSensitiveTypesExportsFilter : oci.DataOciDataSafeSensitiveTypesExports.IDataOciDataSafeSensitiveTypesExportsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_types_exports#name DataOciDataSafeSensitiveTypesExports#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_types_exports#name DataOciDataSafeSensitiveTypesExports#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSensitiveTypesExports
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_types_exports#values DataOciDataSafeSensitiveTypesExports#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_types_exports#values DataOciDataSafeSensitiveTypesExports#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSensitiveTypesExports
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_types_exports#regex DataOciDataSafeSensitiveTypesExports#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_types_exports#regex DataOciDataSafeSensitiveTypesExports#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageWaitCriteria")]
     public class DevopsDeployStageWaitCriteria : oci.DevopsDeployStage.IDevopsDeployStageWaitCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_deploy_stage#wait_duration DevopsDeployStage#wait_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#wait_duration DevopsDeployStage#wait_duration}.</summary>
         [JsiiProperty(name: "waitDuration", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitDuration
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_deploy_stage#wait_type DevopsDeployStage#wait_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#wait_type DevopsDeployStage#wait_type}.</summary>
         [JsiiProperty(name: "waitType", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitType
         {

@@ -5,7 +5,7 @@ namespace oci.KmsVerify
     /// <remarks>
     /// <h1><c>oci_kms_verify</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_verify"><c>oci_kms_verify</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify"><c>oci_kms_verify</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -5,7 +5,7 @@ namespace oci.DataOciMonitoringAlarmSuppressions
     /// <remarks>
     /// <h1><c>data_oci_monitoring_alarm_suppressions</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/monitoring_alarm_suppressions"><c>data_oci_monitoring_alarm_suppressions</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_suppressions"><c>data_oci_monitoring_alarm_suppressions</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     [JsiiByValue(fqn: "oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointProvisionedCapacityConfig")]
     public class GenerativeAiAgentAgentEndpointProvisionedCapacityConfig : oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointProvisionedCapacityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_agent_agent_endpoint#provisioned_capacity_id GenerativeAiAgentAgentEndpoint#provisioned_capacity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_agent_endpoint#provisioned_capacity_id GenerativeAiAgentAgentEndpoint#provisioned_capacity_id}.</summary>
         [JsiiProperty(name: "provisionedCapacityId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProvisionedCapacityId
         {
@@ -19,7 +19,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
         /// <summary>platform_runtime_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config GenerativeAiAgentAgentEndpoint#platform_runtime_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config GenerativeAiAgentAgentEndpoint#platform_runtime_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "platformRuntimeConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointProvisionedCapacityConfigPlatformRuntimeConfig\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
         /// <summary>tool_runtime_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_agent_agent_endpoint#tool_runtime_configs GenerativeAiAgentAgentEndpoint#tool_runtime_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_agent_endpoint#tool_runtime_configs GenerativeAiAgentAgentEndpoint#tool_runtime_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointProvisionedCapacityConfigToolRuntimeConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

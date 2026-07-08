@@ -9,7 +9,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
     [JsiiByValue(fqn: "oci.dataOciAiDataPlatformAiDataPlatforms.DataOciAiDataPlatformAiDataPlatformsFilter")]
     public class DataOciAiDataPlatformAiDataPlatformsFilter : oci.DataOciAiDataPlatformAiDataPlatforms.IDataOciAiDataPlatformAiDataPlatformsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_data_platform_ai_data_platforms#name DataOciAiDataPlatformAiDataPlatforms#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_data_platform_ai_data_platforms#name DataOciAiDataPlatformAiDataPlatforms#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_data_platform_ai_data_platforms#values DataOciAiDataPlatformAiDataPlatforms#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_data_platform_ai_data_platforms#values DataOciAiDataPlatformAiDataPlatforms#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ai_data_platform_ai_data_platforms#regex DataOciAiDataPlatformAiDataPlatforms#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_data_platform_ai_data_platforms#regex DataOciAiDataPlatformAiDataPlatforms#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

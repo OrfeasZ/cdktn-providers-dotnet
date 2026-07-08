@@ -7,7 +7,7 @@ namespace oci.ContainerengineCluster
     [JsiiByValue(fqn: "oci.containerengineCluster.ContainerengineClusterOptionsKubernetesNetworkConfig")]
     public class ContainerengineClusterOptionsKubernetesNetworkConfig : oci.ContainerengineCluster.IContainerengineClusterOptionsKubernetesNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_cluster#pods_cidr ContainerengineCluster#pods_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_cluster#pods_cidr ContainerengineCluster#pods_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "podsCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PodsCidr
@@ -16,7 +16,7 @@ namespace oci.ContainerengineCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_cluster#services_cidr ContainerengineCluster#services_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_cluster#services_cidr ContainerengineCluster#services_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "servicesCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServicesCidr

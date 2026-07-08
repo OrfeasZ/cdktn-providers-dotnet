@@ -9,7 +9,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
     [JsiiByValue(fqn: "oci.datascienceModelDefinedMetadataArtifact.DatascienceModelDefinedMetadataArtifactConfig")]
     public class DatascienceModelDefinedMetadataArtifactConfig : oci.DatascienceModelDefinedMetadataArtifact.IDatascienceModelDefinedMetadataArtifactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#content_length DatascienceModelDefinedMetadataArtifact#content_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#content_length DatascienceModelDefinedMetadataArtifact#content_length}.</summary>
         [JsiiProperty(name: "contentLength", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentLength
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#metadatum_key_name DatascienceModelDefinedMetadataArtifact#metadatum_key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#metadatum_key_name DatascienceModelDefinedMetadataArtifact#metadatum_key_name}.</summary>
         [JsiiProperty(name: "metadatumKeyName", typeJson: "{\"primitive\":\"string\"}")]
         public string MetadatumKeyName
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#model_defined_metadatum_artifact DatascienceModelDefinedMetadataArtifact#model_defined_metadatum_artifact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#model_defined_metadatum_artifact DatascienceModelDefinedMetadataArtifact#model_defined_metadatum_artifact}.</summary>
         [JsiiProperty(name: "modelDefinedMetadatumArtifact", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelDefinedMetadatumArtifact
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#model_id DatascienceModelDefinedMetadataArtifact#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#model_id DatascienceModelDefinedMetadataArtifact#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {
@@ -41,7 +41,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#content_disposition DatascienceModelDefinedMetadataArtifact#content_disposition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#content_disposition DatascienceModelDefinedMetadataArtifact#content_disposition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentDisposition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentDisposition
@@ -50,7 +50,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#id DatascienceModelDefinedMetadataArtifact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#id DatascienceModelDefinedMetadataArtifact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DatascienceModelDefinedMetadataArtifact
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_defined_metadata_artifact#timeouts DatascienceModelDefinedMetadataArtifact#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_defined_metadata_artifact#timeouts DatascienceModelDefinedMetadataArtifact#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelDefinedMetadataArtifact.DatascienceModelDefinedMetadataArtifactTimeouts\"}", isOptional: true)]

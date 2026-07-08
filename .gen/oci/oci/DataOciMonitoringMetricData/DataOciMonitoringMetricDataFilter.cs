@@ -9,7 +9,7 @@ namespace oci.DataOciMonitoringMetricData
     [JsiiByValue(fqn: "oci.dataOciMonitoringMetricData.DataOciMonitoringMetricDataFilter")]
     public class DataOciMonitoringMetricDataFilter : oci.DataOciMonitoringMetricData.IDataOciMonitoringMetricDataFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/monitoring_metric_data#name DataOciMonitoringMetricData#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_metric_data#name DataOciMonitoringMetricData#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMonitoringMetricData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/monitoring_metric_data#values DataOciMonitoringMetricData#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_metric_data#values DataOciMonitoringMetricData#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMonitoringMetricData
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/monitoring_metric_data#regex DataOciMonitoringMetricData#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_metric_data#regex DataOciMonitoringMetricData#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

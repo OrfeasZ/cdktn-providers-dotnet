@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalCluster
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalClusterConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalCluster.DataOciDatabaseManagementExternalClusterConfig")]
     public interface IDataOciDatabaseManagementExternalClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_cluster#external_cluster_id DataOciDatabaseManagementExternalCluster#external_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_cluster#external_cluster_id DataOciDatabaseManagementExternalCluster#external_cluster_id}.</summary>
         [JsiiProperty(name: "externalClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_cluster#external_cluster_id DataOciDatabaseManagementExternalCluster#external_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_cluster#external_cluster_id DataOciDatabaseManagementExternalCluster#external_cluster_id}.</summary>
             [JsiiProperty(name: "externalClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalClusterId
             {

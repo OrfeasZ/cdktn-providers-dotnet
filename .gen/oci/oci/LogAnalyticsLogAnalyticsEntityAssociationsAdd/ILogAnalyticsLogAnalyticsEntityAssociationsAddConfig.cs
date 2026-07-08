@@ -7,28 +7,28 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsAdd
     [JsiiInterface(nativeType: typeof(ILogAnalyticsLogAnalyticsEntityAssociationsAddConfig), fullyQualifiedName: "oci.logAnalyticsLogAnalyticsEntityAssociationsAdd.LogAnalyticsLogAnalyticsEntityAssociationsAddConfig")]
     public interface ILogAnalyticsLogAnalyticsEntityAssociationsAddConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#association_entities LogAnalyticsLogAnalyticsEntityAssociationsAdd#association_entities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#association_entities LogAnalyticsLogAnalyticsEntityAssociationsAdd#association_entities}.</summary>
         [JsiiProperty(name: "associationEntities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AssociationEntities
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#log_analytics_entity_id LogAnalyticsLogAnalyticsEntityAssociationsAdd#log_analytics_entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#log_analytics_entity_id LogAnalyticsLogAnalyticsEntityAssociationsAdd#log_analytics_entity_id}.</summary>
         [JsiiProperty(name: "logAnalyticsEntityId", typeJson: "{\"primitive\":\"string\"}")]
         string LogAnalyticsEntityId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#namespace LogAnalyticsLogAnalyticsEntityAssociationsAdd#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#namespace LogAnalyticsLogAnalyticsEntityAssociationsAdd#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#id LogAnalyticsLogAnalyticsEntityAssociationsAdd#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#id LogAnalyticsLogAnalyticsEntityAssociationsAdd#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsAdd
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#timeouts LogAnalyticsLogAnalyticsEntityAssociationsAdd#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#timeouts LogAnalyticsLogAnalyticsEntityAssociationsAdd#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsLogAnalyticsEntityAssociationsAdd.LogAnalyticsLogAnalyticsEntityAssociationsAddTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,28 +64,28 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsAdd
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#association_entities LogAnalyticsLogAnalyticsEntityAssociationsAdd#association_entities}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#association_entities LogAnalyticsLogAnalyticsEntityAssociationsAdd#association_entities}.</summary>
             [JsiiProperty(name: "associationEntities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AssociationEntities
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#log_analytics_entity_id LogAnalyticsLogAnalyticsEntityAssociationsAdd#log_analytics_entity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#log_analytics_entity_id LogAnalyticsLogAnalyticsEntityAssociationsAdd#log_analytics_entity_id}.</summary>
             [JsiiProperty(name: "logAnalyticsEntityId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogAnalyticsEntityId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#namespace LogAnalyticsLogAnalyticsEntityAssociationsAdd#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#namespace LogAnalyticsLogAnalyticsEntityAssociationsAdd#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#id LogAnalyticsLogAnalyticsEntityAssociationsAdd#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#id LogAnalyticsLogAnalyticsEntityAssociationsAdd#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsAdd
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/log_analytics_log_analytics_entity_associations_add#timeouts LogAnalyticsLogAnalyticsEntityAssociationsAdd#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_log_analytics_entity_associations_add#timeouts LogAnalyticsLogAnalyticsEntityAssociationsAdd#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsLogAnalyticsEntityAssociationsAdd.LogAnalyticsLogAnalyticsEntityAssociationsAddTimeouts\"}", isOptional: true)]

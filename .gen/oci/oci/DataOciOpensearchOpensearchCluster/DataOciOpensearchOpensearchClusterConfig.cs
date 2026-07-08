@@ -9,7 +9,7 @@ namespace oci.DataOciOpensearchOpensearchCluster
     [JsiiByValue(fqn: "oci.dataOciOpensearchOpensearchCluster.DataOciOpensearchOpensearchClusterConfig")]
     public class DataOciOpensearchOpensearchClusterConfig : oci.DataOciOpensearchOpensearchCluster.IDataOciOpensearchOpensearchClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opensearch_opensearch_cluster#opensearch_cluster_id DataOciOpensearchOpensearchCluster#opensearch_cluster_id}.</summary>
         [JsiiProperty(name: "opensearchClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string OpensearchClusterId
         {

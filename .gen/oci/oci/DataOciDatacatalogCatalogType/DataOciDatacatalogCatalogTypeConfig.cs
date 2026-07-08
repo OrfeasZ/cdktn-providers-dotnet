@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogCatalogType
     [JsiiByValue(fqn: "oci.dataOciDatacatalogCatalogType.DataOciDatacatalogCatalogTypeConfig")]
     public class DataOciDatacatalogCatalogTypeConfig : oci.DataOciDatacatalogCatalogType.IDataOciDatacatalogCatalogTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datacatalog_catalog_type#catalog_id DataOciDatacatalogCatalogType#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datacatalog_catalog_type#catalog_id DataOciDatacatalogCatalogType#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatacatalogCatalogType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datacatalog_catalog_type#type_key DataOciDatacatalogCatalogType#type_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datacatalog_catalog_type#type_key DataOciDatacatalogCatalogType#type_key}.</summary>
         [JsiiProperty(name: "typeKey", typeJson: "{\"primitive\":\"string\"}")]
         public string TypeKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatacatalogCatalogType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datacatalog_catalog_type#fields DataOciDatacatalogCatalogType#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datacatalog_catalog_type#fields DataOciDatacatalogCatalogType#fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Fields
@@ -34,7 +34,7 @@ namespace oci.DataOciDatacatalogCatalogType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datacatalog_catalog_type#id DataOciDatacatalogCatalogType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datacatalog_catalog_type#id DataOciDatacatalogCatalogType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

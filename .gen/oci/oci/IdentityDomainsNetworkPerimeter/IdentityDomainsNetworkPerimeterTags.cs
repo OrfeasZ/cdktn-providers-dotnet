@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsNetworkPerimeter
     [JsiiByValue(fqn: "oci.identityDomainsNetworkPerimeter.IdentityDomainsNetworkPerimeterTags")]
     public class IdentityDomainsNetworkPerimeterTags : oci.IdentityDomainsNetworkPerimeter.IIdentityDomainsNetworkPerimeterTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_network_perimeter#key IdentityDomainsNetworkPerimeter#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_network_perimeter#key IdentityDomainsNetworkPerimeter#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsNetworkPerimeter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_network_perimeter#value IdentityDomainsNetworkPerimeter#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_network_perimeter#value IdentityDomainsNetworkPerimeter#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

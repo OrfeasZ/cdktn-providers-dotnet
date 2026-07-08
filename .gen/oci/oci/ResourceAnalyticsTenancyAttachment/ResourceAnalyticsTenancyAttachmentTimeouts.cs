@@ -7,7 +7,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
     [JsiiByValue(fqn: "oci.resourceAnalyticsTenancyAttachment.ResourceAnalyticsTenancyAttachmentTimeouts")]
     public class ResourceAnalyticsTenancyAttachmentTimeouts : oci.ResourceAnalyticsTenancyAttachment.IResourceAnalyticsTenancyAttachmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#create ResourceAnalyticsTenancyAttachment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/resource_analytics_tenancy_attachment#create ResourceAnalyticsTenancyAttachment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#delete ResourceAnalyticsTenancyAttachment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/resource_analytics_tenancy_attachment#delete ResourceAnalyticsTenancyAttachment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#read ResourceAnalyticsTenancyAttachment#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/resource_analytics_tenancy_attachment#read ResourceAnalyticsTenancyAttachment#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace oci.ResourceAnalyticsTenancyAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/resource_analytics_tenancy_attachment#update ResourceAnalyticsTenancyAttachment#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/resource_analytics_tenancy_attachment#update ResourceAnalyticsTenancyAttachment#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

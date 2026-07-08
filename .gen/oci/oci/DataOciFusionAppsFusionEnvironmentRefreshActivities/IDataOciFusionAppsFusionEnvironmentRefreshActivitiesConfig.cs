@@ -7,14 +7,14 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentRefreshActivitiesConfig), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentRefreshActivities.DataOciFusionAppsFusionEnvironmentRefreshActivitiesConfig")]
     public interface IDataOciFusionAppsFusionEnvironmentRefreshActivitiesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string FusionEnvironmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentRefreshActivities.IDataOciFusionAppsFusionEnvironmentRefreshActivitiesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFusionAppsFusionEnvironmentRefreshActivities.DataOciFusionAppsFusionEnvironmentRefreshActivitiesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -66,7 +66,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeExpectedFinishLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeExpectedFinishLessThanOrEqualTo
@@ -77,7 +77,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeScheduledStartGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeScheduledStartGreaterThanOrEqualTo
@@ -95,14 +95,14 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivities#fusion_environment_id}.</summary>
             [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string FusionEnvironmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#display_name DataOciFusionAppsFusionEnvironmentRefreshActivities#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -112,7 +112,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#filter DataOciFusionAppsFusionEnvironmentRefreshActivities#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentRefreshActivities.IDataOciFusionAppsFusionEnvironmentRefreshActivitiesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#id DataOciFusionAppsFusionEnvironmentRefreshActivities#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#state DataOciFusionAppsFusionEnvironmentRefreshActivities#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -142,7 +142,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_expected_finish_less_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_expected_finish_less_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeExpectedFinishLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeExpectedFinishLessThanOrEqualTo
@@ -150,7 +150,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivities
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activities#time_scheduled_start_greater_than_or_equal_to DataOciFusionAppsFusionEnvironmentRefreshActivities#time_scheduled_start_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeScheduledStartGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeScheduledStartGreaterThanOrEqualTo

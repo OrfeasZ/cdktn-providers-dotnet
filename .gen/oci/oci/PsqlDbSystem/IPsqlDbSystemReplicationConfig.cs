@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemReplicationConfig), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemReplicationConfig")]
     public interface IPsqlDbSystemReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
         [JsiiProperty(name: "rpoInSeconds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RpoInSeconds
@@ -39,7 +39,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rpoInSeconds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RpoInSeconds

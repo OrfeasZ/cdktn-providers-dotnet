@@ -9,7 +9,7 @@ namespace oci.DataOciIotIotDomainGroups
     [JsiiByValue(fqn: "oci.dataOciIotIotDomainGroups.DataOciIotIotDomainGroupsFilter")]
     public class DataOciIotIotDomainGroupsFilter : oci.DataOciIotIotDomainGroups.IDataOciIotIotDomainGroupsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_iot_domain_groups#name DataOciIotIotDomainGroups#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_iot_domain_groups#name DataOciIotIotDomainGroups#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIotIotDomainGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_iot_domain_groups#values DataOciIotIotDomainGroups#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_iot_domain_groups#values DataOciIotIotDomainGroups#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciIotIotDomainGroups
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/iot_iot_domain_groups#regex DataOciIotIotDomainGroups#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/iot_iot_domain_groups#regex DataOciIotIotDomainGroups#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

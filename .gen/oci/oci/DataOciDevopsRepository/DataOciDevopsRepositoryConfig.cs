@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepository
     [JsiiByValue(fqn: "oci.dataOciDevopsRepository.DataOciDevopsRepositoryConfig")]
     public class DataOciDevopsRepositoryConfig : oci.DataOciDevopsRepository.IDataOciDevopsRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository#repository_id DataOciDevopsRepository#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_repository#repository_id DataOciDevopsRepository#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_repository#fields DataOciDevopsRepository#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_repository#fields DataOciDevopsRepository#fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Fields

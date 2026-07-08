@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudAsms
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudAsms.DataOciDatabaseManagementCloudAsmsFilter")]
     public class DataOciDatabaseManagementCloudAsmsFilter : oci.DataOciDatabaseManagementCloudAsms.IDataOciDatabaseManagementCloudAsmsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asms#name DataOciDatabaseManagementCloudAsms#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asms#name DataOciDatabaseManagementCloudAsms#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudAsms
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asms#values DataOciDatabaseManagementCloudAsms#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asms#values DataOciDatabaseManagementCloudAsms#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudAsms
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asms#regex DataOciDatabaseManagementCloudAsms#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asms#regex DataOciDatabaseManagementCloudAsms#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

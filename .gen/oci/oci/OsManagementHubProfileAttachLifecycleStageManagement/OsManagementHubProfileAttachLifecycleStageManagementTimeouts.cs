@@ -7,7 +7,7 @@ namespace oci.OsManagementHubProfileAttachLifecycleStageManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileAttachLifecycleStageManagement.OsManagementHubProfileAttachLifecycleStageManagementTimeouts")]
     public class OsManagementHubProfileAttachLifecycleStageManagementTimeouts : oci.OsManagementHubProfileAttachLifecycleStageManagement.IOsManagementHubProfileAttachLifecycleStageManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#create OsManagementHubProfileAttachLifecycleStageManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#create OsManagementHubProfileAttachLifecycleStageManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubProfileAttachLifecycleStageManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#delete OsManagementHubProfileAttachLifecycleStageManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#delete OsManagementHubProfileAttachLifecycleStageManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileAttachLifecycleStageManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#update OsManagementHubProfileAttachLifecycleStageManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_attach_lifecycle_stage_management#update OsManagementHubProfileAttachLifecycleStageManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

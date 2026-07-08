@@ -7,14 +7,14 @@ namespace oci.DataOciDnsResolver
     [JsiiInterface(nativeType: typeof(IDataOciDnsResolverConfig), fullyQualifiedName: "oci.dataOciDnsResolver.DataOciDnsResolverConfig")]
     public interface IDataOciDnsResolverConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
         [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
         string ResolverId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Scope
@@ -32,14 +32,14 @@ namespace oci.DataOciDnsResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
             [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResolverId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Scope

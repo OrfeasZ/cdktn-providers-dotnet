@@ -7,7 +7,7 @@ namespace oci.DataOciMeteringComputationCustomTable
     [JsiiInterface(nativeType: typeof(IDataOciMeteringComputationCustomTableConfig), fullyQualifiedName: "oci.dataOciMeteringComputationCustomTable.DataOciMeteringComputationCustomTableConfig")]
     public interface IDataOciMeteringComputationCustomTableConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
         [JsiiProperty(name: "customTableId", typeJson: "{\"primitive\":\"string\"}")]
         string CustomTableId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMeteringComputationCustomTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
             [JsiiProperty(name: "customTableId", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomTableId
             {

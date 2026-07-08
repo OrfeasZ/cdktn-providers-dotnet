@@ -9,7 +9,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccInfrastructure
     [JsiiByValue(fqn: "oci.dataOciComputeCloudAtCustomerCccInfrastructure.DataOciComputeCloudAtCustomerCccInfrastructureConfig")]
     public class DataOciComputeCloudAtCustomerCccInfrastructureConfig : oci.DataOciComputeCloudAtCustomerCccInfrastructure.IDataOciComputeCloudAtCustomerCccInfrastructureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
         [JsiiProperty(name: "cccInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public string CccInfrastructureId
         {

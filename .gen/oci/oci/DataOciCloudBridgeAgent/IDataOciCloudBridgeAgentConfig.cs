@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeAgent
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeAgentConfig), fullyQualifiedName: "oci.dataOciCloudBridgeAgent.DataOciCloudBridgeAgentConfig")]
     public interface IDataOciCloudBridgeAgentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_agent#agent_id DataOciCloudBridgeAgent#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_agent#agent_id DataOciCloudBridgeAgent#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudBridgeAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_bridge_agent#agent_id DataOciCloudBridgeAgent#agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_agent#agent_id DataOciCloudBridgeAgent#agent_id}.</summary>
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentId
             {

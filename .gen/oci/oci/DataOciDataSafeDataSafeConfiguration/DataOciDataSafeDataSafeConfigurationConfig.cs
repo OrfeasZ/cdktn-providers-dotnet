@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeDataSafeConfiguration
     [JsiiByValue(fqn: "oci.dataOciDataSafeDataSafeConfiguration.DataOciDataSafeDataSafeConfigurationConfig")]
     public class DataOciDataSafeDataSafeConfigurationConfig : oci.DataOciDataSafeDataSafeConfiguration.IDataOciDataSafeDataSafeConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_data_safe_configuration#compartment_id DataOciDataSafeDataSafeConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_data_safe_configuration#compartment_id DataOciDataSafeDataSafeConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

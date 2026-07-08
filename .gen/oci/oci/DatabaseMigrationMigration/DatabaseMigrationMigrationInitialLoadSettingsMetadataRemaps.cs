@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps")]
     public class DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps : oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "newValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NewValue
@@ -16,7 +16,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oldValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OldValue
@@ -25,7 +25,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter), fullyQualifiedName: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter")]
     public interface IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentials#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

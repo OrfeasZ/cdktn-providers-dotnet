@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobFacts
     [JsiiByValue(fqn: "oci.dataOciMediaServicesMediaWorkflowJobFacts.DataOciMediaServicesMediaWorkflowJobFactsConfig")]
     public class DataOciMediaServicesMediaWorkflowJobFactsConfig : oci.DataOciMediaServicesMediaWorkflowJobFacts.IDataOciMediaServicesMediaWorkflowJobFactsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job_facts#media_workflow_job_id DataOciMediaServicesMediaWorkflowJobFacts#media_workflow_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job_facts#media_workflow_job_id DataOciMediaServicesMediaWorkflowJobFacts#media_workflow_job_id}.</summary>
         [JsiiProperty(name: "mediaWorkflowJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string MediaWorkflowJobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobFacts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job_facts#filter DataOciMediaServicesMediaWorkflowJobFacts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job_facts#filter DataOciMediaServicesMediaWorkflowJobFacts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMediaServicesMediaWorkflowJobFacts.IDataOciMediaServicesMediaWorkflowJobFactsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobFacts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job_facts#id DataOciMediaServicesMediaWorkflowJobFacts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job_facts#id DataOciMediaServicesMediaWorkflowJobFacts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobFacts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job_facts#key DataOciMediaServicesMediaWorkflowJobFacts#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job_facts#key DataOciMediaServicesMediaWorkflowJobFacts#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -74,7 +74,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobFacts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job_facts#type DataOciMediaServicesMediaWorkflowJobFacts#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job_facts#type DataOciMediaServicesMediaWorkflowJobFacts#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

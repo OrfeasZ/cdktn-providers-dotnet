@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudListener
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudListenerConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudListener.DataOciDatabaseManagementCloudListenerConfig")]
     public interface IDataOciDatabaseManagementCloudListenerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
         [JsiiProperty(name: "cloudListenerId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudListenerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
             [JsiiProperty(name: "cloudListenerId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudListenerId
             {

@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceSwitchSnapChannelManagement.OsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails")]
     public class OsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails : oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement.IOsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Channel

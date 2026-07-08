@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiAgentDataSource
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentDataSource.DataOciGenerativeAiAgentDataSourceConfig")]
     public class DataOciGenerativeAiAgentDataSourceConfig : oci.DataOciGenerativeAiAgentDataSource.IDataOciGenerativeAiAgentDataSourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_agent_data_source#data_source_id DataOciGenerativeAiAgentDataSource#data_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_agent_data_source#data_source_id DataOciGenerativeAiAgentDataSource#data_source_id}.</summary>
         [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceId
         {

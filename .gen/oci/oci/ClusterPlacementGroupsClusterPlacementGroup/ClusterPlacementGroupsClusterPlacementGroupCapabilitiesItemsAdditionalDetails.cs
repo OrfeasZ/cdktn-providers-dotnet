@@ -9,7 +9,7 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
     [JsiiByValue(fqn: "oci.clusterPlacementGroupsClusterPlacementGroup.ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails")]
     public class ClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails : oci.ClusterPlacementGroupsClusterPlacementGroup.IClusterPlacementGroupsClusterPlacementGroupCapabilitiesItemsAdditionalDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cluster_placement_groups_cluster_placement_group#service_type ClusterPlacementGroupsClusterPlacementGroup#service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cluster_placement_groups_cluster_placement_group#service_type ClusterPlacementGroupsClusterPlacementGroup#service_type}.</summary>
         [JsiiProperty(name: "serviceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceType
         {
@@ -17,7 +17,7 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cluster_placement_groups_cluster_placement_group#cluster_placement_group_count ClusterPlacementGroupsClusterPlacementGroup#cluster_placement_group_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cluster_placement_groups_cluster_placement_group#cluster_placement_group_count ClusterPlacementGroupsClusterPlacementGroup#cluster_placement_group_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterPlacementGroupCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ClusterPlacementGroupCount
@@ -26,7 +26,7 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cluster_placement_groups_cluster_placement_group#memory_in_gbs ClusterPlacementGroupsClusterPlacementGroup#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cluster_placement_groups_cluster_placement_group#memory_in_gbs ClusterPlacementGroupsClusterPlacementGroup#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -35,7 +35,7 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cluster_placement_groups_cluster_placement_group#nvmes ClusterPlacementGroupsClusterPlacementGroup#nvmes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cluster_placement_groups_cluster_placement_group#nvmes ClusterPlacementGroupsClusterPlacementGroup#nvmes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nvmes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Nvmes
@@ -44,7 +44,7 @@ namespace oci.ClusterPlacementGroupsClusterPlacementGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cluster_placement_groups_cluster_placement_group#ocpus ClusterPlacementGroupsClusterPlacementGroup#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cluster_placement_groups_cluster_placement_group#ocpus ClusterPlacementGroupsClusterPlacementGroup#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

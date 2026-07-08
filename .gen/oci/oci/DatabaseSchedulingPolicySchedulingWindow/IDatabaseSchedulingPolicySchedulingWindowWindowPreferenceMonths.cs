@@ -7,7 +7,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
     [JsiiInterface(nativeType: typeof(IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths), fullyQualifiedName: "oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths")]
     public interface IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

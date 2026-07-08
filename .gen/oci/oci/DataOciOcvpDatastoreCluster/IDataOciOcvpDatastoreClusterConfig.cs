@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpDatastoreCluster
     [JsiiInterface(nativeType: typeof(IDataOciOcvpDatastoreClusterConfig), fullyQualifiedName: "oci.dataOciOcvpDatastoreCluster.DataOciOcvpDatastoreClusterConfig")]
     public interface IDataOciOcvpDatastoreClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_datastore_cluster#datastore_cluster_id DataOciOcvpDatastoreCluster#datastore_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_datastore_cluster#datastore_cluster_id DataOciOcvpDatastoreCluster#datastore_cluster_id}.</summary>
         [JsiiProperty(name: "datastoreClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string DatastoreClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpDatastoreCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_datastore_cluster#datastore_cluster_id DataOciOcvpDatastoreCluster#datastore_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_datastore_cluster#datastore_cluster_id DataOciOcvpDatastoreCluster#datastore_cluster_id}.</summary>
             [JsiiProperty(name: "datastoreClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatastoreClusterId
             {

@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackGgcsConnectionsDifDependencies")]
     public class DifStackGgcsConnectionsDifDependencies : oci.DifStack.IDifStackGgcsConnectionsDifDependencies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}.</summary>
         [JsiiProperty(name: "serviceInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dif_stack#service_type DifStack#service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dif_stack#service_type DifStack#service_type}.</summary>
         [JsiiProperty(name: "serviceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceType
         {

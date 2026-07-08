@@ -9,7 +9,7 @@ namespace oci.DataOciEventsRule
     [JsiiByValue(fqn: "oci.dataOciEventsRule.DataOciEventsRuleConfig")]
     public class DataOciEventsRuleConfig : oci.DataOciEventsRule.IDataOciEventsRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleId
         {

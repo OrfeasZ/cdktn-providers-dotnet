@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnector
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalMySqlDatabaseConnector.DataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig")]
     public interface IDataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
         [JsiiProperty(name: "externalMySqlDatabaseConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalMySqlDatabaseConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
             [JsiiProperty(name: "externalMySqlDatabaseConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalMySqlDatabaseConnectorId
             {

@@ -5,7 +5,7 @@ namespace oci.IdentityDomainsAuthToken
     /// <remarks>
     /// <h1><c>oci_identity_domains_auth_token</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_auth_token"><c>oci_identity_domains_auth_token</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_auth_token"><c>oci_identity_domains_auth_token</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

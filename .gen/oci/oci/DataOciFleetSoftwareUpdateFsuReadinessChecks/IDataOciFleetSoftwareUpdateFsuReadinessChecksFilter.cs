@@ -7,21 +7,21 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessChecks
     [JsiiInterface(nativeType: typeof(IDataOciFleetSoftwareUpdateFsuReadinessChecksFilter), fullyQualifiedName: "oci.dataOciFleetSoftwareUpdateFsuReadinessChecks.DataOciFleetSoftwareUpdateFsuReadinessChecksFilter")]
     public interface IDataOciFleetSoftwareUpdateFsuReadinessChecksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessChecks
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

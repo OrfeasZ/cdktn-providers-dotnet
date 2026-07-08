@@ -5,7 +5,7 @@ namespace oci.DataSafeSensitiveTypesExport
     /// <remarks>
     /// <h1><c>oci_data_safe_sensitive_types_export</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_types_export"><c>oci_data_safe_sensitive_types_export</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_types_export"><c>oci_data_safe_sensitive_types_export</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

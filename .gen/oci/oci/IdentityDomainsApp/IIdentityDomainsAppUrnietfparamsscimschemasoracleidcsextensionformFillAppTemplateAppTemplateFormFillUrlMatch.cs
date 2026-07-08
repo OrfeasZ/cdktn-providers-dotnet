@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}.</summary>
         [JsiiProperty(name: "formUrl", typeJson: "{\"primitive\":\"string\"}")]
         string FormUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}.</summary>
         [JsiiProperty(name: "formUrlMatchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FormUrlMatchType
@@ -32,14 +32,14 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#form_url IdentityDomainsApp#form_url}.</summary>
             [JsiiProperty(name: "formUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string FormUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#form_url_match_type IdentityDomainsApp#form_url_match_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "formUrlMatchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FormUrlMatchType

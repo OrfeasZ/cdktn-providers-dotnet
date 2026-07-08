@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceMlApplicationInstance
     [JsiiByValue(fqn: "oci.dataOciDatascienceMlApplicationInstance.DataOciDatascienceMlApplicationInstanceConfig")]
     public class DataOciDatascienceMlApplicationInstanceConfig : oci.DataOciDatascienceMlApplicationInstance.IDataOciDatascienceMlApplicationInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_ml_application_instance#ml_application_instance_id DataOciDatascienceMlApplicationInstance#ml_application_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_ml_application_instance#ml_application_instance_id DataOciDatascienceMlApplicationInstance#ml_application_instance_id}.</summary>
         [JsiiProperty(name: "mlApplicationInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string MlApplicationInstanceId
         {

@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstancesInstallWindowsUpdatesManagement.OsManagementHubManagedInstancesInstallWindowsUpdatesManagementConfig")]
     public class OsManagementHubManagedInstancesInstallWindowsUpdatesManagementConfig : oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement.IOsManagementHubManagedInstancesInstallWindowsUpdatesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#compartment_id OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#compartment_id OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#id OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#id OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#timeouts OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#timeouts OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesInstallWindowsUpdatesManagement.OsManagementHubManagedInstancesInstallWindowsUpdatesManagementTimeouts\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#windows_update_types OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#windows_update_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#windows_update_types OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#windows_update_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "windowsUpdateTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? WindowsUpdateTypes
@@ -53,7 +53,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#work_request_details OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#work_request_details OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#work_request_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesInstallWindowsUpdatesManagement.OsManagementHubManagedInstancesInstallWindowsUpdatesManagementWorkRequestDetails\"}", isOptional: true)]

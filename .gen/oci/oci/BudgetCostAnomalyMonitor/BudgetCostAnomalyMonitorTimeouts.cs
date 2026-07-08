@@ -7,7 +7,7 @@ namespace oci.BudgetCostAnomalyMonitor
     [JsiiByValue(fqn: "oci.budgetCostAnomalyMonitor.BudgetCostAnomalyMonitorTimeouts")]
     public class BudgetCostAnomalyMonitorTimeouts : oci.BudgetCostAnomalyMonitor.IBudgetCostAnomalyMonitorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor#create BudgetCostAnomalyMonitor#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_monitor#create BudgetCostAnomalyMonitor#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BudgetCostAnomalyMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor#delete BudgetCostAnomalyMonitor#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_monitor#delete BudgetCostAnomalyMonitor#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BudgetCostAnomalyMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/budget_cost_anomaly_monitor#update BudgetCostAnomalyMonitor#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_monitor#update BudgetCostAnomalyMonitor#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

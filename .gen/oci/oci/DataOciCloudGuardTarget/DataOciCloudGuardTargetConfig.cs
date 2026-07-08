@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardTarget
     [JsiiByValue(fqn: "oci.dataOciCloudGuardTarget.DataOciCloudGuardTargetConfig")]
     public class DataOciCloudGuardTargetConfig : oci.DataOciCloudGuardTarget.IDataOciCloudGuardTargetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_guard_target#target_id DataOciCloudGuardTarget#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_guard_target#target_id DataOciCloudGuardTarget#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetId
         {

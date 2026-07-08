@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceModelGroup
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelGroupConfig), fullyQualifiedName: "oci.dataOciDatascienceModelGroup.DataOciDatascienceModelGroupConfig")]
     public interface IDataOciDatascienceModelGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
         [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceModelGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
             [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelGroupId
             {

@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppApp), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppApp")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}.</summary>
         [JsiiProperty(name: "allowAuthzDecisionTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AllowAuthzDecisionTtl
@@ -20,7 +20,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>allow_authz_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
         /// </remarks>
         [JsiiProperty(name: "allowAuthzPolicy", typeJson: "{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAllowAuthzPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>app_resources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAppResources" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "appResources", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAppResources\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}.</summary>
         [JsiiProperty(name: "denyAuthzDecisionTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DenyAuthzDecisionTtl
@@ -60,7 +60,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>deny_authz_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
         /// </remarks>
         [JsiiProperty(name: "denyAuthzPolicy", typeJson: "{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppDenyAuthzPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#allow_authz_decision_ttl IdentityDomainsApp#allow_authz_decision_ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowAuthzDecisionTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AllowAuthzDecisionTtl
@@ -89,7 +89,7 @@ namespace oci.IdentityDomainsApp
 
             /// <summary>allow_authz_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#allow_authz_policy IdentityDomainsApp#allow_authz_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowAuthzPolicy", typeJson: "{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAllowAuthzPolicy\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace oci.IdentityDomainsApp
 
             /// <summary>app_resources block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#app_resources IdentityDomainsApp#app_resources}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppAppResources" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -110,7 +110,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#deny_authz_decision_ttl IdentityDomainsApp#deny_authz_decision_ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "denyAuthzDecisionTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DenyAuthzDecisionTtl
@@ -120,7 +120,7 @@ namespace oci.IdentityDomainsApp
 
             /// <summary>deny_authz_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#deny_authz_policy IdentityDomainsApp#deny_authz_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "denyAuthzPolicy", typeJson: "{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionenterpriseAppAppDenyAuthzPolicy\"}", isOptional: true)]

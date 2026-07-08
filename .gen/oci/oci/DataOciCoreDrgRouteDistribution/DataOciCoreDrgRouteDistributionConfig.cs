@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgRouteDistribution
     [JsiiByValue(fqn: "oci.dataOciCoreDrgRouteDistribution.DataOciCoreDrgRouteDistributionConfig")]
     public class DataOciCoreDrgRouteDistributionConfig : oci.DataOciCoreDrgRouteDistribution.IDataOciCoreDrgRouteDistributionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
         [JsiiProperty(name: "drgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgRouteDistributionId
         {

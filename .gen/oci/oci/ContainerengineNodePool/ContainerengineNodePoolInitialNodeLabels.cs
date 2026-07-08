@@ -7,7 +7,7 @@ namespace oci.ContainerengineNodePool
     [JsiiByValue(fqn: "oci.containerengineNodePool.ContainerengineNodePoolInitialNodeLabels")]
     public class ContainerengineNodePoolInitialNodeLabels : oci.ContainerengineNodePool.IContainerengineNodePoolInitialNodeLabels
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_node_pool#key ContainerengineNodePool#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_node_pool#key ContainerengineNodePool#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace oci.ContainerengineNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_node_pool#value ContainerengineNodePool#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_node_pool#value ContainerengineNodePool#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

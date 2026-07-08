@@ -7,7 +7,7 @@ namespace oci.DataOciApigatewayGateway
     [JsiiInterface(nativeType: typeof(IDataOciApigatewayGatewayConfig), fullyQualifiedName: "oci.dataOciApigatewayGateway.DataOciApigatewayGatewayConfig")]
     public interface IDataOciApigatewayGatewayConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}.</summary>
         [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}")]
         string GatewayId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApigatewayGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apigateway_gateway#gateway_id DataOciApigatewayGateway#gateway_id}.</summary>
             [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}")]
             public string GatewayId
             {

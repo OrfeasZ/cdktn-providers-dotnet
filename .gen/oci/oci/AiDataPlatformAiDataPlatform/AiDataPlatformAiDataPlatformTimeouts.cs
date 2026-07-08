@@ -7,7 +7,7 @@ namespace oci.AiDataPlatformAiDataPlatform
     [JsiiByValue(fqn: "oci.aiDataPlatformAiDataPlatform.AiDataPlatformAiDataPlatformTimeouts")]
     public class AiDataPlatformAiDataPlatformTimeouts : oci.AiDataPlatformAiDataPlatform.IAiDataPlatformAiDataPlatformTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#create AiDataPlatformAiDataPlatform#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_data_platform_ai_data_platform#create AiDataPlatformAiDataPlatform#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#delete AiDataPlatformAiDataPlatform#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_data_platform_ai_data_platform#delete AiDataPlatformAiDataPlatform#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.AiDataPlatformAiDataPlatform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ai_data_platform_ai_data_platform#update AiDataPlatformAiDataPlatform#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_data_platform_ai_data_platform#update AiDataPlatformAiDataPlatform#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

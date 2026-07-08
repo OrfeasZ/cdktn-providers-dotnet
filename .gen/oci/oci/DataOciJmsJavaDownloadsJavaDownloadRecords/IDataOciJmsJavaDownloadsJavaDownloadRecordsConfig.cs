@@ -7,14 +7,14 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaDownloadRecordsConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaDownloadRecords.DataOciJmsJavaDownloadsJavaDownloadRecordsConfig")]
     public interface IDataOciJmsJavaDownloadsJavaDownloadRecordsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#compartment_id DataOciJmsJavaDownloadsJavaDownloadRecords#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#compartment_id DataOciJmsJavaDownloadsJavaDownloadRecords#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#architecture DataOciJmsJavaDownloadsJavaDownloadRecords#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#architecture DataOciJmsJavaDownloadsJavaDownloadRecords#architecture}.</summary>
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Architecture
@@ -25,7 +25,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#family_version DataOciJmsJavaDownloadsJavaDownloadRecords#family_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#family_version DataOciJmsJavaDownloadsJavaDownloadRecords#family_version}.</summary>
         [JsiiProperty(name: "familyVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FamilyVersion
@@ -38,7 +38,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#filter DataOciJmsJavaDownloadsJavaDownloadRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#filter DataOciJmsJavaDownloadsJavaDownloadRecords#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaDownloadRecords.IDataOciJmsJavaDownloadsJavaDownloadRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsJavaDownloadsJavaDownloadRecords.DataOciJmsJavaDownloadsJavaDownloadRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#id DataOciJmsJavaDownloadsJavaDownloadRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#id DataOciJmsJavaDownloadsJavaDownloadRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#os_family DataOciJmsJavaDownloadsJavaDownloadRecords#os_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#os_family DataOciJmsJavaDownloadsJavaDownloadRecords#os_family}.</summary>
         [JsiiProperty(name: "osFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OsFamily
@@ -77,7 +77,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#package_type_detail DataOciJmsJavaDownloadsJavaDownloadRecords#package_type_detail}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#package_type_detail DataOciJmsJavaDownloadsJavaDownloadRecords#package_type_detail}.</summary>
         [JsiiProperty(name: "packageTypeDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PackageTypeDetail
@@ -88,7 +88,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#release_version DataOciJmsJavaDownloadsJavaDownloadRecords#release_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#release_version DataOciJmsJavaDownloadsJavaDownloadRecords#release_version}.</summary>
         [JsiiProperty(name: "releaseVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReleaseVersion
@@ -99,7 +99,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#time_end DataOciJmsJavaDownloadsJavaDownloadRecords#time_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#time_end DataOciJmsJavaDownloadsJavaDownloadRecords#time_end}.</summary>
         [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeEnd
@@ -110,7 +110,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#time_start DataOciJmsJavaDownloadsJavaDownloadRecords#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#time_start DataOciJmsJavaDownloadsJavaDownloadRecords#time_start}.</summary>
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStart
@@ -128,14 +128,14 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#compartment_id DataOciJmsJavaDownloadsJavaDownloadRecords#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#compartment_id DataOciJmsJavaDownloadsJavaDownloadRecords#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#architecture DataOciJmsJavaDownloadsJavaDownloadRecords#architecture}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#architecture DataOciJmsJavaDownloadsJavaDownloadRecords#architecture}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Architecture
@@ -143,7 +143,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#family_version DataOciJmsJavaDownloadsJavaDownloadRecords#family_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#family_version DataOciJmsJavaDownloadsJavaDownloadRecords#family_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "familyVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FamilyVersion
@@ -153,7 +153,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#filter DataOciJmsJavaDownloadsJavaDownloadRecords#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#filter DataOciJmsJavaDownloadsJavaDownloadRecords#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaDownloadRecords.IDataOciJmsJavaDownloadsJavaDownloadRecordsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -163,7 +163,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#id DataOciJmsJavaDownloadsJavaDownloadRecords#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#id DataOciJmsJavaDownloadsJavaDownloadRecords#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#os_family DataOciJmsJavaDownloadsJavaDownloadRecords#os_family}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#os_family DataOciJmsJavaDownloadsJavaDownloadRecords#os_family}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "osFamily", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OsFamily
@@ -183,7 +183,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#package_type_detail DataOciJmsJavaDownloadsJavaDownloadRecords#package_type_detail}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#package_type_detail DataOciJmsJavaDownloadsJavaDownloadRecords#package_type_detail}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageTypeDetail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PackageTypeDetail
@@ -191,7 +191,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#release_version DataOciJmsJavaDownloadsJavaDownloadRecords#release_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#release_version DataOciJmsJavaDownloadsJavaDownloadRecords#release_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "releaseVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReleaseVersion
@@ -199,7 +199,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#time_end DataOciJmsJavaDownloadsJavaDownloadRecords#time_end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#time_end DataOciJmsJavaDownloadsJavaDownloadRecords#time_end}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeEnd
@@ -207,7 +207,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_records#time_start DataOciJmsJavaDownloadsJavaDownloadRecords#time_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_records#time_start DataOciJmsJavaDownloadsJavaDownloadRecords#time_start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStart

@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseCustomerContacts")]
     public class DatabaseAutonomousDatabaseCustomerContacts : oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseCustomerContacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#email DatabaseAutonomousDatabase#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#email DatabaseAutonomousDatabase#email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Email

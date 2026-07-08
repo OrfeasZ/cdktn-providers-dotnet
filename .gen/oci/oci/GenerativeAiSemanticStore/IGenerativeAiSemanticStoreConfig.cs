@@ -7,7 +7,7 @@ namespace oci.GenerativeAiSemanticStore
     [JsiiInterface(nativeType: typeof(IGenerativeAiSemanticStoreConfig), fullyQualifiedName: "oci.generativeAiSemanticStore.GenerativeAiSemanticStoreConfig")]
     public interface IGenerativeAiSemanticStoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#compartment_id GenerativeAiSemanticStore#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#compartment_id GenerativeAiSemanticStore#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.GenerativeAiSemanticStore
 
         /// <summary>data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#data_source GenerativeAiSemanticStore#data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#data_source GenerativeAiSemanticStore#data_source}
         /// </remarks>
         [JsiiProperty(name: "dataSource", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreDataSource\"}")]
         oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreDataSource DataSource
@@ -24,7 +24,7 @@ namespace oci.GenerativeAiSemanticStore
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#display_name GenerativeAiSemanticStore#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#display_name GenerativeAiSemanticStore#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.GenerativeAiSemanticStore
 
         /// <summary>schemas block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#schemas GenerativeAiSemanticStore#schemas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#schemas GenerativeAiSemanticStore#schemas}
         /// </remarks>
         [JsiiProperty(name: "schemas", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreSchemas\"}")]
         oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreSchemas Schemas
@@ -41,7 +41,7 @@ namespace oci.GenerativeAiSemanticStore
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#defined_tags GenerativeAiSemanticStore#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#defined_tags GenerativeAiSemanticStore#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -52,7 +52,7 @@ namespace oci.GenerativeAiSemanticStore
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#description GenerativeAiSemanticStore#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#description GenerativeAiSemanticStore#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -63,7 +63,7 @@ namespace oci.GenerativeAiSemanticStore
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#freeform_tags GenerativeAiSemanticStore#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#freeform_tags GenerativeAiSemanticStore#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -74,7 +74,7 @@ namespace oci.GenerativeAiSemanticStore
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#id GenerativeAiSemanticStore#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#id GenerativeAiSemanticStore#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.GenerativeAiSemanticStore
 
         /// <summary>refresh_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#refresh_schedule GenerativeAiSemanticStore#refresh_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#refresh_schedule GenerativeAiSemanticStore#refresh_schedule}
         /// </remarks>
         [JsiiProperty(name: "refreshSchedule", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreRefreshSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace oci.GenerativeAiSemanticStore
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#timeouts GenerativeAiSemanticStore#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#timeouts GenerativeAiSemanticStore#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace oci.GenerativeAiSemanticStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#compartment_id GenerativeAiSemanticStore#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#compartment_id GenerativeAiSemanticStore#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -133,7 +133,7 @@ namespace oci.GenerativeAiSemanticStore
 
             /// <summary>data_source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#data_source GenerativeAiSemanticStore#data_source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#data_source GenerativeAiSemanticStore#data_source}
             /// </remarks>
             [JsiiProperty(name: "dataSource", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreDataSource\"}")]
             public oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreDataSource DataSource
@@ -141,7 +141,7 @@ namespace oci.GenerativeAiSemanticStore
                 get => GetInstanceProperty<oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreDataSource>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#display_name GenerativeAiSemanticStore#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#display_name GenerativeAiSemanticStore#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -150,7 +150,7 @@ namespace oci.GenerativeAiSemanticStore
 
             /// <summary>schemas block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#schemas GenerativeAiSemanticStore#schemas}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#schemas GenerativeAiSemanticStore#schemas}
             /// </remarks>
             [JsiiProperty(name: "schemas", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreSchemas\"}")]
             public oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreSchemas Schemas
@@ -158,7 +158,7 @@ namespace oci.GenerativeAiSemanticStore
                 get => GetInstanceProperty<oci.GenerativeAiSemanticStore.IGenerativeAiSemanticStoreSchemas>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#defined_tags GenerativeAiSemanticStore#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#defined_tags GenerativeAiSemanticStore#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -166,7 +166,7 @@ namespace oci.GenerativeAiSemanticStore
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#description GenerativeAiSemanticStore#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#description GenerativeAiSemanticStore#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -174,7 +174,7 @@ namespace oci.GenerativeAiSemanticStore
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#freeform_tags GenerativeAiSemanticStore#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#freeform_tags GenerativeAiSemanticStore#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -182,7 +182,7 @@ namespace oci.GenerativeAiSemanticStore
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#id GenerativeAiSemanticStore#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#id GenerativeAiSemanticStore#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,7 +196,7 @@ namespace oci.GenerativeAiSemanticStore
 
             /// <summary>refresh_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#refresh_schedule GenerativeAiSemanticStore#refresh_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#refresh_schedule GenerativeAiSemanticStore#refresh_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "refreshSchedule", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreRefreshSchedule\"}", isOptional: true)]
@@ -207,7 +207,7 @@ namespace oci.GenerativeAiSemanticStore
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/generative_ai_semantic_store#timeouts GenerativeAiSemanticStore#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_semantic_store#timeouts GenerativeAiSemanticStore#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiSemanticStore.GenerativeAiSemanticStoreTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControlAssignment
     [JsiiInterface(nativeType: typeof(IDataOciOperatorAccessControlOperatorControlAssignmentConfig), fullyQualifiedName: "oci.dataOciOperatorAccessControlOperatorControlAssignment.DataOciOperatorAccessControlOperatorControlAssignmentConfig")]
     public interface IDataOciOperatorAccessControlOperatorControlAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
         [JsiiProperty(name: "operatorControlAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
         string OperatorControlAssignmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControlAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
             [JsiiProperty(name: "operatorControlAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperatorControlAssignmentId
             {

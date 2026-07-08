@@ -7,7 +7,7 @@ namespace oci.CloudMigrationsTargetAsset
     [JsiiInterface(nativeType: typeof(ICloudMigrationsTargetAssetConfig), fullyQualifiedName: "oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetConfig")]
     public interface ICloudMigrationsTargetAssetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,21 +17,21 @@ namespace oci.CloudMigrationsTargetAsset
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}.</summary>
         [JsiiProperty(name: "migrationPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationPlanId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}.</summary>
         [JsiiProperty(name: "blockVolumesPerformance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BlockVolumesPerformance
@@ -42,7 +42,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}.</summary>
         [JsiiProperty(name: "msLicense", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MsLicense
@@ -68,7 +68,7 @@ namespace oci.CloudMigrationsTargetAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}.</summary>
         [JsiiProperty(name: "preferredShapeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PreferredShapeType
@@ -81,7 +81,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         /// <summary>recommended_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#recommended_spec CloudMigrationsTargetAsset#recommended_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#recommended_spec CloudMigrationsTargetAsset#recommended_spec}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetRecommendedSpec" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "recommendedSpec", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetRecommendedSpec\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         /// <summary>test_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#test_spec CloudMigrationsTargetAsset#test_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#test_spec CloudMigrationsTargetAsset#test_spec}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "testSpec", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTestSpec\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace oci.CloudMigrationsTargetAsset
 
         /// <summary>user_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
         /// </remarks>
         [JsiiProperty(name: "userSpec", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpec\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,7 +144,7 @@ namespace oci.CloudMigrationsTargetAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#is_excluded_from_execution CloudMigrationsTargetAsset#is_excluded_from_execution}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -154,21 +154,21 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#migration_plan_id CloudMigrationsTargetAsset#migration_plan_id}.</summary>
             [JsiiProperty(name: "migrationPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationPlanId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#type CloudMigrationsTargetAsset#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#block_volumes_performance CloudMigrationsTargetAsset#block_volumes_performance}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "blockVolumesPerformance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BlockVolumesPerformance
@@ -176,7 +176,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#id CloudMigrationsTargetAsset#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +188,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#ms_license CloudMigrationsTargetAsset#ms_license}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "msLicense", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MsLicense
@@ -196,7 +196,7 @@ namespace oci.CloudMigrationsTargetAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#preferred_shape_type CloudMigrationsTargetAsset#preferred_shape_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "preferredShapeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PreferredShapeType
@@ -206,7 +206,7 @@ namespace oci.CloudMigrationsTargetAsset
 
             /// <summary>recommended_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#recommended_spec CloudMigrationsTargetAsset#recommended_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#recommended_spec CloudMigrationsTargetAsset#recommended_spec}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetRecommendedSpec" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -218,7 +218,7 @@ namespace oci.CloudMigrationsTargetAsset
 
             /// <summary>test_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#test_spec CloudMigrationsTargetAsset#test_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#test_spec CloudMigrationsTargetAsset#test_spec}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudMigrationsTargetAsset.ICloudMigrationsTargetAssetTestSpec" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -230,7 +230,7 @@ namespace oci.CloudMigrationsTargetAsset
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#timeouts CloudMigrationsTargetAsset#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetTimeouts\"}", isOptional: true)]
@@ -241,7 +241,7 @@ namespace oci.CloudMigrationsTargetAsset
 
             /// <summary>user_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_migrations_target_asset#user_spec CloudMigrationsTargetAsset#user_spec}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userSpec", typeJson: "{\"fqn\":\"oci.cloudMigrationsTargetAsset.CloudMigrationsTargetAssetUserSpec\"}", isOptional: true)]

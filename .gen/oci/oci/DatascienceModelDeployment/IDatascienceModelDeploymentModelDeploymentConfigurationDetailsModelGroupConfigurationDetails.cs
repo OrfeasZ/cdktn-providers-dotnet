@@ -7,7 +7,7 @@ namespace oci.DatascienceModelDeployment
     [JsiiInterface(nativeType: typeof(IDatascienceModelDeploymentModelDeploymentConfigurationDetailsModelGroupConfigurationDetails), fullyQualifiedName: "oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsModelGroupConfigurationDetails")]
     public interface IDatascienceModelDeploymentModelDeploymentConfigurationDetailsModelGroupConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_deployment#model_group_id DatascienceModelDeployment#model_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_deployment#model_group_id DatascienceModelDeployment#model_group_id}.</summary>
         [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ModelGroupId
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/datascience_model_deployment#model_group_id DatascienceModelDeployment#model_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_deployment#model_group_id DatascienceModelDeployment#model_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ModelGroupId

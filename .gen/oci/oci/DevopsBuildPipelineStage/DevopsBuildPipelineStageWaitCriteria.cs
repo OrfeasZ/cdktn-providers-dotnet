@@ -9,7 +9,7 @@ namespace oci.DevopsBuildPipelineStage
     [JsiiByValue(fqn: "oci.devopsBuildPipelineStage.DevopsBuildPipelineStageWaitCriteria")]
     public class DevopsBuildPipelineStageWaitCriteria : oci.DevopsBuildPipelineStage.IDevopsBuildPipelineStageWaitCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_build_pipeline_stage#wait_duration DevopsBuildPipelineStage#wait_duration}.</summary>
         [JsiiProperty(name: "waitDuration", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitDuration
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsBuildPipelineStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_build_pipeline_stage#wait_type DevopsBuildPipelineStage#wait_type}.</summary>
         [JsiiProperty(name: "waitType", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitType
         {

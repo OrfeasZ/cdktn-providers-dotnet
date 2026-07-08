@@ -7,7 +7,7 @@ namespace oci.DataOciServiceCatalogAllApplications
     [JsiiInterface(nativeType: typeof(IDataOciServiceCatalogAllApplicationsConfig), fullyQualifiedName: "oci.dataOciServiceCatalogAllApplications.DataOciServiceCatalogAllApplicationsConfig")]
     public interface IDataOciServiceCatalogAllApplicationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}.</summary>
         [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EntityId
@@ -40,7 +40,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}.</summary>
         [JsiiProperty(name: "entityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EntityType
@@ -53,7 +53,7 @@ namespace oci.DataOciServiceCatalogAllApplications
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciServiceCatalogAllApplications.IDataOciServiceCatalogAllApplicationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciServiceCatalogAllApplications.DataOciServiceCatalogAllApplicationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}.</summary>
         [JsiiProperty(name: "packageType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PackageType
@@ -106,7 +106,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}.</summary>
         [JsiiProperty(name: "pricing", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Pricing
@@ -117,7 +117,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}.</summary>
         [JsiiProperty(name: "publisherId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PublisherId
@@ -135,7 +135,7 @@ namespace oci.DataOciServiceCatalogAllApplications
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -143,7 +143,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -151,7 +151,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EntityId
@@ -159,7 +159,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EntityType
@@ -169,7 +169,7 @@ namespace oci.DataOciServiceCatalogAllApplications
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciServiceCatalogAllApplications.IDataOciServiceCatalogAllApplicationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -179,7 +179,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -191,7 +191,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -202,7 +202,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PackageType
@@ -210,7 +210,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pricing", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Pricing
@@ -218,7 +218,7 @@ namespace oci.DataOciServiceCatalogAllApplications
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publisherId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PublisherId

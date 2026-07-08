@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceSoftwareUpdateActionTimeouts), fullyQualifiedName: "oci.bdsBdsInstanceSoftwareUpdateAction.BdsBdsInstanceSoftwareUpdateActionTimeouts")]
     public interface IBdsBdsInstanceSoftwareUpdateActionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#create BdsBdsInstanceSoftwareUpdateAction#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#delete BdsBdsInstanceSoftwareUpdateAction#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_software_update_action#update BdsBdsInstanceSoftwareUpdateAction#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

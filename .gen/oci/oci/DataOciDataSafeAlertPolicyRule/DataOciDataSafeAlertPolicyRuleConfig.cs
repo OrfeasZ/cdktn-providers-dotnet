@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAlertPolicyRule
     [JsiiByValue(fqn: "oci.dataOciDataSafeAlertPolicyRule.DataOciDataSafeAlertPolicyRuleConfig")]
     public class DataOciDataSafeAlertPolicyRuleConfig : oci.DataOciDataSafeAlertPolicyRule.IDataOciDataSafeAlertPolicyRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
         [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlertPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeAlertPolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
         [JsiiProperty(name: "ruleKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleKey
         {

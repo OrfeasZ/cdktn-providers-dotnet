@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
     [JsiiInterface(nativeType: typeof(IDataOciCoreVirtualCircuitBandwidthShapesConfig), fullyQualifiedName: "oci.dataOciCoreVirtualCircuitBandwidthShapes.DataOciCoreVirtualCircuitBandwidthShapesConfig")]
     public interface IDataOciCoreVirtualCircuitBandwidthShapesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#provider_service_id DataOciCoreVirtualCircuitBandwidthShapes#provider_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#provider_service_id DataOciCoreVirtualCircuitBandwidthShapes#provider_service_id}.</summary>
         [JsiiProperty(name: "providerServiceId", typeJson: "{\"primitive\":\"string\"}")]
         string ProviderServiceId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#filter DataOciCoreVirtualCircuitBandwidthShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#filter DataOciCoreVirtualCircuitBandwidthShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreVirtualCircuitBandwidthShapes.IDataOciCoreVirtualCircuitBandwidthShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreVirtualCircuitBandwidthShapes.DataOciCoreVirtualCircuitBandwidthShapesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#id DataOciCoreVirtualCircuitBandwidthShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#id DataOciCoreVirtualCircuitBandwidthShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#provider_service_id DataOciCoreVirtualCircuitBandwidthShapes#provider_service_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#provider_service_id DataOciCoreVirtualCircuitBandwidthShapes#provider_service_id}.</summary>
             [JsiiProperty(name: "providerServiceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProviderServiceId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#filter DataOciCoreVirtualCircuitBandwidthShapes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#filter DataOciCoreVirtualCircuitBandwidthShapes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreVirtualCircuitBandwidthShapes.IDataOciCoreVirtualCircuitBandwidthShapesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#id DataOciCoreVirtualCircuitBandwidthShapes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#id DataOciCoreVirtualCircuitBandwidthShapes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

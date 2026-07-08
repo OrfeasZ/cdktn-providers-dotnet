@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityNetworkSource
     [JsiiInterface(nativeType: typeof(IDataOciIdentityNetworkSourceConfig), fullyQualifiedName: "oci.dataOciIdentityNetworkSource.DataOciIdentityNetworkSourceConfig")]
     public interface IDataOciIdentityNetworkSourceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}.</summary>
         [JsiiProperty(name: "networkSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkSourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityNetworkSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}.</summary>
             [JsiiProperty(name: "networkSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkSourceId
             {

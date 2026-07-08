@@ -9,7 +9,7 @@ namespace oci.KmsVault
     [JsiiByValue(fqn: "oci.kmsVault.KmsVaultExternalKeyManagerMetadata")]
     public class KmsVaultExternalKeyManagerMetadata : oci.KmsVault.IKmsVaultExternalKeyManagerMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_vault#external_vault_endpoint_url KmsVault#external_vault_endpoint_url}.</summary>
         [JsiiProperty(name: "externalVaultEndpointUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalVaultEndpointUrl
         {
@@ -19,7 +19,7 @@ namespace oci.KmsVault
 
         /// <summary>oauth_metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_vault#oauth_metadata KmsVault#oauth_metadata}
         /// </remarks>
         [JsiiProperty(name: "oauthMetadata", typeJson: "{\"fqn\":\"oci.kmsVault.KmsVaultExternalKeyManagerMetadataOauthMetadata\"}")]
         public oci.KmsVault.IKmsVaultExternalKeyManagerMetadataOauthMetadata OauthMetadata
@@ -28,7 +28,7 @@ namespace oci.KmsVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_vault#private_endpoint_id KmsVault#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateEndpointId
         {

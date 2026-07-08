@@ -9,7 +9,7 @@ namespace oci.DatabaseCloudVmClusterIormConfig
     [JsiiByValue(fqn: "oci.databaseCloudVmClusterIormConfig.DatabaseCloudVmClusterIormConfigDbPlans")]
     public class DatabaseCloudVmClusterIormConfigDbPlans : oci.DatabaseCloudVmClusterIormConfig.IDatabaseCloudVmClusterIormConfigDbPlans
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_cloud_vm_cluster_iorm_config#db_name DatabaseCloudVmClusterIormConfig#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster_iorm_config#db_name DatabaseCloudVmClusterIormConfig#db_name}.</summary>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
         public string DbName
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseCloudVmClusterIormConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_cloud_vm_cluster_iorm_config#share DatabaseCloudVmClusterIormConfig#share}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster_iorm_config#share DatabaseCloudVmClusterIormConfig#share}.</summary>
         [JsiiProperty(name: "share", typeJson: "{\"primitive\":\"number\"}")]
         public double Share
         {

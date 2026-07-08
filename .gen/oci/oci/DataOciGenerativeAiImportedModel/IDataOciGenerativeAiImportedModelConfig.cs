@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiImportedModel
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiImportedModelConfig), fullyQualifiedName: "oci.dataOciGenerativeAiImportedModel.DataOciGenerativeAiImportedModelConfig")]
     public interface IDataOciGenerativeAiImportedModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_imported_model#imported_model_id DataOciGenerativeAiImportedModel#imported_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_imported_model#imported_model_id DataOciGenerativeAiImportedModel#imported_model_id}.</summary>
         [JsiiProperty(name: "importedModelId", typeJson: "{\"primitive\":\"string\"}")]
         string ImportedModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiImportedModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/generative_ai_imported_model#imported_model_id DataOciGenerativeAiImportedModel#imported_model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_imported_model#imported_model_id DataOciGenerativeAiImportedModel#imported_model_id}.</summary>
             [JsiiProperty(name: "importedModelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ImportedModelId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciGoldenGateConnectionAssignment
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateConnectionAssignmentConfig), fullyQualifiedName: "oci.dataOciGoldenGateConnectionAssignment.DataOciGoldenGateConnectionAssignmentConfig")]
     public interface IDataOciGoldenGateConnectionAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_connection_assignment#connection_assignment_id DataOciGoldenGateConnectionAssignment#connection_assignment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/golden_gate_connection_assignment#connection_assignment_id DataOciGoldenGateConnectionAssignment#connection_assignment_id}.</summary>
         [JsiiProperty(name: "connectionAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionAssignmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGoldenGateConnectionAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_connection_assignment#connection_assignment_id DataOciGoldenGateConnectionAssignment#connection_assignment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/golden_gate_connection_assignment#connection_assignment_id DataOciGoldenGateConnectionAssignment#connection_assignment_id}.</summary>
             [JsiiProperty(name: "connectionAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionAssignmentId
             {

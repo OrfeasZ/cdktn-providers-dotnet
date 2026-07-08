@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPolicyRecommendedScheduledActions.DataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter")]
     public class DataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter : oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions.IDataOciDatabaseSchedulingPolicyRecommendedScheduledActionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#name DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#name DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#values DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#values DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseSchedulingPolicyRecommendedScheduledActions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#regex DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_policy_recommended_scheduled_actions#regex DataOciDatabaseSchedulingPolicyRecommendedScheduledActions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

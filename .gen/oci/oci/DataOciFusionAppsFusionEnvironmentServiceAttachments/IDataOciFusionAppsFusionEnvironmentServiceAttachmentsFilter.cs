@@ -7,21 +7,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentServiceAttachmentsFilter), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentServiceAttachments.DataOciFusionAppsFusionEnvironmentServiceAttachmentsFilter")]
     public interface IDataOciFusionAppsFusionEnvironmentServiceAttachmentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#name DataOciFusionAppsFusionEnvironmentServiceAttachments#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#name DataOciFusionAppsFusionEnvironmentServiceAttachments#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#values DataOciFusionAppsFusionEnvironmentServiceAttachments#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#values DataOciFusionAppsFusionEnvironmentServiceAttachments#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#regex DataOciFusionAppsFusionEnvironmentServiceAttachments#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#regex DataOciFusionAppsFusionEnvironmentServiceAttachments#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#name DataOciFusionAppsFusionEnvironmentServiceAttachments#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#name DataOciFusionAppsFusionEnvironmentServiceAttachments#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#values DataOciFusionAppsFusionEnvironmentServiceAttachments#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#values DataOciFusionAppsFusionEnvironmentServiceAttachments#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#regex DataOciFusionAppsFusionEnvironmentServiceAttachments#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#regex DataOciFusionAppsFusionEnvironmentServiceAttachments#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciVaultSecret
     [JsiiByValue(fqn: "oci.dataOciVaultSecret.DataOciVaultSecretConfig")]
     public class DataOciVaultSecretConfig : oci.DataOciVaultSecret.IDataOciVaultSecretConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/vault_secret#secret_id DataOciVaultSecret#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/vault_secret#secret_id DataOciVaultSecret#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {

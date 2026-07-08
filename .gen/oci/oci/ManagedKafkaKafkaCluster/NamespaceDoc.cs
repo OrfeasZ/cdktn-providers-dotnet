@@ -5,7 +5,7 @@ namespace oci.ManagedKafkaKafkaCluster
     /// <remarks>
     /// <h1><c>oci_managed_kafka_kafka_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/managed_kafka_kafka_cluster"><c>oci_managed_kafka_kafka_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/managed_kafka_kafka_cluster"><c>oci_managed_kafka_kafka_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

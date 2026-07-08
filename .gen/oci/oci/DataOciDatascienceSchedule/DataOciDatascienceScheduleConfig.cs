@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceSchedule
     [JsiiByValue(fqn: "oci.dataOciDatascienceSchedule.DataOciDatascienceScheduleConfig")]
     public class DataOciDatascienceScheduleConfig : oci.DataOciDatascienceSchedule.IDataOciDatascienceScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/datascience_schedule#schedule_id DataOciDatascienceSchedule#schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_schedule#schedule_id DataOciDatascienceSchedule#schedule_id}.</summary>
         [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleId
         {

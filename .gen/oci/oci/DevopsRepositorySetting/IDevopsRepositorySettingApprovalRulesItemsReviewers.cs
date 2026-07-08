@@ -7,7 +7,7 @@ namespace oci.DevopsRepositorySetting
     [JsiiInterface(nativeType: typeof(IDevopsRepositorySettingApprovalRulesItemsReviewers), fullyQualifiedName: "oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsReviewers")]
     public interface IDevopsRepositorySettingApprovalRulesItemsReviewers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
         string PrincipalId
         {
@@ -21,7 +21,7 @@ namespace oci.DevopsRepositorySetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
             [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrincipalId
             {

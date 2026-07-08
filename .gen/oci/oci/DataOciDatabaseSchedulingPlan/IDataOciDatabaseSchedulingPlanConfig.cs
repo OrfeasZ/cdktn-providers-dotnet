@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseSchedulingPlan
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseSchedulingPlanConfig), fullyQualifiedName: "oci.dataOciDatabaseSchedulingPlan.DataOciDatabaseSchedulingPlanConfig")]
     public interface IDataOciDatabaseSchedulingPlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_plan#scheduling_plan_id DataOciDatabaseSchedulingPlan#scheduling_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_plan#scheduling_plan_id DataOciDatabaseSchedulingPlan#scheduling_plan_id}.</summary>
         [JsiiProperty(name: "schedulingPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingPlanId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseSchedulingPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_scheduling_plan#scheduling_plan_id DataOciDatabaseSchedulingPlan#scheduling_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_plan#scheduling_plan_id DataOciDatabaseSchedulingPlan#scheduling_plan_id}.</summary>
             [JsiiProperty(name: "schedulingPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingPlanId
             {

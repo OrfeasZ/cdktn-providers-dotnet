@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveDataModel
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveDataModel.DataOciDataSafeSensitiveDataModelConfig")]
     public class DataOciDataSafeSensitiveDataModelConfig : oci.DataOciDataSafeSensitiveDataModel.IDataOciDataSafeSensitiveDataModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveDataModelId
         {

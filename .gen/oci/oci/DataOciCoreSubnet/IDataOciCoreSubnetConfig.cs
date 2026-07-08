@@ -7,7 +7,7 @@ namespace oci.DataOciCoreSubnet
     [JsiiInterface(nativeType: typeof(IDataOciCoreSubnetConfig), fullyQualifiedName: "oci.dataOciCoreSubnet.DataOciCoreSubnetConfig")]
     public interface IDataOciCoreSubnetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreSubnet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_subnet#subnet_id DataOciCoreSubnet#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {

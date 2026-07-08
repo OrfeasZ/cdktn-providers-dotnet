@@ -5,7 +5,7 @@ namespace oci.DataOciGoldenGateDeploymentEnvironments
     /// <remarks>
     /// <h1><c>data_oci_golden_gate_deployment_environments</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/golden_gate_deployment_environments"><c>data_oci_golden_gate_deployment_environments</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/golden_gate_deployment_environments"><c>data_oci_golden_gate_deployment_environments</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

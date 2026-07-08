@@ -5,7 +5,7 @@ namespace oci.MediaServicesStreamCdnConfig
     /// <remarks>
     /// <h1><c>oci_media_services_stream_cdn_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/media_services_stream_cdn_config"><c>oci_media_services_stream_cdn_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config"><c>oci_media_services_stream_cdn_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

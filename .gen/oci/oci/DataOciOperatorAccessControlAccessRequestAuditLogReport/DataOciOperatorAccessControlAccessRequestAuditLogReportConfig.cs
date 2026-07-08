@@ -9,7 +9,7 @@ namespace oci.DataOciOperatorAccessControlAccessRequestAuditLogReport
     [JsiiByValue(fqn: "oci.dataOciOperatorAccessControlAccessRequestAuditLogReport.DataOciOperatorAccessControlAccessRequestAuditLogReportConfig")]
     public class DataOciOperatorAccessControlAccessRequestAuditLogReportConfig : oci.DataOciOperatorAccessControlAccessRequestAuditLogReport.IDataOciOperatorAccessControlAccessRequestAuditLogReportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_access_request_audit_log_report#access_request_id DataOciOperatorAccessControlAccessRequestAuditLogReport#access_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_access_request_audit_log_report#access_request_id DataOciOperatorAccessControlAccessRequestAuditLogReport#access_request_id}.</summary>
         [JsiiProperty(name: "accessRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessRequestId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOperatorAccessControlAccessRequestAuditLogReport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_access_request_audit_log_report#enable_process_tree DataOciOperatorAccessControlAccessRequestAuditLogReport#enable_process_tree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_access_request_audit_log_report#enable_process_tree DataOciOperatorAccessControlAccessRequestAuditLogReport#enable_process_tree}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableProcessTree", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EnableProcessTree
@@ -26,7 +26,7 @@ namespace oci.DataOciOperatorAccessControlAccessRequestAuditLogReport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_access_request_audit_log_report#id DataOciOperatorAccessControlAccessRequestAuditLogReport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_access_request_audit_log_report#id DataOciOperatorAccessControlAccessRequestAuditLogReport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

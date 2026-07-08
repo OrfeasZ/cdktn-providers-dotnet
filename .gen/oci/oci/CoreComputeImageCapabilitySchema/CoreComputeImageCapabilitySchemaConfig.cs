@@ -9,7 +9,7 @@ namespace oci.CoreComputeImageCapabilitySchema
     [JsiiByValue(fqn: "oci.coreComputeImageCapabilitySchema.CoreComputeImageCapabilitySchemaConfig")]
     public class CoreComputeImageCapabilitySchemaConfig : oci.CoreComputeImageCapabilitySchema.ICoreComputeImageCapabilitySchemaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#compartment_id CoreComputeImageCapabilitySchema#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#compartment_id CoreComputeImageCapabilitySchema#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#compute_global_image_capability_schema_version_name CoreComputeImageCapabilitySchema#compute_global_image_capability_schema_version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#compute_global_image_capability_schema_version_name CoreComputeImageCapabilitySchema#compute_global_image_capability_schema_version_name}.</summary>
         [JsiiProperty(name: "computeGlobalImageCapabilitySchemaVersionName", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGlobalImageCapabilitySchemaVersionName
         {
@@ -25,7 +25,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#image_id CoreComputeImageCapabilitySchema#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#image_id CoreComputeImageCapabilitySchema#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
         {
@@ -33,7 +33,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#schema_data CoreComputeImageCapabilitySchema#schema_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#schema_data CoreComputeImageCapabilitySchema#schema_data}.</summary>
         [JsiiProperty(name: "schemaData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> SchemaData
         {
@@ -41,7 +41,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#defined_tags CoreComputeImageCapabilitySchema#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#defined_tags CoreComputeImageCapabilitySchema#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#display_name CoreComputeImageCapabilitySchema#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#display_name CoreComputeImageCapabilitySchema#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#freeform_tags CoreComputeImageCapabilitySchema#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#freeform_tags CoreComputeImageCapabilitySchema#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.CoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#id CoreComputeImageCapabilitySchema#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#id CoreComputeImageCapabilitySchema#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.CoreComputeImageCapabilitySchema
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_image_capability_schema#timeouts CoreComputeImageCapabilitySchema#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_image_capability_schema#timeouts CoreComputeImageCapabilitySchema#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreComputeImageCapabilitySchema.CoreComputeImageCapabilitySchemaTimeouts\"}", isOptional: true)]

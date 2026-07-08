@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditProfileTargetOverridesConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditProfileTargetOverrides.DataOciDataSafeAuditProfileTargetOverridesConfig")]
     public interface IDataOciDataSafeAuditProfileTargetOverridesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#audit_profile_id DataOciDataSafeAuditProfileTargetOverrides#audit_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#audit_profile_id DataOciDataSafeAuditProfileTargetOverrides#audit_profile_id}.</summary>
         [JsiiProperty(name: "auditProfileId", typeJson: "{\"primitive\":\"string\"}")]
         string AuditProfileId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#display_name DataOciDataSafeAuditProfileTargetOverrides#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#display_name DataOciDataSafeAuditProfileTargetOverrides#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#filter DataOciDataSafeAuditProfileTargetOverrides#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#filter DataOciDataSafeAuditProfileTargetOverrides#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeAuditProfileTargetOverrides.IDataOciDataSafeAuditProfileTargetOverridesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeAuditProfileTargetOverrides.DataOciDataSafeAuditProfileTargetOverridesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#id DataOciDataSafeAuditProfileTargetOverrides#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#id DataOciDataSafeAuditProfileTargetOverrides#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,14 +62,14 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#audit_profile_id DataOciDataSafeAuditProfileTargetOverrides#audit_profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#audit_profile_id DataOciDataSafeAuditProfileTargetOverrides#audit_profile_id}.</summary>
             [JsiiProperty(name: "auditProfileId", typeJson: "{\"primitive\":\"string\"}")]
             public string AuditProfileId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#display_name DataOciDataSafeAuditProfileTargetOverrides#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#display_name DataOciDataSafeAuditProfileTargetOverrides#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -79,7 +79,7 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#filter DataOciDataSafeAuditProfileTargetOverrides#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#filter DataOciDataSafeAuditProfileTargetOverrides#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeAuditProfileTargetOverrides.IDataOciDataSafeAuditProfileTargetOverridesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -89,7 +89,7 @@ namespace oci.DataOciDataSafeAuditProfileTargetOverrides
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_profile_target_overrides#id DataOciDataSafeAuditProfileTargetOverrides#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_profile_target_overrides#id DataOciDataSafeAuditProfileTargetOverrides#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

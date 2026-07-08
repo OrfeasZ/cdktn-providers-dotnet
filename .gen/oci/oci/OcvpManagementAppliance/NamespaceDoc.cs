@@ -5,7 +5,7 @@ namespace oci.OcvpManagementAppliance
     /// <remarks>
     /// <h1><c>oci_ocvp_management_appliance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance"><c>oci_ocvp_management_appliance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ocvp_management_appliance"><c>oci_ocvp_management_appliance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

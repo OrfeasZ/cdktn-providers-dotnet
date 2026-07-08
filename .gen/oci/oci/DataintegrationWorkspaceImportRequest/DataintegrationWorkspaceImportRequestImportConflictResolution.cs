@@ -9,7 +9,7 @@ namespace oci.DataintegrationWorkspaceImportRequest
     [JsiiByValue(fqn: "oci.dataintegrationWorkspaceImportRequest.DataintegrationWorkspaceImportRequestImportConflictResolution")]
     public class DataintegrationWorkspaceImportRequestImportConflictResolution : oci.DataintegrationWorkspaceImportRequest.IDataintegrationWorkspaceImportRequestImportConflictResolution
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataintegration_workspace_import_request#import_conflict_resolution_type DataintegrationWorkspaceImportRequest#import_conflict_resolution_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataintegration_workspace_import_request#import_conflict_resolution_type DataintegrationWorkspaceImportRequest#import_conflict_resolution_type}.</summary>
         [JsiiProperty(name: "importConflictResolutionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ImportConflictResolutionType
         {
@@ -17,7 +17,7 @@ namespace oci.DataintegrationWorkspaceImportRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataintegration_workspace_import_request#duplicate_prefix DataintegrationWorkspaceImportRequest#duplicate_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataintegration_workspace_import_request#duplicate_prefix DataintegrationWorkspaceImportRequest#duplicate_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "duplicatePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DuplicatePrefix
@@ -26,7 +26,7 @@ namespace oci.DataintegrationWorkspaceImportRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataintegration_workspace_import_request#duplicate_suffix DataintegrationWorkspaceImportRequest#duplicate_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataintegration_workspace_import_request#duplicate_suffix DataintegrationWorkspaceImportRequest#duplicate_suffix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "duplicateSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DuplicateSuffix

@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignal
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccmDemandSignal.DataOciCapacityManagementInternalOccmDemandSignalConfig")]
     public class DataOciCapacityManagementInternalOccmDemandSignalConfig : oci.DataOciCapacityManagementInternalOccmDemandSignal.IDataOciCapacityManagementInternalOccmDemandSignalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/capacity_management_internal_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementInternalOccmDemandSignal#occm_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementInternalOccmDemandSignal#occm_demand_signal_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccmDemandSignalId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardAdhocQuery
     [JsiiByValue(fqn: "oci.dataOciCloudGuardAdhocQuery.DataOciCloudGuardAdhocQueryConfig")]
     public class DataOciCloudGuardAdhocQueryConfig : oci.DataOciCloudGuardAdhocQuery.IDataOciCloudGuardAdhocQueryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
         [JsiiProperty(name: "adhocQueryId", typeJson: "{\"primitive\":\"string\"}")]
         public string AdhocQueryId
         {

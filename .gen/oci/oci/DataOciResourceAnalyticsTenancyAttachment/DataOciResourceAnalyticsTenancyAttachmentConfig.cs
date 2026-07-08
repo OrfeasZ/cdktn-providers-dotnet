@@ -9,7 +9,7 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachment
     [JsiiByValue(fqn: "oci.dataOciResourceAnalyticsTenancyAttachment.DataOciResourceAnalyticsTenancyAttachmentConfig")]
     public class DataOciResourceAnalyticsTenancyAttachmentConfig : oci.DataOciResourceAnalyticsTenancyAttachment.IDataOciResourceAnalyticsTenancyAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
         [JsiiProperty(name: "tenancyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenancyAttachmentId
         {

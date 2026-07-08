@@ -7,21 +7,21 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubSoftwareSourceAddPackagesManagementConfig), fullyQualifiedName: "oci.osManagementHubSoftwareSourceAddPackagesManagement.OsManagementHubSoftwareSourceAddPackagesManagementConfig")]
     public interface IOsManagementHubSoftwareSourceAddPackagesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}.</summary>
         [JsiiProperty(name: "packages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Packages
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareSourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubSoftwareSourceAddPackagesManagement.OsManagementHubSoftwareSourceAddPackagesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,21 +71,21 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#packages OsManagementHubSoftwareSourceAddPackagesManagement#packages}.</summary>
             [JsiiProperty(name: "packages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Packages
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#software_source_id OsManagementHubSoftwareSourceAddPackagesManagement#software_source_id}.</summary>
             [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareSourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#id OsManagementHubSoftwareSourceAddPackagesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#is_continue_on_missing_packages OsManagementHubSoftwareSourceAddPackagesManagement#is_continue_on_missing_packages}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -110,7 +110,7 @@ namespace oci.OsManagementHubSoftwareSourceAddPackagesManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source_add_packages_management#timeouts OsManagementHubSoftwareSourceAddPackagesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubSoftwareSourceAddPackagesManagement.OsManagementHubSoftwareSourceAddPackagesManagementTimeouts\"}", isOptional: true)]

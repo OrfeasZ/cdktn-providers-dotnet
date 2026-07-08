@@ -7,7 +7,7 @@ namespace oci.DataOciCorePublicIpPool
     [JsiiInterface(nativeType: typeof(IDataOciCorePublicIpPoolConfig), fullyQualifiedName: "oci.dataOciCorePublicIpPool.DataOciCorePublicIpPoolConfig")]
     public interface IDataOciCorePublicIpPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
         [JsiiProperty(name: "publicIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string PublicIpPoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCorePublicIpPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
             [JsiiProperty(name: "publicIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicIpPoolId
             {

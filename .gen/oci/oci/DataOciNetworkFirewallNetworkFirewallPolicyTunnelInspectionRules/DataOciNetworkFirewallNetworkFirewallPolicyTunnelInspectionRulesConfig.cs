@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules.IDataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#filter DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#filter DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules.IDataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRulesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#id DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#tunnel_inspection_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#tunnel_inspection_rule_priority_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_tunnel_inspection_rules#tunnel_inspection_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicyTunnelInspectionRules#tunnel_inspection_rule_priority_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tunnelInspectionRulePriorityOrder", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TunnelInspectionRulePriorityOrder

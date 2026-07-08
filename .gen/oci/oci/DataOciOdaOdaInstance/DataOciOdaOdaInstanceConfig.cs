@@ -9,7 +9,7 @@ namespace oci.DataOciOdaOdaInstance
     [JsiiByValue(fqn: "oci.dataOciOdaOdaInstance.DataOciOdaOdaInstanceConfig")]
     public class DataOciOdaOdaInstanceConfig : oci.DataOciOdaOdaInstance.IDataOciOdaOdaInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
         [JsiiProperty(name: "odaInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string OdaInstanceId
         {

@@ -7,14 +7,14 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
     [JsiiInterface(nativeType: typeof(IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointsConfig), fullyQualifiedName: "oci.dataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.DataOciDistributedDatabaseDistributedDatabasePrivateEndpointsConfig")]
     public interface IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#compartment_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#compartment_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#display_name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#display_name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#filter DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#filter DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.DataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#state DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#state DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +73,14 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#compartment_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#compartment_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#display_name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#display_name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -90,7 +90,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#filter DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#filter DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#state DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#state DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseBackupDestination
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseBackupDestinationConfig), fullyQualifiedName: "oci.dataOciDatabaseBackupDestination.DataOciDatabaseBackupDestinationConfig")]
     public interface IDataOciDatabaseBackupDestinationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
         [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupDestinationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseBackupDestination
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
             [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupDestinationId
             {

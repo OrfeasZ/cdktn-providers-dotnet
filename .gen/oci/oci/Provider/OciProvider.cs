@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.Provider
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs oci}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs oci}.</summary>
     [JsiiClass(nativeType: typeof(oci.Provider.OciProvider), fullyQualifiedName: "oci.provider.OciProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"oci.provider.OciProviderConfig\"}}]")]
     public class OciProvider : Io.Cdktn.TerraformProvider
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs oci} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs oci} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public OciProvider(Constructs.Construct scope, string id, oci.Provider.IOciProviderConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.Provider
         /// <param name="importToId">The construct id used in the generated config for the OciProvider to import.</param>
         /// <param name="importFromId">The id of the existing OciProvider that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the OciProvider to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OciProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OciProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OciProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the OciProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing OciProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the OciProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.Provider.OciProvider), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -142,8 +142,68 @@ namespace oci.Provider
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTokenExchangeAuth")]
+        public virtual void ResetTokenExchangeAuth()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeClientId")]
+        public virtual void ResetTokenExchangeClientId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeClientSecret")]
+        public virtual void ResetTokenExchangeClientSecret()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeDomainUrl")]
+        public virtual void ResetTokenExchangeDomainUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangePublicKey")]
+        public virtual void ResetTokenExchangePublicKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeRequestedTokenType")]
+        public virtual void ResetTokenExchangeRequestedTokenType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeResourceType")]
+        public virtual void ResetTokenExchangeResourceType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeRpstExp")]
+        public virtual void ResetTokenExchangeRpstExp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTokenExchangeSubjectTokenType")]
+        public virtual void ResetTokenExchangeSubjectTokenType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUserOcid")]
         public virtual void ResetUserOcid()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetWorkloadIdentityTokenPath")]
+        public virtual void ResetWorkloadIdentityTokenPath()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -289,8 +349,78 @@ namespace oci.Provider
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeAuthInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeAuthInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeClientIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeClientIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeClientSecretInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeClientSecretInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeDomainUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeDomainUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangePublicKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangePublicKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeRequestedTokenTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeRequestedTokenTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeResourceTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeResourceTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeRpstExpInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeRpstExpInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeSubjectTokenTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeSubjectTokenTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "userOcidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? UserOcidInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "workloadIdentityTokenPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WorkloadIdentityTokenPathInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -493,8 +623,88 @@ namespace oci.Provider
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeAuth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeAuth
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeClientId
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeClientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeClientSecret
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeDomainUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeDomainUrl
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangePublicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangePublicKey
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeRequestedTokenType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeRequestedTokenType
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeResourceType
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeRpstExp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeRpstExp
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenExchangeSubjectTokenType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TokenExchangeSubjectTokenType
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "userOcid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? UserOcid
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "workloadIdentityTokenPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WorkloadIdentityTokenPath
         {
             get => GetInstanceProperty<string?>();
             set => SetInstanceProperty(value);

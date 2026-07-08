@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousExadataInfrastructureConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousExadataInfrastructure.DataOciDatabaseAutonomousExadataInfrastructureConfig")]
     public interface IDataOciDatabaseAutonomousExadataInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "autonomousExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousExadataInfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "autonomousExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousExadataInfrastructureId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter")]
     public class DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter : oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

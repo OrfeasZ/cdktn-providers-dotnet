@@ -7,7 +7,7 @@ namespace oci.DataOciAdmKnowledgeBase
     [JsiiInterface(nativeType: typeof(IDataOciAdmKnowledgeBaseConfig), fullyQualifiedName: "oci.dataOciAdmKnowledgeBase.DataOciAdmKnowledgeBaseConfig")]
     public interface IDataOciAdmKnowledgeBaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/adm_knowledge_base#knowledge_base_id DataOciAdmKnowledgeBase#knowledge_base_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/adm_knowledge_base#knowledge_base_id DataOciAdmKnowledgeBase#knowledge_base_id}.</summary>
         [JsiiProperty(name: "knowledgeBaseId", typeJson: "{\"primitive\":\"string\"}")]
         string KnowledgeBaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAdmKnowledgeBase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/adm_knowledge_base#knowledge_base_id DataOciAdmKnowledgeBase#knowledge_base_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/adm_knowledge_base#knowledge_base_id DataOciAdmKnowledgeBase#knowledge_base_id}.</summary>
             [JsiiProperty(name: "knowledgeBaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string KnowledgeBaseId
             {

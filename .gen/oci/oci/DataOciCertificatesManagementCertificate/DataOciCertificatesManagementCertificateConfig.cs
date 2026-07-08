@@ -9,7 +9,7 @@ namespace oci.DataOciCertificatesManagementCertificate
     [JsiiByValue(fqn: "oci.dataOciCertificatesManagementCertificate.DataOciCertificatesManagementCertificateConfig")]
     public class DataOciCertificatesManagementCertificateConfig : oci.DataOciCertificatesManagementCertificate.IDataOciCertificatesManagementCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnectors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudExadataStorageConnectors.DataOciDatabaseManagementCloudExadataStorageConnectorsFilter")]
     public class DataOciDatabaseManagementCloudExadataStorageConnectorsFilter : oci.DataOciDatabaseManagementCloudExadataStorageConnectors.IDataOciDatabaseManagementCloudExadataStorageConnectorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#name DataOciDatabaseManagementCloudExadataStorageConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#name DataOciDatabaseManagementCloudExadataStorageConnectors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#values DataOciDatabaseManagementCloudExadataStorageConnectors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#values DataOciDatabaseManagementCloudExadataStorageConnectors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnectors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#regex DataOciDatabaseManagementCloudExadataStorageConnectors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_exadata_storage_connectors#regex DataOciDatabaseManagementCloudExadataStorageConnectors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig")]
     public interface IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
         [JsiiProperty(name: "javaLicenseAcceptanceRecordId", typeJson: "{\"primitive\":\"string\"}")]
         string JavaLicenseAcceptanceRecordId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_license_acceptance_record#java_license_acceptance_record_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecord#java_license_acceptance_record_id}.</summary>
             [JsiiProperty(name: "javaLicenseAcceptanceRecordId", typeJson: "{\"primitive\":\"string\"}")]
             public string JavaLicenseAcceptanceRecordId
             {

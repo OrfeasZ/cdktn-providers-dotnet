@@ -9,7 +9,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
     [JsiiByValue(fqn: "oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct")]
     public class ApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct : oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#api_name ApiaccesscontrolPrivilegedApiControl#api_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_control#api_name ApiaccesscontrolPrivilegedApiControl#api_name}.</summary>
         [JsiiProperty(name: "apiName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiName
         {
@@ -17,7 +17,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#attribute_names ApiaccesscontrolPrivilegedApiControl#attribute_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_control#attribute_names ApiaccesscontrolPrivilegedApiControl#attribute_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeNames
@@ -26,7 +26,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apiaccesscontrol_privileged_api_control#entity_type ApiaccesscontrolPrivilegedApiControl#entity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_control#entity_type ApiaccesscontrolPrivilegedApiControl#entity_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EntityType

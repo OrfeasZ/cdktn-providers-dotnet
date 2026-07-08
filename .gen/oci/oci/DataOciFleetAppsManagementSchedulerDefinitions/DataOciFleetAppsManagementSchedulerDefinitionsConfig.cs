@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerDefinitions.DataOciFleetAppsManagementSchedulerDefinitionsConfig")]
     public class DataOciFleetAppsManagementSchedulerDefinitionsConfig : oci.DataOciFleetAppsManagementSchedulerDefinitions.IDataOciFleetAppsManagementSchedulerDefinitionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#compartment_id DataOciFleetAppsManagementSchedulerDefinitions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#compartment_id DataOciFleetAppsManagementSchedulerDefinitions#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#display_name DataOciFleetAppsManagementSchedulerDefinitions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#display_name DataOciFleetAppsManagementSchedulerDefinitions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#filter DataOciFleetAppsManagementSchedulerDefinitions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#filter DataOciFleetAppsManagementSchedulerDefinitions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementSchedulerDefinitions.IDataOciFleetAppsManagementSchedulerDefinitionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#fleet_id DataOciFleetAppsManagementSchedulerDefinitions#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#fleet_id DataOciFleetAppsManagementSchedulerDefinitions#fleet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FleetId
@@ -69,7 +69,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#id DataOciFleetAppsManagementSchedulerDefinitions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#id DataOciFleetAppsManagementSchedulerDefinitions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#maintenance_window_id DataOciFleetAppsManagementSchedulerDefinitions#maintenance_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#maintenance_window_id DataOciFleetAppsManagementSchedulerDefinitions#maintenance_window_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceWindowId
@@ -91,7 +91,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#product DataOciFleetAppsManagementSchedulerDefinitions#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#product DataOciFleetAppsManagementSchedulerDefinitions#product}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Product
@@ -100,7 +100,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#runbook_id DataOciFleetAppsManagementSchedulerDefinitions#runbook_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#runbook_id DataOciFleetAppsManagementSchedulerDefinitions#runbook_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runbookId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunbookId
@@ -109,7 +109,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#runbook_version_name DataOciFleetAppsManagementSchedulerDefinitions#runbook_version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#runbook_version_name DataOciFleetAppsManagementSchedulerDefinitions#runbook_version_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runbookVersionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunbookVersionName
@@ -118,7 +118,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#state DataOciFleetAppsManagementSchedulerDefinitions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#state DataOciFleetAppsManagementSchedulerDefinitions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -127,7 +127,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#time_scheduled_greater_than_or_equal_to DataOciFleetAppsManagementSchedulerDefinitions#time_scheduled_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#time_scheduled_greater_than_or_equal_to DataOciFleetAppsManagementSchedulerDefinitions#time_scheduled_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeScheduledGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeScheduledGreaterThanOrEqualTo
@@ -136,7 +136,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_scheduler_definitions#time_scheduled_less_than DataOciFleetAppsManagementSchedulerDefinitions#time_scheduled_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_definitions#time_scheduled_less_than DataOciFleetAppsManagementSchedulerDefinitions#time_scheduled_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeScheduledLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeScheduledLessThan

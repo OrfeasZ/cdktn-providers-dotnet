@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementNamedCredential
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementNamedCredentialConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementNamedCredential.DataOciDatabaseManagementNamedCredentialConfig")]
     public interface IDataOciDatabaseManagementNamedCredentialConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_named_credential#named_credential_id DataOciDatabaseManagementNamedCredential#named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_named_credential#named_credential_id DataOciDatabaseManagementNamedCredential#named_credential_id}.</summary>
         [JsiiProperty(name: "namedCredentialId", typeJson: "{\"primitive\":\"string\"}")]
         string NamedCredentialId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementNamedCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_named_credential#named_credential_id DataOciDatabaseManagementNamedCredential#named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_named_credential#named_credential_id DataOciDatabaseManagementNamedCredential#named_credential_id}.</summary>
             [JsiiProperty(name: "namedCredentialId", typeJson: "{\"primitive\":\"string\"}")]
             public string NamedCredentialId
             {

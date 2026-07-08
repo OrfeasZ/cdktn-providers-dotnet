@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAuditArchiveRetrieval
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditArchiveRetrievalConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditArchiveRetrieval.DataOciDataSafeAuditArchiveRetrievalConfig")]
     public interface IDataOciDataSafeAuditArchiveRetrievalConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_archive_retrieval#audit_archive_retrieval_id DataOciDataSafeAuditArchiveRetrieval#audit_archive_retrieval_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_archive_retrieval#audit_archive_retrieval_id DataOciDataSafeAuditArchiveRetrieval#audit_archive_retrieval_id}.</summary>
         [JsiiProperty(name: "auditArchiveRetrievalId", typeJson: "{\"primitive\":\"string\"}")]
         string AuditArchiveRetrievalId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAuditArchiveRetrieval
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_audit_archive_retrieval#audit_archive_retrieval_id DataOciDataSafeAuditArchiveRetrieval#audit_archive_retrieval_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_audit_archive_retrieval#audit_archive_retrieval_id DataOciDataSafeAuditArchiveRetrieval#audit_archive_retrieval_id}.</summary>
             [JsiiProperty(name: "auditArchiveRetrievalId", typeJson: "{\"primitive\":\"string\"}")]
             public string AuditArchiveRetrievalId
             {

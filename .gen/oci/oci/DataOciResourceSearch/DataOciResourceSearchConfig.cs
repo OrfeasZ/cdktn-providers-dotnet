@@ -9,7 +9,7 @@ namespace oci.DataOciResourceSearch
     [JsiiByValue(fqn: "oci.dataOciResourceSearch.DataOciResourceSearchConfig")]
     public class DataOciResourceSearchConfig : oci.DataOciResourceSearch.IDataOciResourceSearchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_search#query DataOciResourceSearch#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/resource_search#query DataOciResourceSearch#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciResourceSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/resource_search#id DataOciResourceSearch#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/resource_search#id DataOciResourceSearch#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

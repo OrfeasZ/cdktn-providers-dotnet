@@ -5,7 +5,7 @@ namespace oci.OperatorAccessControlOperatorControl
     /// <remarks>
     /// <h1><c>oci_operator_access_control_operator_control</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/operator_access_control_operator_control"><c>oci_operator_access_control_operator_control</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/operator_access_control_operator_control"><c>oci_operator_access_control_operator_control</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

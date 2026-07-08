@@ -7,14 +7,14 @@ namespace oci.JmsFleetAgentConfiguration
     [JsiiInterface(nativeType: typeof(IJmsFleetAgentConfigurationConfig), fullyQualifiedName: "oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationConfig")]
     public interface IJmsFleetAgentConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}.</summary>
         [JsiiProperty(name: "agentPollingIntervalInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AgentPollingIntervalInMinutes
@@ -25,7 +25,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -82,7 +82,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}.</summary>
         [JsiiProperty(name: "javaUsageTrackerProcessingFrequencyInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? JavaUsageTrackerProcessingFrequencyInMinutes
@@ -107,7 +107,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}.</summary>
         [JsiiProperty(name: "jreScanFrequencyInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? JreScanFrequencyInMinutes
@@ -120,7 +120,7 @@ namespace oci.JmsFleetAgentConfiguration
 
         /// <summary>linux_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
         /// </remarks>
         [JsiiProperty(name: "linuxConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationLinuxConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace oci.JmsFleetAgentConfiguration
 
         /// <summary>mac_os_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
         /// </remarks>
         [JsiiProperty(name: "macOsConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationMacOsConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -148,7 +148,7 @@ namespace oci.JmsFleetAgentConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -162,7 +162,7 @@ namespace oci.JmsFleetAgentConfiguration
 
         /// <summary>windows_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
         /// </remarks>
         [JsiiProperty(name: "windowsConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationWindowsConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -174,7 +174,7 @@ namespace oci.JmsFleetAgentConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}.</summary>
         [JsiiProperty(name: "workRequestValidityPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WorkRequestValidityPeriodInDays
@@ -192,14 +192,14 @@ namespace oci.JmsFleetAgentConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#fleet_id JmsFleetAgentConfiguration#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#agent_polling_interval_in_minutes JmsFleetAgentConfiguration#agent_polling_interval_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "agentPollingIntervalInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AgentPollingIntervalInMinutes
@@ -207,7 +207,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#id JmsFleetAgentConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -219,7 +219,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_capturing_ip_address_and_fqdn_enabled JmsFleetAgentConfiguration#is_capturing_ip_address_and_fqdn_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -230,7 +230,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_collecting_managed_instance_metrics_enabled JmsFleetAgentConfiguration#is_collecting_managed_instance_metrics_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -241,7 +241,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_collecting_usernames_enabled JmsFleetAgentConfiguration#is_collecting_usernames_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -252,7 +252,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#is_libraries_scan_enabled JmsFleetAgentConfiguration#is_libraries_scan_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -263,7 +263,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#java_usage_tracker_processing_frequency_in_minutes JmsFleetAgentConfiguration#java_usage_tracker_processing_frequency_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaUsageTrackerProcessingFrequencyInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? JavaUsageTrackerProcessingFrequencyInMinutes
@@ -271,7 +271,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#jre_scan_frequency_in_minutes JmsFleetAgentConfiguration#jre_scan_frequency_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jreScanFrequencyInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? JreScanFrequencyInMinutes
@@ -281,7 +281,7 @@ namespace oci.JmsFleetAgentConfiguration
 
             /// <summary>linux_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#linux_configuration JmsFleetAgentConfiguration#linux_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "linuxConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationLinuxConfiguration\"}", isOptional: true)]
@@ -292,7 +292,7 @@ namespace oci.JmsFleetAgentConfiguration
 
             /// <summary>mac_os_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#mac_os_configuration JmsFleetAgentConfiguration#mac_os_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "macOsConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationMacOsConfiguration\"}", isOptional: true)]
@@ -303,7 +303,7 @@ namespace oci.JmsFleetAgentConfiguration
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#timeouts JmsFleetAgentConfiguration#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationTimeouts\"}", isOptional: true)]
@@ -314,7 +314,7 @@ namespace oci.JmsFleetAgentConfiguration
 
             /// <summary>windows_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#windows_configuration JmsFleetAgentConfiguration#windows_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "windowsConfiguration", typeJson: "{\"fqn\":\"oci.jmsFleetAgentConfiguration.JmsFleetAgentConfigurationWindowsConfiguration\"}", isOptional: true)]
@@ -323,7 +323,7 @@ namespace oci.JmsFleetAgentConfiguration
                 get => GetInstanceProperty<oci.JmsFleetAgentConfiguration.IJmsFleetAgentConfigurationWindowsConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_fleet_agent_configuration#work_request_validity_period_in_days JmsFleetAgentConfiguration#work_request_validity_period_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workRequestValidityPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WorkRequestValidityPeriodInDays

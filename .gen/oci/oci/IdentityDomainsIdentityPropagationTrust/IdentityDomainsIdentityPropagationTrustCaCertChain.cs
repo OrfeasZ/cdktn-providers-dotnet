@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
     [JsiiByValue(fqn: "oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustCaCertChain")]
     public class IdentityDomainsIdentityPropagationTrustCaCertChain : oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustCaCertChain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_propagation_trust#root_cas IdentityDomainsIdentityPropagationTrust#root_cas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_identity_propagation_trust#root_cas IdentityDomainsIdentityPropagationTrust#root_cas}.</summary>
         [JsiiProperty(name: "rootCas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] RootCas
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_identity_propagation_trust#intermediate_cas IdentityDomainsIdentityPropagationTrust#intermediate_cas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_identity_propagation_trust#intermediate_cas IdentityDomainsIdentityPropagationTrust#intermediate_cas}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "intermediateCas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IntermediateCas

@@ -7,7 +7,7 @@ namespace oci.DataOciStackMonitoringMetricExtension
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringMetricExtensionConfig), fullyQualifiedName: "oci.dataOciStackMonitoringMetricExtension.DataOciStackMonitoringMetricExtensionConfig")]
     public interface IDataOciStackMonitoringMetricExtensionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
         [JsiiProperty(name: "metricExtensionId", typeJson: "{\"primitive\":\"string\"}")]
         string MetricExtensionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStackMonitoringMetricExtension
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
             [JsiiProperty(name: "metricExtensionId", typeJson: "{\"primitive\":\"string\"}")]
             public string MetricExtensionId
             {

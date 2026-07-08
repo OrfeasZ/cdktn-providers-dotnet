@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemDiscovery
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbSystemDiscovery.DataOciDatabaseManagementCloudDbSystemDiscoveryConfig")]
     public class DataOciDatabaseManagementCloudDbSystemDiscoveryConfig : oci.DataOciDatabaseManagementCloudDbSystemDiscovery.IDataOciDatabaseManagementCloudDbSystemDiscoveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_db_system_discovery#cloud_db_system_discovery_id DataOciDatabaseManagementCloudDbSystemDiscovery#cloud_db_system_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_discovery#cloud_db_system_discovery_id DataOciDatabaseManagementCloudDbSystemDiscovery#cloud_db_system_discovery_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudDbSystemDiscoveryId
         {

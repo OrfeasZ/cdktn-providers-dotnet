@@ -9,7 +9,7 @@ namespace oci.DataOciJmsUtilsPerformanceTuningAnalysis
     [JsiiByValue(fqn: "oci.dataOciJmsUtilsPerformanceTuningAnalysis.DataOciJmsUtilsPerformanceTuningAnalysisFilter")]
     public class DataOciJmsUtilsPerformanceTuningAnalysisFilter : oci.DataOciJmsUtilsPerformanceTuningAnalysis.IDataOciJmsUtilsPerformanceTuningAnalysisFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_utils_performance_tuning_analysis#name DataOciJmsUtilsPerformanceTuningAnalysis#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_utils_performance_tuning_analysis#name DataOciJmsUtilsPerformanceTuningAnalysis#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsUtilsPerformanceTuningAnalysis
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_utils_performance_tuning_analysis#values DataOciJmsUtilsPerformanceTuningAnalysis#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_utils_performance_tuning_analysis#values DataOciJmsUtilsPerformanceTuningAnalysis#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsUtilsPerformanceTuningAnalysis
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_utils_performance_tuning_analysis#regex DataOciJmsUtilsPerformanceTuningAnalysis#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_utils_performance_tuning_analysis#regex DataOciJmsUtilsPerformanceTuningAnalysis#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

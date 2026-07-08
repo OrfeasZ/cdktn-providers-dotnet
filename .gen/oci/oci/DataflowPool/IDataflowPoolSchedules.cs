@@ -7,7 +7,7 @@ namespace oci.DataflowPool
     [JsiiInterface(nativeType: typeof(IDataflowPoolSchedules), fullyQualifiedName: "oci.dataflowPool.DataflowPoolSchedules")]
     public interface IDataflowPoolSchedules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#day_of_week DataflowPool#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#day_of_week DataflowPool#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DayOfWeek
@@ -18,7 +18,7 @@ namespace oci.DataflowPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#start_time DataflowPool#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#start_time DataflowPool#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StartTime
@@ -29,7 +29,7 @@ namespace oci.DataflowPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#stop_time DataflowPool#stop_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#stop_time DataflowPool#stop_time}.</summary>
         [JsiiProperty(name: "stopTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StopTime
@@ -47,7 +47,7 @@ namespace oci.DataflowPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#day_of_week DataflowPool#day_of_week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#day_of_week DataflowPool#day_of_week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DayOfWeek
@@ -55,7 +55,7 @@ namespace oci.DataflowPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#start_time DataflowPool#start_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#start_time DataflowPool#start_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StartTime
@@ -63,7 +63,7 @@ namespace oci.DataflowPool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/dataflow_pool#stop_time DataflowPool#stop_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_pool#stop_time DataflowPool#stop_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "stopTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StopTime

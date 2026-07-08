@@ -7,7 +7,7 @@ namespace oci.DataOciPsaPsaWorkRequests
     [JsiiByValue(fqn: "oci.dataOciPsaPsaWorkRequests.DataOciPsaPsaWorkRequestsConfig")]
     public class DataOciPsaPsaWorkRequestsConfig : oci.DataOciPsaPsaWorkRequests.IDataOciPsaPsaWorkRequestsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#compartment_id DataOciPsaPsaWorkRequests#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#compartment_id DataOciPsaPsaWorkRequests#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciPsaPsaWorkRequests
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#filter DataOciPsaPsaWorkRequests#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#filter DataOciPsaPsaWorkRequests#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciPsaPsaWorkRequests.IDataOciPsaPsaWorkRequestsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciPsaPsaWorkRequests
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#id DataOciPsaPsaWorkRequests#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#id DataOciPsaPsaWorkRequests#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciPsaPsaWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#resource_id DataOciPsaPsaWorkRequests#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#resource_id DataOciPsaPsaWorkRequests#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -73,7 +73,7 @@ namespace oci.DataOciPsaPsaWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#status DataOciPsaPsaWorkRequests#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#status DataOciPsaPsaWorkRequests#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -82,7 +82,7 @@ namespace oci.DataOciPsaPsaWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_psa_work_requests#work_request_id DataOciPsaPsaWorkRequests#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_requests#work_request_id DataOciPsaPsaWorkRequests#work_request_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkRequestId

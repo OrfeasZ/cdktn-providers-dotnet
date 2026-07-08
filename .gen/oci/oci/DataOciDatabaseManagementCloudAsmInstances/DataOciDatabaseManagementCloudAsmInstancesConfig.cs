@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmInstances
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudAsmInstances.DataOciDatabaseManagementCloudAsmInstancesConfig")]
     public class DataOciDatabaseManagementCloudAsmInstancesConfig : oci.DataOciDatabaseManagementCloudAsmInstances.IDataOciDatabaseManagementCloudAsmInstancesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asm_instances#cloud_asm_id DataOciDatabaseManagementCloudAsmInstances#cloud_asm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asm_instances#cloud_asm_id DataOciDatabaseManagementCloudAsmInstances#cloud_asm_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudAsmId
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asm_instances#compartment_id DataOciDatabaseManagementCloudAsmInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asm_instances#compartment_id DataOciDatabaseManagementCloudAsmInstances#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asm_instances#display_name DataOciDatabaseManagementCloudAsmInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asm_instances#display_name DataOciDatabaseManagementCloudAsmInstances#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asm_instances#filter DataOciDatabaseManagementCloudAsmInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asm_instances#filter DataOciDatabaseManagementCloudAsmInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudAsmInstances.IDataOciDatabaseManagementCloudAsmInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_cloud_asm_instances#id DataOciDatabaseManagementCloudAsmInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_asm_instances#id DataOciDatabaseManagementCloudAsmInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

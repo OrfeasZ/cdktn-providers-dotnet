@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousDatabase
     {
         /// <summary>day_of_week block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#day_of_week DatabaseAutonomousDatabase#day_of_week}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#day_of_week DatabaseAutonomousDatabase#day_of_week}
         /// </remarks>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeek\"}")]
         oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeek DayOfWeek
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousDatabase
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#maintenance_end_time DatabaseAutonomousDatabase#maintenance_end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#maintenance_end_time DatabaseAutonomousDatabase#maintenance_end_time}.</summary>
         [JsiiProperty(name: "maintenanceEndTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaintenanceEndTime
@@ -28,7 +28,7 @@ namespace oci.DatabaseAutonomousDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#maintenance_start_time DatabaseAutonomousDatabase#maintenance_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#maintenance_start_time DatabaseAutonomousDatabase#maintenance_start_time}.</summary>
         [JsiiProperty(name: "maintenanceStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaintenanceStartTime
@@ -48,7 +48,7 @@ namespace oci.DatabaseAutonomousDatabase
 
             /// <summary>day_of_week block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#day_of_week DatabaseAutonomousDatabase#day_of_week}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#day_of_week DatabaseAutonomousDatabase#day_of_week}
             /// </remarks>
             [JsiiProperty(name: "dayOfWeek", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeek\"}")]
             public oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeek DayOfWeek
@@ -56,7 +56,7 @@ namespace oci.DatabaseAutonomousDatabase
                 get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeek>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#maintenance_end_time DatabaseAutonomousDatabase#maintenance_end_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#maintenance_end_time DatabaseAutonomousDatabase#maintenance_end_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceEndTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaintenanceEndTime
@@ -64,7 +64,7 @@ namespace oci.DatabaseAutonomousDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_autonomous_database#maintenance_start_time DatabaseAutonomousDatabase#maintenance_start_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#maintenance_start_time DatabaseAutonomousDatabase#maintenance_start_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaintenanceStartTime

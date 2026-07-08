@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserConsumerGroupPrivilege
     /// <remarks>
     /// <h1><c>data_oci_database_management_managed_database_user_consumer_group_privilege</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_user_consumer_group_privilege"><c>data_oci_database_management_managed_database_user_consumer_group_privilege</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_user_consumer_group_privilege"><c>data_oci_database_management_managed_database_user_consumer_group_privilege</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

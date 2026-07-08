@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeHostGroup
     [JsiiByValue(fqn: "oci.dataOciCoreComputeHostGroup.DataOciCoreComputeHostGroupConfig")]
     public class DataOciCoreComputeHostGroupConfig : oci.DataOciCoreComputeHostGroup.IDataOciCoreComputeHostGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
         [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeHostGroupId
         {

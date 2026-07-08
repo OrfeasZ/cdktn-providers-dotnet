@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationQuery
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationQuery.DataOciMeteringComputationQueryConfig")]
     public class DataOciMeteringComputationQueryConfig : oci.DataOciMeteringComputationQuery.IDataOciMeteringComputationQueryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/metering_computation_query#query_id DataOciMeteringComputationQuery#query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_query#query_id DataOciMeteringComputationQuery#query_id}.</summary>
         [JsiiProperty(name: "queryId", typeJson: "{\"primitive\":\"string\"}")]
         public string QueryId
         {

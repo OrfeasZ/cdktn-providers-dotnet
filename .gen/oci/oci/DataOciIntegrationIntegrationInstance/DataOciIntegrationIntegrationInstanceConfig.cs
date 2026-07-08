@@ -9,7 +9,7 @@ namespace oci.DataOciIntegrationIntegrationInstance
     [JsiiByValue(fqn: "oci.dataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceConfig")]
     public class DataOciIntegrationIntegrationInstanceConfig : oci.DataOciIntegrationIntegrationInstance.IDataOciIntegrationIntegrationInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
         [JsiiProperty(name: "integrationInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string IntegrationInstanceId
         {

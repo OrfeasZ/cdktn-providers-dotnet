@@ -7,14 +7,14 @@ namespace oci.DataOciManagedKafkaKafkaClusterAddon
     [JsiiInterface(nativeType: typeof(IDataOciManagedKafkaKafkaClusterAddonConfig), fullyQualifiedName: "oci.dataOciManagedKafkaKafkaClusterAddon.DataOciManagedKafkaKafkaClusterAddonConfig")]
     public interface IDataOciManagedKafkaKafkaClusterAddonConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_kafka_cluster_addon#kafka_cluster_id DataOciManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/managed_kafka_kafka_cluster_addon#kafka_cluster_id DataOciManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
         [JsiiProperty(name: "kafkaClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string KafkaClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_kafka_cluster_addon#name DataOciManagedKafkaKafkaClusterAddon#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/managed_kafka_kafka_cluster_addon#name DataOciManagedKafkaKafkaClusterAddon#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciManagedKafkaKafkaClusterAddon
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_kafka_cluster_addon#kafka_cluster_id DataOciManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/managed_kafka_kafka_cluster_addon#kafka_cluster_id DataOciManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
             [JsiiProperty(name: "kafkaClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string KafkaClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/managed_kafka_kafka_cluster_addon#name DataOciManagedKafkaKafkaClusterAddon#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/managed_kafka_kafka_cluster_addon#name DataOciManagedKafkaKafkaClusterAddon#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

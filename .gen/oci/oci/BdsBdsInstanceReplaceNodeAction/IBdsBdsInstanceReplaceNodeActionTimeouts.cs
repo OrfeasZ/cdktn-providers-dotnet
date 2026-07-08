@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceReplaceNodeAction
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceReplaceNodeActionTimeouts), fullyQualifiedName: "oci.bdsBdsInstanceReplaceNodeAction.BdsBdsInstanceReplaceNodeActionTimeouts")]
     public interface IBdsBdsInstanceReplaceNodeActionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_replace_node_action#create BdsBdsInstanceReplaceNodeAction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_replace_node_action#create BdsBdsInstanceReplaceNodeAction#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstanceReplaceNodeAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/bds_bds_instance_replace_node_action#create BdsBdsInstanceReplaceNodeAction#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_replace_node_action#create BdsBdsInstanceReplaceNodeAction#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

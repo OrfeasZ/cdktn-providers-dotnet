@@ -9,7 +9,7 @@ namespace oci.DataOciPsaPrivateServiceAccesses
     [JsiiByValue(fqn: "oci.dataOciPsaPrivateServiceAccesses.DataOciPsaPrivateServiceAccessesFilter")]
     public class DataOciPsaPrivateServiceAccessesFilter : oci.DataOciPsaPrivateServiceAccesses.IDataOciPsaPrivateServiceAccessesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_private_service_accesses#name DataOciPsaPrivateServiceAccesses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_private_service_accesses#name DataOciPsaPrivateServiceAccesses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsaPrivateServiceAccesses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_private_service_accesses#values DataOciPsaPrivateServiceAccesses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_private_service_accesses#values DataOciPsaPrivateServiceAccesses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciPsaPrivateServiceAccesses
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/psa_private_service_accesses#regex DataOciPsaPrivateServiceAccesses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_private_service_accesses#regex DataOciPsaPrivateServiceAccesses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

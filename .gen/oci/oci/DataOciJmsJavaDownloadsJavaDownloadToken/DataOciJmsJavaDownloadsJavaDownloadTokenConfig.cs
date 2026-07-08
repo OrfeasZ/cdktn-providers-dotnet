@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadToken
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaDownloadToken.DataOciJmsJavaDownloadsJavaDownloadTokenConfig")]
     public class DataOciJmsJavaDownloadsJavaDownloadTokenConfig : oci.DataOciJmsJavaDownloadsJavaDownloadToken.IDataOciJmsJavaDownloadsJavaDownloadTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_token#java_download_token_id DataOciJmsJavaDownloadsJavaDownloadToken#java_download_token_id}.</summary>
         [JsiiProperty(name: "javaDownloadTokenId", typeJson: "{\"primitive\":\"string\"}")]
         public string JavaDownloadTokenId
         {

@@ -7,14 +7,14 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiInterface(nativeType: typeof(IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows), fullyQualifiedName: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows")]
     public interface IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#time_end MysqlMysqlDbSystem#time_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#time_end MysqlMysqlDbSystem#time_end}.</summary>
         [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}")]
         string TimeEnd
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#time_start MysqlMysqlDbSystem#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#time_start MysqlMysqlDbSystem#time_start}.</summary>
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}")]
         string TimeStart
         {
@@ -28,14 +28,14 @@ namespace oci.MysqlMysqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#time_end MysqlMysqlDbSystem#time_end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#time_end MysqlMysqlDbSystem#time_end}.</summary>
             [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeEnd
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_db_system#time_start MysqlMysqlDbSystem#time_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#time_start MysqlMysqlDbSystem#time_start}.</summary>
             [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeStart
             {

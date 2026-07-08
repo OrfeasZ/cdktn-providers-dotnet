@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlMysqlBackup
     [JsiiInterface(nativeType: typeof(IDataOciMysqlMysqlBackupConfig), fullyQualifiedName: "oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupConfig")]
     public interface IDataOciMysqlMysqlBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlMysqlBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
             [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupId
             {

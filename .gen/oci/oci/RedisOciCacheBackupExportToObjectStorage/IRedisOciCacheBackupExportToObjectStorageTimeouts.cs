@@ -7,7 +7,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
     [JsiiInterface(nativeType: typeof(IRedisOciCacheBackupExportToObjectStorageTimeouts), fullyQualifiedName: "oci.redisOciCacheBackupExportToObjectStorage.RedisOciCacheBackupExportToObjectStorageTimeouts")]
     public interface IRedisOciCacheBackupExportToObjectStorageTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#create RedisOciCacheBackupExportToObjectStorage#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#create RedisOciCacheBackupExportToObjectStorage#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#delete RedisOciCacheBackupExportToObjectStorage#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#delete RedisOciCacheBackupExportToObjectStorage#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#update RedisOciCacheBackupExportToObjectStorage#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#update RedisOciCacheBackupExportToObjectStorage#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#create RedisOciCacheBackupExportToObjectStorage#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#create RedisOciCacheBackupExportToObjectStorage#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#delete RedisOciCacheBackupExportToObjectStorage#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#delete RedisOciCacheBackupExportToObjectStorage#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.RedisOciCacheBackupExportToObjectStorage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#update RedisOciCacheBackupExportToObjectStorage#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_backup_export_to_object_storage#update RedisOciCacheBackupExportToObjectStorage#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

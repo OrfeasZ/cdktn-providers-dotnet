@@ -7,7 +7,7 @@ namespace oci.DataOciWaasCustomProtectionRule
     [JsiiInterface(nativeType: typeof(IDataOciWaasCustomProtectionRuleConfig), fullyQualifiedName: "oci.dataOciWaasCustomProtectionRule.DataOciWaasCustomProtectionRuleConfig")]
     public interface IDataOciWaasCustomProtectionRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
         [JsiiProperty(name: "customProtectionRuleId", typeJson: "{\"primitive\":\"string\"}")]
         string CustomProtectionRuleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWaasCustomProtectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
             [JsiiProperty(name: "customProtectionRuleId", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomProtectionRuleId
             {

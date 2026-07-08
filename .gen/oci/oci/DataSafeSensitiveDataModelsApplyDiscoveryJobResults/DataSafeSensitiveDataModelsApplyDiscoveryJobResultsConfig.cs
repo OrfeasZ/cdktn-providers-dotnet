@@ -9,7 +9,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
     [JsiiByValue(fqn: "oci.dataSafeSensitiveDataModelsApplyDiscoveryJobResults.DataSafeSensitiveDataModelsApplyDiscoveryJobResultsConfig")]
     public class DataSafeSensitiveDataModelsApplyDiscoveryJobResultsConfig : oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults.IDataSafeSensitiveDataModelsApplyDiscoveryJobResultsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#discovery_job_id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#discovery_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#discovery_job_id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#discovery_job_id}.</summary>
         [JsiiProperty(name: "discoveryJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string DiscoveryJobId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#sensitive_data_model_id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#sensitive_data_model_id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveDataModelId
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#id DataSafeSensitiveDataModelsApplyDiscoveryJobResults#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DataSafeSensitiveDataModelsApplyDiscoveryJobResults
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#timeouts DataSafeSensitiveDataModelsApplyDiscoveryJobResults#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_models_apply_discovery_job_results#timeouts DataSafeSensitiveDataModelsApplyDiscoveryJobResults#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSensitiveDataModelsApplyDiscoveryJobResults.DataSafeSensitiveDataModelsApplyDiscoveryJobResultsTimeouts\"}", isOptional: true)]

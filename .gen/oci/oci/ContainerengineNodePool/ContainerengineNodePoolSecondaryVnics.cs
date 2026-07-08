@@ -11,7 +11,7 @@ namespace oci.ContainerengineNodePool
     {
         /// <summary>create_vnic_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
         /// </remarks>
         [JsiiProperty(name: "createVnicDetails", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnicsCreateVnicDetails\"}")]
         public oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnicsCreateVnicDetails CreateVnicDetails
@@ -20,7 +20,7 @@ namespace oci.ContainerengineNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.ContainerengineNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nicIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NicIndex

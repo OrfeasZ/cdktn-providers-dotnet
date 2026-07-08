@@ -9,7 +9,7 @@ namespace oci.DataOciDnsSteeringPolicyAttachment
     [JsiiByValue(fqn: "oci.dataOciDnsSteeringPolicyAttachment.DataOciDnsSteeringPolicyAttachmentConfig")]
     public class DataOciDnsSteeringPolicyAttachmentConfig : oci.DataOciDnsSteeringPolicyAttachment.IDataOciDnsSteeringPolicyAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_steering_policy_attachment#steering_policy_attachment_id DataOciDnsSteeringPolicyAttachment#steering_policy_attachment_id}.</summary>
         [JsiiProperty(name: "steeringPolicyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SteeringPolicyAttachmentId
         {

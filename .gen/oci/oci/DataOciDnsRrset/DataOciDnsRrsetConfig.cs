@@ -9,7 +9,7 @@ namespace oci.DataOciDnsRrset
     [JsiiByValue(fqn: "oci.dataOciDnsRrset.DataOciDnsRrsetConfig")]
     public class DataOciDnsRrsetConfig : oci.DataOciDnsRrset.IDataOciDnsRrsetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#domain DataOciDnsRrset#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#domain DataOciDnsRrset#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#rtype DataOciDnsRrset#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#rtype DataOciDnsRrset#rtype}.</summary>
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
         public string Rtype
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#zone_name_or_id DataOciDnsRrset#zone_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#zone_name_or_id DataOciDnsRrset#zone_name_or_id}.</summary>
         [JsiiProperty(name: "zoneNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneNameOrId
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#compartment_id DataOciDnsRrset#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#compartment_id DataOciDnsRrset#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -42,7 +42,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#scope DataOciDnsRrset#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#scope DataOciDnsRrset#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope
@@ -51,7 +51,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#view_id DataOciDnsRrset#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#view_id DataOciDnsRrset#view_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewId
@@ -60,7 +60,7 @@ namespace oci.DataOciDnsRrset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dns_rrset#zone_version DataOciDnsRrset#zone_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dns_rrset#zone_version DataOciDnsRrset#zone_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zoneVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZoneVersion

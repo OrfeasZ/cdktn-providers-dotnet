@@ -7,28 +7,28 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisor
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecutionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#execution_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#execution_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#execution_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#execution_name}.</summary>
         [JsiiProperty(name: "executionName", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#task_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#task_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#task_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#task_name}.</summary>
         [JsiiProperty(name: "taskName", typeJson: "{\"primitive\":\"string\"}")]
         string TaskName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,28 +50,28 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#execution_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#execution_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#execution_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#execution_name}.</summary>
             [JsiiProperty(name: "executionName", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#task_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#task_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#task_name DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#task_name}.</summary>
             [JsiiProperty(name: "taskName", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_advisor_execution#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsAdvisorExecution#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

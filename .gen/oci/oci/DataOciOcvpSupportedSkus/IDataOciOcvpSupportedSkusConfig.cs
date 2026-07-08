@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpSupportedSkus
     [JsiiInterface(nativeType: typeof(IDataOciOcvpSupportedSkusConfig), fullyQualifiedName: "oci.dataOciOcvpSupportedSkus.DataOciOcvpSupportedSkusConfig")]
     public interface IDataOciOcvpSupportedSkusConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#compartment_id DataOciOcvpSupportedSkus#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#compartment_id DataOciOcvpSupportedSkus#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciOcvpSupportedSkus
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#filter DataOciOcvpSupportedSkus#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#filter DataOciOcvpSupportedSkus#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpSupportedSkus.IDataOciOcvpSupportedSkusFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpSupportedSkus.DataOciOcvpSupportedSkusFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciOcvpSupportedSkus
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#host_shape_name DataOciOcvpSupportedSkus#host_shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#host_shape_name DataOciOcvpSupportedSkus#host_shape_name}.</summary>
         [JsiiProperty(name: "hostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostShapeName
@@ -40,7 +40,7 @@ namespace oci.DataOciOcvpSupportedSkus
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#id DataOciOcvpSupportedSkus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#id DataOciOcvpSupportedSkus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace oci.DataOciOcvpSupportedSkus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#compartment_id DataOciOcvpSupportedSkus#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#compartment_id DataOciOcvpSupportedSkus#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -71,7 +71,7 @@ namespace oci.DataOciOcvpSupportedSkus
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#filter DataOciOcvpSupportedSkus#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#filter DataOciOcvpSupportedSkus#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpSupportedSkus.IDataOciOcvpSupportedSkusFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.DataOciOcvpSupportedSkus
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#host_shape_name DataOciOcvpSupportedSkus#host_shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#host_shape_name DataOciOcvpSupportedSkus#host_shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostShapeName
@@ -89,7 +89,7 @@ namespace oci.DataOciOcvpSupportedSkus
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ocvp_supported_skus#id DataOciOcvpSupportedSkus#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_supported_skus#id DataOciOcvpSupportedSkus#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

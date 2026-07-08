@@ -7,14 +7,14 @@ namespace oci.DataOciJmsTaskSchedule
     [JsiiInterface(nativeType: typeof(IDataOciJmsTaskScheduleConfig), fullyQualifiedName: "oci.dataOciJmsTaskSchedule.DataOciJmsTaskScheduleConfig")]
     public interface IDataOciJmsTaskScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
         [JsiiProperty(name: "taskScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         string TaskScheduleId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FleetId
@@ -32,14 +32,14 @@ namespace oci.DataOciJmsTaskSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
             [JsiiProperty(name: "taskScheduleId", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskScheduleId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FleetId

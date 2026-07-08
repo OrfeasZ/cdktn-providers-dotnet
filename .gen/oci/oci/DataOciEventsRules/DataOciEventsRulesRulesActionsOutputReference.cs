@@ -35,6 +35,12 @@ namespace oci.DataOciEventsRules
         {
         }
 
+        [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"oci.dataOciEventsRules.DataOciEventsRulesRulesActionsActionList\"}")]
+        public virtual oci.DataOciEventsRules.DataOciEventsRulesRulesActionsActionList Action
+        {
+            get => GetInstanceProperty<oci.DataOciEventsRules.DataOciEventsRulesRulesActionsActionList>()!;
+        }
+
         [JsiiProperty(name: "actions", typeJson: "{\"fqn\":\"oci.dataOciEventsRules.DataOciEventsRulesRulesActionsActionsList\"}")]
         public virtual oci.DataOciEventsRules.DataOciEventsRulesRulesActionsActionsList Actions
         {

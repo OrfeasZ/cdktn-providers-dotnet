@@ -7,7 +7,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessCheck
     [JsiiInterface(nativeType: typeof(IDataOciFleetSoftwareUpdateFsuReadinessCheckConfig), fullyQualifiedName: "oci.dataOciFleetSoftwareUpdateFsuReadinessCheck.DataOciFleetSoftwareUpdateFsuReadinessCheckConfig")]
     public interface IDataOciFleetSoftwareUpdateFsuReadinessCheckConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
         [JsiiProperty(name: "fsuReadinessCheckId", typeJson: "{\"primitive\":\"string\"}")]
         string FsuReadinessCheckId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessCheck
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
             [JsiiProperty(name: "fsuReadinessCheckId", typeJson: "{\"primitive\":\"string\"}")]
             public string FsuReadinessCheckId
             {

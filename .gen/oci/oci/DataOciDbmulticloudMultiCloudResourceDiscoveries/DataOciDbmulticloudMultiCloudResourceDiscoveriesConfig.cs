@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudMultiCloudResourceDiscoveries.DataOciDbmulticloudMultiCloudResourceDiscoveriesConfig")]
     public class DataOciDbmulticloudMultiCloudResourceDiscoveriesConfig : oci.DataOciDbmulticloudMultiCloudResourceDiscoveries.IDataOciDbmulticloudMultiCloudResourceDiscoveriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#compartment_id DataOciDbmulticloudMultiCloudResourceDiscoveries#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#compartment_id DataOciDbmulticloudMultiCloudResourceDiscoveries#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#display_name DataOciDbmulticloudMultiCloudResourceDiscoveries#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#display_name DataOciDbmulticloudMultiCloudResourceDiscoveries#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#filter DataOciDbmulticloudMultiCloudResourceDiscoveries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#filter DataOciDbmulticloudMultiCloudResourceDiscoveries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudMultiCloudResourceDiscoveries.IDataOciDbmulticloudMultiCloudResourceDiscoveriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#id DataOciDbmulticloudMultiCloudResourceDiscoveries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#id DataOciDbmulticloudMultiCloudResourceDiscoveries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscoveries#multi_cloud_resource_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscoveries#multi_cloud_resource_discovery_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "multiCloudResourceDiscoveryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MultiCloudResourceDiscoveryId
@@ -83,7 +83,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#oracle_db_azure_connector_id DataOciDbmulticloudMultiCloudResourceDiscoveries#oracle_db_azure_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#oracle_db_azure_connector_id DataOciDbmulticloudMultiCloudResourceDiscoveries#oracle_db_azure_connector_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oracleDbAzureConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OracleDbAzureConnectorId
@@ -92,7 +92,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#resources_filter DataOciDbmulticloudMultiCloudResourceDiscoveries#resources_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#resources_filter DataOciDbmulticloudMultiCloudResourceDiscoveries#resources_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourcesFilter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ResourcesFilter
@@ -101,7 +101,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#resource_type DataOciDbmulticloudMultiCloudResourceDiscoveries#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#resource_type DataOciDbmulticloudMultiCloudResourceDiscoveries#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -110,7 +110,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#state DataOciDbmulticloudMultiCloudResourceDiscoveries#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#state DataOciDbmulticloudMultiCloudResourceDiscoveries#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

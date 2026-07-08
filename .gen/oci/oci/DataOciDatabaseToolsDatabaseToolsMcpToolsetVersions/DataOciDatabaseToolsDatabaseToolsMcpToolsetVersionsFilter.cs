@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsMcpToolsetVersions.DataOciDatabaseToolsDatabaseToolsMcpToolsetVersionsFilter")]
     public class DataOciDatabaseToolsDatabaseToolsMcpToolsetVersionsFilter : oci.DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions.IDataOciDatabaseToolsDatabaseToolsMcpToolsetVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#name DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#name DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#values DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#values DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#regex DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_mcp_toolset_versions#regex DataOciDatabaseToolsDatabaseToolsMcpToolsetVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

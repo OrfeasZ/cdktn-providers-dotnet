@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsNamespaceFieldUsage
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsNamespaceFieldUsage.DataOciLogAnalyticsNamespaceFieldUsageConfig")]
     public class DataOciLogAnalyticsNamespaceFieldUsageConfig : oci.DataOciLogAnalyticsNamespaceFieldUsage.IDataOciLogAnalyticsNamespaceFieldUsageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_namespace_field_usage#field_name DataOciLogAnalyticsNamespaceFieldUsage#field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_namespace_field_usage#field_name DataOciLogAnalyticsNamespaceFieldUsage#field_name}.</summary>
         [JsiiProperty(name: "fieldName", typeJson: "{\"primitive\":\"string\"}")]
         public string FieldName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsNamespaceFieldUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_namespace_field_usage#namespace DataOciLogAnalyticsNamespaceFieldUsage#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_namespace_field_usage#namespace DataOciLogAnalyticsNamespaceFieldUsage#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciLogAnalyticsNamespaceFieldUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/log_analytics_namespace_field_usage#id DataOciLogAnalyticsNamespaceFieldUsage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_namespace_field_usage#id DataOciLogAnalyticsNamespaceFieldUsage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

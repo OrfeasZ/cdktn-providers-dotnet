@@ -9,7 +9,7 @@ namespace oci.SelfSubscription
     [JsiiByValue(fqn: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRates")]
     public class SelfSubscriptionSubscriptionDetailsPricingPlanRates : oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanRates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         public string Currency
         {
@@ -17,7 +17,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
         [JsiiProperty(name: "rate", typeJson: "{\"primitive\":\"number\"}")]
         public double Rate
         {

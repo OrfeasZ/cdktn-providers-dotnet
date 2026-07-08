@@ -9,7 +9,7 @@ namespace oci.OcvpManagementAppliance
     [JsiiByValue(fqn: "oci.ocvpManagementAppliance.OcvpManagementApplianceConnections")]
     public class OcvpManagementApplianceConnections : oci.OcvpManagementAppliance.IOcvpManagementApplianceConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
         [JsiiProperty(name: "credentialsSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialsSecretId
         {
@@ -17,7 +17,7 @@ namespace oci.OcvpManagementAppliance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

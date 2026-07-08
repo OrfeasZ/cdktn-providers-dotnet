@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsMcpServer
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsMcpServer.DataOciDatabaseToolsDatabaseToolsMcpServerConfig")]
     public class DataOciDatabaseToolsDatabaseToolsMcpServerConfig : oci.DataOciDatabaseToolsDatabaseToolsMcpServer.IDataOciDatabaseToolsDatabaseToolsMcpServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_tools_database_tools_mcp_server#database_tools_mcp_server_id DataOciDatabaseToolsDatabaseToolsMcpServer#database_tools_mcp_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_mcp_server#database_tools_mcp_server_id DataOciDatabaseToolsDatabaseToolsMcpServer#database_tools_mcp_server_id}.</summary>
         [JsiiProperty(name: "databaseToolsMcpServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsMcpServerId
         {

@@ -7,7 +7,7 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiInterface(nativeType: typeof(IOpensearchOpensearchClusterMaintenanceDetails), fullyQualifiedName: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetails")]
     public interface IOpensearchOpensearchClusterMaintenanceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}.</summary>
         [JsiiProperty(name: "notificationEmailIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotificationEmailIds
@@ -25,7 +25,7 @@ namespace oci.OpensearchOpensearchCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/opensearch_opensearch_cluster#notification_email_ids OpensearchOpensearchCluster#notification_email_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notificationEmailIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotificationEmailIds

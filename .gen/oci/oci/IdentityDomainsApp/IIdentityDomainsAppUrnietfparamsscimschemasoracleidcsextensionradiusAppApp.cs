@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppApp), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppApp")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}.</summary>
         [JsiiProperty(name: "clientIp", typeJson: "{\"primitive\":\"string\"}")]
         string ClientIp
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,21 +24,21 @@ namespace oci.IdentityDomainsApp
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
         string Port
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}.</summary>
         [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
         string SecretKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}.</summary>
         [JsiiProperty(name: "countryCodeResponseAttributeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CountryCodeResponseAttributeId
@@ -63,7 +63,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}.</summary>
         [JsiiProperty(name: "endUserIpAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndUserIpAttribute
@@ -74,7 +74,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}.</summary>
         [JsiiProperty(name: "groupMembershipRadiusAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GroupMembershipRadiusAttribute
@@ -87,7 +87,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>group_membership_to_return block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppAppGroupMembershipToReturn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "groupMembershipToReturn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppAppGroupMembershipToReturn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}.</summary>
         [JsiiProperty(name: "groupNameFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GroupNameFormat
@@ -111,7 +111,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -125,7 +125,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}.</summary>
         [JsiiProperty(name: "radiusVendorSpecificId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RadiusVendorSpecificId
@@ -136,7 +136,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}.</summary>
         [JsiiProperty(name: "responseFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseFormat
@@ -147,7 +147,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}.</summary>
         [JsiiProperty(name: "responseFormatDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseFormatDelimiter
@@ -158,7 +158,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}.</summary>
         [JsiiProperty(name: "typeOfRadiusApp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TypeOfRadiusApp
@@ -176,14 +176,14 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#client_ip IdentityDomainsApp#client_ip}.</summary>
             [JsiiProperty(name: "clientIp", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientIp
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#include_group_in_response IdentityDomainsApp#include_group_in_response}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -193,21 +193,21 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#port IdentityDomainsApp#port}.</summary>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
             public string Port
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#secret_key IdentityDomainsApp#secret_key}.</summary>
             [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#capture_client_ip IdentityDomainsApp#capture_client_ip}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -218,7 +218,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#country_code_response_attribute_id IdentityDomainsApp#country_code_response_attribute_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "countryCodeResponseAttributeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CountryCodeResponseAttributeId
@@ -226,7 +226,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#end_user_ip_attribute IdentityDomainsApp#end_user_ip_attribute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endUserIpAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndUserIpAttribute
@@ -234,7 +234,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_membership_radius_attribute IdentityDomainsApp#group_membership_radius_attribute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupMembershipRadiusAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GroupMembershipRadiusAttribute
@@ -244,7 +244,7 @@ namespace oci.IdentityDomainsApp
 
             /// <summary>group_membership_to_return block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_membership_to_return IdentityDomainsApp#group_membership_to_return}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionradiusAppAppGroupMembershipToReturn" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -254,7 +254,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#group_name_format IdentityDomainsApp#group_name_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupNameFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GroupNameFormat
@@ -262,7 +262,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#password_and_otp_together IdentityDomainsApp#password_and_otp_together}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -273,7 +273,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#radius_vendor_specific_id IdentityDomainsApp#radius_vendor_specific_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "radiusVendorSpecificId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RadiusVendorSpecificId
@@ -281,7 +281,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#response_format IdentityDomainsApp#response_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseFormat
@@ -289,7 +289,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#response_format_delimiter IdentityDomainsApp#response_format_delimiter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseFormatDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseFormatDelimiter
@@ -297,7 +297,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#type_of_radius_app IdentityDomainsApp#type_of_radius_app}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "typeOfRadiusApp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TypeOfRadiusApp

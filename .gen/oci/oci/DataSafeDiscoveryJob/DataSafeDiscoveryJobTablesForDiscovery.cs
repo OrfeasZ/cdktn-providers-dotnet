@@ -9,7 +9,7 @@ namespace oci.DataSafeDiscoveryJob
     [JsiiByValue(fqn: "oci.dataSafeDiscoveryJob.DataSafeDiscoveryJobTablesForDiscovery")]
     public class DataSafeDiscoveryJobTablesForDiscovery : oci.DataSafeDiscoveryJob.IDataSafeDiscoveryJobTablesForDiscovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_discovery_job#schema_name DataSafeDiscoveryJob#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_discovery_job#schema_name DataSafeDiscoveryJob#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}")]
         public string SchemaName
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeDiscoveryJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/data_safe_discovery_job#table_names DataSafeDiscoveryJob#table_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_discovery_job#table_names DataSafeDiscoveryJob#table_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TableNames

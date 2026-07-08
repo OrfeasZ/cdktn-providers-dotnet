@@ -9,7 +9,7 @@ namespace oci.BatchBatchContext
     [JsiiByValue(fqn: "oci.batchBatchContext.BatchBatchContextNetwork")]
     public class BatchBatchContextNetwork : oci.BatchBatchContext.IBatchBatchContextNetwork
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/batch_batch_context#subnet_id BatchBatchContext#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/batch_batch_context#subnet_id BatchBatchContext#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -17,7 +17,7 @@ namespace oci.BatchBatchContext
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/batch_batch_context#nsg_ids BatchBatchContext#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/batch_batch_context#nsg_ids BatchBatchContext#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds

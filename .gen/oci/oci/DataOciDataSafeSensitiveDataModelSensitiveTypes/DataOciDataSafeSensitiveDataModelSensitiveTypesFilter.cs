@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveDataModelSensitiveTypes.DataOciDataSafeSensitiveDataModelSensitiveTypesFilter")]
     public class DataOciDataSafeSensitiveDataModelSensitiveTypesFilter : oci.DataOciDataSafeSensitiveDataModelSensitiveTypes.IDataOciDataSafeSensitiveDataModelSensitiveTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#name DataOciDataSafeSensitiveDataModelSensitiveTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#name DataOciDataSafeSensitiveDataModelSensitiveTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#values DataOciDataSafeSensitiveDataModelSensitiveTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#values DataOciDataSafeSensitiveDataModelSensitiveTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#regex DataOciDataSafeSensitiveDataModelSensitiveTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#regex DataOciDataSafeSensitiveDataModelSensitiveTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

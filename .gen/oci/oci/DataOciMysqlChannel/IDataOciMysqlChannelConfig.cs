@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlChannel
     [JsiiInterface(nativeType: typeof(IDataOciMysqlChannelConfig), fullyQualifiedName: "oci.dataOciMysqlChannel.DataOciMysqlChannelConfig")]
     public interface IDataOciMysqlChannelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
         [JsiiProperty(name: "channelId", typeJson: "{\"primitive\":\"string\"}")]
         string ChannelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
             [JsiiProperty(name: "channelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ChannelId
             {

@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlBackup
     [JsiiByValue(fqn: "oci.mysqlMysqlBackup.MysqlMysqlBackupSourceDetails")]
     public class MysqlMysqlBackupSourceDetails : oci.MysqlMysqlBackup.IMysqlMysqlBackupSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_backup#backup_id MysqlMysqlBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_backup#backup_id MysqlMysqlBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         public string BackupId
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {

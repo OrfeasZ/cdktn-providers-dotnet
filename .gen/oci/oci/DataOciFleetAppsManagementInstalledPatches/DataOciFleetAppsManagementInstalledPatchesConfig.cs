@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementInstalledPatches.DataOciFleetAppsManagementInstalledPatchesConfig")]
     public class DataOciFleetAppsManagementInstalledPatchesConfig : oci.DataOciFleetAppsManagementInstalledPatches.IDataOciFleetAppsManagementInstalledPatchesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#compartment_id DataOciFleetAppsManagementInstalledPatches#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#compartment_id DataOciFleetAppsManagementInstalledPatches#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#filter DataOciFleetAppsManagementInstalledPatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#filter DataOciFleetAppsManagementInstalledPatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementInstalledPatches.IDataOciFleetAppsManagementInstalledPatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#id DataOciFleetAppsManagementInstalledPatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#id DataOciFleetAppsManagementInstalledPatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#patch_level DataOciFleetAppsManagementInstalledPatches#patch_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#patch_level DataOciFleetAppsManagementInstalledPatches#patch_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchLevel
@@ -74,7 +74,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#patch_type DataOciFleetAppsManagementInstalledPatches#patch_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#patch_type DataOciFleetAppsManagementInstalledPatches#patch_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchType
@@ -83,7 +83,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#severity DataOciFleetAppsManagementInstalledPatches#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#severity DataOciFleetAppsManagementInstalledPatches#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Severity
@@ -92,7 +92,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#target_id DataOciFleetAppsManagementInstalledPatches#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#target_id DataOciFleetAppsManagementInstalledPatches#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -101,7 +101,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/fleet_apps_management_installed_patches#target_name DataOciFleetAppsManagementInstalledPatches#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_installed_patches#target_name DataOciFleetAppsManagementInstalledPatches#target_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetName

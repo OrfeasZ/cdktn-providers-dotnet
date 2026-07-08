@@ -9,7 +9,7 @@ namespace oci.KmsGeneratedKey
     [JsiiByValue(fqn: "oci.kmsGeneratedKey.KmsGeneratedKeyConfig")]
     public class KmsGeneratedKeyConfig : oci.KmsGeneratedKey.IKmsGeneratedKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#crypto_endpoint KmsGeneratedKey#crypto_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#crypto_endpoint KmsGeneratedKey#crypto_endpoint}.</summary>
         [JsiiProperty(name: "cryptoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string CryptoEndpoint
         {
@@ -19,7 +19,7 @@ namespace oci.KmsGeneratedKey
 
         private object _includePlaintextKey;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#include_plaintext_key KmsGeneratedKey#include_plaintext_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#include_plaintext_key KmsGeneratedKey#include_plaintext_key}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.KmsGeneratedKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#key_id KmsGeneratedKey#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#key_id KmsGeneratedKey#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -60,7 +60,7 @@ namespace oci.KmsGeneratedKey
 
         /// <summary>key_shape block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#key_shape KmsGeneratedKey#key_shape}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#key_shape KmsGeneratedKey#key_shape}
         /// </remarks>
         [JsiiProperty(name: "keyShape", typeJson: "{\"fqn\":\"oci.kmsGeneratedKey.KmsGeneratedKeyKeyShape\"}")]
         public oci.KmsGeneratedKey.IKmsGeneratedKeyKeyShape KeyShape
@@ -69,7 +69,7 @@ namespace oci.KmsGeneratedKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#associated_data KmsGeneratedKey#associated_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#associated_data KmsGeneratedKey#associated_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AssociatedData
@@ -78,7 +78,7 @@ namespace oci.KmsGeneratedKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#id KmsGeneratedKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#id KmsGeneratedKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.KmsGeneratedKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#logging_context KmsGeneratedKey#logging_context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#logging_context KmsGeneratedKey#logging_context}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loggingContext", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? LoggingContext
@@ -102,7 +102,7 @@ namespace oci.KmsGeneratedKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_generated_key#timeouts KmsGeneratedKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_generated_key#timeouts KmsGeneratedKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsGeneratedKey.KmsGeneratedKeyTimeouts\"}", isOptional: true)]

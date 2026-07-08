@@ -7,7 +7,7 @@ namespace oci.DataOciOnsNotificationTopic
     [JsiiInterface(nativeType: typeof(IDataOciOnsNotificationTopicConfig), fullyQualifiedName: "oci.dataOciOnsNotificationTopic.DataOciOnsNotificationTopicConfig")]
     public interface IDataOciOnsNotificationTopicConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
         string TopicId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOnsNotificationTopic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
             [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicId
             {

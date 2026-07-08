@@ -7,21 +7,21 @@ namespace oci.DataOciJmsFleetCryptoAnalysisResult
     [JsiiInterface(nativeType: typeof(IDataOciJmsFleetCryptoAnalysisResultConfig), fullyQualifiedName: "oci.dataOciJmsFleetCryptoAnalysisResult.DataOciJmsFleetCryptoAnalysisResultConfig")]
     public interface IDataOciJmsFleetCryptoAnalysisResultConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#crypto_analysis_result_id DataOciJmsFleetCryptoAnalysisResult#crypto_analysis_result_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#crypto_analysis_result_id DataOciJmsFleetCryptoAnalysisResult#crypto_analysis_result_id}.</summary>
         [JsiiProperty(name: "cryptoAnalysisResultId", typeJson: "{\"primitive\":\"string\"}")]
         string CryptoAnalysisResultId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#fleet_id DataOciJmsFleetCryptoAnalysisResult#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#fleet_id DataOciJmsFleetCryptoAnalysisResult#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#id DataOciJmsFleetCryptoAnalysisResult#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#id DataOciJmsFleetCryptoAnalysisResult#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciJmsFleetCryptoAnalysisResult
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#crypto_analysis_result_id DataOciJmsFleetCryptoAnalysisResult#crypto_analysis_result_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#crypto_analysis_result_id DataOciJmsFleetCryptoAnalysisResult#crypto_analysis_result_id}.</summary>
             [JsiiProperty(name: "cryptoAnalysisResultId", typeJson: "{\"primitive\":\"string\"}")]
             public string CryptoAnalysisResultId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#fleet_id DataOciJmsFleetCryptoAnalysisResult#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#fleet_id DataOciJmsFleetCryptoAnalysisResult#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_fleet_crypto_analysis_result#id DataOciJmsFleetCryptoAnalysisResult#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_crypto_analysis_result#id DataOciJmsFleetCryptoAnalysisResult#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

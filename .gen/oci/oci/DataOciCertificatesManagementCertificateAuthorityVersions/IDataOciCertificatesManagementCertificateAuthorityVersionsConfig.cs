@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementCertificateAuthorityVersionsConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementCertificateAuthorityVersions.DataOciCertificatesManagementCertificateAuthorityVersionsConfig")]
     public interface IDataOciCertificatesManagementCertificateAuthorityVersionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#certificate_authority_id DataOciCertificatesManagementCertificateAuthorityVersions#certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#certificate_authority_id DataOciCertificatesManagementCertificateAuthorityVersions#certificate_authority_id}.</summary>
         [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateAuthorityId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#filter DataOciCertificatesManagementCertificateAuthorityVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#filter DataOciCertificatesManagementCertificateAuthorityVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementCertificateAuthorityVersions.IDataOciCertificatesManagementCertificateAuthorityVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCertificatesManagementCertificateAuthorityVersions.DataOciCertificatesManagementCertificateAuthorityVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#id DataOciCertificatesManagementCertificateAuthorityVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#id DataOciCertificatesManagementCertificateAuthorityVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#version_number DataOciCertificatesManagementCertificateAuthorityVersions#version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#version_number DataOciCertificatesManagementCertificateAuthorityVersions#version_number}.</summary>
         [JsiiProperty(name: "versionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VersionNumber
@@ -62,7 +62,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#certificate_authority_id DataOciCertificatesManagementCertificateAuthorityVersions#certificate_authority_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#certificate_authority_id DataOciCertificatesManagementCertificateAuthorityVersions#certificate_authority_id}.</summary>
             [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateAuthorityId
             {
@@ -71,7 +71,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#filter DataOciCertificatesManagementCertificateAuthorityVersions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#filter DataOciCertificatesManagementCertificateAuthorityVersions#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementCertificateAuthorityVersions.IDataOciCertificatesManagementCertificateAuthorityVersionsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#id DataOciCertificatesManagementCertificateAuthorityVersions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#id DataOciCertificatesManagementCertificateAuthorityVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthorityVersions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/certificates_management_certificate_authority_versions#version_number DataOciCertificatesManagementCertificateAuthorityVersions#version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/certificates_management_certificate_authority_versions#version_number DataOciCertificatesManagementCertificateAuthorityVersions#version_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "versionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VersionNumber

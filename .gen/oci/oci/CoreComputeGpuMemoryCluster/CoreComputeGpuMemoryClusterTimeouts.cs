@@ -7,7 +7,7 @@ namespace oci.CoreComputeGpuMemoryCluster
     [JsiiByValue(fqn: "oci.coreComputeGpuMemoryCluster.CoreComputeGpuMemoryClusterTimeouts")]
     public class CoreComputeGpuMemoryClusterTimeouts : oci.CoreComputeGpuMemoryCluster.ICoreComputeGpuMemoryClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_gpu_memory_cluster#create CoreComputeGpuMemoryCluster#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_gpu_memory_cluster#create CoreComputeGpuMemoryCluster#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CoreComputeGpuMemoryCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_gpu_memory_cluster#delete CoreComputeGpuMemoryCluster#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_gpu_memory_cluster#delete CoreComputeGpuMemoryCluster#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CoreComputeGpuMemoryCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/core_compute_gpu_memory_cluster#update CoreComputeGpuMemoryCluster#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_gpu_memory_cluster#update CoreComputeGpuMemoryCluster#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

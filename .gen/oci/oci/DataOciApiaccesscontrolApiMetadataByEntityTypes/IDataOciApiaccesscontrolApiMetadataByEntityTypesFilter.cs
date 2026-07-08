@@ -7,21 +7,21 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
     [JsiiInterface(nativeType: typeof(IDataOciApiaccesscontrolApiMetadataByEntityTypesFilter), fullyQualifiedName: "oci.dataOciApiaccesscontrolApiMetadataByEntityTypes.DataOciApiaccesscontrolApiMetadataByEntityTypesFilter")]
     public interface IDataOciApiaccesscontrolApiMetadataByEntityTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#name DataOciApiaccesscontrolApiMetadataByEntityTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#name DataOciApiaccesscontrolApiMetadataByEntityTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#values DataOciApiaccesscontrolApiMetadataByEntityTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#values DataOciApiaccesscontrolApiMetadataByEntityTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#regex DataOciApiaccesscontrolApiMetadataByEntityTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#regex DataOciApiaccesscontrolApiMetadataByEntityTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#name DataOciApiaccesscontrolApiMetadataByEntityTypes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#name DataOciApiaccesscontrolApiMetadataByEntityTypes#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#values DataOciApiaccesscontrolApiMetadataByEntityTypes#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#values DataOciApiaccesscontrolApiMetadataByEntityTypes#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#regex DataOciApiaccesscontrolApiMetadataByEntityTypes#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadata_by_entity_types#regex DataOciApiaccesscontrolApiMetadataByEntityTypes#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

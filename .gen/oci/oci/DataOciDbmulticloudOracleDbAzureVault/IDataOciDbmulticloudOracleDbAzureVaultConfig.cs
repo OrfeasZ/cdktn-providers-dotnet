@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVault
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAzureVaultConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAzureVault.DataOciDbmulticloudOracleDbAzureVaultConfig")]
     public interface IDataOciDbmulticloudOracleDbAzureVaultConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVault#oracle_db_azure_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVault#oracle_db_azure_vault_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbAzureVaultId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVault#oracle_db_azure_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_vault_id DataOciDbmulticloudOracleDbAzureVault#oracle_db_azure_vault_id}.</summary>
             [JsiiProperty(name: "oracleDbAzureVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbAzureVaultId
             {

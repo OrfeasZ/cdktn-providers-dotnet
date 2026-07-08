@@ -11,7 +11,7 @@ namespace oci.CloudGuardTarget
     {
         /// <summary>details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_target#details CloudGuardTarget#details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_guard_target#details CloudGuardTarget#details}
         /// </remarks>
         [JsiiProperty(name: "details", typeJson: "{\"fqn\":\"oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRulesDetails\"}")]
         public oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRulesDetails Details
@@ -20,7 +20,7 @@ namespace oci.CloudGuardTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/cloud_guard_target#responder_rule_id CloudGuardTarget#responder_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_guard_target#responder_rule_id CloudGuardTarget#responder_rule_id}.</summary>
         [JsiiProperty(name: "responderRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResponderRuleId
         {

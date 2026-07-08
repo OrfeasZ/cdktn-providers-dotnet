@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsBuildRun
     [JsiiInterface(nativeType: typeof(IDataOciDevopsBuildRunConfig), fullyQualifiedName: "oci.dataOciDevopsBuildRun.DataOciDevopsBuildRunConfig")]
     public interface IDataOciDevopsBuildRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
         [JsiiProperty(name: "buildRunId", typeJson: "{\"primitive\":\"string\"}")]
         string BuildRunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsBuildRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_build_run#build_run_id DataOciDevopsBuildRun#build_run_id}.</summary>
             [JsiiProperty(name: "buildRunId", typeJson: "{\"primitive\":\"string\"}")]
             public string BuildRunId
             {

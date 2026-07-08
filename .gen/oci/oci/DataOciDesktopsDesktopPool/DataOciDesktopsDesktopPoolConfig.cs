@@ -9,7 +9,7 @@ namespace oci.DataOciDesktopsDesktopPool
     [JsiiByValue(fqn: "oci.dataOciDesktopsDesktopPool.DataOciDesktopsDesktopPoolConfig")]
     public class DataOciDesktopsDesktopPoolConfig : oci.DataOciDesktopsDesktopPool.IDataOciDesktopsDesktopPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/desktops_desktop_pool#desktop_pool_id DataOciDesktopsDesktopPool#desktop_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/desktops_desktop_pool#desktop_pool_id DataOciDesktopsDesktopPool#desktop_pool_id}.</summary>
         [JsiiProperty(name: "desktopPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string DesktopPoolId
         {

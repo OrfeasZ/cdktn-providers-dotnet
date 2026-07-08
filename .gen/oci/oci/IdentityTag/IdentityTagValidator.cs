@@ -9,7 +9,7 @@ namespace oci.IdentityTag
     [JsiiByValue(fqn: "oci.identityTag.IdentityTagValidator")]
     public class IdentityTagValidator : oci.IdentityTag.IIdentityTagValidator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
         [JsiiProperty(name: "validatorType", typeJson: "{\"primitive\":\"string\"}")]
         public string ValidatorType
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgRouteTable
     [JsiiByValue(fqn: "oci.dataOciCoreDrgRouteTable.DataOciCoreDrgRouteTableConfig")]
     public class DataOciCoreDrgRouteTableConfig : oci.DataOciCoreDrgRouteTable.IDataOciCoreDrgRouteTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
         [JsiiProperty(name: "drgRouteTableId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgRouteTableId
         {

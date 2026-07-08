@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseGiVersionMinorVersions.DataOciDatabaseGiVersionMinorVersionsFilter")]
     public class DataOciDatabaseGiVersionMinorVersionsFilter : oci.DataOciDatabaseGiVersionMinorVersions.IDataOciDatabaseGiVersionMinorVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_gi_version_minor_versions#name DataOciDatabaseGiVersionMinorVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_gi_version_minor_versions#name DataOciDatabaseGiVersionMinorVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_gi_version_minor_versions#values DataOciDatabaseGiVersionMinorVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_gi_version_minor_versions#values DataOciDatabaseGiVersionMinorVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseGiVersionMinorVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_gi_version_minor_versions#regex DataOciDatabaseGiVersionMinorVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_gi_version_minor_versions#regex DataOciDatabaseGiVersionMinorVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

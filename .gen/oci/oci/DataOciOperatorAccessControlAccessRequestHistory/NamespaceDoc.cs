@@ -5,7 +5,7 @@ namespace oci.DataOciOperatorAccessControlAccessRequestHistory
     /// <remarks>
     /// <h1><c>data_oci_operator_access_control_access_request_history</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/operator_access_control_access_request_history"><c>data_oci_operator_access_control_access_request_history</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_access_request_history"><c>data_oci_operator_access_control_access_request_history</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

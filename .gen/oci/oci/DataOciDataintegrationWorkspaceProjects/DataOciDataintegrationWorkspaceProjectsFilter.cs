@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceProjects
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceProjects.DataOciDataintegrationWorkspaceProjectsFilter")]
     public class DataOciDataintegrationWorkspaceProjectsFilter : oci.DataOciDataintegrationWorkspaceProjects.IDataOciDataintegrationWorkspaceProjectsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataintegration_workspace_projects#name DataOciDataintegrationWorkspaceProjects#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_projects#name DataOciDataintegrationWorkspaceProjects#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceProjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataintegration_workspace_projects#values DataOciDataintegrationWorkspaceProjects#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_projects#values DataOciDataintegrationWorkspaceProjects#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataintegrationWorkspaceProjects
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataintegration_workspace_projects#regex DataOciDataintegrationWorkspaceProjects#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_projects#regex DataOciDataintegrationWorkspaceProjects#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

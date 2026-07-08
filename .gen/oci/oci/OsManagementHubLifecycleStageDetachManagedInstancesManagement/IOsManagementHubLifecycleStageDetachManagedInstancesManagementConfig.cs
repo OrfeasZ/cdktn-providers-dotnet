@@ -7,7 +7,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubLifecycleStageDetachManagedInstancesManagementConfig), fullyQualifiedName: "oci.osManagementHubLifecycleStageDetachManagedInstancesManagement.OsManagementHubLifecycleStageDetachManagedInstancesManagementConfig")]
     public interface IOsManagementHubLifecycleStageDetachManagedInstancesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#lifecycle_stage_id OsManagementHubLifecycleStageDetachManagedInstancesManagement#lifecycle_stage_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#lifecycle_stage_id OsManagementHubLifecycleStageDetachManagedInstancesManagement#lifecycle_stage_id}.</summary>
         [JsiiProperty(name: "lifecycleStageId", typeJson: "{\"primitive\":\"string\"}")]
         string LifecycleStageId
         {
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
 
         /// <summary>managed_instance_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#managed_instance_details OsManagementHubLifecycleStageDetachManagedInstancesManagement#managed_instance_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#managed_instance_details OsManagementHubLifecycleStageDetachManagedInstancesManagement#managed_instance_details}
         /// </remarks>
         [JsiiProperty(name: "managedInstanceDetails", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageDetachManagedInstancesManagement.OsManagementHubLifecycleStageDetachManagedInstancesManagementManagedInstanceDetails\"}")]
         oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement.IOsManagementHubLifecycleStageDetachManagedInstancesManagementManagedInstanceDetails ManagedInstanceDetails
@@ -24,7 +24,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#id OsManagementHubLifecycleStageDetachManagedInstancesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#id OsManagementHubLifecycleStageDetachManagedInstancesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#timeouts OsManagementHubLifecycleStageDetachManagedInstancesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#timeouts OsManagementHubLifecycleStageDetachManagedInstancesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageDetachManagedInstancesManagement.OsManagementHubLifecycleStageDetachManagedInstancesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#lifecycle_stage_id OsManagementHubLifecycleStageDetachManagedInstancesManagement#lifecycle_stage_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#lifecycle_stage_id OsManagementHubLifecycleStageDetachManagedInstancesManagement#lifecycle_stage_id}.</summary>
             [JsiiProperty(name: "lifecycleStageId", typeJson: "{\"primitive\":\"string\"}")]
             public string LifecycleStageId
             {
@@ -69,7 +69,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
 
             /// <summary>managed_instance_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#managed_instance_details OsManagementHubLifecycleStageDetachManagedInstancesManagement#managed_instance_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#managed_instance_details OsManagementHubLifecycleStageDetachManagedInstancesManagement#managed_instance_details}
             /// </remarks>
             [JsiiProperty(name: "managedInstanceDetails", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageDetachManagedInstancesManagement.OsManagementHubLifecycleStageDetachManagedInstancesManagementManagedInstanceDetails\"}")]
             public oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement.IOsManagementHubLifecycleStageDetachManagedInstancesManagementManagedInstanceDetails ManagedInstanceDetails
@@ -77,7 +77,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
                 get => GetInstanceProperty<oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement.IOsManagementHubLifecycleStageDetachManagedInstancesManagementManagedInstanceDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#id OsManagementHubLifecycleStageDetachManagedInstancesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#id OsManagementHubLifecycleStageDetachManagedInstancesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.OsManagementHubLifecycleStageDetachManagedInstancesManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#timeouts OsManagementHubLifecycleStageDetachManagedInstancesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_lifecycle_stage_detach_managed_instances_management#timeouts OsManagementHubLifecycleStageDetachManagedInstancesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubLifecycleStageDetachManagedInstancesManagement.OsManagementHubLifecycleStageDetachManagedInstancesManagementTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciStackMonitoringConfig
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringConfigConfig), fullyQualifiedName: "oci.dataOciStackMonitoringConfig.DataOciStackMonitoringConfigConfig")]
     public interface IDataOciStackMonitoringConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_config#config_id DataOciStackMonitoringConfig#config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_config#config_id DataOciStackMonitoringConfig#config_id}.</summary>
         [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStackMonitoringConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/stack_monitoring_config#config_id DataOciStackMonitoringConfig#config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_config#config_id DataOciStackMonitoringConfig#config_id}.</summary>
             [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigId
             {

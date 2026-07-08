@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActi
     /// <remarks>
     /// <h1><c>data_oci_database_management_external_exadata_storage_server_top_sql_cpu_activity</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity"><c>data_oci_database_management_external_exadata_storage_server_top_sql_cpu_activity</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity"><c>data_oci_database_management_external_exadata_storage_server_top_sql_cpu_activity</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.DataOciApigatewayUsagePlan
     [JsiiInterface(nativeType: typeof(IDataOciApigatewayUsagePlanConfig), fullyQualifiedName: "oci.dataOciApigatewayUsagePlan.DataOciApigatewayUsagePlanConfig")]
     public interface IDataOciApigatewayUsagePlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apigateway_usage_plan#usage_plan_id DataOciApigatewayUsagePlan#usage_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apigateway_usage_plan#usage_plan_id DataOciApigatewayUsagePlan#usage_plan_id}.</summary>
         [JsiiProperty(name: "usagePlanId", typeJson: "{\"primitive\":\"string\"}")]
         string UsagePlanId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApigatewayUsagePlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/apigateway_usage_plan#usage_plan_id DataOciApigatewayUsagePlan#usage_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apigateway_usage_plan#usage_plan_id DataOciApigatewayUsagePlan#usage_plan_id}.</summary>
             [JsiiProperty(name: "usagePlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string UsagePlanId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
     [JsiiByValue(fqn: "oci.dataOciCostadCostAnomalyEventAnalytics.DataOciCostadCostAnomalyEventAnalyticsConfig")]
     public class DataOciCostadCostAnomalyEventAnalyticsConfig : oci.DataOciCostadCostAnomalyEventAnalytics.IDataOciCostadCostAnomalyEventAnalyticsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#compartment_id DataOciCostadCostAnomalyEventAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#compartment_id DataOciCostadCostAnomalyEventAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_anomaly_monitor_id DataOciCostadCostAnomalyEventAnalytics#cost_anomaly_monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_anomaly_monitor_id DataOciCostadCostAnomalyEventAnalytics#cost_anomaly_monitor_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CostAnomalyMonitorId
@@ -26,7 +26,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_impact DataOciCostadCostAnomalyEventAnalytics#cost_impact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_impact DataOciCostadCostAnomalyEventAnalytics#cost_impact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "costImpact", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CostImpact
@@ -35,7 +35,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_impact_percentage DataOciCostadCostAnomalyEventAnalytics#cost_impact_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#cost_impact_percentage DataOciCostadCostAnomalyEventAnalytics#cost_impact_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "costImpactPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CostImpactPercentage
@@ -48,7 +48,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#filter DataOciCostadCostAnomalyEventAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#filter DataOciCostadCostAnomalyEventAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCostadCostAnomalyEventAnalytics.IDataOciCostadCostAnomalyEventAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#id DataOciCostadCostAnomalyEventAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#id DataOciCostadCostAnomalyEventAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#name DataOciCostadCostAnomalyEventAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#name DataOciCostadCostAnomalyEventAnalytics#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -101,7 +101,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#region DataOciCostadCostAnomalyEventAnalytics#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#region DataOciCostadCostAnomalyEventAnalytics#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Region
@@ -110,7 +110,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#target_tenant_id DataOciCostadCostAnomalyEventAnalytics#target_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#target_tenant_id DataOciCostadCostAnomalyEventAnalytics#target_tenant_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetTenantId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TargetTenantId
@@ -119,7 +119,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#time_anomaly_event_end_date DataOciCostadCostAnomalyEventAnalytics#time_anomaly_event_end_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#time_anomaly_event_end_date DataOciCostadCostAnomalyEventAnalytics#time_anomaly_event_end_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeAnomalyEventEndDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeAnomalyEventEndDate
@@ -128,7 +128,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/costad_cost_anomaly_event_analytics#time_anomaly_event_start_date DataOciCostadCostAnomalyEventAnalytics#time_anomaly_event_start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/costad_cost_anomaly_event_analytics#time_anomaly_event_start_date DataOciCostadCostAnomalyEventAnalytics#time_anomaly_event_start_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeAnomalyEventStartDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeAnomalyEventStartDate

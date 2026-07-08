@@ -5,7 +5,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJob
     /// <remarks>
     /// <h1><c>data_oci_media_services_media_workflow_job</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/media_services_media_workflow_job"><c>data_oci_media_services_media_workflow_job</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_job"><c>data_oci_media_services_media_workflow_job</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

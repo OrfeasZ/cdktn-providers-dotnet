@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiDatabaseInsight
     [JsiiByValue(fqn: "oci.dataOciOpsiDatabaseInsight.DataOciOpsiDatabaseInsightConfig")]
     public class DataOciOpsiDatabaseInsightConfig : oci.DataOciOpsiDatabaseInsight.IDataOciOpsiDatabaseInsightConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/opsi_database_insight#database_insight_id DataOciOpsiDatabaseInsight#database_insight_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_database_insight#database_insight_id DataOciOpsiDatabaseInsight#database_insight_id}.</summary>
         [JsiiProperty(name: "databaseInsightId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseInsightId
         {

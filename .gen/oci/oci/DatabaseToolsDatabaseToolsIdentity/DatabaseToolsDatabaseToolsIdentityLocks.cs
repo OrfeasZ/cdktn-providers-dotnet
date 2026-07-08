@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsDatabaseToolsIdentity
     [JsiiByValue(fqn: "oci.databaseToolsDatabaseToolsIdentity.DatabaseToolsDatabaseToolsIdentityLocks")]
     public class DatabaseToolsDatabaseToolsIdentityLocks : oci.DatabaseToolsDatabaseToolsIdentity.IDatabaseToolsDatabaseToolsIdentityLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsDatabaseToolsIdentity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_tools_database_tools_identity#message DatabaseToolsDatabaseToolsIdentity#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_tools_database_tools_identity#message DatabaseToolsDatabaseToolsIdentity#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message

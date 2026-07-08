@@ -7,7 +7,7 @@ namespace oci.DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciJmsUtilsSubscriptionAcknowledgmentConfigurationConfig), fullyQualifiedName: "oci.dataOciJmsUtilsSubscriptionAcknowledgmentConfiguration.DataOciJmsUtilsSubscriptionAcknowledgmentConfigurationConfig")]
     public interface IDataOciJmsUtilsSubscriptionAcknowledgmentConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_utils_subscription_acknowledgment_configuration#compartment_id DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_utils_subscription_acknowledgment_configuration#compartment_id DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/jms_utils_subscription_acknowledgment_configuration#compartment_id DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_utils_subscription_acknowledgment_configuration#compartment_id DataOciJmsUtilsSubscriptionAcknowledgmentConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

@@ -7,14 +7,14 @@ namespace oci.DevopsConnection
     [JsiiInterface(nativeType: typeof(IDevopsConnectionTlsVerifyConfig), fullyQualifiedName: "oci.devopsConnection.DevopsConnectionTlsVerifyConfig")]
     public interface IDevopsConnectionTlsVerifyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#ca_certificate_bundle_id DevopsConnection#ca_certificate_bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_connection#ca_certificate_bundle_id DevopsConnection#ca_certificate_bundle_id}.</summary>
         [JsiiProperty(name: "caCertificateBundleId", typeJson: "{\"primitive\":\"string\"}")]
         string CaCertificateBundleId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#tls_verify_mode DevopsConnection#tls_verify_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_connection#tls_verify_mode DevopsConnection#tls_verify_mode}.</summary>
         [JsiiProperty(name: "tlsVerifyMode", typeJson: "{\"primitive\":\"string\"}")]
         string TlsVerifyMode
         {
@@ -28,14 +28,14 @@ namespace oci.DevopsConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#ca_certificate_bundle_id DevopsConnection#ca_certificate_bundle_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_connection#ca_certificate_bundle_id DevopsConnection#ca_certificate_bundle_id}.</summary>
             [JsiiProperty(name: "caCertificateBundleId", typeJson: "{\"primitive\":\"string\"}")]
             public string CaCertificateBundleId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/devops_connection#tls_verify_mode DevopsConnection#tls_verify_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_connection#tls_verify_mode DevopsConnection#tls_verify_mode}.</summary>
             [JsiiProperty(name: "tlsVerifyMode", typeJson: "{\"primitive\":\"string\"}")]
             public string TlsVerifyMode
             {

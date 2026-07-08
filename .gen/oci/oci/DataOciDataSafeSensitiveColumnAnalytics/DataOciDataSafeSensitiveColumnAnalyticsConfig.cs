@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveColumnAnalytics.DataOciDataSafeSensitiveColumnAnalyticsConfig")]
     public class DataOciDataSafeSensitiveColumnAnalyticsConfig : oci.DataOciDataSafeSensitiveColumnAnalytics.IDataOciDataSafeSensitiveColumnAnalyticsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id DataOciDataSafeSensitiveColumnAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id DataOciDataSafeSensitiveColumnAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#access_level DataOciDataSafeSensitiveColumnAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#access_level DataOciDataSafeSensitiveColumnAnalytics#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#column_name DataOciDataSafeSensitiveColumnAnalytics#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#column_name DataOciDataSafeSensitiveColumnAnalytics#column_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "columnName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ColumnName
@@ -37,7 +37,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id_in_subtree DataOciDataSafeSensitiveColumnAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#compartment_id_in_subtree DataOciDataSafeSensitiveColumnAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -73,7 +73,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#filter DataOciDataSafeSensitiveColumnAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#filter DataOciDataSafeSensitiveColumnAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveColumnAnalytics.IDataOciDataSafeSensitiveColumnAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#group_by DataOciDataSafeSensitiveColumnAnalytics#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#group_by DataOciDataSafeSensitiveColumnAnalytics#group_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? GroupBy
@@ -113,7 +113,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#id DataOciDataSafeSensitiveColumnAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#id DataOciDataSafeSensitiveColumnAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#object DataOciDataSafeSensitiveColumnAnalytics#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#object DataOciDataSafeSensitiveColumnAnalytics#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Object
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#schema_name DataOciDataSafeSensitiveColumnAnalytics#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#schema_name DataOciDataSafeSensitiveColumnAnalytics#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SchemaName
@@ -144,7 +144,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_data_model_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_data_model_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_data_model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveDataModelId
@@ -153,7 +153,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_group_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_group_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveTypeGroupId
@@ -162,7 +162,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#sensitive_type_id DataOciDataSafeSensitiveColumnAnalytics#sensitive_type_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SensitiveTypeId
@@ -171,7 +171,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#target_database_group_id DataOciDataSafeSensitiveColumnAnalytics#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#target_database_group_id DataOciDataSafeSensitiveColumnAnalytics#target_database_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetDatabaseGroupId
@@ -180,7 +180,7 @@ namespace oci.DataOciDataSafeSensitiveColumnAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/data_safe_sensitive_column_analytics#target_id DataOciDataSafeSensitiveColumnAnalytics#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_column_analytics#target_id DataOciDataSafeSensitiveColumnAnalytics#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

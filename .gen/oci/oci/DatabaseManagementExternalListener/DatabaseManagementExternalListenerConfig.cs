@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalListener
     [JsiiByValue(fqn: "oci.databaseManagementExternalListener.DatabaseManagementExternalListenerConfig")]
     public class DatabaseManagementExternalListenerConfig : oci.DatabaseManagementExternalListener.IDatabaseManagementExternalListenerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#external_listener_id DatabaseManagementExternalListener#external_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#external_listener_id DatabaseManagementExternalListener#external_listener_id}.</summary>
         [JsiiProperty(name: "externalListenerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalListenerId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementExternalListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#defined_tags DatabaseManagementExternalListener#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#defined_tags DatabaseManagementExternalListener#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.DatabaseManagementExternalListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#external_connector_id DatabaseManagementExternalListener#external_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#external_connector_id DatabaseManagementExternalListener#external_connector_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalConnectorId
@@ -35,7 +35,7 @@ namespace oci.DatabaseManagementExternalListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#freeform_tags DatabaseManagementExternalListener#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#freeform_tags DatabaseManagementExternalListener#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -44,7 +44,7 @@ namespace oci.DatabaseManagementExternalListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#id DatabaseManagementExternalListener#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#id DatabaseManagementExternalListener#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DatabaseManagementExternalListener
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/database_management_external_listener#timeouts DatabaseManagementExternalListener#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_listener#timeouts DatabaseManagementExternalListener#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalListener.DatabaseManagementExternalListenerTimeouts\"}", isOptional: true)]

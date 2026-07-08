@@ -9,7 +9,7 @@ namespace oci.KmsKey
     [JsiiByValue(fqn: "oci.kmsKey.KmsKeyRestoreFromFile")]
     public class KmsKeyRestoreFromFile : oci.KmsKey.IKmsKeyRestoreFromFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_key#content_length KmsKey#content_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_key#content_length KmsKey#content_length}.</summary>
         [JsiiProperty(name: "contentLength", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentLength
         {
@@ -17,7 +17,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_key#restore_key_from_file_details KmsKey#restore_key_from_file_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_key#restore_key_from_file_details KmsKey#restore_key_from_file_details}.</summary>
         [JsiiProperty(name: "restoreKeyFromFileDetails", typeJson: "{\"primitive\":\"string\"}")]
         public string RestoreKeyFromFileDetails
         {
@@ -25,7 +25,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/kms_key#content_md5 KmsKey#content_md5}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_key#content_md5 KmsKey#content_md5}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentMd5

@@ -7,14 +7,14 @@ namespace oci.GoldenGateDeploymentBackup
     [JsiiInterface(nativeType: typeof(IGoldenGateDeploymentBackupLocks), fullyQualifiedName: "oci.goldenGateDeploymentBackup.GoldenGateDeploymentBackupLocks")]
     public interface IGoldenGateDeploymentBackupLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Message
@@ -32,14 +32,14 @@ namespace oci.GoldenGateDeploymentBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Message

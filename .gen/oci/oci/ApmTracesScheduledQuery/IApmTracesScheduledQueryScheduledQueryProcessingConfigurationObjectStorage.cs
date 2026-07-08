@@ -7,7 +7,7 @@ namespace oci.ApmTracesScheduledQuery
     [JsiiInterface(nativeType: typeof(IApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage), fullyQualifiedName: "oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage")]
     public interface IApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -18,7 +18,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}.</summary>
         [JsiiProperty(name: "nameSpace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NameSpace
@@ -29,7 +29,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}.</summary>
         [JsiiProperty(name: "objectNamePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ObjectNamePrefix
@@ -47,7 +47,7 @@ namespace oci.ApmTracesScheduledQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -55,7 +55,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nameSpace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NameSpace
@@ -63,7 +63,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objectNamePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ObjectNamePrefix

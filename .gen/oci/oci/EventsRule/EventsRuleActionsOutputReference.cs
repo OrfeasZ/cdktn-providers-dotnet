@@ -33,6 +33,30 @@ namespace oci.EventsRule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsAction" />)[]</param>
+        [JsiiMethod(name: "putAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsAction\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAction(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.EventsRule.IEventsRuleActionsAction[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.EventsRule.IEventsRuleActionsAction).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.EventsRule.IEventsRuleActionsAction).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsActions" />)[]</param>
         [JsiiMethod(name: "putActions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsActions\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutActions(object @value)
@@ -57,10 +81,38 @@ namespace oci.EventsRule
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAction")]
+        public virtual void ResetAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetActions")]
+        public virtual void ResetActions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"oci.eventsRule.EventsRuleActionsActionList\"}")]
+        public virtual oci.EventsRule.EventsRuleActionsActionList Action
+        {
+            get => GetInstanceProperty<oci.EventsRule.EventsRuleActionsActionList>()!;
+        }
+
         [JsiiProperty(name: "actions", typeJson: "{\"fqn\":\"oci.eventsRule.EventsRuleActionsActionsList\"}")]
         public virtual oci.EventsRule.EventsRuleActionsActionsList Actions
         {
             get => GetInstanceProperty<oci.EventsRule.EventsRuleActionsActionsList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.EventsRule.IEventsRuleActionsAction" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "actionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.eventsRule.EventsRuleActionsAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ActionInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

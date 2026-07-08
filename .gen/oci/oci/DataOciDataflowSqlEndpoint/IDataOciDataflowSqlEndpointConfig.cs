@@ -7,7 +7,7 @@ namespace oci.DataOciDataflowSqlEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDataflowSqlEndpointConfig), fullyQualifiedName: "oci.dataOciDataflowSqlEndpoint.DataOciDataflowSqlEndpointConfig")]
     public interface IDataOciDataflowSqlEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
         [JsiiProperty(name: "sqlEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string SqlEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowSqlEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
             [JsiiProperty(name: "sqlEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlEndpointId
             {

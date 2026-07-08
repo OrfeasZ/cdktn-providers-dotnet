@@ -9,7 +9,7 @@ namespace oci.MysqlChannel
     [JsiiByValue(fqn: "oci.mysqlChannel.MysqlChannelTarget")]
     public class MysqlChannelTarget : oci.MysqlChannel.IMysqlChannelTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#db_system_id MysqlChannel#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#db_system_id MysqlChannel#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#target_type MysqlChannel#target_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#target_type MysqlChannel#target_type}.</summary>
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetType
         {
@@ -25,7 +25,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#applier_username MysqlChannel#applier_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#applier_username MysqlChannel#applier_username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applierUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplierUsername
@@ -34,7 +34,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#channel_name MysqlChannel#channel_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#channel_name MysqlChannel#channel_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channelName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChannelName
@@ -43,7 +43,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#delay_in_seconds MysqlChannel#delay_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#delay_in_seconds MysqlChannel#delay_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delayInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DelayInSeconds
@@ -56,7 +56,7 @@ namespace oci.MysqlChannel
 
         /// <summary>filters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#filters MysqlChannel#filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#filters MysqlChannel#filters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlChannel.IMysqlChannelTargetFilters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.MysqlChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/mysql_channel#tables_without_primary_key_handling MysqlChannel#tables_without_primary_key_handling}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_channel#tables_without_primary_key_handling MysqlChannel#tables_without_primary_key_handling}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tablesWithoutPrimaryKeyHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TablesWithoutPrimaryKeyHandling

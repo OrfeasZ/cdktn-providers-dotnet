@@ -7,14 +7,14 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDistributedDatabaseDistributedDatabaseConfig), fullyQualifiedName: "oci.dataOciDistributedDatabaseDistributedDatabase.DataOciDistributedDatabaseDistributedDatabaseConfig")]
     public interface IDataOciDistributedDatabaseDistributedDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database#distributed_database_id DataOciDistributedDatabaseDistributedDatabase#distributed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database#distributed_database_id DataOciDistributedDatabaseDistributedDatabase#distributed_database_id}.</summary>
         [JsiiProperty(name: "distributedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string DistributedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database#metadata DataOciDistributedDatabaseDistributedDatabase#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database#metadata DataOciDistributedDatabaseDistributedDatabase#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Metadata
@@ -32,14 +32,14 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database#distributed_database_id DataOciDistributedDatabaseDistributedDatabase#distributed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database#distributed_database_id DataOciDistributedDatabaseDistributedDatabase#distributed_database_id}.</summary>
             [JsiiProperty(name: "distributedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string DistributedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/distributed_database_distributed_database#metadata DataOciDistributedDatabaseDistributedDatabase#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/distributed_database_distributed_database#metadata DataOciDistributedDatabaseDistributedDatabase#metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Metadata

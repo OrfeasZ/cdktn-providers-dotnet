@@ -5,7 +5,7 @@ namespace oci.DataOciManagementAgentManagementAgentGetAutoUpgradableConfig
     /// <remarks>
     /// <h1><c>data_oci_management_agent_management_agent_get_auto_upgradable_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config"><c>data_oci_management_agent_management_agent_get_auto_upgradable_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_get_auto_upgradable_config"><c>data_oci_management_agent_management_agent_get_auto_upgradable_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

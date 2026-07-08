@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlMysqlConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciMysqlMysqlConfigurationConfig), fullyQualifiedName: "oci.dataOciMysqlMysqlConfiguration.DataOciMysqlMysqlConfigurationConfig")]
     public interface IDataOciMysqlMysqlConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlMysqlConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/mysql_mysql_configuration#configuration_id DataOciMysqlMysqlConfiguration#configuration_id}.</summary>
             [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigurationId
             {

@@ -7,35 +7,35 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationAssessmentAssessorCheckConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationAssessmentAssessorCheck.DataOciDatabaseMigrationAssessmentAssessorCheckConfig")]
     public interface IDataOciDatabaseMigrationAssessmentAssessorCheckConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string AssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
         [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
         string AssessorName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
         [JsiiProperty(name: "checkName", typeJson: "{\"primitive\":\"string\"}")]
         string CheckName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,35 +57,35 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
             [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessorName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
             [JsiiProperty(name: "checkName", typeJson: "{\"primitive\":\"string\"}")]
             public string CheckName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

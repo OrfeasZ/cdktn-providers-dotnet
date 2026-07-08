@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubDynamicSet
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubDynamicSetConfig), fullyQualifiedName: "oci.dataOciOsManagementHubDynamicSet.DataOciOsManagementHubDynamicSetConfig")]
     public interface IDataOciOsManagementHubDynamicSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_dynamic_set#dynamic_set_id DataOciOsManagementHubDynamicSet#dynamic_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_dynamic_set#dynamic_set_id DataOciOsManagementHubDynamicSet#dynamic_set_id}.</summary>
         [JsiiProperty(name: "dynamicSetId", typeJson: "{\"primitive\":\"string\"}")]
         string DynamicSetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubDynamicSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_dynamic_set#dynamic_set_id DataOciOsManagementHubDynamicSet#dynamic_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_dynamic_set#dynamic_set_id DataOciOsManagementHubDynamicSet#dynamic_set_id}.</summary>
             [JsiiProperty(name: "dynamicSetId", typeJson: "{\"primitive\":\"string\"}")]
             public string DynamicSetId
             {

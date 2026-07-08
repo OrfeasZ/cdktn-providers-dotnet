@@ -7,7 +7,7 @@ namespace oci.LoadBalancerPathRouteSet
     [JsiiByValue(fqn: "oci.loadBalancerPathRouteSet.LoadBalancerPathRouteSetTimeouts")]
     public class LoadBalancerPathRouteSetTimeouts : oci.LoadBalancerPathRouteSet.ILoadBalancerPathRouteSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer_path_route_set#create LoadBalancerPathRouteSet#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_path_route_set#create LoadBalancerPathRouteSet#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerPathRouteSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer_path_route_set#delete LoadBalancerPathRouteSet#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_path_route_set#delete LoadBalancerPathRouteSet#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerPathRouteSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/resources/load_balancer_path_route_set#update LoadBalancerPathRouteSet#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_path_route_set#update LoadBalancerPathRouteSet#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceSnaps
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstanceSnaps.DataOciOsManagementHubManagedInstanceSnapsFilter")]
     public class DataOciOsManagementHubManagedInstanceSnapsFilter : oci.DataOciOsManagementHubManagedInstanceSnaps.IDataOciOsManagementHubManagedInstanceSnapsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_managed_instance_snaps#name DataOciOsManagementHubManagedInstanceSnaps#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_snaps#name DataOciOsManagementHubManagedInstanceSnaps#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceSnaps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_managed_instance_snaps#values DataOciOsManagementHubManagedInstanceSnaps#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_snaps#values DataOciOsManagementHubManagedInstanceSnaps#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceSnaps
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/os_management_hub_managed_instance_snaps#regex DataOciOsManagementHubManagedInstanceSnaps#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_snaps#regex DataOciOsManagementHubManagedInstanceSnaps#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

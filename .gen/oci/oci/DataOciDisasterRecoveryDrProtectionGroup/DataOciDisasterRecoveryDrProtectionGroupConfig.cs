@@ -9,7 +9,7 @@ namespace oci.DataOciDisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.dataOciDisasterRecoveryDrProtectionGroup.DataOciDisasterRecoveryDrProtectionGroupConfig")]
     public class DataOciDisasterRecoveryDrProtectionGroupConfig : oci.DataOciDisasterRecoveryDrProtectionGroup.IDataOciDisasterRecoveryDrProtectionGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.21.0/docs/data-sources/disaster_recovery_dr_protection_group#dr_protection_group_id DataOciDisasterRecoveryDrProtectionGroup#dr_protection_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/disaster_recovery_dr_protection_group#dr_protection_group_id DataOciDisasterRecoveryDrProtectionGroup#dr_protection_group_id}.</summary>
         [JsiiProperty(name: "drProtectionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrProtectionGroupId
         {
