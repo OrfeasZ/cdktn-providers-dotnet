@@ -7,7 +7,7 @@ namespace digitalocean.VectorDatabase
     [JsiiInterface(nativeType: typeof(IVectorDatabaseConfigA), fullyQualifiedName: "digitalocean.vectorDatabase.VectorDatabaseConfigA")]
     public interface IVectorDatabaseConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
         [JsiiProperty(name: "defaultQuantization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultQuantization
@@ -18,7 +18,7 @@ namespace digitalocean.VectorDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace digitalocean.VectorDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
         [JsiiProperty(name: "weaviateVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WeaviateVersion
@@ -50,7 +50,7 @@ namespace digitalocean.VectorDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultQuantization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultQuantization
@@ -58,7 +58,7 @@ namespace digitalocean.VectorDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -69,7 +69,7 @@ namespace digitalocean.VectorDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "weaviateVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WeaviateVersion

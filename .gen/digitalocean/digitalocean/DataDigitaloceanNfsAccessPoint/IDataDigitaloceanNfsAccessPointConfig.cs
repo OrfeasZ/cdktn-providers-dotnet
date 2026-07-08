@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanNfsAccessPointConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanNfsAccessPoint.DataDigitaloceanNfsAccessPointConfig")]
     public interface IDataDigitaloceanNfsAccessPointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#id DataDigitaloceanNfsAccessPoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#id DataDigitaloceanNfsAccessPoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#name DataDigitaloceanNfsAccessPoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#name DataDigitaloceanNfsAccessPoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#share_id DataDigitaloceanNfsAccessPoint#share_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#share_id DataDigitaloceanNfsAccessPoint#share_id}.</summary>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShareId
@@ -44,7 +44,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#vpc_id DataDigitaloceanNfsAccessPoint#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#vpc_id DataDigitaloceanNfsAccessPoint#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VpcId
@@ -62,7 +62,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#id DataDigitaloceanNfsAccessPoint#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#id DataDigitaloceanNfsAccessPoint#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#name DataDigitaloceanNfsAccessPoint#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#name DataDigitaloceanNfsAccessPoint#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -82,7 +82,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#share_id DataDigitaloceanNfsAccessPoint#share_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#share_id DataDigitaloceanNfsAccessPoint#share_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShareId
@@ -90,7 +90,7 @@ namespace digitalocean.DataDigitaloceanNfsAccessPoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.94.0/docs/data-sources/nfs_access_point#vpc_id DataDigitaloceanNfsAccessPoint#vpc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/nfs_access_point#vpc_id DataDigitaloceanNfsAccessPoint#vpc_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VpcId
