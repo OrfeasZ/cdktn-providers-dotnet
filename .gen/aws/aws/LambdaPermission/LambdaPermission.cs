@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.LambdaPermission
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission aws_lambda_permission}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission aws_lambda_permission}.</summary>
     [JsiiClass(nativeType: typeof(aws.LambdaPermission.LambdaPermission), fullyQualifiedName: "aws.lambdaPermission.LambdaPermission", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.lambdaPermission.LambdaPermissionConfig\"}}]")]
     public class LambdaPermission : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission aws_lambda_permission} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission aws_lambda_permission} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LambdaPermission(Constructs.Construct scope, string id, aws.LambdaPermission.ILambdaPermissionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace aws.LambdaPermission
         /// <param name="importToId">The construct id used in the generated config for the LambdaPermission to import.</param>
         /// <param name="importFromId">The id of the existing LambdaPermission that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LambdaPermission to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaPermission to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_permission#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaPermission that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaPermission to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaPermission to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_permission#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaPermission that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaPermission to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LambdaPermission.LambdaPermission), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.lambdaPermission.LambdaPermissionTimeouts\"}}]")]
+        public virtual void PutTimeouts(aws.LambdaPermission.ILambdaPermissionTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LambdaPermission.ILambdaPermissionTimeouts)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetEventSourceToken")]
@@ -112,6 +118,12 @@ namespace aws.LambdaPermission
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -130,6 +142,12 @@ namespace aws.LambdaPermission
             get;
         }
         = GetStaticProperty<string>(typeof(aws.LambdaPermission.LambdaPermission))!;
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lambdaPermission.LambdaPermissionTimeoutsOutputReference\"}")]
+        public virtual aws.LambdaPermission.LambdaPermissionTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<aws.LambdaPermission.LambdaPermissionTimeoutsOutputReference>()!;
+        }
 
         [JsiiOptional]
         [JsiiProperty(name: "actionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -230,6 +248,16 @@ namespace aws.LambdaPermission
         public virtual string? StatementIdPrefixInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LambdaPermission.ILambdaPermissionTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lambdaPermission.LambdaPermissionTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]

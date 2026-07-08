@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>request_body block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_web_acl#request_body Wafv2WebAcl#request_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_web_acl#request_body Wafv2WebAcl#request_body}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclAssociationConfigRequestBody" />)[]</para>
         /// </remarks>
         [JsiiOptional]

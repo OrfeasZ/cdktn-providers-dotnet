@@ -7,7 +7,7 @@ namespace aws.Route53DomainsDomain
     [JsiiInterface(nativeType: typeof(IRoute53DomainsDomainTechContact), fullyQualifiedName: "aws.route53DomainsDomain.Route53DomainsDomainTechContact")]
     public interface IRoute53DomainsDomainTechContact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#address_line_1 Route53DomainsDomain#address_line_1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#address_line_1 Route53DomainsDomain#address_line_1}.</summary>
         [JsiiProperty(name: "addressLine1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AddressLine1
@@ -18,7 +18,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#address_line_2 Route53DomainsDomain#address_line_2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#address_line_2 Route53DomainsDomain#address_line_2}.</summary>
         [JsiiProperty(name: "addressLine2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AddressLine2
@@ -29,7 +29,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#city Route53DomainsDomain#city}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#city Route53DomainsDomain#city}.</summary>
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? City
@@ -40,7 +40,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#contact_type Route53DomainsDomain#contact_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#contact_type Route53DomainsDomain#contact_type}.</summary>
         [JsiiProperty(name: "contactType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContactType
@@ -51,7 +51,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#country_code Route53DomainsDomain#country_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#country_code Route53DomainsDomain#country_code}.</summary>
         [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CountryCode
@@ -62,7 +62,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#email Route53DomainsDomain#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#email Route53DomainsDomain#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Email
@@ -75,7 +75,7 @@ namespace aws.Route53DomainsDomain
 
         /// <summary>extra_param block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTechContactExtraParam" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "extraParam", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53DomainsDomain.Route53DomainsDomainTechContactExtraParam\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#fax Route53DomainsDomain#fax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#fax Route53DomainsDomain#fax}.</summary>
         [JsiiProperty(name: "fax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Fax
@@ -99,7 +99,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#first_name Route53DomainsDomain#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#first_name Route53DomainsDomain#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FirstName
@@ -110,7 +110,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#last_name Route53DomainsDomain#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#last_name Route53DomainsDomain#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastName
@@ -121,7 +121,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#organization_name Route53DomainsDomain#organization_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#organization_name Route53DomainsDomain#organization_name}.</summary>
         [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OrganizationName
@@ -132,7 +132,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#phone_number Route53DomainsDomain#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#phone_number Route53DomainsDomain#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhoneNumber
@@ -143,7 +143,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#state Route53DomainsDomain#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#state Route53DomainsDomain#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -154,7 +154,7 @@ namespace aws.Route53DomainsDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#zip_code Route53DomainsDomain#zip_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#zip_code Route53DomainsDomain#zip_code}.</summary>
         [JsiiProperty(name: "zipCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ZipCode
@@ -172,7 +172,7 @@ namespace aws.Route53DomainsDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#address_line_1 Route53DomainsDomain#address_line_1}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#address_line_1 Route53DomainsDomain#address_line_1}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "addressLine1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AddressLine1
@@ -180,7 +180,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#address_line_2 Route53DomainsDomain#address_line_2}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#address_line_2 Route53DomainsDomain#address_line_2}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "addressLine2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AddressLine2
@@ -188,7 +188,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#city Route53DomainsDomain#city}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#city Route53DomainsDomain#city}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? City
@@ -196,7 +196,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#contact_type Route53DomainsDomain#contact_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#contact_type Route53DomainsDomain#contact_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contactType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContactType
@@ -204,7 +204,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#country_code Route53DomainsDomain#country_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#country_code Route53DomainsDomain#country_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CountryCode
@@ -212,7 +212,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#email Route53DomainsDomain#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#email Route53DomainsDomain#email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Email
@@ -222,7 +222,7 @@ namespace aws.Route53DomainsDomain
 
             /// <summary>extra_param block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#extra_param Route53DomainsDomain#extra_param}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDomain.IRoute53DomainsDomainTechContactExtraParam" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -232,7 +232,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#fax Route53DomainsDomain#fax}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#fax Route53DomainsDomain#fax}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fax", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Fax
@@ -240,7 +240,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#first_name Route53DomainsDomain#first_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#first_name Route53DomainsDomain#first_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FirstName
@@ -248,7 +248,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#last_name Route53DomainsDomain#last_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#last_name Route53DomainsDomain#last_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastName
@@ -256,7 +256,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#organization_name Route53DomainsDomain#organization_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#organization_name Route53DomainsDomain#organization_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OrganizationName
@@ -264,7 +264,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#phone_number Route53DomainsDomain#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#phone_number Route53DomainsDomain#phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhoneNumber
@@ -272,7 +272,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#state Route53DomainsDomain#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#state Route53DomainsDomain#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -280,7 +280,7 @@ namespace aws.Route53DomainsDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/route53domains_domain#zip_code Route53DomainsDomain#zip_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/route53domains_domain#zip_code Route53DomainsDomain#zip_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "zipCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ZipCode

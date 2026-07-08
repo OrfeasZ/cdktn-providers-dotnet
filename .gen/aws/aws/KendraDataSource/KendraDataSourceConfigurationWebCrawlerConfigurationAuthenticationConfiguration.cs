@@ -11,7 +11,7 @@ namespace aws.KendraDataSource
 
         /// <summary>basic_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_data_source#basic_authentication KendraDataSource#basic_authentication}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KendraDataSource.IKendraDataSourceConfigurationWebCrawlerConfigurationAuthenticationConfigurationBasicAuthentication" />)[]</para>
         /// </remarks>
         [JsiiOptional]

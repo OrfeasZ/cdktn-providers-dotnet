@@ -9,7 +9,7 @@ namespace aws.ApiGatewayMethod
     [JsiiByValue(fqn: "aws.apiGatewayMethod.ApiGatewayMethodConfig")]
     public class ApiGatewayMethodConfig : aws.ApiGatewayMethod.IApiGatewayMethodConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorization ApiGatewayMethod#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorization ApiGatewayMethod#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         public string Authorization
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#http_method ApiGatewayMethod#http_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#http_method ApiGatewayMethod#http_method}.</summary>
         [JsiiProperty(name: "httpMethod", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpMethod
         {
@@ -25,7 +25,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#resource_id ApiGatewayMethod#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#resource_id ApiGatewayMethod#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -33,7 +33,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#rest_api_id ApiGatewayMethod#rest_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#rest_api_id ApiGatewayMethod#rest_api_id}.</summary>
         [JsiiProperty(name: "restApiId", typeJson: "{\"primitive\":\"string\"}")]
         public string RestApiId
         {
@@ -43,7 +43,7 @@ namespace aws.ApiGatewayMethod
 
         private object? _apiKeyRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#api_key_required ApiGatewayMethod#api_key_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#api_key_required ApiGatewayMethod#api_key_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace aws.ApiGatewayMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorization_scopes ApiGatewayMethod#authorization_scopes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorization_scopes ApiGatewayMethod#authorization_scopes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AuthorizationScopes
@@ -84,7 +84,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#authorizer_id ApiGatewayMethod#authorizer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#authorizer_id ApiGatewayMethod#authorizer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorizerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthorizerId
@@ -93,7 +93,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#id ApiGatewayMethod#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#id ApiGatewayMethod#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -106,7 +106,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#operation_name ApiGatewayMethod#operation_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#operation_name ApiGatewayMethod#operation_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OperationName
@@ -117,7 +117,7 @@ namespace aws.ApiGatewayMethod
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#region ApiGatewayMethod#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#region ApiGatewayMethod#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.ApiGatewayMethod
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_models ApiGatewayMethod#request_models}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_models ApiGatewayMethod#request_models}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestModels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? RequestModels
@@ -138,7 +138,7 @@ namespace aws.ApiGatewayMethod
 
         private System.Collections.Generic.IDictionary<string, object>? _requestParameters;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_parameters ApiGatewayMethod#request_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_parameters ApiGatewayMethod#request_parameters}.</summary>
         /// <remarks>
         /// <para>Type union: Dictionary&lt;string, either bool or <see cref="Io.Cdktn.IResolvable" />&gt;</para>
         /// </remarks>
@@ -173,7 +173,7 @@ namespace aws.ApiGatewayMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/api_gateway_method#request_validator_id ApiGatewayMethod#request_validator_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/api_gateway_method#request_validator_id ApiGatewayMethod#request_validator_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestValidatorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestValidatorId

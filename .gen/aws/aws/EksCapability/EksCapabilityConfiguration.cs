@@ -11,7 +11,7 @@ namespace aws.EksCapability
 
         /// <summary>argo_cd block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/eks_capability#argo_cd EksCapability#argo_cd}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCd" />)[]</para>
         /// </remarks>
         [JsiiOptional]

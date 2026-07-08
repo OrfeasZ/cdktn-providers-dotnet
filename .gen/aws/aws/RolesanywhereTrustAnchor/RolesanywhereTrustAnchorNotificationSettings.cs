@@ -7,7 +7,7 @@ namespace aws.RolesanywhereTrustAnchor
     [JsiiByValue(fqn: "aws.rolesanywhereTrustAnchor.RolesanywhereTrustAnchorNotificationSettings")]
     public class RolesanywhereTrustAnchorNotificationSettings : aws.RolesanywhereTrustAnchor.IRolesanywhereTrustAnchorNotificationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rolesanywhere_trust_anchor#channel RolesanywhereTrustAnchor#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rolesanywhere_trust_anchor#channel RolesanywhereTrustAnchor#channel}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Channel
@@ -18,7 +18,7 @@ namespace aws.RolesanywhereTrustAnchor
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rolesanywhere_trust_anchor#enabled RolesanywhereTrustAnchor#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rolesanywhere_trust_anchor#enabled RolesanywhereTrustAnchor#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.RolesanywhereTrustAnchor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rolesanywhere_trust_anchor#event RolesanywhereTrustAnchor#event}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rolesanywhere_trust_anchor#event RolesanywhereTrustAnchor#event}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "event", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Event
@@ -59,7 +59,7 @@ namespace aws.RolesanywhereTrustAnchor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/rolesanywhere_trust_anchor#threshold RolesanywhereTrustAnchor#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/rolesanywhere_trust_anchor#threshold RolesanywhereTrustAnchor#threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Threshold

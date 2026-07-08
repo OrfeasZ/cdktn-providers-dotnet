@@ -9,7 +9,7 @@ namespace aws.Wafv2RuleGroup
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#action Wafv2RuleGroup#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#action Wafv2RuleGroup#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleAction\"}")]
         aws.Wafv2RuleGroup.IWafv2RuleGroupRuleAction Action
@@ -17,14 +17,14 @@ namespace aws.Wafv2RuleGroup
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#name Wafv2RuleGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#name Wafv2RuleGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#priority Wafv2RuleGroup#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#priority Wafv2RuleGroup#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
         {
@@ -33,7 +33,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>visibility_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#visibility_config Wafv2RuleGroup#visibility_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#visibility_config Wafv2RuleGroup#visibility_config}
         /// </remarks>
         [JsiiProperty(name: "visibilityConfig", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfig\"}")]
         aws.Wafv2RuleGroup.IWafv2RuleGroupRuleVisibilityConfig VisibilityConfig
@@ -43,7 +43,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>captcha_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#captcha_config Wafv2RuleGroup#captcha_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#captcha_config Wafv2RuleGroup#captcha_config}
         /// </remarks>
         [JsiiProperty(name: "captchaConfig", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleCaptchaConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>rule_label block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#rule_label Wafv2RuleGroup#rule_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#rule_label Wafv2RuleGroup#rule_label}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleRuleLabel" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ruleLabel", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleRuleLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#statement Wafv2RuleGroup#statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#statement Wafv2RuleGroup#statement}
         /// </remarks>
         [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"any\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#action Wafv2RuleGroup#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#action Wafv2RuleGroup#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleAction\"}")]
             public aws.Wafv2RuleGroup.IWafv2RuleGroupRuleAction Action
@@ -101,14 +101,14 @@ namespace aws.Wafv2RuleGroup
                 get => GetInstanceProperty<aws.Wafv2RuleGroup.IWafv2RuleGroupRuleAction>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#name Wafv2RuleGroup#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#name Wafv2RuleGroup#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#priority Wafv2RuleGroup#priority}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#priority Wafv2RuleGroup#priority}.</summary>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
             {
@@ -117,7 +117,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>visibility_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#visibility_config Wafv2RuleGroup#visibility_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#visibility_config Wafv2RuleGroup#visibility_config}
             /// </remarks>
             [JsiiProperty(name: "visibilityConfig", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleVisibilityConfig\"}")]
             public aws.Wafv2RuleGroup.IWafv2RuleGroupRuleVisibilityConfig VisibilityConfig
@@ -127,7 +127,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>captcha_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#captcha_config Wafv2RuleGroup#captcha_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#captcha_config Wafv2RuleGroup#captcha_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "captchaConfig", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleCaptchaConfig\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>rule_label block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#rule_label Wafv2RuleGroup#rule_label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#rule_label Wafv2RuleGroup#rule_label}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleRuleLabel" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -150,7 +150,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>statement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/wafv2_rule_group#statement Wafv2RuleGroup#statement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_rule_group#statement Wafv2RuleGroup#statement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"any\"}", isOptional: true)]

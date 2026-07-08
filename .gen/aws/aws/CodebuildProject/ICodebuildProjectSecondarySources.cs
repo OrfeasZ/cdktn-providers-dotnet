@@ -7,14 +7,14 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectSecondarySources), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectSecondarySources")]
     public interface ICodebuildProjectSecondarySources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
         [JsiiProperty(name: "sourceIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string SourceIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -23,7 +23,7 @@ namespace aws.CodebuildProject
 
         /// <summary>auth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
         /// </remarks>
         [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesAuth\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}.</summary>
         [JsiiProperty(name: "buildspec", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Buildspec
@@ -48,7 +48,7 @@ namespace aws.CodebuildProject
 
         /// <summary>build_status_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
         /// </remarks>
         [JsiiProperty(name: "buildStatusConfig", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesBuildStatusConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}.</summary>
         [JsiiProperty(name: "gitCloneDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GitCloneDepth
@@ -73,7 +73,7 @@ namespace aws.CodebuildProject
 
         /// <summary>git_submodules_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
         /// </remarks>
         [JsiiProperty(name: "gitSubmodulesConfig", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -99,7 +99,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -110,7 +110,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -131,14 +131,14 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#source_identifier CodebuildProject#source_identifier}.</summary>
             [JsiiProperty(name: "sourceIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#type CodebuildProject#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
@@ -147,7 +147,7 @@ namespace aws.CodebuildProject
 
             /// <summary>auth block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#auth CodebuildProject#auth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesAuth\"}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<aws.CodebuildProject.ICodebuildProjectSecondarySourcesAuth?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#buildspec CodebuildProject#buildspec}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "buildspec", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Buildspec
@@ -166,7 +166,7 @@ namespace aws.CodebuildProject
 
             /// <summary>build_status_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#build_status_config CodebuildProject#build_status_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "buildStatusConfig", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesBuildStatusConfig\"}", isOptional: true)]
@@ -175,7 +175,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<aws.CodebuildProject.ICodebuildProjectSecondarySourcesBuildStatusConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_clone_depth CodebuildProject#git_clone_depth}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gitCloneDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GitCloneDepth
@@ -185,7 +185,7 @@ namespace aws.CodebuildProject
 
             /// <summary>git_submodules_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#git_submodules_config CodebuildProject#git_submodules_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitSubmodulesConfig", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectSecondarySourcesGitSubmodulesConfig\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<aws.CodebuildProject.ICodebuildProjectSecondarySourcesGitSubmodulesConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#insecure_ssl CodebuildProject#insecure_ssl}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -205,7 +205,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -213,7 +213,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_project#report_build_status CodebuildProject#report_build_status}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

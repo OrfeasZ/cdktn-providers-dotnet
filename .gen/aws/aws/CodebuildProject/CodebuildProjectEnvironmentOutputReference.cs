@@ -99,6 +99,12 @@ namespace aws.CodebuildProject
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetHostKernel")]
+        public virtual void ResetHostKernel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetImagePullCredentialsType")]
         public virtual void ResetImagePullCredentialsType()
         {
@@ -180,6 +186,13 @@ namespace aws.CodebuildProject
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "hostKernelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HostKernelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "imageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ImageInput
         {
@@ -226,6 +239,13 @@ namespace aws.CodebuildProject
 
         [JsiiProperty(name: "computeType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "hostKernel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostKernel
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

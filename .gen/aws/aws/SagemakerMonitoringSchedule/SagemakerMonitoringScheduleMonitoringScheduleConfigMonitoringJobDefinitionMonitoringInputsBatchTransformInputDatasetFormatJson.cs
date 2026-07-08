@@ -9,7 +9,7 @@ namespace aws.SagemakerMonitoringSchedule
     {
         private object? _line;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_monitoring_schedule#line SagemakerMonitoringSchedule#line}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

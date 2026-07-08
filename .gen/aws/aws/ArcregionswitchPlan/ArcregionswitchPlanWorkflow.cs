@@ -9,7 +9,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiByValue(fqn: "aws.arcregionswitchPlan.ArcregionswitchPlanWorkflow")]
     public class ArcregionswitchPlanWorkflow : aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arcregionswitch_plan#workflow_target_action ArcregionswitchPlan#workflow_target_action}.</summary>
         [JsiiProperty(name: "workflowTargetAction", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkflowTargetAction
         {
@@ -21,7 +21,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStep" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace aws.ArcregionswitchPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arcregionswitch_plan#workflow_description ArcregionswitchPlan#workflow_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workflowDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkflowDescription
@@ -61,7 +61,7 @@ namespace aws.ArcregionswitchPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/arcregionswitch_plan#workflow_target_region ArcregionswitchPlan#workflow_target_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workflowTargetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkflowTargetRegion

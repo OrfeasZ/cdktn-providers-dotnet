@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.LambdaEventSourceMapping
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping}.</summary>
     [JsiiClass(nativeType: typeof(aws.LambdaEventSourceMapping.LambdaEventSourceMapping), fullyQualifiedName: "aws.lambdaEventSourceMapping.LambdaEventSourceMapping", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingConfig\"}}]")]
     public class LambdaEventSourceMapping : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping aws_lambda_event_source_mapping} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LambdaEventSourceMapping(Constructs.Construct scope, string id, aws.LambdaEventSourceMapping.ILambdaEventSourceMappingConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.LambdaEventSourceMapping
         /// <param name="importToId">The construct id used in the generated config for the LambdaEventSourceMapping to import.</param>
         /// <param name="importFromId">The id of the existing LambdaEventSourceMapping that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LambdaEventSourceMapping to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaEventSourceMapping to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaEventSourceMapping that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaEventSourceMapping to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaEventSourceMapping to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaEventSourceMapping that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaEventSourceMapping to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LambdaEventSourceMapping.LambdaEventSourceMapping), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -122,6 +122,12 @@ namespace aws.LambdaEventSourceMapping
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingTimeouts\"}}]")]
+        public virtual void PutTimeouts(aws.LambdaEventSourceMapping.ILambdaEventSourceMappingTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LambdaEventSourceMapping.ILambdaEventSourceMappingTimeouts)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAmazonManagedKafkaEventSourceConfig")]
@@ -286,6 +292,12 @@ namespace aws.LambdaEventSourceMapping
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTopics")]
         public virtual void ResetTopics()
         {
@@ -294,6 +306,12 @@ namespace aws.LambdaEventSourceMapping
 
         [JsiiMethod(name: "resetTumblingWindowInSeconds")]
         public virtual void ResetTumblingWindowInSeconds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUseResourceTimeoutForPropagation")]
+        public virtual void ResetUseResourceTimeoutForPropagation()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -411,6 +429,12 @@ namespace aws.LambdaEventSourceMapping
         public virtual string StateTransitionReason
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingTimeoutsOutputReference\"}")]
+        public virtual aws.LambdaEventSourceMapping.LambdaEventSourceMappingTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<aws.LambdaEventSourceMapping.LambdaEventSourceMappingTimeoutsOutputReference>()!;
         }
 
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}")]
@@ -624,6 +648,16 @@ namespace aws.LambdaEventSourceMapping
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.LambdaEventSourceMapping.ILambdaEventSourceMappingTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "topicsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? TopicsInput
@@ -636,6 +670,16 @@ namespace aws.LambdaEventSourceMapping
         public virtual double? TumblingWindowInSecondsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "useResourceTimeoutForPropagationInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? UseResourceTimeoutForPropagationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}")]
@@ -822,6 +866,36 @@ namespace aws.LambdaEventSourceMapping
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "useResourceTimeoutForPropagation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object UseResourceTimeoutForPropagation
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ namespace aws.TransferWebApp
     {
         /// <summary>identity_center_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetailsIdentityCenterConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "identityCenterConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.transferWebApp.TransferWebAppIdentityProviderDetailsIdentityCenterConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.TransferWebApp
 
             /// <summary>identity_center_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/transfer_web_app#identity_center_config TransferWebApp#identity_center_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppIdentityProviderDetailsIdentityCenterConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]

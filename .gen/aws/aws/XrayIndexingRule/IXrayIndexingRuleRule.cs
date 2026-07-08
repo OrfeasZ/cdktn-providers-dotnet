@@ -9,7 +9,7 @@ namespace aws.XrayIndexingRule
     {
         /// <summary>probabilistic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "probabilistic", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.xrayIndexingRule.XrayIndexingRuleRuleProbabilistic\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.XrayIndexingRule
 
             /// <summary>probabilistic block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</para>
             /// </remarks>
             [JsiiOptional]

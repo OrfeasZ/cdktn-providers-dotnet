@@ -35,6 +35,12 @@ namespace aws.SagemakerEndpointConfiguration
         {
         }
 
+        [JsiiMethod(name: "putCapacityReservationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig\"}}]")]
+        public virtual void PutCapacityReservationConfig(aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putCoreDumpConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCoreDumpConfig\"}}]")]
         public virtual void PutCoreDumpConfig(aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsCoreDumpConfig @value)
         {
@@ -79,6 +85,12 @@ namespace aws.SagemakerEndpointConfiguration
 
         [JsiiMethod(name: "resetAcceleratorType")]
         public virtual void ResetAcceleratorType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCapacityReservationConfig")]
+        public virtual void ResetCapacityReservationConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -167,6 +179,12 @@ namespace aws.SagemakerEndpointConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "capacityReservationConfig", typeJson: "{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference\"}")]
+        public virtual aws.SagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference CapacityReservationConfig
+        {
+            get => GetInstanceProperty<aws.SagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "coreDumpConfig", typeJson: "{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCoreDumpConfigOutputReference\"}")]
         public virtual aws.SagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCoreDumpConfigOutputReference CoreDumpConfig
         {
@@ -196,6 +214,13 @@ namespace aws.SagemakerEndpointConfiguration
         public virtual string? AcceleratorTypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationConfigInput", typeJson: "{\"fqn\":\"aws.sagemakerEndpointConfiguration.SagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig\"}", isOptional: true)]
+        public virtual aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig? CapacityReservationConfigInput
+        {
+            get => GetInstanceProperty<aws.SagemakerEndpointConfiguration.ISagemakerEndpointConfigurationProductionVariantsCapacityReservationConfig?>();
         }
 
         [JsiiOptional]

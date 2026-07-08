@@ -11,7 +11,7 @@ namespace aws.PipesPipe
 
         /// <summary>pipeline_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.53.0/docs/resources/pipes_pipe#pipeline_parameter PipesPipe#pipeline_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pipes_pipe#pipeline_parameter PipesPipe#pipeline_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersSagemakerPipelineParametersPipelineParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
