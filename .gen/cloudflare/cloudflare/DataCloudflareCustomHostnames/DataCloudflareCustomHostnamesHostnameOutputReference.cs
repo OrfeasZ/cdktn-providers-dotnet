@@ -39,6 +39,18 @@ namespace cloudflare.DataCloudflareCustomHostnames
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetExact")]
+        public virtual void ResetExact()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStartsWith")]
+        public virtual void ResetStartsWith()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "containInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ContainInput
@@ -46,8 +58,36 @@ namespace cloudflare.DataCloudflareCustomHostnames
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "exactInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ExactInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "startsWithInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StartsWithInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "contain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Contain
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "exact", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Exact
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "startsWith", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StartsWith
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -7,36 +7,44 @@ namespace cloudflare.ManagedTransforms
     [JsiiInterface(nativeType: typeof(IManagedTransformsConfig), fullyQualifiedName: "cloudflare.managedTransforms.ManagedTransformsConfig")]
     public interface IManagedTransformsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The list of Managed Request Transforms.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}")]
-        object ManagedRequestHeaders
-        {
-            get;
-        }
-
-        /// <summary>The list of Managed Response Transforms.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}")]
-        object ManagedResponseHeaders
-        {
-            get;
-        }
-
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
             get;
+        }
+
+        /// <summary>The list of Managed Request Transforms.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? ManagedRequestHeaders
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>The list of Managed Response Transforms.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? ManagedResponseHeaders
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IManagedTransformsConfig), fullyQualifiedName: "cloudflare.managedTransforms.ManagedTransformsConfig")]
@@ -46,36 +54,38 @@ namespace cloudflare.ManagedTransforms
             {
             }
 
-            /// <summary>The list of Managed Request Transforms.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
-            /// </remarks>
-            [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}")]
-            public object ManagedRequestHeaders
-            {
-                get => GetInstanceProperty<object>()!;
-            }
-
-            /// <summary>The list of Managed Response Transforms.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
-            /// </remarks>
-            [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}")]
-            public object ManagedResponseHeaders
-            {
-                get => GetInstanceProperty<object>()!;
-            }
-
             /// <summary>The unique ID of the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>The list of Managed Request Transforms.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ManagedRequestHeaders
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>The list of Managed Response Transforms.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ManagedResponseHeaders
+            {
+                get => GetInstanceProperty<object?>();
             }
 
             /// <remarks>

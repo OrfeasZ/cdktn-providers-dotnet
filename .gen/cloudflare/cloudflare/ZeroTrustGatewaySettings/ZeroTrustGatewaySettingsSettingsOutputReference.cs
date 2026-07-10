@@ -183,6 +183,12 @@ namespace cloudflare.ZeroTrustGatewaySettings
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMaxTtlSecs")]
+        public virtual void ResetMaxTtlSecs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetProtocolDetection")]
         public virtual void ResetProtocolDetection()
         {
@@ -395,6 +401,13 @@ namespace cloudflare.ZeroTrustGatewaySettings
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "maxTtlSecsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxTtlSecsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewaySettings.IZeroTrustGatewaySettingsSettingsProtocolDetection" /></para>
         /// </remarks>
@@ -423,6 +436,13 @@ namespace cloudflare.ZeroTrustGatewaySettings
         public virtual object? TlsDecryptInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "maxTtlSecs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxTtlSecs
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

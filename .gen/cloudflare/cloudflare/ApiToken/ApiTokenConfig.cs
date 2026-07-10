@@ -11,7 +11,7 @@ namespace cloudflare.ApiToken
     {
         /// <summary>Token name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#name ApiToken#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#name ApiToken#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace cloudflare.ApiToken
 
         /// <summary>Set of access policies assigned to the token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#policies ApiToken#policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#policies ApiToken#policies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiToken.IApiTokenPolicies" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "policies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.apiToken.ApiTokenPolicies\"},\"kind\":\"array\"}}]}}")]
@@ -54,7 +54,7 @@ namespace cloudflare.ApiToken
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#condition ApiToken#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#condition ApiToken#condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"cloudflare.apiToken.ApiTokenCondition\"}", isOptional: true)]
         public cloudflare.ApiToken.IApiTokenCondition? Condition
@@ -65,7 +65,7 @@ namespace cloudflare.ApiToken
 
         /// <summary>The expiration time on or after which the JWT MUST NOT be accepted for processing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#expires_on ApiToken#expires_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#expires_on ApiToken#expires_on}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace cloudflare.ApiToken
 
         /// <summary>The time before which the token MUST NOT be accepted for processing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#not_before ApiToken#not_before}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#not_before ApiToken#not_before}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace cloudflare.ApiToken
 
         /// <summary>Status of the token. Available values: "active", "disabled", "expired".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/api_token#status ApiToken#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/api_token#status ApiToken#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

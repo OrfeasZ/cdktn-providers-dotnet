@@ -9,7 +9,7 @@ namespace cloudflare.CustomCsr
     {
         /// <summary>The common name (domain) for the CSR. Must be at most 64 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#common_name CustomCsr#common_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#common_name CustomCsr#common_name}
         /// </remarks>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
         string CommonName
@@ -19,7 +19,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Two-letter ISO 3166-1 alpha-2 country code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#country CustomCsr#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#country CustomCsr#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         string Country
@@ -29,7 +29,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>City or locality name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#locality CustomCsr#locality}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#locality CustomCsr#locality}
         /// </remarks>
         [JsiiProperty(name: "locality", typeJson: "{\"primitive\":\"string\"}")]
         string Locality
@@ -39,7 +39,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Organization name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#organization CustomCsr#organization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#organization CustomCsr#organization}
         /// </remarks>
         [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}")]
         string Organization
@@ -49,7 +49,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Subject Alternative Names for the CSR. At least one SAN is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#sans CustomCsr#sans}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#sans CustomCsr#sans}
         /// </remarks>
         [JsiiProperty(name: "sans", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Sans
@@ -59,7 +59,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>State or province name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#state CustomCsr#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#state CustomCsr#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         string State
@@ -69,7 +69,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#account_id CustomCsr#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#account_id CustomCsr#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Optional description for the CSR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#description CustomCsr#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#description CustomCsr#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Key algorithm to use for the CSR. Defaults to rsa2048 if not specified. Available values: "rsa2048", "p256v1".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#key_type CustomCsr#key_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#key_type CustomCsr#key_type}
         /// </remarks>
         [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Human-readable name for the CSR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#name CustomCsr#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#name CustomCsr#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>Organizational unit name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#organizational_unit CustomCsr#organizational_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#organizational_unit CustomCsr#organizational_unit}
         /// </remarks>
         [JsiiProperty(name: "organizationalUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -139,7 +139,7 @@ namespace cloudflare.CustomCsr
 
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#zone_id CustomCsr#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#zone_id CustomCsr#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +160,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>The common name (domain) for the CSR. Must be at most 64 characters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#common_name CustomCsr#common_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#common_name CustomCsr#common_name}
             /// </remarks>
             [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
             public string CommonName
@@ -170,7 +170,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Two-letter ISO 3166-1 alpha-2 country code.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#country CustomCsr#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#country CustomCsr#country}
             /// </remarks>
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
             public string Country
@@ -180,7 +180,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>City or locality name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#locality CustomCsr#locality}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#locality CustomCsr#locality}
             /// </remarks>
             [JsiiProperty(name: "locality", typeJson: "{\"primitive\":\"string\"}")]
             public string Locality
@@ -190,7 +190,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Organization name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#organization CustomCsr#organization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#organization CustomCsr#organization}
             /// </remarks>
             [JsiiProperty(name: "organization", typeJson: "{\"primitive\":\"string\"}")]
             public string Organization
@@ -200,7 +200,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Subject Alternative Names for the CSR. At least one SAN is required.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#sans CustomCsr#sans}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#sans CustomCsr#sans}
             /// </remarks>
             [JsiiProperty(name: "sans", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Sans
@@ -210,7 +210,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>State or province name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#state CustomCsr#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#state CustomCsr#state}
             /// </remarks>
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
             public string State
@@ -220,7 +220,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#account_id CustomCsr#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#account_id CustomCsr#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Optional description for the CSR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#description CustomCsr#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#description CustomCsr#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Key algorithm to use for the CSR. Defaults to rsa2048 if not specified. Available values: "rsa2048", "p256v1".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#key_type CustomCsr#key_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#key_type CustomCsr#key_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Human-readable name for the CSR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#name CustomCsr#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#name CustomCsr#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>Organizational unit name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#organizational_unit CustomCsr#organizational_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#organizational_unit CustomCsr#organizational_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationalUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -275,7 +275,7 @@ namespace cloudflare.CustomCsr
 
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/custom_csr#zone_id CustomCsr#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/custom_csr#zone_id CustomCsr#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

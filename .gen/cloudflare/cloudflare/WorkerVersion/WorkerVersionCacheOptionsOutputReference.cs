@@ -2,14 +2,14 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace cloudflare.AiSearchInstance
+namespace cloudflare.WorkerVersion
 {
-    [JsiiClass(nativeType: typeof(cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference), fullyQualifiedName: "cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
-    public class AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference : Io.Cdktn.ComplexObject
+    [JsiiClass(nativeType: typeof(cloudflare.WorkerVersion.WorkerVersionCacheOptionsOutputReference), fullyQualifiedName: "cloudflare.workerVersion.WorkerVersionCacheOptionsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class WorkerVersionCacheOptionsOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        public AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        public WorkerVersionCacheOptionsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
         {
         }
 
@@ -22,60 +22,35 @@ namespace cloudflare.AiSearchInstance
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
         /// <param name="reference">The Javascript-owned object reference</param>
         [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
-        protected AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference(ByRefValue reference): base(reference)
+        protected WorkerVersionCacheOptionsOutputReference(ByRefValue reference): base(reference)
         {
         }
 
         /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
         /// <param name="props">The deputy props</param>
         [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
-        protected AiSearchInstanceSourceParamsWebCrawlerCrawlOptionsOutputReference(DeputyProps props): base(props)
+        protected WorkerVersionCacheOptionsOutputReference(DeputyProps props): base(props)
         {
         }
 
-        [JsiiMethod(name: "resetDepth")]
-        public virtual void ResetDepth()
+        [JsiiMethod(name: "resetCrossVersionCache")]
+        public virtual void ResetCrossVersionCache()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetIncludeExternalLinks")]
-        public virtual void ResetIncludeExternalLinks()
+        [JsiiMethod(name: "resetEnabled")]
+        public virtual void ResetEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetIncludeSubdomains")]
-        public virtual void ResetIncludeSubdomains()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetMaxAge")]
-        public virtual void ResetMaxAge()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetSource")]
-        public virtual void ResetSource()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "depthInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? DepthInput
-        {
-            get => GetInstanceProperty<double?>();
         }
 
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "includeExternalLinksInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? IncludeExternalLinksInput
+        [JsiiProperty(name: "crossVersionCacheInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? CrossVersionCacheInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -84,38 +59,17 @@ namespace cloudflare.AiSearchInstance
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "includeSubdomainsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? IncludeSubdomainsInput
+        [JsiiProperty(name: "enabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? EnabledInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "maxAgeInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? MaxAgeInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "sourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? SourceInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "depth", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Depth
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
         }
 
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "includeExternalLinks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object IncludeExternalLinks
+        [JsiiProperty(name: "crossVersionCache", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object CrossVersionCache
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -144,8 +98,8 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "includeSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object IncludeSubdomains
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object Enabled
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -171,25 +125,11 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double MaxAge
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Source
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerCrawlOptions" /></para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionCacheOptions" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerCrawlOptions\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionCacheOptions\"}]}}", isOptional: true)]
         public virtual object? InternalValue
         {
             get => GetInstanceProperty<object?>();
@@ -201,7 +141,7 @@ namespace cloudflare.AiSearchInstance
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerCrawlOptions cast_cd4240:
+                        case cloudflare.WorkerVersion.IWorkerVersionCacheOptions cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -209,7 +149,7 @@ namespace cloudflare.AiSearchInstance
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerCrawlOptions).FullName}; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.WorkerVersion.IWorkerVersionCacheOptions).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

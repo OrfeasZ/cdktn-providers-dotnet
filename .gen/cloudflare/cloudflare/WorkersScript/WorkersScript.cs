@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.WorkersScript
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_script cloudflare_workers_script}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/workers_script cloudflare_workers_script}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.WorkersScript.WorkersScript), fullyQualifiedName: "cloudflare.workersScript.WorkersScript", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptConfig\"}}]")]
     public class WorkersScript : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_script cloudflare_workers_script} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/workers_script cloudflare_workers_script} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public WorkersScript(Constructs.Construct scope, string id, cloudflare.WorkersScript.IWorkersScriptConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.WorkersScript
         /// <param name="importToId">The construct id used in the generated config for the WorkersScript to import.</param>
         /// <param name="importFromId">The id of the existing WorkersScript that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the WorkersScript to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersScript to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/workers_script#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersScript that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersScript to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersScript to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/workers_script#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersScript that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersScript to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkersScript.WorkersScript), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -82,6 +82,36 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putCacheOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptCacheOptions\"}}]")]
+        public virtual void PutCacheOptions(cloudflare.WorkersScript.IWorkersScriptCacheOptions @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptCacheOptions)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.WorkersScript.IWorkersScriptExports" />&gt;</param>
+        [JsiiMethod(name: "putExports", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptExports\"},\"kind\":\"map\"}}]}}}]")]
+        public virtual void PutExports(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case System.Collections.Generic.IDictionary<string, cloudflare.WorkersScript.IWorkersScriptExports> cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptExports).FullName}>; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptExports).FullName}>; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putLimits", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptLimits\"}}]")]
         public virtual void PutLimits(cloudflare.WorkersScript.IWorkersScriptLimits @value)
         {
@@ -98,6 +128,30 @@ namespace cloudflare.WorkersScript
         public virtual void PutObservability(cloudflare.WorkersScript.IWorkersScriptObservability @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptObservability)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptPackageDependencies" />)[]</param>
+        [JsiiMethod(name: "putPackageDependencies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptPackageDependencies\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutPackageDependencies(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.WorkersScript.IWorkersScriptPackageDependencies[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.WorkersScript.IWorkersScriptPackageDependencies).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.WorkersScript.IWorkersScriptPackageDependencies).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putPlacement", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptPlacement\"}}]")]
@@ -154,6 +208,12 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCacheOptions")]
+        public virtual void ResetCacheOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCompatibilityDate")]
         public virtual void ResetCompatibilityDate()
         {
@@ -186,6 +246,12 @@ namespace cloudflare.WorkersScript
 
         [JsiiMethod(name: "resetContentType")]
         public virtual void ResetContentType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExports")]
+        public virtual void ResetExports()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -228,6 +294,12 @@ namespace cloudflare.WorkersScript
 
         [JsiiMethod(name: "resetObservability")]
         public virtual void ResetObservability()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPackageDependencies")]
+        public virtual void ResetPackageDependencies()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -287,6 +359,12 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptBindingsList>()!;
         }
 
+        [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptCacheOptionsOutputReference\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptCacheOptionsOutputReference CacheOptions
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptCacheOptionsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {
@@ -297,6 +375,12 @@ namespace cloudflare.WorkersScript
         public virtual string Etag
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "exports", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptExportsMap\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptExportsMap Exports
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptExportsMap>()!;
         }
 
         [JsiiProperty(name: "handlers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -363,6 +447,12 @@ namespace cloudflare.WorkersScript
         public virtual cloudflare.WorkersScript.WorkersScriptObservabilityOutputReference Observability
         {
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptObservabilityOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "packageDependencies", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptPackageDependenciesList\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptPackageDependenciesList PackageDependencies
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptPackageDependenciesList>()!;
         }
 
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptPlacementOutputReference\"}")]
@@ -439,6 +529,16 @@ namespace cloudflare.WorkersScript
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptCacheOptions" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "cacheOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptCacheOptions\"}]}}", isOptional: true)]
+        public virtual object? CacheOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityDateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompatibilityDateInput
@@ -479,6 +579,16 @@ namespace cloudflare.WorkersScript
         public virtual string? ContentTypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.WorkersScript.IWorkersScriptExports" />&gt;</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "exportsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptExports\"},\"kind\":\"map\"}}]}}", isOptional: true)]
+        public virtual object? ExportsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
@@ -541,6 +651,16 @@ namespace cloudflare.WorkersScript
         [JsiiOptional]
         [JsiiProperty(name: "observabilityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservability\"}]}}", isOptional: true)]
         public virtual object? ObservabilityInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptPackageDependencies" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "packageDependenciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptPackageDependencies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? PackageDependenciesInput
         {
             get => GetInstanceProperty<object?>();
         }

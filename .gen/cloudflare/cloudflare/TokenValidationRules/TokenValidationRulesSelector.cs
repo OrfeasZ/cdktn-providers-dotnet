@@ -11,7 +11,7 @@ namespace cloudflare.TokenValidationRules
 
         /// <summary>Ignore operations that were otherwise included by `include`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_rules#exclude TokenValidationRules#exclude}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorExclude" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace cloudflare.TokenValidationRules
 
         /// <summary>Select all matching operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/token_validation_rules#include TokenValidationRules#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_rules#include TokenValidationRules#include}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationRules.ITokenValidationRulesSelectorInclude" />)[]</para>
         /// </remarks>
         [JsiiOptional]

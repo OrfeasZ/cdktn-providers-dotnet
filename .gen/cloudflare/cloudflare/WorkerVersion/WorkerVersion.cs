@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.WorkerVersion
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version cloudflare_worker_version}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/worker_version cloudflare_worker_version}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.WorkerVersion.WorkerVersion), fullyQualifiedName: "cloudflare.workerVersion.WorkerVersion", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionConfig\"}}]")]
     public class WorkerVersion : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version cloudflare_worker_version} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/worker_version cloudflare_worker_version} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public WorkerVersion(Constructs.Construct scope, string id, cloudflare.WorkerVersion.IWorkerVersionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.WorkerVersion
         /// <param name="importToId">The construct id used in the generated config for the WorkerVersion to import.</param>
         /// <param name="importFromId">The id of the existing WorkerVersion that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the WorkerVersion to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkerVersion to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/worker_version#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkerVersion that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkerVersion to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkerVersion to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/worker_version#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkerVersion that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkerVersion to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkerVersion.WorkerVersion), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -80,6 +80,12 @@ namespace cloudflare.WorkerVersion
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putCacheOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionCacheOptions\"}}]")]
+        public virtual void PutCacheOptions(cloudflare.WorkerVersion.IWorkerVersionCacheOptions @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkerVersion.IWorkerVersionCacheOptions)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionContainers" />)[]</param>
@@ -142,6 +148,30 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPackageDependencies" />)[]</param>
+        [JsiiMethod(name: "putPackageDependencies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPackageDependencies\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutPackageDependencies(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.WorkerVersion.IWorkerVersionPackageDependencies[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.WorkerVersion.IWorkerVersionPackageDependencies).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.WorkerVersion.IWorkerVersionPackageDependencies).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putPlacement", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacement\"}}]")]
         public virtual void PutPlacement(cloudflare.WorkerVersion.IWorkerVersionPlacement @value)
         {
@@ -162,6 +192,12 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetBindings")]
         public virtual void ResetBindings()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCacheOptions")]
+        public virtual void ResetCacheOptions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -204,6 +240,12 @@ namespace cloudflare.WorkerVersion
 
         [JsiiMethod(name: "resetModules")]
         public virtual void ResetModules()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPackageDependencies")]
+        public virtual void ResetPackageDependencies()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -255,6 +297,12 @@ namespace cloudflare.WorkerVersion
         public virtual cloudflare.WorkerVersion.WorkerVersionBindingsList Bindings
         {
             get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionBindingsList>()!;
+        }
+
+        [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionCacheOptionsOutputReference\"}")]
+        public virtual cloudflare.WorkerVersion.WorkerVersionCacheOptionsOutputReference CacheOptions
+        {
+            get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionCacheOptionsOutputReference>()!;
         }
 
         [JsiiProperty(name: "containers", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionContainersList\"}")]
@@ -309,6 +357,12 @@ namespace cloudflare.WorkerVersion
         public virtual double Number
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "packageDependencies", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPackageDependenciesList\"}")]
+        public virtual cloudflare.WorkerVersion.WorkerVersionPackageDependenciesList PackageDependencies
+        {
+            get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionPackageDependenciesList>()!;
         }
 
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPlacementOutputReference\"}")]
@@ -372,6 +426,16 @@ namespace cloudflare.WorkerVersion
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionCacheOptions" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "cacheOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionCacheOptions\"}]}}", isOptional: true)]
+        public virtual object? CacheOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityDateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CompatibilityDateInput
@@ -429,6 +493,16 @@ namespace cloudflare.WorkerVersion
         [JsiiOptional]
         [JsiiProperty(name: "modulesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionModules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ModulesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkerVersion.IWorkerVersionPackageDependencies" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "packageDependenciesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionPackageDependencies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? PackageDependenciesInput
         {
             get => GetInstanceProperty<object?>();
         }

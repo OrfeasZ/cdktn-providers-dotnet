@@ -13,7 +13,7 @@ namespace cloudflare.OriginCloudRegion
         /// <remarks>
         /// For the single PUT endpoint (<c>PUT /origin/cloud_regions/{origin_ip}</c>), this field must match the path parameter or the request will be rejected with a 400 error. For the batch PUT endpoint, this field identifies which mapping to upsert.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_cloud_region#origin_ip OriginCloudRegion#origin_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/origin_cloud_region#origin_ip OriginCloudRegion#origin_ip}
         /// </remarks>
         [JsiiProperty(name: "originIp", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginIp
@@ -24,7 +24,7 @@ namespace cloudflare.OriginCloudRegion
 
         /// <summary>Cloud vendor region identifier. Must be a valid region for the specified vendor as returned by the supported_regions endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_cloud_region#region OriginCloudRegion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/origin_cloud_region#region OriginCloudRegion#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
@@ -35,7 +35,7 @@ namespace cloudflare.OriginCloudRegion
 
         /// <summary>Cloud vendor hosting the origin. Must be one of the supported vendors. Available values: "aws", "azure", "gcp", "oci".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_cloud_region#vendor OriginCloudRegion#vendor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/origin_cloud_region#vendor OriginCloudRegion#vendor}
         /// </remarks>
         [JsiiProperty(name: "vendor", typeJson: "{\"primitive\":\"string\"}")]
         public string Vendor
@@ -46,7 +46,7 @@ namespace cloudflare.OriginCloudRegion
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/origin_cloud_region#zone_id OriginCloudRegion#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/origin_cloud_region#zone_id OriginCloudRegion#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

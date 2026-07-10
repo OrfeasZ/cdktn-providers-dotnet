@@ -105,6 +105,18 @@ namespace cloudflare.DataCloudflareDnsRecord
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetShadowedByName")]
+        public virtual void ResetShadowedByName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetShadowingName")]
+        public virtual void ResetShadowingName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTag")]
         public virtual void ResetTag()
         {
@@ -215,6 +227,20 @@ namespace cloudflare.DataCloudflareDnsRecord
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "shadowedByNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ShadowedByNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "shadowingNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ShadowingNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareDnsRecord.IDataCloudflareDnsRecordFilterTag" /></para>
         /// </remarks>
@@ -292,6 +318,20 @@ namespace cloudflare.DataCloudflareDnsRecord
 
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Search
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "shadowedByName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ShadowedByName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "shadowingName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ShadowingName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

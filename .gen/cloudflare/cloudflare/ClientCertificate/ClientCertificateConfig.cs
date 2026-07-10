@@ -11,7 +11,7 @@ namespace cloudflare.ClientCertificate
     {
         /// <summary>The Certificate Signing Request (CSR). Must be newline-encoded.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/client_certificate#csr ClientCertificate#csr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/client_certificate#csr ClientCertificate#csr}
         /// </remarks>
         [JsiiProperty(name: "csr", typeJson: "{\"primitive\":\"string\"}")]
         public string Csr
@@ -22,7 +22,7 @@ namespace cloudflare.ClientCertificate
 
         /// <summary>The number of days the Client Certificate will be valid after the issued_on date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/client_certificate#validity_days ClientCertificate#validity_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/client_certificate#validity_days ClientCertificate#validity_days}
         /// </remarks>
         [JsiiProperty(name: "validityDays", typeJson: "{\"primitive\":\"number\"}")]
         public double ValidityDays
@@ -33,7 +33,7 @@ namespace cloudflare.ClientCertificate
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/client_certificate#zone_id ClientCertificate#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/client_certificate#zone_id ClientCertificate#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -44,7 +44,7 @@ namespace cloudflare.ClientCertificate
 
         private object? _reactivate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/client_certificate#reactivate ClientCertificate#reactivate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/client_certificate#reactivate ClientCertificate#reactivate}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

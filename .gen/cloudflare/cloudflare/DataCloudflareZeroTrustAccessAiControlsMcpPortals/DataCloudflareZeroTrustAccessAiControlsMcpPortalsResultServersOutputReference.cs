@@ -143,6 +143,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServerId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {

@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareWorkersKv
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/workers_kv#account_id DataCloudflareWorkersKv#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/workers_kv#account_id DataCloudflareWorkersKv#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -24,7 +24,7 @@ namespace cloudflare.DataCloudflareWorkersKv
         /// <remarks>
         /// The name may be at most 512 bytes. All printable, non-whitespace characters are valid. Use percent-encoding to define key names as part of a URL.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/workers_kv#key_name DataCloudflareWorkersKv#key_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/workers_kv#key_name DataCloudflareWorkersKv#key_name}
         /// </remarks>
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyName
@@ -35,7 +35,7 @@ namespace cloudflare.DataCloudflareWorkersKv
 
         /// <summary>Namespace identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/workers_kv#namespace_id DataCloudflareWorkersKv#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/workers_kv#namespace_id DataCloudflareWorkersKv#namespace_id}
         /// </remarks>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceId

@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>Controls how response Vary headers without a per-header override contribute to the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#default Ruleset#default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#default Ruleset#default}
         /// </remarks>
         [JsiiProperty(name: "default", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryDefault\"}")]
         public cloudflare.Ruleset.IRulesetRulesActionParametersVaryDefault Default
@@ -24,7 +24,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A mapping of lowercase request header names to their vary configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#headers Ruleset#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#headers Ruleset#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersVaryHeaders" />&gt;</para>
         /// </remarks>
         [JsiiOptional]

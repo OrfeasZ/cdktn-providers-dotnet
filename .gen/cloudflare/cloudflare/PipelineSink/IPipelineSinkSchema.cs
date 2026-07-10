@@ -7,7 +7,7 @@ namespace cloudflare.PipelineSink
     [JsiiInterface(nativeType: typeof(IPipelineSinkSchema), fullyQualifiedName: "cloudflare.pipelineSink.PipelineSinkSchema")]
     public interface IPipelineSinkSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace cloudflare.PipelineSink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFormat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PipelineSink.IPipelineSinkSchemaFormat? Format
@@ -32,7 +32,7 @@ namespace cloudflare.PipelineSink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace cloudflare.PipelineSink
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</para>
             /// </remarks>
@@ -64,7 +64,7 @@ namespace cloudflare.PipelineSink
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#format PipelineSink#format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineSink.PipelineSinkSchemaFormat\"}", isOptional: true)]
             public cloudflare.PipelineSink.IPipelineSinkSchemaFormat? Format
@@ -72,7 +72,7 @@ namespace cloudflare.PipelineSink
                 get => GetInstanceProperty<cloudflare.PipelineSink.IPipelineSinkSchemaFormat?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

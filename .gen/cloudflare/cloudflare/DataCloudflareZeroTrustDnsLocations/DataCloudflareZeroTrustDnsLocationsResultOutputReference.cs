@@ -101,6 +101,12 @@ namespace cloudflare.DataCloudflareZeroTrustDnsLocations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "maxTtl", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDnsLocations.DataCloudflareZeroTrustDnsLocationsResultMaxTtlOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustDnsLocations.DataCloudflareZeroTrustDnsLocationsResultMaxTtlOutputReference MaxTtl
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDnsLocations.DataCloudflareZeroTrustDnsLocationsResultMaxTtlOutputReference>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

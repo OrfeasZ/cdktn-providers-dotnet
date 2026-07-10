@@ -99,6 +99,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewaySettings
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewaySettings.DataCloudflareZeroTrustGatewaySettingsSettingsInspectionOutputReference>()!;
         }
 
+        [JsiiProperty(name: "maxTtlSecs", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxTtlSecs
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "protocolDetection", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewaySettings.DataCloudflareZeroTrustGatewaySettingsSettingsProtocolDetectionOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustGatewaySettings.DataCloudflareZeroTrustGatewaySettingsSettingsProtocolDetectionOutputReference ProtocolDetection
         {

@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>A list of additional ports that caching should be enabled on.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#additional_cacheable_ports Ruleset#additional_cacheable_ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#additional_cacheable_ports Ruleset#additional_cacheable_ports}
         /// </remarks>
         [JsiiProperty(name: "additionalCacheablePorts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Custom order for compression algorithms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#algorithms Ruleset#algorithms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#algorithms Ruleset#algorithms}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersAlgorithms" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "algorithms", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersAlgorithms\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The name of a custom asset to serve as the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#asset_name Ruleset#asset_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#asset_name Ruleset#asset_name}
         /// </remarks>
         [JsiiProperty(name: "assetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Automatic HTTPS Rewrites.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#automatic_https_rewrites Ruleset#automatic_https_rewrites}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#automatic_https_rewrites Ruleset#automatic_https_rewrites}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "automaticHttpsRewrites", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Which file extensions to minify automatically.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#autominify Ruleset#autominify}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#autominify Ruleset#autominify}
         /// </remarks>
         [JsiiProperty(name: "autominify", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersAutominify\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Browser Integrity Check (BIC).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#bic Ruleset#bic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#bic Ruleset#bic}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "bic", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// Cloudflare cache purge will not purge content cached on client browsers, so high browser TTLs may lead to stale content.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#browser_ttl Ruleset#browser_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#browser_ttl Ruleset#browser_ttl}
         /// </remarks>
         [JsiiProperty(name: "browserTtl", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersBrowserTtl\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// Caching itself will still depend on the cache control header and your other caching configurations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache Ruleset#cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache Ruleset#cache}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "cache", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Which components of the request are included in or excluded from the cache key Cloudflare uses to store the response in cache.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache_key Ruleset#cache_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache_key Ruleset#cache_key}
         /// </remarks>
         [JsiiProperty(name: "cacheKey", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKey\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Settings to determine whether the request's response from origin is eligible for Cache Reserve (requires a Cache Reserve add-on plan).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache_reserve Ruleset#cache_reserve}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache_reserve Ruleset#cache_reserve}
         /// </remarks>
         [JsiiProperty(name: "cacheReserve", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheReserve\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The response content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content Ruleset#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content Ruleset#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,7 +171,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable content conversion (e.g., HTML to Markdown).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content_converter Ruleset#content_converter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content_converter Ruleset#content_converter}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "contentConverter", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The content type header to set with the error response. Available values: "application/json", "text/html", "text/plain", "text/xml".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content_type Ruleset#content_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content_type Ruleset#content_type}
         /// </remarks>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +200,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The cookie fields to log.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cookie_fields Ruleset#cookie_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cookie_fields Ruleset#cookie_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCookieFields" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cookieFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCookieFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -215,7 +215,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to disable Cloudflare Apps.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_apps Ruleset#disable_apps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_apps Ruleset#disable_apps}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableApps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to disable Real User Monitoring (RUM).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_rum Ruleset#disable_rum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_rum Ruleset#disable_rum}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableRum", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -245,7 +245,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to disable Zaraz.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_zaraz Ruleset#disable_zaraz}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_zaraz Ruleset#disable_zaraz}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableZaraz", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -260,7 +260,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>How long the Cloudflare edge network should cache the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#edge_ttl Ruleset#edge_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#edge_ttl Ruleset#edge_ttl}
         /// </remarks>
         [JsiiProperty(name: "edgeTtl", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtl\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -274,7 +274,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Email Obfuscation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#email_obfuscation Ruleset#email_obfuscation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#email_obfuscation Ruleset#email_obfuscation}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "emailObfuscation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An expression to generate cache tags for set_cache_tags action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#expression Ruleset#expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#expression Ruleset#expression}
         /// </remarks>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -303,7 +303,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Cloudflare Fonts.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#fonts Ruleset#fonts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#fonts Ruleset#fonts}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "fonts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -318,7 +318,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A redirect based on a bulk list lookup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#from_list Ruleset#from_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#from_list Ruleset#from_list}
         /// </remarks>
         [JsiiProperty(name: "fromList", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromListStruct\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -332,7 +332,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A redirect based on the request properties.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#from_value Ruleset#from_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#from_value Ruleset#from_value}
         /// </remarks>
         [JsiiProperty(name: "fromValue", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromValue\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -346,7 +346,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A map of headers to rewrite.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#headers Ruleset#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#headers Ruleset#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersHeaders" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersHeaders\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -361,7 +361,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A value to rewrite the HTTP host header to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#host_header Ruleset#host_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#host_header Ruleset#host_header}
         /// </remarks>
         [JsiiProperty(name: "hostHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -375,7 +375,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Hotlink Protection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#hotlink_protection Ruleset#hotlink_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#hotlink_protection Ruleset#hotlink_protection}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "hotlinkProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -390,7 +390,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The ID of the ruleset to execute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#id Ruleset#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#id Ruleset#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -407,7 +407,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the immutable cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#immutable Ruleset#immutable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#immutable Ruleset#immutable}
         /// </remarks>
         [JsiiProperty(name: "immutable", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersImmutable\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -421,7 +421,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A delta to change the score by, which can be either positive or negative.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#increment Ruleset#increment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#increment Ruleset#increment}
         /// </remarks>
         [JsiiProperty(name: "increment", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -435,7 +435,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The configuration to use for matched data logging.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#matched_data Ruleset#matched_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#matched_data Ruleset#matched_data}
         /// </remarks>
         [JsiiProperty(name: "matchedData", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMatchedData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -449,7 +449,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the max-age cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#max_age Ruleset#max_age}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#max_age Ruleset#max_age}
         /// </remarks>
         [JsiiProperty(name: "maxAge", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMaxAge\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -463,7 +463,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Mirage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#mirage Ruleset#mirage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#mirage Ruleset#mirage}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "mirage", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -478,7 +478,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the must-revalidate cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#must_revalidate Ruleset#must_revalidate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#must_revalidate Ruleset#must_revalidate}
         /// </remarks>
         [JsiiProperty(name: "mustRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustRevalidate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -492,7 +492,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the must-understand cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#must_understand Ruleset#must_understand}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#must_understand Ruleset#must_understand}
         /// </remarks>
         [JsiiProperty(name: "mustUnderstand", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustUnderstand\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -506,7 +506,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the no-cache cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_cache Ruleset#no_cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_cache Ruleset#no_cache}
         /// </remarks>
         [JsiiProperty(name: "noCache", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoCache\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -520,7 +520,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the no-store cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_store Ruleset#no_store}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_store Ruleset#no_store}
         /// </remarks>
         [JsiiProperty(name: "noStore", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoStore\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -534,7 +534,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the no-transform cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_transform Ruleset#no_transform}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_transform Ruleset#no_transform}
         /// </remarks>
         [JsiiProperty(name: "noTransform", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoTransform\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -548,7 +548,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The operation to perform for set_cache_tags action. Available values: "set", "add", "remove".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#operation Ruleset#operation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#operation Ruleset#operation}
         /// </remarks>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -562,7 +562,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Opportunistic Encryption.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#opportunistic_encryption Ruleset#opportunistic_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#opportunistic_encryption Ruleset#opportunistic_encryption}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "opportunisticEncryption", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -577,7 +577,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>An origin to route to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin Ruleset#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin Ruleset#origin}
         /// </remarks>
         [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOrigin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -591,7 +591,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether Cloudflare will aim to strictly adhere to RFC 7234.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin_cache_control Ruleset#origin_cache_control}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin_cache_control Ruleset#origin_cache_control}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "originCacheControl", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -606,7 +606,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to generate Cloudflare error pages for issues from the origin server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin_error_page_passthru Ruleset#origin_error_page_passthru}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin_error_page_passthru Ruleset#origin_error_page_passthru}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "originErrorPagePassthru", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -621,7 +621,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A set of overrides to apply to the target ruleset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#overrides Ruleset#overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#overrides Ruleset#overrides}
         /// </remarks>
         [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverrides\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -638,7 +638,7 @@ namespace cloudflare.Ruleset
         /// This option is incompatible with the rulesets option.
         /// Available values: "ddos_l4", "ddos_l7", "http_config_settings", "http_custom_errors", "http_log_custom_fields", "http_ratelimit", "http_request_cache_settings", "http_request_dynamic_redirect", "http_request_firewall_custom", "http_request_firewall_managed", "http_request_late_transform", "http_request_origin", "http_request_redirect", "http_request_sanitize", "http_request_sbfm", "http_request_transform", "http_response_cache_settings", "http_response_compression", "http_response_firewall_managed", "http_response_headers_transform", "magic_transit", "magic_transit_ids_managed", "magic_transit_managed", "magic_transit_ratelimit".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#phases Ruleset#phases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#phases Ruleset#phases}
         /// </remarks>
         [JsiiProperty(name: "phases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -652,7 +652,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The Polish level to configure. Available values: "off", "lossless", "lossy", "webp".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#polish Ruleset#polish}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#polish Ruleset#polish}
         /// </remarks>
         [JsiiProperty(name: "polish", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -666,7 +666,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the private cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#private Ruleset#private}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#private Ruleset#private}
         /// </remarks>
         [JsiiProperty(name: "private", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPrivate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -680,7 +680,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A list of legacy security products to skip the execution of. Available values: "bic", "hot", "rateLimit", "securityLevel", "uaBlock", "waf", "zoneLockdown".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#products Ruleset#products}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#products Ruleset#products}
         /// </remarks>
         [JsiiProperty(name: "products", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -694,7 +694,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the proxy-revalidate cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#proxy_revalidate Ruleset#proxy_revalidate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#proxy_revalidate Ruleset#proxy_revalidate}
         /// </remarks>
         [JsiiProperty(name: "proxyRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersProxyRevalidate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -708,7 +708,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the public cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#public Ruleset#public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#public Ruleset#public}
         /// </remarks>
         [JsiiProperty(name: "public", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPublic\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -722,7 +722,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The raw response fields to log.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#raw_response_fields Ruleset#raw_response_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#raw_response_fields Ruleset#raw_response_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersRawResponseFields" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rawResponseFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersRawResponseFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -739,7 +739,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// Historically, the timeout value between two read options from Cloudflare to an origin server is 100 seconds. If you are attempting to reduce HTTP 524 errors because of timeouts from an origin server, try increasing this timeout value.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#read_timeout Ruleset#read_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#read_timeout Ruleset#read_timeout}
         /// </remarks>
         [JsiiProperty(name: "readTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -753,7 +753,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to redirect verified AI training crawlers to canonical URLs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#redirects_for_ai_training Ruleset#redirects_for_ai_training}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#redirects_for_ai_training Ruleset#redirects_for_ai_training}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "redirectsForAiTraining", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -768,7 +768,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The request body buffering mode to configure. Available values: "none", "standard", "full".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#request_body_buffering Ruleset#request_body_buffering}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#request_body_buffering Ruleset#request_body_buffering}
         /// </remarks>
         [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -782,7 +782,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The raw request fields to log.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#request_fields Ruleset#request_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#request_fields Ruleset#request_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersRequestFields" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "requestFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersRequestFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -799,7 +799,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// If false, Cloudflare converts strong ETag headers to weak ETag headers.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#respect_strong_etags Ruleset#respect_strong_etags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#respect_strong_etags Ruleset#respect_strong_etags}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "respectStrongEtags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -814,7 +814,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The response to show when the block is applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response Ruleset#response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response Ruleset#response}
         /// </remarks>
         [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersResponse\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -828,7 +828,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The response body buffering mode to configure. Available values: "none", "standard".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response_body_buffering Ruleset#response_body_buffering}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response_body_buffering Ruleset#response_body_buffering}
         /// </remarks>
         [JsiiProperty(name: "responseBodyBuffering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -842,7 +842,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The transformed response fields to log.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response_fields Ruleset#response_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response_fields Ruleset#response_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersResponseFields" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "responseFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersResponseFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -857,7 +857,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Rocket Loader.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rocket_loader Ruleset#rocket_loader}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rocket_loader Ruleset#rocket_loader}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "rocketLoader", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -874,7 +874,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// This option is incompatible with the ruleset option.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rules Ruleset#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rules Ruleset#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -889,7 +889,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A ruleset to skip the execution of. This option is incompatible with the rulesets option. Available values: "current".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#ruleset Ruleset#ruleset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#ruleset Ruleset#ruleset}
         /// </remarks>
         [JsiiProperty(name: "ruleset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -905,7 +905,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// This option is incompatible with the ruleset and phases options.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rulesets Ruleset#rulesets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rulesets Ruleset#rulesets}
         /// </remarks>
         [JsiiProperty(name: "rulesets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -919,7 +919,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The Security Level to configure. Available values: "off", "essentially_off", "low", "medium", "high", "under_attack".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#security_level Ruleset#security_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#security_level Ruleset#security_level}
         /// </remarks>
         [JsiiProperty(name: "securityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -933,7 +933,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Server-Side Excludes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#server_side_excludes Ruleset#server_side_excludes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#server_side_excludes Ruleset#server_side_excludes}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "serverSideExcludes", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -948,7 +948,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>When to serve stale content from cache.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#serve_stale Ruleset#serve_stale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#serve_stale Ruleset#serve_stale}
         /// </remarks>
         [JsiiProperty(name: "serveStale", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersServeStale\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -962,7 +962,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the s-maxage cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#s_maxage Ruleset#s_maxage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#s_maxage Ruleset#s_maxage}
         /// </remarks>
         [JsiiProperty(name: "sMaxage", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSMaxage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -976,7 +976,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A Server Name Indication (SNI) override.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#sni Ruleset#sni}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#sni Ruleset#sni}
         /// </remarks>
         [JsiiProperty(name: "sni", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSni\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -990,7 +990,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The SSL level to configure. Available values: "off", "flexible", "full", "strict", "origin_pull".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#ssl Ruleset#ssl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#ssl Ruleset#ssl}
         /// </remarks>
         [JsiiProperty(name: "ssl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1004,7 +1004,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the stale-if-error cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#stale_if_error Ruleset#stale_if_error}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#stale_if_error Ruleset#stale_if_error}
         /// </remarks>
         [JsiiProperty(name: "staleIfError", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleIfError\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1018,7 +1018,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Set the stale-while-revalidate cache control directive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#stale_while_revalidate Ruleset#stale_while_revalidate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#stale_while_revalidate Ruleset#stale_while_revalidate}
         /// </remarks>
         [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleWhileRevalidate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1032,7 +1032,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The status code to use for the error.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#status_code Ruleset#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#status_code Ruleset#status_code}
         /// </remarks>
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1046,7 +1046,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to strip the ETag header from the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_etags Ruleset#strip_etags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_etags Ruleset#strip_etags}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "stripEtags", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -1061,7 +1061,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to strip the Last-Modified header from the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_last_modified Ruleset#strip_last_modified}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_last_modified Ruleset#strip_last_modified}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "stripLastModified", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -1076,7 +1076,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to strip the Set-Cookie header from the response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_set_cookie Ruleset#strip_set_cookie}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_set_cookie Ruleset#strip_set_cookie}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "stripSetCookie", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -1091,7 +1091,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to enable Signed Exchanges (SXG).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#sxg Ruleset#sxg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#sxg Ruleset#sxg}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "sxg", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -1106,7 +1106,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The transformed request fields to log.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#transformed_request_fields Ruleset#transformed_request_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#transformed_request_fields Ruleset#transformed_request_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersTransformedRequestFields" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "transformedRequestFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersTransformedRequestFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -1121,7 +1121,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A URI rewrite.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#uri Ruleset#uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#uri Ruleset#uri}
         /// </remarks>
         [JsiiProperty(name: "uri", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUri\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1135,7 +1135,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>The cache tag values for set_cache_tags action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#values Ruleset#values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#values Ruleset#values}
         /// </remarks>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1151,7 +1151,7 @@ namespace cloudflare.Ruleset
         /// <remarks>
         /// <c>default</c> is required and applies to any Vary response header that does not have a per-header override.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#vary Ruleset#vary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#vary Ruleset#vary}
         /// </remarks>
         [JsiiProperty(name: "vary", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVary\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -1172,7 +1172,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A list of additional ports that caching should be enabled on.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#additional_cacheable_ports Ruleset#additional_cacheable_ports}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#additional_cacheable_ports Ruleset#additional_cacheable_ports}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "additionalCacheablePorts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -1183,7 +1183,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Custom order for compression algorithms.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#algorithms Ruleset#algorithms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#algorithms Ruleset#algorithms}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersAlgorithms" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1195,7 +1195,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The name of a custom asset to serve as the response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#asset_name Ruleset#asset_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#asset_name Ruleset#asset_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "assetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1206,7 +1206,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Automatic HTTPS Rewrites.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#automatic_https_rewrites Ruleset#automatic_https_rewrites}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#automatic_https_rewrites Ruleset#automatic_https_rewrites}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1218,7 +1218,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Which file extensions to minify automatically.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#autominify Ruleset#autominify}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#autominify Ruleset#autominify}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autominify", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersAutominify\"}", isOptional: true)]
@@ -1229,7 +1229,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Browser Integrity Check (BIC).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#bic Ruleset#bic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#bic Ruleset#bic}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1243,7 +1243,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// Cloudflare cache purge will not purge content cached on client browsers, so high browser TTLs may lead to stale content.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#browser_ttl Ruleset#browser_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#browser_ttl Ruleset#browser_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "browserTtl", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersBrowserTtl\"}", isOptional: true)]
@@ -1256,7 +1256,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// Caching itself will still depend on the cache control header and your other caching configurations.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache Ruleset#cache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache Ruleset#cache}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1268,7 +1268,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Which components of the request are included in or excluded from the cache key Cloudflare uses to store the response in cache.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache_key Ruleset#cache_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache_key Ruleset#cache_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheKey", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheKey\"}", isOptional: true)]
@@ -1279,7 +1279,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Settings to determine whether the request's response from origin is eligible for Cache Reserve (requires a Cache Reserve add-on plan).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cache_reserve Ruleset#cache_reserve}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cache_reserve Ruleset#cache_reserve}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheReserve", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersCacheReserve\"}", isOptional: true)]
@@ -1290,7 +1290,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The response content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content Ruleset#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content Ruleset#content}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1301,7 +1301,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable content conversion (e.g., HTML to Markdown).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content_converter Ruleset#content_converter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content_converter Ruleset#content_converter}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1313,7 +1313,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The content type header to set with the error response. Available values: "application/json", "text/html", "text/plain", "text/xml".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#content_type Ruleset#content_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#content_type Ruleset#content_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1324,7 +1324,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The cookie fields to log.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#cookie_fields Ruleset#cookie_fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#cookie_fields Ruleset#cookie_fields}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersCookieFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1336,7 +1336,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to disable Cloudflare Apps.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_apps Ruleset#disable_apps}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_apps Ruleset#disable_apps}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1348,7 +1348,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to disable Real User Monitoring (RUM).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_rum Ruleset#disable_rum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_rum Ruleset#disable_rum}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1360,7 +1360,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to disable Zaraz.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#disable_zaraz Ruleset#disable_zaraz}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#disable_zaraz Ruleset#disable_zaraz}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1372,7 +1372,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>How long the Cloudflare edge network should cache the response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#edge_ttl Ruleset#edge_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#edge_ttl Ruleset#edge_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "edgeTtl", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersEdgeTtl\"}", isOptional: true)]
@@ -1383,7 +1383,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Email Obfuscation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#email_obfuscation Ruleset#email_obfuscation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#email_obfuscation Ruleset#email_obfuscation}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1395,7 +1395,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An expression to generate cache tags for set_cache_tags action.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#expression Ruleset#expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#expression Ruleset#expression}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1406,7 +1406,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Cloudflare Fonts.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#fonts Ruleset#fonts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#fonts Ruleset#fonts}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1418,7 +1418,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A redirect based on a bulk list lookup.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#from_list Ruleset#from_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#from_list Ruleset#from_list}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fromList", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromListStruct\"}", isOptional: true)]
@@ -1429,7 +1429,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A redirect based on the request properties.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#from_value Ruleset#from_value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#from_value Ruleset#from_value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fromValue", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersFromValue\"}", isOptional: true)]
@@ -1440,7 +1440,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A map of headers to rewrite.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#headers Ruleset#headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#headers Ruleset#headers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersHeaders" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -1452,7 +1452,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A value to rewrite the HTTP host header to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#host_header Ruleset#host_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#host_header Ruleset#host_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1463,7 +1463,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Hotlink Protection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#hotlink_protection Ruleset#hotlink_protection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#hotlink_protection Ruleset#hotlink_protection}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1475,7 +1475,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The ID of the ruleset to execute.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#id Ruleset#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#id Ruleset#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1489,7 +1489,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the immutable cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#immutable Ruleset#immutable}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#immutable Ruleset#immutable}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "immutable", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersImmutable\"}", isOptional: true)]
@@ -1500,7 +1500,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A delta to change the score by, which can be either positive or negative.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#increment Ruleset#increment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#increment Ruleset#increment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "increment", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1511,7 +1511,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The configuration to use for matched data logging.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#matched_data Ruleset#matched_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#matched_data Ruleset#matched_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "matchedData", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMatchedData\"}", isOptional: true)]
@@ -1522,7 +1522,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the max-age cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#max_age Ruleset#max_age}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#max_age Ruleset#max_age}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxAge", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMaxAge\"}", isOptional: true)]
@@ -1533,7 +1533,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Mirage.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#mirage Ruleset#mirage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#mirage Ruleset#mirage}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1545,7 +1545,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the must-revalidate cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#must_revalidate Ruleset#must_revalidate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#must_revalidate Ruleset#must_revalidate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mustRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustRevalidate\"}", isOptional: true)]
@@ -1556,7 +1556,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the must-understand cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#must_understand Ruleset#must_understand}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#must_understand Ruleset#must_understand}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mustUnderstand", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersMustUnderstand\"}", isOptional: true)]
@@ -1567,7 +1567,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the no-cache cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_cache Ruleset#no_cache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_cache Ruleset#no_cache}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "noCache", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoCache\"}", isOptional: true)]
@@ -1578,7 +1578,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the no-store cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_store Ruleset#no_store}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_store Ruleset#no_store}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "noStore", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoStore\"}", isOptional: true)]
@@ -1589,7 +1589,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the no-transform cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#no_transform Ruleset#no_transform}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#no_transform Ruleset#no_transform}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "noTransform", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersNoTransform\"}", isOptional: true)]
@@ -1600,7 +1600,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The operation to perform for set_cache_tags action. Available values: "set", "add", "remove".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#operation Ruleset#operation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#operation Ruleset#operation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1611,7 +1611,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Opportunistic Encryption.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#opportunistic_encryption Ruleset#opportunistic_encryption}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#opportunistic_encryption Ruleset#opportunistic_encryption}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1623,7 +1623,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>An origin to route to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin Ruleset#origin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin Ruleset#origin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOrigin\"}", isOptional: true)]
@@ -1634,7 +1634,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether Cloudflare will aim to strictly adhere to RFC 7234.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin_cache_control Ruleset#origin_cache_control}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin_cache_control Ruleset#origin_cache_control}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1646,7 +1646,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to generate Cloudflare error pages for issues from the origin server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#origin_error_page_passthru Ruleset#origin_error_page_passthru}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#origin_error_page_passthru Ruleset#origin_error_page_passthru}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1658,7 +1658,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A set of overrides to apply to the target ruleset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#overrides Ruleset#overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#overrides Ruleset#overrides}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverrides\"}", isOptional: true)]
@@ -1672,7 +1672,7 @@ namespace cloudflare.Ruleset
             /// This option is incompatible with the rulesets option.
             /// Available values: "ddos_l4", "ddos_l7", "http_config_settings", "http_custom_errors", "http_log_custom_fields", "http_ratelimit", "http_request_cache_settings", "http_request_dynamic_redirect", "http_request_firewall_custom", "http_request_firewall_managed", "http_request_late_transform", "http_request_origin", "http_request_redirect", "http_request_sanitize", "http_request_sbfm", "http_request_transform", "http_response_cache_settings", "http_response_compression", "http_response_firewall_managed", "http_response_headers_transform", "magic_transit", "magic_transit_ids_managed", "magic_transit_managed", "magic_transit_ratelimit".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#phases Ruleset#phases}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#phases Ruleset#phases}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -1683,7 +1683,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The Polish level to configure. Available values: "off", "lossless", "lossy", "webp".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#polish Ruleset#polish}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#polish Ruleset#polish}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "polish", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1694,7 +1694,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the private cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#private Ruleset#private}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#private Ruleset#private}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "private", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPrivate\"}", isOptional: true)]
@@ -1705,7 +1705,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A list of legacy security products to skip the execution of. Available values: "bic", "hot", "rateLimit", "securityLevel", "uaBlock", "waf", "zoneLockdown".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#products Ruleset#products}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#products Ruleset#products}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "products", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -1716,7 +1716,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the proxy-revalidate cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#proxy_revalidate Ruleset#proxy_revalidate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#proxy_revalidate Ruleset#proxy_revalidate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "proxyRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersProxyRevalidate\"}", isOptional: true)]
@@ -1727,7 +1727,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the public cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#public Ruleset#public}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#public Ruleset#public}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "public", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersPublic\"}", isOptional: true)]
@@ -1738,7 +1738,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The raw response fields to log.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#raw_response_fields Ruleset#raw_response_fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#raw_response_fields Ruleset#raw_response_fields}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersRawResponseFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1752,7 +1752,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// Historically, the timeout value between two read options from Cloudflare to an origin server is 100 seconds. If you are attempting to reduce HTTP 524 errors because of timeouts from an origin server, try increasing this timeout value.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#read_timeout Ruleset#read_timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#read_timeout Ruleset#read_timeout}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "readTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1763,7 +1763,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to redirect verified AI training crawlers to canonical URLs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#redirects_for_ai_training Ruleset#redirects_for_ai_training}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#redirects_for_ai_training Ruleset#redirects_for_ai_training}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1775,7 +1775,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The request body buffering mode to configure. Available values: "none", "standard", "full".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#request_body_buffering Ruleset#request_body_buffering}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#request_body_buffering Ruleset#request_body_buffering}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requestBodyBuffering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1786,7 +1786,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The raw request fields to log.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#request_fields Ruleset#request_fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#request_fields Ruleset#request_fields}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersRequestFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1800,7 +1800,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// If false, Cloudflare converts strong ETag headers to weak ETag headers.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#respect_strong_etags Ruleset#respect_strong_etags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#respect_strong_etags Ruleset#respect_strong_etags}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1812,7 +1812,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The response to show when the block is applied.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response Ruleset#response}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response Ruleset#response}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersResponse\"}", isOptional: true)]
@@ -1823,7 +1823,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The response body buffering mode to configure. Available values: "none", "standard".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response_body_buffering Ruleset#response_body_buffering}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response_body_buffering Ruleset#response_body_buffering}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "responseBodyBuffering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1834,7 +1834,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The transformed response fields to log.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#response_fields Ruleset#response_fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#response_fields Ruleset#response_fields}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersResponseFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1846,7 +1846,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Rocket Loader.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rocket_loader Ruleset#rocket_loader}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rocket_loader Ruleset#rocket_loader}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1860,7 +1860,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// This option is incompatible with the ruleset option.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rules Ruleset#rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rules Ruleset#rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -1872,7 +1872,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A ruleset to skip the execution of. This option is incompatible with the rulesets option. Available values: "current".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#ruleset Ruleset#ruleset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#ruleset Ruleset#ruleset}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ruleset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1885,7 +1885,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// This option is incompatible with the ruleset and phases options.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#rulesets Ruleset#rulesets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#rulesets Ruleset#rulesets}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rulesets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -1896,7 +1896,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The Security Level to configure. Available values: "off", "essentially_off", "low", "medium", "high", "under_attack".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#security_level Ruleset#security_level}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#security_level Ruleset#security_level}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1907,7 +1907,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Server-Side Excludes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#server_side_excludes Ruleset#server_side_excludes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#server_side_excludes Ruleset#server_side_excludes}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1919,7 +1919,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>When to serve stale content from cache.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#serve_stale Ruleset#serve_stale}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#serve_stale Ruleset#serve_stale}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serveStale", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersServeStale\"}", isOptional: true)]
@@ -1930,7 +1930,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the s-maxage cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#s_maxage Ruleset#s_maxage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#s_maxage Ruleset#s_maxage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sMaxage", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSMaxage\"}", isOptional: true)]
@@ -1941,7 +1941,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A Server Name Indication (SNI) override.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#sni Ruleset#sni}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#sni Ruleset#sni}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sni", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersSni\"}", isOptional: true)]
@@ -1952,7 +1952,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The SSL level to configure. Available values: "off", "flexible", "full", "strict", "origin_pull".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#ssl Ruleset#ssl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#ssl Ruleset#ssl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ssl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1963,7 +1963,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the stale-if-error cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#stale_if_error Ruleset#stale_if_error}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#stale_if_error Ruleset#stale_if_error}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "staleIfError", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleIfError\"}", isOptional: true)]
@@ -1974,7 +1974,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Set the stale-while-revalidate cache control directive.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#stale_while_revalidate Ruleset#stale_while_revalidate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#stale_while_revalidate Ruleset#stale_while_revalidate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersStaleWhileRevalidate\"}", isOptional: true)]
@@ -1985,7 +1985,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The status code to use for the error.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#status_code Ruleset#status_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#status_code Ruleset#status_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1996,7 +1996,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to strip the ETag header from the response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_etags Ruleset#strip_etags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_etags Ruleset#strip_etags}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -2008,7 +2008,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to strip the Last-Modified header from the response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_last_modified Ruleset#strip_last_modified}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_last_modified Ruleset#strip_last_modified}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -2020,7 +2020,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to strip the Set-Cookie header from the response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#strip_set_cookie Ruleset#strip_set_cookie}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#strip_set_cookie Ruleset#strip_set_cookie}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -2032,7 +2032,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Whether to enable Signed Exchanges (SXG).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#sxg Ruleset#sxg}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#sxg Ruleset#sxg}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -2044,7 +2044,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The transformed request fields to log.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#transformed_request_fields Ruleset#transformed_request_fields}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#transformed_request_fields Ruleset#transformed_request_fields}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Ruleset.IRulesetRulesActionParametersTransformedRequestFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -2056,7 +2056,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A URI rewrite.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#uri Ruleset#uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#uri Ruleset#uri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "uri", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersUri\"}", isOptional: true)]
@@ -2067,7 +2067,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>The cache tag values for set_cache_tags action.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#values Ruleset#values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#values Ruleset#values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -2080,7 +2080,7 @@ namespace cloudflare.Ruleset
             /// <remarks>
             /// <c>default</c> is required and applies to any Vary response header that does not have a per-header override.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/ruleset#vary Ruleset#vary}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ruleset#vary Ruleset#vary}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vary", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVary\"}", isOptional: true)]

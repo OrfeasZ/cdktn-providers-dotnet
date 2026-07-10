@@ -7,7 +7,7 @@ namespace cloudflare.RateLimit
     [JsiiInterface(nativeType: typeof(IRateLimitMatch), fullyQualifiedName: "cloudflare.rateLimit.RateLimitMatch")]
     public interface IRateLimitMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.RateLimit.IRateLimitMatchHeaders" />)[]</para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace cloudflare.RateLimit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#request RateLimit#request}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#request RateLimit#request}.</summary>
         [JsiiProperty(name: "request", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchRequest\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.RateLimit.IRateLimitMatchRequest? Request
@@ -32,7 +32,7 @@ namespace cloudflare.RateLimit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#response RateLimit#response}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#response RateLimit#response}.</summary>
         [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchResponse\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.RateLimit.IRateLimitMatchResponse? Response
@@ -50,7 +50,7 @@ namespace cloudflare.RateLimit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#headers RateLimit#headers}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.RateLimit.IRateLimitMatchHeaders" />)[]</para>
             /// </remarks>
@@ -61,7 +61,7 @@ namespace cloudflare.RateLimit
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#request RateLimit#request}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#request RateLimit#request}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "request", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchRequest\"}", isOptional: true)]
             public cloudflare.RateLimit.IRateLimitMatchRequest? Request
@@ -69,7 +69,7 @@ namespace cloudflare.RateLimit
                 get => GetInstanceProperty<cloudflare.RateLimit.IRateLimitMatchRequest?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/rate_limit#response RateLimit#response}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/rate_limit#response RateLimit#response}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "response", typeJson: "{\"fqn\":\"cloudflare.rateLimit.RateLimitMatchResponse\"}", isOptional: true)]
             public cloudflare.RateLimit.IRateLimitMatchResponse? Response

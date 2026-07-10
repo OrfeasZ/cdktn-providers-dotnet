@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultBindingsList>()!;
         }
 
+        [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultCacheOptionsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultCacheOptionsOutputReference CacheOptions
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultCacheOptionsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompatibilityDate
         {
@@ -123,6 +129,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
         public virtual double Number
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "packageDependencies", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultPackageDependenciesList\"}")]
+        public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultPackageDependenciesList PackageDependencies
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultPackageDependenciesList>()!;
         }
 
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultPlacementOutputReference\"}")]

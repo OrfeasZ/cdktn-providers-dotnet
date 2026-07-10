@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareWorkersScripts
         {
         }
 
+        [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultCacheOptionsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultCacheOptionsOutputReference CacheOptions
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultCacheOptionsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompatibilityDate
         {

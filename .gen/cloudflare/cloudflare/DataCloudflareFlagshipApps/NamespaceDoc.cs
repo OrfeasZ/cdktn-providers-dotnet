@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareFlagshipApps
     /// <remarks>
     /// <h1><c>data_cloudflare_flagship_apps</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/flagship_apps"><c>data_cloudflare_flagship_apps</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_apps"><c>data_cloudflare_flagship_apps</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

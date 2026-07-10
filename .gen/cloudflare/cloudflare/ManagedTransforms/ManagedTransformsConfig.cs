@@ -9,15 +9,27 @@ namespace cloudflare.ManagedTransforms
     [JsiiByValue(fqn: "cloudflare.managedTransforms.ManagedTransformsConfig")]
     public class ManagedTransformsConfig : cloudflare.ManagedTransforms.IManagedTransformsConfig
     {
-        private object _managedRequestHeaders;
+        /// <summary>The unique ID of the zone.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
+        /// </remarks>
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
+        {
+            get;
+            set;
+        }
+
+        private object? _managedRequestHeaders;
 
         /// <summary>The list of Managed Request Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}")]
-        public object ManagedRequestHeaders
+        [JsiiOptional]
+        [JsiiProperty(name: "managedRequestHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedRequestHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ManagedRequestHeaders
         {
             get => _managedRequestHeaders;
             set
@@ -34,7 +46,7 @@ namespace cloudflare.ManagedTransforms
                             // Not enough information to type-check...
                             break;
                         case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders).FullName}[]; received null", nameof(value));
+                            break;
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
@@ -43,15 +55,16 @@ namespace cloudflare.ManagedTransforms
             }
         }
 
-        private object _managedResponseHeaders;
+        private object? _managedResponseHeaders;
 
         /// <summary>The list of Managed Response Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}")]
-        public object ManagedResponseHeaders
+        [JsiiOptional]
+        [JsiiProperty(name: "managedResponseHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.managedTransforms.ManagedTransformsManagedResponseHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ManagedResponseHeaders
         {
             get => _managedResponseHeaders;
             set
@@ -68,24 +81,13 @@ namespace cloudflare.ManagedTransforms
                             // Not enough information to type-check...
                             break;
                         case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders).FullName}[]; received null", nameof(value));
+                            break;
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 _managedResponseHeaders = value;
             }
-        }
-
-        /// <summary>The unique ID of the zone.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
-        /// </remarks>
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ZoneId
-        {
-            get;
-            set;
         }
 
         private object? _connection;

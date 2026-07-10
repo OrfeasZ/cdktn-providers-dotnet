@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareLoadBalancerMonitorGroup
     /// <remarks>
     /// <h1><c>data_cloudflare_load_balancer_monitor_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.21.1/docs/data-sources/load_balancer_monitor_group"><c>data_cloudflare_load_balancer_monitor_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/load_balancer_monitor_group"><c>data_cloudflare_load_balancer_monitor_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
