@@ -1,0 +1,292 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurestack.VirtualMachineScaleSetExtension
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/virtual_machine_scale_set_extension azurestack_virtual_machine_scale_set_extension}.</summary>
+    [JsiiClass(nativeType: typeof(azurestack.VirtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionA), fullyQualifiedName: "azurestack.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionA", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurestack.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionAConfig\"}}]")]
+    public class VirtualMachineScaleSetExtensionA : Io.Cdktn.TerraformResource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/virtual_machine_scale_set_extension azurestack_virtual_machine_scale_set_extension} Resource.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public VirtualMachineScaleSetExtensionA(Constructs.Construct scope, string id, azurestack.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionAConfig config): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, azurestack.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionAConfig config)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected VirtualMachineScaleSetExtensionA(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected VirtualMachineScaleSetExtensionA(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a VirtualMachineScaleSetExtensionA resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the VirtualMachineScaleSetExtensionA to import.</param>
+        /// <param name="importFromId">The id of the existing VirtualMachineScaleSetExtensionA that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the VirtualMachineScaleSetExtensionA to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the VirtualMachineScaleSetExtensionA to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/virtual_machine_scale_set_extension#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing VirtualMachineScaleSetExtensionA that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the VirtualMachineScaleSetExtensionA to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurestack.VirtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionA), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurestack.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionTimeouts\"}}]")]
+        public virtual void PutTimeouts(azurestack.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurestack.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAutoUpgradeMinorVersion")]
+        public virtual void ResetAutoUpgradeMinorVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetForceUpdateTag")]
+        public virtual void ResetForceUpdateTag()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetProtectedSettings")]
+        public virtual void ResetProtectedSettings()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSettings")]
+        public virtual void ResetSettings()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(azurestack.VirtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionA))!;
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurestack.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionTimeoutsOutputReference\"}")]
+        public virtual azurestack.VirtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<azurestack.VirtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionTimeoutsOutputReference>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "autoUpgradeMinorVersionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AutoUpgradeMinorVersionInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "forceUpdateTagInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ForceUpdateTagInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "protectedSettingsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ProtectedSettingsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "publisherInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PublisherInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "settingsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SettingsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azurestack.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"azurestack.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "typeHandlerVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TypeHandlerVersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "virtualMachineScaleSetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VirtualMachineScaleSetIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "autoUpgradeMinorVersion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AutoUpgradeMinorVersion
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "forceUpdateTag", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ForceUpdateTag
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "protectedSettings", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProtectedSettings
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Publisher
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "settings", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Settings
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "typeHandlerVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TypeHandlerVersion
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "virtualMachineScaleSetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VirtualMachineScaleSetId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

@@ -1,0 +1,55 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.SubscriptionPolicyAssignment
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignmentResourceSelectors")]
+    public class SubscriptionPolicyAssignmentResourceSelectors : azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentResourceSelectors
+    {
+        private object _selectors;
+
+        /// <summary>selectors block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/subscription_policy_assignment#selectors SubscriptionPolicyAssignment#selectors}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentResourceSelectorsSelectors" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "selectors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignmentResourceSelectorsSelectors\"},\"kind\":\"array\"}}]}}")]
+        public object Selectors
+        {
+            get => _selectors;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentResourceSelectorsSelectors[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentResourceSelectorsSelectors).FullName}[]; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentResourceSelectorsSelectors).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _selectors = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/subscription_policy_assignment#name SubscriptionPolicyAssignment#name}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Name
+        {
+            get;
+            set;
+        }
+    }
+}

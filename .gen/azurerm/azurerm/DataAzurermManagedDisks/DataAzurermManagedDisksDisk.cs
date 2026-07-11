@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.DataAzurermManagedDisks
+{
+    [JsiiByValue(fqn: "azurerm.dataAzurermManagedDisks.DataAzurermManagedDisksDisk")]
+    public class DataAzurermManagedDisksDisk : azurerm.DataAzurermManagedDisks.IDataAzurermManagedDisksDisk
+    {
+    }
+}

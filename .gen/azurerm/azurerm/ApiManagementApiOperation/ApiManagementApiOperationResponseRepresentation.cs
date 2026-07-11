@@ -1,0 +1,108 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.ApiManagementApiOperation
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "azurerm.apiManagementApiOperation.ApiManagementApiOperationResponseRepresentation")]
+    public class ApiManagementApiOperationResponseRepresentation : azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentation
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_api_operation#content_type ApiManagementApiOperation#content_type}.</summary>
+        [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
+        public string ContentType
+        {
+            get;
+            set;
+        }
+
+        private object? _example;
+
+        /// <summary>example block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_api_operation#example ApiManagementApiOperation#example}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationExample" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "example", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementApiOperation.ApiManagementApiOperationResponseRepresentationExample\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Example
+        {
+            get => _example;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationExample[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationExample).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _example = value;
+            }
+        }
+
+        private object? _formParameter;
+
+        /// <summary>form_parameter block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_api_operation#form_parameter ApiManagementApiOperation#form_parameter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationFormParameter" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "formParameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementApiOperation.ApiManagementApiOperationResponseRepresentationFormParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? FormParameter
+        {
+            get => _formParameter;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationFormParameter[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponseRepresentationFormParameter).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _formParameter = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_api_operation#schema_id ApiManagementApiOperation#schema_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "schemaId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SchemaId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_api_operation#type_name ApiManagementApiOperation#type_name}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "typeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? TypeName
+        {
+            get;
+            set;
+        }
+    }
+}

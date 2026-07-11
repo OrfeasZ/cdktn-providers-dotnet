@@ -1,0 +1,306 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.KeyVaultKey
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "azurerm.keyVaultKey.KeyVaultKeyConfig")]
+    public class KeyVaultKeyConfig : azurerm.KeyVaultKey.IKeyVaultKeyConfig
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#key_opts KeyVaultKey#key_opts}.</summary>
+        [JsiiProperty(name: "keyOpts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public string[] KeyOpts
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#key_type KeyVaultKey#key_type}.</summary>
+        [JsiiProperty(name: "keyType", typeJson: "{\"primitive\":\"string\"}")]
+        public string KeyType
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#key_vault_id KeyVaultKey#key_vault_id}.</summary>
+        [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
+        public string KeyVaultId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#name KeyVaultKey#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public string Name
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#curve KeyVaultKey#curve}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "curve", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Curve
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#expiration_date KeyVaultKey#expiration_date}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "expirationDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ExpirationDate
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#id KeyVaultKey#id}.</summary>
+        /// <remarks>
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Id
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#key_size KeyVaultKey#key_size}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "keySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? KeySize
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#not_before_date KeyVaultKey#not_before_date}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "notBeforeDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? NotBeforeDate
+        {
+            get;
+            set;
+        }
+
+        /// <summary>release_policy block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#release_policy KeyVaultKey#release_policy}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "releasePolicy", typeJson: "{\"fqn\":\"azurerm.keyVaultKey.KeyVaultKeyReleasePolicy\"}", isOptional: true)]
+        public azurerm.KeyVaultKey.IKeyVaultKeyReleasePolicy? ReleasePolicy
+        {
+            get;
+            set;
+        }
+
+        /// <summary>rotation_policy block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#rotation_policy KeyVaultKey#rotation_policy}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "rotationPolicy", typeJson: "{\"fqn\":\"azurerm.keyVaultKey.KeyVaultKeyRotationPolicy\"}", isOptional: true)]
+        public azurerm.KeyVaultKey.IKeyVaultKeyRotationPolicy? RotationPolicy
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#tags KeyVaultKey#tags}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? Tags
+        {
+            get;
+            set;
+        }
+
+        /// <summary>timeouts block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#timeouts KeyVaultKey#timeouts}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.keyVaultKey.KeyVaultKeyTimeouts\"}", isOptional: true)]
+        public azurerm.KeyVaultKey.IKeyVaultKeyTimeouts? Timeouts
+        {
+            get;
+            set;
+        }
+
+        private object? _connection;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+        public object? Connection
+        {
+            get => _connection;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.ISSHProvisionerConnection cast_cd4240:
+                            break;
+                        case Io.Cdktn.IWinrmProvisionerConnection cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.ISSHProvisionerConnection).FullName}, {typeof(Io.Cdktn.IWinrmProvisionerConnection).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _connection = value;
+            }
+        }
+
+        private object? _count;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+        public object? Count
+        {
+            get => _count;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case double cast_cd4240:
+                            break;
+                        case byte cast_cd4240:
+                            break;
+                        case decimal cast_cd4240:
+                            break;
+                        case float cast_cd4240:
+                            break;
+                        case int cast_cd4240:
+                            break;
+                        case long cast_cd4240:
+                            break;
+                        case sbyte cast_cd4240:
+                            break;
+                        case short cast_cd4240:
+                            break;
+                        case uint cast_cd4240:
+                            break;
+                        case ulong cast_cd4240:
+                            break;
+                        case ushort cast_cd4240:
+                            break;
+                        case Io.Cdktn.TerraformCount cast_cd4240:
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: double, {typeof(Io.Cdktn.TerraformCount).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _count = value;
+            }
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+        public Io.Cdktn.ITerraformDependable[]? DependsOn
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+        public Io.Cdktn.ITerraformIterator? ForEach
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+        public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+        {
+            get;
+            set;
+        }
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+        public Io.Cdktn.TerraformProvider? Provider
+        {
+            get;
+            set;
+        }
+
+        private object[]? _provisioners;
+
+        /// <remarks>
+        /// <strong>Stability</strong>: Experimental
+        /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+        public object[]? Provisioners
+        {
+            get => _provisioners;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    for (var __idx_cd4240 = 0 ; __idx_cd4240 < value.Length ; __idx_cd4240++)
+                    {
+                        switch (value[__idx_cd4240])
+                        {
+                            case Io.Cdktn.IFileProvisioner cast_e9c63e:
+                                break;
+                            case Io.Cdktn.ILocalExecProvisioner cast_e9c63e:
+                                break;
+                            case Io.Cdktn.IRemoteExecProvisioner cast_e9c63e:
+                                break;
+                            case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_e9c63e:
+                                // Not enough information to type-check...
+                                break;
+                            case null:
+                                throw new System.ArgumentException($"Expected {nameof(value)}[{__idx_cd4240}] to be one of: {typeof(Io.Cdktn.IFileProvisioner).FullName}, {typeof(Io.Cdktn.ILocalExecProvisioner).FullName}, {typeof(Io.Cdktn.IRemoteExecProvisioner).FullName}; received null", nameof(value));
+                            default:
+                                throw new System.ArgumentException($"Expected {nameof(value)}[{__idx_cd4240}] to be one of: {typeof(Io.Cdktn.IFileProvisioner).FullName}, {typeof(Io.Cdktn.ILocalExecProvisioner).FullName}, {typeof(Io.Cdktn.IRemoteExecProvisioner).FullName}; received {value[__idx_cd4240].GetType().FullName}", nameof(value));
+                        }
+                    }
+                }
+                _provisioners = value;
+            }
+        }
+    }
+}

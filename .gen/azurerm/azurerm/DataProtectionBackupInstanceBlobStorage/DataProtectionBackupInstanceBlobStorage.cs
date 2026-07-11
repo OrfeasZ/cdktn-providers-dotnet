@@ -1,0 +1,212 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.DataProtectionBackupInstanceBlobStorage
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage}.</summary>
+    [JsiiClass(nativeType: typeof(azurerm.DataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorage), fullyQualifiedName: "azurerm.dataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorage", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.dataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageConfig\"}}]")]
+    public class DataProtectionBackupInstanceBlobStorage : Io.Cdktn.TerraformResource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/data_protection_backup_instance_blob_storage azurerm_data_protection_backup_instance_blob_storage} Resource.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public DataProtectionBackupInstanceBlobStorage(Constructs.Construct scope, string id, azurerm.DataProtectionBackupInstanceBlobStorage.IDataProtectionBackupInstanceBlobStorageConfig config): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, azurerm.DataProtectionBackupInstanceBlobStorage.IDataProtectionBackupInstanceBlobStorageConfig config)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataProtectionBackupInstanceBlobStorage(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataProtectionBackupInstanceBlobStorage(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a DataProtectionBackupInstanceBlobStorage resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the DataProtectionBackupInstanceBlobStorage to import.</param>
+        /// <param name="importFromId">The id of the existing DataProtectionBackupInstanceBlobStorage that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the DataProtectionBackupInstanceBlobStorage to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataProtectionBackupInstanceBlobStorage to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/data_protection_backup_instance_blob_storage#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataProtectionBackupInstanceBlobStorage that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataProtectionBackupInstanceBlobStorage to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.DataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorage), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.dataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageTimeouts\"}}]")]
+        public virtual void PutTimeouts(azurerm.DataProtectionBackupInstanceBlobStorage.IDataProtectionBackupInstanceBlobStorageTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.DataProtectionBackupInstanceBlobStorage.IDataProtectionBackupInstanceBlobStorageTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStorageAccountContainerNames")]
+        public virtual void ResetStorageAccountContainerNames()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(azurerm.DataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorage))!;
+
+        [JsiiProperty(name: "protectionState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProtectionState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageTimeoutsOutputReference\"}")]
+        public virtual azurerm.DataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<azurerm.DataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageTimeoutsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "backupPolicyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BackupPolicyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "locationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LocationInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "storageAccountContainerNamesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? StorageAccountContainerNamesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "storageAccountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StorageAccountIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azurerm.DataProtectionBackupInstanceBlobStorage.IDataProtectionBackupInstanceBlobStorageTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"azurerm.dataProtectionBackupInstanceBlobStorage.DataProtectionBackupInstanceBlobStorageTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "vaultIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VaultIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "backupPolicyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BackupPolicyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "storageAccountContainerNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] StorageAccountContainerNames
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StorageAccountId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VaultId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}

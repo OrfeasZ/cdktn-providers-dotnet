@@ -1,0 +1,44 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.MssqlManagedInstanceStartStopSchedule
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "azurerm.mssqlManagedInstanceStartStopSchedule.MssqlManagedInstanceStartStopScheduleSchedule")]
+    public class MssqlManagedInstanceStartStopScheduleSchedule : azurerm.MssqlManagedInstanceStartStopSchedule.IMssqlManagedInstanceStartStopScheduleSchedule
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_managed_instance_start_stop_schedule#start_day MssqlManagedInstanceStartStopSchedule#start_day}.</summary>
+        [JsiiProperty(name: "startDay", typeJson: "{\"primitive\":\"string\"}")]
+        public string StartDay
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_managed_instance_start_stop_schedule#start_time MssqlManagedInstanceStartStopSchedule#start_time}.</summary>
+        [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
+        public string StartTime
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_managed_instance_start_stop_schedule#stop_day MssqlManagedInstanceStartStopSchedule#stop_day}.</summary>
+        [JsiiProperty(name: "stopDay", typeJson: "{\"primitive\":\"string\"}")]
+        public string StopDay
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_managed_instance_start_stop_schedule#stop_time MssqlManagedInstanceStartStopSchedule#stop_time}.</summary>
+        [JsiiProperty(name: "stopTime", typeJson: "{\"primitive\":\"string\"}")]
+        public string StopTime
+        {
+            get;
+            set;
+        }
+    }
+}

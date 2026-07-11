@@ -1,0 +1,57 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurestack.StorageAccount
+{
+    [JsiiInterface(nativeType: typeof(IStorageAccountCustomDomain), fullyQualifiedName: "azurestack.storageAccount.StorageAccountCustomDomain")]
+    public interface IStorageAccountCustomDomain
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/storage_account#name StorageAccount#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/storage_account#use_subdomain StorageAccount#use_subdomain}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "useSubdomain", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? UseSubdomain
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IStorageAccountCustomDomain), fullyQualifiedName: "azurestack.storageAccount.StorageAccountCustomDomain")]
+        internal sealed class _Proxy : DeputyBase, azurestack.StorageAccount.IStorageAccountCustomDomain
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/storage_account#name StorageAccount#name}.</summary>
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurestack/1.0.0/docs/resources/storage_account#use_subdomain StorageAccount#use_subdomain}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "useSubdomain", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? UseSubdomain
+            {
+                get => GetInstanceProperty<object?>();
+            }
+        }
+    }
+}
