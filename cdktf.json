@@ -16,7 +16,12 @@
     "hashicorp/null@3.3.0",
     "tailscale/tailscale@0.29.2",
     "dmacvicar/libvirt@0.9.8",
-    "oracle/oci@8.22.0"
+    "oracle/oci@8.22.0",
+    "hashicorp/azurerm@4.79.0",
+    "Azure/azapi@2.9.0",
+    "hashicorp/azuread@3.8.0",
+    "microsoft/azuredevops@1.15.0",
+    "hashicorp/azurestack@0.9.0"
   ],
   "terraformModules": [],
   "context": {}
