@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudApp
     [JsiiByValue(fqn: "azurerm.springCloudApp.SpringCloudAppPersistentDisk")]
     public class SpringCloudAppPersistentDisk : azurerm.SpringCloudApp.ISpringCloudAppPersistentDisk
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeInGb
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MountPath

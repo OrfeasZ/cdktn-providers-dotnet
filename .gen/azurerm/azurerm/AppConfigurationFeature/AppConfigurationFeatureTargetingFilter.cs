@@ -9,7 +9,7 @@ namespace azurerm.AppConfigurationFeature
     [JsiiByValue(fqn: "azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilter")]
     public class AppConfigurationFeatureTargetingFilter : azurerm.AppConfigurationFeature.IAppConfigurationFeatureTargetingFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#default_rollout_percentage AppConfigurationFeature#default_rollout_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#default_rollout_percentage AppConfigurationFeature#default_rollout_percentage}.</summary>
         [JsiiProperty(name: "defaultRolloutPercentage", typeJson: "{\"primitive\":\"number\"}")]
         public double DefaultRolloutPercentage
         {
@@ -21,7 +21,7 @@ namespace azurerm.AppConfigurationFeature
 
         /// <summary>groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#groups AppConfigurationFeature#groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#groups AppConfigurationFeature#groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.AppConfigurationFeature.IAppConfigurationFeatureTargetingFilterGroups" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace azurerm.AppConfigurationFeature
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#users AppConfigurationFeature#users}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#users AppConfigurationFeature#users}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "users", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Users

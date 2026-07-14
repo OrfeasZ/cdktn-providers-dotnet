@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionApp
     {
         /// <summary>The ID of the Client to use to authenticate with this Custom OIDC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_function_app#client_id WindowsFunctionApp#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_function_app#client_id WindowsFunctionApp#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
@@ -22,7 +22,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The name of the Custom OIDC Authentication Provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The endpoint that contains all the configuration endpoints for this Custom OIDC provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_function_app#openid_configuration_endpoint WindowsFunctionApp#openid_configuration_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_function_app#openid_configuration_endpoint WindowsFunctionApp#openid_configuration_endpoint}
         /// </remarks>
         [JsiiProperty(name: "openidConfigurationEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string OpenidConfigurationEndpoint
@@ -44,7 +44,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The name of the claim that contains the users name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_function_app#name_claim_type WindowsFunctionApp#name_claim_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_function_app#name_claim_type WindowsFunctionApp#name_claim_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameClaimType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The list of the scopes that should be requested while authenticating.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_function_app#scopes WindowsFunctionApp#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_function_app#scopes WindowsFunctionApp#scopes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace azurerm.FunctionAppSlot
     [JsiiInterface(nativeType: typeof(IFunctionAppSlotAuthSettings), fullyQualifiedName: "azurerm.functionAppSlot.FunctionAppSlotAuthSettings")]
     public interface IFunctionAppSlotAuthSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#enabled FunctionAppSlot#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#enabled FunctionAppSlot#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace azurerm.FunctionAppSlot
 
         /// <summary>active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#active_directory FunctionAppSlot#active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#active_directory FunctionAppSlot#active_directory}
         /// </remarks>
         [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#additional_login_params FunctionAppSlot#additional_login_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#additional_login_params FunctionAppSlot#additional_login_params}.</summary>
         [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -42,7 +42,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#allowed_external_redirect_urls FunctionAppSlot#allowed_external_redirect_urls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#allowed_external_redirect_urls FunctionAppSlot#allowed_external_redirect_urls}.</summary>
         [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedExternalRedirectUrls
@@ -53,7 +53,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#default_provider FunctionAppSlot#default_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#default_provider FunctionAppSlot#default_provider}.</summary>
         [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultProvider
@@ -66,7 +66,7 @@ namespace azurerm.FunctionAppSlot
 
         /// <summary>facebook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#facebook FunctionAppSlot#facebook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#facebook FunctionAppSlot#facebook}
         /// </remarks>
         [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsFacebook\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.FunctionAppSlot
 
         /// <summary>google block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#google FunctionAppSlot#google}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#google FunctionAppSlot#google}
         /// </remarks>
         [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsGoogle\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#issuer FunctionAppSlot#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#issuer FunctionAppSlot#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Issuer
@@ -105,7 +105,7 @@ namespace azurerm.FunctionAppSlot
 
         /// <summary>microsoft block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#microsoft FunctionAppSlot#microsoft}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#microsoft FunctionAppSlot#microsoft}
         /// </remarks>
         [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsMicrosoft\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#runtime_version FunctionAppSlot#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#runtime_version FunctionAppSlot#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RuntimeVersion
@@ -128,7 +128,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#token_refresh_extension_hours FunctionAppSlot#token_refresh_extension_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#token_refresh_extension_hours FunctionAppSlot#token_refresh_extension_hours}.</summary>
         [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TokenRefreshExtensionHours
@@ -139,7 +139,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#token_store_enabled FunctionAppSlot#token_store_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#token_store_enabled FunctionAppSlot#token_store_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -155,7 +155,7 @@ namespace azurerm.FunctionAppSlot
 
         /// <summary>twitter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#twitter FunctionAppSlot#twitter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#twitter FunctionAppSlot#twitter}
         /// </remarks>
         [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsTwitter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -167,7 +167,7 @@ namespace azurerm.FunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#unauthenticated_client_action FunctionAppSlot#unauthenticated_client_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#unauthenticated_client_action FunctionAppSlot#unauthenticated_client_action}.</summary>
         [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UnauthenticatedClientAction
@@ -185,7 +185,7 @@ namespace azurerm.FunctionAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#enabled FunctionAppSlot#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#enabled FunctionAppSlot#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -197,7 +197,7 @@ namespace azurerm.FunctionAppSlot
 
             /// <summary>active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#active_directory FunctionAppSlot#active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#active_directory FunctionAppSlot#active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsActiveDirectory\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<azurerm.FunctionAppSlot.IFunctionAppSlotAuthSettingsActiveDirectory?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#additional_login_params FunctionAppSlot#additional_login_params}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#additional_login_params FunctionAppSlot#additional_login_params}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -214,7 +214,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#allowed_external_redirect_urls FunctionAppSlot#allowed_external_redirect_urls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#allowed_external_redirect_urls FunctionAppSlot#allowed_external_redirect_urls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedExternalRedirectUrls
@@ -222,7 +222,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#default_provider FunctionAppSlot#default_provider}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#default_provider FunctionAppSlot#default_provider}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultProvider
@@ -232,7 +232,7 @@ namespace azurerm.FunctionAppSlot
 
             /// <summary>facebook block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#facebook FunctionAppSlot#facebook}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#facebook FunctionAppSlot#facebook}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsFacebook\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace azurerm.FunctionAppSlot
 
             /// <summary>google block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#google FunctionAppSlot#google}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#google FunctionAppSlot#google}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsGoogle\"}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<azurerm.FunctionAppSlot.IFunctionAppSlotAuthSettingsGoogle?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#issuer FunctionAppSlot#issuer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#issuer FunctionAppSlot#issuer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Issuer
@@ -262,7 +262,7 @@ namespace azurerm.FunctionAppSlot
 
             /// <summary>microsoft block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#microsoft FunctionAppSlot#microsoft}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#microsoft FunctionAppSlot#microsoft}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsMicrosoft\"}", isOptional: true)]
@@ -271,7 +271,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<azurerm.FunctionAppSlot.IFunctionAppSlotAuthSettingsMicrosoft?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#runtime_version FunctionAppSlot#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#runtime_version FunctionAppSlot#runtime_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RuntimeVersion
@@ -279,7 +279,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#token_refresh_extension_hours FunctionAppSlot#token_refresh_extension_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#token_refresh_extension_hours FunctionAppSlot#token_refresh_extension_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TokenRefreshExtensionHours
@@ -287,7 +287,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#token_store_enabled FunctionAppSlot#token_store_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#token_store_enabled FunctionAppSlot#token_store_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -300,7 +300,7 @@ namespace azurerm.FunctionAppSlot
 
             /// <summary>twitter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#twitter FunctionAppSlot#twitter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#twitter FunctionAppSlot#twitter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.functionAppSlot.FunctionAppSlotAuthSettingsTwitter\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace azurerm.FunctionAppSlot
                 get => GetInstanceProperty<azurerm.FunctionAppSlot.IFunctionAppSlotAuthSettingsTwitter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app_slot#unauthenticated_client_action FunctionAppSlot#unauthenticated_client_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_slot#unauthenticated_client_action FunctionAppSlot#unauthenticated_client_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UnauthenticatedClientAction

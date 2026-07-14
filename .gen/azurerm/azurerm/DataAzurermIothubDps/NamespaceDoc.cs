@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermIothubDps
     /// <remarks>
     /// <h1><c>data_azurerm_iothub_dps</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/iothub_dps"><c>data_azurerm_iothub_dps</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/iothub_dps"><c>data_azurerm_iothub_dps</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace azurerm.FunctionApp
     [JsiiByValue(fqn: "azurerm.functionApp.FunctionAppSourceControl")]
     public class FunctionAppSourceControl : azurerm.FunctionApp.IFunctionAppSourceControl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#branch FunctionApp#branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#branch FunctionApp#branch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Branch
@@ -18,7 +18,7 @@ namespace azurerm.FunctionApp
 
         private object? _manualIntegration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#manual_integration FunctionApp#manual_integration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#manual_integration FunctionApp#manual_integration}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#repo_url FunctionApp#repo_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#repo_url FunctionApp#repo_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repoUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepoUrl
@@ -61,7 +61,7 @@ namespace azurerm.FunctionApp
 
         private object? _rollbackEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#rollback_enabled FunctionApp#rollback_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#rollback_enabled FunctionApp#rollback_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace azurerm.FunctionApp
 
         private object? _useMercurial;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#use_mercurial FunctionApp#use_mercurial}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#use_mercurial FunctionApp#use_mercurial}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

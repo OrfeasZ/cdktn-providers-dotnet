@@ -9,7 +9,7 @@ namespace azurerm.ExpressRouteCircuit
     [JsiiByValue(fqn: "azurerm.expressRouteCircuit.ExpressRouteCircuitConfig")]
     public class ExpressRouteCircuitConfig : azurerm.ExpressRouteCircuit.IExpressRouteCircuitConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#location ExpressRouteCircuit#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#location ExpressRouteCircuit#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#name ExpressRouteCircuit#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#name ExpressRouteCircuit#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#resource_group_name ExpressRouteCircuit#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#resource_group_name ExpressRouteCircuit#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -35,7 +35,7 @@ namespace azurerm.ExpressRouteCircuit
 
         /// <summary>sku block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#sku ExpressRouteCircuit#sku}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#sku ExpressRouteCircuit#sku}
         /// </remarks>
         [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.expressRouteCircuit.ExpressRouteCircuitSku\"}")]
         public azurerm.ExpressRouteCircuit.IExpressRouteCircuitSku Sku
@@ -46,7 +46,7 @@ namespace azurerm.ExpressRouteCircuit
 
         private object? _allowClassicOperations;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#allow_classic_operations ExpressRouteCircuit#allow_classic_operations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#allow_classic_operations ExpressRouteCircuit#allow_classic_operations}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -78,7 +78,7 @@ namespace azurerm.ExpressRouteCircuit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#authorization_key ExpressRouteCircuit#authorization_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#authorization_key ExpressRouteCircuit#authorization_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthorizationKey
@@ -87,7 +87,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#bandwidth_in_gbps ExpressRouteCircuit#bandwidth_in_gbps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#bandwidth_in_gbps ExpressRouteCircuit#bandwidth_in_gbps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bandwidthInGbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BandwidthInGbps
@@ -96,7 +96,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#bandwidth_in_mbps ExpressRouteCircuit#bandwidth_in_mbps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#bandwidth_in_mbps ExpressRouteCircuit#bandwidth_in_mbps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bandwidthInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BandwidthInMbps
@@ -105,7 +105,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#express_route_port_id ExpressRouteCircuit#express_route_port_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#express_route_port_id ExpressRouteCircuit#express_route_port_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expressRoutePortId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpressRoutePortId
@@ -114,7 +114,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#id ExpressRouteCircuit#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#id ExpressRouteCircuit#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#peering_location ExpressRouteCircuit#peering_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#peering_location ExpressRouteCircuit#peering_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peeringLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PeeringLocation
@@ -138,7 +138,7 @@ namespace azurerm.ExpressRouteCircuit
 
         private object? _rateLimitingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#rate_limiting_enabled ExpressRouteCircuit#rate_limiting_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#rate_limiting_enabled ExpressRouteCircuit#rate_limiting_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -170,7 +170,7 @@ namespace azurerm.ExpressRouteCircuit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#service_provider_name ExpressRouteCircuit#service_provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#service_provider_name ExpressRouteCircuit#service_provider_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceProviderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceProviderName
@@ -179,7 +179,7 @@ namespace azurerm.ExpressRouteCircuit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#tags ExpressRouteCircuit#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#tags ExpressRouteCircuit#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -190,7 +190,7 @@ namespace azurerm.ExpressRouteCircuit
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/express_route_circuit#timeouts ExpressRouteCircuit#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/express_route_circuit#timeouts ExpressRouteCircuit#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.expressRouteCircuit.ExpressRouteCircuitTimeouts\"}", isOptional: true)]

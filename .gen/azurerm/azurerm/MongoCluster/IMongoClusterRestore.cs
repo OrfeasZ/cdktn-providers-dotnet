@@ -7,14 +7,14 @@ namespace azurerm.MongoCluster
     [JsiiInterface(nativeType: typeof(IMongoClusterRestore), fullyQualifiedName: "azurerm.mongoCluster.MongoClusterRestore")]
     public interface IMongoClusterRestore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mongo_cluster#point_in_time_utc MongoCluster#point_in_time_utc}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster#point_in_time_utc MongoCluster#point_in_time_utc}.</summary>
         [JsiiProperty(name: "pointInTimeUtc", typeJson: "{\"primitive\":\"string\"}")]
         string PointInTimeUtc
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mongo_cluster#source_id MongoCluster#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster#source_id MongoCluster#source_id}.</summary>
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceId
         {
@@ -28,14 +28,14 @@ namespace azurerm.MongoCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mongo_cluster#point_in_time_utc MongoCluster#point_in_time_utc}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster#point_in_time_utc MongoCluster#point_in_time_utc}.</summary>
             [JsiiProperty(name: "pointInTimeUtc", typeJson: "{\"primitive\":\"string\"}")]
             public string PointInTimeUtc
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mongo_cluster#source_id MongoCluster#source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster#source_id MongoCluster#source_id}.</summary>
             [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceId
             {

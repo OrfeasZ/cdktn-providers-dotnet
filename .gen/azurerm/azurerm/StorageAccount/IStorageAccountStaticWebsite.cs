@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountStaticWebsite), fullyQualifiedName: "azurerm.storageAccount.StorageAccountStaticWebsite")]
     public interface IStorageAccountStaticWebsite
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#error_404_document StorageAccount#error_404_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#error_404_document StorageAccount#error_404_document}.</summary>
         [JsiiProperty(name: "error404Document", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Error404Document
@@ -18,7 +18,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#index_document StorageAccount#index_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#index_document StorageAccount#index_document}.</summary>
         [JsiiProperty(name: "indexDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IndexDocument
@@ -36,7 +36,7 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#error_404_document StorageAccount#error_404_document}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#error_404_document StorageAccount#error_404_document}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "error404Document", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Error404Document
@@ -44,7 +44,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#index_document StorageAccount#index_document}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#index_document StorageAccount#index_document}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "indexDocument", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IndexDocument

@@ -7,7 +7,7 @@ namespace azurerm.AppService
     [JsiiInterface(nativeType: typeof(IAppServiceAuthSettings), fullyQualifiedName: "azurerm.appService.AppServiceAuthSettings")]
     public interface IAppServiceAuthSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#enabled AppService#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#enabled AppService#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace azurerm.AppService
 
         /// <summary>active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#active_directory AppService#active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#active_directory AppService#active_directory}
         /// </remarks>
         [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#additional_login_params AppService#additional_login_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#additional_login_params AppService#additional_login_params}.</summary>
         [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -42,7 +42,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#allowed_external_redirect_urls AppService#allowed_external_redirect_urls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#allowed_external_redirect_urls AppService#allowed_external_redirect_urls}.</summary>
         [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedExternalRedirectUrls
@@ -53,7 +53,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#default_provider AppService#default_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#default_provider AppService#default_provider}.</summary>
         [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultProvider
@@ -66,7 +66,7 @@ namespace azurerm.AppService
 
         /// <summary>facebook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#facebook AppService#facebook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#facebook AppService#facebook}
         /// </remarks>
         [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsFacebook\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.AppService
 
         /// <summary>google block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#google AppService#google}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#google AppService#google}
         /// </remarks>
         [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsGoogle\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#issuer AppService#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#issuer AppService#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Issuer
@@ -105,7 +105,7 @@ namespace azurerm.AppService
 
         /// <summary>microsoft block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#microsoft AppService#microsoft}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#microsoft AppService#microsoft}
         /// </remarks>
         [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsMicrosoft\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#runtime_version AppService#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#runtime_version AppService#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RuntimeVersion
@@ -128,7 +128,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#token_refresh_extension_hours AppService#token_refresh_extension_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#token_refresh_extension_hours AppService#token_refresh_extension_hours}.</summary>
         [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TokenRefreshExtensionHours
@@ -139,7 +139,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#token_store_enabled AppService#token_store_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#token_store_enabled AppService#token_store_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -155,7 +155,7 @@ namespace azurerm.AppService
 
         /// <summary>twitter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#twitter AppService#twitter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#twitter AppService#twitter}
         /// </remarks>
         [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsTwitter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -167,7 +167,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#unauthenticated_client_action AppService#unauthenticated_client_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#unauthenticated_client_action AppService#unauthenticated_client_action}.</summary>
         [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UnauthenticatedClientAction
@@ -185,7 +185,7 @@ namespace azurerm.AppService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#enabled AppService#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#enabled AppService#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -197,7 +197,7 @@ namespace azurerm.AppService
 
             /// <summary>active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#active_directory AppService#active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#active_directory AppService#active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsActiveDirectory\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<azurerm.AppService.IAppServiceAuthSettingsActiveDirectory?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#additional_login_params AppService#additional_login_params}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#additional_login_params AppService#additional_login_params}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -214,7 +214,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#allowed_external_redirect_urls AppService#allowed_external_redirect_urls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#allowed_external_redirect_urls AppService#allowed_external_redirect_urls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedExternalRedirectUrls
@@ -222,7 +222,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#default_provider AppService#default_provider}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#default_provider AppService#default_provider}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultProvider
@@ -232,7 +232,7 @@ namespace azurerm.AppService
 
             /// <summary>facebook block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#facebook AppService#facebook}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#facebook AppService#facebook}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsFacebook\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace azurerm.AppService
 
             /// <summary>google block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#google AppService#google}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#google AppService#google}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsGoogle\"}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<azurerm.AppService.IAppServiceAuthSettingsGoogle?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#issuer AppService#issuer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#issuer AppService#issuer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Issuer
@@ -262,7 +262,7 @@ namespace azurerm.AppService
 
             /// <summary>microsoft block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#microsoft AppService#microsoft}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#microsoft AppService#microsoft}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsMicrosoft\"}", isOptional: true)]
@@ -271,7 +271,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<azurerm.AppService.IAppServiceAuthSettingsMicrosoft?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#runtime_version AppService#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#runtime_version AppService#runtime_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RuntimeVersion
@@ -279,7 +279,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#token_refresh_extension_hours AppService#token_refresh_extension_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#token_refresh_extension_hours AppService#token_refresh_extension_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TokenRefreshExtensionHours
@@ -287,7 +287,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#token_store_enabled AppService#token_store_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#token_store_enabled AppService#token_store_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -300,7 +300,7 @@ namespace azurerm.AppService
 
             /// <summary>twitter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#twitter AppService#twitter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#twitter AppService#twitter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceAuthSettingsTwitter\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<azurerm.AppService.IAppServiceAuthSettingsTwitter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#unauthenticated_client_action AppService#unauthenticated_client_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#unauthenticated_client_action AppService#unauthenticated_client_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UnauthenticatedClientAction

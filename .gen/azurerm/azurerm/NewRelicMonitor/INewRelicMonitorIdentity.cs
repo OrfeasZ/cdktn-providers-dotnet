@@ -7,7 +7,7 @@ namespace azurerm.NewRelicMonitor
     [JsiiInterface(nativeType: typeof(INewRelicMonitorIdentity), fullyQualifiedName: "azurerm.newRelicMonitor.NewRelicMonitorIdentity")]
     public interface INewRelicMonitorIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#type NewRelicMonitor#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#type NewRelicMonitor#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.NewRelicMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#type NewRelicMonitor#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#type NewRelicMonitor#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

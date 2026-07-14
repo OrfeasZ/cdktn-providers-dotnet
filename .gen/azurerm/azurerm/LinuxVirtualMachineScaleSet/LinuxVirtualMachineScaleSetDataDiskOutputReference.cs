@@ -47,6 +47,18 @@ namespace azurerm.LinuxVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDiskIopsReadWrite")]
+        public virtual void ResetDiskIopsReadWrite()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDiskMbpsReadWrite")]
+        public virtual void ResetDiskMbpsReadWrite()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetName")]
         public virtual void ResetName()
         {
@@ -90,6 +102,20 @@ namespace azurerm.LinuxVirtualMachineScaleSet
         public virtual string? DiskEncryptionSetIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "diskIopsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DiskIopsReadWriteInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "diskMbpsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DiskMbpsReadWriteInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -162,6 +188,20 @@ namespace azurerm.LinuxVirtualMachineScaleSet
         public virtual string DiskEncryptionSetId
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "diskIopsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DiskIopsReadWrite
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "diskMbpsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DiskMbpsReadWrite
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

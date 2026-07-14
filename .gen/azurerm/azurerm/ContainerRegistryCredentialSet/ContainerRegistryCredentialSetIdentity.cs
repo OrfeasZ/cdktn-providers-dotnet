@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryCredentialSet
     [JsiiByValue(fqn: "azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSetIdentity")]
     public class ContainerRegistryCredentialSetIdentity : azurerm.ContainerRegistryCredentialSet.IContainerRegistryCredentialSetIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

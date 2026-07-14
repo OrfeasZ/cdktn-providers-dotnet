@@ -7,7 +7,7 @@ namespace azurerm.MysqlFlexibleServer
     [JsiiInterface(nativeType: typeof(IMysqlFlexibleServerMaintenanceWindow), fullyQualifiedName: "azurerm.mysqlFlexibleServer.MysqlFlexibleServerMaintenanceWindow")]
     public interface IMysqlFlexibleServerMaintenanceWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#day_of_week MysqlFlexibleServer#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#day_of_week MysqlFlexibleServer#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DayOfWeek
@@ -18,7 +18,7 @@ namespace azurerm.MysqlFlexibleServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#start_hour MysqlFlexibleServer#start_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#start_hour MysqlFlexibleServer#start_hour}.</summary>
         [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StartHour
@@ -29,7 +29,7 @@ namespace azurerm.MysqlFlexibleServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#start_minute MysqlFlexibleServer#start_minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#start_minute MysqlFlexibleServer#start_minute}.</summary>
         [JsiiProperty(name: "startMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? StartMinute
@@ -47,7 +47,7 @@ namespace azurerm.MysqlFlexibleServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#day_of_week MysqlFlexibleServer#day_of_week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#day_of_week MysqlFlexibleServer#day_of_week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DayOfWeek
@@ -55,7 +55,7 @@ namespace azurerm.MysqlFlexibleServer
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#start_hour MysqlFlexibleServer#start_hour}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#start_hour MysqlFlexibleServer#start_hour}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StartHour
@@ -63,7 +63,7 @@ namespace azurerm.MysqlFlexibleServer
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mysql_flexible_server#start_minute MysqlFlexibleServer#start_minute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_server#start_minute MysqlFlexibleServer#start_minute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? StartMinute

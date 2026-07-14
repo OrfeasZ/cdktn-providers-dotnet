@@ -9,7 +9,7 @@ namespace azurerm.StorageBlob
     [JsiiByValue(fqn: "azurerm.storageBlob.StorageBlobConfig")]
     public class StorageBlobConfig : azurerm.StorageBlob.IStorageBlobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#name StorageBlob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#name StorageBlob#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#type StorageBlob#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#type StorageBlob#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#access_tier StorageBlob#access_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#access_tier StorageBlob#access_tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessTier
@@ -34,7 +34,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#cache_control StorageBlob#cache_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#cache_control StorageBlob#cache_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheControl
@@ -43,7 +43,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#content_md5 StorageBlob#content_md5}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#content_md5 StorageBlob#content_md5}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentMd5
@@ -52,7 +52,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#content_type StorageBlob#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#content_type StorageBlob#content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentType
@@ -61,7 +61,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#encryption_scope StorageBlob#encryption_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#encryption_scope StorageBlob#encryption_scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionScope
@@ -70,7 +70,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#id StorageBlob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#id StorageBlob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#metadata StorageBlob#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#metadata StorageBlob#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -92,7 +92,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#parallelism StorageBlob#parallelism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#parallelism StorageBlob#parallelism}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parallelism", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Parallelism
@@ -101,7 +101,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#size StorageBlob#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#size StorageBlob#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Size
@@ -110,7 +110,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#source StorageBlob#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#source StorageBlob#source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Source
@@ -119,7 +119,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#source_content StorageBlob#source_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#source_content StorageBlob#source_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceContent
@@ -128,7 +128,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#source_uri StorageBlob#source_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#source_uri StorageBlob#source_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceUri
@@ -137,7 +137,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#storage_account_name StorageBlob#storage_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#storage_account_name StorageBlob#storage_account_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountName
@@ -146,7 +146,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#storage_container_id StorageBlob#storage_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#storage_container_id StorageBlob#storage_container_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageContainerId
@@ -155,7 +155,7 @@ namespace azurerm.StorageBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#storage_container_name StorageBlob#storage_container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#storage_container_name StorageBlob#storage_container_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageContainerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageContainerName
@@ -166,7 +166,7 @@ namespace azurerm.StorageBlob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_blob#timeouts StorageBlob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob#timeouts StorageBlob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageBlob.StorageBlobTimeouts\"}", isOptional: true)]

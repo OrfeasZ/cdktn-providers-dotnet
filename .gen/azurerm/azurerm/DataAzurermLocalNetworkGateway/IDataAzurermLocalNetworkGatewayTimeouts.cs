@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermLocalNetworkGateway
     [JsiiInterface(nativeType: typeof(IDataAzurermLocalNetworkGatewayTimeouts), fullyQualifiedName: "azurerm.dataAzurermLocalNetworkGateway.DataAzurermLocalNetworkGatewayTimeouts")]
     public interface IDataAzurermLocalNetworkGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/local_network_gateway#read DataAzurermLocalNetworkGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/local_network_gateway#read DataAzurermLocalNetworkGateway#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermLocalNetworkGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/local_network_gateway#read DataAzurermLocalNetworkGateway#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/local_network_gateway#read DataAzurermLocalNetworkGateway#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

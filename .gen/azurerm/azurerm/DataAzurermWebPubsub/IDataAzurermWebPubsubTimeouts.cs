@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermWebPubsub
     [JsiiInterface(nativeType: typeof(IDataAzurermWebPubsubTimeouts), fullyQualifiedName: "azurerm.dataAzurermWebPubsub.DataAzurermWebPubsubTimeouts")]
     public interface IDataAzurermWebPubsubTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/web_pubsub#read DataAzurermWebPubsub#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/web_pubsub#read DataAzurermWebPubsub#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermWebPubsub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/web_pubsub#read DataAzurermWebPubsub#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/web_pubsub#read DataAzurermWebPubsub#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

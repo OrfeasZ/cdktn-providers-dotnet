@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbSqlContainer
     [JsiiByValue(fqn: "azurerm.cosmosdbSqlContainer.CosmosdbSqlContainerIndexingPolicyCompositeIndexIndex")]
     public class CosmosdbSqlContainerIndexingPolicyCompositeIndexIndex : azurerm.CosmosdbSqlContainer.ICosmosdbSqlContainerIndexingPolicyCompositeIndexIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_sql_container#order CosmosdbSqlContainer#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_sql_container#order CosmosdbSqlContainer#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
         public string Order
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbSqlContainer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {

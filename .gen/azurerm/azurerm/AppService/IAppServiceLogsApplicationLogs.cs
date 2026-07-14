@@ -9,7 +9,7 @@ namespace azurerm.AppService
     {
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#azure_blob_storage AppService#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#azure_blob_storage AppService#azure_blob_storage}
         /// </remarks>
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#file_system_level AppService#file_system_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#file_system_level AppService#file_system_level}.</summary>
         [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FileSystemLevel
@@ -41,7 +41,7 @@ namespace azurerm.AppService
 
             /// <summary>azure_blob_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#azure_blob_storage AppService#azure_blob_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#azure_blob_storage AppService#azure_blob_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azurerm.AppService
                 get => GetInstanceProperty<azurerm.AppService.IAppServiceLogsApplicationLogsAzureBlobStorage?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#file_system_level AppService#file_system_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#file_system_level AppService#file_system_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FileSystemLevel

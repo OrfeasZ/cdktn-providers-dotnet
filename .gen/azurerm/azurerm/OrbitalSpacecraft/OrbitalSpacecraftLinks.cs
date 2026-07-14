@@ -9,7 +9,7 @@ namespace azurerm.OrbitalSpacecraft
     [JsiiByValue(fqn: "azurerm.orbitalSpacecraft.OrbitalSpacecraftLinks")]
     public class OrbitalSpacecraftLinks : azurerm.OrbitalSpacecraft.IOrbitalSpacecraftLinks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_spacecraft#bandwidth_mhz OrbitalSpacecraft#bandwidth_mhz}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_spacecraft#bandwidth_mhz OrbitalSpacecraft#bandwidth_mhz}.</summary>
         [JsiiProperty(name: "bandwidthMhz", typeJson: "{\"primitive\":\"number\"}")]
         public double BandwidthMhz
         {
@@ -17,7 +17,7 @@ namespace azurerm.OrbitalSpacecraft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_spacecraft#center_frequency_mhz OrbitalSpacecraft#center_frequency_mhz}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_spacecraft#center_frequency_mhz OrbitalSpacecraft#center_frequency_mhz}.</summary>
         [JsiiProperty(name: "centerFrequencyMhz", typeJson: "{\"primitive\":\"number\"}")]
         public double CenterFrequencyMhz
         {
@@ -25,7 +25,7 @@ namespace azurerm.OrbitalSpacecraft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_spacecraft#direction OrbitalSpacecraft#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_spacecraft#direction OrbitalSpacecraft#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public string Direction
         {
@@ -33,7 +33,7 @@ namespace azurerm.OrbitalSpacecraft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_spacecraft#name OrbitalSpacecraft#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_spacecraft#name OrbitalSpacecraft#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.OrbitalSpacecraft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_spacecraft#polarization OrbitalSpacecraft#polarization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_spacecraft#polarization OrbitalSpacecraft#polarization}.</summary>
         [JsiiProperty(name: "polarization", typeJson: "{\"primitive\":\"string\"}")]
         public string Polarization
         {

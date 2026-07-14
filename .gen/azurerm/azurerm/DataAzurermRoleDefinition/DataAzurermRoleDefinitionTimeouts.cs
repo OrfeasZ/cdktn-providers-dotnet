@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRoleDefinition
     [JsiiByValue(fqn: "azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinitionTimeouts")]
     public class DataAzurermRoleDefinitionTimeouts : azurerm.DataAzurermRoleDefinition.IDataAzurermRoleDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

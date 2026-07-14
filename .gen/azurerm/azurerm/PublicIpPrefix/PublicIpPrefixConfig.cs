@@ -9,7 +9,7 @@ namespace azurerm.PublicIpPrefix
     [JsiiByValue(fqn: "azurerm.publicIpPrefix.PublicIpPrefixConfig")]
     public class PublicIpPrefixConfig : azurerm.PublicIpPrefix.IPublicIpPrefixConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#location PublicIpPrefix#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#location PublicIpPrefix#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#name PublicIpPrefix#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#name PublicIpPrefix#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#resource_group_name PublicIpPrefix#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#resource_group_name PublicIpPrefix#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#custom_ip_prefix_id PublicIpPrefix#custom_ip_prefix_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#custom_ip_prefix_id PublicIpPrefix#custom_ip_prefix_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customIpPrefixId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomIpPrefixId
@@ -42,7 +42,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#id PublicIpPrefix#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#id PublicIpPrefix#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#ip_version PublicIpPrefix#ip_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#ip_version PublicIpPrefix#ip_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpVersion
@@ -64,7 +64,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#prefix_length PublicIpPrefix#prefix_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#prefix_length PublicIpPrefix#prefix_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefixLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrefixLength
@@ -73,7 +73,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#sku PublicIpPrefix#sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#sku PublicIpPrefix#sku}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Sku
@@ -82,7 +82,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#sku_tier PublicIpPrefix#sku_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#sku_tier PublicIpPrefix#sku_tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skuTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SkuTier
@@ -91,7 +91,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#tags PublicIpPrefix#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#tags PublicIpPrefix#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -102,7 +102,7 @@ namespace azurerm.PublicIpPrefix
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#timeouts PublicIpPrefix#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#timeouts PublicIpPrefix#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.publicIpPrefix.PublicIpPrefixTimeouts\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace azurerm.PublicIpPrefix
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/public_ip_prefix#zones PublicIpPrefix#zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/public_ip_prefix#zones PublicIpPrefix#zones}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Zones

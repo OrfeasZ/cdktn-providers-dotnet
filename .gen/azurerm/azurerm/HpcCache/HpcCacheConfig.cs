@@ -9,7 +9,7 @@ namespace azurerm.HpcCache
     [JsiiByValue(fqn: "azurerm.hpcCache.HpcCacheConfig")]
     public class HpcCacheConfig : azurerm.HpcCache.IHpcCacheConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#cache_size_in_gb HpcCache#cache_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#cache_size_in_gb HpcCache#cache_size_in_gb}.</summary>
         [JsiiProperty(name: "cacheSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double CacheSizeInGb
         {
@@ -17,7 +17,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#location HpcCache#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#location HpcCache#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#name HpcCache#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#name HpcCache#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#resource_group_name HpcCache#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#resource_group_name HpcCache#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#sku_name HpcCache#sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#sku_name HpcCache#sku_name}.</summary>
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
         public string SkuName
         {
@@ -49,7 +49,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#subnet_id HpcCache#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#subnet_id HpcCache#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -59,7 +59,7 @@ namespace azurerm.HpcCache
 
         private object? _automaticallyRotateKeyToLatestEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#automatically_rotate_key_to_latest_enabled HpcCache#automatically_rotate_key_to_latest_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#automatically_rotate_key_to_latest_enabled HpcCache#automatically_rotate_key_to_latest_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -93,7 +93,7 @@ namespace azurerm.HpcCache
 
         /// <summary>default_access_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#default_access_policy HpcCache#default_access_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#default_access_policy HpcCache#default_access_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultAccessPolicy", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheDefaultAccessPolicy\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azurerm.HpcCache
 
         /// <summary>directory_active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#directory_active_directory HpcCache#directory_active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#directory_active_directory HpcCache#directory_active_directory}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "directoryActiveDirectory", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheDirectoryActiveDirectory\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace azurerm.HpcCache
 
         /// <summary>directory_flat_file block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#directory_flat_file HpcCache#directory_flat_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#directory_flat_file HpcCache#directory_flat_file}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "directoryFlatFile", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheDirectoryFlatFile\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace azurerm.HpcCache
 
         /// <summary>directory_ldap block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#directory_ldap HpcCache#directory_ldap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#directory_ldap HpcCache#directory_ldap}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "directoryLdap", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheDirectoryLdap\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace azurerm.HpcCache
 
         /// <summary>dns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dns HpcCache#dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dns HpcCache#dns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheDns\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#id HpcCache#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#id HpcCache#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ namespace azurerm.HpcCache
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#identity HpcCache#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#identity HpcCache#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheIdentity\"}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#key_vault_key_id HpcCache#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#key_vault_key_id HpcCache#key_vault_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVaultKeyId
@@ -185,7 +185,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#mtu HpcCache#mtu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#mtu HpcCache#mtu}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mtu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Mtu
@@ -194,7 +194,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#ntp_server HpcCache#ntp_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#ntp_server HpcCache#ntp_server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ntpServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NtpServer
@@ -203,7 +203,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#tags HpcCache#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#tags HpcCache#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -214,7 +214,7 @@ namespace azurerm.HpcCache
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#timeouts HpcCache#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#timeouts HpcCache#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.hpcCache.HpcCacheTimeouts\"}", isOptional: true)]

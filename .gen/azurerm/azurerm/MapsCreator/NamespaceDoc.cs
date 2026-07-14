@@ -5,7 +5,7 @@ namespace azurerm.MapsCreator
     /// <remarks>
     /// <h1><c>azurerm_maps_creator</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/maps_creator"><c>azurerm_maps_creator</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maps_creator"><c>azurerm_maps_creator</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

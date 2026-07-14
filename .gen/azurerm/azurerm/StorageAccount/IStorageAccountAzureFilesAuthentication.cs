@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountAzureFilesAuthentication), fullyQualifiedName: "azurerm.storageAccount.StorageAccountAzureFilesAuthentication")]
     public interface IStorageAccountAzureFilesAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#directory_type StorageAccount#directory_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#directory_type StorageAccount#directory_type}.</summary>
         [JsiiProperty(name: "directoryType", typeJson: "{\"primitive\":\"string\"}")]
         string DirectoryType
         {
@@ -16,7 +16,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#active_directory StorageAccount#active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#active_directory StorageAccount#active_directory}
         /// </remarks>
         [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#default_share_level_permission StorageAccount#default_share_level_permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#default_share_level_permission StorageAccount#default_share_level_permission}.</summary>
         [JsiiProperty(name: "defaultShareLevelPermission", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultShareLevelPermission
@@ -46,7 +46,7 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#directory_type StorageAccount#directory_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#directory_type StorageAccount#directory_type}.</summary>
             [JsiiProperty(name: "directoryType", typeJson: "{\"primitive\":\"string\"}")]
             public string DirectoryType
             {
@@ -55,7 +55,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#active_directory StorageAccount#active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#active_directory StorageAccount#active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountAzureFilesAuthenticationActiveDirectory\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountAzureFilesAuthenticationActiveDirectory?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#default_share_level_permission StorageAccount#default_share_level_permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#default_share_level_permission StorageAccount#default_share_level_permission}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultShareLevelPermission", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultShareLevelPermission

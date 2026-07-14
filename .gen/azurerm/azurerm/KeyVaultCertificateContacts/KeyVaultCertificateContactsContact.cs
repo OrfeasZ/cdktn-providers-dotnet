@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificateContacts
     [JsiiByValue(fqn: "azurerm.keyVaultCertificateContacts.KeyVaultCertificateContactsContact")]
     public class KeyVaultCertificateContactsContact : azurerm.KeyVaultCertificateContacts.IKeyVaultCertificateContactsContact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_certificate_contacts#email KeyVaultCertificateContacts#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate_contacts#email KeyVaultCertificateContacts#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {
@@ -17,7 +17,7 @@ namespace azurerm.KeyVaultCertificateContacts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_certificate_contacts#name KeyVaultCertificateContacts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate_contacts#name KeyVaultCertificateContacts#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -26,7 +26,7 @@ namespace azurerm.KeyVaultCertificateContacts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_certificate_contacts#phone KeyVaultCertificateContacts#phone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate_contacts#phone KeyVaultCertificateContacts#phone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Phone

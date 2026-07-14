@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _dataPlaneAvailable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

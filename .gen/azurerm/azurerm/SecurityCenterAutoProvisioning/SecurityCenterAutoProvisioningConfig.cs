@@ -9,7 +9,7 @@ namespace azurerm.SecurityCenterAutoProvisioning
     [JsiiByValue(fqn: "azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningConfig")]
     public class SecurityCenterAutoProvisioningConfig : azurerm.SecurityCenterAutoProvisioning.ISecurityCenterAutoProvisioningConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/security_center_auto_provisioning#auto_provision SecurityCenterAutoProvisioning#auto_provision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_auto_provisioning#auto_provision SecurityCenterAutoProvisioning#auto_provision}.</summary>
         [JsiiProperty(name: "autoProvision", typeJson: "{\"primitive\":\"string\"}")]
         public string AutoProvision
         {
@@ -17,7 +17,7 @@ namespace azurerm.SecurityCenterAutoProvisioning
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/security_center_auto_provisioning#id SecurityCenterAutoProvisioning#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_auto_provisioning#id SecurityCenterAutoProvisioning#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azurerm.SecurityCenterAutoProvisioning
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/security_center_auto_provisioning#timeouts SecurityCenterAutoProvisioning#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_auto_provisioning#timeouts SecurityCenterAutoProvisioning#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.securityCenterAutoProvisioning.SecurityCenterAutoProvisioningTimeouts\"}", isOptional: true)]

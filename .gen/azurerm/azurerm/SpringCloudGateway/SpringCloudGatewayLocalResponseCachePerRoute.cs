@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudGateway
     [JsiiByValue(fqn: "azurerm.springCloudGateway.SpringCloudGatewayLocalResponseCachePerRoute")]
     public class SpringCloudGatewayLocalResponseCachePerRoute : azurerm.SpringCloudGateway.ISpringCloudGatewayLocalResponseCachePerRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/spring_cloud_gateway#size SpringCloudGateway#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_gateway#size SpringCloudGateway#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Size
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/spring_cloud_gateway#time_to_live SpringCloudGateway#time_to_live}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_gateway#time_to_live SpringCloudGateway#time_to_live}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeToLive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeToLive

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDedicatedHost
     [JsiiInterface(nativeType: typeof(IDataAzurermDedicatedHostTimeouts), fullyQualifiedName: "azurerm.dataAzurermDedicatedHost.DataAzurermDedicatedHostTimeouts")]
     public interface IDataAzurermDedicatedHostTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/dedicated_host#read DataAzurermDedicatedHost#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dedicated_host#read DataAzurermDedicatedHost#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDedicatedHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/dedicated_host#read DataAzurermDedicatedHost#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dedicated_host#read DataAzurermDedicatedHost#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,14 +7,14 @@ namespace azurerm.HpcCache
     [JsiiInterface(nativeType: typeof(IHpcCacheDirectoryLdapBind), fullyQualifiedName: "azurerm.hpcCache.HpcCacheDirectoryLdapBind")]
     public interface IHpcCacheDirectoryLdapBind
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
         [JsiiProperty(name: "dn", typeJson: "{\"primitive\":\"string\"}")]
         string Dn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
         {
@@ -28,14 +28,14 @@ namespace azurerm.HpcCache
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
             [JsiiProperty(name: "dn", typeJson: "{\"primitive\":\"string\"}")]
             public string Dn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
             {

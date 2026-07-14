@@ -7,7 +7,7 @@ namespace azurerm.KubernetesFleetManager
     [JsiiInterface(nativeType: typeof(IKubernetesFleetManagerHubProfile), fullyQualifiedName: "azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfile")]
     public interface IKubernetesFleetManagerHubProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
         [JsiiProperty(name: "dnsPrefix", typeJson: "{\"primitive\":\"string\"}")]
         string DnsPrefix
         {
@@ -21,7 +21,7 @@ namespace azurerm.KubernetesFleetManager
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
             [JsiiProperty(name: "dnsPrefix", typeJson: "{\"primitive\":\"string\"}")]
             public string DnsPrefix
             {

@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolTaskSchedulingPolicy")]
     public class BatchPoolTaskSchedulingPolicy : azurerm.BatchPool.IBatchPoolTaskSchedulingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeFillType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeFillType

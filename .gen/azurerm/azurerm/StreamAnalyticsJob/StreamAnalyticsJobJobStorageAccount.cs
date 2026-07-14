@@ -9,7 +9,7 @@ namespace azurerm.StreamAnalyticsJob
     [JsiiByValue(fqn: "azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccount")]
     public class StreamAnalyticsJobJobStorageAccount : azurerm.StreamAnalyticsJob.IStreamAnalyticsJobJobStorageAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
         {
@@ -17,7 +17,7 @@ namespace azurerm.StreamAnalyticsJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKey
@@ -26,7 +26,7 @@ namespace azurerm.StreamAnalyticsJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationMode

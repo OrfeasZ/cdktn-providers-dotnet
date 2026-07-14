@@ -7,14 +7,14 @@ namespace azurerm.ContainerApp
     [JsiiInterface(nativeType: typeof(IContainerAppTemplateCustomScaleRuleAuthentication), fullyQualifiedName: "azurerm.containerApp.ContainerAppTemplateCustomScaleRuleAuthentication")]
     public interface IContainerAppTemplateCustomScaleRuleAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
         [JsiiProperty(name: "secretName", typeJson: "{\"primitive\":\"string\"}")]
         string SecretName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
         [JsiiProperty(name: "triggerParameter", typeJson: "{\"primitive\":\"string\"}")]
         string TriggerParameter
         {
@@ -28,14 +28,14 @@ namespace azurerm.ContainerApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
             [JsiiProperty(name: "secretName", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
             [JsiiProperty(name: "triggerParameter", typeJson: "{\"primitive\":\"string\"}")]
             public string TriggerParameter
             {

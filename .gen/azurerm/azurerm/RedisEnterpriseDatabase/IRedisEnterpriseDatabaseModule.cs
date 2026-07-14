@@ -7,14 +7,14 @@ namespace azurerm.RedisEnterpriseDatabase
     [JsiiInterface(nativeType: typeof(IRedisEnterpriseDatabaseModule), fullyQualifiedName: "azurerm.redisEnterpriseDatabase.RedisEnterpriseDatabaseModule")]
     public interface IRedisEnterpriseDatabaseModule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database#name RedisEnterpriseDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_enterprise_database#name RedisEnterpriseDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database#args RedisEnterpriseDatabase#args}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_enterprise_database#args RedisEnterpriseDatabase#args}.</summary>
         [JsiiProperty(name: "args", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Args
@@ -32,14 +32,14 @@ namespace azurerm.RedisEnterpriseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database#name RedisEnterpriseDatabase#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_enterprise_database#name RedisEnterpriseDatabase#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database#args RedisEnterpriseDatabase#args}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_enterprise_database#args RedisEnterpriseDatabase#args}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "args", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Args

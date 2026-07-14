@@ -7,7 +7,7 @@ namespace azurerm.VirtualMachineRunCommand
     [JsiiByValue(fqn: "azurerm.virtualMachineRunCommand.VirtualMachineRunCommandOutputBlobManagedIdentity")]
     public class VirtualMachineRunCommandOutputBlobManagedIdentity : azurerm.VirtualMachineRunCommand.IVirtualMachineRunCommandOutputBlobManagedIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/virtual_machine_run_command#client_id VirtualMachineRunCommand#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_run_command#client_id VirtualMachineRunCommand#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -16,7 +16,7 @@ namespace azurerm.VirtualMachineRunCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/virtual_machine_run_command#object_id VirtualMachineRunCommand#object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_run_command#object_id VirtualMachineRunCommand#object_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectId

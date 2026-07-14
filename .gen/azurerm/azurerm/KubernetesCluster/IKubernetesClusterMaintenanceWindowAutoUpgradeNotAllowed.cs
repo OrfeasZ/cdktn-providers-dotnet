@@ -7,14 +7,14 @@ namespace azurerm.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed), fullyQualifiedName: "azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed")]
     public interface IKubernetesClusterMaintenanceWindowAutoUpgradeNotAllowed
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         string End
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         string Start
         {
@@ -28,14 +28,14 @@ namespace azurerm.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
             public string End
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
             public string Start
             {

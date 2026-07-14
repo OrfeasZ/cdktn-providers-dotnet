@@ -5,7 +5,7 @@ namespace azurerm.AppServiceSlotCustomHostnameBinding
     /// <remarks>
     /// <h1><c>azurerm_app_service_slot_custom_hostname_binding</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot_custom_hostname_binding"><c>azurerm_app_service_slot_custom_hostname_binding</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot_custom_hostname_binding"><c>azurerm_app_service_slot_custom_hostname_binding</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

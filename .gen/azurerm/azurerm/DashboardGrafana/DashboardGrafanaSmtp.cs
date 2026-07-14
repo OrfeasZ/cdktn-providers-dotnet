@@ -9,7 +9,7 @@ namespace azurerm.DashboardGrafana
     [JsiiByValue(fqn: "azurerm.dashboardGrafana.DashboardGrafanaSmtp")]
     public class DashboardGrafanaSmtp : azurerm.DashboardGrafana.IDashboardGrafanaSmtp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#from_address DashboardGrafana#from_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#from_address DashboardGrafana#from_address}.</summary>
         [JsiiProperty(name: "fromAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string FromAddress
         {
@@ -17,7 +17,7 @@ namespace azurerm.DashboardGrafana
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#host DashboardGrafana#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#host DashboardGrafana#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public string Host
         {
@@ -25,7 +25,7 @@ namespace azurerm.DashboardGrafana
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#password DashboardGrafana#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#password DashboardGrafana#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -33,7 +33,7 @@ namespace azurerm.DashboardGrafana
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#start_tls_policy DashboardGrafana#start_tls_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#start_tls_policy DashboardGrafana#start_tls_policy}.</summary>
         [JsiiProperty(name: "startTlsPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTlsPolicy
         {
@@ -41,7 +41,7 @@ namespace azurerm.DashboardGrafana
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#user DashboardGrafana#user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#user DashboardGrafana#user}.</summary>
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}")]
         public string User
         {
@@ -51,7 +51,7 @@ namespace azurerm.DashboardGrafana
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#enabled DashboardGrafana#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#enabled DashboardGrafana#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -83,7 +83,7 @@ namespace azurerm.DashboardGrafana
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#from_name DashboardGrafana#from_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#from_name DashboardGrafana#from_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fromName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FromName
@@ -94,7 +94,7 @@ namespace azurerm.DashboardGrafana
 
         private object? _verificationSkipEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dashboard_grafana#verification_skip_enabled DashboardGrafana#verification_skip_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dashboard_grafana#verification_skip_enabled DashboardGrafana#verification_skip_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

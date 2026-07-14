@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRouteTable
     [JsiiByValue(fqn: "azurerm.dataAzurermRouteTable.DataAzurermRouteTableTimeouts")]
     public class DataAzurermRouteTableTimeouts : azurerm.DataAzurermRouteTable.IDataAzurermRouteTableTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/route_table#read DataAzurermRouteTable#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/route_table#read DataAzurermRouteTable#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

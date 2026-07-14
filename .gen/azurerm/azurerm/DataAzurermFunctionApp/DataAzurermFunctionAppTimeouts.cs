@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermFunctionApp
     [JsiiByValue(fqn: "azurerm.dataAzurermFunctionApp.DataAzurermFunctionAppTimeouts")]
     public class DataAzurermFunctionAppTimeouts : azurerm.DataAzurermFunctionApp.IDataAzurermFunctionAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/function_app#read DataAzurermFunctionApp#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/function_app#read DataAzurermFunctionApp#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

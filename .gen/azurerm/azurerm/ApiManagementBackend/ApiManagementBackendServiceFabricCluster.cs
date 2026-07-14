@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementBackend
     [JsiiByValue(fqn: "azurerm.apiManagementBackend.ApiManagementBackendServiceFabricCluster")]
     public class ApiManagementBackendServiceFabricCluster : azurerm.ApiManagementBackend.IApiManagementBackendServiceFabricCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#management_endpoints ApiManagementBackend#management_endpoints}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#management_endpoints ApiManagementBackend#management_endpoints}.</summary>
         [JsiiProperty(name: "managementEndpoints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ManagementEndpoints
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#max_partition_resolution_retries ApiManagementBackend#max_partition_resolution_retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#max_partition_resolution_retries ApiManagementBackend#max_partition_resolution_retries}.</summary>
         [JsiiProperty(name: "maxPartitionResolutionRetries", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxPartitionResolutionRetries
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#client_certificate_id ApiManagementBackend#client_certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#client_certificate_id ApiManagementBackend#client_certificate_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientCertificateId
@@ -34,7 +34,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#client_certificate_thumbprint ApiManagementBackend#client_certificate_thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#client_certificate_thumbprint ApiManagementBackend#client_certificate_thumbprint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificateThumbprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientCertificateThumbprint
@@ -43,7 +43,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#server_certificate_thumbprints ApiManagementBackend#server_certificate_thumbprints}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#server_certificate_thumbprints ApiManagementBackend#server_certificate_thumbprints}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverCertificateThumbprints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ServerCertificateThumbprints
@@ -56,7 +56,7 @@ namespace azurerm.ApiManagementBackend
 
         /// <summary>server_x509_name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_backend#server_x509_name ApiManagementBackend#server_x509_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_backend#server_x509_name ApiManagementBackend#server_x509_name}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementBackend.IApiManagementBackendServiceFabricClusterServerX509Name" />)[]</para>
         /// </remarks>
         [JsiiOptional]

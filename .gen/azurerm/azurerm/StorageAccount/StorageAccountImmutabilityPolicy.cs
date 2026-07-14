@@ -11,7 +11,7 @@ namespace azurerm.StorageAccount
     {
         private object _allowProtectedAppendWrites;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#allow_protected_append_writes StorageAccount#allow_protected_append_writes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#allow_protected_append_writes StorageAccount#allow_protected_append_writes}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#period_since_creation_in_days StorageAccount#period_since_creation_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#period_since_creation_in_days StorageAccount#period_since_creation_in_days}.</summary>
         [JsiiProperty(name: "periodSinceCreationInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double PeriodSinceCreationInDays
         {
@@ -50,7 +50,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#state StorageAccount#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#state StorageAccount#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
         {

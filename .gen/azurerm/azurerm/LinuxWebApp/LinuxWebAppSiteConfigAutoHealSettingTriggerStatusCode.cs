@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     [JsiiByValue(fqn: "azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode")]
     public class LinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode : azurerm.LinuxWebApp.ILinuxWebAppSiteConfigAutoHealSettingTriggerStatusCode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#count LinuxWebApp#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#count LinuxWebApp#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         public double Count
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
         {
@@ -25,7 +25,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#status_code_range LinuxWebApp#status_code_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#status_code_range LinuxWebApp#status_code_range}.</summary>
         [JsiiProperty(name: "statusCodeRange", typeJson: "{\"primitive\":\"string\"}")]
         public string StatusCodeRange
         {
@@ -33,7 +33,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#path LinuxWebApp#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#path LinuxWebApp#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -42,7 +42,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#sub_status LinuxWebApp#sub_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#sub_status LinuxWebApp#sub_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subStatus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SubStatus
@@ -51,7 +51,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_web_app#win32_status_code LinuxWebApp#win32_status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#win32_status_code LinuxWebApp#win32_status_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "win32StatusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Win32StatusCode

@@ -7,7 +7,7 @@ namespace azurerm.CustomProvider
     [JsiiInterface(nativeType: typeof(ICustomProviderValidation), fullyQualifiedName: "azurerm.customProvider.CustomProviderValidation")]
     public interface ICustomProviderValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/custom_provider#specification CustomProvider#specification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/custom_provider#specification CustomProvider#specification}.</summary>
         [JsiiProperty(name: "specification", typeJson: "{\"primitive\":\"string\"}")]
         string Specification
         {
@@ -21,7 +21,7 @@ namespace azurerm.CustomProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/custom_provider#specification CustomProvider#specification}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/custom_provider#specification CustomProvider#specification}.</summary>
             [JsiiProperty(name: "specification", typeJson: "{\"primitive\":\"string\"}")]
             public string Specification
             {

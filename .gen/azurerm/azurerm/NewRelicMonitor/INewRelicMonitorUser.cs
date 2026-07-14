@@ -7,28 +7,28 @@ namespace azurerm.NewRelicMonitor
     [JsiiInterface(nativeType: typeof(INewRelicMonitorUser), fullyQualifiedName: "azurerm.newRelicMonitor.NewRelicMonitorUser")]
     public interface INewRelicMonitorUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#email NewRelicMonitor#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#email NewRelicMonitor#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#first_name NewRelicMonitor#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#first_name NewRelicMonitor#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
         string FirstName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#last_name NewRelicMonitor#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#last_name NewRelicMonitor#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
         string LastName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#phone_number NewRelicMonitor#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#phone_number NewRelicMonitor#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
         string PhoneNumber
         {
@@ -42,28 +42,28 @@ namespace azurerm.NewRelicMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#email NewRelicMonitor#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#email NewRelicMonitor#email}.</summary>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#first_name NewRelicMonitor#first_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#first_name NewRelicMonitor#first_name}.</summary>
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
             public string FirstName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#last_name NewRelicMonitor#last_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#last_name NewRelicMonitor#last_name}.</summary>
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
             public string LastName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/new_relic_monitor#phone_number NewRelicMonitor#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/new_relic_monitor#phone_number NewRelicMonitor#phone_number}.</summary>
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string PhoneNumber
             {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSshPublicKey
     [JsiiInterface(nativeType: typeof(IDataAzurermSshPublicKeyTimeouts), fullyQualifiedName: "azurerm.dataAzurermSshPublicKey.DataAzurermSshPublicKeyTimeouts")]
     public interface IDataAzurermSshPublicKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/ssh_public_key#read DataAzurermSshPublicKey#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/ssh_public_key#read DataAzurermSshPublicKey#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSshPublicKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/ssh_public_key#read DataAzurermSshPublicKey#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/ssh_public_key#read DataAzurermSshPublicKey#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

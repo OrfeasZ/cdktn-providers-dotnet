@@ -13,7 +13,7 @@ namespace azurerm.HpcCache
 
         /// <summary>access_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#access_rule HpcCache#access_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#access_rule HpcCache#access_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.HpcCache.IHpcCacheDefaultAccessPolicyAccessRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "accessRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.hpcCache.HpcCacheDefaultAccessPolicyAccessRule\"},\"kind\":\"array\"}}]}}")]

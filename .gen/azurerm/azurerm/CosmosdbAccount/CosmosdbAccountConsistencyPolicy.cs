@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicy")]
     public class CosmosdbAccountConsistencyPolicy : azurerm.CosmosdbAccount.ICosmosdbAccountConsistencyPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
         [JsiiProperty(name: "consistencyLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsistencyLevel
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxIntervalInSeconds
@@ -26,7 +26,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxStalenessPrefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxStalenessPrefix

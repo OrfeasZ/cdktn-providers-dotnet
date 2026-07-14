@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKey")]
     public class KubernetesClusterLinuxProfileSshKey : azurerm.KubernetesCluster.IKubernetesClusterLinuxProfileSshKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kubernetes_cluster#key_data KubernetesCluster#key_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#key_data KubernetesCluster#key_data}.</summary>
         [JsiiProperty(name: "keyData", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyData
         {

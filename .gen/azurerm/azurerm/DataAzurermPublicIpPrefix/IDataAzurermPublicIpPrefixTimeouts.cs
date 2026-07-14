@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPublicIpPrefix
     [JsiiInterface(nativeType: typeof(IDataAzurermPublicIpPrefixTimeouts), fullyQualifiedName: "azurerm.dataAzurermPublicIpPrefix.DataAzurermPublicIpPrefixTimeouts")]
     public interface IDataAzurermPublicIpPrefixTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/public_ip_prefix#read DataAzurermPublicIpPrefix#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/public_ip_prefix#read DataAzurermPublicIpPrefix#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPublicIpPrefix
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/public_ip_prefix#read DataAzurermPublicIpPrefix#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/public_ip_prefix#read DataAzurermPublicIpPrefix#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

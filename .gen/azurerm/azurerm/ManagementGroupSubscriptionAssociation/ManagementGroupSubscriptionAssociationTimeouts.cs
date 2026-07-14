@@ -7,7 +7,7 @@ namespace azurerm.ManagementGroupSubscriptionAssociation
     [JsiiByValue(fqn: "azurerm.managementGroupSubscriptionAssociation.ManagementGroupSubscriptionAssociationTimeouts")]
     public class ManagementGroupSubscriptionAssociationTimeouts : azurerm.ManagementGroupSubscriptionAssociation.IManagementGroupSubscriptionAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/management_group_subscription_association#create ManagementGroupSubscriptionAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_subscription_association#create ManagementGroupSubscriptionAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.ManagementGroupSubscriptionAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/management_group_subscription_association#delete ManagementGroupSubscriptionAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_subscription_association#delete ManagementGroupSubscriptionAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.ManagementGroupSubscriptionAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/management_group_subscription_association#read ManagementGroupSubscriptionAssociation#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/management_group_subscription_association#read ManagementGroupSubscriptionAssociation#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

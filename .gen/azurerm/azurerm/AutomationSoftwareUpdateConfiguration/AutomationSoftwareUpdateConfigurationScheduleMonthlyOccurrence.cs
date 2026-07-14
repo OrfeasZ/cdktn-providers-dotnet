@@ -9,7 +9,7 @@ namespace azurerm.AutomationSoftwareUpdateConfiguration
     [JsiiByValue(fqn: "azurerm.automationSoftwareUpdateConfiguration.AutomationSoftwareUpdateConfigurationScheduleMonthlyOccurrence")]
     public class AutomationSoftwareUpdateConfigurationScheduleMonthlyOccurrence : azurerm.AutomationSoftwareUpdateConfiguration.IAutomationSoftwareUpdateConfigurationScheduleMonthlyOccurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_software_update_configuration#day AutomationSoftwareUpdateConfiguration#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_software_update_configuration#day AutomationSoftwareUpdateConfiguration#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         public string Day
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationSoftwareUpdateConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_software_update_configuration#occurrence AutomationSoftwareUpdateConfiguration#occurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_software_update_configuration#occurrence AutomationSoftwareUpdateConfiguration#occurrence}.</summary>
         [JsiiProperty(name: "occurrence", typeJson: "{\"primitive\":\"number\"}")]
         public double Occurrence
         {

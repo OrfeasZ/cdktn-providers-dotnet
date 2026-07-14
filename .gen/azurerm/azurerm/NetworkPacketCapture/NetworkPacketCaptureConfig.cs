@@ -9,7 +9,7 @@ namespace azurerm.NetworkPacketCapture
     [JsiiByValue(fqn: "azurerm.networkPacketCapture.NetworkPacketCaptureConfig")]
     public class NetworkPacketCaptureConfig : azurerm.NetworkPacketCapture.INetworkPacketCaptureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#name NetworkPacketCapture#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#name NetworkPacketCapture#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#network_watcher_name NetworkPacketCapture#network_watcher_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#network_watcher_name NetworkPacketCapture#network_watcher_name}.</summary>
         [JsiiProperty(name: "networkWatcherName", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkWatcherName
         {
@@ -25,7 +25,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#resource_group_name NetworkPacketCapture#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#resource_group_name NetworkPacketCapture#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -35,7 +35,7 @@ namespace azurerm.NetworkPacketCapture
 
         /// <summary>storage_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#storage_location NetworkPacketCapture#storage_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#storage_location NetworkPacketCapture#storage_location}
         /// </remarks>
         [JsiiProperty(name: "storageLocation", typeJson: "{\"fqn\":\"azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocation\"}")]
         public azurerm.NetworkPacketCapture.INetworkPacketCaptureStorageLocation StorageLocation
@@ -44,7 +44,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#target_resource_id NetworkPacketCapture#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#target_resource_id NetworkPacketCapture#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -56,7 +56,7 @@ namespace azurerm.NetworkPacketCapture
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#filter NetworkPacketCapture#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#filter NetworkPacketCapture#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NetworkPacketCapture.INetworkPacketCaptureFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace azurerm.NetworkPacketCapture
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#id NetworkPacketCapture#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#id NetworkPacketCapture#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,7 +100,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#maximum_bytes_per_packet NetworkPacketCapture#maximum_bytes_per_packet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#maximum_bytes_per_packet NetworkPacketCapture#maximum_bytes_per_packet}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumBytesPerPacket", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumBytesPerPacket
@@ -109,7 +109,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#maximum_bytes_per_session NetworkPacketCapture#maximum_bytes_per_session}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#maximum_bytes_per_session NetworkPacketCapture#maximum_bytes_per_session}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumBytesPerSession", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumBytesPerSession
@@ -118,7 +118,7 @@ namespace azurerm.NetworkPacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#maximum_capture_duration NetworkPacketCapture#maximum_capture_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#maximum_capture_duration NetworkPacketCapture#maximum_capture_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumCaptureDuration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumCaptureDuration
@@ -129,7 +129,7 @@ namespace azurerm.NetworkPacketCapture
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#timeouts NetworkPacketCapture#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#timeouts NetworkPacketCapture#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.networkPacketCapture.NetworkPacketCaptureTimeouts\"}", isOptional: true)]

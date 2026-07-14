@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
     {
         /// <summary>The access mode to connect this storage to the Container App. Possible values include `ReadOnly` and `ReadWrite`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#access_mode ContainerAppEnvironmentStorage#access_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#access_mode ContainerAppEnvironmentStorage#access_mode}
         /// </remarks>
         [JsiiProperty(name: "accessMode", typeJson: "{\"primitive\":\"string\"}")]
         string AccessMode
@@ -19,7 +19,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>The ID of the Container App Environment to which this storage belongs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#container_app_environment_id ContainerAppEnvironmentStorage#container_app_environment_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#container_app_environment_id ContainerAppEnvironmentStorage#container_app_environment_id}
         /// </remarks>
         [JsiiProperty(name: "containerAppEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerAppEnvironmentId
@@ -29,7 +29,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>The name for this Storage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#name ContainerAppEnvironmentStorage#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#name ContainerAppEnvironmentStorage#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -39,7 +39,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>The name of the Azure Storage Share to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#share_name ContainerAppEnvironmentStorage#share_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#share_name ContainerAppEnvironmentStorage#share_name}
         /// </remarks>
         [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
         string ShareName
@@ -49,7 +49,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>The Storage Account Access Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#access_key ContainerAppEnvironmentStorage#access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#access_key ContainerAppEnvironmentStorage#access_key}
         /// </remarks>
         [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>The Azure Storage Account in which the Share to be used is located.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#account_name ContainerAppEnvironmentStorage#account_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#account_name ContainerAppEnvironmentStorage#account_name}
         /// </remarks>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#id ContainerAppEnvironmentStorage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#id ContainerAppEnvironmentStorage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#nfs_server_url ContainerAppEnvironmentStorage#nfs_server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#nfs_server_url ContainerAppEnvironmentStorage#nfs_server_url}.</summary>
         [JsiiProperty(name: "nfsServerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NfsServerUrl
@@ -103,7 +103,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#timeouts ContainerAppEnvironmentStorage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#timeouts ContainerAppEnvironmentStorage#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The access mode to connect this storage to the Container App. Possible values include `ReadOnly` and `ReadWrite`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#access_mode ContainerAppEnvironmentStorage#access_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#access_mode ContainerAppEnvironmentStorage#access_mode}
             /// </remarks>
             [JsiiProperty(name: "accessMode", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessMode
@@ -134,7 +134,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The ID of the Container App Environment to which this storage belongs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#container_app_environment_id ContainerAppEnvironmentStorage#container_app_environment_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#container_app_environment_id ContainerAppEnvironmentStorage#container_app_environment_id}
             /// </remarks>
             [JsiiProperty(name: "containerAppEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerAppEnvironmentId
@@ -144,7 +144,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The name for this Storage.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#name ContainerAppEnvironmentStorage#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#name ContainerAppEnvironmentStorage#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -154,7 +154,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The name of the Azure Storage Share to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#share_name ContainerAppEnvironmentStorage#share_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#share_name ContainerAppEnvironmentStorage#share_name}
             /// </remarks>
             [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
             public string ShareName
@@ -164,7 +164,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The Storage Account Access Key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#access_key ContainerAppEnvironmentStorage#access_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#access_key ContainerAppEnvironmentStorage#access_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -175,7 +175,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>The Azure Storage Account in which the Share to be used is located.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#account_name ContainerAppEnvironmentStorage#account_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#account_name ContainerAppEnvironmentStorage#account_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#id ContainerAppEnvironmentStorage#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#id ContainerAppEnvironmentStorage#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,7 +196,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#nfs_server_url ContainerAppEnvironmentStorage#nfs_server_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#nfs_server_url ContainerAppEnvironmentStorage#nfs_server_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nfsServerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NfsServerUrl
@@ -206,7 +206,7 @@ namespace azurerm.ContainerAppEnvironmentStorage
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_environment_storage#timeouts ContainerAppEnvironmentStorage#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment_storage#timeouts ContainerAppEnvironmentStorage#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerAppEnvironmentStorage.ContainerAppEnvironmentStorageTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiByValue(fqn: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterComponentVersion")]
     public class HdinsightHbaseClusterComponentVersion : azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hdinsight_hbase_cluster#hbase HdinsightHbaseCluster#hbase}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#hbase HdinsightHbaseCluster#hbase}.</summary>
         [JsiiProperty(name: "hbase", typeJson: "{\"primitive\":\"string\"}")]
         public string Hbase
         {

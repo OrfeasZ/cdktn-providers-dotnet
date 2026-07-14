@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSlot
     {
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#azure_blob_storage AppServiceSlot#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#azure_blob_storage AppServiceSlot#azure_blob_storage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsAzureBlobStorage\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.AppServiceSlot
 
         /// <summary>file_system block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#file_system AppServiceSlot#file_system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#file_system AppServiceSlot#file_system}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystem", typeJson: "{\"fqn\":\"azurerm.appServiceSlot.AppServiceSlotLogsHttpLogsFileSystem\"}", isOptional: true)]

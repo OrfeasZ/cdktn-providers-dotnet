@@ -9,7 +9,7 @@ namespace azurerm.AppService
     [JsiiByValue(fqn: "azurerm.appService.AppServiceBackupSchedule")]
     public class AppServiceBackupSchedule : azurerm.AppService.IAppServiceBackupSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#frequency_interval AppService#frequency_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#frequency_interval AppService#frequency_interval}.</summary>
         [JsiiProperty(name: "frequencyInterval", typeJson: "{\"primitive\":\"number\"}")]
         public double FrequencyInterval
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#frequency_unit AppService#frequency_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#frequency_unit AppService#frequency_unit}.</summary>
         [JsiiProperty(name: "frequencyUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string FrequencyUnit
         {
@@ -27,7 +27,7 @@ namespace azurerm.AppService
 
         private object? _keepAtLeastOneBackup;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#keep_at_least_one_backup AppService#keep_at_least_one_backup}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#keep_at_least_one_backup AppService#keep_at_least_one_backup}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace azurerm.AppService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#retention_period_in_days AppService#retention_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#retention_period_in_days AppService#retention_period_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionPeriodInDays
@@ -68,7 +68,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#start_time AppService#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#start_time AppService#start_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartTime

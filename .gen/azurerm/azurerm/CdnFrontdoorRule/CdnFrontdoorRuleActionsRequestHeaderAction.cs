@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorRule
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderAction")]
     public class CdnFrontdoorRuleActionsRequestHeaderAction : azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cdn_frontdoor_rule#header_action CdnFrontdoorRule#header_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#header_action CdnFrontdoorRule#header_action}.</summary>
         [JsiiProperty(name: "headerAction", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderAction
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnFrontdoorRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#header_name CdnFrontdoorRule#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderName
         {
@@ -25,7 +25,7 @@ namespace azurerm.CdnFrontdoorRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cdn_frontdoor_rule#value CdnFrontdoorRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#value CdnFrontdoorRule#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

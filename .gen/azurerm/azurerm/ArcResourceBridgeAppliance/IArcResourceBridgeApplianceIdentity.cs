@@ -7,7 +7,7 @@ namespace azurerm.ArcResourceBridgeAppliance
     [JsiiInterface(nativeType: typeof(IArcResourceBridgeApplianceIdentity), fullyQualifiedName: "azurerm.arcResourceBridgeAppliance.ArcResourceBridgeApplianceIdentity")]
     public interface IArcResourceBridgeApplianceIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/arc_resource_bridge_appliance#type ArcResourceBridgeAppliance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_resource_bridge_appliance#type ArcResourceBridgeAppliance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.ArcResourceBridgeAppliance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/arc_resource_bridge_appliance#type ArcResourceBridgeAppliance#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_resource_bridge_appliance#type ArcResourceBridgeAppliance#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

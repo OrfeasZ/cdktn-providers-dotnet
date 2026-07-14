@@ -9,7 +9,7 @@ namespace azurerm.AiServices
     [JsiiByValue(fqn: "azurerm.aiServices.AiServicesNetworkAcls")]
     public class AiServicesNetworkAcls : azurerm.AiServices.IAiServicesNetworkAcls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_services#default_action AiServices#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_services#default_action AiServices#default_action}.</summary>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultAction
         {
@@ -17,7 +17,7 @@ namespace azurerm.AiServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_services#bypass AiServices#bypass}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_services#bypass AiServices#bypass}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bypass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bypass
@@ -26,7 +26,7 @@ namespace azurerm.AiServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_services#ip_rules AiServices#ip_rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_services#ip_rules AiServices#ip_rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpRules
@@ -39,7 +39,7 @@ namespace azurerm.AiServices
 
         /// <summary>virtual_network_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_services#virtual_network_rules AiServices#virtual_network_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_services#virtual_network_rules AiServices#virtual_network_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.AiServices.IAiServicesNetworkAclsVirtualNetworkRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

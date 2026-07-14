@@ -7,7 +7,7 @@ namespace azurerm.FunctionApp
     [JsiiInterface(nativeType: typeof(IFunctionAppAuthSettings), fullyQualifiedName: "azurerm.functionApp.FunctionAppAuthSettings")]
     public interface IFunctionAppAuthSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#enabled FunctionApp#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#enabled FunctionApp#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace azurerm.FunctionApp
 
         /// <summary>active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#active_directory FunctionApp#active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#active_directory FunctionApp#active_directory}
         /// </remarks>
         [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#additional_login_params FunctionApp#additional_login_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#additional_login_params FunctionApp#additional_login_params}.</summary>
         [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -42,7 +42,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#allowed_external_redirect_urls FunctionApp#allowed_external_redirect_urls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#allowed_external_redirect_urls FunctionApp#allowed_external_redirect_urls}.</summary>
         [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedExternalRedirectUrls
@@ -53,7 +53,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#default_provider FunctionApp#default_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#default_provider FunctionApp#default_provider}.</summary>
         [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultProvider
@@ -66,7 +66,7 @@ namespace azurerm.FunctionApp
 
         /// <summary>facebook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#facebook FunctionApp#facebook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#facebook FunctionApp#facebook}
         /// </remarks>
         [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsFacebook\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.FunctionApp
 
         /// <summary>google block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#google FunctionApp#google}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#google FunctionApp#google}
         /// </remarks>
         [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsGoogle\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#issuer FunctionApp#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#issuer FunctionApp#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Issuer
@@ -105,7 +105,7 @@ namespace azurerm.FunctionApp
 
         /// <summary>microsoft block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#microsoft FunctionApp#microsoft}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#microsoft FunctionApp#microsoft}
         /// </remarks>
         [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsMicrosoft\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#runtime_version FunctionApp#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#runtime_version FunctionApp#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RuntimeVersion
@@ -128,7 +128,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#token_refresh_extension_hours FunctionApp#token_refresh_extension_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#token_refresh_extension_hours FunctionApp#token_refresh_extension_hours}.</summary>
         [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TokenRefreshExtensionHours
@@ -139,7 +139,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#token_store_enabled FunctionApp#token_store_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#token_store_enabled FunctionApp#token_store_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -155,7 +155,7 @@ namespace azurerm.FunctionApp
 
         /// <summary>twitter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#twitter FunctionApp#twitter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#twitter FunctionApp#twitter}
         /// </remarks>
         [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsTwitter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -167,7 +167,7 @@ namespace azurerm.FunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#unauthenticated_client_action FunctionApp#unauthenticated_client_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#unauthenticated_client_action FunctionApp#unauthenticated_client_action}.</summary>
         [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UnauthenticatedClientAction
@@ -185,7 +185,7 @@ namespace azurerm.FunctionApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#enabled FunctionApp#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#enabled FunctionApp#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -197,7 +197,7 @@ namespace azurerm.FunctionApp
 
             /// <summary>active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#active_directory FunctionApp#active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#active_directory FunctionApp#active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "activeDirectory", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsActiveDirectory\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<azurerm.FunctionApp.IFunctionAppAuthSettingsActiveDirectory?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#additional_login_params FunctionApp#additional_login_params}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#additional_login_params FunctionApp#additional_login_params}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalLoginParams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? AdditionalLoginParams
@@ -214,7 +214,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#allowed_external_redirect_urls FunctionApp#allowed_external_redirect_urls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#allowed_external_redirect_urls FunctionApp#allowed_external_redirect_urls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedExternalRedirectUrls
@@ -222,7 +222,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#default_provider FunctionApp#default_provider}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#default_provider FunctionApp#default_provider}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultProvider
@@ -232,7 +232,7 @@ namespace azurerm.FunctionApp
 
             /// <summary>facebook block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#facebook FunctionApp#facebook}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#facebook FunctionApp#facebook}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "facebook", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsFacebook\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace azurerm.FunctionApp
 
             /// <summary>google block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#google FunctionApp#google}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#google FunctionApp#google}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "google", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsGoogle\"}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<azurerm.FunctionApp.IFunctionAppAuthSettingsGoogle?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#issuer FunctionApp#issuer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#issuer FunctionApp#issuer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Issuer
@@ -262,7 +262,7 @@ namespace azurerm.FunctionApp
 
             /// <summary>microsoft block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#microsoft FunctionApp#microsoft}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#microsoft FunctionApp#microsoft}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "microsoft", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsMicrosoft\"}", isOptional: true)]
@@ -271,7 +271,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<azurerm.FunctionApp.IFunctionAppAuthSettingsMicrosoft?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#runtime_version FunctionApp#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#runtime_version FunctionApp#runtime_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RuntimeVersion
@@ -279,7 +279,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#token_refresh_extension_hours FunctionApp#token_refresh_extension_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#token_refresh_extension_hours FunctionApp#token_refresh_extension_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenRefreshExtensionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TokenRefreshExtensionHours
@@ -287,7 +287,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#token_store_enabled FunctionApp#token_store_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#token_store_enabled FunctionApp#token_store_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -300,7 +300,7 @@ namespace azurerm.FunctionApp
 
             /// <summary>twitter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#twitter FunctionApp#twitter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#twitter FunctionApp#twitter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "twitter", typeJson: "{\"fqn\":\"azurerm.functionApp.FunctionAppAuthSettingsTwitter\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace azurerm.FunctionApp
                 get => GetInstanceProperty<azurerm.FunctionApp.IFunctionAppAuthSettingsTwitter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#unauthenticated_client_action FunctionApp#unauthenticated_client_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#unauthenticated_client_action FunctionApp#unauthenticated_client_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unauthenticatedClientAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UnauthenticatedClientAction

@@ -9,7 +9,7 @@ namespace azurerm.ArcKubernetesCluster
     [JsiiByValue(fqn: "azurerm.arcKubernetesCluster.ArcKubernetesClusterIdentity")]
     public class ArcKubernetesClusterIdentity : azurerm.ArcKubernetesCluster.IArcKubernetesClusterIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebAppSlot
     {
         /// <summary>The OAuth 1.0a consumer key of the Twitter application used for sign-in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_web_app_slot#consumer_key WindowsWebAppSlot#consumer_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app_slot#consumer_key WindowsWebAppSlot#consumer_key}
         /// </remarks>
         [JsiiProperty(name: "consumerKey", typeJson: "{\"primitive\":\"string\"}")]
         string ConsumerKey
@@ -19,7 +19,7 @@ namespace azurerm.WindowsWebAppSlot
 
         /// <summary>The app setting name that contains the OAuth 1.0a consumer secret of the Twitter application used for sign-in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_web_app_slot#consumer_secret_setting_name WindowsWebAppSlot#consumer_secret_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app_slot#consumer_secret_setting_name WindowsWebAppSlot#consumer_secret_setting_name}
         /// </remarks>
         [JsiiProperty(name: "consumerSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
         string ConsumerSecretSettingName
@@ -36,7 +36,7 @@ namespace azurerm.WindowsWebAppSlot
 
             /// <summary>The OAuth 1.0a consumer key of the Twitter application used for sign-in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_web_app_slot#consumer_key WindowsWebAppSlot#consumer_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app_slot#consumer_key WindowsWebAppSlot#consumer_key}
             /// </remarks>
             [JsiiProperty(name: "consumerKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsumerKey
@@ -46,7 +46,7 @@ namespace azurerm.WindowsWebAppSlot
 
             /// <summary>The app setting name that contains the OAuth 1.0a consumer secret of the Twitter application used for sign-in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_web_app_slot#consumer_secret_setting_name WindowsWebAppSlot#consumer_secret_setting_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app_slot#consumer_secret_setting_name WindowsWebAppSlot#consumer_secret_setting_name}
             /// </remarks>
             [JsiiProperty(name: "consumerSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsumerSecretSettingName

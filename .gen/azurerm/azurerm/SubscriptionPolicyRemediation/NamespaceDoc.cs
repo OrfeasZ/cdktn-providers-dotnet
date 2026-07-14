@@ -5,7 +5,7 @@ namespace azurerm.SubscriptionPolicyRemediation
     /// <remarks>
     /// <h1><c>azurerm_subscription_policy_remediation</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/subscription_policy_remediation"><c>azurerm_subscription_policy_remediation</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subscription_policy_remediation"><c>azurerm_subscription_policy_remediation</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

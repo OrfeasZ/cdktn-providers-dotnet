@@ -11,7 +11,7 @@ namespace azurerm.Snapshot
     {
         /// <summary>disk_encryption_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/snapshot#disk_encryption_key Snapshot#disk_encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/snapshot#disk_encryption_key Snapshot#disk_encryption_key}
         /// </remarks>
         [JsiiProperty(name: "diskEncryptionKey", typeJson: "{\"fqn\":\"azurerm.snapshot.SnapshotEncryptionSettingsDiskEncryptionKey\"}")]
         public azurerm.Snapshot.ISnapshotEncryptionSettingsDiskEncryptionKey DiskEncryptionKey
@@ -22,7 +22,7 @@ namespace azurerm.Snapshot
 
         /// <summary>key_encryption_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/snapshot#key_encryption_key Snapshot#key_encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/snapshot#key_encryption_key Snapshot#key_encryption_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyEncryptionKey", typeJson: "{\"fqn\":\"azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKey\"}", isOptional: true)]

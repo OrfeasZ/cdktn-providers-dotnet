@@ -7,14 +7,14 @@ namespace azurerm.VpnGateway
     [JsiiInterface(nativeType: typeof(IVpnGatewayBgpSettings), fullyQualifiedName: "azurerm.vpnGateway.VpnGatewayBgpSettings")]
     public interface IVpnGatewayBgpSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#asn VpnGateway#asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#asn VpnGateway#asn}.</summary>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         double Asn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#peer_weight VpnGateway#peer_weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#peer_weight VpnGateway#peer_weight}.</summary>
         [JsiiProperty(name: "peerWeight", typeJson: "{\"primitive\":\"number\"}")]
         double PeerWeight
         {
@@ -23,7 +23,7 @@ namespace azurerm.VpnGateway
 
         /// <summary>instance_0_bgp_peering_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#instance_0_bgp_peering_address VpnGateway#instance_0_bgp_peering_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#instance_0_bgp_peering_address VpnGateway#instance_0_bgp_peering_address}
         /// </remarks>
         [JsiiProperty(name: "instance0BgpPeeringAddress", typeJson: "{\"fqn\":\"azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace azurerm.VpnGateway
 
         /// <summary>instance_1_bgp_peering_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#instance_1_bgp_peering_address VpnGateway#instance_1_bgp_peering_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#instance_1_bgp_peering_address VpnGateway#instance_1_bgp_peering_address}
         /// </remarks>
         [JsiiProperty(name: "instance1BgpPeeringAddress", typeJson: "{\"fqn\":\"azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,14 +56,14 @@ namespace azurerm.VpnGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#asn VpnGateway#asn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#asn VpnGateway#asn}.</summary>
             [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
             public double Asn
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#peer_weight VpnGateway#peer_weight}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#peer_weight VpnGateway#peer_weight}.</summary>
             [JsiiProperty(name: "peerWeight", typeJson: "{\"primitive\":\"number\"}")]
             public double PeerWeight
             {
@@ -72,7 +72,7 @@ namespace azurerm.VpnGateway
 
             /// <summary>instance_0_bgp_peering_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#instance_0_bgp_peering_address VpnGateway#instance_0_bgp_peering_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#instance_0_bgp_peering_address VpnGateway#instance_0_bgp_peering_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "instance0BgpPeeringAddress", typeJson: "{\"fqn\":\"azurerm.vpnGateway.VpnGatewayBgpSettingsInstance0BgpPeeringAddress\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace azurerm.VpnGateway
 
             /// <summary>instance_1_bgp_peering_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#instance_1_bgp_peering_address VpnGateway#instance_1_bgp_peering_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#instance_1_bgp_peering_address VpnGateway#instance_1_bgp_peering_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "instance1BgpPeeringAddress", typeJson: "{\"fqn\":\"azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress\"}", isOptional: true)]

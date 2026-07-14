@@ -7,21 +7,21 @@ namespace azurerm.ApiManagement
     [JsiiInterface(nativeType: typeof(IApiManagementCertificate), fullyQualifiedName: "azurerm.apiManagement.ApiManagementCertificate")]
     public interface IApiManagementCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
         [JsiiProperty(name: "encodedCertificate", typeJson: "{\"primitive\":\"string\"}")]
         string EncodedCertificate
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
         [JsiiProperty(name: "storeName", typeJson: "{\"primitive\":\"string\"}")]
         string StoreName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
         [JsiiProperty(name: "certificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificatePassword
@@ -39,21 +39,21 @@ namespace azurerm.ApiManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
             [JsiiProperty(name: "encodedCertificate", typeJson: "{\"primitive\":\"string\"}")]
             public string EncodedCertificate
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
             [JsiiProperty(name: "storeName", typeJson: "{\"primitive\":\"string\"}")]
             public string StoreName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificatePassword

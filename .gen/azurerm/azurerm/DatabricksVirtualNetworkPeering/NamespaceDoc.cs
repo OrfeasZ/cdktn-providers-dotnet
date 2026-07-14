@@ -5,7 +5,7 @@ namespace azurerm.DatabricksVirtualNetworkPeering
     /// <remarks>
     /// <h1><c>azurerm_databricks_virtual_network_peering</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/databricks_virtual_network_peering"><c>azurerm_databricks_virtual_network_peering</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/databricks_virtual_network_peering"><c>azurerm_databricks_virtual_network_peering</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

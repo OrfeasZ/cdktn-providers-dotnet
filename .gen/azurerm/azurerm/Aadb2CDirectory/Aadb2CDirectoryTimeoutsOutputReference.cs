@@ -114,10 +114,10 @@ namespace azurerm.Aadb2CDirectory
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azurerm.Aadb2CDirectory.IAadb2CDirectoryTimeouts" /></para>
+        /// <para>Type union: either <see cref="azurerm.Aadb2CDirectory.IAadb2CDirectoryTimeouts" /> or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts\"}]}}", isOptional: true)]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? InternalValue
         {
             get => GetInstanceProperty<object?>();
@@ -127,9 +127,9 @@ namespace azurerm.Aadb2CDirectory
                 {
                     switch (value)
                     {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
                         case azurerm.Aadb2CDirectory.IAadb2CDirectoryTimeouts cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -137,7 +137,7 @@ namespace azurerm.Aadb2CDirectory
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.Aadb2CDirectory.IAadb2CDirectoryTimeouts).FullName}; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(azurerm.Aadb2CDirectory.IAadb2CDirectoryTimeouts).FullName}, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

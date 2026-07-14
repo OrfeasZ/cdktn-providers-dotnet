@@ -9,7 +9,7 @@ namespace azurerm.DevCenterCatalog
     [JsiiByValue(fqn: "azurerm.devCenterCatalog.DevCenterCatalogConfig")]
     public class DevCenterCatalogConfig : azurerm.DevCenterCatalog.IDevCenterCatalogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#dev_center_id DevCenterCatalog#dev_center_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#dev_center_id DevCenterCatalog#dev_center_id}.</summary>
         [JsiiProperty(name: "devCenterId", typeJson: "{\"primitive\":\"string\"}")]
         public string DevCenterId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#name DevCenterCatalog#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#name DevCenterCatalog#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#resource_group_name DevCenterCatalog#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#resource_group_name DevCenterCatalog#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -35,7 +35,7 @@ namespace azurerm.DevCenterCatalog
 
         /// <summary>catalog_adogit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#catalog_adogit DevCenterCatalog#catalog_adogit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#catalog_adogit DevCenterCatalog#catalog_adogit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogAdogit", typeJson: "{\"fqn\":\"azurerm.devCenterCatalog.DevCenterCatalogCatalogAdogit\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace azurerm.DevCenterCatalog
 
         /// <summary>catalog_github block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#catalog_github DevCenterCatalog#catalog_github}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#catalog_github DevCenterCatalog#catalog_github}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "catalogGithub", typeJson: "{\"fqn\":\"azurerm.devCenterCatalog.DevCenterCatalogCatalogGithub\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#id DevCenterCatalog#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#id DevCenterCatalog#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azurerm.DevCenterCatalog
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#timeouts DevCenterCatalog#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#timeouts DevCenterCatalog#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.devCenterCatalog.DevCenterCatalogTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.ExtendedCustomLocation
     [JsiiByValue(fqn: "azurerm.extendedCustomLocation.ExtendedCustomLocationConfig")]
     public class ExtendedCustomLocationConfig : azurerm.ExtendedCustomLocation.IExtendedCustomLocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#cluster_extension_ids ExtendedCustomLocation#cluster_extension_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#cluster_extension_ids ExtendedCustomLocation#cluster_extension_ids}.</summary>
         [JsiiProperty(name: "clusterExtensionIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ClusterExtensionIds
         {
@@ -17,7 +17,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#host_resource_id ExtendedCustomLocation#host_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#host_resource_id ExtendedCustomLocation#host_resource_id}.</summary>
         [JsiiProperty(name: "hostResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostResourceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#location ExtendedCustomLocation#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#location ExtendedCustomLocation#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -33,7 +33,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#name ExtendedCustomLocation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#name ExtendedCustomLocation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#namespace ExtendedCustomLocation#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#namespace ExtendedCustomLocation#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -49,7 +49,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#resource_group_name ExtendedCustomLocation#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#resource_group_name ExtendedCustomLocation#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -59,7 +59,7 @@ namespace azurerm.ExtendedCustomLocation
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#authentication ExtendedCustomLocation#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#authentication ExtendedCustomLocation#authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"azurerm.extendedCustomLocation.ExtendedCustomLocationAuthentication\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#display_name ExtendedCustomLocation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#display_name ExtendedCustomLocation#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -78,7 +78,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#host_type ExtendedCustomLocation#host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#host_type ExtendedCustomLocation#host_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostType
@@ -87,7 +87,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#id ExtendedCustomLocation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#id ExtendedCustomLocation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace azurerm.ExtendedCustomLocation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#timeouts ExtendedCustomLocation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#timeouts ExtendedCustomLocation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.extendedCustomLocation.ExtendedCustomLocationTimeouts\"}", isOptional: true)]

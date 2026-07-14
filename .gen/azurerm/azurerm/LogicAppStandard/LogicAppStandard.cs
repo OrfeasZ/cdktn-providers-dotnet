@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.LogicAppStandard
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.LogicAppStandard.LogicAppStandard), fullyQualifiedName: "azurerm.logicAppStandard.LogicAppStandard", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.logicAppStandard.LogicAppStandardConfig\"}}]")]
     public class LogicAppStandard : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LogicAppStandard(Constructs.Construct scope, string id, azurerm.LogicAppStandard.ILogicAppStandardConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.LogicAppStandard
         /// <param name="importToId">The construct id used in the generated config for the LogicAppStandard to import.</param>
         /// <param name="importFromId">The id of the existing LogicAppStandard that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LogicAppStandard to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LogicAppStandard to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LogicAppStandard that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LogicAppStandard to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LogicAppStandard to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LogicAppStandard that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LogicAppStandard to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.LogicAppStandard.LogicAppStandard), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -172,8 +172,26 @@ namespace azurerm.LogicAppStandard
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetStorageAccountAccessKey")]
+        public virtual void ResetStorageAccountAccessKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStorageAccountName")]
+        public virtual void ResetStorageAccountName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStorageAccountShareName")]
         public virtual void ResetStorageAccountShareName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStorageKeyVaultSecretId")]
+        public virtual void ResetStorageKeyVaultSecretId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -454,6 +472,13 @@ namespace azurerm.LogicAppStandard
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountShareNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StorageAccountShareNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "storageKeyVaultSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StorageKeyVaultSecretIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -745,6 +770,13 @@ namespace azurerm.LogicAppStandard
 
         [JsiiProperty(name: "storageAccountShareName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageAccountShareName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "storageKeyVaultSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StorageKeyVaultSecretId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.DevCenterCatalog
     [JsiiByValue(fqn: "azurerm.devCenterCatalog.DevCenterCatalogCatalogGithub")]
     public class DevCenterCatalogCatalogGithub : azurerm.DevCenterCatalog.IDevCenterCatalogCatalogGithub
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#branch DevCenterCatalog#branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#branch DevCenterCatalog#branch}.</summary>
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}")]
         public string Branch
         {
@@ -17,7 +17,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#key_vault_key_url DevCenterCatalog#key_vault_key_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#key_vault_key_url DevCenterCatalog#key_vault_key_url}.</summary>
         [JsiiProperty(name: "keyVaultKeyUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultKeyUrl
         {
@@ -25,7 +25,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#path DevCenterCatalog#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#path DevCenterCatalog#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -33,7 +33,7 @@ namespace azurerm.DevCenterCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dev_center_catalog#uri DevCenterCatalog#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dev_center_catalog#uri DevCenterCatalog#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {

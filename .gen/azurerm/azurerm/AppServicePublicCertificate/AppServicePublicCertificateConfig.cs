@@ -9,7 +9,7 @@ namespace azurerm.AppServicePublicCertificate
     [JsiiByValue(fqn: "azurerm.appServicePublicCertificate.AppServicePublicCertificateConfig")]
     public class AppServicePublicCertificateConfig : azurerm.AppServicePublicCertificate.IAppServicePublicCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#app_service_name AppServicePublicCertificate#app_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#app_service_name AppServicePublicCertificate#app_service_name}.</summary>
         [JsiiProperty(name: "appServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string AppServiceName
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppServicePublicCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#blob AppServicePublicCertificate#blob}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#blob AppServicePublicCertificate#blob}.</summary>
         [JsiiProperty(name: "blob", typeJson: "{\"primitive\":\"string\"}")]
         public string Blob
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppServicePublicCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#certificate_location AppServicePublicCertificate#certificate_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#certificate_location AppServicePublicCertificate#certificate_location}.</summary>
         [JsiiProperty(name: "certificateLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateLocation
         {
@@ -33,7 +33,7 @@ namespace azurerm.AppServicePublicCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#certificate_name AppServicePublicCertificate#certificate_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#certificate_name AppServicePublicCertificate#certificate_name}.</summary>
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateName
         {
@@ -41,7 +41,7 @@ namespace azurerm.AppServicePublicCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#resource_group_name AppServicePublicCertificate#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#resource_group_name AppServicePublicCertificate#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +49,7 @@ namespace azurerm.AppServicePublicCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#id AppServicePublicCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#id AppServicePublicCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.AppServicePublicCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_public_certificate#timeouts AppServicePublicCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_public_certificate#timeouts AppServicePublicCertificate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServicePublicCertificate.AppServicePublicCertificateTimeouts\"}", isOptional: true)]

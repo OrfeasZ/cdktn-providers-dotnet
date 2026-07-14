@@ -7,7 +7,7 @@ namespace azurerm.WindowsVirtualMachine
     [JsiiByValue(fqn: "azurerm.windowsVirtualMachine.WindowsVirtualMachineBootDiagnostics")]
     public class WindowsVirtualMachineBootDiagnostics : azurerm.WindowsVirtualMachine.IWindowsVirtualMachineBootDiagnostics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/windows_virtual_machine#storage_account_uri WindowsVirtualMachine#storage_account_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_virtual_machine#storage_account_uri WindowsVirtualMachine#storage_account_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountUri

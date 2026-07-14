@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDiskEncryptionSet
     [JsiiByValue(fqn: "azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSetTimeouts")]
     public class DataAzurermDiskEncryptionSetTimeouts : azurerm.DataAzurermDiskEncryptionSet.IDataAzurermDiskEncryptionSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

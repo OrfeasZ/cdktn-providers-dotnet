@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDiskEncryptionSet
     [JsiiInterface(nativeType: typeof(IDataAzurermDiskEncryptionSetTimeouts), fullyQualifiedName: "azurerm.dataAzurermDiskEncryptionSet.DataAzurermDiskEncryptionSetTimeouts")]
     public interface IDataAzurermDiskEncryptionSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDiskEncryptionSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/disk_encryption_set#read DataAzurermDiskEncryptionSet#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

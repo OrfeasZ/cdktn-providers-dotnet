@@ -9,7 +9,7 @@ namespace azurerm.ResourceGroupCostManagementView
     [JsiiByValue(fqn: "azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSorting")]
     public class ResourceGroupCostManagementViewDatasetSorting : azurerm.ResourceGroupCostManagementView.IResourceGroupCostManagementViewDatasetSorting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public string Direction
         {
@@ -17,7 +17,7 @@ namespace azurerm.ResourceGroupCostManagementView
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

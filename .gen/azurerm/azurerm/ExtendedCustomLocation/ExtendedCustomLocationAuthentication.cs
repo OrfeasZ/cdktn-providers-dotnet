@@ -9,7 +9,7 @@ namespace azurerm.ExtendedCustomLocation
     [JsiiByValue(fqn: "azurerm.extendedCustomLocation.ExtendedCustomLocationAuthentication")]
     public class ExtendedCustomLocationAuthentication : azurerm.ExtendedCustomLocation.IExtendedCustomLocationAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#value ExtendedCustomLocation#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#value ExtendedCustomLocation#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -17,7 +17,7 @@ namespace azurerm.ExtendedCustomLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/extended_custom_location#type ExtendedCustomLocation#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/extended_custom_location#type ExtendedCustomLocation#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

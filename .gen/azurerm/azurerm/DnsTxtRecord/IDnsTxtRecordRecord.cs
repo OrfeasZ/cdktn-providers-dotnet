@@ -7,7 +7,7 @@ namespace azurerm.DnsTxtRecord
     [JsiiInterface(nativeType: typeof(IDnsTxtRecordRecord), fullyQualifiedName: "azurerm.dnsTxtRecord.DnsTxtRecordRecord")]
     public interface IDnsTxtRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace azurerm.DnsTxtRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

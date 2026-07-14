@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
     [JsiiByValue(fqn: "azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendationsConfig")]
     public class DataAzurermAdvisorRecommendationsConfig : azurerm.DataAzurermAdvisorRecommendations.IDataAzurermAdvisorRecommendationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#filter_by_category DataAzurermAdvisorRecommendations#filter_by_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#filter_by_category DataAzurermAdvisorRecommendations#filter_by_category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterByCategory", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilterByCategory
@@ -16,7 +16,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#filter_by_recommendation_type_guids DataAzurermAdvisorRecommendations#filter_by_recommendation_type_guids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#filter_by_recommendation_type_guids DataAzurermAdvisorRecommendations#filter_by_recommendation_type_guids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterByRecommendationTypeGuids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilterByRecommendationTypeGuids
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#filter_by_resource_groups DataAzurermAdvisorRecommendations#filter_by_resource_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#filter_by_resource_groups DataAzurermAdvisorRecommendations#filter_by_resource_groups}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterByResourceGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilterByResourceGroups
@@ -34,7 +34,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#filter_by_resource_ids DataAzurermAdvisorRecommendations#filter_by_resource_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#filter_by_resource_ids DataAzurermAdvisorRecommendations#filter_by_resource_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterByResourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilterByResourceIds
@@ -43,7 +43,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#id DataAzurermAdvisorRecommendations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#id DataAzurermAdvisorRecommendations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/advisor_recommendations#timeouts DataAzurermAdvisorRecommendations#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/advisor_recommendations#timeouts DataAzurermAdvisorRecommendations#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendationsTimeouts\"}", isOptional: true)]

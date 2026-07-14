@@ -9,7 +9,7 @@ namespace azurerm.Frontdoor
     {
         /// <summary>backend block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#backend Frontdoor#backend}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#backend Frontdoor#backend}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolBackend" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backend", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPoolBackend\"},\"kind\":\"array\"}}]}}")]
@@ -18,21 +18,21 @@ namespace azurerm.Frontdoor
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
         [JsiiProperty(name: "healthProbeName", typeJson: "{\"primitive\":\"string\"}")]
         string HealthProbeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
         [JsiiProperty(name: "loadBalancingName", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancingName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -48,7 +48,7 @@ namespace azurerm.Frontdoor
 
             /// <summary>backend block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#backend Frontdoor#backend}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#backend Frontdoor#backend}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolBackend" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "backend", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPoolBackend\"},\"kind\":\"array\"}}]}}")]
@@ -57,21 +57,21 @@ namespace azurerm.Frontdoor
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
             [JsiiProperty(name: "healthProbeName", typeJson: "{\"primitive\":\"string\"}")]
             public string HealthProbeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
             [JsiiProperty(name: "loadBalancingName", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancingName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

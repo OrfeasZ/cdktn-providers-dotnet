@@ -9,7 +9,7 @@ namespace azurerm.AppServiceEnvironmentV3
     [JsiiByValue(fqn: "azurerm.appServiceEnvironmentV3.AppServiceEnvironmentV3ClusterSetting")]
     public class AppServiceEnvironmentV3ClusterSetting : azurerm.AppServiceEnvironmentV3.IAppServiceEnvironmentV3ClusterSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_environment_v3#name AppServiceEnvironmentV3#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_environment_v3#name AppServiceEnvironmentV3#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppServiceEnvironmentV3
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_environment_v3#value AppServiceEnvironmentV3#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_environment_v3#value AppServiceEnvironmentV3#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

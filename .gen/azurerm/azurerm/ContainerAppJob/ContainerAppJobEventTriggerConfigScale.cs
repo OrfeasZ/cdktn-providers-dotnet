@@ -7,7 +7,7 @@ namespace azurerm.ContainerAppJob
     [JsiiByValue(fqn: "azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScale")]
     public class ContainerAppJobEventTriggerConfigScale : azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfigScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#max_executions ContainerAppJob#max_executions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#max_executions ContainerAppJob#max_executions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxExecutions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxExecutions
@@ -16,7 +16,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#min_executions ContainerAppJob#min_executions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#min_executions ContainerAppJob#min_executions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minExecutions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinExecutions
@@ -25,7 +25,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#polling_interval_in_seconds ContainerAppJob#polling_interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#polling_interval_in_seconds ContainerAppJob#polling_interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pollingIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PollingIntervalInSeconds
@@ -38,7 +38,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#rules ContainerAppJob#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#rules ContainerAppJob#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfigScaleRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

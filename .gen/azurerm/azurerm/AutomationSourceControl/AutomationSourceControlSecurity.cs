@@ -9,7 +9,7 @@ namespace azurerm.AutomationSourceControl
     [JsiiByValue(fqn: "azurerm.automationSourceControl.AutomationSourceControlSecurity")]
     public class AutomationSourceControlSecurity : azurerm.AutomationSourceControl.IAutomationSourceControlSecurity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_source_control#token AutomationSourceControl#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_source_control#token AutomationSourceControl#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationSourceControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_source_control#token_type AutomationSourceControl#token_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_source_control#token_type AutomationSourceControl#token_type}.</summary>
         [JsiiProperty(name: "tokenType", typeJson: "{\"primitive\":\"string\"}")]
         public string TokenType
         {
@@ -25,7 +25,7 @@ namespace azurerm.AutomationSourceControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_source_control#refresh_token AutomationSourceControl#refresh_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_source_control#refresh_token AutomationSourceControl#refresh_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RefreshToken

@@ -9,7 +9,7 @@ namespace azurerm.KustoCluster
     [JsiiByValue(fqn: "azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration")]
     public class KustoClusterVirtualNetworkConfiguration : azurerm.KustoCluster.IKustoClusterVirtualNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_cluster#data_management_public_ip_id KustoCluster#data_management_public_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#data_management_public_ip_id KustoCluster#data_management_public_ip_id}.</summary>
         [JsiiProperty(name: "dataManagementPublicIpId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataManagementPublicIpId
         {
@@ -17,7 +17,7 @@ namespace azurerm.KustoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_cluster#engine_public_ip_id KustoCluster#engine_public_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#engine_public_ip_id KustoCluster#engine_public_ip_id}.</summary>
         [JsiiProperty(name: "enginePublicIpId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnginePublicIpId
         {
@@ -25,7 +25,7 @@ namespace azurerm.KustoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_cluster#subnet_id KustoCluster#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#subnet_id KustoCluster#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {

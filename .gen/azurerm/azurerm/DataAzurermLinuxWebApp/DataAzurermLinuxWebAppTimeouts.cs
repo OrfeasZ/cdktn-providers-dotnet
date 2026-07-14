@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermLinuxWebApp
     [JsiiByValue(fqn: "azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebAppTimeouts")]
     public class DataAzurermLinuxWebAppTimeouts : azurerm.DataAzurermLinuxWebApp.IDataAzurermLinuxWebAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/linux_web_app#read DataAzurermLinuxWebApp#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/linux_web_app#read DataAzurermLinuxWebApp#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

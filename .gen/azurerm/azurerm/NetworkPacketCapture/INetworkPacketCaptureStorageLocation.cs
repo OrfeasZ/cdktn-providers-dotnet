@@ -7,7 +7,7 @@ namespace azurerm.NetworkPacketCapture
     [JsiiInterface(nativeType: typeof(INetworkPacketCaptureStorageLocation), fullyQualifiedName: "azurerm.networkPacketCapture.NetworkPacketCaptureStorageLocation")]
     public interface INetworkPacketCaptureStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#file_path NetworkPacketCapture#file_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#file_path NetworkPacketCapture#file_path}.</summary>
         [JsiiProperty(name: "filePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FilePath
@@ -18,7 +18,7 @@ namespace azurerm.NetworkPacketCapture
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#storage_account_id NetworkPacketCapture#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#storage_account_id NetworkPacketCapture#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StorageAccountId
@@ -36,7 +36,7 @@ namespace azurerm.NetworkPacketCapture
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#file_path NetworkPacketCapture#file_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#file_path NetworkPacketCapture#file_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FilePath
@@ -44,7 +44,7 @@ namespace azurerm.NetworkPacketCapture
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#storage_account_id NetworkPacketCapture#storage_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#storage_account_id NetworkPacketCapture#storage_account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StorageAccountId

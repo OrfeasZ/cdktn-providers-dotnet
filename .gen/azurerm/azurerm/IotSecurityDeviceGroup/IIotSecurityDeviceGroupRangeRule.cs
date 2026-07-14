@@ -7,28 +7,28 @@ namespace azurerm.IotSecurityDeviceGroup
     [JsiiInterface(nativeType: typeof(IIotSecurityDeviceGroupRangeRule), fullyQualifiedName: "azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRule")]
     public interface IIotSecurityDeviceGroupRangeRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#duration IotSecurityDeviceGroup#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#duration IotSecurityDeviceGroup#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}")]
         string Duration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#max IotSecurityDeviceGroup#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#max IotSecurityDeviceGroup#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         double Max
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#min IotSecurityDeviceGroup#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#min IotSecurityDeviceGroup#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         double Min
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#type IotSecurityDeviceGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#type IotSecurityDeviceGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -42,28 +42,28 @@ namespace azurerm.IotSecurityDeviceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#duration IotSecurityDeviceGroup#duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#duration IotSecurityDeviceGroup#duration}.</summary>
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}")]
             public string Duration
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#max IotSecurityDeviceGroup#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#max IotSecurityDeviceGroup#max}.</summary>
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
             public double Max
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#min IotSecurityDeviceGroup#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#min IotSecurityDeviceGroup#min}.</summary>
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
             public double Min
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_device_group#type IotSecurityDeviceGroup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_device_group#type IotSecurityDeviceGroup#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

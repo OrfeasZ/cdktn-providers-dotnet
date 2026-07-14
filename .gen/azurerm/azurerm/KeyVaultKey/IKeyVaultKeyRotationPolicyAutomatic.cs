@@ -7,7 +7,7 @@ namespace azurerm.KeyVaultKey
     [JsiiInterface(nativeType: typeof(IKeyVaultKeyRotationPolicyAutomatic), fullyQualifiedName: "azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomatic")]
     public interface IKeyVaultKeyRotationPolicyAutomatic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#time_after_creation KeyVaultKey#time_after_creation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_key#time_after_creation KeyVaultKey#time_after_creation}.</summary>
         [JsiiProperty(name: "timeAfterCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeAfterCreation
@@ -18,7 +18,7 @@ namespace azurerm.KeyVaultKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#time_before_expiry KeyVaultKey#time_before_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_key#time_before_expiry KeyVaultKey#time_before_expiry}.</summary>
         [JsiiProperty(name: "timeBeforeExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeBeforeExpiry
@@ -36,7 +36,7 @@ namespace azurerm.KeyVaultKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#time_after_creation KeyVaultKey#time_after_creation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_key#time_after_creation KeyVaultKey#time_after_creation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeAfterCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeAfterCreation
@@ -44,7 +44,7 @@ namespace azurerm.KeyVaultKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_key#time_before_expiry KeyVaultKey#time_before_expiry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_key#time_before_expiry KeyVaultKey#time_before_expiry}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeBeforeExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeBeforeExpiry

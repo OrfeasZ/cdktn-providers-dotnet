@@ -9,7 +9,7 @@ namespace azurerm.VpnGateway
     [JsiiByValue(fqn: "azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress")]
     public class VpnGatewayBgpSettingsInstance1BgpPeeringAddress : azurerm.VpnGateway.IVpnGatewayBgpSettingsInstance1BgpPeeringAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
         [JsiiProperty(name: "customIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] CustomIps
         {

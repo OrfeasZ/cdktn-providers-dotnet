@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricCluster
     {
         /// <summary>delta_health_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#delta_health_policy ServiceFabricCluster#delta_health_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#delta_health_policy ServiceFabricCluster#delta_health_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deltaHealthPolicy", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyDeltaHealthPolicy\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.ServiceFabricCluster
 
         private object? _forceRestartEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#force_restart_enabled ServiceFabricCluster#force_restart_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#force_restart_enabled ServiceFabricCluster#force_restart_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#health_check_retry_timeout ServiceFabricCluster#health_check_retry_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#health_check_retry_timeout ServiceFabricCluster#health_check_retry_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckRetryTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HealthCheckRetryTimeout
@@ -62,7 +62,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#health_check_stable_duration ServiceFabricCluster#health_check_stable_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#health_check_stable_duration ServiceFabricCluster#health_check_stable_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckStableDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HealthCheckStableDuration
@@ -71,7 +71,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#health_check_wait_duration ServiceFabricCluster#health_check_wait_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#health_check_wait_duration ServiceFabricCluster#health_check_wait_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "healthCheckWaitDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HealthCheckWaitDuration
@@ -82,7 +82,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>health_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#health_policy ServiceFabricCluster#health_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#health_policy ServiceFabricCluster#health_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthPolicy", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicyHealthPolicy\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#upgrade_domain_timeout ServiceFabricCluster#upgrade_domain_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#upgrade_domain_timeout ServiceFabricCluster#upgrade_domain_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "upgradeDomainTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpgradeDomainTimeout
@@ -101,7 +101,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#upgrade_replica_set_check_timeout ServiceFabricCluster#upgrade_replica_set_check_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#upgrade_replica_set_check_timeout ServiceFabricCluster#upgrade_replica_set_check_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "upgradeReplicaSetCheckTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpgradeReplicaSetCheckTimeout
@@ -110,7 +110,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/service_fabric_cluster#upgrade_timeout ServiceFabricCluster#upgrade_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#upgrade_timeout ServiceFabricCluster#upgrade_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "upgradeTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpgradeTimeout

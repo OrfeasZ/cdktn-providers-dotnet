@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfiguration")]
     public class BatchPoolUserAccountsWindowsUserConfiguration : azurerm.BatchPool.IBatchPoolUserAccountsWindowsUserConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
         [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
         public string LoginMode
         {

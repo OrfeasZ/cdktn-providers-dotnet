@@ -9,7 +9,7 @@ namespace azurerm.AppService
     [JsiiByValue(fqn: "azurerm.appService.AppServiceAuthSettingsFacebook")]
     public class AppServiceAuthSettingsFacebook : azurerm.AppService.IAppServiceAuthSettingsFacebook
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#app_id AppService#app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#app_id AppService#app_id}.</summary>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppId
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#app_secret AppService#app_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#app_secret AppService#app_secret}.</summary>
         [JsiiProperty(name: "appSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string AppSecret
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#oauth_scopes AppService#oauth_scopes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#oauth_scopes AppService#oauth_scopes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oauthScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? OauthScopes

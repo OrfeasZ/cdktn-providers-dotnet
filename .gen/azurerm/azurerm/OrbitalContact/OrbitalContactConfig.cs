@@ -9,7 +9,7 @@ namespace azurerm.OrbitalContact
     [JsiiByValue(fqn: "azurerm.orbitalContact.OrbitalContactConfig")]
     public class OrbitalContactConfig : azurerm.OrbitalContact.IOrbitalContactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#contact_profile_id OrbitalContact#contact_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#contact_profile_id OrbitalContact#contact_profile_id}.</summary>
         [JsiiProperty(name: "contactProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactProfileId
         {
@@ -17,7 +17,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#ground_station_name OrbitalContact#ground_station_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#ground_station_name OrbitalContact#ground_station_name}.</summary>
         [JsiiProperty(name: "groundStationName", typeJson: "{\"primitive\":\"string\"}")]
         public string GroundStationName
         {
@@ -25,7 +25,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#name OrbitalContact#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#name OrbitalContact#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#reservation_end_time OrbitalContact#reservation_end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#reservation_end_time OrbitalContact#reservation_end_time}.</summary>
         [JsiiProperty(name: "reservationEndTime", typeJson: "{\"primitive\":\"string\"}")]
         public string ReservationEndTime
         {
@@ -41,7 +41,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#reservation_start_time OrbitalContact#reservation_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#reservation_start_time OrbitalContact#reservation_start_time}.</summary>
         [JsiiProperty(name: "reservationStartTime", typeJson: "{\"primitive\":\"string\"}")]
         public string ReservationStartTime
         {
@@ -49,7 +49,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#spacecraft_id OrbitalContact#spacecraft_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#spacecraft_id OrbitalContact#spacecraft_id}.</summary>
         [JsiiProperty(name: "spacecraftId", typeJson: "{\"primitive\":\"string\"}")]
         public string SpacecraftId
         {
@@ -57,7 +57,7 @@ namespace azurerm.OrbitalContact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#id OrbitalContact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#id OrbitalContact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azurerm.OrbitalContact
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/orbital_contact#timeouts OrbitalContact#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/orbital_contact#timeouts OrbitalContact#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.orbitalContact.OrbitalContactTimeouts\"}", isOptional: true)]

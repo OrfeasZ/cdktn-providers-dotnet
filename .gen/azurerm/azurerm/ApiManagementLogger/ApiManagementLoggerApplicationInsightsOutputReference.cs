@@ -39,6 +39,12 @@ namespace azurerm.ApiManagementLogger
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIdentityClientId")]
+        public virtual void ResetIdentityClientId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInstrumentationKey")]
         public virtual void ResetInstrumentationKey()
         {
@@ -53,6 +59,13 @@ namespace azurerm.ApiManagementLogger
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "identityClientIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdentityClientIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "instrumentationKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? InstrumentationKeyInput
         {
@@ -61,6 +74,13 @@ namespace azurerm.ApiManagementLogger
 
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ConnectionString
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "identityClientId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IdentityClientId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

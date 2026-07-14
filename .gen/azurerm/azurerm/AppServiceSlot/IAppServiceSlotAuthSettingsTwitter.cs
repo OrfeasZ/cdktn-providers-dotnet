@@ -7,14 +7,14 @@ namespace azurerm.AppServiceSlot
     [JsiiInterface(nativeType: typeof(IAppServiceSlotAuthSettingsTwitter), fullyQualifiedName: "azurerm.appServiceSlot.AppServiceSlotAuthSettingsTwitter")]
     public interface IAppServiceSlotAuthSettingsTwitter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#consumer_key AppServiceSlot#consumer_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#consumer_key AppServiceSlot#consumer_key}.</summary>
         [JsiiProperty(name: "consumerKey", typeJson: "{\"primitive\":\"string\"}")]
         string ConsumerKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#consumer_secret AppServiceSlot#consumer_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#consumer_secret AppServiceSlot#consumer_secret}.</summary>
         [JsiiProperty(name: "consumerSecret", typeJson: "{\"primitive\":\"string\"}")]
         string ConsumerSecret
         {
@@ -28,14 +28,14 @@ namespace azurerm.AppServiceSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#consumer_key AppServiceSlot#consumer_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#consumer_key AppServiceSlot#consumer_key}.</summary>
             [JsiiProperty(name: "consumerKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsumerKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#consumer_secret AppServiceSlot#consumer_secret}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#consumer_secret AppServiceSlot#consumer_secret}.</summary>
             [JsiiProperty(name: "consumerSecret", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsumerSecret
             {

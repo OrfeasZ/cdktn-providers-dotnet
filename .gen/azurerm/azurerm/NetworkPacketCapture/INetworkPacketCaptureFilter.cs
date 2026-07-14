@@ -7,14 +7,14 @@ namespace azurerm.NetworkPacketCapture
     [JsiiInterface(nativeType: typeof(INetworkPacketCaptureFilter), fullyQualifiedName: "azurerm.networkPacketCapture.NetworkPacketCaptureFilter")]
     public interface INetworkPacketCaptureFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#protocol NetworkPacketCapture#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#protocol NetworkPacketCapture#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#local_ip_address NetworkPacketCapture#local_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#local_ip_address NetworkPacketCapture#local_ip_address}.</summary>
         [JsiiProperty(name: "localIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LocalIpAddress
@@ -25,7 +25,7 @@ namespace azurerm.NetworkPacketCapture
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#local_port NetworkPacketCapture#local_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#local_port NetworkPacketCapture#local_port}.</summary>
         [JsiiProperty(name: "localPort", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LocalPort
@@ -36,7 +36,7 @@ namespace azurerm.NetworkPacketCapture
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#remote_ip_address NetworkPacketCapture#remote_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#remote_ip_address NetworkPacketCapture#remote_ip_address}.</summary>
         [JsiiProperty(name: "remoteIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RemoteIpAddress
@@ -47,7 +47,7 @@ namespace azurerm.NetworkPacketCapture
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#remote_port NetworkPacketCapture#remote_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#remote_port NetworkPacketCapture#remote_port}.</summary>
         [JsiiProperty(name: "remotePort", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RemotePort
@@ -65,14 +65,14 @@ namespace azurerm.NetworkPacketCapture
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#protocol NetworkPacketCapture#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#protocol NetworkPacketCapture#protocol}.</summary>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#local_ip_address NetworkPacketCapture#local_ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#local_ip_address NetworkPacketCapture#local_ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "localIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LocalIpAddress
@@ -80,7 +80,7 @@ namespace azurerm.NetworkPacketCapture
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#local_port NetworkPacketCapture#local_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#local_port NetworkPacketCapture#local_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "localPort", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LocalPort
@@ -88,7 +88,7 @@ namespace azurerm.NetworkPacketCapture
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#remote_ip_address NetworkPacketCapture#remote_ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#remote_ip_address NetworkPacketCapture#remote_ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "remoteIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RemoteIpAddress
@@ -96,7 +96,7 @@ namespace azurerm.NetworkPacketCapture
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_packet_capture#remote_port NetworkPacketCapture#remote_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_packet_capture#remote_port NetworkPacketCapture#remote_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "remotePort", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RemotePort

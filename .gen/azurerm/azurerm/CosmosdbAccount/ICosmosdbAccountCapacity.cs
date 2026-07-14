@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiInterface(nativeType: typeof(ICosmosdbAccountCapacity), fullyQualifiedName: "azurerm.cosmosdbAccount.CosmosdbAccountCapacity")]
     public interface ICosmosdbAccountCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
         [JsiiProperty(name: "totalThroughputLimit", typeJson: "{\"primitive\":\"number\"}")]
         double TotalThroughputLimit
         {
@@ -21,7 +21,7 @@ namespace azurerm.CosmosdbAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
             [JsiiProperty(name: "totalThroughputLimit", typeJson: "{\"primitive\":\"number\"}")]
             public double TotalThroughputLimit
             {

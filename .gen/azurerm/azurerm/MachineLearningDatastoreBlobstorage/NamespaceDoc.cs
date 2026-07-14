@@ -5,7 +5,7 @@ namespace azurerm.MachineLearningDatastoreBlobstorage
     /// <remarks>
     /// <h1><c>azurerm_machine_learning_datastore_blobstorage</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/machine_learning_datastore_blobstorage"><c>azurerm_machine_learning_datastore_blobstorage</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_datastore_blobstorage"><c>azurerm_machine_learning_datastore_blobstorage</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

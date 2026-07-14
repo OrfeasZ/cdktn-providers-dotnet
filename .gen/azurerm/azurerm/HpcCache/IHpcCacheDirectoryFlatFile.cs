@@ -7,14 +7,14 @@ namespace azurerm.HpcCache
     [JsiiInterface(nativeType: typeof(IHpcCacheDirectoryFlatFile), fullyQualifiedName: "azurerm.hpcCache.HpcCacheDirectoryFlatFile")]
     public interface IHpcCacheDirectoryFlatFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
         [JsiiProperty(name: "groupFileUri", typeJson: "{\"primitive\":\"string\"}")]
         string GroupFileUri
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
         [JsiiProperty(name: "passwordFileUri", typeJson: "{\"primitive\":\"string\"}")]
         string PasswordFileUri
         {
@@ -28,14 +28,14 @@ namespace azurerm.HpcCache
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
             [JsiiProperty(name: "groupFileUri", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupFileUri
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
             [JsiiProperty(name: "passwordFileUri", typeJson: "{\"primitive\":\"string\"}")]
             public string PasswordFileUri
             {

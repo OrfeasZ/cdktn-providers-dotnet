@@ -7,14 +7,14 @@ namespace azurerm.VpnGatewayConnection
     [JsiiInterface(nativeType: typeof(IVpnGatewayConnectionVpnLinkCustomBgpAddress), fullyQualifiedName: "azurerm.vpnGatewayConnection.VpnGatewayConnectionVpnLinkCustomBgpAddress")]
     public interface IVpnGatewayConnectionVpnLinkCustomBgpAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         string IpAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
         [JsiiProperty(name: "ipConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string IpConfigurationId
         {
@@ -28,14 +28,14 @@ namespace azurerm.VpnGatewayConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
             [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string IpAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
             [JsiiProperty(name: "ipConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string IpConfigurationId
             {

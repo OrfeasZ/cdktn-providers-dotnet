@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermOracleExascaleDatabaseStorageVault
     [JsiiByValue(fqn: "azurerm.dataAzurermOracleExascaleDatabaseStorageVault.DataAzurermOracleExascaleDatabaseStorageVaultConfig")]
     public class DataAzurermOracleExascaleDatabaseStorageVaultConfig : azurerm.DataAzurermOracleExascaleDatabaseStorageVault.IDataAzurermOracleExascaleDatabaseStorageVaultConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/oracle_exascale_database_storage_vault#name DataAzurermOracleExascaleDatabaseStorageVault#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/oracle_exascale_database_storage_vault#name DataAzurermOracleExascaleDatabaseStorageVault#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermOracleExascaleDatabaseStorageVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/oracle_exascale_database_storage_vault#resource_group_name DataAzurermOracleExascaleDatabaseStorageVault#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/oracle_exascale_database_storage_vault#resource_group_name DataAzurermOracleExascaleDatabaseStorageVault#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermOracleExascaleDatabaseStorageVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/oracle_exascale_database_storage_vault#id DataAzurermOracleExascaleDatabaseStorageVault#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/oracle_exascale_database_storage_vault#id DataAzurermOracleExascaleDatabaseStorageVault#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermOracleExascaleDatabaseStorageVault
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/oracle_exascale_database_storage_vault#timeouts DataAzurermOracleExascaleDatabaseStorageVault#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/oracle_exascale_database_storage_vault#timeouts DataAzurermOracleExascaleDatabaseStorageVault#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermOracleExascaleDatabaseStorageVault.DataAzurermOracleExascaleDatabaseStorageVaultTimeouts\"}", isOptional: true)]

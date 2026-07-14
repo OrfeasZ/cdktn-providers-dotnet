@@ -9,7 +9,7 @@ namespace azurerm.HpcCache
     [JsiiByValue(fqn: "azurerm.hpcCache.HpcCacheDirectoryLdapBind")]
     public class HpcCacheDirectoryLdapBind : azurerm.HpcCache.IHpcCacheDirectoryLdapBind
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dn HpcCache#dn}.</summary>
         [JsiiProperty(name: "dn", typeJson: "{\"primitive\":\"string\"}")]
         public string Dn
         {
@@ -17,7 +17,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermImages
     [JsiiByValue(fqn: "azurerm.dataAzurermImages.DataAzurermImagesTimeouts")]
     public class DataAzurermImagesTimeouts : azurerm.DataAzurermImages.IDataAzurermImagesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/images#read DataAzurermImages#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/images#read DataAzurermImages#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

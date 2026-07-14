@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKeyVaultSecrets
     [JsiiInterface(nativeType: typeof(IDataAzurermKeyVaultSecretsTimeouts), fullyQualifiedName: "azurerm.dataAzurermKeyVaultSecrets.DataAzurermKeyVaultSecretsTimeouts")]
     public interface IDataAzurermKeyVaultSecretsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/key_vault_secrets#read DataAzurermKeyVaultSecrets#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_secrets#read DataAzurermKeyVaultSecrets#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermKeyVaultSecrets
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/key_vault_secrets#read DataAzurermKeyVaultSecrets#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/key_vault_secrets#read DataAzurermKeyVaultSecrets#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

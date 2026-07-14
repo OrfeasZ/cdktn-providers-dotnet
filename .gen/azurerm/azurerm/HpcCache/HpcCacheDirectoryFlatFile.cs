@@ -9,7 +9,7 @@ namespace azurerm.HpcCache
     [JsiiByValue(fqn: "azurerm.hpcCache.HpcCacheDirectoryFlatFile")]
     public class HpcCacheDirectoryFlatFile : azurerm.HpcCache.IHpcCacheDirectoryFlatFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#group_file_uri HpcCache#group_file_uri}.</summary>
         [JsiiProperty(name: "groupFileUri", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupFileUri
         {
@@ -17,7 +17,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password_file_uri HpcCache#password_file_uri}.</summary>
         [JsiiProperty(name: "passwordFileUri", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordFileUri
         {

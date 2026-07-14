@@ -9,7 +9,7 @@ namespace azurerm.HpcCache
     [JsiiByValue(fqn: "azurerm.hpcCache.HpcCacheDns")]
     public class HpcCacheDns : azurerm.HpcCache.IHpcCacheDns
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#servers HpcCache#servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#servers HpcCache#servers}.</summary>
         [JsiiProperty(name: "servers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Servers
         {
@@ -17,7 +17,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#search_domain HpcCache#search_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#search_domain HpcCache#search_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SearchDomain

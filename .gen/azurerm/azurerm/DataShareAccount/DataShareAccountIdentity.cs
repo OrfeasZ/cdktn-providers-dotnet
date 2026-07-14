@@ -9,7 +9,7 @@ namespace azurerm.DataShareAccount
     [JsiiByValue(fqn: "azurerm.dataShareAccount.DataShareAccountIdentity")]
     public class DataShareAccountIdentity : azurerm.DataShareAccount.IDataShareAccountIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/data_share_account#type DataShareAccount#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/data_share_account#type DataShareAccount#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

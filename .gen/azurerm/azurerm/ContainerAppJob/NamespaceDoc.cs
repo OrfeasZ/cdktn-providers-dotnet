@@ -5,7 +5,7 @@ namespace azurerm.ContainerAppJob
     /// <remarks>
     /// <h1><c>azurerm_container_app_job</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job"><c>azurerm_container_app_job</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job"><c>azurerm_container_app_job</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

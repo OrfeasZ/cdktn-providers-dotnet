@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPublicIps
     [JsiiByValue(fqn: "azurerm.dataAzurermPublicIps.DataAzurermPublicIpsTimeouts")]
     public class DataAzurermPublicIpsTimeouts : azurerm.DataAzurermPublicIps.IDataAzurermPublicIpsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/public_ips#read DataAzurermPublicIps#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/public_ips#read DataAzurermPublicIps#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

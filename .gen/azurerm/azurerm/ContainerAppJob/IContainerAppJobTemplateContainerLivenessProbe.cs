@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppJob
     {
         /// <summary>The port number on which to connect. Possible values are between `1` and `65535`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#port ContainerAppJob#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#port ContainerAppJob#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -19,7 +19,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>Type of probe. Possible values are `TCP`, `HTTP`, and `HTTPS`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#transport ContainerAppJob#transport}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#transport ContainerAppJob#transport}
         /// </remarks>
         [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}")]
         string Transport
@@ -31,7 +31,7 @@ namespace azurerm.ContainerAppJob
         /// <remarks>
         /// Possible values are between <c>1</c> and <c>30</c>. Defaults to <c>3</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#failure_count_threshold ContainerAppJob#failure_count_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#failure_count_threshold ContainerAppJob#failure_count_threshold}
         /// </remarks>
         [JsiiProperty(name: "failureCountThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#header ContainerAppJob#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#header ContainerAppJob#header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerLivenessProbeHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbeHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace azurerm.ContainerAppJob
         /// <remarks>
         /// Defaults to the pod IP address. Setting a value for <c>Host</c> in <c>headers</c> can be used to override this for <c>http</c> and <c>https</c> type probes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#host ContainerAppJob#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#host ContainerAppJob#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace azurerm.ContainerAppJob
         /// <remarks>
         /// Possible values are between <c>0</c> and <c>60</c>. Defaults to <c>1</c> seconds.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#initial_delay ContainerAppJob#initial_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#initial_delay ContainerAppJob#initial_delay}
         /// </remarks>
         [JsiiProperty(name: "initialDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>How often, in seconds, the probe should run. Possible values are between `1` and `240`. Defaults to `10`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#interval_seconds ContainerAppJob#interval_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#interval_seconds ContainerAppJob#interval_seconds}
         /// </remarks>
         [JsiiProperty(name: "intervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace azurerm.ContainerAppJob
         /// <remarks>
         /// Not valid for <c>TCP</c> type probes. Defaults to <c>/</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#path ContainerAppJob#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#path ContainerAppJob#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>Time in seconds after which the probe times out. Possible values are between `1` an `240`. Defaults to `1`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#timeout ContainerAppJob#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#timeout ContainerAppJob#timeout}
         /// </remarks>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>The port number on which to connect. Possible values are between `1` and `65535`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#port ContainerAppJob#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#port ContainerAppJob#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -153,7 +153,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>Type of probe. Possible values are `TCP`, `HTTP`, and `HTTPS`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#transport ContainerAppJob#transport}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#transport ContainerAppJob#transport}
             /// </remarks>
             [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}")]
             public string Transport
@@ -165,7 +165,7 @@ namespace azurerm.ContainerAppJob
             /// <remarks>
             /// Possible values are between <c>1</c> and <c>30</c>. Defaults to <c>3</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#failure_count_threshold ContainerAppJob#failure_count_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#failure_count_threshold ContainerAppJob#failure_count_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "failureCountThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#header ContainerAppJob#header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#header ContainerAppJob#header}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerLivenessProbeHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -190,7 +190,7 @@ namespace azurerm.ContainerAppJob
             /// <remarks>
             /// Defaults to the pod IP address. Setting a value for <c>Host</c> in <c>headers</c> can be used to override this for <c>http</c> and <c>https</c> type probes.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#host ContainerAppJob#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#host ContainerAppJob#host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace azurerm.ContainerAppJob
             /// <remarks>
             /// Possible values are between <c>0</c> and <c>60</c>. Defaults to <c>1</c> seconds.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#initial_delay ContainerAppJob#initial_delay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#initial_delay ContainerAppJob#initial_delay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "initialDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -214,7 +214,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>How often, in seconds, the probe should run. Possible values are between `1` and `240`. Defaults to `10`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#interval_seconds ContainerAppJob#interval_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#interval_seconds ContainerAppJob#interval_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace azurerm.ContainerAppJob
             /// <remarks>
             /// Not valid for <c>TCP</c> type probes. Defaults to <c>/</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#path ContainerAppJob#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#path ContainerAppJob#path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -238,7 +238,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>Time in seconds after which the probe times out. Possible values are between `1` an `240`. Defaults to `1`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_app_job#timeout ContainerAppJob#timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#timeout ContainerAppJob#timeout}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

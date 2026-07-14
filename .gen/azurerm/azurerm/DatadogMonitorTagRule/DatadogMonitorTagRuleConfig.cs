@@ -9,7 +9,7 @@ namespace azurerm.DatadogMonitorTagRule
     [JsiiByValue(fqn: "azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleConfig")]
     public class DatadogMonitorTagRuleConfig : azurerm.DatadogMonitorTagRule.IDatadogMonitorTagRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#datadog_monitor_id DatadogMonitorTagRule#datadog_monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#datadog_monitor_id DatadogMonitorTagRule#datadog_monitor_id}.</summary>
         [JsiiProperty(name: "datadogMonitorId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatadogMonitorId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DatadogMonitorTagRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#id DatadogMonitorTagRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#id DatadogMonitorTagRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace azurerm.DatadogMonitorTagRule
 
         /// <summary>log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#log DatadogMonitorTagRule#log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#log DatadogMonitorTagRule#log}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DatadogMonitorTagRule.IDatadogMonitorTagRuleLog" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace azurerm.DatadogMonitorTagRule
 
         /// <summary>metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#metric DatadogMonitorTagRule#metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#metric DatadogMonitorTagRule#metric}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DatadogMonitorTagRule.IDatadogMonitorTagRuleMetric" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -100,7 +100,7 @@ namespace azurerm.DatadogMonitorTagRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#name DatadogMonitorTagRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#name DatadogMonitorTagRule#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -111,7 +111,7 @@ namespace azurerm.DatadogMonitorTagRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/datadog_monitor_tag_rule#timeouts DatadogMonitorTagRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor_tag_rule#timeouts DatadogMonitorTagRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleTimeouts\"}", isOptional: true)]

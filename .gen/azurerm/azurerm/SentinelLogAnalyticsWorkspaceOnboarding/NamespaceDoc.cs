@@ -5,7 +5,7 @@ namespace azurerm.SentinelLogAnalyticsWorkspaceOnboarding
     /// <remarks>
     /// <h1><c>azurerm_sentinel_log_analytics_workspace_onboarding</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/sentinel_log_analytics_workspace_onboarding"><c>azurerm_sentinel_log_analytics_workspace_onboarding</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_log_analytics_workspace_onboarding"><c>azurerm_sentinel_log_analytics_workspace_onboarding</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

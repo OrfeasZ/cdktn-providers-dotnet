@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventgridSystemTopic
     [JsiiInterface(nativeType: typeof(IDataAzurermEventgridSystemTopicTimeouts), fullyQualifiedName: "azurerm.dataAzurermEventgridSystemTopic.DataAzurermEventgridSystemTopicTimeouts")]
     public interface IDataAzurermEventgridSystemTopicTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/eventgrid_system_topic#read DataAzurermEventgridSystemTopic#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventgrid_system_topic#read DataAzurermEventgridSystemTopic#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermEventgridSystemTopic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/eventgrid_system_topic#read DataAzurermEventgridSystemTopic#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventgrid_system_topic#read DataAzurermEventgridSystemTopic#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

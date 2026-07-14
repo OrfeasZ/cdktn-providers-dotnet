@@ -9,7 +9,7 @@ namespace azurerm.AppServicePlan
     [JsiiByValue(fqn: "azurerm.appServicePlan.AppServicePlanSku")]
     public class AppServicePlanSku : azurerm.AppServicePlan.IAppServicePlanSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan#size AppServicePlan#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_plan#size AppServicePlan#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
         public string Size
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppServicePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan#tier AppServicePlan#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_plan#tier AppServicePlan#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         public string Tier
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppServicePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan#capacity AppServicePlan#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_plan#capacity AppServicePlan#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity

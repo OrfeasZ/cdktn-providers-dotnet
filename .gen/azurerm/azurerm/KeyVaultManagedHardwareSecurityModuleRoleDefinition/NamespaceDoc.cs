@@ -5,7 +5,7 @@ namespace azurerm.KeyVaultManagedHardwareSecurityModuleRoleDefinition
     /// <remarks>
     /// <h1><c>azurerm_key_vault_managed_hardware_security_module_role_definition</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_managed_hardware_security_module_role_definition"><c>azurerm_key_vault_managed_hardware_security_module_role_definition</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_managed_hardware_security_module_role_definition"><c>azurerm_key_vault_managed_hardware_security_module_role_definition</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

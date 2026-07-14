@@ -7,7 +7,7 @@ namespace azurerm.AiFoundry
     [JsiiInterface(nativeType: typeof(IAiFoundryManagedNetwork), fullyQualifiedName: "azurerm.aiFoundry.AiFoundryManagedNetwork")]
     public interface IAiFoundryManagedNetwork
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_foundry#isolation_mode AiFoundry#isolation_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_foundry#isolation_mode AiFoundry#isolation_mode}.</summary>
         [JsiiProperty(name: "isolationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IsolationMode
@@ -25,7 +25,7 @@ namespace azurerm.AiFoundry
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/ai_foundry#isolation_mode AiFoundry#isolation_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/ai_foundry#isolation_mode AiFoundry#isolation_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "isolationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IsolationMode

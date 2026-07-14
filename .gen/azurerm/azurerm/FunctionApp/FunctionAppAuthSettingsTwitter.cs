@@ -9,7 +9,7 @@ namespace azurerm.FunctionApp
     [JsiiByValue(fqn: "azurerm.functionApp.FunctionAppAuthSettingsTwitter")]
     public class FunctionAppAuthSettingsTwitter : azurerm.FunctionApp.IFunctionAppAuthSettingsTwitter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#consumer_key FunctionApp#consumer_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#consumer_key FunctionApp#consumer_key}.</summary>
         [JsiiProperty(name: "consumerKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsumerKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.FunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/function_app#consumer_secret FunctionApp#consumer_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app#consumer_secret FunctionApp#consumer_secret}.</summary>
         [JsiiProperty(name: "consumerSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsumerSecret
         {

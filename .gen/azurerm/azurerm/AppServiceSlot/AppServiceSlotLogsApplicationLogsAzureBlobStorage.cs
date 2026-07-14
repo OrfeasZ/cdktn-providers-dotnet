@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSlot
     [JsiiByValue(fqn: "azurerm.appServiceSlot.AppServiceSlotLogsApplicationLogsAzureBlobStorage")]
     public class AppServiceSlotLogsApplicationLogsAzureBlobStorage : azurerm.AppServiceSlot.IAppServiceSlotLogsApplicationLogsAzureBlobStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#level AppServiceSlot#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#level AppServiceSlot#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}")]
         public string Level
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppServiceSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#retention_in_days AppServiceSlot#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#retention_in_days AppServiceSlot#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionInDays
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppServiceSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#sas_url AppServiceSlot#sas_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#sas_url AppServiceSlot#sas_url}.</summary>
         [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SasUrl
         {

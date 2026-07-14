@@ -9,7 +9,7 @@ namespace azurerm.AutomationRunbook
     [JsiiByValue(fqn: "azurerm.automationRunbook.AutomationRunbookPublishContentLinkHash")]
     public class AutomationRunbookPublishContentLinkHash : azurerm.AutomationRunbook.IAutomationRunbookPublishContentLinkHash
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_runbook#algorithm AutomationRunbook#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_runbook#algorithm AutomationRunbook#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string Algorithm
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_runbook#value AutomationRunbook#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_runbook#value AutomationRunbook#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

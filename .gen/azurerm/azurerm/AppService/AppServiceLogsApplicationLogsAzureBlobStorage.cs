@@ -9,7 +9,7 @@ namespace azurerm.AppService
     [JsiiByValue(fqn: "azurerm.appService.AppServiceLogsApplicationLogsAzureBlobStorage")]
     public class AppServiceLogsApplicationLogsAzureBlobStorage : azurerm.AppService.IAppServiceLogsApplicationLogsAzureBlobStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#level AppService#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#level AppService#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}")]
         public string Level
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#retention_in_days AppService#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#retention_in_days AppService#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionInDays
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#sas_url AppService#sas_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#sas_url AppService#sas_url}.</summary>
         [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SasUrl
         {

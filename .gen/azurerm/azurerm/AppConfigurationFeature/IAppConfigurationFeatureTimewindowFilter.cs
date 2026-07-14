@@ -7,7 +7,7 @@ namespace azurerm.AppConfigurationFeature
     [JsiiInterface(nativeType: typeof(IAppConfigurationFeatureTimewindowFilter), fullyQualifiedName: "azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilter")]
     public interface IAppConfigurationFeatureTimewindowFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? End
@@ -18,7 +18,7 @@ namespace azurerm.AppConfigurationFeature
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Start
@@ -36,7 +36,7 @@ namespace azurerm.AppConfigurationFeature
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? End
@@ -44,7 +44,7 @@ namespace azurerm.AppConfigurationFeature
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Start

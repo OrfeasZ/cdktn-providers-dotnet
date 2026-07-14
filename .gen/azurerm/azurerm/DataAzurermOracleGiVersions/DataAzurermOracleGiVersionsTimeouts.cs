@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermOracleGiVersions
     [JsiiByValue(fqn: "azurerm.dataAzurermOracleGiVersions.DataAzurermOracleGiVersionsTimeouts")]
     public class DataAzurermOracleGiVersionsTimeouts : azurerm.DataAzurermOracleGiVersions.IDataAzurermOracleGiVersionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/oracle_gi_versions#read DataAzurermOracleGiVersions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/oracle_gi_versions#read DataAzurermOracleGiVersions#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

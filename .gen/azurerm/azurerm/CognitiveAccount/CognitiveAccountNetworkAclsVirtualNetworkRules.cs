@@ -9,7 +9,7 @@ namespace azurerm.CognitiveAccount
     [JsiiByValue(fqn: "azurerm.cognitiveAccount.CognitiveAccountNetworkAclsVirtualNetworkRules")]
     public class CognitiveAccountNetworkAclsVirtualNetworkRules : azurerm.CognitiveAccount.ICognitiveAccountNetworkAclsVirtualNetworkRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cognitive_account#subnet_id CognitiveAccount#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account#subnet_id CognitiveAccount#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -19,7 +19,7 @@ namespace azurerm.CognitiveAccount
 
         private object? _ignoreMissingVnetServiceEndpoint;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/cognitive_account#ignore_missing_vnet_service_endpoint CognitiveAccount#ignore_missing_vnet_service_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account#ignore_missing_vnet_service_endpoint CognitiveAccount#ignore_missing_vnet_service_endpoint}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

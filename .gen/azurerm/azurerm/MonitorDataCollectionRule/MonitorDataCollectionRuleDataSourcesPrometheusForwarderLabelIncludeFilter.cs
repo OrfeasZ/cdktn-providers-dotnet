@@ -9,7 +9,7 @@ namespace azurerm.MonitorDataCollectionRule
     [JsiiByValue(fqn: "azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter")]
     public class MonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter : azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         public string Label
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorDataCollectionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

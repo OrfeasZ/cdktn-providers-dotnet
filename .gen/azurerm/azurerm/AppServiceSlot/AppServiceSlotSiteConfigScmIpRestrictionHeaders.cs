@@ -7,7 +7,7 @@ namespace azurerm.AppServiceSlot
     [JsiiByValue(fqn: "azurerm.appServiceSlot.AppServiceSlotSiteConfigScmIpRestrictionHeaders")]
     public class AppServiceSlotSiteConfigScmIpRestrictionHeaders : azurerm.AppServiceSlot.IAppServiceSlotSiteConfigScmIpRestrictionHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#x_azure_fdid AppServiceSlot#x_azure_fdid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#x_azure_fdid AppServiceSlot#x_azure_fdid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xAzureFdid", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XAzureFdid
@@ -16,7 +16,7 @@ namespace azurerm.AppServiceSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#x_fd_health_probe AppServiceSlot#x_fd_health_probe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#x_fd_health_probe AppServiceSlot#x_fd_health_probe}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xFdHealthProbe", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XFdHealthProbe
@@ -25,7 +25,7 @@ namespace azurerm.AppServiceSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#x_forwarded_for AppServiceSlot#x_forwarded_for}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#x_forwarded_for AppServiceSlot#x_forwarded_for}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedFor", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedFor
@@ -34,7 +34,7 @@ namespace azurerm.AppServiceSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_slot#x_forwarded_host AppServiceSlot#x_forwarded_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_slot#x_forwarded_host AppServiceSlot#x_forwarded_host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedHost", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedHost

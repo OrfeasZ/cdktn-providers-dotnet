@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionApp
     {
         /// <summary>The name of the Docker image to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#image_name LinuxFunctionApp#image_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#image_name LinuxFunctionApp#image_name}
         /// </remarks>
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
         string ImageName
@@ -19,7 +19,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The image tag of the image to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#image_tag LinuxFunctionApp#image_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#image_tag LinuxFunctionApp#image_tag}
         /// </remarks>
         [JsiiProperty(name: "imageTag", typeJson: "{\"primitive\":\"string\"}")]
         string ImageTag
@@ -29,7 +29,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The URL of the docker registry.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_url LinuxFunctionApp#registry_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_url LinuxFunctionApp#registry_url}
         /// </remarks>
         [JsiiProperty(name: "registryUrl", typeJson: "{\"primitive\":\"string\"}")]
         string RegistryUrl
@@ -39,7 +39,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The password for the account to use to connect to the registry.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_password LinuxFunctionApp#registry_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_password LinuxFunctionApp#registry_password}
         /// </remarks>
         [JsiiProperty(name: "registryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The username to use for connections to the registry.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_username LinuxFunctionApp#registry_username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_username LinuxFunctionApp#registry_username}
         /// </remarks>
         [JsiiProperty(name: "registryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The name of the Docker image to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#image_name LinuxFunctionApp#image_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#image_name LinuxFunctionApp#image_name}
             /// </remarks>
             [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageName
@@ -84,7 +84,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The image tag of the image to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#image_tag LinuxFunctionApp#image_tag}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#image_tag LinuxFunctionApp#image_tag}
             /// </remarks>
             [JsiiProperty(name: "imageTag", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageTag
@@ -94,7 +94,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The URL of the docker registry.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_url LinuxFunctionApp#registry_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_url LinuxFunctionApp#registry_url}
             /// </remarks>
             [JsiiProperty(name: "registryUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string RegistryUrl
@@ -104,7 +104,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The password for the account to use to connect to the registry.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_password LinuxFunctionApp#registry_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_password LinuxFunctionApp#registry_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "registryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The username to use for connections to the registry.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/linux_function_app#registry_username LinuxFunctionApp#registry_username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app#registry_username LinuxFunctionApp#registry_username}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "registryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.HpcCache
     [JsiiByValue(fqn: "azurerm.hpcCache.HpcCacheDirectoryActiveDirectory")]
     public class HpcCacheDirectoryActiveDirectory : azurerm.HpcCache.IHpcCacheDirectoryActiveDirectory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#cache_netbios_name HpcCache#cache_netbios_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#cache_netbios_name HpcCache#cache_netbios_name}.</summary>
         [JsiiProperty(name: "cacheNetbiosName", typeJson: "{\"primitive\":\"string\"}")]
         public string CacheNetbiosName
         {
@@ -17,7 +17,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dns_primary_ip HpcCache#dns_primary_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dns_primary_ip HpcCache#dns_primary_ip}.</summary>
         [JsiiProperty(name: "dnsPrimaryIp", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsPrimaryIp
         {
@@ -25,7 +25,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#domain_name HpcCache#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#domain_name HpcCache#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -33,7 +33,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#domain_netbios_name HpcCache#domain_netbios_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#domain_netbios_name HpcCache#domain_netbios_name}.</summary>
         [JsiiProperty(name: "domainNetbiosName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainNetbiosName
         {
@@ -41,7 +41,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#password HpcCache#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -49,7 +49,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#username HpcCache#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#username HpcCache#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {
@@ -57,7 +57,7 @@ namespace azurerm.HpcCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/hpc_cache#dns_secondary_ip HpcCache#dns_secondary_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hpc_cache#dns_secondary_ip HpcCache#dns_secondary_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsSecondaryIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsSecondaryIp

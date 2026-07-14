@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMssqlFailoverGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermMssqlFailoverGroup.DataAzurermMssqlFailoverGroupTimeouts")]
     public class DataAzurermMssqlFailoverGroupTimeouts : azurerm.DataAzurermMssqlFailoverGroup.IDataAzurermMssqlFailoverGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/mssql_failover_group#read DataAzurermMssqlFailoverGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/mssql_failover_group#read DataAzurermMssqlFailoverGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

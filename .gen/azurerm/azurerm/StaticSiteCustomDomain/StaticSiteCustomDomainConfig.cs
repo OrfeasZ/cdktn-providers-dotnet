@@ -9,7 +9,7 @@ namespace azurerm.StaticSiteCustomDomain
     [JsiiByValue(fqn: "azurerm.staticSiteCustomDomain.StaticSiteCustomDomainConfig")]
     public class StaticSiteCustomDomainConfig : azurerm.StaticSiteCustomDomain.IStaticSiteCustomDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_site_custom_domain#domain_name StaticSiteCustomDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_site_custom_domain#domain_name StaticSiteCustomDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace azurerm.StaticSiteCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_site_custom_domain#static_site_id StaticSiteCustomDomain#static_site_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_site_custom_domain#static_site_id StaticSiteCustomDomain#static_site_id}.</summary>
         [JsiiProperty(name: "staticSiteId", typeJson: "{\"primitive\":\"string\"}")]
         public string StaticSiteId
         {
@@ -25,7 +25,7 @@ namespace azurerm.StaticSiteCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_site_custom_domain#id StaticSiteCustomDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_site_custom_domain#id StaticSiteCustomDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.StaticSiteCustomDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_site_custom_domain#timeouts StaticSiteCustomDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_site_custom_domain#timeouts StaticSiteCustomDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.staticSiteCustomDomain.StaticSiteCustomDomainTimeouts\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azurerm.StaticSiteCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_site_custom_domain#validation_type StaticSiteCustomDomain#validation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_site_custom_domain#validation_type StaticSiteCustomDomain#validation_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "validationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ValidationType

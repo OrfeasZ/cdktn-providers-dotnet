@@ -7,7 +7,7 @@ namespace azurerm.AutomationModule
     [JsiiInterface(nativeType: typeof(IAutomationModuleModuleLink), fullyQualifiedName: "azurerm.automationModule.AutomationModuleModuleLink")]
     public interface IAutomationModuleModuleLink
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_module#uri AutomationModule#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_module#uri AutomationModule#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         string Uri
         {
@@ -16,7 +16,7 @@ namespace azurerm.AutomationModule
 
         /// <summary>hash block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_module#hash AutomationModule#hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_module#hash AutomationModule#hash}
         /// </remarks>
         [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationModule.AutomationModuleModuleLinkHash\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.AutomationModule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_module#uri AutomationModule#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_module#uri AutomationModule#uri}.</summary>
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
             public string Uri
             {
@@ -44,7 +44,7 @@ namespace azurerm.AutomationModule
 
             /// <summary>hash block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_module#hash AutomationModule#hash}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automation_module#hash AutomationModule#hash}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationModule.AutomationModuleModuleLinkHash\"}", isOptional: true)]

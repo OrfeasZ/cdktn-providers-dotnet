@@ -9,7 +9,7 @@ namespace azurerm.OracleExascaleDatabaseStorageVault
     [JsiiByValue(fqn: "azurerm.oracleExascaleDatabaseStorageVault.OracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage")]
     public class OracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage : azurerm.OracleExascaleDatabaseStorageVault.IOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
         [JsiiProperty(name: "totalSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double TotalSizeInGb
         {

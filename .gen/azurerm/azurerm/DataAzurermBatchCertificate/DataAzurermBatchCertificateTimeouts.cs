@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBatchCertificate
     [JsiiByValue(fqn: "azurerm.dataAzurermBatchCertificate.DataAzurermBatchCertificateTimeouts")]
     public class DataAzurermBatchCertificateTimeouts : azurerm.DataAzurermBatchCertificate.IDataAzurermBatchCertificateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/batch_certificate#read DataAzurermBatchCertificate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/batch_certificate#read DataAzurermBatchCertificate#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

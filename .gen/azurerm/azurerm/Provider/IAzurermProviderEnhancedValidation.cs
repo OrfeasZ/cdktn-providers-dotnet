@@ -9,9 +9,7 @@ namespace azurerm.Provider
     {
         /// <summary>Should the AzureRM Provider validate location arguments against the list of supported Azure Locations?</summary>
         /// <remarks>
-        /// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs#locations AzurermProvider#locations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#locations AzurermProvider#locations}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "locations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -28,7 +26,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs#resource_providers AzurermProvider#resource_providers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#resource_providers AzurermProvider#resource_providers}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "resourceProviders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -50,9 +48,7 @@ namespace azurerm.Provider
 
             /// <summary>Should the AzureRM Provider validate location arguments against the list of supported Azure Locations?</summary>
             /// <remarks>
-            /// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs#locations AzurermProvider#locations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#locations AzurermProvider#locations}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -66,7 +62,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs#resource_providers AzurermProvider#resource_providers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#resource_providers AzurermProvider#resource_providers}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

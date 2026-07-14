@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermIpGroups
     [JsiiByValue(fqn: "azurerm.dataAzurermIpGroups.DataAzurermIpGroupsTimeouts")]
     public class DataAzurermIpGroupsTimeouts : azurerm.DataAzurermIpGroups.IDataAzurermIpGroupsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/ip_groups#read DataAzurermIpGroups#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/ip_groups#read DataAzurermIpGroups#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.KustoCluster
     [JsiiByValue(fqn: "azurerm.kustoCluster.KustoClusterOptimizedAutoScale")]
     public class KustoClusterOptimizedAutoScale : azurerm.KustoCluster.IKustoClusterOptimizedAutoScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_cluster#maximum_instances KustoCluster#maximum_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#maximum_instances KustoCluster#maximum_instances}.</summary>
         [JsiiProperty(name: "maximumInstances", typeJson: "{\"primitive\":\"number\"}")]
         public double MaximumInstances
         {
@@ -17,7 +17,7 @@ namespace azurerm.KustoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_cluster#minimum_instances KustoCluster#minimum_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#minimum_instances KustoCluster#minimum_instances}.</summary>
         [JsiiProperty(name: "minimumInstances", typeJson: "{\"primitive\":\"number\"}")]
         public double MinimumInstances
         {

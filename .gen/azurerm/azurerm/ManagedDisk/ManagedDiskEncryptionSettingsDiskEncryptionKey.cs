@@ -9,7 +9,7 @@ namespace azurerm.ManagedDisk
     [JsiiByValue(fqn: "azurerm.managedDisk.ManagedDiskEncryptionSettingsDiskEncryptionKey")]
     public class ManagedDiskEncryptionSettingsDiskEncryptionKey : azurerm.ManagedDisk.IManagedDiskEncryptionSettingsDiskEncryptionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/managed_disk#secret_url ManagedDisk#secret_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#secret_url ManagedDisk#secret_url}.</summary>
         [JsiiProperty(name: "secretUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/managed_disk#source_vault_id ManagedDisk#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#source_vault_id ManagedDisk#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {

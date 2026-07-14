@@ -9,7 +9,7 @@ namespace azurerm.StorageAccount
     {
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountQueuePropertiesCorsRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "corsRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>hour_metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#hour_metrics StorageAccount#hour_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#hour_metrics StorageAccount#hour_metrics}
         /// </remarks>
         [JsiiProperty(name: "hourMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesHourMetrics\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>logging block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#logging StorageAccount#logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#logging StorageAccount#logging}
         /// </remarks>
         [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesLogging\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>minute_metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#minute_metrics StorageAccount#minute_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#minute_metrics StorageAccount#minute_metrics}
         /// </remarks>
         [JsiiProperty(name: "minuteMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetrics\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>cors_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountQueuePropertiesCorsRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -85,7 +85,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>hour_metrics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#hour_metrics StorageAccount#hour_metrics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#hour_metrics StorageAccount#hour_metrics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hourMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesHourMetrics\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>logging block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#logging StorageAccount#logging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#logging StorageAccount#logging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesLogging\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>minute_metrics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/storage_account#minute_metrics StorageAccount#minute_metrics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#minute_metrics StorageAccount#minute_metrics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minuteMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesMinuteMetrics\"}", isOptional: true)]

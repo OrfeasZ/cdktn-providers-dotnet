@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementStandaloneGateway
     [JsiiByValue(fqn: "azurerm.apiManagementStandaloneGateway.ApiManagementStandaloneGatewaySku")]
     public class ApiManagementStandaloneGatewaySku : azurerm.ApiManagementStandaloneGateway.IApiManagementStandaloneGatewaySku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_standalone_gateway#name ApiManagementStandaloneGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_standalone_gateway#name ApiManagementStandaloneGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementStandaloneGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/api_management_standalone_gateway#capacity ApiManagementStandaloneGateway#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management_standalone_gateway#capacity ApiManagementStandaloneGateway#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity

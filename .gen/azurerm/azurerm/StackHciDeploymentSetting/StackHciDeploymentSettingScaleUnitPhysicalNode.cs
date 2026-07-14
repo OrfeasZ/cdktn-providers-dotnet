@@ -9,7 +9,7 @@ namespace azurerm.StackHciDeploymentSetting
     [JsiiByValue(fqn: "azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitPhysicalNode")]
     public class StackHciDeploymentSettingScaleUnitPhysicalNode : azurerm.StackHciDeploymentSetting.IStackHciDeploymentSettingScaleUnitPhysicalNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stack_hci_deployment_setting#ipv4_address StackHciDeploymentSetting#ipv4_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#ipv4_address StackHciDeploymentSetting#ipv4_address}.</summary>
         [JsiiProperty(name: "ipv4Address", typeJson: "{\"primitive\":\"string\"}")]
         public string Ipv4Address
         {
@@ -17,7 +17,7 @@ namespace azurerm.StackHciDeploymentSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stack_hci_deployment_setting#name StackHciDeploymentSetting#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#name StackHciDeploymentSetting#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

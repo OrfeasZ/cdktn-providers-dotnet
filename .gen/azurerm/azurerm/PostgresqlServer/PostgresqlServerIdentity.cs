@@ -9,7 +9,7 @@ namespace azurerm.PostgresqlServer
     [JsiiByValue(fqn: "azurerm.postgresqlServer.PostgresqlServerIdentity")]
     public class PostgresqlServerIdentity : azurerm.PostgresqlServer.IPostgresqlServerIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/postgresql_server#type PostgresqlServer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/postgresql_server#type PostgresqlServer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

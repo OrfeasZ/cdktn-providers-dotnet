@@ -7,14 +7,14 @@ namespace azurerm.SynapseSparkPool
     [JsiiInterface(nativeType: typeof(ISynapseSparkPoolSparkConfig), fullyQualifiedName: "azurerm.synapseSparkPool.SynapseSparkPoolSparkConfig")]
     public interface ISynapseSparkPoolSparkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
         [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
         string Filename
         {
@@ -28,14 +28,14 @@ namespace azurerm.SynapseSparkPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
             [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
             public string Filename
             {

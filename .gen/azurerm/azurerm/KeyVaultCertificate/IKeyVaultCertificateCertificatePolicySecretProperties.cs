@@ -7,7 +7,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiInterface(nativeType: typeof(IKeyVaultCertificateCertificatePolicySecretProperties), fullyQualifiedName: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretProperties")]
     public interface IKeyVaultCertificateCertificatePolicySecretProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_certificate#content_type KeyVaultCertificate#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate#content_type KeyVaultCertificate#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         string ContentType
         {
@@ -21,7 +21,7 @@ namespace azurerm.KeyVaultCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/key_vault_certificate#content_type KeyVaultCertificate#content_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate#content_type KeyVaultCertificate#content_type}.</summary>
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentType
             {

@@ -9,7 +9,7 @@ namespace azurerm.HealthcareService
     [JsiiByValue(fqn: "azurerm.healthcareService.HealthcareServiceIdentity")]
     public class HealthcareServiceIdentity : azurerm.HealthcareService.IHealthcareServiceIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/healthcare_service#type HealthcareService#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/healthcare_service#type HealthcareService#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -9,7 +9,7 @@ namespace azurerm.MssqlFailoverGroup
     [JsiiByValue(fqn: "azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicy")]
     public class MssqlFailoverGroupReadWriteEndpointFailoverPolicy : azurerm.MssqlFailoverGroup.IMssqlFailoverGroupReadWriteEndpointFailoverPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlFailoverGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "graceMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? GraceMinutes

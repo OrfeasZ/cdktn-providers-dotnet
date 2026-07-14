@@ -5,7 +5,7 @@ namespace azurerm.NotificationHub
     /// <remarks>
     /// <h1><c>azurerm_notification_hub</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/notification_hub"><c>azurerm_notification_hub</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub"><c>azurerm_notification_hub</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

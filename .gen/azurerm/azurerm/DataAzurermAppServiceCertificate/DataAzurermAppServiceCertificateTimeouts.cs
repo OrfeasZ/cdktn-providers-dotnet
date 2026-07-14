@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAppServiceCertificate
     [JsiiByValue(fqn: "azurerm.dataAzurermAppServiceCertificate.DataAzurermAppServiceCertificateTimeouts")]
     public class DataAzurermAppServiceCertificateTimeouts : azurerm.DataAzurermAppServiceCertificate.IDataAzurermAppServiceCertificateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

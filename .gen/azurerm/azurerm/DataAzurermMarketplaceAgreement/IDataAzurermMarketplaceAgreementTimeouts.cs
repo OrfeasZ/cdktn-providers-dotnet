@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMarketplaceAgreement
     [JsiiInterface(nativeType: typeof(IDataAzurermMarketplaceAgreementTimeouts), fullyQualifiedName: "azurerm.dataAzurermMarketplaceAgreement.DataAzurermMarketplaceAgreementTimeouts")]
     public interface IDataAzurermMarketplaceAgreementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/marketplace_agreement#read DataAzurermMarketplaceAgreement#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/marketplace_agreement#read DataAzurermMarketplaceAgreement#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermMarketplaceAgreement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/marketplace_agreement#read DataAzurermMarketplaceAgreement#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/marketplace_agreement#read DataAzurermMarketplaceAgreement#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

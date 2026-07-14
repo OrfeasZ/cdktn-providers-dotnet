@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermManagedApplicationDefinition
     [JsiiByValue(fqn: "azurerm.dataAzurermManagedApplicationDefinition.DataAzurermManagedApplicationDefinitionTimeouts")]
     public class DataAzurermManagedApplicationDefinitionTimeouts : azurerm.DataAzurermManagedApplicationDefinition.IDataAzurermManagedApplicationDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/managed_application_definition#read DataAzurermManagedApplicationDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/managed_application_definition#read DataAzurermManagedApplicationDefinition#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

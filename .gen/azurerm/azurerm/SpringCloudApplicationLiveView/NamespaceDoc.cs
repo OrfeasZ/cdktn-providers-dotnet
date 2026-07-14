@@ -5,7 +5,7 @@ namespace azurerm.SpringCloudApplicationLiveView
     /// <remarks>
     /// <h1><c>azurerm_spring_cloud_application_live_view</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/spring_cloud_application_live_view"><c>azurerm_spring_cloud_application_live_view</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_application_live_view"><c>azurerm_spring_cloud_application_live_view</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

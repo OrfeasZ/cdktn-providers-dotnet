@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSourceControlToken
     [JsiiByValue(fqn: "azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenConfig")]
     public class AppServiceSourceControlTokenConfig : azurerm.AppServiceSourceControlToken.IAppServiceSourceControlTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_source_control_token#token AppServiceSourceControlToken#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_source_control_token#token AppServiceSourceControlToken#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppServiceSourceControlToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_source_control_token#type AppServiceSourceControlToken#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_source_control_token#type AppServiceSourceControlToken#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace azurerm.AppServiceSourceControlToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_source_control_token#id AppServiceSourceControlToken#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_source_control_token#id AppServiceSourceControlToken#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.AppServiceSourceControlToken
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_source_control_token#timeouts AppServiceSourceControlToken#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_source_control_token#timeouts AppServiceSourceControlToken#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControlToken.AppServiceSourceControlTokenTimeouts\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azurerm.AppServiceSourceControlToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_source_control_token#token_secret AppServiceSourceControlToken#token_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_source_control_token#token_secret AppServiceSourceControlToken#token_secret}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tokenSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TokenSecret

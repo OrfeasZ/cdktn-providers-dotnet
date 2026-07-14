@@ -9,7 +9,7 @@ namespace azurerm.AppService
     {
         /// <summary>application_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#application_logs AppService#application_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#application_logs AppService#application_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationLogs", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceLogsApplicationLogs\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.AppService
 
         private object? _detailedErrorMessagesEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#detailed_error_messages_enabled AppService#detailed_error_messages_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#detailed_error_messages_enabled AppService#detailed_error_messages_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace azurerm.AppService
 
         private object? _failedRequestTracingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#failed_request_tracing_enabled AppService#failed_request_tracing_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#failed_request_tracing_enabled AppService#failed_request_tracing_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -89,7 +89,7 @@ namespace azurerm.AppService
 
         /// <summary>http_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service#http_logs AppService#http_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service#http_logs AppService#http_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpLogs", typeJson: "{\"fqn\":\"azurerm.appService.AppServiceLogsHttpLogs\"}", isOptional: true)]

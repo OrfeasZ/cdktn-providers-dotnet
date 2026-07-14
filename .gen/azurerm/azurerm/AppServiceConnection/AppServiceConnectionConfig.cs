@@ -9,7 +9,7 @@ namespace azurerm.AppServiceConnection
     [JsiiByValue(fqn: "azurerm.appServiceConnection.AppServiceConnectionConfig")]
     public class AppServiceConnectionConfig : azurerm.AppServiceConnection.IAppServiceConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#app_service_id AppServiceConnection#app_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#app_service_id AppServiceConnection#app_service_id}.</summary>
         [JsiiProperty(name: "appServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppServiceId
         {
@@ -19,7 +19,7 @@ namespace azurerm.AppServiceConnection
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#authentication AppServiceConnection#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#authentication AppServiceConnection#authentication}
         /// </remarks>
         [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"azurerm.appServiceConnection.AppServiceConnectionAuthentication\"}")]
         public azurerm.AppServiceConnection.IAppServiceConnectionAuthentication Authentication
@@ -28,7 +28,7 @@ namespace azurerm.AppServiceConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#name AppServiceConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#name AppServiceConnection#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -36,7 +36,7 @@ namespace azurerm.AppServiceConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#target_resource_id AppServiceConnection#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#target_resource_id AppServiceConnection#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -44,7 +44,7 @@ namespace azurerm.AppServiceConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#client_type AppServiceConnection#client_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#client_type AppServiceConnection#client_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientType
@@ -53,7 +53,7 @@ namespace azurerm.AppServiceConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#id AppServiceConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#id AppServiceConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace azurerm.AppServiceConnection
 
         /// <summary>secret_store block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#secret_store AppServiceConnection#secret_store}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#secret_store AppServiceConnection#secret_store}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretStore", typeJson: "{\"fqn\":\"azurerm.appServiceConnection.AppServiceConnectionSecretStore\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azurerm.AppServiceConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#timeouts AppServiceConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#timeouts AppServiceConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServiceConnection.AppServiceConnectionTimeouts\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace azurerm.AppServiceConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_connection#vnet_solution AppServiceConnection#vnet_solution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_connection#vnet_solution AppServiceConnection#vnet_solution}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vnetSolution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VnetSolution
