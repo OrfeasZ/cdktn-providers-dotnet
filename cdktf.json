@@ -10,7 +10,7 @@
     "digitalocean/digitalocean@2.95.0",
     "hashicorp/random@3.9.0",
     "hetznercloud/hcloud@1.66.0",
-    "kislerdm/neon@0.13.0",
+    "kislerdm/neon@0.14.0",
     "scaleway/scaleway@2.78.0",
     "stripe/stripe@0.2.2",
     "hashicorp/null@3.3.0",

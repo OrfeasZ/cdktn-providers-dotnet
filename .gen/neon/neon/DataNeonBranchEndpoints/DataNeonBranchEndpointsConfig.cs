@@ -11,7 +11,7 @@ namespace neon.DataNeonBranchEndpoints
     {
         /// <summary>Branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_endpoints#branch_id DataNeonBranchEndpoints#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_endpoints#branch_id DataNeonBranchEndpoints#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchId
@@ -22,7 +22,7 @@ namespace neon.DataNeonBranchEndpoints
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_endpoints#project_id DataNeonBranchEndpoints#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_endpoints#project_id DataNeonBranchEndpoints#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -35,7 +35,7 @@ namespace neon.DataNeonBranchEndpoints
 
         /// <summary>endpoints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_endpoints#endpoints DataNeonBranchEndpoints#endpoints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_endpoints#endpoints DataNeonBranchEndpoints#endpoints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchEndpoints.IDataNeonBranchEndpointsEndpoints" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -66,7 +66,7 @@ namespace neon.DataNeonBranchEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_endpoints#id DataNeonBranchEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_endpoints#id DataNeonBranchEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

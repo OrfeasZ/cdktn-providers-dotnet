@@ -9,7 +9,7 @@ namespace neon.Endpoint
     {
         /// <summary>Branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#branch_id Endpoint#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#branch_id Endpoint#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         string BranchId
@@ -19,7 +19,7 @@ namespace neon.Endpoint
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#project_id Endpoint#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#project_id Endpoint#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -27,7 +27,7 @@ namespace neon.Endpoint
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#autoscaling_limit_max_cu Endpoint#autoscaling_limit_max_cu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#autoscaling_limit_max_cu Endpoint#autoscaling_limit_max_cu}.</summary>
         [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutoscalingLimitMaxCu
@@ -38,7 +38,7 @@ namespace neon.Endpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#autoscaling_limit_min_cu Endpoint#autoscaling_limit_min_cu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#autoscaling_limit_min_cu Endpoint#autoscaling_limit_min_cu}.</summary>
         [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AutoscalingLimitMinCu
@@ -51,7 +51,7 @@ namespace neon.Endpoint
 
         /// <summary>Provisioner The Neon compute provisioner. Specify the k8s-neonvm provisioner to create a compute endpoint that supports Autoscaling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#compute_provisioner Endpoint#compute_provisioner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#compute_provisioner Endpoint#compute_provisioner}
         /// </remarks>
         [JsiiProperty(name: "computeProvisioner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace neon.Endpoint
 
         /// <summary>Disable the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#disabled Endpoint#disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#disabled Endpoint#disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace neon.Endpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pg_settings Endpoint#pg_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pg_settings Endpoint#pg_settings}.</summary>
         [JsiiProperty(name: "pgSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? PgSettings
@@ -91,7 +91,7 @@ namespace neon.Endpoint
 
         /// <summary>Activate connection pooling. See details: https://neon.tech/docs/connect/connection-pooling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pooler_enabled Endpoint#pooler_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pooler_enabled Endpoint#pooler_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "poolerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace neon.Endpoint
 
         /// <summary>Mode of connections pooling. See details: https://neon.tech/docs/connect/connection-pooling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pooler_mode Endpoint#pooler_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pooler_mode Endpoint#pooler_mode}
         /// </remarks>
         [JsiiProperty(name: "poolerMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace neon.Endpoint
 
         /// <summary>Deployment region: https://neon.tech/docs/introduction/regions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#region_id Endpoint#region_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#region_id Endpoint#region_id}
         /// </remarks>
         [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace neon.Endpoint
         /// The value -1 means never suspend. The default value is 300 seconds (5 minutes).
         /// The maximum value is 604800 seconds (1 week)
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#suspend_timeout_seconds Endpoint#suspend_timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#suspend_timeout_seconds Endpoint#suspend_timeout_seconds}
         /// </remarks>
         [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace neon.Endpoint
 
         /// <summary>Access type. **Note** that a single branch can have only one "read_write" endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#type Endpoint#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#type Endpoint#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -173,7 +173,7 @@ namespace neon.Endpoint
 
             /// <summary>Branch ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#branch_id Endpoint#branch_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#branch_id Endpoint#branch_id}
             /// </remarks>
             [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
             public string BranchId
@@ -183,7 +183,7 @@ namespace neon.Endpoint
 
             /// <summary>Project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#project_id Endpoint#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#project_id Endpoint#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
@@ -191,7 +191,7 @@ namespace neon.Endpoint
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#autoscaling_limit_max_cu Endpoint#autoscaling_limit_max_cu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#autoscaling_limit_max_cu Endpoint#autoscaling_limit_max_cu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutoscalingLimitMaxCu
@@ -199,7 +199,7 @@ namespace neon.Endpoint
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#autoscaling_limit_min_cu Endpoint#autoscaling_limit_min_cu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#autoscaling_limit_min_cu Endpoint#autoscaling_limit_min_cu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AutoscalingLimitMinCu
@@ -209,7 +209,7 @@ namespace neon.Endpoint
 
             /// <summary>Provisioner The Neon compute provisioner. Specify the k8s-neonvm provisioner to create a compute endpoint that supports Autoscaling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#compute_provisioner Endpoint#compute_provisioner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#compute_provisioner Endpoint#compute_provisioner}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "computeProvisioner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace neon.Endpoint
 
             /// <summary>Disable the endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#disabled Endpoint#disabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#disabled Endpoint#disabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -230,7 +230,7 @@ namespace neon.Endpoint
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pg_settings Endpoint#pg_settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pg_settings Endpoint#pg_settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pgSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? PgSettings
@@ -240,7 +240,7 @@ namespace neon.Endpoint
 
             /// <summary>Activate connection pooling. See details: https://neon.tech/docs/connect/connection-pooling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pooler_enabled Endpoint#pooler_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pooler_enabled Endpoint#pooler_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -252,7 +252,7 @@ namespace neon.Endpoint
 
             /// <summary>Mode of connections pooling. See details: https://neon.tech/docs/connect/connection-pooling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#pooler_mode Endpoint#pooler_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#pooler_mode Endpoint#pooler_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "poolerMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -263,7 +263,7 @@ namespace neon.Endpoint
 
             /// <summary>Deployment region: https://neon.tech/docs/introduction/regions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#region_id Endpoint#region_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#region_id Endpoint#region_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace neon.Endpoint
             /// The value -1 means never suspend. The default value is 300 seconds (5 minutes).
             /// The maximum value is 604800 seconds (1 week)
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#suspend_timeout_seconds Endpoint#suspend_timeout_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#suspend_timeout_seconds Endpoint#suspend_timeout_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace neon.Endpoint
 
             /// <summary>Access type. **Note** that a single branch can have only one "read_write" endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/endpoint#type Endpoint#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/endpoint#type Endpoint#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

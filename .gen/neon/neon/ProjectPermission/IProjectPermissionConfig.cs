@@ -9,7 +9,7 @@ namespace neon.ProjectPermission
     {
         /// <summary>Email of the user whom to grant project permission.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/project_permission#grantee ProjectPermission#grantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/project_permission#grantee ProjectPermission#grantee}
         /// </remarks>
         [JsiiProperty(name: "grantee", typeJson: "{\"primitive\":\"string\"}")]
         string Grantee
@@ -19,7 +19,7 @@ namespace neon.ProjectPermission
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/project_permission#project_id ProjectPermission#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/project_permission#project_id ProjectPermission#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -36,7 +36,7 @@ namespace neon.ProjectPermission
 
             /// <summary>Email of the user whom to grant project permission.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/project_permission#grantee ProjectPermission#grantee}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/project_permission#grantee ProjectPermission#grantee}
             /// </remarks>
             [JsiiProperty(name: "grantee", typeJson: "{\"primitive\":\"string\"}")]
             public string Grantee
@@ -46,7 +46,7 @@ namespace neon.ProjectPermission
 
             /// <summary>Project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/project_permission#project_id ProjectPermission#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/project_permission#project_id ProjectPermission#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId

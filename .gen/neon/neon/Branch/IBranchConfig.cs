@@ -9,7 +9,7 @@ namespace neon.Branch
     {
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#project_id Branch#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#project_id Branch#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -19,7 +19,7 @@ namespace neon.Branch
 
         /// <summary>Branch name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#name Branch#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#name Branch#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace neon.Branch
 
         /// <summary>ID of the branch to check out.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_id Branch#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_id Branch#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace neon.Branch
 
         /// <summary>Log Sequence Number (LSN) horizon for the data to be present in the new branch. See details: https://neon.tech/docs/reference/glossary/#lsn.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_lsn Branch#parent_lsn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_lsn Branch#parent_lsn}
         /// </remarks>
         [JsiiProperty(name: "parentLsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,9 +59,9 @@ namespace neon.Branch
             }
         }
 
-        /// <summary>Timestamp horizon for the data to be present in the new branch. **Note**: it's defined as Unix epoch.'.</summary>
+        /// <summary>Timestamp horizon for the data to be present in the new branch. **Note**: it's defined as Unix epoch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_timestamp Branch#parent_timestamp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_timestamp Branch#parent_timestamp}
         /// </remarks>
         [JsiiProperty(name: "parentTimestamp", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace neon.Branch
         /// <remarks>
         /// Set whether the branch is protected.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#protected Branch#protected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#protected Branch#protected}
         /// </remarks>
         [JsiiProperty(name: "protected", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace neon.Branch
 
             /// <summary>Project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#project_id Branch#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#project_id Branch#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
@@ -108,7 +108,7 @@ namespace neon.Branch
 
             /// <summary>Branch name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#name Branch#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#name Branch#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace neon.Branch
 
             /// <summary>ID of the branch to check out.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_id Branch#parent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_id Branch#parent_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace neon.Branch
 
             /// <summary>Log Sequence Number (LSN) horizon for the data to be present in the new branch. See details: https://neon.tech/docs/reference/glossary/#lsn.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_lsn Branch#parent_lsn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_lsn Branch#parent_lsn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentLsn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,9 +139,9 @@ namespace neon.Branch
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Timestamp horizon for the data to be present in the new branch. **Note**: it's defined as Unix epoch.'.</summary>
+            /// <summary>Timestamp horizon for the data to be present in the new branch. **Note**: it's defined as Unix epoch.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#parent_timestamp Branch#parent_timestamp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#parent_timestamp Branch#parent_timestamp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentTimestamp", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace neon.Branch
             /// <remarks>
             /// Set whether the branch is protected.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/branch#protected Branch#protected}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/branch#protected Branch#protected}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "protected", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

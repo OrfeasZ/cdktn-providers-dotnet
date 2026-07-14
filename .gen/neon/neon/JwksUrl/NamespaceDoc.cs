@@ -5,7 +5,7 @@ namespace neon.JwksUrl
     /// <remarks>
     /// <h1><c>neon_jwks_url</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/resources/jwks_url"><c>neon_jwks_url</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url"><c>neon_jwks_url</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

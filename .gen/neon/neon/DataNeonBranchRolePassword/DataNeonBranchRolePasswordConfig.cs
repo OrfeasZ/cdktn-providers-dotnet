@@ -11,7 +11,7 @@ namespace neon.DataNeonBranchRolePassword
     {
         /// <summary>Branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_role_password#branch_id DataNeonBranchRolePassword#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_role_password#branch_id DataNeonBranchRolePassword#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchId
@@ -22,7 +22,7 @@ namespace neon.DataNeonBranchRolePassword
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_role_password#project_id DataNeonBranchRolePassword#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_role_password#project_id DataNeonBranchRolePassword#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -33,7 +33,7 @@ namespace neon.DataNeonBranchRolePassword
 
         /// <summary>Role name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_role_password#role_name DataNeonBranchRolePassword#role_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_role_password#role_name DataNeonBranchRolePassword#role_name}
         /// </remarks>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
@@ -42,7 +42,7 @@ namespace neon.DataNeonBranchRolePassword
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.13.0/docs/data-sources/branch_role_password#id DataNeonBranchRolePassword#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_role_password#id DataNeonBranchRolePassword#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
