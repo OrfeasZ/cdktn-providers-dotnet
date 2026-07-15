@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupManagedInstances
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstanceGroupManagedInstances.DataOciOsManagementHubManagedInstanceGroupManagedInstancesFilter")]
     public class DataOciOsManagementHubManagedInstanceGroupManagedInstancesFilter : oci.DataOciOsManagementHubManagedInstanceGroupManagedInstances.IDataOciOsManagementHubManagedInstanceGroupManagedInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#name DataOciOsManagementHubManagedInstanceGroupManagedInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#name DataOciOsManagementHubManagedInstanceGroupManagedInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupManagedInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#values DataOciOsManagementHubManagedInstanceGroupManagedInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#values DataOciOsManagementHubManagedInstanceGroupManagedInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupManagedInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#regex DataOciOsManagementHubManagedInstanceGroupManagedInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_managed_instances#regex DataOciOsManagementHubManagedInstanceGroupManagedInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

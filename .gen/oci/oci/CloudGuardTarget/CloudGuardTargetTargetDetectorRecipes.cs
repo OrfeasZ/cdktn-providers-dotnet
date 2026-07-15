@@ -9,7 +9,7 @@ namespace oci.CloudGuardTarget
     [JsiiByValue(fqn: "oci.cloudGuardTarget.CloudGuardTargetTargetDetectorRecipes")]
     public class CloudGuardTargetTargetDetectorRecipes : oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_guard_target#detector_recipe_id CloudGuardTarget#detector_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_guard_target#detector_recipe_id CloudGuardTarget#detector_recipe_id}.</summary>
         [JsiiProperty(name: "detectorRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DetectorRecipeId
         {
@@ -21,7 +21,7 @@ namespace oci.CloudGuardTarget
 
         /// <summary>detector_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/cloud_guard_target#detector_rules CloudGuardTarget#detector_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_guard_target#detector_rules CloudGuardTarget#detector_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetDetectorRecipesDetectorRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

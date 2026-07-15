@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceResourcePrincipalConfigurations.DataOciBdsBdsInstanceResourcePrincipalConfigurationsFilter")]
     public class DataOciBdsBdsInstanceResourcePrincipalConfigurationsFilter : oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations.IDataOciBdsBdsInstanceResourcePrincipalConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#name DataOciBdsBdsInstanceResourcePrincipalConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#name DataOciBdsBdsInstanceResourcePrincipalConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#values DataOciBdsBdsInstanceResourcePrincipalConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#values DataOciBdsBdsInstanceResourcePrincipalConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsInstanceResourcePrincipalConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#regex DataOciBdsBdsInstanceResourcePrincipalConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_resource_principal_configurations#regex DataOciBdsBdsInstanceResourcePrincipalConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

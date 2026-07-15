@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsConnection
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsConnectionConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsConnection.DataOciDatabaseToolsDatabaseToolsConnectionConfig")]
     public interface IDataOciDatabaseToolsDatabaseToolsConnectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsConnectionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_connection#database_tools_connection_id DataOciDatabaseToolsDatabaseToolsConnection#database_tools_connection_id}.</summary>
             [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsConnectionId
             {

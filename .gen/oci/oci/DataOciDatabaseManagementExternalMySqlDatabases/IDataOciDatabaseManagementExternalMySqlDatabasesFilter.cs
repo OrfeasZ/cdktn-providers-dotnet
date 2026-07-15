@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalMySqlDatabasesFilter), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalMySqlDatabases.DataOciDatabaseManagementExternalMySqlDatabasesFilter")]
     public interface IDataOciDatabaseManagementExternalMySqlDatabasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#name DataOciDatabaseManagementExternalMySqlDatabases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#name DataOciDatabaseManagementExternalMySqlDatabases#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#values DataOciDatabaseManagementExternalMySqlDatabases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#values DataOciDatabaseManagementExternalMySqlDatabases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#regex DataOciDatabaseManagementExternalMySqlDatabases#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#regex DataOciDatabaseManagementExternalMySqlDatabases#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#name DataOciDatabaseManagementExternalMySqlDatabases#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#name DataOciDatabaseManagementExternalMySqlDatabases#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#values DataOciDatabaseManagementExternalMySqlDatabases#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#values DataOciDatabaseManagementExternalMySqlDatabases#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_my_sql_databases#regex DataOciDatabaseManagementExternalMySqlDatabases#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_databases#regex DataOciDatabaseManagementExternalMySqlDatabases#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

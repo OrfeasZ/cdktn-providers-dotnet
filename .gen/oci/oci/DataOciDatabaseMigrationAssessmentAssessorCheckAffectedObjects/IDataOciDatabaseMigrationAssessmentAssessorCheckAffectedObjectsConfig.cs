@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsConfig")]
     public interface IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string AssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessor_name}.</summary>
         [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
         string AssessorName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#check_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#check_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#check_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#check_name}.</summary>
         [JsiiProperty(name: "checkName", typeJson: "{\"primitive\":\"string\"}")]
         string CheckName
         {
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#filter DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#filter DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,21 +65,21 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessment_id}.</summary>
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessor_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#assessor_name}.</summary>
             [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessorName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#check_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#check_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#check_name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#check_name}.</summary>
             [JsiiProperty(name: "checkName", typeJson: "{\"primitive\":\"string\"}")]
             public string CheckName
             {
@@ -88,7 +88,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#filter DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#filter DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -98,7 +98,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#id DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

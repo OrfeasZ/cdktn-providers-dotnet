@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerHealth
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerNetworkLoadBalancerHealth.DataOciNetworkLoadBalancerNetworkLoadBalancerHealthConfig")]
     public class DataOciNetworkLoadBalancerNetworkLoadBalancerHealthConfig : oci.DataOciNetworkLoadBalancerNetworkLoadBalancerHealth.IDataOciNetworkLoadBalancerNetworkLoadBalancerHealthConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_load_balancer_network_load_balancer_health#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancerHealth#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_load_balancer_network_load_balancer_health#network_load_balancer_id DataOciNetworkLoadBalancerNetworkLoadBalancerHealth#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancerHealth
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_load_balancer_network_load_balancer_health#id DataOciNetworkLoadBalancerNetworkLoadBalancerHealth#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_load_balancer_network_load_balancer_health#id DataOciNetworkLoadBalancerNetworkLoadBalancerHealth#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

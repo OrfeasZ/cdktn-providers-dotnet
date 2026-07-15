@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesUsagePlans")]
     public class ApigatewayDeploymentSpecificationRequestPoliciesUsagePlans : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesUsagePlans
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apigateway_deployment#token_locations ApigatewayDeployment#token_locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#token_locations ApigatewayDeployment#token_locations}.</summary>
         [JsiiProperty(name: "tokenLocations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] TokenLocations
         {

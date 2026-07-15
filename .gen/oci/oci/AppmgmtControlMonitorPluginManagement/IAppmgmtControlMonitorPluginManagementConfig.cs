@@ -7,14 +7,14 @@ namespace oci.AppmgmtControlMonitorPluginManagement
     [JsiiInterface(nativeType: typeof(IAppmgmtControlMonitorPluginManagementConfig), fullyQualifiedName: "oci.appmgmtControlMonitorPluginManagement.AppmgmtControlMonitorPluginManagementConfig")]
     public interface IAppmgmtControlMonitorPluginManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#monitored_instance_id AppmgmtControlMonitorPluginManagement#monitored_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#monitored_instance_id AppmgmtControlMonitorPluginManagement#monitored_instance_id}.</summary>
         [JsiiProperty(name: "monitoredInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitoredInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#id AppmgmtControlMonitorPluginManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#id AppmgmtControlMonitorPluginManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.AppmgmtControlMonitorPluginManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#timeouts AppmgmtControlMonitorPluginManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#timeouts AppmgmtControlMonitorPluginManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.appmgmtControlMonitorPluginManagement.AppmgmtControlMonitorPluginManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace oci.AppmgmtControlMonitorPluginManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#monitored_instance_id AppmgmtControlMonitorPluginManagement#monitored_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#monitored_instance_id AppmgmtControlMonitorPluginManagement#monitored_instance_id}.</summary>
             [JsiiProperty(name: "monitoredInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitoredInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#id AppmgmtControlMonitorPluginManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#id AppmgmtControlMonitorPluginManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.AppmgmtControlMonitorPluginManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/appmgmt_control_monitor_plugin_management#timeouts AppmgmtControlMonitorPluginManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/appmgmt_control_monitor_plugin_management#timeouts AppmgmtControlMonitorPluginManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.appmgmtControlMonitorPluginManagement.AppmgmtControlMonitorPluginManagementTimeouts\"}", isOptional: true)]

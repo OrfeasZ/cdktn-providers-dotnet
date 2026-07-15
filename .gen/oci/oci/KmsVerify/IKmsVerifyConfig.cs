@@ -7,49 +7,49 @@ namespace oci.KmsVerify
     [JsiiInterface(nativeType: typeof(IKmsVerifyConfig), fullyQualifiedName: "oci.kmsVerify.KmsVerifyConfig")]
     public interface IKmsVerifyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#crypto_endpoint KmsVerify#crypto_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#crypto_endpoint KmsVerify#crypto_endpoint}.</summary>
         [JsiiProperty(name: "cryptoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string CryptoEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#key_id KmsVerify#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#key_id KmsVerify#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#key_version_id KmsVerify#key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#key_version_id KmsVerify#key_version_id}.</summary>
         [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyVersionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#message KmsVerify#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#message KmsVerify#message}.</summary>
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}")]
         string Message
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#signature KmsVerify#signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#signature KmsVerify#signature}.</summary>
         [JsiiProperty(name: "signature", typeJson: "{\"primitive\":\"string\"}")]
         string Signature
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#signing_algorithm KmsVerify#signing_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#signing_algorithm KmsVerify#signing_algorithm}.</summary>
         [JsiiProperty(name: "signingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         string SigningAlgorithm
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#id KmsVerify#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#id KmsVerify#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.KmsVerify
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#message_type KmsVerify#message_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#message_type KmsVerify#message_type}.</summary>
         [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MessageType
@@ -77,7 +77,7 @@ namespace oci.KmsVerify
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#timeouts KmsVerify#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#timeouts KmsVerify#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsVerify.KmsVerifyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,49 +96,49 @@ namespace oci.KmsVerify
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#crypto_endpoint KmsVerify#crypto_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#crypto_endpoint KmsVerify#crypto_endpoint}.</summary>
             [JsiiProperty(name: "cryptoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string CryptoEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#key_id KmsVerify#key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#key_id KmsVerify#key_id}.</summary>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#key_version_id KmsVerify#key_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#key_version_id KmsVerify#key_version_id}.</summary>
             [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyVersionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#message KmsVerify#message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#message KmsVerify#message}.</summary>
             [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}")]
             public string Message
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#signature KmsVerify#signature}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#signature KmsVerify#signature}.</summary>
             [JsiiProperty(name: "signature", typeJson: "{\"primitive\":\"string\"}")]
             public string Signature
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#signing_algorithm KmsVerify#signing_algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#signing_algorithm KmsVerify#signing_algorithm}.</summary>
             [JsiiProperty(name: "signingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
             public string SigningAlgorithm
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#id KmsVerify#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#id KmsVerify#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ namespace oci.KmsVerify
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#message_type KmsVerify#message_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#message_type KmsVerify#message_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MessageType
@@ -160,7 +160,7 @@ namespace oci.KmsVerify
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_verify#timeouts KmsVerify#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_verify#timeouts KmsVerify#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsVerify.KmsVerifyTimeouts\"}", isOptional: true)]

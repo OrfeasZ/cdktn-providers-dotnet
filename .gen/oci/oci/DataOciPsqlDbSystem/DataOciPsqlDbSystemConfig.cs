@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlDbSystem
     [JsiiByValue(fqn: "oci.dataOciPsqlDbSystem.DataOciPsqlDbSystemConfig")]
     public class DataOciPsqlDbSystemConfig : oci.DataOciPsqlDbSystem.IDataOciPsqlDbSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludedFields", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExcludedFields

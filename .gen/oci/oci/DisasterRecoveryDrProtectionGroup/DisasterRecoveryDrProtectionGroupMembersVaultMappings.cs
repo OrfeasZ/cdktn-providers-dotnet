@@ -7,7 +7,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersVaultMappings")]
     public class DisasterRecoveryDrProtectionGroupMembersVaultMappings : oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersVaultMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationVaultId
@@ -16,7 +16,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceVaultId

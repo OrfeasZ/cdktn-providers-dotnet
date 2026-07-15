@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbSystemConnectors.DataOciDatabaseManagementCloudDbSystemConnectorsFilter")]
     public class DataOciDatabaseManagementCloudDbSystemConnectorsFilter : oci.DataOciDatabaseManagementCloudDbSystemConnectors.IDataOciDatabaseManagementCloudDbSystemConnectorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_connectors#name DataOciDatabaseManagementCloudDbSystemConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_system_connectors#name DataOciDatabaseManagementCloudDbSystemConnectors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_connectors#values DataOciDatabaseManagementCloudDbSystemConnectors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_system_connectors#values DataOciDatabaseManagementCloudDbSystemConnectors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnectors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_connectors#regex DataOciDatabaseManagementCloudDbSystemConnectors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_system_connectors#regex DataOciDatabaseManagementCloudDbSystemConnectors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.RedisOciCacheUser
     [JsiiInterface(nativeType: typeof(IRedisOciCacheUserAuthenticationMode), fullyQualifiedName: "oci.redisOciCacheUser.RedisOciCacheUserAuthenticationMode")]
     public interface IRedisOciCacheUserAuthenticationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
         string AuthenticationType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
         [JsiiProperty(name: "hashedPasswords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? HashedPasswords
@@ -32,14 +32,14 @@ namespace oci.RedisOciCacheUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_oci_cache_user#authentication_type RedisOciCacheUser#authentication_type}.</summary>
             [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
             public string AuthenticationType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_oci_cache_user#hashed_passwords RedisOciCacheUser#hashed_passwords}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hashedPasswords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? HashedPasswords

@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadReport
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaDownloadReport.DataOciJmsJavaDownloadsJavaDownloadReportConfig")]
     public class DataOciJmsJavaDownloadsJavaDownloadReportConfig : oci.DataOciJmsJavaDownloadsJavaDownloadReport.IDataOciJmsJavaDownloadsJavaDownloadReportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_download_report#java_download_report_id DataOciJmsJavaDownloadsJavaDownloadReport#java_download_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_download_report#java_download_report_id DataOciJmsJavaDownloadsJavaDownloadReport#java_download_report_id}.</summary>
         [JsiiProperty(name: "javaDownloadReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string JavaDownloadReportId
         {

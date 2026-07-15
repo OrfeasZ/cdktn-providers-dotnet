@@ -7,7 +7,7 @@ namespace oci.DataOciContainerInstancesContainerInstance
     [JsiiInterface(nativeType: typeof(IDataOciContainerInstancesContainerInstanceConfig), fullyQualifiedName: "oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceConfig")]
     public interface IDataOciContainerInstancesContainerInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
         [JsiiProperty(name: "containerInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciContainerInstancesContainerInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
             [JsiiProperty(name: "containerInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerInstanceId
             {

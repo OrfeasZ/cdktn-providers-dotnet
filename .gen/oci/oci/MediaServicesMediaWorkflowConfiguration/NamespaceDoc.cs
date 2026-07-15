@@ -5,7 +5,7 @@ namespace oci.MediaServicesMediaWorkflowConfiguration
     /// <remarks>
     /// <h1><c>oci_media_services_media_workflow_configuration</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_media_workflow_configuration"><c>oci_media_services_media_workflow_configuration</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_media_workflow_configuration"><c>oci_media_services_media_workflow_configuration</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

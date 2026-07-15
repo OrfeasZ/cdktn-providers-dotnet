@@ -9,7 +9,7 @@ namespace oci.FileStorageFileSystem
     [JsiiByValue(fqn: "oci.fileStorageFileSystem.FileStorageFileSystemLocks")]
     public class FileStorageFileSystemLocks : oci.FileStorageFileSystem.IFileStorageFileSystemLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_file_system#type FileStorageFileSystem#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_file_system#type FileStorageFileSystem#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_file_system#message FileStorageFileSystem#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_file_system#message FileStorageFileSystem#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -26,7 +26,7 @@ namespace oci.FileStorageFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_file_system#related_resource_id FileStorageFileSystem#related_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_file_system#related_resource_id FileStorageFileSystem#related_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelatedResourceId
@@ -35,7 +35,7 @@ namespace oci.FileStorageFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_file_system#time_created FileStorageFileSystem#time_created}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_file_system#time_created FileStorageFileSystem#time_created}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreated

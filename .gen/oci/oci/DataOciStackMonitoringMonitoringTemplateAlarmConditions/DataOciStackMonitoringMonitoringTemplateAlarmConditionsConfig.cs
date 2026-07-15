@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringMonitoringTemplateAlarmConditions.DataOciStackMonitoringMonitoringTemplateAlarmConditionsConfig")]
     public class DataOciStackMonitoringMonitoringTemplateAlarmConditionsConfig : oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions.IDataOciStackMonitoringMonitoringTemplateAlarmConditionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#alarm_condition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#alarm_condition_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#alarm_condition_id}.</summary>
         [JsiiProperty(name: "alarmConditionId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmConditionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#monitoring_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#monitoring_template_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#monitoring_template_id}.</summary>
         [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitoringTemplateId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#compartment_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#compartment_id DataOciStackMonitoringMonitoringTemplateAlarmConditions#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -38,7 +38,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#filter DataOciStackMonitoringMonitoringTemplateAlarmConditions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#filter DataOciStackMonitoringMonitoringTemplateAlarmConditions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions.IDataOciStackMonitoringMonitoringTemplateAlarmConditionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#id DataOciStackMonitoringMonitoringTemplateAlarmConditions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#id DataOciStackMonitoringMonitoringTemplateAlarmConditions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#metric_name DataOciStackMonitoringMonitoringTemplateAlarmConditions#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#metric_name DataOciStackMonitoringMonitoringTemplateAlarmConditions#metric_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MetricName
@@ -91,7 +91,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#resource_types DataOciStackMonitoringMonitoringTemplateAlarmConditions#resource_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#resource_types DataOciStackMonitoringMonitoringTemplateAlarmConditions#resource_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ResourceTypes
@@ -100,7 +100,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#state DataOciStackMonitoringMonitoringTemplateAlarmConditions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#state DataOciStackMonitoringMonitoringTemplateAlarmConditions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -109,7 +109,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplateAlarmConditions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#status DataOciStackMonitoringMonitoringTemplateAlarmConditions#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_monitoring_template_alarm_conditions#status DataOciStackMonitoringMonitoringTemplateAlarmConditions#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

@@ -7,7 +7,7 @@ namespace oci.DatabaseDataPatch
     [JsiiInterface(nativeType: typeof(IDatabaseDataPatchDataPatchOptions), fullyQualifiedName: "oci.databaseDataPatch.DatabaseDataPatchDataPatchOptions")]
     public interface IDatabaseDataPatchDataPatchOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_data_patch#should_skip_closed_pdbs DatabaseDataPatch#should_skip_closed_pdbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_data_patch#should_skip_closed_pdbs DatabaseDataPatch#should_skip_closed_pdbs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.DatabaseDataPatch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_data_patch#should_skip_closed_pdbs DatabaseDataPatch#should_skip_closed_pdbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_data_patch#should_skip_closed_pdbs DatabaseDataPatch#should_skip_closed_pdbs}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

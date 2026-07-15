@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter")]
     public class DataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter : oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.IDataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeDiscoverySchedule
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeDiscoverySchedule.DataOciCloudBridgeDiscoveryScheduleConfig")]
     public class DataOciCloudBridgeDiscoveryScheduleConfig : oci.DataOciCloudBridgeDiscoverySchedule.IDataOciCloudBridgeDiscoveryScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_discovery_schedule#discovery_schedule_id DataOciCloudBridgeDiscoverySchedule#discovery_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_discovery_schedule#discovery_schedule_id DataOciCloudBridgeDiscoverySchedule#discovery_schedule_id}.</summary>
         [JsiiProperty(name: "discoveryScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string DiscoveryScheduleId
         {

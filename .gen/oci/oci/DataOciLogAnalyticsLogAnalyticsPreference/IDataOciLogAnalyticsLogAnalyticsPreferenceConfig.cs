@@ -7,14 +7,14 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsPreference
     [JsiiInterface(nativeType: typeof(IDataOciLogAnalyticsLogAnalyticsPreferenceConfig), fullyQualifiedName: "oci.dataOciLogAnalyticsLogAnalyticsPreference.DataOciLogAnalyticsLogAnalyticsPreferenceConfig")]
     public interface IDataOciLogAnalyticsLogAnalyticsPreferenceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsPreference
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_preference#namespace DataOciLogAnalyticsLogAnalyticsPreference#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_preference#id DataOciLogAnalyticsLogAnalyticsPreference#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

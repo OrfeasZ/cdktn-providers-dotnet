@@ -9,7 +9,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscriptions
     [JsiiByValue(fqn: "oci.dataOciDelegateAccessControlDelegationSubscriptions.DataOciDelegateAccessControlDelegationSubscriptionsFilter")]
     public class DataOciDelegateAccessControlDelegationSubscriptionsFilter : oci.DataOciDelegateAccessControlDelegationSubscriptions.IDataOciDelegateAccessControlDelegationSubscriptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/delegate_access_control_delegation_subscriptions#name DataOciDelegateAccessControlDelegationSubscriptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/delegate_access_control_delegation_subscriptions#name DataOciDelegateAccessControlDelegationSubscriptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/delegate_access_control_delegation_subscriptions#values DataOciDelegateAccessControlDelegationSubscriptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/delegate_access_control_delegation_subscriptions#values DataOciDelegateAccessControlDelegationSubscriptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscriptions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/delegate_access_control_delegation_subscriptions#regex DataOciDelegateAccessControlDelegationSubscriptions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/delegate_access_control_delegation_subscriptions#regex DataOciDelegateAccessControlDelegationSubscriptions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

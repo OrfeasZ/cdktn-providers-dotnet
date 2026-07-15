@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJmsPlugin
     [JsiiInterface(nativeType: typeof(IDataOciJmsJmsPluginConfig), fullyQualifiedName: "oci.dataOciJmsJmsPlugin.DataOciJmsJmsPluginConfig")]
     public interface IDataOciJmsJmsPluginConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
         [JsiiProperty(name: "jmsPluginId", typeJson: "{\"primitive\":\"string\"}")]
         string JmsPluginId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsJmsPlugin
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
             [JsiiProperty(name: "jmsPluginId", typeJson: "{\"primitive\":\"string\"}")]
             public string JmsPluginId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobs
     [JsiiByValue(fqn: "oci.dataOciMediaServicesMediaWorkflowJobs.DataOciMediaServicesMediaWorkflowJobsFilter")]
     public class DataOciMediaServicesMediaWorkflowJobsFilter : oci.DataOciMediaServicesMediaWorkflowJobs.IDataOciMediaServicesMediaWorkflowJobsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_jobs#name DataOciMediaServicesMediaWorkflowJobs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_jobs#name DataOciMediaServicesMediaWorkflowJobs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_jobs#values DataOciMediaServicesMediaWorkflowJobs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_jobs#values DataOciMediaServicesMediaWorkflowJobs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJobs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_jobs#regex DataOciMediaServicesMediaWorkflowJobs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_jobs#regex DataOciMediaServicesMediaWorkflowJobs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

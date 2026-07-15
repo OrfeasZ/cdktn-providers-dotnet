@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpSddc
     [JsiiByValue(fqn: "oci.dataOciOcvpSddc.DataOciOcvpSddcConfig")]
     public class DataOciOcvpSddcConfig : oci.DataOciOcvpSddc.IDataOciOcvpSddcConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_sddc#sddc_id DataOciOcvpSddc#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_sddc#sddc_id DataOciOcvpSddc#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         public string SddcId
         {

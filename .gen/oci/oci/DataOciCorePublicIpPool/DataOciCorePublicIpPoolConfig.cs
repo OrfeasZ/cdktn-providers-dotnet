@@ -9,7 +9,7 @@ namespace oci.DataOciCorePublicIpPool
     [JsiiByValue(fqn: "oci.dataOciCorePublicIpPool.DataOciCorePublicIpPoolConfig")]
     public class DataOciCorePublicIpPoolConfig : oci.DataOciCorePublicIpPool.IDataOciCorePublicIpPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_public_ip_pool#public_ip_pool_id DataOciCorePublicIpPool#public_ip_pool_id}.</summary>
         [JsiiProperty(name: "publicIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicIpPoolId
         {

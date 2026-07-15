@@ -7,7 +7,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolApiMetadatas.DataOciApiaccesscontrolApiMetadatasConfig")]
     public class DataOciApiaccesscontrolApiMetadatasConfig : oci.DataOciApiaccesscontrolApiMetadatas.IDataOciApiaccesscontrolApiMetadatasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#compartment_id DataOciApiaccesscontrolApiMetadatas#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#compartment_id DataOciApiaccesscontrolApiMetadatas#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#display_name DataOciApiaccesscontrolApiMetadatas#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#display_name DataOciApiaccesscontrolApiMetadatas#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#filter DataOciApiaccesscontrolApiMetadatas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#filter DataOciApiaccesscontrolApiMetadatas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApiaccesscontrolApiMetadatas.IDataOciApiaccesscontrolApiMetadatasFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#id DataOciApiaccesscontrolApiMetadatas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#id DataOciApiaccesscontrolApiMetadatas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#resource_type DataOciApiaccesscontrolApiMetadatas#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#resource_type DataOciApiaccesscontrolApiMetadatas#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -82,7 +82,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apiaccesscontrol_api_metadatas#state DataOciApiaccesscontrolApiMetadatas#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadatas#state DataOciApiaccesscontrolApiMetadatas#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

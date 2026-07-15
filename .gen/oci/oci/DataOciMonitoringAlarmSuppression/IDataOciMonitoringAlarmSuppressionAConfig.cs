@@ -7,7 +7,7 @@ namespace oci.DataOciMonitoringAlarmSuppression
     [JsiiInterface(nativeType: typeof(IDataOciMonitoringAlarmSuppressionAConfig), fullyQualifiedName: "oci.dataOciMonitoringAlarmSuppression.DataOciMonitoringAlarmSuppressionAConfig")]
     public interface IDataOciMonitoringAlarmSuppressionAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
         [JsiiProperty(name: "alarmSuppressionId", typeJson: "{\"primitive\":\"string\"}")]
         string AlarmSuppressionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMonitoringAlarmSuppression
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
             [JsiiProperty(name: "alarmSuppressionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlarmSuppressionId
             {

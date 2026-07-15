@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstancePatchAction
     [JsiiByValue(fqn: "oci.bdsBdsInstancePatchAction.BdsBdsInstancePatchActionTimeouts")]
     public class BdsBdsInstancePatchActionTimeouts : oci.BdsBdsInstancePatchAction.IBdsBdsInstancePatchActionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_patch_action#create BdsBdsInstancePatchAction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_patch_action#create BdsBdsInstancePatchAction#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_patch_action#delete BdsBdsInstancePatchAction#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_patch_action#delete BdsBdsInstancePatchAction#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstancePatchAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_instance_patch_action#update BdsBdsInstancePatchAction#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_patch_action#update BdsBdsInstancePatchAction#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

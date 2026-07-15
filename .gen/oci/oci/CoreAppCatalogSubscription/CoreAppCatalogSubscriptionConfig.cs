@@ -9,7 +9,7 @@ namespace oci.CoreAppCatalogSubscription
     [JsiiByValue(fqn: "oci.coreAppCatalogSubscription.CoreAppCatalogSubscriptionConfig")]
     public class CoreAppCatalogSubscriptionConfig : oci.CoreAppCatalogSubscription.ICoreAppCatalogSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#compartment_id CoreAppCatalogSubscription#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#compartment_id CoreAppCatalogSubscription#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#listing_id CoreAppCatalogSubscription#listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#listing_id CoreAppCatalogSubscription#listing_id}.</summary>
         [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}")]
         public string ListingId
         {
@@ -25,7 +25,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#listing_resource_version CoreAppCatalogSubscription#listing_resource_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#listing_resource_version CoreAppCatalogSubscription#listing_resource_version}.</summary>
         [JsiiProperty(name: "listingResourceVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string ListingResourceVersion
         {
@@ -33,7 +33,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#oracle_terms_of_use_link CoreAppCatalogSubscription#oracle_terms_of_use_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#oracle_terms_of_use_link CoreAppCatalogSubscription#oracle_terms_of_use_link}.</summary>
         [JsiiProperty(name: "oracleTermsOfUseLink", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleTermsOfUseLink
         {
@@ -41,7 +41,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#signature CoreAppCatalogSubscription#signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#signature CoreAppCatalogSubscription#signature}.</summary>
         [JsiiProperty(name: "signature", typeJson: "{\"primitive\":\"string\"}")]
         public string Signature
         {
@@ -49,7 +49,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#time_retrieved CoreAppCatalogSubscription#time_retrieved}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#time_retrieved CoreAppCatalogSubscription#time_retrieved}.</summary>
         [JsiiProperty(name: "timeRetrieved", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeRetrieved
         {
@@ -57,7 +57,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#eula_link CoreAppCatalogSubscription#eula_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#eula_link CoreAppCatalogSubscription#eula_link}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eulaLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EulaLink
@@ -66,7 +66,7 @@ namespace oci.CoreAppCatalogSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#id CoreAppCatalogSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#id CoreAppCatalogSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.CoreAppCatalogSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_app_catalog_subscription#timeouts CoreAppCatalogSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_app_catalog_subscription#timeouts CoreAppCatalogSubscription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreAppCatalogSubscription.CoreAppCatalogSubscriptionTimeouts\"}", isOptional: true)]

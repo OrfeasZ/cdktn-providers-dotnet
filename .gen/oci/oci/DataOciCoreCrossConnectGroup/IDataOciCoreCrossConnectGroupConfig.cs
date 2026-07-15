@@ -7,7 +7,7 @@ namespace oci.DataOciCoreCrossConnectGroup
     [JsiiInterface(nativeType: typeof(IDataOciCoreCrossConnectGroupConfig), fullyQualifiedName: "oci.dataOciCoreCrossConnectGroup.DataOciCoreCrossConnectGroupConfig")]
     public interface IDataOciCoreCrossConnectGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
         [JsiiProperty(name: "crossConnectGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string CrossConnectGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreCrossConnectGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
             [JsiiProperty(name: "crossConnectGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string CrossConnectGroupId
             {

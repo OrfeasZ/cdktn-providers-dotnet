@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMySupportAccounts.DataOciIdentityDomainsMySupportAccountsConfig")]
     public class DataOciIdentityDomainsMySupportAccountsConfig : oci.DataOciIdentityDomainsMySupportAccounts.IDataOciIdentityDomainsMySupportAccountsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#idcs_endpoint DataOciIdentityDomainsMySupportAccounts#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#idcs_endpoint DataOciIdentityDomainsMySupportAccounts#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#authorization DataOciIdentityDomainsMySupportAccounts#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#authorization DataOciIdentityDomainsMySupportAccounts#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#compartment_id DataOciIdentityDomainsMySupportAccounts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#compartment_id DataOciIdentityDomainsMySupportAccounts#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#id DataOciIdentityDomainsMySupportAccounts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#id DataOciIdentityDomainsMySupportAccounts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#my_support_account_count DataOciIdentityDomainsMySupportAccounts#my_support_account_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#my_support_account_count DataOciIdentityDomainsMySupportAccounts#my_support_account_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mySupportAccountCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MySupportAccountCount
@@ -57,7 +57,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#my_support_account_filter DataOciIdentityDomainsMySupportAccounts#my_support_account_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#my_support_account_filter DataOciIdentityDomainsMySupportAccounts#my_support_account_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mySupportAccountFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MySupportAccountFilter
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#resource_type_schema_version DataOciIdentityDomainsMySupportAccounts#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#resource_type_schema_version DataOciIdentityDomainsMySupportAccounts#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#sort_by DataOciIdentityDomainsMySupportAccounts#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#sort_by DataOciIdentityDomainsMySupportAccounts#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#sort_order DataOciIdentityDomainsMySupportAccounts#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#sort_order DataOciIdentityDomainsMySupportAccounts#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_my_support_accounts#start_index DataOciIdentityDomainsMySupportAccounts#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_my_support_accounts#start_index DataOciIdentityDomainsMySupportAccounts#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex

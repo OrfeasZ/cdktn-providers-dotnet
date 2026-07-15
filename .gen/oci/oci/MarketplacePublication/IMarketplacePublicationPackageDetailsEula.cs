@@ -7,14 +7,14 @@ namespace oci.MarketplacePublication
     [JsiiInterface(nativeType: typeof(IMarketplacePublicationPackageDetailsEula), fullyQualifiedName: "oci.marketplacePublication.MarketplacePublicationPackageDetailsEula")]
     public interface IMarketplacePublicationPackageDetailsEula
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}.</summary>
         [JsiiProperty(name: "eulaType", typeJson: "{\"primitive\":\"string\"}")]
         string EulaType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}.</summary>
         [JsiiProperty(name: "licenseText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseText
@@ -32,14 +32,14 @@ namespace oci.MarketplacePublication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#eula_type MarketplacePublication#eula_type}.</summary>
             [JsiiProperty(name: "eulaType", typeJson: "{\"primitive\":\"string\"}")]
             public string EulaType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#license_text MarketplacePublication#license_text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseText

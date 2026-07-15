@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistory
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelGroupVersionHistory.DataOciDatascienceModelGroupVersionHistoryConfig")]
     public class DataOciDatascienceModelGroupVersionHistoryConfig : oci.DataOciDatascienceModelGroupVersionHistory.IDataOciDatascienceModelGroupVersionHistoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
         [JsiiProperty(name: "modelGroupVersionHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupVersionHistoryId
         {

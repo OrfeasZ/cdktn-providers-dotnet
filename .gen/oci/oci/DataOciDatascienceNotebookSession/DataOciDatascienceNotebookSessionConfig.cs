@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceNotebookSession
     [JsiiByValue(fqn: "oci.dataOciDatascienceNotebookSession.DataOciDatascienceNotebookSessionConfig")]
     public class DataOciDatascienceNotebookSessionConfig : oci.DataOciDatascienceNotebookSession.IDataOciDatascienceNotebookSessionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
         [JsiiProperty(name: "notebookSessionId", typeJson: "{\"primitive\":\"string\"}")]
         public string NotebookSessionId
         {

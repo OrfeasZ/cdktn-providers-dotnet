@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentFamilies.DataOciFusionAppsFusionEnvironmentFamiliesConfig")]
     public class DataOciFusionAppsFusionEnvironmentFamiliesConfig : oci.DataOciFusionAppsFusionEnvironmentFamilies.IDataOciFusionAppsFusionEnvironmentFamiliesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#compartment_id DataOciFusionAppsFusionEnvironmentFamilies#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#compartment_id DataOciFusionAppsFusionEnvironmentFamilies#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#display_name DataOciFusionAppsFusionEnvironmentFamilies#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#display_name DataOciFusionAppsFusionEnvironmentFamilies#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#filter DataOciFusionAppsFusionEnvironmentFamilies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#filter DataOciFusionAppsFusionEnvironmentFamilies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentFamilies.IDataOciFusionAppsFusionEnvironmentFamiliesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#fusion_environment_family_id DataOciFusionAppsFusionEnvironmentFamilies#fusion_environment_family_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#fusion_environment_family_id DataOciFusionAppsFusionEnvironmentFamilies#fusion_environment_family_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fusionEnvironmentFamilyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FusionEnvironmentFamilyId
@@ -70,7 +70,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#id DataOciFusionAppsFusionEnvironmentFamilies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#id DataOciFusionAppsFusionEnvironmentFamilies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fusion_apps_fusion_environment_families#state DataOciFusionAppsFusionEnvironmentFamilies#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fusion_apps_fusion_environment_families#state DataOciFusionAppsFusionEnvironmentFamilies#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

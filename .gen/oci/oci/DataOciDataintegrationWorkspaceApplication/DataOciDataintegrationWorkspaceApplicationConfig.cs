@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplication
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceApplication.DataOciDataintegrationWorkspaceApplicationConfig")]
     public class DataOciDataintegrationWorkspaceApplicationConfig : oci.DataOciDataintegrationWorkspaceApplication.IDataOciDataintegrationWorkspaceApplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_application#application_key DataOciDataintegrationWorkspaceApplication#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_application#application_key DataOciDataintegrationWorkspaceApplication#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_application#workspace_id DataOciDataintegrationWorkspaceApplication#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_application#workspace_id DataOciDataintegrationWorkspaceApplication#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

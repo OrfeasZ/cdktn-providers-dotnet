@@ -9,7 +9,7 @@ namespace oci.DataOciOnsNotificationTopic
     [JsiiByValue(fqn: "oci.dataOciOnsNotificationTopic.DataOciOnsNotificationTopicConfig")]
     public class DataOciOnsNotificationTopicConfig : oci.DataOciOnsNotificationTopic.IDataOciOnsNotificationTopicConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ons_notification_topic#topic_id DataOciOnsNotificationTopic#topic_id}.</summary>
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
         public string TopicId
         {

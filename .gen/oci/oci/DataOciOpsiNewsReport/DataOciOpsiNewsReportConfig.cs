@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiNewsReport
     [JsiiByValue(fqn: "oci.dataOciOpsiNewsReport.DataOciOpsiNewsReportConfig")]
     public class DataOciOpsiNewsReportConfig : oci.DataOciOpsiNewsReport.IDataOciOpsiNewsReportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_news_report#news_report_id DataOciOpsiNewsReport#news_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opsi_news_report#news_report_id DataOciOpsiNewsReport#news_report_id}.</summary>
         [JsiiProperty(name: "newsReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string NewsReportId
         {

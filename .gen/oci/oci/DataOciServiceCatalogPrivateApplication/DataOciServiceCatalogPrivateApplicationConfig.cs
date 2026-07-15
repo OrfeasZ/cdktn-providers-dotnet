@@ -9,7 +9,7 @@ namespace oci.DataOciServiceCatalogPrivateApplication
     [JsiiByValue(fqn: "oci.dataOciServiceCatalogPrivateApplication.DataOciServiceCatalogPrivateApplicationConfig")]
     public class DataOciServiceCatalogPrivateApplicationConfig : oci.DataOciServiceCatalogPrivateApplication.IDataOciServiceCatalogPrivateApplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
         [JsiiProperty(name: "privateApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateApplicationId
         {

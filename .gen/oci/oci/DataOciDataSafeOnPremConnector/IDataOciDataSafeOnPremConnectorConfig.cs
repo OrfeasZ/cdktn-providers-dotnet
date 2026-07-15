@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeOnPremConnector
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeOnPremConnectorConfig), fullyQualifiedName: "oci.dataOciDataSafeOnPremConnector.DataOciDataSafeOnPremConnectorConfig")]
     public interface IDataOciDataSafeOnPremConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
         [JsiiProperty(name: "onPremConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OnPremConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeOnPremConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
             [JsiiProperty(name: "onPremConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OnPremConnectorId
             {

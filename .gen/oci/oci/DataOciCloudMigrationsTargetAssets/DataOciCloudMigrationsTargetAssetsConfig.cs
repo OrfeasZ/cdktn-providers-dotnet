@@ -7,7 +7,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
     [JsiiByValue(fqn: "oci.dataOciCloudMigrationsTargetAssets.DataOciCloudMigrationsTargetAssetsConfig")]
     public class DataOciCloudMigrationsTargetAssetsConfig : oci.DataOciCloudMigrationsTargetAssets.IDataOciCloudMigrationsTargetAssetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#display_name DataOciCloudMigrationsTargetAssets#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#display_name DataOciCloudMigrationsTargetAssets#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -20,7 +20,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#filter DataOciCloudMigrationsTargetAssets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#filter DataOciCloudMigrationsTargetAssets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudMigrationsTargetAssets.IDataOciCloudMigrationsTargetAssetsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#id DataOciCloudMigrationsTargetAssets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#id DataOciCloudMigrationsTargetAssets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#migration_plan_id DataOciCloudMigrationsTargetAssets#migration_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#migration_plan_id DataOciCloudMigrationsTargetAssets#migration_plan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "migrationPlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MigrationPlanId
@@ -73,7 +73,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#state DataOciCloudMigrationsTargetAssets#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#state DataOciCloudMigrationsTargetAssets#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -82,7 +82,7 @@ namespace oci.DataOciCloudMigrationsTargetAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_migrations_target_assets#target_asset_id DataOciCloudMigrationsTargetAssets#target_asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_target_assets#target_asset_id DataOciCloudMigrationsTargetAssets#target_asset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetAssetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetAssetId

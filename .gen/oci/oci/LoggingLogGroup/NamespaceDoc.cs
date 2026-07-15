@@ -5,7 +5,7 @@ namespace oci.LoggingLogGroup
     /// <remarks>
     /// <h1><c>oci_logging_log_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/logging_log_group"><c>oci_logging_log_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/logging_log_group"><c>oci_logging_log_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

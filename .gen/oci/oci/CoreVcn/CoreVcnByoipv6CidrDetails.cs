@@ -9,7 +9,7 @@ namespace oci.CoreVcn
     [JsiiByValue(fqn: "oci.coreVcn.CoreVcnByoipv6CidrDetails")]
     public class CoreVcnByoipv6CidrDetails : oci.CoreVcn.ICoreVcnByoipv6CidrDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vcn#byoipv6range_id CoreVcn#byoipv6range_id}.</summary>
         [JsiiProperty(name: "byoipv6RangeId", typeJson: "{\"primitive\":\"string\"}")]
         public string Byoipv6RangeId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreVcn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vcn#ipv6cidr_block CoreVcn#ipv6cidr_block}.</summary>
         [JsiiProperty(name: "ipv6CidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         public string Ipv6CidrBlock
         {

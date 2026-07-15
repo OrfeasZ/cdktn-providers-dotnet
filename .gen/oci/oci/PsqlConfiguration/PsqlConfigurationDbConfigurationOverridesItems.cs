@@ -9,7 +9,7 @@ namespace oci.PsqlConfiguration
     [JsiiByValue(fqn: "oci.psqlConfiguration.PsqlConfigurationDbConfigurationOverridesItems")]
     public class PsqlConfigurationDbConfigurationOverridesItems : oci.PsqlConfiguration.IPsqlConfigurationDbConfigurationOverridesItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_configuration#config_key PsqlConfiguration#config_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_configuration#config_key PsqlConfiguration#config_key}.</summary>
         [JsiiProperty(name: "configKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigKey
         {
@@ -17,7 +17,7 @@ namespace oci.PsqlConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_configuration#overriden_config_value PsqlConfiguration#overriden_config_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_configuration#overriden_config_value PsqlConfiguration#overriden_config_value}.</summary>
         [JsiiProperty(name: "overridenConfigValue", typeJson: "{\"primitive\":\"string\"}")]
         public string OverridenConfigValue
         {

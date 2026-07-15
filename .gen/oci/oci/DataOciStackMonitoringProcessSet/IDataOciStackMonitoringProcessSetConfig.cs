@@ -7,7 +7,7 @@ namespace oci.DataOciStackMonitoringProcessSet
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringProcessSetConfig), fullyQualifiedName: "oci.dataOciStackMonitoringProcessSet.DataOciStackMonitoringProcessSetConfig")]
     public interface IDataOciStackMonitoringProcessSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
         [JsiiProperty(name: "processSetId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessSetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStackMonitoringProcessSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/stack_monitoring_process_set#process_set_id DataOciStackMonitoringProcessSet#process_set_id}.</summary>
             [JsiiProperty(name: "processSetId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessSetId
             {

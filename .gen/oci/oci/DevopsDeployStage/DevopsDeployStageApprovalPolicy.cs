@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageApprovalPolicy")]
     public class DevopsDeployStageApprovalPolicy : oci.DevopsDeployStage.IDevopsDeployStageApprovalPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#approval_policy_type DevopsDeployStage#approval_policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#approval_policy_type DevopsDeployStage#approval_policy_type}.</summary>
         [JsiiProperty(name: "approvalPolicyType", typeJson: "{\"primitive\":\"string\"}")]
         public string ApprovalPolicyType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#number_of_approvals_required DevopsDeployStage#number_of_approvals_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#number_of_approvals_required DevopsDeployStage#number_of_approvals_required}.</summary>
         [JsiiProperty(name: "numberOfApprovalsRequired", typeJson: "{\"primitive\":\"number\"}")]
         public double NumberOfApprovalsRequired
         {

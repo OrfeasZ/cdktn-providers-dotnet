@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesMediaWorkflowConfigurationConfig), fullyQualifiedName: "oci.dataOciMediaServicesMediaWorkflowConfiguration.DataOciMediaServicesMediaWorkflowConfigurationConfig")]
     public interface IDataOciMediaServicesMediaWorkflowConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
         [JsiiProperty(name: "mediaWorkflowConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string MediaWorkflowConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
             [JsiiProperty(name: "mediaWorkflowConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MediaWorkflowConfigurationId
             {

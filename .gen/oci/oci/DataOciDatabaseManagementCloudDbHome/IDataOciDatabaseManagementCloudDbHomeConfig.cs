@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHome
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudDbHomeConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudDbHome.DataOciDatabaseManagementCloudDbHomeConfig")]
     public interface IDataOciDatabaseManagementCloudDbHomeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
         [JsiiProperty(name: "cloudDbHomeId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudDbHomeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHome
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
             [JsiiProperty(name: "cloudDbHomeId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudDbHomeId
             {

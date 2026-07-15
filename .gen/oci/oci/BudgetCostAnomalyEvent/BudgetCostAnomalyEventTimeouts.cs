@@ -7,7 +7,7 @@ namespace oci.BudgetCostAnomalyEvent
     [JsiiByValue(fqn: "oci.budgetCostAnomalyEvent.BudgetCostAnomalyEventTimeouts")]
     public class BudgetCostAnomalyEventTimeouts : oci.BudgetCostAnomalyEvent.IBudgetCostAnomalyEventTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_event#create BudgetCostAnomalyEvent#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/budget_cost_anomaly_event#create BudgetCostAnomalyEvent#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BudgetCostAnomalyEvent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_event#delete BudgetCostAnomalyEvent#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/budget_cost_anomaly_event#delete BudgetCostAnomalyEvent#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BudgetCostAnomalyEvent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/budget_cost_anomaly_event#update BudgetCostAnomalyEvent#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/budget_cost_anomaly_event#update BudgetCostAnomalyEvent#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

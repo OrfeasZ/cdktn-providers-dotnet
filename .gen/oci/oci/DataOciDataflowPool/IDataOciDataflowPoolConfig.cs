@@ -7,7 +7,7 @@ namespace oci.DataOciDataflowPool
     [JsiiInterface(nativeType: typeof(IDataOciDataflowPoolConfig), fullyQualifiedName: "oci.dataOciDataflowPool.DataOciDataflowPoolConfig")]
     public interface IDataOciDataflowPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataflow_pool#pool_id DataOciDataflowPool#pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_pool#pool_id DataOciDataflowPool#pool_id}.</summary>
         [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}")]
         string PoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataflow_pool#pool_id DataOciDataflowPool#pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_pool#pool_id DataOciDataflowPool#pool_id}.</summary>
             [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}")]
             public string PoolId
             {

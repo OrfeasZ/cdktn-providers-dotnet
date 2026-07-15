@@ -9,7 +9,7 @@ namespace oci.DataSafeCompareSecurityAssessment
     [JsiiByValue(fqn: "oci.dataSafeCompareSecurityAssessment.DataSafeCompareSecurityAssessmentConfig")]
     public class DataSafeCompareSecurityAssessmentConfig : oci.DataSafeCompareSecurityAssessment.IDataSafeCompareSecurityAssessmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_compare_security_assessment#comparison_security_assessment_id DataSafeCompareSecurityAssessment#comparison_security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_compare_security_assessment#comparison_security_assessment_id DataSafeCompareSecurityAssessment#comparison_security_assessment_id}.</summary>
         [JsiiProperty(name: "comparisonSecurityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComparisonSecurityAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeCompareSecurityAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_compare_security_assessment#security_assessment_id DataSafeCompareSecurityAssessment#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_compare_security_assessment#security_assessment_id DataSafeCompareSecurityAssessment#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityAssessmentId
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeCompareSecurityAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_compare_security_assessment#id DataSafeCompareSecurityAssessment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_compare_security_assessment#id DataSafeCompareSecurityAssessment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DataSafeCompareSecurityAssessment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_compare_security_assessment#timeouts DataSafeCompareSecurityAssessment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_compare_security_assessment#timeouts DataSafeCompareSecurityAssessment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeCompareSecurityAssessment.DataSafeCompareSecurityAssessmentTimeouts\"}", isOptional: true)]

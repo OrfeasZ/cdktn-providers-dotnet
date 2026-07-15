@@ -7,7 +7,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
     [JsiiInterface(nativeType: typeof(ITenantmanagercontrolplaneSubscriptionMappingTimeouts), fullyQualifiedName: "oci.tenantmanagercontrolplaneSubscriptionMapping.TenantmanagercontrolplaneSubscriptionMappingTimeouts")]
     public interface ITenantmanagercontrolplaneSubscriptionMappingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

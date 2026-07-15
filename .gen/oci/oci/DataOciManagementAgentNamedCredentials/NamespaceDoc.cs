@@ -5,7 +5,7 @@ namespace oci.DataOciManagementAgentNamedCredentials
     /// <remarks>
     /// <h1><c>data_oci_management_agent_named_credentials</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_named_credentials"><c>data_oci_management_agent_named_credentials</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_named_credentials"><c>data_oci_management_agent_named_credentials</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

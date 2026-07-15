@@ -7,21 +7,21 @@ namespace oci.DataOciPsaPsaWorkRequestLogs
     [JsiiInterface(nativeType: typeof(IDataOciPsaPsaWorkRequestLogsFilter), fullyQualifiedName: "oci.dataOciPsaPsaWorkRequestLogs.DataOciPsaPsaWorkRequestLogsFilter")]
     public interface IDataOciPsaPsaWorkRequestLogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#name DataOciPsaPsaWorkRequestLogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#name DataOciPsaPsaWorkRequestLogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#values DataOciPsaPsaWorkRequestLogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#values DataOciPsaPsaWorkRequestLogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#regex DataOciPsaPsaWorkRequestLogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#regex DataOciPsaPsaWorkRequestLogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciPsaPsaWorkRequestLogs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#name DataOciPsaPsaWorkRequestLogs#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#name DataOciPsaPsaWorkRequestLogs#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#values DataOciPsaPsaWorkRequestLogs#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#values DataOciPsaPsaWorkRequestLogs#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request_logs#regex DataOciPsaPsaWorkRequestLogs#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request_logs#regex DataOciPsaPsaWorkRequestLogs#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -47,8 +47,38 @@ namespace oci.DataOciContainerInstancesContainerInstance
             get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesConfigsList>()!;
         }
 
+        [JsiiProperty(name: "export", typeJson: "{\"fqn\":\"oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesExportList\"}")]
+        public virtual oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesExportList Export
+        {
+            get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesExportList>()!;
+        }
+
+        [JsiiProperty(name: "mountCommand", typeJson: "{\"fqn\":\"oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountCommandList\"}")]
+        public virtual oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountCommandList MountCommand
+        {
+            get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountCommandList>()!;
+        }
+
+        [JsiiProperty(name: "mountTarget", typeJson: "{\"fqn\":\"oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountTargetList\"}")]
+        public virtual oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountTargetList MountTarget
+        {
+            get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesMountTargetList>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "security", typeJson: "{\"fqn\":\"oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesSecurityList\"}")]
+        public virtual oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesSecurityList Security
+        {
+            get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceVolumesSecurityList>()!;
+        }
+
+        [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetId
         {
             get => GetInstanceProperty<string>()!;
         }

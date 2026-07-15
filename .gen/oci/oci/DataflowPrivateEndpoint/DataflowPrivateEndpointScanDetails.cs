@@ -7,7 +7,7 @@ namespace oci.DataflowPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataflowPrivateEndpoint.DataflowPrivateEndpointScanDetails")]
     public class DataflowPrivateEndpointScanDetails : oci.DataflowPrivateEndpoint.IDataflowPrivateEndpointScanDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_private_endpoint#fqdn DataflowPrivateEndpoint#fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_private_endpoint#fqdn DataflowPrivateEndpoint#fqdn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Fqdn
@@ -16,7 +16,7 @@ namespace oci.DataflowPrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_private_endpoint#port DataflowPrivateEndpoint#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_private_endpoint#port DataflowPrivateEndpoint#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Port

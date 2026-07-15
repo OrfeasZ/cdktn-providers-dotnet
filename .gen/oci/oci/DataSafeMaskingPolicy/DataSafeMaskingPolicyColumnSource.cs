@@ -9,7 +9,7 @@ namespace oci.DataSafeMaskingPolicy
     [JsiiByValue(fqn: "oci.dataSafeMaskingPolicy.DataSafeMaskingPolicyColumnSource")]
     public class DataSafeMaskingPolicyColumnSource : oci.DataSafeMaskingPolicy.IDataSafeMaskingPolicyColumnSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_policy#column_source DataSafeMaskingPolicy#column_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_policy#column_source DataSafeMaskingPolicy#column_source}.</summary>
         [JsiiProperty(name: "columnSource", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnSource
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeMaskingPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_policy#sensitive_data_model_id DataSafeMaskingPolicy#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_policy#sensitive_data_model_id DataSafeMaskingPolicy#sensitive_data_model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveDataModelId
@@ -26,7 +26,7 @@ namespace oci.DataSafeMaskingPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_policy#target_id DataSafeMaskingPolicy#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_policy#target_id DataSafeMaskingPolicy#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

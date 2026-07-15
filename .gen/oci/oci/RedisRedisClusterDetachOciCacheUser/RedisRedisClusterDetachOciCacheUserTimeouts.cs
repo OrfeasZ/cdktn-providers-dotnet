@@ -7,7 +7,7 @@ namespace oci.RedisRedisClusterDetachOciCacheUser
     [JsiiByValue(fqn: "oci.redisRedisClusterDetachOciCacheUser.RedisRedisClusterDetachOciCacheUserTimeouts")]
     public class RedisRedisClusterDetachOciCacheUserTimeouts : oci.RedisRedisClusterDetachOciCacheUser.IRedisRedisClusterDetachOciCacheUserTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#create RedisRedisClusterDetachOciCacheUser#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#create RedisRedisClusterDetachOciCacheUser#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.RedisRedisClusterDetachOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#delete RedisRedisClusterDetachOciCacheUser#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#delete RedisRedisClusterDetachOciCacheUser#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.RedisRedisClusterDetachOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#update RedisRedisClusterDetachOciCacheUser#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_redis_cluster_detach_oci_cache_user#update RedisRedisClusterDetachOciCacheUser#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

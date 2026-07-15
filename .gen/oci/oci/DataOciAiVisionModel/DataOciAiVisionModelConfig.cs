@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionModel
     [JsiiByValue(fqn: "oci.dataOciAiVisionModel.DataOciAiVisionModelConfig")]
     public class DataOciAiVisionModelConfig : oci.DataOciAiVisionModel.IDataOciAiVisionModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_model#model_id DataOciAiVisionModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {

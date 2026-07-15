@@ -7,7 +7,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
     [JsiiInterface(nativeType: typeof(ICapacityManagementOccmDemandSignalItemTimeouts), fullyQualifiedName: "oci.capacityManagementOccmDemandSignalItem.CapacityManagementOccmDemandSignalItemTimeouts")]
     public interface ICapacityManagementOccmDemandSignalItemTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#create CapacityManagementOccmDemandSignalItem#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#delete CapacityManagementOccmDemandSignalItem#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/capacity_management_occm_demand_signal_item#update CapacityManagementOccmDemandSignalItem#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

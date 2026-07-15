@@ -5,7 +5,7 @@ namespace oci.FleetSoftwareUpdateFsuReadinessCheck
     /// <remarks>
     /// <h1><c>oci_fleet_software_update_fsu_readiness_check</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/fleet_software_update_fsu_readiness_check"><c>oci_fleet_software_update_fsu_readiness_check</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_readiness_check"><c>oci_fleet_software_update_fsu_readiness_check</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

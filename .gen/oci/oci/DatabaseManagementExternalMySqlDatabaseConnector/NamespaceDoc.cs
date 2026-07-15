@@ -5,7 +5,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
     /// <remarks>
     /// <h1><c>oci_database_management_external_my_sql_database_connector</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_my_sql_database_connector"><c>oci_database_management_external_my_sql_database_connector</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_external_my_sql_database_connector"><c>oci_database_management_external_my_sql_database_connector</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

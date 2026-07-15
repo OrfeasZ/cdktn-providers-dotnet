@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         private object? _accountRecoveryRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#account_recovery_required IdentityDomainsUser#account_recovery_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#account_recovery_required IdentityDomainsUser#account_recovery_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _bypassNotification;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#bypass_notification IdentityDomainsUser#bypass_notification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#bypass_notification IdentityDomainsUser#bypass_notification}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#creation_mechanism IdentityDomainsUser#creation_mechanism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#creation_mechanism IdentityDomainsUser#creation_mechanism}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "creationMechanism", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreationMechanism
@@ -86,7 +86,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>delegated_authentication_target_app block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#delegated_authentication_target_app IdentityDomainsUser#delegated_authentication_target_app}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#delegated_authentication_target_app IdentityDomainsUser#delegated_authentication_target_app}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "delegatedAuthenticationTargetApp", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserUserDelegatedAuthenticationTargetApp\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _doNotShowGettingStarted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#do_not_show_getting_started IdentityDomainsUser#do_not_show_getting_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#do_not_show_getting_started IdentityDomainsUser#do_not_show_getting_started}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -132,7 +132,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _isAuthenticationDelegated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#is_authentication_delegated IdentityDomainsUser#is_authentication_delegated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#is_authentication_delegated IdentityDomainsUser#is_authentication_delegated}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -166,7 +166,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _isFederatedUser;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#is_federated_user IdentityDomainsUser#is_federated_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#is_federated_user IdentityDomainsUser#is_federated_user}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -200,7 +200,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _isGroupMembershipNormalized;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#is_group_membership_normalized IdentityDomainsUser#is_group_membership_normalized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#is_group_membership_normalized IdentityDomainsUser#is_group_membership_normalized}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -234,7 +234,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _isGroupMembershipSyncedToUsersGroups;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#is_group_membership_synced_to_users_groups IdentityDomainsUser#is_group_membership_synced_to_users_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#is_group_membership_synced_to_users_groups IdentityDomainsUser#is_group_membership_synced_to_users_groups}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -266,7 +266,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#notification_email_template_id IdentityDomainsUser#notification_email_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#notification_email_template_id IdentityDomainsUser#notification_email_template_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notificationEmailTemplateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotificationEmailTemplateId
@@ -275,7 +275,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#preferred_ui_landing_page IdentityDomainsUser#preferred_ui_landing_page}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#preferred_ui_landing_page IdentityDomainsUser#preferred_ui_landing_page}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredUiLandingPage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredUiLandingPage
@@ -286,7 +286,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _serviceUser;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#service_user IdentityDomainsUser#service_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#service_user IdentityDomainsUser#service_user}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -320,7 +320,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>synced_from_app block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#synced_from_app IdentityDomainsUser#synced_from_app}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#synced_from_app IdentityDomainsUser#synced_from_app}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "syncedFromApp", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserUserSyncedFromApp\"}", isOptional: true)]
@@ -332,7 +332,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _userFlowControlledByExternalClient;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#user_flow_controlled_by_external_client IdentityDomainsUser#user_flow_controlled_by_external_client}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#user_flow_controlled_by_external_client IdentityDomainsUser#user_flow_controlled_by_external_client}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -364,7 +364,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_user#user_provider IdentityDomainsUser#user_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_user#user_provider IdentityDomainsUser#user_provider}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserProvider

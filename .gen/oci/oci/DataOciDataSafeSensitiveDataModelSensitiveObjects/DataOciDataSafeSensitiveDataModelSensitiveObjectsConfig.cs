@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveDataModelSensitiveObjects.DataOciDataSafeSensitiveDataModelSensitiveObjectsConfig")]
     public class DataOciDataSafeSensitiveDataModelSensitiveObjectsConfig : oci.DataOciDataSafeSensitiveDataModelSensitiveObjects.IDataOciDataSafeSensitiveDataModelSensitiveObjectsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#sensitive_data_model_id DataOciDataSafeSensitiveDataModelSensitiveObjects#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#sensitive_data_model_id DataOciDataSafeSensitiveDataModelSensitiveObjects#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveDataModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#filter DataOciDataSafeSensitiveDataModelSensitiveObjects#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#filter DataOciDataSafeSensitiveDataModelSensitiveObjects#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveDataModelSensitiveObjects.IDataOciDataSafeSensitiveDataModelSensitiveObjectsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#id DataOciDataSafeSensitiveDataModelSensitiveObjects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#id DataOciDataSafeSensitiveDataModelSensitiveObjects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#object DataOciDataSafeSensitiveDataModelSensitiveObjects#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#object DataOciDataSafeSensitiveDataModelSensitiveObjects#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Object
@@ -74,7 +74,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#object_type DataOciDataSafeSensitiveDataModelSensitiveObjects#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#object_type DataOciDataSafeSensitiveDataModelSensitiveObjects#object_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ObjectType
@@ -83,7 +83,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#schema_name DataOciDataSafeSensitiveDataModelSensitiveObjects#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_objects#schema_name DataOciDataSafeSensitiveDataModelSensitiveObjects#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SchemaName

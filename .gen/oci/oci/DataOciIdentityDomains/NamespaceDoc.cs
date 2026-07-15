@@ -5,7 +5,7 @@ namespace oci.DataOciIdentityDomains
     /// <remarks>
     /// <h1><c>data_oci_identity_domains</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains"><c>data_oci_identity_domains</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains"><c>data_oci_identity_domains</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

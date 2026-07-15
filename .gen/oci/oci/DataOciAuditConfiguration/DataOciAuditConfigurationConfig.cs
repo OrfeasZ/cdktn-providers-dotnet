@@ -9,7 +9,7 @@ namespace oci.DataOciAuditConfiguration
     [JsiiByValue(fqn: "oci.dataOciAuditConfiguration.DataOciAuditConfigurationConfig")]
     public class DataOciAuditConfigurationConfig : oci.DataOciAuditConfiguration.IDataOciAuditConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

@@ -5,7 +5,7 @@ namespace oci.DataOciDifStack
     /// <remarks>
     /// <h1><c>data_oci_dif_stack</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dif_stack"><c>data_oci_dif_stack</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dif_stack"><c>data_oci_dif_stack</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

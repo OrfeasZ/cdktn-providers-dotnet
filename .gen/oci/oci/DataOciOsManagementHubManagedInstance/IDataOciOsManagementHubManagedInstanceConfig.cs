@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubManagedInstance
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubManagedInstanceConfig), fullyQualifiedName: "oci.dataOciOsManagementHubManagedInstance.DataOciOsManagementHubManagedInstanceConfig")]
     public interface IDataOciOsManagementHubManagedInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubManagedInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceId
             {

@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseMaintenanceRunHistories
     /// <remarks>
     /// <h1><c>data_oci_database_maintenance_run_histories</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_maintenance_run_histories"><c>data_oci_database_maintenance_run_histories</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_maintenance_run_histories"><c>data_oci_database_maintenance_run_histories</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

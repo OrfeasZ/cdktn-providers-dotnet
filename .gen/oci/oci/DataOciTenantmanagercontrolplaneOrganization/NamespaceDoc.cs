@@ -5,7 +5,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganization
     /// <remarks>
     /// <h1><c>data_oci_tenantmanagercontrolplane_organization</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/tenantmanagercontrolplane_organization"><c>data_oci_tenantmanagercontrolplane_organization</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/tenantmanagercontrolplane_organization"><c>data_oci_tenantmanagercontrolplane_organization</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

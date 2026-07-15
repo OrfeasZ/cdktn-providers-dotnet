@@ -9,7 +9,7 @@ namespace oci.ObjectstorageNamespaceMetadata
     [JsiiByValue(fqn: "oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataConfig")]
     public class ObjectstorageNamespaceMetadataConfig : oci.ObjectstorageNamespaceMetadata.IObjectstorageNamespaceMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_namespace_metadata#namespace ObjectstorageNamespaceMetadata#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -17,7 +17,7 @@ namespace oci.ObjectstorageNamespaceMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_namespace_metadata#default_s3compartment_id ObjectstorageNamespaceMetadata#default_s3compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultS3CompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultS3CompartmentId
@@ -26,7 +26,7 @@ namespace oci.ObjectstorageNamespaceMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_namespace_metadata#default_swift_compartment_id ObjectstorageNamespaceMetadata#default_swift_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSwiftCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultSwiftCompartmentId
@@ -35,7 +35,7 @@ namespace oci.ObjectstorageNamespaceMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_namespace_metadata#id ObjectstorageNamespaceMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace oci.ObjectstorageNamespaceMetadata
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_namespace_metadata#timeouts ObjectstorageNamespaceMetadata#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.objectstorageNamespaceMetadata.ObjectstorageNamespaceMetadataTimeouts\"}", isOptional: true)]

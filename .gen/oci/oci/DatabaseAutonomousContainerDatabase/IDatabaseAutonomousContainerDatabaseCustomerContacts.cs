@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousContainerDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseAutonomousContainerDatabaseCustomerContacts), fullyQualifiedName: "oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseCustomerContacts")]
     public interface IDatabaseAutonomousContainerDatabaseCustomerContacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_container_database#email DatabaseAutonomousContainerDatabase#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_container_database#email DatabaseAutonomousContainerDatabase#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Email
@@ -25,7 +25,7 @@ namespace oci.DatabaseAutonomousContainerDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_container_database#email DatabaseAutonomousContainerDatabase#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_container_database#email DatabaseAutonomousContainerDatabase#email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Email

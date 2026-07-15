@@ -7,7 +7,7 @@ namespace oci.DatascienceModelCustomMetadataArtifact
     [JsiiByValue(fqn: "oci.datascienceModelCustomMetadataArtifact.DatascienceModelCustomMetadataArtifactTimeouts")]
     public class DatascienceModelCustomMetadataArtifactTimeouts : oci.DatascienceModelCustomMetadataArtifact.IDatascienceModelCustomMetadataArtifactTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_custom_metadata_artifact#create DatascienceModelCustomMetadataArtifact#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_custom_metadata_artifact#create DatascienceModelCustomMetadataArtifact#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatascienceModelCustomMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_custom_metadata_artifact#delete DatascienceModelCustomMetadataArtifact#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_custom_metadata_artifact#delete DatascienceModelCustomMetadataArtifact#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelCustomMetadataArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_custom_metadata_artifact#update DatascienceModelCustomMetadataArtifact#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_custom_metadata_artifact#update DatascienceModelCustomMetadataArtifact#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

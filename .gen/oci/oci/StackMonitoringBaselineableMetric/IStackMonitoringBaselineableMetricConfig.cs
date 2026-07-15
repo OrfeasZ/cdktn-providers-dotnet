@@ -7,28 +7,28 @@ namespace oci.StackMonitoringBaselineableMetric
     [JsiiInterface(nativeType: typeof(IStackMonitoringBaselineableMetricConfig), fullyQualifiedName: "oci.stackMonitoringBaselineableMetric.StackMonitoringBaselineableMetricConfig")]
     public interface IStackMonitoringBaselineableMetricConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}.</summary>
         [JsiiProperty(name: "column", typeJson: "{\"primitive\":\"string\"}")]
         string Column
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace oci.StackMonitoringBaselineableMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -54,7 +54,7 @@ namespace oci.StackMonitoringBaselineableMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}.</summary>
         [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceGroup
@@ -65,7 +65,7 @@ namespace oci.StackMonitoringBaselineableMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceType
@@ -78,7 +78,7 @@ namespace oci.StackMonitoringBaselineableMetric
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringBaselineableMetric.StackMonitoringBaselineableMetricTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,28 +97,28 @@ namespace oci.StackMonitoringBaselineableMetric
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#column StackMonitoringBaselineableMetric#column}.</summary>
             [JsiiProperty(name: "column", typeJson: "{\"primitive\":\"string\"}")]
             public string Column
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#compartment_id StackMonitoringBaselineableMetric#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#namespace StackMonitoringBaselineableMetric#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#id StackMonitoringBaselineableMetric#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace oci.StackMonitoringBaselineableMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#name StackMonitoringBaselineableMetric#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -138,7 +138,7 @@ namespace oci.StackMonitoringBaselineableMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#resource_group StackMonitoringBaselineableMetric#resource_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceGroup
@@ -146,7 +146,7 @@ namespace oci.StackMonitoringBaselineableMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#resource_type StackMonitoringBaselineableMetric#resource_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceType
@@ -156,7 +156,7 @@ namespace oci.StackMonitoringBaselineableMetric
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_baselineable_metric#timeouts StackMonitoringBaselineableMetric#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringBaselineableMetric.StackMonitoringBaselineableMetricTimeouts\"}", isOptional: true)]

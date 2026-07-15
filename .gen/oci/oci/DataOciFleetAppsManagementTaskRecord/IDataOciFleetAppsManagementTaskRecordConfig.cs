@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecord
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementTaskRecordConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementTaskRecord.DataOciFleetAppsManagementTaskRecordConfig")]
     public interface IDataOciFleetAppsManagementTaskRecordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
         [JsiiProperty(name: "taskRecordId", typeJson: "{\"primitive\":\"string\"}")]
         string TaskRecordId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
             [JsiiProperty(name: "taskRecordId", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskRecordId
             {

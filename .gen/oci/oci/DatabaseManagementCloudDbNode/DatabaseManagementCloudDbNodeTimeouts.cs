@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbNode
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbNode.DatabaseManagementCloudDbNodeTimeouts")]
     public class DatabaseManagementCloudDbNodeTimeouts : oci.DatabaseManagementCloudDbNode.IDatabaseManagementCloudDbNodeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_db_node#create DatabaseManagementCloudDbNode#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_node#create DatabaseManagementCloudDbNode#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudDbNode
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_db_node#delete DatabaseManagementCloudDbNode#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_node#delete DatabaseManagementCloudDbNode#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudDbNode
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_cloud_db_node#update DatabaseManagementCloudDbNode#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_node#update DatabaseManagementCloudDbNode#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

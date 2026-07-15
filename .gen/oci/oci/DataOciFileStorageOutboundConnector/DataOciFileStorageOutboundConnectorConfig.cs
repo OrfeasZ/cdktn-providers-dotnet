@@ -9,7 +9,7 @@ namespace oci.DataOciFileStorageOutboundConnector
     [JsiiByValue(fqn: "oci.dataOciFileStorageOutboundConnector.DataOciFileStorageOutboundConnectorConfig")]
     public class DataOciFileStorageOutboundConnectorConfig : oci.DataOciFileStorageOutboundConnector.IDataOciFileStorageOutboundConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
         [JsiiProperty(name: "outboundConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OutboundConnectorId
         {

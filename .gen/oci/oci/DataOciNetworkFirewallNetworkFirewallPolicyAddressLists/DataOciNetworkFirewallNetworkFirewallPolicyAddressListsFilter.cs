@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyAddressLists
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyAddressLists.DataOciNetworkFirewallNetworkFirewallPolicyAddressListsFilter")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyAddressListsFilter : oci.DataOciNetworkFirewallNetworkFirewallPolicyAddressLists.IDataOciNetworkFirewallNetworkFirewallPolicyAddressListsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#name DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#name DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyAddressLists
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#values DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#values DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyAddressLists
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#regex DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_address_lists#regex DataOciNetworkFirewallNetworkFirewallPolicyAddressLists#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

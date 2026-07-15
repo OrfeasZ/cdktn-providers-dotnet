@@ -7,7 +7,7 @@ namespace oci.DataOciFunctionsFunction
     [JsiiInterface(nativeType: typeof(IDataOciFunctionsFunctionConfig), fullyQualifiedName: "oci.dataOciFunctionsFunction.DataOciFunctionsFunctionConfig")]
     public interface IDataOciFunctionsFunctionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
             [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionId
             {

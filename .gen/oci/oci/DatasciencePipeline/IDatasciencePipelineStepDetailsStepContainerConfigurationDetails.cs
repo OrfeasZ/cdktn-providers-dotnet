@@ -7,21 +7,21 @@ namespace oci.DatasciencePipeline
     [JsiiInterface(nativeType: typeof(IDatasciencePipelineStepDetailsStepContainerConfigurationDetails), fullyQualifiedName: "oci.datasciencePipeline.DatasciencePipelineStepDetailsStepContainerConfigurationDetails")]
     public interface IDatasciencePipelineStepDetailsStepContainerConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#container_type DatasciencePipeline#container_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#container_type DatasciencePipeline#container_type}.</summary>
         [JsiiProperty(name: "containerType", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image DatasciencePipeline#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image DatasciencePipeline#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         string Image
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#cmd DatasciencePipeline#cmd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#cmd DatasciencePipeline#cmd}.</summary>
         [JsiiProperty(name: "cmd", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Cmd
@@ -32,7 +32,7 @@ namespace oci.DatasciencePipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#entrypoint DatasciencePipeline#entrypoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#entrypoint DatasciencePipeline#entrypoint}.</summary>
         [JsiiProperty(name: "entrypoint", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Entrypoint
@@ -43,7 +43,7 @@ namespace oci.DatasciencePipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image_digest DatasciencePipeline#image_digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image_digest DatasciencePipeline#image_digest}.</summary>
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageDigest
@@ -54,7 +54,7 @@ namespace oci.DatasciencePipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image_signature_id DatasciencePipeline#image_signature_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image_signature_id DatasciencePipeline#image_signature_id}.</summary>
         [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageSignatureId
@@ -72,21 +72,21 @@ namespace oci.DatasciencePipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#container_type DatasciencePipeline#container_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#container_type DatasciencePipeline#container_type}.</summary>
             [JsiiProperty(name: "containerType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image DatasciencePipeline#image}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image DatasciencePipeline#image}.</summary>
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
             public string Image
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#cmd DatasciencePipeline#cmd}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#cmd DatasciencePipeline#cmd}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cmd", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Cmd
@@ -94,7 +94,7 @@ namespace oci.DatasciencePipeline
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#entrypoint DatasciencePipeline#entrypoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#entrypoint DatasciencePipeline#entrypoint}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entrypoint", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Entrypoint
@@ -102,7 +102,7 @@ namespace oci.DatasciencePipeline
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image_digest DatasciencePipeline#image_digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image_digest DatasciencePipeline#image_digest}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageDigest
@@ -110,7 +110,7 @@ namespace oci.DatasciencePipeline
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#image_signature_id DatasciencePipeline#image_signature_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#image_signature_id DatasciencePipeline#image_signature_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageSignatureId

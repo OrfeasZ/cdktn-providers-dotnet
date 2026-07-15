@@ -7,14 +7,14 @@ namespace oci.DataOciFleetAppsManagementFleetCredential
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementFleetCredentialConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementFleetCredential.DataOciFleetAppsManagementFleetCredentialConfig")]
     public interface IDataOciFleetAppsManagementFleetCredentialConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_credential_id DataOciFleetAppsManagementFleetCredential#fleet_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_credential_id DataOciFleetAppsManagementFleetCredential#fleet_credential_id}.</summary>
         [JsiiProperty(name: "fleetCredentialId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetCredentialId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_id DataOciFleetAppsManagementFleetCredential#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_id DataOciFleetAppsManagementFleetCredential#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciFleetAppsManagementFleetCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_credential_id DataOciFleetAppsManagementFleetCredential#fleet_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_credential_id DataOciFleetAppsManagementFleetCredential#fleet_credential_id}.</summary>
             [JsiiProperty(name: "fleetCredentialId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetCredentialId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_id DataOciFleetAppsManagementFleetCredential#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_fleet_credential#fleet_id DataOciFleetAppsManagementFleetCredential#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {

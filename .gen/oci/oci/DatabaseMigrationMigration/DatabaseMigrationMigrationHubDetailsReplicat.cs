@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.databaseMigrationMigration.DatabaseMigrationMigrationHubDetailsReplicat")]
     public class DatabaseMigrationMigrationHubDetailsReplicat : oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationHubDetailsReplicat
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "performanceProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PerformanceProfile

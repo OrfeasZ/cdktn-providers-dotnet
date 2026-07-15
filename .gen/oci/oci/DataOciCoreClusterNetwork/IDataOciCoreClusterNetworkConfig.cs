@@ -7,7 +7,7 @@ namespace oci.DataOciCoreClusterNetwork
     [JsiiInterface(nativeType: typeof(IDataOciCoreClusterNetworkConfig), fullyQualifiedName: "oci.dataOciCoreClusterNetwork.DataOciCoreClusterNetworkConfig")]
     public interface IDataOciCoreClusterNetworkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
         [JsiiProperty(name: "clusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterNetworkId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreClusterNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_cluster_network#cluster_network_id DataOciCoreClusterNetwork#cluster_network_id}.</summary>
             [JsiiProperty(name: "clusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterNetworkId
             {

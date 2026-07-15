@@ -9,7 +9,7 @@ namespace oci.DataOciAnnouncementsServiceAnnouncementSubscription
     [JsiiByValue(fqn: "oci.dataOciAnnouncementsServiceAnnouncementSubscription.DataOciAnnouncementsServiceAnnouncementSubscriptionConfig")]
     public class DataOciAnnouncementsServiceAnnouncementSubscriptionConfig : oci.DataOciAnnouncementsServiceAnnouncementSubscription.IDataOciAnnouncementsServiceAnnouncementSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
         [JsiiProperty(name: "announcementSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string AnnouncementSubscriptionId
         {

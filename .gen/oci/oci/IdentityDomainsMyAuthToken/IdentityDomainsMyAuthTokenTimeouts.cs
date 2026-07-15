@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsMyAuthToken
     [JsiiByValue(fqn: "oci.identityDomainsMyAuthToken.IdentityDomainsMyAuthTokenTimeouts")]
     public class IdentityDomainsMyAuthTokenTimeouts : oci.IdentityDomainsMyAuthToken.IIdentityDomainsMyAuthTokenTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_my_auth_token#create IdentityDomainsMyAuthToken#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_my_auth_token#create IdentityDomainsMyAuthToken#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsMyAuthToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_my_auth_token#delete IdentityDomainsMyAuthToken#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_my_auth_token#delete IdentityDomainsMyAuthToken#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsMyAuthToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_my_auth_token#update IdentityDomainsMyAuthToken#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_my_auth_token#update IdentityDomainsMyAuthToken#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

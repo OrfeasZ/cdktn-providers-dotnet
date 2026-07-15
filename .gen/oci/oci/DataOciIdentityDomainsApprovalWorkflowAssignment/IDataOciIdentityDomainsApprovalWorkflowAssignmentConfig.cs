@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsApprovalWorkflowAssignmentConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsApprovalWorkflowAssignment.DataOciIdentityDomainsApprovalWorkflowAssignmentConfig")]
     public interface IDataOciIdentityDomainsApprovalWorkflowAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#approval_workflow_assignment_id DataOciIdentityDomainsApprovalWorkflowAssignment#approval_workflow_assignment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#approval_workflow_assignment_id DataOciIdentityDomainsApprovalWorkflowAssignment#approval_workflow_assignment_id}.</summary>
         [JsiiProperty(name: "approvalWorkflowAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
         string ApprovalWorkflowAssignmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowAssignment#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowAssignment#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#attributes DataOciIdentityDomainsApprovalWorkflowAssignment#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#attributes DataOciIdentityDomainsApprovalWorkflowAssignment#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#attribute_sets DataOciIdentityDomainsApprovalWorkflowAssignment#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#attribute_sets DataOciIdentityDomainsApprovalWorkflowAssignment#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#authorization DataOciIdentityDomainsApprovalWorkflowAssignment#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#authorization DataOciIdentityDomainsApprovalWorkflowAssignment#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -54,7 +54,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowAssignment#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowAssignment#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -72,21 +72,21 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#approval_workflow_assignment_id DataOciIdentityDomainsApprovalWorkflowAssignment#approval_workflow_assignment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#approval_workflow_assignment_id DataOciIdentityDomainsApprovalWorkflowAssignment#approval_workflow_assignment_id}.</summary>
             [JsiiProperty(name: "approvalWorkflowAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApprovalWorkflowAssignmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowAssignment#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#idcs_endpoint DataOciIdentityDomainsApprovalWorkflowAssignment#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#attributes DataOciIdentityDomainsApprovalWorkflowAssignment#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#attributes DataOciIdentityDomainsApprovalWorkflowAssignment#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -94,7 +94,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#attribute_sets DataOciIdentityDomainsApprovalWorkflowAssignment#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#attribute_sets DataOciIdentityDomainsApprovalWorkflowAssignment#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -102,7 +102,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#authorization DataOciIdentityDomainsApprovalWorkflowAssignment#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#authorization DataOciIdentityDomainsApprovalWorkflowAssignment#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -110,7 +110,7 @@ namespace oci.DataOciIdentityDomainsApprovalWorkflowAssignment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_approval_workflow_assignment#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowAssignment#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_approval_workflow_assignment#resource_type_schema_version DataOciIdentityDomainsApprovalWorkflowAssignment#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

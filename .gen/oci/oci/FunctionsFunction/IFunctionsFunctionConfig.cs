@@ -7,28 +7,28 @@ namespace oci.FunctionsFunction
     [JsiiInterface(nativeType: typeof(IFunctionsFunctionConfig), fullyQualifiedName: "oci.functionsFunction.FunctionsFunctionConfig")]
     public interface IFunctionsFunctionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#application_id FunctionsFunction#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#application_id FunctionsFunction#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#display_name FunctionsFunction#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#display_name FunctionsFunction#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}.</summary>
         [JsiiProperty(name: "memoryInMbs", typeJson: "{\"primitive\":\"string\"}")]
         string MemoryInMbs
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#config FunctionsFunction#config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#config FunctionsFunction#config}.</summary>
         [JsiiProperty(name: "config", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Config
@@ -39,7 +39,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}.</summary>
         [JsiiProperty(name: "detachedModeTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DetachedModeTimeoutInSeconds
@@ -63,7 +63,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>failure_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
         /// </remarks>
         [JsiiProperty(name: "failureDestination", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionFailureDestination\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -86,7 +86,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#id FunctionsFunction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#id FunctionsFunction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Image
@@ -112,7 +112,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageDigest
@@ -125,7 +125,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>provisioned_concurrency_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
         /// </remarks>
         [JsiiProperty(name: "provisionedConcurrencyConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionProvisionedConcurrencyConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -139,7 +139,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#source_details FunctionsFunction#source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#source_details FunctionsFunction#source_details}
         /// </remarks>
         [JsiiProperty(name: "sourceDetails", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -153,7 +153,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>success_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
         /// </remarks>
         [JsiiProperty(name: "successDestination", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSuccessDestination\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -165,7 +165,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}.</summary>
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TimeoutInSeconds
@@ -178,7 +178,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -192,7 +192,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>trace_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
         /// </remarks>
         [JsiiProperty(name: "traceConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionTraceConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -211,28 +211,28 @@ namespace oci.FunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#application_id FunctionsFunction#application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#application_id FunctionsFunction#application_id}.</summary>
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#display_name FunctionsFunction#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#display_name FunctionsFunction#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}.</summary>
             [JsiiProperty(name: "memoryInMbs", typeJson: "{\"primitive\":\"string\"}")]
             public string MemoryInMbs
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#config FunctionsFunction#config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#config FunctionsFunction#config}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "config", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Config
@@ -240,7 +240,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -248,7 +248,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "detachedModeTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DetachedModeTimeoutInSeconds
@@ -258,7 +258,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>failure_destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "failureDestination", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionFailureDestination\"}", isOptional: true)]
@@ -267,7 +267,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<oci.FunctionsFunction.IFunctionsFunctionFailureDestination?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -275,7 +275,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#id FunctionsFunction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#id FunctionsFunction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -287,7 +287,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Image
@@ -295,7 +295,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageDigest
@@ -305,7 +305,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>provisioned_concurrency_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisionedConcurrencyConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionProvisionedConcurrencyConfig\"}", isOptional: true)]
@@ -316,7 +316,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>source_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#source_details FunctionsFunction#source_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#source_details FunctionsFunction#source_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDetails", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetails\"}", isOptional: true)]
@@ -327,7 +327,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>success_destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "successDestination", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSuccessDestination\"}", isOptional: true)]
@@ -336,7 +336,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<oci.FunctionsFunction.IFunctionsFunctionSuccessDestination?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TimeoutInSeconds
@@ -346,7 +346,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionTimeouts\"}", isOptional: true)]
@@ -357,7 +357,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>trace_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "traceConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionTraceConfig\"}", isOptional: true)]

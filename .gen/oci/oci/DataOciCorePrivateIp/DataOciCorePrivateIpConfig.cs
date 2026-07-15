@@ -9,7 +9,7 @@ namespace oci.DataOciCorePrivateIp
     [JsiiByValue(fqn: "oci.dataOciCorePrivateIp.DataOciCorePrivateIpConfig")]
     public class DataOciCorePrivateIpConfig : oci.DataOciCorePrivateIp.IDataOciCorePrivateIpConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
         [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateIpId
         {

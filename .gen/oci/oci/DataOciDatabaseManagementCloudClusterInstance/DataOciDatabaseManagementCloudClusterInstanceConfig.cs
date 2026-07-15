@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudClusterInstance
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudClusterInstance.DataOciDatabaseManagementCloudClusterInstanceConfig")]
     public class DataOciDatabaseManagementCloudClusterInstanceConfig : oci.DataOciDatabaseManagementCloudClusterInstance.IDataOciDatabaseManagementCloudClusterInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_cluster_instance#cloud_cluster_instance_id DataOciDatabaseManagementCloudClusterInstance#cloud_cluster_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_cluster_instance#cloud_cluster_instance_id DataOciDatabaseManagementCloudClusterInstance#cloud_cluster_instance_id}.</summary>
         [JsiiProperty(name: "cloudClusterInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudClusterInstanceId
         {

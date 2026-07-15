@@ -5,7 +5,7 @@ namespace oci.MysqlMysqlDbSystem
     /// <remarks>
     /// <h1><c>oci_mysql_mysql_db_system</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system"><c>oci_mysql_mysql_db_system</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_db_system"><c>oci_mysql_mysql_db_system</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

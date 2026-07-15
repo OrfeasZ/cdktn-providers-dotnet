@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentitySetting
     [JsiiByValue(fqn: "oci.identityDomainsIdentitySetting.IdentityDomainsIdentitySettingTokens")]
     public class IdentityDomainsIdentitySettingTokens : oci.IdentityDomainsIdentitySetting.IIdentityDomainsIdentitySettingTokens
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_setting#type IdentityDomainsIdentitySetting#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentitySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_setting#expires_after IdentityDomainsIdentitySetting#expires_after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiresAfter", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExpiresAfter

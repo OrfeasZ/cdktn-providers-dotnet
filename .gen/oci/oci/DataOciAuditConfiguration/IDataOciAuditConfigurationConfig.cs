@@ -7,7 +7,7 @@ namespace oci.DataOciAuditConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciAuditConfigurationConfig), fullyQualifiedName: "oci.dataOciAuditConfiguration.DataOciAuditConfigurationConfig")]
     public interface IDataOciAuditConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAuditConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/audit_configuration#compartment_id DataOciAuditConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

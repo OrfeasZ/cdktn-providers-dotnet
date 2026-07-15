@@ -9,7 +9,7 @@ namespace oci.DataOciBastionSession
     [JsiiByValue(fqn: "oci.dataOciBastionSession.DataOciBastionSessionConfig")]
     public class DataOciBastionSessionConfig : oci.DataOciBastionSession.IDataOciBastionSessionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/bastion_session#session_id DataOciBastionSession#session_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bastion_session#session_id DataOciBastionSession#session_id}.</summary>
         [JsiiProperty(name: "sessionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SessionId
         {

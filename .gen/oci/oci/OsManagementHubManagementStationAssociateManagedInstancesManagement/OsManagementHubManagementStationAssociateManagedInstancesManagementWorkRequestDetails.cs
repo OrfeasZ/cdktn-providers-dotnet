@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
     [JsiiByValue(fqn: "oci.osManagementHubManagementStationAssociateManagedInstancesManagement.OsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails")]
     public class OsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails : oci.OsManagementHubManagementStationAssociateManagedInstancesManagement.IOsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

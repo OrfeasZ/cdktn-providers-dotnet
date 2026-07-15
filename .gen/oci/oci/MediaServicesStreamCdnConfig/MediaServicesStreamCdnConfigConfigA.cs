@@ -9,7 +9,7 @@ namespace oci.MediaServicesStreamCdnConfig
     [JsiiByValue(fqn: "oci.mediaServicesStreamCdnConfig.MediaServicesStreamCdnConfigConfigA")]
     public class MediaServicesStreamCdnConfigConfigA : oci.MediaServicesStreamCdnConfig.IMediaServicesStreamCdnConfigConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#type MediaServicesStreamCdnConfig#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#type MediaServicesStreamCdnConfig#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#edge_hostname MediaServicesStreamCdnConfig#edge_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#edge_hostname MediaServicesStreamCdnConfig#edge_hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeHostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeHostname
@@ -26,7 +26,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#edge_path_prefix MediaServicesStreamCdnConfig#edge_path_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#edge_path_prefix MediaServicesStreamCdnConfig#edge_path_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgePathPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgePathPrefix
@@ -35,7 +35,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#edge_token_key MediaServicesStreamCdnConfig#edge_token_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#edge_token_key MediaServicesStreamCdnConfig#edge_token_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeTokenKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeTokenKey
@@ -44,7 +44,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#edge_token_salt MediaServicesStreamCdnConfig#edge_token_salt}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#edge_token_salt MediaServicesStreamCdnConfig#edge_token_salt}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeTokenSalt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeTokenSalt
@@ -55,7 +55,7 @@ namespace oci.MediaServicesStreamCdnConfig
 
         private object? _isEdgeTokenAuth;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#is_edge_token_auth MediaServicesStreamCdnConfig#is_edge_token_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#is_edge_token_auth MediaServicesStreamCdnConfig#is_edge_token_auth}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -87,7 +87,7 @@ namespace oci.MediaServicesStreamCdnConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_a MediaServicesStreamCdnConfig#origin_auth_secret_key_a}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_a MediaServicesStreamCdnConfig#origin_auth_secret_key_a}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSecretKeyA", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSecretKeyA
@@ -96,7 +96,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_b MediaServicesStreamCdnConfig#origin_auth_secret_key_b}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_b MediaServicesStreamCdnConfig#origin_auth_secret_key_b}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSecretKeyB", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSecretKeyB
@@ -105,7 +105,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_nonce_a MediaServicesStreamCdnConfig#origin_auth_secret_key_nonce_a}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_nonce_a MediaServicesStreamCdnConfig#origin_auth_secret_key_nonce_a}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSecretKeyNonceA", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSecretKeyNonceA
@@ -114,7 +114,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_nonce_b MediaServicesStreamCdnConfig#origin_auth_secret_key_nonce_b}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_secret_key_nonce_b MediaServicesStreamCdnConfig#origin_auth_secret_key_nonce_b}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSecretKeyNonceB", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSecretKeyNonceB
@@ -123,7 +123,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_sign_encryption MediaServicesStreamCdnConfig#origin_auth_sign_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_sign_encryption MediaServicesStreamCdnConfig#origin_auth_sign_encryption}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSignEncryption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSignEncryption
@@ -132,7 +132,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/media_services_stream_cdn_config#origin_auth_sign_type MediaServicesStreamCdnConfig#origin_auth_sign_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/media_services_stream_cdn_config#origin_auth_sign_type MediaServicesStreamCdnConfig#origin_auth_sign_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originAuthSignType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginAuthSignType

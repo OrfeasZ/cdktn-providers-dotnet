@@ -9,7 +9,7 @@ namespace oci.DataOciLoggingUnifiedAgentConfiguration
     [JsiiByValue(fqn: "oci.dataOciLoggingUnifiedAgentConfiguration.DataOciLoggingUnifiedAgentConfigurationConfig")]
     public class DataOciLoggingUnifiedAgentConfigurationConfig : oci.DataOciLoggingUnifiedAgentConfiguration.IDataOciLoggingUnifiedAgentConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
         [JsiiProperty(name: "unifiedAgentConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string UnifiedAgentConfigurationId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveDataModelSensitiveTypes.DataOciDataSafeSensitiveDataModelSensitiveTypesConfig")]
     public class DataOciDataSafeSensitiveDataModelSensitiveTypesConfig : oci.DataOciDataSafeSensitiveDataModelSensitiveTypes.IDataOciDataSafeSensitiveDataModelSensitiveTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#sensitive_data_model_id DataOciDataSafeSensitiveDataModelSensitiveTypes#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#sensitive_data_model_id DataOciDataSafeSensitiveDataModelSensitiveTypes#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveDataModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#filter DataOciDataSafeSensitiveDataModelSensitiveTypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#filter DataOciDataSafeSensitiveDataModelSensitiveTypes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveDataModelSensitiveTypes.IDataOciDataSafeSensitiveDataModelSensitiveTypesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#id DataOciDataSafeSensitiveDataModelSensitiveTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#id DataOciDataSafeSensitiveDataModelSensitiveTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelSensitiveTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#sensitive_type_id DataOciDataSafeSensitiveDataModelSensitiveTypes#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_data_model_sensitive_types#sensitive_type_id DataOciDataSafeSensitiveDataModelSensitiveTypes#sensitive_type_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveTypeId

@@ -9,7 +9,7 @@ namespace oci.DataOciEmailEmailReturnPaths
     [JsiiByValue(fqn: "oci.dataOciEmailEmailReturnPaths.DataOciEmailEmailReturnPathsFilter")]
     public class DataOciEmailEmailReturnPathsFilter : oci.DataOciEmailEmailReturnPaths.IDataOciEmailEmailReturnPathsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_email_return_paths#name DataOciEmailEmailReturnPaths#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_email_return_paths#name DataOciEmailEmailReturnPaths#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciEmailEmailReturnPaths
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_email_return_paths#values DataOciEmailEmailReturnPaths#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_email_return_paths#values DataOciEmailEmailReturnPaths#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciEmailEmailReturnPaths
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_email_return_paths#regex DataOciEmailEmailReturnPaths#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_email_return_paths#regex DataOciEmailEmailReturnPaths#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

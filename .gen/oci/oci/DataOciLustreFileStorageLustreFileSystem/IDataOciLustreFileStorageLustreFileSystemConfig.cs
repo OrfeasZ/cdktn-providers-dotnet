@@ -7,7 +7,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystem
     [JsiiInterface(nativeType: typeof(IDataOciLustreFileStorageLustreFileSystemConfig), fullyQualifiedName: "oci.dataOciLustreFileStorageLustreFileSystem.DataOciLustreFileStorageLustreFileSystemConfig")]
     public interface IDataOciLustreFileStorageLustreFileSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
         [JsiiProperty(name: "lustreFileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string LustreFileSystemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_lustre_file_system#lustre_file_system_id DataOciLustreFileStorageLustreFileSystem#lustre_file_system_id}.</summary>
             [JsiiProperty(name: "lustreFileSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string LustreFileSystemId
             {

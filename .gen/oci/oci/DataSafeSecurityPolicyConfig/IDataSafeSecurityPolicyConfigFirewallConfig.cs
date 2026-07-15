@@ -7,7 +7,7 @@ namespace oci.DataSafeSecurityPolicyConfig
     [JsiiInterface(nativeType: typeof(IDataSafeSecurityPolicyConfigFirewallConfig), fullyQualifiedName: "oci.dataSafeSecurityPolicyConfig.DataSafeSecurityPolicyConfigFirewallConfig")]
     public interface IDataSafeSecurityPolicyConfigFirewallConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}.</summary>
         [JsiiProperty(name: "excludeJob", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExcludeJob
@@ -18,7 +18,7 @@ namespace oci.DataSafeSecurityPolicyConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -29,7 +29,7 @@ namespace oci.DataSafeSecurityPolicyConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}.</summary>
         [JsiiProperty(name: "violationLogAutoPurge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ViolationLogAutoPurge
@@ -47,7 +47,7 @@ namespace oci.DataSafeSecurityPolicyConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#exclude_job DataSafeSecurityPolicyConfigA#exclude_job}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludeJob", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExcludeJob
@@ -55,7 +55,7 @@ namespace oci.DataSafeSecurityPolicyConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#status DataSafeSecurityPolicyConfigA#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -63,7 +63,7 @@ namespace oci.DataSafeSecurityPolicyConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_config#violation_log_auto_purge DataSafeSecurityPolicyConfigA#violation_log_auto_purge}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "violationLogAutoPurge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ViolationLogAutoPurge

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageGrid
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalExadataStorageGridConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalExadataStorageGrid.DataOciDatabaseManagementExternalExadataStorageGridConfig")]
     public interface IDataOciDatabaseManagementExternalExadataStorageGridConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DataOciDatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DataOciDatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageGridId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalExadataStorageGridId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageGrid
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DataOciDatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DataOciDatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
             [JsiiProperty(name: "externalExadataStorageGridId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalExadataStorageGridId
             {

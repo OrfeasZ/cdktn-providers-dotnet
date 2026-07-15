@@ -9,7 +9,7 @@ namespace oci.DatabaseExadataInfrastructure
     [JsiiByValue(fqn: "oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureMaintenanceWindowMonths")]
     public class DatabaseExadataInfrastructureMaintenanceWindowMonths : oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureMaintenanceWindowMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_exadata_infrastructure#name DatabaseExadataInfrastructure#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_exadata_infrastructure#name DatabaseExadataInfrastructure#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

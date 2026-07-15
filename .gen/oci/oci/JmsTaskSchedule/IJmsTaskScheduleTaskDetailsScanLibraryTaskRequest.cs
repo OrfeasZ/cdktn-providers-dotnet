@@ -7,7 +7,7 @@ namespace oci.JmsTaskSchedule
     [JsiiInterface(nativeType: typeof(IJmsTaskScheduleTaskDetailsScanLibraryTaskRequest), fullyQualifiedName: "oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsScanLibraryTaskRequest")]
     public interface IJmsTaskScheduleTaskDetailsScanLibraryTaskRequest
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}.</summary>
         [JsiiProperty(name: "dynamicScanDurationInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DynamicScanDurationInMinutes
@@ -18,7 +18,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}.</summary>
         [JsiiProperty(name: "managedInstanceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ManagedInstanceIds
@@ -50,7 +50,7 @@ namespace oci.JmsTaskSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#dynamic_scan_duration_in_minutes JmsTaskSchedule#dynamic_scan_duration_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dynamicScanDurationInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DynamicScanDurationInMinutes
@@ -58,7 +58,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#is_dynamic_scan JmsTaskSchedule#is_dynamic_scan}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -69,7 +69,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_task_schedule#managed_instance_ids JmsTaskSchedule#managed_instance_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ManagedInstanceIds

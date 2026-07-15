@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExecutionAction
     [JsiiByValue(fqn: "oci.dataOciDatabaseExecutionAction.DataOciDatabaseExecutionActionConfig")]
     public class DataOciDatabaseExecutionActionConfig : oci.DataOciDatabaseExecutionAction.IDataOciDatabaseExecutionActionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
         [JsiiProperty(name: "executionActionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExecutionActionId
         {

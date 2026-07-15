@@ -9,7 +9,7 @@ namespace oci.DataOciCoreBootVolume
     [JsiiByValue(fqn: "oci.dataOciCoreBootVolume.DataOciCoreBootVolumeConfig")]
     public class DataOciCoreBootVolumeConfig : oci.DataOciCoreBootVolume.IDataOciCoreBootVolumeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
         [JsiiProperty(name: "bootVolumeId", typeJson: "{\"primitive\":\"string\"}")]
         public string BootVolumeId
         {

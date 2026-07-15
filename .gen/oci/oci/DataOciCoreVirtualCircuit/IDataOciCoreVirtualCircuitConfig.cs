@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVirtualCircuit
     [JsiiInterface(nativeType: typeof(IDataOciCoreVirtualCircuitConfig), fullyQualifiedName: "oci.dataOciCoreVirtualCircuit.DataOciCoreVirtualCircuitConfig")]
     public interface IDataOciCoreVirtualCircuitConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
         [JsiiProperty(name: "virtualCircuitId", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualCircuitId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreVirtualCircuit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
             [JsiiProperty(name: "virtualCircuitId", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualCircuitId
             {

@@ -5,7 +5,7 @@ namespace oci.DataOciCapacityManagementInternalOccAvailabilityCatalogs
     /// <remarks>
     /// <h1><c>data_oci_capacity_management_internal_occ_availability_catalogs</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs"><c>data_oci_capacity_management_internal_occ_availability_catalogs</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_availability_catalogs"><c>data_oci_capacity_management_internal_occ_availability_catalogs</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

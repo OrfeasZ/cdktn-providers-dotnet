@@ -9,7 +9,7 @@ namespace oci.DataOciMonitoringAlarmHistoryCollection
     [JsiiByValue(fqn: "oci.dataOciMonitoringAlarmHistoryCollection.DataOciMonitoringAlarmHistoryCollectionConfig")]
     public class DataOciMonitoringAlarmHistoryCollectionConfig : oci.DataOciMonitoringAlarmHistoryCollection.IDataOciMonitoringAlarmHistoryCollectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_history_collection#alarm_id DataOciMonitoringAlarmHistoryCollection#alarm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_history_collection#alarm_id DataOciMonitoringAlarmHistoryCollection#alarm_id}.</summary>
         [JsiiProperty(name: "alarmId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMonitoringAlarmHistoryCollection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_history_collection#alarm_historytype DataOciMonitoringAlarmHistoryCollection#alarm_historytype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_history_collection#alarm_historytype DataOciMonitoringAlarmHistoryCollection#alarm_historytype}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alarmHistorytype", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AlarmHistorytype
@@ -26,7 +26,7 @@ namespace oci.DataOciMonitoringAlarmHistoryCollection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_history_collection#id DataOciMonitoringAlarmHistoryCollection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_history_collection#id DataOciMonitoringAlarmHistoryCollection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciMonitoringAlarmHistoryCollection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_history_collection#timestamp_greater_than_or_equal_to DataOciMonitoringAlarmHistoryCollection#timestamp_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_history_collection#timestamp_greater_than_or_equal_to DataOciMonitoringAlarmHistoryCollection#timestamp_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timestampGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimestampGreaterThanOrEqualTo
@@ -48,7 +48,7 @@ namespace oci.DataOciMonitoringAlarmHistoryCollection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/monitoring_alarm_history_collection#timestamp_less_than DataOciMonitoringAlarmHistoryCollection#timestamp_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm_history_collection#timestamp_less_than DataOciMonitoringAlarmHistoryCollection#timestamp_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timestampLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimestampLessThan

@@ -9,7 +9,7 @@ namespace oci.DataOciEmailSender
     [JsiiByValue(fqn: "oci.dataOciEmailSender.DataOciEmailSenderConfig")]
     public class DataOciEmailSenderConfig : oci.DataOciEmailSender.IDataOciEmailSenderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
         [JsiiProperty(name: "senderId", typeJson: "{\"primitive\":\"string\"}")]
         public string SenderId
         {

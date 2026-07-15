@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiAwrHubs
     [JsiiByValue(fqn: "oci.dataOciOpsiAwrHubs.DataOciOpsiAwrHubsFilter")]
     public class DataOciOpsiAwrHubsFilter : oci.DataOciOpsiAwrHubs.IDataOciOpsiAwrHubsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_awr_hubs#name DataOciOpsiAwrHubs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opsi_awr_hubs#name DataOciOpsiAwrHubs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOpsiAwrHubs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_awr_hubs#values DataOciOpsiAwrHubs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opsi_awr_hubs#values DataOciOpsiAwrHubs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOpsiAwrHubs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_awr_hubs#regex DataOciOpsiAwrHubs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opsi_awr_hubs#regex DataOciOpsiAwrHubs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

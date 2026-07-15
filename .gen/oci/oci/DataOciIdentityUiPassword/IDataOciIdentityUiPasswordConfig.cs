@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityUiPassword
     [JsiiInterface(nativeType: typeof(IDataOciIdentityUiPasswordConfig), fullyQualifiedName: "oci.dataOciIdentityUiPassword.DataOciIdentityUiPasswordConfig")]
     public interface IDataOciIdentityUiPasswordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_ui_password#user_id DataOciIdentityUiPassword#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_ui_password#user_id DataOciIdentityUiPassword#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         string UserId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityUiPassword
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_ui_password#user_id DataOciIdentityUiPassword#user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_ui_password#user_id DataOciIdentityUiPassword#user_id}.</summary>
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserId
             {

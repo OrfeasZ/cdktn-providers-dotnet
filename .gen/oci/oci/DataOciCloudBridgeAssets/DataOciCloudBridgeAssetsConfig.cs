@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeAssets
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeAssets.DataOciCloudBridgeAssetsConfig")]
     public class DataOciCloudBridgeAssetsConfig : oci.DataOciCloudBridgeAssets.IDataOciCloudBridgeAssetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#compartment_id DataOciCloudBridgeAssets#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#compartment_id DataOciCloudBridgeAssets#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#asset_class_name DataOciCloudBridgeAssets#asset_class_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#asset_class_name DataOciCloudBridgeAssets#asset_class_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetClassName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetClassName
@@ -26,7 +26,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#asset_class_version DataOciCloudBridgeAssets#asset_class_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#asset_class_version DataOciCloudBridgeAssets#asset_class_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetClassVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetClassVersion
@@ -35,7 +35,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#asset_id DataOciCloudBridgeAssets#asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#asset_id DataOciCloudBridgeAssets#asset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetId
@@ -44,7 +44,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#asset_type DataOciCloudBridgeAssets#asset_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#asset_type DataOciCloudBridgeAssets#asset_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetType
@@ -53,7 +53,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#display_name DataOciCloudBridgeAssets#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#display_name DataOciCloudBridgeAssets#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -62,7 +62,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#external_asset_key DataOciCloudBridgeAssets#external_asset_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#external_asset_key DataOciCloudBridgeAssets#external_asset_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalAssetKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalAssetKey
@@ -75,7 +75,7 @@ namespace oci.DataOciCloudBridgeAssets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#filter DataOciCloudBridgeAssets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#filter DataOciCloudBridgeAssets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeAssets.IDataOciCloudBridgeAssetsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -106,7 +106,7 @@ namespace oci.DataOciCloudBridgeAssets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#id DataOciCloudBridgeAssets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#id DataOciCloudBridgeAssets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#inventory_id DataOciCloudBridgeAssets#inventory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#inventory_id DataOciCloudBridgeAssets#inventory_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inventoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InventoryId
@@ -128,7 +128,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#source_key DataOciCloudBridgeAssets#source_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#source_key DataOciCloudBridgeAssets#source_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceKey
@@ -137,7 +137,7 @@ namespace oci.DataOciCloudBridgeAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_assets#state DataOciCloudBridgeAssets#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_assets#state DataOciCloudBridgeAssets#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

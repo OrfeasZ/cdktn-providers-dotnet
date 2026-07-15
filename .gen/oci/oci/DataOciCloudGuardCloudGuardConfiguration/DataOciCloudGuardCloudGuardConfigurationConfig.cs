@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardCloudGuardConfiguration
     [JsiiByValue(fqn: "oci.dataOciCloudGuardCloudGuardConfiguration.DataOciCloudGuardCloudGuardConfigurationConfig")]
     public class DataOciCloudGuardCloudGuardConfigurationConfig : oci.DataOciCloudGuardCloudGuardConfiguration.IDataOciCloudGuardCloudGuardConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_guard_cloud_guard_configuration#compartment_id DataOciCloudGuardCloudGuardConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_cloud_guard_configuration#compartment_id DataOciCloudGuardCloudGuardConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

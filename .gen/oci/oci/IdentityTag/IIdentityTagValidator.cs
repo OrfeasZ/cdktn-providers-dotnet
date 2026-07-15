@@ -7,14 +7,14 @@ namespace oci.IdentityTag
     [JsiiInterface(nativeType: typeof(IIdentityTagValidator), fullyQualifiedName: "oci.identityTag.IdentityTagValidator")]
     public interface IIdentityTagValidator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
         [JsiiProperty(name: "validatorType", typeJson: "{\"primitive\":\"string\"}")]
         string ValidatorType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
@@ -28,14 +28,14 @@ namespace oci.IdentityTag
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
             [JsiiProperty(name: "validatorType", typeJson: "{\"primitive\":\"string\"}")]
             public string ValidatorType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {

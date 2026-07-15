@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseMigrationJobOutput
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationJobOutputConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationJobOutput.DataOciDatabaseMigrationJobOutputConfig")]
     public interface IDataOciDatabaseMigrationJobOutputConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_job_output#job_id DataOciDatabaseMigrationJobOutput#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_job_output#job_id DataOciDatabaseMigrationJobOutput#job_id}.</summary>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
         string JobId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_job_output#id DataOciDatabaseMigrationJobOutput#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_job_output#id DataOciDatabaseMigrationJobOutput#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDatabaseMigrationJobOutput
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_job_output#job_id DataOciDatabaseMigrationJobOutput#job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_job_output#job_id DataOciDatabaseMigrationJobOutput#job_id}.</summary>
             [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
             public string JobId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_job_output#id DataOciDatabaseMigrationJobOutput#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_job_output#id DataOciDatabaseMigrationJobOutput#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
     [JsiiByValue(fqn: "oci.dataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsFilter")]
     public class DataOciLustreFileStorageLustreFileSystemsFilter : oci.DataOciLustreFileStorageLustreFileSystems.IDataOciLustreFileStorageLustreFileSystemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_lustre_file_systems#name DataOciLustreFileStorageLustreFileSystems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_lustre_file_systems#name DataOciLustreFileStorageLustreFileSystems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_lustre_file_systems#values DataOciLustreFileStorageLustreFileSystems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_lustre_file_systems#values DataOciLustreFileStorageLustreFileSystems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/lustre_file_storage_lustre_file_systems#regex DataOciLustreFileStorageLustreFileSystems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_lustre_file_systems#regex DataOciLustreFileStorageLustreFileSystems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

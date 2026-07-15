@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsSecurityQuestions.DataOciIdentityDomainsSecurityQuestionsConfig")]
     public class DataOciIdentityDomainsSecurityQuestionsConfig : oci.DataOciIdentityDomainsSecurityQuestions.IDataOciIdentityDomainsSecurityQuestionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#idcs_endpoint DataOciIdentityDomainsSecurityQuestions#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#idcs_endpoint DataOciIdentityDomainsSecurityQuestions#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#attributes DataOciIdentityDomainsSecurityQuestions#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#attributes DataOciIdentityDomainsSecurityQuestions#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#attribute_sets DataOciIdentityDomainsSecurityQuestions#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#attribute_sets DataOciIdentityDomainsSecurityQuestions#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#authorization DataOciIdentityDomainsSecurityQuestions#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#authorization DataOciIdentityDomainsSecurityQuestions#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -44,7 +44,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#compartment_id DataOciIdentityDomainsSecurityQuestions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#compartment_id DataOciIdentityDomainsSecurityQuestions#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -53,7 +53,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#id DataOciIdentityDomainsSecurityQuestions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#id DataOciIdentityDomainsSecurityQuestions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#resource_type_schema_version DataOciIdentityDomainsSecurityQuestions#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#resource_type_schema_version DataOciIdentityDomainsSecurityQuestions#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#security_question_count DataOciIdentityDomainsSecurityQuestions#security_question_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#security_question_count DataOciIdentityDomainsSecurityQuestions#security_question_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityQuestionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SecurityQuestionCount
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#security_question_filter DataOciIdentityDomainsSecurityQuestions#security_question_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#security_question_filter DataOciIdentityDomainsSecurityQuestions#security_question_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityQuestionFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityQuestionFilter
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#sort_by DataOciIdentityDomainsSecurityQuestions#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#sort_by DataOciIdentityDomainsSecurityQuestions#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -102,7 +102,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#sort_order DataOciIdentityDomainsSecurityQuestions#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#sort_order DataOciIdentityDomainsSecurityQuestions#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -111,7 +111,7 @@ namespace oci.DataOciIdentityDomainsSecurityQuestions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_domains_security_questions#start_index DataOciIdentityDomainsSecurityQuestions#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_security_questions#start_index DataOciIdentityDomainsSecurityQuestions#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex

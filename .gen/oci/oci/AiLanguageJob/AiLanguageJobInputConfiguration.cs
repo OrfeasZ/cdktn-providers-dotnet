@@ -9,7 +9,7 @@ namespace oci.AiLanguageJob
     {
         private object? _configuration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;</para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.AiLanguageJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_language_job#document_types AiLanguageJob#document_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_job#document_types AiLanguageJob#document_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DocumentTypes

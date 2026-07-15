@@ -119,6 +119,12 @@ namespace oci.DataOciContainerInstancesContainerInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "securityContext", typeJson: "{\"fqn\":\"oci.dataOciContainerInstancesContainerInstances.DataOciContainerInstancesContainerInstancesContainerInstanceCollectionItemsSecurityContextList\"}")]
+        public virtual oci.DataOciContainerInstancesContainerInstances.DataOciContainerInstancesContainerInstancesContainerInstanceCollectionItemsSecurityContextList SecurityContext
+        {
+            get => GetInstanceProperty<oci.DataOciContainerInstancesContainerInstances.DataOciContainerInstancesContainerInstancesContainerInstanceCollectionItemsSecurityContextList>()!;
+        }
+
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Shape
         {
@@ -141,6 +147,12 @@ namespace oci.DataOciContainerInstancesContainerInstances
         public virtual Io.Cdktn.StringMap SystemTags
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TenantId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]

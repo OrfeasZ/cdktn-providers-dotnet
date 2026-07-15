@@ -9,7 +9,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControlAssignment
     [JsiiByValue(fqn: "oci.dataOciOperatorAccessControlOperatorControlAssignment.DataOciOperatorAccessControlOperatorControlAssignmentConfig")]
     public class DataOciOperatorAccessControlOperatorControlAssignmentConfig : oci.DataOciOperatorAccessControlOperatorControlAssignment.IDataOciOperatorAccessControlOperatorControlAssignmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_control_assignment#operator_control_assignment_id DataOciOperatorAccessControlOperatorControlAssignment#operator_control_assignment_id}.</summary>
         [JsiiProperty(name: "operatorControlAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperatorControlAssignmentId
         {

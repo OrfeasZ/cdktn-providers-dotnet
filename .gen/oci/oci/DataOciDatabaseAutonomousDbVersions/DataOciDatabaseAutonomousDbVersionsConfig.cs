@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDbVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDbVersions.DataOciDatabaseAutonomousDbVersionsConfig")]
     public class DataOciDatabaseAutonomousDbVersionsConfig : oci.DataOciDatabaseAutonomousDbVersions.IDataOciDatabaseAutonomousDbVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_db_versions#compartment_id DataOciDatabaseAutonomousDbVersions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_db_versions#compartment_id DataOciDatabaseAutonomousDbVersions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousDbVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_db_versions#db_workload DataOciDatabaseAutonomousDbVersions#db_workload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_db_versions#db_workload DataOciDatabaseAutonomousDbVersions#db_workload}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbWorkload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbWorkload
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseAutonomousDbVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_db_versions#filter DataOciDatabaseAutonomousDbVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_db_versions#filter DataOciDatabaseAutonomousDbVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousDbVersions.IDataOciDatabaseAutonomousDbVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseAutonomousDbVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_db_versions#id DataOciDatabaseAutonomousDbVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_db_versions#id DataOciDatabaseAutonomousDbVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

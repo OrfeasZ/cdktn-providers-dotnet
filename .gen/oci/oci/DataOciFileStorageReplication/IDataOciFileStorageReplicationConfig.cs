@@ -7,7 +7,7 @@ namespace oci.DataOciFileStorageReplication
     [JsiiInterface(nativeType: typeof(IDataOciFileStorageReplicationConfig), fullyQualifiedName: "oci.dataOciFileStorageReplication.DataOciFileStorageReplicationConfig")]
     public interface IDataOciFileStorageReplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
         [JsiiProperty(name: "replicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ReplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFileStorageReplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
             [JsiiProperty(name: "replicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ReplicationId
             {

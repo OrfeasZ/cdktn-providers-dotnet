@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntityTypes.DataOciLogAnalyticsLogAnalyticsEntityTypesFilter")]
     public class DataOciLogAnalyticsLogAnalyticsEntityTypesFilter : oci.DataOciLogAnalyticsLogAnalyticsEntityTypes.IDataOciLogAnalyticsLogAnalyticsEntityTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_entity_types#values DataOciLogAnalyticsLogAnalyticsEntityTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#values DataOciLogAnalyticsLogAnalyticsEntityTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityTypes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_log_analytics_entity_types#regex DataOciLogAnalyticsLogAnalyticsEntityTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_log_analytics_entity_types#regex DataOciLogAnalyticsLogAnalyticsEntityTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerListeners
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerListeners.DataOciNetworkLoadBalancerListenersConfig")]
     public class DataOciNetworkLoadBalancerListenersConfig : oci.DataOciNetworkLoadBalancerListeners.IDataOciNetworkLoadBalancerListenersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_load_balancer_listeners#network_load_balancer_id DataOciNetworkLoadBalancerListeners#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_load_balancer_listeners#network_load_balancer_id DataOciNetworkLoadBalancerListeners#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciNetworkLoadBalancerListeners
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_load_balancer_listeners#filter DataOciNetworkLoadBalancerListeners#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_load_balancer_listeners#filter DataOciNetworkLoadBalancerListeners#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkLoadBalancerListeners.IDataOciNetworkLoadBalancerListenersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciNetworkLoadBalancerListeners
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_load_balancer_listeners#id DataOciNetworkLoadBalancerListeners#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_load_balancer_listeners#id DataOciNetworkLoadBalancerListeners#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

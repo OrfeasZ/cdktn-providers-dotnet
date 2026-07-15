@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsEndpointService
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsEndpointService.DataOciDatabaseToolsDatabaseToolsEndpointServiceConfig")]
     public class DataOciDatabaseToolsDatabaseToolsEndpointServiceConfig : oci.DataOciDatabaseToolsDatabaseToolsEndpointService.IDataOciDatabaseToolsDatabaseToolsEndpointServiceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_endpoint_service#database_tools_endpoint_service_id DataOciDatabaseToolsDatabaseToolsEndpointService#database_tools_endpoint_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_endpoint_service#database_tools_endpoint_service_id DataOciDatabaseToolsDatabaseToolsEndpointService#database_tools_endpoint_service_id}.</summary>
         [JsiiProperty(name: "databaseToolsEndpointServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsEndpointServiceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsEndpointService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_endpoint_service#id DataOciDatabaseToolsDatabaseToolsEndpointService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_endpoint_service#id DataOciDatabaseToolsDatabaseToolsEndpointService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.CoreSecurityList
     [JsiiInterface(nativeType: typeof(ICoreSecurityListIngressSecurityRulesTcpOptions), fullyQualifiedName: "oci.coreSecurityList.CoreSecurityListIngressSecurityRulesTcpOptions")]
     public interface ICoreSecurityListIngressSecurityRulesTcpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Max
@@ -18,7 +18,7 @@ namespace oci.CoreSecurityList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Min
@@ -31,7 +31,7 @@ namespace oci.CoreSecurityList
 
         /// <summary>source_port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#source_port_range CoreSecurityList#source_port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#source_port_range CoreSecurityList#source_port_range}
         /// </remarks>
         [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreSecurityList.CoreSecurityListIngressSecurityRulesTcpOptionsSourcePortRange\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace oci.CoreSecurityList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Max
@@ -58,7 +58,7 @@ namespace oci.CoreSecurityList
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Min
@@ -68,7 +68,7 @@ namespace oci.CoreSecurityList
 
             /// <summary>source_port_range block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_security_list#source_port_range CoreSecurityList#source_port_range}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#source_port_range CoreSecurityList#source_port_range}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreSecurityList.CoreSecurityListIngressSecurityRulesTcpOptionsSourcePortRange\"}", isOptional: true)]

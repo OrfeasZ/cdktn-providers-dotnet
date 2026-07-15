@@ -5,7 +5,7 @@ namespace oci.KmsEkmsPrivateEndpoint
     /// <remarks>
     /// <h1><c>oci_kms_ekms_private_endpoint</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/kms_ekms_private_endpoint"><c>oci_kms_ekms_private_endpoint</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_ekms_private_endpoint"><c>oci_kms_ekms_private_endpoint</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

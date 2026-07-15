@@ -9,7 +9,7 @@ namespace oci.DatasciencePipeline
     [JsiiByValue(fqn: "oci.datasciencePipeline.DatasciencePipelineStepDetails")]
     public class DatasciencePipelineStepDetails : oci.DatasciencePipeline.IDatasciencePipelineStepDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_name DatasciencePipeline#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_name DatasciencePipeline#step_name}.</summary>
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}")]
         public string StepName
         {
@@ -17,7 +17,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_type DatasciencePipeline#step_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_type DatasciencePipeline#step_type}.</summary>
         [JsiiProperty(name: "stepType", typeJson: "{\"primitive\":\"string\"}")]
         public string StepType
         {
@@ -25,7 +25,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#application_id DatasciencePipeline#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#application_id DatasciencePipeline#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -34,7 +34,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#depends_on DatasciencePipeline#depends_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#depends_on DatasciencePipeline#depends_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DependsOn
@@ -43,7 +43,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#description DatasciencePipeline#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#description DatasciencePipeline#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -54,7 +54,7 @@ namespace oci.DatasciencePipeline
 
         private object? _isArtifactUploaded;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#is_artifact_uploaded DatasciencePipeline#is_artifact_uploaded}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#is_artifact_uploaded DatasciencePipeline#is_artifact_uploaded}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -86,7 +86,7 @@ namespace oci.DatasciencePipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#job_id DatasciencePipeline#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#job_id DatasciencePipeline#job_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobId
@@ -97,7 +97,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_configuration_details DatasciencePipeline#step_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_configuration_details DatasciencePipeline#step_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepConfigurationDetails\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_container_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_container_configuration_details DatasciencePipeline#step_container_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_container_configuration_details DatasciencePipeline#step_container_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepContainerConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepContainerConfigurationDetails\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_dataflow_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_dataflow_configuration_details DatasciencePipeline#step_dataflow_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_dataflow_configuration_details DatasciencePipeline#step_dataflow_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepDataflowConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepDataflowConfigurationDetails\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_infrastructure_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_infrastructure_configuration_details DatasciencePipeline#step_infrastructure_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_infrastructure_configuration_details DatasciencePipeline#step_infrastructure_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepInfrastructureConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepInfrastructureConfigurationDetails\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_parameters DatasciencePipeline#step_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_parameters DatasciencePipeline#step_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepParameters", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepParameters\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_run_name DatasciencePipeline#step_run_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_run_name DatasciencePipeline#step_run_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stepRunName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StepRunName
@@ -168,7 +168,7 @@ namespace oci.DatasciencePipeline
 
         /// <summary>step_storage_mount_configuration_details_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_pipeline#step_storage_mount_configuration_details_list DatasciencePipeline#step_storage_mount_configuration_details_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#step_storage_mount_configuration_details_list DatasciencePipeline#step_storage_mount_configuration_details_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipeline.IDatasciencePipelineStepDetailsStepStorageMountConfigurationDetailsListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]

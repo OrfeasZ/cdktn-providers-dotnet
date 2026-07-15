@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
     [JsiiByValue(fqn: "oci.stackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementTimeouts")]
     public class StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementTimeouts : oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement.IStackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#create StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#create StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#delete StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#delete StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#update StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#update StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,28 +7,28 @@ namespace oci.DataOciApmConfigDataFile
     [JsiiInterface(nativeType: typeof(IDataOciApmConfigDataFileConfig), fullyQualifiedName: "oci.dataOciApmConfigDataFile.DataOciApmConfigDataFileConfig")]
     public interface IDataOciApmConfigDataFileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string ApmDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
         [JsiiProperty(name: "apmType", typeJson: "{\"primitive\":\"string\"}")]
         string ApmType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
         [JsiiProperty(name: "dataFileName", typeJson: "{\"primitive\":\"string\"}")]
         string DataFileName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,28 +49,28 @@ namespace oci.DataOciApmConfigDataFile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#apm_domain_id DataOciApmConfigDataFile#apm_domain_id}.</summary>
             [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#apm_type DataOciApmConfigDataFile#apm_type}.</summary>
             [JsiiProperty(name: "apmType", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#data_file_name DataOciApmConfigDataFile#data_file_name}.</summary>
             [JsiiProperty(name: "dataFileName", typeJson: "{\"primitive\":\"string\"}")]
             public string DataFileName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_config_data_file#base64_encode_content DataOciApmConfigDataFile#base64_encode_content}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

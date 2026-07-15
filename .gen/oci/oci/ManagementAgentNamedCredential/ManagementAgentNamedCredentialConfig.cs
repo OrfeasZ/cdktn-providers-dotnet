@@ -9,7 +9,7 @@ namespace oci.ManagementAgentNamedCredential
     [JsiiByValue(fqn: "oci.managementAgentNamedCredential.ManagementAgentNamedCredentialConfig")]
     public class ManagementAgentNamedCredentialConfig : oci.ManagementAgentNamedCredential.IManagementAgentNamedCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#management_agent_id ManagementAgentNamedCredential#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#management_agent_id ManagementAgentNamedCredential#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementAgentId
         {
@@ -17,7 +17,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace oci.ManagementAgentNamedCredential
 
         /// <summary>properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#properties ManagementAgentNamedCredential#properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#properties ManagementAgentNamedCredential#properties}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ManagementAgentNamedCredential.IManagementAgentNamedCredentialProperties" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "properties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.managementAgentNamedCredential.ManagementAgentNamedCredentialProperties\"},\"kind\":\"array\"}}]}}")]
@@ -59,7 +59,7 @@ namespace oci.ManagementAgentNamedCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#type ManagementAgentNamedCredential#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#type ManagementAgentNamedCredential#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -67,7 +67,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#defined_tags ManagementAgentNamedCredential#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#defined_tags ManagementAgentNamedCredential#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -76,7 +76,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#description ManagementAgentNamedCredential#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#description ManagementAgentNamedCredential#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -85,7 +85,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#freeform_tags ManagementAgentNamedCredential#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#freeform_tags ManagementAgentNamedCredential#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -94,7 +94,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#id ManagementAgentNamedCredential#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#id ManagementAgentNamedCredential#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.ManagementAgentNamedCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_named_credential#timeouts ManagementAgentNamedCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_named_credential#timeouts ManagementAgentNamedCredential#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.managementAgentNamedCredential.ManagementAgentNamedCredentialTimeouts\"}", isOptional: true)]

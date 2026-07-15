@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiAgentProvisionedCapacity
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentProvisionedCapacity.DataOciGenerativeAiAgentProvisionedCapacityConfig")]
     public class DataOciGenerativeAiAgentProvisionedCapacityConfig : oci.DataOciGenerativeAiAgentProvisionedCapacity.IDataOciGenerativeAiAgentProvisionedCapacityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_agent_provisioned_capacity#provisioned_capacity_id DataOciGenerativeAiAgentProvisionedCapacity#provisioned_capacity_id}.</summary>
         [JsiiProperty(name: "provisionedCapacityId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProvisionedCapacityId
         {

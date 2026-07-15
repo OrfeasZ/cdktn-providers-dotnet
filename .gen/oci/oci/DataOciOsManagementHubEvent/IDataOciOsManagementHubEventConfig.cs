@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubEvent
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubEventConfig), fullyQualifiedName: "oci.dataOciOsManagementHubEvent.DataOciOsManagementHubEventConfig")]
     public interface IDataOciOsManagementHubEventConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
         [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
         string EventId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubEvent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
             [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
             public string EventId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMount
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAzureBlobMountConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAzureBlobMount.DataOciDbmulticloudOracleDbAzureBlobMountConfig")]
     public interface IDataOciDbmulticloudOracleDbAzureBlobMountConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureBlobMountId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbAzureBlobMountId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
             [JsiiProperty(name: "oracleDbAzureBlobMountId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbAzureBlobMountId
             {

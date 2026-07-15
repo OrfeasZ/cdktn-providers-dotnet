@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDedicatedVmHost
     [JsiiByValue(fqn: "oci.dataOciCoreDedicatedVmHost.DataOciCoreDedicatedVmHostConfig")]
     public class DataOciCoreDedicatedVmHostConfig : oci.DataOciCoreDedicatedVmHost.IDataOciCoreDedicatedVmHostConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_dedicated_vm_host#dedicated_vm_host_id DataOciCoreDedicatedVmHost#dedicated_vm_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_dedicated_vm_host#dedicated_vm_host_id DataOciCoreDedicatedVmHost#dedicated_vm_host_id}.</summary>
         [JsiiProperty(name: "dedicatedVmHostId", typeJson: "{\"primitive\":\"string\"}")]
         public string DedicatedVmHostId
         {

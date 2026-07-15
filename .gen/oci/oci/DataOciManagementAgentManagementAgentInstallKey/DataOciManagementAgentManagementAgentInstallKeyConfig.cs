@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentManagementAgentInstallKey
     [JsiiByValue(fqn: "oci.dataOciManagementAgentManagementAgentInstallKey.DataOciManagementAgentManagementAgentInstallKeyConfig")]
     public class DataOciManagementAgentManagementAgentInstallKeyConfig : oci.DataOciManagementAgentManagementAgentInstallKey.IDataOciManagementAgentManagementAgentInstallKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
         [JsiiProperty(name: "managementAgentInstallKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementAgentInstallKeyId
         {

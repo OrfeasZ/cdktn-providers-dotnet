@@ -71,6 +71,12 @@ namespace oci.DataOciCoreComputeClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "placementConstraintDetails", typeJson: "{\"fqn\":\"oci.dataOciCoreComputeClusters.DataOciCoreComputeClustersComputeClusterCollectionItemsPlacementConstraintDetailsList\"}")]
+        public virtual oci.DataOciCoreComputeClusters.DataOciCoreComputeClustersComputeClusterCollectionItemsPlacementConstraintDetailsList PlacementConstraintDetails
+        {
+            get => GetInstanceProperty<oci.DataOciCoreComputeClusters.DataOciCoreComputeClustersComputeClusterCollectionItemsPlacementConstraintDetailsList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -79,6 +85,12 @@ namespace oci.DataOciCoreComputeClusters
 
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
         }

@@ -5,7 +5,7 @@ namespace oci.WaasCertificate
     /// <remarks>
     /// <h1><c>oci_waas_certificate</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waas_certificate"><c>oci_waas_certificate</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_certificate"><c>oci_waas_certificate</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

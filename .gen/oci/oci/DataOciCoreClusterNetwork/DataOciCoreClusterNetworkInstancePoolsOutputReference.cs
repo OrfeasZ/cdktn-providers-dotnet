@@ -101,6 +101,12 @@ namespace oci.DataOciCoreClusterNetwork
             get => GetInstanceProperty<oci.DataOciCoreClusterNetwork.DataOciCoreClusterNetworkInstancePoolsPlacementConfigurationsList>()!;
         }
 
+        [JsiiProperty(name: "poolType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PoolType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Size
         {

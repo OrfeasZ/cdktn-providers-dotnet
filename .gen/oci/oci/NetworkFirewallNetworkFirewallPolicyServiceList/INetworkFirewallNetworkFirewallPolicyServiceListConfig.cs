@@ -7,28 +7,28 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
     [JsiiInterface(nativeType: typeof(INetworkFirewallNetworkFirewallPolicyServiceListConfig), fullyQualifiedName: "oci.networkFirewallNetworkFirewallPolicyServiceList.NetworkFirewallNetworkFirewallPolicyServiceListConfig")]
     public interface INetworkFirewallNetworkFirewallPolicyServiceListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#name NetworkFirewallNetworkFirewallPolicyServiceList#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#name NetworkFirewallNetworkFirewallPolicyServiceList#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyServiceList#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyServiceList#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#services NetworkFirewallNetworkFirewallPolicyServiceList#services}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#services NetworkFirewallNetworkFirewallPolicyServiceList#services}.</summary>
         [JsiiProperty(name: "services", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Services
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#description NetworkFirewallNetworkFirewallPolicyServiceList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#description NetworkFirewallNetworkFirewallPolicyServiceList#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -39,7 +39,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#id NetworkFirewallNetworkFirewallPolicyServiceList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#id NetworkFirewallNetworkFirewallPolicyServiceList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#timeouts NetworkFirewallNetworkFirewallPolicyServiceList#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#timeouts NetworkFirewallNetworkFirewallPolicyServiceList#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyServiceList.NetworkFirewallNetworkFirewallPolicyServiceListTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,28 +75,28 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#name NetworkFirewallNetworkFirewallPolicyServiceList#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#name NetworkFirewallNetworkFirewallPolicyServiceList#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyServiceList#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyServiceList#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#services NetworkFirewallNetworkFirewallPolicyServiceList#services}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#services NetworkFirewallNetworkFirewallPolicyServiceList#services}.</summary>
             [JsiiProperty(name: "services", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Services
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#description NetworkFirewallNetworkFirewallPolicyServiceList#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#description NetworkFirewallNetworkFirewallPolicyServiceList#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -104,7 +104,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#id NetworkFirewallNetworkFirewallPolicyServiceList#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#id NetworkFirewallNetworkFirewallPolicyServiceList#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyServiceList
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/network_firewall_network_firewall_policy_service_list#timeouts NetworkFirewallNetworkFirewallPolicyServiceList#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_service_list#timeouts NetworkFirewallNetworkFirewallPolicyServiceList#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyServiceList.NetworkFirewallNetworkFirewallPolicyServiceListTimeouts\"}", isOptional: true)]

@@ -113,6 +113,12 @@ namespace oci.DataOciDataSafeReportDefinitions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isSchedulePaginationEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSchedulePaginationEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isSeeded", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsSeeded
         {

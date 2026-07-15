@@ -9,7 +9,7 @@ namespace oci.DataOciOdaOdaPrivateEndpointScanProxy
     [JsiiByValue(fqn: "oci.dataOciOdaOdaPrivateEndpointScanProxy.DataOciOdaOdaPrivateEndpointScanProxyConfig")]
     public class DataOciOdaOdaPrivateEndpointScanProxyConfig : oci.DataOciOdaOdaPrivateEndpointScanProxy.IDataOciOdaOdaPrivateEndpointScanProxyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_id}.</summary>
         [JsiiProperty(name: "odaPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string OdaPrivateEndpointId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOdaOdaPrivateEndpointScanProxy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_scan_proxy_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_scan_proxy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/oda_oda_private_endpoint_scan_proxy#oda_private_endpoint_scan_proxy_id DataOciOdaOdaPrivateEndpointScanProxy#oda_private_endpoint_scan_proxy_id}.</summary>
         [JsiiProperty(name: "odaPrivateEndpointScanProxyId", typeJson: "{\"primitive\":\"string\"}")]
         public string OdaPrivateEndpointScanProxyId
         {

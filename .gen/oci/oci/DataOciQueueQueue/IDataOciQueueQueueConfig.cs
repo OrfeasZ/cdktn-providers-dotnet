@@ -7,7 +7,7 @@ namespace oci.DataOciQueueQueue
     [JsiiInterface(nativeType: typeof(IDataOciQueueQueueConfig), fullyQualifiedName: "oci.dataOciQueueQueue.DataOciQueueQueueConfig")]
     public interface IDataOciQueueQueueConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/queue_queue#queue_id DataOciQueueQueue#queue_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/queue_queue#queue_id DataOciQueueQueue#queue_id}.</summary>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         string QueueId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciQueueQueue
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/queue_queue#queue_id DataOciQueueQueue#queue_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/queue_queue#queue_id DataOciQueueQueue#queue_id}.</summary>
             [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueId
             {

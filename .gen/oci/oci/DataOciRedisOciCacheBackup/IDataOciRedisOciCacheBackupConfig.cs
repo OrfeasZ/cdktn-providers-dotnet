@@ -7,7 +7,7 @@ namespace oci.DataOciRedisOciCacheBackup
     [JsiiInterface(nativeType: typeof(IDataOciRedisOciCacheBackupConfig), fullyQualifiedName: "oci.dataOciRedisOciCacheBackup.DataOciRedisOciCacheBackupConfig")]
     public interface IDataOciRedisOciCacheBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
         [JsiiProperty(name: "ociCacheBackupId", typeJson: "{\"primitive\":\"string\"}")]
         string OciCacheBackupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciRedisOciCacheBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/redis_oci_cache_backup#oci_cache_backup_id DataOciRedisOciCacheBackup#oci_cache_backup_id}.</summary>
             [JsiiProperty(name: "ociCacheBackupId", typeJson: "{\"primitive\":\"string\"}")]
             public string OciCacheBackupId
             {

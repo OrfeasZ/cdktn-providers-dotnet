@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVlan
     [JsiiInterface(nativeType: typeof(IDataOciCoreVlanConfig), fullyQualifiedName: "oci.dataOciCoreVlan.DataOciCoreVlanConfig")]
     public interface IDataOciCoreVlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}")]
         string VlanId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreVlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
             [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string VlanId
             {

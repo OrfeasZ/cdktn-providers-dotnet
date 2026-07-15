@@ -9,7 +9,7 @@ namespace oci.AdmRemediationRecipe
     [JsiiByValue(fqn: "oci.admRemediationRecipe.AdmRemediationRecipeVerifyConfiguration")]
     public class AdmRemediationRecipeVerifyConfiguration : oci.AdmRemediationRecipe.IAdmRemediationRecipeVerifyConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#build_service_type AdmRemediationRecipe#build_service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#build_service_type AdmRemediationRecipe#build_service_type}.</summary>
         [JsiiProperty(name: "buildServiceType", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildServiceType
         {
@@ -17,7 +17,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#additional_parameters AdmRemediationRecipe#additional_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#additional_parameters AdmRemediationRecipe#additional_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AdditionalParameters
@@ -26,7 +26,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#jenkins_url AdmRemediationRecipe#jenkins_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#jenkins_url AdmRemediationRecipe#jenkins_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jenkinsUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JenkinsUrl
@@ -35,7 +35,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#job_name AdmRemediationRecipe#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#job_name AdmRemediationRecipe#job_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobName
@@ -44,7 +44,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#pat_secret_id AdmRemediationRecipe#pat_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#pat_secret_id AdmRemediationRecipe#pat_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatSecretId
@@ -53,7 +53,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#pipeline_id AdmRemediationRecipe#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#pipeline_id AdmRemediationRecipe#pipeline_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PipelineId
@@ -62,7 +62,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#repository_url AdmRemediationRecipe#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#repository_url AdmRemediationRecipe#repository_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryUrl
@@ -71,7 +71,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#trigger_secret_id AdmRemediationRecipe#trigger_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#trigger_secret_id AdmRemediationRecipe#trigger_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "triggerSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TriggerSecretId
@@ -80,7 +80,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#username AdmRemediationRecipe#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#username AdmRemediationRecipe#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username
@@ -89,7 +89,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/adm_remediation_recipe#workflow_name AdmRemediationRecipe#workflow_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/adm_remediation_recipe#workflow_name AdmRemediationRecipe#workflow_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workflowName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkflowName

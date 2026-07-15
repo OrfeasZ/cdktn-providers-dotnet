@@ -7,7 +7,7 @@ namespace oci.GenerativeAiAgentTool
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources), fullyQualifiedName: "oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources")]
     public interface IGenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}.</summary>
         [JsiiProperty(name: "httpEndpointAuthScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HttpEndpointAuthScope
@@ -20,7 +20,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>http_endpoint_auth_scope_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
         /// </remarks>
         [JsiiProperty(name: "httpEndpointAuthScopeConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace oci.GenerativeAiAgentTool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope GenerativeAiAgentTool#http_endpoint_auth_scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "httpEndpointAuthScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HttpEndpointAuthScope
@@ -49,7 +49,7 @@ namespace oci.GenerativeAiAgentTool
 
             /// <summary>http_endpoint_auth_scope_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config GenerativeAiAgentTool#http_endpoint_auth_scope_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpEndpointAuthScopeConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig\"}", isOptional: true)]

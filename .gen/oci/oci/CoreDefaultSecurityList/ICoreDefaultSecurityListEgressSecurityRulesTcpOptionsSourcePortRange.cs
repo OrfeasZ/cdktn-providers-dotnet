@@ -7,14 +7,14 @@ namespace oci.CoreDefaultSecurityList
     [JsiiInterface(nativeType: typeof(ICoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange), fullyQualifiedName: "oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange")]
     public interface ICoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         double Max
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         double Min
         {
@@ -28,14 +28,14 @@ namespace oci.CoreDefaultSecurityList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
             public double Max
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
             public double Min
             {

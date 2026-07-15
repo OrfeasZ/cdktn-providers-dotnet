@@ -9,7 +9,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
     [JsiiByValue(fqn: "oci.dataSafeSecurityPolicyDeploymentManagement.DataSafeSecurityPolicyDeploymentManagementConfig")]
     public class DataSafeSecurityPolicyDeploymentManagementConfig : oci.DataSafeSecurityPolicyDeploymentManagement.IDataSafeSecurityPolicyDeploymentManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#compartment_id DataSafeSecurityPolicyDeploymentManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#compartment_id DataSafeSecurityPolicyDeploymentManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#security_policy_id DataSafeSecurityPolicyDeploymentManagement#security_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#security_policy_id DataSafeSecurityPolicyDeploymentManagement#security_policy_id}.</summary>
         [JsiiProperty(name: "securityPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityPolicyId
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#target_id DataSafeSecurityPolicyDeploymentManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#target_id DataSafeSecurityPolicyDeploymentManagement#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetId
         {
@@ -33,7 +33,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#target_type DataSafeSecurityPolicyDeploymentManagement#target_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#target_type DataSafeSecurityPolicyDeploymentManagement#target_type}.</summary>
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetType
         {
@@ -41,7 +41,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#defined_tags DataSafeSecurityPolicyDeploymentManagement#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#defined_tags DataSafeSecurityPolicyDeploymentManagement#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#deploy_trigger DataSafeSecurityPolicyDeploymentManagement#deploy_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#deploy_trigger DataSafeSecurityPolicyDeploymentManagement#deploy_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deployTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DeployTrigger
@@ -59,7 +59,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#description DataSafeSecurityPolicyDeploymentManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#description DataSafeSecurityPolicyDeploymentManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -68,7 +68,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#display_name DataSafeSecurityPolicyDeploymentManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#display_name DataSafeSecurityPolicyDeploymentManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -77,7 +77,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#freeform_tags DataSafeSecurityPolicyDeploymentManagement#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#freeform_tags DataSafeSecurityPolicyDeploymentManagement#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -86,7 +86,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#id DataSafeSecurityPolicyDeploymentManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#id DataSafeSecurityPolicyDeploymentManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#refresh_trigger DataSafeSecurityPolicyDeploymentManagement#refresh_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#refresh_trigger DataSafeSecurityPolicyDeploymentManagement#refresh_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refreshTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RefreshTrigger
@@ -110,7 +110,7 @@ namespace oci.DataSafeSecurityPolicyDeploymentManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_security_policy_deployment_management#timeouts DataSafeSecurityPolicyDeploymentManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_security_policy_deployment_management#timeouts DataSafeSecurityPolicyDeploymentManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSecurityPolicyDeploymentManagement.DataSafeSecurityPolicyDeploymentManagementTimeouts\"}", isOptional: true)]

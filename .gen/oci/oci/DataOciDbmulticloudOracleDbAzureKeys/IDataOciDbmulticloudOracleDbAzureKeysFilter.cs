@@ -7,21 +7,21 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAzureKeysFilter), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAzureKeys.DataOciDbmulticloudOracleDbAzureKeysFilter")]
     public interface IDataOciDbmulticloudOracleDbAzureKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDbmulticloudOracleDbAzureKeys
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#name DataOciDbmulticloudOracleDbAzureKeys#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#values DataOciDbmulticloudOracleDbAzureKeys#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_azure_keys#regex DataOciDbmulticloudOracleDbAzureKeys#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

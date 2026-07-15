@@ -9,7 +9,7 @@ namespace oci.DatascienceModelGroup
     [JsiiByValue(fqn: "oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetails")]
     public class DatascienceModelGroupModelGroupCloneSourceDetails : oci.DatascienceModelGroup.IDatascienceModelGroupModelGroupCloneSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_group#model_group_clone_source_type DatascienceModelGroup#model_group_clone_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_group#model_group_clone_source_type DatascienceModelGroup#model_group_clone_source_type}.</summary>
         [JsiiProperty(name: "modelGroupCloneSourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupCloneSourceType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_group#source_id DatascienceModelGroup#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_group#source_id DatascienceModelGroup#source_id}.</summary>
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceId
         {
@@ -27,7 +27,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>modify_model_group_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_group#modify_model_group_details DatascienceModelGroup#modify_model_group_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_group#modify_model_group_details DatascienceModelGroup#modify_model_group_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modifyModelGroupDetails", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetails\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>patch_model_group_member_model_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_model_group#patch_model_group_member_model_details DatascienceModelGroup#patch_model_group_member_model_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_group#patch_model_group_member_model_details DatascienceModelGroup#patch_model_group_member_model_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "patchModelGroupMemberModelDetails", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetails\"}", isOptional: true)]

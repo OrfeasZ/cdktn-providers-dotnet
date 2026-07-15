@@ -7,7 +7,7 @@ namespace oci.DataOciManagementAgentManagementAgentInstallKey
     [JsiiInterface(nativeType: typeof(IDataOciManagementAgentManagementAgentInstallKeyConfig), fullyQualifiedName: "oci.dataOciManagementAgentManagementAgentInstallKey.DataOciManagementAgentManagementAgentInstallKeyConfig")]
     public interface IDataOciManagementAgentManagementAgentInstallKeyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
         [JsiiProperty(name: "managementAgentInstallKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementAgentInstallKeyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciManagementAgentManagementAgentInstallKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_install_key#management_agent_install_key_id DataOciManagementAgentManagementAgentInstallKey#management_agent_install_key_id}.</summary>
             [JsiiProperty(name: "managementAgentInstallKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementAgentInstallKeyId
             {

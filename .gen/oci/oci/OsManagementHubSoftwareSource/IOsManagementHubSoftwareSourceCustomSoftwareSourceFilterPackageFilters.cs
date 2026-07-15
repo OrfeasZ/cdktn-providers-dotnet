@@ -7,7 +7,7 @@ namespace oci.OsManagementHubSoftwareSource
     [JsiiInterface(nativeType: typeof(IOsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilters), fullyQualifiedName: "oci.osManagementHubSoftwareSource.OsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilters")]
     public interface IOsManagementHubSoftwareSourceCustomSoftwareSourceFilterPackageFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}.</summary>
         [JsiiProperty(name: "filterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FilterType
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubSoftwareSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}.</summary>
         [JsiiProperty(name: "packageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PackageName
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubSoftwareSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}.</summary>
         [JsiiProperty(name: "packageNamePattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PackageNamePattern
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubSoftwareSource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}.</summary>
         [JsiiProperty(name: "packageVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PackageVersion
@@ -58,7 +58,7 @@ namespace oci.OsManagementHubSoftwareSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#filter_type OsManagementHubSoftwareSource#filter_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FilterType
@@ -66,7 +66,7 @@ namespace oci.OsManagementHubSoftwareSource
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_name OsManagementHubSoftwareSource#package_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PackageName
@@ -74,7 +74,7 @@ namespace oci.OsManagementHubSoftwareSource
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_name_pattern OsManagementHubSoftwareSource#package_name_pattern}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageNamePattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PackageNamePattern
@@ -82,7 +82,7 @@ namespace oci.OsManagementHubSoftwareSource
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source#package_version OsManagementHubSoftwareSource#package_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PackageVersion

@@ -7,7 +7,7 @@ namespace oci.DataOciLoggingUnifiedAgentConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciLoggingUnifiedAgentConfigurationConfig), fullyQualifiedName: "oci.dataOciLoggingUnifiedAgentConfiguration.DataOciLoggingUnifiedAgentConfigurationConfig")]
     public interface IDataOciLoggingUnifiedAgentConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
         [JsiiProperty(name: "unifiedAgentConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string UnifiedAgentConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLoggingUnifiedAgentConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/logging_unified_agent_configuration#unified_agent_configuration_id DataOciLoggingUnifiedAgentConfiguration#unified_agent_configuration_id}.</summary>
             [JsiiProperty(name: "unifiedAgentConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string UnifiedAgentConfigurationId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseVmClusterUpdate
     [JsiiByValue(fqn: "oci.dataOciDatabaseVmClusterUpdate.DataOciDatabaseVmClusterUpdateConfig")]
     public class DataOciDatabaseVmClusterUpdateConfig : oci.DataOciDatabaseVmClusterUpdate.IDataOciDatabaseVmClusterUpdateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_vm_cluster_update#update_id DataOciDatabaseVmClusterUpdate#update_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_vm_cluster_update#update_id DataOciDatabaseVmClusterUpdate#update_id}.</summary>
         [JsiiProperty(name: "updateId", typeJson: "{\"primitive\":\"string\"}")]
         public string UpdateId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseVmClusterUpdate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_vm_cluster_update#vm_cluster_id DataOciDatabaseVmClusterUpdate#vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_vm_cluster_update#vm_cluster_id DataOciDatabaseVmClusterUpdate#vm_cluster_id}.</summary>
         [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string VmClusterId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseVmClusterUpdate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_vm_cluster_update#id DataOciDatabaseVmClusterUpdate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_vm_cluster_update#id DataOciDatabaseVmClusterUpdate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

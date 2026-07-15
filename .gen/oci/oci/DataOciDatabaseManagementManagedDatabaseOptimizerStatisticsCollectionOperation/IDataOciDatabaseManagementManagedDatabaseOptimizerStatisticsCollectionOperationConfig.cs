@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#optimizer_statistics_collection_operation_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#optimizer_statistics_collection_operation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#optimizer_statistics_collection_operation_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#optimizer_statistics_collection_operation_id}.</summary>
         [JsiiProperty(name: "optimizerStatisticsCollectionOperationId", typeJson: "{\"primitive\":\"number\"}")]
         double OptimizerStatisticsCollectionOperationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#optimizer_statistics_collection_operation_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#optimizer_statistics_collection_operation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#optimizer_statistics_collection_operation_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#optimizer_statistics_collection_operation_id}.</summary>
             [JsiiProperty(name: "optimizerStatisticsCollectionOperationId", typeJson: "{\"primitive\":\"number\"}")]
             public double OptimizerStatisticsCollectionOperationId
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_operation#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionOperation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

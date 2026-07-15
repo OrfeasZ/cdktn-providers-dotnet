@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlBackup
     [JsiiByValue(fqn: "oci.mysqlMysqlBackup.MysqlMysqlBackupEncryptData")]
     public class MysqlMysqlBackupEncryptData : oci.MysqlMysqlBackup.IMysqlMysqlBackupEncryptData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_backup#key_generation_type MysqlMysqlBackup#key_generation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#key_generation_type MysqlMysqlBackup#key_generation_type}.</summary>
         [JsiiProperty(name: "keyGenerationType", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyGenerationType
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_backup#key_id MysqlMysqlBackup#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#key_id MysqlMysqlBackup#key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyId

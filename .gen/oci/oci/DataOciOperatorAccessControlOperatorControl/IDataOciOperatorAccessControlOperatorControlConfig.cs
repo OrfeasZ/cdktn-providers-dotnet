@@ -7,7 +7,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControl
     [JsiiInterface(nativeType: typeof(IDataOciOperatorAccessControlOperatorControlConfig), fullyQualifiedName: "oci.dataOciOperatorAccessControlOperatorControl.DataOciOperatorAccessControlOperatorControlConfig")]
     public interface IDataOciOperatorAccessControlOperatorControlConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
         [JsiiProperty(name: "operatorControlId", typeJson: "{\"primitive\":\"string\"}")]
         string OperatorControlId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
             [JsiiProperty(name: "operatorControlId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperatorControlId
             {

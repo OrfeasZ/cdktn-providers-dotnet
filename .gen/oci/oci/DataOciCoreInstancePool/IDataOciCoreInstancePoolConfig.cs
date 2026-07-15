@@ -7,7 +7,7 @@ namespace oci.DataOciCoreInstancePool
     [JsiiInterface(nativeType: typeof(IDataOciCoreInstancePoolConfig), fullyQualifiedName: "oci.dataOciCoreInstancePool.DataOciCoreInstancePoolConfig")]
     public interface IDataOciCoreInstancePoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_instance_pool#instance_pool_id DataOciCoreInstancePool#instance_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_instance_pool#instance_pool_id DataOciCoreInstancePool#instance_pool_id}.</summary>
         [JsiiProperty(name: "instancePoolId", typeJson: "{\"primitive\":\"string\"}")]
         string InstancePoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreInstancePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_instance_pool#instance_pool_id DataOciCoreInstancePool#instance_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_instance_pool#instance_pool_id DataOciCoreInstancePool#instance_pool_id}.</summary>
             [JsiiProperty(name: "instancePoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstancePoolId
             {

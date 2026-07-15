@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementCatalogItem
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementCatalogItem.DataOciFleetAppsManagementCatalogItemConfig")]
     public class DataOciFleetAppsManagementCatalogItemConfig : oci.DataOciFleetAppsManagementCatalogItem.IDataOciFleetAppsManagementCatalogItemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_catalog_item#catalog_item_id DataOciFleetAppsManagementCatalogItem#catalog_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_catalog_item#catalog_item_id DataOciFleetAppsManagementCatalogItem#catalog_item_id}.</summary>
         [JsiiProperty(name: "catalogItemId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogItemId
         {

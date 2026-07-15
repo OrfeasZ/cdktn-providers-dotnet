@@ -89,6 +89,18 @@ namespace oci.DataOciDataSafeReports
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "nextReportId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NextReportId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "previousReportId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PreviousReportId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "reportDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ReportDefinitionId
         {

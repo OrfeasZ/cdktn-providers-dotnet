@@ -95,6 +95,12 @@ namespace oci.CoreClusterNetwork
             get => GetInstanceProperty<oci.CoreClusterNetwork.CoreClusterNetworkInstancePoolsPlacementConfigurationsList>()!;
         }
 
+        [JsiiProperty(name: "poolType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PoolType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

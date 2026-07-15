@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKey
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAwsKey.DataOciDbmulticloudOracleDbAwsKeyConfig")]
     public class DataOciDbmulticloudOracleDbAwsKeyConfig : oci.DataOciDbmulticloudOracleDbAwsKey.IDataOciDbmulticloudOracleDbAwsKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_aws_key#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKey#oracle_db_aws_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_aws_key#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKey#oracle_db_aws_key_id}.</summary>
         [JsiiProperty(name: "oracleDbAwsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAwsKeyId
         {

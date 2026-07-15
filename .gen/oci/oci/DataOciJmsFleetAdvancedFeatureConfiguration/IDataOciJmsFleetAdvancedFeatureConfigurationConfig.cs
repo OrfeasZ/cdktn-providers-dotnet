@@ -7,7 +7,7 @@ namespace oci.DataOciJmsFleetAdvancedFeatureConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciJmsFleetAdvancedFeatureConfigurationConfig), fullyQualifiedName: "oci.dataOciJmsFleetAdvancedFeatureConfiguration.DataOciJmsFleetAdvancedFeatureConfigurationConfig")]
     public interface IDataOciJmsFleetAdvancedFeatureConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_advanced_feature_configuration#fleet_id DataOciJmsFleetAdvancedFeatureConfiguration#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_advanced_feature_configuration#fleet_id DataOciJmsFleetAdvancedFeatureConfiguration#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsFleetAdvancedFeatureConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_advanced_feature_configuration#fleet_id DataOciJmsFleetAdvancedFeatureConfiguration#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_advanced_feature_configuration#fleet_id DataOciJmsFleetAdvancedFeatureConfiguration#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {

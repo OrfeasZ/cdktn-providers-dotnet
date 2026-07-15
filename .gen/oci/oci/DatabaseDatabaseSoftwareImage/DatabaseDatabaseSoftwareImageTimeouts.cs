@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
     [JsiiByValue(fqn: "oci.databaseDatabaseSoftwareImage.DatabaseDatabaseSoftwareImageTimeouts")]
     public class DatabaseDatabaseSoftwareImageTimeouts : oci.DatabaseDatabaseSoftwareImage.IDatabaseDatabaseSoftwareImageTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_database_software_image#create DatabaseDatabaseSoftwareImage#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_database_software_image#create DatabaseDatabaseSoftwareImage#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_database_software_image#delete DatabaseDatabaseSoftwareImage#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_database_software_image#delete DatabaseDatabaseSoftwareImage#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseDatabaseSoftwareImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_database_software_image#update DatabaseDatabaseSoftwareImage#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_database_software_image#update DatabaseDatabaseSoftwareImage#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

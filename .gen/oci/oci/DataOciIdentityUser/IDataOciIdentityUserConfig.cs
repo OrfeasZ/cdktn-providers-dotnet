@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityUser
     [JsiiInterface(nativeType: typeof(IDataOciIdentityUserConfig), fullyQualifiedName: "oci.dataOciIdentityUser.DataOciIdentityUserConfig")]
     public interface IDataOciIdentityUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         string UserId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserId
             {

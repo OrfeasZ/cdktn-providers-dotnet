@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccHandoverResourceBlocks.DataOciCapacityManagementInternalOccHandoverResourceBlocksConfig")]
     public class DataOciCapacityManagementInternalOccHandoverResourceBlocksConfig : oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks.IDataOciCapacityManagementInternalOccHandoverResourceBlocksConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#compartment_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#compartment_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#namespace DataOciCapacityManagementInternalOccHandoverResourceBlocks#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#namespace DataOciCapacityManagementInternalOccHandoverResourceBlocks#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#occ_customer_group_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#occ_customer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#occ_customer_group_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#occ_customer_group_id}.</summary>
         [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccCustomerGroupId
         {
@@ -37,7 +37,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#filter DataOciCapacityManagementInternalOccHandoverResourceBlocks#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#filter DataOciCapacityManagementInternalOccHandoverResourceBlocks#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks.IDataOciCapacityManagementInternalOccHandoverResourceBlocksFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_date_greater_than_or_equal_to DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_date_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_date_greater_than_or_equal_to DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_date_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "handoverDateGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HandoverDateGreaterThanOrEqualTo
@@ -77,7 +77,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_date_less_than_or_equal_to DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_date_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_date_less_than_or_equal_to DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_date_less_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "handoverDateLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HandoverDateLessThanOrEqualTo
@@ -86,7 +86,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_resource_name DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#handover_resource_name DataOciCapacityManagementInternalOccHandoverResourceBlocks#handover_resource_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "handoverResourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HandoverResourceName
@@ -95,7 +95,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#id DataOciCapacityManagementInternalOccHandoverResourceBlocks#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#id DataOciCapacityManagementInternalOccHandoverResourceBlocks#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#occ_handover_resource_block_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#occ_handover_resource_block_id DataOciCapacityManagementInternalOccHandoverResourceBlocks#occ_handover_resource_block_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "occHandoverResourceBlockId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OccHandoverResourceBlockId

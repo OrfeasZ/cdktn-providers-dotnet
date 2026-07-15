@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsIdentities
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsIdentitiesFilter), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsIdentities.DataOciDatabaseToolsDatabaseToolsIdentitiesFilter")]
     public interface IDataOciDatabaseToolsDatabaseToolsIdentitiesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#name DataOciDatabaseToolsDatabaseToolsIdentities#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#name DataOciDatabaseToolsDatabaseToolsIdentities#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#values DataOciDatabaseToolsDatabaseToolsIdentities#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#values DataOciDatabaseToolsDatabaseToolsIdentities#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#regex DataOciDatabaseToolsDatabaseToolsIdentities#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#regex DataOciDatabaseToolsDatabaseToolsIdentities#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsIdentities
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#name DataOciDatabaseToolsDatabaseToolsIdentities#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#name DataOciDatabaseToolsDatabaseToolsIdentities#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#values DataOciDatabaseToolsDatabaseToolsIdentities#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#values DataOciDatabaseToolsDatabaseToolsIdentities#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_tools_database_tools_identities#regex DataOciDatabaseToolsDatabaseToolsIdentities#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_identities#regex DataOciDatabaseToolsDatabaseToolsIdentities#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

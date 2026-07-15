@@ -7,7 +7,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciAiVisionVisionPrivateEndpoints.DataOciAiVisionVisionPrivateEndpointsConfig")]
     public class DataOciAiVisionVisionPrivateEndpointsConfig : oci.DataOciAiVisionVisionPrivateEndpoints.IDataOciAiVisionVisionPrivateEndpointsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_vision_private_endpoints#compartment_id DataOciAiVisionVisionPrivateEndpoints#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_vision_private_endpoints#compartment_id DataOciAiVisionVisionPrivateEndpoints#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_vision_private_endpoints#display_name DataOciAiVisionVisionPrivateEndpoints#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_vision_private_endpoints#display_name DataOciAiVisionVisionPrivateEndpoints#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_vision_private_endpoints#filter DataOciAiVisionVisionPrivateEndpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_vision_private_endpoints#filter DataOciAiVisionVisionPrivateEndpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiVisionVisionPrivateEndpoints.IDataOciAiVisionVisionPrivateEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_vision_private_endpoints#id DataOciAiVisionVisionPrivateEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_vision_private_endpoints#id DataOciAiVisionVisionPrivateEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ai_vision_vision_private_endpoints#state DataOciAiVisionVisionPrivateEndpoints#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_vision_private_endpoints#state DataOciAiVisionVisionPrivateEndpoints#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

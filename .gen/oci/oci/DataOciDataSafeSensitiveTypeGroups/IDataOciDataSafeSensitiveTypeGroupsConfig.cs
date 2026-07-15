@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSensitiveTypeGroupsConfig), fullyQualifiedName: "oci.dataOciDataSafeSensitiveTypeGroups.DataOciDataSafeSensitiveTypeGroupsConfig")]
     public interface IDataOciDataSafeSensitiveTypeGroupsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveTypeGroups.IDataOciDataSafeSensitiveTypeGroupsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSensitiveTypeGroups.DataOciDataSafeSensitiveTypeGroupsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SensitiveTypeGroupId
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -102,7 +102,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeCreatedGreaterThanOrEqualTo
@@ -113,7 +113,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}.</summary>
         [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeCreatedLessThan
@@ -131,14 +131,14 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -146,7 +146,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -157,7 +157,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -167,7 +167,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveTypeGroups.IDataOciDataSafeSensitiveTypeGroupsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -177,7 +177,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,7 +189,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SensitiveTypeGroupId
@@ -197,7 +197,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -205,7 +205,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeCreatedGreaterThanOrEqualTo
@@ -213,7 +213,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeCreatedLessThan

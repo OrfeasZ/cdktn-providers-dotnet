@@ -7,14 +7,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesConfig), fullyQualifiedName: "oci.dataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesConfig")]
     public interface IDataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DisplayName
@@ -36,7 +36,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name_contains DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name_contains DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name_contains}.</summary>
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayNameContains
@@ -49,7 +49,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#filter DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#filter DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources.IDataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,14 +84,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#managed_instance_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#managed_instance_group_id}.</summary>
             [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -99,7 +99,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DisplayName
@@ -107,7 +107,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name_contains DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name_contains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#display_name_contains DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#display_name_contains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayNameContains
@@ -117,7 +117,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#filter DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#filter DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources.IDataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSourcesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -127,7 +127,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_managed_instance_group_available_software_sources#id DataOciOsManagementHubManagedInstanceGroupAvailableSoftwareSources#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

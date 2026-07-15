@@ -9,7 +9,7 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiByValue(fqn: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayload")]
     public class IotDigitalTwinAdapterInboundRoutesReferencePayload : oci.IotDigitalTwinAdapter.IIotDigitalTwinAdapterInboundRoutesReferencePayload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
         [JsiiProperty(name: "data", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Data
         {
@@ -17,7 +17,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
         [JsiiProperty(name: "dataFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string DataFormat
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
     [JsiiByValue(fqn: "oci.dataOciOperatorAccessControlOperatorActions.DataOciOperatorAccessControlOperatorActionsConfig")]
     public class DataOciOperatorAccessControlOperatorActionsConfig : oci.DataOciOperatorAccessControlOperatorActions.IDataOciOperatorAccessControlOperatorActionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#compartment_id DataOciOperatorAccessControlOperatorActions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#compartment_id DataOciOperatorAccessControlOperatorActions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#filter DataOciOperatorAccessControlOperatorActions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#filter DataOciOperatorAccessControlOperatorActions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOperatorAccessControlOperatorActions.IDataOciOperatorAccessControlOperatorActionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#id DataOciOperatorAccessControlOperatorActions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#id DataOciOperatorAccessControlOperatorActions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#name DataOciOperatorAccessControlOperatorActions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#name DataOciOperatorAccessControlOperatorActions#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -74,7 +74,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#resource_type DataOciOperatorAccessControlOperatorActions#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#resource_type DataOciOperatorAccessControlOperatorActions#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -83,7 +83,7 @@ namespace oci.DataOciOperatorAccessControlOperatorActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/operator_access_control_operator_actions#state DataOciOperatorAccessControlOperatorActions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/operator_access_control_operator_actions#state DataOciOperatorAccessControlOperatorActions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseTransportableTablespace")]
     public class DatabaseAutonomousDatabaseTransportableTablespace : oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseTransportableTablespace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database#tts_bundle_url DatabaseAutonomousDatabase#tts_bundle_url}.</summary>
         [JsiiProperty(name: "ttsBundleUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string TtsBundleUrl
         {

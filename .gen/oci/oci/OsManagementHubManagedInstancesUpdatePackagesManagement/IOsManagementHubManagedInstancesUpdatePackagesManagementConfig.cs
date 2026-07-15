@@ -7,14 +7,14 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstancesUpdatePackagesManagementConfig), fullyQualifiedName: "oci.osManagementHubManagedInstancesUpdatePackagesManagement.OsManagementHubManagedInstancesUpdatePackagesManagementConfig")]
     public interface IOsManagementHubManagedInstancesUpdatePackagesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#compartment_id OsManagementHubManagedInstancesUpdatePackagesManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#compartment_id OsManagementHubManagedInstancesUpdatePackagesManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#id OsManagementHubManagedInstancesUpdatePackagesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#id OsManagementHubManagedInstancesUpdatePackagesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#timeouts OsManagementHubManagedInstancesUpdatePackagesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#timeouts OsManagementHubManagedInstancesUpdatePackagesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesUpdatePackagesManagement.OsManagementHubManagedInstancesUpdatePackagesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#update_types OsManagementHubManagedInstancesUpdatePackagesManagement#update_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#update_types OsManagementHubManagedInstancesUpdatePackagesManagement#update_types}.</summary>
         [JsiiProperty(name: "updateTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? UpdateTypes
@@ -56,7 +56,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#work_request_details OsManagementHubManagedInstancesUpdatePackagesManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#work_request_details OsManagementHubManagedInstancesUpdatePackagesManagement#work_request_details}
         /// </remarks>
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesUpdatePackagesManagement.OsManagementHubManagedInstancesUpdatePackagesManagementWorkRequestDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,14 +75,14 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#compartment_id OsManagementHubManagedInstancesUpdatePackagesManagement#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#compartment_id OsManagementHubManagedInstancesUpdatePackagesManagement#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#id OsManagementHubManagedInstancesUpdatePackagesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#id OsManagementHubManagedInstancesUpdatePackagesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#timeouts OsManagementHubManagedInstancesUpdatePackagesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#timeouts OsManagementHubManagedInstancesUpdatePackagesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesUpdatePackagesManagement.OsManagementHubManagedInstancesUpdatePackagesManagementTimeouts\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
                 get => GetInstanceProperty<oci.OsManagementHubManagedInstancesUpdatePackagesManagement.IOsManagementHubManagedInstancesUpdatePackagesManagementTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#update_types OsManagementHubManagedInstancesUpdatePackagesManagement#update_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#update_types OsManagementHubManagedInstancesUpdatePackagesManagement#update_types}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "updateTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? UpdateTypes
@@ -115,7 +115,7 @@ namespace oci.OsManagementHubManagedInstancesUpdatePackagesManagement
 
             /// <summary>work_request_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instances_update_packages_management#work_request_details OsManagementHubManagedInstancesUpdatePackagesManagement#work_request_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instances_update_packages_management#work_request_details OsManagementHubManagedInstancesUpdatePackagesManagement#work_request_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstancesUpdatePackagesManagement.OsManagementHubManagedInstancesUpdatePackagesManagementWorkRequestDetails\"}", isOptional: true)]

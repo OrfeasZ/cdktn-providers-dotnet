@@ -9,7 +9,7 @@ namespace oci.FileStorageOutboundConnector
     [JsiiByValue(fqn: "oci.fileStorageOutboundConnector.FileStorageOutboundConnectorEndpoints")]
     public class FileStorageOutboundConnectorEndpoints : oci.FileStorageOutboundConnector.IFileStorageOutboundConnectorEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageOutboundConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
         public string Port
         {

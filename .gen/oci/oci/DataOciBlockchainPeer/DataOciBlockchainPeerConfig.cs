@@ -9,7 +9,7 @@ namespace oci.DataOciBlockchainPeer
     [JsiiByValue(fqn: "oci.dataOciBlockchainPeer.DataOciBlockchainPeerConfig")]
     public class DataOciBlockchainPeerConfig : oci.DataOciBlockchainPeer.IDataOciBlockchainPeerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/blockchain_peer#blockchain_platform_id DataOciBlockchainPeer#blockchain_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/blockchain_peer#blockchain_platform_id DataOciBlockchainPeer#blockchain_platform_id}.</summary>
         [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         public string BlockchainPlatformId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBlockchainPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/blockchain_peer#peer_id DataOciBlockchainPeer#peer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/blockchain_peer#peer_id DataOciBlockchainPeer#peer_id}.</summary>
         [JsiiProperty(name: "peerId", typeJson: "{\"primitive\":\"string\"}")]
         public string PeerId
         {

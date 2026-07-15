@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     [JsiiByValue(fqn: "oci.coreInstance.CoreInstanceLaunchVolumeAttachmentsLaunchCreateVolumeDetails")]
     public class CoreInstanceLaunchVolumeAttachmentsLaunchCreateVolumeDetails : oci.CoreInstance.ICoreInstanceLaunchVolumeAttachmentsLaunchCreateVolumeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#size_in_gbs CoreInstance#size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#size_in_gbs CoreInstance#size_in_gbs}.</summary>
         [JsiiProperty(name: "sizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
         public string SizeInGbs
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#volume_creation_type CoreInstance#volume_creation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#volume_creation_type CoreInstance#volume_creation_type}.</summary>
         [JsiiProperty(name: "volumeCreationType", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeCreationType
         {
@@ -25,7 +25,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#compartment_id CoreInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#compartment_id CoreInstance#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -34,7 +34,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -43,7 +43,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#kms_key_id CoreInstance#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#kms_key_id CoreInstance#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -52,7 +52,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#vpus_per_gb CoreInstance#vpus_per_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#vpus_per_gb CoreInstance#vpus_per_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpusPerGb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpusPerGb

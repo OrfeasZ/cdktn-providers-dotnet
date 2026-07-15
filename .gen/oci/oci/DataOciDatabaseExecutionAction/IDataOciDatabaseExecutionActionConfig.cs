@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExecutionAction
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExecutionActionConfig), fullyQualifiedName: "oci.dataOciDatabaseExecutionAction.DataOciDatabaseExecutionActionConfig")]
     public interface IDataOciDatabaseExecutionActionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
         [JsiiProperty(name: "executionActionId", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionActionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExecutionAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_execution_action#execution_action_id DataOciDatabaseExecutionAction#execution_action_id}.</summary>
             [JsiiProperty(name: "executionActionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionActionId
             {

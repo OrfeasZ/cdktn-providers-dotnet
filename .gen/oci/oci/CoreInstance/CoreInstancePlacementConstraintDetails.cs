@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     [JsiiByValue(fqn: "oci.coreInstance.CoreInstancePlacementConstraintDetails")]
     public class CoreInstancePlacementConstraintDetails : oci.CoreInstance.ICoreInstancePlacementConstraintDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#type CoreInstance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#type CoreInstance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#compute_bare_metal_host_id CoreInstance#compute_bare_metal_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#compute_bare_metal_host_id CoreInstance#compute_bare_metal_host_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "computeBareMetalHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComputeBareMetalHostId
@@ -26,7 +26,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_instance#compute_host_group_id CoreInstance#compute_host_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#compute_host_group_id CoreInstance#compute_host_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComputeHostGroupId

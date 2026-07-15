@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnector
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudDbSystemConnectorConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudDbSystemConnector.DataOciDatabaseManagementCloudDbSystemConnectorConfig")]
     public interface IDataOciDatabaseManagementCloudDbSystemConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudDbSystemConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystemConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_db_system_connector#cloud_db_system_connector_id DataOciDatabaseManagementCloudDbSystemConnector#cloud_db_system_connector_id}.</summary>
             [JsiiProperty(name: "cloudDbSystemConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudDbSystemConnectorId
             {

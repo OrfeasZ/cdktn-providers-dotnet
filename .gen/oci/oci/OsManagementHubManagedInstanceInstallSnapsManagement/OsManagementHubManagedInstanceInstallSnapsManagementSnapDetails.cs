@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceInstallSnapsManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceInstallSnapsManagement.OsManagementHubManagedInstanceInstallSnapsManagementSnapDetails")]
     public class OsManagementHubManagedInstanceInstallSnapsManagementSnapDetails : oci.OsManagementHubManagedInstanceInstallSnapsManagement.IOsManagementHubManagedInstanceInstallSnapsManagementSnapDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#name OsManagementHubManagedInstanceInstallSnapsManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#name OsManagementHubManagedInstanceInstallSnapsManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceInstallSnapsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#channel OsManagementHubManagedInstanceInstallSnapsManagement#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#channel OsManagementHubManagedInstanceInstallSnapsManagement#channel}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Channel
@@ -28,7 +28,7 @@ namespace oci.OsManagementHubManagedInstanceInstallSnapsManagement
 
         private object? _isSigned;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#is_signed OsManagementHubManagedInstanceInstallSnapsManagement#is_signed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#is_signed OsManagementHubManagedInstanceInstallSnapsManagement#is_signed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.OsManagementHubManagedInstanceInstallSnapsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#mode OsManagementHubManagedInstanceInstallSnapsManagement#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#mode OsManagementHubManagedInstanceInstallSnapsManagement#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -69,7 +69,7 @@ namespace oci.OsManagementHubManagedInstanceInstallSnapsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#revision OsManagementHubManagedInstanceInstallSnapsManagement#revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_install_snaps_management#revision OsManagementHubManagedInstanceInstallSnapsManagement#revision}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Revision

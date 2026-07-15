@@ -9,7 +9,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
     [JsiiByValue(fqn: "oci.fusionAppsFusionEnvironmentDataMaskingActivity.FusionAppsFusionEnvironmentDataMaskingActivityConfig")]
     public class FusionAppsFusionEnvironmentDataMaskingActivityConfig : oci.FusionAppsFusionEnvironmentDataMaskingActivity.IFusionAppsFusionEnvironmentDataMaskingActivityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#fusion_environment_id FusionAppsFusionEnvironmentDataMaskingActivity#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#fusion_environment_id FusionAppsFusionEnvironmentDataMaskingActivity#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#id FusionAppsFusionEnvironmentDataMaskingActivity#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#id FusionAppsFusionEnvironmentDataMaskingActivity#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
 
         private object? _isResumeDataMasking;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#is_resume_data_masking FusionAppsFusionEnvironmentDataMaskingActivity#is_resume_data_masking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#is_resume_data_masking FusionAppsFusionEnvironmentDataMaskingActivity#is_resume_data_masking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -66,7 +66,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#timeouts FusionAppsFusionEnvironmentDataMaskingActivity#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#timeouts FusionAppsFusionEnvironmentDataMaskingActivity#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fusionAppsFusionEnvironmentDataMaskingActivity.FusionAppsFusionEnvironmentDataMaskingActivityTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
     [JsiiByValue(fqn: "oci.databaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementConfig")]
     public class DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementConfig : oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement.IDatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#autonomous_database_id DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#autonomous_database_id DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseId
         {
@@ -19,7 +19,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
 
         private object _enableAutonomousDatabaseDbmFeature;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#enable_autonomous_database_dbm_feature DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#enable_autonomous_database_dbm_feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#enable_autonomous_database_dbm_feature DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#enable_autonomous_database_dbm_feature}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
 
         /// <summary>feature_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#feature_details DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#feature_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#feature_details DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#feature_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featureDetails", typeJson: "{\"fqn\":\"oci.databaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementFeatureDetails\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#id DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#id DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#timeouts DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#timeouts DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementTimeouts\"}", isOptional: true)]

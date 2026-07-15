@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementTargetPropertiesConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementTargetProperties.DataOciFleetAppsManagementTargetPropertiesConfig")]
     public interface IDataOciFleetAppsManagementTargetPropertiesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#compartment_id DataOciFleetAppsManagementTargetProperties#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#compartment_id DataOciFleetAppsManagementTargetProperties#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#filter DataOciFleetAppsManagementTargetProperties#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#filter DataOciFleetAppsManagementTargetProperties#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementTargetProperties.IDataOciFleetAppsManagementTargetPropertiesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementTargetProperties.DataOciFleetAppsManagementTargetPropertiesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#id DataOciFleetAppsManagementTargetProperties#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#id DataOciFleetAppsManagementTargetProperties#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#severity DataOciFleetAppsManagementTargetProperties#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#severity DataOciFleetAppsManagementTargetProperties#severity}.</summary>
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Severity
@@ -55,7 +55,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#target_id DataOciFleetAppsManagementTargetProperties#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#target_id DataOciFleetAppsManagementTargetProperties#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -66,7 +66,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#target_name DataOciFleetAppsManagementTargetProperties#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#target_name DataOciFleetAppsManagementTargetProperties#target_name}.</summary>
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetName
@@ -84,7 +84,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#compartment_id DataOciFleetAppsManagementTargetProperties#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#compartment_id DataOciFleetAppsManagementTargetProperties#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -93,7 +93,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#filter DataOciFleetAppsManagementTargetProperties#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#filter DataOciFleetAppsManagementTargetProperties#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementTargetProperties.IDataOciFleetAppsManagementTargetPropertiesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#id DataOciFleetAppsManagementTargetProperties#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#id DataOciFleetAppsManagementTargetProperties#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#severity DataOciFleetAppsManagementTargetProperties#severity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#severity DataOciFleetAppsManagementTargetProperties#severity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Severity
@@ -123,7 +123,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#target_id DataOciFleetAppsManagementTargetProperties#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#target_id DataOciFleetAppsManagementTargetProperties#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -131,7 +131,7 @@ namespace oci.DataOciFleetAppsManagementTargetProperties
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_target_properties#target_name DataOciFleetAppsManagementTargetProperties#target_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_target_properties#target_name DataOciFleetAppsManagementTargetProperties#target_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetName

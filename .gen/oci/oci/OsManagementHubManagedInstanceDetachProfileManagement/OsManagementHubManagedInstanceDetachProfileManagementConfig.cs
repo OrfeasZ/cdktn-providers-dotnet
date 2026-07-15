@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceDetachProfileManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceDetachProfileManagement.OsManagementHubManagedInstanceDetachProfileManagementConfig")]
     public class OsManagementHubManagedInstanceDetachProfileManagementConfig : oci.OsManagementHubManagedInstanceDetachProfileManagement.IOsManagementHubManagedInstanceDetachProfileManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#managed_instance_id OsManagementHubManagedInstanceDetachProfileManagement#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#managed_instance_id OsManagementHubManagedInstanceDetachProfileManagement#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceDetachProfileManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#id OsManagementHubManagedInstanceDetachProfileManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#id OsManagementHubManagedInstanceDetachProfileManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.OsManagementHubManagedInstanceDetachProfileManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#timeouts OsManagementHubManagedInstanceDetachProfileManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_managed_instance_detach_profile_management#timeouts OsManagementHubManagedInstanceDetachProfileManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceDetachProfileManagement.OsManagementHubManagedInstanceDetachProfileManagementTimeouts\"}", isOptional: true)]

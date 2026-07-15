@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpCluster
     [JsiiByValue(fqn: "oci.dataOciOcvpCluster.DataOciOcvpClusterConfig")]
     public class DataOciOcvpClusterConfig : oci.DataOciOcvpCluster.IDataOciOcvpClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_cluster#cluster_id DataOciOcvpCluster#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_cluster#cluster_id DataOciOcvpCluster#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {

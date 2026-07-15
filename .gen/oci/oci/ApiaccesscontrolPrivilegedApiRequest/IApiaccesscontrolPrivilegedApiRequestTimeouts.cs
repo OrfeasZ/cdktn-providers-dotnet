@@ -7,7 +7,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
     [JsiiInterface(nativeType: typeof(IApiaccesscontrolPrivilegedApiRequestTimeouts), fullyQualifiedName: "oci.apiaccesscontrolPrivilegedApiRequest.ApiaccesscontrolPrivilegedApiRequestTimeouts")]
     public interface IApiaccesscontrolPrivilegedApiRequestTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#create ApiaccesscontrolPrivilegedApiRequest#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#delete ApiaccesscontrolPrivilegedApiRequest#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apiaccesscontrol_privileged_api_request#update ApiaccesscontrolPrivilegedApiRequest#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

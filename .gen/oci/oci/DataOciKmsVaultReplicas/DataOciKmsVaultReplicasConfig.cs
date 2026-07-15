@@ -9,7 +9,7 @@ namespace oci.DataOciKmsVaultReplicas
     [JsiiByValue(fqn: "oci.dataOciKmsVaultReplicas.DataOciKmsVaultReplicasConfig")]
     public class DataOciKmsVaultReplicasConfig : oci.DataOciKmsVaultReplicas.IDataOciKmsVaultReplicasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/kms_vault_replicas#vault_id DataOciKmsVaultReplicas#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_vault_replicas#vault_id DataOciKmsVaultReplicas#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciKmsVaultReplicas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/kms_vault_replicas#filter DataOciKmsVaultReplicas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_vault_replicas#filter DataOciKmsVaultReplicas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciKmsVaultReplicas.IDataOciKmsVaultReplicasFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciKmsVaultReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/kms_vault_replicas#id DataOciKmsVaultReplicas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_vault_replicas#id DataOciKmsVaultReplicas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

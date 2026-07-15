@@ -5,7 +5,7 @@ namespace oci.DataOciDevopsProjects
     /// <remarks>
     /// <h1><c>data_oci_devops_projects</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/devops_projects"><c>data_oci_devops_projects</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/devops_projects"><c>data_oci_devops_projects</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

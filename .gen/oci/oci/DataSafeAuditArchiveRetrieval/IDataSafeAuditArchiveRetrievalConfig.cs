@@ -7,35 +7,35 @@ namespace oci.DataSafeAuditArchiveRetrieval
     [JsiiInterface(nativeType: typeof(IDataSafeAuditArchiveRetrievalConfig), fullyQualifiedName: "oci.dataSafeAuditArchiveRetrieval.DataSafeAuditArchiveRetrievalConfig")]
     public interface IDataSafeAuditArchiveRetrievalConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#compartment_id DataSafeAuditArchiveRetrieval#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#compartment_id DataSafeAuditArchiveRetrieval#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#end_date DataSafeAuditArchiveRetrieval#end_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#end_date DataSafeAuditArchiveRetrieval#end_date}.</summary>
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}")]
         string EndDate
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#start_date DataSafeAuditArchiveRetrieval#start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#start_date DataSafeAuditArchiveRetrieval#start_date}.</summary>
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}")]
         string StartDate
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#target_id DataSafeAuditArchiveRetrieval#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#target_id DataSafeAuditArchiveRetrieval#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#defined_tags DataSafeAuditArchiveRetrieval#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#defined_tags DataSafeAuditArchiveRetrieval#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#description DataSafeAuditArchiveRetrieval#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#description DataSafeAuditArchiveRetrieval#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -57,7 +57,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#display_name DataSafeAuditArchiveRetrieval#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#display_name DataSafeAuditArchiveRetrieval#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -68,7 +68,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#freeform_tags DataSafeAuditArchiveRetrieval#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#freeform_tags DataSafeAuditArchiveRetrieval#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -79,7 +79,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#id DataSafeAuditArchiveRetrieval#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#id DataSafeAuditArchiveRetrieval#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#timeouts DataSafeAuditArchiveRetrieval#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#timeouts DataSafeAuditArchiveRetrieval#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeAuditArchiveRetrieval.DataSafeAuditArchiveRetrievalTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,35 +115,35 @@ namespace oci.DataSafeAuditArchiveRetrieval
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#compartment_id DataSafeAuditArchiveRetrieval#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#compartment_id DataSafeAuditArchiveRetrieval#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#end_date DataSafeAuditArchiveRetrieval#end_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#end_date DataSafeAuditArchiveRetrieval#end_date}.</summary>
             [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}")]
             public string EndDate
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#start_date DataSafeAuditArchiveRetrieval#start_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#start_date DataSafeAuditArchiveRetrieval#start_date}.</summary>
             [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}")]
             public string StartDate
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#target_id DataSafeAuditArchiveRetrieval#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#target_id DataSafeAuditArchiveRetrieval#target_id}.</summary>
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#defined_tags DataSafeAuditArchiveRetrieval#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#defined_tags DataSafeAuditArchiveRetrieval#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -151,7 +151,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#description DataSafeAuditArchiveRetrieval#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#description DataSafeAuditArchiveRetrieval#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -159,7 +159,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#display_name DataSafeAuditArchiveRetrieval#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#display_name DataSafeAuditArchiveRetrieval#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -167,7 +167,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#freeform_tags DataSafeAuditArchiveRetrieval#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#freeform_tags DataSafeAuditArchiveRetrieval#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -175,7 +175,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#id DataSafeAuditArchiveRetrieval#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#id DataSafeAuditArchiveRetrieval#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,7 +189,7 @@ namespace oci.DataSafeAuditArchiveRetrieval
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_audit_archive_retrieval#timeouts DataSafeAuditArchiveRetrieval#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_audit_archive_retrieval#timeouts DataSafeAuditArchiveRetrieval#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeAuditArchiveRetrieval.DataSafeAuditArchiveRetrievalTimeouts\"}", isOptional: true)]

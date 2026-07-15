@@ -9,7 +9,7 @@ namespace oci.DataOciDesktopsDesktops
     [JsiiByValue(fqn: "oci.dataOciDesktopsDesktops.DataOciDesktopsDesktopsFilter")]
     public class DataOciDesktopsDesktopsFilter : oci.DataOciDesktopsDesktops.IDataOciDesktopsDesktopsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/desktops_desktops#name DataOciDesktopsDesktops#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/desktops_desktops#name DataOciDesktopsDesktops#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDesktopsDesktops
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/desktops_desktops#values DataOciDesktopsDesktops#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/desktops_desktops#values DataOciDesktopsDesktops#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDesktopsDesktops
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/desktops_desktops#regex DataOciDesktopsDesktops#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/desktops_desktops#regex DataOciDesktopsDesktops#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

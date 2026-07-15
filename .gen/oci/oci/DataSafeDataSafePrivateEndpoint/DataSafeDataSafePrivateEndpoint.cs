@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataSafeDataSafePrivateEndpoint
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataSafeDataSafePrivateEndpoint.DataSafeDataSafePrivateEndpoint), fullyQualifiedName: "oci.dataSafeDataSafePrivateEndpoint.DataSafeDataSafePrivateEndpoint", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataSafeDataSafePrivateEndpoint.DataSafeDataSafePrivateEndpointConfig\"}}]")]
     public class DataSafeDataSafePrivateEndpoint : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_data_safe_private_endpoint oci_data_safe_data_safe_private_endpoint} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataSafeDataSafePrivateEndpoint(Constructs.Construct scope, string id, oci.DataSafeDataSafePrivateEndpoint.IDataSafeDataSafePrivateEndpointConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataSafeDataSafePrivateEndpoint
         /// <param name="importToId">The construct id used in the generated config for the DataSafeDataSafePrivateEndpoint to import.</param>
         /// <param name="importFromId">The id of the existing DataSafeDataSafePrivateEndpoint that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataSafeDataSafePrivateEndpoint to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataSafeDataSafePrivateEndpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_data_safe_private_endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataSafeDataSafePrivateEndpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataSafeDataSafePrivateEndpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataSafeDataSafePrivateEndpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_data_safe_private_endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataSafeDataSafePrivateEndpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataSafeDataSafePrivateEndpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataSafeDataSafePrivateEndpoint.DataSafeDataSafePrivateEndpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -84,6 +84,12 @@ namespace oci.DataSafeDataSafePrivateEndpoint
 
         [JsiiMethod(name: "resetPrivateEndpointIp")]
         public virtual void ResetPrivateEndpointIp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecurityAttributes")]
+        public virtual void ResetSecurityAttributes()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -206,6 +212,13 @@ namespace oci.DataSafeDataSafePrivateEndpoint
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "securityAttributesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? SecurityAttributesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "subnetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SubnetIdInput
         {
@@ -282,6 +295,13 @@ namespace oci.DataSafeDataSafePrivateEndpoint
         public virtual string PrivateEndpointIp
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> SecurityAttributes
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineWorkRequests
     [JsiiByValue(fqn: "oci.dataOciContainerengineWorkRequests.DataOciContainerengineWorkRequestsConfig")]
     public class DataOciContainerengineWorkRequestsConfig : oci.DataOciContainerengineWorkRequests.IDataOciContainerengineWorkRequestsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#compartment_id DataOciContainerengineWorkRequests#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#compartment_id DataOciContainerengineWorkRequests#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciContainerengineWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#cluster_id DataOciContainerengineWorkRequests#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#cluster_id DataOciContainerengineWorkRequests#cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterId
@@ -30,7 +30,7 @@ namespace oci.DataOciContainerengineWorkRequests
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#filter DataOciContainerengineWorkRequests#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#filter DataOciContainerengineWorkRequests#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineWorkRequests.IDataOciContainerengineWorkRequestsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciContainerengineWorkRequests
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#id DataOciContainerengineWorkRequests#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#id DataOciContainerengineWorkRequests#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciContainerengineWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#resource_id DataOciContainerengineWorkRequests#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#resource_id DataOciContainerengineWorkRequests#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -83,7 +83,7 @@ namespace oci.DataOciContainerengineWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#resource_type DataOciContainerengineWorkRequests#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#resource_type DataOciContainerengineWorkRequests#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -92,7 +92,7 @@ namespace oci.DataOciContainerengineWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/containerengine_work_requests#status DataOciContainerengineWorkRequests#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_work_requests#status DataOciContainerengineWorkRequests#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Status

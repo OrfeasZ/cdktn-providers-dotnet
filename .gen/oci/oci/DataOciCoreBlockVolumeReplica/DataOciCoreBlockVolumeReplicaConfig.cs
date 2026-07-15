@@ -9,7 +9,7 @@ namespace oci.DataOciCoreBlockVolumeReplica
     [JsiiByValue(fqn: "oci.dataOciCoreBlockVolumeReplica.DataOciCoreBlockVolumeReplicaConfig")]
     public class DataOciCoreBlockVolumeReplicaConfig : oci.DataOciCoreBlockVolumeReplica.IDataOciCoreBlockVolumeReplicaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_block_volume_replica#block_volume_replica_id DataOciCoreBlockVolumeReplica#block_volume_replica_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_block_volume_replica#block_volume_replica_id DataOciCoreBlockVolumeReplica#block_volume_replica_id}.</summary>
         [JsiiProperty(name: "blockVolumeReplicaId", typeJson: "{\"primitive\":\"string\"}")]
         public string BlockVolumeReplicaId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreBlockVolumeReplica
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_block_volume_replica#id DataOciCoreBlockVolumeReplica#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_block_volume_replica#id DataOciCoreBlockVolumeReplica#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

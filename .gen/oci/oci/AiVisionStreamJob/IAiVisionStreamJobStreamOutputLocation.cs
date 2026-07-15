@@ -7,35 +7,35 @@ namespace oci.AiVisionStreamJob
     [JsiiInterface(nativeType: typeof(IAiVisionStreamJobStreamOutputLocation), fullyQualifiedName: "oci.aiVisionStreamJob.AiVisionStreamJobStreamOutputLocation")]
     public interface IAiVisionStreamJobStreamOutputLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
         [JsiiProperty(name: "outputLocationType", typeJson: "{\"primitive\":\"string\"}")]
         string OutputLocationType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
         [JsiiProperty(name: "oboToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OboToken
@@ -53,35 +53,35 @@ namespace oci.AiVisionStreamJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
             [JsiiProperty(name: "outputLocationType", typeJson: "{\"primitive\":\"string\"}")]
             public string OutputLocationType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oboToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OboToken

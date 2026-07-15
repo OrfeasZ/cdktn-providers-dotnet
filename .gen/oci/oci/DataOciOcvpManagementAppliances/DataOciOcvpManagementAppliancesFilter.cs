@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpManagementAppliances
     [JsiiByValue(fqn: "oci.dataOciOcvpManagementAppliances.DataOciOcvpManagementAppliancesFilter")]
     public class DataOciOcvpManagementAppliancesFilter : oci.DataOciOcvpManagementAppliances.IDataOciOcvpManagementAppliancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_management_appliances#name DataOciOcvpManagementAppliances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_management_appliances#name DataOciOcvpManagementAppliances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOcvpManagementAppliances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_management_appliances#values DataOciOcvpManagementAppliances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_management_appliances#values DataOciOcvpManagementAppliances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOcvpManagementAppliances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_management_appliances#regex DataOciOcvpManagementAppliances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_management_appliances#regex DataOciOcvpManagementAppliances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

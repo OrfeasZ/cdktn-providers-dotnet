@@ -7,7 +7,7 @@ namespace oci.IdentityCompartment
     [JsiiByValue(fqn: "oci.identityCompartment.IdentityCompartmentTimeouts")]
     public class IdentityCompartmentTimeouts : oci.IdentityCompartment.IIdentityCompartmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_compartment#delete IdentityCompartment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_compartment#delete IdentityCompartment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

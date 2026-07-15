@@ -9,7 +9,7 @@ namespace oci.OptimizerRecommendation
     [JsiiByValue(fqn: "oci.optimizerRecommendation.OptimizerRecommendationConfig")]
     public class OptimizerRecommendationConfig : oci.OptimizerRecommendation.IOptimizerRecommendationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_recommendation#recommendation_id OptimizerRecommendation#recommendation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/optimizer_recommendation#recommendation_id OptimizerRecommendation#recommendation_id}.</summary>
         [JsiiProperty(name: "recommendationId", typeJson: "{\"primitive\":\"string\"}")]
         public string RecommendationId
         {
@@ -17,7 +17,7 @@ namespace oci.OptimizerRecommendation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_recommendation#status OptimizerRecommendation#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/optimizer_recommendation#status OptimizerRecommendation#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -25,7 +25,7 @@ namespace oci.OptimizerRecommendation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_recommendation#id OptimizerRecommendation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/optimizer_recommendation#id OptimizerRecommendation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OptimizerRecommendation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_recommendation#timeouts OptimizerRecommendation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/optimizer_recommendation#timeouts OptimizerRecommendation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.optimizerRecommendation.OptimizerRecommendationTimeouts\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace oci.OptimizerRecommendation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/optimizer_recommendation#time_status_end OptimizerRecommendation#time_status_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/optimizer_recommendation#time_status_end OptimizerRecommendation#time_status_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeStatusEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeStatusEnd

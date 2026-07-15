@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelDeploymentShapesConfig), fullyQualifiedName: "oci.dataOciDatascienceModelDeploymentShapes.DataOciDatascienceModelDeploymentShapesConfig")]
     public interface IDataOciDatascienceModelDeploymentShapesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#compartment_id DataOciDatascienceModelDeploymentShapes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#compartment_id DataOciDatascienceModelDeploymentShapes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#filter DataOciDatascienceModelDeploymentShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#filter DataOciDatascienceModelDeploymentShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelDeploymentShapes.IDataOciDatascienceModelDeploymentShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatascienceModelDeploymentShapes.DataOciDatascienceModelDeploymentShapesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#id DataOciDatascienceModelDeploymentShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#id DataOciDatascienceModelDeploymentShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#compartment_id DataOciDatascienceModelDeploymentShapes#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#compartment_id DataOciDatascienceModelDeploymentShapes#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#filter DataOciDatascienceModelDeploymentShapes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#filter DataOciDatascienceModelDeploymentShapes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelDeploymentShapes.IDataOciDatascienceModelDeploymentShapesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatascienceModelDeploymentShapes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_deployment_shapes#id DataOciDatascienceModelDeploymentShapes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_deployment_shapes#id DataOciDatascienceModelDeploymentShapes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

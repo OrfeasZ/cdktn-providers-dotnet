@@ -11,7 +11,7 @@ namespace oci.CoreVnicAttachment
     {
         /// <summary>create_vnic_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#create_vnic_details CoreVnicAttachment#create_vnic_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#create_vnic_details CoreVnicAttachment#create_vnic_details}
         /// </remarks>
         [JsiiProperty(name: "createVnicDetails", typeJson: "{\"fqn\":\"oci.coreVnicAttachment.CoreVnicAttachmentCreateVnicDetails\"}")]
         public oci.CoreVnicAttachment.ICoreVnicAttachmentCreateVnicDetails CreateVnicDetails
@@ -20,7 +20,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#instance_id CoreVnicAttachment#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#instance_id CoreVnicAttachment#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -28,7 +28,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#display_name CoreVnicAttachment#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#display_name CoreVnicAttachment#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -37,7 +37,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#id CoreVnicAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#id CoreVnicAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#nic_index CoreVnicAttachment#nic_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#nic_index CoreVnicAttachment#nic_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nicIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NicIndex
@@ -61,7 +61,7 @@ namespace oci.CoreVnicAttachment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#timeouts CoreVnicAttachment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#timeouts CoreVnicAttachment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreVnicAttachment.CoreVnicAttachmentTimeouts\"}", isOptional: true)]

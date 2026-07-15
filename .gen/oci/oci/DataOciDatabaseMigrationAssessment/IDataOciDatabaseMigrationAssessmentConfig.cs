@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseMigrationAssessment
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationAssessmentConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationAssessment.DataOciDatabaseMigrationAssessmentConfig")]
     public interface IDataOciDatabaseMigrationAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string AssessmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseMigrationAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessmentId
             {

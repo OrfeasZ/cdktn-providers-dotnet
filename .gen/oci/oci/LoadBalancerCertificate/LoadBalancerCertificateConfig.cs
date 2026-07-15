@@ -9,7 +9,7 @@ namespace oci.LoadBalancerCertificate
     [JsiiByValue(fqn: "oci.loadBalancerCertificate.LoadBalancerCertificateConfig")]
     public class LoadBalancerCertificateConfig : oci.LoadBalancerCertificate.ILoadBalancerCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#certificate_name LoadBalancerCertificate#certificate_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#certificate_name LoadBalancerCertificate#certificate_name}.</summary>
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateName
         {
@@ -17,7 +17,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#load_balancer_id LoadBalancerCertificate#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#load_balancer_id LoadBalancerCertificate#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#ca_certificate LoadBalancerCertificate#ca_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#ca_certificate LoadBalancerCertificate#ca_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "caCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CaCertificate
@@ -34,7 +34,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#id LoadBalancerCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#id LoadBalancerCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#passphrase LoadBalancerCertificate#passphrase}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#passphrase LoadBalancerCertificate#passphrase}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passphrase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Passphrase
@@ -56,7 +56,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#private_key LoadBalancerCertificate#private_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#private_key LoadBalancerCertificate#private_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateKey
@@ -65,7 +65,7 @@ namespace oci.LoadBalancerCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#public_certificate LoadBalancerCertificate#public_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#public_certificate LoadBalancerCertificate#public_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicCertificate
@@ -76,7 +76,7 @@ namespace oci.LoadBalancerCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_certificate#timeouts LoadBalancerCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_certificate#timeouts LoadBalancerCertificate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerCertificate.LoadBalancerCertificateTimeouts\"}", isOptional: true)]

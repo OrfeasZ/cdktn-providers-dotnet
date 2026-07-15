@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveTypesExport
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveTypesExport.DataOciDataSafeSensitiveTypesExportConfig")]
     public class DataOciDataSafeSensitiveTypesExportConfig : oci.DataOciDataSafeSensitiveTypesExport.IDataOciDataSafeSensitiveTypesExportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_sensitive_types_export#sensitive_types_export_id DataOciDataSafeSensitiveTypesExport#sensitive_types_export_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_sensitive_types_export#sensitive_types_export_id DataOciDataSafeSensitiveTypesExport#sensitive_types_export_id}.</summary>
         [JsiiProperty(name: "sensitiveTypesExportId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveTypesExportId
         {

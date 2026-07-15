@@ -9,7 +9,7 @@ namespace oci.CoreServiceGateway
     [JsiiByValue(fqn: "oci.coreServiceGateway.CoreServiceGatewayServices")]
     public class CoreServiceGatewayServices : oci.CoreServiceGateway.ICoreServiceGatewayServices
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_service_gateway#service_id CoreServiceGateway#service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_service_gateway#service_id CoreServiceGateway#service_id}.</summary>
         [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceId
         {

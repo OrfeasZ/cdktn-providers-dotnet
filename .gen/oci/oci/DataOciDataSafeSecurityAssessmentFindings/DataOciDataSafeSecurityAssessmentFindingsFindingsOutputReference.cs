@@ -41,6 +41,12 @@ namespace oci.DataOciDataSafeSecurityAssessmentFindings
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Category
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "details", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Details
         {

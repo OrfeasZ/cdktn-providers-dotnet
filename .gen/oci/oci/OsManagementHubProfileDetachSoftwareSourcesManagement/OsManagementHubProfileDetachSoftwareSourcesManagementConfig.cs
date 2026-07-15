@@ -9,7 +9,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileDetachSoftwareSourcesManagement.OsManagementHubProfileDetachSoftwareSourcesManagementConfig")]
     public class OsManagementHubProfileDetachSoftwareSourcesManagementConfig : oci.OsManagementHubProfileDetachSoftwareSourcesManagement.IOsManagementHubProfileDetachSoftwareSourcesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_detach_software_sources_management#profile_id OsManagementHubProfileDetachSoftwareSourcesManagement#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_software_sources_management#profile_id OsManagementHubProfileDetachSoftwareSourcesManagement#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_detach_software_sources_management#software_sources OsManagementHubProfileDetachSoftwareSourcesManagement#software_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_software_sources_management#software_sources OsManagementHubProfileDetachSoftwareSourcesManagement#software_sources}.</summary>
         [JsiiProperty(name: "softwareSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareSources
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_detach_software_sources_management#id OsManagementHubProfileDetachSoftwareSourcesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_software_sources_management#id OsManagementHubProfileDetachSoftwareSourcesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_profile_detach_software_sources_management#timeouts OsManagementHubProfileDetachSoftwareSourcesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_software_sources_management#timeouts OsManagementHubProfileDetachSoftwareSourcesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubProfileDetachSoftwareSourcesManagement.OsManagementHubProfileDetachSoftwareSourcesManagementTimeouts\"}", isOptional: true)]

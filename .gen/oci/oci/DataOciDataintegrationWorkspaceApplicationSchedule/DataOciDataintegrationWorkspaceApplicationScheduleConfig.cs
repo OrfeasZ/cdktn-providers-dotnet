@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceApplicationSchedule.DataOciDataintegrationWorkspaceApplicationScheduleConfig")]
     public class DataOciDataintegrationWorkspaceApplicationScheduleConfig : oci.DataOciDataintegrationWorkspaceApplicationSchedule.IDataOciDataintegrationWorkspaceApplicationScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_application_schedule#application_key DataOciDataintegrationWorkspaceApplicationSchedule#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_application_schedule#application_key DataOciDataintegrationWorkspaceApplicationSchedule#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_application_schedule#schedule_key DataOciDataintegrationWorkspaceApplicationSchedule#schedule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_application_schedule#schedule_key DataOciDataintegrationWorkspaceApplicationSchedule#schedule_key}.</summary>
         [JsiiProperty(name: "scheduleKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dataintegration_workspace_application_schedule#workspace_id DataOciDataintegrationWorkspaceApplicationSchedule#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_application_schedule#workspace_id DataOciDataintegrationWorkspaceApplicationSchedule#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

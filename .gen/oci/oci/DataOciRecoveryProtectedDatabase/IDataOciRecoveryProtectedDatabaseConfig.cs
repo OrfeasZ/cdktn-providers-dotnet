@@ -7,7 +7,7 @@ namespace oci.DataOciRecoveryProtectedDatabase
     [JsiiInterface(nativeType: typeof(IDataOciRecoveryProtectedDatabaseConfig), fullyQualifiedName: "oci.dataOciRecoveryProtectedDatabase.DataOciRecoveryProtectedDatabaseConfig")]
     public interface IDataOciRecoveryProtectedDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
         [JsiiProperty(name: "protectedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ProtectedDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciRecoveryProtectedDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
             [JsiiProperty(name: "protectedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProtectedDatabaseId
             {

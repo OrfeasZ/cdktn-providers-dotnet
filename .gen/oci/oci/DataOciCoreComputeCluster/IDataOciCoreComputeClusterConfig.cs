@@ -7,7 +7,7 @@ namespace oci.DataOciCoreComputeCluster
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeClusterConfig), fullyQualifiedName: "oci.dataOciCoreComputeCluster.DataOciCoreComputeClusterConfig")]
     public interface IDataOciCoreComputeClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
         [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreComputeCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
             [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeClusterId
             {

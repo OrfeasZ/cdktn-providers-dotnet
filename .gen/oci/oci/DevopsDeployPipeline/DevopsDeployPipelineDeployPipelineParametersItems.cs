@@ -9,7 +9,7 @@ namespace oci.DevopsDeployPipeline
     [JsiiByValue(fqn: "oci.devopsDeployPipeline.DevopsDeployPipelineDeployPipelineParametersItems")]
     public class DevopsDeployPipelineDeployPipelineParametersItems : oci.DevopsDeployPipeline.IDevopsDeployPipelineDeployPipelineParametersItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_pipeline#name DevopsDeployPipeline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_pipeline#name DevopsDeployPipeline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_pipeline#default_value DevopsDeployPipeline#default_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_pipeline#default_value DevopsDeployPipeline#default_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultValue
@@ -26,7 +26,7 @@ namespace oci.DevopsDeployPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_pipeline#description DevopsDeployPipeline#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_pipeline#description DevopsDeployPipeline#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

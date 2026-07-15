@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemManagementPolicyBackupPolicy), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicy")]
     public interface IPsqlDbSystemManagementPolicyBackupPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}.</summary>
         [JsiiProperty(name: "backupStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupStart
@@ -20,7 +20,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>copy_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
         /// </remarks>
         [JsiiProperty(name: "copyPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}.</summary>
         [JsiiProperty(name: "daysOfTheMonth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double[]? DaysOfTheMonth
@@ -43,7 +43,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}.</summary>
         [JsiiProperty(name: "daysOfTheWeek", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DaysOfTheWeek
@@ -54,7 +54,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Kind
@@ -65,7 +65,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}.</summary>
         [JsiiProperty(name: "retentionDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionDays
@@ -83,7 +83,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#backup_start PsqlDbSystem#backup_start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupStart
@@ -93,7 +93,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>copy_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#copy_policy PsqlDbSystem#copy_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "copyPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyBackupPolicyCopyPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#days_of_the_month PsqlDbSystem#days_of_the_month}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "daysOfTheMonth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
             public double[]? DaysOfTheMonth
@@ -110,7 +110,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<double[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#days_of_the_week PsqlDbSystem#days_of_the_week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "daysOfTheWeek", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DaysOfTheWeek
@@ -118,7 +118,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Kind
@@ -126,7 +126,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#retention_days PsqlDbSystem#retention_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionDays

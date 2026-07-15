@@ -7,7 +7,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewall
     [JsiiInterface(nativeType: typeof(IDataOciNetworkFirewallNetworkFirewallConfig), fullyQualifiedName: "oci.dataOciNetworkFirewallNetworkFirewall.DataOciNetworkFirewallNetworkFirewallConfig")]
     public interface IDataOciNetworkFirewallNetworkFirewallConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall#network_firewall_id DataOciNetworkFirewallNetworkFirewall#network_firewall_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall#network_firewall_id DataOciNetworkFirewallNetworkFirewall#network_firewall_id}.</summary>
         [JsiiProperty(name: "networkFirewallId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewall
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/network_firewall_network_firewall#network_firewall_id DataOciNetworkFirewallNetworkFirewall#network_firewall_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall#network_firewall_id DataOciNetworkFirewallNetworkFirewall#network_firewall_id}.</summary>
             [JsiiProperty(name: "networkFirewallId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallId
             {

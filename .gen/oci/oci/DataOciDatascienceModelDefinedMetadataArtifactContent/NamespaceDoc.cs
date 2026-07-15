@@ -5,7 +5,7 @@ namespace oci.DataOciDatascienceModelDefinedMetadataArtifactContent
     /// <remarks>
     /// <h1><c>data_oci_datascience_model_defined_metadata_artifact_content</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_model_defined_metadata_artifact_content"><c>data_oci_datascience_model_defined_metadata_artifact_content</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_defined_metadata_artifact_content"><c>data_oci_datascience_model_defined_metadata_artifact_content</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

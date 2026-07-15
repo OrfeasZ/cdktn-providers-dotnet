@@ -7,7 +7,7 @@ namespace oci.DataOciPsqlBackup
     [JsiiInterface(nativeType: typeof(IDataOciPsqlBackupConfig), fullyQualifiedName: "oci.dataOciPsqlBackup.DataOciPsqlBackupConfig")]
     public interface IDataOciPsqlBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPsqlBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
             [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupId
             {

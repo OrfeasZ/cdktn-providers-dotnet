@@ -9,7 +9,7 @@ namespace oci.DataOciJmsPluginErrorAnalytics
     [JsiiByValue(fqn: "oci.dataOciJmsPluginErrorAnalytics.DataOciJmsPluginErrorAnalyticsFilter")]
     public class DataOciJmsPluginErrorAnalyticsFilter : oci.DataOciJmsPluginErrorAnalytics.IDataOciJmsPluginErrorAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_plugin_error_analytics#name DataOciJmsPluginErrorAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_plugin_error_analytics#name DataOciJmsPluginErrorAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsPluginErrorAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_plugin_error_analytics#values DataOciJmsPluginErrorAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_plugin_error_analytics#values DataOciJmsPluginErrorAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsPluginErrorAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_plugin_error_analytics#regex DataOciJmsPluginErrorAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_plugin_error_analytics#regex DataOciJmsPluginErrorAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

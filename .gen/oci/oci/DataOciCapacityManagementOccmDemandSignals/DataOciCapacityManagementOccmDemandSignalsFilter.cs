@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccmDemandSignals.DataOciCapacityManagementOccmDemandSignalsFilter")]
     public class DataOciCapacityManagementOccmDemandSignalsFilter : oci.DataOciCapacityManagementOccmDemandSignals.IDataOciCapacityManagementOccmDemandSignalsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_occm_demand_signals#name DataOciCapacityManagementOccmDemandSignals#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signals#name DataOciCapacityManagementOccmDemandSignals#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_occm_demand_signals#values DataOciCapacityManagementOccmDemandSignals#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signals#values DataOciCapacityManagementOccmDemandSignals#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignals
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/capacity_management_occm_demand_signals#regex DataOciCapacityManagementOccmDemandSignals#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signals#regex DataOciCapacityManagementOccmDemandSignals#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

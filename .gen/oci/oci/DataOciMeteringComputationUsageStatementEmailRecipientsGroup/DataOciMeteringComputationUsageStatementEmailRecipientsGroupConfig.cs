@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroup
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationUsageStatementEmailRecipientsGroup.DataOciMeteringComputationUsageStatementEmailRecipientsGroupConfig")]
     public class DataOciMeteringComputationUsageStatementEmailRecipientsGroupConfig : oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroup.IDataOciMeteringComputationUsageStatementEmailRecipientsGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#email_recipients_group_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#email_recipients_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#email_recipients_group_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#email_recipients_group_id}.</summary>
         [JsiiProperty(name: "emailRecipientsGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailRecipientsGroupId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {

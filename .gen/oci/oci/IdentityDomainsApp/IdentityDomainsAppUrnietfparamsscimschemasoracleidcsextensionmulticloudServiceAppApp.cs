@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp")]
     public class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp : oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmulticloudServiceAppApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#multicloud_service_type IdentityDomainsApp#multicloud_service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#multicloud_service_type IdentityDomainsApp#multicloud_service_type}.</summary>
         [JsiiProperty(name: "multicloudServiceType", typeJson: "{\"primitive\":\"string\"}")]
         public string MulticloudServiceType
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/identity_domains_app#multicloud_platform_url IdentityDomainsApp#multicloud_platform_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#multicloud_platform_url IdentityDomainsApp#multicloud_platform_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "multicloudPlatformUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MulticloudPlatformUrl

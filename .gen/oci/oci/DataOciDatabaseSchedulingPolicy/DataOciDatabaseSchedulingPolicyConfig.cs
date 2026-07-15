@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPolicy
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPolicy.DataOciDatabaseSchedulingPolicyConfig")]
     public class DataOciDatabaseSchedulingPolicyConfig : oci.DataOciDatabaseSchedulingPolicy.IDataOciDatabaseSchedulingPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_scheduling_policy#scheduling_policy_id DataOciDatabaseSchedulingPolicy#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_policy#scheduling_policy_id DataOciDatabaseSchedulingPolicy#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulingPolicyId
         {

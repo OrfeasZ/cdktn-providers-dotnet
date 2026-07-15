@@ -7,7 +7,7 @@ namespace oci.BdsBdsCapacityReport
     [JsiiInterface(nativeType: typeof(IBdsBdsCapacityReportShapeAvailabilities), fullyQualifiedName: "oci.bdsBdsCapacityReport.BdsBdsCapacityReportShapeAvailabilities")]
     public interface IBdsBdsCapacityReportShapeAvailabilities
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         string Shape
         {
@@ -16,7 +16,7 @@ namespace oci.BdsBdsCapacityReport
 
         /// <summary>shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
         /// </remarks>
         [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.bdsBdsCapacityReport.BdsBdsCapacityReportShapeAvailabilitiesShapeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace oci.BdsBdsCapacityReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_capacity_report#shape BdsBdsCapacityReport#shape}.</summary>
             [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
             public string Shape
             {
@@ -44,7 +44,7 @@ namespace oci.BdsBdsCapacityReport
 
             /// <summary>shape_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_capacity_report#shape_config BdsBdsCapacityReport#shape_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.bdsBdsCapacityReport.BdsBdsCapacityReportShapeAvailabilitiesShapeConfig\"}", isOptional: true)]

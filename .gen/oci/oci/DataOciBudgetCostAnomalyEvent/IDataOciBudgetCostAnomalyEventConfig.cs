@@ -7,7 +7,7 @@ namespace oci.DataOciBudgetCostAnomalyEvent
     [JsiiInterface(nativeType: typeof(IDataOciBudgetCostAnomalyEventConfig), fullyQualifiedName: "oci.dataOciBudgetCostAnomalyEvent.DataOciBudgetCostAnomalyEventConfig")]
     public interface IDataOciBudgetCostAnomalyEventConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/budget_cost_anomaly_event#cost_anomaly_event_id DataOciBudgetCostAnomalyEvent#cost_anomaly_event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/budget_cost_anomaly_event#cost_anomaly_event_id DataOciBudgetCostAnomalyEvent#cost_anomaly_event_id}.</summary>
         [JsiiProperty(name: "costAnomalyEventId", typeJson: "{\"primitive\":\"string\"}")]
         string CostAnomalyEventId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBudgetCostAnomalyEvent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/budget_cost_anomaly_event#cost_anomaly_event_id DataOciBudgetCostAnomalyEvent#cost_anomaly_event_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/budget_cost_anomaly_event#cost_anomaly_event_id DataOciBudgetCostAnomalyEvent#cost_anomaly_event_id}.</summary>
             [JsiiProperty(name: "costAnomalyEventId", typeJson: "{\"primitive\":\"string\"}")]
             public string CostAnomalyEventId
             {

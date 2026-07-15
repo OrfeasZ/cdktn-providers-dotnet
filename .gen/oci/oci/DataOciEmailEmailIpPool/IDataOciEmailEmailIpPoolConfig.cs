@@ -7,7 +7,7 @@ namespace oci.DataOciEmailEmailIpPool
     [JsiiInterface(nativeType: typeof(IDataOciEmailEmailIpPoolConfig), fullyQualifiedName: "oci.dataOciEmailEmailIpPool.DataOciEmailEmailIpPoolConfig")]
     public interface IDataOciEmailEmailIpPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_email_ip_pool#email_ip_pool_id DataOciEmailEmailIpPool#email_ip_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_email_ip_pool#email_ip_pool_id DataOciEmailEmailIpPool#email_ip_pool_id}.</summary>
         [JsiiProperty(name: "emailIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string EmailIpPoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailEmailIpPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_email_ip_pool#email_ip_pool_id DataOciEmailEmailIpPool#email_ip_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_email_ip_pool#email_ip_pool_id DataOciEmailEmailIpPool#email_ip_pool_id}.</summary>
             [JsiiProperty(name: "emailIpPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailIpPoolId
             {

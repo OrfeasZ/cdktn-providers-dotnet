@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpIdentityConnector
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbGcpIdentityConnector.DataOciDbmulticloudOracleDbGcpIdentityConnectorConfig")]
     public class DataOciDbmulticloudOracleDbGcpIdentityConnectorConfig : oci.DataOciDbmulticloudOracleDbGcpIdentityConnector.IDataOciDbmulticloudOracleDbGcpIdentityConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbGcpIdentityConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbGcpIdentityConnectorId
         {

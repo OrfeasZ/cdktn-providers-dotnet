@@ -7,7 +7,7 @@ namespace oci.CoreVnicAttachment
     [JsiiByValue(fqn: "oci.coreVnicAttachment.CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails")]
     public class CoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails : oci.CoreVnicAttachment.ICoreVnicAttachmentCreateVnicDetailsIpv6AddressIpv6SubnetCidrPairDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#ipv6address CoreVnicAttachment#ipv6address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#ipv6address CoreVnicAttachment#ipv6address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6Address
@@ -16,7 +16,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#ipv6id CoreVnicAttachment#ipv6id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#ipv6id CoreVnicAttachment#ipv6id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6Id
@@ -25,7 +25,7 @@ namespace oci.CoreVnicAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_vnic_attachment#ipv6subnet_cidr CoreVnicAttachment#ipv6subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_vnic_attachment#ipv6subnet_cidr CoreVnicAttachment#ipv6subnet_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6SubnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6SubnetCidr

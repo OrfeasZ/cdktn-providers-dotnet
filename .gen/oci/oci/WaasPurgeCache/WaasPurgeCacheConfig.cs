@@ -9,7 +9,7 @@ namespace oci.WaasPurgeCache
     [JsiiByValue(fqn: "oci.waasPurgeCache.WaasPurgeCacheConfig")]
     public class WaasPurgeCacheConfig : oci.WaasPurgeCache.IWaasPurgeCacheConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waas_purge_cache#waas_policy_id WaasPurgeCache#waas_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_purge_cache#waas_policy_id WaasPurgeCache#waas_policy_id}.</summary>
         [JsiiProperty(name: "waasPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string WaasPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.WaasPurgeCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waas_purge_cache#id WaasPurgeCache#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_purge_cache#id WaasPurgeCache#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.WaasPurgeCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waas_purge_cache#resources WaasPurgeCache#resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_purge_cache#resources WaasPurgeCache#resources}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Resources
@@ -41,7 +41,7 @@ namespace oci.WaasPurgeCache
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waas_purge_cache#timeouts WaasPurgeCache#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_purge_cache#timeouts WaasPurgeCache#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.waasPurgeCache.WaasPurgeCacheTimeouts\"}", isOptional: true)]

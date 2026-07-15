@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceStorageArchivalConfigTimeouts), fullyQualifiedName: "oci.logAnalyticsNamespaceStorageArchivalConfig.LogAnalyticsNamespaceStorageArchivalConfigTimeouts")]
     public interface ILogAnalyticsNamespaceStorageArchivalConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#create LogAnalyticsNamespaceStorageArchivalConfig#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#delete LogAnalyticsNamespaceStorageArchivalConfig#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_storage_archival_config#update LogAnalyticsNamespaceStorageArchivalConfig#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

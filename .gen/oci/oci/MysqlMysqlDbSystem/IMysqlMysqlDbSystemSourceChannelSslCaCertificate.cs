@@ -7,14 +7,14 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiInterface(nativeType: typeof(IMysqlMysqlDbSystemSourceChannelSslCaCertificate), fullyQualifiedName: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemSourceChannelSslCaCertificate")]
     public interface IMysqlMysqlDbSystemSourceChannelSslCaCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#certificate_type MysqlMysqlDbSystem#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_db_system#certificate_type MysqlMysqlDbSystem#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#contents MysqlMysqlDbSystem#contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_db_system#contents MysqlMysqlDbSystem#contents}.</summary>
         [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
         string Contents
         {
@@ -28,14 +28,14 @@ namespace oci.MysqlMysqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#certificate_type MysqlMysqlDbSystem#certificate_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_db_system#certificate_type MysqlMysqlDbSystem#certificate_type}.</summary>
             [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/mysql_mysql_db_system#contents MysqlMysqlDbSystem#contents}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_db_system#contents MysqlMysqlDbSystem#contents}.</summary>
             [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
             public string Contents
             {

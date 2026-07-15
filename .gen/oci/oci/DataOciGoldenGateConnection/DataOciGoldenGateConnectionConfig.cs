@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateConnection
     [JsiiByValue(fqn: "oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionConfig")]
     public class DataOciGoldenGateConnectionConfig : oci.DataOciGoldenGateConnection.IDataOciGoldenGateConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionId
         {

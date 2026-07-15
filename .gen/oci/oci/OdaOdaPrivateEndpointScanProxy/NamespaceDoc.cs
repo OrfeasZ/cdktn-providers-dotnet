@@ -5,7 +5,7 @@ namespace oci.OdaOdaPrivateEndpointScanProxy
     /// <remarks>
     /// <h1><c>oci_oda_oda_private_endpoint_scan_proxy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/oda_oda_private_endpoint_scan_proxy"><c>oci_oda_oda_private_endpoint_scan_proxy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/oda_oda_private_endpoint_scan_proxy"><c>oci_oda_oda_private_endpoint_scan_proxy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

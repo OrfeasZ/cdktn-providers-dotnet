@@ -9,7 +9,7 @@ namespace oci.DataOciPsaPrivateServiceAccess
     [JsiiByValue(fqn: "oci.dataOciPsaPrivateServiceAccess.DataOciPsaPrivateServiceAccessConfig")]
     public class DataOciPsaPrivateServiceAccessConfig : oci.DataOciPsaPrivateServiceAccess.IDataOciPsaPrivateServiceAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_private_service_access#private_service_access_id DataOciPsaPrivateServiceAccess#private_service_access_id}.</summary>
         [JsiiProperty(name: "privateServiceAccessId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateServiceAccessId
         {

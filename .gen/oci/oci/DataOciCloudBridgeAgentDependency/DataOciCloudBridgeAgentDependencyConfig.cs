@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeAgentDependency
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeAgentDependency.DataOciCloudBridgeAgentDependencyConfig")]
     public class DataOciCloudBridgeAgentDependencyConfig : oci.DataOciCloudBridgeAgentDependency.IDataOciCloudBridgeAgentDependencyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
         [JsiiProperty(name: "agentDependencyId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentDependencyId
         {

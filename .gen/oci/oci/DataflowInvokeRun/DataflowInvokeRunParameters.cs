@@ -9,7 +9,7 @@ namespace oci.DataflowInvokeRun
     [JsiiByValue(fqn: "oci.dataflowInvokeRun.DataflowInvokeRunParameters")]
     public class DataflowInvokeRunParameters : oci.DataflowInvokeRun.IDataflowInvokeRunParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#name DataflowInvokeRun#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#name DataflowInvokeRun#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#value DataflowInvokeRun#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#value DataflowInvokeRun#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

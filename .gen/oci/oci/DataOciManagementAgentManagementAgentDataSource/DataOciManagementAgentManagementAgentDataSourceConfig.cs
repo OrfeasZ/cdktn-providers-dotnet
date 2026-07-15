@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSource
     [JsiiByValue(fqn: "oci.dataOciManagementAgentManagementAgentDataSource.DataOciManagementAgentManagementAgentDataSourceConfig")]
     public class DataOciManagementAgentManagementAgentDataSourceConfig : oci.DataOciManagementAgentManagementAgentDataSource.IDataOciManagementAgentManagementAgentDataSourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_data_source#data_source_key DataOciManagementAgentManagementAgentDataSource#data_source_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_data_source#data_source_key DataOciManagementAgentManagementAgentDataSource#data_source_key}.</summary>
         [JsiiProperty(name: "dataSourceKey", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_agent_management_agent_data_source#management_agent_id DataOciManagementAgentManagementAgentDataSource#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_data_source#management_agent_id DataOciManagementAgentManagementAgentDataSource#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementAgentId
         {

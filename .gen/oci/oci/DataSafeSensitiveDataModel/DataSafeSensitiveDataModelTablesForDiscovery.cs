@@ -9,7 +9,7 @@ namespace oci.DataSafeSensitiveDataModel
     [JsiiByValue(fqn: "oci.dataSafeSensitiveDataModel.DataSafeSensitiveDataModelTablesForDiscovery")]
     public class DataSafeSensitiveDataModelTablesForDiscovery : oci.DataSafeSensitiveDataModel.IDataSafeSensitiveDataModelTablesForDiscovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_model#schema_name DataSafeSensitiveDataModel#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_data_model#schema_name DataSafeSensitiveDataModel#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}")]
         public string SchemaName
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSensitiveDataModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_sensitive_data_model#table_names DataSafeSensitiveDataModel#table_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_data_model#table_names DataSafeSensitiveDataModel#table_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TableNames

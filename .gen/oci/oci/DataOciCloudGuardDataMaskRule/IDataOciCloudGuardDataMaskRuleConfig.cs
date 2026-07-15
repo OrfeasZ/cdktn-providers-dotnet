@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardDataMaskRule
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardDataMaskRuleConfig), fullyQualifiedName: "oci.dataOciCloudGuardDataMaskRule.DataOciCloudGuardDataMaskRuleConfig")]
     public interface IDataOciCloudGuardDataMaskRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
         [JsiiProperty(name: "dataMaskRuleId", typeJson: "{\"primitive\":\"string\"}")]
         string DataMaskRuleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardDataMaskRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
             [JsiiProperty(name: "dataMaskRuleId", typeJson: "{\"primitive\":\"string\"}")]
             public string DataMaskRuleId
             {

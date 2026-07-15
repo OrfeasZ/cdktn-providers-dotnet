@@ -9,7 +9,7 @@ namespace oci.DataOciDelegateAccessControlDelegationSubscription
     [JsiiByValue(fqn: "oci.dataOciDelegateAccessControlDelegationSubscription.DataOciDelegateAccessControlDelegationSubscriptionConfig")]
     public class DataOciDelegateAccessControlDelegationSubscriptionConfig : oci.DataOciDelegateAccessControlDelegationSubscription.IDataOciDelegateAccessControlDelegationSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/delegate_access_control_delegation_subscription#delegation_subscription_id DataOciDelegateAccessControlDelegationSubscription#delegation_subscription_id}.</summary>
         [JsiiProperty(name: "delegationSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DelegationSubscriptionId
         {

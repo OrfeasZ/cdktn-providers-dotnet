@@ -9,7 +9,7 @@ namespace oci.DatascienceJob
     [JsiiByValue(fqn: "oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration")]
     public class DatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration : oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
         [JsiiProperty(name: "jobNetworkType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobNetworkType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId

@@ -9,7 +9,7 @@ namespace oci.CoreIpsec
     [JsiiByValue(fqn: "oci.coreIpsec.CoreIpsecConfig")]
     public class CoreIpsecConfig : oci.CoreIpsec.ICoreIpsecConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#compartment_id CoreIpsec#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#compartment_id CoreIpsec#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#cpe_id CoreIpsec#cpe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#cpe_id CoreIpsec#cpe_id}.</summary>
         [JsiiProperty(name: "cpeId", typeJson: "{\"primitive\":\"string\"}")]
         public string CpeId
         {
@@ -25,7 +25,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#drg_id CoreIpsec#drg_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#drg_id CoreIpsec#drg_id}.</summary>
         [JsiiProperty(name: "drgId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgId
         {
@@ -33,7 +33,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#static_routes CoreIpsec#static_routes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#static_routes CoreIpsec#static_routes}.</summary>
         [JsiiProperty(name: "staticRoutes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] StaticRoutes
         {
@@ -41,7 +41,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#cpe_local_identifier CoreIpsec#cpe_local_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#cpe_local_identifier CoreIpsec#cpe_local_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpeLocalIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CpeLocalIdentifier
@@ -50,7 +50,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#cpe_local_identifier_type CoreIpsec#cpe_local_identifier_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#cpe_local_identifier_type CoreIpsec#cpe_local_identifier_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpeLocalIdentifierType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CpeLocalIdentifierType
@@ -59,7 +59,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#defined_tags CoreIpsec#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#defined_tags CoreIpsec#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -68,7 +68,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#display_name CoreIpsec#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#display_name CoreIpsec#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -77,7 +77,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#freeform_tags CoreIpsec#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#freeform_tags CoreIpsec#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -86,7 +86,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#id CoreIpsec#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#id CoreIpsec#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace oci.CoreIpsec
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#timeouts CoreIpsec#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#timeouts CoreIpsec#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreIpsec.CoreIpsecTimeouts\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace oci.CoreIpsec
 
         /// <summary>tunnel_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_ipsec#tunnel_configuration CoreIpsec#tunnel_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec#tunnel_configuration CoreIpsec#tunnel_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreIpsec.ICoreIpsecTunnelConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

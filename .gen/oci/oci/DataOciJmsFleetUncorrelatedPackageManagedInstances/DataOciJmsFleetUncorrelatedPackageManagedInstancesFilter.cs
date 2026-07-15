@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
     [JsiiByValue(fqn: "oci.dataOciJmsFleetUncorrelatedPackageManagedInstances.DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter")]
     public class DataOciJmsFleetUncorrelatedPackageManagedInstancesFilter : oci.DataOciJmsFleetUncorrelatedPackageManagedInstances.IDataOciJmsFleetUncorrelatedPackageManagedInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#name DataOciJmsFleetUncorrelatedPackageManagedInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#values DataOciJmsFleetUncorrelatedPackageManagedInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageManagedInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_uncorrelated_package_managed_instances#regex DataOciJmsFleetUncorrelatedPackageManagedInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

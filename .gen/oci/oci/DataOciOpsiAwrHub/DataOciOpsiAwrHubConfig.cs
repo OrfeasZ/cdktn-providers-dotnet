@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiAwrHub
     [JsiiByValue(fqn: "oci.dataOciOpsiAwrHub.DataOciOpsiAwrHubConfig")]
     public class DataOciOpsiAwrHubConfig : oci.DataOciOpsiAwrHub.IDataOciOpsiAwrHubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
         [JsiiProperty(name: "awrHubId", typeJson: "{\"primitive\":\"string\"}")]
         public string AwrHubId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerJobCounts.DataOciFleetAppsManagementSchedulerJobCountsFilter")]
     public class DataOciFleetAppsManagementSchedulerJobCountsFilter : oci.DataOciFleetAppsManagementSchedulerJobCounts.IDataOciFleetAppsManagementSchedulerJobCountsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#name DataOciFleetAppsManagementSchedulerJobCounts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#name DataOciFleetAppsManagementSchedulerJobCounts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#values DataOciFleetAppsManagementSchedulerJobCounts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#values DataOciFleetAppsManagementSchedulerJobCounts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#regex DataOciFleetAppsManagementSchedulerJobCounts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#regex DataOciFleetAppsManagementSchedulerJobCounts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

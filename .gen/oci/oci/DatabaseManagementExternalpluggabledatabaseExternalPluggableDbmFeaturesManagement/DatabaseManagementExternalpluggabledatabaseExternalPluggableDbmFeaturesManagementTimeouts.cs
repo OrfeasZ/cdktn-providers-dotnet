@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFea
     [JsiiByValue(fqn: "oci.databaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement.DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementTimeouts")]
     public class DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementTimeouts : oci.DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement.IDatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#create DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#create DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFea
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#delete DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#delete DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFea
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#update DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_externalpluggabledatabase_external_pluggable_dbm_features_management#update DatabaseManagementExternalpluggabledatabaseExternalPluggableDbmFeaturesManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

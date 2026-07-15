@@ -107,6 +107,12 @@ namespace oci.DataOciDataSafeTargetAlertPolicyAssociations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {

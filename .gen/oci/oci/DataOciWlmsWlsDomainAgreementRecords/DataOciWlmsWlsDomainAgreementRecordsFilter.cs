@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomainAgreementRecords.DataOciWlmsWlsDomainAgreementRecordsFilter")]
     public class DataOciWlmsWlsDomainAgreementRecordsFilter : oci.DataOciWlmsWlsDomainAgreementRecords.IDataOciWlmsWlsDomainAgreementRecordsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/wlms_wls_domain_agreement_records#name DataOciWlmsWlsDomainAgreementRecords#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/wlms_wls_domain_agreement_records#name DataOciWlmsWlsDomainAgreementRecords#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/wlms_wls_domain_agreement_records#values DataOciWlmsWlsDomainAgreementRecords#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/wlms_wls_domain_agreement_records#values DataOciWlmsWlsDomainAgreementRecords#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciWlmsWlsDomainAgreementRecords
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/wlms_wls_domain_agreement_records#regex DataOciWlmsWlsDomainAgreementRecords#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/wlms_wls_domain_agreement_records#regex DataOciWlmsWlsDomainAgreementRecords#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

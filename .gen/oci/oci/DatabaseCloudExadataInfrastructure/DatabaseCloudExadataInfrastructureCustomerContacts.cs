@@ -7,7 +7,7 @@ namespace oci.DatabaseCloudExadataInfrastructure
     [JsiiByValue(fqn: "oci.databaseCloudExadataInfrastructure.DatabaseCloudExadataInfrastructureCustomerContacts")]
     public class DatabaseCloudExadataInfrastructureCustomerContacts : oci.DatabaseCloudExadataInfrastructure.IDatabaseCloudExadataInfrastructureCustomerContacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_exadata_infrastructure#email DatabaseCloudExadataInfrastructure#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_exadata_infrastructure#email DatabaseCloudExadataInfrastructure#email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Email

@@ -9,7 +9,7 @@ namespace oci.DevopsRepositorySetting
     [JsiiByValue(fqn: "oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItems")]
     public class DevopsRepositorySettingApprovalRulesItems : oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#min_approvals_count DevopsRepositorySetting#min_approvals_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_repository_setting#min_approvals_count DevopsRepositorySetting#min_approvals_count}.</summary>
         [JsiiProperty(name: "minApprovalsCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MinApprovalsCount
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsRepositorySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#name DevopsRepositorySetting#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_repository_setting#name DevopsRepositorySetting#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsRepositorySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#destination_branch DevopsRepositorySetting#destination_branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_repository_setting#destination_branch DevopsRepositorySetting#destination_branch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationBranch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationBranch
@@ -38,7 +38,7 @@ namespace oci.DevopsRepositorySetting
 
         /// <summary>reviewers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_repository_setting#reviewers DevopsRepositorySetting#reviewers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_repository_setting#reviewers DevopsRepositorySetting#reviewers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItemsReviewers" />)[]</para>
         /// </remarks>
         [JsiiOptional]

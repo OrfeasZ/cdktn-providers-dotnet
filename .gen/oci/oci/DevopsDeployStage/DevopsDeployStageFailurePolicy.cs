@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageFailurePolicy")]
     public class DevopsDeployStageFailurePolicy : oci.DevopsDeployStage.IDevopsDeployStageFailurePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
         [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#failure_count DevopsDeployStage#failure_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#failure_count DevopsDeployStage#failure_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailureCount
@@ -26,7 +26,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/devops_deploy_stage#failure_percentage DevopsDeployStage#failure_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#failure_percentage DevopsDeployStage#failure_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failurePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailurePercentage

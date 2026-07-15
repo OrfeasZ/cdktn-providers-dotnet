@@ -9,7 +9,7 @@ namespace oci.LoadBalancerListener
     [JsiiByValue(fqn: "oci.loadBalancerListener.LoadBalancerListenerConfig")]
     public class LoadBalancerListenerConfig : oci.LoadBalancerListener.ILoadBalancerListenerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#default_backend_set_name LoadBalancerListener#default_backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#default_backend_set_name LoadBalancerListener#default_backend_set_name}.</summary>
         [JsiiProperty(name: "defaultBackendSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultBackendSetName
         {
@@ -17,7 +17,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#load_balancer_id LoadBalancerListener#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#load_balancer_id LoadBalancerListener#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#name LoadBalancerListener#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#name LoadBalancerListener#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#port LoadBalancerListener#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#port LoadBalancerListener#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -41,7 +41,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#protocol LoadBalancerListener#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#protocol LoadBalancerListener#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -51,7 +51,7 @@ namespace oci.LoadBalancerListener
 
         /// <summary>connection_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#connection_configuration LoadBalancerListener#connection_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#connection_configuration LoadBalancerListener#connection_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerListener.LoadBalancerListenerConnectionConfiguration\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#hostname_names LoadBalancerListener#hostname_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#hostname_names LoadBalancerListener#hostname_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? HostnameNames
@@ -70,7 +70,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#id LoadBalancerListener#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#id LoadBalancerListener#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#path_route_set_name LoadBalancerListener#path_route_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#path_route_set_name LoadBalancerListener#path_route_set_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathRouteSetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PathRouteSetName
@@ -92,7 +92,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#routing_policy_name LoadBalancerListener#routing_policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#routing_policy_name LoadBalancerListener#routing_policy_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingPolicyName
@@ -101,7 +101,7 @@ namespace oci.LoadBalancerListener
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#rule_set_names LoadBalancerListener#rule_set_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#rule_set_names LoadBalancerListener#rule_set_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleSetNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RuleSetNames
@@ -112,7 +112,7 @@ namespace oci.LoadBalancerListener
 
         /// <summary>ssl_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#ssl_configuration LoadBalancerListener#ssl_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#ssl_configuration LoadBalancerListener#ssl_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sslConfiguration", typeJson: "{\"fqn\":\"oci.loadBalancerListener.LoadBalancerListenerSslConfiguration\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace oci.LoadBalancerListener
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/load_balancer_listener#timeouts LoadBalancerListener#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_listener#timeouts LoadBalancerListener#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerListener.LoadBalancerListenerTimeouts\"}", isOptional: true)]

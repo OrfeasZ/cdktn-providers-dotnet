@@ -7,21 +7,21 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudMultiCloudResourceDiscoveriesFilter), fullyQualifiedName: "oci.dataOciDbmulticloudMultiCloudResourceDiscoveries.DataOciDbmulticloudMultiCloudResourceDiscoveriesFilter")]
     public interface IDataOciDbmulticloudMultiCloudResourceDiscoveriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#name DataOciDbmulticloudMultiCloudResourceDiscoveries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#name DataOciDbmulticloudMultiCloudResourceDiscoveries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#values DataOciDbmulticloudMultiCloudResourceDiscoveries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#values DataOciDbmulticloudMultiCloudResourceDiscoveries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#regex DataOciDbmulticloudMultiCloudResourceDiscoveries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#regex DataOciDbmulticloudMultiCloudResourceDiscoveries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscoveries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#name DataOciDbmulticloudMultiCloudResourceDiscoveries#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#name DataOciDbmulticloudMultiCloudResourceDiscoveries#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#values DataOciDbmulticloudMultiCloudResourceDiscoveries#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#values DataOciDbmulticloudMultiCloudResourceDiscoveries#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#regex DataOciDbmulticloudMultiCloudResourceDiscoveries#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discoveries#regex DataOciDbmulticloudMultiCloudResourceDiscoveries#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

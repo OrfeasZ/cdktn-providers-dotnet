@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpByolAllocations
     [JsiiByValue(fqn: "oci.dataOciOcvpByolAllocations.DataOciOcvpByolAllocationsConfig")]
     public class DataOciOcvpByolAllocationsConfig : oci.DataOciOcvpByolAllocations.IDataOciOcvpByolAllocationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#compartment_id DataOciOcvpByolAllocations#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#compartment_id DataOciOcvpByolAllocations#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#available_units_greater_than_or_equal_to DataOciOcvpByolAllocations#available_units_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#available_units_greater_than_or_equal_to DataOciOcvpByolAllocations#available_units_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availableUnitsGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AvailableUnitsGreaterThanOrEqualTo
@@ -26,7 +26,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#byol_allocation_id DataOciOcvpByolAllocations#byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#byol_allocation_id DataOciOcvpByolAllocations#byol_allocation_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "byolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ByolAllocationId
@@ -35,7 +35,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#byol_id DataOciOcvpByolAllocations#byol_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#byol_id DataOciOcvpByolAllocations#byol_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ByolId
@@ -44,7 +44,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#display_name DataOciOcvpByolAllocations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#display_name DataOciOcvpByolAllocations#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -57,7 +57,7 @@ namespace oci.DataOciOcvpByolAllocations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#filter DataOciOcvpByolAllocations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#filter DataOciOcvpByolAllocations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpByolAllocations.IDataOciOcvpByolAllocationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -88,7 +88,7 @@ namespace oci.DataOciOcvpByolAllocations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#id DataOciOcvpByolAllocations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#id DataOciOcvpByolAllocations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#software_type DataOciOcvpByolAllocations#software_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#software_type DataOciOcvpByolAllocations#software_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softwareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SoftwareType
@@ -110,7 +110,7 @@ namespace oci.DataOciOcvpByolAllocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/ocvp_byol_allocations#state DataOciOcvpByolAllocations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_byol_allocations#state DataOciOcvpByolAllocations#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

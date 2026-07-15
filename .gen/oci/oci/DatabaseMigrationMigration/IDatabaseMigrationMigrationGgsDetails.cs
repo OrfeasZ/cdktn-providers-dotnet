@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationMigrationGgsDetails), fullyQualifiedName: "oci.databaseMigrationMigration.DatabaseMigrationMigrationGgsDetails")]
     public interface IDatabaseMigrationMigrationGgsDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}.</summary>
         [JsiiProperty(name: "acceptableLag", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AcceptableLag
@@ -20,7 +20,7 @@ namespace oci.DatabaseMigrationMigration
 
         /// <summary>extract block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
         /// </remarks>
         [JsiiProperty(name: "extract", typeJson: "{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationGgsDetailsExtract\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace oci.DatabaseMigrationMigration
 
         /// <summary>replicat block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
         /// </remarks>
         [JsiiProperty(name: "replicat", typeJson: "{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationGgsDetailsReplicat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace oci.DatabaseMigrationMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "acceptableLag", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AcceptableLag
@@ -63,7 +63,7 @@ namespace oci.DatabaseMigrationMigration
 
             /// <summary>extract block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extract", typeJson: "{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationGgsDetailsExtract\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace oci.DatabaseMigrationMigration
 
             /// <summary>replicat block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replicat", typeJson: "{\"fqn\":\"oci.databaseMigrationMigration.DatabaseMigrationMigrationGgsDetailsReplicat\"}", isOptional: true)]

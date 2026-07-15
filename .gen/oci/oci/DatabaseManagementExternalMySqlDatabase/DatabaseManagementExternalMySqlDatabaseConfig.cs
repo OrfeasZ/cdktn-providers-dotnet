@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabase
     [JsiiByValue(fqn: "oci.databaseManagementExternalMySqlDatabase.DatabaseManagementExternalMySqlDatabaseConfig")]
     public class DatabaseManagementExternalMySqlDatabaseConfig : oci.DatabaseManagementExternalMySqlDatabase.IDatabaseManagementExternalMySqlDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_my_sql_database#compartment_id DatabaseManagementExternalMySqlDatabase#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_external_my_sql_database#compartment_id DatabaseManagementExternalMySqlDatabase#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_my_sql_database#db_name DatabaseManagementExternalMySqlDatabase#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_external_my_sql_database#db_name DatabaseManagementExternalMySqlDatabase#db_name}.</summary>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}")]
         public string DbName
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_my_sql_database#id DatabaseManagementExternalMySqlDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_external_my_sql_database#id DatabaseManagementExternalMySqlDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabase
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_management_external_my_sql_database#timeouts DatabaseManagementExternalMySqlDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_external_my_sql_database#timeouts DatabaseManagementExternalMySqlDatabase#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalMySqlDatabase.DatabaseManagementExternalMySqlDatabaseTimeouts\"}", isOptional: true)]

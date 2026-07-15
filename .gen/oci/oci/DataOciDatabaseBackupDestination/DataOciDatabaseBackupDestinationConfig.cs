@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseBackupDestination
     [JsiiByValue(fqn: "oci.dataOciDatabaseBackupDestination.DataOciDatabaseBackupDestinationConfig")]
     public class DataOciDatabaseBackupDestinationConfig : oci.DataOciDatabaseBackupDestination.IDataOciDatabaseBackupDestinationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_backup_destination#backup_destination_id DataOciDatabaseBackupDestination#backup_destination_id}.</summary>
         [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}")]
         public string BackupDestinationId
         {

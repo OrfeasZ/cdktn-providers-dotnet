@@ -7,7 +7,7 @@ namespace oci.DataSafeMaskingReportManagement
     [JsiiByValue(fqn: "oci.dataSafeMaskingReportManagement.DataSafeMaskingReportManagementConfig")]
     public class DataSafeMaskingReportManagementConfig : oci.DataSafeMaskingReportManagement.IDataSafeMaskingReportManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_report_management#compartment_id DataSafeMaskingReportManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_report_management#compartment_id DataSafeMaskingReportManagement#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataSafeMaskingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_report_management#id DataSafeMaskingReportManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_report_management#id DataSafeMaskingReportManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataSafeMaskingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_report_management#masking_policy_id DataSafeMaskingReportManagement#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_report_management#masking_policy_id DataSafeMaskingReportManagement#masking_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaskingPolicyId
@@ -38,7 +38,7 @@ namespace oci.DataSafeMaskingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_report_management#target_id DataSafeMaskingReportManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_report_management#target_id DataSafeMaskingReportManagement#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -49,7 +49,7 @@ namespace oci.DataSafeMaskingReportManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/data_safe_masking_report_management#timeouts DataSafeMaskingReportManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_masking_report_management#timeouts DataSafeMaskingReportManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeMaskingReportManagement.DataSafeMaskingReportManagementTimeouts\"}", isOptional: true)]

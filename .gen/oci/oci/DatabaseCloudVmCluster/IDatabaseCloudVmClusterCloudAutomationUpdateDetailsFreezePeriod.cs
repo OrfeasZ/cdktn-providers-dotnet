@@ -7,7 +7,7 @@ namespace oci.DatabaseCloudVmCluster
     [JsiiInterface(nativeType: typeof(IDatabaseCloudVmClusterCloudAutomationUpdateDetailsFreezePeriod), fullyQualifiedName: "oci.databaseCloudVmCluster.DatabaseCloudVmClusterCloudAutomationUpdateDetailsFreezePeriod")]
     public interface IDatabaseCloudVmClusterCloudAutomationUpdateDetailsFreezePeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster#freeze_period_end_time DatabaseCloudVmCluster#freeze_period_end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#freeze_period_end_time DatabaseCloudVmCluster#freeze_period_end_time}.</summary>
         [JsiiProperty(name: "freezePeriodEndTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FreezePeriodEndTime
@@ -18,7 +18,7 @@ namespace oci.DatabaseCloudVmCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster#freeze_period_start_time DatabaseCloudVmCluster#freeze_period_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#freeze_period_start_time DatabaseCloudVmCluster#freeze_period_start_time}.</summary>
         [JsiiProperty(name: "freezePeriodStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FreezePeriodStartTime
@@ -36,7 +36,7 @@ namespace oci.DatabaseCloudVmCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster#freeze_period_end_time DatabaseCloudVmCluster#freeze_period_end_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#freeze_period_end_time DatabaseCloudVmCluster#freeze_period_end_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freezePeriodEndTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FreezePeriodEndTime
@@ -44,7 +44,7 @@ namespace oci.DatabaseCloudVmCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_cloud_vm_cluster#freeze_period_start_time DatabaseCloudVmCluster#freeze_period_start_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#freeze_period_start_time DatabaseCloudVmCluster#freeze_period_start_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freezePeriodStartTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FreezePeriodStartTime

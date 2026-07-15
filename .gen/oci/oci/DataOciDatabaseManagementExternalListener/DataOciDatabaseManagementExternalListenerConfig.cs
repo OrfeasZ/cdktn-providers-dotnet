@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalListener
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalListener.DataOciDatabaseManagementExternalListenerConfig")]
     public class DataOciDatabaseManagementExternalListenerConfig : oci.DataOciDatabaseManagementExternalListener.IDataOciDatabaseManagementExternalListenerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
         [JsiiProperty(name: "externalListenerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalListenerId
         {

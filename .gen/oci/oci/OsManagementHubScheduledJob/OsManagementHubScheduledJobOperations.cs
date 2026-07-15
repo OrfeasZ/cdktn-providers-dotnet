@@ -9,7 +9,7 @@ namespace oci.OsManagementHubScheduledJob
     [JsiiByValue(fqn: "oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperations")]
     public class OsManagementHubScheduledJobOperations : oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#operation_type OsManagementHubScheduledJob#operation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#operation_type OsManagementHubScheduledJob#operation_type}.</summary>
         [JsiiProperty(name: "operationType", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationType
         {
@@ -19,7 +19,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>install_snap_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#install_snap_details OsManagementHubScheduledJob#install_snap_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#install_snap_details OsManagementHubScheduledJob#install_snap_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "installSnapDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsInstallSnapDetails\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>manage_module_streams_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#manage_module_streams_details OsManagementHubScheduledJob#manage_module_streams_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#manage_module_streams_details OsManagementHubScheduledJob#manage_module_streams_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "manageModuleStreamsDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsManageModuleStreamsDetails\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#package_names OsManagementHubScheduledJob#package_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#package_names OsManagementHubScheduledJob#package_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packageNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PackageNames
@@ -50,7 +50,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#reboot_timeout_in_mins OsManagementHubScheduledJob#reboot_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#reboot_timeout_in_mins OsManagementHubScheduledJob#reboot_timeout_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RebootTimeoutInMins
@@ -61,7 +61,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>remove_snap_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#remove_snap_details OsManagementHubScheduledJob#remove_snap_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#remove_snap_details OsManagementHubScheduledJob#remove_snap_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "removeSnapDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsRemoveSnapDetails\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#software_source_ids OsManagementHubScheduledJob#software_source_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#software_source_ids OsManagementHubScheduledJob#software_source_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softwareSourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SoftwareSourceIds
@@ -82,7 +82,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>switch_module_streams_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#switch_module_streams_details OsManagementHubScheduledJob#switch_module_streams_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#switch_module_streams_details OsManagementHubScheduledJob#switch_module_streams_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "switchModuleStreamsDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchModuleStreamsDetails\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>switch_snap_channel_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#switch_snap_channel_details OsManagementHubScheduledJob#switch_snap_channel_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#switch_snap_channel_details OsManagementHubScheduledJob#switch_snap_channel_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "switchSnapChannelDetails", typeJson: "{\"fqn\":\"oci.osManagementHubScheduledJob.OsManagementHubScheduledJobOperationsSwitchSnapChannelDetails\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace oci.OsManagementHubScheduledJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/os_management_hub_scheduled_job#windows_update_names OsManagementHubScheduledJob#windows_update_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_scheduled_job#windows_update_names OsManagementHubScheduledJob#windows_update_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "windowsUpdateNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? WindowsUpdateNames

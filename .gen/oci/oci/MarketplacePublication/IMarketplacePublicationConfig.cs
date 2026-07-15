@@ -7,14 +7,14 @@ namespace oci.MarketplacePublication
     [JsiiInterface(nativeType: typeof(IMarketplacePublicationConfig), fullyQualifiedName: "oci.marketplacePublication.MarketplacePublicationConfig")]
     public interface IMarketplacePublicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,14 +24,14 @@ namespace oci.MarketplacePublication
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}.</summary>
         [JsiiProperty(name: "listingType", typeJson: "{\"primitive\":\"string\"}")]
         string ListingType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -40,7 +40,7 @@ namespace oci.MarketplacePublication
 
         /// <summary>package_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
         /// </remarks>
         [JsiiProperty(name: "packageDetails", typeJson: "{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationPackageDetails\"}")]
         oci.MarketplacePublication.IMarketplacePublicationPackageDetails PackageDetails
@@ -48,7 +48,7 @@ namespace oci.MarketplacePublication
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}.</summary>
         [JsiiProperty(name: "shortDescription", typeJson: "{\"primitive\":\"string\"}")]
         string ShortDescription
         {
@@ -57,7 +57,7 @@ namespace oci.MarketplacePublication
 
         /// <summary>support_contacts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MarketplacePublication.IMarketplacePublicationSupportContacts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "supportContacts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationSupportContacts\"},\"kind\":\"array\"}}]}}")]
@@ -66,7 +66,7 @@ namespace oci.MarketplacePublication
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -77,7 +77,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -88,7 +88,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#id MarketplacePublication#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#id MarketplacePublication#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,7 +103,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}.</summary>
         [JsiiProperty(name: "longDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LongDescription
@@ -116,7 +116,7 @@ namespace oci.MarketplacePublication
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,14 +135,14 @@ namespace oci.MarketplacePublication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#compartment_id MarketplacePublication#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#is_agreement_acknowledged MarketplacePublication#is_agreement_acknowledged}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -152,14 +152,14 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#listing_type MarketplacePublication#listing_type}.</summary>
             [JsiiProperty(name: "listingType", typeJson: "{\"primitive\":\"string\"}")]
             public string ListingType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -168,7 +168,7 @@ namespace oci.MarketplacePublication
 
             /// <summary>package_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#package_details MarketplacePublication#package_details}
             /// </remarks>
             [JsiiProperty(name: "packageDetails", typeJson: "{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationPackageDetails\"}")]
             public oci.MarketplacePublication.IMarketplacePublicationPackageDetails PackageDetails
@@ -176,7 +176,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<oci.MarketplacePublication.IMarketplacePublicationPackageDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#short_description MarketplacePublication#short_description}.</summary>
             [JsiiProperty(name: "shortDescription", typeJson: "{\"primitive\":\"string\"}")]
             public string ShortDescription
             {
@@ -185,7 +185,7 @@ namespace oci.MarketplacePublication
 
             /// <summary>support_contacts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#support_contacts MarketplacePublication#support_contacts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MarketplacePublication.IMarketplacePublicationSupportContacts" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "supportContacts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationSupportContacts\"},\"kind\":\"array\"}}]}}")]
@@ -194,7 +194,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#defined_tags MarketplacePublication#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -202,7 +202,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#freeform_tags MarketplacePublication#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -210,7 +210,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#id MarketplacePublication#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#id MarketplacePublication#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -222,7 +222,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#long_description MarketplacePublication#long_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "longDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LongDescription
@@ -232,7 +232,7 @@ namespace oci.MarketplacePublication
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#timeouts MarketplacePublication#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.marketplacePublication.MarketplacePublicationTimeouts\"}", isOptional: true)]

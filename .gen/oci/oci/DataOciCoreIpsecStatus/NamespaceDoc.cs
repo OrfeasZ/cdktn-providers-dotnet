@@ -5,7 +5,7 @@ namespace oci.DataOciCoreIpsecStatus
     /// <remarks>
     /// <h1><c>data_oci_core_ipsec_status</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/core_ipsec_status"><c>data_oci_core_ipsec_status</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_ipsec_status"><c>data_oci_core_ipsec_status</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

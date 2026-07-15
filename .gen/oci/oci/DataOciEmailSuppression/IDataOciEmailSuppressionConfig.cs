@@ -7,7 +7,7 @@ namespace oci.DataOciEmailSuppression
     [JsiiInterface(nativeType: typeof(IDataOciEmailSuppressionConfig), fullyQualifiedName: "oci.dataOciEmailSuppression.DataOciEmailSuppressionConfig")]
     public interface IDataOciEmailSuppressionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
         [JsiiProperty(name: "suppressionId", typeJson: "{\"primitive\":\"string\"}")]
         string SuppressionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailSuppression
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
             [JsiiProperty(name: "suppressionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SuppressionId
             {

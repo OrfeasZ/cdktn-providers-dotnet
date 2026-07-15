@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeAlertPolicyRule
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAlertPolicyRuleConfig), fullyQualifiedName: "oci.dataOciDataSafeAlertPolicyRule.DataOciDataSafeAlertPolicyRuleConfig")]
     public interface IDataOciDataSafeAlertPolicyRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
         [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string AlertPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
         [JsiiProperty(name: "ruleKey", typeJson: "{\"primitive\":\"string\"}")]
         string RuleKey
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDataSafeAlertPolicyRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_alert_policy_rule#alert_policy_id DataOciDataSafeAlertPolicyRule#alert_policy_id}.</summary>
             [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlertPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_alert_policy_rule#rule_key DataOciDataSafeAlertPolicyRule#rule_key}.</summary>
             [JsiiProperty(name: "ruleKey", typeJson: "{\"primitive\":\"string\"}")]
             public string RuleKey
             {

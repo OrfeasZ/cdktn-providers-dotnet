@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeInventory
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeInventory.DataOciCloudBridgeInventoryConfig")]
     public class DataOciCloudBridgeInventoryConfig : oci.DataOciCloudBridgeInventory.IDataOciCloudBridgeInventoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
         [JsiiProperty(name: "inventoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string InventoryId
         {

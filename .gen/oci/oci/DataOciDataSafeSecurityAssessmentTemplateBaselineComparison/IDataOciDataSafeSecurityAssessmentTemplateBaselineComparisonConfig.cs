@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityAssessmentTemplateBaselineComparisonConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityAssessmentTemplateBaselineComparison.DataOciDataSafeSecurityAssessmentTemplateBaselineComparisonConfig")]
     public interface IDataOciDataSafeSecurityAssessmentTemplateBaselineComparisonConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}.</summary>
         [JsiiProperty(name: "comparisonSecurityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string ComparisonSecurityAssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityAssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Category
@@ -32,7 +32,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}.</summary>
         [JsiiProperty(name: "findingKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FindingKey
@@ -43,7 +43,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -76,21 +76,21 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}.</summary>
             [JsiiProperty(name: "comparisonSecurityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComparisonSecurityAssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}.</summary>
             [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityAssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Category
@@ -98,7 +98,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "findingKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FindingKey
@@ -106,7 +106,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateBaselineComparison
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId

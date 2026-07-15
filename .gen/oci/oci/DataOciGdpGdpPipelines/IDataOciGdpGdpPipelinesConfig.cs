@@ -7,7 +7,7 @@ namespace oci.DataOciGdpGdpPipelines
     [JsiiInterface(nativeType: typeof(IDataOciGdpGdpPipelinesConfig), fullyQualifiedName: "oci.dataOciGdpGdpPipelines.DataOciGdpGdpPipelinesConfig")]
     public interface IDataOciGdpGdpPipelinesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#compartment_id DataOciGdpGdpPipelines#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#compartment_id DataOciGdpGdpPipelines#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciGdpGdpPipelines
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#display_name DataOciGdpGdpPipelines#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#display_name DataOciGdpGdpPipelines#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciGdpGdpPipelines
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#env DataOciGdpGdpPipelines#env}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#env DataOciGdpGdpPipelines#env}.</summary>
         [JsiiProperty(name: "env", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Env
@@ -42,7 +42,7 @@ namespace oci.DataOciGdpGdpPipelines
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#filter DataOciGdpGdpPipelines#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#filter DataOciGdpGdpPipelines#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGdpGdpPipelines.IDataOciGdpGdpPipelinesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGdpGdpPipelines.DataOciGdpGdpPipelinesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciGdpGdpPipelines
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#id DataOciGdpGdpPipelines#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#id DataOciGdpGdpPipelines#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciGdpGdpPipelines
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#compartment_id DataOciGdpGdpPipelines#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#compartment_id DataOciGdpGdpPipelines#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -85,7 +85,7 @@ namespace oci.DataOciGdpGdpPipelines
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#display_name DataOciGdpGdpPipelines#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#display_name DataOciGdpGdpPipelines#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -93,7 +93,7 @@ namespace oci.DataOciGdpGdpPipelines
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#env DataOciGdpGdpPipelines#env}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#env DataOciGdpGdpPipelines#env}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "env", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Env
@@ -103,7 +103,7 @@ namespace oci.DataOciGdpGdpPipelines
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#filter DataOciGdpGdpPipelines#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#filter DataOciGdpGdpPipelines#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGdpGdpPipelines.IDataOciGdpGdpPipelinesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -113,7 +113,7 @@ namespace oci.DataOciGdpGdpPipelines
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/gdp_gdp_pipelines#id DataOciGdpGdpPipelines#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/gdp_gdp_pipelines#id DataOciGdpGdpPipelines#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

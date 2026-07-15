@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseSoftwareImage
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousDatabaseSoftwareImageConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousDatabaseSoftwareImage.DataOciDatabaseAutonomousDatabaseSoftwareImageConfig")]
     public interface IDataOciDatabaseAutonomousDatabaseSoftwareImageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_database_software_image#autonomous_database_software_image_id DataOciDatabaseAutonomousDatabaseSoftwareImage#autonomous_database_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_database_software_image#autonomous_database_software_image_id DataOciDatabaseAutonomousDatabaseSoftwareImage#autonomous_database_software_image_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousDatabaseSoftwareImageId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseSoftwareImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/database_autonomous_database_software_image#autonomous_database_software_image_id DataOciDatabaseAutonomousDatabaseSoftwareImage#autonomous_database_software_image_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_database_software_image#autonomous_database_software_image_id DataOciDatabaseAutonomousDatabaseSoftwareImage#autonomous_database_software_image_id}.</summary>
             [JsiiProperty(name: "autonomousDatabaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousDatabaseSoftwareImageId
             {

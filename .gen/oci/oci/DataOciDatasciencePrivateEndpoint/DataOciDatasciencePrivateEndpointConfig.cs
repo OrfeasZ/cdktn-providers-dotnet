@@ -9,7 +9,7 @@ namespace oci.DataOciDatasciencePrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDatasciencePrivateEndpoint.DataOciDatasciencePrivateEndpointConfig")]
     public class DataOciDatasciencePrivateEndpointConfig : oci.DataOciDatasciencePrivateEndpoint.IDataOciDatasciencePrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dataSciencePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSciencePrivateEndpointId
         {

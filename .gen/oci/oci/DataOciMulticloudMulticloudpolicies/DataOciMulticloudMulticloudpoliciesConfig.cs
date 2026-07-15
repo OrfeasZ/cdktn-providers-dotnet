@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
     [JsiiByValue(fqn: "oci.dataOciMulticloudMulticloudpolicies.DataOciMulticloudMulticloudpoliciesConfig")]
     public class DataOciMulticloudMulticloudpoliciesConfig : oci.DataOciMulticloudMulticloudpolicies.IDataOciMulticloudMulticloudpoliciesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#compartment_id DataOciMulticloudMulticloudpolicies#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#compartment_id DataOciMulticloudMulticloudpolicies#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#display_name DataOciMulticloudMulticloudpolicies#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#display_name DataOciMulticloudMulticloudpolicies#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#filter DataOciMulticloudMulticloudpolicies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#filter DataOciMulticloudMulticloudpolicies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudMulticloudpolicies.IDataOciMulticloudMulticloudpoliciesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#id DataOciMulticloudMulticloudpolicies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#id DataOciMulticloudMulticloudpolicies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
 
         private object? _isForceRefresh;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#is_force_refresh DataOciMulticloudMulticloudpolicies#is_force_refresh}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#is_force_refresh DataOciMulticloudMulticloudpolicies#is_force_refresh}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -108,7 +108,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#limit DataOciMulticloudMulticloudpolicies#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#limit DataOciMulticloudMulticloudpolicies#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -117,7 +117,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudpolicies#subscription_id DataOciMulticloudMulticloudpolicies#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudpolicies#subscription_id DataOciMulticloudMulticloudpolicies#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId

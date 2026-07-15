@@ -9,7 +9,7 @@ namespace oci.DataOciManagementDashboardManagementDashboardsExport
     [JsiiByValue(fqn: "oci.dataOciManagementDashboardManagementDashboardsExport.DataOciManagementDashboardManagementDashboardsExportConfig")]
     public class DataOciManagementDashboardManagementDashboardsExportConfig : oci.DataOciManagementDashboardManagementDashboardsExport.IDataOciManagementDashboardManagementDashboardsExportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_dashboard_management_dashboards_export#export_dashboard_id DataOciManagementDashboardManagementDashboardsExport#export_dashboard_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_dashboard_management_dashboards_export#export_dashboard_id DataOciManagementDashboardManagementDashboardsExport#export_dashboard_id}.</summary>
         [JsiiProperty(name: "exportDashboardId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExportDashboardId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagementDashboardManagementDashboardsExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/management_dashboard_management_dashboards_export#id DataOciManagementDashboardManagementDashboardsExport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_dashboard_management_dashboards_export#id DataOciManagementDashboardManagementDashboardsExport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

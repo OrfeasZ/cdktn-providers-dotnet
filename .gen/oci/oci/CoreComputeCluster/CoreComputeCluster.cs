@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreComputeCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_cluster oci_core_compute_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_compute_cluster oci_core_compute_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreComputeCluster.CoreComputeCluster), fullyQualifiedName: "oci.coreComputeCluster.CoreComputeCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreComputeCluster.CoreComputeClusterConfig\"}}]")]
     public class CoreComputeCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_cluster oci_core_compute_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_compute_cluster oci_core_compute_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreComputeCluster(Constructs.Construct scope, string id, oci.CoreComputeCluster.ICoreComputeClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace oci.CoreComputeCluster
         /// <param name="importToId">The construct id used in the generated config for the CoreComputeCluster to import.</param>
         /// <param name="importFromId">The id of the existing CoreComputeCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreComputeCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreComputeCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/core_compute_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreComputeCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreComputeCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreComputeCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_compute_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreComputeCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreComputeCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreComputeCluster.CoreComputeCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putPlacementConstraintDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreComputeCluster.CoreComputeClusterPlacementConstraintDetails\"}}]")]
+        public virtual void PutPlacementConstraintDetails(oci.CoreComputeCluster.ICoreComputeClusterPlacementConstraintDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreComputeCluster.ICoreComputeClusterPlacementConstraintDetails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreComputeCluster.CoreComputeClusterTimeouts\"}}]")]
@@ -76,6 +82,12 @@ namespace oci.CoreComputeCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPlacementConstraintDetails")]
+        public virtual void ResetPlacementConstraintDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -101,6 +113,12 @@ namespace oci.CoreComputeCluster
         }
         = GetStaticProperty<string>(typeof(oci.CoreComputeCluster.CoreComputeCluster))!;
 
+        [JsiiProperty(name: "placementConstraintDetails", typeJson: "{\"fqn\":\"oci.coreComputeCluster.CoreComputeClusterPlacementConstraintDetailsOutputReference\"}")]
+        public virtual oci.CoreComputeCluster.CoreComputeClusterPlacementConstraintDetailsOutputReference PlacementConstraintDetails
+        {
+            get => GetInstanceProperty<oci.CoreComputeCluster.CoreComputeClusterPlacementConstraintDetailsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {
@@ -117,6 +135,12 @@ namespace oci.CoreComputeCluster
         public virtual oci.CoreComputeCluster.CoreComputeClusterTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<oci.CoreComputeCluster.CoreComputeClusterTimeoutsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeUpdated
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -159,6 +183,13 @@ namespace oci.CoreComputeCluster
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "placementConstraintDetailsInput", typeJson: "{\"fqn\":\"oci.coreComputeCluster.CoreComputeClusterPlacementConstraintDetails\"}", isOptional: true)]
+        public virtual oci.CoreComputeCluster.ICoreComputeClusterPlacementConstraintDetails? PlacementConstraintDetailsInput
+        {
+            get => GetInstanceProperty<oci.CoreComputeCluster.ICoreComputeClusterPlacementConstraintDetails?>();
         }
 
         /// <remarks>

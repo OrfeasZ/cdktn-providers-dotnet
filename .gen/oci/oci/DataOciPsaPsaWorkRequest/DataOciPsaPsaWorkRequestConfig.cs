@@ -9,7 +9,7 @@ namespace oci.DataOciPsaPsaWorkRequest
     [JsiiByValue(fqn: "oci.dataOciPsaPsaWorkRequest.DataOciPsaPsaWorkRequestConfig")]
     public class DataOciPsaPsaWorkRequestConfig : oci.DataOciPsaPsaWorkRequest.IDataOciPsaPsaWorkRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request#work_request_id DataOciPsaPsaWorkRequest#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request#work_request_id DataOciPsaPsaWorkRequest#work_request_id}.</summary>
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkRequestId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsaPsaWorkRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/psa_psa_work_request#id DataOciPsaPsaWorkRequest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/psa_psa_work_request#id DataOciPsaPsaWorkRequest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

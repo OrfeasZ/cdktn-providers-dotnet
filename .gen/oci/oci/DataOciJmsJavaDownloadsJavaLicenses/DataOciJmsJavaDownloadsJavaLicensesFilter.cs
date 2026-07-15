@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaLicenses.DataOciJmsJavaDownloadsJavaLicensesFilter")]
     public class DataOciJmsJavaDownloadsJavaLicensesFilter : oci.DataOciJmsJavaDownloadsJavaLicenses.IDataOciJmsJavaDownloadsJavaLicensesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

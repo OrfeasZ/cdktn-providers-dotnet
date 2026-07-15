@@ -7,14 +7,14 @@ namespace oci.DataflowInvokeRun
     [JsiiInterface(nativeType: typeof(IDataflowInvokeRunApplicationLogConfig), fullyQualifiedName: "oci.dataflowInvokeRun.DataflowInvokeRunApplicationLogConfig")]
     public interface IDataflowInvokeRunApplicationLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         string LogId
         {
@@ -28,14 +28,14 @@ namespace oci.DataflowInvokeRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
             [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogId
             {

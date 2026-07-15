@@ -7,14 +7,14 @@ namespace oci.StackMonitoringMaintenanceWindowsStop
     [JsiiInterface(nativeType: typeof(IStackMonitoringMaintenanceWindowsStopConfig), fullyQualifiedName: "oci.stackMonitoringMaintenanceWindowsStop.StackMonitoringMaintenanceWindowsStopConfig")]
     public interface IStackMonitoringMaintenanceWindowsStopConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#maintenance_window_id StackMonitoringMaintenanceWindowsStop#maintenance_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#maintenance_window_id StackMonitoringMaintenanceWindowsStop#maintenance_window_id}.</summary>
         [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
         string MaintenanceWindowId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#id StackMonitoringMaintenanceWindowsStop#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#id StackMonitoringMaintenanceWindowsStop#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.StackMonitoringMaintenanceWindowsStop
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#timeouts StackMonitoringMaintenanceWindowsStop#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#timeouts StackMonitoringMaintenanceWindowsStop#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringMaintenanceWindowsStop.StackMonitoringMaintenanceWindowsStopTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace oci.StackMonitoringMaintenanceWindowsStop
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#maintenance_window_id StackMonitoringMaintenanceWindowsStop#maintenance_window_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#maintenance_window_id StackMonitoringMaintenanceWindowsStop#maintenance_window_id}.</summary>
             [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaintenanceWindowId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#id StackMonitoringMaintenanceWindowsStop#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#id StackMonitoringMaintenanceWindowsStop#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.StackMonitoringMaintenanceWindowsStop
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_maintenance_windows_stop#timeouts StackMonitoringMaintenanceWindowsStop#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_maintenance_windows_stop#timeouts StackMonitoringMaintenanceWindowsStop#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringMaintenanceWindowsStop.StackMonitoringMaintenanceWindowsStopTimeouts\"}", isOptional: true)]

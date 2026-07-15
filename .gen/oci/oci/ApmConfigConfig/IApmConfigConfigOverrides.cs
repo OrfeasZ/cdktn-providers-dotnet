@@ -9,7 +9,7 @@ namespace oci.ApmConfigConfig
     {
         /// <summary>override_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigOverridesOverrideListStruct" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "overrideList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigOverridesOverrideListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.ApmConfigConfig
 
             /// <summary>override_list block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_config_config#override_list ApmConfigConfig#override_list}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigOverridesOverrideListStruct" />)[]</para>
             /// </remarks>
             [JsiiOptional]

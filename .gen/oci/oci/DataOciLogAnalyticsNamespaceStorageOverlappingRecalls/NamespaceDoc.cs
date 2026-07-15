@@ -5,7 +5,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
     /// <remarks>
     /// <h1><c>data_oci_log_analytics_namespace_storage_overlapping_recalls</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls"><c>data_oci_log_analytics_namespace_storage_overlapping_recalls</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls"><c>data_oci_log_analytics_namespace_storage_overlapping_recalls</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

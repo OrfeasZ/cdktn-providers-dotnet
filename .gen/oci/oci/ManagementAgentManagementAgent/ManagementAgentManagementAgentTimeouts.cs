@@ -7,7 +7,7 @@ namespace oci.ManagementAgentManagementAgent
     [JsiiByValue(fqn: "oci.managementAgentManagementAgent.ManagementAgentManagementAgentTimeouts")]
     public class ManagementAgentManagementAgentTimeouts : oci.ManagementAgentManagementAgent.IManagementAgentManagementAgentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_management_agent#create ManagementAgentManagementAgent#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_management_agent#create ManagementAgentManagementAgent#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ManagementAgentManagementAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_management_agent#delete ManagementAgentManagementAgent#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_management_agent#delete ManagementAgentManagementAgent#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ManagementAgentManagementAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/management_agent_management_agent#update ManagementAgentManagementAgent#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/management_agent_management_agent#update ManagementAgentManagementAgent#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

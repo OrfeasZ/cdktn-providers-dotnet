@@ -7,7 +7,7 @@ namespace oci.DatabaseExadbVmCluster
     [JsiiInterface(nativeType: typeof(IDatabaseExadbVmClusterNodeResource), fullyQualifiedName: "oci.databaseExadbVmCluster.DatabaseExadbVmClusterNodeResource")]
     public interface IDatabaseExadbVmClusterNodeResource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_exadb_vm_cluster#node_name DatabaseExadbVmCluster#node_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_exadb_vm_cluster#node_name DatabaseExadbVmCluster#node_name}.</summary>
         [JsiiProperty(name: "nodeName", typeJson: "{\"primitive\":\"string\"}")]
         string NodeName
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseExadbVmCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/database_exadb_vm_cluster#node_name DatabaseExadbVmCluster#node_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_exadb_vm_cluster#node_name DatabaseExadbVmCluster#node_name}.</summary>
             [JsiiProperty(name: "nodeName", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeName
             {

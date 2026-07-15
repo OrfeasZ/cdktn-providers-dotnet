@@ -7,7 +7,7 @@ namespace oci.WaaWebAppAcceleration
     [JsiiByValue(fqn: "oci.waaWebAppAcceleration.WaaWebAppAccelerationTimeouts")]
     public class WaaWebAppAccelerationTimeouts : oci.WaaWebAppAcceleration.IWaaWebAppAccelerationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waa_web_app_acceleration#create WaaWebAppAcceleration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#create WaaWebAppAcceleration#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waa_web_app_acceleration#delete WaaWebAppAcceleration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#delete WaaWebAppAcceleration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/waa_web_app_acceleration#update WaaWebAppAcceleration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#update WaaWebAppAcceleration#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

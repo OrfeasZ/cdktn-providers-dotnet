@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoringTemplateAlarmConditionTimeouts), fullyQualifiedName: "oci.stackMonitoringMonitoringTemplateAlarmCondition.StackMonitoringMonitoringTemplateAlarmConditionTimeouts")]
     public interface IStackMonitoringMonitoringTemplateAlarmConditionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#create StackMonitoringMonitoringTemplateAlarmCondition#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#create StackMonitoringMonitoringTemplateAlarmCondition#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#delete StackMonitoringMonitoringTemplateAlarmCondition#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#delete StackMonitoringMonitoringTemplateAlarmCondition#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#update StackMonitoringMonitoringTemplateAlarmCondition#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#update StackMonitoringMonitoringTemplateAlarmCondition#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#create StackMonitoringMonitoringTemplateAlarmCondition#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#create StackMonitoringMonitoringTemplateAlarmCondition#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#delete StackMonitoringMonitoringTemplateAlarmCondition#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#delete StackMonitoringMonitoringTemplateAlarmCondition#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.StackMonitoringMonitoringTemplateAlarmCondition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#update StackMonitoringMonitoringTemplateAlarmCondition#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitoring_template_alarm_condition#update StackMonitoringMonitoringTemplateAlarmCondition#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

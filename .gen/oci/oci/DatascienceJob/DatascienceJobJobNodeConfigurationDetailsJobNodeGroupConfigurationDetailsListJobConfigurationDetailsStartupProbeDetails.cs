@@ -9,7 +9,7 @@ namespace oci.DatascienceJob
     [JsiiByValue(fqn: "oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetailsStartupProbeDetails")]
     public class DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetailsStartupProbeDetails : oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobConfigurationDetailsStartupProbeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#command DatascienceJob#command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#command DatascienceJob#command}.</summary>
         [JsiiProperty(name: "command", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Command
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#job_probe_check_type DatascienceJob#job_probe_check_type}.</summary>
         [JsiiProperty(name: "jobProbeCheckType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobProbeCheckType
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#failure_threshold DatascienceJob#failure_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailureThreshold
@@ -34,7 +34,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#initial_delay_in_seconds DatascienceJob#initial_delay_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "initialDelayInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InitialDelayInSeconds
@@ -43,7 +43,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#period_in_seconds DatascienceJob#period_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "periodInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PeriodInSeconds

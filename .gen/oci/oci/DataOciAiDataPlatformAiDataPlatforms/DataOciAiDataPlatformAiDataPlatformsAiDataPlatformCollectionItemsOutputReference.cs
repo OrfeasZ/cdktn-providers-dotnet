@@ -41,6 +41,12 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "aiFeatureStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AiFeatureStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "aliasKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AliasKey
         {
@@ -89,6 +95,12 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isEnableAiFeature", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsEnableAiFeature
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -115,6 +127,24 @@ namespace oci.DataOciAiDataPlatformAiDataPlatforms
 
         [JsiiProperty(name: "timeUpdated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeUpdated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vectorDbAdminCred", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VectorDbAdminCred
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vectorDbAdminSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VectorDbAdminSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "vectorDbId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VectorDbId
         {
             get => GetInstanceProperty<string>()!;
         }

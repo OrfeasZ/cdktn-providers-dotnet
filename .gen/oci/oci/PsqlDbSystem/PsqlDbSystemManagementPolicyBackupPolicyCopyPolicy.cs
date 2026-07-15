@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     [JsiiByValue(fqn: "oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy")]
     public class PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy : oci.PsqlDbSystem.IPsqlDbSystemManagementPolicyBackupPolicyCopyPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Regions
         {
@@ -25,7 +25,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionPeriod

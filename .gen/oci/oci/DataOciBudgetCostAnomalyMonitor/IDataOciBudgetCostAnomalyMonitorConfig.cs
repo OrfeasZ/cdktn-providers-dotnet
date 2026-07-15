@@ -7,7 +7,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitor
     [JsiiInterface(nativeType: typeof(IDataOciBudgetCostAnomalyMonitorConfig), fullyQualifiedName: "oci.dataOciBudgetCostAnomalyMonitor.DataOciBudgetCostAnomalyMonitorConfig")]
     public interface IDataOciBudgetCostAnomalyMonitorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
         [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}")]
         string CostAnomalyMonitorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/budget_cost_anomaly_monitor#cost_anomaly_monitor_id DataOciBudgetCostAnomalyMonitor#cost_anomaly_monitor_id}.</summary>
             [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}")]
             public string CostAnomalyMonitorId
             {

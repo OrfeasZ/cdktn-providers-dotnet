@@ -7,14 +7,14 @@ namespace oci.DataOciMulticloudMulticloudalerts
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudMulticloudalertsConfig), fullyQualifiedName: "oci.dataOciMulticloudMulticloudalerts.DataOciMulticloudMulticloudalertsConfig")]
     public interface IDataOciMulticloudMulticloudalertsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#compartment_id DataOciMulticloudMulticloudalerts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#compartment_id DataOciMulticloudMulticloudalerts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_function_name DataOciMulticloudMulticloudalerts#alert_function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_function_name DataOciMulticloudMulticloudalerts#alert_function_name}.</summary>
         [JsiiProperty(name: "alertFunctionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AlertFunctionName
@@ -25,7 +25,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_status DataOciMulticloudMulticloudalerts#alert_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_status DataOciMulticloudMulticloudalerts#alert_status}.</summary>
         [JsiiProperty(name: "alertStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AlertStatus
@@ -36,7 +36,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_type DataOciMulticloudMulticloudalerts#alert_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_type DataOciMulticloudMulticloudalerts#alert_type}.</summary>
         [JsiiProperty(name: "alertType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AlertType
@@ -47,7 +47,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#display_name DataOciMulticloudMulticloudalerts#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#display_name DataOciMulticloudMulticloudalerts#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -60,7 +60,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#filter DataOciMulticloudMulticloudalerts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#filter DataOciMulticloudMulticloudalerts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudMulticloudalerts.IDataOciMulticloudMulticloudalertsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMulticloudMulticloudalerts.DataOciMulticloudMulticloudalertsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#id DataOciMulticloudMulticloudalerts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#id DataOciMulticloudMulticloudalerts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#limit DataOciMulticloudMulticloudalerts#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#limit DataOciMulticloudMulticloudalerts#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Limit
@@ -99,7 +99,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#resource_id DataOciMulticloudMulticloudalerts#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#resource_id DataOciMulticloudMulticloudalerts#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceId
@@ -110,7 +110,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#resource_type DataOciMulticloudMulticloudalerts#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#resource_type DataOciMulticloudMulticloudalerts#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceType
@@ -121,7 +121,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#severity DataOciMulticloudMulticloudalerts#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#severity DataOciMulticloudMulticloudalerts#severity}.</summary>
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Severity
@@ -132,7 +132,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#subscription_id DataOciMulticloudMulticloudalerts#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#subscription_id DataOciMulticloudMulticloudalerts#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubscriptionId
@@ -143,7 +143,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#subscription_service_name DataOciMulticloudMulticloudalerts#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#subscription_service_name DataOciMulticloudMulticloudalerts#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubscriptionServiceName
@@ -161,14 +161,14 @@ namespace oci.DataOciMulticloudMulticloudalerts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#compartment_id DataOciMulticloudMulticloudalerts#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#compartment_id DataOciMulticloudMulticloudalerts#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_function_name DataOciMulticloudMulticloudalerts#alert_function_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_function_name DataOciMulticloudMulticloudalerts#alert_function_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "alertFunctionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AlertFunctionName
@@ -176,7 +176,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_status DataOciMulticloudMulticloudalerts#alert_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_status DataOciMulticloudMulticloudalerts#alert_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "alertStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AlertStatus
@@ -184,7 +184,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#alert_type DataOciMulticloudMulticloudalerts#alert_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#alert_type DataOciMulticloudMulticloudalerts#alert_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "alertType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AlertType
@@ -192,7 +192,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#display_name DataOciMulticloudMulticloudalerts#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#display_name DataOciMulticloudMulticloudalerts#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -202,7 +202,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#filter DataOciMulticloudMulticloudalerts#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#filter DataOciMulticloudMulticloudalerts#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudMulticloudalerts.IDataOciMulticloudMulticloudalertsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -212,7 +212,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#id DataOciMulticloudMulticloudalerts#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#id DataOciMulticloudMulticloudalerts#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -224,7 +224,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#limit DataOciMulticloudMulticloudalerts#limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#limit DataOciMulticloudMulticloudalerts#limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Limit
@@ -232,7 +232,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#resource_id DataOciMulticloudMulticloudalerts#resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#resource_id DataOciMulticloudMulticloudalerts#resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceId
@@ -240,7 +240,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#resource_type DataOciMulticloudMulticloudalerts#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#resource_type DataOciMulticloudMulticloudalerts#resource_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceType
@@ -248,7 +248,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#severity DataOciMulticloudMulticloudalerts#severity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#severity DataOciMulticloudMulticloudalerts#severity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Severity
@@ -256,7 +256,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#subscription_id DataOciMulticloudMulticloudalerts#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#subscription_id DataOciMulticloudMulticloudalerts#subscription_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubscriptionId
@@ -264,7 +264,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/multicloud_multicloudalerts#subscription_service_name DataOciMulticloudMulticloudalerts#subscription_service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/multicloud_multicloudalerts#subscription_service_name DataOciMulticloudMulticloudalerts#subscription_service_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubscriptionServiceName

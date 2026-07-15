@@ -7,7 +7,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
     [JsiiInterface(nativeType: typeof(IDataOciApiPlatformApiPlatformInstancesConfig), fullyQualifiedName: "oci.dataOciApiPlatformApiPlatformInstances.DataOciApiPlatformApiPlatformInstancesConfig")]
     public interface IDataOciApiPlatformApiPlatformInstancesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -20,7 +20,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApiPlatformApiPlatformInstances.IDataOciApiPlatformApiPlatformInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciApiPlatformApiPlatformInstances.DataOciApiPlatformApiPlatformInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -59,7 +59,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -77,7 +77,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#compartment_id DataOciApiPlatformApiPlatformInstances#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -87,7 +87,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#filter DataOciApiPlatformApiPlatformInstances#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApiPlatformApiPlatformInstances.IDataOciApiPlatformApiPlatformInstancesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -97,7 +97,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#id DataOciApiPlatformApiPlatformInstances#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#name DataOciApiPlatformApiPlatformInstances#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -117,7 +117,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstances
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.22.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/api_platform_api_platform_instances#state DataOciApiPlatformApiPlatformInstances#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
