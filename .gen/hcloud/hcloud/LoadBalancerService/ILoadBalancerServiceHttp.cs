@@ -7,7 +7,7 @@ namespace hcloud.LoadBalancerService
     [JsiiInterface(nativeType: typeof(ILoadBalancerServiceHttp), fullyQualifiedName: "hcloud.loadBalancerService.LoadBalancerServiceHttp")]
     public interface ILoadBalancerServiceHttp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#certificates LoadBalancerService#certificates}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#certificates LoadBalancerService#certificates}.</summary>
         [JsiiProperty(name: "certificates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double[]? Certificates
@@ -18,7 +18,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#cookie_lifetime LoadBalancerService#cookie_lifetime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#cookie_lifetime LoadBalancerService#cookie_lifetime}.</summary>
         [JsiiProperty(name: "cookieLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CookieLifetime
@@ -29,7 +29,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#cookie_name LoadBalancerService#cookie_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#cookie_name LoadBalancerService#cookie_name}.</summary>
         [JsiiProperty(name: "cookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CookieName
@@ -40,7 +40,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#redirect_http LoadBalancerService#redirect_http}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#redirect_http LoadBalancerService#redirect_http}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#sticky_sessions LoadBalancerService#sticky_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#sticky_sessions LoadBalancerService#sticky_sessions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#timeout_idle LoadBalancerService#timeout_idle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#timeout_idle LoadBalancerService#timeout_idle}.</summary>
         [JsiiProperty(name: "timeoutIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TimeoutIdle
@@ -86,7 +86,7 @@ namespace hcloud.LoadBalancerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#certificates LoadBalancerService#certificates}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#certificates LoadBalancerService#certificates}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
             public double[]? Certificates
@@ -94,7 +94,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<double[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#cookie_lifetime LoadBalancerService#cookie_lifetime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#cookie_lifetime LoadBalancerService#cookie_lifetime}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cookieLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CookieLifetime
@@ -102,7 +102,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#cookie_name LoadBalancerService#cookie_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#cookie_name LoadBalancerService#cookie_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CookieName
@@ -110,7 +110,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#redirect_http LoadBalancerService#redirect_http}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#redirect_http LoadBalancerService#redirect_http}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -121,7 +121,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#sticky_sessions LoadBalancerService#sticky_sessions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#sticky_sessions LoadBalancerService#sticky_sessions}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -132,7 +132,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/load_balancer_service#timeout_idle LoadBalancerService#timeout_idle}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/load_balancer_service#timeout_idle LoadBalancerService#timeout_idle}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TimeoutIdle

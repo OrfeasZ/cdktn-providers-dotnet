@@ -9,7 +9,7 @@ namespace hcloud.ZoneRrset
     {
         /// <summary>Name of the Zone RRSet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#name ZoneRrset#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#name ZoneRrset#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>Records of the Zone RRSet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#records ZoneRrset#records}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#records ZoneRrset#records}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.ZoneRrset.IZoneRrsetRecords" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "records", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.zoneRrset.ZoneRrsetRecords\"},\"kind\":\"array\"}}]}}")]
@@ -30,7 +30,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>Type of the Zone RRSet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#type ZoneRrset#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#type ZoneRrset#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -40,7 +40,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>ID or Name of the parent Zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#zone ZoneRrset#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#zone ZoneRrset#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
         string Zone
@@ -50,7 +50,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>Whether change protection is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "changeProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#labels ZoneRrset#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#labels ZoneRrset#labels}
         /// </remarks>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace hcloud.ZoneRrset
 
         /// <summary>Time To Live (TTL) of the Zone RRSet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
         /// </remarks>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>Name of the Zone RRSet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#name ZoneRrset#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#name ZoneRrset#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -110,7 +110,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>Records of the Zone RRSet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#records ZoneRrset#records}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#records ZoneRrset#records}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.ZoneRrset.IZoneRrsetRecords" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "records", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.zoneRrset.ZoneRrsetRecords\"},\"kind\":\"array\"}}]}}")]
@@ -121,7 +121,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>Type of the Zone RRSet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#type ZoneRrset#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#type ZoneRrset#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -131,7 +131,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>ID or Name of the parent Zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#zone ZoneRrset#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#zone ZoneRrset#zone}
             /// </remarks>
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
             public string Zone
@@ -141,7 +141,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>Whether change protection is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#change_protection ZoneRrset#change_protection}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -153,7 +153,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>User-defined [labels](https://docs.hetzner.cloud/reference/cloud#labels) (key-value pairs) for the resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#labels ZoneRrset#labels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#labels ZoneRrset#labels}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -164,7 +164,7 @@ namespace hcloud.ZoneRrset
 
             /// <summary>Time To Live (TTL) of the Zone RRSet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.0/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/zone_rrset#ttl ZoneRrset#ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
