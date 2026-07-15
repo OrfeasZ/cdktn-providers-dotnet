@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsSlot
     {
         private object? _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#active Lexv2ModelsSlot#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_slot#active Lexv2ModelsSlot#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>continue_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#continue_response Lexv2ModelsSlot#continue_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_slot#continue_response Lexv2ModelsSlot#continue_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationContinueResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>still_waiting_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#still_waiting_response Lexv2ModelsSlot#still_waiting_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_slot#still_waiting_response Lexv2ModelsSlot#still_waiting_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationStillWaitingResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>waiting_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lexv2models_slot#waiting_response Lexv2ModelsSlot#waiting_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lexv2models_slot#waiting_response Lexv2ModelsSlot#waiting_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSettingWaitAndContinueSpecificationWaitingResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]

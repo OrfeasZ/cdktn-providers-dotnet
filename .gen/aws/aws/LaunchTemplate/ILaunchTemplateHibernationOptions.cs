@@ -7,7 +7,7 @@ namespace aws.LaunchTemplate
     [JsiiInterface(nativeType: typeof(ILaunchTemplateHibernationOptions), fullyQualifiedName: "aws.launchTemplate.LaunchTemplateHibernationOptions")]
     public interface ILaunchTemplateHibernationOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/launch_template#configured LaunchTemplate#configured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/launch_template#configured LaunchTemplate#configured}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.LaunchTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/launch_template#configured LaunchTemplate#configured}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/launch_template#configured LaunchTemplate#configured}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

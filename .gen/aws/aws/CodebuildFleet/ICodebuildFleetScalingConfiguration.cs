@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiInterface(nativeType: typeof(ICodebuildFleetScalingConfiguration), fullyQualifiedName: "aws.codebuildFleet.CodebuildFleetScalingConfiguration")]
     public interface ICodebuildFleetScalingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxCapacity
@@ -18,7 +18,7 @@ namespace aws.CodebuildFleet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
         [JsiiProperty(name: "scalingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScalingType
@@ -31,7 +31,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>target_tracking_scaling_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targetTrackingScalingConfigs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codebuildFleet.CodebuildFleetScalingConfigurationTargetTrackingScalingConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.CodebuildFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxCapacity
@@ -59,7 +59,7 @@ namespace aws.CodebuildFleet
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scalingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScalingType
@@ -69,7 +69,7 @@ namespace aws.CodebuildFleet
 
             /// <summary>target_tracking_scaling_configs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -5,7 +5,7 @@ namespace aws.Pinpointsmsvoicev2Pool
     /// <remarks>
     /// <h1><c>aws_pinpointsmsvoicev2_pool</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/pinpointsmsvoicev2_pool"><c>aws_pinpointsmsvoicev2_pool</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pinpointsmsvoicev2_pool"><c>aws_pinpointsmsvoicev2_pool</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

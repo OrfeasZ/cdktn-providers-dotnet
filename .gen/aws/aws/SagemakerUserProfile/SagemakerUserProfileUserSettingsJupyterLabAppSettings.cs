@@ -9,7 +9,7 @@ namespace aws.SagemakerUserProfile
     {
         /// <summary>app_lifecycle_management block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#app_lifecycle_management SagemakerUserProfile#app_lifecycle_management}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#app_lifecycle_management SagemakerUserProfile#app_lifecycle_management}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appLifecycleManagement", typeJson: "{\"fqn\":\"aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsJupyterLabAppSettingsAppLifecycleManagement\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.SagemakerUserProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#built_in_lifecycle_config_arn SagemakerUserProfile#built_in_lifecycle_config_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#built_in_lifecycle_config_arn SagemakerUserProfile#built_in_lifecycle_config_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "builtInLifecycleConfigArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BuiltInLifecycleConfigArn
@@ -32,7 +32,7 @@ namespace aws.SagemakerUserProfile
 
         /// <summary>code_repository block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#code_repository SagemakerUserProfile#code_repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#code_repository SagemakerUserProfile#code_repository}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerUserProfile.ISagemakerUserProfileUserSettingsJupyterLabAppSettingsCodeRepository" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -67,7 +67,7 @@ namespace aws.SagemakerUserProfile
 
         /// <summary>custom_image block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#custom_image SagemakerUserProfile#custom_image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#custom_image SagemakerUserProfile#custom_image}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerUserProfile.ISagemakerUserProfileUserSettingsJupyterLabAppSettingsCustomImage" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -100,7 +100,7 @@ namespace aws.SagemakerUserProfile
 
         /// <summary>default_resource_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#default_resource_spec SagemakerUserProfile#default_resource_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#default_resource_spec SagemakerUserProfile#default_resource_spec}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsJupyterLabAppSettingsDefaultResourceSpec\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace aws.SagemakerUserProfile
 
         /// <summary>emr_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#emr_settings SagemakerUserProfile#emr_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#emr_settings SagemakerUserProfile#emr_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emrSettings", typeJson: "{\"fqn\":\"aws.sagemakerUserProfile.SagemakerUserProfileUserSettingsJupyterLabAppSettingsEmrSettings\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace aws.SagemakerUserProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_user_profile#lifecycle_config_arns SagemakerUserProfile#lifecycle_config_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_user_profile#lifecycle_config_arns SagemakerUserProfile#lifecycle_config_arns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleConfigArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LifecycleConfigArns

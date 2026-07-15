@@ -7,35 +7,35 @@ namespace aws.FinspaceKxCluster
     [JsiiInterface(nativeType: typeof(IFinspaceKxClusterConfig), fullyQualifiedName: "aws.finspaceKxCluster.FinspaceKxClusterConfig")]
     public interface IFinspaceKxClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#az_mode FinspaceKxCluster#az_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#az_mode FinspaceKxCluster#az_mode}.</summary>
         [JsiiProperty(name: "azMode", typeJson: "{\"primitive\":\"string\"}")]
         string AzMode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#environment_id FinspaceKxCluster#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#environment_id FinspaceKxCluster#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         string EnvironmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#name FinspaceKxCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#name FinspaceKxCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#release_label FinspaceKxCluster#release_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#release_label FinspaceKxCluster#release_label}.</summary>
         [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
         string ReleaseLabel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -44,7 +44,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>vpc_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#vpc_configuration FinspaceKxCluster#vpc_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#vpc_configuration FinspaceKxCluster#vpc_configuration}
         /// </remarks>
         [JsiiProperty(name: "vpcConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterVpcConfiguration\"}")]
         aws.FinspaceKxCluster.IFinspaceKxClusterVpcConfiguration VpcConfiguration
@@ -54,7 +54,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>auto_scaling_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#auto_scaling_configuration FinspaceKxCluster#auto_scaling_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#auto_scaling_configuration FinspaceKxCluster#auto_scaling_configuration}
         /// </remarks>
         [JsiiProperty(name: "autoScalingConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#availability_zone_id FinspaceKxCluster#availability_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#availability_zone_id FinspaceKxCluster#availability_zone_id}.</summary>
         [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityZoneId
@@ -79,7 +79,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>cache_storage_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#cache_storage_configurations FinspaceKxCluster#cache_storage_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#cache_storage_configurations FinspaceKxCluster#cache_storage_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cacheStorageConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCacheStorageConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>capacity_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#capacity_configuration FinspaceKxCluster#capacity_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#capacity_configuration FinspaceKxCluster#capacity_configuration}
         /// </remarks>
         [JsiiProperty(name: "capacityConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCapacityConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>code block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#code FinspaceKxCluster#code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#code FinspaceKxCluster#code}
         /// </remarks>
         [JsiiProperty(name: "code", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#command_line_arguments FinspaceKxCluster#command_line_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#command_line_arguments FinspaceKxCluster#command_line_arguments}.</summary>
         [JsiiProperty(name: "commandLineArguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? CommandLineArguments
@@ -133,7 +133,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#database FinspaceKxCluster#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#database FinspaceKxCluster#database}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabase" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "database", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterDatabase\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -146,7 +146,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#description FinspaceKxCluster#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#description FinspaceKxCluster#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -157,7 +157,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#execution_role FinspaceKxCluster#execution_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#execution_role FinspaceKxCluster#execution_role}.</summary>
         [JsiiProperty(name: "executionRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExecutionRole
@@ -168,7 +168,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#id FinspaceKxCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#id FinspaceKxCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -183,7 +183,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#initialization_script FinspaceKxCluster#initialization_script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#initialization_script FinspaceKxCluster#initialization_script}.</summary>
         [JsiiProperty(name: "initializationScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InitializationScript
@@ -196,7 +196,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#region FinspaceKxCluster#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#region FinspaceKxCluster#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -210,7 +210,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>savedown_storage_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#savedown_storage_configuration FinspaceKxCluster#savedown_storage_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#savedown_storage_configuration FinspaceKxCluster#savedown_storage_configuration}
         /// </remarks>
         [JsiiProperty(name: "savedownStorageConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -224,7 +224,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>scaling_group_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#scaling_group_configuration FinspaceKxCluster#scaling_group_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#scaling_group_configuration FinspaceKxCluster#scaling_group_configuration}
         /// </remarks>
         [JsiiProperty(name: "scalingGroupConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -236,7 +236,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tags FinspaceKxCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tags FinspaceKxCluster#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -247,7 +247,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tags_all FinspaceKxCluster#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tags_all FinspaceKxCluster#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -260,7 +260,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>tickerplant_log_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tickerplant_log_configuration FinspaceKxCluster#tickerplant_log_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tickerplant_log_configuration FinspaceKxCluster#tickerplant_log_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterTickerplantLogConfiguration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tickerplantLogConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTickerplantLogConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -275,7 +275,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#timeouts FinspaceKxCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#timeouts FinspaceKxCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -294,35 +294,35 @@ namespace aws.FinspaceKxCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#az_mode FinspaceKxCluster#az_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#az_mode FinspaceKxCluster#az_mode}.</summary>
             [JsiiProperty(name: "azMode", typeJson: "{\"primitive\":\"string\"}")]
             public string AzMode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#environment_id FinspaceKxCluster#environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#environment_id FinspaceKxCluster#environment_id}.</summary>
             [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string EnvironmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#name FinspaceKxCluster#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#name FinspaceKxCluster#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#release_label FinspaceKxCluster#release_label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#release_label FinspaceKxCluster#release_label}.</summary>
             [JsiiProperty(name: "releaseLabel", typeJson: "{\"primitive\":\"string\"}")]
             public string ReleaseLabel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#type FinspaceKxCluster#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
@@ -331,7 +331,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>vpc_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#vpc_configuration FinspaceKxCluster#vpc_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#vpc_configuration FinspaceKxCluster#vpc_configuration}
             /// </remarks>
             [JsiiProperty(name: "vpcConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterVpcConfiguration\"}")]
             public aws.FinspaceKxCluster.IFinspaceKxClusterVpcConfiguration VpcConfiguration
@@ -341,7 +341,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>auto_scaling_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#auto_scaling_configuration FinspaceKxCluster#auto_scaling_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#auto_scaling_configuration FinspaceKxCluster#auto_scaling_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoScalingConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterAutoScalingConfiguration\"}", isOptional: true)]
@@ -350,7 +350,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<aws.FinspaceKxCluster.IFinspaceKxClusterAutoScalingConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#availability_zone_id FinspaceKxCluster#availability_zone_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#availability_zone_id FinspaceKxCluster#availability_zone_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityZoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityZoneId
@@ -360,7 +360,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>cache_storage_configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#cache_storage_configurations FinspaceKxCluster#cache_storage_configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#cache_storage_configurations FinspaceKxCluster#cache_storage_configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterCacheStorageConfigurations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -372,7 +372,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>capacity_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#capacity_configuration FinspaceKxCluster#capacity_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#capacity_configuration FinspaceKxCluster#capacity_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCapacityConfiguration\"}", isOptional: true)]
@@ -383,7 +383,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>code block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#code FinspaceKxCluster#code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#code FinspaceKxCluster#code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "code", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterCode\"}", isOptional: true)]
@@ -392,7 +392,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<aws.FinspaceKxCluster.IFinspaceKxClusterCode?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#command_line_arguments FinspaceKxCluster#command_line_arguments}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#command_line_arguments FinspaceKxCluster#command_line_arguments}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "commandLineArguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? CommandLineArguments
@@ -402,7 +402,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>database block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#database FinspaceKxCluster#database}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#database FinspaceKxCluster#database}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabase" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -412,7 +412,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#description FinspaceKxCluster#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#description FinspaceKxCluster#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -420,7 +420,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#execution_role FinspaceKxCluster#execution_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#execution_role FinspaceKxCluster#execution_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "executionRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExecutionRole
@@ -428,7 +428,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#id FinspaceKxCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#id FinspaceKxCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -440,7 +440,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#initialization_script FinspaceKxCluster#initialization_script}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#initialization_script FinspaceKxCluster#initialization_script}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initializationScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InitializationScript
@@ -450,7 +450,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#region FinspaceKxCluster#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#region FinspaceKxCluster#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -461,7 +461,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>savedown_storage_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#savedown_storage_configuration FinspaceKxCluster#savedown_storage_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#savedown_storage_configuration FinspaceKxCluster#savedown_storage_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "savedownStorageConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterSavedownStorageConfiguration\"}", isOptional: true)]
@@ -472,7 +472,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>scaling_group_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#scaling_group_configuration FinspaceKxCluster#scaling_group_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#scaling_group_configuration FinspaceKxCluster#scaling_group_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scalingGroupConfiguration", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterScalingGroupConfiguration\"}", isOptional: true)]
@@ -481,7 +481,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<aws.FinspaceKxCluster.IFinspaceKxClusterScalingGroupConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tags FinspaceKxCluster#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tags FinspaceKxCluster#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -489,7 +489,7 @@ namespace aws.FinspaceKxCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tags_all FinspaceKxCluster#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tags_all FinspaceKxCluster#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -499,7 +499,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>tickerplant_log_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#tickerplant_log_configuration FinspaceKxCluster#tickerplant_log_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#tickerplant_log_configuration FinspaceKxCluster#tickerplant_log_configuration}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterTickerplantLogConfiguration" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -511,7 +511,7 @@ namespace aws.FinspaceKxCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/finspace_kx_cluster#timeouts FinspaceKxCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/finspace_kx_cluster#timeouts FinspaceKxCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.finspaceKxCluster.FinspaceKxClusterTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace aws.EmrcontainersJobTemplate
     [JsiiInterface(nativeType: typeof(IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfiguration), fullyQualifiedName: "aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfiguration")]
     public interface IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}.</summary>
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
         string Classification
         {
@@ -16,7 +16,7 @@ namespace aws.EmrcontainersJobTemplate
 
         /// <summary>configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfigurationConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "configurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.emrcontainersJobTemplate.EmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfigurationConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.EmrcontainersJobTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}.</summary>
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Properties
@@ -47,7 +47,7 @@ namespace aws.EmrcontainersJobTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#classification EmrcontainersJobTemplate#classification}.</summary>
             [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}")]
             public string Classification
             {
@@ -56,7 +56,7 @@ namespace aws.EmrcontainersJobTemplate
 
             /// <summary>configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#configurations EmrcontainersJobTemplate#configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrcontainersJobTemplate.IEmrcontainersJobTemplateJobTemplateDataConfigurationOverridesApplicationConfigurationConfigurations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -66,7 +66,7 @@ namespace aws.EmrcontainersJobTemplate
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emrcontainers_job_template#properties EmrcontainersJobTemplate#properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Properties

@@ -9,7 +9,7 @@ namespace aws.OutpostsCapacityTask
     [JsiiByValue(fqn: "aws.outpostsCapacityTask.OutpostsCapacityTaskConfig")]
     public class OutpostsCapacityTaskConfig : aws.OutpostsCapacityTask.IOutpostsCapacityTaskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#outpost_identifier OutpostsCapacityTask#outpost_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#outpost_identifier OutpostsCapacityTask#outpost_identifier}.</summary>
         [JsiiProperty(name: "outpostIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string OutpostIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.OutpostsCapacityTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#asset_id OutpostsCapacityTask#asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#asset_id OutpostsCapacityTask#asset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetId
@@ -30,7 +30,7 @@ namespace aws.OutpostsCapacityTask
 
         /// <summary>instance_pool block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#instance_pool OutpostsCapacityTask#instance_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#instance_pool OutpostsCapacityTask#instance_pool}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancePool" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.OutpostsCapacityTask
 
         /// <summary>instances_to_exclude block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#instances_to_exclude OutpostsCapacityTask#instances_to_exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#instances_to_exclude OutpostsCapacityTask#instances_to_exclude}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OutpostsCapacityTask.IOutpostsCapacityTaskInstancesToExclude" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -96,7 +96,7 @@ namespace aws.OutpostsCapacityTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#order_id OutpostsCapacityTask#order_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#order_id OutpostsCapacityTask#order_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "orderId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrderId
@@ -107,7 +107,7 @@ namespace aws.OutpostsCapacityTask
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#region OutpostsCapacityTask#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#region OutpostsCapacityTask#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace aws.OutpostsCapacityTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#task_action_on_blocking_instances OutpostsCapacityTask#task_action_on_blocking_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#task_action_on_blocking_instances OutpostsCapacityTask#task_action_on_blocking_instances}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskActionOnBlockingInstances", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TaskActionOnBlockingInstances
@@ -128,7 +128,7 @@ namespace aws.OutpostsCapacityTask
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/outposts_capacity_task#timeouts OutpostsCapacityTask#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/outposts_capacity_task#timeouts OutpostsCapacityTask#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.outpostsCapacityTask.OutpostsCapacityTaskTimeouts\"}", isOptional: true)]

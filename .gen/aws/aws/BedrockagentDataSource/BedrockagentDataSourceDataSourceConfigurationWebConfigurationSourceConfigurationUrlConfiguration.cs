@@ -11,7 +11,7 @@ namespace aws.BedrockagentDataSource
 
         /// <summary>seed_urls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_data_source#seed_urls BedrockagentDataSource#seed_urls}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentDataSource.IBedrockagentDataSourceDataSourceConfigurationWebConfigurationSourceConfigurationUrlConfigurationSeedUrls" />)[]</para>
         /// </remarks>
         [JsiiOptional]

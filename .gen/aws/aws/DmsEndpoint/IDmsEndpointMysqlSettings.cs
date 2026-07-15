@@ -7,7 +7,7 @@ namespace aws.DmsEndpoint
     [JsiiInterface(nativeType: typeof(IDmsEndpointMysqlSettings), fullyQualifiedName: "aws.dmsEndpoint.DmsEndpointMysqlSettings")]
     public interface IDmsEndpointMysqlSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#after_connect_script DmsEndpoint#after_connect_script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#after_connect_script DmsEndpoint#after_connect_script}.</summary>
         [JsiiProperty(name: "afterConnectScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AfterConnectScript
@@ -18,7 +18,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#authentication_method DmsEndpoint#authentication_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#authentication_method DmsEndpoint#authentication_method}.</summary>
         [JsiiProperty(name: "authenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthenticationMethod
@@ -29,7 +29,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#clean_source_metadata_on_mismatch DmsEndpoint#clean_source_metadata_on_mismatch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#clean_source_metadata_on_mismatch DmsEndpoint#clean_source_metadata_on_mismatch}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#events_poll_interval DmsEndpoint#events_poll_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#events_poll_interval DmsEndpoint#events_poll_interval}.</summary>
         [JsiiProperty(name: "eventsPollInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? EventsPollInterval
@@ -54,7 +54,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#execute_timeout DmsEndpoint#execute_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#execute_timeout DmsEndpoint#execute_timeout}.</summary>
         [JsiiProperty(name: "executeTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ExecuteTimeout
@@ -65,7 +65,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#max_file_size DmsEndpoint#max_file_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#max_file_size DmsEndpoint#max_file_size}.</summary>
         [JsiiProperty(name: "maxFileSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxFileSize
@@ -76,7 +76,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#parallel_load_threads DmsEndpoint#parallel_load_threads}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#parallel_load_threads DmsEndpoint#parallel_load_threads}.</summary>
         [JsiiProperty(name: "parallelLoadThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ParallelLoadThreads
@@ -87,7 +87,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#server_timezone DmsEndpoint#server_timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#server_timezone DmsEndpoint#server_timezone}.</summary>
         [JsiiProperty(name: "serverTimezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServerTimezone
@@ -98,7 +98,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}.</summary>
         [JsiiProperty(name: "serviceAccessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceAccessRoleArn
@@ -109,7 +109,7 @@ namespace aws.DmsEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#target_db_type DmsEndpoint#target_db_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#target_db_type DmsEndpoint#target_db_type}.</summary>
         [JsiiProperty(name: "targetDbType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDbType
@@ -127,7 +127,7 @@ namespace aws.DmsEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#after_connect_script DmsEndpoint#after_connect_script}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#after_connect_script DmsEndpoint#after_connect_script}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "afterConnectScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AfterConnectScript
@@ -135,7 +135,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#authentication_method DmsEndpoint#authentication_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#authentication_method DmsEndpoint#authentication_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthenticationMethod
@@ -143,7 +143,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#clean_source_metadata_on_mismatch DmsEndpoint#clean_source_metadata_on_mismatch}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#clean_source_metadata_on_mismatch DmsEndpoint#clean_source_metadata_on_mismatch}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -154,7 +154,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#events_poll_interval DmsEndpoint#events_poll_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#events_poll_interval DmsEndpoint#events_poll_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "eventsPollInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? EventsPollInterval
@@ -162,7 +162,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#execute_timeout DmsEndpoint#execute_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#execute_timeout DmsEndpoint#execute_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "executeTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ExecuteTimeout
@@ -170,7 +170,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#max_file_size DmsEndpoint#max_file_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#max_file_size DmsEndpoint#max_file_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxFileSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxFileSize
@@ -178,7 +178,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#parallel_load_threads DmsEndpoint#parallel_load_threads}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#parallel_load_threads DmsEndpoint#parallel_load_threads}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parallelLoadThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ParallelLoadThreads
@@ -186,7 +186,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#server_timezone DmsEndpoint#server_timezone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#server_timezone DmsEndpoint#server_timezone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serverTimezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServerTimezone
@@ -194,7 +194,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceAccessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceAccessRoleArn
@@ -202,7 +202,7 @@ namespace aws.DmsEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dms_endpoint#target_db_type DmsEndpoint#target_db_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dms_endpoint#target_db_type DmsEndpoint#target_db_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDbType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDbType

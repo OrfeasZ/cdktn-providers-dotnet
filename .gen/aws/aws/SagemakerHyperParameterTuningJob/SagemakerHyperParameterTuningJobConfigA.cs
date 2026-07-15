@@ -9,7 +9,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiByValue(fqn: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobConfigA")]
     public class SagemakerHyperParameterTuningJobConfigA : aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy SagemakerHyperParameterTuningJob#strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy SagemakerHyperParameterTuningJob#strategy}.</summary>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         public string Strategy
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>objective block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#objective SagemakerHyperParameterTuningJob#objective}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#objective SagemakerHyperParameterTuningJob#objective}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigObjective" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>parameter_ranges block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parameter_ranges SagemakerHyperParameterTuningJob#parameter_ranges}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#parameter_ranges SagemakerHyperParameterTuningJob#parameter_ranges}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigParameterRanges" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#random_seed SagemakerHyperParameterTuningJob#random_seed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#random_seed SagemakerHyperParameterTuningJob#random_seed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "randomSeed", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RandomSeed
@@ -100,7 +100,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>resource_limits block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_limits SagemakerHyperParameterTuningJob#resource_limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#resource_limits SagemakerHyperParameterTuningJob#resource_limits}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigResourceLimits" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -135,7 +135,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>strategy_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy_config SagemakerHyperParameterTuningJob#strategy_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#strategy_config SagemakerHyperParameterTuningJob#strategy_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigStrategyConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -166,7 +166,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_early_stopping_type SagemakerHyperParameterTuningJob#training_job_early_stopping_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_job_early_stopping_type SagemakerHyperParameterTuningJob#training_job_early_stopping_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trainingJobEarlyStoppingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrainingJobEarlyStoppingType
@@ -179,7 +179,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>tuning_job_completion_criteria block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_job_completion_criteria SagemakerHyperParameterTuningJob#tuning_job_completion_criteria}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#tuning_job_completion_criteria SagemakerHyperParameterTuningJob#tuning_job_completion_criteria}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobConfigTuningJobCompletionCriteria" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.CloudwatchEventConnection
     {
         /// <summary>body block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#body CloudwatchEventConnection#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#body CloudwatchEventConnection#body}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "body", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#header CloudwatchEventConnection#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#header CloudwatchEventConnection#header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.CloudwatchEventConnection
 
         /// <summary>query_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#query_string CloudwatchEventConnection#query_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#query_string CloudwatchEventConnection#query_string}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQueryString" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchEventConnection.CloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>body block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#body CloudwatchEventConnection#body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#body CloudwatchEventConnection#body}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersBody" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -73,7 +73,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#header CloudwatchEventConnection#header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#header CloudwatchEventConnection#header}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -85,7 +85,7 @@ namespace aws.CloudwatchEventConnection
 
             /// <summary>query_string block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudwatch_event_connection#query_string CloudwatchEventConnection#query_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudwatch_event_connection#query_string CloudwatchEventConnection#query_string}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchEventConnection.ICloudwatchEventConnectionAuthParametersOauthOauthHttpParametersQueryString" />)[]</para>
             /// </remarks>
             [JsiiOptional]

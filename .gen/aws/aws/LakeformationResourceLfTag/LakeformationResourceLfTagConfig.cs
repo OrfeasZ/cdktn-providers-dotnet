@@ -7,7 +7,7 @@ namespace aws.LakeformationResourceLfTag
     [JsiiByValue(fqn: "aws.lakeformationResourceLfTag.LakeformationResourceLfTagConfig")]
     public class LakeformationResourceLfTagConfig : aws.LakeformationResourceLfTag.ILakeformationResourceLfTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#catalog_id LakeformationResourceLfTag#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#catalog_id LakeformationResourceLfTag#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId
@@ -20,7 +20,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#database LakeformationResourceLfTag#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#database LakeformationResourceLfTag#database}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagDatabase" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -55,7 +55,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>lf_tag block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#lf_tag LakeformationResourceLfTag#lf_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#lf_tag LakeformationResourceLfTag#lf_tag}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagLfTag" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -88,7 +88,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#region LakeformationResourceLfTag#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#region LakeformationResourceLfTag#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>table block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#table LakeformationResourceLfTag#table}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#table LakeformationResourceLfTag#table}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTable" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -137,7 +137,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>table_with_columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#table_with_columns LakeformationResourceLfTag#table_with_columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#table_with_columns LakeformationResourceLfTag#table_with_columns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LakeformationResourceLfTag.ILakeformationResourceLfTagTableWithColumns" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -170,7 +170,7 @@ namespace aws.LakeformationResourceLfTag
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lakeformation_resource_lf_tag#timeouts LakeformationResourceLfTag#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lakeformation_resource_lf_tag#timeouts LakeformationResourceLfTag#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lakeformationResourceLfTag.LakeformationResourceLfTagTimeouts\"}", isOptional: true)]

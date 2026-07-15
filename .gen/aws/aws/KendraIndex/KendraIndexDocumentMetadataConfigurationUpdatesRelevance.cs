@@ -7,7 +7,7 @@ namespace aws.KendraIndex
     [JsiiByValue(fqn: "aws.kendraIndex.KendraIndexDocumentMetadataConfigurationUpdatesRelevance")]
     public class KendraIndexDocumentMetadataConfigurationUpdatesRelevance : aws.KendraIndex.IKendraIndexDocumentMetadataConfigurationUpdatesRelevance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_index#duration KendraIndex#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/kendra_index#duration KendraIndex#duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Duration
@@ -18,7 +18,7 @@ namespace aws.KendraIndex
 
         private object? _freshness;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_index#freshness KendraIndex#freshness}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/kendra_index#freshness KendraIndex#freshness}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.KendraIndex
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_index#importance KendraIndex#importance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/kendra_index#importance KendraIndex#importance}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "importance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Importance
@@ -59,7 +59,7 @@ namespace aws.KendraIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_index#rank_order KendraIndex#rank_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/kendra_index#rank_order KendraIndex#rank_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rankOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RankOrder
@@ -68,7 +68,7 @@ namespace aws.KendraIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/kendra_index#values_importance_map KendraIndex#values_importance_map}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/kendra_index#values_importance_map KendraIndex#values_importance_map}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "valuesImportanceMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, double>? ValuesImportanceMap

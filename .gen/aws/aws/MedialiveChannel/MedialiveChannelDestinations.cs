@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     [JsiiByValue(fqn: "aws.medialiveChannel.MedialiveChannelDestinations")]
     public class MedialiveChannelDestinations : aws.MedialiveChannel.IMedialiveChannelDestinations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>media_package_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#media_package_settings MedialiveChannel#media_package_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/medialive_channel#media_package_settings MedialiveChannel#media_package_settings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinationsMediaPackageSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>multiplex_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#multiplex_settings MedialiveChannel#multiplex_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/medialive_channel#multiplex_settings MedialiveChannel#multiplex_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiplexSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelDestinationsMultiplexSettings\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/medialive_channel#settings MedialiveChannel#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/medialive_channel#settings MedialiveChannel#settings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinationsSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace aws.DbInstance
     [JsiiInterface(nativeType: typeof(IDbInstanceRestoreToPointInTime), fullyQualifiedName: "aws.dbInstance.DbInstanceRestoreToPointInTime")]
     public interface IDbInstanceRestoreToPointInTime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#restore_time DbInstance#restore_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#restore_time DbInstance#restore_time}.</summary>
         [JsiiProperty(name: "restoreTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RestoreTime
@@ -18,7 +18,7 @@ namespace aws.DbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_db_instance_automated_backups_arn DbInstance#source_db_instance_automated_backups_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_db_instance_automated_backups_arn DbInstance#source_db_instance_automated_backups_arn}.</summary>
         [JsiiProperty(name: "sourceDbInstanceAutomatedBackupsArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDbInstanceAutomatedBackupsArn
@@ -29,7 +29,7 @@ namespace aws.DbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_db_instance_identifier DbInstance#source_db_instance_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_db_instance_identifier DbInstance#source_db_instance_identifier}.</summary>
         [JsiiProperty(name: "sourceDbInstanceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDbInstanceIdentifier
@@ -40,7 +40,7 @@ namespace aws.DbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_dbi_resource_id DbInstance#source_dbi_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_dbi_resource_id DbInstance#source_dbi_resource_id}.</summary>
         [JsiiProperty(name: "sourceDbiResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDbiResourceId
@@ -51,7 +51,7 @@ namespace aws.DbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#use_latest_restorable_time DbInstance#use_latest_restorable_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#use_latest_restorable_time DbInstance#use_latest_restorable_time}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -72,7 +72,7 @@ namespace aws.DbInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#restore_time DbInstance#restore_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#restore_time DbInstance#restore_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "restoreTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RestoreTime
@@ -80,7 +80,7 @@ namespace aws.DbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_db_instance_automated_backups_arn DbInstance#source_db_instance_automated_backups_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_db_instance_automated_backups_arn DbInstance#source_db_instance_automated_backups_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDbInstanceAutomatedBackupsArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDbInstanceAutomatedBackupsArn
@@ -88,7 +88,7 @@ namespace aws.DbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_db_instance_identifier DbInstance#source_db_instance_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_db_instance_identifier DbInstance#source_db_instance_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDbInstanceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDbInstanceIdentifier
@@ -96,7 +96,7 @@ namespace aws.DbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#source_dbi_resource_id DbInstance#source_dbi_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#source_dbi_resource_id DbInstance#source_dbi_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDbiResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDbiResourceId
@@ -104,7 +104,7 @@ namespace aws.DbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/db_instance#use_latest_restorable_time DbInstance#use_latest_restorable_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/db_instance#use_latest_restorable_time DbInstance#use_latest_restorable_time}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

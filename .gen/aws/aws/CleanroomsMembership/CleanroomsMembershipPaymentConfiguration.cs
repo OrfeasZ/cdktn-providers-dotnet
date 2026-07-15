@@ -11,7 +11,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>query_compute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfigurationQueryCompute" />)[]</para>
         /// </remarks>
         [JsiiOptional]

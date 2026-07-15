@@ -7,7 +7,7 @@ namespace aws.FlowLog
     [JsiiByValue(fqn: "aws.flowLog.FlowLogDestinationOptions")]
     public class FlowLogDestinationOptions : aws.FlowLog.IFlowLogDestinationOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/flow_log#file_format FlowLog#file_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log#file_format FlowLog#file_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileFormat
@@ -18,7 +18,7 @@ namespace aws.FlowLog
 
         private object? _hiveCompatiblePartitions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/flow_log#hive_compatible_partitions FlowLog#hive_compatible_partitions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log#hive_compatible_partitions FlowLog#hive_compatible_partitions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace aws.FlowLog
 
         private object? _perHourPartition;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/flow_log#per_hour_partition FlowLog#per_hour_partition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/flow_log#per_hour_partition FlowLog#per_hour_partition}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

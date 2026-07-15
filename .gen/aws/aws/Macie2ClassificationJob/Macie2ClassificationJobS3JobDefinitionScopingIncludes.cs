@@ -11,7 +11,7 @@ namespace aws.Macie2ClassificationJob
 
         /// <summary>and block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/macie2_classification_job#and Macie2ClassificationJob#and}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionScopingIncludesAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace aws.CloudformationStackSet
     [JsiiInterface(nativeType: typeof(ICloudformationStackSetManagedExecution), fullyQualifiedName: "aws.cloudformationStackSet.CloudformationStackSetManagedExecution")]
     public interface ICloudformationStackSetManagedExecution
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.CloudformationStackSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudformation_stack_set#active CloudformationStackSet#active}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

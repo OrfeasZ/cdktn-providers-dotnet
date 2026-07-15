@@ -7,21 +7,21 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiInterface(nativeType: typeof(ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource), fullyQualifiedName: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource")]
     public interface ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}.</summary>
         [JsiiProperty(name: "s3DataType", typeJson: "{\"primitive\":\"string\"}")]
         string S3DataType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         string S3Uri
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}.</summary>
         [JsiiProperty(name: "attributeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeNames
@@ -34,7 +34,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>hub_access_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "hubAccessConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}.</summary>
         [JsiiProperty(name: "instanceGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? InstanceGroupNames
@@ -60,7 +60,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>model_access_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modelAccessConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}.</summary>
         [JsiiProperty(name: "s3DataDistributionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3DataDistributionType
@@ -91,21 +91,21 @@ namespace aws.SagemakerHyperParameterTuningJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_type SagemakerHyperParameterTuningJob#s3_data_type}.</summary>
             [JsiiProperty(name: "s3DataType", typeJson: "{\"primitive\":\"string\"}")]
             public string S3DataType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_uri SagemakerHyperParameterTuningJob#s3_uri}.</summary>
             [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
             public string S3Uri
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#attribute_names SagemakerHyperParameterTuningJob#attribute_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeNames
@@ -115,7 +115,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
             /// <summary>hub_access_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#hub_access_config SagemakerHyperParameterTuningJob#hub_access_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -125,7 +125,7 @@ namespace aws.SagemakerHyperParameterTuningJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#instance_group_names SagemakerHyperParameterTuningJob#instance_group_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? InstanceGroupNames
@@ -135,7 +135,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
             /// <summary>model_access_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#model_access_config SagemakerHyperParameterTuningJob#model_access_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -145,7 +145,7 @@ namespace aws.SagemakerHyperParameterTuningJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hyper_parameter_tuning_job#s3_data_distribution_type SagemakerHyperParameterTuningJob#s3_data_distribution_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3DataDistributionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3DataDistributionType

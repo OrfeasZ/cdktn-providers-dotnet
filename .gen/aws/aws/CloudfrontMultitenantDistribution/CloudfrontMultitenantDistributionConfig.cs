@@ -9,7 +9,7 @@ namespace aws.CloudfrontMultitenantDistribution
     [JsiiByValue(fqn: "aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionConfig")]
     public class CloudfrontMultitenantDistributionConfig : aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#comment CloudfrontMultitenantDistribution#comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#comment CloudfrontMultitenantDistribution#comment}.</summary>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}")]
         public string Comment
         {
@@ -19,7 +19,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>active_trusted_key_groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#active_trusted_key_groups CloudfrontMultitenantDistribution#active_trusted_key_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#active_trusted_key_groups CloudfrontMultitenantDistribution#active_trusted_key_groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionActiveTrustedKeyGroups" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -89,7 +89,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>cache_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#cache_behavior CloudfrontMultitenantDistribution#cache_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#cache_behavior CloudfrontMultitenantDistribution#cache_behavior}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionCacheBehavior" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -124,7 +124,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>custom_error_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#custom_error_response CloudfrontMultitenantDistribution#custom_error_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#custom_error_response CloudfrontMultitenantDistribution#custom_error_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionCustomErrorResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -159,7 +159,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>default_cache_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#default_cache_behavior CloudfrontMultitenantDistribution#default_cache_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#default_cache_behavior CloudfrontMultitenantDistribution#default_cache_behavior}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionDefaultCacheBehavior" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -190,7 +190,7 @@ namespace aws.CloudfrontMultitenantDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#default_root_object CloudfrontMultitenantDistribution#default_root_object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#default_root_object CloudfrontMultitenantDistribution#default_root_object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultRootObject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultRootObject
@@ -199,7 +199,7 @@ namespace aws.CloudfrontMultitenantDistribution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#http_version CloudfrontMultitenantDistribution#http_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#http_version CloudfrontMultitenantDistribution#http_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpVersion
@@ -212,7 +212,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>origin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#origin CloudfrontMultitenantDistribution#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#origin CloudfrontMultitenantDistribution#origin}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOrigin" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -247,7 +247,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>origin_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#origin_group CloudfrontMultitenantDistribution#origin_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#origin_group CloudfrontMultitenantDistribution#origin_group}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionOriginGroup" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -282,7 +282,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>restrictions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#restrictions CloudfrontMultitenantDistribution#restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#restrictions CloudfrontMultitenantDistribution#restrictions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionRestrictions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -313,7 +313,7 @@ namespace aws.CloudfrontMultitenantDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#tags CloudfrontMultitenantDistribution#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#tags CloudfrontMultitenantDistribution#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -326,7 +326,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>tenant_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#tenant_config CloudfrontMultitenantDistribution#tenant_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#tenant_config CloudfrontMultitenantDistribution#tenant_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionTenantConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -359,7 +359,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#timeouts CloudfrontMultitenantDistribution#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#timeouts CloudfrontMultitenantDistribution#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionTimeouts\"}", isOptional: true)]
@@ -373,7 +373,7 @@ namespace aws.CloudfrontMultitenantDistribution
 
         /// <summary>viewer_certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#viewer_certificate CloudfrontMultitenantDistribution#viewer_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#viewer_certificate CloudfrontMultitenantDistribution#viewer_certificate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontMultitenantDistribution.ICloudfrontMultitenantDistributionViewerCertificate" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -404,7 +404,7 @@ namespace aws.CloudfrontMultitenantDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/cloudfront_multitenant_distribution#web_acl_id CloudfrontMultitenantDistribution#web_acl_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/cloudfront_multitenant_distribution#web_acl_id CloudfrontMultitenantDistribution#web_acl_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webAclId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebAclId

@@ -7,7 +7,7 @@ namespace aws.MskconnectConnector
     [JsiiInterface(nativeType: typeof(IMskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs), fullyQualifiedName: "aws.mskconnectConnector.MskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs")]
     public interface IMskconnectConnectorLogDeliveryWorkerLogDeliveryCloudwatchLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace aws.MskconnectConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}.</summary>
         [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogGroup
@@ -35,7 +35,7 @@ namespace aws.MskconnectConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#enabled MskconnectConnector#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#log_group MskconnectConnector#log_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogGroup

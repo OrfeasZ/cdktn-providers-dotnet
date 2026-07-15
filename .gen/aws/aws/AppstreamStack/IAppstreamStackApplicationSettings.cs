@@ -7,7 +7,7 @@ namespace aws.AppstreamStack
     [JsiiInterface(nativeType: typeof(IAppstreamStackApplicationSettings), fullyQualifiedName: "aws.appstreamStack.AppstreamStackApplicationSettings")]
     public interface IAppstreamStackApplicationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace aws.AppstreamStack
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}.</summary>
         [JsiiProperty(name: "settingsGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SettingsGroup
@@ -35,7 +35,7 @@ namespace aws.AppstreamStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appstream_stack#enabled AppstreamStack#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.AppstreamStack
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/appstream_stack#settings_group AppstreamStack#settings_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "settingsGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SettingsGroup

@@ -9,7 +9,7 @@ namespace aws.KeyspacesTable
     {
         /// <summary>column block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionColumn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "column", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumn\"},\"kind\":\"array\"}}]}}")]
@@ -20,7 +20,7 @@ namespace aws.KeyspacesTable
 
         /// <summary>partition_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionPartitionKey" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "partitionKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionPartitionKey\"},\"kind\":\"array\"}}]}}")]
@@ -31,7 +31,7 @@ namespace aws.KeyspacesTable
 
         /// <summary>clustering_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionClusteringKey" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "clusteringKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionClusteringKey\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.KeyspacesTable
 
         /// <summary>static_column block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionStaticColumn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "staticColumn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionStaticColumn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.KeyspacesTable
 
             /// <summary>column block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#column KeyspacesTable#column}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionColumn" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "column", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionColumn\"},\"kind\":\"array\"}}]}}")]
@@ -79,7 +79,7 @@ namespace aws.KeyspacesTable
 
             /// <summary>partition_key block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#partition_key KeyspacesTable#partition_key}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionPartitionKey" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "partitionKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.keyspacesTable.KeyspacesTableSchemaDefinitionPartitionKey\"},\"kind\":\"array\"}}]}}")]
@@ -90,7 +90,7 @@ namespace aws.KeyspacesTable
 
             /// <summary>clustering_key block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#clustering_key KeyspacesTable#clustering_key}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionClusteringKey" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -102,7 +102,7 @@ namespace aws.KeyspacesTable
 
             /// <summary>static_column block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/keyspaces_table#static_column KeyspacesTable#static_column}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KeyspacesTable.IKeyspacesTableSchemaDefinitionStaticColumn" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -35,6 +35,12 @@ namespace aws.MskReplicator
         {
         }
 
+        [JsiiMethod(name: "resetConsumerGroupOffsetSyncMode")]
+        public virtual void ResetConsumerGroupOffsetSyncMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetConsumerGroupsToExclude")]
         public virtual void ResetConsumerGroupsToExclude()
         {
@@ -51,6 +57,13 @@ namespace aws.MskReplicator
         public virtual void ResetSynchroniseConsumerGroupOffsets()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "consumerGroupOffsetSyncModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ConsumerGroupOffsetSyncModeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -85,6 +98,13 @@ namespace aws.MskReplicator
         public virtual object? SynchroniseConsumerGroupOffsetsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "consumerGroupOffsetSyncMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConsumerGroupOffsetSyncMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "consumerGroupsToExclude", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

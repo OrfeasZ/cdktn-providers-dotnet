@@ -9,7 +9,7 @@ namespace aws.SpotFleetRequest
     {
         /// <summary>launch_template_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/spot_fleet_request#launch_template_specification SpotFleetRequest#launch_template_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/spot_fleet_request#launch_template_specification SpotFleetRequest#launch_template_specification}
         /// </remarks>
         [JsiiProperty(name: "launchTemplateSpecification", typeJson: "{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigLaunchTemplateSpecification\"}")]
         aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigLaunchTemplateSpecification LaunchTemplateSpecification
@@ -19,7 +19,7 @@ namespace aws.SpotFleetRequest
 
         /// <summary>overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/spot_fleet_request#overrides SpotFleetRequest#overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/spot_fleet_request#overrides SpotFleetRequest#overrides}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverrides" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "overrides", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.SpotFleetRequest
 
             /// <summary>launch_template_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/spot_fleet_request#launch_template_specification SpotFleetRequest#launch_template_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/spot_fleet_request#launch_template_specification SpotFleetRequest#launch_template_specification}
             /// </remarks>
             [JsiiProperty(name: "launchTemplateSpecification", typeJson: "{\"fqn\":\"aws.spotFleetRequest.SpotFleetRequestLaunchTemplateConfigLaunchTemplateSpecification\"}")]
             public aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigLaunchTemplateSpecification LaunchTemplateSpecification
@@ -51,7 +51,7 @@ namespace aws.SpotFleetRequest
 
             /// <summary>overrides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/spot_fleet_request#overrides SpotFleetRequest#overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/spot_fleet_request#overrides SpotFleetRequest#overrides}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SpotFleetRequest.ISpotFleetRequestLaunchTemplateConfigOverrides" />)[]</para>
             /// </remarks>
             [JsiiOptional]

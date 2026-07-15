@@ -7,7 +7,7 @@ namespace aws.SfnStateMachine
     [JsiiInterface(nativeType: typeof(ISfnStateMachineLoggingConfiguration), fullyQualifiedName: "aws.sfnStateMachine.SfnStateMachineLoggingConfiguration")]
     public interface ISfnStateMachineLoggingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -32,7 +32,7 @@ namespace aws.SfnStateMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
         [JsiiProperty(name: "logDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogDestination
@@ -50,7 +50,7 @@ namespace aws.SfnStateMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#include_execution_data SfnStateMachine#include_execution_data}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -61,7 +61,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#level SfnStateMachine#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level
@@ -69,7 +69,7 @@ namespace aws.SfnStateMachine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sfn_state_machine#log_destination SfnStateMachine#log_destination}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogDestination

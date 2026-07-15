@@ -9,7 +9,7 @@ namespace aws.BedrockagentPrompt
     [JsiiByValue(fqn: "aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationText")]
     public class BedrockagentPromptVariantTemplateConfigurationText : aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationText
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt#text BedrockagentPrompt#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         public string Text
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentPrompt
 
         /// <summary>cache_point block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt#cache_point BedrockagentPrompt#cache_point}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationTextCachePoint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace aws.BedrockagentPrompt
 
         /// <summary>input_variable block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/bedrockagent_prompt#input_variable BedrockagentPrompt#input_variable}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationTextInputVariable" />)[]</para>
         /// </remarks>
         [JsiiOptional]

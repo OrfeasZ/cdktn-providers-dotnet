@@ -7,7 +7,7 @@ namespace aws.WorkspacesPool
     [JsiiByValue(fqn: "aws.workspacesPool.WorkspacesPoolApplicationSettings")]
     public class WorkspacesPoolApplicationSettings : aws.WorkspacesPool.IWorkspacesPoolApplicationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_pool#settings_group WorkspacesPool#settings_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/workspaces_pool#settings_group WorkspacesPool#settings_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "settingsGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SettingsGroup
@@ -16,7 +16,7 @@ namespace aws.WorkspacesPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/workspaces_pool#status WorkspacesPool#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/workspaces_pool#status WorkspacesPool#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

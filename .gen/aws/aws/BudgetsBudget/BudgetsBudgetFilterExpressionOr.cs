@@ -11,7 +11,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>and block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#and BudgetsBudget#and}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#and BudgetsBudget#and}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>cost_categories block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#cost_categories BudgetsBudget#cost_categories}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "costCategories", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrCostCategories\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>dimensions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#dimensions BudgetsBudget#dimensions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimensions", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrDimensions\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>not block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#not BudgetsBudget#not}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#not BudgetsBudget#not}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "not", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrNot\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>or block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#or BudgetsBudget#or}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#or BudgetsBudget#or}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetFilterExpressionOrOr" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpressionOrTags\"}", isOptional: true)]

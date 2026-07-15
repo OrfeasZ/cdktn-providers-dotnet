@@ -7,7 +7,7 @@ namespace aws.EmrCluster
     [JsiiInterface(nativeType: typeof(IEmrClusterStep), fullyQualifiedName: "aws.emrCluster.EmrClusterStep")]
     public interface IEmrClusterStep
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
         [JsiiProperty(name: "actionOnFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ActionOnFailure
@@ -18,7 +18,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterStepHadoopJarStep" />)[]</para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -50,7 +50,7 @@ namespace aws.EmrCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#action_on_failure EmrCluster#action_on_failure}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "actionOnFailure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ActionOnFailure
@@ -58,7 +58,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#hadoop_jar_step EmrCluster#hadoop_jar_step}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterStepHadoopJarStep" />)[]</para>
             /// </remarks>
@@ -69,7 +69,7 @@ namespace aws.EmrCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/emr_cluster#name EmrCluster#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

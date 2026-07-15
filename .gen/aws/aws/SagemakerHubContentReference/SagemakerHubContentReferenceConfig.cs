@@ -11,7 +11,7 @@ namespace aws.SagemakerHubContentReference
     {
         /// <summary>Name of the hub content reference.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#hub_content_name SagemakerHubContentReference#hub_content_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#hub_content_name SagemakerHubContentReference#hub_content_name}
         /// </remarks>
         [JsiiProperty(name: "hubContentName", typeJson: "{\"primitive\":\"string\"}")]
         public string HubContentName
@@ -22,7 +22,7 @@ namespace aws.SagemakerHubContentReference
 
         /// <summary>Name of the private SageMaker Hub to add the content reference to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#hub_name SagemakerHubContentReference#hub_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#hub_name SagemakerHubContentReference#hub_name}
         /// </remarks>
         [JsiiProperty(name: "hubName", typeJson: "{\"primitive\":\"string\"}")]
         public string HubName
@@ -33,7 +33,7 @@ namespace aws.SagemakerHubContentReference
 
         /// <summary>ARN of the public SageMaker JumpStart hub content to reference. The ARN must not include a version suffix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#sagemaker_public_hub_content_arn SagemakerHubContentReference#sagemaker_public_hub_content_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#sagemaker_public_hub_content_arn SagemakerHubContentReference#sagemaker_public_hub_content_arn}
         /// </remarks>
         [JsiiProperty(name: "sagemakerPublicHubContentArn", typeJson: "{\"primitive\":\"string\"}")]
         public string SagemakerPublicHubContentArn
@@ -46,7 +46,7 @@ namespace aws.SagemakerHubContentReference
         /// <remarks>
         /// Use "1.0.0" to support all versions. Changing this value to an empty string forces replacement of the resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#min_version SagemakerHubContentReference#min_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#min_version SagemakerHubContentReference#min_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace aws.SagemakerHubContentReference
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#region SagemakerHubContentReference#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#region SagemakerHubContentReference#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.SagemakerHubContentReference
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#tags SagemakerHubContentReference#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#tags SagemakerHubContentReference#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -79,7 +79,7 @@ namespace aws.SagemakerHubContentReference
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/sagemaker_hub_content_reference#timeouts SagemakerHubContentReference#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/sagemaker_hub_content_reference#timeouts SagemakerHubContentReference#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.sagemakerHubContentReference.SagemakerHubContentReferenceTimeouts\"}", isOptional: true)]

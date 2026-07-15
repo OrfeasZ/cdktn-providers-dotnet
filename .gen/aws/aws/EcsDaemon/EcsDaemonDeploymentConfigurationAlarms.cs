@@ -7,7 +7,7 @@ namespace aws.EcsDaemon
     [JsiiByValue(fqn: "aws.ecsDaemon.EcsDaemonDeploymentConfigurationAlarms")]
     public class EcsDaemonDeploymentConfigurationAlarms : aws.EcsDaemon.IEcsDaemonDeploymentConfigurationAlarms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon#alarm_names EcsDaemon#alarm_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alarmNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AlarmNames
@@ -18,7 +18,7 @@ namespace aws.EcsDaemon
 
         private object? _enable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/ecs_daemon#enable EcsDaemon#enable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

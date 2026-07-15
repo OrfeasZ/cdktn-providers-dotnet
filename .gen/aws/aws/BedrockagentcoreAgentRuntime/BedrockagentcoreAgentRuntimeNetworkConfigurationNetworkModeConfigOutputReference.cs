@@ -35,6 +35,12 @@ namespace aws.BedrockagentcoreAgentRuntime
         {
         }
 
+        [JsiiProperty(name: "requireServiceS3Endpoint", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RequireServiceS3Endpoint
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? SecurityGroupsInput

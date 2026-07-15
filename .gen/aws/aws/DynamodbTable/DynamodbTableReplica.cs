@@ -9,7 +9,7 @@ namespace aws.DynamodbTable
     [JsiiByValue(fqn: "aws.dynamodbTable.DynamodbTableReplica")]
     public class DynamodbTableReplica : aws.DynamodbTable.IDynamodbTableReplica
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#region_name DynamodbTable#region_name}.</summary>
         [JsiiProperty(name: "regionName", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionName
         {
@@ -17,7 +17,7 @@ namespace aws.DynamodbTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#consistency_mode DynamodbTable#consistency_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#consistency_mode DynamodbTable#consistency_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "consistencyMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConsistencyMode
@@ -28,7 +28,7 @@ namespace aws.DynamodbTable
 
         private object? _deletionProtectionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#deletion_protection_enabled DynamodbTable#deletion_protection_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace aws.DynamodbTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#kms_key_arn DynamodbTable#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn
@@ -71,7 +71,7 @@ namespace aws.DynamodbTable
 
         private object? _pointInTimeRecovery;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#point_in_time_recovery DynamodbTable#point_in_time_recovery}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -105,7 +105,7 @@ namespace aws.DynamodbTable
 
         private object? _propagateTags;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/dynamodb_table#propagate_tags DynamodbTable#propagate_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/dynamodb_table#propagate_tags DynamodbTable#propagate_tags}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

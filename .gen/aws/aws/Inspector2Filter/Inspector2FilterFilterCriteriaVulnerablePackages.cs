@@ -11,7 +11,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>architecture block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#architecture Inspector2Filter#architecture}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#architecture Inspector2Filter#architecture}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesArchitecture" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>epoch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#epoch Inspector2Filter#epoch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#epoch Inspector2Filter#epoch}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesEpoch" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>file_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#file_path Inspector2Filter#file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#file_path Inspector2Filter#file_path}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesFilePath" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#name Inspector2Filter#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#name Inspector2Filter#name}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesName" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -151,7 +151,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>release block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#release Inspector2Filter#release}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#release Inspector2Filter#release}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesRelease" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>source_lambda_layer_arn block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#source_lambda_layer_arn Inspector2Filter#source_lambda_layer_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#source_lambda_layer_arn Inspector2Filter#source_lambda_layer_arn}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLambdaLayerArn" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -221,7 +221,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>source_layer_hash block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#source_layer_hash Inspector2Filter#source_layer_hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#source_layer_hash Inspector2Filter#source_layer_hash}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesSourceLayerHash" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -256,7 +256,7 @@ namespace aws.Inspector2Filter
 
         /// <summary>version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/inspector2_filter#version Inspector2Filter#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/inspector2_filter#version Inspector2Filter#version}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Inspector2Filter.IInspector2FilterFilterCriteriaVulnerablePackagesVersion" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.Instance
     [JsiiByValue(fqn: "aws.instance.InstanceNetworkInterface")]
     public class InstanceNetworkInterface : aws.Instance.IInstanceNetworkInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/instance#device_index Instance#device_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/instance#device_index Instance#device_index}.</summary>
         [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}")]
         public double DeviceIndex
         {
@@ -17,7 +17,7 @@ namespace aws.Instance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/instance#network_interface_id Instance#network_interface_id}.</summary>
         [JsiiProperty(name: "networkInterfaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkInterfaceId
         {
@@ -27,7 +27,7 @@ namespace aws.Instance
 
         private object? _deleteOnTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/instance#delete_on_termination Instance#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/instance#delete_on_termination Instance#delete_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace aws.Instance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/instance#network_card_index Instance#network_card_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/instance#network_card_index Instance#network_card_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NetworkCardIndex

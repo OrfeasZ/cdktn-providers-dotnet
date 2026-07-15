@@ -7,28 +7,28 @@ namespace aws.OpensearchDomain
     [JsiiInterface(nativeType: typeof(IOpensearchDomainCognitoOptions), fullyQualifiedName: "aws.opensearchDomain.OpensearchDomainCognitoOptions")]
     public interface IOpensearchDomainCognitoOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}.</summary>
         [JsiiProperty(name: "identityPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityPoolId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}.</summary>
         [JsiiProperty(name: "userPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string UserPoolId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,28 +49,28 @@ namespace aws.OpensearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#identity_pool_id OpensearchDomain#identity_pool_id}.</summary>
             [JsiiProperty(name: "identityPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityPoolId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#role_arn OpensearchDomain#role_arn}.</summary>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#user_pool_id OpensearchDomain#user_pool_id}.</summary>
             [JsiiProperty(name: "userPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserPoolId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

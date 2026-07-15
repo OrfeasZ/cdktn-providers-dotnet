@@ -7,7 +7,7 @@ namespace aws.QuicksightTemplate
     [JsiiInterface(nativeType: typeof(IQuicksightTemplateSourceEntitySourceAnalysis), fullyQualifiedName: "aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysis")]
     public interface IQuicksightTemplateSourceEntitySourceAnalysis
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
@@ -16,7 +16,7 @@ namespace aws.QuicksightTemplate
 
         /// <summary>data_set_references block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTemplate.IQuicksightTemplateSourceEntitySourceAnalysisDataSetReferences" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dataSetReferences", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences\"},\"kind\":\"array\"}}]}}")]
@@ -32,7 +32,7 @@ namespace aws.QuicksightTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/quicksight_template#arn QuicksightTemplate#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
@@ -41,7 +41,7 @@ namespace aws.QuicksightTemplate
 
             /// <summary>data_set_references block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/quicksight_template#data_set_references QuicksightTemplate#data_set_references}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTemplate.IQuicksightTemplateSourceEntitySourceAnalysisDataSetReferences" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "dataSetReferences", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTemplate.QuicksightTemplateSourceEntitySourceAnalysisDataSetReferences\"},\"kind\":\"array\"}}]}}")]

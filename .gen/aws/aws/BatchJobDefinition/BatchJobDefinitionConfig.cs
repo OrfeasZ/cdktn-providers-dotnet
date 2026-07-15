@@ -9,7 +9,7 @@ namespace aws.BatchJobDefinition
     [JsiiByValue(fqn: "aws.batchJobDefinition.BatchJobDefinitionConfig")]
     public class BatchJobDefinitionConfig : aws.BatchJobDefinition.IBatchJobDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#type BatchJobDefinition#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#container_properties BatchJobDefinition#container_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#container_properties BatchJobDefinition#container_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerProperties", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerProperties
@@ -36,7 +36,7 @@ namespace aws.BatchJobDefinition
 
         private object? _deregisterOnNewRevision;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#deregister_on_new_revision BatchJobDefinition#deregister_on_new_revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#deregister_on_new_revision BatchJobDefinition#deregister_on_new_revision}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace aws.BatchJobDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#ecs_properties BatchJobDefinition#ecs_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ecsProperties", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EcsProperties
@@ -79,7 +79,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>eks_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#eks_properties BatchJobDefinition#eks_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eksProperties", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionEksProperties\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#id BatchJobDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#id BatchJobDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#node_properties BatchJobDefinition#node_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#node_properties BatchJobDefinition#node_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeProperties", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeProperties
@@ -111,7 +111,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#parameters BatchJobDefinition#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#parameters BatchJobDefinition#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -120,7 +120,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#platform_capabilities BatchJobDefinition#platform_capabilities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#platform_capabilities BatchJobDefinition#platform_capabilities}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "platformCapabilities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PlatformCapabilities
@@ -131,7 +131,7 @@ namespace aws.BatchJobDefinition
 
         private object? _propagateTags;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#propagate_tags BatchJobDefinition#propagate_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#propagate_tags BatchJobDefinition#propagate_tags}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -165,7 +165,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#region BatchJobDefinition#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#region BatchJobDefinition#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>retry_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#retry_strategy BatchJobDefinition#retry_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#retry_strategy BatchJobDefinition#retry_strategy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryStrategy", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionRetryStrategy\"}", isOptional: true)]
@@ -187,7 +187,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#scheduling_priority BatchJobDefinition#scheduling_priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#scheduling_priority BatchJobDefinition#scheduling_priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulingPriority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SchedulingPriority
@@ -196,7 +196,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#tags BatchJobDefinition#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#tags BatchJobDefinition#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -205,7 +205,7 @@ namespace aws.BatchJobDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#tags_all BatchJobDefinition#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#tags_all BatchJobDefinition#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -216,7 +216,7 @@ namespace aws.BatchJobDefinition
 
         /// <summary>timeout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/batch_job_definition#timeout BatchJobDefinition#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/batch_job_definition#timeout BatchJobDefinition#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"fqn\":\"aws.batchJobDefinition.BatchJobDefinitionTimeout\"}", isOptional: true)]

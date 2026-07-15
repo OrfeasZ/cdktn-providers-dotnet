@@ -9,7 +9,7 @@ namespace aws.LbListenerRule
     [JsiiByValue(fqn: "aws.lbListenerRule.LbListenerRuleActionForwardStickiness")]
     public class LbListenerRuleActionForwardStickiness : aws.LbListenerRule.ILbListenerRuleActionForwardStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener_rule#duration LbListenerRule#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener_rule#duration LbListenerRule#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         public double Duration
         {
@@ -19,7 +19,7 @@ namespace aws.LbListenerRule
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/lb_listener_rule#enabled LbListenerRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener_rule#enabled LbListenerRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

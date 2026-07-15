@@ -9,7 +9,7 @@ namespace aws.CodebuildReportGroup
     [JsiiByValue(fqn: "aws.codebuildReportGroup.CodebuildReportGroupExportConfigS3Destination")]
     public class CodebuildReportGroupExportConfigS3Destination : aws.CodebuildReportGroup.ICodebuildReportGroupExportConfigS3Destination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_report_group#bucket CodebuildReportGroup#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_report_group#bucket CodebuildReportGroup#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.CodebuildReportGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_report_group#encryption_key CodebuildReportGroup#encryption_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_report_group#encryption_key CodebuildReportGroup#encryption_key}.</summary>
         [JsiiProperty(name: "encryptionKey", typeJson: "{\"primitive\":\"string\"}")]
         public string EncryptionKey
         {
@@ -27,7 +27,7 @@ namespace aws.CodebuildReportGroup
 
         private object? _encryptionDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_report_group#encryption_disabled CodebuildReportGroup#encryption_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_report_group#encryption_disabled CodebuildReportGroup#encryption_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace aws.CodebuildReportGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_report_group#packaging CodebuildReportGroup#packaging}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_report_group#packaging CodebuildReportGroup#packaging}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packaging", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Packaging
@@ -68,7 +68,7 @@ namespace aws.CodebuildReportGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/codebuild_report_group#path CodebuildReportGroup#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/codebuild_report_group#path CodebuildReportGroup#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path

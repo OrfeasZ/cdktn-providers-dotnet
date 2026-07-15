@@ -7,14 +7,14 @@ namespace aws.AlbListenerRule
     [JsiiInterface(nativeType: typeof(IAlbListenerRuleActionForwardStickiness), fullyQualifiedName: "aws.albListenerRule.AlbListenerRuleActionForwardStickiness")]
     public interface IAlbListenerRuleActionForwardStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         double Duration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,14 +35,14 @@ namespace aws.AlbListenerRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
             public double Duration
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

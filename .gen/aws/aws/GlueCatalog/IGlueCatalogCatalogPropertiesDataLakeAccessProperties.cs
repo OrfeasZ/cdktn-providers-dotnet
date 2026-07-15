@@ -7,7 +7,7 @@ namespace aws.GlueCatalog
     [JsiiInterface(nativeType: typeof(IGlueCatalogCatalogPropertiesDataLakeAccessProperties), fullyQualifiedName: "aws.glueCatalog.GlueCatalogCatalogPropertiesDataLakeAccessProperties")]
     public interface IGlueCatalogCatalogPropertiesDataLakeAccessProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}.</summary>
         [JsiiProperty(name: "catalogType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CatalogType
@@ -18,7 +18,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}.</summary>
         [JsiiProperty(name: "dataTransferRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataTransferRole
@@ -43,7 +43,7 @@ namespace aws.GlueCatalog
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}.</summary>
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKey
@@ -61,7 +61,7 @@ namespace aws.GlueCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#catalog_type GlueCatalog#catalog_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalogType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CatalogType
@@ -69,7 +69,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#data_lake_access GlueCatalog#data_lake_access}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -80,7 +80,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#data_transfer_role GlueCatalog#data_transfer_role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataTransferRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataTransferRole
@@ -88,7 +88,7 @@ namespace aws.GlueCatalog
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/glue_catalog#kms_key GlueCatalog#kms_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKey

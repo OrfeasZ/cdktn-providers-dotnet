@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>custom_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.54.0/docs/resources/wafv2_web_acl_rule#custom_response Wafv2WebAclRuleA#custom_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/wafv2_web_acl_rule#custom_response Wafv2WebAclRuleA#custom_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRuleGroupReferenceStatementRuleActionOverrideActionToUseBlockCustomResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
