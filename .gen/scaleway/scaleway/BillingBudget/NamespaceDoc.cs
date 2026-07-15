@@ -5,7 +5,7 @@ namespace scaleway.BillingBudget
     /// <remarks>
     /// <h1><c>scaleway_billing_budget</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.78.0/docs/resources/billing_budget"><c>scaleway_billing_budget</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget"><c>scaleway_billing_budget</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

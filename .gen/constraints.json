@@ -16,7 +16,7 @@
     "null": "3.3.0",
     "oci": "8.22.0",
     "random": "3.9.0",
-    "scaleway": "2.78.0",
+    "scaleway": "2.79.0",
     "stripe": "0.2.2",
     "tailscale": "0.29.2"
   }

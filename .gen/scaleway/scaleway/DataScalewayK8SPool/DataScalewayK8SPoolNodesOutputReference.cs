@@ -65,6 +65,12 @@ namespace scaleway.DataScalewayK8SPool
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {

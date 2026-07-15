@@ -59,6 +59,12 @@ namespace scaleway.K8SAcl
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput

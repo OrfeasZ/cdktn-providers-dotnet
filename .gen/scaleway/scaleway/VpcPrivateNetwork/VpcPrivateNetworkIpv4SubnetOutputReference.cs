@@ -63,6 +63,12 @@ namespace scaleway.VpcPrivateNetwork
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "subnetMask", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubnetMask
         {
