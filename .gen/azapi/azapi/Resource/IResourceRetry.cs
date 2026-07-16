@@ -11,7 +11,7 @@ namespace azapi.Resource
         /// <remarks>
         /// If any of the regular expressions match, the request will be retried.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
         /// </remarks>
         [JsiiProperty(name: "errorMessageRegex", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] ErrorMessageRegex
@@ -21,7 +21,7 @@ namespace azapi.Resource
 
         /// <summary>The base number of seconds to wait between retries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
         /// </remarks>
         [JsiiProperty(name: "intervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azapi.Resource
 
         /// <summary>The maximum number of seconds to wait between retries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
         /// </remarks>
         [JsiiProperty(name: "maxIntervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace azapi.Resource
 
         /// <summary>The multiplier to apply to the interval between retries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#multiplier Resource#multiplier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#multiplier Resource#multiplier}
         /// </remarks>
         [JsiiProperty(name: "multiplier", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace azapi.Resource
         /// <remarks>
         /// The formula for the randomized interval is: <c>RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])</c>. Therefore set to zero <c>0.0</c> for no randomization.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
         /// </remarks>
         [JsiiProperty(name: "randomizationFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace azapi.Resource
             /// <remarks>
             /// If any of the regular expressions match, the request will be retried.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#error_message_regex Resource#error_message_regex}
             /// </remarks>
             [JsiiProperty(name: "errorMessageRegex", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] ErrorMessageRegex
@@ -98,7 +98,7 @@ namespace azapi.Resource
 
             /// <summary>The base number of seconds to wait between retries.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#interval_seconds Resource#interval_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace azapi.Resource
 
             /// <summary>The maximum number of seconds to wait between retries.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#max_interval_seconds Resource#max_interval_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxIntervalSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace azapi.Resource
 
             /// <summary>The multiplier to apply to the interval between retries.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#multiplier Resource#multiplier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#multiplier Resource#multiplier}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "multiplier", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace azapi.Resource
             /// <remarks>
             /// The formula for the randomized interval is: <c>RetryInterval * (random value in range [1 - RandomizationFactor, 1 + RandomizationFactor])</c>. Therefore set to zero <c>0.0</c> for no randomization.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#randomization_factor Resource#randomization_factor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "randomizationFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

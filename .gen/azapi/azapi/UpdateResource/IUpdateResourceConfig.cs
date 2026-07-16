@@ -11,7 +11,7 @@ namespace azapi.UpdateResource
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#type UpdateResource#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#type UpdateResource#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -21,7 +21,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A dynamic attribute that contains the request body.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#body UpdateResource#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#body UpdateResource#body}
         /// </remarks>
         [JsiiProperty(name: "body", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azapi.UpdateResource
 
         /// <summary>Whether ignore the casing of the property names in the response body.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_casing UpdateResource#ignore_casing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_casing UpdateResource#ignore_casing}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "ignoreCasing", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace azapi.UpdateResource
         /// <remarks>
         /// It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in <c>lifecycle.ignore_changes</c> because it will make the sensitive fields unable to update.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_missing_property UpdateResource#ignore_missing_property}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_missing_property UpdateResource#ignore_missing_property}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "ignoreMissingProperty", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azapi.UpdateResource
         /// <remarks>
         /// This is intended for partial list management when combined with <c>list_unique_id_property</c> (for example, to avoid perpetual drift from server-side ordering).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_other_items_in_list UpdateResource#ignore_other_items_in_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_other_items_in_list UpdateResource#ignore_other_items_in_list}
         /// </remarks>
         [JsiiProperty(name: "ignoreOtherItemsInList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace azapi.UpdateResource
         /// <remarks>
         /// When not set, list items are matched by a <c>name</c> property (if present) or by list ordering. To match using multiple fields, specify a comma-separated list of field names (e.g., <c>"category, categoryGroup"</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#list_unique_id_property UpdateResource#list_unique_id_property}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#list_unique_id_property UpdateResource#list_unique_id_property}
         /// </remarks>
         [JsiiProperty(name: "listUniqueIdProperty", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#locks UpdateResource#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#locks UpdateResource#locks}
         /// </remarks>
         [JsiiProperty(name: "locks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace azapi.UpdateResource
 
         /// <summary>Specifies the name of the Azure resource. Changing this forces a new resource to be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#name UpdateResource#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#name UpdateResource#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace azapi.UpdateResource
         ///
         /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#parent_id UpdateResource#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#parent_id UpdateResource#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -155,7 +155,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A mapping of headers to be sent with the read request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#read_headers UpdateResource#read_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#read_headers UpdateResource#read_headers}
         /// </remarks>
         [JsiiProperty(name: "readHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -169,7 +169,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A mapping of query parameters to be sent with the read request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#read_query_parameters UpdateResource#read_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#read_query_parameters UpdateResource#read_query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "readQueryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace azapi.UpdateResource
         /// }
         /// ]]></code>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#replace_triggers_external_values UpdateResource#replace_triggers_external_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#replace_triggers_external_values UpdateResource#replace_triggers_external_values}
         /// </remarks>
         [JsiiProperty(name: "replaceTriggersExternalValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -222,7 +222,7 @@ namespace azapi.UpdateResource
 
         /// <summary>The ID of an existing Azure source.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#resource_id UpdateResource#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#resource_id UpdateResource#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -263,7 +263,7 @@ namespace azapi.UpdateResource
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#response_export_values UpdateResource#response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#response_export_values UpdateResource#response_export_values}
         /// </remarks>
         [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -277,7 +277,7 @@ namespace azapi.UpdateResource
 
         /// <summary>The retry object supports the following attributes:.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#retry UpdateResource#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#retry UpdateResource#retry}
         /// </remarks>
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceRetry\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -291,9 +291,9 @@ namespace azapi.UpdateResource
 
         /// <summary>A dynamic attribute that contains the write-only properties of the request body.</summary>
         /// <remarks>
-        /// This will be merge-patched to the body to construct the actual request body.
+        /// This will be merge-patched to the body to construct the actual request body. If a property is defined in both <c>body</c> and <c>sensitive_body</c>, the <c>sensitive_body</c> value takes precedence.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#sensitive_body UpdateResource#sensitive_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#sensitive_body UpdateResource#sensitive_body}
         /// </remarks>
         [JsiiProperty(name: "sensitiveBody", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -309,7 +309,7 @@ namespace azapi.UpdateResource
         /// <remarks>
         /// The key is a string in the format of <c>path.to.property[index].subproperty</c>, where <c>index</c> is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#sensitive_body_version UpdateResource#sensitive_body_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#sensitive_body_version UpdateResource#sensitive_body_version}
         /// </remarks>
         [JsiiProperty(name: "sensitiveBodyVersion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -323,7 +323,7 @@ namespace azapi.UpdateResource
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#timeouts UpdateResource#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#timeouts UpdateResource#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -337,7 +337,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A mapping of headers to be sent with the update request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#update_headers UpdateResource#update_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#update_headers UpdateResource#update_headers}
         /// </remarks>
         [JsiiProperty(name: "updateHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -351,7 +351,7 @@ namespace azapi.UpdateResource
 
         /// <summary>A mapping of query parameters to be sent with the update request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#update_query_parameters UpdateResource#update_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#update_query_parameters UpdateResource#update_query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "updateQueryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -375,7 +375,7 @@ namespace azapi.UpdateResource
             /// <remarks>
             /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#type UpdateResource#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#type UpdateResource#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -385,7 +385,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A dynamic attribute that contains the request body.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#body UpdateResource#body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#body UpdateResource#body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "body", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -396,7 +396,7 @@ namespace azapi.UpdateResource
 
             /// <summary>Whether ignore the casing of the property names in the response body.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_casing UpdateResource#ignore_casing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_casing UpdateResource#ignore_casing}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -410,7 +410,7 @@ namespace azapi.UpdateResource
             /// <remarks>
             /// It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in <c>lifecycle.ignore_changes</c> because it will make the sensitive fields unable to update.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_missing_property UpdateResource#ignore_missing_property}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_missing_property UpdateResource#ignore_missing_property}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -424,7 +424,7 @@ namespace azapi.UpdateResource
             /// <remarks>
             /// This is intended for partial list management when combined with <c>list_unique_id_property</c> (for example, to avoid perpetual drift from server-side ordering).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#ignore_other_items_in_list UpdateResource#ignore_other_items_in_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#ignore_other_items_in_list UpdateResource#ignore_other_items_in_list}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreOtherItemsInList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -437,7 +437,7 @@ namespace azapi.UpdateResource
             /// <remarks>
             /// When not set, list items are matched by a <c>name</c> property (if present) or by list ordering. To match using multiple fields, specify a comma-separated list of field names (e.g., <c>"category, categoryGroup"</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#list_unique_id_property UpdateResource#list_unique_id_property}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#list_unique_id_property UpdateResource#list_unique_id_property}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "listUniqueIdProperty", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -448,7 +448,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#locks UpdateResource#locks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#locks UpdateResource#locks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -459,7 +459,7 @@ namespace azapi.UpdateResource
 
             /// <summary>Specifies the name of the Azure resource. Changing this forces a new resource to be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#name UpdateResource#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#name UpdateResource#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -484,7 +484,7 @@ namespace azapi.UpdateResource
             ///
             /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#parent_id UpdateResource#parent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#parent_id UpdateResource#parent_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -495,7 +495,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A mapping of headers to be sent with the read request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#read_headers UpdateResource#read_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#read_headers UpdateResource#read_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "readHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -506,7 +506,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A mapping of query parameters to be sent with the read request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#read_query_parameters UpdateResource#read_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#read_query_parameters UpdateResource#read_query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -542,7 +542,7 @@ namespace azapi.UpdateResource
             /// }
             /// ]]></code>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#replace_triggers_external_values UpdateResource#replace_triggers_external_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#replace_triggers_external_values UpdateResource#replace_triggers_external_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replaceTriggersExternalValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -553,7 +553,7 @@ namespace azapi.UpdateResource
 
             /// <summary>The ID of an existing Azure source.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#resource_id UpdateResource#resource_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#resource_id UpdateResource#resource_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -591,7 +591,7 @@ namespace azapi.UpdateResource
             ///
             /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#response_export_values UpdateResource#response_export_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#response_export_values UpdateResource#response_export_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -602,7 +602,7 @@ namespace azapi.UpdateResource
 
             /// <summary>The retry object supports the following attributes:.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#retry UpdateResource#retry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#retry UpdateResource#retry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceRetry\"}", isOptional: true)]
@@ -613,9 +613,9 @@ namespace azapi.UpdateResource
 
             /// <summary>A dynamic attribute that contains the write-only properties of the request body.</summary>
             /// <remarks>
-            /// This will be merge-patched to the body to construct the actual request body.
+            /// This will be merge-patched to the body to construct the actual request body. If a property is defined in both <c>body</c> and <c>sensitive_body</c>, the <c>sensitive_body</c> value takes precedence.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#sensitive_body UpdateResource#sensitive_body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#sensitive_body UpdateResource#sensitive_body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveBody", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -628,7 +628,7 @@ namespace azapi.UpdateResource
             /// <remarks>
             /// The key is a string in the format of <c>path.to.property[index].subproperty</c>, where <c>index</c> is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#sensitive_body_version UpdateResource#sensitive_body_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#sensitive_body_version UpdateResource#sensitive_body_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveBodyVersion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -639,7 +639,7 @@ namespace azapi.UpdateResource
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#timeouts UpdateResource#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#timeouts UpdateResource#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceTimeouts\"}", isOptional: true)]
@@ -650,7 +650,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A mapping of headers to be sent with the update request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#update_headers UpdateResource#update_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#update_headers UpdateResource#update_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "updateHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -661,7 +661,7 @@ namespace azapi.UpdateResource
 
             /// <summary>A mapping of query parameters to be sent with the update request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/update_resource#update_query_parameters UpdateResource#update_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/update_resource#update_query_parameters UpdateResource#update_query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]

@@ -11,7 +11,7 @@ namespace azapi.ResourceAction
     {
         /// <summary>The ID of an existing Azure source.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#resource_id ResourceAction#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#resource_id ResourceAction#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
@@ -24,7 +24,7 @@ namespace azapi.ResourceAction
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#type ResourceAction#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#type ResourceAction#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -37,7 +37,7 @@ namespace azapi.ResourceAction
         /// <remarks>
         /// It's also possible to make HTTP requests towards the resource ID if leave this field empty.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#action ResourceAction#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#action ResourceAction#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace azapi.ResourceAction
 
         /// <summary>A dynamic attribute that contains the request body.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#body ResourceAction#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#body ResourceAction#body}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace azapi.ResourceAction
 
         /// <summary>A map of headers to include in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#headers ResourceAction#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#headers ResourceAction#headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace azapi.ResourceAction
         /// <remarks>
         /// Default is <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#ignore_not_found ResourceAction#ignore_not_found}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#ignore_not_found ResourceAction#ignore_not_found}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -110,7 +110,7 @@ namespace azapi.ResourceAction
 
         /// <summary>A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#locks ResourceAction#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#locks ResourceAction#locks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace azapi.ResourceAction
 
         /// <summary>Specifies the HTTP method of the azure resource action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#method ResourceAction#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#method ResourceAction#method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace azapi.ResourceAction
 
         /// <summary>A map of query parameters to include in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#query_parameters ResourceAction#query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiOptional]
@@ -196,7 +196,7 @@ namespace azapi.ResourceAction
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#response_export_values ResourceAction#response_export_values}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -208,11 +208,39 @@ namespace azapi.ResourceAction
 
         /// <summary>The retry object supports the following attributes:.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#retry ResourceAction#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#retry ResourceAction#retry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.resourceAction.ResourceActionRetry\"}", isOptional: true)]
         public azapi.ResourceAction.IResourceActionRetry? Retry
+        {
+            get;
+            set;
+        }
+
+        /// <summary>A dynamic attribute that contains the write-only properties of the request body.</summary>
+        /// <remarks>
+        /// This will be merge-patched to the body to construct the actual request body. If a property is defined in both <c>body</c> and <c>sensitive_body</c>, the <c>sensitive_body</c> value takes precedence.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#sensitive_body ResourceAction#sensitive_body}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sensitiveBody", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, object>? SensitiveBody
+        {
+            get;
+            set;
+        }
+
+        /// <summary>A map where the key is the path to the property in `sensitive_body` and the value is the version of the property.</summary>
+        /// <remarks>
+        /// The key is a string in the format of <c>path.to.property[index].subproperty</c>, where <c>index</c> is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#sensitive_body_version ResourceAction#sensitive_body_version}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sensitiveBodyVersion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? SensitiveBodyVersion
         {
             get;
             set;
@@ -247,7 +275,7 @@ namespace azapi.ResourceAction
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#sensitive_response_export_values ResourceAction#sensitive_response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#sensitive_response_export_values ResourceAction#sensitive_response_export_values}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveResponseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -259,7 +287,7 @@ namespace azapi.ResourceAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#timeouts ResourceAction#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.resourceAction.ResourceActionTimeouts\"}", isOptional: true)]
@@ -271,7 +299,7 @@ namespace azapi.ResourceAction
 
         /// <summary>When to perform the action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/resources/resource_action#when ResourceAction#when}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action#when ResourceAction#when}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "when", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

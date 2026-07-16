@@ -11,7 +11,7 @@ namespace azapi.DataAzapiResourceId
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -21,7 +21,7 @@ namespace azapi.DataAzapiResourceId
 
         /// <summary>The name of the Azure resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace azapi.DataAzapiResourceId
         ///
         /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace azapi.DataAzapiResourceId
 
         /// <summary>The ID of an existing Azure source.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace azapi.DataAzapiResourceId
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceId.DataAzapiResourceIdTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace azapi.DataAzapiResourceId
             /// <remarks>
             /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#type DataAzapiResourceId#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -110,7 +110,7 @@ namespace azapi.DataAzapiResourceId
 
             /// <summary>The name of the Azure resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#name DataAzapiResourceId#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace azapi.DataAzapiResourceId
             ///
             /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#parent_id DataAzapiResourceId#parent_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -146,7 +146,7 @@ namespace azapi.DataAzapiResourceId
 
             /// <summary>The ID of an existing Azure source.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#resource_id DataAzapiResourceId#resource_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace azapi.DataAzapiResourceId
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_id#timeouts DataAzapiResourceId#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceId.DataAzapiResourceIdTimeouts\"}", isOptional: true)]

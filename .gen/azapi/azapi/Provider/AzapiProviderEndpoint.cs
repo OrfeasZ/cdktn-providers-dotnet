@@ -11,7 +11,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_ACTIVE_DIRECTORY_AUTHORITY_HOST</c> Environment Variable. Defaults to <c>https://login.microsoftonline.com/</c> for public cloud.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#active_directory_authority_host AzapiProvider#active_directory_authority_host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#active_directory_authority_host AzapiProvider#active_directory_authority_host}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeDirectoryAuthorityHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_RESOURCE_MANAGER_AUDIENCE</c> Environment Variable. Defaults to <c>https://management.core.windows.net/</c> for public cloud.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#resource_manager_audience AzapiProvider#resource_manager_audience}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#resource_manager_audience AzapiProvider#resource_manager_audience}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceManagerAudience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_RESOURCE_MANAGER_ENDPOINT</c> Environment Variable. Defaults to <c>https://management.azure.com/</c> for public cloud.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#resource_manager_endpoint AzapiProvider#resource_manager_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#resource_manager_endpoint AzapiProvider#resource_manager_endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceManagerEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

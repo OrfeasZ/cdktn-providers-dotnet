@@ -9,7 +9,7 @@ namespace azapi.Provider
     {
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#alias AzapiProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#alias AzapiProvider#alias}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,11 +19,48 @@ namespace azapi.Provider
             set;
         }
 
+        private object? _alwaysAcquirePolicyToken;
+
+        /// <summary>Always acquire a policy token for write requests, regardless of whether one is required.</summary>
+        /// <remarks>
+        /// The default is <c>false</c>. The default behaviour is to wait for a qualifying <c>403</c> response indicating that a policy token is required, and then retry the request with an acquired policy token. When this attribute is set to <c>true</c>, the provider proactively acquires a policy token and attaches it to every write request, avoiding the extra round-trip per request. Performance will be improved if the number of changed resources is known to be large beforehand. This can also be sourced from the <c>ARM_ALWAYS_ACQUIRE_POLICY_TOKEN</c> Environment Variable. See <a href="guides/feature_acquire_policy_token.html">Feature: Acquire Policy Token</a> to learn more.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#always_acquire_policy_token AzapiProvider#always_acquire_policy_token}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "alwaysAcquirePolicyToken", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? AlwaysAcquirePolicyToken
+        {
+            get => _alwaysAcquirePolicyToken;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _alwaysAcquirePolicyToken = value;
+            }
+        }
+
         /// <summary>List of auxiliary Tenant IDs required for multi-tenancy and cross-tenant scenarios.</summary>
         /// <remarks>
         /// This can also be sourced from the <c>ARM_AUXILIARY_TENANT_IDS</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#auxiliary_tenant_ids AzapiProvider#auxiliary_tenant_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#auxiliary_tenant_ids AzapiProvider#auxiliary_tenant_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "auxiliaryTenantIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -37,7 +74,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_CLIENT_CERTIFICATE</c> environment variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_certificate AzapiProvider#client_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_certificate AzapiProvider#client_certificate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -49,7 +86,7 @@ namespace azapi.Provider
 
         /// <summary>The password associated with the Client Certificate. This can also be sourced from the `ARM_CLIENT_CERTIFICATE_PASSWORD` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_certificate_password AzapiProvider#client_certificate_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_certificate_password AzapiProvider#client_certificate_password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -63,7 +100,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_CLIENT_CERTIFICATE_PATH</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_certificate_path AzapiProvider#client_certificate_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_certificate_path AzapiProvider#client_certificate_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificatePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +112,7 @@ namespace azapi.Provider
 
         /// <summary>The Client ID which should be used. This can also be sourced from the `ARM_CLIENT_ID`, `AZURE_CLIENT_ID` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_id AzapiProvider#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_id AzapiProvider#client_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +126,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_CLIENT_ID_FILE_PATH</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_id_file_path AzapiProvider#client_id_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_id_file_path AzapiProvider#client_id_file_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientIdFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -101,7 +138,7 @@ namespace azapi.Provider
 
         /// <summary>The Client Secret which should be used. This can also be sourced from the `ARM_CLIENT_SECRET` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_secret AzapiProvider#client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_secret AzapiProvider#client_secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +152,7 @@ namespace azapi.Provider
         /// <remarks>
         /// For use When authenticating as a Service Principal using a Client Secret. This can also be sourced from the <c>ARM_CLIENT_SECRET_FILE_PATH</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#client_secret_file_path AzapiProvider#client_secret_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#client_secret_file_path AzapiProvider#client_secret_file_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecretFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -129,7 +166,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_CORRELATION_REQUEST_ID</c> environment variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#custom_correlation_request_id AzapiProvider#custom_correlation_request_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#custom_correlation_request_id AzapiProvider#custom_correlation_request_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customCorrelationRequestId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -143,7 +180,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The <c>location</c> in each resource block can override the <c>default_location</c>. Changing this forces new resources to be created.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#default_location AzapiProvider#default_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#default_location AzapiProvider#default_location}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -157,7 +194,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The <c>name</c> in each resource block can override the <c>default_name</c>. Changing this forces new resources to be created.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#default_name AzapiProvider#default_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#default_name AzapiProvider#default_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -171,7 +208,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The <c>tags</c> in each resource block can override the <c>default_tags</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#default_tags AzapiProvider#default_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#default_tags AzapiProvider#default_tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -185,7 +222,7 @@ namespace azapi.Provider
 
         /// <summary>This will disable the x-ms-correlation-request-id header.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#disable_correlation_request_id AzapiProvider#disable_correlation_request_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#disable_correlation_request_id AzapiProvider#disable_correlation_request_id}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -222,7 +259,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The default is false. When set to false, the provider will output the read-only properties if <c>response_export_values</c> is not specified in the resource block. When set to true, the provider will disable this output. This can also be sourced from the <c>ARM_DISABLE_DEFAULT_OUTPUT</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#disable_default_output AzapiProvider#disable_default_output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#disable_default_output AzapiProvider#disable_default_output}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -257,7 +294,7 @@ namespace azapi.Provider
 
         /// <summary>Disables Instance Discovery, which validates that the Authority is valid and known by the Microsoft Entra instance metadata service at `https://login.microsoft.com` before authenticating. This should only be enabled when the configured authority is known to be valid and trustworthy - such as when running against Azure Stack or when `environment` is set to `custom`. This can also be specified via the `ARM_DISABLE_INSTANCE_DISCOVERY` environment variable. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#disable_instance_discovery AzapiProvider#disable_instance_discovery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#disable_instance_discovery AzapiProvider#disable_instance_discovery}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -294,7 +331,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The Partner ID does not give HashiCorp any direct access to usage information. This can also be sourced from the <c>ARM_DISABLE_TERRAFORM_PARTNER_ID</c> environment variable. Defaults to <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#disable_terraform_partner_id AzapiProvider#disable_terraform_partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#disable_terraform_partner_id AzapiProvider#disable_terraform_partner_id}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -331,7 +368,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The default is false. When set to true, the provider will use Preflight to do static validation before really deploying a new resource. When set to false, the provider will disable this validation. This can also be sourced from the <c>ARM_ENABLE_PREFLIGHT</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#enable_preflight AzapiProvider#enable_preflight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#enable_preflight AzapiProvider#enable_preflight}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -366,7 +403,7 @@ namespace azapi.Provider
 
         /// <summary>The Azure API Endpoint Configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#endpoint AzapiProvider#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#endpoint AzapiProvider#endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azapi.Provider.IAzapiProviderEndpoint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -401,7 +438,7 @@ namespace azapi.Provider
         /// <remarks>
         /// Defaults to <c>public</c>. This can also be sourced from the <c>ARM_ENVIRONMENT</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#environment AzapiProvider#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#environment AzapiProvider#environment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -417,7 +454,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The default is true. When set to true, the provider will suppress changes in the <c>azapi_resource</c> if the <c>body</c> in the new API version still matches the remote state. When set to false, the provider will not suppress these changes. This can also be sourced from the <c>ARM_IGNORE_NO_OP_CHANGES</c> Environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#ignore_no_op_changes AzapiProvider#ignore_no_op_changes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#ignore_no_op_changes AzapiProvider#ignore_no_op_changes}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -452,7 +489,7 @@ namespace azapi.Provider
         /// <remarks>
         /// The default is <c>32767</c>, this allows the provider to rely on the resource timeout values rather than a maximum retry count. The resource-specific retry configuration may additionally be used to retry on other errors and conditions. This property will be removed in a future version.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#maximum_busy_retry_attempts AzapiProvider#maximum_busy_retry_attempts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#maximum_busy_retry_attempts AzapiProvider#maximum_busy_retry_attempts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximumBusyRetryAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -466,7 +503,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_ADO_PIPELINE_SERVICE_CONNECTION_ID</c>, <c>ARM_OIDC_AZURE_SERVICE_CONNECTION_ID</c>, or <c>AZURESUBSCRIPTION_SERVICE_CONNECTION_ID</c> Environment Variables.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#oidc_azure_service_connection_id AzapiProvider#oidc_azure_service_connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#oidc_azure_service_connection_id AzapiProvider#oidc_azure_service_connection_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcAzureServiceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -480,7 +517,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_OIDC_REQUEST_TOKEN</c>, <c>ACTIONS_ID_TOKEN_REQUEST_TOKEN</c>, or <c>SYSTEM_ACCESSTOKEN</c> Environment Variables.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#oidc_request_token AzapiProvider#oidc_request_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#oidc_request_token AzapiProvider#oidc_request_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcRequestToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -494,7 +531,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_OIDC_REQUEST_URL</c>, <c>ACTIONS_ID_TOKEN_REQUEST_URL</c>, or <c>SYSTEM_OIDCREQUESTURI</c> Environment Variables.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#oidc_request_url AzapiProvider#oidc_request_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#oidc_request_url AzapiProvider#oidc_request_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -506,7 +543,7 @@ namespace azapi.Provider
 
         /// <summary>The ID token when authenticating using OpenID Connect (OIDC). This can also be sourced from the `ARM_OIDC_TOKEN` environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#oidc_token AzapiProvider#oidc_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#oidc_token AzapiProvider#oidc_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -520,7 +557,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_OIDC_TOKEN_FILE_PATH</c>, <c>AZURE_FEDERATED_TOKEN_FILE</c> environment Variable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#oidc_token_file_path AzapiProvider#oidc_token_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#oidc_token_file_path AzapiProvider#oidc_token_file_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oidcTokenFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -532,7 +569,7 @@ namespace azapi.Provider
 
         /// <summary>A GUID/UUID that is [registered](https://docs.microsoft.com/azure/marketplace/azure-partner-customer-usage-attribution#register-guids-and-offers) with Microsoft to facilitate partner resource usage attribution. This can also be sourced from the `ARM_PARTNER_ID` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#partner_id AzapiProvider#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#partner_id AzapiProvider#partner_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -548,7 +585,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_SKIP_PROVIDER_REGISTRATION</c> Environment Variable. Defaults to <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#skip_provider_registration AzapiProvider#skip_provider_registration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#skip_provider_registration AzapiProvider#skip_provider_registration}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -581,7 +618,7 @@ namespace azapi.Provider
 
         /// <summary>The Subscription ID which should be used. This can also be sourced from the `ARM_SUBSCRIPTION_ID` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#subscription_id AzapiProvider#subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#subscription_id AzapiProvider#subscription_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -593,7 +630,7 @@ namespace azapi.Provider
 
         /// <summary>The Tenant ID should be used. This can also be sourced from the `ARM_TENANT_ID` Environment Variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#tenant_id AzapiProvider#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#tenant_id AzapiProvider#tenant_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -609,7 +646,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_USE_AKS_WORKLOAD_IDENTITY</c> Environment Variable. Defaults to <c>false</c>. When set, <c>client_id</c>, <c>tenant_id</c> and <c>oidc_token_file_path</c> will be detected from the environment and do not need to be specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#use_aks_workload_identity AzapiProvider#use_aks_workload_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#use_aks_workload_identity AzapiProvider#use_aks_workload_identity}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -646,7 +683,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_USE_CLI</c> environment variable. Defaults to <c>true</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#use_cli AzapiProvider#use_cli}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#use_cli AzapiProvider#use_cli}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -683,7 +720,7 @@ namespace azapi.Provider
         /// <remarks>
         /// This can also be sourced from the <c>ARM_USE_MSI</c> Environment Variable. Defaults to <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#use_msi AzapiProvider#use_msi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#use_msi AzapiProvider#use_msi}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -718,7 +755,7 @@ namespace azapi.Provider
 
         /// <summary>Should OIDC be used for Authentication? This can also be sourced from the `ARM_USE_OIDC` Environment Variable. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs#use_oidc AzapiProvider#use_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs#use_oidc AzapiProvider#use_oidc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

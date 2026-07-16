@@ -9,7 +9,7 @@ namespace azapi.DataAzapiResourceAction
     {
         /// <summary>A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_action#read DataAzapiResourceAction#read}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_action#read DataAzapiResourceAction#read}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

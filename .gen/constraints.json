@@ -3,7 +3,7 @@
   "providers": {
     "acme": "2.48.3",
     "aws": "6.55.0",
-    "azapi": "2.10.0",
+    "azapi": "2.11.0",
     "azuread": "3.9.0",
     "azuredevops": "1.15.1",
     "azurerm": "4.81.0",

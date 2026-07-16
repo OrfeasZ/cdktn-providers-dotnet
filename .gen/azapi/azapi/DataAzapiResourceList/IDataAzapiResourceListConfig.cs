@@ -23,7 +23,7 @@ namespace azapi.DataAzapiResourceList
         ///
         /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
         string ParentId
@@ -35,7 +35,7 @@ namespace azapi.DataAzapiResourceList
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -45,7 +45,7 @@ namespace azapi.DataAzapiResourceList
 
         /// <summary>A map of headers to include in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azapi.DataAzapiResourceList
 
         /// <summary>A map of query parameters to include in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "queryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace azapi.DataAzapiResourceList
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
         /// </remarks>
         [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace azapi.DataAzapiResourceList
 
         /// <summary>The retry object supports the following attributes:.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
         /// </remarks>
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceList.DataAzapiResourceListRetry\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -148,7 +148,7 @@ namespace azapi.DataAzapiResourceList
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceList.DataAzapiResourceListTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -183,7 +183,7 @@ namespace azapi.DataAzapiResourceList
             ///
             /// For type <c>Microsoft.Resources/resourceGroups</c>, the <c>parent_id</c> could be omitted, it defaults to subscription ID specified in provider or the default subscription (You could check the default subscription by azure cli command: <c>az account show</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#parent_id DataAzapiResourceList#parent_id}
             /// </remarks>
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ParentId
@@ -195,7 +195,7 @@ namespace azapi.DataAzapiResourceList
             /// <remarks>
             /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#type DataAzapiResourceList#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -205,7 +205,7 @@ namespace azapi.DataAzapiResourceList
 
             /// <summary>A map of headers to include in the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#headers DataAzapiResourceList#headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace azapi.DataAzapiResourceList
 
             /// <summary>A map of query parameters to include in the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#query_parameters DataAzapiResourceList#query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -274,7 +274,7 @@ namespace azapi.DataAzapiResourceList
             ///
             /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#response_export_values DataAzapiResourceList#response_export_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace azapi.DataAzapiResourceList
 
             /// <summary>The retry object supports the following attributes:.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#retry DataAzapiResourceList#retry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceList.DataAzapiResourceListRetry\"}", isOptional: true)]
@@ -296,7 +296,7 @@ namespace azapi.DataAzapiResourceList
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.10.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/resource_list#timeouts DataAzapiResourceList#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiResourceList.DataAzapiResourceListTimeouts\"}", isOptional: true)]
