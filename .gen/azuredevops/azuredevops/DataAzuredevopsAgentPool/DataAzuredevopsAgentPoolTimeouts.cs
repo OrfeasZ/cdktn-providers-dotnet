@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsAgentPool
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsAgentPool.DataAzuredevopsAgentPoolTimeouts")]
     public class DataAzuredevopsAgentPoolTimeouts : azuredevops.DataAzuredevopsAgentPool.IDataAzuredevopsAgentPoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/agent_pool#read DataAzuredevopsAgentPool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/agent_pool#read DataAzuredevopsAgentPool#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

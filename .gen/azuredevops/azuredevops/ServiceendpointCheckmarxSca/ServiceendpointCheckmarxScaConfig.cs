@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
     [JsiiByValue(fqn: "azuredevops.serviceendpointCheckmarxSca.ServiceendpointCheckmarxScaConfig")]
     public class ServiceendpointCheckmarxScaConfig : azuredevops.ServiceendpointCheckmarxSca.IServiceendpointCheckmarxScaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#access_control_url ServiceendpointCheckmarxSca#access_control_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#access_control_url ServiceendpointCheckmarxSca#access_control_url}.</summary>
         [JsiiProperty(name: "accessControlUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessControlUrl
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#account ServiceendpointCheckmarxSca#account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#account ServiceendpointCheckmarxSca#account}.</summary>
         [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}")]
         public string Account
         {
@@ -25,7 +25,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#password ServiceendpointCheckmarxSca#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#password ServiceendpointCheckmarxSca#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -33,7 +33,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#project_id ServiceendpointCheckmarxSca#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#project_id ServiceendpointCheckmarxSca#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -41,7 +41,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#server_url ServiceendpointCheckmarxSca#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#server_url ServiceendpointCheckmarxSca#server_url}.</summary>
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerUrl
         {
@@ -49,7 +49,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#service_endpoint_name ServiceendpointCheckmarxSca#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#service_endpoint_name ServiceendpointCheckmarxSca#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -57,7 +57,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#username ServiceendpointCheckmarxSca#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#username ServiceendpointCheckmarxSca#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {
@@ -65,7 +65,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#web_app_url ServiceendpointCheckmarxSca#web_app_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#web_app_url ServiceendpointCheckmarxSca#web_app_url}.</summary>
         [JsiiProperty(name: "webAppUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string WebAppUrl
         {
@@ -73,7 +73,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#description ServiceendpointCheckmarxSca#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#description ServiceendpointCheckmarxSca#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -82,7 +82,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#id ServiceendpointCheckmarxSca#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#id ServiceendpointCheckmarxSca#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#team ServiceendpointCheckmarxSca#team}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#team ServiceendpointCheckmarxSca#team}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "team", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Team
@@ -106,7 +106,7 @@ namespace azuredevops.ServiceendpointCheckmarxSca
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_checkmarx_sca#timeouts ServiceendpointCheckmarxSca#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_checkmarx_sca#timeouts ServiceendpointCheckmarxSca#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointCheckmarxSca.ServiceendpointCheckmarxScaTimeouts\"}", isOptional: true)]

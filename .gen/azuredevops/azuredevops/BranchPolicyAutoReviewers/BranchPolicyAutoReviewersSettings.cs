@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
     [JsiiByValue(fqn: "azuredevops.branchPolicyAutoReviewers.BranchPolicyAutoReviewersSettings")]
     public class BranchPolicyAutoReviewersSettings : azuredevops.BranchPolicyAutoReviewers.IBranchPolicyAutoReviewersSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#auto_reviewer_ids BranchPolicyAutoReviewers#auto_reviewer_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#auto_reviewer_ids BranchPolicyAutoReviewers#auto_reviewer_ids}.</summary>
         [JsiiProperty(name: "autoReviewerIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AutoReviewerIds
         {
@@ -21,7 +21,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
 
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#scope BranchPolicyAutoReviewers#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#scope BranchPolicyAutoReviewers#scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyAutoReviewers.IBranchPolicyAutoReviewersSettingsScope" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyAutoReviewers.BranchPolicyAutoReviewersSettingsScope\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#message BranchPolicyAutoReviewers#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#message BranchPolicyAutoReviewers#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -60,7 +60,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#minimum_number_of_reviewers BranchPolicyAutoReviewers#minimum_number_of_reviewers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#minimum_number_of_reviewers BranchPolicyAutoReviewers#minimum_number_of_reviewers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumNumberOfReviewers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumNumberOfReviewers
@@ -69,7 +69,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#path_filters BranchPolicyAutoReviewers#path_filters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#path_filters BranchPolicyAutoReviewers#path_filters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathFilters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PathFilters
@@ -80,7 +80,7 @@ namespace azuredevops.BranchPolicyAutoReviewers
 
         private object? _submitterCanVote;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_auto_reviewers#submitter_can_vote BranchPolicyAutoReviewers#submitter_can_vote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_auto_reviewers#submitter_can_vote BranchPolicyAutoReviewers#submitter_can_vote}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

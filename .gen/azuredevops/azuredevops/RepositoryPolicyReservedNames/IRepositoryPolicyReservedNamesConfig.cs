@@ -7,14 +7,14 @@ namespace azuredevops.RepositoryPolicyReservedNames
     [JsiiInterface(nativeType: typeof(IRepositoryPolicyReservedNamesConfig), fullyQualifiedName: "azuredevops.repositoryPolicyReservedNames.RepositoryPolicyReservedNamesConfig")]
     public interface IRepositoryPolicyReservedNamesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#project_id RepositoryPolicyReservedNames#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#project_id RepositoryPolicyReservedNames#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#blocking RepositoryPolicyReservedNames#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#blocking RepositoryPolicyReservedNames#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#enabled RepositoryPolicyReservedNames#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#enabled RepositoryPolicyReservedNames#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#id RepositoryPolicyReservedNames#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#id RepositoryPolicyReservedNames#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#repository_ids RepositoryPolicyReservedNames#repository_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#repository_ids RepositoryPolicyReservedNames#repository_ids}.</summary>
         [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RepositoryIds
@@ -70,7 +70,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#timeouts RepositoryPolicyReservedNames#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#timeouts RepositoryPolicyReservedNames#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyReservedNames.RepositoryPolicyReservedNamesTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,14 +89,14 @@ namespace azuredevops.RepositoryPolicyReservedNames
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#project_id RepositoryPolicyReservedNames#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#project_id RepositoryPolicyReservedNames#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#blocking RepositoryPolicyReservedNames#blocking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#blocking RepositoryPolicyReservedNames#blocking}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -107,7 +107,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#enabled RepositoryPolicyReservedNames#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#enabled RepositoryPolicyReservedNames#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -118,7 +118,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#id RepositoryPolicyReservedNames#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#id RepositoryPolicyReservedNames#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#repository_ids RepositoryPolicyReservedNames#repository_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#repository_ids RepositoryPolicyReservedNames#repository_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RepositoryIds
@@ -140,7 +140,7 @@ namespace azuredevops.RepositoryPolicyReservedNames
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_reserved_names#timeouts RepositoryPolicyReservedNames#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_reserved_names#timeouts RepositoryPolicyReservedNames#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyReservedNames.RepositoryPolicyReservedNamesTimeouts\"}", isOptional: true)]

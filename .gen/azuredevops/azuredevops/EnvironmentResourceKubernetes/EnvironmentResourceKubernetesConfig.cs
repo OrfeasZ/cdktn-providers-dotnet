@@ -9,7 +9,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
     [JsiiByValue(fqn: "azuredevops.environmentResourceKubernetes.EnvironmentResourceKubernetesConfig")]
     public class EnvironmentResourceKubernetesConfig : azuredevops.EnvironmentResourceKubernetes.IEnvironmentResourceKubernetesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#environment_id EnvironmentResourceKubernetes#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#environment_id EnvironmentResourceKubernetes#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"number\"}")]
         public double EnvironmentId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#name EnvironmentResourceKubernetes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#name EnvironmentResourceKubernetes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#namespace EnvironmentResourceKubernetes#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#namespace EnvironmentResourceKubernetes#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#project_id EnvironmentResourceKubernetes#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#project_id EnvironmentResourceKubernetes#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -41,7 +41,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#service_endpoint_id EnvironmentResourceKubernetes#service_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#service_endpoint_id EnvironmentResourceKubernetes#service_endpoint_id}.</summary>
         [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointId
         {
@@ -49,7 +49,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#cluster_name EnvironmentResourceKubernetes#cluster_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#cluster_name EnvironmentResourceKubernetes#cluster_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterName
@@ -58,7 +58,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#id EnvironmentResourceKubernetes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#id EnvironmentResourceKubernetes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#tags EnvironmentResourceKubernetes#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#tags EnvironmentResourceKubernetes#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags
@@ -82,7 +82,7 @@ namespace azuredevops.EnvironmentResourceKubernetes
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/environment_resource_kubernetes#timeouts EnvironmentResourceKubernetes#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/environment_resource_kubernetes#timeouts EnvironmentResourceKubernetes#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.environmentResourceKubernetes.EnvironmentResourceKubernetesTimeouts\"}", isOptional: true)]

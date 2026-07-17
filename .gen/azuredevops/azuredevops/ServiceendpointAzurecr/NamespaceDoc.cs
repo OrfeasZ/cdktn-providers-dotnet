@@ -5,7 +5,7 @@ namespace azuredevops.ServiceendpointAzurecr
     /// <remarks>
     /// <h1><c>azuredevops_serviceendpoint_azurecr</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr"><c>azuredevops_serviceendpoint_azurecr</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr"><c>azuredevops_serviceendpoint_azurecr</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

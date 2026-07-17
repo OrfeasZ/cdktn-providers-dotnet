@@ -7,7 +7,7 @@ namespace azuredevops.UserEntitlement
     [JsiiByValue(fqn: "azuredevops.userEntitlement.UserEntitlementConfig")]
     public class UserEntitlementConfig : azuredevops.UserEntitlement.IUserEntitlementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#account_license_type UserEntitlement#account_license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#account_license_type UserEntitlement#account_license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountLicenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountLicenseType
@@ -16,7 +16,7 @@ namespace azuredevops.UserEntitlement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#id UserEntitlement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#id UserEntitlement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace azuredevops.UserEntitlement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#licensing_source UserEntitlement#licensing_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#licensing_source UserEntitlement#licensing_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licensingSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicensingSource
@@ -38,7 +38,7 @@ namespace azuredevops.UserEntitlement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#origin UserEntitlement#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#origin UserEntitlement#origin}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Origin
@@ -47,7 +47,7 @@ namespace azuredevops.UserEntitlement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#origin_id UserEntitlement#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#origin_id UserEntitlement#origin_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginId
@@ -56,7 +56,7 @@ namespace azuredevops.UserEntitlement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#principal_name UserEntitlement#principal_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#principal_name UserEntitlement#principal_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "principalName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrincipalName
@@ -67,7 +67,7 @@ namespace azuredevops.UserEntitlement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/user_entitlement#timeouts UserEntitlement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/user_entitlement#timeouts UserEntitlement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.userEntitlement.UserEntitlementTimeouts\"}", isOptional: true)]

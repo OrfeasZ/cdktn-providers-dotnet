@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
     {
         /// <summary>The label for the page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#label WorkitemtrackingprocessPage#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#label WorkitemtrackingprocessPage#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         public string Label
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#process_id WorkitemtrackingprocessPage#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#process_id WorkitemtrackingprocessPage#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessId
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#work_item_type_id WorkitemtrackingprocessPage#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#work_item_type_id WorkitemtrackingprocessPage#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkItemTypeId
@@ -42,7 +42,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#id WorkitemtrackingprocessPage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#id WorkitemtrackingprocessPage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
 
         /// <summary>Order in which the page should appear in the layout.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#order WorkitemtrackingprocessPage#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#order WorkitemtrackingprocessPage#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#timeouts WorkitemtrackingprocessPage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#timeouts WorkitemtrackingprocessPage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessPage.WorkitemtrackingprocessPageTimeouts\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace azuredevops.WorkitemtrackingprocessPage
 
         /// <summary>A value indicating if the page should be visible or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_page#visible WorkitemtrackingprocessPage#visible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_page#visible WorkitemtrackingprocessPage#visible}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

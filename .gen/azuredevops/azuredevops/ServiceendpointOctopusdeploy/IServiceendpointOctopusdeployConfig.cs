@@ -7,35 +7,35 @@ namespace azuredevops.ServiceendpointOctopusdeploy
     [JsiiInterface(nativeType: typeof(IServiceendpointOctopusdeployConfig), fullyQualifiedName: "azuredevops.serviceendpointOctopusdeploy.ServiceendpointOctopusdeployConfig")]
     public interface IServiceendpointOctopusdeployConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#api_key ServiceendpointOctopusdeploy#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#api_key ServiceendpointOctopusdeploy#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         string ApiKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#project_id ServiceendpointOctopusdeploy#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#project_id ServiceendpointOctopusdeploy#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#service_endpoint_name ServiceendpointOctopusdeploy#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#service_endpoint_name ServiceendpointOctopusdeploy#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#url ServiceendpointOctopusdeploy#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#url ServiceendpointOctopusdeploy#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#description ServiceendpointOctopusdeploy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#description ServiceendpointOctopusdeploy#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -46,7 +46,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#id ServiceendpointOctopusdeploy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#id ServiceendpointOctopusdeploy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#ignore_ssl_error ServiceendpointOctopusdeploy#ignore_ssl_error}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#ignore_ssl_error ServiceendpointOctopusdeploy#ignore_ssl_error}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#timeouts ServiceendpointOctopusdeploy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#timeouts ServiceendpointOctopusdeploy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOctopusdeploy.ServiceendpointOctopusdeployTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,35 +96,35 @@ namespace azuredevops.ServiceendpointOctopusdeploy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#api_key ServiceendpointOctopusdeploy#api_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#api_key ServiceendpointOctopusdeploy#api_key}.</summary>
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#project_id ServiceendpointOctopusdeploy#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#project_id ServiceendpointOctopusdeploy#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#service_endpoint_name ServiceendpointOctopusdeploy#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#service_endpoint_name ServiceendpointOctopusdeploy#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#url ServiceendpointOctopusdeploy#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#url ServiceendpointOctopusdeploy#url}.</summary>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#description ServiceendpointOctopusdeploy#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#description ServiceendpointOctopusdeploy#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -132,7 +132,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#id ServiceendpointOctopusdeploy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#id ServiceendpointOctopusdeploy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#ignore_ssl_error ServiceendpointOctopusdeploy#ignore_ssl_error}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#ignore_ssl_error ServiceendpointOctopusdeploy#ignore_ssl_error}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -157,7 +157,7 @@ namespace azuredevops.ServiceendpointOctopusdeploy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_octopusdeploy#timeouts ServiceendpointOctopusdeploy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_octopusdeploy#timeouts ServiceendpointOctopusdeploy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOctopusdeploy.ServiceendpointOctopusdeployTimeouts\"}", isOptional: true)]

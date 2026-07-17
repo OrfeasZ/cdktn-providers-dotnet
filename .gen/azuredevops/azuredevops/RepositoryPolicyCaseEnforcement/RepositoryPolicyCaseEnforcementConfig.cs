@@ -11,7 +11,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
     {
         private object _enforceConsistentCase;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#enforce_consistent_case RepositoryPolicyCaseEnforcement#enforce_consistent_case}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#enforce_consistent_case RepositoryPolicyCaseEnforcement#enforce_consistent_case}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#project_id RepositoryPolicyCaseEnforcement#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#project_id RepositoryPolicyCaseEnforcement#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -52,7 +52,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
 
         private object? _blocking;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#blocking RepositoryPolicyCaseEnforcement#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#blocking RepositoryPolicyCaseEnforcement#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -86,7 +86,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#enabled RepositoryPolicyCaseEnforcement#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#enabled RepositoryPolicyCaseEnforcement#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -118,7 +118,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#id RepositoryPolicyCaseEnforcement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#id RepositoryPolicyCaseEnforcement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +131,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#repository_ids RepositoryPolicyCaseEnforcement#repository_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#repository_ids RepositoryPolicyCaseEnforcement#repository_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RepositoryIds
@@ -142,7 +142,7 @@ namespace azuredevops.RepositoryPolicyCaseEnforcement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_case_enforcement#timeouts RepositoryPolicyCaseEnforcement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_case_enforcement#timeouts RepositoryPolicyCaseEnforcement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyCaseEnforcement.RepositoryPolicyCaseEnforcementTimeouts\"}", isOptional: true)]

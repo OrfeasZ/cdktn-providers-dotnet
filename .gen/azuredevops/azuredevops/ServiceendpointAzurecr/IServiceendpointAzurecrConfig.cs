@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointAzurecr
     {
         /// <summary>The AzureContainerRegistry registry which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
         /// </remarks>
         [JsiiProperty(name: "azurecrName", typeJson: "{\"primitive\":\"string\"}")]
         string AzurecrName
@@ -19,7 +19,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>The service principal tenant id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
         /// </remarks>
         [JsiiProperty(name: "azurecrSpnTenantid", typeJson: "{\"primitive\":\"string\"}")]
         string AzurecrSpnTenantid
@@ -29,7 +29,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>The Azure subscription Id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
         /// </remarks>
         [JsiiProperty(name: "azurecrSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string AzurecrSubscriptionId
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>The Azure subscription name which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
         /// </remarks>
         [JsiiProperty(name: "azurecrSubscriptionName", typeJson: "{\"primitive\":\"string\"}")]
         string AzurecrSubscriptionName
@@ -47,14 +47,14 @@ namespace azuredevops.ServiceendpointAzurecr
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
@@ -63,7 +63,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurecr.ServiceendpointAzurecrCredentials\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azuredevops.ServiceendpointAzurecr
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -86,7 +86,7 @@ namespace azuredevops.ServiceendpointAzurecr
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,7 +103,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>Scope Resource Group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
         /// </remarks>
         [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>The AzureCR Service Endpoint Authentication Scheme, this can be 'WorkloadIdentityFederation', 'ManagedServiceIdentity' or 'ServicePrincipal'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
         /// </remarks>
         [JsiiProperty(name: "serviceEndpointAuthenticationScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurecr.ServiceendpointAzurecrTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The AzureContainerRegistry registry which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
             /// </remarks>
             [JsiiProperty(name: "azurecrName", typeJson: "{\"primitive\":\"string\"}")]
             public string AzurecrName
@@ -162,7 +162,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The service principal tenant id which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
             /// </remarks>
             [JsiiProperty(name: "azurecrSpnTenantid", typeJson: "{\"primitive\":\"string\"}")]
             public string AzurecrSpnTenantid
@@ -172,7 +172,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The Azure subscription Id which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
             /// </remarks>
             [JsiiProperty(name: "azurecrSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AzurecrSubscriptionId
@@ -182,7 +182,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The Azure subscription name which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
             /// </remarks>
             [JsiiProperty(name: "azurecrSubscriptionName", typeJson: "{\"primitive\":\"string\"}")]
             public string AzurecrSubscriptionName
@@ -190,14 +190,14 @@ namespace azuredevops.ServiceendpointAzurecr
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
@@ -206,7 +206,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurecr.ServiceendpointAzurecrCredentials\"}", isOptional: true)]
@@ -215,7 +215,7 @@ namespace azuredevops.ServiceendpointAzurecr
                 get => GetInstanceProperty<azuredevops.ServiceendpointAzurecr.IServiceendpointAzurecrCredentials?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -223,7 +223,7 @@ namespace azuredevops.ServiceendpointAzurecr
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -237,7 +237,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>Scope Resource Group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -248,7 +248,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The AzureCR Service Endpoint Authentication Scheme, this can be 'WorkloadIdentityFederation', 'ManagedServiceIdentity' or 'ServicePrincipal'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceEndpointAuthenticationScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -259,7 +259,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurecr.ServiceendpointAzurecrTimeouts\"}", isOptional: true)]

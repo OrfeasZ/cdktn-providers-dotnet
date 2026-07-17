@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointArtifactory
     {
         /// <summary>The Artifactory password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
@@ -19,7 +19,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
         /// <summary>The Artifactory user name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
             /// <summary>The Artifactory password.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
@@ -46,7 +46,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
             /// <summary>The Artifactory user name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
             /// </remarks>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username

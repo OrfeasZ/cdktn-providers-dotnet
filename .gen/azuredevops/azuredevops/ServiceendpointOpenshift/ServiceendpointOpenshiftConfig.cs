@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointOpenshift
     [JsiiByValue(fqn: "azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftConfig")]
     public class ServiceendpointOpenshiftConfig : azuredevops.ServiceendpointOpenshift.IServiceendpointOpenshiftConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#project_id ServiceendpointOpenshift#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#project_id ServiceendpointOpenshift#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#service_endpoint_name ServiceendpointOpenshift#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#service_endpoint_name ServiceendpointOpenshift#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointOpenshift
 
         private object? _acceptUntrustedCerts;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#accept_untrusted_certs ServiceendpointOpenshift#accept_untrusted_certs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#accept_untrusted_certs ServiceendpointOpenshift#accept_untrusted_certs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace azuredevops.ServiceendpointOpenshift
 
         /// <summary>auth_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#auth_basic ServiceendpointOpenshift#auth_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#auth_basic ServiceendpointOpenshift#auth_basic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthBasic\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace azuredevops.ServiceendpointOpenshift
 
         /// <summary>auth_none block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#auth_none ServiceendpointOpenshift#auth_none}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#auth_none ServiceendpointOpenshift#auth_none}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authNone", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthNone\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace azuredevops.ServiceendpointOpenshift
 
         /// <summary>auth_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#auth_token ServiceendpointOpenshift#auth_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#auth_token ServiceendpointOpenshift#auth_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthToken\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#certificate_authority_file ServiceendpointOpenshift#certificate_authority_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#certificate_authority_file ServiceendpointOpenshift#certificate_authority_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateAuthorityFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateAuthorityFile
@@ -104,7 +104,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#description ServiceendpointOpenshift#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#description ServiceendpointOpenshift#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -113,7 +113,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#id ServiceendpointOpenshift#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#id ServiceendpointOpenshift#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#server_url ServiceendpointOpenshift#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#server_url ServiceendpointOpenshift#server_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerUrl
@@ -137,7 +137,7 @@ namespace azuredevops.ServiceendpointOpenshift
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#timeouts ServiceendpointOpenshift#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#timeouts ServiceendpointOpenshift#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azuredevops.SecurityroleAssignment
     [JsiiByValue(fqn: "azuredevops.securityroleAssignment.SecurityroleAssignmentConfig")]
     public class SecurityroleAssignmentConfig : azuredevops.SecurityroleAssignment.ISecurityroleAssignmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#identity_id SecurityroleAssignment#identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#identity_id SecurityroleAssignment#identity_id}.</summary>
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.SecurityroleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#resource_id SecurityroleAssignment#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#resource_id SecurityroleAssignment#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.SecurityroleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#role_name SecurityroleAssignment#role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#role_name SecurityroleAssignment#role_name}.</summary>
         [JsiiProperty(name: "roleName", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleName
         {
@@ -33,7 +33,7 @@ namespace azuredevops.SecurityroleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#scope SecurityroleAssignment#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#scope SecurityroleAssignment#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -41,7 +41,7 @@ namespace azuredevops.SecurityroleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#id SecurityroleAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#id SecurityroleAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azuredevops.SecurityroleAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/securityrole_assignment#timeouts SecurityroleAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/securityrole_assignment#timeouts SecurityroleAssignment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.securityroleAssignment.SecurityroleAssignmentTimeouts\"}", isOptional: true)]

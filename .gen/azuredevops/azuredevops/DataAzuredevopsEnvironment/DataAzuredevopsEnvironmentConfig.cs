@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsEnvironment
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsEnvironment.DataAzuredevopsEnvironmentConfig")]
     public class DataAzuredevopsEnvironmentConfig : azuredevops.DataAzuredevopsEnvironment.IDataAzuredevopsEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/environment#project_id DataAzuredevopsEnvironment#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/environment#project_id DataAzuredevopsEnvironment#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.DataAzuredevopsEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/environment#environment_id DataAzuredevopsEnvironment#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/environment#environment_id DataAzuredevopsEnvironment#environment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EnvironmentId
@@ -26,7 +26,7 @@ namespace azuredevops.DataAzuredevopsEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/environment#id DataAzuredevopsEnvironment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/environment#id DataAzuredevopsEnvironment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace azuredevops.DataAzuredevopsEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/environment#name DataAzuredevopsEnvironment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/environment#name DataAzuredevopsEnvironment#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -50,7 +50,7 @@ namespace azuredevops.DataAzuredevopsEnvironment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/environment#timeouts DataAzuredevopsEnvironment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/environment#timeouts DataAzuredevopsEnvironment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsEnvironment.DataAzuredevopsEnvironmentTimeouts\"}", isOptional: true)]

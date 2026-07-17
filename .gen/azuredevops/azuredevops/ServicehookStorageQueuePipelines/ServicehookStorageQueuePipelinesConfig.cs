@@ -11,7 +11,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
     {
         /// <summary>A valid account key from the queue's storage account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#account_key ServicehookStorageQueuePipelines#account_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#account_key ServicehookStorageQueuePipelines#account_key}
         /// </remarks>
         [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountKey
@@ -22,7 +22,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>The queue's storage account name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#account_name ServicehookStorageQueuePipelines#account_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#account_name ServicehookStorageQueuePipelines#account_name}
         /// </remarks>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
@@ -33,7 +33,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>The ID of the project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#project_id ServicehookStorageQueuePipelines#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#project_id ServicehookStorageQueuePipelines#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -44,7 +44,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>The name of the queue that will store the events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#queue_name ServicehookStorageQueuePipelines#queue_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#queue_name ServicehookStorageQueuePipelines#queue_name}
         /// </remarks>
         [JsiiProperty(name: "queueName", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueName
@@ -53,7 +53,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#id ServicehookStorageQueuePipelines#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#id ServicehookStorageQueuePipelines#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>run_state_changed_event block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#run_state_changed_event ServicehookStorageQueuePipelines#run_state_changed_event}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#run_state_changed_event ServicehookStorageQueuePipelines#run_state_changed_event}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runStateChangedEvent", typeJson: "{\"fqn\":\"azuredevops.servicehookStorageQueuePipelines.ServicehookStorageQueuePipelinesRunStateChangedEvent\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>stage_state_changed_event block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#stage_state_changed_event ServicehookStorageQueuePipelines#stage_state_changed_event}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#stage_state_changed_event ServicehookStorageQueuePipelines#stage_state_changed_event}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageStateChangedEvent", typeJson: "{\"fqn\":\"azuredevops.servicehookStorageQueuePipelines.ServicehookStorageQueuePipelinesStageStateChangedEvent\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#timeouts ServicehookStorageQueuePipelines#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#timeouts ServicehookStorageQueuePipelines#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.servicehookStorageQueuePipelines.ServicehookStorageQueuePipelinesTimeouts\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>event time-to-live - the duration a message can remain in the queue before it's automatically removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#ttl ServicehookStorageQueuePipelines#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#ttl ServicehookStorageQueuePipelines#ttl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
 
         /// <summary>event visibility timout - how long a message is invisible to other consumers after it's been dequeued.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#visi_timeout ServicehookStorageQueuePipelines#visi_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#visi_timeout ServicehookStorageQueuePipelines#visi_timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "visiTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

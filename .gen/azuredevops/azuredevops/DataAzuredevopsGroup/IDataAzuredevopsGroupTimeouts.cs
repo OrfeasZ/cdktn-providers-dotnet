@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsGroup
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsGroupTimeouts), fullyQualifiedName: "azuredevops.dataAzuredevopsGroup.DataAzuredevopsGroupTimeouts")]
     public interface IDataAzuredevopsGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/group#read DataAzuredevopsGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/group#read DataAzuredevopsGroup#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/group#read DataAzuredevopsGroup#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/group#read DataAzuredevopsGroup#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

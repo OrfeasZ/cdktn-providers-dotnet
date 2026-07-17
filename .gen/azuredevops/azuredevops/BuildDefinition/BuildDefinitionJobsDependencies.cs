@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinition
     [JsiiByValue(fqn: "azuredevops.buildDefinition.BuildDefinitionJobsDependencies")]
     public class BuildDefinitionJobsDependencies : azuredevops.BuildDefinition.IBuildDefinitionJobsDependencies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {

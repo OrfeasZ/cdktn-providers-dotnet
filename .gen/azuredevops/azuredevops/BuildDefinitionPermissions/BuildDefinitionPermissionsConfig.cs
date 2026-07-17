@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinitionPermissions
     [JsiiByValue(fqn: "azuredevops.buildDefinitionPermissions.BuildDefinitionPermissionsConfig")]
     public class BuildDefinitionPermissionsConfig : azuredevops.BuildDefinitionPermissions.IBuildDefinitionPermissionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#build_definition_id BuildDefinitionPermissions#build_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#build_definition_id BuildDefinitionPermissions#build_definition_id}.</summary>
         [JsiiProperty(name: "buildDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildDefinitionId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.BuildDefinitionPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#permissions BuildDefinitionPermissions#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#permissions BuildDefinitionPermissions#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Permissions
         {
@@ -25,7 +25,7 @@ namespace azuredevops.BuildDefinitionPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#principal BuildDefinitionPermissions#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#principal BuildDefinitionPermissions#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {
@@ -33,7 +33,7 @@ namespace azuredevops.BuildDefinitionPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#project_id BuildDefinitionPermissions#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#project_id BuildDefinitionPermissions#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -41,7 +41,7 @@ namespace azuredevops.BuildDefinitionPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#id BuildDefinitionPermissions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#id BuildDefinitionPermissions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azuredevops.BuildDefinitionPermissions
 
         private object? _replace;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#replace BuildDefinitionPermissions#replace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#replace BuildDefinitionPermissions#replace}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -90,7 +90,7 @@ namespace azuredevops.BuildDefinitionPermissions
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition_permissions#timeouts BuildDefinitionPermissions#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition_permissions#timeouts BuildDefinitionPermissions#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.buildDefinitionPermissions.BuildDefinitionPermissionsTimeouts\"}", isOptional: true)]

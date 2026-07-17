@@ -20,7 +20,7 @@
     "hashicorp/azurerm@4.81.0",
     "Azure/azapi@2.11.0",
     "hashicorp/azuread@3.9.0",
-    "microsoft/azuredevops@1.15.1",
+    "microsoft/azuredevops@1.16.0",
     "hashicorp/azurestack@1.0.0"
   ],
   "terraformModules": [],

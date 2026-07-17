@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointArgocd
     [JsiiByValue(fqn: "azuredevops.serviceendpointArgocd.ServiceendpointArgocdConfig")]
     public class ServiceendpointArgocdConfig : azuredevops.ServiceendpointArgocd.IServiceendpointArgocdConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#project_id ServiceendpointArgocd#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#project_id ServiceendpointArgocd#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointArgocd
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#service_endpoint_name ServiceendpointArgocd#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#service_endpoint_name ServiceendpointArgocd#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointArgocd
 
         /// <summary>Url for the ArgoCD Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#url ServiceendpointArgocd#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#url ServiceendpointArgocd#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -38,7 +38,7 @@ namespace azuredevops.ServiceendpointArgocd
 
         /// <summary>authentication_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#authentication_basic ServiceendpointArgocd#authentication_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#authentication_basic ServiceendpointArgocd#authentication_basic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArgocd.ServiceendpointArgocdAuthenticationBasic\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azuredevops.ServiceendpointArgocd
 
         /// <summary>authentication_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#authentication_token ServiceendpointArgocd#authentication_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#authentication_token ServiceendpointArgocd#authentication_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArgocd.ServiceendpointArgocdAuthenticationToken\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointArgocd
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#description ServiceendpointArgocd#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#description ServiceendpointArgocd#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointArgocd
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#id ServiceendpointArgocd#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#id ServiceendpointArgocd#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointArgocd
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#timeouts ServiceendpointArgocd#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#timeouts ServiceendpointArgocd#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArgocd.ServiceendpointArgocdTimeouts\"}", isOptional: true)]

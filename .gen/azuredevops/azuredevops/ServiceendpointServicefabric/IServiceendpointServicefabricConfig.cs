@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointServicefabric
     {
         /// <summary>Client connection endpoint for the cluster. Prefix the value with 'tcp://';. This value overrides the publish profile.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#cluster_endpoint ServiceendpointServicefabric#cluster_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#cluster_endpoint ServiceendpointServicefabric#cluster_endpoint}
         /// </remarks>
         [JsiiProperty(name: "clusterEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterEndpoint
@@ -17,14 +17,14 @@ namespace azuredevops.ServiceendpointServicefabric
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#project_id ServiceendpointServicefabric#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#project_id ServiceendpointServicefabric#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#service_endpoint_name ServiceendpointServicefabric#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#service_endpoint_name ServiceendpointServicefabric#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
@@ -33,7 +33,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
         /// <summary>azure_active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#azure_active_directory ServiceendpointServicefabric#azure_active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#azure_active_directory ServiceendpointServicefabric#azure_active_directory}
         /// </remarks>
         [JsiiProperty(name: "azureActiveDirectory", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricAzureActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#certificate ServiceendpointServicefabric#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#certificate ServiceendpointServicefabric#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricCertificate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azuredevops.ServiceendpointServicefabric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#description ServiceendpointServicefabric#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#description ServiceendpointServicefabric#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -70,7 +70,7 @@ namespace azuredevops.ServiceendpointServicefabric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#id ServiceendpointServicefabric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#id ServiceendpointServicefabric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
         /// <summary>none block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#none ServiceendpointServicefabric#none}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#none ServiceendpointServicefabric#none}
         /// </remarks>
         [JsiiProperty(name: "none", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricNone\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#timeouts ServiceendpointServicefabric#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#timeouts ServiceendpointServicefabric#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>Client connection endpoint for the cluster. Prefix the value with 'tcp://';. This value overrides the publish profile.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#cluster_endpoint ServiceendpointServicefabric#cluster_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#cluster_endpoint ServiceendpointServicefabric#cluster_endpoint}
             /// </remarks>
             [JsiiProperty(name: "clusterEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterEndpoint
@@ -130,14 +130,14 @@ namespace azuredevops.ServiceendpointServicefabric
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#project_id ServiceendpointServicefabric#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#project_id ServiceendpointServicefabric#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#service_endpoint_name ServiceendpointServicefabric#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#service_endpoint_name ServiceendpointServicefabric#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
@@ -146,7 +146,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>azure_active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#azure_active_directory ServiceendpointServicefabric#azure_active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#azure_active_directory ServiceendpointServicefabric#azure_active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureActiveDirectory", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricAzureActiveDirectory\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#certificate ServiceendpointServicefabric#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#certificate ServiceendpointServicefabric#certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricCertificate\"}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace azuredevops.ServiceendpointServicefabric
                 get => GetInstanceProperty<azuredevops.ServiceendpointServicefabric.IServiceendpointServicefabricCertificate?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#description ServiceendpointServicefabric#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#description ServiceendpointServicefabric#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -174,7 +174,7 @@ namespace azuredevops.ServiceendpointServicefabric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#id ServiceendpointServicefabric#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#id ServiceendpointServicefabric#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +188,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>none block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#none ServiceendpointServicefabric#none}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#none ServiceendpointServicefabric#none}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "none", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricNone\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#timeouts ServiceendpointServicefabric#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#timeouts ServiceendpointServicefabric#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointServicefabric.ServiceendpointServicefabricTimeouts\"}", isOptional: true)]

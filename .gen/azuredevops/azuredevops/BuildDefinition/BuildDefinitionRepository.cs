@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinition
     [JsiiByValue(fqn: "azuredevops.buildDefinition.BuildDefinitionRepository")]
     public class BuildDefinitionRepository : azuredevops.BuildDefinition.IBuildDefinitionRepository
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#repo_id BuildDefinition#repo_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#repo_id BuildDefinition#repo_id}.</summary>
         [JsiiProperty(name: "repoId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepoId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#repo_type BuildDefinition#repo_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#repo_type BuildDefinition#repo_type}.</summary>
         [JsiiProperty(name: "repoType", typeJson: "{\"primitive\":\"string\"}")]
         public string RepoType
         {
@@ -25,7 +25,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#branch_name BuildDefinition#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#branch_name BuildDefinition#branch_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BranchName
@@ -34,7 +34,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#github_enterprise_url BuildDefinition#github_enterprise_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#github_enterprise_url BuildDefinition#github_enterprise_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "githubEnterpriseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GithubEnterpriseUrl
@@ -45,7 +45,7 @@ namespace azuredevops.BuildDefinition
 
         private object? _reportBuildStatus;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#report_build_status BuildDefinition#report_build_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#report_build_status BuildDefinition#report_build_status}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#service_connection_id BuildDefinition#service_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#service_connection_id BuildDefinition#service_connection_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceConnectionId
@@ -86,7 +86,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#url BuildDefinition#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#url BuildDefinition#url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Url
@@ -95,7 +95,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#yml_path BuildDefinition#yml_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#yml_path BuildDefinition#yml_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ymlPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? YmlPath

@@ -9,7 +9,7 @@ namespace azuredevops.FeedPermission
     [JsiiByValue(fqn: "azuredevops.feedPermission.FeedPermissionConfig")]
     public class FeedPermissionConfig : azuredevops.FeedPermission.IFeedPermissionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#feed_id FeedPermission#feed_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#feed_id FeedPermission#feed_id}.</summary>
         [JsiiProperty(name: "feedId", typeJson: "{\"primitive\":\"string\"}")]
         public string FeedId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.FeedPermission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#identity_descriptor FeedPermission#identity_descriptor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#identity_descriptor FeedPermission#identity_descriptor}.</summary>
         [JsiiProperty(name: "identityDescriptor", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityDescriptor
         {
@@ -25,7 +25,7 @@ namespace azuredevops.FeedPermission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#role FeedPermission#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#role FeedPermission#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -33,7 +33,7 @@ namespace azuredevops.FeedPermission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#display_name FeedPermission#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#display_name FeedPermission#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -42,7 +42,7 @@ namespace azuredevops.FeedPermission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#id FeedPermission#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#id FeedPermission#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace azuredevops.FeedPermission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#project_id FeedPermission#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#project_id FeedPermission#project_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProjectId
@@ -66,7 +66,7 @@ namespace azuredevops.FeedPermission
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_permission#timeouts FeedPermission#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_permission#timeouts FeedPermission#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.feedPermission.FeedPermissionTimeouts\"}", isOptional: true)]

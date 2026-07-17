@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsGitRepository
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsGitRepository.DataAzuredevopsGitRepositoryConfig")]
     public class DataAzuredevopsGitRepositoryConfig : azuredevops.DataAzuredevopsGitRepository.IDataAzuredevopsGitRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository#name DataAzuredevopsGitRepository#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository#name DataAzuredevopsGitRepository#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azuredevops.DataAzuredevopsGitRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository#project_id DataAzuredevopsGitRepository#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository#project_id DataAzuredevopsGitRepository#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsGitRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository#id DataAzuredevopsGitRepository#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository#id DataAzuredevopsGitRepository#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azuredevops.DataAzuredevopsGitRepository
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository#timeouts DataAzuredevopsGitRepository#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository#timeouts DataAzuredevopsGitRepository#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsGitRepository.DataAzuredevopsGitRepositoryTimeouts\"}", isOptional: true)]

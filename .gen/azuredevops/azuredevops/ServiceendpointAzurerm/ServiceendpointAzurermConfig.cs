@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointAzurerm
     {
         /// <summary>The service principal tenant id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#azurerm_spn_tenantid ServiceendpointAzurerm#azurerm_spn_tenantid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#azurerm_spn_tenantid ServiceendpointAzurerm#azurerm_spn_tenantid}
         /// </remarks>
         [JsiiProperty(name: "azurermSpnTenantid", typeJson: "{\"primitive\":\"string\"}")]
         public string AzurermSpnTenantid
@@ -20,7 +20,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#project_id ServiceendpointAzurerm#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#project_id ServiceendpointAzurerm#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -28,7 +28,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#service_endpoint_name ServiceendpointAzurerm#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#service_endpoint_name ServiceendpointAzurerm#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -38,7 +38,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>The Azure managementGroup Id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#azurerm_management_group_id ServiceendpointAzurerm#azurerm_management_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#azurerm_management_group_id ServiceendpointAzurerm#azurerm_management_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azurermManagementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>The Azure managementGroup name which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#azurerm_management_group_name ServiceendpointAzurerm#azurerm_management_group_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#azurerm_management_group_name ServiceendpointAzurerm#azurerm_management_group_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azurermManagementGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>The Azure subscription Id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#azurerm_subscription_id ServiceendpointAzurerm#azurerm_subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#azurerm_subscription_id ServiceendpointAzurerm#azurerm_subscription_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azurermSubscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>The Azure subscription name which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#azurerm_subscription_name ServiceendpointAzurerm#azurerm_subscription_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#azurerm_subscription_name ServiceendpointAzurerm#azurerm_subscription_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azurermSubscriptionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#credentials ServiceendpointAzurerm#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#credentials ServiceendpointAzurerm#credentials}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurerm.ServiceendpointAzurermCredentials\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#description ServiceendpointAzurerm#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#description ServiceendpointAzurerm#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -107,7 +107,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>Environment (Azure Cloud type).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#environment ServiceendpointAzurerm#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#environment ServiceendpointAzurerm#environment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#features ServiceendpointAzurerm#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#features ServiceendpointAzurerm#features}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurerm.ServiceendpointAzurermFeatures\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#id ServiceendpointAzurerm#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#id ServiceendpointAzurerm#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>Scope Resource Group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#resource_group ServiceendpointAzurerm#resource_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#resource_group ServiceendpointAzurerm#resource_group}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#server_url ServiceendpointAzurerm#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#server_url ServiceendpointAzurerm#server_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerUrl
@@ -165,7 +165,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>The AzureRM Service Endpoint Authentication Scheme, this can be 'WorkloadIdentityFederation', 'ManagedServiceIdentity' or 'ServicePrincipal'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#service_endpoint_authentication_scheme ServiceendpointAzurerm#service_endpoint_authentication_scheme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#service_endpoint_authentication_scheme ServiceendpointAzurerm#service_endpoint_authentication_scheme}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceEndpointAuthenticationScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace azuredevops.ServiceendpointAzurerm
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#timeouts ServiceendpointAzurerm#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#timeouts ServiceendpointAzurerm#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzurerm.ServiceendpointAzurermTimeouts\"}", isOptional: true)]

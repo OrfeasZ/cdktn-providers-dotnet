@@ -7,14 +7,14 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
     [JsiiInterface(nativeType: typeof(IServiceendpointJfrogXrayV2Config), fullyQualifiedName: "azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2Config")]
     public interface IServiceendpointJfrogXrayV2Config : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#project_id ServiceendpointJfrogXrayV2#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#project_id ServiceendpointJfrogXrayV2#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#service_endpoint_name ServiceendpointJfrogXrayV2#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#service_endpoint_name ServiceendpointJfrogXrayV2#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
@@ -23,7 +23,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
         /// <summary>Url for the JFrog Artifactory Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#url ServiceendpointJfrogXrayV2#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#url ServiceendpointJfrogXrayV2#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
@@ -33,7 +33,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
         /// <summary>authentication_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_basic ServiceendpointJfrogXrayV2#authentication_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_basic ServiceendpointJfrogXrayV2#authentication_basic}
         /// </remarks>
         [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2AuthenticationBasic\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
         /// <summary>authentication_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_token ServiceendpointJfrogXrayV2#authentication_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_token ServiceendpointJfrogXrayV2#authentication_token}
         /// </remarks>
         [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2AuthenticationToken\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#description ServiceendpointJfrogXrayV2#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#description ServiceendpointJfrogXrayV2#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -70,7 +70,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#id ServiceendpointJfrogXrayV2#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#id ServiceendpointJfrogXrayV2#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#timeouts ServiceendpointJfrogXrayV2#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#timeouts ServiceendpointJfrogXrayV2#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2Timeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,14 +106,14 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#project_id ServiceendpointJfrogXrayV2#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#project_id ServiceendpointJfrogXrayV2#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#service_endpoint_name ServiceendpointJfrogXrayV2#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#service_endpoint_name ServiceendpointJfrogXrayV2#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
@@ -122,7 +122,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
             /// <summary>Url for the JFrog Artifactory Server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#url ServiceendpointJfrogXrayV2#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#url ServiceendpointJfrogXrayV2#url}
             /// </remarks>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
@@ -132,7 +132,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
             /// <summary>authentication_basic block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_basic ServiceendpointJfrogXrayV2#authentication_basic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_basic ServiceendpointJfrogXrayV2#authentication_basic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2AuthenticationBasic\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
             /// <summary>authentication_token block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_token ServiceendpointJfrogXrayV2#authentication_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#authentication_token ServiceendpointJfrogXrayV2#authentication_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2AuthenticationToken\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
                 get => GetInstanceProperty<azuredevops.ServiceendpointJfrogXrayV2.IServiceendpointJfrogXrayV2AuthenticationToken?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#description ServiceendpointJfrogXrayV2#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#description ServiceendpointJfrogXrayV2#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -160,7 +160,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#id ServiceendpointJfrogXrayV2#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#id ServiceendpointJfrogXrayV2#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +174,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#timeouts ServiceendpointJfrogXrayV2#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#timeouts ServiceendpointJfrogXrayV2#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogXrayV2.ServiceendpointJfrogXrayV2Timeouts\"}", isOptional: true)]

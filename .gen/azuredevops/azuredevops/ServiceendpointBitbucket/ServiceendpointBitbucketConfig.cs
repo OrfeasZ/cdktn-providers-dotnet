@@ -9,18 +9,7 @@ namespace azuredevops.ServiceendpointBitbucket
     [JsiiByValue(fqn: "azuredevops.serviceendpointBitbucket.ServiceendpointBitbucketConfig")]
     public class ServiceendpointBitbucketConfig : azuredevops.ServiceendpointBitbucket.IServiceendpointBitbucketConfig
     {
-        /// <summary>The bitbucket password which should be used.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#password ServiceendpointBitbucket#password}
-        /// </remarks>
-        [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
-        public string Password
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#project_id ServiceendpointBitbucket#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#project_id ServiceendpointBitbucket#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -28,7 +17,7 @@ namespace azuredevops.ServiceendpointBitbucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#service_endpoint_name ServiceendpointBitbucket#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#service_endpoint_name ServiceendpointBitbucket#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -36,18 +25,19 @@ namespace azuredevops.ServiceendpointBitbucket
             set;
         }
 
-        /// <summary>The bitbucket username which should be used.</summary>
+        /// <summary>The bitbucket API token which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#username ServiceendpointBitbucket#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#api_token ServiceendpointBitbucket#api_token}
         /// </remarks>
-        [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
-        public string Username
+        [JsiiOptional]
+        [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ApiToken
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#description ServiceendpointBitbucket#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#description ServiceendpointBitbucket#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -56,7 +46,19 @@ namespace azuredevops.ServiceendpointBitbucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#id ServiceendpointBitbucket#id}.</summary>
+        /// <summary>The bitbucket account email which should be used.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#email ServiceendpointBitbucket#email}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Email
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#id ServiceendpointBitbucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,13 +71,37 @@ namespace azuredevops.ServiceendpointBitbucket
             set;
         }
 
+        /// <summary>The bitbucket password which should be used.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#password ServiceendpointBitbucket#password}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Password
+        {
+            get;
+            set;
+        }
+
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#timeouts ServiceendpointBitbucket#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#timeouts ServiceendpointBitbucket#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointBitbucket.ServiceendpointBitbucketTimeouts\"}", isOptional: true)]
         public azuredevops.ServiceendpointBitbucket.IServiceendpointBitbucketTimeouts? Timeouts
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The bitbucket username which should be used.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#username ServiceendpointBitbucket#username}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Username
         {
             get;
             set;

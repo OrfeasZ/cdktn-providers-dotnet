@@ -11,7 +11,7 @@ namespace azuredevops.BuildDefinition
     {
         /// <summary>forks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#forks BuildDefinition#forks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#forks BuildDefinition#forks}
         /// </remarks>
         [JsiiProperty(name: "forks", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTriggerForks\"}")]
         public azuredevops.BuildDefinition.IBuildDefinitionPullRequestTriggerForks Forks
@@ -20,7 +20,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#comment_required BuildDefinition#comment_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#comment_required BuildDefinition#comment_required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commentRequired", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommentRequired
@@ -29,7 +29,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#initial_branch BuildDefinition#initial_branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#initial_branch BuildDefinition#initial_branch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "initialBranch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InitialBranch
@@ -40,7 +40,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#override BuildDefinition#override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#override BuildDefinition#override}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "override", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTriggerOverride\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace azuredevops.BuildDefinition
 
         private object? _useYaml;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

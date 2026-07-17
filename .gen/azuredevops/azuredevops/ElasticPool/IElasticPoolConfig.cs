@@ -7,49 +7,49 @@ namespace azuredevops.ElasticPool
     [JsiiInterface(nativeType: typeof(IElasticPoolConfig), fullyQualifiedName: "azuredevops.elasticPool.ElasticPoolConfig")]
     public interface IElasticPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#azure_resource_id ElasticPool#azure_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#azure_resource_id ElasticPool#azure_resource_id}.</summary>
         [JsiiProperty(name: "azureResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string AzureResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#desired_idle ElasticPool#desired_idle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#desired_idle ElasticPool#desired_idle}.</summary>
         [JsiiProperty(name: "desiredIdle", typeJson: "{\"primitive\":\"number\"}")]
         double DesiredIdle
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#max_capacity ElasticPool#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#max_capacity ElasticPool#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         double MaxCapacity
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#name ElasticPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#name ElasticPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#service_endpoint_id ElasticPool#service_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#service_endpoint_id ElasticPool#service_endpoint_id}.</summary>
         [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#service_endpoint_scope ElasticPool#service_endpoint_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#service_endpoint_scope ElasticPool#service_endpoint_scope}.</summary>
         [JsiiProperty(name: "serviceEndpointScope", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointScope
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#agent_interactive_ui ElasticPool#agent_interactive_ui}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#agent_interactive_ui ElasticPool#agent_interactive_ui}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -63,7 +63,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#auto_provision ElasticPool#auto_provision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#auto_provision ElasticPool#auto_provision}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#auto_update ElasticPool#auto_update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#auto_update ElasticPool#auto_update}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -91,7 +91,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#id ElasticPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#id ElasticPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -106,7 +106,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#project_id ElasticPool#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#project_id ElasticPool#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProjectId
@@ -117,7 +117,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#recycle_after_each_use ElasticPool#recycle_after_each_use}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#recycle_after_each_use ElasticPool#recycle_after_each_use}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -133,7 +133,7 @@ namespace azuredevops.ElasticPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#timeouts ElasticPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#timeouts ElasticPool#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.elasticPool.ElasticPoolTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -145,7 +145,7 @@ namespace azuredevops.ElasticPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#time_to_live_minutes ElasticPool#time_to_live_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#time_to_live_minutes ElasticPool#time_to_live_minutes}.</summary>
         [JsiiProperty(name: "timeToLiveMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TimeToLiveMinutes
@@ -163,49 +163,49 @@ namespace azuredevops.ElasticPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#azure_resource_id ElasticPool#azure_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#azure_resource_id ElasticPool#azure_resource_id}.</summary>
             [JsiiProperty(name: "azureResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#desired_idle ElasticPool#desired_idle}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#desired_idle ElasticPool#desired_idle}.</summary>
             [JsiiProperty(name: "desiredIdle", typeJson: "{\"primitive\":\"number\"}")]
             public double DesiredIdle
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#max_capacity ElasticPool#max_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#max_capacity ElasticPool#max_capacity}.</summary>
             [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxCapacity
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#name ElasticPool#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#name ElasticPool#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#service_endpoint_id ElasticPool#service_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#service_endpoint_id ElasticPool#service_endpoint_id}.</summary>
             [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#service_endpoint_scope ElasticPool#service_endpoint_scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#service_endpoint_scope ElasticPool#service_endpoint_scope}.</summary>
             [JsiiProperty(name: "serviceEndpointScope", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointScope
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#agent_interactive_ui ElasticPool#agent_interactive_ui}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#agent_interactive_ui ElasticPool#agent_interactive_ui}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -216,7 +216,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#auto_provision ElasticPool#auto_provision}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#auto_provision ElasticPool#auto_provision}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -227,7 +227,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#auto_update ElasticPool#auto_update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#auto_update ElasticPool#auto_update}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -238,7 +238,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#id ElasticPool#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#id ElasticPool#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -250,7 +250,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#project_id ElasticPool#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#project_id ElasticPool#project_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProjectId
@@ -258,7 +258,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#recycle_after_each_use ElasticPool#recycle_after_each_use}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#recycle_after_each_use ElasticPool#recycle_after_each_use}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -271,7 +271,7 @@ namespace azuredevops.ElasticPool
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#timeouts ElasticPool#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#timeouts ElasticPool#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.elasticPool.ElasticPoolTimeouts\"}", isOptional: true)]
@@ -280,7 +280,7 @@ namespace azuredevops.ElasticPool
                 get => GetInstanceProperty<azuredevops.ElasticPool.IElasticPoolTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/elastic_pool#time_to_live_minutes ElasticPool#time_to_live_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/elastic_pool#time_to_live_minutes ElasticPool#time_to_live_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeToLiveMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TimeToLiveMinutes

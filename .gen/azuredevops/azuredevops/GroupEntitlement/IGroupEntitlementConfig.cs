@@ -7,7 +7,7 @@ namespace azuredevops.GroupEntitlement
     [JsiiInterface(nativeType: typeof(IGroupEntitlementConfig), fullyQualifiedName: "azuredevops.groupEntitlement.GroupEntitlementConfig")]
     public interface IGroupEntitlementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#account_license_type GroupEntitlement#account_license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#account_license_type GroupEntitlement#account_license_type}.</summary>
         [JsiiProperty(name: "accountLicenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountLicenseType
@@ -18,7 +18,7 @@ namespace azuredevops.GroupEntitlement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#display_name GroupEntitlement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#display_name GroupEntitlement#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -29,7 +29,7 @@ namespace azuredevops.GroupEntitlement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#id GroupEntitlement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#id GroupEntitlement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace azuredevops.GroupEntitlement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#licensing_source GroupEntitlement#licensing_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#licensing_source GroupEntitlement#licensing_source}.</summary>
         [JsiiProperty(name: "licensingSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicensingSource
@@ -55,7 +55,7 @@ namespace azuredevops.GroupEntitlement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#origin GroupEntitlement#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#origin GroupEntitlement#origin}.</summary>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Origin
@@ -66,7 +66,7 @@ namespace azuredevops.GroupEntitlement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#origin_id GroupEntitlement#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#origin_id GroupEntitlement#origin_id}.</summary>
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OriginId
@@ -79,7 +79,7 @@ namespace azuredevops.GroupEntitlement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#timeouts GroupEntitlement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#timeouts GroupEntitlement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.groupEntitlement.GroupEntitlementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace azuredevops.GroupEntitlement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#account_license_type GroupEntitlement#account_license_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#account_license_type GroupEntitlement#account_license_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountLicenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountLicenseType
@@ -106,7 +106,7 @@ namespace azuredevops.GroupEntitlement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#display_name GroupEntitlement#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#display_name GroupEntitlement#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -114,7 +114,7 @@ namespace azuredevops.GroupEntitlement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#id GroupEntitlement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#id GroupEntitlement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace azuredevops.GroupEntitlement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#licensing_source GroupEntitlement#licensing_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#licensing_source GroupEntitlement#licensing_source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licensingSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicensingSource
@@ -134,7 +134,7 @@ namespace azuredevops.GroupEntitlement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#origin GroupEntitlement#origin}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#origin GroupEntitlement#origin}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Origin
@@ -142,7 +142,7 @@ namespace azuredevops.GroupEntitlement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#origin_id GroupEntitlement#origin_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#origin_id GroupEntitlement#origin_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OriginId
@@ -152,7 +152,7 @@ namespace azuredevops.GroupEntitlement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/group_entitlement#timeouts GroupEntitlement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/group_entitlement#timeouts GroupEntitlement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.groupEntitlement.GroupEntitlementTimeouts\"}", isOptional: true)]

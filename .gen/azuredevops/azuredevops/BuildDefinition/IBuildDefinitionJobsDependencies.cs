@@ -7,7 +7,7 @@ namespace azuredevops.BuildDefinition
     [JsiiInterface(nativeType: typeof(IBuildDefinitionJobsDependencies), fullyQualifiedName: "azuredevops.buildDefinition.BuildDefinitionJobsDependencies")]
     public interface IBuildDefinitionJobsDependencies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         string Scope
         {
@@ -21,7 +21,7 @@ namespace azuredevops.BuildDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#scope BuildDefinition#scope}.</summary>
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
             public string Scope
             {

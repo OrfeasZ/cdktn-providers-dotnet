@@ -7,28 +7,28 @@ namespace azuredevops.FeedRetentionPolicy
     [JsiiInterface(nativeType: typeof(IFeedRetentionPolicyConfig), fullyQualifiedName: "azuredevops.feedRetentionPolicy.FeedRetentionPolicyConfig")]
     public interface IFeedRetentionPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#count_limit FeedRetentionPolicy#count_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#count_limit FeedRetentionPolicy#count_limit}.</summary>
         [JsiiProperty(name: "countLimit", typeJson: "{\"primitive\":\"number\"}")]
         double CountLimit
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#days_to_keep_recently_downloaded_packages FeedRetentionPolicy#days_to_keep_recently_downloaded_packages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#days_to_keep_recently_downloaded_packages FeedRetentionPolicy#days_to_keep_recently_downloaded_packages}.</summary>
         [JsiiProperty(name: "daysToKeepRecentlyDownloadedPackages", typeJson: "{\"primitive\":\"number\"}")]
         double DaysToKeepRecentlyDownloadedPackages
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#feed_id FeedRetentionPolicy#feed_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#feed_id FeedRetentionPolicy#feed_id}.</summary>
         [JsiiProperty(name: "feedId", typeJson: "{\"primitive\":\"string\"}")]
         string FeedId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#id FeedRetentionPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#id FeedRetentionPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace azuredevops.FeedRetentionPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#project_id FeedRetentionPolicy#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#project_id FeedRetentionPolicy#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProjectId
@@ -56,7 +56,7 @@ namespace azuredevops.FeedRetentionPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#timeouts FeedRetentionPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#timeouts FeedRetentionPolicy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.feedRetentionPolicy.FeedRetentionPolicyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,28 +75,28 @@ namespace azuredevops.FeedRetentionPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#count_limit FeedRetentionPolicy#count_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#count_limit FeedRetentionPolicy#count_limit}.</summary>
             [JsiiProperty(name: "countLimit", typeJson: "{\"primitive\":\"number\"}")]
             public double CountLimit
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#days_to_keep_recently_downloaded_packages FeedRetentionPolicy#days_to_keep_recently_downloaded_packages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#days_to_keep_recently_downloaded_packages FeedRetentionPolicy#days_to_keep_recently_downloaded_packages}.</summary>
             [JsiiProperty(name: "daysToKeepRecentlyDownloadedPackages", typeJson: "{\"primitive\":\"number\"}")]
             public double DaysToKeepRecentlyDownloadedPackages
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#feed_id FeedRetentionPolicy#feed_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#feed_id FeedRetentionPolicy#feed_id}.</summary>
             [JsiiProperty(name: "feedId", typeJson: "{\"primitive\":\"string\"}")]
             public string FeedId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#id FeedRetentionPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#id FeedRetentionPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace azuredevops.FeedRetentionPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#project_id FeedRetentionPolicy#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#project_id FeedRetentionPolicy#project_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProjectId
@@ -118,7 +118,7 @@ namespace azuredevops.FeedRetentionPolicy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/feed_retention_policy#timeouts FeedRetentionPolicy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/feed_retention_policy#timeouts FeedRetentionPolicy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.feedRetentionPolicy.FeedRetentionPolicyTimeouts\"}", isOptional: true)]

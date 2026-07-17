@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
     [JsiiByValue(fqn: "azuredevops.serviceendpointIncomingwebhook.ServiceendpointIncomingwebhookConfig")]
     public class ServiceendpointIncomingwebhookConfig : azuredevops.ServiceendpointIncomingwebhook.IServiceendpointIncomingwebhookConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#project_id ServiceendpointIncomingwebhook#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#project_id ServiceendpointIncomingwebhook#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#service_endpoint_name ServiceendpointIncomingwebhook#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#service_endpoint_name ServiceendpointIncomingwebhook#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
 
         /// <summary>The name of the WebHook.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#webhook_name ServiceendpointIncomingwebhook#webhook_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#webhook_name ServiceendpointIncomingwebhook#webhook_name}
         /// </remarks>
         [JsiiProperty(name: "webhookName", typeJson: "{\"primitive\":\"string\"}")]
         public string WebhookName
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#description ServiceendpointIncomingwebhook#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#description ServiceendpointIncomingwebhook#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -47,7 +47,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
 
         /// <summary>Optional http header name on which checksum will be sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#http_header ServiceendpointIncomingwebhook#http_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#http_header ServiceendpointIncomingwebhook#http_header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#id ServiceendpointIncomingwebhook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#id ServiceendpointIncomingwebhook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
 
         /// <summary>Optional secret for the webhook. WebHook service will use this secret to calculate the payload checksum.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#secret ServiceendpointIncomingwebhook#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#secret ServiceendpointIncomingwebhook#secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointIncomingwebhook
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_incomingwebhook#timeouts ServiceendpointIncomingwebhook#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_incomingwebhook#timeouts ServiceendpointIncomingwebhook#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointIncomingwebhook.ServiceendpointIncomingwebhookTimeouts\"}", isOptional: true)]

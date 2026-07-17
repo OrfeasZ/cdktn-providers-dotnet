@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
     {
         /// <summary>The ID of the security namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#id DataAzuredevopsSecurityNamespace#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#id DataAzuredevopsSecurityNamespace#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,7 +26,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
 
         /// <summary>The name of the security namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#name DataAzuredevopsSecurityNamespace#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#name DataAzuredevopsSecurityNamespace#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#timeouts DataAzuredevopsSecurityNamespace#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#timeouts DataAzuredevopsSecurityNamespace#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsSecurityNamespace.DataAzuredevopsSecurityNamespaceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
 
             /// <summary>The ID of the security namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#id DataAzuredevopsSecurityNamespace#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#id DataAzuredevopsSecurityNamespace#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
 
             /// <summary>The name of the security namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#name DataAzuredevopsSecurityNamespace#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#name DataAzuredevopsSecurityNamespace#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespace
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace#timeouts DataAzuredevopsSecurityNamespace#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace#timeouts DataAzuredevopsSecurityNamespace#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsSecurityNamespace.DataAzuredevopsSecurityNamespaceTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointBlackDuck
     [JsiiByValue(fqn: "azuredevops.serviceendpointBlackDuck.ServiceendpointBlackDuckConfig")]
     public class ServiceendpointBlackDuckConfig : azuredevops.ServiceendpointBlackDuck.IServiceendpointBlackDuckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#api_token ServiceendpointBlackDuck#api_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#api_token ServiceendpointBlackDuck#api_token}.</summary>
         [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiToken
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointBlackDuck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#project_id ServiceendpointBlackDuck#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#project_id ServiceendpointBlackDuck#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.ServiceendpointBlackDuck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#server_url ServiceendpointBlackDuck#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#server_url ServiceendpointBlackDuck#server_url}.</summary>
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerUrl
         {
@@ -33,7 +33,7 @@ namespace azuredevops.ServiceendpointBlackDuck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#service_endpoint_name ServiceendpointBlackDuck#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#service_endpoint_name ServiceendpointBlackDuck#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -41,7 +41,7 @@ namespace azuredevops.ServiceendpointBlackDuck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#description ServiceendpointBlackDuck#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#description ServiceendpointBlackDuck#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -50,7 +50,7 @@ namespace azuredevops.ServiceendpointBlackDuck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#id ServiceendpointBlackDuck#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#id ServiceendpointBlackDuck#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace azuredevops.ServiceendpointBlackDuck
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_black_duck#timeouts ServiceendpointBlackDuck#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_black_duck#timeouts ServiceendpointBlackDuck#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointBlackDuck.ServiceendpointBlackDuckTimeouts\"}", isOptional: true)]

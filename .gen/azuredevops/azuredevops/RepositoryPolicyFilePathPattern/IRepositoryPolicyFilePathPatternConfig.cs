@@ -7,21 +7,21 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
     [JsiiInterface(nativeType: typeof(IRepositoryPolicyFilePathPatternConfig), fullyQualifiedName: "azuredevops.repositoryPolicyFilePathPattern.RepositoryPolicyFilePathPatternConfig")]
     public interface IRepositoryPolicyFilePathPatternConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#filepath_patterns RepositoryPolicyFilePathPattern#filepath_patterns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#filepath_patterns RepositoryPolicyFilePathPattern#filepath_patterns}.</summary>
         [JsiiProperty(name: "filepathPatterns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] FilepathPatterns
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#project_id RepositoryPolicyFilePathPattern#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#project_id RepositoryPolicyFilePathPattern#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#blocking RepositoryPolicyFilePathPattern#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#blocking RepositoryPolicyFilePathPattern#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#enabled RepositoryPolicyFilePathPattern#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#enabled RepositoryPolicyFilePathPattern#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,7 +49,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#id RepositoryPolicyFilePathPattern#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#id RepositoryPolicyFilePathPattern#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#repository_ids RepositoryPolicyFilePathPattern#repository_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#repository_ids RepositoryPolicyFilePathPattern#repository_ids}.</summary>
         [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RepositoryIds
@@ -77,7 +77,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#timeouts RepositoryPolicyFilePathPattern#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#timeouts RepositoryPolicyFilePathPattern#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyFilePathPattern.RepositoryPolicyFilePathPatternTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,21 +96,21 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#filepath_patterns RepositoryPolicyFilePathPattern#filepath_patterns}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#filepath_patterns RepositoryPolicyFilePathPattern#filepath_patterns}.</summary>
             [JsiiProperty(name: "filepathPatterns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] FilepathPatterns
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#project_id RepositoryPolicyFilePathPattern#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#project_id RepositoryPolicyFilePathPattern#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#blocking RepositoryPolicyFilePathPattern#blocking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#blocking RepositoryPolicyFilePathPattern#blocking}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -121,7 +121,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#enabled RepositoryPolicyFilePathPattern#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#enabled RepositoryPolicyFilePathPattern#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -132,7 +132,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#id RepositoryPolicyFilePathPattern#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#id RepositoryPolicyFilePathPattern#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#repository_ids RepositoryPolicyFilePathPattern#repository_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#repository_ids RepositoryPolicyFilePathPattern#repository_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RepositoryIds
@@ -154,7 +154,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#timeouts RepositoryPolicyFilePathPattern#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#timeouts RepositoryPolicyFilePathPattern#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyFilePathPattern.RepositoryPolicyFilePathPatternTimeouts\"}", isOptional: true)]

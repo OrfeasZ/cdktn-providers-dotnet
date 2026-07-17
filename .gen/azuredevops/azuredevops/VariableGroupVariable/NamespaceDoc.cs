@@ -5,7 +5,7 @@ namespace azuredevops.VariableGroupVariable
     /// <remarks>
     /// <h1><c>azuredevops_variable_group_variable</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable"><c>azuredevops_variable_group_variable</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable"><c>azuredevops_variable_group_variable</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

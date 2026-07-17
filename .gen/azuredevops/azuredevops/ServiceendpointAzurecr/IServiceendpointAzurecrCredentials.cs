@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointAzurecr
     {
         /// <summary>The service principal id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
         /// </remarks>
         [JsiiProperty(name: "serviceprincipalid", typeJson: "{\"primitive\":\"string\"}")]
         string Serviceprincipalid
@@ -26,7 +26,7 @@ namespace azuredevops.ServiceendpointAzurecr
 
             /// <summary>The service principal id which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
             /// </remarks>
             [JsiiProperty(name: "serviceprincipalid", typeJson: "{\"primitive\":\"string\"}")]
             public string Serviceprincipalid

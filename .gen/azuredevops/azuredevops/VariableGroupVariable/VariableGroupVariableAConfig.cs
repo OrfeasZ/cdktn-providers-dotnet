@@ -9,7 +9,7 @@ namespace azuredevops.VariableGroupVariable
     [JsiiByValue(fqn: "azuredevops.variableGroupVariable.VariableGroupVariableAConfig")]
     public class VariableGroupVariableAConfig : azuredevops.VariableGroupVariable.IVariableGroupVariableAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#name VariableGroupVariableA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#name VariableGroupVariableA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azuredevops.VariableGroupVariable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#project_id VariableGroupVariableA#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#project_id VariableGroupVariableA#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.VariableGroupVariable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#variable_group_id VariableGroupVariableA#variable_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#variable_group_id VariableGroupVariableA#variable_group_id}.</summary>
         [JsiiProperty(name: "variableGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string VariableGroupId
         {
@@ -33,7 +33,7 @@ namespace azuredevops.VariableGroupVariable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#id VariableGroupVariableA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#id VariableGroupVariableA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuredevops.VariableGroupVariable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#secret_value VariableGroupVariableA#secret_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#secret_value VariableGroupVariableA#secret_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretValue
@@ -57,7 +57,7 @@ namespace azuredevops.VariableGroupVariable
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#timeouts VariableGroupVariableA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#timeouts VariableGroupVariableA#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.variableGroupVariable.VariableGroupVariableTimeouts\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azuredevops.VariableGroupVariable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group_variable#value VariableGroupVariableA#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group_variable#value VariableGroupVariableA#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

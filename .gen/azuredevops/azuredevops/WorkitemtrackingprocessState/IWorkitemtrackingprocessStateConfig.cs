@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessState
     {
         /// <summary>Color hexadecimal code to represent the state.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#color WorkitemtrackingprocessState#color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#color WorkitemtrackingprocessState#color}
         /// </remarks>
         [JsiiProperty(name: "color", typeJson: "{\"primitive\":\"string\"}")]
         string Color
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>Name of the state.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#name WorkitemtrackingprocessState#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#name WorkitemtrackingprocessState#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#process_id WorkitemtrackingprocessState#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#process_id WorkitemtrackingprocessState#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -39,7 +39,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>Category of the state. Valid values: Proposed, InProgress, Resolved, Completed, Removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#state_category WorkitemtrackingprocessState#state_category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#state_category WorkitemtrackingprocessState#state_category}
         /// </remarks>
         [JsiiProperty(name: "stateCategory", typeJson: "{\"primitive\":\"string\"}")]
         string StateCategory
@@ -49,7 +49,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#work_item_type_id WorkitemtrackingprocessState#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#work_item_type_id WorkitemtrackingprocessState#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkItemTypeId
@@ -57,7 +57,7 @@ namespace azuredevops.WorkitemtrackingprocessState
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#id WorkitemtrackingprocessState#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#id WorkitemtrackingprocessState#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>Order within the category where the state should appear.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#order WorkitemtrackingprocessState#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#order WorkitemtrackingprocessState#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#timeouts WorkitemtrackingprocessState#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#timeouts WorkitemtrackingprocessState#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessState.WorkitemtrackingprocessStateTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>Color hexadecimal code to represent the state.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#color WorkitemtrackingprocessState#color}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#color WorkitemtrackingprocessState#color}
             /// </remarks>
             [JsiiProperty(name: "color", typeJson: "{\"primitive\":\"string\"}")]
             public string Color
@@ -119,7 +119,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>Name of the state.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#name WorkitemtrackingprocessState#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#name WorkitemtrackingprocessState#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -129,7 +129,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#process_id WorkitemtrackingprocessState#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#process_id WorkitemtrackingprocessState#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -139,7 +139,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>Category of the state. Valid values: Proposed, InProgress, Resolved, Completed, Removed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#state_category WorkitemtrackingprocessState#state_category}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#state_category WorkitemtrackingprocessState#state_category}
             /// </remarks>
             [JsiiProperty(name: "stateCategory", typeJson: "{\"primitive\":\"string\"}")]
             public string StateCategory
@@ -149,7 +149,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>The ID (reference name) of the work item type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#work_item_type_id WorkitemtrackingprocessState#work_item_type_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#work_item_type_id WorkitemtrackingprocessState#work_item_type_id}
             /// </remarks>
             [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkItemTypeId
@@ -157,7 +157,7 @@ namespace azuredevops.WorkitemtrackingprocessState
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#id WorkitemtrackingprocessState#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#id WorkitemtrackingprocessState#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,7 +171,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>Order within the category where the state should appear.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#order WorkitemtrackingprocessState#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#order WorkitemtrackingprocessState#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace azuredevops.WorkitemtrackingprocessState
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_state#timeouts WorkitemtrackingprocessState#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_state#timeouts WorkitemtrackingprocessState#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessState.WorkitemtrackingprocessStateTimeouts\"}", isOptional: true)]

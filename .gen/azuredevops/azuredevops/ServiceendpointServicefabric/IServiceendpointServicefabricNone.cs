@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointServicefabric
     {
         /// <summary>Fully qualified domain SPN for gMSA account. This is applicable only if `unsecured` option is disabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#cluster_spn ServiceendpointServicefabric#cluster_spn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#cluster_spn ServiceendpointServicefabric#cluster_spn}
         /// </remarks>
         [JsiiProperty(name: "clusterSpn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
         /// <summary>Skip using windows security for authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#unsecured ServiceendpointServicefabric#unsecured}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#unsecured ServiceendpointServicefabric#unsecured}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "unsecured", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>Fully qualified domain SPN for gMSA account. This is applicable only if `unsecured` option is disabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#cluster_spn ServiceendpointServicefabric#cluster_spn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#cluster_spn ServiceendpointServicefabric#cluster_spn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clusterSpn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azuredevops.ServiceendpointServicefabric
 
             /// <summary>Skip using windows security for authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_servicefabric#unsecured ServiceendpointServicefabric#unsecured}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_servicefabric#unsecured ServiceendpointServicefabric#unsecured}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

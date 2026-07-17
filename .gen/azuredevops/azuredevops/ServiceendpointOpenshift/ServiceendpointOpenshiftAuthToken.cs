@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointOpenshift
     [JsiiByValue(fqn: "azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthToken")]
     public class ServiceendpointOpenshiftAuthToken : azuredevops.ServiceendpointOpenshift.IServiceendpointOpenshiftAuthToken
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#token ServiceendpointOpenshift#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#token ServiceendpointOpenshift#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {

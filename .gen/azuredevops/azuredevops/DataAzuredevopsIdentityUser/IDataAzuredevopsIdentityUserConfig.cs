@@ -7,14 +7,14 @@ namespace azuredevops.DataAzuredevopsIdentityUser
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsIdentityUserConfig), fullyQualifiedName: "azuredevops.dataAzuredevopsIdentityUser.DataAzuredevopsIdentityUserConfig")]
     public interface IDataAzuredevopsIdentityUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace azuredevops.DataAzuredevopsIdentityUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}.</summary>
         [JsiiProperty(name: "searchFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SearchFilter
@@ -42,7 +42,7 @@ namespace azuredevops.DataAzuredevopsIdentityUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsIdentityUser.DataAzuredevopsIdentityUserTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,14 +61,14 @@ namespace azuredevops.DataAzuredevopsIdentityUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#name DataAzuredevopsIdentityUser#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#id DataAzuredevopsIdentityUser#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace azuredevops.DataAzuredevopsIdentityUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#search_filter DataAzuredevopsIdentityUser#search_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SearchFilter
@@ -90,7 +90,7 @@ namespace azuredevops.DataAzuredevopsIdentityUser
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/identity_user#timeouts DataAzuredevopsIdentityUser#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsIdentityUser.DataAzuredevopsIdentityUserTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azuredevops.CheckBusinessHours
     [JsiiByValue(fqn: "azuredevops.checkBusinessHours.CheckBusinessHoursConfig")]
     public class CheckBusinessHoursConfig : azuredevops.CheckBusinessHours.ICheckBusinessHoursConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#end_time CheckBusinessHours#end_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#end_time CheckBusinessHours#end_time}.</summary>
         [JsiiProperty(name: "endTime", typeJson: "{\"primitive\":\"string\"}")]
         public string EndTime
         {
@@ -17,7 +17,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#project_id CheckBusinessHours#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#project_id CheckBusinessHours#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#start_time CheckBusinessHours#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#start_time CheckBusinessHours#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTime
         {
@@ -33,7 +33,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#target_resource_id CheckBusinessHours#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#target_resource_id CheckBusinessHours#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -41,7 +41,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#target_resource_type CheckBusinessHours#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#target_resource_type CheckBusinessHours#target_resource_type}.</summary>
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceType
         {
@@ -49,7 +49,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#time_zone CheckBusinessHours#time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#time_zone CheckBusinessHours#time_zone}.</summary>
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeZone
         {
@@ -57,7 +57,7 @@ namespace azuredevops.CheckBusinessHours
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#display_name CheckBusinessHours#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#display_name CheckBusinessHours#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -68,7 +68,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _friday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#friday CheckBusinessHours#friday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#friday CheckBusinessHours#friday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -100,7 +100,7 @@ namespace azuredevops.CheckBusinessHours
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#id CheckBusinessHours#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#id CheckBusinessHours#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _monday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#monday CheckBusinessHours#monday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#monday CheckBusinessHours#monday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -149,7 +149,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _saturday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#saturday CheckBusinessHours#saturday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#saturday CheckBusinessHours#saturday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -183,7 +183,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _sunday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#sunday CheckBusinessHours#sunday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#sunday CheckBusinessHours#sunday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -217,7 +217,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _thursday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#thursday CheckBusinessHours#thursday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#thursday CheckBusinessHours#thursday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -249,7 +249,7 @@ namespace azuredevops.CheckBusinessHours
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#timeout CheckBusinessHours#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#timeout CheckBusinessHours#timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Timeout
@@ -260,7 +260,7 @@ namespace azuredevops.CheckBusinessHours
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#timeouts CheckBusinessHours#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#timeouts CheckBusinessHours#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.checkBusinessHours.CheckBusinessHoursTimeouts\"}", isOptional: true)]
@@ -272,7 +272,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _tuesday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#tuesday CheckBusinessHours#tuesday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#tuesday CheckBusinessHours#tuesday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -306,7 +306,7 @@ namespace azuredevops.CheckBusinessHours
 
         private object? _wednesday;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_business_hours#wednesday CheckBusinessHours#wednesday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_business_hours#wednesday CheckBusinessHours#wednesday}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

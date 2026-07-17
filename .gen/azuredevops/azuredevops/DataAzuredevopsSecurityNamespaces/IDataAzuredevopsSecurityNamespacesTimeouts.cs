@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaces
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsSecurityNamespacesTimeouts), fullyQualifiedName: "azuredevops.dataAzuredevopsSecurityNamespaces.DataAzuredevopsSecurityNamespacesTimeouts")]
     public interface IDataAzuredevopsSecurityNamespacesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespaces#read DataAzuredevopsSecurityNamespaces#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespaces#read DataAzuredevopsSecurityNamespaces#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaces
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespaces#read DataAzuredevopsSecurityNamespaces#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespaces#read DataAzuredevopsSecurityNamespaces#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

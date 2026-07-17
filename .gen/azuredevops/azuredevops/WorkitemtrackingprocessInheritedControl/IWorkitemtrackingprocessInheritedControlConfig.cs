@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
     {
         /// <summary>The ID of the inherited control to customize.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#control_id WorkitemtrackingprocessInheritedControl#control_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#control_id WorkitemtrackingprocessInheritedControl#control_id}
         /// </remarks>
         [JsiiProperty(name: "controlId", typeJson: "{\"primitive\":\"string\"}")]
         string ControlId
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>The ID of the group containing the control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#group_id WorkitemtrackingprocessInheritedControl#group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#group_id WorkitemtrackingprocessInheritedControl#group_id}
         /// </remarks>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         string GroupId
@@ -29,7 +29,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#process_id WorkitemtrackingprocessInheritedControl#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#process_id WorkitemtrackingprocessInheritedControl#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -39,7 +39,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#work_item_type_id WorkitemtrackingprocessInheritedControl#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#work_item_type_id WorkitemtrackingprocessInheritedControl#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkItemTypeId
@@ -47,7 +47,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#id WorkitemtrackingprocessInheritedControl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#id WorkitemtrackingprocessInheritedControl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>Label for the control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#label WorkitemtrackingprocessInheritedControl#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#label WorkitemtrackingprocessInheritedControl#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#timeouts WorkitemtrackingprocessInheritedControl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#timeouts WorkitemtrackingprocessInheritedControl#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessInheritedControl.WorkitemtrackingprocessInheritedControlTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
         /// <summary>Whether the control should be visible.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#visible WorkitemtrackingprocessInheritedControl#visible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#visible WorkitemtrackingprocessInheritedControl#visible}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "visible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>The ID of the inherited control to customize.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#control_id WorkitemtrackingprocessInheritedControl#control_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#control_id WorkitemtrackingprocessInheritedControl#control_id}
             /// </remarks>
             [JsiiProperty(name: "controlId", typeJson: "{\"primitive\":\"string\"}")]
             public string ControlId
@@ -124,7 +124,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>The ID of the group containing the control.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#group_id WorkitemtrackingprocessInheritedControl#group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#group_id WorkitemtrackingprocessInheritedControl#group_id}
             /// </remarks>
             [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupId
@@ -134,7 +134,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#process_id WorkitemtrackingprocessInheritedControl#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#process_id WorkitemtrackingprocessInheritedControl#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -144,7 +144,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>The ID (reference name) of the work item type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#work_item_type_id WorkitemtrackingprocessInheritedControl#work_item_type_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#work_item_type_id WorkitemtrackingprocessInheritedControl#work_item_type_id}
             /// </remarks>
             [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkItemTypeId
@@ -152,7 +152,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#id WorkitemtrackingprocessInheritedControl#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#id WorkitemtrackingprocessInheritedControl#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>Label for the control.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#label WorkitemtrackingprocessInheritedControl#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#label WorkitemtrackingprocessInheritedControl#label}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#timeouts WorkitemtrackingprocessInheritedControl#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#timeouts WorkitemtrackingprocessInheritedControl#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessInheritedControl.WorkitemtrackingprocessInheritedControlTimeouts\"}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedControl
 
             /// <summary>Whether the control should be visible.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_control#visible WorkitemtrackingprocessInheritedControl#visible}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_control#visible WorkitemtrackingprocessInheritedControl#visible}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

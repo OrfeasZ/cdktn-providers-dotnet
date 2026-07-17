@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyMergeTypes
     [JsiiByValue(fqn: "azuredevops.branchPolicyMergeTypes.BranchPolicyMergeTypesConfig")]
     public class BranchPolicyMergeTypesConfig : azuredevops.BranchPolicyMergeTypes.IBranchPolicyMergeTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#project_id BranchPolicyMergeTypes#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#project_id BranchPolicyMergeTypes#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -19,7 +19,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#settings BranchPolicyMergeTypes#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#settings BranchPolicyMergeTypes#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"azuredevops.branchPolicyMergeTypes.BranchPolicyMergeTypesSettings\"}")]
         public azuredevops.BranchPolicyMergeTypes.IBranchPolicyMergeTypesSettings Settings
@@ -30,7 +30,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _blocking;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#blocking BranchPolicyMergeTypes#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#blocking BranchPolicyMergeTypes#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#enabled BranchPolicyMergeTypes#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#enabled BranchPolicyMergeTypes#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace azuredevops.BranchPolicyMergeTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#id BranchPolicyMergeTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#id BranchPolicyMergeTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -111,7 +111,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#timeouts BranchPolicyMergeTypes#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#timeouts BranchPolicyMergeTypes#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.branchPolicyMergeTypes.BranchPolicyMergeTypesTimeouts\"}", isOptional: true)]

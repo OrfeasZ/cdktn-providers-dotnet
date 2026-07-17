@@ -7,14 +7,14 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsServiceendpointAzurecrConfig), fullyQualifiedName: "azuredevops.dataAzuredevopsServiceendpointAzurecr.DataAzuredevopsServiceendpointAzurecrConfig")]
     public interface IDataAzuredevopsServiceendpointAzurecrConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#project_id DataAzuredevopsServiceendpointAzurecr#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#project_id DataAzuredevopsServiceendpointAzurecr#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#id DataAzuredevopsServiceendpointAzurecr#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#id DataAzuredevopsServiceendpointAzurecr#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
 
         /// <summary>The ID of the serviceendpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#service_endpoint_id DataAzuredevopsServiceendpointAzurecr#service_endpoint_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#service_endpoint_id DataAzuredevopsServiceendpointAzurecr#service_endpoint_id}
         /// </remarks>
         [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#service_endpoint_name DataAzuredevopsServiceendpointAzurecr#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#service_endpoint_name DataAzuredevopsServiceendpointAzurecr#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceEndpointName
@@ -56,7 +56,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#timeouts DataAzuredevopsServiceendpointAzurecr#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#timeouts DataAzuredevopsServiceendpointAzurecr#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsServiceendpointAzurecr.DataAzuredevopsServiceendpointAzurecrTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,14 +75,14 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#project_id DataAzuredevopsServiceendpointAzurecr#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#project_id DataAzuredevopsServiceendpointAzurecr#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#id DataAzuredevopsServiceendpointAzurecr#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#id DataAzuredevopsServiceendpointAzurecr#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
 
             /// <summary>The ID of the serviceendpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#service_endpoint_id DataAzuredevopsServiceendpointAzurecr#service_endpoint_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#service_endpoint_id DataAzuredevopsServiceendpointAzurecr#service_endpoint_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#service_endpoint_name DataAzuredevopsServiceendpointAzurecr#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#service_endpoint_name DataAzuredevopsServiceendpointAzurecr#service_endpoint_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceEndpointName
@@ -115,7 +115,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointAzurecr
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_azurecr#timeouts DataAzuredevopsServiceendpointAzurecr#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_azurecr#timeouts DataAzuredevopsServiceendpointAzurecr#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsServiceendpointAzurecr.DataAzuredevopsServiceendpointAzurecrTimeouts\"}", isOptional: true)]

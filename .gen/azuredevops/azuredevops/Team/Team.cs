@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azuredevops.Team
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team azuredevops_team}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team azuredevops_team}.</summary>
     [JsiiClass(nativeType: typeof(azuredevops.Team.Team), fullyQualifiedName: "azuredevops.team.Team", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azuredevops.team.TeamConfig\"}}]")]
     public class Team : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team azuredevops_team} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team azuredevops_team} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Team(Constructs.Construct scope, string id, azuredevops.Team.ITeamConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace azuredevops.Team
         /// <param name="importToId">The construct id used in the generated config for the Team to import.</param>
         /// <param name="importFromId">The id of the existing Team that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Team to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Team to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Team that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Team to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Team to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Team that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Team to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azuredevops.Team.Team), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.Team.ITeamArea" />)[]</param>
+        [JsiiMethod(name: "putArea", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.team.TeamArea\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutArea(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case azuredevops.Team.ITeamArea[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azuredevops.Team.ITeamArea).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azuredevops.Team.ITeamArea).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azuredevops.team.TeamTimeouts\"}}]")]
@@ -54,6 +78,12 @@ namespace azuredevops.Team
 
         [JsiiMethod(name: "resetAdministrators")]
         public virtual void ResetAdministrators()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetArea")]
+        public virtual void ResetArea()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -101,6 +131,12 @@ namespace azuredevops.Team
         }
         = GetStaticProperty<string>(typeof(azuredevops.Team.Team))!;
 
+        [JsiiProperty(name: "area", typeJson: "{\"fqn\":\"azuredevops.team.TeamAreaList\"}")]
+        public virtual azuredevops.Team.TeamAreaList Area
+        {
+            get => GetInstanceProperty<azuredevops.Team.TeamAreaList>()!;
+        }
+
         [JsiiProperty(name: "descriptor", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Descriptor
         {
@@ -118,6 +154,16 @@ namespace azuredevops.Team
         public virtual string[]? AdministratorsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.Team.ITeamArea" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "areaInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.team.TeamArea\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AreaInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsGroupMembership
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsGroupMembership.DataAzuredevopsGroupMembershipConfig")]
     public class DataAzuredevopsGroupMembershipConfig : azuredevops.DataAzuredevopsGroupMembership.IDataAzuredevopsGroupMembershipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/group_membership#group_descriptor DataAzuredevopsGroupMembership#group_descriptor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/group_membership#group_descriptor DataAzuredevopsGroupMembership#group_descriptor}.</summary>
         [JsiiProperty(name: "groupDescriptor", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupDescriptor
         {
@@ -17,7 +17,7 @@ namespace azuredevops.DataAzuredevopsGroupMembership
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/group_membership#id DataAzuredevopsGroupMembership#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/group_membership#id DataAzuredevopsGroupMembership#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azuredevops.DataAzuredevopsGroupMembership
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/group_membership#timeouts DataAzuredevopsGroupMembership#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/group_membership#timeouts DataAzuredevopsGroupMembership#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsGroupMembership.DataAzuredevopsGroupMembershipTimeouts\"}", isOptional: true)]

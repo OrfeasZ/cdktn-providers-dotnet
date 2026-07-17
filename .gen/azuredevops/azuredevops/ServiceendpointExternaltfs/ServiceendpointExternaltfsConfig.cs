@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointExternaltfs
     {
         /// <summary>auth_personal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#auth_personal ServiceendpointExternaltfs#auth_personal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#auth_personal ServiceendpointExternaltfs#auth_personal}
         /// </remarks>
         [JsiiProperty(name: "authPersonal", typeJson: "{\"fqn\":\"azuredevops.serviceendpointExternaltfs.ServiceendpointExternaltfsAuthPersonal\"}")]
         public azuredevops.ServiceendpointExternaltfs.IServiceendpointExternaltfsAuthPersonal AuthPersonal
@@ -22,7 +22,7 @@ namespace azuredevops.ServiceendpointExternaltfs
 
         /// <summary>URL of the Azure DevOps organization or the TFS Project Collection to connect to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#connection_url ServiceendpointExternaltfs#connection_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#connection_url ServiceendpointExternaltfs#connection_url}
         /// </remarks>
         [JsiiProperty(name: "connectionUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionUrl
@@ -31,7 +31,7 @@ namespace azuredevops.ServiceendpointExternaltfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#project_id ServiceendpointExternaltfs#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#project_id ServiceendpointExternaltfs#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointExternaltfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#service_endpoint_name ServiceendpointExternaltfs#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#service_endpoint_name ServiceendpointExternaltfs#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -47,7 +47,7 @@ namespace azuredevops.ServiceendpointExternaltfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#description ServiceendpointExternaltfs#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#description ServiceendpointExternaltfs#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -56,7 +56,7 @@ namespace azuredevops.ServiceendpointExternaltfs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#id ServiceendpointExternaltfs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#id ServiceendpointExternaltfs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace azuredevops.ServiceendpointExternaltfs
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_externaltfs#timeouts ServiceendpointExternaltfs#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_externaltfs#timeouts ServiceendpointExternaltfs#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointExternaltfs.ServiceendpointExternaltfsTimeouts\"}", isOptional: true)]

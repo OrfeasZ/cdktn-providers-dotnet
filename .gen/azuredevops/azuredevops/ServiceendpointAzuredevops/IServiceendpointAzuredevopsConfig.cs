@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointAzuredevops
     {
         /// <summary>The Azure DevOps personal access token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#personal_access_token ServiceendpointAzuredevops#personal_access_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#personal_access_token ServiceendpointAzuredevops#personal_access_token}
         /// </remarks>
         [JsiiProperty(name: "personalAccessToken", typeJson: "{\"primitive\":\"string\"}")]
         string PersonalAccessToken
@@ -17,21 +17,21 @@ namespace azuredevops.ServiceendpointAzuredevops
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#project_id ServiceendpointAzuredevops#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#project_id ServiceendpointAzuredevops#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#service_endpoint_name ServiceendpointAzuredevops#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#service_endpoint_name ServiceendpointAzuredevops#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#description ServiceendpointAzuredevops#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#description ServiceendpointAzuredevops#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -42,7 +42,7 @@ namespace azuredevops.ServiceendpointAzuredevops
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#id ServiceendpointAzuredevops#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#id ServiceendpointAzuredevops#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azuredevops.ServiceendpointAzuredevops
 
         /// <summary>The Organization Url.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#org_url ServiceendpointAzuredevops#org_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#org_url ServiceendpointAzuredevops#org_url}
         /// </remarks>
         [JsiiProperty(name: "orgUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace azuredevops.ServiceendpointAzuredevops
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#release_api_url ServiceendpointAzuredevops#release_api_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#release_api_url ServiceendpointAzuredevops#release_api_url}.</summary>
         [JsiiProperty(name: "releaseApiUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReleaseApiUrl
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointAzuredevops
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#timeouts ServiceendpointAzuredevops#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#timeouts ServiceendpointAzuredevops#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzuredevops.ServiceendpointAzuredevopsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace azuredevops.ServiceendpointAzuredevops
 
             /// <summary>The Azure DevOps personal access token.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#personal_access_token ServiceendpointAzuredevops#personal_access_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#personal_access_token ServiceendpointAzuredevops#personal_access_token}
             /// </remarks>
             [JsiiProperty(name: "personalAccessToken", typeJson: "{\"primitive\":\"string\"}")]
             public string PersonalAccessToken
@@ -113,21 +113,21 @@ namespace azuredevops.ServiceendpointAzuredevops
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#project_id ServiceendpointAzuredevops#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#project_id ServiceendpointAzuredevops#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#service_endpoint_name ServiceendpointAzuredevops#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#service_endpoint_name ServiceendpointAzuredevops#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#description ServiceendpointAzuredevops#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#description ServiceendpointAzuredevops#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -135,7 +135,7 @@ namespace azuredevops.ServiceendpointAzuredevops
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#id ServiceendpointAzuredevops#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#id ServiceendpointAzuredevops#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ namespace azuredevops.ServiceendpointAzuredevops
 
             /// <summary>The Organization Url.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#org_url ServiceendpointAzuredevops#org_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#org_url ServiceendpointAzuredevops#org_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "orgUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace azuredevops.ServiceendpointAzuredevops
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#release_api_url ServiceendpointAzuredevops#release_api_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#release_api_url ServiceendpointAzuredevops#release_api_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "releaseApiUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReleaseApiUrl
@@ -168,7 +168,7 @@ namespace azuredevops.ServiceendpointAzuredevops
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azuredevops#timeouts ServiceendpointAzuredevops#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azuredevops#timeouts ServiceendpointAzuredevops#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAzuredevops.ServiceendpointAzuredevopsTimeouts\"}", isOptional: true)]

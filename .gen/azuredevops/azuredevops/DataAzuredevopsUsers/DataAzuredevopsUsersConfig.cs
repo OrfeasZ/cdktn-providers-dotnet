@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsUsers
     {
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#features DataAzuredevopsUsers#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#features DataAzuredevopsUsers#features}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsUsers.DataAzuredevopsUsersFeatures\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace azuredevops.DataAzuredevopsUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#id DataAzuredevopsUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#id DataAzuredevopsUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azuredevops.DataAzuredevopsUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#origin DataAzuredevopsUsers#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#origin DataAzuredevopsUsers#origin}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Origin
@@ -41,7 +41,7 @@ namespace azuredevops.DataAzuredevopsUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#origin_id DataAzuredevopsUsers#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#origin_id DataAzuredevopsUsers#origin_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginId
@@ -50,7 +50,7 @@ namespace azuredevops.DataAzuredevopsUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#principal_name DataAzuredevopsUsers#principal_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#principal_name DataAzuredevopsUsers#principal_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "principalName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrincipalName
@@ -59,7 +59,7 @@ namespace azuredevops.DataAzuredevopsUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#subject_types DataAzuredevopsUsers#subject_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#subject_types DataAzuredevopsUsers#subject_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subjectTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubjectTypes
@@ -70,7 +70,7 @@ namespace azuredevops.DataAzuredevopsUsers
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#timeouts DataAzuredevopsUsers#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#timeouts DataAzuredevopsUsers#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsUsers.DataAzuredevopsUsersTimeouts\"}", isOptional: true)]

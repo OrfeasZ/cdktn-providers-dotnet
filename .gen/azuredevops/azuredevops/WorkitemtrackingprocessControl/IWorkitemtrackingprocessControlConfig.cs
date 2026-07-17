@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
     {
         /// <summary>The ID for the control. For field controls, this is the field reference name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#control_id WorkitemtrackingprocessControl#control_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#control_id WorkitemtrackingprocessControl#control_id}
         /// </remarks>
         [JsiiProperty(name: "controlId", typeJson: "{\"primitive\":\"string\"}")]
         string ControlId
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>The ID of the group to add the control to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#group_id WorkitemtrackingprocessControl#group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#group_id WorkitemtrackingprocessControl#group_id}
         /// </remarks>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         string GroupId
@@ -29,7 +29,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#process_id WorkitemtrackingprocessControl#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#process_id WorkitemtrackingprocessControl#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -39,7 +39,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>The reference name of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#work_item_type_reference_name WorkitemtrackingprocessControl#work_item_type_reference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#work_item_type_reference_name WorkitemtrackingprocessControl#work_item_type_reference_name}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeReferenceName", typeJson: "{\"primitive\":\"string\"}")]
         string WorkItemTypeReferenceName
@@ -49,7 +49,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>contribution block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#contribution WorkitemtrackingprocessControl#contribution}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#contribution WorkitemtrackingprocessControl#contribution}
         /// </remarks>
         [JsiiProperty(name: "contribution", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessControl.WorkitemtrackingprocessControlContribution\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#id WorkitemtrackingprocessControl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#id WorkitemtrackingprocessControl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>A value indicating if the layout node is contribution or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#is_contribution WorkitemtrackingprocessControl#is_contribution}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#is_contribution WorkitemtrackingprocessControl#is_contribution}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isContribution", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>Label for the field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#label WorkitemtrackingprocessControl#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#label WorkitemtrackingprocessControl#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>Inner text of the control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#metadata WorkitemtrackingprocessControl#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#metadata WorkitemtrackingprocessControl#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>Order in which the control should appear in its group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#order WorkitemtrackingprocessControl#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#order WorkitemtrackingprocessControl#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>A value indicating if the control is readonly.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#read_only WorkitemtrackingprocessControl#read_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#read_only WorkitemtrackingprocessControl#read_only}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "readOnly", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#timeouts WorkitemtrackingprocessControl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#timeouts WorkitemtrackingprocessControl#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessControl.WorkitemtrackingprocessControlTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -164,7 +164,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>A value indicating if the control should be hidden or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#visible WorkitemtrackingprocessControl#visible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#visible WorkitemtrackingprocessControl#visible}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "visible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>Watermark text for the textbox.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#watermark WorkitemtrackingprocessControl#watermark}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#watermark WorkitemtrackingprocessControl#watermark}
         /// </remarks>
         [JsiiProperty(name: "watermark", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +200,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The ID for the control. For field controls, this is the field reference name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#control_id WorkitemtrackingprocessControl#control_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#control_id WorkitemtrackingprocessControl#control_id}
             /// </remarks>
             [JsiiProperty(name: "controlId", typeJson: "{\"primitive\":\"string\"}")]
             public string ControlId
@@ -210,7 +210,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The ID of the group to add the control to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#group_id WorkitemtrackingprocessControl#group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#group_id WorkitemtrackingprocessControl#group_id}
             /// </remarks>
             [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupId
@@ -220,7 +220,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#process_id WorkitemtrackingprocessControl#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#process_id WorkitemtrackingprocessControl#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -230,7 +230,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The reference name of the work item type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#work_item_type_reference_name WorkitemtrackingprocessControl#work_item_type_reference_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#work_item_type_reference_name WorkitemtrackingprocessControl#work_item_type_reference_name}
             /// </remarks>
             [JsiiProperty(name: "workItemTypeReferenceName", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkItemTypeReferenceName
@@ -240,7 +240,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>contribution block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#contribution WorkitemtrackingprocessControl#contribution}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#contribution WorkitemtrackingprocessControl#contribution}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contribution", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessControl.WorkitemtrackingprocessControlContribution\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
                 get => GetInstanceProperty<azuredevops.WorkitemtrackingprocessControl.IWorkitemtrackingprocessControlContribution?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#id WorkitemtrackingprocessControl#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#id WorkitemtrackingprocessControl#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -263,7 +263,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>A value indicating if the layout node is contribution or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#is_contribution WorkitemtrackingprocessControl#is_contribution}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#is_contribution WorkitemtrackingprocessControl#is_contribution}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -275,7 +275,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>Label for the field.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#label WorkitemtrackingprocessControl#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#label WorkitemtrackingprocessControl#label}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -286,7 +286,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>Inner text of the control.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#metadata WorkitemtrackingprocessControl#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#metadata WorkitemtrackingprocessControl#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -297,7 +297,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>Order in which the control should appear in its group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#order WorkitemtrackingprocessControl#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#order WorkitemtrackingprocessControl#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -308,7 +308,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>A value indicating if the control is readonly.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#read_only WorkitemtrackingprocessControl#read_only}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#read_only WorkitemtrackingprocessControl#read_only}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -320,7 +320,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#timeouts WorkitemtrackingprocessControl#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#timeouts WorkitemtrackingprocessControl#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessControl.WorkitemtrackingprocessControlTimeouts\"}", isOptional: true)]
@@ -331,7 +331,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>A value indicating if the control should be hidden or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#visible WorkitemtrackingprocessControl#visible}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#visible WorkitemtrackingprocessControl#visible}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -343,7 +343,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>Watermark text for the textbox.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#watermark WorkitemtrackingprocessControl#watermark}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#watermark WorkitemtrackingprocessControl#watermark}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "watermark", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

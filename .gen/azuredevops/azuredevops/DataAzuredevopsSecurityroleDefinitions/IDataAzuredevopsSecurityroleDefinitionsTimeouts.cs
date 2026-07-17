@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsSecurityroleDefinitions
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsSecurityroleDefinitionsTimeouts), fullyQualifiedName: "azuredevops.dataAzuredevopsSecurityroleDefinitions.DataAzuredevopsSecurityroleDefinitionsTimeouts")]
     public interface IDataAzuredevopsSecurityroleDefinitionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/securityrole_definitions#read DataAzuredevopsSecurityroleDefinitions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/securityrole_definitions#read DataAzuredevopsSecurityroleDefinitions#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsSecurityroleDefinitions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/securityrole_definitions#read DataAzuredevopsSecurityroleDefinitions#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/securityrole_definitions#read DataAzuredevopsSecurityroleDefinitions#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

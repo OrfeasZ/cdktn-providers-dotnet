@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointRunpipeline
     {
         /// <summary>The Azure DevOps personal access token which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
         /// </remarks>
         [JsiiProperty(name: "personalAccessToken", typeJson: "{\"primitive\":\"string\"}")]
         string PersonalAccessToken
@@ -26,7 +26,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
             /// <summary>The Azure DevOps personal access token which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
             /// </remarks>
             [JsiiProperty(name: "personalAccessToken", typeJson: "{\"primitive\":\"string\"}")]
             public string PersonalAccessToken

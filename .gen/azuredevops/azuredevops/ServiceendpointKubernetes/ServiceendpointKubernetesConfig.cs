@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointKubernetes
     {
         /// <summary>URL to Kubernete's API-Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#apiserver_url ServiceendpointKubernetes#apiserver_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#apiserver_url ServiceendpointKubernetes#apiserver_url}
         /// </remarks>
         [JsiiProperty(name: "apiserverUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiserverUrl
@@ -22,7 +22,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>Type of credentials to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#authorization_type ServiceendpointKubernetes#authorization_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#authorization_type ServiceendpointKubernetes#authorization_type}
         /// </remarks>
         [JsiiProperty(name: "authorizationType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthorizationType
@@ -31,7 +31,7 @@ namespace azuredevops.ServiceendpointKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#project_id ServiceendpointKubernetes#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#project_id ServiceendpointKubernetes#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#service_endpoint_name ServiceendpointKubernetes#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#service_endpoint_name ServiceendpointKubernetes#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -51,7 +51,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>azure_subscription block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#azure_subscription ServiceendpointKubernetes#azure_subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#azure_subscription ServiceendpointKubernetes#azure_subscription}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.ServiceendpointKubernetes.IServiceendpointKubernetesAzureSubscription" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -82,7 +82,7 @@ namespace azuredevops.ServiceendpointKubernetes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#description ServiceendpointKubernetes#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#description ServiceendpointKubernetes#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -91,7 +91,7 @@ namespace azuredevops.ServiceendpointKubernetes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#id ServiceendpointKubernetes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#id ServiceendpointKubernetes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -106,7 +106,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>kubeconfig block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#kubeconfig ServiceendpointKubernetes#kubeconfig}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#kubeconfig ServiceendpointKubernetes#kubeconfig}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kubeconfig", typeJson: "{\"fqn\":\"azuredevops.serviceendpointKubernetes.ServiceendpointKubernetesKubeconfig\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>service_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#service_account ServiceendpointKubernetes#service_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#service_account ServiceendpointKubernetes#service_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceAccount", typeJson: "{\"fqn\":\"azuredevops.serviceendpointKubernetes.ServiceendpointKubernetesServiceAccount\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#timeouts ServiceendpointKubernetes#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#timeouts ServiceendpointKubernetes#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointKubernetes.ServiceendpointKubernetesTimeouts\"}", isOptional: true)]

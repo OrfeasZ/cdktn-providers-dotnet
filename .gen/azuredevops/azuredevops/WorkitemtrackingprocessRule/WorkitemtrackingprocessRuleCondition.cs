@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
     {
         /// <summary>Type of condition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#condition_type WorkitemtrackingprocessRule#condition_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#condition_type WorkitemtrackingprocessRule#condition_type}
         /// </remarks>
         [JsiiProperty(name: "conditionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConditionType
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>Field reference name for the condition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#field WorkitemtrackingprocessRule#field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#field WorkitemtrackingprocessRule#field}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "field", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>Value to match for the condition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#value WorkitemtrackingprocessRule#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#value WorkitemtrackingprocessRule#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

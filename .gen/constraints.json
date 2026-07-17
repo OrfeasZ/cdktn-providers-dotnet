@@ -5,7 +5,7 @@
     "aws": "6.55.0",
     "azapi": "2.11.0",
     "azuread": "3.9.0",
-    "azuredevops": "1.15.1",
+    "azuredevops": "1.16.0",
     "azurerm": "4.81.0",
     "azurestack": "1.0.0",
     "cloudflare": "5.22.0",

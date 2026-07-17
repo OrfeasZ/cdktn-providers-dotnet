@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
     {
         /// <summary>The JFrog Artifactory access token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#token ServiceendpointJfrogPlatformV2#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#token ServiceendpointJfrogPlatformV2#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token

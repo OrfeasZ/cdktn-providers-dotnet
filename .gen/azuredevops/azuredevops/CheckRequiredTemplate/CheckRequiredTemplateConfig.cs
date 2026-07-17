@@ -9,7 +9,7 @@ namespace azuredevops.CheckRequiredTemplate
     [JsiiByValue(fqn: "azuredevops.checkRequiredTemplate.CheckRequiredTemplateConfig")]
     public class CheckRequiredTemplateConfig : azuredevops.CheckRequiredTemplate.ICheckRequiredTemplateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#project_id CheckRequiredTemplate#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#project_id CheckRequiredTemplate#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -21,7 +21,7 @@ namespace azuredevops.CheckRequiredTemplate
 
         /// <summary>required_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#required_template CheckRequiredTemplate#required_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#required_template CheckRequiredTemplate#required_template}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.CheckRequiredTemplate.ICheckRequiredTemplateRequiredTemplate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "requiredTemplate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.checkRequiredTemplate.CheckRequiredTemplateRequiredTemplate\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace azuredevops.CheckRequiredTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#target_resource_id CheckRequiredTemplate#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#target_resource_id CheckRequiredTemplate#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -59,7 +59,7 @@ namespace azuredevops.CheckRequiredTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#target_resource_type CheckRequiredTemplate#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#target_resource_type CheckRequiredTemplate#target_resource_type}.</summary>
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceType
         {
@@ -67,7 +67,7 @@ namespace azuredevops.CheckRequiredTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#id CheckRequiredTemplate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#id CheckRequiredTemplate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace azuredevops.CheckRequiredTemplate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_required_template#timeouts CheckRequiredTemplate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_required_template#timeouts CheckRequiredTemplate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.checkRequiredTemplate.CheckRequiredTemplateTimeouts\"}", isOptional: true)]

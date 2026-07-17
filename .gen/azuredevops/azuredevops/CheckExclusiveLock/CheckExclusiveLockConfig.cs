@@ -9,7 +9,7 @@ namespace azuredevops.CheckExclusiveLock
     [JsiiByValue(fqn: "azuredevops.checkExclusiveLock.CheckExclusiveLockConfig")]
     public class CheckExclusiveLockConfig : azuredevops.CheckExclusiveLock.ICheckExclusiveLockConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#project_id CheckExclusiveLock#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#project_id CheckExclusiveLock#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.CheckExclusiveLock
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#target_resource_id CheckExclusiveLock#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#target_resource_id CheckExclusiveLock#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.CheckExclusiveLock
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#target_resource_type CheckExclusiveLock#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#target_resource_type CheckExclusiveLock#target_resource_type}.</summary>
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceType
         {
@@ -33,7 +33,7 @@ namespace azuredevops.CheckExclusiveLock
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#id CheckExclusiveLock#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#id CheckExclusiveLock#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuredevops.CheckExclusiveLock
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#timeout CheckExclusiveLock#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#timeout CheckExclusiveLock#timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Timeout
@@ -57,7 +57,7 @@ namespace azuredevops.CheckExclusiveLock
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_exclusive_lock#timeouts CheckExclusiveLock#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_exclusive_lock#timeouts CheckExclusiveLock#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.checkExclusiveLock.CheckExclusiveLockTimeouts\"}", isOptional: true)]

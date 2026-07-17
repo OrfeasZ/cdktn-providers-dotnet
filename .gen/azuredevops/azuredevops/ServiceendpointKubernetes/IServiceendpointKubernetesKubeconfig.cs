@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointKubernetes
         /// <remarks>
         /// The configuration information in your kubeconfig file allows Kubernetes clients to talk to your Kubernetes API servers. This file is used by kubectl and all supported Kubernetes clients.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
         /// </remarks>
         [JsiiProperty(name: "kubeConfig", typeJson: "{\"primitive\":\"string\"}")]
         string KubeConfig
@@ -21,7 +21,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>Enable this if your authentication uses untrusted certificates.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "acceptUntrustedCerts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>Context of your cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
         /// </remarks>
         [JsiiProperty(name: "clusterContext", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azuredevops.ServiceendpointKubernetes
             /// <remarks>
             /// The configuration information in your kubeconfig file allows Kubernetes clients to talk to your Kubernetes API servers. This file is used by kubectl and all supported Kubernetes clients.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#kube_config ServiceendpointKubernetes#kube_config}
             /// </remarks>
             [JsiiProperty(name: "kubeConfig", typeJson: "{\"primitive\":\"string\"}")]
             public string KubeConfig
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>Enable this if your authentication uses untrusted certificates.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#accept_untrusted_certs ServiceendpointKubernetes#accept_untrusted_certs}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>Context of your cluster.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_context ServiceendpointKubernetes#cluster_context}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clusterContext", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

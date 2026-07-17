@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
     {
         /// <summary>The id for the contribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#contribution_id WorkitemtrackingprocessGroup#contribution_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#contribution_id WorkitemtrackingprocessGroup#contribution_id}
         /// </remarks>
         [JsiiProperty(name: "contributionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContributionId
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>The height for the contribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#height WorkitemtrackingprocessGroup#height}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#height WorkitemtrackingprocessGroup#height}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>A dictionary holding key value pairs for contribution inputs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#inputs WorkitemtrackingprocessGroup#inputs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#inputs WorkitemtrackingprocessGroup#inputs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>A value indicating if the contribution should be shown on deleted work item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#show_on_deleted_work_item WorkitemtrackingprocessGroup#show_on_deleted_work_item}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#show_on_deleted_work_item WorkitemtrackingprocessGroup#show_on_deleted_work_item}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyStatusCheck
     [JsiiByValue(fqn: "azuredevops.branchPolicyStatusCheck.BranchPolicyStatusCheckConfig")]
     public class BranchPolicyStatusCheckConfig : azuredevops.BranchPolicyStatusCheck.IBranchPolicyStatusCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#project_id BranchPolicyStatusCheck#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#project_id BranchPolicyStatusCheck#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -19,7 +19,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#settings BranchPolicyStatusCheck#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#settings BranchPolicyStatusCheck#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"azuredevops.branchPolicyStatusCheck.BranchPolicyStatusCheckSettings\"}")]
         public azuredevops.BranchPolicyStatusCheck.IBranchPolicyStatusCheckSettings Settings
@@ -30,7 +30,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         private object? _blocking;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#blocking BranchPolicyStatusCheck#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#blocking BranchPolicyStatusCheck#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#enabled BranchPolicyStatusCheck#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#enabled BranchPolicyStatusCheck#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#id BranchPolicyStatusCheck#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#id BranchPolicyStatusCheck#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -111,7 +111,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#timeouts BranchPolicyStatusCheck#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#timeouts BranchPolicyStatusCheck#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.branchPolicyStatusCheck.BranchPolicyStatusCheckTimeouts\"}", isOptional: true)]

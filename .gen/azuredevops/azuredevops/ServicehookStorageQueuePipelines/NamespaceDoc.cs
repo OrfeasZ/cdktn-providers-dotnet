@@ -5,7 +5,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
     /// <remarks>
     /// <h1><c>azuredevops_servicehook_storage_queue_pipelines</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines"><c>azuredevops_servicehook_storage_queue_pipelines</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines"><c>azuredevops_servicehook_storage_queue_pipelines</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

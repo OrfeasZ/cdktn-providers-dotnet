@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsVariableGroup
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsVariableGroup.DataAzuredevopsVariableGroupTimeouts")]
     public class DataAzuredevopsVariableGroupTimeouts : azuredevops.DataAzuredevopsVariableGroup.IDataAzuredevopsVariableGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/variable_group#read DataAzuredevopsVariableGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/variable_group#read DataAzuredevopsVariableGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

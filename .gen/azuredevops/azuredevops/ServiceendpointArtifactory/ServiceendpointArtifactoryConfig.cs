@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointArtifactory
     [JsiiByValue(fqn: "azuredevops.serviceendpointArtifactory.ServiceendpointArtifactoryConfig")]
     public class ServiceendpointArtifactoryConfig : azuredevops.ServiceendpointArtifactory.IServiceendpointArtifactoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#project_id ServiceendpointArtifactory#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#project_id ServiceendpointArtifactory#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointArtifactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#service_endpoint_name ServiceendpointArtifactory#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#service_endpoint_name ServiceendpointArtifactory#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
         /// <summary>Url for the Artifactory Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#url ServiceendpointArtifactory#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#url ServiceendpointArtifactory#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -38,7 +38,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
         /// <summary>authentication_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#authentication_basic ServiceendpointArtifactory#authentication_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#authentication_basic ServiceendpointArtifactory#authentication_basic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArtifactory.ServiceendpointArtifactoryAuthenticationBasic\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
         /// <summary>authentication_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#authentication_token ServiceendpointArtifactory#authentication_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#authentication_token ServiceendpointArtifactory#authentication_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArtifactory.ServiceendpointArtifactoryAuthenticationToken\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointArtifactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#description ServiceendpointArtifactory#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#description ServiceendpointArtifactory#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointArtifactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#id ServiceendpointArtifactory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#id ServiceendpointArtifactory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointArtifactory
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_artifactory#timeouts ServiceendpointArtifactory#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_artifactory#timeouts ServiceendpointArtifactory#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointArtifactory.ServiceendpointArtifactoryTimeouts\"}", isOptional: true)]

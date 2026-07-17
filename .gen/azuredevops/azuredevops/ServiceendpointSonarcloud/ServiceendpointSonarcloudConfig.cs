@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointSonarcloud
     [JsiiByValue(fqn: "azuredevops.serviceendpointSonarcloud.ServiceendpointSonarcloudConfig")]
     public class ServiceendpointSonarcloudConfig : azuredevops.ServiceendpointSonarcloud.IServiceendpointSonarcloudConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#project_id ServiceendpointSonarcloud#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#project_id ServiceendpointSonarcloud#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointSonarcloud
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#service_endpoint_name ServiceendpointSonarcloud#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#service_endpoint_name ServiceendpointSonarcloud#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointSonarcloud
 
         /// <summary>Authentication Token generated through SonarCloud (go to My Account &gt; Security &gt; Generate Tokens).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#token ServiceendpointSonarcloud#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#token ServiceendpointSonarcloud#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointSonarcloud
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#description ServiceendpointSonarcloud#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#description ServiceendpointSonarcloud#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -45,7 +45,7 @@ namespace azuredevops.ServiceendpointSonarcloud
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#id ServiceendpointSonarcloud#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#id ServiceendpointSonarcloud#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointSonarcloud
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_sonarcloud#timeouts ServiceendpointSonarcloud#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_sonarcloud#timeouts ServiceendpointSonarcloud#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointSonarcloud.ServiceendpointSonarcloudTimeouts\"}", isOptional: true)]

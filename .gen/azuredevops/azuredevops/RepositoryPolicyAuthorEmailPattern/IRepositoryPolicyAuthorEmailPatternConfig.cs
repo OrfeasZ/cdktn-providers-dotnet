@@ -7,21 +7,21 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
     [JsiiInterface(nativeType: typeof(IRepositoryPolicyAuthorEmailPatternConfig), fullyQualifiedName: "azuredevops.repositoryPolicyAuthorEmailPattern.RepositoryPolicyAuthorEmailPatternConfig")]
     public interface IRepositoryPolicyAuthorEmailPatternConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#author_email_patterns RepositoryPolicyAuthorEmailPattern#author_email_patterns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#author_email_patterns RepositoryPolicyAuthorEmailPattern#author_email_patterns}.</summary>
         [JsiiProperty(name: "authorEmailPatterns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AuthorEmailPatterns
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#project_id RepositoryPolicyAuthorEmailPattern#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#project_id RepositoryPolicyAuthorEmailPattern#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#blocking RepositoryPolicyAuthorEmailPattern#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#blocking RepositoryPolicyAuthorEmailPattern#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#enabled RepositoryPolicyAuthorEmailPattern#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#enabled RepositoryPolicyAuthorEmailPattern#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,7 +49,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#id RepositoryPolicyAuthorEmailPattern#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#id RepositoryPolicyAuthorEmailPattern#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#repository_ids RepositoryPolicyAuthorEmailPattern#repository_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#repository_ids RepositoryPolicyAuthorEmailPattern#repository_ids}.</summary>
         [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RepositoryIds
@@ -77,7 +77,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#timeouts RepositoryPolicyAuthorEmailPattern#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#timeouts RepositoryPolicyAuthorEmailPattern#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyAuthorEmailPattern.RepositoryPolicyAuthorEmailPatternTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,21 +96,21 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#author_email_patterns RepositoryPolicyAuthorEmailPattern#author_email_patterns}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#author_email_patterns RepositoryPolicyAuthorEmailPattern#author_email_patterns}.</summary>
             [JsiiProperty(name: "authorEmailPatterns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AuthorEmailPatterns
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#project_id RepositoryPolicyAuthorEmailPattern#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#project_id RepositoryPolicyAuthorEmailPattern#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#blocking RepositoryPolicyAuthorEmailPattern#blocking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#blocking RepositoryPolicyAuthorEmailPattern#blocking}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -121,7 +121,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#enabled RepositoryPolicyAuthorEmailPattern#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#enabled RepositoryPolicyAuthorEmailPattern#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -132,7 +132,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#id RepositoryPolicyAuthorEmailPattern#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#id RepositoryPolicyAuthorEmailPattern#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#repository_ids RepositoryPolicyAuthorEmailPattern#repository_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#repository_ids RepositoryPolicyAuthorEmailPattern#repository_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RepositoryIds
@@ -154,7 +154,7 @@ namespace azuredevops.RepositoryPolicyAuthorEmailPattern
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_author_email_pattern#timeouts RepositoryPolicyAuthorEmailPattern#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_author_email_pattern#timeouts RepositoryPolicyAuthorEmailPattern#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyAuthorEmailPattern.RepositoryPolicyAuthorEmailPatternTimeouts\"}", isOptional: true)]

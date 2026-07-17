@@ -7,7 +7,7 @@ namespace azuredevops.ServiceendpointGithub
     [JsiiInterface(nativeType: typeof(IServiceendpointGithubAuthOauth), fullyQualifiedName: "azuredevops.serviceendpointGithub.ServiceendpointGithubAuthOauth")]
     public interface IServiceendpointGithubAuthOauth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#oauth_configuration_id ServiceendpointGithub#oauth_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#oauth_configuration_id ServiceendpointGithub#oauth_configuration_id}.</summary>
         [JsiiProperty(name: "oauthConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string OauthConfigurationId
         {
@@ -21,7 +21,7 @@ namespace azuredevops.ServiceendpointGithub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#oauth_configuration_id ServiceendpointGithub#oauth_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#oauth_configuration_id ServiceendpointGithub#oauth_configuration_id}.</summary>
             [JsiiProperty(name: "oauthConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string OauthConfigurationId
             {

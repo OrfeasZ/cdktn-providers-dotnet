@@ -9,7 +9,7 @@ namespace azuredevops.ResourceAuthorization
     {
         /// <summary>indicates whether the resource is authorized for use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "authorized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -18,7 +18,7 @@ namespace azuredevops.ResourceAuthorization
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ResourceAuthorization
 
         /// <summary>id of the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceId
@@ -37,7 +37,7 @@ namespace azuredevops.ResourceAuthorization
 
         /// <summary>id of the build definition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
         /// </remarks>
         [JsiiProperty(name: "definitionId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace azuredevops.ResourceAuthorization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#id ResourceAuthorization#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#id ResourceAuthorization#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace azuredevops.ResourceAuthorization
 
         /// <summary>type of the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#type ResourceAuthorization#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#type ResourceAuthorization#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace azuredevops.ResourceAuthorization
 
             /// <summary>indicates whether the resource is authorized for use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#authorized ResourceAuthorization#authorized}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "authorized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -96,7 +96,7 @@ namespace azuredevops.ResourceAuthorization
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#project_id ResourceAuthorization#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
@@ -105,7 +105,7 @@ namespace azuredevops.ResourceAuthorization
 
             /// <summary>id of the resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#resource_id ResourceAuthorization#resource_id}
             /// </remarks>
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceId
@@ -115,7 +115,7 @@ namespace azuredevops.ResourceAuthorization
 
             /// <summary>id of the build definition.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#definition_id ResourceAuthorization#definition_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "definitionId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azuredevops.ResourceAuthorization
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#id ResourceAuthorization#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#id ResourceAuthorization#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -138,7 +138,7 @@ namespace azuredevops.ResourceAuthorization
 
             /// <summary>type of the resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/resource_authorization#type ResourceAuthorization#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/resource_authorization#type ResourceAuthorization#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

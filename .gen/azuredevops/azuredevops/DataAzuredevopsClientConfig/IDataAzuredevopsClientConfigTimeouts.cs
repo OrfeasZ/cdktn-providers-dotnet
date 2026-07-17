@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsClientConfig
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsClientConfigTimeouts), fullyQualifiedName: "azuredevops.dataAzuredevopsClientConfig.DataAzuredevopsClientConfigTimeouts")]
     public interface IDataAzuredevopsClientConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/client_config#read DataAzuredevopsClientConfig#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/client_config#read DataAzuredevopsClientConfig#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsClientConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/client_config#read DataAzuredevopsClientConfig#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/client_config#read DataAzuredevopsClientConfig#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

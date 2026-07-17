@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointAzurerm
     {
         /// <summary>The service principal id which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#serviceprincipalid ServiceendpointAzurerm#serviceprincipalid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#serviceprincipalid ServiceendpointAzurerm#serviceprincipalid}
         /// </remarks>
         [JsiiProperty(name: "serviceprincipalid", typeJson: "{\"primitive\":\"string\"}")]
         public string Serviceprincipalid
@@ -20,7 +20,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#serviceprincipalcertificate ServiceendpointAzurerm#serviceprincipalcertificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#serviceprincipalcertificate ServiceendpointAzurerm#serviceprincipalcertificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceprincipalcertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Serviceprincipalcertificate
@@ -29,7 +29,7 @@ namespace azuredevops.ServiceendpointAzurerm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_azurerm#serviceprincipalkey ServiceendpointAzurerm#serviceprincipalkey}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_azurerm#serviceprincipalkey ServiceendpointAzurerm#serviceprincipalkey}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceprincipalkey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Serviceprincipalkey

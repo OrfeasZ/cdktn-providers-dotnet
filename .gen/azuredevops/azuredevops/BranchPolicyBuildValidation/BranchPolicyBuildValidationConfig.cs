@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyBuildValidation
     [JsiiByValue(fqn: "azuredevops.branchPolicyBuildValidation.BranchPolicyBuildValidationConfig")]
     public class BranchPolicyBuildValidationConfig : azuredevops.BranchPolicyBuildValidation.IBranchPolicyBuildValidationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#project_id BranchPolicyBuildValidation#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#project_id BranchPolicyBuildValidation#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -19,7 +19,7 @@ namespace azuredevops.BranchPolicyBuildValidation
 
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#settings BranchPolicyBuildValidation#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#settings BranchPolicyBuildValidation#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"azuredevops.branchPolicyBuildValidation.BranchPolicyBuildValidationSettings\"}")]
         public azuredevops.BranchPolicyBuildValidation.IBranchPolicyBuildValidationSettings Settings
@@ -30,7 +30,7 @@ namespace azuredevops.BranchPolicyBuildValidation
 
         private object? _blocking;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#blocking BranchPolicyBuildValidation#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#blocking BranchPolicyBuildValidation#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace azuredevops.BranchPolicyBuildValidation
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#enabled BranchPolicyBuildValidation#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#enabled BranchPolicyBuildValidation#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace azuredevops.BranchPolicyBuildValidation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#id BranchPolicyBuildValidation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#id BranchPolicyBuildValidation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -111,7 +111,7 @@ namespace azuredevops.BranchPolicyBuildValidation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_build_validation#timeouts BranchPolicyBuildValidation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_build_validation#timeouts BranchPolicyBuildValidation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.branchPolicyBuildValidation.BranchPolicyBuildValidationTimeouts\"}", isOptional: true)]

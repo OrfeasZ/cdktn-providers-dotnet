@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
     {
         /// <summary>The id for the contribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#contribution_id WorkitemtrackingprocessControl#contribution_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#contribution_id WorkitemtrackingprocessControl#contribution_id}
         /// </remarks>
         [JsiiProperty(name: "contributionId", typeJson: "{\"primitive\":\"string\"}")]
         string ContributionId
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>The height for the contribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#height WorkitemtrackingprocessControl#height}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#height WorkitemtrackingprocessControl#height}
         /// </remarks>
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>A dictionary holding key value pairs for contribution inputs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#inputs WorkitemtrackingprocessControl#inputs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#inputs WorkitemtrackingprocessControl#inputs}
         /// </remarks>
         [JsiiProperty(name: "inputs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
         /// <summary>A value indicating if the contribution should be shown on deleted work item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#show_on_deleted_work_item WorkitemtrackingprocessControl#show_on_deleted_work_item}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#show_on_deleted_work_item WorkitemtrackingprocessControl#show_on_deleted_work_item}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "showOnDeletedWorkItem", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The id for the contribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#contribution_id WorkitemtrackingprocessControl#contribution_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#contribution_id WorkitemtrackingprocessControl#contribution_id}
             /// </remarks>
             [JsiiProperty(name: "contributionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContributionId
@@ -79,7 +79,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>The height for the contribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#height WorkitemtrackingprocessControl#height}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#height WorkitemtrackingprocessControl#height}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>A dictionary holding key value pairs for contribution inputs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#inputs WorkitemtrackingprocessControl#inputs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#inputs WorkitemtrackingprocessControl#inputs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace azuredevops.WorkitemtrackingprocessControl
 
             /// <summary>A value indicating if the contribution should be shown on deleted work item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_control#show_on_deleted_work_item WorkitemtrackingprocessControl#show_on_deleted_work_item}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_control#show_on_deleted_work_item WorkitemtrackingprocessControl#show_on_deleted_work_item}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

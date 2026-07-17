@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingField
     {
         /// <summary>The friendly name of the field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#name WorkitemtrackingField#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#name WorkitemtrackingField#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>The reference name of the field (e.g., Custom.MyField).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#reference_name WorkitemtrackingField#reference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#reference_name WorkitemtrackingField#reference_name}
         /// </remarks>
         [JsiiProperty(name: "referenceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ReferenceName
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>The type of the field. Possible values: `string`, `integer`, `dateTime`, `plainText`, `html`, `treePath`, `history`, `double`, `guid`, `boolean`, `identity`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#type WorkitemtrackingField#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#type WorkitemtrackingField#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -44,7 +44,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>The description of the field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#description WorkitemtrackingField#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#description WorkitemtrackingField#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace azuredevops.WorkitemtrackingField
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#id WorkitemtrackingField#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#id WorkitemtrackingField#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>Indicates whether this field is locked for editing. Default: `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#is_locked WorkitemtrackingField#is_locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#is_locked WorkitemtrackingField#is_locked}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -106,7 +106,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>Indicates whether this field is a suggested picklist.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#is_picklist_suggested WorkitemtrackingField#is_picklist_suggested}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#is_picklist_suggested WorkitemtrackingField#is_picklist_suggested}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -139,7 +139,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>The identifier of the picklist associated with this field, if applicable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#picklist_id WorkitemtrackingField#picklist_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#picklist_id WorkitemtrackingField#picklist_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "picklistId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>Indicates whether the field is read-only. Default: `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#read_only WorkitemtrackingField#read_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#read_only WorkitemtrackingField#read_only}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -188,7 +188,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>Set to `true` to restore a previously deleted field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#restore WorkitemtrackingField#restore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#restore WorkitemtrackingField#restore}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -221,7 +221,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#timeouts WorkitemtrackingField#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#timeouts WorkitemtrackingField#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingField.WorkitemtrackingFieldTimeouts\"}", isOptional: true)]
@@ -233,7 +233,7 @@ namespace azuredevops.WorkitemtrackingField
 
         /// <summary>The usage of the field. Possible values: `none`, `workItem`, `workItemLink`, `tree`, `workItemTypeExtension`. Default: `workItem`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtracking_field#usage WorkitemtrackingField#usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtracking_field#usage WorkitemtrackingField#usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azuredevops.ServiceendpointBitbucket
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket}.</summary>
     [JsiiClass(nativeType: typeof(azuredevops.ServiceendpointBitbucket.ServiceendpointBitbucket), fullyQualifiedName: "azuredevops.serviceendpointBitbucket.ServiceendpointBitbucket", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azuredevops.serviceendpointBitbucket.ServiceendpointBitbucketConfig\"}}]")]
     public class ServiceendpointBitbucket : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket azuredevops_serviceendpoint_bitbucket} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ServiceendpointBitbucket(Constructs.Construct scope, string id, azuredevops.ServiceendpointBitbucket.IServiceendpointBitbucketConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azuredevops.ServiceendpointBitbucket
         /// <param name="importToId">The construct id used in the generated config for the ServiceendpointBitbucket to import.</param>
         /// <param name="importFromId">The id of the existing ServiceendpointBitbucket that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ServiceendpointBitbucket to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ServiceendpointBitbucket to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_bitbucket#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ServiceendpointBitbucket that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ServiceendpointBitbucket to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ServiceendpointBitbucket to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_bitbucket#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ServiceendpointBitbucket that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ServiceendpointBitbucket to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azuredevops.ServiceendpointBitbucket.ServiceendpointBitbucket), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,8 +52,20 @@ namespace azuredevops.ServiceendpointBitbucket
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azuredevops.ServiceendpointBitbucket.IServiceendpointBitbucketTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetApiToken")]
+        public virtual void ResetApiToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEmail")]
+        public virtual void ResetEmail()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -64,8 +76,20 @@ namespace azuredevops.ServiceendpointBitbucket
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPassword")]
+        public virtual void ResetPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUsername")]
+        public virtual void ResetUsername()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -102,8 +126,22 @@ namespace azuredevops.ServiceendpointBitbucket
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "apiTokenInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiTokenInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "emailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EmailInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -153,8 +191,22 @@ namespace azuredevops.ServiceendpointBitbucket
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiProperty(name: "apiToken", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApiToken
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Email
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyStatusCheck
     [JsiiByValue(fqn: "azuredevops.branchPolicyStatusCheck.BranchPolicyStatusCheckSettings")]
     public class BranchPolicyStatusCheckSettings : azuredevops.BranchPolicyStatusCheck.IBranchPolicyStatusCheckSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#name BranchPolicyStatusCheck#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#name BranchPolicyStatusCheck#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -21,7 +21,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#scope BranchPolicyStatusCheck#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#scope BranchPolicyStatusCheck#scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyStatusCheck.IBranchPolicyStatusCheckSettingsScope" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyStatusCheck.BranchPolicyStatusCheckSettingsScope\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#applicability BranchPolicyStatusCheck#applicability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#applicability BranchPolicyStatusCheck#applicability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Applicability
@@ -60,7 +60,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#author_id BranchPolicyStatusCheck#author_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#author_id BranchPolicyStatusCheck#author_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthorId
@@ -69,7 +69,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#display_name BranchPolicyStatusCheck#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#display_name BranchPolicyStatusCheck#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -78,7 +78,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#filename_patterns BranchPolicyStatusCheck#filename_patterns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#filename_patterns BranchPolicyStatusCheck#filename_patterns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filenamePatterns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilenamePatterns
@@ -87,7 +87,7 @@ namespace azuredevops.BranchPolicyStatusCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#genre BranchPolicyStatusCheck#genre}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#genre BranchPolicyStatusCheck#genre}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "genre", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Genre
@@ -98,7 +98,7 @@ namespace azuredevops.BranchPolicyStatusCheck
 
         private object? _invalidateOnUpdate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_status_check#invalidate_on_update BranchPolicyStatusCheck#invalidate_on_update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_status_check#invalidate_on_update BranchPolicyStatusCheck#invalidate_on_update}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

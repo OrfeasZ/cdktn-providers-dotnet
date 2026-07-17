@@ -9,7 +9,7 @@ namespace azuredevops.CheckRestApi
     [JsiiByValue(fqn: "azuredevops.checkRestApi.CheckRestApiConfig")]
     public class CheckRestApiConfig : azuredevops.CheckRestApi.ICheckRestApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#connected_service_name CheckRestApi#connected_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#connected_service_name CheckRestApi#connected_service_name}.</summary>
         [JsiiProperty(name: "connectedServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectedServiceName
         {
@@ -17,7 +17,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#connected_service_name_selector CheckRestApi#connected_service_name_selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#connected_service_name_selector CheckRestApi#connected_service_name_selector}.</summary>
         [JsiiProperty(name: "connectedServiceNameSelector", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectedServiceNameSelector
         {
@@ -25,7 +25,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#display_name CheckRestApi#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#display_name CheckRestApi#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#method CheckRestApi#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#method CheckRestApi#method}.</summary>
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
         public string Method
         {
@@ -41,7 +41,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#project_id CheckRestApi#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#project_id CheckRestApi#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -49,7 +49,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#target_resource_id CheckRestApi#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#target_resource_id CheckRestApi#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -57,7 +57,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#target_resource_type CheckRestApi#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#target_resource_type CheckRestApi#target_resource_type}.</summary>
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceType
         {
@@ -65,7 +65,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#body CheckRestApi#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#body CheckRestApi#body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Body
@@ -74,7 +74,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#completion_event CheckRestApi#completion_event}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#completion_event CheckRestApi#completion_event}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "completionEvent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompletionEvent
@@ -83,7 +83,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#headers CheckRestApi#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#headers CheckRestApi#headers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Headers
@@ -92,7 +92,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#id CheckRestApi#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#id CheckRestApi#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#retry_interval CheckRestApi#retry_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#retry_interval CheckRestApi#retry_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retryInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetryInterval
@@ -114,7 +114,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#success_criteria CheckRestApi#success_criteria}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#success_criteria CheckRestApi#success_criteria}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "successCriteria", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SuccessCriteria
@@ -123,7 +123,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#timeout CheckRestApi#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#timeout CheckRestApi#timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Timeout
@@ -134,7 +134,7 @@ namespace azuredevops.CheckRestApi
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#timeouts CheckRestApi#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#timeouts CheckRestApi#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.checkRestApi.CheckRestApiTimeouts\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#url_suffix CheckRestApi#url_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#url_suffix CheckRestApi#url_suffix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "urlSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UrlSuffix
@@ -153,7 +153,7 @@ namespace azuredevops.CheckRestApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/check_rest_api#variable_group_name CheckRestApi#variable_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/check_rest_api#variable_group_name CheckRestApi#variable_group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "variableGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VariableGroupName

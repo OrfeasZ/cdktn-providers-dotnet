@@ -7,7 +7,7 @@ namespace azuredevops.BranchPolicyMergeTypes
     [JsiiInterface(nativeType: typeof(IBranchPolicyMergeTypesSettingsScope), fullyQualifiedName: "azuredevops.branchPolicyMergeTypes.BranchPolicyMergeTypesSettingsScope")]
     public interface IBranchPolicyMergeTypesSettingsScope
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}.</summary>
         [JsiiProperty(name: "matchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MatchType
@@ -18,7 +18,7 @@ namespace azuredevops.BranchPolicyMergeTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RepositoryId
@@ -29,7 +29,7 @@ namespace azuredevops.BranchPolicyMergeTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}.</summary>
         [JsiiProperty(name: "repositoryRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RepositoryRef
@@ -47,7 +47,7 @@ namespace azuredevops.BranchPolicyMergeTypes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#match_type BranchPolicyMergeTypes#match_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "matchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MatchType
@@ -55,7 +55,7 @@ namespace azuredevops.BranchPolicyMergeTypes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#repository_id BranchPolicyMergeTypes#repository_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RepositoryId
@@ -63,7 +63,7 @@ namespace azuredevops.BranchPolicyMergeTypes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#repository_ref BranchPolicyMergeTypes#repository_ref}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RepositoryRef

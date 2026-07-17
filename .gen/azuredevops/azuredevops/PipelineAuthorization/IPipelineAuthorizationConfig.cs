@@ -7,28 +7,28 @@ namespace azuredevops.PipelineAuthorization
     [JsiiInterface(nativeType: typeof(IPipelineAuthorizationConfig), fullyQualifiedName: "azuredevops.pipelineAuthorization.PipelineAuthorizationConfig")]
     public interface IPipelineAuthorizationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#type PipelineAuthorization#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#type PipelineAuthorization#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#id PipelineAuthorization#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#id PipelineAuthorization#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace azuredevops.PipelineAuthorization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PipelineId
@@ -54,7 +54,7 @@ namespace azuredevops.PipelineAuthorization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}.</summary>
         [JsiiProperty(name: "pipelineProjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PipelineProjectId
@@ -67,7 +67,7 @@ namespace azuredevops.PipelineAuthorization
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.pipelineAuthorization.PipelineAuthorizationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,28 +86,28 @@ namespace azuredevops.PipelineAuthorization
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#project_id PipelineAuthorization#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#resource_id PipelineAuthorization#resource_id}.</summary>
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#type PipelineAuthorization#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#type PipelineAuthorization#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#id PipelineAuthorization#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#id PipelineAuthorization#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace azuredevops.PipelineAuthorization
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#pipeline_id PipelineAuthorization#pipeline_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PipelineId
@@ -127,7 +127,7 @@ namespace azuredevops.PipelineAuthorization
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#pipeline_project_id PipelineAuthorization#pipeline_project_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pipelineProjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PipelineProjectId
@@ -137,7 +137,7 @@ namespace azuredevops.PipelineAuthorization
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/pipeline_authorization#timeouts PipelineAuthorization#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.pipelineAuthorization.PipelineAuthorizationTimeouts\"}", isOptional: true)]

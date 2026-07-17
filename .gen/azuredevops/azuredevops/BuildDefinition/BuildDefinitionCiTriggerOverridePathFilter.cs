@@ -7,7 +7,7 @@ namespace azuredevops.BuildDefinition
     [JsiiByValue(fqn: "azuredevops.buildDefinition.BuildDefinitionCiTriggerOverridePathFilter")]
     public class BuildDefinitionCiTriggerOverridePathFilter : azuredevops.BuildDefinition.IBuildDefinitionCiTriggerOverridePathFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#exclude BuildDefinition#exclude}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#exclude BuildDefinition#exclude}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exclude", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Exclude
@@ -16,7 +16,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#include BuildDefinition#include}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#include BuildDefinition#include}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Include

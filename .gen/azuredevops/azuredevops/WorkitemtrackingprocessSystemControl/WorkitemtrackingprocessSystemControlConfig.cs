@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
     {
         /// <summary>The ID of the system control (e.g., System.AreaPath, System.IterationPath, System.Reason).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#control_id WorkitemtrackingprocessSystemControl#control_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#control_id WorkitemtrackingprocessSystemControl#control_id}
         /// </remarks>
         [JsiiProperty(name: "controlId", typeJson: "{\"primitive\":\"string\"}")]
         public string ControlId
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#process_id WorkitemtrackingprocessSystemControl#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#process_id WorkitemtrackingprocessSystemControl#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessId
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#work_item_type_id WorkitemtrackingprocessSystemControl#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#work_item_type_id WorkitemtrackingprocessSystemControl#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkItemTypeId
@@ -42,7 +42,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#id WorkitemtrackingprocessSystemControl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#id WorkitemtrackingprocessSystemControl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
 
         /// <summary>Label for the control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#label WorkitemtrackingprocessSystemControl#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#label WorkitemtrackingprocessSystemControl#label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#timeouts WorkitemtrackingprocessSystemControl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#timeouts WorkitemtrackingprocessSystemControl#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessSystemControl.WorkitemtrackingprocessSystemControlTimeouts\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace azuredevops.WorkitemtrackingprocessSystemControl
 
         /// <summary>Whether the control should be visible.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_system_control#visible WorkitemtrackingprocessSystemControl#visible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_system_control#visible WorkitemtrackingprocessSystemControl#visible}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

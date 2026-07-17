@@ -9,7 +9,7 @@ namespace azuredevops.ServicehookWebhookTfs
     {
         /// <summary>The project ID that will be used for the TFS event subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -19,7 +19,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>The URL to send HTTP POST to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
@@ -29,7 +29,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Accept untrusted SSL certificates.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "acceptUntrustedCerts", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Basic authentication password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
         /// </remarks>
         [JsiiProperty(name: "basicAuthPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Basic authentication username.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
         /// </remarks>
         [JsiiProperty(name: "basicAuthUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>build_completed block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
         /// </remarks>
         [JsiiProperty(name: "buildCompleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsBuildCompleted\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Detailed messages to send - all, text, html, markdown or none.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
         /// </remarks>
         [JsiiProperty(name: "detailedMessagesToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>git_pull_request_commented block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
         /// </remarks>
         [JsiiProperty(name: "gitPullRequestCommented", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestCommented\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>git_pull_request_created block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
         /// </remarks>
         [JsiiProperty(name: "gitPullRequestCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestCreated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>git_pull_request_merge_attempted block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
         /// </remarks>
         [JsiiProperty(name: "gitPullRequestMergeAttempted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestMergeAttempted\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,7 +142,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>git_pull_request_updated block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
         /// </remarks>
         [JsiiProperty(name: "gitPullRequestUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestUpdated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>git_push block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
         /// </remarks>
         [JsiiProperty(name: "gitPush", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPush\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>HTTP headers as key-value pairs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
         /// </remarks>
         [JsiiProperty(name: "httpHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -182,7 +182,7 @@ namespace azuredevops.ServicehookWebhookTfs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Resource details to send - all, text, html, markdown or none.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
         /// </remarks>
         [JsiiProperty(name: "messagesToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -213,7 +213,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>repository_created block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
         /// </remarks>
         [JsiiProperty(name: "repositoryCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryCreated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -227,7 +227,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>repository_deleted block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
         /// </remarks>
         [JsiiProperty(name: "repositoryDeleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryDeleted\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -241,7 +241,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>repository_forked block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
         /// </remarks>
         [JsiiProperty(name: "repositoryForked", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryForked\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -255,7 +255,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>repository_renamed block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
         /// </remarks>
         [JsiiProperty(name: "repositoryRenamed", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryRenamed\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -269,7 +269,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>repository_status_changed block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
         /// </remarks>
         [JsiiProperty(name: "repositoryStatusChanged", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryStatusChanged\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -283,7 +283,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>Resource details to send - all, minimal, or none.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
         /// </remarks>
         [JsiiProperty(name: "resourceDetailsToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -297,7 +297,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>The resource version for the webhook subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#resource_version ServicehookWebhookTfs#resource_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#resource_version ServicehookWebhookTfs#resource_version}
         /// </remarks>
         [JsiiProperty(name: "resourceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -311,7 +311,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>service_connection_created block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
         /// </remarks>
         [JsiiProperty(name: "serviceConnectionCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsServiceConnectionCreated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -325,7 +325,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>service_connection_updated block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
         /// </remarks>
         [JsiiProperty(name: "serviceConnectionUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsServiceConnectionUpdated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -339,7 +339,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>tfvc_checkin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
         /// </remarks>
         [JsiiProperty(name: "tfvcCheckin", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsTfvcCheckin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -353,7 +353,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -367,7 +367,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>work_item_commented block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
         /// </remarks>
         [JsiiProperty(name: "workItemCommented", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemCommented\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -381,7 +381,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>work_item_created block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
         /// </remarks>
         [JsiiProperty(name: "workItemCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemCreated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -395,7 +395,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>work_item_deleted block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
         /// </remarks>
         [JsiiProperty(name: "workItemDeleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemDeleted\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -409,7 +409,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>work_item_restored block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
         /// </remarks>
         [JsiiProperty(name: "workItemRestored", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemRestored\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -423,7 +423,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
         /// <summary>work_item_updated block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
         /// </remarks>
         [JsiiProperty(name: "workItemUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemUpdated\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -444,7 +444,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>The project ID that will be used for the TFS event subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#project_id ServicehookWebhookTfs#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
@@ -454,7 +454,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>The URL to send HTTP POST to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#url ServicehookWebhookTfs#url}
             /// </remarks>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
@@ -464,7 +464,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Accept untrusted SSL certificates.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#accept_untrusted_certs ServicehookWebhookTfs#accept_untrusted_certs}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -476,7 +476,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Basic authentication password.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#basic_auth_password ServicehookWebhookTfs#basic_auth_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "basicAuthPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -487,7 +487,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Basic authentication username.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#basic_auth_username ServicehookWebhookTfs#basic_auth_username}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "basicAuthUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -498,7 +498,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>build_completed block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#build_completed ServicehookWebhookTfs#build_completed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "buildCompleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsBuildCompleted\"}", isOptional: true)]
@@ -509,7 +509,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Detailed messages to send - all, text, html, markdown or none.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#detailed_messages_to_send ServicehookWebhookTfs#detailed_messages_to_send}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "detailedMessagesToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -520,7 +520,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>git_pull_request_commented block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_commented ServicehookWebhookTfs#git_pull_request_commented}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitPullRequestCommented", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestCommented\"}", isOptional: true)]
@@ -531,7 +531,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>git_pull_request_created block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_created ServicehookWebhookTfs#git_pull_request_created}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitPullRequestCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestCreated\"}", isOptional: true)]
@@ -542,7 +542,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>git_pull_request_merge_attempted block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_merge_attempted ServicehookWebhookTfs#git_pull_request_merge_attempted}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitPullRequestMergeAttempted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestMergeAttempted\"}", isOptional: true)]
@@ -553,7 +553,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>git_pull_request_updated block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_pull_request_updated ServicehookWebhookTfs#git_pull_request_updated}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitPullRequestUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPullRequestUpdated\"}", isOptional: true)]
@@ -564,7 +564,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>git_push block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#git_push ServicehookWebhookTfs#git_push}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "gitPush", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsGitPush\"}", isOptional: true)]
@@ -575,7 +575,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>HTTP headers as key-value pairs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#http_headers ServicehookWebhookTfs#http_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -584,7 +584,7 @@ namespace azuredevops.ServicehookWebhookTfs
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#id ServicehookWebhookTfs#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -598,7 +598,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Resource details to send - all, text, html, markdown or none.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#messages_to_send ServicehookWebhookTfs#messages_to_send}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "messagesToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -609,7 +609,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>repository_created block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_created ServicehookWebhookTfs#repository_created}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryCreated\"}", isOptional: true)]
@@ -620,7 +620,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>repository_deleted block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_deleted ServicehookWebhookTfs#repository_deleted}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryDeleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryDeleted\"}", isOptional: true)]
@@ -631,7 +631,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>repository_forked block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_forked ServicehookWebhookTfs#repository_forked}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryForked", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryForked\"}", isOptional: true)]
@@ -642,7 +642,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>repository_renamed block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_renamed ServicehookWebhookTfs#repository_renamed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryRenamed", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryRenamed\"}", isOptional: true)]
@@ -653,7 +653,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>repository_status_changed block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#repository_status_changed ServicehookWebhookTfs#repository_status_changed}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryStatusChanged", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsRepositoryStatusChanged\"}", isOptional: true)]
@@ -664,7 +664,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>Resource details to send - all, minimal, or none.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#resource_details_to_send ServicehookWebhookTfs#resource_details_to_send}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceDetailsToSend", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -675,7 +675,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>The resource version for the webhook subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#resource_version ServicehookWebhookTfs#resource_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#resource_version ServicehookWebhookTfs#resource_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -686,7 +686,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>service_connection_created block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#service_connection_created ServicehookWebhookTfs#service_connection_created}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceConnectionCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsServiceConnectionCreated\"}", isOptional: true)]
@@ -697,7 +697,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>service_connection_updated block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#service_connection_updated ServicehookWebhookTfs#service_connection_updated}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceConnectionUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsServiceConnectionUpdated\"}", isOptional: true)]
@@ -708,7 +708,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>tfvc_checkin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#tfvc_checkin ServicehookWebhookTfs#tfvc_checkin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tfvcCheckin", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsTfvcCheckin\"}", isOptional: true)]
@@ -719,7 +719,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#timeouts ServicehookWebhookTfs#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsTimeouts\"}", isOptional: true)]
@@ -730,7 +730,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>work_item_commented block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_commented ServicehookWebhookTfs#work_item_commented}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workItemCommented", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemCommented\"}", isOptional: true)]
@@ -741,7 +741,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>work_item_created block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_created ServicehookWebhookTfs#work_item_created}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workItemCreated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemCreated\"}", isOptional: true)]
@@ -752,7 +752,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>work_item_deleted block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_deleted ServicehookWebhookTfs#work_item_deleted}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workItemDeleted", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemDeleted\"}", isOptional: true)]
@@ -763,7 +763,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>work_item_restored block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_restored ServicehookWebhookTfs#work_item_restored}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workItemRestored", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemRestored\"}", isOptional: true)]
@@ -774,7 +774,7 @@ namespace azuredevops.ServicehookWebhookTfs
 
             /// <summary>work_item_updated block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_webhook_tfs#work_item_updated ServicehookWebhookTfs#work_item_updated}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workItemUpdated", typeJson: "{\"fqn\":\"azuredevops.servicehookWebhookTfs.ServicehookWebhookTfsWorkItemUpdated\"}", isOptional: true)]

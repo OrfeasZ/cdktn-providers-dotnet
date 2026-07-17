@@ -11,7 +11,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessProcess
     {
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_process#id DataAzuredevopsWorkitemtrackingprocessProcess#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_process#id DataAzuredevopsWorkitemtrackingprocessProcess#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessProcess
 
         /// <summary>Specifies the expand option when getting the processes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_process#expand DataAzuredevopsWorkitemtrackingprocessProcess#expand}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_process#expand DataAzuredevopsWorkitemtrackingprocessProcess#expand}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessProcess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_process#timeouts DataAzuredevopsWorkitemtrackingprocessProcess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_process#timeouts DataAzuredevopsWorkitemtrackingprocessProcess#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsWorkitemtrackingprocessProcess.DataAzuredevopsWorkitemtrackingprocessProcessTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointDockerregistry
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsServiceendpointDockerregistryTimeouts), fullyQualifiedName: "azuredevops.dataAzuredevopsServiceendpointDockerregistry.DataAzuredevopsServiceendpointDockerregistryTimeouts")]
     public interface IDataAzuredevopsServiceendpointDockerregistryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_dockerregistry#read DataAzuredevopsServiceendpointDockerregistry#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_dockerregistry#read DataAzuredevopsServiceendpointDockerregistry#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointDockerregistry
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_dockerregistry#read DataAzuredevopsServiceendpointDockerregistry#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_dockerregistry#read DataAzuredevopsServiceendpointDockerregistry#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

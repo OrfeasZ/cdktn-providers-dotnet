@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointAws
     [JsiiByValue(fqn: "azuredevops.serviceendpointAws.ServiceendpointAwsConfig")]
     public class ServiceendpointAwsConfig : azuredevops.ServiceendpointAws.IServiceendpointAwsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#project_id ServiceendpointAws#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#project_id ServiceendpointAws#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointAws
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#service_endpoint_name ServiceendpointAws#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#service_endpoint_name ServiceendpointAws#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>The AWS access key ID for signing programmatic requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#access_key_id ServiceendpointAws#access_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#access_key_id ServiceendpointAws#access_key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azuredevops.ServiceendpointAws
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#description ServiceendpointAws#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#description ServiceendpointAws#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -48,7 +48,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>A unique identifier that is used by third parties when assuming roles in their customers' accounts, aka cross-account role access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#external_id ServiceendpointAws#external_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#external_id ServiceendpointAws#external_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuredevops.ServiceendpointAws
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#id ServiceendpointAws#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#id ServiceendpointAws#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>Optional identifier for the assumed role session.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#role_session_name ServiceendpointAws#role_session_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#role_session_name ServiceendpointAws#role_session_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "roleSessionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>The Amazon Resource Name (ARN) of the role to assume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#role_to_assume ServiceendpointAws#role_to_assume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#role_to_assume ServiceendpointAws#role_to_assume}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "roleToAssume", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>The AWS secret access key for signing programmatic requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#secret_access_key ServiceendpointAws#secret_access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#secret_access_key ServiceendpointAws#secret_access_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secretAccessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>The AWS session token for signing programmatic requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#session_token ServiceendpointAws#session_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#session_token ServiceendpointAws#session_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sessionToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#timeouts ServiceendpointAws#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#timeouts ServiceendpointAws#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointAws.ServiceendpointAwsTimeouts\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace azuredevops.ServiceendpointAws
 
         /// <summary>Enable this to attempt getting credentials with OIDC token from Azure Devops.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_aws#use_oidc ServiceendpointAws#use_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_aws#use_oidc ServiceendpointAws#use_oidc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

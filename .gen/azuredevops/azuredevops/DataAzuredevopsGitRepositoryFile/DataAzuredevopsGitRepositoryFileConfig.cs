@@ -11,7 +11,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
     {
         /// <summary>The file path.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#file DataAzuredevopsGitRepositoryFile#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#file DataAzuredevopsGitRepositoryFile#file}
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
         public string File
@@ -22,7 +22,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
 
         /// <summary>The repository ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#repository_id DataAzuredevopsGitRepositoryFile#repository_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#repository_id DataAzuredevopsGitRepositoryFile#repository_id}
         /// </remarks>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
@@ -33,7 +33,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
 
         /// <summary>The branch name, no default.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#branch DataAzuredevopsGitRepositoryFile#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#branch DataAzuredevopsGitRepositoryFile#branch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#id DataAzuredevopsGitRepositoryFile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#id DataAzuredevopsGitRepositoryFile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
 
         /// <summary>Optional tag name, no default.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#tag DataAzuredevopsGitRepositoryFile#tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#tag DataAzuredevopsGitRepositoryFile#tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azuredevops.DataAzuredevopsGitRepositoryFile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/git_repository_file#timeouts DataAzuredevopsGitRepositoryFile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/git_repository_file#timeouts DataAzuredevopsGitRepositoryFile#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsGitRepositoryFile.DataAzuredevopsGitRepositoryFileTimeouts\"}", isOptional: true)]

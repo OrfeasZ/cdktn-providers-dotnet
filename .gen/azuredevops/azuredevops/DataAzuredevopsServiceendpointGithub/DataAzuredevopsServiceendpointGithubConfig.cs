@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointGithub
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsServiceendpointGithub.DataAzuredevopsServiceendpointGithubConfig")]
     public class DataAzuredevopsServiceendpointGithubConfig : azuredevops.DataAzuredevopsServiceendpointGithub.IDataAzuredevopsServiceendpointGithubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_github#project_id DataAzuredevopsServiceendpointGithub#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_github#project_id DataAzuredevopsServiceendpointGithub#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointGithub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_github#id DataAzuredevopsServiceendpointGithub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_github#id DataAzuredevopsServiceendpointGithub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointGithub
 
         /// <summary>The ID of the serviceendpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_github#service_endpoint_id DataAzuredevopsServiceendpointGithub#service_endpoint_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_github#service_endpoint_id DataAzuredevopsServiceendpointGithub#service_endpoint_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointGithub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_github#service_endpoint_name DataAzuredevopsServiceendpointGithub#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_github#service_endpoint_name DataAzuredevopsServiceendpointGithub#service_endpoint_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceEndpointName
@@ -53,7 +53,7 @@ namespace azuredevops.DataAzuredevopsServiceendpointGithub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/serviceendpoint_github#timeouts DataAzuredevopsServiceendpointGithub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/serviceendpoint_github#timeouts DataAzuredevopsServiceendpointGithub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsServiceendpointGithub.DataAzuredevopsServiceendpointGithubTimeouts\"}", isOptional: true)]

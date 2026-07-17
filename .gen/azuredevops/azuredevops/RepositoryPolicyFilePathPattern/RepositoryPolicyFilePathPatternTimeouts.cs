@@ -7,7 +7,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
     [JsiiByValue(fqn: "azuredevops.repositoryPolicyFilePathPattern.RepositoryPolicyFilePathPatternTimeouts")]
     public class RepositoryPolicyFilePathPatternTimeouts : azuredevops.RepositoryPolicyFilePathPattern.IRepositoryPolicyFilePathPatternTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#create RepositoryPolicyFilePathPattern#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#create RepositoryPolicyFilePathPattern#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#delete RepositoryPolicyFilePathPattern#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#delete RepositoryPolicyFilePathPattern#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#read RepositoryPolicyFilePathPattern#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#read RepositoryPolicyFilePathPattern#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azuredevops.RepositoryPolicyFilePathPattern
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_file_path_pattern#update RepositoryPolicyFilePathPattern#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_file_path_pattern#update RepositoryPolicyFilePathPattern#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

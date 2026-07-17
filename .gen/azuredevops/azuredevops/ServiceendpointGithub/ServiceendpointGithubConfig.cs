@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointGithub
     [JsiiByValue(fqn: "azuredevops.serviceendpointGithub.ServiceendpointGithubConfig")]
     public class ServiceendpointGithubConfig : azuredevops.ServiceendpointGithub.IServiceendpointGithubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#project_id ServiceendpointGithub#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#project_id ServiceendpointGithub#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointGithub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#service_endpoint_name ServiceendpointGithub#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#service_endpoint_name ServiceendpointGithub#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointGithub
 
         /// <summary>auth_oauth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#auth_oauth ServiceendpointGithub#auth_oauth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#auth_oauth ServiceendpointGithub#auth_oauth}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authOauth", typeJson: "{\"fqn\":\"azuredevops.serviceendpointGithub.ServiceendpointGithubAuthOauth\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointGithub
 
         /// <summary>auth_personal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#auth_personal ServiceendpointGithub#auth_personal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#auth_personal ServiceendpointGithub#auth_personal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authPersonal", typeJson: "{\"fqn\":\"azuredevops.serviceendpointGithub.ServiceendpointGithubAuthPersonal\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace azuredevops.ServiceendpointGithub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#description ServiceendpointGithub#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#description ServiceendpointGithub#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -58,7 +58,7 @@ namespace azuredevops.ServiceendpointGithub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#id ServiceendpointGithub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#id ServiceendpointGithub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azuredevops.ServiceendpointGithub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github#timeouts ServiceendpointGithub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github#timeouts ServiceendpointGithub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointGithub.ServiceendpointGithubTimeouts\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace azuredevops.Extension
     {
         /// <summary>The Azure DevOps Marketplace extension identifier, for example `vss-code-search`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#extension_id Extension#extension_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#extension_id Extension#extension_id}
         /// </remarks>
         [JsiiProperty(name: "extensionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExtensionId
@@ -22,7 +22,7 @@ namespace azuredevops.Extension
 
         /// <summary>The Azure DevOps Marketplace publisher identifier, for example `ms`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#publisher_id Extension#publisher_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#publisher_id Extension#publisher_id}
         /// </remarks>
         [JsiiProperty(name: "publisherId", typeJson: "{\"primitive\":\"string\"}")]
         public string PublisherId
@@ -33,7 +33,7 @@ namespace azuredevops.Extension
 
         private object? _disabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#disabled Extension#disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#disabled Extension#disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -65,7 +65,7 @@ namespace azuredevops.Extension
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#id Extension#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#id Extension#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace azuredevops.Extension
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#timeouts Extension#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#timeouts Extension#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.extension.ExtensionTimeouts\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace azuredevops.Extension
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/extension#version Extension#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/extension#version Extension#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

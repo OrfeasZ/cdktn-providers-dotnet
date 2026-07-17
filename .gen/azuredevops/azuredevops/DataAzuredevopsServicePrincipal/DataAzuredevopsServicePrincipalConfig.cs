@@ -4,20 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azuredevops.DataAzuredevopsServicePrincipal
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsServicePrincipal.DataAzuredevopsServicePrincipalConfig")]
     public class DataAzuredevopsServicePrincipalConfig : azuredevops.DataAzuredevopsServicePrincipal.IDataAzuredevopsServicePrincipalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/service_principal#display_name DataAzuredevopsServicePrincipal#display_name}.</summary>
-        [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
-        public string DisplayName
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/service_principal#display_name DataAzuredevopsServicePrincipal#display_name}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? DisplayName
         {
             get;
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/service_principal#id DataAzuredevopsServicePrincipal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/service_principal#id DataAzuredevopsServicePrincipal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,9 +29,18 @@ namespace azuredevops.DataAzuredevopsServicePrincipal
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/service_principal#origin_id DataAzuredevopsServicePrincipal#origin_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? OriginId
+        {
+            get;
+            set;
+        }
+
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/service_principal#timeouts DataAzuredevopsServicePrincipal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/service_principal#timeouts DataAzuredevopsServicePrincipal#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsServicePrincipal.DataAzuredevopsServicePrincipalTimeouts\"}", isOptional: true)]

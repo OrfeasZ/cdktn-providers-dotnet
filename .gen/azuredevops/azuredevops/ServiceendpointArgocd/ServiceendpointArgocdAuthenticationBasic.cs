@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointArgocd
     {
         /// <summary>The ArgoCD password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#password ServiceendpointArgocd#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#password ServiceendpointArgocd#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
@@ -22,7 +22,7 @@ namespace azuredevops.ServiceendpointArgocd
 
         /// <summary>The ArgoCD user name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_argocd#username ServiceendpointArgocd#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_argocd#username ServiceendpointArgocd#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username

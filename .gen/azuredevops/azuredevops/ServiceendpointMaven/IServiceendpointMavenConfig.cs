@@ -7,7 +7,7 @@ namespace azuredevops.ServiceendpointMaven
     [JsiiInterface(nativeType: typeof(IServiceendpointMavenConfig), fullyQualifiedName: "azuredevops.serviceendpointMaven.ServiceendpointMavenConfig")]
     public interface IServiceendpointMavenConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#project_id ServiceendpointMaven#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#project_id ServiceendpointMaven#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -16,7 +16,7 @@ namespace azuredevops.ServiceendpointMaven
 
         /// <summary>This is the ID of the server that matches the id element of the repository/mirror that Maven tries to connect to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#repository_id ServiceendpointMaven#repository_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#repository_id ServiceendpointMaven#repository_id}
         /// </remarks>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
@@ -24,7 +24,7 @@ namespace azuredevops.ServiceendpointMaven
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#service_endpoint_name ServiceendpointMaven#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#service_endpoint_name ServiceendpointMaven#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
@@ -33,7 +33,7 @@ namespace azuredevops.ServiceendpointMaven
 
         /// <summary>Url for the Maven Repository.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#url ServiceendpointMaven#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#url ServiceendpointMaven#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
@@ -43,7 +43,7 @@ namespace azuredevops.ServiceendpointMaven
 
         /// <summary>authentication_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#authentication_basic ServiceendpointMaven#authentication_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#authentication_basic ServiceendpointMaven#authentication_basic}
         /// </remarks>
         [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenAuthenticationBasic\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace azuredevops.ServiceendpointMaven
 
         /// <summary>authentication_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#authentication_token ServiceendpointMaven#authentication_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#authentication_token ServiceendpointMaven#authentication_token}
         /// </remarks>
         [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenAuthenticationToken\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointMaven
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#description ServiceendpointMaven#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#description ServiceendpointMaven#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -80,7 +80,7 @@ namespace azuredevops.ServiceendpointMaven
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#id ServiceendpointMaven#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#id ServiceendpointMaven#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace azuredevops.ServiceendpointMaven
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#timeouts ServiceendpointMaven#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#timeouts ServiceendpointMaven#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +116,7 @@ namespace azuredevops.ServiceendpointMaven
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#project_id ServiceendpointMaven#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#project_id ServiceendpointMaven#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
@@ -125,7 +125,7 @@ namespace azuredevops.ServiceendpointMaven
 
             /// <summary>This is the ID of the server that matches the id element of the repository/mirror that Maven tries to connect to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#repository_id ServiceendpointMaven#repository_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#repository_id ServiceendpointMaven#repository_id}
             /// </remarks>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
@@ -133,7 +133,7 @@ namespace azuredevops.ServiceendpointMaven
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#service_endpoint_name ServiceendpointMaven#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#service_endpoint_name ServiceendpointMaven#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
@@ -142,7 +142,7 @@ namespace azuredevops.ServiceendpointMaven
 
             /// <summary>Url for the Maven Repository.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#url ServiceendpointMaven#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#url ServiceendpointMaven#url}
             /// </remarks>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
@@ -152,7 +152,7 @@ namespace azuredevops.ServiceendpointMaven
 
             /// <summary>authentication_basic block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#authentication_basic ServiceendpointMaven#authentication_basic}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#authentication_basic ServiceendpointMaven#authentication_basic}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenAuthenticationBasic\"}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace azuredevops.ServiceendpointMaven
 
             /// <summary>authentication_token block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#authentication_token ServiceendpointMaven#authentication_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#authentication_token ServiceendpointMaven#authentication_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenAuthenticationToken\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace azuredevops.ServiceendpointMaven
                 get => GetInstanceProperty<azuredevops.ServiceendpointMaven.IServiceendpointMavenAuthenticationToken?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#description ServiceendpointMaven#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#description ServiceendpointMaven#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -180,7 +180,7 @@ namespace azuredevops.ServiceendpointMaven
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#id ServiceendpointMaven#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#id ServiceendpointMaven#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -194,7 +194,7 @@ namespace azuredevops.ServiceendpointMaven
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#timeouts ServiceendpointMaven#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#timeouts ServiceendpointMaven#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointMaven.ServiceendpointMavenTimeouts\"}", isOptional: true)]

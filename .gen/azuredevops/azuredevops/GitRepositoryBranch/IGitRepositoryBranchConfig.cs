@@ -7,21 +7,21 @@ namespace azuredevops.GitRepositoryBranch
     [JsiiInterface(nativeType: typeof(IGitRepositoryBranchConfig), fullyQualifiedName: "azuredevops.gitRepositoryBranch.GitRepositoryBranchConfig")]
     public interface IGitRepositoryBranchConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#name GitRepositoryBranch#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#name GitRepositoryBranch#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#id GitRepositoryBranch#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#id GitRepositoryBranch#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace azuredevops.GitRepositoryBranch
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}.</summary>
         [JsiiProperty(name: "refBranch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefBranch
@@ -47,7 +47,7 @@ namespace azuredevops.GitRepositoryBranch
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}.</summary>
         [JsiiProperty(name: "refCommitId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefCommitId
@@ -58,7 +58,7 @@ namespace azuredevops.GitRepositoryBranch
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}.</summary>
         [JsiiProperty(name: "refTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefTag
@@ -71,7 +71,7 @@ namespace azuredevops.GitRepositoryBranch
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.gitRepositoryBranch.GitRepositoryBranchTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,21 +90,21 @@ namespace azuredevops.GitRepositoryBranch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#name GitRepositoryBranch#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#name GitRepositoryBranch#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}.</summary>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#id GitRepositoryBranch#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#id GitRepositoryBranch#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,7 +116,7 @@ namespace azuredevops.GitRepositoryBranch
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refBranch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefBranch
@@ -124,7 +124,7 @@ namespace azuredevops.GitRepositoryBranch
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refCommitId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefCommitId
@@ -132,7 +132,7 @@ namespace azuredevops.GitRepositoryBranch
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefTag
@@ -142,7 +142,7 @@ namespace azuredevops.GitRepositoryBranch
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.gitRepositoryBranch.GitRepositoryBranchTimeouts\"}", isOptional: true)]

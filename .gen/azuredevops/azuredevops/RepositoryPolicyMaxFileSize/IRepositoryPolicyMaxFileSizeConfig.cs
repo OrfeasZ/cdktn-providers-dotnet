@@ -7,21 +7,21 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
     [JsiiInterface(nativeType: typeof(IRepositoryPolicyMaxFileSizeConfig), fullyQualifiedName: "azuredevops.repositoryPolicyMaxFileSize.RepositoryPolicyMaxFileSizeConfig")]
     public interface IRepositoryPolicyMaxFileSizeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}.</summary>
         [JsiiProperty(name: "maxFileSize", typeJson: "{\"primitive\":\"number\"}")]
         double MaxFileSize
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,7 +49,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}.</summary>
         [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RepositoryIds
@@ -77,7 +77,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyMaxFileSize.RepositoryPolicyMaxFileSizeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,21 +96,21 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}.</summary>
             [JsiiProperty(name: "maxFileSize", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxFileSize
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -121,7 +121,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -132,7 +132,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RepositoryIds
@@ -154,7 +154,7 @@ namespace azuredevops.RepositoryPolicyMaxFileSize
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.repositoryPolicyMaxFileSize.RepositoryPolicyMaxFileSizeTimeouts\"}", isOptional: true)]

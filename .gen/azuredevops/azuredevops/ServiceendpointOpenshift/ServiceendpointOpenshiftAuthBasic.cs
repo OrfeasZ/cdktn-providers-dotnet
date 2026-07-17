@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointOpenshift
     [JsiiByValue(fqn: "azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthBasic")]
     public class ServiceendpointOpenshiftAuthBasic : azuredevops.ServiceendpointOpenshift.IServiceendpointOpenshiftAuthBasic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#password ServiceendpointOpenshift#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#password ServiceendpointOpenshift#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointOpenshift
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#username ServiceendpointOpenshift#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#username ServiceendpointOpenshift#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

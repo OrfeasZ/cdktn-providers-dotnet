@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
     {
         /// <summary>Scope to be provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#gcp_project_id ServiceendpointGcpTerraform#gcp_project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#gcp_project_id ServiceendpointGcpTerraform#gcp_project_id}
         /// </remarks>
         [JsiiProperty(name: "gcpProjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string GcpProjectId
@@ -22,7 +22,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
 
         /// <summary>Private Key for connecting to the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#private_key ServiceendpointGcpTerraform#private_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#private_key ServiceendpointGcpTerraform#private_key}
         /// </remarks>
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateKey
@@ -31,7 +31,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#project_id ServiceendpointGcpTerraform#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#project_id ServiceendpointGcpTerraform#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#service_endpoint_name ServiceendpointGcpTerraform#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#service_endpoint_name ServiceendpointGcpTerraform#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -49,7 +49,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
 
         /// <summary>The token uri field in the JSON key file for creating the JSON Web Token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#token_uri ServiceendpointGcpTerraform#token_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#token_uri ServiceendpointGcpTerraform#token_uri}
         /// </remarks>
         [JsiiProperty(name: "tokenUri", typeJson: "{\"primitive\":\"string\"}")]
         public string TokenUri
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
 
         /// <summary>The client email field in the JSON key file for creating the JSON Web Token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#client_email ServiceendpointGcpTerraform#client_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#client_email ServiceendpointGcpTerraform#client_email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#description ServiceendpointGcpTerraform#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#description ServiceendpointGcpTerraform#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -79,7 +79,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#id ServiceendpointGcpTerraform#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#id ServiceendpointGcpTerraform#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
 
         /// <summary>Scope to be provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#scope ServiceendpointGcpTerraform#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#scope ServiceendpointGcpTerraform#scope}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace azuredevops.ServiceendpointGcpTerraform
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_gcp_terraform#timeouts ServiceendpointGcpTerraform#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_gcp_terraform#timeouts ServiceendpointGcpTerraform#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointGcpTerraform.ServiceendpointGcpTerraformTimeouts\"}", isOptional: true)]

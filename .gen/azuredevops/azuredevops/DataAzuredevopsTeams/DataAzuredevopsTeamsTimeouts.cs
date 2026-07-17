@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsTeams
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsTeams.DataAzuredevopsTeamsTimeouts")]
     public class DataAzuredevopsTeamsTimeouts : azuredevops.DataAzuredevopsTeams.IDataAzuredevopsTeamsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/teams#read DataAzuredevopsTeams#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/teams#read DataAzuredevopsTeams#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

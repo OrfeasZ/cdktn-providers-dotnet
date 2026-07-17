@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinition
     [JsiiByValue(fqn: "azuredevops.buildDefinition.BuildDefinitionJobsTargetExecutionOptions")]
     public class BuildDefinitionJobsTargetExecutionOptions : azuredevops.BuildDefinition.IBuildDefinitionJobsTargetExecutionOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#type BuildDefinition#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#type BuildDefinition#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace azuredevops.BuildDefinition
 
         private object? _continueOnError;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#continue_on_error BuildDefinition#continue_on_error}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#continue_on_error BuildDefinition#continue_on_error}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#max_concurrency BuildDefinition#max_concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#max_concurrency BuildDefinition#max_concurrency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxConcurrency
@@ -60,7 +60,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#multipliers BuildDefinition#multipliers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#multipliers BuildDefinition#multipliers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "multipliers", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Multipliers

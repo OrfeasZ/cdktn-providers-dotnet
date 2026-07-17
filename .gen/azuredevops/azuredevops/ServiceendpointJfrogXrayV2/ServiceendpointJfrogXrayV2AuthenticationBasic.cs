@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
     {
         /// <summary>The JFrog Artifactory password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#password ServiceendpointJfrogXrayV2#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#password ServiceendpointJfrogXrayV2#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
@@ -22,7 +22,7 @@ namespace azuredevops.ServiceendpointJfrogXrayV2
 
         /// <summary>The JFrog Artifactory user name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_xray_v2#username ServiceendpointJfrogXrayV2#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_xray_v2#username ServiceendpointJfrogXrayV2#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username

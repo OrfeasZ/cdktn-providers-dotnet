@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinition
     {
         /// <summary>branch_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionPullRequestTriggerOverrideBranchFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "branchFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTriggerOverrideBranchFilter\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace azuredevops.BuildDefinition
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>path_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionPullRequestTriggerOverridePathFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "pathFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTriggerOverridePathFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azuredevops.BuildDefinition
 
             /// <summary>branch_filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionPullRequestTriggerOverrideBranchFilter" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "branchFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTriggerOverrideBranchFilter\"},\"kind\":\"array\"}}]}}")]
@@ -65,7 +65,7 @@ namespace azuredevops.BuildDefinition
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace azuredevops.BuildDefinition
 
             /// <summary>path_filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionPullRequestTriggerOverridePathFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]

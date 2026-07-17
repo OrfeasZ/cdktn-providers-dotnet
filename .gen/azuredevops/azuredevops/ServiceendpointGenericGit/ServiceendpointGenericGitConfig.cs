@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointGenericGit
     [JsiiByValue(fqn: "azuredevops.serviceendpointGenericGit.ServiceendpointGenericGitConfig")]
     public class ServiceendpointGenericGitConfig : azuredevops.ServiceendpointGenericGit.IServiceendpointGenericGitConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#project_id ServiceendpointGenericGit#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#project_id ServiceendpointGenericGit#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -19,7 +19,7 @@ namespace azuredevops.ServiceendpointGenericGit
 
         /// <summary>The server URL of the GenericGit git service connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#repository_url ServiceendpointGenericGit#repository_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#repository_url ServiceendpointGenericGit#repository_url}
         /// </remarks>
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryUrl
@@ -28,7 +28,7 @@ namespace azuredevops.ServiceendpointGenericGit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#service_endpoint_name ServiceendpointGenericGit#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#service_endpoint_name ServiceendpointGenericGit#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointGenericGit
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#description ServiceendpointGenericGit#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#description ServiceendpointGenericGit#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -49,7 +49,7 @@ namespace azuredevops.ServiceendpointGenericGit
 
         /// <summary>A value indicating whether or not to attempt accessing this git server from Azure Pipelines.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#enable_pipelines_access ServiceendpointGenericGit#enable_pipelines_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#enable_pipelines_access ServiceendpointGenericGit#enable_pipelines_access}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace azuredevops.ServiceendpointGenericGit
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#id ServiceendpointGenericGit#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#id ServiceendpointGenericGit#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace azuredevops.ServiceendpointGenericGit
 
         /// <summary>The password or token key to use for the GenericGit git service connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#password ServiceendpointGenericGit#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#password ServiceendpointGenericGit#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azuredevops.ServiceendpointGenericGit
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#timeouts ServiceendpointGenericGit#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#timeouts ServiceendpointGenericGit#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointGenericGit.ServiceendpointGenericGitTimeouts\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace azuredevops.ServiceendpointGenericGit
 
         /// <summary>The username to use for the GenericGit service git connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_generic_git#username ServiceendpointGenericGit#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_generic_git#username ServiceendpointGenericGit#username}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

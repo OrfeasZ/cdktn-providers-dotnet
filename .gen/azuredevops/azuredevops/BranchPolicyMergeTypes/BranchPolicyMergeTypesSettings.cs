@@ -13,7 +13,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#scope BranchPolicyMergeTypes#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#scope BranchPolicyMergeTypes#scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyMergeTypes.IBranchPolicyMergeTypesSettingsScope" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyMergeTypes.BranchPolicyMergeTypesSettingsScope\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _allowBasicNoFastForward;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#allow_basic_no_fast_forward BranchPolicyMergeTypes#allow_basic_no_fast_forward}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#allow_basic_no_fast_forward BranchPolicyMergeTypes#allow_basic_no_fast_forward}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -79,7 +79,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _allowRebaseAndFastForward;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#allow_rebase_and_fast_forward BranchPolicyMergeTypes#allow_rebase_and_fast_forward}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#allow_rebase_and_fast_forward BranchPolicyMergeTypes#allow_rebase_and_fast_forward}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -113,7 +113,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _allowRebaseWithMerge;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#allow_rebase_with_merge BranchPolicyMergeTypes#allow_rebase_with_merge}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#allow_rebase_with_merge BranchPolicyMergeTypes#allow_rebase_with_merge}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -147,7 +147,7 @@ namespace azuredevops.BranchPolicyMergeTypes
 
         private object? _allowSquash;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types#allow_squash BranchPolicyMergeTypes#allow_squash}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types#allow_squash BranchPolicyMergeTypes#allow_squash}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

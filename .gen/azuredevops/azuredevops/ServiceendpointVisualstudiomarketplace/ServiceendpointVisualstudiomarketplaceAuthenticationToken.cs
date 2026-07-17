@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointVisualstudiomarketplace
     [JsiiByValue(fqn: "azuredevops.serviceendpointVisualstudiomarketplace.ServiceendpointVisualstudiomarketplaceAuthenticationToken")]
     public class ServiceendpointVisualstudiomarketplaceAuthenticationToken : azuredevops.ServiceendpointVisualstudiomarketplace.IServiceendpointVisualstudiomarketplaceAuthenticationToken
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_visualstudiomarketplace#token ServiceendpointVisualstudiomarketplace#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_visualstudiomarketplace#token ServiceendpointVisualstudiomarketplace#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {

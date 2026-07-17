@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
     [JsiiByValue(fqn: "azuredevops.dataAzuredevopsSecurityNamespaceToken.DataAzuredevopsSecurityNamespaceTokenConfig")]
     public class DataAzuredevopsSecurityNamespaceTokenConfig : azuredevops.DataAzuredevopsSecurityNamespaceToken.IDataAzuredevopsSecurityNamespaceTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#id DataAzuredevopsSecurityNamespaceToken#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#id DataAzuredevopsSecurityNamespaceToken#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
 
         /// <summary>Map of identifiers required for token generation (e.g., project_id, repository_id).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#identifiers DataAzuredevopsSecurityNamespaceToken#identifiers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#identifiers DataAzuredevopsSecurityNamespaceToken#identifiers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
 
         /// <summary>The ID of the security namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#namespace_id DataAzuredevopsSecurityNamespaceToken#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#namespace_id DataAzuredevopsSecurityNamespaceToken#namespace_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
 
         /// <summary>The name of the security namespace (e.g., 'Git Repositories', 'Project').</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#namespace_name DataAzuredevopsSecurityNamespaceToken#namespace_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#namespace_name DataAzuredevopsSecurityNamespaceToken#namespace_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
 
         /// <summary>When true, returns the required and optional identifiers for the namespace instead of generating a token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#return_identifier_info DataAzuredevopsSecurityNamespaceToken#return_identifier_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#return_identifier_info DataAzuredevopsSecurityNamespaceToken#return_identifier_info}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -93,7 +93,7 @@ namespace azuredevops.DataAzuredevopsSecurityNamespaceToken
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/security_namespace_token#timeouts DataAzuredevopsSecurityNamespaceToken#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/security_namespace_token#timeouts DataAzuredevopsSecurityNamespaceToken#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsSecurityNamespaceToken.DataAzuredevopsSecurityNamespaceTokenTimeouts\"}", isOptional: true)]

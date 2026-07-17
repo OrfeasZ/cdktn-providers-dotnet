@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
     [JsiiByValue(fqn: "azuredevops.workitemtrackingprocessProcessPermissions.WorkitemtrackingprocessProcessPermissionsConfig")]
     public class WorkitemtrackingprocessProcessPermissionsConfig : azuredevops.WorkitemtrackingprocessProcessPermissions.IWorkitemtrackingprocessProcessPermissionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#permissions WorkitemtrackingprocessProcessPermissions#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#permissions WorkitemtrackingprocessProcessPermissions#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Permissions
         {
@@ -17,7 +17,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#principal WorkitemtrackingprocessProcessPermissions#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#principal WorkitemtrackingprocessProcessPermissions#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
         {
@@ -27,7 +27,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#process_id WorkitemtrackingprocessProcessPermissions#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#process_id WorkitemtrackingprocessProcessPermissions#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessId
@@ -36,7 +36,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#id WorkitemtrackingprocessProcessPermissions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#id WorkitemtrackingprocessProcessPermissions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
 
         private object? _replace;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#replace WorkitemtrackingprocessProcessPermissions#replace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#replace WorkitemtrackingprocessProcessPermissions#replace}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -85,7 +85,7 @@ namespace azuredevops.WorkitemtrackingprocessProcessPermissions
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process_permissions#timeouts WorkitemtrackingprocessProcessPermissions#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process_permissions#timeouts WorkitemtrackingprocessProcessPermissions#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessProcessPermissions.WorkitemtrackingprocessProcessPermissionsTimeouts\"}", isOptional: true)]

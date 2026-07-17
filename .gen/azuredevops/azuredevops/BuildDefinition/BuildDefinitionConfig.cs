@@ -9,7 +9,7 @@ namespace azuredevops.BuildDefinition
     [JsiiByValue(fqn: "azuredevops.buildDefinition.BuildDefinitionConfig")]
     public class BuildDefinitionConfig : azuredevops.BuildDefinition.IBuildDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#name BuildDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#name BuildDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#project_id BuildDefinition#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#project_id BuildDefinition#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -27,7 +27,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>repository block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#repository BuildDefinition#repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#repository BuildDefinition#repository}
         /// </remarks>
         [JsiiProperty(name: "repository", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionRepository\"}")]
         public azuredevops.BuildDefinition.IBuildDefinitionRepository Repository
@@ -36,7 +36,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#agent_pool_name BuildDefinition#agent_pool_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#agent_pool_name BuildDefinition#agent_pool_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentPoolName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentPoolName
@@ -45,7 +45,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#agent_specification BuildDefinition#agent_specification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#agent_specification BuildDefinition#agent_specification}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentSpecification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentSpecification
@@ -58,7 +58,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>build_completion_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#build_completion_trigger BuildDefinition#build_completion_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#build_completion_trigger BuildDefinition#build_completion_trigger}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionBuildCompletionTrigger" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -91,7 +91,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>ci_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#ci_trigger BuildDefinition#ci_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#ci_trigger BuildDefinition#ci_trigger}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ciTrigger", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionCiTrigger\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#features BuildDefinition#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#features BuildDefinition#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionFeatures" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -136,7 +136,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#id BuildDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#id BuildDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobAuthorizationScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobAuthorizationScope
@@ -162,7 +162,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>jobs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#jobs BuildDefinition#jobs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#jobs BuildDefinition#jobs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionJobs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -193,7 +193,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#path BuildDefinition#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#path BuildDefinition#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -204,7 +204,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>pull_request_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#pull_request_trigger BuildDefinition#pull_request_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#pull_request_trigger BuildDefinition#pull_request_trigger}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pullRequestTrigger", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionPullRequestTrigger\"}", isOptional: true)]
@@ -214,7 +214,7 @@ namespace azuredevops.BuildDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#queue_status BuildDefinition#queue_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#queue_status BuildDefinition#queue_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queueStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueueStatus
@@ -227,7 +227,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>schedules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#schedules BuildDefinition#schedules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#schedules BuildDefinition#schedules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionSchedules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -260,7 +260,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#timeouts BuildDefinition#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#timeouts BuildDefinition#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionTimeouts\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>variable block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#variable BuildDefinition#variable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#variable BuildDefinition#variable}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionVariable" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -305,7 +305,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#variable_groups BuildDefinition#variable_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#variable_groups BuildDefinition#variable_groups}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "variableGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? VariableGroups

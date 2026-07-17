@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
     {
         /// <summary>Label for the page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#label WorkitemtrackingprocessInheritedPage#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#label WorkitemtrackingprocessInheritedPage#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         string Label
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
         /// <summary>The ID of the inherited page to customize.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#page_id WorkitemtrackingprocessInheritedPage#page_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#page_id WorkitemtrackingprocessInheritedPage#page_id}
         /// </remarks>
         [JsiiProperty(name: "pageId", typeJson: "{\"primitive\":\"string\"}")]
         string PageId
@@ -29,7 +29,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#process_id WorkitemtrackingprocessInheritedPage#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#process_id WorkitemtrackingprocessInheritedPage#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -39,7 +39,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#work_item_type_id WorkitemtrackingprocessInheritedPage#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#work_item_type_id WorkitemtrackingprocessInheritedPage#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkItemTypeId
@@ -47,7 +47,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#id WorkitemtrackingprocessInheritedPage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#id WorkitemtrackingprocessInheritedPage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#timeouts WorkitemtrackingprocessInheritedPage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#timeouts WorkitemtrackingprocessInheritedPage#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessInheritedPage.WorkitemtrackingprocessInheritedPageTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
             /// <summary>Label for the page.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#label WorkitemtrackingprocessInheritedPage#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#label WorkitemtrackingprocessInheritedPage#label}
             /// </remarks>
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
             public string Label
@@ -95,7 +95,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
             /// <summary>The ID of the inherited page to customize.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#page_id WorkitemtrackingprocessInheritedPage#page_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#page_id WorkitemtrackingprocessInheritedPage#page_id}
             /// </remarks>
             [JsiiProperty(name: "pageId", typeJson: "{\"primitive\":\"string\"}")]
             public string PageId
@@ -105,7 +105,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#process_id WorkitemtrackingprocessInheritedPage#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#process_id WorkitemtrackingprocessInheritedPage#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -115,7 +115,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
             /// <summary>The ID (reference name) of the work item type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#work_item_type_id WorkitemtrackingprocessInheritedPage#work_item_type_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#work_item_type_id WorkitemtrackingprocessInheritedPage#work_item_type_id}
             /// </remarks>
             [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkItemTypeId
@@ -123,7 +123,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#id WorkitemtrackingprocessInheritedPage#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#id WorkitemtrackingprocessInheritedPage#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace azuredevops.WorkitemtrackingprocessInheritedPage
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_inherited_page#timeouts WorkitemtrackingprocessInheritedPage#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_inherited_page#timeouts WorkitemtrackingprocessInheritedPage#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessInheritedPage.WorkitemtrackingprocessInheritedPageTimeouts\"}", isOptional: true)]

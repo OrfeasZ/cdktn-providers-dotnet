@@ -13,7 +13,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#action WorkitemtrackingprocessRule#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#action WorkitemtrackingprocessRule#action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.WorkitemtrackingprocessRule.IWorkitemtrackingprocessRuleAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.workitemtrackingprocessRule.WorkitemtrackingprocessRuleAction\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#condition WorkitemtrackingprocessRule#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#condition WorkitemtrackingprocessRule#condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.WorkitemtrackingprocessRule.IWorkitemtrackingprocessRuleCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "condition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.workitemtrackingprocessRule.WorkitemtrackingprocessRuleCondition\"},\"kind\":\"array\"}}]}}")]
@@ -79,7 +79,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>Name of the rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#name WorkitemtrackingprocessRule#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#name WorkitemtrackingprocessRule#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -90,7 +90,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#process_id WorkitemtrackingprocessRule#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#process_id WorkitemtrackingprocessRule#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessId
@@ -101,7 +101,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>The ID (reference name) of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#work_item_type_id WorkitemtrackingprocessRule#work_item_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#work_item_type_id WorkitemtrackingprocessRule#work_item_type_id}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkItemTypeId
@@ -110,7 +110,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#id WorkitemtrackingprocessRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#id WorkitemtrackingprocessRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>Indicates if the rule is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#is_enabled WorkitemtrackingprocessRule#is_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#is_enabled WorkitemtrackingprocessRule#is_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -160,7 +160,7 @@ namespace azuredevops.WorkitemtrackingprocessRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_rule#timeouts WorkitemtrackingprocessRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_rule#timeouts WorkitemtrackingprocessRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessRule.WorkitemtrackingprocessRuleTimeouts\"}", isOptional: true)]

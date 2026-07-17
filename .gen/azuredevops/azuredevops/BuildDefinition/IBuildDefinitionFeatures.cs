@@ -7,7 +7,7 @@ namespace azuredevops.BuildDefinition
     [JsiiInterface(nativeType: typeof(IBuildDefinitionFeatures), fullyQualifiedName: "azuredevops.buildDefinition.BuildDefinitionFeatures")]
     public interface IBuildDefinitionFeatures
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace azuredevops.BuildDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

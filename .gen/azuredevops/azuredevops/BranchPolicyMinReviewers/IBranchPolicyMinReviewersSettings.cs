@@ -9,7 +9,7 @@ namespace azuredevops.BranchPolicyMinReviewers
     {
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyMinReviewers.IBranchPolicyMinReviewersSettingsScope" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyMinReviewers.BranchPolicyMinReviewersSettingsScope\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -46,7 +46,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_each_iteration_require_vote BranchPolicyMinReviewers#on_each_iteration_require_vote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_each_iteration_require_vote BranchPolicyMinReviewers#on_each_iteration_require_vote}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -74,7 +74,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -88,7 +88,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -102,7 +102,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}.</summary>
         [JsiiProperty(name: "reviewerCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ReviewerCount
@@ -113,7 +113,7 @@ namespace azuredevops.BranchPolicyMinReviewers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -136,7 +136,7 @@ namespace azuredevops.BranchPolicyMinReviewers
 
             /// <summary>scope block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#scope BranchPolicyMinReviewers#scope}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyMinReviewers.IBranchPolicyMinReviewersSettingsScope" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyMinReviewers.BranchPolicyMinReviewersSettingsScope\"},\"kind\":\"array\"}}]}}")]
@@ -145,7 +145,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#allow_completion_with_rejects_or_waits BranchPolicyMinReviewers#allow_completion_with_rejects_or_waits}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -156,7 +156,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#last_pusher_cannot_approve BranchPolicyMinReviewers#last_pusher_cannot_approve}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -167,7 +167,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_each_iteration_require_vote BranchPolicyMinReviewers#on_each_iteration_require_vote}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_each_iteration_require_vote BranchPolicyMinReviewers#on_each_iteration_require_vote}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -178,7 +178,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_last_iteration_require_vote BranchPolicyMinReviewers#on_last_iteration_require_vote}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -189,7 +189,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_push_reset_all_votes BranchPolicyMinReviewers#on_push_reset_all_votes}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -200,7 +200,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#on_push_reset_approved_votes BranchPolicyMinReviewers#on_push_reset_approved_votes}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -211,7 +211,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#reviewer_count BranchPolicyMinReviewers#reviewer_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reviewerCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ReviewerCount
@@ -219,7 +219,7 @@ namespace azuredevops.BranchPolicyMinReviewers
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_min_reviewers#submitter_can_vote BranchPolicyMinReviewers#submitter_can_vote}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

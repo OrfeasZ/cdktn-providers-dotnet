@@ -7,14 +7,14 @@ namespace azuredevops.DataAzuredevopsDescriptor
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsDescriptorConfig), fullyQualifiedName: "azuredevops.dataAzuredevopsDescriptor.DataAzuredevopsDescriptorConfig")]
     public interface IDataAzuredevopsDescriptorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}.</summary>
         [JsiiProperty(name: "storageKey", typeJson: "{\"primitive\":\"string\"}")]
         string StorageKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace azuredevops.DataAzuredevopsDescriptor
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsDescriptor.DataAzuredevopsDescriptorTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace azuredevops.DataAzuredevopsDescriptor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}.</summary>
             [JsiiProperty(name: "storageKey", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace azuredevops.DataAzuredevopsDescriptor
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsDescriptor.DataAzuredevopsDescriptorTimeouts\"}", isOptional: true)]

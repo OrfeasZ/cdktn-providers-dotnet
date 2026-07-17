@@ -9,7 +9,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
     {
         /// <summary>The pipeline ID to be monitored. If not specified, all pipelines in the project will trigger the event.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#pipeline_id ServicehookStorageQueuePipelines#pipeline_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
         /// <remarks>
         /// Only valid if published_event is <c>StageStateChanged</c>. If not specified, all stages will trigger the event
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#stage_name ServicehookStorageQueuePipelines#stage_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#stage_name ServicehookStorageQueuePipelines#stage_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
         /// <remarks>
         /// Only valid if published_event is <c>StageStateChanged</c>. If not specified, all results will trigger the event
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#stage_result_filter ServicehookStorageQueuePipelines#stage_result_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#stage_result_filter ServicehookStorageQueuePipelines#stage_result_filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageResultFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
         /// <remarks>
         /// Only valid if published_event is <c>StageStateChanged</c>. If not specified, all states will trigger the event
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#stage_state_filter ServicehookStorageQueuePipelines#stage_state_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#stage_state_filter ServicehookStorageQueuePipelines#stage_state_filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stageStateFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

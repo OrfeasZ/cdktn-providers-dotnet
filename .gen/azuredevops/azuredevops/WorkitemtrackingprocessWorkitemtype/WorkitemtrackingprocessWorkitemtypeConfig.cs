@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
     {
         /// <summary>Name of work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#name WorkitemtrackingprocessWorkitemtype#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#name WorkitemtrackingprocessWorkitemtype#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>The ID of the process the work item type belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#process_id WorkitemtrackingprocessWorkitemtype#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#process_id WorkitemtrackingprocessWorkitemtype#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessId
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>Color hexadecimal code to represent the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#color WorkitemtrackingprocessWorkitemtype#color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#color WorkitemtrackingprocessWorkitemtype#color}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "color", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>Description of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#description WorkitemtrackingprocessWorkitemtype#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#description WorkitemtrackingprocessWorkitemtype#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>Icon to represent the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#icon WorkitemtrackingprocessWorkitemtype#icon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#icon WorkitemtrackingprocessWorkitemtype#icon}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#id WorkitemtrackingprocessWorkitemtype#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#id WorkitemtrackingprocessWorkitemtype#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>True if the work item type is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#is_enabled WorkitemtrackingprocessWorkitemtype#is_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#is_enabled WorkitemtrackingprocessWorkitemtype#is_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -117,7 +117,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>Reference name of the parent work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#parent_work_item_reference_name WorkitemtrackingprocessWorkitemtype#parent_work_item_reference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#parent_work_item_reference_name WorkitemtrackingprocessWorkitemtype#parent_work_item_reference_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentWorkItemReferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace azuredevops.WorkitemtrackingprocessWorkitemtype
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_workitemtype#timeouts WorkitemtrackingprocessWorkitemtype#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_workitemtype#timeouts WorkitemtrackingprocessWorkitemtype#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessWorkitemtype.WorkitemtrackingprocessWorkitemtypeTimeouts\"}", isOptional: true)]

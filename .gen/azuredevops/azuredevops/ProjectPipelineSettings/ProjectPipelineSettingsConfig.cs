@@ -9,7 +9,7 @@ namespace azuredevops.ProjectPipelineSettings
     [JsiiByValue(fqn: "azuredevops.projectPipelineSettings.ProjectPipelineSettingsConfig")]
     public class ProjectPipelineSettingsConfig : azuredevops.ProjectPipelineSettings.IProjectPipelineSettingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#project_id ProjectPipelineSettings#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#project_id ProjectPipelineSettings#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -21,7 +21,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>Limit job authorization scope to current project for non-release pipelines.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#enforce_job_scope ProjectPipelineSettings#enforce_job_scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#enforce_job_scope ProjectPipelineSettings#enforce_job_scope}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -54,7 +54,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         private object? _enforceJobScopeForRelease;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#enforce_job_scope_for_release ProjectPipelineSettings#enforce_job_scope_for_release}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#enforce_job_scope_for_release ProjectPipelineSettings#enforce_job_scope_for_release}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -90,7 +90,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>Protect access to repositories in YAML pipelines.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#enforce_referenced_repo_scoped_token ProjectPipelineSettings#enforce_referenced_repo_scoped_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#enforce_referenced_repo_scoped_token ProjectPipelineSettings#enforce_referenced_repo_scoped_token}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -125,7 +125,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>Limit variables that can be set at queue time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#enforce_settable_var ProjectPipelineSettings#enforce_settable_var}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#enforce_settable_var ProjectPipelineSettings#enforce_settable_var}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -156,7 +156,7 @@ namespace azuredevops.ProjectPipelineSettings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#id ProjectPipelineSettings#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#id ProjectPipelineSettings#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -173,7 +173,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>Publish metadata from pipelines.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#publish_pipeline_metadata ProjectPipelineSettings#publish_pipeline_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#publish_pipeline_metadata ProjectPipelineSettings#publish_pipeline_metadata}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -208,7 +208,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>Disable anonymous access to badges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#status_badges_are_private ProjectPipelineSettings#status_badges_are_private}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#status_badges_are_private ProjectPipelineSettings#status_badges_are_private}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -241,7 +241,7 @@ namespace azuredevops.ProjectPipelineSettings
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/project_pipeline_settings#timeouts ProjectPipelineSettings#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/project_pipeline_settings#timeouts ProjectPipelineSettings#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.projectPipelineSettings.ProjectPipelineSettingsTimeouts\"}", isOptional: true)]

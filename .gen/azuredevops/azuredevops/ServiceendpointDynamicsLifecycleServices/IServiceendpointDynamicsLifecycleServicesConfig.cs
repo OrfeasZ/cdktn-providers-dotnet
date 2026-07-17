@@ -7,56 +7,56 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
     [JsiiInterface(nativeType: typeof(IServiceendpointDynamicsLifecycleServicesConfig), fullyQualifiedName: "azuredevops.serviceendpointDynamicsLifecycleServices.ServiceendpointDynamicsLifecycleServicesConfig")]
     public interface IServiceendpointDynamicsLifecycleServicesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}.</summary>
         [JsiiProperty(name: "authorizationEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string AuthorizationEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}.</summary>
         [JsiiProperty(name: "lifecycleServicesApiEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string LifecycleServicesApiEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -67,7 +67,7 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointDynamicsLifecycleServices.ServiceendpointDynamicsLifecycleServicesTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,56 +103,56 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#authorization_endpoint ServiceendpointDynamicsLifecycleServices#authorization_endpoint}.</summary>
             [JsiiProperty(name: "authorizationEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string AuthorizationEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#client_id ServiceendpointDynamicsLifecycleServices#client_id}.</summary>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#lifecycle_services_api_endpoint ServiceendpointDynamicsLifecycleServices#lifecycle_services_api_endpoint}.</summary>
             [JsiiProperty(name: "lifecycleServicesApiEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string LifecycleServicesApiEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#password ServiceendpointDynamicsLifecycleServices#password}.</summary>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#project_id ServiceendpointDynamicsLifecycleServices#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#service_endpoint_name ServiceendpointDynamicsLifecycleServices#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#username ServiceendpointDynamicsLifecycleServices#username}.</summary>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#description ServiceendpointDynamicsLifecycleServices#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -160,7 +160,7 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#id ServiceendpointDynamicsLifecycleServices#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +174,7 @@ namespace azuredevops.ServiceendpointDynamicsLifecycleServices
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dynamics_lifecycle_services#timeouts ServiceendpointDynamicsLifecycleServices#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointDynamicsLifecycleServices.ServiceendpointDynamicsLifecycleServicesTimeouts\"}", isOptional: true)]

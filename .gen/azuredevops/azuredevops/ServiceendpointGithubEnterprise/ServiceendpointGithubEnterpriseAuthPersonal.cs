@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointGithubEnterprise
     {
         /// <summary>The GitHub personal access token which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_github_enterprise#personal_access_token ServiceendpointGithubEnterprise#personal_access_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_github_enterprise#personal_access_token ServiceendpointGithubEnterprise#personal_access_token}
         /// </remarks>
         [JsiiProperty(name: "personalAccessToken", typeJson: "{\"primitive\":\"string\"}")]
         public string PersonalAccessToken

@@ -11,7 +11,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
     {
         /// <summary>Name of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#name WorkitemtrackingprocessProcess#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#name WorkitemtrackingprocessProcess#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>ID of the parent process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#parent_process_type_id WorkitemtrackingprocessProcess#parent_process_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#parent_process_type_id WorkitemtrackingprocessProcess#parent_process_type_id}
         /// </remarks>
         [JsiiProperty(name: "parentProcessTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ParentProcessTypeId
@@ -33,7 +33,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>Description of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#description WorkitemtrackingprocessProcess#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#description WorkitemtrackingprocessProcess#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#id WorkitemtrackingprocessProcess#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#id WorkitemtrackingprocessProcess#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>Is the process default?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#is_default WorkitemtrackingprocessProcess#is_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#is_default WorkitemtrackingprocessProcess#is_default}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -95,7 +95,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>Is the process enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#is_enabled WorkitemtrackingprocessProcess#is_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#is_enabled WorkitemtrackingprocessProcess#is_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -128,7 +128,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>Reference name of process being created. If not specified, server will assign a unique reference name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#reference_name WorkitemtrackingprocessProcess#reference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#reference_name WorkitemtrackingprocessProcess#reference_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "referenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace azuredevops.WorkitemtrackingprocessProcess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_process#timeouts WorkitemtrackingprocessProcess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_process#timeouts WorkitemtrackingprocessProcess#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessProcess.WorkitemtrackingprocessProcessTimeouts\"}", isOptional: true)]

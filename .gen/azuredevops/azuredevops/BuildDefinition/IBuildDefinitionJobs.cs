@@ -7,21 +7,21 @@ namespace azuredevops.BuildDefinition
     [JsiiInterface(nativeType: typeof(IBuildDefinitionJobs), fullyQualifiedName: "azuredevops.buildDefinition.BuildDefinitionJobs")]
     public interface IBuildDefinitionJobs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#condition BuildDefinition#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#condition BuildDefinition#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
         string Condition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#name BuildDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#name BuildDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#ref_name BuildDefinition#ref_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#ref_name BuildDefinition#ref_name}.</summary>
         [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}")]
         string RefName
         {
@@ -30,7 +30,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#target BuildDefinition#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#target BuildDefinition#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionJobsTarget\"}")]
         azuredevops.BuildDefinition.IBuildDefinitionJobsTarget Target
@@ -38,7 +38,7 @@ namespace azuredevops.BuildDefinition
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace azuredevops.BuildDefinition
 
         /// <summary>dependencies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionJobsDependencies" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dependencies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionJobsDependencies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
         [JsiiProperty(name: "jobAuthorizationScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JobAuthorizationScope
@@ -78,7 +78,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}.</summary>
         [JsiiProperty(name: "jobCancelTimeoutInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? JobCancelTimeoutInMinutes
@@ -89,7 +89,7 @@ namespace azuredevops.BuildDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}.</summary>
         [JsiiProperty(name: "jobTimeoutInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? JobTimeoutInMinutes
@@ -107,21 +107,21 @@ namespace azuredevops.BuildDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#condition BuildDefinition#condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#condition BuildDefinition#condition}.</summary>
             [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
             public string Condition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#name BuildDefinition#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#name BuildDefinition#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#ref_name BuildDefinition#ref_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#ref_name BuildDefinition#ref_name}.</summary>
             [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}")]
             public string RefName
             {
@@ -130,7 +130,7 @@ namespace azuredevops.BuildDefinition
 
             /// <summary>target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#target BuildDefinition#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#target BuildDefinition#target}
             /// </remarks>
             [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"azuredevops.buildDefinition.BuildDefinitionJobsTarget\"}")]
             public azuredevops.BuildDefinition.IBuildDefinitionJobsTarget Target
@@ -138,7 +138,7 @@ namespace azuredevops.BuildDefinition
                 get => GetInstanceProperty<azuredevops.BuildDefinition.IBuildDefinitionJobsTarget>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -151,7 +151,7 @@ namespace azuredevops.BuildDefinition
 
             /// <summary>dependencies block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BuildDefinition.IBuildDefinitionJobsDependencies" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -161,7 +161,7 @@ namespace azuredevops.BuildDefinition
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobAuthorizationScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JobAuthorizationScope
@@ -169,7 +169,7 @@ namespace azuredevops.BuildDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobCancelTimeoutInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? JobCancelTimeoutInMinutes
@@ -177,7 +177,7 @@ namespace azuredevops.BuildDefinition
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobTimeoutInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? JobTimeoutInMinutes

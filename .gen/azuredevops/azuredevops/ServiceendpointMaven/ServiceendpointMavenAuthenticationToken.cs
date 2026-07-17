@@ -11,7 +11,7 @@ namespace azuredevops.ServiceendpointMaven
     {
         /// <summary>The Maven access token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_maven#token ServiceendpointMaven#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_maven#token ServiceendpointMaven#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token

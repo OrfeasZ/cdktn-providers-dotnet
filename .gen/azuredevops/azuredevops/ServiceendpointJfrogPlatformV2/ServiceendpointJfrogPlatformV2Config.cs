@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
     [JsiiByValue(fqn: "azuredevops.serviceendpointJfrogPlatformV2.ServiceendpointJfrogPlatformV2Config")]
     public class ServiceendpointJfrogPlatformV2Config : azuredevops.ServiceendpointJfrogPlatformV2.IServiceendpointJfrogPlatformV2Config
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#project_id ServiceendpointJfrogPlatformV2#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#project_id ServiceendpointJfrogPlatformV2#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#service_endpoint_name ServiceendpointJfrogPlatformV2#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#service_endpoint_name ServiceendpointJfrogPlatformV2#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -27,7 +27,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
 
         /// <summary>Url for the JFrog Artifactory Server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#url ServiceendpointJfrogPlatformV2#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#url ServiceendpointJfrogPlatformV2#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -38,7 +38,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
 
         /// <summary>authentication_basic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#authentication_basic ServiceendpointJfrogPlatformV2#authentication_basic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#authentication_basic ServiceendpointJfrogPlatformV2#authentication_basic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationBasic", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogPlatformV2.ServiceendpointJfrogPlatformV2AuthenticationBasic\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
 
         /// <summary>authentication_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#authentication_token ServiceendpointJfrogPlatformV2#authentication_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#authentication_token ServiceendpointJfrogPlatformV2#authentication_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationToken", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogPlatformV2.ServiceendpointJfrogPlatformV2AuthenticationToken\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#description ServiceendpointJfrogPlatformV2#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#description ServiceendpointJfrogPlatformV2#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#id ServiceendpointJfrogPlatformV2#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#id ServiceendpointJfrogPlatformV2#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuredevops.ServiceendpointJfrogPlatformV2
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_jfrog_platform_v2#timeouts ServiceendpointJfrogPlatformV2#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_jfrog_platform_v2#timeouts ServiceendpointJfrogPlatformV2#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointJfrogPlatformV2.ServiceendpointJfrogPlatformV2Timeouts\"}", isOptional: true)]

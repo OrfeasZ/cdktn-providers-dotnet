@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointDockerregistry
     [JsiiByValue(fqn: "azuredevops.serviceendpointDockerregistry.ServiceendpointDockerregistryConfig")]
     public class ServiceendpointDockerregistryConfig : azuredevops.ServiceendpointDockerregistry.IServiceendpointDockerregistryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#project_id ServiceendpointDockerregistry#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#project_id ServiceendpointDockerregistry#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -17,7 +17,7 @@ namespace azuredevops.ServiceendpointDockerregistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#service_endpoint_name ServiceendpointDockerregistry#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#service_endpoint_name ServiceendpointDockerregistry#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointName
         {
@@ -25,7 +25,7 @@ namespace azuredevops.ServiceendpointDockerregistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#description ServiceendpointDockerregistry#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#description ServiceendpointDockerregistry#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -36,7 +36,7 @@ namespace azuredevops.ServiceendpointDockerregistry
 
         /// <summary>The DockerRegistry email address which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#docker_email ServiceendpointDockerregistry#docker_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#docker_email ServiceendpointDockerregistry#docker_email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azuredevops.ServiceendpointDockerregistry
 
         /// <summary>The DockerRegistry password which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#docker_password ServiceendpointDockerregistry#docker_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#docker_password ServiceendpointDockerregistry#docker_password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuredevops.ServiceendpointDockerregistry
 
         /// <summary>The DockerRegistry registry which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#docker_registry ServiceendpointDockerregistry#docker_registry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#docker_registry ServiceendpointDockerregistry#docker_registry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerRegistry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azuredevops.ServiceendpointDockerregistry
 
         /// <summary>The DockerRegistry username which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#docker_username ServiceendpointDockerregistry#docker_username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#docker_username ServiceendpointDockerregistry#docker_username}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azuredevops.ServiceendpointDockerregistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#id ServiceendpointDockerregistry#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#id ServiceendpointDockerregistry#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace azuredevops.ServiceendpointDockerregistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#registry_type ServiceendpointDockerregistry#registry_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#registry_type ServiceendpointDockerregistry#registry_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "registryType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RegistryType
@@ -106,7 +106,7 @@ namespace azuredevops.ServiceendpointDockerregistry
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_dockerregistry#timeouts ServiceendpointDockerregistry#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_dockerregistry#timeouts ServiceendpointDockerregistry#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointDockerregistry.ServiceendpointDockerregistryTimeouts\"}", isOptional: true)]

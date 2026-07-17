@@ -9,7 +9,7 @@ namespace azuredevops.VariableGroup
     [JsiiByValue(fqn: "azuredevops.variableGroup.VariableGroupKeyVault")]
     public class VariableGroupKeyVault : azuredevops.VariableGroup.IVariableGroupKeyVault
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group#name VariableGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group#name VariableGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azuredevops.VariableGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group#service_endpoint_id VariableGroup#service_endpoint_id}.</summary>
         [JsiiProperty(name: "serviceEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceEndpointId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.VariableGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/variable_group#search_depth VariableGroup#search_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/variable_group#search_depth VariableGroup#search_depth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SearchDepth

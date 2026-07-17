@@ -7,7 +7,7 @@ namespace azuredevops.ServiceendpointOpenshift
     [JsiiInterface(nativeType: typeof(IServiceendpointOpenshiftAuthNone), fullyQualifiedName: "azuredevops.serviceendpointOpenshift.ServiceendpointOpenshiftAuthNone")]
     public interface IServiceendpointOpenshiftAuthNone
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}.</summary>
         [JsiiProperty(name: "kubeConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KubeConfig
@@ -25,7 +25,7 @@ namespace azuredevops.ServiceendpointOpenshift
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_openshift#kube_config ServiceendpointOpenshift#kube_config}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kubeConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KubeConfig

@@ -5,7 +5,7 @@ namespace azuredevops.BranchPolicyMergeTypes
     /// <remarks>
     /// <h1><c>azuredevops_branch_policy_merge_types</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_merge_types"><c>azuredevops_branch_policy_merge_types</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_merge_types"><c>azuredevops_branch_policy_merge_types</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace azuredevops.TeamAdministrators
     [JsiiByValue(fqn: "azuredevops.teamAdministrators.TeamAdministratorsConfig")]
     public class TeamAdministratorsConfig : azuredevops.TeamAdministrators.ITeamAdministratorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#administrators TeamAdministrators#administrators}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#administrators TeamAdministrators#administrators}.</summary>
         [JsiiProperty(name: "administrators", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Administrators
         {
@@ -17,7 +17,7 @@ namespace azuredevops.TeamAdministrators
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#project_id TeamAdministrators#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#project_id TeamAdministrators#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace azuredevops.TeamAdministrators
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#team_id TeamAdministrators#team_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#team_id TeamAdministrators#team_id}.</summary>
         [JsiiProperty(name: "teamId", typeJson: "{\"primitive\":\"string\"}")]
         public string TeamId
         {
@@ -33,7 +33,7 @@ namespace azuredevops.TeamAdministrators
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#id TeamAdministrators#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#id TeamAdministrators#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuredevops.TeamAdministrators
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#mode TeamAdministrators#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#mode TeamAdministrators#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -57,7 +57,7 @@ namespace azuredevops.TeamAdministrators
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/team_administrators#timeouts TeamAdministrators#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/team_administrators#timeouts TeamAdministrators#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.teamAdministrators.TeamAdministratorsTimeouts\"}", isOptional: true)]

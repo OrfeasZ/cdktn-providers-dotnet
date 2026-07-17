@@ -9,7 +9,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
     {
         /// <summary>Label for the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#label WorkitemtrackingprocessGroup#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#label WorkitemtrackingprocessGroup#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         string Label
@@ -19,7 +19,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>The ID of the page to add the group to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#page_id WorkitemtrackingprocessGroup#page_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#page_id WorkitemtrackingprocessGroup#page_id}
         /// </remarks>
         [JsiiProperty(name: "pageId", typeJson: "{\"primitive\":\"string\"}")]
         string PageId
@@ -29,7 +29,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#process_id WorkitemtrackingprocessGroup#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#process_id WorkitemtrackingprocessGroup#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -39,7 +39,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>The ID of the section to add the group to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#section_id WorkitemtrackingprocessGroup#section_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#section_id WorkitemtrackingprocessGroup#section_id}
         /// </remarks>
         [JsiiProperty(name: "sectionId", typeJson: "{\"primitive\":\"string\"}")]
         string SectionId
@@ -49,7 +49,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>The reference name of the work item type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#work_item_type_reference_name WorkitemtrackingprocessGroup#work_item_type_reference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#work_item_type_reference_name WorkitemtrackingprocessGroup#work_item_type_reference_name}
         /// </remarks>
         [JsiiProperty(name: "workItemTypeReferenceName", typeJson: "{\"primitive\":\"string\"}")]
         string WorkItemTypeReferenceName
@@ -59,7 +59,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>control block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#control WorkitemtrackingprocessGroup#control}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#control WorkitemtrackingprocessGroup#control}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.WorkitemtrackingprocessGroup.IWorkitemtrackingprocessGroupControl" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "control", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.workitemtrackingprocessGroup.WorkitemtrackingprocessGroupControl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#id WorkitemtrackingprocessGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#id WorkitemtrackingprocessGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>Order in which the group should appear in the section.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#order WorkitemtrackingprocessGroup#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#order WorkitemtrackingprocessGroup#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,7 +103,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#timeouts WorkitemtrackingprocessGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#timeouts WorkitemtrackingprocessGroup#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessGroup.WorkitemtrackingprocessGroupTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
         /// <summary>A value indicating if the group should be hidden or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#visible WorkitemtrackingprocessGroup#visible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#visible WorkitemtrackingprocessGroup#visible}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "visible", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>Label for the group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#label WorkitemtrackingprocessGroup#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#label WorkitemtrackingprocessGroup#label}
             /// </remarks>
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
             public string Label
@@ -149,7 +149,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>The ID of the page to add the group to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#page_id WorkitemtrackingprocessGroup#page_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#page_id WorkitemtrackingprocessGroup#page_id}
             /// </remarks>
             [JsiiProperty(name: "pageId", typeJson: "{\"primitive\":\"string\"}")]
             public string PageId
@@ -159,7 +159,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#process_id WorkitemtrackingprocessGroup#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#process_id WorkitemtrackingprocessGroup#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -169,7 +169,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>The ID of the section to add the group to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#section_id WorkitemtrackingprocessGroup#section_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#section_id WorkitemtrackingprocessGroup#section_id}
             /// </remarks>
             [JsiiProperty(name: "sectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SectionId
@@ -179,7 +179,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>The reference name of the work item type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#work_item_type_reference_name WorkitemtrackingprocessGroup#work_item_type_reference_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#work_item_type_reference_name WorkitemtrackingprocessGroup#work_item_type_reference_name}
             /// </remarks>
             [JsiiProperty(name: "workItemTypeReferenceName", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkItemTypeReferenceName
@@ -189,7 +189,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>control block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#control WorkitemtrackingprocessGroup#control}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#control WorkitemtrackingprocessGroup#control}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.WorkitemtrackingprocessGroup.IWorkitemtrackingprocessGroupControl" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -199,7 +199,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#id WorkitemtrackingprocessGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#id WorkitemtrackingprocessGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +213,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>Order in which the group should appear in the section.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#order WorkitemtrackingprocessGroup#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#order WorkitemtrackingprocessGroup#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#timeouts WorkitemtrackingprocessGroup#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#timeouts WorkitemtrackingprocessGroup#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.workitemtrackingprocessGroup.WorkitemtrackingprocessGroupTimeouts\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace azuredevops.WorkitemtrackingprocessGroup
 
             /// <summary>A value indicating if the group should be hidden or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/workitemtrackingprocess_group#visible WorkitemtrackingprocessGroup#visible}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/workitemtrackingprocess_group#visible WorkitemtrackingprocessGroup#visible}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -11,7 +11,7 @@ namespace azuredevops.SecurityPermissions
     {
         /// <summary>The ID of the security namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#namespace_id SecurityPermissions#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#namespace_id SecurityPermissions#namespace_id}
         /// </remarks>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceId
@@ -22,7 +22,7 @@ namespace azuredevops.SecurityPermissions
 
         /// <summary>Map of permission names to values (allow, deny, or notset).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#permissions SecurityPermissions#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#permissions SecurityPermissions#permissions}
         /// </remarks>
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Permissions
@@ -33,7 +33,7 @@ namespace azuredevops.SecurityPermissions
 
         /// <summary>The descriptor or identity ID of the principal (user or group).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#principal SecurityPermissions#principal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#principal SecurityPermissions#principal}
         /// </remarks>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         public string Principal
@@ -44,7 +44,7 @@ namespace azuredevops.SecurityPermissions
 
         /// <summary>The security token for the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#token SecurityPermissions#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#token SecurityPermissions#token}
         /// </remarks>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
@@ -53,7 +53,7 @@ namespace azuredevops.SecurityPermissions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#id SecurityPermissions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#id SecurityPermissions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace azuredevops.SecurityPermissions
 
         /// <summary>Replace existing permissions (true) or merge with existing (true).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#replace SecurityPermissions#replace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#replace SecurityPermissions#replace}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -103,7 +103,7 @@ namespace azuredevops.SecurityPermissions
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/security_permissions#timeouts SecurityPermissions#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/security_permissions#timeouts SecurityPermissions#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.securityPermissions.SecurityPermissionsTimeouts\"}", isOptional: true)]

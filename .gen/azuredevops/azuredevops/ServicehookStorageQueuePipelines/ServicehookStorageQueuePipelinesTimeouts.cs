@@ -7,7 +7,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
     [JsiiByValue(fqn: "azuredevops.servicehookStorageQueuePipelines.ServicehookStorageQueuePipelinesTimeouts")]
     public class ServicehookStorageQueuePipelinesTimeouts : azuredevops.ServicehookStorageQueuePipelines.IServicehookStorageQueuePipelinesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#create ServicehookStorageQueuePipelines#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#create ServicehookStorageQueuePipelines#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#delete ServicehookStorageQueuePipelines#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#delete ServicehookStorageQueuePipelines#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#read ServicehookStorageQueuePipelines#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#read ServicehookStorageQueuePipelines#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azuredevops.ServicehookStorageQueuePipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/servicehook_storage_queue_pipelines#update ServicehookStorageQueuePipelines#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/servicehook_storage_queue_pipelines#update ServicehookStorageQueuePipelines#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

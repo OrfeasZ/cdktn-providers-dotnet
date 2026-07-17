@@ -9,7 +9,7 @@ namespace azuredevops.GitRepositoryFile
     {
         /// <summary>The file's content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#content GitRepositoryFile#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#content GitRepositoryFile#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
@@ -19,7 +19,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>The file path to manage.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#file GitRepositoryFile#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#file GitRepositoryFile#file}
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
         string File
@@ -29,7 +29,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>The repository ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
         /// </remarks>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
@@ -37,7 +37,7 @@ namespace azuredevops.GitRepositoryFile
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}.</summary>
         [JsiiProperty(name: "authorEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthorEmail
@@ -48,7 +48,7 @@ namespace azuredevops.GitRepositoryFile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}.</summary>
         [JsiiProperty(name: "authorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthorName
@@ -61,7 +61,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>The branch name, defaults to "refs/heads/master".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
         /// </remarks>
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>The commit message when creating or updating the file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
         /// </remarks>
         [JsiiProperty(name: "commitMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace azuredevops.GitRepositoryFile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}.</summary>
         [JsiiProperty(name: "committerEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CommitterEmail
@@ -98,7 +98,7 @@ namespace azuredevops.GitRepositoryFile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}.</summary>
         [JsiiProperty(name: "committerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CommitterName
@@ -109,7 +109,7 @@ namespace azuredevops.GitRepositoryFile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#id GitRepositoryFile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#id GitRepositoryFile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>Enable overwriting existing files, defaults to "false".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "overwriteOnCreate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace azuredevops.GitRepositoryFile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.gitRepositoryFile.GitRepositoryFileTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -162,7 +162,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>The file's content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#content GitRepositoryFile#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#content GitRepositoryFile#content}
             /// </remarks>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
@@ -172,7 +172,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>The file path to manage.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#file GitRepositoryFile#file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#file GitRepositoryFile#file}
             /// </remarks>
             [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
             public string File
@@ -182,7 +182,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>The repository ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#repository_id GitRepositoryFile#repository_id}
             /// </remarks>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
@@ -190,7 +190,7 @@ namespace azuredevops.GitRepositoryFile
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#author_email GitRepositoryFile#author_email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthorEmail
@@ -198,7 +198,7 @@ namespace azuredevops.GitRepositoryFile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#author_name GitRepositoryFile#author_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthorName
@@ -208,7 +208,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>The branch name, defaults to "refs/heads/master".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#branch GitRepositoryFile#branch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>The commit message when creating or updating the file.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#commit_message GitRepositoryFile#commit_message}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "commitMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -228,7 +228,7 @@ namespace azuredevops.GitRepositoryFile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#committer_email GitRepositoryFile#committer_email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "committerEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CommitterEmail
@@ -236,7 +236,7 @@ namespace azuredevops.GitRepositoryFile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#committer_name GitRepositoryFile#committer_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "committerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CommitterName
@@ -244,7 +244,7 @@ namespace azuredevops.GitRepositoryFile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#id GitRepositoryFile#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#id GitRepositoryFile#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -258,7 +258,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>Enable overwriting existing files, defaults to "false".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#overwrite_on_create GitRepositoryFile#overwrite_on_create}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -270,7 +270,7 @@ namespace azuredevops.GitRepositoryFile
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/git_repository_file#timeouts GitRepositoryFile#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.gitRepositoryFile.GitRepositoryFileTimeouts\"}", isOptional: true)]

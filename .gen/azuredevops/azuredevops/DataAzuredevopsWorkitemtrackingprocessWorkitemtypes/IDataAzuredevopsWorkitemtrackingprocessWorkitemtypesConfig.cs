@@ -9,7 +9,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
     {
         /// <summary>The ID of the process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#process_id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#process_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#process_id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#process_id}
         /// </remarks>
         [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessId
@@ -17,7 +17,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#timeouts DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#timeouts DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsWorkitemtrackingprocessWorkitemtypes.DataAzuredevopsWorkitemtrackingprocessWorkitemtypesTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
 
             /// <summary>The ID of the process.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#process_id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#process_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#process_id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#process_id}
             /// </remarks>
             [JsiiProperty(name: "processId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessId
@@ -63,7 +63,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#id DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace azuredevops.DataAzuredevopsWorkitemtrackingprocessWorkitemtypes
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/workitemtrackingprocess_workitemtypes#timeouts DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/workitemtrackingprocess_workitemtypes#timeouts DataAzuredevopsWorkitemtrackingprocessWorkitemtypes#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.dataAzuredevopsWorkitemtrackingprocessWorkitemtypes.DataAzuredevopsWorkitemtrackingprocessWorkitemtypesTimeouts\"}", isOptional: true)]

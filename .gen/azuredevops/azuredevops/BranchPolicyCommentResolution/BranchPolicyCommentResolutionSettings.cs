@@ -13,7 +13,7 @@ namespace azuredevops.BranchPolicyCommentResolution
 
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/branch_policy_comment_resolution#scope BranchPolicyCommentResolution#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/branch_policy_comment_resolution#scope BranchPolicyCommentResolution#scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuredevops.BranchPolicyCommentResolution.IBranchPolicyCommentResolutionSettingsScope" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuredevops.branchPolicyCommentResolution.BranchPolicyCommentResolutionSettingsScope\"},\"kind\":\"array\"}}]}}")]

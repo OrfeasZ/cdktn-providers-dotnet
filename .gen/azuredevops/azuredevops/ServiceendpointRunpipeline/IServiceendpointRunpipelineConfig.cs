@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointRunpipeline
     {
         /// <summary>auth_personal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
         /// </remarks>
         [JsiiProperty(name: "authPersonal", typeJson: "{\"fqn\":\"azuredevops.serviceendpointRunpipeline.ServiceendpointRunpipelineAuthPersonal\"}")]
         azuredevops.ServiceendpointRunpipeline.IServiceendpointRunpipelineAuthPersonal AuthPersonal
@@ -19,7 +19,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
         /// <summary>Azure DevOps organization name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
         /// </remarks>
         [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationName
@@ -27,21 +27,21 @@ namespace azuredevops.ServiceendpointRunpipeline
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}.</summary>
         [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceEndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -52,7 +52,7 @@ namespace azuredevops.ServiceendpointRunpipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointRunpipeline.ServiceendpointRunpipelineTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
             /// <summary>auth_personal block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
             /// </remarks>
             [JsiiProperty(name: "authPersonal", typeJson: "{\"fqn\":\"azuredevops.serviceendpointRunpipeline.ServiceendpointRunpipelineAuthPersonal\"}")]
             public azuredevops.ServiceendpointRunpipeline.IServiceendpointRunpipelineAuthPersonal AuthPersonal
@@ -100,7 +100,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
             /// <summary>Azure DevOps organization name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
             /// </remarks>
             [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationName
@@ -108,21 +108,21 @@ namespace azuredevops.ServiceendpointRunpipeline
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}.</summary>
             [JsiiProperty(name: "serviceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceEndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -130,7 +130,7 @@ namespace azuredevops.ServiceendpointRunpipeline
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuredevops.ServiceendpointRunpipeline
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuredevops.serviceendpointRunpipeline.ServiceendpointRunpipelineTimeouts\"}", isOptional: true)]

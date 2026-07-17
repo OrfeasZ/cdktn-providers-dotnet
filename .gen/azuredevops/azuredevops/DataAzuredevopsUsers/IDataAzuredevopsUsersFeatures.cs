@@ -7,7 +7,7 @@ namespace azuredevops.DataAzuredevopsUsers
     [JsiiInterface(nativeType: typeof(IDataAzuredevopsUsersFeatures), fullyQualifiedName: "azuredevops.dataAzuredevopsUsers.DataAzuredevopsUsersFeatures")]
     public interface IDataAzuredevopsUsersFeatures
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}.</summary>
         [JsiiProperty(name: "concurrentWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConcurrentWorkers
@@ -25,7 +25,7 @@ namespace azuredevops.DataAzuredevopsUsers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/data-sources/users#concurrent_workers DataAzuredevopsUsers#concurrent_workers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "concurrentWorkers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConcurrentWorkers

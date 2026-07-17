@@ -9,7 +9,7 @@ namespace azuredevops.ServiceendpointKubernetes
     {
         /// <summary>name of aks-resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
         /// </remarks>
         [JsiiProperty(name: "clusterName", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterName
@@ -19,7 +19,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>id of resourcegroup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
         /// </remarks>
         [JsiiProperty(name: "resourcegroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourcegroupId
@@ -29,7 +29,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>id of azure subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
         /// </remarks>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
@@ -39,7 +39,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>name of azure subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
         /// </remarks>
         [JsiiProperty(name: "subscriptionName", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionName
@@ -49,7 +49,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>id of aad-tenant.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
         /// </remarks>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         string TenantId
@@ -59,7 +59,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>type of azure cloud: AzureCloud.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
         /// </remarks>
         [JsiiProperty(name: "azureEnvironment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>Enable Cluster Admin.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "clusterAdmin", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
         /// <summary>accessed namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
         /// </remarks>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>name of aks-resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_name ServiceendpointKubernetes#cluster_name}
             /// </remarks>
             [JsiiProperty(name: "clusterName", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterName
@@ -119,7 +119,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>id of resourcegroup.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#resourcegroup_id ServiceendpointKubernetes#resourcegroup_id}
             /// </remarks>
             [JsiiProperty(name: "resourcegroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourcegroupId
@@ -129,7 +129,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>id of azure subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#subscription_id ServiceendpointKubernetes#subscription_id}
             /// </remarks>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
@@ -139,7 +139,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>name of azure subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#subscription_name ServiceendpointKubernetes#subscription_name}
             /// </remarks>
             [JsiiProperty(name: "subscriptionName", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionName
@@ -149,7 +149,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>id of aad-tenant.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#tenant_id ServiceendpointKubernetes#tenant_id}
             /// </remarks>
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
             public string TenantId
@@ -159,7 +159,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>type of azure cloud: AzureCloud.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#azure_environment ServiceendpointKubernetes#azure_environment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureEnvironment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>Enable Cluster Admin.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#cluster_admin ServiceendpointKubernetes#cluster_admin}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -182,7 +182,7 @@ namespace azuredevops.ServiceendpointKubernetes
 
             /// <summary>accessed namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.15.1/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.16.0/docs/resources/serviceendpoint_kubernetes#namespace ServiceendpointKubernetes#namespace}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
