@@ -9,7 +9,7 @@ namespace stripe.V2BillingPricingPlanComponent
     {
         /// <summary>Path parameter: pricing_plan_id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#pricing_plan_id V2BillingPricingPlanComponent#pricing_plan_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#pricing_plan_id V2BillingPricingPlanComponent#pricing_plan_id}
         /// </remarks>
         [JsiiProperty(name: "pricingPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string PricingPlanId
@@ -19,7 +19,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
         /// <summary>The type of the PricingPlanComponent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#type V2BillingPricingPlanComponent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#type V2BillingPricingPlanComponent#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -29,7 +29,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
         /// <summary>license_fee block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#license_fee V2BillingPricingPlanComponent#license_fee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#license_fee V2BillingPricingPlanComponent#license_fee}
         /// </remarks>
         [JsiiProperty(name: "licenseFee", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentLicenseFee\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
         /// <summary>An identifier that can be used to find this component.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#lookup_key V2BillingPricingPlanComponent#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#lookup_key V2BillingPricingPlanComponent#lookup_key}
         /// </remarks>
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace stripe.V2BillingPricingPlanComponent
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#metadata V2BillingPricingPlanComponent#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#metadata V2BillingPricingPlanComponent#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
         /// <summary>rate_card block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#rate_card V2BillingPricingPlanComponent#rate_card}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#rate_card V2BillingPricingPlanComponent#rate_card}
         /// </remarks>
         [JsiiProperty(name: "rateCard", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentRateCard\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
         /// <summary>service_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#service_action V2BillingPricingPlanComponent#service_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#service_action V2BillingPricingPlanComponent#service_action}
         /// </remarks>
         [JsiiProperty(name: "serviceAction", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentServiceAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>Path parameter: pricing_plan_id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#pricing_plan_id V2BillingPricingPlanComponent#pricing_plan_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#pricing_plan_id V2BillingPricingPlanComponent#pricing_plan_id}
             /// </remarks>
             [JsiiProperty(name: "pricingPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string PricingPlanId
@@ -118,7 +118,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>The type of the PricingPlanComponent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#type V2BillingPricingPlanComponent#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#type V2BillingPricingPlanComponent#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -128,7 +128,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>license_fee block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#license_fee V2BillingPricingPlanComponent#license_fee}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#license_fee V2BillingPricingPlanComponent#license_fee}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "licenseFee", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentLicenseFee\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>An identifier that can be used to find this component.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#lookup_key V2BillingPricingPlanComponent#lookup_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#lookup_key V2BillingPricingPlanComponent#lookup_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace stripe.V2BillingPricingPlanComponent
             /// <remarks>
             /// This can be useful for storing additional information about the object in a structured format.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#metadata V2BillingPricingPlanComponent#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#metadata V2BillingPricingPlanComponent#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>rate_card block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#rate_card V2BillingPricingPlanComponent#rate_card}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#rate_card V2BillingPricingPlanComponent#rate_card}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rateCard", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentRateCard\"}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace stripe.V2BillingPricingPlanComponent
 
             /// <summary>service_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component#service_action V2BillingPricingPlanComponent#service_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component#service_action V2BillingPricingPlanComponent#service_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceAction", typeJson: "{\"fqn\":\"stripe.v2BillingPricingPlanComponent.V2BillingPricingPlanComponentServiceAction\"}", isOptional: true)]

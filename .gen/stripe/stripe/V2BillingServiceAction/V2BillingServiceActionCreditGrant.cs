@@ -11,7 +11,7 @@ namespace stripe.V2BillingServiceAction
     {
         /// <summary>amount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#amount V2BillingServiceAction#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#amount V2BillingServiceAction#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"fqn\":\"stripe.v2BillingServiceAction.V2BillingServiceActionCreditGrantAmount\"}")]
         public stripe.V2BillingServiceAction.IV2BillingServiceActionCreditGrantAmount Amount
@@ -22,7 +22,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>applicability_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#applicability_config V2BillingServiceAction#applicability_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#applicability_config V2BillingServiceAction#applicability_config}
         /// </remarks>
         [JsiiProperty(name: "applicabilityConfig", typeJson: "{\"fqn\":\"stripe.v2BillingServiceAction.V2BillingServiceActionCreditGrantApplicabilityConfig\"}")]
         public stripe.V2BillingServiceAction.IV2BillingServiceActionCreditGrantApplicabilityConfig ApplicabilityConfig
@@ -33,7 +33,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>expiry_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#expiry_config V2BillingServiceAction#expiry_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#expiry_config V2BillingServiceAction#expiry_config}
         /// </remarks>
         [JsiiProperty(name: "expiryConfig", typeJson: "{\"fqn\":\"stripe.v2BillingServiceAction.V2BillingServiceActionCreditGrantExpiryConfig\"}")]
         public stripe.V2BillingServiceAction.IV2BillingServiceActionCreditGrantExpiryConfig ExpiryConfig
@@ -44,7 +44,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>A descriptive name shown in dashboard.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#name V2BillingServiceAction#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#name V2BillingServiceAction#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -55,7 +55,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>The category of the credit grant.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#category V2BillingServiceAction#category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#category V2BillingServiceAction#category}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace stripe.V2BillingServiceAction
         /// <remarks>
         /// If not specified, it will be set to the default value of 50. The highest priority is 0 and the lowest is 100.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#priority V2BillingServiceAction#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#priority V2BillingServiceAction#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

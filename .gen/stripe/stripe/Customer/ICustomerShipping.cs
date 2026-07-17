@@ -9,7 +9,7 @@ namespace stripe.Customer
     {
         /// <summary>address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#address Customer#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#address Customer#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.customer.CustomerShippingAddress\"}")]
         stripe.Customer.ICustomerShippingAddress Address
@@ -19,7 +19,7 @@ namespace stripe.Customer
 
         /// <summary>Customer name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#name Customer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#name Customer#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace stripe.Customer
 
         /// <summary>Customer phone (including extension).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#phone Customer#phone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#phone Customer#phone}
         /// </remarks>
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace stripe.Customer
 
             /// <summary>address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#address Customer#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#address Customer#address}
             /// </remarks>
             [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.customer.CustomerShippingAddress\"}")]
             public stripe.Customer.ICustomerShippingAddress Address
@@ -60,7 +60,7 @@ namespace stripe.Customer
 
             /// <summary>Customer name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#name Customer#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#name Customer#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -70,7 +70,7 @@ namespace stripe.Customer
 
             /// <summary>Customer phone (including extension).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#phone Customer#phone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#phone Customer#phone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

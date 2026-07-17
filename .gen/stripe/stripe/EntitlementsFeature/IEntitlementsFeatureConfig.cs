@@ -9,7 +9,7 @@ namespace stripe.EntitlementsFeature
     {
         /// <summary>A unique key you provide as your own system identifier. This may be up to 80 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#lookup_key EntitlementsFeature#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#lookup_key EntitlementsFeature#lookup_key}
         /// </remarks>
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}")]
         string LookupKey
@@ -19,7 +19,7 @@ namespace stripe.EntitlementsFeature
 
         /// <summary>The feature's name, for your own purpose, not meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#name EntitlementsFeature#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#name EntitlementsFeature#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -31,7 +31,7 @@ namespace stripe.EntitlementsFeature
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#metadata EntitlementsFeature#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#metadata EntitlementsFeature#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace stripe.EntitlementsFeature
 
             /// <summary>A unique key you provide as your own system identifier. This may be up to 80 characters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#lookup_key EntitlementsFeature#lookup_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#lookup_key EntitlementsFeature#lookup_key}
             /// </remarks>
             [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}")]
             public string LookupKey
@@ -62,7 +62,7 @@ namespace stripe.EntitlementsFeature
 
             /// <summary>The feature's name, for your own purpose, not meant to be displayable to the customer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#name EntitlementsFeature#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#name EntitlementsFeature#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -74,7 +74,7 @@ namespace stripe.EntitlementsFeature
             /// <remarks>
             /// This can be useful for storing additional information about the object in a structured format.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/entitlements_feature#metadata EntitlementsFeature#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/entitlements_feature#metadata EntitlementsFeature#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

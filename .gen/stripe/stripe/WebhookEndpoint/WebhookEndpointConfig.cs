@@ -13,7 +13,7 @@ namespace stripe.WebhookEndpoint
         /// <remarks>
         /// You may specify <c>['*']</c> to enable all events, except those that require explicit selection.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
         /// </remarks>
         [JsiiProperty(name: "enabledEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EnabledEvents
@@ -24,7 +24,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>The URL of the webhook endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -35,7 +35,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>Events sent to this endpoint will be generated with this Stripe Version instead of your account's default Stripe Version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>Whether this endpoint should receive events from connected accounts (`true`), or from your account (`false`). Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace stripe.WebhookEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#description WebhookEndpoint#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#description WebhookEndpoint#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -89,7 +89,7 @@ namespace stripe.WebhookEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata

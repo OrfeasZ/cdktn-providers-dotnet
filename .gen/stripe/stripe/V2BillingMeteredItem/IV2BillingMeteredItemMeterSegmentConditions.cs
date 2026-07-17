@@ -9,7 +9,7 @@ namespace stripe.V2BillingMeteredItem
     {
         /// <summary>A Meter dimension.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#dimension V2BillingMeteredItem#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#dimension V2BillingMeteredItem#dimension}
         /// </remarks>
         [JsiiProperty(name: "dimension", typeJson: "{\"primitive\":\"string\"}")]
         string Dimension
@@ -19,7 +19,7 @@ namespace stripe.V2BillingMeteredItem
 
         /// <summary>To count usage towards this metered item, the dimension must have this value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#value V2BillingMeteredItem#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#value V2BillingMeteredItem#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -36,7 +36,7 @@ namespace stripe.V2BillingMeteredItem
 
             /// <summary>A Meter dimension.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#dimension V2BillingMeteredItem#dimension}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#dimension V2BillingMeteredItem#dimension}
             /// </remarks>
             [JsiiProperty(name: "dimension", typeJson: "{\"primitive\":\"string\"}")]
             public string Dimension
@@ -46,7 +46,7 @@ namespace stripe.V2BillingMeteredItem
 
             /// <summary>To count usage towards this metered item, the dimension must have this value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#value V2BillingMeteredItem#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#value V2BillingMeteredItem#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value

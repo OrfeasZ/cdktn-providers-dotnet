@@ -11,7 +11,7 @@ namespace stripe.V2BillingLicensedItem
     {
         /// <summary>Description that customers will see in the invoice line item. Maximum length of 250 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_licensed_item#display_name V2BillingLicensedItem#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_licensed_item#display_name V2BillingLicensedItem#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -24,7 +24,7 @@ namespace stripe.V2BillingLicensedItem
         /// <remarks>
         /// Must be unique among billable items. Maximum length of 200 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_licensed_item#lookup_key V2BillingLicensedItem#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_licensed_item#lookup_key V2BillingLicensedItem#lookup_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace stripe.V2BillingLicensedItem
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_licensed_item#metadata V2BillingLicensedItem#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_licensed_item#metadata V2BillingLicensedItem#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace stripe.V2BillingLicensedItem
         /// <remarks>
         /// For example, set this field to "seat" for Checkout to display "(price) per seat", or "environment" to display "(price) per environment". Maximum length of 100 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_licensed_item#unit_label V2BillingLicensedItem#unit_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_licensed_item#unit_label V2BillingLicensedItem#unit_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

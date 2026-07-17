@@ -11,7 +11,7 @@ namespace stripe.BillingMeter
     {
         /// <summary>default_aggregation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
         /// </remarks>
         [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}")]
         public stripe.BillingMeter.IBillingMeterDefaultAggregation DefaultAggregation
@@ -22,7 +22,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The meter’s name. Not visible to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#display_name BillingMeter#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#display_name BillingMeter#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -33,7 +33,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The name of the meter event to record usage for. Corresponds with the `event_name` field on meter events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#event_name BillingMeter#event_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_name BillingMeter#event_name}
         /// </remarks>
         [JsiiProperty(name: "eventName", typeJson: "{\"primitive\":\"string\"}")]
         public string EventName
@@ -44,7 +44,7 @@ namespace stripe.BillingMeter
 
         /// <summary>customer_mapping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace stripe.BillingMeter
         /// <remarks>
         /// Each key must be present in the event payload.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#dimension_payload_keys BillingMeter#dimension_payload_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#dimension_payload_keys BillingMeter#dimension_payload_keys}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimensionPayloadKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The time window which meter events have been pre-aggregated for, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventTimeWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace stripe.BillingMeter
 
         /// <summary>value_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}", isOptional: true)]

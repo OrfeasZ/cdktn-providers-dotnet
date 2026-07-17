@@ -11,7 +11,7 @@ namespace stripe.V2BillingServiceAction
     {
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#scope V2BillingServiceAction#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#scope V2BillingServiceAction#scope}
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"fqn\":\"stripe.v2BillingServiceAction.V2BillingServiceActionCreditGrantApplicabilityConfigScope\"}")]
         public stripe.V2BillingServiceAction.IV2BillingServiceActionCreditGrantApplicabilityConfigScope Scope

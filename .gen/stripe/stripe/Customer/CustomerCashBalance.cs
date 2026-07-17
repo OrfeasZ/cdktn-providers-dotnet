@@ -9,7 +9,7 @@ namespace stripe.Customer
     {
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/customer#settings Customer#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#settings Customer#settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalanceSettings\"}", isOptional: true)]

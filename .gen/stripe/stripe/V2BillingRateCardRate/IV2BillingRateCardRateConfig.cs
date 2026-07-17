@@ -9,7 +9,7 @@ namespace stripe.V2BillingRateCardRate
     {
         /// <summary>The Metered Item that this rate binds to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#metered_item V2BillingRateCardRate#metered_item}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#metered_item V2BillingRateCardRate#metered_item}
         /// </remarks>
         [JsiiProperty(name: "meteredItem", typeJson: "{\"primitive\":\"string\"}")]
         string MeteredItem
@@ -19,7 +19,7 @@ namespace stripe.V2BillingRateCardRate
 
         /// <summary>Path parameter: rate_card_id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#rate_card_id V2BillingRateCardRate#rate_card_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#rate_card_id V2BillingRateCardRate#rate_card_id}
         /// </remarks>
         [JsiiProperty(name: "rateCardId", typeJson: "{\"primitive\":\"string\"}")]
         string RateCardId
@@ -31,7 +31,7 @@ namespace stripe.V2BillingRateCardRate
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#metadata V2BillingRateCardRate#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#metadata V2BillingRateCardRate#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace stripe.V2BillingRateCardRate
         /// <remarks>
         /// In volume-based tiering, the maximum quantity within a period determines the per-unit price. In graduated tiering, the pricing changes as the quantity grows into new tiers. One of <c>unit_amount</c>, <c>tiers</c>, or <c>custom_pricing_unit_amount</c> is required.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#tiering_mode V2BillingRateCardRate#tiering_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#tiering_mode V2BillingRateCardRate#tiering_mode}
         /// </remarks>
         [JsiiProperty(name: "tieringMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.V2BillingRateCardRate
 
         /// <summary>tiers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#tiers V2BillingRateCardRate#tiers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#tiers V2BillingRateCardRate#tiers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingRateCardRate.IV2BillingRateCardRateTiers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingRateCardRate.V2BillingRateCardRateTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace stripe.V2BillingRateCardRate
         /// <remarks>
         /// One of <c>unit_amount</c>, <c>tiers</c>, or <c>custom_pricing_unit_amount</c> is required.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#unit_amount V2BillingRateCardRate#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#unit_amount V2BillingRateCardRate#unit_amount}
         /// </remarks>
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace stripe.V2BillingRateCardRate
 
             /// <summary>The Metered Item that this rate binds to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#metered_item V2BillingRateCardRate#metered_item}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#metered_item V2BillingRateCardRate#metered_item}
             /// </remarks>
             [JsiiProperty(name: "meteredItem", typeJson: "{\"primitive\":\"string\"}")]
             public string MeteredItem
@@ -109,7 +109,7 @@ namespace stripe.V2BillingRateCardRate
 
             /// <summary>Path parameter: rate_card_id.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#rate_card_id V2BillingRateCardRate#rate_card_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#rate_card_id V2BillingRateCardRate#rate_card_id}
             /// </remarks>
             [JsiiProperty(name: "rateCardId", typeJson: "{\"primitive\":\"string\"}")]
             public string RateCardId
@@ -121,7 +121,7 @@ namespace stripe.V2BillingRateCardRate
             /// <remarks>
             /// This can be useful for storing additional information about the object in a structured format.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#metadata V2BillingRateCardRate#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#metadata V2BillingRateCardRate#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace stripe.V2BillingRateCardRate
             /// <remarks>
             /// In volume-based tiering, the maximum quantity within a period determines the per-unit price. In graduated tiering, the pricing changes as the quantity grows into new tiers. One of <c>unit_amount</c>, <c>tiers</c>, or <c>custom_pricing_unit_amount</c> is required.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#tiering_mode V2BillingRateCardRate#tiering_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#tiering_mode V2BillingRateCardRate#tiering_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tieringMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace stripe.V2BillingRateCardRate
 
             /// <summary>tiers block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#tiers V2BillingRateCardRate#tiers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#tiers V2BillingRateCardRate#tiers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingRateCardRate.IV2BillingRateCardRateTiers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -159,7 +159,7 @@ namespace stripe.V2BillingRateCardRate
             /// <remarks>
             /// One of <c>unit_amount</c>, <c>tiers</c>, or <c>custom_pricing_unit_amount</c> is required.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_rate_card_rate#unit_amount V2BillingRateCardRate#unit_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_rate_card_rate#unit_amount V2BillingRateCardRate#unit_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

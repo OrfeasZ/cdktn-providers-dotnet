@@ -5,7 +5,7 @@ namespace stripe.V2BillingServiceAction
     /// <remarks>
     /// <h1><c>stripe_v2_billing_service_action</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action"><c>stripe_v2_billing_service_action</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action"><c>stripe_v2_billing_service_action</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

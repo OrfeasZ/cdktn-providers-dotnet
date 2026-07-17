@@ -11,7 +11,7 @@ namespace stripe.PromotionCode
 
         /// <summary>currency_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/promotion_code#currency_options PromotionCode#currency_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#currency_options PromotionCode#currency_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodeRestrictionsCurrencyOptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace stripe.PromotionCode
 
         /// <summary>A Boolean indicating if the Promotion Code should only be redeemed for Customers without any successful payments or invoices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/promotion_code#first_time_transaction PromotionCode#first_time_transaction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#first_time_transaction PromotionCode#first_time_transaction}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Minimum amount required to redeem this Promotion Code into a Coupon (e.g., a purchase must be $100 or more to work).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Three-letter [ISO code](https://stripe.com/docs/currencies) for minimum_amount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/promotion_code#minimum_amount_currency PromotionCode#minimum_amount_currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#minimum_amount_currency PromotionCode#minimum_amount_currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumAmountCurrency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

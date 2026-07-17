@@ -9,7 +9,7 @@ namespace stripe.DataStripeBillingMeter
     {
         /// <summary>Event name for the meter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/data-sources/billing_meter#event_name DataStripeBillingMeter#event_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/data-sources/billing_meter#event_name DataStripeBillingMeter#event_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.DataStripeBillingMeter
 
         /// <summary>Unique identifier for the object.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/data-sources/billing_meter#id DataStripeBillingMeter#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/data-sources/billing_meter#id DataStripeBillingMeter#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

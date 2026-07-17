@@ -11,7 +11,7 @@ namespace stripe.V2BillingServiceAction
     {
         /// <summary>The interval for assessing service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#service_interval V2BillingServiceAction#service_interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#service_interval V2BillingServiceAction#service_interval}
         /// </remarks>
         [JsiiProperty(name: "serviceInterval", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceInterval
@@ -22,7 +22,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>The length of the interval for assessing service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#service_interval_count V2BillingServiceAction#service_interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#service_interval_count V2BillingServiceAction#service_interval_count}
         /// </remarks>
         [JsiiProperty(name: "serviceIntervalCount", typeJson: "{\"primitive\":\"number\"}")]
         public double ServiceIntervalCount
@@ -33,7 +33,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>The type of the service action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#type V2BillingServiceAction#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#type V2BillingServiceAction#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -44,7 +44,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>credit_grant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#credit_grant V2BillingServiceAction#credit_grant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#credit_grant V2BillingServiceAction#credit_grant}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creditGrant", typeJson: "{\"fqn\":\"stripe.v2BillingServiceAction.V2BillingServiceActionCreditGrant\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace stripe.V2BillingServiceAction
 
         /// <summary>An internal key you can use to search for this service action. Maximum length of 200 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_service_action#lookup_key V2BillingServiceAction#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_service_action#lookup_key V2BillingServiceAction#lookup_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

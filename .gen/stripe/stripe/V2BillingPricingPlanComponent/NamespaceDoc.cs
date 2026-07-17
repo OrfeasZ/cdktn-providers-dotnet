@@ -5,7 +5,7 @@ namespace stripe.V2BillingPricingPlanComponent
     /// <remarks>
     /// <h1><c>stripe_v2_billing_pricing_plan_component</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_pricing_plan_component"><c>stripe_v2_billing_pricing_plan_component</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_pricing_plan_component"><c>stripe_v2_billing_pricing_plan_component</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

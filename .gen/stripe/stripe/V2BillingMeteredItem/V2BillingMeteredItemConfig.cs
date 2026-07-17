@@ -11,7 +11,7 @@ namespace stripe.V2BillingMeteredItem
     {
         /// <summary>Description that customers will see in the invoice line item. Maximum length of 250 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#display_name V2BillingMeteredItem#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#display_name V2BillingMeteredItem#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -22,7 +22,7 @@ namespace stripe.V2BillingMeteredItem
 
         /// <summary>ID of the Meter that measures usage for this Metered Item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#meter V2BillingMeteredItem#meter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#meter V2BillingMeteredItem#meter}
         /// </remarks>
         [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}")]
         public string Meter
@@ -33,7 +33,7 @@ namespace stripe.V2BillingMeteredItem
 
         /// <summary>Optional array of Meter dimensions to group event dimension keys for invoice line items.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#invoice_presentation_dimensions V2BillingMeteredItem#invoice_presentation_dimensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#invoice_presentation_dimensions V2BillingMeteredItem#invoice_presentation_dimensions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invoicePresentationDimensions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.V2BillingMeteredItem
         /// <remarks>
         /// Must be unique among billable items. Maximum length of 200 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#lookup_key V2BillingMeteredItem#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#lookup_key V2BillingMeteredItem#lookup_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace stripe.V2BillingMeteredItem
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#metadata V2BillingMeteredItem#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#metadata V2BillingMeteredItem#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.V2BillingMeteredItem
 
         /// <summary>meter_segment_conditions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#meter_segment_conditions V2BillingMeteredItem#meter_segment_conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#meter_segment_conditions V2BillingMeteredItem#meter_segment_conditions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingMeteredItem.IV2BillingMeteredItemMeterSegmentConditions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -110,7 +110,7 @@ namespace stripe.V2BillingMeteredItem
         /// <remarks>
         /// For example, set this field to "CPU-hour" for Checkout to display "(price) per CPU-hour", or "1 million events" to display "(price) per 1 million events". Maximum length of 100 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_metered_item#unit_label V2BillingMeteredItem#unit_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_metered_item#unit_label V2BillingMeteredItem#unit_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

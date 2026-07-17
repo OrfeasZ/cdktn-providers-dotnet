@@ -9,7 +9,7 @@ namespace stripe.V2BillingLicenseFee
     {
         /// <summary>Three-letter ISO currency code, in lowercase. Must be a supported currency.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#currency V2BillingLicenseFee#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#currency V2BillingLicenseFee#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -21,7 +21,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// This name is used in Stripe-hosted products like the Customer Portal and Checkout. It does not show up on Invoices. Maximum length of 250 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#display_name V2BillingLicenseFee#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#display_name V2BillingLicenseFee#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -31,7 +31,7 @@ namespace stripe.V2BillingLicenseFee
 
         /// <summary>The Licensed Item that this License Fee binds to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#licensed_item V2BillingLicenseFee#licensed_item}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#licensed_item V2BillingLicenseFee#licensed_item}
         /// </remarks>
         [JsiiProperty(name: "licensedItem", typeJson: "{\"primitive\":\"string\"}")]
         string LicensedItem
@@ -43,7 +43,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// For example, a monthly license fee with a rate of $1 for the first 10 "workloads" and $2 thereafter means "$1 per workload up to 10 workloads during a month of service." This is similar to but distinct from billing interval; the service interval deals with the rate at which the customer accumulates fees, while the billing interval in Cadence deals with the rate the customer is billed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#service_interval V2BillingLicenseFee#service_interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#service_interval V2BillingLicenseFee#service_interval}
         /// </remarks>
         [JsiiProperty(name: "serviceInterval", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceInterval
@@ -55,7 +55,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// For example, set this to 3 and <c>service_interval</c> to <c>\"month\"</c> in order to specify quarterly service.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#service_interval_count V2BillingLicenseFee#service_interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#service_interval_count V2BillingLicenseFee#service_interval_count}
         /// </remarks>
         [JsiiProperty(name: "serviceIntervalCount", typeJson: "{\"primitive\":\"number\"}")]
         double ServiceIntervalCount
@@ -65,7 +65,7 @@ namespace stripe.V2BillingLicenseFee
 
         /// <summary>The Stripe Tax tax behavior - whether the license fee is inclusive or exclusive of tax.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tax_behavior V2BillingLicenseFee#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tax_behavior V2BillingLicenseFee#tax_behavior}
         /// </remarks>
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}")]
         string TaxBehavior
@@ -75,7 +75,7 @@ namespace stripe.V2BillingLicenseFee
 
         /// <summary>An internal key you can use to search for a particular license fee. Maximum length of 200 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#lookup_key V2BillingLicenseFee#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#lookup_key V2BillingLicenseFee#lookup_key}
         /// </remarks>
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +91,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// This can be useful for storing additional information about the object in a structured format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#metadata V2BillingLicenseFee#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#metadata V2BillingLicenseFee#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// In volume-based tiering, the maximum quantity within a period determines the per-unit price. In graduated tiering, the pricing changes as the quantity grows into new tiers. Can only be set if <c>tiers</c> is set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tiering_mode V2BillingLicenseFee#tiering_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tiering_mode V2BillingLicenseFee#tiering_mode}
         /// </remarks>
         [JsiiProperty(name: "tieringMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace stripe.V2BillingLicenseFee
 
         /// <summary>tiers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tiers V2BillingLicenseFee#tiers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tiers V2BillingLicenseFee#tiers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingLicenseFee.IV2BillingLicenseFeeTiers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2BillingLicenseFee.V2BillingLicenseFeeTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace stripe.V2BillingLicenseFee
         /// <remarks>
         /// Cannot be set if <c>tiers</c> is provided.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#unit_amount V2BillingLicenseFee#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#unit_amount V2BillingLicenseFee#unit_amount}
         /// </remarks>
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace stripe.V2BillingLicenseFee
 
             /// <summary>Three-letter ISO currency code, in lowercase. Must be a supported currency.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#currency V2BillingLicenseFee#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#currency V2BillingLicenseFee#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -171,7 +171,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// This name is used in Stripe-hosted products like the Customer Portal and Checkout. It does not show up on Invoices. Maximum length of 250 characters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#display_name V2BillingLicenseFee#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#display_name V2BillingLicenseFee#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -181,7 +181,7 @@ namespace stripe.V2BillingLicenseFee
 
             /// <summary>The Licensed Item that this License Fee binds to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#licensed_item V2BillingLicenseFee#licensed_item}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#licensed_item V2BillingLicenseFee#licensed_item}
             /// </remarks>
             [JsiiProperty(name: "licensedItem", typeJson: "{\"primitive\":\"string\"}")]
             public string LicensedItem
@@ -193,7 +193,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// For example, a monthly license fee with a rate of $1 for the first 10 "workloads" and $2 thereafter means "$1 per workload up to 10 workloads during a month of service." This is similar to but distinct from billing interval; the service interval deals with the rate at which the customer accumulates fees, while the billing interval in Cadence deals with the rate the customer is billed.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#service_interval V2BillingLicenseFee#service_interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#service_interval V2BillingLicenseFee#service_interval}
             /// </remarks>
             [JsiiProperty(name: "serviceInterval", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceInterval
@@ -205,7 +205,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// For example, set this to 3 and <c>service_interval</c> to <c>\"month\"</c> in order to specify quarterly service.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#service_interval_count V2BillingLicenseFee#service_interval_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#service_interval_count V2BillingLicenseFee#service_interval_count}
             /// </remarks>
             [JsiiProperty(name: "serviceIntervalCount", typeJson: "{\"primitive\":\"number\"}")]
             public double ServiceIntervalCount
@@ -215,7 +215,7 @@ namespace stripe.V2BillingLicenseFee
 
             /// <summary>The Stripe Tax tax behavior - whether the license fee is inclusive or exclusive of tax.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tax_behavior V2BillingLicenseFee#tax_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tax_behavior V2BillingLicenseFee#tax_behavior}
             /// </remarks>
             [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}")]
             public string TaxBehavior
@@ -225,7 +225,7 @@ namespace stripe.V2BillingLicenseFee
 
             /// <summary>An internal key you can use to search for a particular license fee. Maximum length of 200 characters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#lookup_key V2BillingLicenseFee#lookup_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#lookup_key V2BillingLicenseFee#lookup_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -238,7 +238,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// This can be useful for storing additional information about the object in a structured format.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#metadata V2BillingLicenseFee#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#metadata V2BillingLicenseFee#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -251,7 +251,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// In volume-based tiering, the maximum quantity within a period determines the per-unit price. In graduated tiering, the pricing changes as the quantity grows into new tiers. Can only be set if <c>tiers</c> is set.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tiering_mode V2BillingLicenseFee#tiering_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tiering_mode V2BillingLicenseFee#tiering_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tieringMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -262,7 +262,7 @@ namespace stripe.V2BillingLicenseFee
 
             /// <summary>tiers block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#tiers V2BillingLicenseFee#tiers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#tiers V2BillingLicenseFee#tiers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2BillingLicenseFee.IV2BillingLicenseFeeTiers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -276,7 +276,7 @@ namespace stripe.V2BillingLicenseFee
             /// <remarks>
             /// Cannot be set if <c>tiers</c> is provided.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/v2_billing_license_fee#unit_amount V2BillingLicenseFee#unit_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_billing_license_fee#unit_amount V2BillingLicenseFee#unit_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

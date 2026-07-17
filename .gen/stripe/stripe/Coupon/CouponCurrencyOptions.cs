@@ -11,7 +11,7 @@ namespace stripe.Coupon
     {
         /// <summary>A positive integer representing the amount to subtract from an invoice total.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/coupon#amount_off Coupon#amount_off}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#amount_off Coupon#amount_off}
         /// </remarks>
         [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}")]
         public double AmountOff
@@ -20,7 +20,7 @@ namespace stripe.Coupon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.2/docs/resources/coupon#key Coupon#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#key Coupon#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
