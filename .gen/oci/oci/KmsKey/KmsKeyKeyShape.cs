@@ -9,7 +9,7 @@ namespace oci.KmsKey
     [JsiiByValue(fqn: "oci.kmsKey.KmsKeyKeyShape")]
     public class KmsKeyKeyShape : oci.KmsKey.IKmsKeyKeyShape
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_key#algorithm KmsKey#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_key#algorithm KmsKey#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string Algorithm
         {
@@ -17,7 +17,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_key#length KmsKey#length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_key#length KmsKey#length}.</summary>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
         public double Length
         {
@@ -25,7 +25,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_key#curve_id KmsKey#curve_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_key#curve_id KmsKey#curve_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "curveId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CurveId

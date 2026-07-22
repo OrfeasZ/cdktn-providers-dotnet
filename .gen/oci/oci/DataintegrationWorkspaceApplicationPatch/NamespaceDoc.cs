@@ -5,7 +5,7 @@ namespace oci.DataintegrationWorkspaceApplicationPatch
     /// <remarks>
     /// <h1><c>oci_dataintegration_workspace_application_patch</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataintegration_workspace_application_patch"><c>oci_dataintegration_workspace_application_patch</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataintegration_workspace_application_patch"><c>oci_dataintegration_workspace_application_patch</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,28 +7,28 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStream
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubSoftwareSourceModuleStreamConfig), fullyQualifiedName: "oci.dataOciOsManagementHubSoftwareSourceModuleStream.DataOciOsManagementHubSoftwareSourceModuleStreamConfig")]
     public interface IDataOciOsManagementHubSoftwareSourceModuleStreamConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}.</summary>
         [JsiiProperty(name: "moduleName", typeJson: "{\"primitive\":\"string\"}")]
         string ModuleName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareSourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}.</summary>
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
         string StreamName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,28 +50,28 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#module_name DataOciOsManagementHubSoftwareSourceModuleStream#module_name}.</summary>
             [JsiiProperty(name: "moduleName", typeJson: "{\"primitive\":\"string\"}")]
             public string ModuleName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#software_source_id DataOciOsManagementHubSoftwareSourceModuleStream#software_source_id}.</summary>
             [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareSourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#stream_name DataOciOsManagementHubSoftwareSourceModuleStream#stream_name}.</summary>
             [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream#id DataOciOsManagementHubSoftwareSourceModuleStream#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

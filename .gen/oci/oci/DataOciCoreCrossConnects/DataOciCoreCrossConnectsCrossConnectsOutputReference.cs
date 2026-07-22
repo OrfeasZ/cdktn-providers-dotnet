@@ -83,6 +83,12 @@ namespace oci.DataOciCoreCrossConnects
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "interfaceDownTimerValueInMilliseconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double InterfaceDownTimerValueInMilliseconds
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "interfaceName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceName
         {
@@ -93,6 +99,24 @@ namespace oci.DataOciCoreCrossConnects
         public virtual Io.Cdktn.IResolvable IsActive
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isInterfaceHoldTimerEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsInterfaceHoldTimerEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isQosEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsQosEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "loaProperties", typeJson: "{\"fqn\":\"oci.dataOciCoreCrossConnects.DataOciCoreCrossConnectsCrossConnectsLoaPropertiesList\"}")]
+        public virtual oci.DataOciCoreCrossConnects.DataOciCoreCrossConnectsCrossConnectsLoaPropertiesList LoaProperties
+        {
+            get => GetInstanceProperty<oci.DataOciCoreCrossConnects.DataOciCoreCrossConnectsCrossConnectsLoaPropertiesList>()!;
         }
 
         [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]

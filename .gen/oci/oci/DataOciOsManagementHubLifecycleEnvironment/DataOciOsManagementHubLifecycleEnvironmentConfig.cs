@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubLifecycleEnvironment
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubLifecycleEnvironment.DataOciOsManagementHubLifecycleEnvironmentConfig")]
     public class DataOciOsManagementHubLifecycleEnvironmentConfig : oci.DataOciOsManagementHubLifecycleEnvironment.IDataOciOsManagementHubLifecycleEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_lifecycle_environment#lifecycle_environment_id DataOciOsManagementHubLifecycleEnvironment#lifecycle_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_lifecycle_environment#lifecycle_environment_id DataOciOsManagementHubLifecycleEnvironment#lifecycle_environment_id}.</summary>
         [JsiiProperty(name: "lifecycleEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string LifecycleEnvironmentId
         {

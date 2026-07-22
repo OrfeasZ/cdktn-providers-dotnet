@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
     [JsiiByValue(fqn: "oci.osManagementHubManagementStationAssociateManagedInstancesManagement.OsManagementHubManagementStationAssociateManagedInstancesManagementTimeouts")]
     public class OsManagementHubManagementStationAssociateManagedInstancesManagementTimeouts : oci.OsManagementHubManagementStationAssociateManagedInstancesManagement.IOsManagementHubManagementStationAssociateManagedInstancesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#create OsManagementHubManagementStationAssociateManagedInstancesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#create OsManagementHubManagementStationAssociateManagedInstancesManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#delete OsManagementHubManagementStationAssociateManagedInstancesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#delete OsManagementHubManagementStationAssociateManagedInstancesManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#update OsManagementHubManagementStationAssociateManagedInstancesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#update OsManagementHubManagementStationAssociateManagedInstancesManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.DataOciLicenseManagerProductLicense
     [JsiiInterface(nativeType: typeof(IDataOciLicenseManagerProductLicenseConfig), fullyQualifiedName: "oci.dataOciLicenseManagerProductLicense.DataOciLicenseManagerProductLicenseConfig")]
     public interface IDataOciLicenseManagerProductLicenseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/license_manager_product_license#product_license_id DataOciLicenseManagerProductLicense#product_license_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/license_manager_product_license#product_license_id DataOciLicenseManagerProductLicense#product_license_id}.</summary>
         [JsiiProperty(name: "productLicenseId", typeJson: "{\"primitive\":\"string\"}")]
         string ProductLicenseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLicenseManagerProductLicense
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/license_manager_product_license#product_license_id DataOciLicenseManagerProductLicense#product_license_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/license_manager_product_license#product_license_id DataOciLicenseManagerProductLicense#product_license_id}.</summary>
             [JsiiProperty(name: "productLicenseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProductLicenseId
             {

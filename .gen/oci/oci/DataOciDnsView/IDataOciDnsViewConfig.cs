@@ -7,7 +7,7 @@ namespace oci.DataOciDnsView
     [JsiiInterface(nativeType: typeof(IDataOciDnsViewConfig), fullyQualifiedName: "oci.dataOciDnsView.DataOciDnsViewConfig")]
     public interface IDataOciDnsViewConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Scope
@@ -18,7 +18,7 @@ namespace oci.DataOciDnsView
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ViewId
@@ -36,7 +36,7 @@ namespace oci.DataOciDnsView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Scope
@@ -44,7 +44,7 @@ namespace oci.DataOciDnsView
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ViewId

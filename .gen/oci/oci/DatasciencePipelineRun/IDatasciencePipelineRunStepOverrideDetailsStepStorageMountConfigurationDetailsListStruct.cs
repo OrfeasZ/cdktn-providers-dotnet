@@ -7,21 +7,21 @@ namespace oci.DatasciencePipelineRun
     [JsiiInterface(nativeType: typeof(IDatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct), fullyQualifiedName: "oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct")]
     public interface IDatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}.</summary>
         [JsiiProperty(name: "destinationDirectoryName", typeJson: "{\"primitive\":\"string\"}")]
         string DestinationDirectoryName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}.</summary>
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
         string StorageType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -32,7 +32,7 @@ namespace oci.DatasciencePipelineRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}.</summary>
         [JsiiProperty(name: "destinationPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationPath
@@ -43,7 +43,7 @@ namespace oci.DatasciencePipelineRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}.</summary>
         [JsiiProperty(name: "exportId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExportId
@@ -54,7 +54,7 @@ namespace oci.DatasciencePipelineRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}.</summary>
         [JsiiProperty(name: "mountTargetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MountTargetId
@@ -65,7 +65,7 @@ namespace oci.DatasciencePipelineRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -76,7 +76,7 @@ namespace oci.DatasciencePipelineRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Prefix
@@ -94,21 +94,21 @@ namespace oci.DatasciencePipelineRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#destination_directory_name DatasciencePipelineRun#destination_directory_name}.</summary>
             [JsiiProperty(name: "destinationDirectoryName", typeJson: "{\"primitive\":\"string\"}")]
             public string DestinationDirectoryName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#storage_type DatasciencePipelineRun#storage_type}.</summary>
             [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#bucket DatasciencePipelineRun#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -116,7 +116,7 @@ namespace oci.DatasciencePipelineRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#destination_path DatasciencePipelineRun#destination_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationPath
@@ -124,7 +124,7 @@ namespace oci.DatasciencePipelineRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#export_id DatasciencePipelineRun#export_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "exportId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExportId
@@ -132,7 +132,7 @@ namespace oci.DatasciencePipelineRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#mount_target_id DatasciencePipelineRun#mount_target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mountTargetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MountTargetId
@@ -140,7 +140,7 @@ namespace oci.DatasciencePipelineRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#namespace DatasciencePipelineRun#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace
@@ -148,7 +148,7 @@ namespace oci.DatasciencePipelineRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline_run#prefix DatasciencePipelineRun#prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Prefix

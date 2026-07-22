@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPlans.DataOciDatabaseSchedulingPlansConfig")]
     public class DataOciDatabaseSchedulingPlansConfig : oci.DataOciDatabaseSchedulingPlans.IDataOciDatabaseSchedulingPlansConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#compartment_id DataOciDatabaseSchedulingPlans#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#compartment_id DataOciDatabaseSchedulingPlans#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#display_name DataOciDatabaseSchedulingPlans#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#display_name DataOciDatabaseSchedulingPlans#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#filter DataOciDatabaseSchedulingPlans#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#filter DataOciDatabaseSchedulingPlans#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSchedulingPlans.IDataOciDatabaseSchedulingPlansFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#id DataOciDatabaseSchedulingPlans#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#id DataOciDatabaseSchedulingPlans#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#resource_id DataOciDatabaseSchedulingPlans#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#resource_id DataOciDatabaseSchedulingPlans#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#scheduling_policy_id DataOciDatabaseSchedulingPlans#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#scheduling_policy_id DataOciDatabaseSchedulingPlans#scheduling_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchedulingPolicyId
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseSchedulingPlans
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduling_plans#state DataOciDatabaseSchedulingPlans#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduling_plans#state DataOciDatabaseSchedulingPlans#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

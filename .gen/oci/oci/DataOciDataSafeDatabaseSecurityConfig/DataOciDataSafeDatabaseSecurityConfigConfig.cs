@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeDatabaseSecurityConfig
     [JsiiByValue(fqn: "oci.dataOciDataSafeDatabaseSecurityConfig.DataOciDataSafeDatabaseSecurityConfigConfig")]
     public class DataOciDataSafeDatabaseSecurityConfigConfig : oci.DataOciDataSafeDatabaseSecurityConfig.IDataOciDataSafeDatabaseSecurityConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_database_security_config#database_security_config_id DataOciDataSafeDatabaseSecurityConfig#database_security_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_database_security_config#database_security_config_id DataOciDataSafeDatabaseSecurityConfig#database_security_config_id}.</summary>
         [JsiiProperty(name: "databaseSecurityConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseSecurityConfigId
         {

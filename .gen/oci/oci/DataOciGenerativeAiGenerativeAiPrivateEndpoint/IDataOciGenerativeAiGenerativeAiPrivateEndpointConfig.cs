@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiGenerativeAiPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciGenerativeAiGenerativeAiPrivateEndpoint.DataOciGenerativeAiGenerativeAiPrivateEndpointConfig")]
     public interface IDataOciGenerativeAiGenerativeAiPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_generative_ai_private_endpoint#generative_ai_private_endpoint_id DataOciGenerativeAiGenerativeAiPrivateEndpoint#generative_ai_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_generative_ai_private_endpoint#generative_ai_private_endpoint_id DataOciGenerativeAiGenerativeAiPrivateEndpoint#generative_ai_private_endpoint_id}.</summary>
         [JsiiProperty(name: "generativeAiPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string GenerativeAiPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_generative_ai_private_endpoint#generative_ai_private_endpoint_id DataOciGenerativeAiGenerativeAiPrivateEndpoint#generative_ai_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_generative_ai_private_endpoint#generative_ai_private_endpoint_id DataOciGenerativeAiGenerativeAiPrivateEndpoint#generative_ai_private_endpoint_id}.</summary>
             [JsiiProperty(name: "generativeAiPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string GenerativeAiPrivateEndpointId
             {

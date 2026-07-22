@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
     [JsiiByValue(fqn: "oci.dataOciGoldenGatePipelineSchemas.DataOciGoldenGatePipelineSchemasFilter")]
     public class DataOciGoldenGatePipelineSchemasFilter : oci.DataOciGoldenGatePipelineSchemas.IDataOciGoldenGatePipelineSchemasFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schemas#name DataOciGoldenGatePipelineSchemas#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schemas#name DataOciGoldenGatePipelineSchemas#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schemas#values DataOciGoldenGatePipelineSchemas#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schemas#values DataOciGoldenGatePipelineSchemas#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schemas#regex DataOciGoldenGatePipelineSchemas#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schemas#regex DataOciGoldenGatePipelineSchemas#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

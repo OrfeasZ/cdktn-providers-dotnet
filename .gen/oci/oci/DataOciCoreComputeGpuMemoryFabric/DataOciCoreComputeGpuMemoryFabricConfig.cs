@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGpuMemoryFabric
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGpuMemoryFabric.DataOciCoreComputeGpuMemoryFabricConfig")]
     public class DataOciCoreComputeGpuMemoryFabricConfig : oci.DataOciCoreComputeGpuMemoryFabric.IDataOciCoreComputeGpuMemoryFabricConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
         [JsiiProperty(name: "computeGpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGpuMemoryFabricId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationAverageCarbonEmission
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationAverageCarbonEmission.DataOciMeteringComputationAverageCarbonEmissionConfig")]
     public class DataOciMeteringComputationAverageCarbonEmissionConfig : oci.DataOciMeteringComputationAverageCarbonEmission.IDataOciMeteringComputationAverageCarbonEmissionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_average_carbon_emission#sku_part_number DataOciMeteringComputationAverageCarbonEmission#sku_part_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_average_carbon_emission#sku_part_number DataOciMeteringComputationAverageCarbonEmission#sku_part_number}.</summary>
         [JsiiProperty(name: "skuPartNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string SkuPartNumber
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMeteringComputationAverageCarbonEmission
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_average_carbon_emission#id DataOciMeteringComputationAverageCarbonEmission#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_average_carbon_emission#id DataOciMeteringComputationAverageCarbonEmission#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

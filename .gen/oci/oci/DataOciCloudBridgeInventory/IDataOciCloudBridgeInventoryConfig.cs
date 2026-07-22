@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeInventory
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeInventoryConfig), fullyQualifiedName: "oci.dataOciCloudBridgeInventory.DataOciCloudBridgeInventoryConfig")]
     public interface IDataOciCloudBridgeInventoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
         [JsiiProperty(name: "inventoryId", typeJson: "{\"primitive\":\"string\"}")]
         string InventoryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudBridgeInventory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_inventory#inventory_id DataOciCloudBridgeInventory#inventory_id}.</summary>
             [JsiiProperty(name: "inventoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string InventoryId
             {

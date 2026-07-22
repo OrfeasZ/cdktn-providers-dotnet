@@ -9,7 +9,7 @@ namespace oci.StreamingStreamPool
     {
         private object? _autoCreateTopicsEnable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/streaming_stream_pool#auto_create_topics_enable StreamingStreamPool#auto_create_topics_enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/streaming_stream_pool#auto_create_topics_enable StreamingStreamPool#auto_create_topics_enable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.StreamingStreamPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/streaming_stream_pool#log_retention_hours StreamingStreamPool#log_retention_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/streaming_stream_pool#log_retention_hours StreamingStreamPool#log_retention_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logRetentionHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LogRetentionHours
@@ -50,7 +50,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/streaming_stream_pool#num_partitions StreamingStreamPool#num_partitions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/streaming_stream_pool#num_partitions StreamingStreamPool#num_partitions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numPartitions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumPartitions

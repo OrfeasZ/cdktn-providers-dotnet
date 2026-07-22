@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityApiKeys
     [JsiiByValue(fqn: "oci.dataOciIdentityApiKeys.DataOciIdentityApiKeysConfig")]
     public class DataOciIdentityApiKeysConfig : oci.DataOciIdentityApiKeys.IDataOciIdentityApiKeysConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_api_keys#user_id DataOciIdentityApiKeys#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_api_keys#user_id DataOciIdentityApiKeys#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityApiKeys
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_api_keys#filter DataOciIdentityApiKeys#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_api_keys#filter DataOciIdentityApiKeys#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityApiKeys.IDataOciIdentityApiKeysFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityApiKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_api_keys#id DataOciIdentityApiKeys#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_api_keys#id DataOciIdentityApiKeys#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

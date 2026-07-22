@@ -7,7 +7,7 @@ namespace oci.BatchBatchTaskEnvironment
     [JsiiByValue(fqn: "oci.batchBatchTaskEnvironment.BatchBatchTaskEnvironmentSecurityContext")]
     public class BatchBatchTaskEnvironmentSecurityContext : oci.BatchBatchTaskEnvironment.IBatchBatchTaskEnvironmentSecurityContext
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FsGroup
@@ -16,7 +16,7 @@ namespace oci.BatchBatchTaskEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runAsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RunAsGroup
@@ -25,7 +25,7 @@ namespace oci.BatchBatchTaskEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runAsUser", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RunAsUser

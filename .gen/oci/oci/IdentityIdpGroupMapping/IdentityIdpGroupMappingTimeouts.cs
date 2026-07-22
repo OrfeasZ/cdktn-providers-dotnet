@@ -7,7 +7,7 @@ namespace oci.IdentityIdpGroupMapping
     [JsiiByValue(fqn: "oci.identityIdpGroupMapping.IdentityIdpGroupMappingTimeouts")]
     public class IdentityIdpGroupMappingTimeouts : oci.IdentityIdpGroupMapping.IIdentityIdpGroupMappingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#create IdentityIdpGroupMapping#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#create IdentityIdpGroupMapping#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IdentityIdpGroupMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#delete IdentityIdpGroupMapping#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#delete IdentityIdpGroupMapping#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IdentityIdpGroupMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#update IdentityIdpGroupMapping#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#update IdentityIdpGroupMapping#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -5,7 +5,7 @@ namespace oci.CoreDefaultRouteTable
     /// <remarks>
     /// <h1><c>oci_core_default_route_table</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_default_route_table"><c>oci_core_default_route_table</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_default_route_table"><c>oci_core_default_route_table</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

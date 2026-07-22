@@ -9,7 +9,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
     [JsiiByValue(fqn: "oci.dataOciOpensearchOpensearchClusterPipelines.DataOciOpensearchOpensearchClusterPipelinesConfig")]
     public class DataOciOpensearchOpensearchClusterPipelinesConfig : oci.DataOciOpensearchOpensearchClusterPipelines.IDataOciOpensearchOpensearchClusterPipelinesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#compartment_id DataOciOpensearchOpensearchClusterPipelines#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#compartment_id DataOciOpensearchOpensearchClusterPipelines#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#display_name DataOciOpensearchOpensearchClusterPipelines#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#display_name DataOciOpensearchOpensearchClusterPipelines#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#filter DataOciOpensearchOpensearchClusterPipelines#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#filter DataOciOpensearchOpensearchClusterPipelines#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpensearchOpensearchClusterPipelines.IDataOciOpensearchOpensearchClusterPipelinesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#id DataOciOpensearchOpensearchClusterPipelines#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#id DataOciOpensearchOpensearchClusterPipelines#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#pipeline_component_id DataOciOpensearchOpensearchClusterPipelines#pipeline_component_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#pipeline_component_id DataOciOpensearchOpensearchClusterPipelines#pipeline_component_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pipelineComponentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PipelineComponentId
@@ -83,7 +83,7 @@ namespace oci.DataOciOpensearchOpensearchClusterPipelines
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#state DataOciOpensearchOpensearchClusterPipelines#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opensearch_opensearch_cluster_pipelines#state DataOciOpensearchOpensearchClusterPipelines#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

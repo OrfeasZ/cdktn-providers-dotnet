@@ -7,14 +7,14 @@ namespace oci.DifStack
     [JsiiInterface(nativeType: typeof(IDifStackDataflowExecutorShapeConfig), fullyQualifiedName: "oci.difStack.DifStackDataflowExecutorShapeConfig")]
     public interface IDifStackDataflowExecutorShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double MemoryInGbs
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
         double Ocpus
         {
@@ -28,14 +28,14 @@ namespace oci.DifStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}.</summary>
             [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double MemoryInGbs
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#ocpus DifStack#ocpus}.</summary>
             [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
             public double Ocpus
             {

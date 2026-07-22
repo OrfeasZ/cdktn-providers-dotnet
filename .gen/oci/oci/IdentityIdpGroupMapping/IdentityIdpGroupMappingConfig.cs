@@ -9,7 +9,7 @@ namespace oci.IdentityIdpGroupMapping
     [JsiiByValue(fqn: "oci.identityIdpGroupMapping.IdentityIdpGroupMappingConfig")]
     public class IdentityIdpGroupMappingConfig : oci.IdentityIdpGroupMapping.IIdentityIdpGroupMappingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#group_id IdentityIdpGroupMapping#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#group_id IdentityIdpGroupMapping#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityIdpGroupMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#identity_provider_id IdentityIdpGroupMapping#identity_provider_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#identity_provider_id IdentityIdpGroupMapping#identity_provider_id}.</summary>
         [JsiiProperty(name: "identityProviderId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityProviderId
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityIdpGroupMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#idp_group_name IdentityIdpGroupMapping#idp_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#idp_group_name IdentityIdpGroupMapping#idp_group_name}.</summary>
         [JsiiProperty(name: "idpGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string IdpGroupName
         {
@@ -33,7 +33,7 @@ namespace oci.IdentityIdpGroupMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#id IdentityIdpGroupMapping#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#id IdentityIdpGroupMapping#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.IdentityIdpGroupMapping
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_idp_group_mapping#timeouts IdentityIdpGroupMapping#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_idp_group_mapping#timeouts IdentityIdpGroupMapping#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityIdpGroupMapping.IdentityIdpGroupMappingTimeouts\"}", isOptional: true)]

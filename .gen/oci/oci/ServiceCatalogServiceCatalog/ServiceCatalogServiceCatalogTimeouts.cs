@@ -7,7 +7,7 @@ namespace oci.ServiceCatalogServiceCatalog
     [JsiiByValue(fqn: "oci.serviceCatalogServiceCatalog.ServiceCatalogServiceCatalogTimeouts")]
     public class ServiceCatalogServiceCatalogTimeouts : oci.ServiceCatalogServiceCatalog.IServiceCatalogServiceCatalogTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/service_catalog_service_catalog#create ServiceCatalogServiceCatalog#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/service_catalog_service_catalog#create ServiceCatalogServiceCatalog#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ServiceCatalogServiceCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/service_catalog_service_catalog#delete ServiceCatalogServiceCatalog#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/service_catalog_service_catalog#delete ServiceCatalogServiceCatalog#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ServiceCatalogServiceCatalog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/service_catalog_service_catalog#update ServiceCatalogServiceCatalog#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/service_catalog_service_catalog#update ServiceCatalogServiceCatalog#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

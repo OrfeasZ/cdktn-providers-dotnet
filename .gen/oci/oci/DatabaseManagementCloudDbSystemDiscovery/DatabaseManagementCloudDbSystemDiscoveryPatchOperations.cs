@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperations")]
     public class DatabaseManagementCloudDbSystemDiscoveryPatchOperations : oci.DatabaseManagementCloudDbSystemDiscovery.IDatabaseManagementCloudDbSystemDiscoveryPatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#operation DatabaseManagementCloudDbSystemDiscovery#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#operation DatabaseManagementCloudDbSystemDiscovery#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         public string Operation
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#selection DatabaseManagementCloudDbSystemDiscovery#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#selection DatabaseManagementCloudDbSystemDiscovery#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         public string Selection
         {
@@ -27,7 +27,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#value DatabaseManagementCloudDbSystemDiscovery#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#value DatabaseManagementCloudDbSystemDiscovery#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValue\"}", isOptional: true)]

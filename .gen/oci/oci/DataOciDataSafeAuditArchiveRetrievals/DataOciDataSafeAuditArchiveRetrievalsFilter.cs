@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAuditArchiveRetrievals
     [JsiiByValue(fqn: "oci.dataOciDataSafeAuditArchiveRetrievals.DataOciDataSafeAuditArchiveRetrievalsFilter")]
     public class DataOciDataSafeAuditArchiveRetrievalsFilter : oci.DataOciDataSafeAuditArchiveRetrievals.IDataOciDataSafeAuditArchiveRetrievalsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_archive_retrievals#name DataOciDataSafeAuditArchiveRetrievals#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_archive_retrievals#name DataOciDataSafeAuditArchiveRetrievals#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeAuditArchiveRetrievals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_archive_retrievals#values DataOciDataSafeAuditArchiveRetrievals#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_archive_retrievals#values DataOciDataSafeAuditArchiveRetrievals#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeAuditArchiveRetrievals
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_archive_retrievals#regex DataOciDataSafeAuditArchiveRetrievals#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_archive_retrievals#regex DataOciDataSafeAuditArchiveRetrievals#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementFleet
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleet.FleetAppsManagementFleetNotificationPreferences")]
     public class FleetAppsManagementFleetNotificationPreferences : oci.FleetAppsManagementFleet.IFleetAppsManagementFleetNotificationPreferences
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_apps_management_fleet#topic_id FleetAppsManagementFleet#topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_fleet#topic_id FleetAppsManagementFleet#topic_id}.</summary>
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
         public string TopicId
         {
@@ -27,7 +27,7 @@ namespace oci.FleetAppsManagementFleet
 
         /// <summary>preferences block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_apps_management_fleet#preferences FleetAppsManagementFleet#preferences}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_fleet#preferences FleetAppsManagementFleet#preferences}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferences", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetNotificationPreferencesPreferences\"}", isOptional: true)]

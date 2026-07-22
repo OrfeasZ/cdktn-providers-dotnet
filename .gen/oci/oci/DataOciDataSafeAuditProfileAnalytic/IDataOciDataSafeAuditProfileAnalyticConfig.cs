@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditProfileAnalyticConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditProfileAnalytic.DataOciDataSafeAuditProfileAnalyticConfig")]
     public interface IDataOciDataSafeAuditProfileAnalyticConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}.</summary>
         [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? GroupBy
@@ -50,7 +50,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,14 +72,14 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -98,7 +98,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? GroupBy
@@ -106,7 +106,7 @@ namespace oci.DataOciDataSafeAuditProfileAnalytic
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

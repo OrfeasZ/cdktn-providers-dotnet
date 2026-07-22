@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo")]
     public class DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo : oci.DatabaseManagementCloudDbSystemDiscovery.IDatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#component_type DatabaseManagementCloudDbSystemDiscovery#component_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#component_type DatabaseManagementCloudDbSystemDiscovery#component_type}.</summary>
         [JsiiProperty(name: "componentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentType
         {
@@ -19,7 +19,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>connection_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#connection_credentials DatabaseManagementCloudDbSystemDiscovery#connection_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#connection_credentials DatabaseManagementCloudDbSystemDiscovery#connection_credentials}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionCredentials", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionCredentials\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>connection_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_cloud_db_system_discovery#connection_string DatabaseManagementCloudDbSystemDiscovery#connection_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#connection_string DatabaseManagementCloudDbSystemDiscovery#connection_string}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionString", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString\"}", isOptional: true)]

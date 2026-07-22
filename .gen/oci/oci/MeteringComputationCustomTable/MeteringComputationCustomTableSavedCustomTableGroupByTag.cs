@@ -7,7 +7,7 @@ namespace oci.MeteringComputationCustomTable
     [JsiiByValue(fqn: "oci.meteringComputationCustomTable.MeteringComputationCustomTableSavedCustomTableGroupByTag")]
     public class MeteringComputationCustomTableSavedCustomTableGroupByTag : oci.MeteringComputationCustomTable.IMeteringComputationCustomTableSavedCustomTableGroupByTag
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/metering_computation_custom_table#key MeteringComputationCustomTable#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_custom_table#key MeteringComputationCustomTable#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace oci.MeteringComputationCustomTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/metering_computation_custom_table#namespace MeteringComputationCustomTable#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_custom_table#namespace MeteringComputationCustomTable#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -25,7 +25,7 @@ namespace oci.MeteringComputationCustomTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/metering_computation_custom_table#value MeteringComputationCustomTable#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_custom_table#value MeteringComputationCustomTable#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

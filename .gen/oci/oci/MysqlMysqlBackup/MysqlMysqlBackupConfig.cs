@@ -7,7 +7,7 @@ namespace oci.MysqlMysqlBackup
     [JsiiByValue(fqn: "oci.mysqlMysqlBackup.MysqlMysqlBackupConfig")]
     public class MysqlMysqlBackupConfig : oci.MysqlMysqlBackup.IMysqlMysqlBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#backup_type MysqlMysqlBackup#backup_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#backup_type MysqlMysqlBackup#backup_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupType
@@ -16,7 +16,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#db_system_id MysqlMysqlBackup#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#db_system_id MysqlMysqlBackup#db_system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbSystemId
@@ -38,7 +38,7 @@ namespace oci.MysqlMysqlBackup
 
         /// <summary>db_system_snapshot_summary block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#db_system_snapshot_summary MysqlMysqlBackup#db_system_snapshot_summary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#db_system_snapshot_summary MysqlMysqlBackup#db_system_snapshot_summary}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlBackup.IMysqlMysqlBackupDbSystemSnapshotSummary" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.MysqlMysqlBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#defined_tags MysqlMysqlBackup#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#defined_tags MysqlMysqlBackup#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -78,7 +78,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#description MysqlMysqlBackup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#description MysqlMysqlBackup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -87,7 +87,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -98,7 +98,7 @@ namespace oci.MysqlMysqlBackup
 
         /// <summary>encrypt_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#encrypt_data MysqlMysqlBackup#encrypt_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#encrypt_data MysqlMysqlBackup#encrypt_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptData", typeJson: "{\"fqn\":\"oci.mysqlMysqlBackup.MysqlMysqlBackupEncryptData\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#freeform_tags MysqlMysqlBackup#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#freeform_tags MysqlMysqlBackup#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -117,7 +117,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#retention_in_days MysqlMysqlBackup#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#retention_in_days MysqlMysqlBackup#retention_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInDays
@@ -139,7 +139,7 @@ namespace oci.MysqlMysqlBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#soft_delete MysqlMysqlBackup#soft_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#soft_delete MysqlMysqlBackup#soft_delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SoftDelete
@@ -150,7 +150,7 @@ namespace oci.MysqlMysqlBackup
 
         /// <summary>source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#source_details MysqlMysqlBackup#source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#source_details MysqlMysqlBackup#source_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDetails", typeJson: "{\"fqn\":\"oci.mysqlMysqlBackup.MysqlMysqlBackupSourceDetails\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace oci.MysqlMysqlBackup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#timeouts MysqlMysqlBackup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#timeouts MysqlMysqlBackup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.mysqlMysqlBackup.MysqlMysqlBackupTimeouts\"}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace oci.MysqlMysqlBackup
 
         /// <summary>validate_backup_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#validate_backup_details MysqlMysqlBackup#validate_backup_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#validate_backup_details MysqlMysqlBackup#validate_backup_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlBackup.IMysqlMysqlBackupValidateBackupDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -207,7 +207,7 @@ namespace oci.MysqlMysqlBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/mysql_mysql_backup#validate_trigger MysqlMysqlBackup#validate_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/mysql_mysql_backup#validate_trigger MysqlMysqlBackup#validate_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "validateTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ValidateTrigger

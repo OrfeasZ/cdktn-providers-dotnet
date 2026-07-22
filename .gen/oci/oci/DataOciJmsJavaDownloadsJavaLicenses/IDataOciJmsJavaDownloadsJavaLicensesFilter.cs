@@ -7,21 +7,21 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaLicensesFilter), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaLicenses.DataOciJmsJavaDownloadsJavaLicensesFilter")]
     public interface IDataOciJmsJavaDownloadsJavaLicensesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenses
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#name DataOciJmsJavaDownloadsJavaLicenses#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#values DataOciJmsJavaDownloadsJavaLicenses#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_licenses#regex DataOciJmsJavaDownloadsJavaLicenses#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

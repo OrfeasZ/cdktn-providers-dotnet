@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignalDeliveries
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccmDemandSignalDeliveries.DataOciCapacityManagementOccmDemandSignalDeliveriesConfig")]
     public class DataOciCapacityManagementOccmDemandSignalDeliveriesConfig : oci.DataOciCapacityManagementOccmDemandSignalDeliveries.IDataOciCapacityManagementOccmDemandSignalDeliveriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#compartment_id DataOciCapacityManagementOccmDemandSignalDeliveries#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#compartment_id DataOciCapacityManagementOccmDemandSignalDeliveries#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignalDeliveries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#filter DataOciCapacityManagementOccmDemandSignalDeliveries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#filter DataOciCapacityManagementOccmDemandSignalDeliveries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementOccmDemandSignalDeliveries.IDataOciCapacityManagementOccmDemandSignalDeliveriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignalDeliveries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#id DataOciCapacityManagementOccmDemandSignalDeliveries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#id DataOciCapacityManagementOccmDemandSignalDeliveries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignalDeliveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#occm_demand_signal_item_id DataOciCapacityManagementOccmDemandSignalDeliveries#occm_demand_signal_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_occm_demand_signal_deliveries#occm_demand_signal_item_id DataOciCapacityManagementOccmDemandSignalDeliveries#occm_demand_signal_item_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "occmDemandSignalItemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OccmDemandSignalItemId

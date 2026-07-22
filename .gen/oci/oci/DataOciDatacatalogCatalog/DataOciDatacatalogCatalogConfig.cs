@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogCatalog
     [JsiiByValue(fqn: "oci.dataOciDatacatalogCatalog.DataOciDatacatalogCatalogConfig")]
     public class DataOciDatacatalogCatalogConfig : oci.DataOciDatacatalogCatalog.IDataOciDatacatalogCatalogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacatalog_catalog#catalog_id DataOciDatacatalogCatalog#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacatalog_catalog#catalog_id DataOciDatacatalogCatalog#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogId
         {

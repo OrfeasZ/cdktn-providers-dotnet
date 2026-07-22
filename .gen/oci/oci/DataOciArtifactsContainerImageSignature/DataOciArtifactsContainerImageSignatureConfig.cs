@@ -9,7 +9,7 @@ namespace oci.DataOciArtifactsContainerImageSignature
     [JsiiByValue(fqn: "oci.dataOciArtifactsContainerImageSignature.DataOciArtifactsContainerImageSignatureConfig")]
     public class DataOciArtifactsContainerImageSignatureConfig : oci.DataOciArtifactsContainerImageSignature.IDataOciArtifactsContainerImageSignatureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
         [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageSignatureId
         {

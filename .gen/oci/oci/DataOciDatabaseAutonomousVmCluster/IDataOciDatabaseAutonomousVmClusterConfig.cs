@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseAutonomousVmCluster
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousVmClusterConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousVmCluster.DataOciDatabaseAutonomousVmClusterConfig")]
     public interface IDataOciDatabaseAutonomousVmClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_vm_cluster#autonomous_vm_cluster_id DataOciDatabaseAutonomousVmCluster#autonomous_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_vm_cluster#autonomous_vm_cluster_id DataOciDatabaseAutonomousVmCluster#autonomous_vm_cluster_id}.</summary>
         [JsiiProperty(name: "autonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousVmClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousVmCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_vm_cluster#autonomous_vm_cluster_id DataOciDatabaseAutonomousVmCluster#autonomous_vm_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_vm_cluster#autonomous_vm_cluster_id DataOciDatabaseAutonomousVmCluster#autonomous_vm_cluster_id}.</summary>
             [JsiiProperty(name: "autonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousVmClusterId
             {

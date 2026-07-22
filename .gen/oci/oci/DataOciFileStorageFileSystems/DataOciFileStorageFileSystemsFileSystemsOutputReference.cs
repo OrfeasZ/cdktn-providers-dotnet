@@ -65,6 +65,12 @@ namespace oci.DataOciFileStorageFileSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "compartmentQuotaEnforcementState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentQuotaEnforcementState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

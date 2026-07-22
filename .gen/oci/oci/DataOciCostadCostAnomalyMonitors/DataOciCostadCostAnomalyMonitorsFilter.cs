@@ -9,7 +9,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
     [JsiiByValue(fqn: "oci.dataOciCostadCostAnomalyMonitors.DataOciCostadCostAnomalyMonitorsFilter")]
     public class DataOciCostadCostAnomalyMonitorsFilter : oci.DataOciCostadCostAnomalyMonitors.IDataOciCostadCostAnomalyMonitorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

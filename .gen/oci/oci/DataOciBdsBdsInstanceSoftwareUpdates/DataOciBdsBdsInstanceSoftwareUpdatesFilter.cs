@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceSoftwareUpdates.DataOciBdsBdsInstanceSoftwareUpdatesFilter")]
     public class DataOciBdsBdsInstanceSoftwareUpdatesFilter : oci.DataOciBdsBdsInstanceSoftwareUpdates.IDataOciBdsBdsInstanceSoftwareUpdatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_updates#name DataOciBdsBdsInstanceSoftwareUpdates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_updates#name DataOciBdsBdsInstanceSoftwareUpdates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_updates#values DataOciBdsBdsInstanceSoftwareUpdates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_updates#values DataOciBdsBdsInstanceSoftwareUpdates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_updates#regex DataOciBdsBdsInstanceSoftwareUpdates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_updates#regex DataOciBdsBdsInstanceSoftwareUpdates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

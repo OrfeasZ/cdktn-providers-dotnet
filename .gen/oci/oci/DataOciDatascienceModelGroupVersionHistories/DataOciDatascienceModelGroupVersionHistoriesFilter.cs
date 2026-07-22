@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelGroupVersionHistories.DataOciDatascienceModelGroupVersionHistoriesFilter")]
     public class DataOciDatascienceModelGroupVersionHistoriesFilter : oci.DataOciDatascienceModelGroupVersionHistories.IDataOciDatascienceModelGroupVersionHistoriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_group_version_histories#name DataOciDatascienceModelGroupVersionHistories#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_version_histories#name DataOciDatascienceModelGroupVersionHistories#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_group_version_histories#values DataOciDatascienceModelGroupVersionHistories#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_version_histories#values DataOciDatascienceModelGroupVersionHistories#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_group_version_histories#regex DataOciDatascienceModelGroupVersionHistories#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_version_histories#regex DataOciDatascienceModelGroupVersionHistories#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

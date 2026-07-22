@@ -9,7 +9,7 @@ namespace oci.DataOciMonitoringAlarm
     [JsiiByValue(fqn: "oci.dataOciMonitoringAlarm.DataOciMonitoringAlarmConfig")]
     public class DataOciMonitoringAlarmConfig : oci.DataOciMonitoringAlarm.IDataOciMonitoringAlarmConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
         [JsiiProperty(name: "alarmId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmId
         {

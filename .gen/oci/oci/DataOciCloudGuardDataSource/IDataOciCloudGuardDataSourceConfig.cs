@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardDataSource
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardDataSourceConfig), fullyQualifiedName: "oci.dataOciCloudGuardDataSource.DataOciCloudGuardDataSourceConfig")]
     public interface IDataOciCloudGuardDataSourceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
         [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string DataSourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
             [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSourceId
             {

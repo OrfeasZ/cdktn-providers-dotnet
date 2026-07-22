@@ -7,7 +7,7 @@ namespace oci.DataOciAnnouncementsServiceAnnouncementSubscription
     [JsiiInterface(nativeType: typeof(IDataOciAnnouncementsServiceAnnouncementSubscriptionConfig), fullyQualifiedName: "oci.dataOciAnnouncementsServiceAnnouncementSubscription.DataOciAnnouncementsServiceAnnouncementSubscriptionConfig")]
     public interface IDataOciAnnouncementsServiceAnnouncementSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
         [JsiiProperty(name: "announcementSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string AnnouncementSubscriptionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAnnouncementsServiceAnnouncementSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/announcements_service_announcement_subscription#announcement_subscription_id DataOciAnnouncementsServiceAnnouncementSubscription#announcement_subscription_id}.</summary>
             [JsiiProperty(name: "announcementSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AnnouncementSubscriptionId
             {

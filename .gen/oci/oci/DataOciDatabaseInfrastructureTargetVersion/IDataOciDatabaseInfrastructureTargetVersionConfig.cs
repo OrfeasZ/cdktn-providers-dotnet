@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseInfrastructureTargetVersionConfig), fullyQualifiedName: "oci.dataOciDatabaseInfrastructureTargetVersion.DataOciDatabaseInfrastructureTargetVersionConfig")]
     public interface IDataOciDatabaseInfrastructureTargetVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#compartment_id DataOciDatabaseInfrastructureTargetVersion#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#compartment_id DataOciDatabaseInfrastructureTargetVersion#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#id DataOciDatabaseInfrastructureTargetVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#id DataOciDatabaseInfrastructureTargetVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#target_resource_id DataOciDatabaseInfrastructureTargetVersion#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#target_resource_id DataOciDatabaseInfrastructureTargetVersion#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourceId
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#target_resource_type DataOciDatabaseInfrastructureTargetVersion#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#target_resource_type DataOciDatabaseInfrastructureTargetVersion#target_resource_type}.</summary>
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourceType
@@ -58,14 +58,14 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#compartment_id DataOciDatabaseInfrastructureTargetVersion#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#compartment_id DataOciDatabaseInfrastructureTargetVersion#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#id DataOciDatabaseInfrastructureTargetVersion#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#id DataOciDatabaseInfrastructureTargetVersion#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#target_resource_id DataOciDatabaseInfrastructureTargetVersion#target_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#target_resource_id DataOciDatabaseInfrastructureTargetVersion#target_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourceId
@@ -85,7 +85,7 @@ namespace oci.DataOciDatabaseInfrastructureTargetVersion
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_infrastructure_target_version#target_resource_type DataOciDatabaseInfrastructureTargetVersion#target_resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_infrastructure_target_version#target_resource_type DataOciDatabaseInfrastructureTargetVersion#target_resource_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourceType

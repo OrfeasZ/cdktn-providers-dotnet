@@ -9,7 +9,7 @@ namespace oci.ContainerengineNodePool
     {
         /// <summary>preemption_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
         /// </remarks>
         [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction\"}")]
         oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction PreemptionAction
@@ -26,7 +26,7 @@ namespace oci.ContainerengineNodePool
 
             /// <summary>preemption_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_node_pool#preemption_action ContainerengineNodePool#preemption_action}
             /// </remarks>
             [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction\"}")]
             public oci.ContainerengineNodePool.IContainerengineNodePoolNodeConfigDetailsPlacementConfigsPreemptibleNodeConfigPreemptionAction PreemptionAction

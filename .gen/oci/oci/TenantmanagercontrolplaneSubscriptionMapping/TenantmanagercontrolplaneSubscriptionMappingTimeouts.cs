@@ -7,7 +7,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
     [JsiiByValue(fqn: "oci.tenantmanagercontrolplaneSubscriptionMapping.TenantmanagercontrolplaneSubscriptionMappingTimeouts")]
     public class TenantmanagercontrolplaneSubscriptionMappingTimeouts : oci.TenantmanagercontrolplaneSubscriptionMapping.ITenantmanagercontrolplaneSubscriptionMappingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#create TenantmanagercontrolplaneSubscriptionMapping#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#delete TenantmanagercontrolplaneSubscriptionMapping#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#update TenantmanagercontrolplaneSubscriptionMapping#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

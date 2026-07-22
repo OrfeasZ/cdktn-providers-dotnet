@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeTargetDatabasePeerTargetDatabase
     [JsiiByValue(fqn: "oci.dataOciDataSafeTargetDatabasePeerTargetDatabase.DataOciDataSafeTargetDatabasePeerTargetDatabaseConfig")]
     public class DataOciDataSafeTargetDatabasePeerTargetDatabaseConfig : oci.DataOciDataSafeTargetDatabasePeerTargetDatabase.IDataOciDataSafeTargetDatabasePeerTargetDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_target_database_peer_target_database#peer_target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#peer_target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_target_database_peer_target_database#peer_target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#peer_target_database_id}.</summary>
         [JsiiProperty(name: "peerTargetDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string PeerTargetDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeTargetDatabasePeerTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_target_database_peer_target_database#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_target_database_peer_target_database#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabase#target_database_id}.</summary>
         [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetDatabaseId
         {

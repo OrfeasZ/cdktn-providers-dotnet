@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowConfiguration
     [JsiiByValue(fqn: "oci.dataOciMediaServicesMediaWorkflowConfiguration.DataOciMediaServicesMediaWorkflowConfigurationConfig")]
     public class DataOciMediaServicesMediaWorkflowConfigurationConfig : oci.DataOciMediaServicesMediaWorkflowConfiguration.IDataOciMediaServicesMediaWorkflowConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/media_services_media_workflow_configuration#media_workflow_configuration_id DataOciMediaServicesMediaWorkflowConfiguration#media_workflow_configuration_id}.</summary>
         [JsiiProperty(name: "mediaWorkflowConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string MediaWorkflowConfigurationId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#filter DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#filter DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs.IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#name DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#name DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -73,7 +73,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
@@ -82,7 +82,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#filter DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#filter DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs.IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#name DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#name DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -112,7 +112,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_database_sql_plan_baseline_jobs#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineJobs#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId

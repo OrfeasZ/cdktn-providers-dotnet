@@ -7,21 +7,21 @@ namespace oci.DataflowRunStatement
     [JsiiInterface(nativeType: typeof(IDataflowRunStatementConfig), fullyQualifiedName: "oci.dataflowRunStatement.DataflowRunStatementConfig")]
     public interface IDataflowRunStatementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}")]
         string Code
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}.</summary>
         [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
         string RunId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.DataflowRunStatement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataflowRunStatement.DataflowRunStatementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.DataflowRunStatement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#code DataflowRunStatement#code}.</summary>
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}")]
             public string Code
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#run_id DataflowRunStatement#run_id}.</summary>
             [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
             public string RunId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#id DataflowRunStatement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataflowRunStatement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_run_statement#timeouts DataflowRunStatement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataflowRunStatement.DataflowRunStatementTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileDetachManagementStationManagement.OsManagementHubProfileDetachManagementStationManagementConfig")]
     public class OsManagementHubProfileDetachManagementStationManagementConfig : oci.OsManagementHubProfileDetachManagementStationManagement.IOsManagementHubProfileDetachManagementStationManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_management_station_management#management_station_id OsManagementHubProfileDetachManagementStationManagement#management_station_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_profile_detach_management_station_management#management_station_id OsManagementHubProfileDetachManagementStationManagement#management_station_id}.</summary>
         [JsiiProperty(name: "managementStationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementStationId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_management_station_management#profile_id OsManagementHubProfileDetachManagementStationManagement#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_profile_detach_management_station_management#profile_id OsManagementHubProfileDetachManagementStationManagement#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_management_station_management#id OsManagementHubProfileDetachManagementStationManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_profile_detach_management_station_management#id OsManagementHubProfileDetachManagementStationManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_profile_detach_management_station_management#timeouts OsManagementHubProfileDetachManagementStationManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_profile_detach_management_station_management#timeouts OsManagementHubProfileDetachManagementStationManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubProfileDetachManagementStationManagement.OsManagementHubProfileDetachManagementStationManagementTimeouts\"}", isOptional: true)]

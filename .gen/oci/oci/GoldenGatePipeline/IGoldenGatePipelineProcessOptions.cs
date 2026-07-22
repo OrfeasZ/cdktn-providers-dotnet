@@ -9,7 +9,7 @@ namespace oci.GoldenGatePipeline
     {
         /// <summary>initial_data_load block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
         /// </remarks>
         [JsiiProperty(name: "initialDataLoad", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineProcessOptionsInitialDataLoad\"}")]
         oci.GoldenGatePipeline.IGoldenGatePipelineProcessOptionsInitialDataLoad InitialDataLoad
@@ -19,7 +19,7 @@ namespace oci.GoldenGatePipeline
 
         /// <summary>replicate_schema_change block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
         /// </remarks>
         [JsiiProperty(name: "replicateSchemaChange", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineProcessOptionsReplicateSchemaChange\"}")]
         oci.GoldenGatePipeline.IGoldenGatePipelineProcessOptionsReplicateSchemaChange ReplicateSchemaChange
@@ -27,14 +27,14 @@ namespace oci.GoldenGatePipeline
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}.</summary>
         [JsiiProperty(name: "shouldRestartOnFailure", typeJson: "{\"primitive\":\"string\"}")]
         string ShouldRestartOnFailure
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}.</summary>
         [JsiiProperty(name: "startUsingDefaultMapping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StartUsingDefaultMapping
@@ -54,7 +54,7 @@ namespace oci.GoldenGatePipeline
 
             /// <summary>initial_data_load block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#initial_data_load GoldenGatePipeline#initial_data_load}
             /// </remarks>
             [JsiiProperty(name: "initialDataLoad", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineProcessOptionsInitialDataLoad\"}")]
             public oci.GoldenGatePipeline.IGoldenGatePipelineProcessOptionsInitialDataLoad InitialDataLoad
@@ -64,7 +64,7 @@ namespace oci.GoldenGatePipeline
 
             /// <summary>replicate_schema_change block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#replicate_schema_change GoldenGatePipeline#replicate_schema_change}
             /// </remarks>
             [JsiiProperty(name: "replicateSchemaChange", typeJson: "{\"fqn\":\"oci.goldenGatePipeline.GoldenGatePipelineProcessOptionsReplicateSchemaChange\"}")]
             public oci.GoldenGatePipeline.IGoldenGatePipelineProcessOptionsReplicateSchemaChange ReplicateSchemaChange
@@ -72,14 +72,14 @@ namespace oci.GoldenGatePipeline
                 get => GetInstanceProperty<oci.GoldenGatePipeline.IGoldenGatePipelineProcessOptionsReplicateSchemaChange>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#should_restart_on_failure GoldenGatePipeline#should_restart_on_failure}.</summary>
             [JsiiProperty(name: "shouldRestartOnFailure", typeJson: "{\"primitive\":\"string\"}")]
             public string ShouldRestartOnFailure
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_pipeline#start_using_default_mapping GoldenGatePipeline#start_using_default_mapping}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startUsingDefaultMapping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StartUsingDefaultMapping

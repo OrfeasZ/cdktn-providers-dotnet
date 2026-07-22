@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalMySqlDatabaseConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalMySqlDatabase.DataOciDatabaseManagementExternalMySqlDatabaseConfig")]
     public interface IDataOciDatabaseManagementExternalMySqlDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_database#external_my_sql_database_id DataOciDatabaseManagementExternalMySqlDatabase#external_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_my_sql_database#external_my_sql_database_id DataOciDatabaseManagementExternalMySqlDatabase#external_my_sql_database_id}.</summary>
         [JsiiProperty(name: "externalMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalMySqlDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_my_sql_database#external_my_sql_database_id DataOciDatabaseManagementExternalMySqlDatabase#external_my_sql_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_my_sql_database#external_my_sql_database_id DataOciDatabaseManagementExternalMySqlDatabase#external_my_sql_database_id}.</summary>
             [JsiiProperty(name: "externalMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalMySqlDatabaseId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstance
     [JsiiInterface(nativeType: typeof(IDataOciResourceAnalyticsResourceAnalyticsInstanceConfig), fullyQualifiedName: "oci.dataOciResourceAnalyticsResourceAnalyticsInstance.DataOciResourceAnalyticsResourceAnalyticsInstanceConfig")]
     public interface IDataOciResourceAnalyticsResourceAnalyticsInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceAnalyticsInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
             [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceAnalyticsInstanceId
             {

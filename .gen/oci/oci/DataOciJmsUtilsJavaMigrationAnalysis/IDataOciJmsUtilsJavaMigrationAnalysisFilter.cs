@@ -7,21 +7,21 @@ namespace oci.DataOciJmsUtilsJavaMigrationAnalysis
     [JsiiInterface(nativeType: typeof(IDataOciJmsUtilsJavaMigrationAnalysisFilter), fullyQualifiedName: "oci.dataOciJmsUtilsJavaMigrationAnalysis.DataOciJmsUtilsJavaMigrationAnalysisFilter")]
     public interface IDataOciJmsUtilsJavaMigrationAnalysisFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciJmsUtilsJavaMigrationAnalysis
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

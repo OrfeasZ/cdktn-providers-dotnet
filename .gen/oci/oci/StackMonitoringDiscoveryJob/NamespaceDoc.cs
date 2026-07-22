@@ -5,7 +5,7 @@ namespace oci.StackMonitoringDiscoveryJob
     /// <remarks>
     /// <h1><c>oci_stack_monitoring_discovery_job</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_discovery_job"><c>oci_stack_monitoring_discovery_job</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_discovery_job"><c>oci_stack_monitoring_discovery_job</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

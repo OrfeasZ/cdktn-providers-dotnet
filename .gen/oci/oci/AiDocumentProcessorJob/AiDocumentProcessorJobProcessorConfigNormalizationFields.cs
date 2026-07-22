@@ -11,7 +11,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>map block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_document_processor_job#map AiDocumentProcessorJob#map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#map AiDocumentProcessorJob#map}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFieldsMap" />)[]</para>
         /// </remarks>
         [JsiiOptional]

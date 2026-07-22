@@ -7,14 +7,14 @@ namespace oci.DatascienceJob
     [JsiiInterface(nativeType: typeof(IDatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration), fullyQualifiedName: "oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration")]
     public interface IDatascienceJobJobNodeConfigurationDetailsJobNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
         [JsiiProperty(name: "jobNetworkType", typeJson: "{\"primitive\":\"string\"}")]
         string JobNetworkType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -32,14 +32,14 @@ namespace oci.DatascienceJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job#job_network_type DatascienceJob#job_network_type}.</summary>
             [JsiiProperty(name: "jobNetworkType", typeJson: "{\"primitive\":\"string\"}")]
             public string JobNetworkType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job#subnet_id DatascienceJob#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

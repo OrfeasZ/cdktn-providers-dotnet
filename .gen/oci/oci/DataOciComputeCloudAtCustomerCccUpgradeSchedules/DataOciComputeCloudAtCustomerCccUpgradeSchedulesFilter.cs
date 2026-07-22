@@ -9,7 +9,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedules
     [JsiiByValue(fqn: "oci.dataOciComputeCloudAtCustomerCccUpgradeSchedules.DataOciComputeCloudAtCustomerCccUpgradeSchedulesFilter")]
     public class DataOciComputeCloudAtCustomerCccUpgradeSchedulesFilter : oci.DataOciComputeCloudAtCustomerCccUpgradeSchedules.IDataOciComputeCloudAtCustomerCccUpgradeSchedulesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#name DataOciComputeCloudAtCustomerCccUpgradeSchedules#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#name DataOciComputeCloudAtCustomerCccUpgradeSchedules#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#values DataOciComputeCloudAtCustomerCccUpgradeSchedules#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#values DataOciComputeCloudAtCustomerCccUpgradeSchedules#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedules
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#regex DataOciComputeCloudAtCustomerCccUpgradeSchedules#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#regex DataOciComputeCloudAtCustomerCccUpgradeSchedules#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

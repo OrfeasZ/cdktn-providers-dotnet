@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiInterface(nativeType: typeof(IApmSyntheticsMonitorConfigurationVerifyTexts), fullyQualifiedName: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationVerifyTexts")]
     public interface IApmSyntheticsMonitorConfigurationVerifyTexts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Text
@@ -25,7 +25,7 @@ namespace oci.ApmSyntheticsMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Text

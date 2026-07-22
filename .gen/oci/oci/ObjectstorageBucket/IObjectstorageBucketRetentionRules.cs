@@ -7,7 +7,7 @@ namespace oci.ObjectstorageBucket
     [JsiiInterface(nativeType: typeof(IObjectstorageBucketRetentionRules), fullyQualifiedName: "oci.objectstorageBucket.ObjectstorageBucketRetentionRules")]
     public interface IObjectstorageBucketRetentionRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -16,7 +16,7 @@ namespace oci.ObjectstorageBucket
 
         /// <summary>duration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
         /// </remarks>
         [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRulesDuration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace oci.ObjectstorageBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
         [JsiiProperty(name: "timeRuleLocked", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeRuleLocked
@@ -46,7 +46,7 @@ namespace oci.ObjectstorageBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#display_name ObjectstorageBucket#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -55,7 +55,7 @@ namespace oci.ObjectstorageBucket
 
             /// <summary>duration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#duration ObjectstorageBucket#duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"oci.objectstorageBucket.ObjectstorageBucketRetentionRulesDuration\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace oci.ObjectstorageBucket
                 get => GetInstanceProperty<oci.ObjectstorageBucket.IObjectstorageBucketRetentionRulesDuration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/objectstorage_bucket#time_rule_locked ObjectstorageBucket#time_rule_locked}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeRuleLocked", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeRuleLocked

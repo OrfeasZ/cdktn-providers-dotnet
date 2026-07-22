@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomain
     [JsiiByValue(fqn: "oci.dataOciIdentityDomain.DataOciIdentityDomainConfig")]
     public class DataOciIdentityDomainConfig : oci.DataOciIdentityDomain.IDataOciIdentityDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainId
         {

@@ -7,7 +7,7 @@ namespace oci.CoreVirtualCircuit
     [JsiiInterface(nativeType: typeof(ICoreVirtualCircuitPublicPrefixes), fullyQualifiedName: "oci.coreVirtualCircuit.CoreVirtualCircuitPublicPrefixes")]
     public interface ICoreVirtualCircuitPublicPrefixes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         string CidrBlock
         {
@@ -21,7 +21,7 @@ namespace oci.CoreVirtualCircuit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
             [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}")]
             public string CidrBlock
             {

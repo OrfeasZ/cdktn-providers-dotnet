@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     [JsiiByValue(fqn: "oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStopSchedule")]
     public class DesktopsDesktopPoolAvailabilityPolicyStopSchedule : oci.DesktopsDesktopPool.IDesktopsDesktopPoolAvailabilityPolicyStopSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
         [JsiiProperty(name: "cronExpression", typeJson: "{\"primitive\":\"string\"}")]
         public string CronExpression
         {
@@ -17,7 +17,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
         public string Timezone
         {

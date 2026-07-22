@@ -7,35 +7,35 @@ namespace oci.LogAnalyticsNamespaceAssociation
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceAssociationConfig), fullyQualifiedName: "oci.logAnalyticsNamespaceAssociation.LogAnalyticsNamespaceAssociationConfig")]
     public interface ILogAnalyticsNamespaceAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#compartment_id LogAnalyticsNamespaceAssociation#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#compartment_id LogAnalyticsNamespaceAssociation#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#entity_id LogAnalyticsNamespaceAssociation#entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#entity_id LogAnalyticsNamespaceAssociation#entity_id}.</summary>
         [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}")]
         string EntityId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#log_group_id LogAnalyticsNamespaceAssociation#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#log_group_id LogAnalyticsNamespaceAssociation#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#namespace LogAnalyticsNamespaceAssociation#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#namespace LogAnalyticsNamespaceAssociation#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#source_name LogAnalyticsNamespaceAssociation#source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#source_name LogAnalyticsNamespaceAssociation#source_name}.</summary>
         [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
         string SourceName
         {
@@ -44,7 +44,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
 
         /// <summary>association_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#association_properties LogAnalyticsNamespaceAssociation#association_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#association_properties LogAnalyticsNamespaceAssociation#association_properties}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceAssociation.ILogAnalyticsNamespaceAssociationAssociationProperties" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "associationProperties", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceAssociation.LogAnalyticsNamespaceAssociationAssociationProperties\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#id LogAnalyticsNamespaceAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#id LogAnalyticsNamespaceAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#is_from_republish LogAnalyticsNamespaceAssociation#is_from_republish}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#is_from_republish LogAnalyticsNamespaceAssociation#is_from_republish}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -88,7 +88,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#timeouts LogAnalyticsNamespaceAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#timeouts LogAnalyticsNamespaceAssociation#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceAssociation.LogAnalyticsNamespaceAssociationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,35 +107,35 @@ namespace oci.LogAnalyticsNamespaceAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#compartment_id LogAnalyticsNamespaceAssociation#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#compartment_id LogAnalyticsNamespaceAssociation#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#entity_id LogAnalyticsNamespaceAssociation#entity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#entity_id LogAnalyticsNamespaceAssociation#entity_id}.</summary>
             [JsiiProperty(name: "entityId", typeJson: "{\"primitive\":\"string\"}")]
             public string EntityId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#log_group_id LogAnalyticsNamespaceAssociation#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#log_group_id LogAnalyticsNamespaceAssociation#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#namespace LogAnalyticsNamespaceAssociation#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#namespace LogAnalyticsNamespaceAssociation#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#source_name LogAnalyticsNamespaceAssociation#source_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#source_name LogAnalyticsNamespaceAssociation#source_name}.</summary>
             [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceName
             {
@@ -144,7 +144,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
 
             /// <summary>association_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#association_properties LogAnalyticsNamespaceAssociation#association_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#association_properties LogAnalyticsNamespaceAssociation#association_properties}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceAssociation.ILogAnalyticsNamespaceAssociationAssociationProperties" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -154,7 +154,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#id LogAnalyticsNamespaceAssociation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#id LogAnalyticsNamespaceAssociation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#is_from_republish LogAnalyticsNamespaceAssociation#is_from_republish}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#is_from_republish LogAnalyticsNamespaceAssociation#is_from_republish}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -179,7 +179,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/log_analytics_namespace_association#timeouts LogAnalyticsNamespaceAssociation#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace_association#timeouts LogAnalyticsNamespaceAssociation#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceAssociation.LogAnalyticsNamespaceAssociationTimeouts\"}", isOptional: true)]

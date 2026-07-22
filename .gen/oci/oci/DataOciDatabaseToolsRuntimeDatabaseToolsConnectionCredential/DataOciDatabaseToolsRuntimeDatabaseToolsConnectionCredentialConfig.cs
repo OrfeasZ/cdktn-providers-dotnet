@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential#credential_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential#credential_key}.</summary>
         [JsiiProperty(name: "credentialKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredential#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {

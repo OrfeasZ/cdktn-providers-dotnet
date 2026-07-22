@@ -5,7 +5,7 @@ namespace oci.DataOciLogAnalyticsNamespacePropertiesMetadata
     /// <remarks>
     /// <h1><c>data_oci_log_analytics_namespace_properties_metadata</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_properties_metadata"><c>data_oci_log_analytics_namespace_properties_metadata</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_properties_metadata"><c>data_oci_log_analytics_namespace_properties_metadata</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

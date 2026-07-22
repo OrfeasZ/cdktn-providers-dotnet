@@ -9,7 +9,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
     [JsiiByValue(fqn: "oci.osManagementHubSoftwareSourceRemovePackagesManagement.OsManagementHubSoftwareSourceRemovePackagesManagementConfig")]
     public class OsManagementHubSoftwareSourceRemovePackagesManagementConfig : oci.OsManagementHubSoftwareSourceRemovePackagesManagement.IOsManagementHubSoftwareSourceRemovePackagesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source_remove_packages_management#packages OsManagementHubSoftwareSourceRemovePackagesManagement#packages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_software_source_remove_packages_management#packages OsManagementHubSoftwareSourceRemovePackagesManagement#packages}.</summary>
         [JsiiProperty(name: "packages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Packages
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source_remove_packages_management#software_source_id OsManagementHubSoftwareSourceRemovePackagesManagement#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_software_source_remove_packages_management#software_source_id OsManagementHubSoftwareSourceRemovePackagesManagement#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source_remove_packages_management#id OsManagementHubSoftwareSourceRemovePackagesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_software_source_remove_packages_management#id OsManagementHubSoftwareSourceRemovePackagesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/os_management_hub_software_source_remove_packages_management#timeouts OsManagementHubSoftwareSourceRemovePackagesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_software_source_remove_packages_management#timeouts OsManagementHubSoftwareSourceRemovePackagesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubSoftwareSourceRemovePackagesManagement.OsManagementHubSoftwareSourceRemovePackagesManagementTimeouts\"}", isOptional: true)]

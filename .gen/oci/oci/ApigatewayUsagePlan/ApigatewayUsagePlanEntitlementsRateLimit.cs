@@ -9,7 +9,7 @@ namespace oci.ApigatewayUsagePlan
     [JsiiByValue(fqn: "oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsRateLimit")]
     public class ApigatewayUsagePlanEntitlementsRateLimit : oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsRateLimit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_usage_plan#unit ApigatewayUsagePlan#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_usage_plan#value ApigatewayUsagePlan#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {

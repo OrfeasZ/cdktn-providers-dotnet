@@ -7,21 +7,21 @@ namespace oci.IotIotDomainConfigureDataAccess
     [JsiiInterface(nativeType: typeof(IIotIotDomainConfigureDataAccessConfig), fullyQualifiedName: "oci.iotIotDomainConfigureDataAccess.IotIotDomainConfigureDataAccessConfig")]
     public interface IIotIotDomainConfigureDataAccessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string IotDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}.</summary>
         [JsiiProperty(name: "dbAllowedIdentityDomainHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbAllowedIdentityDomainHost
@@ -32,7 +32,7 @@ namespace oci.IotIotDomainConfigureDataAccess
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}.</summary>
         [JsiiProperty(name: "dbAllowListedIdentityGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DbAllowListedIdentityGroupNames
@@ -43,7 +43,7 @@ namespace oci.IotIotDomainConfigureDataAccess
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}.</summary>
         [JsiiProperty(name: "dbWorkspaceAdminInitialPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbWorkspaceAdminInitialPassword
@@ -54,7 +54,7 @@ namespace oci.IotIotDomainConfigureDataAccess
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.IotIotDomainConfigureDataAccess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotDomainConfigureDataAccess.IotIotDomainConfigureDataAccessTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,21 +90,21 @@ namespace oci.IotIotDomainConfigureDataAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#iot_domain_id IotIotDomainConfigureDataAccess#iot_domain_id}.</summary>
             [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string IotDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#type IotIotDomainConfigureDataAccess#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_allowed_identity_domain_host IotIotDomainConfigureDataAccess#db_allowed_identity_domain_host}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbAllowedIdentityDomainHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbAllowedIdentityDomainHost
@@ -112,7 +112,7 @@ namespace oci.IotIotDomainConfigureDataAccess
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_allow_listed_identity_group_names IotIotDomainConfigureDataAccess#db_allow_listed_identity_group_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbAllowListedIdentityGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DbAllowListedIdentityGroupNames
@@ -120,7 +120,7 @@ namespace oci.IotIotDomainConfigureDataAccess
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#db_workspace_admin_initial_password IotIotDomainConfigureDataAccess#db_workspace_admin_initial_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbWorkspaceAdminInitialPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbWorkspaceAdminInitialPassword
@@ -128,7 +128,7 @@ namespace oci.IotIotDomainConfigureDataAccess
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#id IotIotDomainConfigureDataAccess#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ namespace oci.IotIotDomainConfigureDataAccess
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_configure_data_access#timeouts IotIotDomainConfigureDataAccess#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotDomainConfigureDataAccess.IotIotDomainConfigureDataAccessTimeouts\"}", isOptional: true)]

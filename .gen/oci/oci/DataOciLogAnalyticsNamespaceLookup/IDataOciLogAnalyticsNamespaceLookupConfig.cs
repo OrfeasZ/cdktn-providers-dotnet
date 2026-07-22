@@ -7,14 +7,14 @@ namespace oci.DataOciLogAnalyticsNamespaceLookup
     [JsiiInterface(nativeType: typeof(IDataOciLogAnalyticsNamespaceLookupConfig), fullyQualifiedName: "oci.dataOciLogAnalyticsNamespaceLookup.DataOciLogAnalyticsNamespaceLookupConfig")]
     public interface IDataOciLogAnalyticsNamespaceLookupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}.</summary>
         [JsiiProperty(name: "lookupName", typeJson: "{\"primitive\":\"string\"}")]
         string LookupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciLogAnalyticsNamespaceLookup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}.</summary>
             [JsiiProperty(name: "lookupName", typeJson: "{\"primitive\":\"string\"}")]
             public string LookupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

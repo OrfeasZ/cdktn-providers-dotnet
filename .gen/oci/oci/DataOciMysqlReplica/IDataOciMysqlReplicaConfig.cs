@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlReplica
     [JsiiInterface(nativeType: typeof(IDataOciMysqlReplicaConfig), fullyQualifiedName: "oci.dataOciMysqlReplica.DataOciMysqlReplicaConfig")]
     public interface IDataOciMysqlReplicaConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
         [JsiiProperty(name: "replicaId", typeJson: "{\"primitive\":\"string\"}")]
         string ReplicaId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlReplica
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
             [JsiiProperty(name: "replicaId", typeJson: "{\"primitive\":\"string\"}")]
             public string ReplicaId
             {

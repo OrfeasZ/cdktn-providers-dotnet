@@ -9,7 +9,7 @@ namespace oci.DataOciBatchBatchTaskEnvironment
     [JsiiByValue(fqn: "oci.dataOciBatchBatchTaskEnvironment.DataOciBatchBatchTaskEnvironmentConfig")]
     public class DataOciBatchBatchTaskEnvironmentConfig : oci.DataOciBatchBatchTaskEnvironment.IDataOciBatchBatchTaskEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
         [JsiiProperty(name: "batchTaskEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string BatchTaskEnvironmentId
         {

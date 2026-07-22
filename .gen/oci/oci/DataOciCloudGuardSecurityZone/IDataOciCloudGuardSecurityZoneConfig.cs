@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardSecurityZone
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardSecurityZoneConfig), fullyQualifiedName: "oci.dataOciCloudGuardSecurityZone.DataOciCloudGuardSecurityZoneConfig")]
     public interface IDataOciCloudGuardSecurityZoneConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
         [JsiiProperty(name: "securityZoneId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityZoneId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardSecurityZone
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
             [JsiiProperty(name: "securityZoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityZoneId
             {

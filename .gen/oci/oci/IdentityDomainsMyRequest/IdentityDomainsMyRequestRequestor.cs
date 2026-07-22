@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMyRequest
     [JsiiByValue(fqn: "oci.identityDomainsMyRequest.IdentityDomainsMyRequestRequestor")]
     public class IdentityDomainsMyRequestRequestor : oci.IdentityDomainsMyRequest.IIdentityDomainsMyRequestRequestor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

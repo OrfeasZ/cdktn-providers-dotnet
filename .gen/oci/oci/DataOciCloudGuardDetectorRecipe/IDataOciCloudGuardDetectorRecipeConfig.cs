@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardDetectorRecipe
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardDetectorRecipeConfig), fullyQualifiedName: "oci.dataOciCloudGuardDetectorRecipe.DataOciCloudGuardDetectorRecipeConfig")]
     public interface IDataOciCloudGuardDetectorRecipeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
         [JsiiProperty(name: "detectorRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         string DetectorRecipeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardDetectorRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_detector_recipe#detector_recipe_id DataOciCloudGuardDetectorRecipe#detector_recipe_id}.</summary>
             [JsiiProperty(name: "detectorRecipeId", typeJson: "{\"primitive\":\"string\"}")]
             public string DetectorRecipeId
             {

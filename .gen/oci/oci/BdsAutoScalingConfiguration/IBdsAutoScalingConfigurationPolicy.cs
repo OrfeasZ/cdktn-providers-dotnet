@@ -7,7 +7,7 @@ namespace oci.BdsAutoScalingConfiguration
     [JsiiInterface(nativeType: typeof(IBdsAutoScalingConfigurationPolicy), fullyQualifiedName: "oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicy")]
     public interface IBdsAutoScalingConfigurationPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_auto_scaling_configuration#policy_type BdsAutoScalingConfiguration#policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_auto_scaling_configuration#policy_type BdsAutoScalingConfiguration#policy_type}.</summary>
         [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyType
         {
@@ -16,7 +16,7 @@ namespace oci.BdsAutoScalingConfiguration
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_auto_scaling_configuration#rules BdsAutoScalingConfiguration#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_auto_scaling_configuration#rules BdsAutoScalingConfiguration#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRules\"},\"kind\":\"array\"}}]}}")]
@@ -32,7 +32,7 @@ namespace oci.BdsAutoScalingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_auto_scaling_configuration#policy_type BdsAutoScalingConfiguration#policy_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_auto_scaling_configuration#policy_type BdsAutoScalingConfiguration#policy_type}.</summary>
             [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyType
             {
@@ -41,7 +41,7 @@ namespace oci.BdsAutoScalingConfiguration
 
             /// <summary>rules block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_auto_scaling_configuration#rules BdsAutoScalingConfiguration#rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_auto_scaling_configuration#rules BdsAutoScalingConfiguration#rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsAutoScalingConfiguration.IBdsAutoScalingConfigurationPolicyRules" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRules\"},\"kind\":\"array\"}}]}}")]

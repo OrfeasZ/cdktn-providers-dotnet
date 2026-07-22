@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudAsm
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudAsm.DataOciDatabaseManagementCloudAsmConfig")]
     public class DataOciDatabaseManagementCloudAsmConfig : oci.DataOciDatabaseManagementCloudAsm.IDataOciDatabaseManagementCloudAsmConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
         [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudAsmId
         {

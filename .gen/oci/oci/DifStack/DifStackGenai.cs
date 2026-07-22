@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackGenai")]
     public class DifStackGenai : oci.DifStack.IDifStackGenai
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#base_model DifStack#base_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#base_model DifStack#base_model}.</summary>
         [JsiiProperty(name: "baseModel", typeJson: "{\"primitive\":\"string\"}")]
         public string BaseModel
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#cluster_type DifStack#cluster_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#cluster_type DifStack#cluster_type}.</summary>
         [JsiiProperty(name: "clusterType", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterType
         {
@@ -25,7 +25,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -33,7 +33,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#oci_region DifStack#oci_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#oci_region DifStack#oci_region}.</summary>
         [JsiiProperty(name: "ociRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string OciRegion
         {
@@ -41,7 +41,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#unit_count DifStack#unit_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#unit_count DifStack#unit_count}.</summary>
         [JsiiProperty(name: "unitCount", typeJson: "{\"primitive\":\"number\"}")]
         public double UnitCount
         {
@@ -53,7 +53,7 @@ namespace oci.DifStack
 
         /// <summary>endpoints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#endpoints DifStack#endpoints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#endpoints DifStack#endpoints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackGenaiEndpoints" />)[]</para>
         /// </remarks>
         [JsiiOptional]

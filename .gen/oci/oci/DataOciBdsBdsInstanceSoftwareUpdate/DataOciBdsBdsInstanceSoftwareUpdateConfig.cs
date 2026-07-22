@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdate
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceSoftwareUpdate.DataOciBdsBdsInstanceSoftwareUpdateConfig")]
     public class DataOciBdsBdsInstanceSoftwareUpdateConfig : oci.DataOciBdsBdsInstanceSoftwareUpdate.IDataOciBdsBdsInstanceSoftwareUpdateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_update#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdate#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_update#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdate#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_update#software_update_key DataOciBdsBdsInstanceSoftwareUpdate#software_update_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_update#software_update_key DataOciBdsBdsInstanceSoftwareUpdate#software_update_key}.</summary>
         [JsiiProperty(name: "softwareUpdateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareUpdateKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_software_update#id DataOciBdsBdsInstanceSoftwareUpdate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_software_update#id DataOciBdsBdsInstanceSoftwareUpdate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

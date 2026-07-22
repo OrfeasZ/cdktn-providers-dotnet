@@ -9,7 +9,7 @@ namespace oci.DatascienceMlApplicationInstance
     [JsiiByValue(fqn: "oci.datascienceMlApplicationInstance.DatascienceMlApplicationInstanceConfiguration")]
     public class DatascienceMlApplicationInstanceConfiguration : oci.DatascienceMlApplicationInstance.IDatascienceMlApplicationInstanceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_ml_application_instance#key DatascienceMlApplicationInstance#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_ml_application_instance#key DatascienceMlApplicationInstance#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_ml_application_instance#value DatascienceMlApplicationInstance#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_ml_application_instance#value DatascienceMlApplicationInstance#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

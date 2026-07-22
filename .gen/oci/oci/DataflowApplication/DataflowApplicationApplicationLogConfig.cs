@@ -9,7 +9,7 @@ namespace oci.DataflowApplication
     [JsiiByValue(fqn: "oci.dataflowApplication.DataflowApplicationApplicationLogConfig")]
     public class DataflowApplicationApplicationLogConfig : oci.DataflowApplication.IDataflowApplicationApplicationLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_application#log_group_id DataflowApplication#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataflowApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_application#log_id DataflowApplication#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

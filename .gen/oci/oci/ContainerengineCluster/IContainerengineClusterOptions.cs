@@ -9,7 +9,7 @@ namespace oci.ContainerengineCluster
     {
         /// <summary>add_ons block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
         /// </remarks>
         [JsiiProperty(name: "addOns", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsAddOns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>admission_controller_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
         /// </remarks>
         [JsiiProperty(name: "admissionControllerOptions", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsAdmissionControllerOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace oci.ContainerengineCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}.</summary>
         [JsiiProperty(name: "ipFamilies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IpFamilies
@@ -48,7 +48,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>kubernetes_network_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
         /// </remarks>
         [JsiiProperty(name: "kubernetesNetworkConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsKubernetesNetworkConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>open_id_connect_discovery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
         /// </remarks>
         [JsiiProperty(name: "openIdConnectDiscovery", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsOpenIdConnectDiscovery\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>open_id_connect_token_authentication_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
         /// </remarks>
         [JsiiProperty(name: "openIdConnectTokenAuthenticationConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>persistent_volume_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
         /// </remarks>
         [JsiiProperty(name: "persistentVolumeConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsPersistentVolumeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.ContainerengineCluster
 
         /// <summary>service_lb_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
         /// </remarks>
         [JsiiProperty(name: "serviceLbConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsServiceLbConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.ContainerengineCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}.</summary>
         [JsiiProperty(name: "serviceLbSubnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ServiceLbSubnetIds
@@ -136,7 +136,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>add_ons block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#add_ons ContainerengineCluster#add_ons}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "addOns", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsAddOns\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>admission_controller_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#admission_controller_options ContainerengineCluster#admission_controller_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "admissionControllerOptions", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsAdmissionControllerOptions\"}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace oci.ContainerengineCluster
                 get => GetInstanceProperty<oci.ContainerengineCluster.IContainerengineClusterOptionsAdmissionControllerOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#ip_families ContainerengineCluster#ip_families}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipFamilies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IpFamilies
@@ -166,7 +166,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>kubernetes_network_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#kubernetes_network_config ContainerengineCluster#kubernetes_network_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kubernetesNetworkConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsKubernetesNetworkConfig\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>open_id_connect_discovery block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#open_id_connect_discovery ContainerengineCluster#open_id_connect_discovery}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "openIdConnectDiscovery", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsOpenIdConnectDiscovery\"}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>open_id_connect_token_authentication_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#open_id_connect_token_authentication_config ContainerengineCluster#open_id_connect_token_authentication_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "openIdConnectTokenAuthenticationConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsOpenIdConnectTokenAuthenticationConfig\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>persistent_volume_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#persistent_volume_config ContainerengineCluster#persistent_volume_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "persistentVolumeConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsPersistentVolumeConfig\"}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace oci.ContainerengineCluster
 
             /// <summary>service_lb_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#service_lb_config ContainerengineCluster#service_lb_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serviceLbConfig", typeJson: "{\"fqn\":\"oci.containerengineCluster.ContainerengineClusterOptionsServiceLbConfig\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace oci.ContainerengineCluster
                 get => GetInstanceProperty<oci.ContainerengineCluster.IContainerengineClusterOptionsServiceLbConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#service_lb_subnet_ids ContainerengineCluster#service_lb_subnet_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceLbSubnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ServiceLbSubnetIds

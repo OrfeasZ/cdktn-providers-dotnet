@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbHomePatches
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbHomePatches.DataOciDatabaseDbHomePatchesConfig")]
     public class DataOciDatabaseDbHomePatchesConfig : oci.DataOciDatabaseDbHomePatches.IDataOciDatabaseDbHomePatchesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_db_home_patches#db_home_id DataOciDatabaseDbHomePatches#db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_home_patches#db_home_id DataOciDatabaseDbHomePatches#db_home_id}.</summary>
         [JsiiProperty(name: "dbHomeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbHomeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseDbHomePatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_db_home_patches#filter DataOciDatabaseDbHomePatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_home_patches#filter DataOciDatabaseDbHomePatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbHomePatches.IDataOciDatabaseDbHomePatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseDbHomePatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_db_home_patches#id DataOciDatabaseDbHomePatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_home_patches#id DataOciDatabaseDbHomePatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

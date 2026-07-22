@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousExadataInfrastructureShapesConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousExadataInfrastructureShapes.DataOciDatabaseAutonomousExadataInfrastructureShapesConfig")]
     public interface IDataOciDatabaseAutonomousExadataInfrastructureShapesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#availability_domain DataOciDatabaseAutonomousExadataInfrastructureShapes#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#availability_domain DataOciDatabaseAutonomousExadataInfrastructureShapes#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#compartment_id DataOciDatabaseAutonomousExadataInfrastructureShapes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#compartment_id DataOciDatabaseAutonomousExadataInfrastructureShapes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#filter DataOciDatabaseAutonomousExadataInfrastructureShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#filter DataOciDatabaseAutonomousExadataInfrastructureShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousExadataInfrastructureShapes.IDataOciDatabaseAutonomousExadataInfrastructureShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseAutonomousExadataInfrastructureShapes.DataOciDatabaseAutonomousExadataInfrastructureShapesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#id DataOciDatabaseAutonomousExadataInfrastructureShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#id DataOciDatabaseAutonomousExadataInfrastructureShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,14 +58,14 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#availability_domain DataOciDatabaseAutonomousExadataInfrastructureShapes#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#availability_domain DataOciDatabaseAutonomousExadataInfrastructureShapes#availability_domain}.</summary>
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#compartment_id DataOciDatabaseAutonomousExadataInfrastructureShapes#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#compartment_id DataOciDatabaseAutonomousExadataInfrastructureShapes#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#filter DataOciDatabaseAutonomousExadataInfrastructureShapes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#filter DataOciDatabaseAutonomousExadataInfrastructureShapes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousExadataInfrastructureShapes.IDataOciDatabaseAutonomousExadataInfrastructureShapesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -84,7 +84,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructureShapes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#id DataOciDatabaseAutonomousExadataInfrastructureShapes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure_shapes#id DataOciDatabaseAutonomousExadataInfrastructureShapes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExadbVmCluster
     [JsiiByValue(fqn: "oci.dataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterConfig")]
     public class DataOciDatabaseExadbVmClusterConfig : oci.DataOciDatabaseExadbVmCluster.IDataOciDatabaseExadbVmClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_exadb_vm_cluster#exadb_vm_cluster_id DataOciDatabaseExadbVmCluster#exadb_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_exadb_vm_cluster#exadb_vm_cluster_id DataOciDatabaseExadbVmCluster#exadb_vm_cluster_id}.</summary>
         [JsiiProperty(name: "exadbVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExadbVmClusterId
         {

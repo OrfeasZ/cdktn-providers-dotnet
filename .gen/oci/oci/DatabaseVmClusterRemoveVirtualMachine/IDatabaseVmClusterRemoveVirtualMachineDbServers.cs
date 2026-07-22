@@ -7,7 +7,7 @@ namespace oci.DatabaseVmClusterRemoveVirtualMachine
     [JsiiInterface(nativeType: typeof(IDatabaseVmClusterRemoveVirtualMachineDbServers), fullyQualifiedName: "oci.databaseVmClusterRemoveVirtualMachine.DatabaseVmClusterRemoveVirtualMachineDbServers")]
     public interface IDatabaseVmClusterRemoveVirtualMachineDbServers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_remove_virtual_machine#db_server_id DatabaseVmClusterRemoveVirtualMachine#db_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_remove_virtual_machine#db_server_id DatabaseVmClusterRemoveVirtualMachine#db_server_id}.</summary>
         [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}")]
         string DbServerId
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseVmClusterRemoveVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_remove_virtual_machine#db_server_id DatabaseVmClusterRemoveVirtualMachine#db_server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_remove_virtual_machine#db_server_id DatabaseVmClusterRemoveVirtualMachine#db_server_id}.</summary>
             [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbServerId
             {

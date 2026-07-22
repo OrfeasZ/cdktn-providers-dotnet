@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementPatch
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementPatch.DataOciFleetAppsManagementPatchConfig")]
     public class DataOciFleetAppsManagementPatchConfig : oci.DataOciFleetAppsManagementPatch.IDataOciFleetAppsManagementPatchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
         [JsiiProperty(name: "patchId", typeJson: "{\"primitive\":\"string\"}")]
         public string PatchId
         {

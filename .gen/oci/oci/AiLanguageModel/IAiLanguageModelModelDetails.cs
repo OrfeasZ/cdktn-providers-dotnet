@@ -7,7 +7,7 @@ namespace oci.AiLanguageModel
     [JsiiInterface(nativeType: typeof(IAiLanguageModelModelDetails), fullyQualifiedName: "oci.aiLanguageModel.AiLanguageModelModelDetails")]
     public interface IAiLanguageModelModelDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}.</summary>
         [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
         string ModelType
         {
@@ -16,7 +16,7 @@ namespace oci.AiLanguageModel
 
         /// <summary>classification_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
         /// </remarks>
         [JsiiProperty(name: "classificationMode", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelModelDetailsClassificationMode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace oci.AiLanguageModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}.</summary>
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LanguageCode
@@ -39,7 +39,7 @@ namespace oci.AiLanguageModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -57,7 +57,7 @@ namespace oci.AiLanguageModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#model_type AiLanguageModel#model_type}.</summary>
             [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelType
             {
@@ -66,7 +66,7 @@ namespace oci.AiLanguageModel
 
             /// <summary>classification_mode block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "classificationMode", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelModelDetailsClassificationMode\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace oci.AiLanguageModel
                 get => GetInstanceProperty<oci.AiLanguageModel.IAiLanguageModelModelDetailsClassificationMode?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#language_code AiLanguageModel#language_code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LanguageCode
@@ -83,7 +83,7 @@ namespace oci.AiLanguageModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

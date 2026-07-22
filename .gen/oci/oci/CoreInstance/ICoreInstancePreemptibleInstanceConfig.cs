@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     {
         /// <summary>preemption_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#preemption_action CoreInstance#preemption_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#preemption_action CoreInstance#preemption_action}
         /// </remarks>
         [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstancePreemptibleInstanceConfigPreemptionAction\"}")]
         oci.CoreInstance.ICoreInstancePreemptibleInstanceConfigPreemptionAction PreemptionAction
@@ -26,7 +26,7 @@ namespace oci.CoreInstance
 
             /// <summary>preemption_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#preemption_action CoreInstance#preemption_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#preemption_action CoreInstance#preemption_action}
             /// </remarks>
             [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstancePreemptibleInstanceConfigPreemptionAction\"}")]
             public oci.CoreInstance.ICoreInstancePreemptibleInstanceConfigPreemptionAction PreemptionAction

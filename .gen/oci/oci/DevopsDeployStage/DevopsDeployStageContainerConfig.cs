@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageContainerConfig")]
     public class DevopsDeployStageContainerConfig : oci.DevopsDeployStage.IDevopsDeployStageContainerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#container_config_type DevopsDeployStage#container_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#container_config_type DevopsDeployStage#container_config_type}.</summary>
         [JsiiProperty(name: "containerConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerConfigType
         {
@@ -19,7 +19,7 @@ namespace oci.DevopsDeployStage
 
         /// <summary>network_channel block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#network_channel DevopsDeployStage#network_channel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#network_channel DevopsDeployStage#network_channel}
         /// </remarks>
         [JsiiProperty(name: "networkChannel", typeJson: "{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageContainerConfigNetworkChannel\"}")]
         public oci.DevopsDeployStage.IDevopsDeployStageContainerConfigNetworkChannel NetworkChannel
@@ -30,7 +30,7 @@ namespace oci.DevopsDeployStage
 
         /// <summary>shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#shape_config DevopsDeployStage#shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#shape_config DevopsDeployStage#shape_config}
         /// </remarks>
         [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageContainerConfigShapeConfig\"}")]
         public oci.DevopsDeployStage.IDevopsDeployStageContainerConfigShapeConfig ShapeConfig
@@ -39,7 +39,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#shape_name DevopsDeployStage#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#shape_name DevopsDeployStage#shape_name}.</summary>
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}")]
         public string ShapeName
         {
@@ -47,7 +47,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#availability_domain DevopsDeployStage#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#availability_domain DevopsDeployStage#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -56,7 +56,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/devops_deploy_stage#compartment_id DevopsDeployStage#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#compartment_id DevopsDeployStage#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId

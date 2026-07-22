@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeployment
     [JsiiByValue(fqn: "oci.goldenGateDeployment.GoldenGateDeploymentMaintenanceWindow")]
     public class GoldenGateDeploymentMaintenanceWindow : oci.GoldenGateDeployment.IGoldenGateDeploymentMaintenanceWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#day GoldenGateDeployment#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#day GoldenGateDeployment#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         public string Day
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#start_hour GoldenGateDeployment#start_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#start_hour GoldenGateDeployment#start_hour}.</summary>
         [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}")]
         public double StartHour
         {

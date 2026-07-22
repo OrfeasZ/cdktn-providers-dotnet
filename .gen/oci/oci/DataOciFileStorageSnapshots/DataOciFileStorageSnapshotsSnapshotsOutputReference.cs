@@ -41,6 +41,12 @@ namespace oci.DataOciFileStorageSnapshots
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "exclusiveBytes", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExclusiveBytes
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "expirationTime", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpirationTime
         {

@@ -9,7 +9,7 @@ namespace oci.LoadBalancerRuleSet
     [JsiiByValue(fqn: "oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsConditions")]
     public class LoadBalancerRuleSetItemsConditions : oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_rule_set#attribute_name LoadBalancerRuleSet#attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#attribute_name LoadBalancerRuleSet#attribute_name}.</summary>
         [JsiiProperty(name: "attributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeName
         {
@@ -17,7 +17,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_rule_set#attribute_value LoadBalancerRuleSet#attribute_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#attribute_value LoadBalancerRuleSet#attribute_value}.</summary>
         [JsiiProperty(name: "attributeValue", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeValue
         {
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/load_balancer_rule_set#operator LoadBalancerRuleSet#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#operator LoadBalancerRuleSet#operator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Operator

@@ -7,7 +7,7 @@ namespace oci.DataOciWaasAddressList
     [JsiiInterface(nativeType: typeof(IDataOciWaasAddressListConfig), fullyQualifiedName: "oci.dataOciWaasAddressList.DataOciWaasAddressListConfig")]
     public interface IDataOciWaasAddressListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
         [JsiiProperty(name: "addressListId", typeJson: "{\"primitive\":\"string\"}")]
         string AddressListId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWaasAddressList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
             [JsiiProperty(name: "addressListId", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressListId
             {

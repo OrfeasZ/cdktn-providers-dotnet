@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsIdentityProofingProvider
     [JsiiInterface(nativeType: typeof(IIdentityDomainsIdentityProofingProviderConfiguration), fullyQualifiedName: "oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfiguration")]
     public interface IIdentityDomainsIdentityProofingProviderConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace oci.IdentityDomainsIdentityProofingProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

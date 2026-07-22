@@ -7,7 +7,7 @@ namespace oci.DataOciCoreNetworkSecurityGroup
     [JsiiInterface(nativeType: typeof(IDataOciCoreNetworkSecurityGroupConfig), fullyQualifiedName: "oci.dataOciCoreNetworkSecurityGroup.DataOciCoreNetworkSecurityGroupConfig")]
     public interface IDataOciCoreNetworkSecurityGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_network_security_group#network_security_group_id DataOciCoreNetworkSecurityGroup#network_security_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group#network_security_group_id DataOciCoreNetworkSecurityGroup#network_security_group_id}.</summary>
         [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkSecurityGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreNetworkSecurityGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_network_security_group#network_security_group_id DataOciCoreNetworkSecurityGroup#network_security_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group#network_security_group_id DataOciCoreNetworkSecurityGroup#network_security_group_id}.</summary>
             [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkSecurityGroupId
             {

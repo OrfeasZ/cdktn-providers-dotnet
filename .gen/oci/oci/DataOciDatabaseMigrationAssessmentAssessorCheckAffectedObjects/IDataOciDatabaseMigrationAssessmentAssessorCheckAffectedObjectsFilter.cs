@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter), fullyQualifiedName: "oci.dataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter")]
     public interface IDataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjectsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#name DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#values DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessor_check_affected_objects#regex DataOciDatabaseMigrationAssessmentAssessorCheckAffectedObjects#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DatabaseVmClusterNetwork
     [JsiiByValue(fqn: "oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworks")]
     public class DatabaseVmClusterNetworkVmNetworks : oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#network_type DatabaseVmClusterNetwork#network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#network_type DatabaseVmClusterNetwork#network_type}.</summary>
         [JsiiProperty(name: "networkType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkType
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseVmClusterNetwork
 
         /// <summary>nodes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#nodes DatabaseVmClusterNetwork#nodes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#nodes DatabaseVmClusterNetwork#nodes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworksNodes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nodes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworksNodes\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.DatabaseVmClusterNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#domain_name DatabaseVmClusterNetwork#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#domain_name DatabaseVmClusterNetwork#domain_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainName
@@ -60,7 +60,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#gateway DatabaseVmClusterNetwork#gateway}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#gateway DatabaseVmClusterNetwork#gateway}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Gateway
@@ -69,7 +69,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#netmask DatabaseVmClusterNetwork#netmask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#netmask DatabaseVmClusterNetwork#netmask}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Netmask
@@ -78,7 +78,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_vm_cluster_network#vlan_id DatabaseVmClusterNetwork#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_vm_cluster_network#vlan_id DatabaseVmClusterNetwork#vlan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VlanId

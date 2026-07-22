@@ -7,7 +7,7 @@ namespace oci.DatabaseCloudVmCluster
     [JsiiByValue(fqn: "oci.databaseCloudVmCluster.DatabaseCloudVmClusterFileSystemConfigurationDetails")]
     public class DatabaseCloudVmClusterFileSystemConfigurationDetails : oci.DatabaseCloudVmCluster.IDatabaseCloudVmClusterFileSystemConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#file_system_size_gb DatabaseCloudVmCluster#file_system_size_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_cloud_vm_cluster#file_system_size_gb DatabaseCloudVmCluster#file_system_size_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystemSizeGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FileSystemSizeGb
@@ -16,7 +16,7 @@ namespace oci.DatabaseCloudVmCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_cloud_vm_cluster#mount_point DatabaseCloudVmCluster#mount_point}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_cloud_vm_cluster#mount_point DatabaseCloudVmCluster#mount_point}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mountPoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MountPoint

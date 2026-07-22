@@ -11,7 +11,7 @@ namespace oci.GenerativeAiProject
     {
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_project#is_enabled GenerativeAiProject#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_project#is_enabled GenerativeAiProject#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiProject
 
         /// <summary>condenser_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_project#condenser_config GenerativeAiProject#condenser_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_project#condenser_config GenerativeAiProject#condenser_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "condenserConfig", typeJson: "{\"fqn\":\"oci.generativeAiProject.GenerativeAiProjectShortTermMemoryOptimizationConfigCondenserConfig\"}", isOptional: true)]

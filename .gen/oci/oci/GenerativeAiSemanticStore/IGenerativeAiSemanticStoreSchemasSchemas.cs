@@ -7,7 +7,7 @@ namespace oci.GenerativeAiSemanticStore
     [JsiiInterface(nativeType: typeof(IGenerativeAiSemanticStoreSchemasSchemas), fullyQualifiedName: "oci.generativeAiSemanticStore.GenerativeAiSemanticStoreSchemasSchemas")]
     public interface IGenerativeAiSemanticStoreSchemasSchemas
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_semantic_store#name GenerativeAiSemanticStore#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_semantic_store#name GenerativeAiSemanticStore#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace oci.GenerativeAiSemanticStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_semantic_store#name GenerativeAiSemanticStore#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_semantic_store#name GenerativeAiSemanticStore#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

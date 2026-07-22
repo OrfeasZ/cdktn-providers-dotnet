@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
     [JsiiByValue(fqn: "oci.dataOciDatascienceMlApplicationImplementationVersions.DataOciDatascienceMlApplicationImplementationVersionsFilter")]
     public class DataOciDatascienceMlApplicationImplementationVersionsFilter : oci.DataOciDatascienceMlApplicationImplementationVersions.IDataOciDatascienceMlApplicationImplementationVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_ml_application_implementation_versions#name DataOciDatascienceMlApplicationImplementationVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementation_versions#name DataOciDatascienceMlApplicationImplementationVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_ml_application_implementation_versions#values DataOciDatascienceMlApplicationImplementationVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementation_versions#values DataOciDatascienceMlApplicationImplementationVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_ml_application_implementation_versions#regex DataOciDatascienceMlApplicationImplementationVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementation_versions#regex DataOciDatascienceMlApplicationImplementationVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

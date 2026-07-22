@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousDatabaseInstanceWalletManagement
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabaseInstanceWalletManagement.DatabaseAutonomousDatabaseInstanceWalletManagementConfig")]
     public class DatabaseAutonomousDatabaseInstanceWalletManagementConfig : oci.DatabaseAutonomousDatabaseInstanceWalletManagement.IDatabaseAutonomousDatabaseInstanceWalletManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_instance_wallet_management#autonomous_database_id DatabaseAutonomousDatabaseInstanceWalletManagement#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_instance_wallet_management#autonomous_database_id DatabaseAutonomousDatabaseInstanceWalletManagement#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousDatabaseInstanceWalletManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_instance_wallet_management#grace_period DatabaseAutonomousDatabaseInstanceWalletManagement#grace_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_instance_wallet_management#grace_period DatabaseAutonomousDatabaseInstanceWalletManagement#grace_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gracePeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? GracePeriod
@@ -26,7 +26,7 @@ namespace oci.DatabaseAutonomousDatabaseInstanceWalletManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_instance_wallet_management#id DatabaseAutonomousDatabaseInstanceWalletManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_instance_wallet_management#id DatabaseAutonomousDatabaseInstanceWalletManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.DatabaseAutonomousDatabaseInstanceWalletManagement
 
         private object? _shouldRotate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_instance_wallet_management#should_rotate DatabaseAutonomousDatabaseInstanceWalletManagement#should_rotate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_instance_wallet_management#should_rotate DatabaseAutonomousDatabaseInstanceWalletManagement#should_rotate}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace oci.DatabaseAutonomousDatabaseInstanceWalletManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_instance_wallet_management#timeouts DatabaseAutonomousDatabaseInstanceWalletManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_instance_wallet_management#timeouts DatabaseAutonomousDatabaseInstanceWalletManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabaseInstanceWalletManagement.DatabaseAutonomousDatabaseInstanceWalletManagementTimeouts\"}", isOptional: true)]

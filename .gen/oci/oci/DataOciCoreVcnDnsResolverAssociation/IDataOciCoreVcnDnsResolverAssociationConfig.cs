@@ -7,14 +7,14 @@ namespace oci.DataOciCoreVcnDnsResolverAssociation
     [JsiiInterface(nativeType: typeof(IDataOciCoreVcnDnsResolverAssociationConfig), fullyQualifiedName: "oci.dataOciCoreVcnDnsResolverAssociation.DataOciCoreVcnDnsResolverAssociationConfig")]
     public interface IDataOciCoreVcnDnsResolverAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn_dns_resolver_association#vcn_id DataOciCoreVcnDnsResolverAssociation#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn_dns_resolver_association#vcn_id DataOciCoreVcnDnsResolverAssociation#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         string VcnId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn_dns_resolver_association#id DataOciCoreVcnDnsResolverAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn_dns_resolver_association#id DataOciCoreVcnDnsResolverAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciCoreVcnDnsResolverAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn_dns_resolver_association#vcn_id DataOciCoreVcnDnsResolverAssociation#vcn_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn_dns_resolver_association#vcn_id DataOciCoreVcnDnsResolverAssociation#vcn_id}.</summary>
             [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
             public string VcnId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn_dns_resolver_association#id DataOciCoreVcnDnsResolverAssociation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn_dns_resolver_association#id DataOciCoreVcnDnsResolverAssociation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

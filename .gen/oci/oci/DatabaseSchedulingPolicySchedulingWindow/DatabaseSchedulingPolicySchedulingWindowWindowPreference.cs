@@ -13,7 +13,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
         /// <summary>days_of_week block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#days_of_week DatabaseSchedulingPolicySchedulingWindow#days_of_week}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#days_of_week DatabaseSchedulingPolicySchedulingWindow#days_of_week}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "daysOfWeek", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#duration DatabaseSchedulingPolicySchedulingWindow#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#duration DatabaseSchedulingPolicySchedulingWindow#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         public double Duration
         {
@@ -53,7 +53,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
         private object _isEnforcedDuration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#is_enforced_duration DatabaseSchedulingPolicySchedulingWindow#is_enforced_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#is_enforced_duration DatabaseSchedulingPolicySchedulingWindow#is_enforced_duration}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -88,7 +88,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
 
         /// <summary>months block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#months DatabaseSchedulingPolicySchedulingWindow#months}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#months DatabaseSchedulingPolicySchedulingWindow#months}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "months", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths\"},\"kind\":\"array\"}}]}}")]
@@ -118,7 +118,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#start_time DatabaseSchedulingPolicySchedulingWindow#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#start_time DatabaseSchedulingPolicySchedulingWindow#start_time}.</summary>
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartTime
         {
@@ -126,7 +126,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_scheduling_policy_scheduling_window#weeks_of_month DatabaseSchedulingPolicySchedulingWindow#weeks_of_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#weeks_of_month DatabaseSchedulingPolicySchedulingWindow#weeks_of_month}.</summary>
         [JsiiProperty(name: "weeksOfMonth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public double[] WeeksOfMonth
         {

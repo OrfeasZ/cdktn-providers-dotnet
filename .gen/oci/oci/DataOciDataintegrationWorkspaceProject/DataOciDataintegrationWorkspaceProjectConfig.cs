@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceProject
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceProject.DataOciDataintegrationWorkspaceProjectConfig")]
     public class DataOciDataintegrationWorkspaceProjectConfig : oci.DataOciDataintegrationWorkspaceProject.IDataOciDataintegrationWorkspaceProjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_project#project_key DataOciDataintegrationWorkspaceProject#project_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataintegration_workspace_project#project_key DataOciDataintegrationWorkspaceProject#project_key}.</summary>
         [JsiiProperty(name: "projectKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataintegration_workspace_project#workspace_id DataOciDataintegrationWorkspaceProject#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataintegration_workspace_project#workspace_id DataOciDataintegrationWorkspaceProject#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

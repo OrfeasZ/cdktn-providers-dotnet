@@ -7,7 +7,7 @@ namespace oci.DataOciOptimizerEnrollmentStatus
     [JsiiInterface(nativeType: typeof(IDataOciOptimizerEnrollmentStatusConfig), fullyQualifiedName: "oci.dataOciOptimizerEnrollmentStatus.DataOciOptimizerEnrollmentStatusConfig")]
     public interface IDataOciOptimizerEnrollmentStatusConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
         [JsiiProperty(name: "enrollmentStatusId", typeJson: "{\"primitive\":\"string\"}")]
         string EnrollmentStatusId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOptimizerEnrollmentStatus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
             [JsiiProperty(name: "enrollmentStatusId", typeJson: "{\"primitive\":\"string\"}")]
             public string EnrollmentStatusId
             {

@@ -7,7 +7,7 @@ namespace oci.DataLabelingServiceDataset
     [JsiiInterface(nativeType: typeof(IDataLabelingServiceDatasetLabelSetItems), fullyQualifiedName: "oci.dataLabelingServiceDataset.DataLabelingServiceDatasetLabelSetItems")]
     public interface IDataLabelingServiceDatasetLabelSetItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -21,7 +21,7 @@ namespace oci.DataLabelingServiceDataset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

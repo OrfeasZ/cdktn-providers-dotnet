@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelProvenance
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelProvenance.DataOciDatascienceModelProvenanceConfig")]
     public class DataOciDatascienceModelProvenanceConfig : oci.DataOciDatascienceModelProvenance.IDataOciDatascienceModelProvenanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datascience_model_provenance#model_id DataOciDatascienceModelProvenance#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_provenance#model_id DataOciDatascienceModelProvenance#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {

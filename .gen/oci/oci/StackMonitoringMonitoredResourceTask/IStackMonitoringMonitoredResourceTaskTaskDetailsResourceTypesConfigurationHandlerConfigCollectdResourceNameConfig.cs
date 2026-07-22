@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigCollectdResourceNameConfig), fullyQualifiedName: "oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigCollectdResourceNameConfig")]
     public interface IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigCollectdResourceNameConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_properties StackMonitoringMonitoredResourceTask#exclude_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_properties StackMonitoringMonitoredResourceTask#exclude_properties}.</summary>
         [JsiiProperty(name: "excludeProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ExcludeProperties
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#include_properties StackMonitoringMonitoredResourceTask#include_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#include_properties StackMonitoringMonitoredResourceTask#include_properties}.</summary>
         [JsiiProperty(name: "includeProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IncludeProperties
@@ -29,7 +29,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#suffix StackMonitoringMonitoredResourceTask#suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#suffix StackMonitoringMonitoredResourceTask#suffix}.</summary>
         [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Suffix
@@ -47,7 +47,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_properties StackMonitoringMonitoredResourceTask#exclude_properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#exclude_properties StackMonitoringMonitoredResourceTask#exclude_properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludeProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ExcludeProperties
@@ -55,7 +55,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#include_properties StackMonitoringMonitoredResourceTask#include_properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#include_properties StackMonitoringMonitoredResourceTask#include_properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "includeProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IncludeProperties
@@ -63,7 +63,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#suffix StackMonitoringMonitoredResourceTask#suffix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#suffix StackMonitoringMonitoredResourceTask#suffix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Suffix

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsEndpointServices
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsEndpointServices.DataOciDatabaseToolsDatabaseToolsEndpointServicesFilter")]
     public class DataOciDatabaseToolsDatabaseToolsEndpointServicesFilter : oci.DataOciDatabaseToolsDatabaseToolsEndpointServices.IDataOciDatabaseToolsDatabaseToolsEndpointServicesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_endpoint_services#name DataOciDatabaseToolsDatabaseToolsEndpointServices#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_database_tools_endpoint_services#name DataOciDatabaseToolsDatabaseToolsEndpointServices#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsEndpointServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_endpoint_services#values DataOciDatabaseToolsDatabaseToolsEndpointServices#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_database_tools_endpoint_services#values DataOciDatabaseToolsDatabaseToolsEndpointServices#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsEndpointServices
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_database_tools_endpoint_services#regex DataOciDatabaseToolsDatabaseToolsEndpointServices#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_database_tools_endpoint_services#regex DataOciDatabaseToolsDatabaseToolsEndpointServices#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

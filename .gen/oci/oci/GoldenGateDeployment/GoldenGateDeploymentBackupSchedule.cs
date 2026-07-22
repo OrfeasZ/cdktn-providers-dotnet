@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeployment
     [JsiiByValue(fqn: "oci.goldenGateDeployment.GoldenGateDeploymentBackupSchedule")]
     public class GoldenGateDeploymentBackupSchedule : oci.GoldenGateDeployment.IGoldenGateDeploymentBackupSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#bucket GoldenGateDeployment#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#bucket GoldenGateDeployment#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#frequency_backup_scheduled GoldenGateDeployment#frequency_backup_scheduled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#frequency_backup_scheduled GoldenGateDeployment#frequency_backup_scheduled}.</summary>
         [JsiiProperty(name: "frequencyBackupScheduled", typeJson: "{\"primitive\":\"string\"}")]
         public string FrequencyBackupScheduled
         {
@@ -35,7 +35,7 @@ namespace oci.GoldenGateDeployment
 
         private object _isMetadataOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#is_metadata_only GoldenGateDeployment#is_metadata_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#is_metadata_only GoldenGateDeployment#is_metadata_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -66,7 +66,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#namespace GoldenGateDeployment#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#namespace GoldenGateDeployment#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -74,7 +74,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/golden_gate_deployment#time_backup_scheduled GoldenGateDeployment#time_backup_scheduled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#time_backup_scheduled GoldenGateDeployment#time_backup_scheduled}.</summary>
         [JsiiProperty(name: "timeBackupScheduled", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeBackupScheduled
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsIdentityConnector
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAwsIdentityConnector.DataOciDbmulticloudOracleDbAwsIdentityConnectorConfig")]
     public class DataOciDbmulticloudOracleDbAwsIdentityConnectorConfig : oci.DataOciDbmulticloudOracleDbAwsIdentityConnector.IDataOciDbmulticloudOracleDbAwsIdentityConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connector#oracle_db_aws_identity_connector_id DataOciDbmulticloudOracleDbAwsIdentityConnector#oracle_db_aws_identity_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connector#oracle_db_aws_identity_connector_id DataOciDbmulticloudOracleDbAwsIdentityConnector#oracle_db_aws_identity_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbAwsIdentityConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAwsIdentityConnectorId
         {

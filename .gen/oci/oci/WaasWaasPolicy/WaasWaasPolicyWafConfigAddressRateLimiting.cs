@@ -11,7 +11,7 @@ namespace oci.WaasWaasPolicy
     {
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#is_enabled WaasWaasPolicy#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#allowed_rate_per_address WaasWaasPolicy#allowed_rate_per_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#allowed_rate_per_address WaasWaasPolicy#allowed_rate_per_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedRatePerAddress", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AllowedRatePerAddress
@@ -51,7 +51,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockResponseCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BlockResponseCode
@@ -60,7 +60,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#max_delayed_count_per_address WaasWaasPolicy#max_delayed_count_per_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#max_delayed_count_per_address WaasWaasPolicy#max_delayed_count_per_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxDelayedCountPerAddress", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxDelayedCountPerAddress

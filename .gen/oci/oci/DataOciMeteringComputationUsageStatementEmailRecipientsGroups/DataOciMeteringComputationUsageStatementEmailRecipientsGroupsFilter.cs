@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationUsageStatementEmailRecipientsGroups.DataOciMeteringComputationUsageStatementEmailRecipientsGroupsFilter")]
     public class DataOciMeteringComputationUsageStatementEmailRecipientsGroupsFilter : oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups.IDataOciMeteringComputationUsageStatementEmailRecipientsGroupsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#name DataOciMeteringComputationUsageStatementEmailRecipientsGroups#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#name DataOciMeteringComputationUsageStatementEmailRecipientsGroups#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#values DataOciMeteringComputationUsageStatementEmailRecipientsGroups#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#values DataOciMeteringComputationUsageStatementEmailRecipientsGroups#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#regex DataOciMeteringComputationUsageStatementEmailRecipientsGroups#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#regex DataOciMeteringComputationUsageStatementEmailRecipientsGroups#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

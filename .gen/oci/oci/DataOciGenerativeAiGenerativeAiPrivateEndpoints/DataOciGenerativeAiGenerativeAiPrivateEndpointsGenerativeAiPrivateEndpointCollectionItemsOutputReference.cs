@@ -107,6 +107,12 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ResourceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

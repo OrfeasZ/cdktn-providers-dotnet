@@ -9,7 +9,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
     [JsiiByValue(fqn: "oci.dataOciAiLanguageModelEvaluationResults.DataOciAiLanguageModelEvaluationResultsAConfig")]
     public class DataOciAiLanguageModelEvaluationResultsAConfig : oci.DataOciAiLanguageModelEvaluationResults.IDataOciAiLanguageModelEvaluationResultsAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_language_model_evaluation_results#model_id DataOciAiLanguageModelEvaluationResultsA#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#model_id DataOciAiLanguageModelEvaluationResultsA#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_language_model_evaluation_results#filter DataOciAiLanguageModelEvaluationResultsA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#filter DataOciAiLanguageModelEvaluationResultsA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAiLanguageModelEvaluationResults.IDataOciAiLanguageModelEvaluationResultsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_language_model_evaluation_results#id DataOciAiLanguageModelEvaluationResultsA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#id DataOciAiLanguageModelEvaluationResultsA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

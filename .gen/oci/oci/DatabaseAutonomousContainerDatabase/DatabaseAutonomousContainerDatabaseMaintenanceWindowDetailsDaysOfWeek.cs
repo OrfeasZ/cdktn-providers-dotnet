@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousContainerDatabase
     [JsiiByValue(fqn: "oci.databaseAutonomousContainerDatabase.DatabaseAutonomousContainerDatabaseMaintenanceWindowDetailsDaysOfWeek")]
     public class DatabaseAutonomousContainerDatabaseMaintenanceWindowDetailsDaysOfWeek : oci.DatabaseAutonomousContainerDatabase.IDatabaseAutonomousContainerDatabaseMaintenanceWindowDetailsDaysOfWeek
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_container_database#name DatabaseAutonomousContainerDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database#name DatabaseAutonomousContainerDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

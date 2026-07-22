@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
     [JsiiByValue(fqn: "oci.dataOciDatabaseScheduledActionParams.DataOciDatabaseScheduledActionParamsFilter")]
     public class DataOciDatabaseScheduledActionParamsFilter : oci.DataOciDatabaseScheduledActionParams.IDataOciDatabaseScheduledActionParamsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduled_action_params#name DataOciDatabaseScheduledActionParams#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_action_params#name DataOciDatabaseScheduledActionParams#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduled_action_params#values DataOciDatabaseScheduledActionParams#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_action_params#values DataOciDatabaseScheduledActionParams#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_scheduled_action_params#regex DataOciDatabaseScheduledActionParams#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_action_params#regex DataOciDatabaseScheduledActionParams#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

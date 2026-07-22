@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesRateLimiting")]
     public class ApigatewayDeploymentSpecificationRequestPoliciesRateLimiting : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesRateLimiting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#rate_in_requests_per_second ApigatewayDeployment#rate_in_requests_per_second}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#rate_in_requests_per_second ApigatewayDeployment#rate_in_requests_per_second}.</summary>
         [JsiiProperty(name: "rateInRequestsPerSecond", typeJson: "{\"primitive\":\"number\"}")]
         public double RateInRequestsPerSecond
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#rate_key ApigatewayDeployment#rate_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#rate_key ApigatewayDeployment#rate_key}.</summary>
         [JsiiProperty(name: "rateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string RateKey
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAuditProfile
     [JsiiByValue(fqn: "oci.dataOciDataSafeAuditProfile.DataOciDataSafeAuditProfileConfig")]
     public class DataOciDataSafeAuditProfileConfig : oci.DataOciDataSafeAuditProfile.IDataOciDataSafeAuditProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
         [JsiiProperty(name: "auditProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string AuditProfileId
         {

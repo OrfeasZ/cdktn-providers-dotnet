@@ -7,14 +7,14 @@ namespace oci.DataOciDataflowRunStatement
     [JsiiInterface(nativeType: typeof(IDataOciDataflowRunStatementConfig), fullyQualifiedName: "oci.dataOciDataflowRunStatement.DataOciDataflowRunStatementConfig")]
     public interface IDataOciDataflowRunStatementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_run_statement#run_id DataOciDataflowRunStatement#run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataflow_run_statement#run_id DataOciDataflowRunStatement#run_id}.</summary>
         [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
         string RunId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_run_statement#statement_id DataOciDataflowRunStatement#statement_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataflow_run_statement#statement_id DataOciDataflowRunStatement#statement_id}.</summary>
         [JsiiProperty(name: "statementId", typeJson: "{\"primitive\":\"string\"}")]
         string StatementId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDataflowRunStatement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_run_statement#run_id DataOciDataflowRunStatement#run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataflow_run_statement#run_id DataOciDataflowRunStatement#run_id}.</summary>
             [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
             public string RunId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/dataflow_run_statement#statement_id DataOciDataflowRunStatement#statement_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataflow_run_statement#statement_id DataOciDataflowRunStatement#statement_id}.</summary>
             [JsiiProperty(name: "statementId", typeJson: "{\"primitive\":\"string\"}")]
             public string StatementId
             {

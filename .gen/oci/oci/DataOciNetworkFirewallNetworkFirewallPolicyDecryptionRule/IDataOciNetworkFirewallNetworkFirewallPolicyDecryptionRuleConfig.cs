@@ -7,14 +7,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule
     [JsiiInterface(nativeType: typeof(IDataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig), fullyQualifiedName: "oci.dataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig")]
     public interface IDataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {

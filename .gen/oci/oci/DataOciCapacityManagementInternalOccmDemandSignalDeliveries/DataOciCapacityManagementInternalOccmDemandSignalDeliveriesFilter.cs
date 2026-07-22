@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDeliveries
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccmDemandSignalDeliveries.DataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilter")]
     public class DataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilter : oci.DataOciCapacityManagementInternalOccmDemandSignalDeliveries.IDataOciCapacityManagementInternalOccmDemandSignalDeliveriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#name DataOciCapacityManagementInternalOccmDemandSignalDeliveries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#name DataOciCapacityManagementInternalOccmDemandSignalDeliveries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDeliveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#values DataOciCapacityManagementInternalOccmDemandSignalDeliveries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#values DataOciCapacityManagementInternalOccmDemandSignalDeliveries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalDeliveries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#regex DataOciCapacityManagementInternalOccmDemandSignalDeliveries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occm_demand_signal_deliveries#regex DataOciCapacityManagementInternalOccmDemandSignalDeliveries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

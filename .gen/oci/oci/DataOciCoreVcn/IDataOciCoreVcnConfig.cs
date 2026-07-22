@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVcn
     [JsiiInterface(nativeType: typeof(IDataOciCoreVcnConfig), fullyQualifiedName: "oci.dataOciCoreVcn.DataOciCoreVcnConfig")]
     public interface IDataOciCoreVcnConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         string VcnId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreVcn
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
             [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
             public string VcnId
             {

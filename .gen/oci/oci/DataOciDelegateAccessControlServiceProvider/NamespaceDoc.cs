@@ -5,7 +5,7 @@ namespace oci.DataOciDelegateAccessControlServiceProvider
     /// <remarks>
     /// <h1><c>data_oci_delegate_access_control_service_provider</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/delegate_access_control_service_provider"><c>data_oci_delegate_access_control_service_provider</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_service_provider"><c>data_oci_delegate_access_control_service_provider</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

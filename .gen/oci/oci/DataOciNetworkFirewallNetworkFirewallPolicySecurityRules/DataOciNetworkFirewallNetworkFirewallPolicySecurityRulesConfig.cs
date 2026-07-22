@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicySecurityRules.DataOciNetworkFirewallNetworkFirewallPolicySecurityRulesConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicySecurityRulesConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules.IDataOciNetworkFirewallNetworkFirewallPolicySecurityRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#display_name DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#filter DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#filter DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules.IDataOciNetworkFirewallNetworkFirewallPolicySecurityRulesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#id DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#id DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicySecurityRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#security_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#security_rule_priority_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_security_rules#security_rule_priority_order DataOciNetworkFirewallNetworkFirewallPolicySecurityRules#security_rule_priority_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityRulePriorityOrder", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SecurityRulePriorityOrder

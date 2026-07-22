@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardManagedLists
     [JsiiByValue(fqn: "oci.dataOciCloudGuardManagedLists.DataOciCloudGuardManagedListsConfig")]
     public class DataOciCloudGuardManagedListsConfig : oci.DataOciCloudGuardManagedLists.IDataOciCloudGuardManagedListsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#compartment_id DataOciCloudGuardManagedLists#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#compartment_id DataOciCloudGuardManagedLists#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudGuardManagedLists
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#access_level DataOciCloudGuardManagedLists#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#access_level DataOciCloudGuardManagedLists#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -28,7 +28,7 @@ namespace oci.DataOciCloudGuardManagedLists
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#compartment_id_in_subtree DataOciCloudGuardManagedLists#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#compartment_id_in_subtree DataOciCloudGuardManagedLists#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.DataOciCloudGuardManagedLists
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#display_name DataOciCloudGuardManagedLists#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#display_name DataOciCloudGuardManagedLists#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -73,7 +73,7 @@ namespace oci.DataOciCloudGuardManagedLists
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#filter DataOciCloudGuardManagedLists#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#filter DataOciCloudGuardManagedLists#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardManagedLists.IDataOciCloudGuardManagedListsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.DataOciCloudGuardManagedLists
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#id DataOciCloudGuardManagedLists#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#id DataOciCloudGuardManagedLists#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ namespace oci.DataOciCloudGuardManagedLists
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#list_type DataOciCloudGuardManagedLists#list_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#list_type DataOciCloudGuardManagedLists#list_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "listType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ListType
@@ -128,7 +128,7 @@ namespace oci.DataOciCloudGuardManagedLists
 
         private object? _resourceMetadataOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#resource_metadata_only DataOciCloudGuardManagedLists#resource_metadata_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#resource_metadata_only DataOciCloudGuardManagedLists#resource_metadata_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -160,7 +160,7 @@ namespace oci.DataOciCloudGuardManagedLists
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_guard_managed_lists#state DataOciCloudGuardManagedLists#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_managed_lists#state DataOciCloudGuardManagedLists#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

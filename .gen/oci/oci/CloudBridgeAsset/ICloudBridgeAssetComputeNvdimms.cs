@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiInterface(nativeType: typeof(ICloudBridgeAssetComputeNvdimms), fullyQualifiedName: "oci.cloudBridgeAsset.CloudBridgeAssetComputeNvdimms")]
     public interface ICloudBridgeAssetComputeNvdimms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}.</summary>
         [JsiiProperty(name: "controllerKey", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ControllerKey
@@ -18,7 +18,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Label
@@ -29,7 +29,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}.</summary>
         [JsiiProperty(name: "unitNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UnitNumber
@@ -47,7 +47,7 @@ namespace oci.CloudBridgeAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#controller_key CloudBridgeAsset#controller_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "controllerKey", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ControllerKey
@@ -55,7 +55,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Label
@@ -63,7 +63,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#unit_number CloudBridgeAsset#unit_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unitNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UnitNumber

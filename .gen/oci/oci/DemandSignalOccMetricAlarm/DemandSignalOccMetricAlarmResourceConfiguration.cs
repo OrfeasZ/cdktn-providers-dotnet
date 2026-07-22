@@ -9,7 +9,7 @@ namespace oci.DemandSignalOccMetricAlarm
     [JsiiByValue(fqn: "oci.demandSignalOccMetricAlarm.DemandSignalOccMetricAlarmResourceConfiguration")]
     public class DemandSignalOccMetricAlarmResourceConfiguration : oci.DemandSignalOccMetricAlarm.IDemandSignalOccMetricAlarmResourceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#resource DemandSignalOccMetricAlarm#resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#resource DemandSignalOccMetricAlarm#resource}.</summary>
         [JsiiProperty(name: "resource", typeJson: "{\"primitive\":\"string\"}")]
         public string Resource
         {
@@ -17,7 +17,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#usage_type DemandSignalOccMetricAlarm#usage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#usage_type DemandSignalOccMetricAlarm#usage_type}.</summary>
         [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}")]
         public string UsageType
         {
@@ -25,7 +25,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#compute_hw_generation DemandSignalOccMetricAlarm#compute_hw_generation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#compute_hw_generation DemandSignalOccMetricAlarm#compute_hw_generation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "computeHwGeneration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComputeHwGeneration
@@ -34,7 +34,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#hw_generation DemandSignalOccMetricAlarm#hw_generation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#hw_generation DemandSignalOccMetricAlarm#hw_generation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hwGeneration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HwGeneration
@@ -43,7 +43,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#link_role DemandSignalOccMetricAlarm#link_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#link_role DemandSignalOccMetricAlarm#link_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkRole
@@ -52,7 +52,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#node_type DemandSignalOccMetricAlarm#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#node_type DemandSignalOccMetricAlarm#node_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeType
@@ -61,7 +61,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#occ_metric_alarm_provider DemandSignalOccMetricAlarm#occ_metric_alarm_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#occ_metric_alarm_provider DemandSignalOccMetricAlarm#occ_metric_alarm_provider}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "occMetricAlarmProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OccMetricAlarmProvider
@@ -70,7 +70,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#shape DemandSignalOccMetricAlarm#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#shape DemandSignalOccMetricAlarm#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -79,7 +79,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_metric_alarm#storage_type DemandSignalOccMetricAlarm#storage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_metric_alarm#storage_type DemandSignalOccMetricAlarm#storage_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageType

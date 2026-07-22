@@ -9,7 +9,7 @@ namespace oci.ApmTracesScheduledQuery
     {
         /// <summary>custom_metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
         /// </remarks>
         [JsiiProperty(name: "customMetric", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.ApmTracesScheduledQuery
 
         /// <summary>object_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
         /// </remarks>
         [JsiiProperty(name: "objectStorage", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace oci.ApmTracesScheduledQuery
 
         /// <summary>streaming block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
         /// </remarks>
         [JsiiProperty(name: "streaming", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace oci.ApmTracesScheduledQuery
 
             /// <summary>custom_metric block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customMetric", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace oci.ApmTracesScheduledQuery
 
             /// <summary>object_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "objectStorage", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.ApmTracesScheduledQuery
 
             /// <summary>streaming block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "streaming", typeJson: "{\"fqn\":\"oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceManifest
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourceManifest.DataOciOsManagementHubSoftwareSourceManifestConfig")]
     public class DataOciOsManagementHubSoftwareSourceManifestConfig : oci.DataOciOsManagementHubSoftwareSourceManifest.IDataOciOsManagementHubSoftwareSourceManifestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_manifest#software_source_id DataOciOsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {

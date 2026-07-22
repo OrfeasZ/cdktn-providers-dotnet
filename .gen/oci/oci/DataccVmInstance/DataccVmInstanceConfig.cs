@@ -9,7 +9,7 @@ namespace oci.DataccVmInstance
     [JsiiByValue(fqn: "oci.dataccVmInstance.DataccVmInstanceConfig")]
     public class DataccVmInstanceConfig : oci.DataccVmInstance.IDataccVmInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#compartment_id DataccVmInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#compartment_id DataccVmInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#cpus_enabled DataccVmInstance#cpus_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#cpus_enabled DataccVmInstance#cpus_enabled}.</summary>
         [JsiiProperty(name: "cpusEnabled", typeJson: "{\"primitive\":\"number\"}")]
         public double CpusEnabled
         {
@@ -25,7 +25,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#infrastructure_id DataccVmInstance#infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#infrastructure_id DataccVmInstance#infrastructure_id}.</summary>
         [JsiiProperty(name: "infrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public string InfrastructureId
         {
@@ -33,7 +33,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#ssh_public_keys DataccVmInstance#ssh_public_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#ssh_public_keys DataccVmInstance#ssh_public_keys}.</summary>
         [JsiiProperty(name: "sshPublicKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SshPublicKeys
         {
@@ -41,7 +41,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#boot_storage_size_in_gbs DataccVmInstance#boot_storage_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#boot_storage_size_in_gbs DataccVmInstance#boot_storage_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bootStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BootStorageSizeInGbs
@@ -50,7 +50,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#data_storage_size_in_gb DataccVmInstance#data_storage_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#data_storage_size_in_gb DataccVmInstance#data_storage_size_in_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataStorageSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DataStorageSizeInGb
@@ -59,7 +59,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#defined_tags DataccVmInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#defined_tags DataccVmInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -68,7 +68,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#description DataccVmInstance#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#description DataccVmInstance#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -77,7 +77,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#display_name DataccVmInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#display_name DataccVmInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -86,7 +86,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#dns_servers DataccVmInstance#dns_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#dns_servers DataccVmInstance#dns_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DnsServers
@@ -95,7 +95,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#domain_name DataccVmInstance#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#domain_name DataccVmInstance#domain_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainName
@@ -104,7 +104,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#freeform_tags DataccVmInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#freeform_tags DataccVmInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -113,7 +113,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#gateway DataccVmInstance#gateway}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#gateway DataccVmInstance#gateway}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Gateway
@@ -122,7 +122,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#hostname DataccVmInstance#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#hostname DataccVmInstance#hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Hostname
@@ -131,7 +131,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#id DataccVmInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#id DataccVmInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#image_id DataccVmInstance#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#image_id DataccVmInstance#image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageId
@@ -153,7 +153,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#ip_address DataccVmInstance#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#ip_address DataccVmInstance#ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress
@@ -162,7 +162,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#memory_size_in_gbs DataccVmInstance#memory_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#memory_size_in_gbs DataccVmInstance#memory_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memorySizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemorySizeInGbs
@@ -171,7 +171,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#metadata DataccVmInstance#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#metadata DataccVmInstance#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -180,7 +180,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#netmask DataccVmInstance#netmask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#netmask DataccVmInstance#netmask}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Netmask
@@ -189,7 +189,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#ntp_servers DataccVmInstance#ntp_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#ntp_servers DataccVmInstance#ntp_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ntpServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NtpServers
@@ -198,7 +198,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#server_id DataccVmInstance#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#server_id DataccVmInstance#server_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerId
@@ -207,7 +207,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#system_tags DataccVmInstance#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#system_tags DataccVmInstance#system_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -218,7 +218,7 @@ namespace oci.DataccVmInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#timeouts DataccVmInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#timeouts DataccVmInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataccVmInstance.DataccVmInstanceTimeouts\"}", isOptional: true)]
@@ -228,7 +228,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#time_zone DataccVmInstance#time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#time_zone DataccVmInstance#time_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeZone
@@ -237,7 +237,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#userdata DataccVmInstance#userdata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#userdata DataccVmInstance#userdata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Userdata
@@ -246,7 +246,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#vlan_id DataccVmInstance#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#vlan_id DataccVmInstance#vlan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VlanId
@@ -255,7 +255,7 @@ namespace oci.DataccVmInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datacc_vm_instance#vm_network_id DataccVmInstance#vm_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_instance#vm_network_id DataccVmInstance#vm_network_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vmNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VmNetworkId

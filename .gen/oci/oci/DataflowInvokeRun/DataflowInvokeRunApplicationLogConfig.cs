@@ -9,7 +9,7 @@ namespace oci.DataflowInvokeRun
     [JsiiByValue(fqn: "oci.dataflowInvokeRun.DataflowInvokeRunApplicationLogConfig")]
     public class DataflowInvokeRunApplicationLogConfig : oci.DataflowInvokeRun.IDataflowInvokeRunApplicationLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_invoke_run#log_group_id DataflowInvokeRun#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_invoke_run#log_id DataflowInvokeRun#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

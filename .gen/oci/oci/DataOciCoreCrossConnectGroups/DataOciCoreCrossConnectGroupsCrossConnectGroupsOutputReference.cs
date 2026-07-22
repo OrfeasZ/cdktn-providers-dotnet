@@ -71,10 +71,34 @@ namespace oci.DataOciCoreCrossConnectGroups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "interfaceDownTimerValueInMilliseconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double InterfaceDownTimerValueInMilliseconds
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "isInterfaceHoldTimerEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsInterfaceHoldTimerEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isQosEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsQosEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "macsecProperties", typeJson: "{\"fqn\":\"oci.dataOciCoreCrossConnectGroups.DataOciCoreCrossConnectGroupsCrossConnectGroupsMacsecPropertiesList\"}")]
         public virtual oci.DataOciCoreCrossConnectGroups.DataOciCoreCrossConnectGroupsCrossConnectGroupsMacsecPropertiesList MacsecProperties
         {
             get => GetInstanceProperty<oci.DataOciCoreCrossConnectGroups.DataOciCoreCrossConnectGroupsCrossConnectGroupsMacsecPropertiesList>()!;
+        }
+
+        [JsiiProperty(name: "minimumLinks", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MinimumLinks
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "ociLogicalDeviceName", typeJson: "{\"primitive\":\"string\"}")]

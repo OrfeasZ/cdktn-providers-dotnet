@@ -9,7 +9,7 @@ namespace oci.DataOciFunctionsFunction
     [JsiiByValue(fqn: "oci.dataOciFunctionsFunction.DataOciFunctionsFunctionConfig")]
     public class DataOciFunctionsFunctionConfig : oci.DataOciFunctionsFunction.IDataOciFunctionsFunctionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/functions_function#function_id DataOciFunctionsFunction#function_id}.</summary>
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionId
         {

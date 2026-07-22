@@ -203,6 +203,12 @@ namespace oci.DataOciCoreVirtualCircuits
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "trafficMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrafficMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

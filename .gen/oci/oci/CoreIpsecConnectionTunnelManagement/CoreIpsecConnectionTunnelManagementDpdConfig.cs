@@ -7,7 +7,7 @@ namespace oci.CoreIpsecConnectionTunnelManagement
     [JsiiByValue(fqn: "oci.coreIpsecConnectionTunnelManagement.CoreIpsecConnectionTunnelManagementDpdConfig")]
     public class CoreIpsecConnectionTunnelManagementDpdConfig : oci.CoreIpsecConnectionTunnelManagement.ICoreIpsecConnectionTunnelManagementDpdConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec_connection_tunnel_management#dpd_mode CoreIpsecConnectionTunnelManagement#dpd_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_ipsec_connection_tunnel_management#dpd_mode CoreIpsecConnectionTunnelManagement#dpd_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dpdMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DpdMode
@@ -16,7 +16,7 @@ namespace oci.CoreIpsecConnectionTunnelManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_ipsec_connection_tunnel_management#dpd_timeout_in_sec CoreIpsecConnectionTunnelManagement#dpd_timeout_in_sec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_ipsec_connection_tunnel_management#dpd_timeout_in_sec CoreIpsecConnectionTunnelManagement#dpd_timeout_in_sec}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dpdTimeoutInSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DpdTimeoutInSec

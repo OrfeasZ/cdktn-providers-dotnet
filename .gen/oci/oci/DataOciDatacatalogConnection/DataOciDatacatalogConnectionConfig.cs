@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogConnection
     [JsiiByValue(fqn: "oci.dataOciDatacatalogConnection.DataOciDatacatalogConnectionConfig")]
     public class DataOciDatacatalogConnectionConfig : oci.DataOciDatacatalogConnection.IDataOciDatacatalogConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacatalog_connection#catalog_id DataOciDatacatalogConnection#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacatalog_connection#catalog_id DataOciDatacatalogConnection#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatacatalogConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacatalog_connection#connection_key DataOciDatacatalogConnection#connection_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacatalog_connection#connection_key DataOciDatacatalogConnection#connection_key}.</summary>
         [JsiiProperty(name: "connectionKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatacatalogConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacatalog_connection#data_asset_key DataOciDatacatalogConnection#data_asset_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacatalog_connection#data_asset_key DataOciDatacatalogConnection#data_asset_key}.</summary>
         [JsiiProperty(name: "dataAssetKey", typeJson: "{\"primitive\":\"string\"}")]
         public string DataAssetKey
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciDatacatalogConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacatalog_connection#fields DataOciDatacatalogConnection#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacatalog_connection#fields DataOciDatacatalogConnection#fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Fields

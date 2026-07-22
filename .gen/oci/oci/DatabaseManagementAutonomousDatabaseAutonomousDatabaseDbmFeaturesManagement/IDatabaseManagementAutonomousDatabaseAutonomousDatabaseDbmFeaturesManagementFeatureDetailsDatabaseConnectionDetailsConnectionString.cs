@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
     [JsiiInterface(nativeType: typeof(IDatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementFeatureDetailsDatabaseConnectionDetailsConnectionString), fullyQualifiedName: "oci.databaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementFeatureDetailsDatabaseConnectionDetailsConnectionString")]
     public interface IDatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagementFeatureDetailsDatabaseConnectionDetailsConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#connection_type DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#connection_type DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectionType
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#port DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#port DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#protocol DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#protocol DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Protocol
@@ -40,7 +40,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#service DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#service DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Service
@@ -58,7 +58,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#connection_type DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#connection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#connection_type DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#connection_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectionType
@@ -66,7 +66,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#port DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#port DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port
@@ -74,7 +74,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#protocol DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#protocol DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#protocol}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Protocol
@@ -82,7 +82,7 @@ namespace oci.DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesM
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#service DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#service}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_autonomous_database_autonomous_database_dbm_features_management#service DatabaseManagementAutonomousDatabaseAutonomousDatabaseDbmFeaturesManagement#service}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Service

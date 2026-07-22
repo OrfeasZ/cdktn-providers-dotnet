@@ -7,7 +7,7 @@ namespace oci.DataOciContainerengineNodePool
     [JsiiInterface(nativeType: typeof(IDataOciContainerengineNodePoolConfig), fullyQualifiedName: "oci.dataOciContainerengineNodePool.DataOciContainerengineNodePoolConfig")]
     public interface IDataOciContainerengineNodePoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
         [JsiiProperty(name: "nodePoolId", typeJson: "{\"primitive\":\"string\"}")]
         string NodePoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciContainerengineNodePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/containerengine_node_pool#node_pool_id DataOciContainerengineNodePool#node_pool_id}.</summary>
             [JsiiProperty(name: "nodePoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string NodePoolId
             {

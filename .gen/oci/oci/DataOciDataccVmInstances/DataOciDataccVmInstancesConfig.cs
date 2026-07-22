@@ -9,7 +9,7 @@ namespace oci.DataOciDataccVmInstances
     [JsiiByValue(fqn: "oci.dataOciDataccVmInstances.DataOciDataccVmInstancesConfig")]
     public class DataOciDataccVmInstancesConfig : oci.DataOciDataccVmInstances.IDataOciDataccVmInstancesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#compartment_id DataOciDataccVmInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#compartment_id DataOciDataccVmInstances#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataccVmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#base_server_id DataOciDataccVmInstances#base_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#base_server_id DataOciDataccVmInstances#base_server_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "baseServerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BaseServerId
@@ -26,7 +26,7 @@ namespace oci.DataOciDataccVmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#display_name DataOciDataccVmInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#display_name DataOciDataccVmInstances#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciDataccVmInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#filter DataOciDataccVmInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#filter DataOciDataccVmInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataccVmInstances.IDataOciDataccVmInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDataccVmInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#id DataOciDataccVmInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#id DataOciDataccVmInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDataccVmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#infrastructure_id DataOciDataccVmInstances#infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#infrastructure_id DataOciDataccVmInstances#infrastructure_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "infrastructureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InfrastructureId
@@ -92,7 +92,7 @@ namespace oci.DataOciDataccVmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/datacc_vm_instances#state DataOciDataccVmInstances#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datacc_vm_instances#state DataOciDataccVmInstances#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? State

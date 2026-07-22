@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMappedAttributes.DataOciIdentityDomainsMappedAttributesConfig")]
     public class DataOciIdentityDomainsMappedAttributesConfig : oci.DataOciIdentityDomainsMappedAttributes.IDataOciIdentityDomainsMappedAttributesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#idcs_endpoint DataOciIdentityDomainsMappedAttributes#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#idcs_endpoint DataOciIdentityDomainsMappedAttributes#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#attributes DataOciIdentityDomainsMappedAttributes#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#attributes DataOciIdentityDomainsMappedAttributes#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#attribute_sets DataOciIdentityDomainsMappedAttributes#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#attribute_sets DataOciIdentityDomainsMappedAttributes#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#authorization DataOciIdentityDomainsMappedAttributes#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#authorization DataOciIdentityDomainsMappedAttributes#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -44,7 +44,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#compartment_id DataOciIdentityDomainsMappedAttributes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#compartment_id DataOciIdentityDomainsMappedAttributes#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -53,7 +53,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#id DataOciIdentityDomainsMappedAttributes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#id DataOciIdentityDomainsMappedAttributes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#mapped_attribute_count DataOciIdentityDomainsMappedAttributes#mapped_attribute_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#mapped_attribute_count DataOciIdentityDomainsMappedAttributes#mapped_attribute_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mappedAttributeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MappedAttributeCount
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#mapped_attribute_filter DataOciIdentityDomainsMappedAttributes#mapped_attribute_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#mapped_attribute_filter DataOciIdentityDomainsMappedAttributes#mapped_attribute_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mappedAttributeFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MappedAttributeFilter
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#resource_type_schema_version DataOciIdentityDomainsMappedAttributes#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#resource_type_schema_version DataOciIdentityDomainsMappedAttributes#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#sort_by DataOciIdentityDomainsMappedAttributes#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#sort_by DataOciIdentityDomainsMappedAttributes#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -102,7 +102,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#sort_order DataOciIdentityDomainsMappedAttributes#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#sort_order DataOciIdentityDomainsMappedAttributes#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -111,7 +111,7 @@ namespace oci.DataOciIdentityDomainsMappedAttributes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_mapped_attributes#start_index DataOciIdentityDomainsMappedAttributes#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_mapped_attributes#start_index DataOciIdentityDomainsMappedAttributes#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex

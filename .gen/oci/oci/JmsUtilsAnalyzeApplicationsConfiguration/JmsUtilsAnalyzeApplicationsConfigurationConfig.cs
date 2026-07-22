@@ -9,7 +9,7 @@ namespace oci.JmsUtilsAnalyzeApplicationsConfiguration
     [JsiiByValue(fqn: "oci.jmsUtilsAnalyzeApplicationsConfiguration.JmsUtilsAnalyzeApplicationsConfigurationConfig")]
     public class JmsUtilsAnalyzeApplicationsConfigurationConfig : oci.JmsUtilsAnalyzeApplicationsConfiguration.IJmsUtilsAnalyzeApplicationsConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_utils_analyze_applications_configuration#compartment_id JmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_utils_analyze_applications_configuration#compartment_id JmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.JmsUtilsAnalyzeApplicationsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_utils_analyze_applications_configuration#bucket JmsUtilsAnalyzeApplicationsConfiguration#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_utils_analyze_applications_configuration#bucket JmsUtilsAnalyzeApplicationsConfiguration#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -26,7 +26,7 @@ namespace oci.JmsUtilsAnalyzeApplicationsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_utils_analyze_applications_configuration#id JmsUtilsAnalyzeApplicationsConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_utils_analyze_applications_configuration#id JmsUtilsAnalyzeApplicationsConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.JmsUtilsAnalyzeApplicationsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_utils_analyze_applications_configuration#namespace JmsUtilsAnalyzeApplicationsConfiguration#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_utils_analyze_applications_configuration#namespace JmsUtilsAnalyzeApplicationsConfiguration#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -50,7 +50,7 @@ namespace oci.JmsUtilsAnalyzeApplicationsConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/jms_utils_analyze_applications_configuration#timeouts JmsUtilsAnalyzeApplicationsConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_utils_analyze_applications_configuration#timeouts JmsUtilsAnalyzeApplicationsConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsUtilsAnalyzeApplicationsConfiguration.JmsUtilsAnalyzeApplicationsConfigurationTimeouts\"}", isOptional: true)]

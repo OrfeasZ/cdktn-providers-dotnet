@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
     [JsiiByValue(fqn: "oci.dataOciDatabaseAdvancedClusterFileSystems.DataOciDatabaseAdvancedClusterFileSystemsConfig")]
     public class DataOciDatabaseAdvancedClusterFileSystemsConfig : oci.DataOciDatabaseAdvancedClusterFileSystems.IDataOciDatabaseAdvancedClusterFileSystemsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#compartment_id DataOciDatabaseAdvancedClusterFileSystems#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#compartment_id DataOciDatabaseAdvancedClusterFileSystems#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#filter DataOciDatabaseAdvancedClusterFileSystems#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#filter DataOciDatabaseAdvancedClusterFileSystems#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAdvancedClusterFileSystems.IDataOciDatabaseAdvancedClusterFileSystemsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#id DataOciDatabaseAdvancedClusterFileSystems#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#id DataOciDatabaseAdvancedClusterFileSystems#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#name DataOciDatabaseAdvancedClusterFileSystems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#name DataOciDatabaseAdvancedClusterFileSystems#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#resource_id DataOciDatabaseAdvancedClusterFileSystems#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#resource_id DataOciDatabaseAdvancedClusterFileSystems#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#state DataOciDatabaseAdvancedClusterFileSystems#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#state DataOciDatabaseAdvancedClusterFileSystems#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_advanced_cluster_file_systems#vm_cluster_id DataOciDatabaseAdvancedClusterFileSystems#vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_systems#vm_cluster_id DataOciDatabaseAdvancedClusterFileSystems#vm_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VmClusterId

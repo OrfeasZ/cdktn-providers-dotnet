@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabaseBackup.DatabaseAutonomousDatabaseBackupBackupDestinationDetails")]
     public class DatabaseAutonomousDatabaseBackupBackupDestinationDetails : oci.DatabaseAutonomousDatabaseBackup.IDatabaseAutonomousDatabaseBackupBackupDestinationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#type DatabaseAutonomousDatabaseBackup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#type DatabaseAutonomousDatabaseBackup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#backup_retention_policy_on_terminate DatabaseAutonomousDatabaseBackup#backup_retention_policy_on_terminate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#backup_retention_policy_on_terminate DatabaseAutonomousDatabaseBackup#backup_retention_policy_on_terminate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupRetentionPolicyOnTerminate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupRetentionPolicyOnTerminate
@@ -26,7 +26,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#id DatabaseAutonomousDatabaseBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#id DatabaseAutonomousDatabaseBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#internet_proxy DatabaseAutonomousDatabaseBackup#internet_proxy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#internet_proxy DatabaseAutonomousDatabaseBackup#internet_proxy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "internetProxy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InternetProxy
@@ -50,7 +50,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
 
         private object? _isRemote;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#is_remote DatabaseAutonomousDatabaseBackup#is_remote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#is_remote DatabaseAutonomousDatabaseBackup#is_remote}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -84,7 +84,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
 
         private object? _isRetentionLockEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#is_retention_lock_enabled DatabaseAutonomousDatabaseBackup#is_retention_lock_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#is_retention_lock_enabled DatabaseAutonomousDatabaseBackup#is_retention_lock_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -116,7 +116,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#remote_region DatabaseAutonomousDatabaseBackup#remote_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#remote_region DatabaseAutonomousDatabaseBackup#remote_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "remoteRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RemoteRegion
@@ -125,7 +125,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#vpc_password DatabaseAutonomousDatabaseBackup#vpc_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#vpc_password DatabaseAutonomousDatabaseBackup#vpc_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcPassword
@@ -134,7 +134,7 @@ namespace oci.DatabaseAutonomousDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_autonomous_database_backup#vpc_user DatabaseAutonomousDatabaseBackup#vpc_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database_backup#vpc_user DatabaseAutonomousDatabaseBackup#vpc_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcUser

@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSecurityPolicyReport
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityPolicyReportConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityPolicyReport.DataOciDataSafeSecurityPolicyReportConfig")]
     public interface IDataOciDataSafeSecurityPolicyReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_policy_report#security_policy_report_id DataOciDataSafeSecurityPolicyReport#security_policy_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report#security_policy_report_id DataOciDataSafeSecurityPolicyReport#security_policy_report_id}.</summary>
         [JsiiProperty(name: "securityPolicyReportId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityPolicyReportId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_policy_report#id DataOciDataSafeSecurityPolicyReport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report#id DataOciDataSafeSecurityPolicyReport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDataSafeSecurityPolicyReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_policy_report#security_policy_report_id DataOciDataSafeSecurityPolicyReport#security_policy_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report#security_policy_report_id DataOciDataSafeSecurityPolicyReport#security_policy_report_id}.</summary>
             [JsiiProperty(name: "securityPolicyReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityPolicyReportId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_security_policy_report#id DataOciDataSafeSecurityPolicyReport#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report#id DataOciDataSafeSecurityPolicyReport#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

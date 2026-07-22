@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActi
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity.DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivityConfig")]
     public class DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivityConfig : oci.DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity.IDataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity#external_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity#external_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalExadataStorageServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity#id DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_exadata_storage_server_top_sql_cpu_activity#id DataOciDatabaseManagementExternalExadataStorageServerTopSqlCpuActivity#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

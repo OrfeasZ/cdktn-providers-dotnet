@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetLibraryApplications
     [JsiiByValue(fqn: "oci.dataOciJmsFleetLibraryApplications.DataOciJmsFleetLibraryApplicationsFilter")]
     public class DataOciJmsFleetLibraryApplicationsFilter : oci.DataOciJmsFleetLibraryApplications.IDataOciJmsFleetLibraryApplicationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_library_applications#name DataOciJmsFleetLibraryApplications#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_library_applications#name DataOciJmsFleetLibraryApplications#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetLibraryApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_library_applications#values DataOciJmsFleetLibraryApplications#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_library_applications#values DataOciJmsFleetLibraryApplications#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsFleetLibraryApplications
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_fleet_library_applications#regex DataOciJmsFleetLibraryApplications#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_library_applications#regex DataOciJmsFleetLibraryApplications#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

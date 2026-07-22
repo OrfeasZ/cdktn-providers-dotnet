@@ -9,7 +9,7 @@ namespace oci.DnsResolver
     [JsiiByValue(fqn: "oci.dnsResolver.DnsResolverAttachedViews")]
     public class DnsResolverAttachedViews : oci.DnsResolver.IDnsResolverAttachedViews
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}")]
         public string ViewId
         {

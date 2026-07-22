@@ -7,7 +7,7 @@ namespace oci.DataOciLicenseManagerConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciLicenseManagerConfigurationConfig), fullyQualifiedName: "oci.dataOciLicenseManagerConfiguration.DataOciLicenseManagerConfigurationConfig")]
     public interface IDataOciLicenseManagerConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLicenseManagerConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

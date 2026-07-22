@@ -11,7 +11,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>http_endpoint_auth_sources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_sources GenerativeAiAgentTool#http_endpoint_auth_sources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_sources GenerativeAiAgentTool#http_endpoint_auth_sources}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSources" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -11,7 +11,7 @@ namespace oci.DatasciencePipeline
     {
         /// <summary>output block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#output DatasciencePipeline#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline#output DatasciencePipeline#output}
         /// </remarks>
         [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"oci.datasciencePipeline.DatasciencePipelineStepDetailsStepParametersOutput\"}")]
         public oci.DatasciencePipeline.IDatasciencePipelineStepDetailsStepParametersOutput Output
@@ -20,7 +20,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_pipeline#parameter_type DatasciencePipeline#parameter_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_pipeline#parameter_type DatasciencePipeline#parameter_type}.</summary>
         [JsiiProperty(name: "parameterType", typeJson: "{\"primitive\":\"string\"}")]
         public string ParameterType
         {

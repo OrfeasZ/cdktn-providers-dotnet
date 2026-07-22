@@ -7,7 +7,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
     [JsiiByValue(fqn: "oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleCondition")]
     public class NetworkFirewallNetworkFirewallPolicyNatRuleCondition : oci.NetworkFirewallNetworkFirewallPolicyNatRule.INetworkFirewallNetworkFirewallPolicyNatRuleCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#destination_address NetworkFirewallNetworkFirewallPolicyNatRule#destination_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#destination_address NetworkFirewallNetworkFirewallPolicyNatRule#destination_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DestinationAddress
@@ -16,7 +16,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#service NetworkFirewallNetworkFirewallPolicyNatRule#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#service NetworkFirewallNetworkFirewallPolicyNatRule#service}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Service
@@ -25,7 +25,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#source_address NetworkFirewallNetworkFirewallPolicyNatRule#source_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#source_address NetworkFirewallNetworkFirewallPolicyNatRule#source_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceAddress

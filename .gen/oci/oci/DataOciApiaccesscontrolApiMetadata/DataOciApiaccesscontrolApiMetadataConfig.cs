@@ -9,7 +9,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadata
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolApiMetadata.DataOciApiaccesscontrolApiMetadataConfig")]
     public class DataOciApiaccesscontrolApiMetadataConfig : oci.DataOciApiaccesscontrolApiMetadata.IDataOciApiaccesscontrolApiMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadata#api_metadata_id DataOciApiaccesscontrolApiMetadata#api_metadata_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apiaccesscontrol_api_metadata#api_metadata_id DataOciApiaccesscontrolApiMetadata#api_metadata_id}.</summary>
         [JsiiProperty(name: "apiMetadataId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiMetadataId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApiaccesscontrolApiMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apiaccesscontrol_api_metadata#id DataOciApiaccesscontrolApiMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apiaccesscontrol_api_metadata#id DataOciApiaccesscontrolApiMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,14 +7,14 @@ namespace oci.GdpGdpPipeline
     [JsiiInterface(nativeType: typeof(IGdpGdpPipelineBucketDetails), fullyQualifiedName: "oci.gdpGdpPipeline.GdpGdpPipelineBucketDetails")]
     public interface IGdpGdpPipelineBucketDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#bucket_type GdpGdpPipeline#bucket_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#bucket_type GdpGdpPipeline#bucket_type}.</summary>
         [JsiiProperty(name: "bucketType", typeJson: "{\"primitive\":\"string\"}")]
         string BucketType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,14 +25,14 @@ namespace oci.GdpGdpPipeline
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#name GdpGdpPipeline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#name GdpGdpPipeline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#namespace GdpGdpPipeline#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#namespace GdpGdpPipeline#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -46,14 +46,14 @@ namespace oci.GdpGdpPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#bucket_type GdpGdpPipeline#bucket_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#bucket_type GdpGdpPipeline#bucket_type}.</summary>
             [JsiiProperty(name: "bucketType", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,14 +64,14 @@ namespace oci.GdpGdpPipeline
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#name GdpGdpPipeline#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#name GdpGdpPipeline#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/gdp_gdp_pipeline#namespace GdpGdpPipeline#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#namespace GdpGdpPipeline#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

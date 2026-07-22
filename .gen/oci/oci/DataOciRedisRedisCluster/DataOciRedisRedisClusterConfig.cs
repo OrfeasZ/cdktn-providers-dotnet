@@ -9,7 +9,7 @@ namespace oci.DataOciRedisRedisCluster
     [JsiiByValue(fqn: "oci.dataOciRedisRedisCluster.DataOciRedisRedisClusterConfig")]
     public class DataOciRedisRedisClusterConfig : oci.DataOciRedisRedisCluster.IDataOciRedisRedisClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/redis_redis_cluster#redis_cluster_id DataOciRedisRedisCluster#redis_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_redis_cluster#redis_cluster_id DataOciRedisRedisCluster#redis_cluster_id}.</summary>
         [JsiiProperty(name: "redisClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string RedisClusterId
         {

@@ -9,7 +9,7 @@ namespace oci.WaasWaasPolicy
     [JsiiByValue(fqn: "oci.waasWaasPolicy.WaasWaasPolicyOriginGroupsOriginGroup")]
     public class WaasWaasPolicyOriginGroupsOriginGroup : oci.WaasWaasPolicy.IWaasWaasPolicyOriginGroupsOriginGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
         public string Origin
         {
@@ -17,7 +17,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

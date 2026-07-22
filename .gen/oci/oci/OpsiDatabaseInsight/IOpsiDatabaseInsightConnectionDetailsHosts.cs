@@ -7,7 +7,7 @@ namespace oci.OpsiDatabaseInsight
     [JsiiInterface(nativeType: typeof(IOpsiDatabaseInsightConnectionDetailsHosts), fullyQualifiedName: "oci.opsiDatabaseInsight.OpsiDatabaseInsightConnectionDetailsHosts")]
     public interface IOpsiDatabaseInsightConnectionDetailsHosts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}.</summary>
         [JsiiProperty(name: "hostIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostIp
@@ -18,7 +18,7 @@ namespace oci.OpsiDatabaseInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -36,7 +36,7 @@ namespace oci.OpsiDatabaseInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#host_ip OpsiDatabaseInsight#host_ip}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostIp
@@ -44,7 +44,7 @@ namespace oci.OpsiDatabaseInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#port OpsiDatabaseInsight#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port

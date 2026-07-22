@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     [JsiiByValue(fqn: "oci.coreInstance.CoreInstanceConfig")]
     public class CoreInstanceConfig : oci.CoreInstance.ICoreInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#availability_domain CoreInstance#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#availability_domain CoreInstance#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string AvailabilityDomain
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#compartment_id CoreInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#compartment_id CoreInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -27,7 +27,7 @@ namespace oci.CoreInstance
 
         /// <summary>agent_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#agent_config CoreInstance#agent_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#agent_config CoreInstance#agent_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentConfig", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceAgentConfig\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace oci.CoreInstance
 
         private object? _async;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#async CoreInstance#async}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#async CoreInstance#async}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -73,7 +73,7 @@ namespace oci.CoreInstance
 
         /// <summary>availability_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#availability_config CoreInstance#availability_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#availability_config CoreInstance#availability_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityConfig", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceAvailabilityConfig\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#capacity_reservation_id CoreInstance#capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#capacity_reservation_id CoreInstance#capacity_reservation_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CapacityReservationId
@@ -92,7 +92,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#cluster_placement_group_id CoreInstance#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#cluster_placement_group_id CoreInstance#cluster_placement_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterPlacementGroupId
@@ -101,7 +101,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#compute_cluster_id CoreInstance#compute_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#compute_cluster_id CoreInstance#compute_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ComputeClusterId
@@ -112,7 +112,7 @@ namespace oci.CoreInstance
 
         /// <summary>create_vnic_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#create_vnic_details CoreInstance#create_vnic_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#create_vnic_details CoreInstance#create_vnic_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createVnicDetails", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceCreateVnicDetails\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#dedicated_vm_host_id CoreInstance#dedicated_vm_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#dedicated_vm_host_id CoreInstance#dedicated_vm_host_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dedicatedVmHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DedicatedVmHostId
@@ -131,7 +131,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#defined_tags CoreInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#defined_tags CoreInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -140,7 +140,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#display_name CoreInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -149,7 +149,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#extended_metadata CoreInstance#extended_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#extended_metadata CoreInstance#extended_metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extendedMetadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? ExtendedMetadata
@@ -158,7 +158,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#fault_domain CoreInstance#fault_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#fault_domain CoreInstance#fault_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FaultDomain
@@ -167,7 +167,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#freeform_tags CoreInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#freeform_tags CoreInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -176,7 +176,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#hostname_label CoreInstance#hostname_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#hostname_label CoreInstance#hostname_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostnameLabel
@@ -185,7 +185,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#id CoreInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#id CoreInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -198,7 +198,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#image CoreInstance#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#image CoreInstance#image}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Image
@@ -207,7 +207,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#instance_configuration_id CoreInstance#instance_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#instance_configuration_id CoreInstance#instance_configuration_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceConfigurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceConfigurationId
@@ -218,7 +218,7 @@ namespace oci.CoreInstance
 
         /// <summary>instance_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#instance_options CoreInstance#instance_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#instance_options CoreInstance#instance_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceOptions", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceInstanceOptions\"}", isOptional: true)]
@@ -228,7 +228,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#ipxe_script CoreInstance#ipxe_script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#ipxe_script CoreInstance#ipxe_script}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipxeScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpxeScript
@@ -239,7 +239,7 @@ namespace oci.CoreInstance
 
         private object? _isAiEnterpriseEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#is_ai_enterprise_enabled CoreInstance#is_ai_enterprise_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#is_ai_enterprise_enabled CoreInstance#is_ai_enterprise_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -273,7 +273,7 @@ namespace oci.CoreInstance
 
         private object? _isPvEncryptionInTransitEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -307,7 +307,7 @@ namespace oci.CoreInstance
 
         /// <summary>launch_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#launch_options CoreInstance#launch_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#launch_options CoreInstance#launch_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "launchOptions", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceLaunchOptions\"}", isOptional: true)]
@@ -321,7 +321,7 @@ namespace oci.CoreInstance
 
         /// <summary>launch_volume_attachments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#launch_volume_attachments CoreInstance#launch_volume_attachments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#launch_volume_attachments CoreInstance#launch_volume_attachments}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstance.ICoreInstanceLaunchVolumeAttachments" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -354,7 +354,7 @@ namespace oci.CoreInstance
 
         /// <summary>licensing_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#licensing_configs CoreInstance#licensing_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#licensing_configs CoreInstance#licensing_configs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "licensingConfigs", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceLicensingConfigs\"}", isOptional: true)]
@@ -364,7 +364,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#metadata CoreInstance#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#metadata CoreInstance#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -375,7 +375,7 @@ namespace oci.CoreInstance
 
         /// <summary>placement_constraint_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#placement_constraint_details CoreInstance#placement_constraint_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#placement_constraint_details CoreInstance#placement_constraint_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraintDetails", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstancePlacementConstraintDetails\"}", isOptional: true)]
@@ -387,7 +387,7 @@ namespace oci.CoreInstance
 
         /// <summary>platform_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#platform_config CoreInstance#platform_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#platform_config CoreInstance#platform_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "platformConfig", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstancePlatformConfig\"}", isOptional: true)]
@@ -399,7 +399,7 @@ namespace oci.CoreInstance
 
         /// <summary>preemptible_instance_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#preemptible_instance_config CoreInstance#preemptible_instance_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#preemptible_instance_config CoreInstance#preemptible_instance_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preemptibleInstanceConfig", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstancePreemptibleInstanceConfig\"}", isOptional: true)]
@@ -411,7 +411,7 @@ namespace oci.CoreInstance
 
         private object? _preserveBootVolume;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#preserve_boot_volume CoreInstance#preserve_boot_volume}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#preserve_boot_volume CoreInstance#preserve_boot_volume}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -445,7 +445,7 @@ namespace oci.CoreInstance
 
         private object? _preserveDataVolumesCreatedAtLaunch;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#preserve_data_volumes_created_at_launch CoreInstance#preserve_data_volumes_created_at_launch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#preserve_data_volumes_created_at_launch CoreInstance#preserve_data_volumes_created_at_launch}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -477,7 +477,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#security_attributes CoreInstance#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#security_attributes CoreInstance#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -486,7 +486,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#shape CoreInstance#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#shape CoreInstance#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -497,7 +497,7 @@ namespace oci.CoreInstance
 
         /// <summary>shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#shape_config CoreInstance#shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#shape_config CoreInstance#shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceShapeConfig\"}", isOptional: true)]
@@ -509,7 +509,7 @@ namespace oci.CoreInstance
 
         /// <summary>source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#source_details CoreInstance#source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#source_details CoreInstance#source_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDetails", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceSourceDetails\"}", isOptional: true)]
@@ -519,7 +519,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#state CoreInstance#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#state CoreInstance#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -528,7 +528,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#subnet_id CoreInstance#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#subnet_id CoreInstance#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -539,7 +539,7 @@ namespace oci.CoreInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#timeouts CoreInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#timeouts CoreInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreInstance.CoreInstanceTimeouts\"}", isOptional: true)]
@@ -549,7 +549,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance#update_operation_constraint CoreInstance#update_operation_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#update_operation_constraint CoreInstance#update_operation_constraint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateOperationConstraint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateOperationConstraint

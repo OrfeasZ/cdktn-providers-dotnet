@@ -7,14 +7,14 @@ namespace oci.OpensearchOpensearchClusterPipeline
     [JsiiInterface(nativeType: typeof(IOpensearchOpensearchClusterPipelineReverseConnectionEndpoints), fullyQualifiedName: "oci.opensearchOpensearchClusterPipeline.OpensearchOpensearchClusterPipelineReverseConnectionEndpoints")]
     public interface IOpensearchOpensearchClusterPipelineReverseConnectionEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}.</summary>
         [JsiiProperty(name: "customerFqdn", typeJson: "{\"primitive\":\"string\"}")]
         string CustomerFqdn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}.</summary>
         [JsiiProperty(name: "customerIp", typeJson: "{\"primitive\":\"string\"}")]
         string CustomerIp
         {
@@ -28,14 +28,14 @@ namespace oci.OpensearchOpensearchClusterPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_fqdn OpensearchOpensearchClusterPipeline#customer_fqdn}.</summary>
             [JsiiProperty(name: "customerFqdn", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomerFqdn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opensearch_opensearch_cluster_pipeline#customer_ip OpensearchOpensearchClusterPipeline#customer_ip}.</summary>
             [JsiiProperty(name: "customerIp", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomerIp
             {

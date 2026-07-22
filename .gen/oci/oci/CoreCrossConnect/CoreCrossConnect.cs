@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreCrossConnect
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_cross_connect oci_core_cross_connect}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect oci_core_cross_connect}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreCrossConnect.CoreCrossConnect), fullyQualifiedName: "oci.coreCrossConnect.CoreCrossConnect", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectConfig\"}}]")]
     public class CoreCrossConnect : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_cross_connect oci_core_cross_connect} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect oci_core_cross_connect} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreCrossConnect(Constructs.Construct scope, string id, oci.CoreCrossConnect.ICoreCrossConnectConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace oci.CoreCrossConnect
         /// <param name="importToId">The construct id used in the generated config for the CoreCrossConnect to import.</param>
         /// <param name="importFromId">The id of the existing CoreCrossConnect that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreCrossConnect to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreCrossConnect to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_cross_connect#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreCrossConnect that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreCrossConnect to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreCrossConnect to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreCrossConnect that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreCrossConnect to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreCrossConnect.CoreCrossConnect), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putLoaProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectLoaProperties\"}}]")]
+        public virtual void PutLoaProperties(oci.CoreCrossConnect.ICoreCrossConnectLoaProperties @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreCrossConnect.ICoreCrossConnectLoaProperties)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMacsecProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecProperties\"}}]")]
@@ -100,6 +106,12 @@ namespace oci.CoreCrossConnect
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInterfaceDownTimerValueInMilliseconds")]
+        public virtual void ResetInterfaceDownTimerValueInMilliseconds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInterfaceName")]
         public virtual void ResetInterfaceName()
         {
@@ -108,6 +120,24 @@ namespace oci.CoreCrossConnect
 
         [JsiiMethod(name: "resetIsActive")]
         public virtual void ResetIsActive()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsInterfaceHoldTimerEnabled")]
+        public virtual void ResetIsInterfaceHoldTimerEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsQosEnabled")]
+        public virtual void ResetIsQosEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLoaProperties")]
+        public virtual void ResetLoaProperties()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -154,6 +184,12 @@ namespace oci.CoreCrossConnect
             get;
         }
         = GetStaticProperty<string>(typeof(oci.CoreCrossConnect.CoreCrossConnect))!;
+
+        [JsiiProperty(name: "loaProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectLoaPropertiesOutputReference\"}")]
+        public virtual oci.CoreCrossConnect.CoreCrossConnectLoaPropertiesOutputReference LoaProperties
+        {
+            get => GetInstanceProperty<oci.CoreCrossConnect.CoreCrossConnectLoaPropertiesOutputReference>()!;
+        }
 
         [JsiiProperty(name: "macsecProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecPropertiesOutputReference\"}")]
         public virtual oci.CoreCrossConnect.CoreCrossConnectMacsecPropertiesOutputReference MacsecProperties
@@ -248,6 +284,13 @@ namespace oci.CoreCrossConnect
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "interfaceDownTimerValueInMillisecondsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? InterfaceDownTimerValueInMillisecondsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "interfaceNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? InterfaceNameInput
         {
@@ -262,6 +305,33 @@ namespace oci.CoreCrossConnect
         public virtual object? IsActiveInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isInterfaceHoldTimerEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsInterfaceHoldTimerEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isQosEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsQosEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "loaPropertiesInput", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectLoaProperties\"}", isOptional: true)]
+        public virtual oci.CoreCrossConnect.ICoreCrossConnectLoaProperties? LoaPropertiesInput
+        {
+            get => GetInstanceProperty<oci.CoreCrossConnect.ICoreCrossConnectLoaProperties?>();
         }
 
         [JsiiOptional]
@@ -365,6 +435,13 @@ namespace oci.CoreCrossConnect
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "interfaceDownTimerValueInMilliseconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double InterfaceDownTimerValueInMilliseconds
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "interfaceName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceName
         {
@@ -377,6 +454,66 @@ namespace oci.CoreCrossConnect
         /// </remarks>
         [JsiiProperty(name: "isActive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object IsActive
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isInterfaceHoldTimerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsInterfaceHoldTimerEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isQosEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsQosEnabled
         {
             get => GetInstanceProperty<object>()!;
             set

@@ -7,14 +7,14 @@ namespace oci.DataOciVaultSecretVersion
     [JsiiInterface(nativeType: typeof(IDataOciVaultSecretVersionConfig), fullyQualifiedName: "oci.dataOciVaultSecretVersion.DataOciVaultSecretVersionConfig")]
     public interface IDataOciVaultSecretVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         string SecretId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
         [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
         string SecretVersionNumber
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciVaultSecretVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
             [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretVersionNumber
             {

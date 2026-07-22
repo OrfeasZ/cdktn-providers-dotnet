@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExadataIormConfig
     [JsiiByValue(fqn: "oci.dataOciDatabaseExadataIormConfig.DataOciDatabaseExadataIormConfigConfig")]
     public class DataOciDatabaseExadataIormConfigConfig : oci.DataOciDatabaseExadataIormConfig.IDataOciDatabaseExadataIormConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_exadata_iorm_config#db_system_id DataOciDatabaseExadataIormConfig#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_exadata_iorm_config#db_system_id DataOciDatabaseExadataIormConfig#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {

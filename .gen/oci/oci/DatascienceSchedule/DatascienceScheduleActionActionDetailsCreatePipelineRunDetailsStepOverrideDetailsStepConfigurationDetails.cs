@@ -7,7 +7,7 @@ namespace oci.DatascienceSchedule
     [JsiiByValue(fqn: "oci.datascienceSchedule.DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails")]
     public class DatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails : oci.DatascienceSchedule.IDatascienceScheduleActionActionDetailsCreatePipelineRunDetailsStepOverrideDetailsStepConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_schedule#command_line_arguments DatascienceSchedule#command_line_arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commandLineArguments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommandLineArguments
@@ -16,7 +16,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_schedule#environment_variables DatascienceSchedule#environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? EnvironmentVariables
@@ -25,7 +25,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_schedule#maximum_runtime_in_minutes DatascienceSchedule#maximum_runtime_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumRuntimeInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumRuntimeInMinutes

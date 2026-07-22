@@ -7,14 +7,14 @@ namespace oci.DesktopsDesktopPool
     [JsiiInterface(nativeType: typeof(IDesktopsDesktopPoolSessionLifecycleActionsInactivity), fullyQualifiedName: "oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsInactivity")]
     public interface IDesktopsDesktopPoolSessionLifecycleActionsInactivity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
         [JsiiProperty(name: "gracePeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GracePeriodInMinutes
@@ -32,14 +32,14 @@ namespace oci.DesktopsDesktopPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gracePeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GracePeriodInMinutes

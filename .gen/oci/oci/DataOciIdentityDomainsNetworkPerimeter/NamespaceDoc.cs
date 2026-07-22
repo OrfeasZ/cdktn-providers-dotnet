@@ -5,7 +5,7 @@ namespace oci.DataOciIdentityDomainsNetworkPerimeter
     /// <remarks>
     /// <h1><c>data_oci_identity_domains_network_perimeter</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_domains_network_perimeter"><c>data_oci_identity_domains_network_perimeter</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_network_perimeter"><c>data_oci_identity_domains_network_perimeter</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

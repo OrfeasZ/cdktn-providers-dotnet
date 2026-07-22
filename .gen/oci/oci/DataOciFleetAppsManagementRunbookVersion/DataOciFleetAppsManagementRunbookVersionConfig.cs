@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementRunbookVersion
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementRunbookVersion.DataOciFleetAppsManagementRunbookVersionConfig")]
     public class DataOciFleetAppsManagementRunbookVersionConfig : oci.DataOciFleetAppsManagementRunbookVersion.IDataOciFleetAppsManagementRunbookVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_runbook_version#runbook_version_id DataOciFleetAppsManagementRunbookVersion#runbook_version_id}.</summary>
         [JsiiProperty(name: "runbookVersionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RunbookVersionId
         {

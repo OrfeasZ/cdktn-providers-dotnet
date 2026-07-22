@@ -9,7 +9,7 @@ namespace oci.WaaWebAppAcceleration
     [JsiiByValue(fqn: "oci.waaWebAppAcceleration.WaaWebAppAccelerationConfig")]
     public class WaaWebAppAccelerationConfig : oci.WaaWebAppAcceleration.IWaaWebAppAccelerationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#backend_type WaaWebAppAcceleration#backend_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#backend_type WaaWebAppAcceleration#backend_type}.</summary>
         [JsiiProperty(name: "backendType", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendType
         {
@@ -17,7 +17,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#compartment_id WaaWebAppAcceleration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#compartment_id WaaWebAppAcceleration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#load_balancer_id WaaWebAppAcceleration#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#load_balancer_id WaaWebAppAcceleration#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -33,7 +33,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#web_app_acceleration_policy_id WaaWebAppAcceleration#web_app_acceleration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#web_app_acceleration_policy_id WaaWebAppAcceleration#web_app_acceleration_policy_id}.</summary>
         [JsiiProperty(name: "webAppAccelerationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebAppAccelerationPolicyId
         {
@@ -41,7 +41,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#defined_tags WaaWebAppAcceleration#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#defined_tags WaaWebAppAcceleration#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#display_name WaaWebAppAcceleration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#display_name WaaWebAppAcceleration#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#freeform_tags WaaWebAppAcceleration#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#freeform_tags WaaWebAppAcceleration#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#id WaaWebAppAcceleration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#id WaaWebAppAcceleration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.WaaWebAppAcceleration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#system_tags WaaWebAppAcceleration#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#system_tags WaaWebAppAcceleration#system_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -92,7 +92,7 @@ namespace oci.WaaWebAppAcceleration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/waa_web_app_acceleration#timeouts WaaWebAppAcceleration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waa_web_app_acceleration#timeouts WaaWebAppAcceleration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.waaWebAppAcceleration.WaaWebAppAccelerationTimeouts\"}", isOptional: true)]

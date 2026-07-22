@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessors
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessmentAssessors.DataOciDatabaseMigrationAssessmentAssessorsFilter")]
     public class DataOciDatabaseMigrationAssessmentAssessorsFilter : oci.DataOciDatabaseMigrationAssessmentAssessors.IDataOciDatabaseMigrationAssessmentAssessorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessors#name DataOciDatabaseMigrationAssessmentAssessors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessors#name DataOciDatabaseMigrationAssessmentAssessors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessors#values DataOciDatabaseMigrationAssessmentAssessors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessors#values DataOciDatabaseMigrationAssessmentAssessors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_migration_assessment_assessors#regex DataOciDatabaseMigrationAssessmentAssessors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_migration_assessment_assessors#regex DataOciDatabaseMigrationAssessmentAssessors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

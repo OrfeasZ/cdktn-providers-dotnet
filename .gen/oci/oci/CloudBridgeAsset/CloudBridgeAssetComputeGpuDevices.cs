@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiByValue(fqn: "oci.cloudBridgeAsset.CloudBridgeAssetComputeGpuDevices")]
     public class CloudBridgeAssetComputeGpuDevices : oci.CloudBridgeAsset.ICloudBridgeAssetComputeGpuDevices
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#cores_count CloudBridgeAsset#cores_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "coresCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CoresCount
@@ -16,7 +16,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#description CloudBridgeAsset#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -25,7 +25,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#manufacturer CloudBridgeAsset#manufacturer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#manufacturer CloudBridgeAsset#manufacturer}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "manufacturer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Manufacturer
@@ -34,7 +34,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#memory_in_mbs CloudBridgeAsset#memory_in_mbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInMbs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MemoryInMbs
@@ -43,7 +43,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#name CloudBridgeAsset#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

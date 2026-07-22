@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     {
         /// <summary>filter_query_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
         /// </remarks>
         [JsiiProperty(name: "filterQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>rename_query_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
         /// </remarks>
         [JsiiProperty(name: "renameQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsRenameQueryParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>set_query_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
         /// </remarks>
         [JsiiProperty(name: "setQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsSetQueryParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace oci.ApigatewayDeployment
 
             /// <summary>filter_query_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#filter_query_parameters ApigatewayDeployment#filter_query_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filterQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsFilterQueryParameters\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace oci.ApigatewayDeployment
 
             /// <summary>rename_query_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#rename_query_parameters ApigatewayDeployment#rename_query_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "renameQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsRenameQueryParameters\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.ApigatewayDeployment
 
             /// <summary>set_query_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#set_query_parameters ApigatewayDeployment#set_query_parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "setQueryParameters", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesRequestPoliciesQueryParameterTransformationsSetQueryParameters\"}", isOptional: true)]

@@ -7,35 +7,35 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
     [JsiiInterface(nativeType: typeof(INetworkFirewallNetworkFirewallPolicyAddressListConfig), fullyQualifiedName: "oci.networkFirewallNetworkFirewallPolicyAddressList.NetworkFirewallNetworkFirewallPolicyAddressListConfig")]
     public interface INetworkFirewallNetworkFirewallPolicyAddressListConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}.</summary>
         [JsiiProperty(name: "addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Addresses
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#description NetworkFirewallNetworkFirewallPolicyAddressList#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#description NetworkFirewallNetworkFirewallPolicyAddressList#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -46,7 +46,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyAddressList.NetworkFirewallNetworkFirewallPolicyAddressListTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,35 +82,35 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#addresses NetworkFirewallNetworkFirewallPolicyAddressList#addresses}.</summary>
             [JsiiProperty(name: "addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Addresses
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#name NetworkFirewallNetworkFirewallPolicyAddressList#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyAddressList#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#type NetworkFirewallNetworkFirewallPolicyAddressList#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#description NetworkFirewallNetworkFirewallPolicyAddressList#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#description NetworkFirewallNetworkFirewallPolicyAddressList#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -118,7 +118,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#id NetworkFirewallNetworkFirewallPolicyAddressList#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -132,7 +132,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyAddressList
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_address_list#timeouts NetworkFirewallNetworkFirewallPolicyAddressList#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyAddressList.NetworkFirewallNetworkFirewallPolicyAddressListTimeouts\"}", isOptional: true)]

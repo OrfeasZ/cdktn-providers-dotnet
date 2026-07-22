@@ -7,14 +7,14 @@ namespace oci.DataOciManagementAgentManagementAgentNamedCredentialsMetadata
     [JsiiInterface(nativeType: typeof(IDataOciManagementAgentManagementAgentNamedCredentialsMetadataConfig), fullyQualifiedName: "oci.dataOciManagementAgentManagementAgentNamedCredentialsMetadata.DataOciManagementAgentManagementAgentNamedCredentialsMetadataConfig")]
     public interface IDataOciManagementAgentManagementAgentNamedCredentialsMetadataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciManagementAgentManagementAgentNamedCredentialsMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ManagementAgentId
@@ -47,14 +47,14 @@ namespace oci.DataOciManagementAgentManagementAgentNamedCredentialsMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#compartment_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciManagementAgentManagementAgentNamedCredentialsMetadata
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/management_agent_management_agent_named_credentials_metadata#management_agent_id DataOciManagementAgentManagementAgentNamedCredentialsMetadata#management_agent_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ManagementAgentId

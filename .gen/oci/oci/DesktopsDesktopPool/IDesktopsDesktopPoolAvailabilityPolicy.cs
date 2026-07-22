@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     {
         /// <summary>start_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
         /// </remarks>
         [JsiiProperty(name: "startSchedule", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStartSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.DesktopsDesktopPool
 
         /// <summary>stop_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
         /// </remarks>
         [JsiiProperty(name: "stopSchedule", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStopSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace oci.DesktopsDesktopPool
 
             /// <summary>start_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "startSchedule", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStartSchedule\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DesktopsDesktopPool
 
             /// <summary>stop_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stopSchedule", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStopSchedule\"}", isOptional: true)]

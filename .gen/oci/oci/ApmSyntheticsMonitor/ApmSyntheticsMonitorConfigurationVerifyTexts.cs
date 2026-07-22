@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiByValue(fqn: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationVerifyTexts")]
     public class ApmSyntheticsMonitorConfigurationVerifyTexts : oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorConfigurationVerifyTexts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_monitor#text ApmSyntheticsMonitor#text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Text

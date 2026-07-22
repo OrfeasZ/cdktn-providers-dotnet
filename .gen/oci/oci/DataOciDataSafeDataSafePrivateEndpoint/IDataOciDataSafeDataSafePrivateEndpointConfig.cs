@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeDataSafePrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeDataSafePrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDataSafeDataSafePrivateEndpoint.DataOciDataSafeDataSafePrivateEndpointConfig")]
     public interface IDataOciDataSafeDataSafePrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dataSafePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string DataSafePrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeDataSafePrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
             [JsiiProperty(name: "dataSafePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSafePrivateEndpointId
             {

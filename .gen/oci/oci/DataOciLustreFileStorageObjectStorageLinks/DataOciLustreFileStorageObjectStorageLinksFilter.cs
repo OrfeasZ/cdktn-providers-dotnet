@@ -9,7 +9,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
     [JsiiByValue(fqn: "oci.dataOciLustreFileStorageObjectStorageLinks.DataOciLustreFileStorageObjectStorageLinksFilter")]
     public class DataOciLustreFileStorageObjectStorageLinksFilter : oci.DataOciLustreFileStorageObjectStorageLinks.IDataOciLustreFileStorageObjectStorageLinksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_links#name DataOciLustreFileStorageObjectStorageLinks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_links#name DataOciLustreFileStorageObjectStorageLinks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_links#values DataOciLustreFileStorageObjectStorageLinks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_links#values DataOciLustreFileStorageObjectStorageLinks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_links#regex DataOciLustreFileStorageObjectStorageLinks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_links#regex DataOciLustreFileStorageObjectStorageLinks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

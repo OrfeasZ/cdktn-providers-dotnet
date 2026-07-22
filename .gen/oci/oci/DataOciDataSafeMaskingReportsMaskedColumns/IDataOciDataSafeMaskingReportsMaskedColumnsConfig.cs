@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeMaskingReportsMaskedColumnsConfig), fullyQualifiedName: "oci.dataOciDataSafeMaskingReportsMaskedColumns.DataOciDataSafeMaskingReportsMaskedColumnsConfig")]
     public interface IDataOciDataSafeMaskingReportsMaskedColumnsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_report_id DataOciDataSafeMaskingReportsMaskedColumns#masking_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_report_id DataOciDataSafeMaskingReportsMaskedColumns#masking_report_id}.</summary>
         [JsiiProperty(name: "maskingReportId", typeJson: "{\"primitive\":\"string\"}")]
         string MaskingReportId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#column_name DataOciDataSafeMaskingReportsMaskedColumns#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#column_name DataOciDataSafeMaskingReportsMaskedColumns#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ColumnName
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#filter DataOciDataSafeMaskingReportsMaskedColumns#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#filter DataOciDataSafeMaskingReportsMaskedColumns#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingReportsMaskedColumns.IDataOciDataSafeMaskingReportsMaskedColumnsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeMaskingReportsMaskedColumns.DataOciDataSafeMaskingReportsMaskedColumnsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#id DataOciDataSafeMaskingReportsMaskedColumns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#id DataOciDataSafeMaskingReportsMaskedColumns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_column_group DataOciDataSafeMaskingReportsMaskedColumns#masking_column_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_column_group DataOciDataSafeMaskingReportsMaskedColumns#masking_column_group}.</summary>
         [JsiiProperty(name: "maskingColumnGroup", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? MaskingColumnGroup
@@ -66,7 +66,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#object DataOciDataSafeMaskingReportsMaskedColumns#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#object DataOciDataSafeMaskingReportsMaskedColumns#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Object
@@ -77,7 +77,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#object_type DataOciDataSafeMaskingReportsMaskedColumns#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#object_type DataOciDataSafeMaskingReportsMaskedColumns#object_type}.</summary>
         [JsiiProperty(name: "objectType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ObjectType
@@ -88,7 +88,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#schema_name DataOciDataSafeMaskingReportsMaskedColumns#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#schema_name DataOciDataSafeMaskingReportsMaskedColumns#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SchemaName
@@ -99,7 +99,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#sensitive_type_id DataOciDataSafeMaskingReportsMaskedColumns#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#sensitive_type_id DataOciDataSafeMaskingReportsMaskedColumns#sensitive_type_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SensitiveTypeId
@@ -117,14 +117,14 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_report_id DataOciDataSafeMaskingReportsMaskedColumns#masking_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_report_id DataOciDataSafeMaskingReportsMaskedColumns#masking_report_id}.</summary>
             [JsiiProperty(name: "maskingReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaskingReportId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#column_name DataOciDataSafeMaskingReportsMaskedColumns#column_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#column_name DataOciDataSafeMaskingReportsMaskedColumns#column_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "columnName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ColumnName
@@ -134,7 +134,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#filter DataOciDataSafeMaskingReportsMaskedColumns#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#filter DataOciDataSafeMaskingReportsMaskedColumns#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingReportsMaskedColumns.IDataOciDataSafeMaskingReportsMaskedColumnsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -144,7 +144,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#id DataOciDataSafeMaskingReportsMaskedColumns#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#id DataOciDataSafeMaskingReportsMaskedColumns#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +156,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_column_group DataOciDataSafeMaskingReportsMaskedColumns#masking_column_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#masking_column_group DataOciDataSafeMaskingReportsMaskedColumns#masking_column_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maskingColumnGroup", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? MaskingColumnGroup
@@ -164,7 +164,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#object DataOciDataSafeMaskingReportsMaskedColumns#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#object DataOciDataSafeMaskingReportsMaskedColumns#object}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Object
@@ -172,7 +172,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#object_type DataOciDataSafeMaskingReportsMaskedColumns#object_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#object_type DataOciDataSafeMaskingReportsMaskedColumns#object_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objectType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ObjectType
@@ -180,7 +180,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#schema_name DataOciDataSafeMaskingReportsMaskedColumns#schema_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#schema_name DataOciDataSafeMaskingReportsMaskedColumns#schema_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SchemaName
@@ -188,7 +188,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_reports_masked_columns#sensitive_type_id DataOciDataSafeMaskingReportsMaskedColumns#sensitive_type_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_reports_masked_columns#sensitive_type_id DataOciDataSafeMaskingReportsMaskedColumns#sensitive_type_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SensitiveTypeId

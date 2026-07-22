@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceNodeBackupConfigurations.DataOciBdsBdsInstanceNodeBackupConfigurationsConfig")]
     public class DataOciBdsBdsInstanceNodeBackupConfigurationsConfig : oci.DataOciBdsBdsInstanceNodeBackupConfigurations.IDataOciBdsBdsInstanceNodeBackupConfigurationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_node_backup_configurations#bds_instance_id DataOciBdsBdsInstanceNodeBackupConfigurations#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_node_backup_configurations#bds_instance_id DataOciBdsBdsInstanceNodeBackupConfigurations#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_node_backup_configurations#display_name DataOciBdsBdsInstanceNodeBackupConfigurations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_node_backup_configurations#display_name DataOciBdsBdsInstanceNodeBackupConfigurations#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_node_backup_configurations#filter DataOciBdsBdsInstanceNodeBackupConfigurations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_node_backup_configurations#filter DataOciBdsBdsInstanceNodeBackupConfigurations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceNodeBackupConfigurations.IDataOciBdsBdsInstanceNodeBackupConfigurationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_node_backup_configurations#id DataOciBdsBdsInstanceNodeBackupConfigurations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_node_backup_configurations#id DataOciBdsBdsInstanceNodeBackupConfigurations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/bds_bds_instance_node_backup_configurations#state DataOciBdsBdsInstanceNodeBackupConfigurations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_node_backup_configurations#state DataOciBdsBdsInstanceNodeBackupConfigurations#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeAgents
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeAgents.DataOciCloudBridgeAgentsConfig")]
     public class DataOciCloudBridgeAgentsConfig : oci.DataOciCloudBridgeAgents.IDataOciCloudBridgeAgentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#compartment_id DataOciCloudBridgeAgents#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#compartment_id DataOciCloudBridgeAgents#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudBridgeAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#agent_id DataOciCloudBridgeAgents#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#agent_id DataOciCloudBridgeAgents#agent_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentId
@@ -26,7 +26,7 @@ namespace oci.DataOciCloudBridgeAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#display_name DataOciCloudBridgeAgents#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#display_name DataOciCloudBridgeAgents#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -35,7 +35,7 @@ namespace oci.DataOciCloudBridgeAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#environment_id DataOciCloudBridgeAgents#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#environment_id DataOciCloudBridgeAgents#environment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnvironmentId
@@ -48,7 +48,7 @@ namespace oci.DataOciCloudBridgeAgents
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#filter DataOciCloudBridgeAgents#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#filter DataOciCloudBridgeAgents#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeAgents.IDataOciCloudBridgeAgentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciCloudBridgeAgents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#id DataOciCloudBridgeAgents#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#id DataOciCloudBridgeAgents#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciCloudBridgeAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_bridge_agents#state DataOciCloudBridgeAgents#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_agents#state DataOciCloudBridgeAgents#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

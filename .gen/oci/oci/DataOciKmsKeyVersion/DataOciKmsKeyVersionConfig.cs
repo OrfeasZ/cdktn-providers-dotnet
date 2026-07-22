@@ -9,7 +9,7 @@ namespace oci.DataOciKmsKeyVersion
     [JsiiByValue(fqn: "oci.dataOciKmsKeyVersion.DataOciKmsKeyVersionConfig")]
     public class DataOciKmsKeyVersionConfig : oci.DataOciKmsKeyVersion.IDataOciKmsKeyVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/kms_key_version#key_id DataOciKmsKeyVersion#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciKmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/kms_key_version#key_version_id DataOciKmsKeyVersion#key_version_id}.</summary>
         [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVersionId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciKmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/kms_key_version#management_endpoint DataOciKmsKeyVersion#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementEndpoint
         {

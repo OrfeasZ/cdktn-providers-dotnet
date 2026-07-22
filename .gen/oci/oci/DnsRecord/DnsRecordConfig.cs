@@ -9,7 +9,7 @@ namespace oci.DnsRecord
     [JsiiByValue(fqn: "oci.dnsRecord.DnsRecordConfig")]
     public class DnsRecordConfig : oci.DnsRecord.IDnsRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#domain DnsRecord#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#domain DnsRecord#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -17,7 +17,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#rtype DnsRecord#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#rtype DnsRecord#rtype}.</summary>
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
         public string Rtype
         {
@@ -25,7 +25,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#zone_name_or_id DnsRecord#zone_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#zone_name_or_id DnsRecord#zone_name_or_id}.</summary>
         [JsiiProperty(name: "zoneNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneNameOrId
         {
@@ -33,7 +33,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#compartment_id DnsRecord#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#compartment_id DnsRecord#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -42,7 +42,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#id DnsRecord#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#id DnsRecord#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#rdata DnsRecord#rdata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#rdata DnsRecord#rdata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rdata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Rdata
@@ -66,7 +66,7 @@ namespace oci.DnsRecord
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#timeouts DnsRecord#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#timeouts DnsRecord#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dnsRecord.DnsRecordTimeouts\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace oci.DnsRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_record#ttl DnsRecord#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_record#ttl DnsRecord#ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ttl

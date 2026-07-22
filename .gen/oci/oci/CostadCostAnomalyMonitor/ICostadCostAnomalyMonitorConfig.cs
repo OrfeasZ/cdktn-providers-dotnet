@@ -7,21 +7,21 @@ namespace oci.CostadCostAnomalyMonitor
     [JsiiInterface(nativeType: typeof(ICostadCostAnomalyMonitorConfig), fullyQualifiedName: "oci.costadCostAnomalyMonitor.CostadCostAnomalyMonitorConfig")]
     public interface ICostadCostAnomalyMonitorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#compartment_id CostadCostAnomalyMonitor#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#compartment_id CostadCostAnomalyMonitor#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#name CostadCostAnomalyMonitor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#name CostadCostAnomalyMonitor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#target_resource_filter CostadCostAnomalyMonitor#target_resource_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#target_resource_filter CostadCostAnomalyMonitor#target_resource_filter}.</summary>
         [JsiiProperty(name: "targetResourceFilter", typeJson: "{\"primitive\":\"string\"}")]
         string TargetResourceFilter
         {
@@ -30,7 +30,7 @@ namespace oci.CostadCostAnomalyMonitor
 
         /// <summary>cost_alert_subscription_map block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#cost_alert_subscription_map CostadCostAnomalyMonitor#cost_alert_subscription_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#cost_alert_subscription_map CostadCostAnomalyMonitor#cost_alert_subscription_map}
         /// </remarks>
         [JsiiProperty(name: "costAlertSubscriptionMap", typeJson: "{\"fqn\":\"oci.costadCostAnomalyMonitor.CostadCostAnomalyMonitorCostAlertSubscriptionMap\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace oci.CostadCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#defined_tags CostadCostAnomalyMonitor#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#defined_tags CostadCostAnomalyMonitor#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -53,7 +53,7 @@ namespace oci.CostadCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#description CostadCostAnomalyMonitor#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#description CostadCostAnomalyMonitor#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -64,7 +64,7 @@ namespace oci.CostadCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#freeform_tags CostadCostAnomalyMonitor#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#freeform_tags CostadCostAnomalyMonitor#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -75,7 +75,7 @@ namespace oci.CostadCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#id CostadCostAnomalyMonitor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#id CostadCostAnomalyMonitor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.CostadCostAnomalyMonitor
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#timeouts CostadCostAnomalyMonitor#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#timeouts CostadCostAnomalyMonitor#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.costadCostAnomalyMonitor.CostadCostAnomalyMonitorTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,21 +111,21 @@ namespace oci.CostadCostAnomalyMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#compartment_id CostadCostAnomalyMonitor#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#compartment_id CostadCostAnomalyMonitor#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#name CostadCostAnomalyMonitor#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#name CostadCostAnomalyMonitor#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#target_resource_filter CostadCostAnomalyMonitor#target_resource_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#target_resource_filter CostadCostAnomalyMonitor#target_resource_filter}.</summary>
             [JsiiProperty(name: "targetResourceFilter", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetResourceFilter
             {
@@ -134,7 +134,7 @@ namespace oci.CostadCostAnomalyMonitor
 
             /// <summary>cost_alert_subscription_map block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#cost_alert_subscription_map CostadCostAnomalyMonitor#cost_alert_subscription_map}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#cost_alert_subscription_map CostadCostAnomalyMonitor#cost_alert_subscription_map}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costAlertSubscriptionMap", typeJson: "{\"fqn\":\"oci.costadCostAnomalyMonitor.CostadCostAnomalyMonitorCostAlertSubscriptionMap\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace oci.CostadCostAnomalyMonitor
                 get => GetInstanceProperty<oci.CostadCostAnomalyMonitor.ICostadCostAnomalyMonitorCostAlertSubscriptionMap?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#defined_tags CostadCostAnomalyMonitor#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#defined_tags CostadCostAnomalyMonitor#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -151,7 +151,7 @@ namespace oci.CostadCostAnomalyMonitor
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#description CostadCostAnomalyMonitor#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#description CostadCostAnomalyMonitor#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -159,7 +159,7 @@ namespace oci.CostadCostAnomalyMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#freeform_tags CostadCostAnomalyMonitor#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#freeform_tags CostadCostAnomalyMonitor#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -167,7 +167,7 @@ namespace oci.CostadCostAnomalyMonitor
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#id CostadCostAnomalyMonitor#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#id CostadCostAnomalyMonitor#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +181,7 @@ namespace oci.CostadCostAnomalyMonitor
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/costad_cost_anomaly_monitor#timeouts CostadCostAnomalyMonitor#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_anomaly_monitor#timeouts CostadCostAnomalyMonitor#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.costadCostAnomalyMonitor.CostadCostAnomalyMonitorTimeouts\"}", isOptional: true)]

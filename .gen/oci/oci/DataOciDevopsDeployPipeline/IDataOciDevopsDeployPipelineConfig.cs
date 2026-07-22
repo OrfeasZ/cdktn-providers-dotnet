@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsDeployPipeline
     [JsiiInterface(nativeType: typeof(IDataOciDevopsDeployPipelineConfig), fullyQualifiedName: "oci.dataOciDevopsDeployPipeline.DataOciDevopsDeployPipelineConfig")]
     public interface IDataOciDevopsDeployPipelineConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/devops_deploy_pipeline#deploy_pipeline_id DataOciDevopsDeployPipeline#deploy_pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_deploy_pipeline#deploy_pipeline_id DataOciDevopsDeployPipeline#deploy_pipeline_id}.</summary>
         [JsiiProperty(name: "deployPipelineId", typeJson: "{\"primitive\":\"string\"}")]
         string DeployPipelineId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsDeployPipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/devops_deploy_pipeline#deploy_pipeline_id DataOciDevopsDeployPipeline#deploy_pipeline_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_deploy_pipeline#deploy_pipeline_id DataOciDevopsDeployPipeline#deploy_pipeline_id}.</summary>
             [JsiiProperty(name: "deployPipelineId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeployPipelineId
             {

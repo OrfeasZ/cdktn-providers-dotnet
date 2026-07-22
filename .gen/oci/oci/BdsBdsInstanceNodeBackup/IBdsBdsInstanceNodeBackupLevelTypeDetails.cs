@@ -7,14 +7,14 @@ namespace oci.BdsBdsInstanceNodeBackup
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceNodeBackupLevelTypeDetails), fullyQualifiedName: "oci.bdsBdsInstanceNodeBackup.BdsBdsInstanceNodeBackupLevelTypeDetails")]
     public interface IBdsBdsInstanceNodeBackupLevelTypeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}.</summary>
         [JsiiProperty(name: "levelType", typeJson: "{\"primitive\":\"string\"}")]
         string LevelType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}.</summary>
         [JsiiProperty(name: "nodeHostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeHostName
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstanceNodeBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}.</summary>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeType
@@ -43,14 +43,14 @@ namespace oci.BdsBdsInstanceNodeBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#level_type BdsBdsInstanceNodeBackup#level_type}.</summary>
             [JsiiProperty(name: "levelType", typeJson: "{\"primitive\":\"string\"}")]
             public string LevelType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#node_host_name BdsBdsInstanceNodeBackup#node_host_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeHostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeHostName
@@ -58,7 +58,7 @@ namespace oci.BdsBdsInstanceNodeBackup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_node_backup#node_type BdsBdsInstanceNodeBackup#node_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeType

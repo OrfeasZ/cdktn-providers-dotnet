@@ -7,21 +7,21 @@ namespace oci.DataOciOsubOrganizationSubscriptionOrganizationSubscriptions
     [JsiiInterface(nativeType: typeof(IDataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilter), fullyQualifiedName: "oci.dataOciOsubOrganizationSubscriptionOrganizationSubscriptions.DataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilter")]
     public interface IDataOciOsubOrganizationSubscriptionOrganizationSubscriptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciOsubOrganizationSubscriptionOrganizationSubscriptions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#name DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#values DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osub_organization_subscription_organization_subscriptions#regex DataOciOsubOrganizationSubscriptionOrganizationSubscriptions#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

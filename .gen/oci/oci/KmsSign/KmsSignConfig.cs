@@ -9,7 +9,7 @@ namespace oci.KmsSign
     [JsiiByValue(fqn: "oci.kmsSign.KmsSignConfig")]
     public class KmsSignConfig : oci.KmsSign.IKmsSignConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#crypto_endpoint KmsSign#crypto_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#crypto_endpoint KmsSign#crypto_endpoint}.</summary>
         [JsiiProperty(name: "cryptoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string CryptoEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#key_id KmsSign#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#key_id KmsSign#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -25,7 +25,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#message KmsSign#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#message KmsSign#message}.</summary>
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}")]
         public string Message
         {
@@ -33,7 +33,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#signing_algorithm KmsSign#signing_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#signing_algorithm KmsSign#signing_algorithm}.</summary>
         [JsiiProperty(name: "signingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string SigningAlgorithm
         {
@@ -41,7 +41,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#id KmsSign#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#id KmsSign#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#key_version_id KmsSign#key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#key_version_id KmsSign#key_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVersionId
@@ -63,7 +63,7 @@ namespace oci.KmsSign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#message_type KmsSign#message_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#message_type KmsSign#message_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageType
@@ -74,7 +74,7 @@ namespace oci.KmsSign
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/kms_sign#timeouts KmsSign#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_sign#timeouts KmsSign#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsSign.KmsSignTimeouts\"}", isOptional: true)]

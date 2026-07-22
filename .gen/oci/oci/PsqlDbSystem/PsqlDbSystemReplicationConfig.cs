@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     {
         private object? _isRpoEnforced;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/psql_db_system#is_rpo_enforced PsqlDbSystem#is_rpo_enforced}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/psql_db_system#rpo_in_seconds PsqlDbSystem#rpo_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rpoInSeconds", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RpoInSeconds

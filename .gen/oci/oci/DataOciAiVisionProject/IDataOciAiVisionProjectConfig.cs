@@ -7,7 +7,7 @@ namespace oci.DataOciAiVisionProject
     [JsiiInterface(nativeType: typeof(IDataOciAiVisionProjectConfig), fullyQualifiedName: "oci.dataOciAiVisionProject.DataOciAiVisionProjectConfig")]
     public interface IDataOciAiVisionProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiVisionProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {

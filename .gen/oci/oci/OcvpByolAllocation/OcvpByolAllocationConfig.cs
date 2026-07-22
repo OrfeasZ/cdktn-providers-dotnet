@@ -9,7 +9,7 @@ namespace oci.OcvpByolAllocation
     [JsiiByValue(fqn: "oci.ocvpByolAllocation.OcvpByolAllocationConfig")]
     public class OcvpByolAllocationConfig : oci.OcvpByolAllocation.IOcvpByolAllocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#allocated_units OcvpByolAllocation#allocated_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#allocated_units OcvpByolAllocation#allocated_units}.</summary>
         [JsiiProperty(name: "allocatedUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double AllocatedUnits
         {
@@ -17,7 +17,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#byol_id OcvpByolAllocation#byol_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#byol_id OcvpByolAllocation#byol_id}.</summary>
         [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}")]
         public string ByolId
         {
@@ -25,7 +25,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#compartment_id OcvpByolAllocation#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#compartment_id OcvpByolAllocation#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -33,7 +33,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#display_name OcvpByolAllocation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#display_name OcvpByolAllocation#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -41,7 +41,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#defined_tags OcvpByolAllocation#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#defined_tags OcvpByolAllocation#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#freeform_tags OcvpByolAllocation#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#freeform_tags OcvpByolAllocation#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -59,7 +59,7 @@ namespace oci.OcvpByolAllocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#id OcvpByolAllocation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#id OcvpByolAllocation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.OcvpByolAllocation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_byol_allocation#timeouts OcvpByolAllocation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_byol_allocation#timeouts OcvpByolAllocation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpByolAllocation.OcvpByolAllocationTimeouts\"}", isOptional: true)]

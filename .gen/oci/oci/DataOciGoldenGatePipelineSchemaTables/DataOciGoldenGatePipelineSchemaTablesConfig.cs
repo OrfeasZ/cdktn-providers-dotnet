@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
     [JsiiByValue(fqn: "oci.dataOciGoldenGatePipelineSchemaTables.DataOciGoldenGatePipelineSchemaTablesConfig")]
     public class DataOciGoldenGatePipelineSchemaTablesConfig : oci.DataOciGoldenGatePipelineSchemaTables.IDataOciGoldenGatePipelineSchemaTablesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#pipeline_id DataOciGoldenGatePipelineSchemaTables#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#pipeline_id DataOciGoldenGatePipelineSchemaTables#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#source_schema_name DataOciGoldenGatePipelineSchemaTables#source_schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#source_schema_name DataOciGoldenGatePipelineSchemaTables#source_schema_name}.</summary>
         [JsiiProperty(name: "sourceSchemaName", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceSchemaName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#target_schema_name DataOciGoldenGatePipelineSchemaTables#target_schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#target_schema_name DataOciGoldenGatePipelineSchemaTables#target_schema_name}.</summary>
         [JsiiProperty(name: "targetSchemaName", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetSchemaName
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#display_name DataOciGoldenGatePipelineSchemaTables#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#display_name DataOciGoldenGatePipelineSchemaTables#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -46,7 +46,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#filter DataOciGoldenGatePipelineSchemaTables#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#filter DataOciGoldenGatePipelineSchemaTables#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGatePipelineSchemaTables.IDataOciGoldenGatePipelineSchemaTablesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -77,7 +77,7 @@ namespace oci.DataOciGoldenGatePipelineSchemaTables
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/golden_gate_pipeline_schema_tables#id DataOciGoldenGatePipelineSchemaTables#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_pipeline_schema_tables#id DataOciGoldenGatePipelineSchemaTables#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

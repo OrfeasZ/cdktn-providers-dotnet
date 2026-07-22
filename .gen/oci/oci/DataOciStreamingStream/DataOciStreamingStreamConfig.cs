@@ -9,7 +9,7 @@ namespace oci.DataOciStreamingStream
     [JsiiByValue(fqn: "oci.dataOciStreamingStream.DataOciStreamingStreamConfig")]
     public class DataOciStreamingStreamConfig : oci.DataOciStreamingStream.IDataOciStreamingStreamConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
         [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamId
         {

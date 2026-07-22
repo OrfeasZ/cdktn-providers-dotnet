@@ -5,7 +5,7 @@ namespace oci.DataOciGenerativeAiAgentDataSources
     /// <remarks>
     /// <h1><c>data_oci_generative_ai_agent_data_sources</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_agent_data_sources"><c>data_oci_generative_ai_agent_data_sources</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_agent_data_sources"><c>data_oci_generative_ai_agent_data_sources</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

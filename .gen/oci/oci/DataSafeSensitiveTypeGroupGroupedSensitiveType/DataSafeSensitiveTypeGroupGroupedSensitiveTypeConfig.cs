@@ -9,7 +9,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
     [JsiiByValue(fqn: "oci.dataSafeSensitiveTypeGroupGroupedSensitiveType.DataSafeSensitiveTypeGroupGroupedSensitiveTypeConfig")]
     public class DataSafeSensitiveTypeGroupGroupedSensitiveTypeConfig : oci.DataSafeSensitiveTypeGroupGroupedSensitiveType.IDataSafeSensitiveTypeGroupGroupedSensitiveTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#sensitive_type_group_id DataSafeSensitiveTypeGroupGroupedSensitiveType#sensitive_type_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#sensitive_type_group_id DataSafeSensitiveTypeGroupGroupedSensitiveType#sensitive_type_group_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveTypeGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#id DataSafeSensitiveTypeGroupGroupedSensitiveType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#id DataSafeSensitiveTypeGroupGroupedSensitiveType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#patch_operations DataSafeSensitiveTypeGroupGroupedSensitiveType#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#patch_operations DataSafeSensitiveTypeGroupGroupedSensitiveType#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeSensitiveTypeGroupGroupedSensitiveType.IDataSafeSensitiveTypeGroupGroupedSensitiveTypePatchOperations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -67,7 +67,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#timeouts DataSafeSensitiveTypeGroupGroupedSensitiveType#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#timeouts DataSafeSensitiveTypeGroupGroupedSensitiveType#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSensitiveTypeGroupGroupedSensitiveType.DataSafeSensitiveTypeGroupGroupedSensitiveTypeTimeouts\"}", isOptional: true)]

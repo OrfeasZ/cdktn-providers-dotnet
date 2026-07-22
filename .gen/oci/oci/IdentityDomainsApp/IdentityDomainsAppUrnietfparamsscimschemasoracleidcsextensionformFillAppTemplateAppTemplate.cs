@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate")]
     public class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate : oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#configuration IdentityDomainsApp#configuration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Configuration
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#form_credential_sharing_group_id IdentityDomainsApp#form_credential_sharing_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "formCredentialSharingGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FormCredentialSharingGroupId
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#form_cred_method IdentityDomainsApp#form_cred_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "formCredMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FormCredMethod
@@ -38,7 +38,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>form_fill_url_match block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#form_fill_url_match IdentityDomainsApp#form_fill_url_match}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionformFillAppTemplateAppTemplateFormFillUrlMatch" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#form_type IdentityDomainsApp#form_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "formType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FormType
@@ -80,7 +80,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _revealPasswordOnForm;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#reveal_password_on_form IdentityDomainsApp#reveal_password_on_form}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -114,7 +114,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _syncFromTemplate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#sync_from_template IdentityDomainsApp#sync_from_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#sync_from_template IdentityDomainsApp#sync_from_template}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -146,7 +146,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#user_name_form_expression IdentityDomainsApp#user_name_form_expression}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userNameFormExpression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserNameFormExpression
@@ -155,7 +155,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#user_name_form_template IdentityDomainsApp#user_name_form_template}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userNameFormTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserNameFormTemplate

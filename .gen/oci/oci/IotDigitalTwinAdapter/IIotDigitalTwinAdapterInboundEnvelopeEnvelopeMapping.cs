@@ -7,7 +7,7 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiInterface(nativeType: typeof(IIotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping), fullyQualifiedName: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping")]
     public interface IIotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#content_root IotDigitalTwinAdapter#content_root}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#content_root IotDigitalTwinAdapter#content_root}.</summary>
         [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContentRoot
@@ -18,7 +18,7 @@ namespace oci.IotDigitalTwinAdapter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#target IotDigitalTwinAdapter#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#target IotDigitalTwinAdapter#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Target
@@ -29,7 +29,7 @@ namespace oci.IotDigitalTwinAdapter
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}.</summary>
         [JsiiProperty(name: "timeObserved", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeObserved
@@ -47,7 +47,7 @@ namespace oci.IotDigitalTwinAdapter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#content_root IotDigitalTwinAdapter#content_root}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#content_root IotDigitalTwinAdapter#content_root}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContentRoot
@@ -55,7 +55,7 @@ namespace oci.IotDigitalTwinAdapter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#target IotDigitalTwinAdapter#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#target IotDigitalTwinAdapter#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Target
@@ -63,7 +63,7 @@ namespace oci.IotDigitalTwinAdapter
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_digital_twin_adapter#time_observed IotDigitalTwinAdapter#time_observed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeObserved", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeObserved

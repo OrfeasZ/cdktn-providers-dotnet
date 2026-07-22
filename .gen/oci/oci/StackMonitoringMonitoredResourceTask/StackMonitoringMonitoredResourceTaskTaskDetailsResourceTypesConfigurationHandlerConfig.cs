@@ -9,7 +9,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     {
         /// <summary>collectd_resource_name_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#collectd_resource_name_config StackMonitoringMonitoredResourceTask#collectd_resource_name_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#collectd_resource_name_config StackMonitoringMonitoredResourceTask#collectd_resource_name_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "collectdResourceNameConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigCollectdResourceNameConfig\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#collector_types StackMonitoringMonitoredResourceTask#collector_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#collector_types StackMonitoringMonitoredResourceTask#collector_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collectorTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CollectorTypes
@@ -32,7 +32,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         /// <summary>handler_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#handler_properties StackMonitoringMonitoredResourceTask#handler_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#handler_properties StackMonitoringMonitoredResourceTask#handler_properties}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResourceTask.IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigHandlerProperties" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -67,7 +67,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         /// <summary>metric_mappings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#metric_mappings StackMonitoringMonitoredResourceTask#metric_mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#metric_mappings StackMonitoringMonitoredResourceTask#metric_mappings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringMonitoredResourceTask.IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricMappings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         /// <summary>metric_name_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#metric_name_config StackMonitoringMonitoredResourceTask#metric_name_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#metric_name_config StackMonitoringMonitoredResourceTask#metric_name_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricNameConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricNameConfig\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#metric_upload_interval_in_seconds StackMonitoringMonitoredResourceTask#metric_upload_interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#metric_upload_interval_in_seconds StackMonitoringMonitoredResourceTask#metric_upload_interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricUploadIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MetricUploadIntervalInSeconds
@@ -121,7 +121,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         /// <summary>telegraf_resource_name_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#telegraf_resource_name_config StackMonitoringMonitoredResourceTask#telegraf_resource_name_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#telegraf_resource_name_config StackMonitoringMonitoredResourceTask#telegraf_resource_name_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "telegrafResourceNameConfig", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigTelegrafResourceNameConfig\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/stack_monitoring_monitored_resource_task#telemetry_resource_group StackMonitoringMonitoredResourceTask#telemetry_resource_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/stack_monitoring_monitored_resource_task#telemetry_resource_group StackMonitoringMonitoredResourceTask#telemetry_resource_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "telemetryResourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TelemetryResourceGroup

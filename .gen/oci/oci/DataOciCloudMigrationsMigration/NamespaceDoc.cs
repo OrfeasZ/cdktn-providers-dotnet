@@ -5,7 +5,7 @@ namespace oci.DataOciCloudMigrationsMigration
     /// <remarks>
     /// <h1><c>data_oci_cloud_migrations_migration</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/cloud_migrations_migration"><c>data_oci_cloud_migrations_migration</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_migrations_migration"><c>data_oci_cloud_migrations_migration</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

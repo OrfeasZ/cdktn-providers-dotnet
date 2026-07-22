@@ -5,7 +5,7 @@ namespace oci.DataOciJmsUtilsPerformanceTuningAnalysis
     /// <remarks>
     /// <h1><c>data_oci_jms_utils_performance_tuning_analysis</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/jms_utils_performance_tuning_analysis"><c>data_oci_jms_utils_performance_tuning_analysis</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_utils_performance_tuning_analysis"><c>data_oci_jms_utils_performance_tuning_analysis</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

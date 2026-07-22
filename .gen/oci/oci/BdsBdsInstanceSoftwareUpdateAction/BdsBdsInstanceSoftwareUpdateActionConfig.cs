@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
     [JsiiByValue(fqn: "oci.bdsBdsInstanceSoftwareUpdateAction.BdsBdsInstanceSoftwareUpdateActionConfig")]
     public class BdsBdsInstanceSoftwareUpdateActionConfig : oci.BdsBdsInstanceSoftwareUpdateAction.IBdsBdsInstanceSoftwareUpdateActionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_software_update_action#bds_instance_id BdsBdsInstanceSoftwareUpdateAction#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_software_update_action#bds_instance_id BdsBdsInstanceSoftwareUpdateAction#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_software_update_action#software_update_keys BdsBdsInstanceSoftwareUpdateAction#software_update_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_software_update_action#software_update_keys BdsBdsInstanceSoftwareUpdateAction#software_update_keys}.</summary>
         [JsiiProperty(name: "softwareUpdateKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareUpdateKeys
         {
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_software_update_action#id BdsBdsInstanceSoftwareUpdateAction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_software_update_action#id BdsBdsInstanceSoftwareUpdateAction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.BdsBdsInstanceSoftwareUpdateAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/bds_bds_instance_software_update_action#timeouts BdsBdsInstanceSoftwareUpdateAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance_software_update_action#timeouts BdsBdsInstanceSoftwareUpdateAction#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceSoftwareUpdateAction.BdsBdsInstanceSoftwareUpdateActionTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciResourceSchedulerSchedule
     [JsiiByValue(fqn: "oci.dataOciResourceSchedulerSchedule.DataOciResourceSchedulerScheduleConfig")]
     public class DataOciResourceSchedulerScheduleConfig : oci.DataOciResourceSchedulerSchedule.IDataOciResourceSchedulerScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/resource_scheduler_schedule#schedule_id DataOciResourceSchedulerSchedule#schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/resource_scheduler_schedule#schedule_id DataOciResourceSchedulerSchedule#schedule_id}.</summary>
         [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleId
         {

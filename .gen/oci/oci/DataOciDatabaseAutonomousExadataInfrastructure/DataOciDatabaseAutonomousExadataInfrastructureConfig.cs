@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructure
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousExadataInfrastructure.DataOciDatabaseAutonomousExadataInfrastructureConfig")]
     public class DataOciDatabaseAutonomousExadataInfrastructureConfig : oci.DataOciDatabaseAutonomousExadataInfrastructure.IDataOciDatabaseAutonomousExadataInfrastructureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "autonomousExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousExadataInfrastructureId
         {

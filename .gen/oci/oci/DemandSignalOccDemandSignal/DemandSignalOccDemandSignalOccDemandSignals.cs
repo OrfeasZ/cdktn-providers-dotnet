@@ -9,7 +9,7 @@ namespace oci.DemandSignalOccDemandSignal
     [JsiiByValue(fqn: "oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignals")]
     public class DemandSignalOccDemandSignalOccDemandSignals : oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignals
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_demand_signal#resource_type DemandSignalOccDemandSignal#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_demand_signal#resource_type DemandSignalOccDemandSignal#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType
         {
@@ -17,7 +17,7 @@ namespace oci.DemandSignalOccDemandSignal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_demand_signal#units DemandSignalOccDemandSignal#units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_demand_signal#units DemandSignalOccDemandSignal#units}.</summary>
         [JsiiProperty(name: "units", typeJson: "{\"primitive\":\"string\"}")]
         public string Units
         {
@@ -29,7 +29,7 @@ namespace oci.DemandSignalOccDemandSignal
 
         /// <summary>values block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/demand_signal_occ_demand_signal#values DemandSignalOccDemandSignal#values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/demand_signal_occ_demand_signal#values DemandSignalOccDemandSignal#values}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DemandSignalOccDemandSignal.IDemandSignalOccDemandSignalOccDemandSignalsValues" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "values", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.demandSignalOccDemandSignal.DemandSignalOccDemandSignalOccDemandSignalsValues\"},\"kind\":\"array\"}}]}}")]

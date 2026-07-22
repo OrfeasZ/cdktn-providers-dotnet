@@ -11,7 +11,7 @@ namespace oci.CoreInstanceConfiguration
     {
         private object _isUpsizeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance_configuration#is_upsize_enabled CoreInstanceConfiguration#is_upsize_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_configuration#is_upsize_enabled CoreInstanceConfiguration#is_upsize_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace oci.CoreInstanceConfiguration
 
         private object? _isDownsizeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance_configuration#is_downsize_enabled CoreInstanceConfiguration#is_downsize_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_configuration#is_downsize_enabled CoreInstanceConfiguration#is_downsize_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,7 +76,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_instance_configuration#target_size CoreInstanceConfiguration#target_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_configuration#target_size CoreInstanceConfiguration#target_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetSize", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetSize

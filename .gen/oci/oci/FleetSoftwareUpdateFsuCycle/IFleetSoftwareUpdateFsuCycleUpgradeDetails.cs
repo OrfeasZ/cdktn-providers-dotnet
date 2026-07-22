@@ -7,14 +7,14 @@ namespace oci.FleetSoftwareUpdateFsuCycle
     [JsiiInterface(nativeType: typeof(IFleetSoftwareUpdateFsuCycleUpgradeDetails), fullyQualifiedName: "oci.fleetSoftwareUpdateFsuCycle.FleetSoftwareUpdateFsuCycleUpgradeDetails")]
     public interface IFleetSoftwareUpdateFsuCycleUpgradeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#collection_type FleetSoftwareUpdateFsuCycle#collection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#collection_type FleetSoftwareUpdateFsuCycle#collection_type}.</summary>
         [JsiiProperty(name: "collectionType", typeJson: "{\"primitive\":\"string\"}")]
         string CollectionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_post_upgrade_errors FleetSoftwareUpdateFsuCycle#is_ignore_post_upgrade_errors}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_post_upgrade_errors FleetSoftwareUpdateFsuCycle#is_ignore_post_upgrade_errors}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_prerequisites FleetSoftwareUpdateFsuCycle#is_ignore_prerequisites}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_prerequisites FleetSoftwareUpdateFsuCycle#is_ignore_prerequisites}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_recompile_invalid_objects FleetSoftwareUpdateFsuCycle#is_recompile_invalid_objects}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_recompile_invalid_objects FleetSoftwareUpdateFsuCycle#is_recompile_invalid_objects}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -56,7 +56,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_time_zone_upgrade FleetSoftwareUpdateFsuCycle#is_time_zone_upgrade}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_time_zone_upgrade FleetSoftwareUpdateFsuCycle#is_time_zone_upgrade}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -70,7 +70,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#max_drain_timeout_in_seconds FleetSoftwareUpdateFsuCycle#max_drain_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#max_drain_timeout_in_seconds FleetSoftwareUpdateFsuCycle#max_drain_timeout_in_seconds}.</summary>
         [JsiiProperty(name: "maxDrainTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxDrainTimeoutInSeconds
@@ -88,14 +88,14 @@ namespace oci.FleetSoftwareUpdateFsuCycle
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#collection_type FleetSoftwareUpdateFsuCycle#collection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#collection_type FleetSoftwareUpdateFsuCycle#collection_type}.</summary>
             [JsiiProperty(name: "collectionType", typeJson: "{\"primitive\":\"string\"}")]
             public string CollectionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_post_upgrade_errors FleetSoftwareUpdateFsuCycle#is_ignore_post_upgrade_errors}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_post_upgrade_errors FleetSoftwareUpdateFsuCycle#is_ignore_post_upgrade_errors}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -106,7 +106,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_prerequisites FleetSoftwareUpdateFsuCycle#is_ignore_prerequisites}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_ignore_prerequisites FleetSoftwareUpdateFsuCycle#is_ignore_prerequisites}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -117,7 +117,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_recompile_invalid_objects FleetSoftwareUpdateFsuCycle#is_recompile_invalid_objects}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_recompile_invalid_objects FleetSoftwareUpdateFsuCycle#is_recompile_invalid_objects}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -128,7 +128,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#is_time_zone_upgrade FleetSoftwareUpdateFsuCycle#is_time_zone_upgrade}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#is_time_zone_upgrade FleetSoftwareUpdateFsuCycle#is_time_zone_upgrade}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -139,7 +139,7 @@ namespace oci.FleetSoftwareUpdateFsuCycle
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/fleet_software_update_fsu_cycle#max_drain_timeout_in_seconds FleetSoftwareUpdateFsuCycle#max_drain_timeout_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_software_update_fsu_cycle#max_drain_timeout_in_seconds FleetSoftwareUpdateFsuCycle#max_drain_timeout_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxDrainTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxDrainTimeoutInSeconds

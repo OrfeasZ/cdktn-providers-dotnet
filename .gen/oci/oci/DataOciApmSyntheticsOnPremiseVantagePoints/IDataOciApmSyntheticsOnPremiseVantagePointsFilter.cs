@@ -7,21 +7,21 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePoints
     [JsiiInterface(nativeType: typeof(IDataOciApmSyntheticsOnPremiseVantagePointsFilter), fullyQualifiedName: "oci.dataOciApmSyntheticsOnPremiseVantagePoints.DataOciApmSyntheticsOnPremiseVantagePointsFilter")]
     public interface IDataOciApmSyntheticsOnPremiseVantagePointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#name DataOciApmSyntheticsOnPremiseVantagePoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#name DataOciApmSyntheticsOnPremiseVantagePoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#values DataOciApmSyntheticsOnPremiseVantagePoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#values DataOciApmSyntheticsOnPremiseVantagePoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#regex DataOciApmSyntheticsOnPremiseVantagePoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#regex DataOciApmSyntheticsOnPremiseVantagePoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePoints
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#name DataOciApmSyntheticsOnPremiseVantagePoints#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#name DataOciApmSyntheticsOnPremiseVantagePoints#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#values DataOciApmSyntheticsOnPremiseVantagePoints#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#values DataOciApmSyntheticsOnPremiseVantagePoints#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#regex DataOciApmSyntheticsOnPremiseVantagePoints#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apm_synthetics_on_premise_vantage_points#regex DataOciApmSyntheticsOnPremiseVantagePoints#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

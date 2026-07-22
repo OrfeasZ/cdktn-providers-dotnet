@@ -9,7 +9,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstance
     [JsiiByValue(fqn: "oci.dataOciResourceAnalyticsResourceAnalyticsInstance.DataOciResourceAnalyticsResourceAnalyticsInstanceConfig")]
     public class DataOciResourceAnalyticsResourceAnalyticsInstanceConfig : oci.DataOciResourceAnalyticsResourceAnalyticsInstance.IDataOciResourceAnalyticsResourceAnalyticsInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/resource_analytics_resource_analytics_instance#resource_analytics_instance_id DataOciResourceAnalyticsResourceAnalyticsInstance#resource_analytics_instance_id}.</summary>
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceAnalyticsInstanceId
         {

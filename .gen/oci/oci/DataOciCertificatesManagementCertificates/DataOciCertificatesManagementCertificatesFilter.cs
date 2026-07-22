@@ -9,7 +9,7 @@ namespace oci.DataOciCertificatesManagementCertificates
     [JsiiByValue(fqn: "oci.dataOciCertificatesManagementCertificates.DataOciCertificatesManagementCertificatesFilter")]
     public class DataOciCertificatesManagementCertificatesFilter : oci.DataOciCertificatesManagementCertificates.IDataOciCertificatesManagementCertificatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificates#name DataOciCertificatesManagementCertificates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCertificatesManagementCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificates#values DataOciCertificatesManagementCertificates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificates#values DataOciCertificatesManagementCertificates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCertificatesManagementCertificates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificates#regex DataOciCertificatesManagementCertificates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificates#regex DataOciCertificatesManagementCertificates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

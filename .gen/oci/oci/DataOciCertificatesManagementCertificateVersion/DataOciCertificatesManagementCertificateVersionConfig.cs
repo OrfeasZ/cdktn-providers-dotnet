@@ -9,7 +9,7 @@ namespace oci.DataOciCertificatesManagementCertificateVersion
     [JsiiByValue(fqn: "oci.dataOciCertificatesManagementCertificateVersion.DataOciCertificatesManagementCertificateVersionConfig")]
     public class DataOciCertificatesManagementCertificateVersionConfig : oci.DataOciCertificatesManagementCertificateVersion.IDataOciCertificatesManagementCertificateVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificate_version#certificate_id DataOciCertificatesManagementCertificateVersion#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificate_version#certificate_id DataOciCertificatesManagementCertificateVersion#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCertificatesManagementCertificateVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificate_version#certificate_version_number DataOciCertificatesManagementCertificateVersion#certificate_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificate_version#certificate_version_number DataOciCertificatesManagementCertificateVersion#certificate_version_number}.</summary>
         [JsiiProperty(name: "certificateVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateVersionNumber
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciCertificatesManagementCertificateVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/certificates_management_certificate_version#id DataOciCertificatesManagementCertificateVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/certificates_management_certificate_version#id DataOciCertificatesManagementCertificateVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

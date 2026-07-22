@@ -9,7 +9,7 @@ namespace oci.DatabaseApplicationVip
     [JsiiByValue(fqn: "oci.databaseApplicationVip.DatabaseApplicationVipConfig")]
     public class DatabaseApplicationVipConfig : oci.DatabaseApplicationVip.IDatabaseApplicationVipConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#cloud_vm_cluster_id DatabaseApplicationVip#cloud_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#cloud_vm_cluster_id DatabaseApplicationVip#cloud_vm_cluster_id}.</summary>
         [JsiiProperty(name: "cloudVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudVmClusterId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#hostname_label DatabaseApplicationVip#hostname_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#hostname_label DatabaseApplicationVip#hostname_label}.</summary>
         [JsiiProperty(name: "hostnameLabel", typeJson: "{\"primitive\":\"string\"}")]
         public string HostnameLabel
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#subnet_id DatabaseApplicationVip#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#subnet_id DatabaseApplicationVip#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#db_node_id DatabaseApplicationVip#db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#db_node_id DatabaseApplicationVip#db_node_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbNodeId
@@ -42,7 +42,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#id DatabaseApplicationVip#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#id DatabaseApplicationVip#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#ip_address DatabaseApplicationVip#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#ip_address DatabaseApplicationVip#ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress
@@ -64,7 +64,7 @@ namespace oci.DatabaseApplicationVip
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#ipv6address DatabaseApplicationVip#ipv6address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#ipv6address DatabaseApplicationVip#ipv6address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6Address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ipv6Address
@@ -75,7 +75,7 @@ namespace oci.DatabaseApplicationVip
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_application_vip#timeouts DatabaseApplicationVip#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_application_vip#timeouts DatabaseApplicationVip#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseApplicationVip.DatabaseApplicationVipTimeouts\"}", isOptional: true)]

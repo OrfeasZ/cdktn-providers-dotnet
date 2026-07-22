@@ -7,7 +7,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
     [JsiiInterface(nativeType: typeof(IResourceAnalyticsResourceAnalyticsInstanceOacManagementConfig), fullyQualifiedName: "oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementConfig")]
     public interface IResourceAnalyticsResourceAnalyticsInstanceOacManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}.</summary>
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceAnalyticsInstanceId
         {
@@ -26,7 +26,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
         /// <summary>attachment_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
         /// </remarks>
         [JsiiProperty(name: "attachmentDetails", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}.</summary>
         [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AttachmentType
@@ -49,7 +49,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -95,7 +95,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}.</summary>
             [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceAnalyticsInstanceId
             {
@@ -104,7 +104,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
             /// <summary>attachment_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "attachmentDetails", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement.IResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AttachmentType
@@ -121,7 +121,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -135,7 +135,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeMaskingPolicy
     [JsiiByValue(fqn: "oci.dataOciDataSafeMaskingPolicy.DataOciDataSafeMaskingPolicyConfig")]
     public class DataOciDataSafeMaskingPolicyConfig : oci.DataOciDataSafeMaskingPolicy.IDataOciDataSafeMaskingPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_masking_policy#masking_policy_id DataOciDataSafeMaskingPolicy#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_policy#masking_policy_id DataOciDataSafeMaskingPolicy#masking_policy_id}.</summary>
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string MaskingPolicyId
         {

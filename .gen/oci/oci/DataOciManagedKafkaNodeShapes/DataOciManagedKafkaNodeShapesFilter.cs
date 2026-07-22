@@ -9,7 +9,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
     [JsiiByValue(fqn: "oci.dataOciManagedKafkaNodeShapes.DataOciManagedKafkaNodeShapesFilter")]
     public class DataOciManagedKafkaNodeShapesFilter : oci.DataOciManagedKafkaNodeShapes.IDataOciManagedKafkaNodeShapesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/managed_kafka_node_shapes#name DataOciManagedKafkaNodeShapes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/managed_kafka_node_shapes#values DataOciManagedKafkaNodeShapes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/managed_kafka_node_shapes#values DataOciManagedKafkaNodeShapes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciManagedKafkaNodeShapes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/managed_kafka_node_shapes#regex DataOciManagedKafkaNodeShapes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/managed_kafka_node_shapes#regex DataOciManagedKafkaNodeShapes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

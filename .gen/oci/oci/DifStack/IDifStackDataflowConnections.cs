@@ -9,7 +9,7 @@ namespace oci.DifStack
     {
         /// <summary>connection_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
         /// </remarks>
         [JsiiProperty(name: "connectionDetails", typeJson: "{\"fqn\":\"oci.difStack.DifStackDataflowConnectionsConnectionDetails\"}")]
         oci.DifStack.IDifStackDataflowConnectionsConnectionDetails ConnectionDetails
@@ -17,7 +17,7 @@ namespace oci.DifStack
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
@@ -33,7 +33,7 @@ namespace oci.DifStack
 
             /// <summary>connection_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
             /// </remarks>
             [JsiiProperty(name: "connectionDetails", typeJson: "{\"fqn\":\"oci.difStack.DifStackDataflowConnectionsConnectionDetails\"}")]
             public oci.DifStack.IDifStackDataflowConnectionsConnectionDetails ConnectionDetails
@@ -41,7 +41,7 @@ namespace oci.DifStack
                 get => GetInstanceProperty<oci.DifStack.IDifStackDataflowConnectionsConnectionDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {

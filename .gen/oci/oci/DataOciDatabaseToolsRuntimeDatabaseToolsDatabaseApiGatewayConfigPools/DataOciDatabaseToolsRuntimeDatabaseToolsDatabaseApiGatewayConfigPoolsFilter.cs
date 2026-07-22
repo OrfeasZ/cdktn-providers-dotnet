@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsFilter")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsFilter : oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools.IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#values DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#values DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#regex DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#regex DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
     [JsiiByValue(fqn: "oci.databasePluggableDatabaseSnapshot.DatabasePluggableDatabaseSnapshotTimeouts")]
     public class DatabasePluggableDatabaseSnapshotTimeouts : oci.DatabasePluggableDatabaseSnapshot.IDatabasePluggableDatabaseSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_pluggable_database_snapshot#create DatabasePluggableDatabaseSnapshot#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_pluggable_database_snapshot#create DatabasePluggableDatabaseSnapshot#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_pluggable_database_snapshot#delete DatabasePluggableDatabaseSnapshot#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_pluggable_database_snapshot#delete DatabasePluggableDatabaseSnapshot#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabasePluggableDatabaseSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_pluggable_database_snapshot#update DatabasePluggableDatabaseSnapshot#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_pluggable_database_snapshot#update DatabasePluggableDatabaseSnapshot#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

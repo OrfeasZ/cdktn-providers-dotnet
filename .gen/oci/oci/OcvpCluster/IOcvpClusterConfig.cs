@@ -7,14 +7,14 @@ namespace oci.OcvpCluster
     [JsiiInterface(nativeType: typeof(IOcvpClusterConfig), fullyQualifiedName: "oci.ocvpCluster.OcvpClusterConfig")]
     public interface IOcvpClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#compute_availability_domain OcvpCluster#compute_availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#compute_availability_domain OcvpCluster#compute_availability_domain}.</summary>
         [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeAvailabilityDomain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#esxi_hosts_count OcvpCluster#esxi_hosts_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#esxi_hosts_count OcvpCluster#esxi_hosts_count}.</summary>
         [JsiiProperty(name: "esxiHostsCount", typeJson: "{\"primitive\":\"number\"}")]
         double EsxiHostsCount
         {
@@ -23,7 +23,7 @@ namespace oci.OcvpCluster
 
         /// <summary>network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#network_configuration OcvpCluster#network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#network_configuration OcvpCluster#network_configuration}
         /// </remarks>
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterNetworkConfiguration\"}")]
         oci.OcvpCluster.IOcvpClusterNetworkConfiguration NetworkConfiguration
@@ -31,14 +31,14 @@ namespace oci.OcvpCluster
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#sddc_id OcvpCluster#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#sddc_id OcvpCluster#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         string SddcId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#attach_datastore_cluster_ids OcvpCluster#attach_datastore_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#attach_datastore_cluster_ids OcvpCluster#attach_datastore_cluster_ids}.</summary>
         [JsiiProperty(name: "attachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttachDatastoreClusterIds
@@ -49,7 +49,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#capacity_reservation_id OcvpCluster#capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#capacity_reservation_id OcvpCluster#capacity_reservation_id}.</summary>
         [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CapacityReservationId
@@ -62,7 +62,7 @@ namespace oci.OcvpCluster
 
         /// <summary>cluster_byol_allocation_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#cluster_byol_allocation_details OcvpCluster#cluster_byol_allocation_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#cluster_byol_allocation_details OcvpCluster#cluster_byol_allocation_details}
         /// </remarks>
         [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterClusterByolAllocationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#datastore_cluster_ids OcvpCluster#datastore_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#datastore_cluster_ids OcvpCluster#datastore_cluster_ids}.</summary>
         [JsiiProperty(name: "datastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DatastoreClusterIds
@@ -87,7 +87,7 @@ namespace oci.OcvpCluster
 
         /// <summary>datastores block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#datastores OcvpCluster#datastores}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#datastores OcvpCluster#datastores}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpCluster.IOcvpClusterDatastores" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "datastores", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpCluster.OcvpClusterDatastores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#defined_tags OcvpCluster#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#defined_tags OcvpCluster#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -111,7 +111,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#detach_datastore_cluster_ids OcvpCluster#detach_datastore_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#detach_datastore_cluster_ids OcvpCluster#detach_datastore_cluster_ids}.</summary>
         [JsiiProperty(name: "detachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DetachDatastoreClusterIds
@@ -122,7 +122,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#display_name OcvpCluster#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#display_name OcvpCluster#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -133,7 +133,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#esxi_software_version OcvpCluster#esxi_software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#esxi_software_version OcvpCluster#esxi_software_version}.</summary>
         [JsiiProperty(name: "esxiSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EsxiSoftwareVersion
@@ -144,7 +144,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#freeform_tags OcvpCluster#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#freeform_tags OcvpCluster#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -155,7 +155,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#id OcvpCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#id OcvpCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_commitment OcvpCluster#initial_commitment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_commitment OcvpCluster#initial_commitment}.</summary>
         [JsiiProperty(name: "initialCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InitialCommitment
@@ -181,7 +181,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_host_ocpu_count OcvpCluster#initial_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_host_ocpu_count OcvpCluster#initial_host_ocpu_count}.</summary>
         [JsiiProperty(name: "initialHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InitialHostOcpuCount
@@ -192,7 +192,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_host_shape_name OcvpCluster#initial_host_shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_host_shape_name OcvpCluster#initial_host_shape_name}.</summary>
         [JsiiProperty(name: "initialHostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InitialHostShapeName
@@ -203,7 +203,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_vcf_byol_allocation_id OcvpCluster#initial_vcf_byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_vcf_byol_allocation_id OcvpCluster#initial_vcf_byol_allocation_id}.</summary>
         [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InitialVcfByolAllocationId
@@ -214,7 +214,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#instance_display_name_prefix OcvpCluster#instance_display_name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#instance_display_name_prefix OcvpCluster#instance_display_name_prefix}.</summary>
         [JsiiProperty(name: "instanceDisplayNamePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceDisplayNamePrefix
@@ -225,7 +225,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#is_shielded_instance_enabled OcvpCluster#is_shielded_instance_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#is_shielded_instance_enabled OcvpCluster#is_shielded_instance_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -241,7 +241,7 @@ namespace oci.OcvpCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#timeouts OcvpCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#timeouts OcvpCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -253,7 +253,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#vmware_software_version OcvpCluster#vmware_software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#vmware_software_version OcvpCluster#vmware_software_version}.</summary>
         [JsiiProperty(name: "vmwareSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VmwareSoftwareVersion
@@ -264,7 +264,7 @@ namespace oci.OcvpCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#workload_network_cidr OcvpCluster#workload_network_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#workload_network_cidr OcvpCluster#workload_network_cidr}.</summary>
         [JsiiProperty(name: "workloadNetworkCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkloadNetworkCidr
@@ -282,14 +282,14 @@ namespace oci.OcvpCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#compute_availability_domain OcvpCluster#compute_availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#compute_availability_domain OcvpCluster#compute_availability_domain}.</summary>
             [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeAvailabilityDomain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#esxi_hosts_count OcvpCluster#esxi_hosts_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#esxi_hosts_count OcvpCluster#esxi_hosts_count}.</summary>
             [JsiiProperty(name: "esxiHostsCount", typeJson: "{\"primitive\":\"number\"}")]
             public double EsxiHostsCount
             {
@@ -298,7 +298,7 @@ namespace oci.OcvpCluster
 
             /// <summary>network_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#network_configuration OcvpCluster#network_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#network_configuration OcvpCluster#network_configuration}
             /// </remarks>
             [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterNetworkConfiguration\"}")]
             public oci.OcvpCluster.IOcvpClusterNetworkConfiguration NetworkConfiguration
@@ -306,14 +306,14 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<oci.OcvpCluster.IOcvpClusterNetworkConfiguration>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#sddc_id OcvpCluster#sddc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#sddc_id OcvpCluster#sddc_id}.</summary>
             [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
             public string SddcId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#attach_datastore_cluster_ids OcvpCluster#attach_datastore_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#attach_datastore_cluster_ids OcvpCluster#attach_datastore_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttachDatastoreClusterIds
@@ -321,7 +321,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#capacity_reservation_id OcvpCluster#capacity_reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#capacity_reservation_id OcvpCluster#capacity_reservation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CapacityReservationId
@@ -331,7 +331,7 @@ namespace oci.OcvpCluster
 
             /// <summary>cluster_byol_allocation_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#cluster_byol_allocation_details OcvpCluster#cluster_byol_allocation_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#cluster_byol_allocation_details OcvpCluster#cluster_byol_allocation_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clusterByolAllocationDetails", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterClusterByolAllocationDetails\"}", isOptional: true)]
@@ -340,7 +340,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<oci.OcvpCluster.IOcvpClusterClusterByolAllocationDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#datastore_cluster_ids OcvpCluster#datastore_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#datastore_cluster_ids OcvpCluster#datastore_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "datastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DatastoreClusterIds
@@ -350,7 +350,7 @@ namespace oci.OcvpCluster
 
             /// <summary>datastores block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#datastores OcvpCluster#datastores}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#datastores OcvpCluster#datastores}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpCluster.IOcvpClusterDatastores" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -360,7 +360,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#defined_tags OcvpCluster#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#defined_tags OcvpCluster#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -368,7 +368,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#detach_datastore_cluster_ids OcvpCluster#detach_datastore_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#detach_datastore_cluster_ids OcvpCluster#detach_datastore_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "detachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DetachDatastoreClusterIds
@@ -376,7 +376,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#display_name OcvpCluster#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#display_name OcvpCluster#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -384,7 +384,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#esxi_software_version OcvpCluster#esxi_software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#esxi_software_version OcvpCluster#esxi_software_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "esxiSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EsxiSoftwareVersion
@@ -392,7 +392,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#freeform_tags OcvpCluster#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#freeform_tags OcvpCluster#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -400,7 +400,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#id OcvpCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#id OcvpCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -412,7 +412,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_commitment OcvpCluster#initial_commitment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_commitment OcvpCluster#initial_commitment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InitialCommitment
@@ -420,7 +420,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_host_ocpu_count OcvpCluster#initial_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_host_ocpu_count OcvpCluster#initial_host_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InitialHostOcpuCount
@@ -428,7 +428,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_host_shape_name OcvpCluster#initial_host_shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_host_shape_name OcvpCluster#initial_host_shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialHostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InitialHostShapeName
@@ -436,7 +436,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#initial_vcf_byol_allocation_id OcvpCluster#initial_vcf_byol_allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#initial_vcf_byol_allocation_id OcvpCluster#initial_vcf_byol_allocation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialVcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InitialVcfByolAllocationId
@@ -444,7 +444,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#instance_display_name_prefix OcvpCluster#instance_display_name_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#instance_display_name_prefix OcvpCluster#instance_display_name_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceDisplayNamePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceDisplayNamePrefix
@@ -452,7 +452,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#is_shielded_instance_enabled OcvpCluster#is_shielded_instance_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#is_shielded_instance_enabled OcvpCluster#is_shielded_instance_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -465,7 +465,7 @@ namespace oci.OcvpCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#timeouts OcvpCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#timeouts OcvpCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpCluster.OcvpClusterTimeouts\"}", isOptional: true)]
@@ -474,7 +474,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<oci.OcvpCluster.IOcvpClusterTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#vmware_software_version OcvpCluster#vmware_software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#vmware_software_version OcvpCluster#vmware_software_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vmwareSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VmwareSoftwareVersion
@@ -482,7 +482,7 @@ namespace oci.OcvpCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ocvp_cluster#workload_network_cidr OcvpCluster#workload_network_cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_cluster#workload_network_cidr OcvpCluster#workload_network_cidr}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workloadNetworkCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkloadNetworkCidr

@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpManagementAppliance
     [JsiiInterface(nativeType: typeof(IDataOciOcvpManagementApplianceConfig), fullyQualifiedName: "oci.dataOciOcvpManagementAppliance.DataOciOcvpManagementApplianceConfig")]
     public interface IDataOciOcvpManagementApplianceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
         [JsiiProperty(name: "managementApplianceId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementApplianceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpManagementAppliance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
             [JsiiProperty(name: "managementApplianceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementApplianceId
             {

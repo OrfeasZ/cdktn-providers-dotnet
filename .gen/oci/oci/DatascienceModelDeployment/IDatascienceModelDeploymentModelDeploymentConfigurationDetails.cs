@@ -7,7 +7,7 @@ namespace oci.DatascienceModelDeployment
     [JsiiInterface(nativeType: typeof(IDatascienceModelDeploymentModelDeploymentConfigurationDetails), fullyQualifiedName: "oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetails")]
     public interface IDatascienceModelDeploymentModelDeploymentConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#deployment_type DatascienceModelDeployment#deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#deployment_type DatascienceModelDeployment#deployment_type}.</summary>
         [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}")]
         string DeploymentType
         {
@@ -16,7 +16,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>environment_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#environment_configuration_details DatascienceModelDeployment#environment_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#environment_configuration_details DatascienceModelDeployment#environment_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "environmentConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>infrastructure_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#infrastructure_configuration_details DatascienceModelDeployment#infrastructure_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#infrastructure_configuration_details DatascienceModelDeployment#infrastructure_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "infrastructureConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>model_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#model_configuration_details DatascienceModelDeployment#model_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#model_configuration_details DatascienceModelDeployment#model_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "modelConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsModelConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>model_group_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#model_group_configuration_details DatascienceModelDeployment#model_group_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#model_group_configuration_details DatascienceModelDeployment#model_group_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "modelGroupConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsModelGroupConfigurationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace oci.DatascienceModelDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#deployment_type DatascienceModelDeployment#deployment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#deployment_type DatascienceModelDeployment#deployment_type}.</summary>
             [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}")]
             public string DeploymentType
             {
@@ -86,7 +86,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>environment_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#environment_configuration_details DatascienceModelDeployment#environment_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#environment_configuration_details DatascienceModelDeployment#environment_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environmentConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsEnvironmentConfigurationDetails\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>infrastructure_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#infrastructure_configuration_details DatascienceModelDeployment#infrastructure_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#infrastructure_configuration_details DatascienceModelDeployment#infrastructure_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "infrastructureConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetails\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>model_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#model_configuration_details DatascienceModelDeployment#model_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#model_configuration_details DatascienceModelDeployment#model_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "modelConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsModelConfigurationDetails\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>model_group_configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/datascience_model_deployment#model_group_configuration_details DatascienceModelDeployment#model_group_configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_deployment#model_group_configuration_details DatascienceModelDeployment#model_group_configuration_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "modelGroupConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsModelGroupConfigurationDetails\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerExecutions.DataOciFleetAppsManagementSchedulerExecutionsConfig")]
     public class DataOciFleetAppsManagementSchedulerExecutionsConfig : oci.DataOciFleetAppsManagementSchedulerExecutions.IDataOciFleetAppsManagementSchedulerExecutionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#compartment_id DataOciFleetAppsManagementSchedulerExecutions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#compartment_id DataOciFleetAppsManagementSchedulerExecutions#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerExecutions#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerExecutions#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#display_name DataOciFleetAppsManagementSchedulerExecutions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#display_name DataOciFleetAppsManagementSchedulerExecutions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -63,7 +63,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#filter DataOciFleetAppsManagementSchedulerExecutions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#filter DataOciFleetAppsManagementSchedulerExecutions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementSchedulerExecutions.IDataOciFleetAppsManagementSchedulerExecutionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -94,7 +94,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#id DataOciFleetAppsManagementSchedulerExecutions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#id DataOciFleetAppsManagementSchedulerExecutions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#lifecycle_operation DataOciFleetAppsManagementSchedulerExecutions#lifecycle_operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#lifecycle_operation DataOciFleetAppsManagementSchedulerExecutions#lifecycle_operation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleOperation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleOperation
@@ -116,7 +116,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#resource_id DataOciFleetAppsManagementSchedulerExecutions#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#resource_id DataOciFleetAppsManagementSchedulerExecutions#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -125,7 +125,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#runbook_id DataOciFleetAppsManagementSchedulerExecutions#runbook_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#runbook_id DataOciFleetAppsManagementSchedulerExecutions#runbook_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runbookId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunbookId
@@ -134,7 +134,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#runbook_version_name DataOciFleetAppsManagementSchedulerExecutions#runbook_version_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#runbook_version_name DataOciFleetAppsManagementSchedulerExecutions#runbook_version_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runbookVersionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunbookVersionName
@@ -143,7 +143,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#scheduler_defintion_id DataOciFleetAppsManagementSchedulerExecutions#scheduler_defintion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#scheduler_defintion_id DataOciFleetAppsManagementSchedulerExecutions#scheduler_defintion_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulerDefintionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchedulerDefintionId
@@ -152,7 +152,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#scheduler_job_id DataOciFleetAppsManagementSchedulerExecutions#scheduler_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#scheduler_job_id DataOciFleetAppsManagementSchedulerExecutions#scheduler_job_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulerJobId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchedulerJobId
@@ -161,7 +161,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#substate DataOciFleetAppsManagementSchedulerExecutions#substate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#substate DataOciFleetAppsManagementSchedulerExecutions#substate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "substate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Substate
@@ -170,7 +170,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#time_scheduled_greater_than_or_equal_to DataOciFleetAppsManagementSchedulerExecutions#time_scheduled_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#time_scheduled_greater_than_or_equal_to DataOciFleetAppsManagementSchedulerExecutions#time_scheduled_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeScheduledGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeScheduledGreaterThanOrEqualTo
@@ -179,7 +179,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_executions#time_scheduled_less_than DataOciFleetAppsManagementSchedulerExecutions#time_scheduled_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#time_scheduled_less_than DataOciFleetAppsManagementSchedulerExecutions#time_scheduled_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeScheduledLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeScheduledLessThan

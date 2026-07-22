@@ -9,7 +9,7 @@ namespace oci.AiLanguageModel
     [JsiiByValue(fqn: "oci.aiLanguageModel.AiLanguageModelModelDetailsClassificationMode")]
     public class AiLanguageModelModelDetailsClassificationMode : oci.AiLanguageModel.IAiLanguageModelModelDetailsClassificationMode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#classification_mode AiLanguageModel#classification_mode}.</summary>
         [JsiiProperty(name: "classificationMode", typeJson: "{\"primitive\":\"string\"}")]
         public string ClassificationMode
         {
@@ -17,7 +17,7 @@ namespace oci.AiLanguageModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_language_model#version AiLanguageModel#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

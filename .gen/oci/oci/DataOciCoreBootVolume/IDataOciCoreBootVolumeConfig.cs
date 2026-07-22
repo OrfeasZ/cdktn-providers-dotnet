@@ -7,7 +7,7 @@ namespace oci.DataOciCoreBootVolume
     [JsiiInterface(nativeType: typeof(IDataOciCoreBootVolumeConfig), fullyQualifiedName: "oci.dataOciCoreBootVolume.DataOciCoreBootVolumeConfig")]
     public interface IDataOciCoreBootVolumeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
         [JsiiProperty(name: "bootVolumeId", typeJson: "{\"primitive\":\"string\"}")]
         string BootVolumeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreBootVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume#boot_volume_id DataOciCoreBootVolume#boot_volume_id}.</summary>
             [JsiiProperty(name: "bootVolumeId", typeJson: "{\"primitive\":\"string\"}")]
             public string BootVolumeId
             {

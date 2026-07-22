@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExternalPluggableDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExternalPluggableDatabaseConfig), fullyQualifiedName: "oci.dataOciDatabaseExternalPluggableDatabase.DataOciDatabaseExternalPluggableDatabaseConfig")]
     public interface IDataOciDatabaseExternalPluggableDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_external_pluggable_database#external_pluggable_database_id DataOciDatabaseExternalPluggableDatabase#external_pluggable_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_external_pluggable_database#external_pluggable_database_id DataOciDatabaseExternalPluggableDatabase#external_pluggable_database_id}.</summary>
         [JsiiProperty(name: "externalPluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalPluggableDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExternalPluggableDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_external_pluggable_database#external_pluggable_database_id DataOciDatabaseExternalPluggableDatabase#external_pluggable_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_external_pluggable_database#external_pluggable_database_id DataOciDatabaseExternalPluggableDatabase#external_pluggable_database_id}.</summary>
             [JsiiProperty(name: "externalPluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalPluggableDatabaseId
             {

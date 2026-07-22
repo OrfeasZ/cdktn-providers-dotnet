@@ -7,7 +7,7 @@ namespace oci.MarketplacePublication
     [JsiiInterface(nativeType: typeof(IMarketplacePublicationSupportContacts), fullyQualifiedName: "oci.marketplacePublication.MarketplacePublicationSupportContacts")]
     public interface IMarketplacePublicationSupportContacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#email MarketplacePublication#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#email MarketplacePublication#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Email
@@ -18,7 +18,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -29,7 +29,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}.</summary>
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Phone
@@ -40,7 +40,7 @@ namespace oci.MarketplacePublication
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Subject
@@ -58,7 +58,7 @@ namespace oci.MarketplacePublication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#email MarketplacePublication#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#email MarketplacePublication#email}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Email
@@ -66,7 +66,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -74,7 +74,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#phone MarketplacePublication#phone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Phone
@@ -82,7 +82,7 @@ namespace oci.MarketplacePublication
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/marketplace_publication#subject MarketplacePublication#subject}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Subject

@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementManagedEntityCounts
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementManagedEntityCounts.DataOciFleetAppsManagementManagedEntityCountsFilter")]
     public class DataOciFleetAppsManagementManagedEntityCountsFilter : oci.DataOciFleetAppsManagementManagedEntityCounts.IDataOciFleetAppsManagementManagedEntityCountsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_managed_entity_counts#name DataOciFleetAppsManagementManagedEntityCounts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_managed_entity_counts#name DataOciFleetAppsManagementManagedEntityCounts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementManagedEntityCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_managed_entity_counts#values DataOciFleetAppsManagementManagedEntityCounts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_managed_entity_counts#values DataOciFleetAppsManagementManagedEntityCounts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementManagedEntityCounts
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_managed_entity_counts#regex DataOciFleetAppsManagementManagedEntityCounts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_managed_entity_counts#regex DataOciFleetAppsManagementManagedEntityCounts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

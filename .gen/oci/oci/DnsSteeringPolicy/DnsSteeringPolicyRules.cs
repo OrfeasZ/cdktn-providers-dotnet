@@ -9,7 +9,7 @@ namespace oci.DnsSteeringPolicy
     [JsiiByValue(fqn: "oci.dnsSteeringPolicy.DnsSteeringPolicyRules")]
     public class DnsSteeringPolicyRules : oci.DnsSteeringPolicy.IDnsSteeringPolicyRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_steering_policy#rule_type DnsSteeringPolicy#rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_steering_policy#rule_type DnsSteeringPolicy#rule_type}.</summary>
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleType
         {
@@ -21,7 +21,7 @@ namespace oci.DnsSteeringPolicy
 
         /// <summary>cases block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_steering_policy#cases DnsSteeringPolicy#cases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_steering_policy#cases DnsSteeringPolicy#cases}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCases" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace oci.DnsSteeringPolicy
 
         /// <summary>default_answer_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_steering_policy#default_answer_data DnsSteeringPolicy#default_answer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_steering_policy#default_answer_data DnsSteeringPolicy#default_answer_data}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesDefaultAnswerData" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.DnsSteeringPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_steering_policy#default_count DnsSteeringPolicy#default_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_steering_policy#default_count DnsSteeringPolicy#default_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DefaultCount
@@ -96,7 +96,7 @@ namespace oci.DnsSteeringPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/dns_steering_policy#description DnsSteeringPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_steering_policy#description DnsSteeringPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

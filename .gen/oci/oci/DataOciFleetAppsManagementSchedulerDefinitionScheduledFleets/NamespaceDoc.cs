@@ -5,7 +5,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinitionScheduledFleets
     /// <remarks>
     /// <h1><c>data_oci_fleet_apps_management_scheduler_definition_scheduled_fleets</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/fleet_apps_management_scheduler_definition_scheduled_fleets"><c>data_oci_fleet_apps_management_scheduler_definition_scheduled_fleets</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_definition_scheduled_fleets"><c>data_oci_fleet_apps_management_scheduler_definition_scheduled_fleets</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

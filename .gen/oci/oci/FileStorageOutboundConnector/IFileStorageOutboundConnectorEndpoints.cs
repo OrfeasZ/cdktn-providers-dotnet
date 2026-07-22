@@ -7,14 +7,14 @@ namespace oci.FileStorageOutboundConnector
     [JsiiInterface(nativeType: typeof(IFileStorageOutboundConnectorEndpoints), fullyQualifiedName: "oci.fileStorageOutboundConnector.FileStorageOutboundConnectorEndpoints")]
     public interface IFileStorageOutboundConnectorEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         string Hostname
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
         string Port
         {
@@ -28,14 +28,14 @@ namespace oci.FileStorageOutboundConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_outbound_connector#hostname FileStorageOutboundConnector#hostname}.</summary>
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
             public string Hostname
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_outbound_connector#port FileStorageOutboundConnector#port}.</summary>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"string\"}")]
             public string Port
             {

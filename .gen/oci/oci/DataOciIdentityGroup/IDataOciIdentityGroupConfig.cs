@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityGroup
     [JsiiInterface(nativeType: typeof(IDataOciIdentityGroupConfig), fullyQualifiedName: "oci.dataOciIdentityGroup.DataOciIdentityGroupConfig")]
     public interface IDataOciIdentityGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         string GroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
             [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupId
             {

@@ -5,7 +5,7 @@ namespace oci.RedisOciCacheUser
     /// <remarks>
     /// <h1><c>oci_redis_oci_cache_user</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/redis_oci_cache_user"><c>oci_redis_oci_cache_user</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_user"><c>oci_redis_oci_cache_user</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

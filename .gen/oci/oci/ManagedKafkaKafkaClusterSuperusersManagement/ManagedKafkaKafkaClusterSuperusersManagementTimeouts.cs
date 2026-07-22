@@ -7,7 +7,7 @@ namespace oci.ManagedKafkaKafkaClusterSuperusersManagement
     [JsiiByValue(fqn: "oci.managedKafkaKafkaClusterSuperusersManagement.ManagedKafkaKafkaClusterSuperusersManagementTimeouts")]
     public class ManagedKafkaKafkaClusterSuperusersManagementTimeouts : oci.ManagedKafkaKafkaClusterSuperusersManagement.IManagedKafkaKafkaClusterSuperusersManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#create ManagedKafkaKafkaClusterSuperusersManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#create ManagedKafkaKafkaClusterSuperusersManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ManagedKafkaKafkaClusterSuperusersManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#delete ManagedKafkaKafkaClusterSuperusersManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#delete ManagedKafkaKafkaClusterSuperusersManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ManagedKafkaKafkaClusterSuperusersManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#update ManagedKafkaKafkaClusterSuperusersManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_superusers_management#update ManagedKafkaKafkaClusterSuperusersManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

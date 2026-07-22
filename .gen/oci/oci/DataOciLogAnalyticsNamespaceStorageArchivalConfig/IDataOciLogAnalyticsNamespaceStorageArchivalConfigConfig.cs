@@ -7,7 +7,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig
     [JsiiInterface(nativeType: typeof(IDataOciLogAnalyticsNamespaceStorageArchivalConfigConfig), fullyQualifiedName: "oci.dataOciLogAnalyticsNamespaceStorageArchivalConfig.DataOciLogAnalyticsNamespaceStorageArchivalConfigConfig")]
     public interface IDataOciLogAnalyticsNamespaceStorageArchivalConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageArchivalConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_storage_archival_config#namespace DataOciLogAnalyticsNamespaceStorageArchivalConfig#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

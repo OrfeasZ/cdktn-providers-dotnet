@@ -9,7 +9,7 @@ namespace oci.LoggingLog
     {
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/logging_log#source LoggingLog#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_log#source LoggingLog#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.loggingLog.LoggingLogConfigurationSource\"}")]
         oci.LoggingLog.ILoggingLogConfigurationSource Source
@@ -17,7 +17,7 @@ namespace oci.LoggingLog
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/logging_log#compartment_id LoggingLog#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_log#compartment_id LoggingLog#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -37,7 +37,7 @@ namespace oci.LoggingLog
 
             /// <summary>source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/logging_log#source LoggingLog#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_log#source LoggingLog#source}
             /// </remarks>
             [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.loggingLog.LoggingLogConfigurationSource\"}")]
             public oci.LoggingLog.ILoggingLogConfigurationSource Source
@@ -45,7 +45,7 @@ namespace oci.LoggingLog
                 get => GetInstanceProperty<oci.LoggingLog.ILoggingLogConfigurationSource>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/logging_log#compartment_id LoggingLog#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_log#compartment_id LoggingLog#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId

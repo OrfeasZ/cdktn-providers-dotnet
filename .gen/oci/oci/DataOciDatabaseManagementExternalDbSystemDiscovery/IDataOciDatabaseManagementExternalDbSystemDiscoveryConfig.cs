@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscovery
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalDbSystemDiscoveryConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalDbSystemDiscovery.DataOciDatabaseManagementExternalDbSystemDiscoveryConfig")]
     public interface IDataOciDatabaseManagementExternalDbSystemDiscoveryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
         [JsiiProperty(name: "externalDbSystemDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalDbSystemDiscoveryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
             [JsiiProperty(name: "externalDbSystemDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalDbSystemDiscoveryId
             {

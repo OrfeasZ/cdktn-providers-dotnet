@@ -7,7 +7,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
     [JsiiInterface(nativeType: typeof(IIotIotDomainChangeDataRetentionPeriodTimeouts), fullyQualifiedName: "oci.iotIotDomainChangeDataRetentionPeriod.IotIotDomainChangeDataRetentionPeriodTimeouts")]
     public interface IIotIotDomainChangeDataRetentionPeriodTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#create IotIotDomainChangeDataRetentionPeriod#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#delete IotIotDomainChangeDataRetentionPeriod#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.IotIotDomainChangeDataRetentionPeriod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/iot_iot_domain_change_data_retention_period#update IotIotDomainChangeDataRetentionPeriod#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

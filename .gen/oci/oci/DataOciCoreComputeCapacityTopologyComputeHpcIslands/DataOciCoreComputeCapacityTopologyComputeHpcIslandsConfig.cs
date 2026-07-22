@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands
     [JsiiByValue(fqn: "oci.dataOciCoreComputeCapacityTopologyComputeHpcIslands.DataOciCoreComputeCapacityTopologyComputeHpcIslandsConfig")]
     public class DataOciCoreComputeCapacityTopologyComputeHpcIslandsConfig : oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands.IDataOciCoreComputeCapacityTopologyComputeHpcIslandsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compute_capacity_topology_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compute_capacity_topology_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compute_capacity_topology_id}.</summary>
         [JsiiProperty(name: "computeCapacityTopologyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeCapacityTopologyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#availability_domain DataOciCoreComputeCapacityTopologyComputeHpcIslands#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#availability_domain DataOciCoreComputeCapacityTopologyComputeHpcIslands#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -26,7 +26,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compartment_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#compartment_id DataOciCoreComputeCapacityTopologyComputeHpcIslands#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -39,7 +39,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#filter DataOciCoreComputeCapacityTopologyComputeHpcIslands#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#filter DataOciCoreComputeCapacityTopologyComputeHpcIslands#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands.IDataOciCoreComputeCapacityTopologyComputeHpcIslandsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeHpcIslands
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#id DataOciCoreComputeCapacityTopologyComputeHpcIslands#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_hpc_islands#id DataOciCoreComputeCapacityTopologyComputeHpcIslands#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

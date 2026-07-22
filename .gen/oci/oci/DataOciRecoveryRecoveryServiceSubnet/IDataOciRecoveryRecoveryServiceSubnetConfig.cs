@@ -7,7 +7,7 @@ namespace oci.DataOciRecoveryRecoveryServiceSubnet
     [JsiiInterface(nativeType: typeof(IDataOciRecoveryRecoveryServiceSubnetConfig), fullyQualifiedName: "oci.dataOciRecoveryRecoveryServiceSubnet.DataOciRecoveryRecoveryServiceSubnetConfig")]
     public interface IDataOciRecoveryRecoveryServiceSubnetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
         [JsiiProperty(name: "recoveryServiceSubnetId", typeJson: "{\"primitive\":\"string\"}")]
         string RecoveryServiceSubnetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciRecoveryRecoveryServiceSubnet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
             [JsiiProperty(name: "recoveryServiceSubnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string RecoveryServiceSubnetId
             {

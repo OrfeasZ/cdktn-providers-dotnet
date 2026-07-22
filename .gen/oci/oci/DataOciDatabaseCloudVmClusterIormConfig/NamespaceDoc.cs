@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseCloudVmClusterIormConfig
     /// <remarks>
     /// <h1><c>data_oci_database_cloud_vm_cluster_iorm_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_cloud_vm_cluster_iorm_config"><c>data_oci_database_cloud_vm_cluster_iorm_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_cloud_vm_cluster_iorm_config"><c>data_oci_database_cloud_vm_cluster_iorm_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,14 +7,14 @@ namespace oci.DatabaseMigrationMigration
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationMigrationDataTransferMediumDetailsTarget), fullyQualifiedName: "oci.databaseMigrationMigration.DatabaseMigrationMigrationDataTransferMediumDetailsTarget")]
     public interface IDatabaseMigrationMigrationDataTransferMediumDetailsTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         string Kind
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}.</summary>
         [JsiiProperty(name: "ociHome", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OciHome
@@ -25,7 +25,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}.</summary>
         [JsiiProperty(name: "walletLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WalletLocation
@@ -43,14 +43,14 @@ namespace oci.DatabaseMigrationMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}.</summary>
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
             public string Kind
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ociHome", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OciHome
@@ -58,7 +58,7 @@ namespace oci.DatabaseMigrationMigration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walletLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WalletLocation

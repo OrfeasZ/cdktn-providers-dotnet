@@ -7,14 +7,14 @@ namespace oci.OspGatewaySubscription
     [JsiiInterface(nativeType: typeof(IOspGatewaySubscriptionSubscriptionPaymentOptions), fullyQualifiedName: "oci.ospGatewaySubscription.OspGatewaySubscriptionSubscriptionPaymentOptions")]
     public interface IOspGatewaySubscriptionSubscriptionPaymentOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}.</summary>
         [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}")]
         string PaymentMethod
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}.</summary>
         [JsiiProperty(name: "creditCardType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CreditCardType
@@ -25,7 +25,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmailAddress
@@ -36,7 +36,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}.</summary>
         [JsiiProperty(name: "extBillingAgreementId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExtBillingAgreementId
@@ -47,7 +47,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FirstName
@@ -58,7 +58,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}.</summary>
         [JsiiProperty(name: "lastDigits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastDigits
@@ -69,7 +69,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastName
@@ -80,7 +80,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}.</summary>
         [JsiiProperty(name: "nameOnCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NameOnCard
@@ -91,7 +91,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}.</summary>
         [JsiiProperty(name: "timeExpiration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeExpiration
@@ -102,7 +102,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}.</summary>
         [JsiiProperty(name: "walletInstrumentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WalletInstrumentId
@@ -113,7 +113,7 @@ namespace oci.OspGatewaySubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}.</summary>
         [JsiiProperty(name: "walletTransactionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WalletTransactionId
@@ -131,14 +131,14 @@ namespace oci.OspGatewaySubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#payment_method OspGatewaySubscription#payment_method}.</summary>
             [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string PaymentMethod
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#credit_card_type OspGatewaySubscription#credit_card_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "creditCardType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CreditCardType
@@ -146,7 +146,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#email_address OspGatewaySubscription#email_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmailAddress
@@ -154,7 +154,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#ext_billing_agreement_id OspGatewaySubscription#ext_billing_agreement_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "extBillingAgreementId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExtBillingAgreementId
@@ -162,7 +162,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#first_name OspGatewaySubscription#first_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FirstName
@@ -170,7 +170,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#last_digits OspGatewaySubscription#last_digits}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastDigits", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastDigits
@@ -178,7 +178,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#last_name OspGatewaySubscription#last_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastName
@@ -186,7 +186,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#name_on_card OspGatewaySubscription#name_on_card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nameOnCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NameOnCard
@@ -194,7 +194,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#time_expiration OspGatewaySubscription#time_expiration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeExpiration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeExpiration
@@ -202,7 +202,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#wallet_instrument_id OspGatewaySubscription#wallet_instrument_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walletInstrumentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WalletInstrumentId
@@ -210,7 +210,7 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#wallet_transaction_id OspGatewaySubscription#wallet_transaction_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walletTransactionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WalletTransactionId

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeTargetDatabasePeerTargetDatabases
     [JsiiByValue(fqn: "oci.dataOciDataSafeTargetDatabasePeerTargetDatabases.DataOciDataSafeTargetDatabasePeerTargetDatabasesAConfig")]
     public class DataOciDataSafeTargetDatabasePeerTargetDatabasesAConfig : oci.DataOciDataSafeTargetDatabasePeerTargetDatabases.IDataOciDataSafeTargetDatabasePeerTargetDatabasesAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_target_database_peer_target_databases#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabasesA#target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_target_database_peer_target_databases#target_database_id DataOciDataSafeTargetDatabasePeerTargetDatabasesA#target_database_id}.</summary>
         [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeTargetDatabasePeerTargetDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_target_database_peer_target_databases#filter DataOciDataSafeTargetDatabasePeerTargetDatabasesA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_target_database_peer_target_databases#filter DataOciDataSafeTargetDatabasePeerTargetDatabasesA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeTargetDatabasePeerTargetDatabases.IDataOciDataSafeTargetDatabasePeerTargetDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeTargetDatabasePeerTargetDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/data_safe_target_database_peer_target_databases#id DataOciDataSafeTargetDatabasePeerTargetDatabasesA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_target_database_peer_target_databases#id DataOciDataSafeTargetDatabasePeerTargetDatabasesA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

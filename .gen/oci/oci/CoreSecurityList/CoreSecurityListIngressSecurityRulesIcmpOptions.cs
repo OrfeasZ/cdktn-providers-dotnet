@@ -9,7 +9,7 @@ namespace oci.CoreSecurityList
     [JsiiByValue(fqn: "oci.coreSecurityList.CoreSecurityListIngressSecurityRulesIcmpOptions")]
     public class CoreSecurityListIngressSecurityRulesIcmpOptions : oci.CoreSecurityList.ICoreSecurityListIngressSecurityRulesIcmpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#type CoreSecurityList#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_security_list#type CoreSecurityList#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
         public double Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/resources/core_security_list#code CoreSecurityList#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_security_list#code CoreSecurityList#code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Code

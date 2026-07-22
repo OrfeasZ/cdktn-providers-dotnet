@@ -131,6 +131,12 @@ namespace oci.DataOciAnalyticsAnalyticsInstances
             get => GetInstanceProperty<oci.DataOciAnalyticsAnalyticsInstances.DataOciAnalyticsAnalyticsInstancesAnalyticsInstancesNetworkEndpointDetailsList>()!;
         }
 
+        [JsiiProperty(name: "resourceGroups", typeJson: "{\"fqn\":\"oci.dataOciAnalyticsAnalyticsInstances.DataOciAnalyticsAnalyticsInstancesAnalyticsInstancesResourceGroupsList\"}")]
+        public virtual oci.DataOciAnalyticsAnalyticsInstances.DataOciAnalyticsAnalyticsInstancesAnalyticsInstancesResourceGroupsList ResourceGroups
+        {
+            get => GetInstanceProperty<oci.DataOciAnalyticsAnalyticsInstances.DataOciAnalyticsAnalyticsInstancesAnalyticsInstancesResourceGroupsList>()!;
+        }
+
         [JsiiProperty(name: "serviceUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ServiceUrl
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiSemanticStoresConfig), fullyQualifiedName: "oci.dataOciGenerativeAiSemanticStores.DataOciGenerativeAiSemanticStoresConfig")]
     public interface IDataOciGenerativeAiSemanticStoresConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#compartment_id DataOciGenerativeAiSemanticStores#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#compartment_id DataOciGenerativeAiSemanticStores#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#data_source_querying_connection_id DataOciGenerativeAiSemanticStores#data_source_querying_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#data_source_querying_connection_id DataOciGenerativeAiSemanticStores#data_source_querying_connection_id}.</summary>
         [JsiiProperty(name: "dataSourceQueryingConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataSourceQueryingConnectionId
@@ -29,7 +29,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#display_name DataOciGenerativeAiSemanticStores#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#display_name DataOciGenerativeAiSemanticStores#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -42,7 +42,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#filter DataOciGenerativeAiSemanticStores#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#filter DataOciGenerativeAiSemanticStores#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiSemanticStores.IDataOciGenerativeAiSemanticStoresFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGenerativeAiSemanticStores.DataOciGenerativeAiSemanticStoresFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#id DataOciGenerativeAiSemanticStores#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#id DataOciGenerativeAiSemanticStores#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#state DataOciGenerativeAiSemanticStores#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#state DataOciGenerativeAiSemanticStores#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? State
@@ -88,7 +88,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#compartment_id DataOciGenerativeAiSemanticStores#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#compartment_id DataOciGenerativeAiSemanticStores#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -96,7 +96,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#data_source_querying_connection_id DataOciGenerativeAiSemanticStores#data_source_querying_connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#data_source_querying_connection_id DataOciGenerativeAiSemanticStores#data_source_querying_connection_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataSourceQueryingConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataSourceQueryingConnectionId
@@ -104,7 +104,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#display_name DataOciGenerativeAiSemanticStores#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#display_name DataOciGenerativeAiSemanticStores#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -114,7 +114,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#filter DataOciGenerativeAiSemanticStores#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#filter DataOciGenerativeAiSemanticStores#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiSemanticStores.IDataOciGenerativeAiSemanticStoresFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -124,7 +124,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#id DataOciGenerativeAiSemanticStores#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#id DataOciGenerativeAiSemanticStores#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -136,7 +136,7 @@ namespace oci.DataOciGenerativeAiSemanticStores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/generative_ai_semantic_stores#state DataOciGenerativeAiSemanticStores#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_semantic_stores#state DataOciGenerativeAiSemanticStores#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? State

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExternalContainerDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExternalContainerDatabaseConfig), fullyQualifiedName: "oci.dataOciDatabaseExternalContainerDatabase.DataOciDatabaseExternalContainerDatabaseConfig")]
     public interface IDataOciDatabaseExternalContainerDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
         [JsiiProperty(name: "externalContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalContainerDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExternalContainerDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
             [JsiiProperty(name: "externalContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalContainerDatabaseId
             {

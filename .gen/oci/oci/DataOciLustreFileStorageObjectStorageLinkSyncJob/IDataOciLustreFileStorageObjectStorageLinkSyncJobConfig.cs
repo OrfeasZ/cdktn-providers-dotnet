@@ -7,21 +7,21 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinkSyncJob
     [JsiiInterface(nativeType: typeof(IDataOciLustreFileStorageObjectStorageLinkSyncJobConfig), fullyQualifiedName: "oci.dataOciLustreFileStorageObjectStorageLinkSyncJob.DataOciLustreFileStorageObjectStorageLinkSyncJobConfig")]
     public interface IDataOciLustreFileStorageObjectStorageLinkSyncJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#object_storage_link_id DataOciLustreFileStorageObjectStorageLinkSyncJob#object_storage_link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#object_storage_link_id DataOciLustreFileStorageObjectStorageLinkSyncJob#object_storage_link_id}.</summary>
         [JsiiProperty(name: "objectStorageLinkId", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectStorageLinkId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#sync_job_id DataOciLustreFileStorageObjectStorageLinkSyncJob#sync_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#sync_job_id DataOciLustreFileStorageObjectStorageLinkSyncJob#sync_job_id}.</summary>
         [JsiiProperty(name: "syncJobId", typeJson: "{\"primitive\":\"string\"}")]
         string SyncJobId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#id DataOciLustreFileStorageObjectStorageLinkSyncJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#id DataOciLustreFileStorageObjectStorageLinkSyncJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciLustreFileStorageObjectStorageLinkSyncJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#object_storage_link_id DataOciLustreFileStorageObjectStorageLinkSyncJob#object_storage_link_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#object_storage_link_id DataOciLustreFileStorageObjectStorageLinkSyncJob#object_storage_link_id}.</summary>
             [JsiiProperty(name: "objectStorageLinkId", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectStorageLinkId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#sync_job_id DataOciLustreFileStorageObjectStorageLinkSyncJob#sync_job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#sync_job_id DataOciLustreFileStorageObjectStorageLinkSyncJob#sync_job_id}.</summary>
             [JsiiProperty(name: "syncJobId", typeJson: "{\"primitive\":\"string\"}")]
             public string SyncJobId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#id DataOciLustreFileStorageObjectStorageLinkSyncJob#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_object_storage_link_sync_job#id DataOciLustreFileStorageObjectStorageLinkSyncJob#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

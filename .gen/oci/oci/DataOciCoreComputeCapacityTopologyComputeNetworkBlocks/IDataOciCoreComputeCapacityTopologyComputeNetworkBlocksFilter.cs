@@ -7,21 +7,21 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter), fullyQualifiedName: "oci.dataOciCoreComputeCapacityTopologyComputeNetworkBlocks.DataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter")]
     public interface IDataOciCoreComputeCapacityTopologyComputeNetworkBlocksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCoreComputeCapacityTopologyComputeNetworkBlocks
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#name DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#values DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.23.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_capacity_topology_compute_network_blocks#regex DataOciCoreComputeCapacityTopologyComputeNetworkBlocks#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
