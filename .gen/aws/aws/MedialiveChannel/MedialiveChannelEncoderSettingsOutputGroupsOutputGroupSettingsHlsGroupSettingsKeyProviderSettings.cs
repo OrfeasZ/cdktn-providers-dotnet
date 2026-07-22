@@ -11,7 +11,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>static_key_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/medialive_channel#static_key_settings MedialiveChannel#static_key_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#static_key_settings MedialiveChannel#static_key_settings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsKeyProviderSettingsStaticKeySettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace aws.Macie2ClassificationJob
     [JsiiInterface(nativeType: typeof(IMacie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterion), fullyQualifiedName: "aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterion")]
     public interface IMacie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}.</summary>
         [JsiiProperty(name: "comparator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Comparator
@@ -20,7 +20,7 @@ namespace aws.Macie2ClassificationJob
 
         /// <summary>tag_values block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tagValues", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2ClassificationJob.Macie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace aws.Macie2ClassificationJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/macie2_classification_job#comparator Macie2ClassificationJob#comparator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "comparator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Comparator
@@ -50,7 +50,7 @@ namespace aws.Macie2ClassificationJob
 
             /// <summary>tag_values block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/macie2_classification_job#tag_values Macie2ClassificationJob#tag_values}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2ClassificationJob.IMacie2ClassificationJobS3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValues" />)[]</para>
             /// </remarks>
             [JsiiOptional]

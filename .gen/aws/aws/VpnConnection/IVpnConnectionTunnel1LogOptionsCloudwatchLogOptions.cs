@@ -7,7 +7,7 @@ namespace aws.VpnConnection
     [JsiiInterface(nativeType: typeof(IVpnConnectionTunnel1LogOptionsCloudwatchLogOptions), fullyQualifiedName: "aws.vpnConnection.VpnConnectionTunnel1LogOptionsCloudwatchLogOptions")]
     public interface IVpnConnectionTunnel1LogOptionsCloudwatchLogOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
         [JsiiProperty(name: "bgpLogGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BgpLogGroupArn
@@ -32,7 +32,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
         [JsiiProperty(name: "bgpLogOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BgpLogOutputFormat
@@ -43,7 +43,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -57,7 +57,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogGroupArn
@@ -68,7 +68,7 @@ namespace aws.VpnConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
         [JsiiProperty(name: "logOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogOutputFormat
@@ -86,7 +86,7 @@ namespace aws.VpnConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_enabled VpnConnection#bgp_log_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -97,7 +97,7 @@ namespace aws.VpnConnection
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_group_arn VpnConnection#bgp_log_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgpLogGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BgpLogGroupArn
@@ -105,7 +105,7 @@ namespace aws.VpnConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#bgp_log_output_format VpnConnection#bgp_log_output_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bgpLogOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BgpLogOutputFormat
@@ -113,7 +113,7 @@ namespace aws.VpnConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_enabled VpnConnection#log_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -124,7 +124,7 @@ namespace aws.VpnConnection
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_group_arn VpnConnection#log_group_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogGroupArn
@@ -132,7 +132,7 @@ namespace aws.VpnConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpn_connection#log_output_format VpnConnection#log_output_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logOutputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogOutputFormat

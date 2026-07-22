@@ -7,14 +7,14 @@ namespace aws.LbListener
     [JsiiInterface(nativeType: typeof(ILbListenerDefaultActionJwtValidation), fullyQualifiedName: "aws.lbListener.LbListenerDefaultActionJwtValidation")]
     public interface ILbListenerDefaultActionJwtValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         string Issuer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
         [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string JwksEndpoint
         {
@@ -23,7 +23,7 @@ namespace aws.LbListener
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbListener.ILbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "additionalClaim", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lbListener.LbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,14 +43,14 @@ namespace aws.LbListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#issuer LbListener#issuer}.</summary>
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
             public string Issuer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#jwks_endpoint LbListener#jwks_endpoint}.</summary>
             [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string JwksEndpoint
             {
@@ -59,7 +59,7 @@ namespace aws.LbListener
 
             /// <summary>additional_claim block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lb_listener#additional_claim LbListener#additional_claim}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LbListener.ILbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</para>
             /// </remarks>
             [JsiiOptional]

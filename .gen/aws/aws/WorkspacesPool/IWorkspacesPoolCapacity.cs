@@ -7,7 +7,7 @@ namespace aws.WorkspacesPool
     [JsiiInterface(nativeType: typeof(IWorkspacesPoolCapacity), fullyQualifiedName: "aws.workspacesPool.WorkspacesPoolCapacity")]
     public interface IWorkspacesPoolCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
         [JsiiProperty(name: "desiredUserSessions", typeJson: "{\"primitive\":\"number\"}")]
         double DesiredUserSessions
         {
@@ -21,7 +21,7 @@ namespace aws.WorkspacesPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
             [JsiiProperty(name: "desiredUserSessions", typeJson: "{\"primitive\":\"number\"}")]
             public double DesiredUserSessions
             {

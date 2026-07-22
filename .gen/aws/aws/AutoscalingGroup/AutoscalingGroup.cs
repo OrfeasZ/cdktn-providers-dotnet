@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.AutoscalingGroup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/autoscaling_group aws_autoscaling_group}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/autoscaling_group aws_autoscaling_group}.</summary>
     [JsiiClass(nativeType: typeof(aws.AutoscalingGroup.AutoscalingGroup), fullyQualifiedName: "aws.autoscalingGroup.AutoscalingGroup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupConfig\"}}]")]
     public class AutoscalingGroup : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/autoscaling_group aws_autoscaling_group} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public AutoscalingGroup(Constructs.Construct scope, string id, aws.AutoscalingGroup.IAutoscalingGroupConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.AutoscalingGroup
         /// <param name="importToId">The construct id used in the generated config for the AutoscalingGroup to import.</param>
         /// <param name="importFromId">The id of the existing AutoscalingGroup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the AutoscalingGroup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AutoscalingGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/autoscaling_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AutoscalingGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AutoscalingGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AutoscalingGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/autoscaling_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AutoscalingGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AutoscalingGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AutoscalingGroup.AutoscalingGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -80,6 +80,12 @@ namespace aws.AutoscalingGroup
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putInstanceLifecyclePolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicy\"}}]")]
+        public virtual void PutInstanceLifecyclePolicy(aws.AutoscalingGroup.IAutoscalingGroupInstanceLifecyclePolicy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.AutoscalingGroup.IAutoscalingGroupInstanceLifecyclePolicy)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putInstanceMaintenancePolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceMaintenancePolicy\"}}]")]
@@ -264,6 +270,12 @@ namespace aws.AutoscalingGroup
 
         [JsiiMethod(name: "resetInitialLifecycleHook")]
         public virtual void ResetInitialLifecycleHook()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInstanceLifecyclePolicy")]
+        public virtual void ResetInstanceLifecyclePolicy()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -461,6 +473,12 @@ namespace aws.AutoscalingGroup
             get => GetInstanceProperty<aws.AutoscalingGroup.AutoscalingGroupInitialLifecycleHookList>()!;
         }
 
+        [JsiiProperty(name: "instanceLifecyclePolicy", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyOutputReference\"}")]
+        public virtual aws.AutoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyOutputReference InstanceLifecyclePolicy
+        {
+            get => GetInstanceProperty<aws.AutoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyOutputReference>()!;
+        }
+
         [JsiiProperty(name: "instanceMaintenancePolicy", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceMaintenancePolicyOutputReference\"}")]
         public virtual aws.AutoscalingGroup.AutoscalingGroupInstanceMaintenancePolicyOutputReference InstanceMaintenancePolicy
         {
@@ -653,6 +671,13 @@ namespace aws.AutoscalingGroup
         public virtual object? InitialLifecycleHookInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "instanceLifecyclePolicyInput", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicy\"}", isOptional: true)]
+        public virtual aws.AutoscalingGroup.IAutoscalingGroupInstanceLifecyclePolicy? InstanceLifecyclePolicyInput
+        {
+            get => GetInstanceProperty<aws.AutoscalingGroup.IAutoscalingGroupInstanceLifecyclePolicy?>();
         }
 
         [JsiiOptional]

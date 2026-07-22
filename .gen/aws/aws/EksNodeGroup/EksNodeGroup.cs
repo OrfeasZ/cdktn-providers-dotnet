@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.EksNodeGroup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group aws_eks_node_group}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group aws_eks_node_group}.</summary>
     [JsiiClass(nativeType: typeof(aws.EksNodeGroup.EksNodeGroup), fullyQualifiedName: "aws.eksNodeGroup.EksNodeGroup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupConfig\"}}]")]
     public class EksNodeGroup : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group aws_eks_node_group} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group aws_eks_node_group} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EksNodeGroup(Constructs.Construct scope, string id, aws.EksNodeGroup.IEksNodeGroupConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.EksNodeGroup
         /// <param name="importToId">The construct id used in the generated config for the EksNodeGroup to import.</param>
         /// <param name="importFromId">The id of the existing EksNodeGroup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EksNodeGroup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EksNodeGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/eks_node_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EksNodeGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EksNodeGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EksNodeGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EksNodeGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EksNodeGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EksNodeGroup.EksNodeGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -104,6 +104,12 @@ namespace aws.EksNodeGroup
         public virtual void PutUpdateConfig(aws.EksNodeGroup.IEksNodeGroupUpdateConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksNodeGroup.IEksNodeGroupUpdateConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putWarmPoolConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupWarmPoolConfig\"}}]")]
+        public virtual void PutWarmPoolConfig(aws.EksNodeGroup.IEksNodeGroupWarmPoolConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksNodeGroup.IEksNodeGroupWarmPoolConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAmiType")]
@@ -226,6 +232,12 @@ namespace aws.EksNodeGroup
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWarmPoolConfig")]
+        public virtual void ResetWarmPoolConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -303,6 +315,12 @@ namespace aws.EksNodeGroup
         public virtual aws.EksNodeGroup.EksNodeGroupUpdateConfigOutputReference UpdateConfig
         {
             get => GetInstanceProperty<aws.EksNodeGroup.EksNodeGroupUpdateConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "warmPoolConfig", typeJson: "{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupWarmPoolConfigOutputReference\"}")]
+        public virtual aws.EksNodeGroup.EksNodeGroupWarmPoolConfigOutputReference WarmPoolConfig
+        {
+            get => GetInstanceProperty<aws.EksNodeGroup.EksNodeGroupWarmPoolConfigOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -480,6 +498,13 @@ namespace aws.EksNodeGroup
         public virtual string? VersionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "warmPoolConfigInput", typeJson: "{\"fqn\":\"aws.eksNodeGroup.EksNodeGroupWarmPoolConfig\"}", isOptional: true)]
+        public virtual aws.EksNodeGroup.IEksNodeGroupWarmPoolConfig? WarmPoolConfigInput
+        {
+            get => GetInstanceProperty<aws.EksNodeGroup.IEksNodeGroupWarmPoolConfig?>();
         }
 
         [JsiiProperty(name: "amiType", typeJson: "{\"primitive\":\"string\"}")]

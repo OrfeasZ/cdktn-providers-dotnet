@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.DataAwsOpensearchserverlessSecurityConfig
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config}.</summary>
     [JsiiClass(nativeType: typeof(aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfig), fullyQualifiedName: "aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfig", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigConfig\"}}]")]
     public class DataAwsOpensearchserverlessSecurityConfig : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config aws_opensearchserverless_security_config} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataAwsOpensearchserverlessSecurityConfig(Constructs.Construct scope, string id, aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,58 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
         /// <param name="importToId">The construct id used in the generated config for the DataAwsOpensearchserverlessSecurityConfig to import.</param>
         /// <param name="importFromId">The id of the existing DataAwsOpensearchserverlessSecurityConfig that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataAwsOpensearchserverlessSecurityConfig to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAwsOpensearchserverlessSecurityConfig to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/data-sources/opensearchserverless_security_config#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAwsOpensearchserverlessSecurityConfig that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAwsOpensearchserverlessSecurityConfig to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAwsOpensearchserverlessSecurityConfig to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/opensearchserverless_security_config#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAwsOpensearchserverlessSecurityConfig that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAwsOpensearchserverlessSecurityConfig to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfig), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamFederationOptions" />)[]</param>
+        [JsiiMethod(name: "putIamFederationOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamFederationOptions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIamFederationOptions(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamFederationOptions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamFederationOptions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamFederationOptions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions" />)[]</param>
+        [JsiiMethod(name: "putIamIdentityCenterOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIamIdentityCenterOptions(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigSamlOptions" />)[]</param>
@@ -68,6 +116,18 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetIamFederationOptions")]
+        public virtual void ResetIamFederationOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIamIdentityCenterOptions")]
+        public virtual void ResetIamIdentityCenterOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetRegion")]
@@ -119,6 +179,18 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "iamFederationOptions", typeJson: "{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList\"}")]
+        public virtual aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList IamFederationOptions
+        {
+            get => GetInstanceProperty<aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamFederationOptionsList>()!;
+        }
+
+        [JsiiProperty(name: "iamIdentityCenterOptions", typeJson: "{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList\"}")]
+        public virtual aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList IamIdentityCenterOptions
+        {
+            get => GetInstanceProperty<aws.DataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptionsList>()!;
+        }
+
         [JsiiProperty(name: "lastModifiedDate", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastModifiedDate
         {
@@ -135,6 +207,26 @@ namespace aws.DataAwsOpensearchserverlessSecurityConfig
         public virtual string Type
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamFederationOptions" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "iamFederationOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamFederationOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IamFederationOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsOpensearchserverlessSecurityConfig.IDataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "iamIdentityCenterOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsOpensearchserverlessSecurityConfig.DataAwsOpensearchserverlessSecurityConfigIamIdentityCenterOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IamIdentityCenterOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

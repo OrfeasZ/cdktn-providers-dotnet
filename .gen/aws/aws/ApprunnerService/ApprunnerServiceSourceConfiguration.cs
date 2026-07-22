@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     {
         /// <summary>authentication_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/apprunner_service#authentication_configuration ApprunnerService#authentication_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/apprunner_service#authentication_configuration ApprunnerService#authentication_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationConfiguration", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationAuthenticationConfiguration\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.ApprunnerService
 
         private object? _autoDeploymentsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/apprunner_service#auto_deployments_enabled ApprunnerService#auto_deployments_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/apprunner_service#auto_deployments_enabled ApprunnerService#auto_deployments_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace aws.ApprunnerService
 
         /// <summary>code_repository block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/apprunner_service#code_repository ApprunnerService#code_repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/apprunner_service#code_repository ApprunnerService#code_repository}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeRepository", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationCodeRepository\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace aws.ApprunnerService
 
         /// <summary>image_repository block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/apprunner_service#image_repository ApprunnerService#image_repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/apprunner_service#image_repository ApprunnerService#image_repository}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageRepository", typeJson: "{\"fqn\":\"aws.apprunnerService.ApprunnerServiceSourceConfigurationImageRepository\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.MskconnectConnector
     {
         /// <summary>capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
         /// </remarks>
         [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorCapacity\"}")]
         aws.MskconnectConnector.IMskconnectConnectorCapacity Capacity
@@ -17,7 +17,7 @@ namespace aws.MskconnectConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}.</summary>
         [JsiiProperty(name: "connectorConfiguration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         System.Collections.Generic.IDictionary<string, string> ConnectorConfiguration
         {
@@ -26,7 +26,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>kafka_cluster block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
         /// </remarks>
         [JsiiProperty(name: "kafkaCluster", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaCluster\"}")]
         aws.MskconnectConnector.IMskconnectConnectorKafkaCluster KafkaCluster
@@ -36,7 +36,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>kafka_cluster_client_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
         /// </remarks>
         [JsiiProperty(name: "kafkaClusterClientAuthentication", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthentication\"}")]
         aws.MskconnectConnector.IMskconnectConnectorKafkaClusterClientAuthentication KafkaClusterClientAuthentication
@@ -46,7 +46,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>kafka_cluster_encryption_in_transit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
         /// </remarks>
         [JsiiProperty(name: "kafkaClusterEncryptionInTransit", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransit\"}")]
         aws.MskconnectConnector.IMskconnectConnectorKafkaClusterEncryptionInTransit KafkaClusterEncryptionInTransit
@@ -54,14 +54,14 @@ namespace aws.MskconnectConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}.</summary>
         [JsiiProperty(name: "kafkaconnectVersion", typeJson: "{\"primitive\":\"string\"}")]
         string KafkaconnectVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -70,7 +70,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskconnectConnector.IMskconnectConnectorPlugin" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "plugin", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPlugin\"},\"kind\":\"array\"}}]}}")]
@@ -79,14 +79,14 @@ namespace aws.MskconnectConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}.</summary>
         [JsiiProperty(name: "serviceExecutionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceExecutionRoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -97,7 +97,7 @@ namespace aws.MskconnectConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,7 +114,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>log_delivery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
         /// </remarks>
         [JsiiProperty(name: "logDelivery", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorLogDelivery\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace aws.MskconnectConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -151,7 +151,7 @@ namespace aws.MskconnectConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -164,7 +164,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -178,7 +178,7 @@ namespace aws.MskconnectConnector
 
         /// <summary>worker_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
         /// </remarks>
         [JsiiProperty(name: "workerConfiguration", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorWorkerConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -199,7 +199,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>capacity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#capacity MskconnectConnector#capacity}
             /// </remarks>
             [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorCapacity\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorCapacity Capacity
@@ -207,7 +207,7 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<aws.MskconnectConnector.IMskconnectConnectorCapacity>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#connector_configuration MskconnectConnector#connector_configuration}.</summary>
             [JsiiProperty(name: "connectorConfiguration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
             public System.Collections.Generic.IDictionary<string, string> ConnectorConfiguration
             {
@@ -216,7 +216,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>kafka_cluster block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster MskconnectConnector#kafka_cluster}
             /// </remarks>
             [JsiiProperty(name: "kafkaCluster", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaCluster\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorKafkaCluster KafkaCluster
@@ -226,7 +226,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>kafka_cluster_client_authentication block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster_client_authentication MskconnectConnector#kafka_cluster_client_authentication}
             /// </remarks>
             [JsiiProperty(name: "kafkaClusterClientAuthentication", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterClientAuthentication\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorKafkaClusterClientAuthentication KafkaClusterClientAuthentication
@@ -236,7 +236,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>kafka_cluster_encryption_in_transit block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafka_cluster_encryption_in_transit MskconnectConnector#kafka_cluster_encryption_in_transit}
             /// </remarks>
             [JsiiProperty(name: "kafkaClusterEncryptionInTransit", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorKafkaClusterEncryptionInTransit\"}")]
             public aws.MskconnectConnector.IMskconnectConnectorKafkaClusterEncryptionInTransit KafkaClusterEncryptionInTransit
@@ -244,14 +244,14 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<aws.MskconnectConnector.IMskconnectConnectorKafkaClusterEncryptionInTransit>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#kafkaconnect_version MskconnectConnector#kafkaconnect_version}.</summary>
             [JsiiProperty(name: "kafkaconnectVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string KafkaconnectVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#name MskconnectConnector#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -260,7 +260,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#plugin MskconnectConnector#plugin}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskconnectConnector.IMskconnectConnectorPlugin" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "plugin", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorPlugin\"},\"kind\":\"array\"}}]}}")]
@@ -269,14 +269,14 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#service_execution_role_arn MskconnectConnector#service_execution_role_arn}.</summary>
             [JsiiProperty(name: "serviceExecutionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceExecutionRoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#description MskconnectConnector#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -284,7 +284,7 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#id MskconnectConnector#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -298,7 +298,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>log_delivery block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#log_delivery MskconnectConnector#log_delivery}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logDelivery", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorLogDelivery\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#region MskconnectConnector#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -318,7 +318,7 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#tags MskconnectConnector#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -326,7 +326,7 @@ namespace aws.MskconnectConnector
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#tags_all MskconnectConnector#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -336,7 +336,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#timeouts MskconnectConnector#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorTimeouts\"}", isOptional: true)]
@@ -347,7 +347,7 @@ namespace aws.MskconnectConnector
 
             /// <summary>worker_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/mskconnect_connector#worker_configuration MskconnectConnector#worker_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workerConfiguration", typeJson: "{\"fqn\":\"aws.mskconnectConnector.MskconnectConnectorWorkerConfiguration\"}", isOptional: true)]

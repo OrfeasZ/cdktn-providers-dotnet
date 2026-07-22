@@ -7,14 +7,14 @@ namespace aws.WafSizeConstraintSet
     [JsiiInterface(nativeType: typeof(IWafSizeConstraintSetConfig), fullyQualifiedName: "aws.wafSizeConstraintSet.WafSizeConstraintSetConfig")]
     public interface IWafSizeConstraintSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace aws.WafSizeConstraintSet
 
         /// <summary>size_constraints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraints" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sizeConstraints", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafSizeConstraintSet.WafSizeConstraintSetSizeConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,14 +51,14 @@ namespace aws.WafSizeConstraintSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#name WafSizeConstraintSet#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#id WafSizeConstraintSet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace aws.WafSizeConstraintSet
 
             /// <summary>size_constraints block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/waf_size_constraint_set#size_constraints WafSizeConstraintSet#size_constraints}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafSizeConstraintSet.IWafSizeConstraintSetSizeConstraints" />)[]</para>
             /// </remarks>
             [JsiiOptional]

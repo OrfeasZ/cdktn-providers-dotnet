@@ -7,7 +7,7 @@ namespace aws.IotIndexingConfiguration
     [JsiiInterface(nativeType: typeof(IIotIndexingConfigurationThingGroupIndexingConfiguration), fullyQualifiedName: "aws.iotIndexingConfiguration.IotIndexingConfigurationThingGroupIndexingConfiguration")]
     public interface IIotIndexingConfigurationThingGroupIndexingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#thing_group_indexing_mode IotIndexingConfiguration#thing_group_indexing_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#thing_group_indexing_mode IotIndexingConfiguration#thing_group_indexing_mode}.</summary>
         [JsiiProperty(name: "thingGroupIndexingMode", typeJson: "{\"primitive\":\"string\"}")]
         string ThingGroupIndexingMode
         {
@@ -16,7 +16,7 @@ namespace aws.IotIndexingConfiguration
 
         /// <summary>custom_field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingGroupIndexingConfigurationCustomField" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customField", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingGroupIndexingConfigurationCustomField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.IotIndexingConfiguration
 
         /// <summary>managed_field block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingGroupIndexingConfigurationManagedField" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "managedField", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotIndexingConfiguration.IotIndexingConfigurationThingGroupIndexingConfigurationManagedField\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.IotIndexingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#thing_group_indexing_mode IotIndexingConfiguration#thing_group_indexing_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#thing_group_indexing_mode IotIndexingConfiguration#thing_group_indexing_mode}.</summary>
             [JsiiProperty(name: "thingGroupIndexingMode", typeJson: "{\"primitive\":\"string\"}")]
             public string ThingGroupIndexingMode
             {
@@ -60,7 +60,7 @@ namespace aws.IotIndexingConfiguration
 
             /// <summary>custom_field block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#custom_field IotIndexingConfiguration#custom_field}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingGroupIndexingConfigurationCustomField" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.IotIndexingConfiguration
 
             /// <summary>managed_field block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_indexing_configuration#managed_field IotIndexingConfiguration#managed_field}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotIndexingConfiguration.IIotIndexingConfigurationThingGroupIndexingConfigurationManagedField" />)[]</para>
             /// </remarks>
             [JsiiOptional]

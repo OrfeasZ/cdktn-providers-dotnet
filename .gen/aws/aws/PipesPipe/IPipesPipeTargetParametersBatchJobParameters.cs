@@ -7,14 +7,14 @@ namespace aws.PipesPipe
     [JsiiInterface(nativeType: typeof(IPipesPipeTargetParametersBatchJobParameters), fullyQualifiedName: "aws.pipesPipe.PipesPipeTargetParametersBatchJobParameters")]
     public interface IPipesPipeTargetParametersBatchJobParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.</summary>
         [JsiiProperty(name: "jobDefinition", typeJson: "{\"primitive\":\"string\"}")]
         string JobDefinition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.</summary>
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
         string JobName
         {
@@ -23,7 +23,7 @@ namespace aws.PipesPipe
 
         /// <summary>array_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
         /// </remarks>
         [JsiiProperty(name: "arrayProperties", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.PipesPipe
 
         /// <summary>container_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
         /// </remarks>
         [JsiiProperty(name: "containerOverrides", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.PipesPipe
 
         /// <summary>depends_on block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersDependsOn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dependsOn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersDependsOn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -77,7 +77,7 @@ namespace aws.PipesPipe
 
         /// <summary>retry_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
         /// </remarks>
         [JsiiProperty(name: "retryStrategy", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,14 +96,14 @@ namespace aws.PipesPipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#job_definition PipesPipe#job_definition}.</summary>
             [JsiiProperty(name: "jobDefinition", typeJson: "{\"primitive\":\"string\"}")]
             public string JobDefinition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#job_name PipesPipe#job_name}.</summary>
             [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
             public string JobName
             {
@@ -112,7 +112,7 @@ namespace aws.PipesPipe
 
             /// <summary>array_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#array_properties PipesPipe#array_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "arrayProperties", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersArrayProperties\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace aws.PipesPipe
 
             /// <summary>container_overrides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#container_overrides PipesPipe#container_overrides}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "containerOverrides", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersContainerOverrides\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace aws.PipesPipe
 
             /// <summary>depends_on block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#depends_on PipesPipe#depends_on}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersBatchJobParametersDependsOn" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -144,7 +144,7 @@ namespace aws.PipesPipe
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#parameters PipesPipe#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -154,7 +154,7 @@ namespace aws.PipesPipe
 
             /// <summary>retry_strategy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/pipes_pipe#retry_strategy PipesPipe#retry_strategy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retryStrategy", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersBatchJobParametersRetryStrategy\"}", isOptional: true)]

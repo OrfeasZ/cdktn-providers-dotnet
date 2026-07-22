@@ -7,11 +7,23 @@ namespace aws.S3TablesTable
     [JsiiByValue(fqn: "aws.s3TablesTable.S3TablesTableMetadataIceberg")]
     public class S3TablesTableMetadataIceberg : aws.S3TablesTable.IS3TablesTableMetadataIceberg
     {
+        /// <summary>A map of configuration properties for the Iceberg table, for example `write.distribution-mode` and `write.sort-order`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table#properties S3TablesTable#properties}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? Properties
+        {
+            get;
+            set;
+        }
+
         private object? _schema;
 
         /// <summary>schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3tables_table#schema S3TablesTable#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table#schema S3TablesTable#schema}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIcebergSchema" />)[]</para>
         /// </remarks>
         [JsiiOptional]

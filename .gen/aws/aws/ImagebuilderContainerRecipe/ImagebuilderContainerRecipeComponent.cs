@@ -9,7 +9,7 @@ namespace aws.ImagebuilderContainerRecipe
     [JsiiByValue(fqn: "aws.imagebuilderContainerRecipe.ImagebuilderContainerRecipeComponent")]
     public class ImagebuilderContainerRecipeComponent : aws.ImagebuilderContainerRecipe.IImagebuilderContainerRecipeComponent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/imagebuilder_container_recipe#component_arn ImagebuilderContainerRecipe#component_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/imagebuilder_container_recipe#component_arn ImagebuilderContainerRecipe#component_arn}.</summary>
         [JsiiProperty(name: "componentArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentArn
         {
@@ -21,7 +21,7 @@ namespace aws.ImagebuilderContainerRecipe
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/imagebuilder_container_recipe#parameter ImagebuilderContainerRecipe#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/imagebuilder_container_recipe#parameter ImagebuilderContainerRecipe#parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ImagebuilderContainerRecipe.IImagebuilderContainerRecipeComponentParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

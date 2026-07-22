@@ -9,7 +9,7 @@ namespace aws.S3ObjectCopy
     [JsiiByValue(fqn: "aws.s3ObjectCopy.S3ObjectCopyConfig")]
     public class S3ObjectCopyConfig : aws.S3ObjectCopy.IS3ObjectCopyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#bucket S3ObjectCopy#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#bucket S3ObjectCopy#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#key S3ObjectCopy#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#key S3ObjectCopy#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -25,7 +25,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#source S3ObjectCopy#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#source S3ObjectCopy#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public string Source
         {
@@ -33,7 +33,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#acl S3ObjectCopy#acl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#acl S3ObjectCopy#acl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Acl
@@ -44,7 +44,7 @@ namespace aws.S3ObjectCopy
 
         private object? _bucketKeyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#bucket_key_enabled S3ObjectCopy#bucket_key_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#bucket_key_enabled S3ObjectCopy#bucket_key_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,7 +76,7 @@ namespace aws.S3ObjectCopy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#cache_control S3ObjectCopy#cache_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#cache_control S3ObjectCopy#cache_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheControl
@@ -85,7 +85,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#checksum_algorithm S3ObjectCopy#checksum_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#checksum_algorithm S3ObjectCopy#checksum_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "checksumAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChecksumAlgorithm
@@ -94,7 +94,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#content_disposition S3ObjectCopy#content_disposition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#content_disposition S3ObjectCopy#content_disposition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentDisposition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentDisposition
@@ -103,7 +103,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#content_encoding S3ObjectCopy#content_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#content_encoding S3ObjectCopy#content_encoding}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentEncoding
@@ -112,7 +112,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#content_language S3ObjectCopy#content_language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#content_language S3ObjectCopy#content_language}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentLanguage
@@ -121,7 +121,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#content_type S3ObjectCopy#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#content_type S3ObjectCopy#content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentType
@@ -130,7 +130,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#copy_if_match S3ObjectCopy#copy_if_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#copy_if_match S3ObjectCopy#copy_if_match}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyIfMatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CopyIfMatch
@@ -139,7 +139,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#copy_if_modified_since S3ObjectCopy#copy_if_modified_since}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#copy_if_modified_since S3ObjectCopy#copy_if_modified_since}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyIfModifiedSince", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CopyIfModifiedSince
@@ -148,7 +148,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#copy_if_none_match S3ObjectCopy#copy_if_none_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#copy_if_none_match S3ObjectCopy#copy_if_none_match}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyIfNoneMatch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CopyIfNoneMatch
@@ -157,7 +157,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#copy_if_unmodified_since S3ObjectCopy#copy_if_unmodified_since}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#copy_if_unmodified_since S3ObjectCopy#copy_if_unmodified_since}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "copyIfUnmodifiedSince", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CopyIfUnmodifiedSince
@@ -166,7 +166,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#customer_algorithm S3ObjectCopy#customer_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#customer_algorithm S3ObjectCopy#customer_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerAlgorithm
@@ -175,7 +175,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#customer_key S3ObjectCopy#customer_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#customer_key S3ObjectCopy#customer_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerKey
@@ -184,7 +184,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#customer_key_md5 S3ObjectCopy#customer_key_md5}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#customer_key_md5 S3ObjectCopy#customer_key_md5}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerKeyMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerKeyMd5
@@ -193,7 +193,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#expected_bucket_owner S3ObjectCopy#expected_bucket_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#expected_bucket_owner S3ObjectCopy#expected_bucket_owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expectedBucketOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpectedBucketOwner
@@ -202,7 +202,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#expected_source_bucket_owner S3ObjectCopy#expected_source_bucket_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#expected_source_bucket_owner S3ObjectCopy#expected_source_bucket_owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expectedSourceBucketOwner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpectedSourceBucketOwner
@@ -211,7 +211,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#expires S3ObjectCopy#expires}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#expires S3ObjectCopy#expires}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expires", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Expires
@@ -222,7 +222,7 @@ namespace aws.S3ObjectCopy
 
         private object? _forceDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#force_destroy S3ObjectCopy#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#force_destroy S3ObjectCopy#force_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -258,7 +258,7 @@ namespace aws.S3ObjectCopy
 
         /// <summary>grant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#grant S3ObjectCopy#grant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#grant S3ObjectCopy#grant}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3ObjectCopy.IS3ObjectCopyGrant" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -289,7 +289,7 @@ namespace aws.S3ObjectCopy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#id S3ObjectCopy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#id S3ObjectCopy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -302,7 +302,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#kms_encryption_context S3ObjectCopy#kms_encryption_context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#kms_encryption_context S3ObjectCopy#kms_encryption_context}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsEncryptionContext", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsEncryptionContext
@@ -311,7 +311,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#kms_key_id S3ObjectCopy#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#kms_key_id S3ObjectCopy#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -320,7 +320,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#metadata S3ObjectCopy#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#metadata S3ObjectCopy#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -329,7 +329,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#metadata_directive S3ObjectCopy#metadata_directive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#metadata_directive S3ObjectCopy#metadata_directive}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadataDirective", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MetadataDirective
@@ -338,7 +338,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#object_lock_legal_hold_status S3ObjectCopy#object_lock_legal_hold_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#object_lock_legal_hold_status S3ObjectCopy#object_lock_legal_hold_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectLockLegalHoldStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectLockLegalHoldStatus
@@ -347,7 +347,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#object_lock_mode S3ObjectCopy#object_lock_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#object_lock_mode S3ObjectCopy#object_lock_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectLockMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectLockMode
@@ -356,7 +356,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#object_lock_retain_until_date S3ObjectCopy#object_lock_retain_until_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#object_lock_retain_until_date S3ObjectCopy#object_lock_retain_until_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectLockRetainUntilDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectLockRetainUntilDate
@@ -367,7 +367,7 @@ namespace aws.S3ObjectCopy
 
         /// <summary>override_provider block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#override_provider S3ObjectCopy#override_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#override_provider S3ObjectCopy#override_provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrideProvider", typeJson: "{\"fqn\":\"aws.s3ObjectCopy.S3ObjectCopyOverrideProvider\"}", isOptional: true)]
@@ -379,7 +379,7 @@ namespace aws.S3ObjectCopy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#region S3ObjectCopy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#region S3ObjectCopy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -389,7 +389,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#request_payer S3ObjectCopy#request_payer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#request_payer S3ObjectCopy#request_payer}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestPayer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestPayer
@@ -398,7 +398,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#server_side_encryption S3ObjectCopy#server_side_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#server_side_encryption S3ObjectCopy#server_side_encryption}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverSideEncryption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerSideEncryption
@@ -407,7 +407,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#source_customer_algorithm S3ObjectCopy#source_customer_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#source_customer_algorithm S3ObjectCopy#source_customer_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceCustomerAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceCustomerAlgorithm
@@ -416,7 +416,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#source_customer_key S3ObjectCopy#source_customer_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#source_customer_key S3ObjectCopy#source_customer_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceCustomerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceCustomerKey
@@ -425,7 +425,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#source_customer_key_md5 S3ObjectCopy#source_customer_key_md5}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#source_customer_key_md5 S3ObjectCopy#source_customer_key_md5}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceCustomerKeyMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceCustomerKeyMd5
@@ -434,7 +434,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#storage_class S3ObjectCopy#storage_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#storage_class S3ObjectCopy#storage_class}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageClass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageClass
@@ -443,7 +443,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#tagging_directive S3ObjectCopy#tagging_directive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#tagging_directive S3ObjectCopy#tagging_directive}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taggingDirective", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TaggingDirective
@@ -452,7 +452,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#tags S3ObjectCopy#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#tags S3ObjectCopy#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -461,7 +461,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#tags_all S3ObjectCopy#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#tags_all S3ObjectCopy#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -470,7 +470,7 @@ namespace aws.S3ObjectCopy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/s3_object_copy#website_redirect S3ObjectCopy#website_redirect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_object_copy#website_redirect S3ObjectCopy#website_redirect}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "websiteRedirect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebsiteRedirect

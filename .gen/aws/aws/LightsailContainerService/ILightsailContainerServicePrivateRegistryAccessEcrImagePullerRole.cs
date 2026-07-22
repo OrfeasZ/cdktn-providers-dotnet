@@ -7,7 +7,7 @@ namespace aws.LightsailContainerService
     [JsiiInterface(nativeType: typeof(ILightsailContainerServicePrivateRegistryAccessEcrImagePullerRole), fullyQualifiedName: "aws.lightsailContainerService.LightsailContainerServicePrivateRegistryAccessEcrImagePullerRole")]
     public interface ILightsailContainerServicePrivateRegistryAccessEcrImagePullerRole
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.LightsailContainerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.55.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_container_service#is_active LightsailContainerService#is_active}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

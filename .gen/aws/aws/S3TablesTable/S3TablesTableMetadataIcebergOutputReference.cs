@@ -59,6 +59,12 @@ namespace aws.S3TablesTable
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetProperties")]
+        public virtual void ResetProperties()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSchema")]
         public virtual void ResetSchema()
         {
@@ -71,6 +77,13 @@ namespace aws.S3TablesTable
             get => GetInstanceProperty<aws.S3TablesTable.S3TablesTableMetadataIcebergSchemaList>()!;
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "propertiesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? PropertiesInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIcebergSchema" />)[]</para>
         /// </remarks>
@@ -79,6 +92,13 @@ namespace aws.S3TablesTable
         public virtual object? SchemaInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> Properties
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>
