@@ -11,7 +11,7 @@ namespace digitalocean.SpacesBucket
     {
         /// <summary>Bucket name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#name SpacesBucket#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#name SpacesBucket#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>Canned ACL applied on bucket creation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#acl SpacesBucket#acl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#acl SpacesBucket#acl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#cors_rule SpacesBucket#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#cors_rule SpacesBucket#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketCorsRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -71,7 +71,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>Unless true, the bucket will only be destroyed if empty.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#force_destroy SpacesBucket#force_destroy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#force_destroy SpacesBucket#force_destroy}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -102,7 +102,7 @@ namespace digitalocean.SpacesBucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#id SpacesBucket#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#id SpacesBucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>lifecycle_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#lifecycle_rule SpacesBucket#lifecycle_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#lifecycle_rule SpacesBucket#lifecycle_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.SpacesBucket.ISpacesBucketLifecycleRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -152,7 +152,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>Bucket region.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#region SpacesBucket#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#region SpacesBucket#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -164,7 +164,7 @@ namespace digitalocean.SpacesBucket
 
         /// <summary>versioning block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/spaces_bucket#versioning SpacesBucket#versioning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/spaces_bucket#versioning SpacesBucket#versioning}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "versioning", typeJson: "{\"fqn\":\"digitalocean.spacesBucket.SpacesBucketVersioning\"}", isOptional: true)]

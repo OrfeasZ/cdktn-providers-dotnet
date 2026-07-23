@@ -9,7 +9,7 @@ namespace digitalocean.Loadbalancer
     {
         /// <summary>domain name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#name Loadbalancer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#name Loadbalancer#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>name of certificate required for TLS handshaking.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
         /// </remarks>
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>flag indicating if domain is managed by DigitalOcean.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isManaged", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>domain name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#name Loadbalancer#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#name Loadbalancer#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -65,7 +65,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>name of certificate required for TLS handshaking.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#certificate_name Loadbalancer#certificate_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>flag indicating if domain is managed by DigitalOcean.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/loadbalancer#is_managed Loadbalancer#is_managed}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

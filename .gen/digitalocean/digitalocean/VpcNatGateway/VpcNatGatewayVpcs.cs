@@ -11,7 +11,7 @@ namespace digitalocean.VpcNatGateway
     {
         /// <summary>ID of the ingress VPC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vpc_nat_gateway#vpc_uuid VpcNatGateway#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/vpc_nat_gateway#vpc_uuid VpcNatGateway#vpc_uuid}
         /// </remarks>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcUuid
@@ -24,7 +24,7 @@ namespace digitalocean.VpcNatGateway
 
         /// <summary>Indicates if this is the default VPC NAT Gateway in the VPC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/vpc_nat_gateway#default_gateway VpcNatGateway#default_gateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/vpc_nat_gateway#default_gateway VpcNatGateway#default_gateway}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -53,6 +53,18 @@ namespace digitalocean.VpcNatGateway
                 }
                 _defaultGateway = value;
             }
+        }
+
+        /// <summary>ID of the ingress subnet in the VPC.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/vpc_nat_gateway#subnet_uuid VpcNatGateway#subnet_uuid}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "subnetUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SubnetUuid
+        {
+            get;
+            set;
         }
     }
 }

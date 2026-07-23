@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.DataDigitaloceanKubernetesCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), fullyQualifiedName: "digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterConfig\"}}]")]
     public class DataDigitaloceanKubernetesCluster : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataDigitaloceanKubernetesCluster(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         /// <param name="importToId">The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.</param>
         /// <param name="importFromId">The id of the existing DataDigitaloceanKubernetesCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -92,6 +92,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual void PutNvidiaGpuDevicePlugin(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putP2POciRegistryPlugin", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPlugin\"}}]")]
+        public virtual void PutP2POciRegistryPlugin(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterP2POciRegistryPlugin @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterP2POciRegistryPlugin)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putRdmaSharedDevicePlugin", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterRdmaSharedDevicePlugin\"}}]")]
@@ -150,6 +156,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
 
         [JsiiMethod(name: "resetNvidiaGpuDevicePlugin")]
         public virtual void ResetNvidiaGpuDevicePlugin()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetP2POciRegistryPlugin")]
+        public virtual void ResetP2POciRegistryPlugin()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -287,6 +299,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference>()!;
         }
 
+        [JsiiProperty(name: "p2POciRegistryPlugin", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPluginOutputReference\"}")]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPluginOutputReference P2POciRegistryPlugin
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPluginOutputReference>()!;
+        }
+
         [JsiiProperty(name: "rdmaSharedDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference\"}")]
         public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterRdmaSharedDevicePluginOutputReference RdmaSharedDevicePlugin
         {
@@ -416,6 +434,13 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin? NvidiaGpuDevicePluginInput
         {
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "p2POciRegistryPluginInput", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPlugin\"}", isOptional: true)]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterP2POciRegistryPlugin? P2POciRegistryPluginInput
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterP2POciRegistryPlugin?>();
         }
 
         [JsiiOptional]

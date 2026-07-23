@@ -41,6 +41,12 @@ namespace digitalocean.VpcNatGateway
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSubnetUuid")]
+        public virtual void ResetSubnetUuid()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "gatewayIp", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string GatewayIp
         {
@@ -55,6 +61,13 @@ namespace digitalocean.VpcNatGateway
         public virtual object? DefaultGatewayInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "subnetUuidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SubnetUuidInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -92,6 +105,13 @@ namespace digitalocean.VpcNatGateway
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "subnetUuid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetUuid
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]

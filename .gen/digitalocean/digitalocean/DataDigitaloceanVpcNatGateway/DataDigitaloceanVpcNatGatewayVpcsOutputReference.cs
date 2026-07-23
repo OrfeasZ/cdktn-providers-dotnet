@@ -47,6 +47,12 @@ namespace digitalocean.DataDigitaloceanVpcNatGateway
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "subnetUuid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubnetUuid
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VpcUuid
         {

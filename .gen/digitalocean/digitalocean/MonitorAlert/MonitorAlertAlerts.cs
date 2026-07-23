@@ -9,7 +9,7 @@ namespace digitalocean.MonitorAlert
     {
         /// <summary>List of email addresses to sent notifications to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/monitor_alert#email MonitorAlert#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/monitor_alert#email MonitorAlert#email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace digitalocean.MonitorAlert
 
         /// <summary>slack block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.95.0/docs/resources/monitor_alert#slack MonitorAlert#slack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/monitor_alert#slack MonitorAlert#slack}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.MonitorAlert.IMonitorAlertAlertsSlack" />)[]</para>
         /// </remarks>
         [JsiiOptional]
