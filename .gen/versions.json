@@ -4,7 +4,7 @@
   "registry.terraform.io/cloudflare/cloudflare": "5.22.0",
   "registry.terraform.io/digitalocean/digitalocean": "2.96.0",
   "registry.terraform.io/hashicorp/random": "3.9.0",
-  "registry.terraform.io/hetznercloud/hcloud": "1.66.1",
+  "registry.terraform.io/hetznercloud/hcloud": "1.67.0",
   "registry.terraform.io/kislerdm/neon": "0.14.0",
   "registry.terraform.io/scaleway/scaleway": "2.79.0",
   "registry.terraform.io/stripe/stripe": "0.2.3",

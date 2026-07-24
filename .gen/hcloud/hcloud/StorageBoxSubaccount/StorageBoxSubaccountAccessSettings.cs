@@ -11,7 +11,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Whether access from outside the Hetzner network is allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/storage_box_subaccount#reachable_externally StorageBoxSubaccount#reachable_externally}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/storage_box_subaccount#reachable_externally StorageBoxSubaccount#reachable_externally}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Whether the Subaccount is read-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/storage_box_subaccount#readonly StorageBoxSubaccount#readonly}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/storage_box_subaccount#readonly StorageBoxSubaccount#readonly}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Whether the Samba subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/storage_box_subaccount#samba_enabled StorageBoxSubaccount#samba_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/storage_box_subaccount#samba_enabled StorageBoxSubaccount#samba_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Whether the SSH subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/storage_box_subaccount#ssh_enabled StorageBoxSubaccount#ssh_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/storage_box_subaccount#ssh_enabled StorageBoxSubaccount#ssh_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -151,7 +151,7 @@ namespace hcloud.StorageBoxSubaccount
 
         /// <summary>Whether the WebDAV subsystem is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.66.1/docs/resources/storage_box_subaccount#webdav_enabled StorageBoxSubaccount#webdav_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/storage_box_subaccount#webdav_enabled StorageBoxSubaccount#webdav_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
