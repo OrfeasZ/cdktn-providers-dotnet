@@ -35,6 +35,12 @@ namespace hcloud.DataHcloudLoadBalancerTypes
         {
         }
 
+        [JsiiProperty(name: "deprecationAnnounced", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DeprecationAnnounced
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -45,6 +51,12 @@ namespace hcloud.DataHcloudLoadBalancerTypes
         public virtual double Id
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "isDeprecated", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsDeprecated
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "maxAssignedCertificates", typeJson: "{\"primitive\":\"number\"}")]
@@ -73,6 +85,12 @@ namespace hcloud.DataHcloudLoadBalancerTypes
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "unavailableAfter", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UnavailableAfter
         {
             get => GetInstanceProperty<string>()!;
         }

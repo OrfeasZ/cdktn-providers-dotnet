@@ -9,7 +9,7 @@ namespace hcloud.DataHcloudZoneRrsets
     {
         /// <summary>ID or Name of the parent Zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/data-sources/zone_rrsets#zone DataHcloudZoneRrsets#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

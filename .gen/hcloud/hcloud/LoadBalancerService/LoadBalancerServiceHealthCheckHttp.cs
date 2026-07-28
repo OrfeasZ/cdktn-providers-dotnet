@@ -7,7 +7,7 @@ namespace hcloud.LoadBalancerService
     [JsiiByValue(fqn: "hcloud.loadBalancerService.LoadBalancerServiceHealthCheckHttp")]
     public class LoadBalancerServiceHealthCheckHttp : hcloud.LoadBalancerService.ILoadBalancerServiceHealthCheckHttp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#domain LoadBalancerService#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#domain LoadBalancerService#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -16,7 +16,7 @@ namespace hcloud.LoadBalancerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#path LoadBalancerService#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#path LoadBalancerService#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -25,7 +25,7 @@ namespace hcloud.LoadBalancerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#response LoadBalancerService#response}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#response LoadBalancerService#response}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "response", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Response
@@ -34,7 +34,7 @@ namespace hcloud.LoadBalancerService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#status_codes LoadBalancerService#status_codes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#status_codes LoadBalancerService#status_codes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "statusCodes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StatusCodes
@@ -45,7 +45,7 @@ namespace hcloud.LoadBalancerService
 
         private object? _tls;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#tls LoadBalancerService#tls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#tls LoadBalancerService#tls}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

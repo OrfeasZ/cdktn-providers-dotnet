@@ -7,14 +7,14 @@ namespace hcloud.LoadBalancer
     [JsiiInterface(nativeType: typeof(ILoadBalancerConfig), fullyQualifiedName: "hcloud.loadBalancer.LoadBalancerConfig")]
     public interface ILoadBalancerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}.</summary>
         [JsiiProperty(name: "loadBalancerType", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#name LoadBalancer#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#name LoadBalancer#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -23,7 +23,7 @@ namespace hcloud.LoadBalancer
 
         /// <summary>algorithm block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
         /// </remarks>
         [JsiiProperty(name: "algorithm", typeJson: "{\"fqn\":\"hcloud.loadBalancer.LoadBalancerAlgorithm\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace hcloud.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,7 +49,7 @@ namespace hcloud.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace hcloud.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#labels LoadBalancer#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#labels LoadBalancer#labels}.</summary>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Labels
@@ -75,7 +75,7 @@ namespace hcloud.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#location LoadBalancer#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#location LoadBalancer#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -86,7 +86,7 @@ namespace hcloud.LoadBalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}.</summary>
         [JsiiProperty(name: "networkZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NetworkZone
@@ -99,7 +99,7 @@ namespace hcloud.LoadBalancer
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#target LoadBalancer#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#target LoadBalancer#target}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.LoadBalancer.ILoadBalancerTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"hcloud.loadBalancer.LoadBalancerTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -119,14 +119,14 @@ namespace hcloud.LoadBalancer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#load_balancer_type LoadBalancer#load_balancer_type}.</summary>
             [JsiiProperty(name: "loadBalancerType", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#name LoadBalancer#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#name LoadBalancer#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -135,7 +135,7 @@ namespace hcloud.LoadBalancer
 
             /// <summary>algorithm block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#algorithm LoadBalancer#algorithm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "algorithm", typeJson: "{\"fqn\":\"hcloud.loadBalancer.LoadBalancerAlgorithm\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace hcloud.LoadBalancer
                 get => GetInstanceProperty<hcloud.LoadBalancer.ILoadBalancerAlgorithm?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#delete_protection LoadBalancer#delete_protection}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -155,7 +155,7 @@ namespace hcloud.LoadBalancer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#id LoadBalancer#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -167,7 +167,7 @@ namespace hcloud.LoadBalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#labels LoadBalancer#labels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#labels LoadBalancer#labels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Labels
@@ -175,7 +175,7 @@ namespace hcloud.LoadBalancer
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#location LoadBalancer#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#location LoadBalancer#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -183,7 +183,7 @@ namespace hcloud.LoadBalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#network_zone LoadBalancer#network_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NetworkZone
@@ -193,7 +193,7 @@ namespace hcloud.LoadBalancer
 
             /// <summary>target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer#target LoadBalancer#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer#target LoadBalancer#target}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="hcloud.LoadBalancer.ILoadBalancerTarget" />)[]</para>
             /// </remarks>
             [JsiiOptional]

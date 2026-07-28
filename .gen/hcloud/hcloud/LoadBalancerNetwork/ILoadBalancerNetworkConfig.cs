@@ -9,7 +9,7 @@ namespace hcloud.LoadBalancerNetwork
     {
         /// <summary>ID of the Load Balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
         /// </remarks>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"number\"}")]
         double LoadBalancerId
@@ -19,7 +19,7 @@ namespace hcloud.LoadBalancerNetwork
 
         /// <summary>Wether the Load Balancer public interface is enabled. Default is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enablePublicInterface", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace hcloud.LoadBalancerNetwork
 
         /// <summary>IP to assign to the Load Balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace hcloud.LoadBalancerNetwork
         /// <remarks>
         /// Using <c>subnet_id</c> is preferred. Required if <c>subnet_id</c> is not set. If <c>subnet_id</c> or <c>ip</c> are not set, the Load Balancer will be attached to the last subnet (ordered by <c>ip_range</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
         /// </remarks>
         [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace hcloud.LoadBalancerNetwork
 
         /// <summary>ID of the Subnet to attach the Load Balancer to. Required if `network_id` is not set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
         /// </remarks>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace hcloud.LoadBalancerNetwork
 
             /// <summary>ID of the Load Balancer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#load_balancer_id LoadBalancerNetwork#load_balancer_id}
             /// </remarks>
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"number\"}")]
             public double LoadBalancerId
@@ -95,7 +95,7 @@ namespace hcloud.LoadBalancerNetwork
 
             /// <summary>Wether the Load Balancer public interface is enabled. Default is `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#enable_public_interface LoadBalancerNetwork#enable_public_interface}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -107,7 +107,7 @@ namespace hcloud.LoadBalancerNetwork
 
             /// <summary>IP to assign to the Load Balancer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#ip LoadBalancerNetwork#ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace hcloud.LoadBalancerNetwork
             /// <remarks>
             /// Using <c>subnet_id</c> is preferred. Required if <c>subnet_id</c> is not set. If <c>subnet_id</c> or <c>ip</c> are not set, the Load Balancer will be attached to the last subnet (ordered by <c>ip_range</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#network_id LoadBalancerNetwork#network_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace hcloud.LoadBalancerNetwork
 
             /// <summary>ID of the Subnet to attach the Load Balancer to. Required if `network_id` is not set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_network#subnet_id LoadBalancerNetwork#subnet_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

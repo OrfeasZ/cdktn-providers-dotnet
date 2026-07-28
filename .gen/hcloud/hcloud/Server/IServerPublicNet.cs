@@ -7,7 +7,7 @@ namespace hcloud.Server
     [JsiiInterface(nativeType: typeof(IServerPublicNet), fullyQualifiedName: "hcloud.server.ServerPublicNet")]
     public interface IServerPublicNet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv4 Server#ipv4}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv4 Server#ipv4}.</summary>
         [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ipv4
@@ -18,7 +18,7 @@ namespace hcloud.Server
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv4_enabled Server#ipv4_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv4_enabled Server#ipv4_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace hcloud.Server
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv6 Server#ipv6}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv6 Server#ipv6}.</summary>
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ipv6
@@ -43,7 +43,7 @@ namespace hcloud.Server
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv6_enabled Server#ipv6_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv6_enabled Server#ipv6_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace hcloud.Server
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv4 Server#ipv4}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv4 Server#ipv4}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ipv4
@@ -72,7 +72,7 @@ namespace hcloud.Server
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv4_enabled Server#ipv4_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv4_enabled Server#ipv4_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -83,7 +83,7 @@ namespace hcloud.Server
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv6 Server#ipv6}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv6 Server#ipv6}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ipv6
@@ -91,7 +91,7 @@ namespace hcloud.Server
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/server#ipv6_enabled Server#ipv6_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/server#ipv6_enabled Server#ipv6_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

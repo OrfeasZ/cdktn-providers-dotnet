@@ -9,7 +9,7 @@ namespace hcloud.DataHcloudStorageBoxes
     {
         /// <summary>Filter results using a [Label Selector](https://docs.hetzner.cloud/reference/cloud#label-selector).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/data-sources/storage_boxes#with_selector DataHcloudStorageBoxes#with_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/data-sources/storage_boxes#with_selector DataHcloudStorageBoxes#with_selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withSelector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

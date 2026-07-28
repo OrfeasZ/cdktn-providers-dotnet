@@ -7,21 +7,21 @@ namespace hcloud.LoadBalancerService
     [JsiiInterface(nativeType: typeof(ILoadBalancerServiceConfig), fullyQualifiedName: "hcloud.loadBalancerService.LoadBalancerServiceConfig")]
     public interface ILoadBalancerServiceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#load_balancer_id LoadBalancerService#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#load_balancer_id LoadBalancerService#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#destination_port LoadBalancerService#destination_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#destination_port LoadBalancerService#destination_port}.</summary>
         [JsiiProperty(name: "destinationPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DestinationPort
@@ -34,7 +34,7 @@ namespace hcloud.LoadBalancerService
 
         /// <summary>health_check block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#health_check LoadBalancerService#health_check}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#health_check LoadBalancerService#health_check}
         /// </remarks>
         [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHealthCheck\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace hcloud.LoadBalancerService
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
         /// </remarks>
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#id LoadBalancerService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#id LoadBalancerService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#listen_port LoadBalancerService#listen_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#listen_port LoadBalancerService#listen_port}.</summary>
         [JsiiProperty(name: "listenPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ListenPort
@@ -86,7 +86,7 @@ namespace hcloud.LoadBalancerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#proxyprotocol LoadBalancerService#proxyprotocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#proxyprotocol LoadBalancerService#proxyprotocol}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -107,21 +107,21 @@ namespace hcloud.LoadBalancerService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#load_balancer_id LoadBalancerService#load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#load_balancer_id LoadBalancerService#load_balancer_id}.</summary>
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#protocol LoadBalancerService#protocol}.</summary>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#destination_port LoadBalancerService#destination_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#destination_port LoadBalancerService#destination_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DestinationPort
@@ -131,7 +131,7 @@ namespace hcloud.LoadBalancerService
 
             /// <summary>health_check block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#health_check LoadBalancerService#health_check}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#health_check LoadBalancerService#health_check}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheck", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHealthCheck\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace hcloud.LoadBalancerService
 
             /// <summary>http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#http LoadBalancerService#http}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"hcloud.loadBalancerService.LoadBalancerServiceHttp\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<hcloud.LoadBalancerService.ILoadBalancerServiceHttp?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#id LoadBalancerService#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#id LoadBalancerService#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -163,7 +163,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#listen_port LoadBalancerService#listen_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#listen_port LoadBalancerService#listen_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "listenPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ListenPort
@@ -171,7 +171,7 @@ namespace hcloud.LoadBalancerService
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.67.0/docs/resources/load_balancer_service#proxyprotocol LoadBalancerService#proxyprotocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.68.0/docs/resources/load_balancer_service#proxyprotocol LoadBalancerService#proxyprotocol}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
