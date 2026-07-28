@@ -7,7 +7,7 @@ namespace azurerm.SecurityCenterAutomation
     [JsiiInterface(nativeType: typeof(ISecurityCenterAutomationSource), fullyQualifiedName: "azurerm.securityCenterAutomation.SecurityCenterAutomationSource")]
     public interface ISecurityCenterAutomationSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation#event_source SecurityCenterAutomation#event_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#event_source SecurityCenterAutomation#event_source}.</summary>
         [JsiiProperty(name: "eventSource", typeJson: "{\"primitive\":\"string\"}")]
         string EventSource
         {
@@ -16,7 +16,7 @@ namespace azurerm.SecurityCenterAutomation
 
         /// <summary>rule_set block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation#rule_set SecurityCenterAutomation#rule_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#rule_set SecurityCenterAutomation#rule_set}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SecurityCenterAutomation.ISecurityCenterAutomationSourceRuleSet" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ruleSet", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSet\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azurerm.SecurityCenterAutomation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation#event_source SecurityCenterAutomation#event_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#event_source SecurityCenterAutomation#event_source}.</summary>
             [JsiiProperty(name: "eventSource", typeJson: "{\"primitive\":\"string\"}")]
             public string EventSource
             {
@@ -45,7 +45,7 @@ namespace azurerm.SecurityCenterAutomation
 
             /// <summary>rule_set block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/security_center_automation#rule_set SecurityCenterAutomation#rule_set}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#rule_set SecurityCenterAutomation#rule_set}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SecurityCenterAutomation.ISecurityCenterAutomationSourceRuleSet" />)[]</para>
             /// </remarks>
             [JsiiOptional]

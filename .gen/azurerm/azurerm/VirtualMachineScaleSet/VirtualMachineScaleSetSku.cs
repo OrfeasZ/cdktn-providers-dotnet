@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.virtualMachineScaleSet.VirtualMachineScaleSetSku")]
     public class VirtualMachineScaleSetSku : azurerm.VirtualMachineScaleSet.IVirtualMachineScaleSetSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_scale_set#capacity VirtualMachineScaleSet#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_scale_set#capacity VirtualMachineScaleSet#capacity}.</summary>
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}")]
         public double Capacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachineScaleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_scale_set#name VirtualMachineScaleSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_scale_set#name VirtualMachineScaleSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualMachineScaleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_scale_set#tier VirtualMachineScaleSet#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_scale_set#tier VirtualMachineScaleSet#tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tier

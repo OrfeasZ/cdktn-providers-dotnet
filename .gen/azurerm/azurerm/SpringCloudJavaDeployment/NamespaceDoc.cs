@@ -5,7 +5,7 @@ namespace azurerm.SpringCloudJavaDeployment
     /// <remarks>
     /// <h1><c>azurerm_spring_cloud_java_deployment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_java_deployment"><c>azurerm_spring_cloud_java_deployment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_java_deployment"><c>azurerm_spring_cloud_java_deployment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBlueprintDefinition
     [JsiiInterface(nativeType: typeof(IDataAzurermBlueprintDefinitionTimeouts), fullyQualifiedName: "azurerm.dataAzurermBlueprintDefinition.DataAzurermBlueprintDefinitionTimeouts")]
     public interface IDataAzurermBlueprintDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermBlueprintDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

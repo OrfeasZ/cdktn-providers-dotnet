@@ -5,7 +5,7 @@ namespace azurerm.ResourcePolicyRemediation
     /// <remarks>
     /// <h1><c>azurerm_resource_policy_remediation</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_policy_remediation"><c>azurerm_resource_policy_remediation</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_remediation"><c>azurerm_resource_policy_remediation</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

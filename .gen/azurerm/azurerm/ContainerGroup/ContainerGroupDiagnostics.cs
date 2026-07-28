@@ -11,7 +11,7 @@ namespace azurerm.ContainerGroup
     {
         /// <summary>log_analytics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#log_analytics ContainerGroup#log_analytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#log_analytics ContainerGroup#log_analytics}
         /// </remarks>
         [JsiiProperty(name: "logAnalytics", typeJson: "{\"fqn\":\"azurerm.containerGroup.ContainerGroupDiagnosticsLogAnalytics\"}")]
         public azurerm.ContainerGroup.IContainerGroupDiagnosticsLogAnalytics LogAnalytics

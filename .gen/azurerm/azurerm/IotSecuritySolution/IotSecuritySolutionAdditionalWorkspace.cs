@@ -9,7 +9,7 @@ namespace azurerm.IotSecuritySolution
     [JsiiByValue(fqn: "azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspace")]
     public class IotSecuritySolutionAdditionalWorkspace : azurerm.IotSecuritySolution.IIotSecuritySolutionAdditionalWorkspace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
         [JsiiProperty(name: "dataTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DataTypes
         {
@@ -17,7 +17,7 @@ namespace azurerm.IotSecuritySolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

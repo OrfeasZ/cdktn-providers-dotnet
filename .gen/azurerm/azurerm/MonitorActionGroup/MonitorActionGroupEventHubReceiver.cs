@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupEventHubReceiver")]
     public class MonitorActionGroupEventHubReceiver : azurerm.MonitorActionGroup.IMonitorActionGroupEventHubReceiver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#event_hub_name MonitorActionGroup#event_hub_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#event_hub_name MonitorActionGroup#event_hub_name}.</summary>
         [JsiiProperty(name: "eventHubName", typeJson: "{\"primitive\":\"string\"}")]
         public string EventHubName
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#event_hub_namespace MonitorActionGroup#event_hub_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#event_hub_namespace MonitorActionGroup#event_hub_namespace}.</summary>
         [JsiiProperty(name: "eventHubNamespace", typeJson: "{\"primitive\":\"string\"}")]
         public string EventHubNamespace
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#subscription_id MonitorActionGroup#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#subscription_id MonitorActionGroup#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId
@@ -42,7 +42,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TenantId
@@ -53,7 +53,7 @@ namespace azurerm.MonitorActionGroup
 
         private object? _useCommonAlertSchema;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

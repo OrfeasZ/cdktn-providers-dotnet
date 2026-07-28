@@ -9,7 +9,7 @@ namespace azurerm.GalleryApplicationVersion
     [JsiiByValue(fqn: "azurerm.galleryApplicationVersion.GalleryApplicationVersionManageAction")]
     public class GalleryApplicationVersionManageAction : azurerm.GalleryApplicationVersion.IGalleryApplicationVersionManageAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/gallery_application_version#install GalleryApplicationVersion#install}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/gallery_application_version#install GalleryApplicationVersion#install}.</summary>
         [JsiiProperty(name: "install", typeJson: "{\"primitive\":\"string\"}")]
         public string Install
         {
@@ -17,7 +17,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/gallery_application_version#remove GalleryApplicationVersion#remove}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/gallery_application_version#remove GalleryApplicationVersion#remove}.</summary>
         [JsiiProperty(name: "remove", typeJson: "{\"primitive\":\"string\"}")]
         public string Remove
         {
@@ -25,7 +25,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/gallery_application_version#update GalleryApplicationVersion#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/gallery_application_version#update GalleryApplicationVersion#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

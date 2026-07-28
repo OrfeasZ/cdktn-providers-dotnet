@@ -11,7 +11,7 @@ namespace azurerm.NginxDeployment
     {
         private object _activationStateEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment#activation_state_enabled NginxDeployment#activation_state_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#activation_state_enabled NginxDeployment#activation_state_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

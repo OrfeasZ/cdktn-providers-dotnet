@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     [JsiiByValue(fqn: "azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingAction")]
     public class LinuxWebAppSiteConfigAutoHealSettingAction : azurerm.LinuxWebApp.ILinuxWebAppSiteConfigAutoHealSettingAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#action_type LinuxWebApp#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#action_type LinuxWebApp#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionType
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#minimum_process_execution_time LinuxWebApp#minimum_process_execution_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#minimum_process_execution_time LinuxWebApp#minimum_process_execution_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumProcessExecutionTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinimumProcessExecutionTime

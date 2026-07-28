@@ -105,12 +105,6 @@ namespace azurerm.LinuxWebApp
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRubyVersion")]
-        public virtual void ResetRubyVersion()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "dockerImageNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DockerImageNameInput
@@ -195,13 +189,6 @@ namespace azurerm.LinuxWebApp
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "rubyVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? RubyVersionInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         [JsiiProperty(name: "dockerImageName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DockerImageName
         {
@@ -281,13 +268,6 @@ namespace azurerm.LinuxWebApp
 
         [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PythonVersion
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "rubyVersion", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RubyVersion
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

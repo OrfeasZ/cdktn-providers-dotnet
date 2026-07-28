@@ -9,7 +9,7 @@ namespace azurerm.FabricCapacity
     [JsiiByValue(fqn: "azurerm.fabricCapacity.FabricCapacitySku")]
     public class FabricCapacitySku : azurerm.FabricCapacity.IFabricCapacitySku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.FabricCapacity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         public string Tier
         {

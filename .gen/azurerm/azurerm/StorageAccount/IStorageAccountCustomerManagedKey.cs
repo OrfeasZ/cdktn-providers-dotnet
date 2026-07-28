@@ -7,33 +7,18 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountCustomerManagedKey), fullyQualifiedName: "azurerm.storageAccount.StorageAccountCustomerManagedKey")]
     public interface IStorageAccountCustomerManagedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#user_assigned_identity_id StorageAccount#user_assigned_identity_id}.</summary>
-        [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
-        string UserAssignedIdentityId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#key_vault_key_id StorageAccount#key_vault_key_id}.</summary>
+        [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        string KeyVaultKeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#key_vault_key_id StorageAccount#key_vault_key_id}.</summary>
-        [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? KeyVaultKeyId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#user_assigned_identity_id StorageAccount#user_assigned_identity_id}.</summary>
+        [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
+        string UserAssignedIdentityId
         {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#managed_hsm_key_id StorageAccount#managed_hsm_key_id}.</summary>
-        [JsiiProperty(name: "managedHsmKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ManagedHsmKeyId
-        {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         [JsiiTypeProxy(nativeType: typeof(IStorageAccountCustomerManagedKey), fullyQualifiedName: "azurerm.storageAccount.StorageAccountCustomerManagedKey")]
@@ -43,27 +28,18 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#user_assigned_identity_id StorageAccount#user_assigned_identity_id}.</summary>
-            [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
-            public string UserAssignedIdentityId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#key_vault_key_id StorageAccount#key_vault_key_id}.</summary>
+            [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
+            public string KeyVaultKeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#key_vault_key_id StorageAccount#key_vault_key_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? KeyVaultKeyId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#user_assigned_identity_id StorageAccount#user_assigned_identity_id}.</summary>
+            [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
+            public string UserAssignedIdentityId
             {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#managed_hsm_key_id StorageAccount#managed_hsm_key_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "managedHsmKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ManagedHsmKeyId
-            {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
         }
     }

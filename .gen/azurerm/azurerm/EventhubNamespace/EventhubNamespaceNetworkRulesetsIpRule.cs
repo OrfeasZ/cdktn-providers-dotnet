@@ -7,7 +7,7 @@ namespace azurerm.EventhubNamespace
     [JsiiByValue(fqn: "azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRule")]
     public class EventhubNamespaceNetworkRulesetsIpRule : azurerm.EventhubNamespace.IEventhubNamespaceNetworkRulesetsIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action
@@ -16,7 +16,7 @@ namespace azurerm.EventhubNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpMask

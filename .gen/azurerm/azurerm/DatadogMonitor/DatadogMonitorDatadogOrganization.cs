@@ -9,7 +9,7 @@ namespace azurerm.DatadogMonitor
     [JsiiByValue(fqn: "azurerm.datadogMonitor.DatadogMonitorDatadogOrganization")]
     public class DatadogMonitorDatadogOrganization : azurerm.DatadogMonitor.IDatadogMonitorDatadogOrganization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#api_key DatadogMonitor#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#api_key DatadogMonitor#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.DatadogMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#application_key DatadogMonitor#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#application_key DatadogMonitor#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationKey
         {
@@ -25,7 +25,7 @@ namespace azurerm.DatadogMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#enterprise_app_id DatadogMonitor#enterprise_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#enterprise_app_id DatadogMonitor#enterprise_app_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enterpriseAppId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnterpriseAppId
@@ -34,7 +34,7 @@ namespace azurerm.DatadogMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#linking_auth_code DatadogMonitor#linking_auth_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#linking_auth_code DatadogMonitor#linking_auth_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkingAuthCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkingAuthCode
@@ -43,7 +43,7 @@ namespace azurerm.DatadogMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#linking_client_id DatadogMonitor#linking_client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#linking_client_id DatadogMonitor#linking_client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkingClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkingClientId
@@ -52,7 +52,7 @@ namespace azurerm.DatadogMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/datadog_monitor#redirect_uri DatadogMonitor#redirect_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/datadog_monitor#redirect_uri DatadogMonitor#redirect_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "redirectUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RedirectUri

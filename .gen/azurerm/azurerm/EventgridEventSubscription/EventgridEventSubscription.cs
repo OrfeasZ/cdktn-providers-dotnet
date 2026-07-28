@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.EventgridEventSubscription
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.EventgridEventSubscription.EventgridEventSubscription), fullyQualifiedName: "azurerm.eventgridEventSubscription.EventgridEventSubscription", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionConfig\"}}]")]
     public class EventgridEventSubscription : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription azurerm_eventgrid_event_subscription} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EventgridEventSubscription(Constructs.Construct scope, string id, azurerm.EventgridEventSubscription.IEventgridEventSubscriptionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.EventgridEventSubscription
         /// <param name="importToId">The construct id used in the generated config for the EventgridEventSubscription to import.</param>
         /// <param name="importFromId">The id of the existing EventgridEventSubscription that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EventgridEventSubscription to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EventgridEventSubscription to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EventgridEventSubscription that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EventgridEventSubscription to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EventgridEventSubscription to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EventgridEventSubscription that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EventgridEventSubscription to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.EventgridEventSubscription.EventgridEventSubscription), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -172,8 +172,8 @@ namespace azurerm.EventgridEventSubscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEventhubEndpointId")]
-        public virtual void ResetEventhubEndpointId()
+        [JsiiMethod(name: "resetEventhubId")]
+        public virtual void ResetEventhubId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -184,8 +184,8 @@ namespace azurerm.EventgridEventSubscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetHybridConnectionEndpointId")]
-        public virtual void ResetHybridConnectionEndpointId()
+        [JsiiMethod(name: "resetHybridConnectionId")]
+        public virtual void ResetHybridConnectionId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -214,14 +214,14 @@ namespace azurerm.EventgridEventSubscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceBusQueueEndpointId")]
-        public virtual void ResetServiceBusQueueEndpointId()
+        [JsiiMethod(name: "resetServiceBusQueueId")]
+        public virtual void ResetServiceBusQueueId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceBusTopicEndpointId")]
-        public virtual void ResetServiceBusTopicEndpointId()
+        [JsiiMethod(name: "resetServiceBusTopicId")]
+        public virtual void ResetServiceBusTopicId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -397,8 +397,8 @@ namespace azurerm.EventgridEventSubscription
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "eventhubEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? EventhubEndpointIdInput
+        [JsiiProperty(name: "eventhubIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EventhubIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -411,8 +411,8 @@ namespace azurerm.EventgridEventSubscription
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "hybridConnectionEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? HybridConnectionEndpointIdInput
+        [JsiiProperty(name: "hybridConnectionIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HybridConnectionIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -460,15 +460,15 @@ namespace azurerm.EventgridEventSubscription
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "serviceBusQueueEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ServiceBusQueueEndpointIdInput
+        [JsiiProperty(name: "serviceBusQueueIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceBusQueueIdInput
         {
             get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "serviceBusTopicEndpointIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ServiceBusTopicEndpointIdInput
+        [JsiiProperty(name: "serviceBusTopicIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ServiceBusTopicIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -548,8 +548,8 @@ namespace azurerm.EventgridEventSubscription
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "eventhubEndpointId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string EventhubEndpointId
+        [JsiiProperty(name: "eventhubId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EventhubId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -562,8 +562,8 @@ namespace azurerm.EventgridEventSubscription
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "hybridConnectionEndpointId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string HybridConnectionEndpointId
+        [JsiiProperty(name: "hybridConnectionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HybridConnectionId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -604,15 +604,15 @@ namespace azurerm.EventgridEventSubscription
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "serviceBusQueueEndpointId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ServiceBusQueueEndpointId
+        [JsiiProperty(name: "serviceBusQueueId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceBusQueueId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "serviceBusTopicEndpointId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ServiceBusTopicEndpointId
+        [JsiiProperty(name: "serviceBusTopicId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceBusTopicId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricManagedCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricManagedCluster.ServiceFabricManagedClusterCustomFabricSetting")]
     public class ServiceFabricManagedClusterCustomFabricSetting : azurerm.ServiceFabricManagedCluster.IServiceFabricManagedClusterCustomFabricSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
         [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}")]
         public string Parameter
         {
@@ -17,7 +17,7 @@ namespace azurerm.ServiceFabricManagedCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
         [JsiiProperty(name: "section", typeJson: "{\"primitive\":\"string\"}")]
         public string Section
         {
@@ -25,7 +25,7 @@ namespace azurerm.ServiceFabricManagedCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

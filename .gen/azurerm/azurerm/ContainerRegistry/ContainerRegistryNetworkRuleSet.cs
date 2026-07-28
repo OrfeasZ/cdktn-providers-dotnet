@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistry
     [JsiiByValue(fqn: "azurerm.containerRegistry.ContainerRegistryNetworkRuleSet")]
     public class ContainerRegistryNetworkRuleSet : azurerm.ContainerRegistry.IContainerRegistryNetworkRuleSet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#default_action ContainerRegistry#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#default_action ContainerRegistry#default_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultAction
@@ -18,7 +18,7 @@ namespace azurerm.ContainerRegistry
 
         private object? _ipRule;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#ip_rule ContainerRegistry#ip_rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#ip_rule ContainerRegistry#ip_rule}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerRegistry.IContainerRegistryNetworkRuleSetIpRule" />)[]</para>
         /// </remarks>

@@ -57,12 +57,6 @@ namespace azurerm.CdnFrontdoorCustomDomain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMinimumTlsVersion")]
-        public virtual void ResetMinimumTlsVersion()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetMinimumVersion")]
         public virtual void ResetMinimumVersion()
         {
@@ -97,13 +91,6 @@ namespace azurerm.CdnFrontdoorCustomDomain
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "minimumTlsVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? MinimumTlsVersionInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "minimumVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MinimumVersionInput
         {
@@ -119,13 +106,6 @@ namespace azurerm.CdnFrontdoorCustomDomain
 
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertificateType
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "minimumTlsVersion", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string MinimumTlsVersion
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

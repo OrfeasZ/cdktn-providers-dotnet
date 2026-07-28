@@ -9,7 +9,7 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiByValue(fqn: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterConfig")]
     public class HdinsightHbaseClusterConfig : azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#cluster_version HdinsightHbaseCluster#cluster_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#cluster_version HdinsightHbaseCluster#cluster_version}.</summary>
         [JsiiProperty(name: "clusterVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterVersion
         {
@@ -19,7 +19,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>component_version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#component_version HdinsightHbaseCluster#component_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#component_version HdinsightHbaseCluster#component_version}
         /// </remarks>
         [JsiiProperty(name: "componentVersion", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterComponentVersion\"}")]
         public azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterComponentVersion ComponentVersion
@@ -30,7 +30,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>gateway block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#gateway HdinsightHbaseCluster#gateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#gateway HdinsightHbaseCluster#gateway}
         /// </remarks>
         [JsiiProperty(name: "gateway", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterGateway\"}")]
         public azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterGateway Gateway
@@ -39,7 +39,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#location HdinsightHbaseCluster#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#location HdinsightHbaseCluster#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -47,7 +47,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -55,7 +55,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#resource_group_name HdinsightHbaseCluster#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#resource_group_name HdinsightHbaseCluster#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -65,7 +65,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>roles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#roles HdinsightHbaseCluster#roles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#roles HdinsightHbaseCluster#roles}
         /// </remarks>
         [JsiiProperty(name: "roles", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterRoles\"}")]
         public azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterRoles Roles
@@ -74,7 +74,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#tier HdinsightHbaseCluster#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#tier HdinsightHbaseCluster#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         public string Tier
         {
@@ -82,9 +82,17 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#tls_min_version HdinsightHbaseCluster#tls_min_version}.</summary>
+        [JsiiProperty(name: "tlsMinVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public string TlsMinVersion
+        {
+            get;
+            set;
+        }
+
         /// <summary>compute_isolation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#compute_isolation HdinsightHbaseCluster#compute_isolation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#compute_isolation HdinsightHbaseCluster#compute_isolation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "computeIsolation", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterComputeIsolation\"}", isOptional: true)]
@@ -98,7 +106,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>disk_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#disk_encryption HdinsightHbaseCluster#disk_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#disk_encryption HdinsightHbaseCluster#disk_encryption}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterDiskEncryption" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -131,7 +139,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>extension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#extension HdinsightHbaseCluster#extension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#extension HdinsightHbaseCluster#extension}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "extension", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterExtension\"}", isOptional: true)]
@@ -141,7 +149,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#id HdinsightHbaseCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#id HdinsightHbaseCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +164,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>metastores block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#metastores HdinsightHbaseCluster#metastores}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#metastores HdinsightHbaseCluster#metastores}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metastores", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterMetastores\"}", isOptional: true)]
@@ -168,7 +176,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>monitor block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#monitor HdinsightHbaseCluster#monitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#monitor HdinsightHbaseCluster#monitor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monitor", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterMonitor\"}", isOptional: true)]
@@ -180,7 +188,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#network HdinsightHbaseCluster#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#network HdinsightHbaseCluster#network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterNetwork\"}", isOptional: true)]
@@ -192,7 +200,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>private_link_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#private_link_configuration HdinsightHbaseCluster#private_link_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#private_link_configuration HdinsightHbaseCluster#private_link_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateLinkConfiguration", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterPrivateLinkConfiguration\"}", isOptional: true)]
@@ -204,7 +212,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>security_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#security_profile HdinsightHbaseCluster#security_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#security_profile HdinsightHbaseCluster#security_profile}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityProfile", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterSecurityProfile\"}", isOptional: true)]
@@ -218,7 +226,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>storage_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#storage_account HdinsightHbaseCluster#storage_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#storage_account HdinsightHbaseCluster#storage_account}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterStorageAccount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -251,7 +259,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>storage_account_gen2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#storage_account_gen2 HdinsightHbaseCluster#storage_account_gen2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#storage_account_gen2 HdinsightHbaseCluster#storage_account_gen2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountGen2", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterStorageAccountGen2\"}", isOptional: true)]
@@ -261,7 +269,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#tags HdinsightHbaseCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#tags HdinsightHbaseCluster#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -272,20 +280,11 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#timeouts HdinsightHbaseCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#timeouts HdinsightHbaseCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterTimeouts\"}", isOptional: true)]
         public azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterTimeouts? Timeouts
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#tls_min_version HdinsightHbaseCluster#tls_min_version}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "tlsMinVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? TlsMinVersion
         {
             get;
             set;

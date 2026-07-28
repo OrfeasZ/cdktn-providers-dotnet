@@ -7,7 +7,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiInterface(nativeType: typeof(IHdinsightKafkaClusterStorageAccount), fullyQualifiedName: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterStorageAccount")]
     public interface IHdinsightKafkaClusterStorageAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,24 +17,24 @@ namespace azurerm.HdinsightKafkaCluster
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_account_key HdinsightKafkaCluster#storage_account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_account_key HdinsightKafkaCluster#storage_account_key}.</summary>
         [JsiiProperty(name: "storageAccountKey", typeJson: "{\"primitive\":\"string\"}")]
         string StorageAccountKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_container_id HdinsightKafkaCluster#storage_container_id}.</summary>
-        [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
-        string StorageContainerId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_container_url HdinsightKafkaCluster#storage_container_url}.</summary>
+        [JsiiProperty(name: "storageContainerUrl", typeJson: "{\"primitive\":\"string\"}")]
+        string StorageContainerUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_resource_id HdinsightKafkaCluster#storage_resource_id}.</summary>
-        [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_account_id HdinsightKafkaCluster#storage_account_id}.</summary>
+        [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? StorageResourceId
+        string? StorageAccountId
         {
             get
             {
@@ -49,7 +49,7 @@ namespace azurerm.HdinsightKafkaCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -59,24 +59,24 @@ namespace azurerm.HdinsightKafkaCluster
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_account_key HdinsightKafkaCluster#storage_account_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_account_key HdinsightKafkaCluster#storage_account_key}.</summary>
             [JsiiProperty(name: "storageAccountKey", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageAccountKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_container_id HdinsightKafkaCluster#storage_container_id}.</summary>
-            [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
-            public string StorageContainerId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_container_url HdinsightKafkaCluster#storage_container_url}.</summary>
+            [JsiiProperty(name: "storageContainerUrl", typeJson: "{\"primitive\":\"string\"}")]
+            public string StorageContainerUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_kafka_cluster#storage_resource_id HdinsightKafkaCluster#storage_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#storage_account_id HdinsightKafkaCluster#storage_account_id}.</summary>
             [JsiiOptional]
-            [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? StorageResourceId
+            [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? StorageAccountId
             {
                 get => GetInstanceProperty<string?>();
             }

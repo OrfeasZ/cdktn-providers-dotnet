@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudConnection
     [JsiiInterface(nativeType: typeof(ISpringCloudConnectionSecretStore), fullyQualifiedName: "azurerm.springCloudConnection.SpringCloudConnectionSecretStore")]
     public interface ISpringCloudConnectionSecretStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_connection#key_vault_id SpringCloudConnection#key_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_connection#key_vault_id SpringCloudConnection#key_vault_id}.</summary>
         [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyVaultId
         {
@@ -21,7 +21,7 @@ namespace azurerm.SpringCloudConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/spring_cloud_connection#key_vault_id SpringCloudConnection#key_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_connection#key_vault_id SpringCloudConnection#key_vault_id}.</summary>
             [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyVaultId
             {

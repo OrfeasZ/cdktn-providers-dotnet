@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermCosmosdbAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermCosmosdbAccount.DataAzurermCosmosdbAccountTimeouts")]
     public class DataAzurermCosmosdbAccountTimeouts : azurerm.DataAzurermCosmosdbAccount.IDataAzurermCosmosdbAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/cosmosdb_account#read DataAzurermCosmosdbAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/cosmosdb_account#read DataAzurermCosmosdbAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

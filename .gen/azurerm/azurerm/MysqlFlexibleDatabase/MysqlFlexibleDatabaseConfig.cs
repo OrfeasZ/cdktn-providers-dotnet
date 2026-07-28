@@ -9,7 +9,7 @@ namespace azurerm.MysqlFlexibleDatabase
     [JsiiByValue(fqn: "azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabaseConfig")]
     public class MysqlFlexibleDatabaseConfig : azurerm.MysqlFlexibleDatabase.IMysqlFlexibleDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#charset MysqlFlexibleDatabase#charset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#charset MysqlFlexibleDatabase#charset}.</summary>
         [JsiiProperty(name: "charset", typeJson: "{\"primitive\":\"string\"}")]
         public string Charset
         {
@@ -17,7 +17,7 @@ namespace azurerm.MysqlFlexibleDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#collation MysqlFlexibleDatabase#collation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#collation MysqlFlexibleDatabase#collation}.</summary>
         [JsiiProperty(name: "collation", typeJson: "{\"primitive\":\"string\"}")]
         public string Collation
         {
@@ -25,7 +25,7 @@ namespace azurerm.MysqlFlexibleDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#name MysqlFlexibleDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#name MysqlFlexibleDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.MysqlFlexibleDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#resource_group_name MysqlFlexibleDatabase#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#resource_group_name MysqlFlexibleDatabase#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.MysqlFlexibleDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#server_name MysqlFlexibleDatabase#server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#server_name MysqlFlexibleDatabase#server_name}.</summary>
         [JsiiProperty(name: "serverName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerName
         {
@@ -49,7 +49,7 @@ namespace azurerm.MysqlFlexibleDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#id MysqlFlexibleDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#id MysqlFlexibleDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.MysqlFlexibleDatabase
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mysql_flexible_database#timeouts MysqlFlexibleDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_database#timeouts MysqlFlexibleDatabase#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mysqlFlexibleDatabase.MysqlFlexibleDatabaseTimeouts\"}", isOptional: true)]

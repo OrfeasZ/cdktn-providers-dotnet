@@ -9,7 +9,7 @@ namespace azurerm.ManagedDevopsPool
     [JsiiByValue(fqn: "azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationPermission")]
     public class ManagedDevopsPoolAzureDevopsOrganizationPermission : azurerm.ManagedDevopsPool.IManagedDevopsPoolAzureDevopsOrganizationPermission
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#kind ManagedDevopsPool#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#kind ManagedDevopsPool#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -19,7 +19,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>administrator_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#administrator_account ManagedDevopsPool#administrator_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#administrator_account ManagedDevopsPool#administrator_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "administratorAccount", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationPermissionAdministratorAccount\"}", isOptional: true)]

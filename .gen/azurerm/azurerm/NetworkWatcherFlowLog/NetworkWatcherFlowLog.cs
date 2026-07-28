@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.NetworkWatcherFlowLog
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.NetworkWatcherFlowLog.NetworkWatcherFlowLog), fullyQualifiedName: "azurerm.networkWatcherFlowLog.NetworkWatcherFlowLog", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogConfig\"}}]")]
     public class NetworkWatcherFlowLog : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public NetworkWatcherFlowLog(Constructs.Construct scope, string id, azurerm.NetworkWatcherFlowLog.INetworkWatcherFlowLogConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.NetworkWatcherFlowLog
         /// <param name="importToId">The construct id used in the generated config for the NetworkWatcherFlowLog to import.</param>
         /// <param name="importFromId">The id of the existing NetworkWatcherFlowLog that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the NetworkWatcherFlowLog to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NetworkWatcherFlowLog to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_watcher_flow_log#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NetworkWatcherFlowLog that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NetworkWatcherFlowLog to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NetworkWatcherFlowLog to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_watcher_flow_log#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NetworkWatcherFlowLog that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NetworkWatcherFlowLog to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.NetworkWatcherFlowLog.NetworkWatcherFlowLog), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -76,20 +76,8 @@ namespace azurerm.NetworkWatcherFlowLog
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetNetworkSecurityGroupId")]
-        public virtual void ResetNetworkSecurityGroupId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetTargetResourceId")]
-        public virtual void ResetTargetResourceId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -176,13 +164,6 @@ namespace azurerm.NetworkWatcherFlowLog
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "networkSecurityGroupIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? NetworkSecurityGroupIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -299,13 +280,6 @@ namespace azurerm.NetworkWatcherFlowLog
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string NetworkSecurityGroupId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -7,7 +7,7 @@ namespace azurerm.FrontdoorCustomHttpsConfiguration
     [JsiiByValue(fqn: "azurerm.frontdoorCustomHttpsConfiguration.FrontdoorCustomHttpsConfigurationCustomHttpsConfiguration")]
     public class FrontdoorCustomHttpsConfigurationCustomHttpsConfiguration : azurerm.FrontdoorCustomHttpsConfiguration.IFrontdoorCustomHttpsConfigurationCustomHttpsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_secret_name FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_secret_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_secret_name FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_secret_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureKeyVaultCertificateSecretName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureKeyVaultCertificateSecretName
@@ -16,7 +16,7 @@ namespace azurerm.FrontdoorCustomHttpsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_secret_version FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_secret_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_secret_version FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_secret_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureKeyVaultCertificateSecretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureKeyVaultCertificateSecretVersion
@@ -25,7 +25,7 @@ namespace azurerm.FrontdoorCustomHttpsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_vault_id FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_custom_https_configuration#azure_key_vault_certificate_vault_id FrontdoorCustomHttpsConfiguration#azure_key_vault_certificate_vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "azureKeyVaultCertificateVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AzureKeyVaultCertificateVaultId
@@ -34,7 +34,7 @@ namespace azurerm.FrontdoorCustomHttpsConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_custom_https_configuration#certificate_source FrontdoorCustomHttpsConfiguration#certificate_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_custom_https_configuration#certificate_source FrontdoorCustomHttpsConfiguration#certificate_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateSource

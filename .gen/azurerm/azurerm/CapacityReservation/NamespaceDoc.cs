@@ -5,7 +5,7 @@ namespace azurerm.CapacityReservation
     /// <remarks>
     /// <h1><c>azurerm_capacity_reservation</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/capacity_reservation"><c>azurerm_capacity_reservation</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/capacity_reservation"><c>azurerm_capacity_reservation</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

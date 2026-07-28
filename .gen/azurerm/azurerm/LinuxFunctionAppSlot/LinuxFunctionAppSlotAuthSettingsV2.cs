@@ -11,7 +11,7 @@ namespace azurerm.LinuxFunctionAppSlot
     {
         /// <summary>login block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#login LinuxFunctionAppSlot#login}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#login LinuxFunctionAppSlot#login}
         /// </remarks>
         [JsiiProperty(name: "login", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2Login\"}")]
         public azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotAuthSettingsV2Login Login
@@ -22,7 +22,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>active_directory_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#active_directory_v2 LinuxFunctionAppSlot#active_directory_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#active_directory_v2 LinuxFunctionAppSlot#active_directory_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeDirectoryV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2ActiveDirectoryV2\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>apple_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#apple_v2 LinuxFunctionAppSlot#apple_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#apple_v2 LinuxFunctionAppSlot#apple_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AppleV2\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>Should the AuthV2 Settings be enabled. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#auth_enabled LinuxFunctionAppSlot#auth_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#auth_enabled LinuxFunctionAppSlot#auth_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>azure_static_web_app_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#azure_static_web_app_v2 LinuxFunctionAppSlot#azure_static_web_app_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#azure_static_web_app_v2 LinuxFunctionAppSlot#azure_static_web_app_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureStaticWebAppV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2AzureStaticWebAppV2\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The path to the App Auth settings. **Note:** Relative Paths are evaluated from the Site Root directory.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#config_file_path LinuxFunctionAppSlot#config_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#config_file_path LinuxFunctionAppSlot#config_file_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>custom_oidc_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#custom_oidc_v2 LinuxFunctionAppSlot#custom_oidc_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#custom_oidc_v2 LinuxFunctionAppSlot#custom_oidc_v2}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotAuthSettingsV2CustomOidcV2" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -142,7 +142,7 @@ namespace azurerm.LinuxFunctionAppSlot
         /// <remarks>
         /// Possible values include: <c>apple</c>, <c>azureactivedirectory</c>, <c>facebook</c>, <c>github</c>, <c>google</c>, <c>twitter</c> and the <c>name</c> of your <c>custom_oidc_v2</c> provider.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#default_provider LinuxFunctionAppSlot#default_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#default_provider LinuxFunctionAppSlot#default_provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The paths which should be excluded from the `unauthenticated_action` when it is set to `RedirectToLoginPage`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#excluded_paths LinuxFunctionAppSlot#excluded_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#excluded_paths LinuxFunctionAppSlot#excluded_paths}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludedPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>facebook_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#facebook_v2 LinuxFunctionAppSlot#facebook_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#facebook_v2 LinuxFunctionAppSlot#facebook_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "facebookV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2FacebookV2\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace azurerm.LinuxFunctionAppSlot
         /// <remarks>
         /// Possible values include <c>ForwardProxyConventionNoProxy</c>, <c>ForwardProxyConventionStandard</c>, <c>ForwardProxyConventionCustom</c>. Defaults to <c>ForwardProxyConventionNoProxy</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#forward_proxy_convention LinuxFunctionAppSlot#forward_proxy_convention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#forward_proxy_convention LinuxFunctionAppSlot#forward_proxy_convention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardProxyConvention", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -192,7 +192,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The name of the header containing the host of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#forward_proxy_custom_host_header_name LinuxFunctionAppSlot#forward_proxy_custom_host_header_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#forward_proxy_custom_host_header_name LinuxFunctionAppSlot#forward_proxy_custom_host_header_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardProxyCustomHostHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The name of the header containing the scheme of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#forward_proxy_custom_scheme_header_name LinuxFunctionAppSlot#forward_proxy_custom_scheme_header_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#forward_proxy_custom_scheme_header_name LinuxFunctionAppSlot#forward_proxy_custom_scheme_header_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardProxyCustomSchemeHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>github_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#github_v2 LinuxFunctionAppSlot#github_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#github_v2 LinuxFunctionAppSlot#github_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "githubV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GithubV2\"}", isOptional: true)]
@@ -228,7 +228,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>google_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#google_v2 LinuxFunctionAppSlot#google_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#google_v2 LinuxFunctionAppSlot#google_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "googleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2GoogleV2\"}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The prefix that should precede all the authentication and authorisation paths. Defaults to `/.auth`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#http_route_api_prefix LinuxFunctionAppSlot#http_route_api_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#http_route_api_prefix LinuxFunctionAppSlot#http_route_api_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpRouteApiPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>microsoft_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#microsoft_v2 LinuxFunctionAppSlot#microsoft_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#microsoft_v2 LinuxFunctionAppSlot#microsoft_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "microsoftV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2MicrosoftV2\"}", isOptional: true)]
@@ -266,7 +266,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>Should the authentication flow be used for all requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#require_authentication LinuxFunctionAppSlot#require_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#require_authentication LinuxFunctionAppSlot#require_authentication}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -301,7 +301,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>Should HTTPS be required on connections? Defaults to true.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#require_https LinuxFunctionAppSlot#require_https}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#require_https LinuxFunctionAppSlot#require_https}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -334,7 +334,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The Runtime Version of the Authentication and Authorisation feature of this App. Defaults to `~1`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#runtime_version LinuxFunctionAppSlot#runtime_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#runtime_version LinuxFunctionAppSlot#runtime_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>twitter_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#twitter_v2 LinuxFunctionAppSlot#twitter_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#twitter_v2 LinuxFunctionAppSlot#twitter_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "twitterV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotAuthSettingsV2TwitterV2\"}", isOptional: true)]
@@ -360,7 +360,7 @@ namespace azurerm.LinuxFunctionAppSlot
         /// <remarks>
         /// Possible values include <c>RedirectToLoginPage</c>, <c>AllowAnonymous</c>, <c>Return401</c>, and <c>Return403</c>. Defaults to <c>RedirectToLoginPage</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_function_app_slot#unauthenticated_action LinuxFunctionAppSlot#unauthenticated_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app_slot#unauthenticated_action LinuxFunctionAppSlot#unauthenticated_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unauthenticatedAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

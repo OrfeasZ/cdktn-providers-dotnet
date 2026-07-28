@@ -77,12 +77,6 @@ namespace azurerm.DataAzurermContainerApp
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "terminationGracePeriodSeconds", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double TerminationGracePeriodSeconds
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Timeout
         {

@@ -7,14 +7,14 @@ namespace azurerm.DnsZone
     [JsiiInterface(nativeType: typeof(IDnsZoneSoaRecord), fullyQualifiedName: "azurerm.dnsZone.DnsZoneSoaRecord")]
     public interface IDnsZoneSoaRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#email DnsZone#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#email DnsZone#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}.</summary>
         [JsiiProperty(name: "expireTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ExpireTime
@@ -25,7 +25,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#minimum_ttl DnsZone#minimum_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#minimum_ttl DnsZone#minimum_ttl}.</summary>
         [JsiiProperty(name: "minimumTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinimumTtl
@@ -36,7 +36,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}.</summary>
         [JsiiProperty(name: "refreshTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RefreshTime
@@ -47,7 +47,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}.</summary>
         [JsiiProperty(name: "retryTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetryTime
@@ -58,7 +58,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#serial_number DnsZone#serial_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#serial_number DnsZone#serial_number}.</summary>
         [JsiiProperty(name: "serialNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SerialNumber
@@ -69,7 +69,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#tags DnsZone#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#tags DnsZone#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -80,7 +80,7 @@ namespace azurerm.DnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#ttl DnsZone#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#ttl DnsZone#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ttl
@@ -98,14 +98,14 @@ namespace azurerm.DnsZone
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#email DnsZone#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#email DnsZone#email}.</summary>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#expire_time DnsZone#expire_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expireTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ExpireTime
@@ -113,7 +113,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#minimum_ttl DnsZone#minimum_ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#minimum_ttl DnsZone#minimum_ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minimumTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinimumTtl
@@ -121,7 +121,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#refresh_time DnsZone#refresh_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RefreshTime
@@ -129,7 +129,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#retry_time DnsZone#retry_time}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retryTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetryTime
@@ -137,7 +137,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#serial_number DnsZone#serial_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#serial_number DnsZone#serial_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serialNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SerialNumber
@@ -145,7 +145,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#tags DnsZone#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#tags DnsZone#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -153,7 +153,7 @@ namespace azurerm.DnsZone
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone#ttl DnsZone#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_zone#ttl DnsZone#ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ttl

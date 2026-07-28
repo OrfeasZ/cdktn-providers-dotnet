@@ -7,14 +7,14 @@ namespace azurerm.TrafficManagerProfile
     [JsiiInterface(nativeType: typeof(ITrafficManagerProfileDnsConfig), fullyQualifiedName: "azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfig")]
     public interface ITrafficManagerProfileDnsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_profile#relative_name TrafficManagerProfile#relative_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_profile#relative_name TrafficManagerProfile#relative_name}.</summary>
         [JsiiProperty(name: "relativeName", typeJson: "{\"primitive\":\"string\"}")]
         string RelativeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_profile#ttl TrafficManagerProfile#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_profile#ttl TrafficManagerProfile#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         double Ttl
         {
@@ -28,14 +28,14 @@ namespace azurerm.TrafficManagerProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_profile#relative_name TrafficManagerProfile#relative_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_profile#relative_name TrafficManagerProfile#relative_name}.</summary>
             [JsiiProperty(name: "relativeName", typeJson: "{\"primitive\":\"string\"}")]
             public string RelativeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_profile#ttl TrafficManagerProfile#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_profile#ttl TrafficManagerProfile#ttl}.</summary>
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
             public double Ttl
             {

@@ -9,7 +9,7 @@ namespace azurerm.MonitorDataCollectionRule
     [JsiiByValue(fqn: "azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDestinationsMonitorAccount")]
     public class MonitorDataCollectionRuleDestinationsMonitorAccount : azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDestinationsMonitorAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#monitor_account_id MonitorDataCollectionRule#monitor_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#monitor_account_id MonitorDataCollectionRule#monitor_account_id}.</summary>
         [JsiiProperty(name: "monitorAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitorAccountId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorDataCollectionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

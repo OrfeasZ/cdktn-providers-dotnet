@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPostgresqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.dataAzurermPostgresqlFlexibleServer.DataAzurermPostgresqlFlexibleServerTimeouts")]
     public class DataAzurermPostgresqlFlexibleServerTimeouts : azurerm.DataAzurermPostgresqlFlexibleServer.IDataAzurermPostgresqlFlexibleServerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/postgresql_flexible_server#read DataAzurermPostgresqlFlexibleServer#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/postgresql_flexible_server#read DataAzurermPostgresqlFlexibleServer#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

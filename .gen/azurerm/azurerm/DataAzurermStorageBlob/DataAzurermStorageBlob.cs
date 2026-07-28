@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.DataAzurermStorageBlob
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob azurerm_storage_blob}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob azurerm_storage_blob}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.DataAzurermStorageBlob.DataAzurermStorageBlob), fullyQualifiedName: "azurerm.dataAzurermStorageBlob.DataAzurermStorageBlob", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.dataAzurermStorageBlob.DataAzurermStorageBlobConfig\"}}]")]
     public class DataAzurermStorageBlob : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob azurerm_storage_blob} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataAzurermStorageBlob(Constructs.Construct scope, string id, azurerm.DataAzurermStorageBlob.IDataAzurermStorageBlobConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermStorageBlob
         /// <param name="importToId">The construct id used in the generated config for the DataAzurermStorageBlob to import.</param>
         /// <param name="importFromId">The id of the existing DataAzurermStorageBlob that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataAzurermStorageBlob to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermStorageBlob to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermStorageBlob that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermStorageBlob to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermStorageBlob to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermStorageBlob that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermStorageBlob to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.DataAzurermStorageBlob.DataAzurermStorageBlob), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -60,24 +60,6 @@ namespace azurerm.DataAzurermStorageBlob
 
         [JsiiMethod(name: "resetMetadata")]
         public virtual void ResetMetadata()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetStorageAccountName")]
-        public virtual void ResetStorageAccountName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetStorageContainerId")]
-        public virtual void ResetStorageContainerId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetStorageContainerName")]
-        public virtual void ResetStorageContainerName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -171,22 +153,8 @@ namespace azurerm.DataAzurermStorageBlob
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "storageAccountNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageAccountNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "storageContainerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StorageContainerIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "storageContainerNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageContainerNameInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -222,22 +190,8 @@ namespace azurerm.DataAzurermStorageBlob
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageAccountName
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageContainerId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "storageContainerName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageContainerName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

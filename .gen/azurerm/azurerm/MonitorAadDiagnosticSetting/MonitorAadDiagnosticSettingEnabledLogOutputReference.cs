@@ -35,36 +35,11 @@ namespace azurerm.MonitorAadDiagnosticSetting
         {
         }
 
-        [JsiiMethod(name: "putRetentionPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.monitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicy\"}}]")]
-        public virtual void PutRetentionPolicy(azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLogRetentionPolicy @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLogRetentionPolicy)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetRetentionPolicy")]
-        public virtual void ResetRetentionPolicy()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.monitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference\"}")]
-        public virtual azurerm.MonitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference RetentionPolicy
-        {
-            get => GetInstanceProperty<azurerm.MonitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "categoryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CategoryInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "retentionPolicyInput", typeJson: "{\"fqn\":\"azurerm.monitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicy\"}", isOptional: true)]
-        public virtual azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLogRetentionPolicy? RetentionPolicyInput
-        {
-            get => GetInstanceProperty<azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLogRetentionPolicy?>();
         }
 
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]

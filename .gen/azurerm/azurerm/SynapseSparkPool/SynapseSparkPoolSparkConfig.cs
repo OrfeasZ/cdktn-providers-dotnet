@@ -9,7 +9,7 @@ namespace azurerm.SynapseSparkPool
     [JsiiByValue(fqn: "azurerm.synapseSparkPool.SynapseSparkPoolSparkConfig")]
     public class SynapseSparkPoolSparkConfig : azurerm.SynapseSparkPool.ISynapseSparkPoolSparkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_spark_pool#content SynapseSparkPool#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.SynapseSparkPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_spark_pool#filename SynapseSparkPool#filename}.</summary>
         [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}")]
         public string Filename
         {

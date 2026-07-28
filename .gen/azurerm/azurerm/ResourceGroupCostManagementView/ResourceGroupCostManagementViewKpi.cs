@@ -9,7 +9,7 @@ namespace azurerm.ResourceGroupCostManagementView
     [JsiiByValue(fqn: "azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpi")]
     public class ResourceGroupCostManagementViewKpi : azurerm.ResourceGroupCostManagementView.IResourceGroupCostManagementViewKpi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

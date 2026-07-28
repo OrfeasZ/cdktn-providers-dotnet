@@ -7,42 +7,42 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
     [JsiiInterface(nativeType: typeof(ISystemCenterVirtualMachineManagerVirtualMachineTemplateConfig), fullyQualifiedName: "azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplateConfig")]
     public interface ISystemCenterVirtualMachineManagerVirtualMachineTemplateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#custom_location_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#custom_location_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#custom_location_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#custom_location_id}.</summary>
         [JsiiProperty(name: "customLocationId", typeJson: "{\"primitive\":\"string\"}")]
         string CustomLocationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#location SystemCenterVirtualMachineManagerVirtualMachineTemplate#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#location SystemCenterVirtualMachineManagerVirtualMachineTemplate#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#name SystemCenterVirtualMachineManagerVirtualMachineTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#name SystemCenterVirtualMachineManagerVirtualMachineTemplate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#resource_group_name SystemCenterVirtualMachineManagerVirtualMachineTemplate#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#resource_group_name SystemCenterVirtualMachineManagerVirtualMachineTemplate#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#system_center_virtual_machine_manager_server_inventory_item_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#system_center_virtual_machine_manager_server_inventory_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#system_center_virtual_machine_manager_server_inventory_item_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#system_center_virtual_machine_manager_server_inventory_item_id}.</summary>
         [JsiiProperty(name: "systemCenterVirtualMachineManagerServerInventoryItemId", typeJson: "{\"primitive\":\"string\"}")]
         string SystemCenterVirtualMachineManagerServerInventoryItemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#id SystemCenterVirtualMachineManagerVirtualMachineTemplate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#id SystemCenterVirtualMachineManagerVirtualMachineTemplate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#tags SystemCenterVirtualMachineManagerVirtualMachineTemplate#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#tags SystemCenterVirtualMachineManagerVirtualMachineTemplate#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -70,7 +70,7 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#timeouts SystemCenterVirtualMachineManagerVirtualMachineTemplate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#timeouts SystemCenterVirtualMachineManagerVirtualMachineTemplate#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplateTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,42 +89,42 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#custom_location_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#custom_location_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#custom_location_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#custom_location_id}.</summary>
             [JsiiProperty(name: "customLocationId", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomLocationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#location SystemCenterVirtualMachineManagerVirtualMachineTemplate#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#location SystemCenterVirtualMachineManagerVirtualMachineTemplate#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#name SystemCenterVirtualMachineManagerVirtualMachineTemplate#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#name SystemCenterVirtualMachineManagerVirtualMachineTemplate#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#resource_group_name SystemCenterVirtualMachineManagerVirtualMachineTemplate#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#resource_group_name SystemCenterVirtualMachineManagerVirtualMachineTemplate#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#system_center_virtual_machine_manager_server_inventory_item_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#system_center_virtual_machine_manager_server_inventory_item_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#system_center_virtual_machine_manager_server_inventory_item_id SystemCenterVirtualMachineManagerVirtualMachineTemplate#system_center_virtual_machine_manager_server_inventory_item_id}.</summary>
             [JsiiProperty(name: "systemCenterVirtualMachineManagerServerInventoryItemId", typeJson: "{\"primitive\":\"string\"}")]
             public string SystemCenterVirtualMachineManagerServerInventoryItemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#id SystemCenterVirtualMachineManagerVirtualMachineTemplate#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#id SystemCenterVirtualMachineManagerVirtualMachineTemplate#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -136,7 +136,7 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#tags SystemCenterVirtualMachineManagerVirtualMachineTemplate#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#tags SystemCenterVirtualMachineManagerVirtualMachineTemplate#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -146,7 +146,7 @@ namespace azurerm.SystemCenterVirtualMachineManagerVirtualMachineTemplate
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#timeouts SystemCenterVirtualMachineManagerVirtualMachineTemplate#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/system_center_virtual_machine_manager_virtual_machine_template#timeouts SystemCenterVirtualMachineManagerVirtualMachineTemplate#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.systemCenterVirtualMachineManagerVirtualMachineTemplate.SystemCenterVirtualMachineManagerVirtualMachineTemplateTimeouts\"}", isOptional: true)]

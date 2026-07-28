@@ -11,7 +11,7 @@ namespace azurerm.ResourceGroupCostManagementExport
     {
         /// <summary>export_data_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#export_data_options ResourceGroupCostManagementExport#export_data_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#export_data_options ResourceGroupCostManagementExport#export_data_options}
         /// </remarks>
         [JsiiProperty(name: "exportDataOptions", typeJson: "{\"fqn\":\"azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExportExportDataOptions\"}")]
         public azurerm.ResourceGroupCostManagementExport.IResourceGroupCostManagementExportExportDataOptions ExportDataOptions
@@ -22,7 +22,7 @@ namespace azurerm.ResourceGroupCostManagementExport
 
         /// <summary>export_data_storage_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#export_data_storage_location ResourceGroupCostManagementExport#export_data_storage_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#export_data_storage_location ResourceGroupCostManagementExport#export_data_storage_location}
         /// </remarks>
         [JsiiProperty(name: "exportDataStorageLocation", typeJson: "{\"fqn\":\"azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExportExportDataStorageLocation\"}")]
         public azurerm.ResourceGroupCostManagementExport.IResourceGroupCostManagementExportExportDataStorageLocation ExportDataStorageLocation
@@ -31,7 +31,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#name ResourceGroupCostManagementExport#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#name ResourceGroupCostManagementExport#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -39,7 +39,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#recurrence_period_end_date ResourceGroupCostManagementExport#recurrence_period_end_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#recurrence_period_end_date ResourceGroupCostManagementExport#recurrence_period_end_date}.</summary>
         [JsiiProperty(name: "recurrencePeriodEndDate", typeJson: "{\"primitive\":\"string\"}")]
         public string RecurrencePeriodEndDate
         {
@@ -47,7 +47,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#recurrence_period_start_date ResourceGroupCostManagementExport#recurrence_period_start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#recurrence_period_start_date ResourceGroupCostManagementExport#recurrence_period_start_date}.</summary>
         [JsiiProperty(name: "recurrencePeriodStartDate", typeJson: "{\"primitive\":\"string\"}")]
         public string RecurrencePeriodStartDate
         {
@@ -55,7 +55,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#recurrence_type ResourceGroupCostManagementExport#recurrence_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#recurrence_type ResourceGroupCostManagementExport#recurrence_type}.</summary>
         [JsiiProperty(name: "recurrenceType", typeJson: "{\"primitive\":\"string\"}")]
         public string RecurrenceType
         {
@@ -63,7 +63,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#resource_group_id ResourceGroupCostManagementExport#resource_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#resource_group_id ResourceGroupCostManagementExport#resource_group_id}.</summary>
         [JsiiProperty(name: "resourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupId
         {
@@ -73,7 +73,7 @@ namespace azurerm.ResourceGroupCostManagementExport
 
         private object? _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#active ResourceGroupCostManagementExport#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#active ResourceGroupCostManagementExport#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -105,7 +105,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#file_format ResourceGroupCostManagementExport#file_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#file_format ResourceGroupCostManagementExport#file_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileFormat
@@ -114,7 +114,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#id ResourceGroupCostManagementExport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#id ResourceGroupCostManagementExport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -129,7 +129,7 @@ namespace azurerm.ResourceGroupCostManagementExport
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_group_cost_management_export#timeouts ResourceGroupCostManagementExport#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_group_cost_management_export#timeouts ResourceGroupCostManagementExport#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExportTimeouts\"}", isOptional: true)]

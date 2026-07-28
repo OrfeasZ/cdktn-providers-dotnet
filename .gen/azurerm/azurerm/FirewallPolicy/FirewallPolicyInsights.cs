@@ -9,7 +9,7 @@ namespace azurerm.FirewallPolicy
     [JsiiByValue(fqn: "azurerm.firewallPolicy.FirewallPolicyInsights")]
     public class FirewallPolicyInsights : azurerm.FirewallPolicy.IFirewallPolicyInsights
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#default_log_analytics_workspace_id FirewallPolicy#default_log_analytics_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#default_log_analytics_workspace_id FirewallPolicy#default_log_analytics_workspace_id}.</summary>
         [JsiiProperty(name: "defaultLogAnalyticsWorkspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultLogAnalyticsWorkspaceId
         {
@@ -19,7 +19,7 @@ namespace azurerm.FirewallPolicy
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#enabled FirewallPolicy#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#enabled FirewallPolicy#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -54,7 +54,7 @@ namespace azurerm.FirewallPolicy
 
         /// <summary>log_analytics_workspace block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#log_analytics_workspace FirewallPolicy#log_analytics_workspace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#log_analytics_workspace FirewallPolicy#log_analytics_workspace}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FirewallPolicy.IFirewallPolicyInsightsLogAnalyticsWorkspace" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -85,7 +85,7 @@ namespace azurerm.FirewallPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#retention_in_days FirewallPolicy#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#retention_in_days FirewallPolicy#retention_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInDays

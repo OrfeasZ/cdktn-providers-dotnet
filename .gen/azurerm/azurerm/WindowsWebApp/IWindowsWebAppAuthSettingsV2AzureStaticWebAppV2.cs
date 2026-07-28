@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     {
         /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#client_id WindowsWebApp#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#client_id WindowsWebApp#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
@@ -26,7 +26,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#client_id WindowsWebApp#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#client_id WindowsWebApp#client_id}
             /// </remarks>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId

@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _expandWithoutDowntime;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

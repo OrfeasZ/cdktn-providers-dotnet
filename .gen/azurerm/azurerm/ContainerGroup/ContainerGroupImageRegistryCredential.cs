@@ -9,7 +9,7 @@ namespace azurerm.ContainerGroup
     [JsiiByValue(fqn: "azurerm.containerGroup.ContainerGroupImageRegistryCredential")]
     public class ContainerGroupImageRegistryCredential : azurerm.ContainerGroup.IContainerGroupImageRegistryCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#server ContainerGroup#server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#server ContainerGroup#server}.</summary>
         [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"string\"}")]
         public string Server
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#password ContainerGroup#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#password ContainerGroup#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -28,7 +28,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>The User Assigned Identity to use for Container Registry access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#user_assigned_identity_id ContainerGroup#user_assigned_identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#user_assigned_identity_id ContainerGroup#user_assigned_identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#username ContainerGroup#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#username ContainerGroup#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

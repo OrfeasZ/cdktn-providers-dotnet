@@ -7,7 +7,7 @@ namespace azurerm.DynatraceMonitor
     [JsiiInterface(nativeType: typeof(IDynatraceMonitorIdentity), fullyQualifiedName: "azurerm.dynatraceMonitor.DynatraceMonitorIdentity")]
     public interface IDynatraceMonitorIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dynatrace_monitor#type DynatraceMonitor#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#type DynatraceMonitor#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.DynatraceMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dynatrace_monitor#type DynatraceMonitor#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#type DynatraceMonitor#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

@@ -77,12 +77,6 @@ namespace azurerm.NetappVolume
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetProtocolsEnabled")]
-        public virtual void ResetProtocolsEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetRootAccessEnabled")]
         public virtual void ResetRootAccessEnabled()
         {
@@ -171,13 +165,6 @@ namespace azurerm.NetappVolume
         [JsiiOptional]
         [JsiiProperty(name: "protocolInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ProtocolInput
-        {
-            get => GetInstanceProperty<string[]?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "protocolsEnabledInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ProtocolsEnabledInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -408,13 +395,6 @@ namespace azurerm.NetappVolume
 
         [JsiiProperty(name: "protocol", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Protocol
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "protocolsEnabled", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ProtocolsEnabled
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.StorageAccountLocalUser
     [JsiiByValue(fqn: "azurerm.storageAccountLocalUser.StorageAccountLocalUserSshAuthorizedKey")]
     public class StorageAccountLocalUserSshAuthorizedKey : azurerm.StorageAccountLocalUser.IStorageAccountLocalUserSshAuthorizedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_local_user#key StorageAccountLocalUser#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#key StorageAccountLocalUser#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageAccountLocalUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account_local_user#description StorageAccountLocalUser#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#description StorageAccountLocalUser#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

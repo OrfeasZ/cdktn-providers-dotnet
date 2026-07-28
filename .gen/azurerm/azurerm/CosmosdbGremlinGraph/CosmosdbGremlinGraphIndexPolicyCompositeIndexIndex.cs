@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbGremlinGraph
     [JsiiByValue(fqn: "azurerm.cosmosdbGremlinGraph.CosmosdbGremlinGraphIndexPolicyCompositeIndexIndex")]
     public class CosmosdbGremlinGraphIndexPolicyCompositeIndexIndex : azurerm.CosmosdbGremlinGraph.ICosmosdbGremlinGraphIndexPolicyCompositeIndexIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
         public string Order
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbGremlinGraph
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {

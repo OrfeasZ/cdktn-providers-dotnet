@@ -9,7 +9,7 @@ namespace azurerm.ManagedDiskSasToken
     [JsiiByValue(fqn: "azurerm.managedDiskSasToken.ManagedDiskSasTokenConfig")]
     public class ManagedDiskSasTokenConfig : azurerm.ManagedDiskSasToken.IManagedDiskSasTokenConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk_sas_token#access_level ManagedDiskSasToken#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk_sas_token#access_level ManagedDiskSasToken#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessLevel
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedDiskSasToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk_sas_token#duration_in_seconds ManagedDiskSasToken#duration_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk_sas_token#duration_in_seconds ManagedDiskSasToken#duration_in_seconds}.</summary>
         [JsiiProperty(name: "durationInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double DurationInSeconds
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagedDiskSasToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk_sas_token#managed_disk_id ManagedDiskSasToken#managed_disk_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk_sas_token#managed_disk_id ManagedDiskSasToken#managed_disk_id}.</summary>
         [JsiiProperty(name: "managedDiskId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedDiskId
         {
@@ -33,7 +33,7 @@ namespace azurerm.ManagedDiskSasToken
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk_sas_token#id ManagedDiskSasToken#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk_sas_token#id ManagedDiskSasToken#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.ManagedDiskSasToken
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk_sas_token#timeouts ManagedDiskSasToken#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk_sas_token#timeouts ManagedDiskSasToken#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managedDiskSasToken.ManagedDiskSasTokenTimeouts\"}", isOptional: true)]

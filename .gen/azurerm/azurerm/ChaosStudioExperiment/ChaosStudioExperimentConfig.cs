@@ -9,7 +9,7 @@ namespace azurerm.ChaosStudioExperiment
     [JsiiByValue(fqn: "azurerm.chaosStudioExperiment.ChaosStudioExperimentConfig")]
     public class ChaosStudioExperimentConfig : azurerm.ChaosStudioExperiment.IChaosStudioExperimentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#location ChaosStudioExperiment#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#location ChaosStudioExperiment#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.ChaosStudioExperiment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ChaosStudioExperiment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#resource_group_name ChaosStudioExperiment#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#resource_group_name ChaosStudioExperiment#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -37,7 +37,7 @@ namespace azurerm.ChaosStudioExperiment
 
         /// <summary>selectors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#selectors ChaosStudioExperiment#selectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#selectors ChaosStudioExperiment#selectors}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ChaosStudioExperiment.IChaosStudioExperimentSelectors" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "selectors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentSelectors\"},\"kind\":\"array\"}}]}}")]
@@ -71,7 +71,7 @@ namespace azurerm.ChaosStudioExperiment
 
         /// <summary>steps block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#steps ChaosStudioExperiment#steps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#steps ChaosStudioExperiment#steps}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ChaosStudioExperiment.IChaosStudioExperimentSteps" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "steps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentSteps\"},\"kind\":\"array\"}}]}}")]
@@ -101,7 +101,7 @@ namespace azurerm.ChaosStudioExperiment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#id ChaosStudioExperiment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#id ChaosStudioExperiment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,7 +116,7 @@ namespace azurerm.ChaosStudioExperiment
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#identity ChaosStudioExperiment#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#identity ChaosStudioExperiment#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentIdentity\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace azurerm.ChaosStudioExperiment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/chaos_studio_experiment#timeouts ChaosStudioExperiment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/chaos_studio_experiment#timeouts ChaosStudioExperiment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentTimeouts\"}", isOptional: true)]

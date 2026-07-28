@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAppServiceCertificate
     [JsiiInterface(nativeType: typeof(IDataAzurermAppServiceCertificateTimeouts), fullyQualifiedName: "azurerm.dataAzurermAppServiceCertificate.DataAzurermAppServiceCertificateTimeouts")]
     public interface IDataAzurermAppServiceCertificateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAppServiceCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/app_service_certificate#read DataAzurermAppServiceCertificate#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermElasticSan
     [JsiiInterface(nativeType: typeof(IDataAzurermElasticSanTimeouts), fullyQualifiedName: "azurerm.dataAzurermElasticSan.DataAzurermElasticSanTimeouts")]
     public interface IDataAzurermElasticSanTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/elastic_san#read DataAzurermElasticSan#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/elastic_san#read DataAzurermElasticSan#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermElasticSan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/elastic_san#read DataAzurermElasticSan#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/elastic_san#read DataAzurermElasticSan#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

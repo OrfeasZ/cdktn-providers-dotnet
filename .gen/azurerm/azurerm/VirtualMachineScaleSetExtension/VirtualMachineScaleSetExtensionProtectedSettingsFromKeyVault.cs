@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineScaleSetExtension
     [JsiiByValue(fqn: "azurerm.virtualMachineScaleSetExtension.VirtualMachineScaleSetExtensionProtectedSettingsFromKeyVault")]
     public class VirtualMachineScaleSetExtensionProtectedSettingsFromKeyVault : azurerm.VirtualMachineScaleSetExtension.IVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVault
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_scale_set_extension#secret_url VirtualMachineScaleSetExtensionA#secret_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_scale_set_extension#secret_url VirtualMachineScaleSetExtensionA#secret_url}.</summary>
         [JsiiProperty(name: "secretUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachineScaleSetExtension
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_machine_scale_set_extension#source_vault_id VirtualMachineScaleSetExtensionA#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_scale_set_extension#source_vault_id VirtualMachineScaleSetExtensionA#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {

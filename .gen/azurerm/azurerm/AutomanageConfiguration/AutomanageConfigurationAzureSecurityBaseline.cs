@@ -7,7 +7,7 @@ namespace azurerm.AutomanageConfiguration
     [JsiiByValue(fqn: "azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaseline")]
     public class AutomanageConfigurationAzureSecurityBaseline : azurerm.AutomanageConfiguration.IAutomanageConfigurationAzureSecurityBaseline
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssignmentType

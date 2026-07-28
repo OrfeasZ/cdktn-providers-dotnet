@@ -9,7 +9,7 @@ namespace azurerm.LinuxVirtualMachine
     [JsiiByValue(fqn: "azurerm.linuxVirtualMachine.LinuxVirtualMachinePlan")]
     public class LinuxVirtualMachinePlan : azurerm.LinuxVirtualMachine.ILinuxVirtualMachinePlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#name LinuxVirtualMachine#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#name LinuxVirtualMachine#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#product LinuxVirtualMachine#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#product LinuxVirtualMachine#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
         {
@@ -25,7 +25,7 @@ namespace azurerm.LinuxVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#publisher LinuxVirtualMachine#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#publisher LinuxVirtualMachine#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         public string Publisher
         {

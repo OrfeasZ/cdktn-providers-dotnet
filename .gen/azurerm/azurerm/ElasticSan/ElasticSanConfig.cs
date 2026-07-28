@@ -9,7 +9,7 @@ namespace azurerm.ElasticSan
     [JsiiByValue(fqn: "azurerm.elasticSan.ElasticSanConfig")]
     public class ElasticSanConfig : azurerm.ElasticSan.IElasticSanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#base_size_in_tib ElasticSan#base_size_in_tib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#base_size_in_tib ElasticSan#base_size_in_tib}.</summary>
         [JsiiProperty(name: "baseSizeInTib", typeJson: "{\"primitive\":\"number\"}")]
         public double BaseSizeInTib
         {
@@ -17,7 +17,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#location ElasticSan#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#location ElasticSan#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#name ElasticSan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#name ElasticSan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#resource_group_name ElasticSan#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#resource_group_name ElasticSan#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -43,7 +43,7 @@ namespace azurerm.ElasticSan
 
         /// <summary>sku block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#sku ElasticSan#sku}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#sku ElasticSan#sku}
         /// </remarks>
         [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.elasticSan.ElasticSanSku\"}")]
         public azurerm.ElasticSan.IElasticSanSku Sku
@@ -52,7 +52,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#extended_size_in_tib ElasticSan#extended_size_in_tib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#extended_size_in_tib ElasticSan#extended_size_in_tib}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extendedSizeInTib", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExtendedSizeInTib
@@ -61,7 +61,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#id ElasticSan#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#id ElasticSan#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#tags ElasticSan#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#tags ElasticSan#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -85,7 +85,7 @@ namespace azurerm.ElasticSan
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#timeouts ElasticSan#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#timeouts ElasticSan#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.elasticSan.ElasticSanTimeouts\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san#zones ElasticSan#zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san#zones ElasticSan#zones}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Zones

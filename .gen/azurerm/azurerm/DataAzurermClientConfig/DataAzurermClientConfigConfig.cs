@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermClientConfig
     [JsiiByValue(fqn: "azurerm.dataAzurermClientConfig.DataAzurermClientConfigConfig")]
     public class DataAzurermClientConfigConfig : azurerm.DataAzurermClientConfig.IDataAzurermClientConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/client_config#id DataAzurermClientConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/client_config#id DataAzurermClientConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace azurerm.DataAzurermClientConfig
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/client_config#timeouts DataAzurermClientConfig#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/client_config#timeouts DataAzurermClientConfig#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermClientConfig.DataAzurermClientConfigTimeouts\"}", isOptional: true)]

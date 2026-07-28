@@ -7,28 +7,28 @@ namespace azurerm.MarketplaceAgreement
     [JsiiInterface(nativeType: typeof(IMarketplaceAgreementConfig), fullyQualifiedName: "azurerm.marketplaceAgreement.MarketplaceAgreementConfig")]
     public interface IMarketplaceAgreementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#offer MarketplaceAgreement#offer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#offer MarketplaceAgreement#offer}.</summary>
         [JsiiProperty(name: "offer", typeJson: "{\"primitive\":\"string\"}")]
         string Offer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#plan MarketplaceAgreement#plan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#plan MarketplaceAgreement#plan}.</summary>
         [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}")]
         string Plan
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#publisher MarketplaceAgreement#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#publisher MarketplaceAgreement#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         string Publisher
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#id MarketplaceAgreement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#id MarketplaceAgreement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace azurerm.MarketplaceAgreement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#timeouts MarketplaceAgreement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#timeouts MarketplaceAgreement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.marketplaceAgreement.MarketplaceAgreementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,28 +64,28 @@ namespace azurerm.MarketplaceAgreement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#offer MarketplaceAgreement#offer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#offer MarketplaceAgreement#offer}.</summary>
             [JsiiProperty(name: "offer", typeJson: "{\"primitive\":\"string\"}")]
             public string Offer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#plan MarketplaceAgreement#plan}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#plan MarketplaceAgreement#plan}.</summary>
             [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}")]
             public string Plan
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#publisher MarketplaceAgreement#publisher}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#publisher MarketplaceAgreement#publisher}.</summary>
             [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
             public string Publisher
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#id MarketplaceAgreement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#id MarketplaceAgreement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace azurerm.MarketplaceAgreement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/marketplace_agreement#timeouts MarketplaceAgreement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/marketplace_agreement#timeouts MarketplaceAgreement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.marketplaceAgreement.MarketplaceAgreementTimeouts\"}", isOptional: true)]

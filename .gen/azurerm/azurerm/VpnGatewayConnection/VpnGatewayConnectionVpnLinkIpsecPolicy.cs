@@ -9,7 +9,7 @@ namespace azurerm.VpnGatewayConnection
     [JsiiByValue(fqn: "azurerm.vpnGatewayConnection.VpnGatewayConnectionVpnLinkIpsecPolicy")]
     public class VpnGatewayConnectionVpnLinkIpsecPolicy : azurerm.VpnGatewayConnection.IVpnGatewayConnectionVpnLinkIpsecPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#dh_group VpnGatewayConnection#dh_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#dh_group VpnGatewayConnection#dh_group}.</summary>
         [JsiiProperty(name: "dhGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string DhGroup
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#encryption_algorithm VpnGatewayConnection#encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#encryption_algorithm VpnGatewayConnection#encryption_algorithm}.</summary>
         [JsiiProperty(name: "encryptionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string EncryptionAlgorithm
         {
@@ -25,7 +25,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ike_encryption_algorithm VpnGatewayConnection#ike_encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#ike_encryption_algorithm VpnGatewayConnection#ike_encryption_algorithm}.</summary>
         [JsiiProperty(name: "ikeEncryptionAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeEncryptionAlgorithm
         {
@@ -33,7 +33,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#ike_integrity_algorithm VpnGatewayConnection#ike_integrity_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#ike_integrity_algorithm VpnGatewayConnection#ike_integrity_algorithm}.</summary>
         [JsiiProperty(name: "ikeIntegrityAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeIntegrityAlgorithm
         {
@@ -41,7 +41,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#integrity_algorithm VpnGatewayConnection#integrity_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#integrity_algorithm VpnGatewayConnection#integrity_algorithm}.</summary>
         [JsiiProperty(name: "integrityAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string IntegrityAlgorithm
         {
@@ -49,7 +49,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#pfs_group VpnGatewayConnection#pfs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#pfs_group VpnGatewayConnection#pfs_group}.</summary>
         [JsiiProperty(name: "pfsGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string PfsGroup
         {
@@ -57,7 +57,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#sa_data_size_kb VpnGatewayConnection#sa_data_size_kb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#sa_data_size_kb VpnGatewayConnection#sa_data_size_kb}.</summary>
         [JsiiProperty(name: "saDataSizeKb", typeJson: "{\"primitive\":\"number\"}")]
         public double SaDataSizeKb
         {
@@ -65,7 +65,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_gateway_connection#sa_lifetime_sec VpnGatewayConnection#sa_lifetime_sec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_gateway_connection#sa_lifetime_sec VpnGatewayConnection#sa_lifetime_sec}.</summary>
         [JsiiProperty(name: "saLifetimeSec", typeJson: "{\"primitive\":\"number\"}")]
         public double SaLifetimeSec
         {

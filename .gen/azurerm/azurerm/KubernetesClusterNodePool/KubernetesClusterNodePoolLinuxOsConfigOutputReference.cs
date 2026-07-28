@@ -63,12 +63,6 @@ namespace azurerm.KubernetesClusterNodePool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetTransparentHugePageEnabled")]
-        public virtual void ResetTransparentHugePageEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "sysctlConfig", typeJson: "{\"fqn\":\"azurerm.kubernetesClusterNodePool.KubernetesClusterNodePoolLinuxOsConfigSysctlConfigOutputReference\"}")]
         public virtual azurerm.KubernetesClusterNodePool.KubernetesClusterNodePoolLinuxOsConfigSysctlConfigOutputReference SysctlConfig
         {
@@ -97,13 +91,6 @@ namespace azurerm.KubernetesClusterNodePool
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "transparentHugePageEnabledInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? TransparentHugePageEnabledInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "transparentHugePageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TransparentHugePageInput
         {
@@ -126,13 +113,6 @@ namespace azurerm.KubernetesClusterNodePool
 
         [JsiiProperty(name: "transparentHugePageDefrag", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TransparentHugePageDefrag
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "transparentHugePageEnabled", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string TransparentHugePageEnabled
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

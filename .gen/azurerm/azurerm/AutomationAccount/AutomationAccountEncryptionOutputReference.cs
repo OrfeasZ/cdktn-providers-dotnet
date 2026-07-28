@@ -35,23 +35,10 @@ namespace azurerm.AutomationAccount
         {
         }
 
-        [JsiiMethod(name: "resetKeySource")]
-        public virtual void ResetKeySource()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetUserAssignedIdentityId")]
         public virtual void ResetUserAssignedIdentityId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "keySourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? KeySourceInput
-        {
-            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -66,13 +53,6 @@ namespace azurerm.AutomationAccount
         public virtual string? UserAssignedIdentityIdInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "keySource", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string KeySource
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermContainerRegistryToken
     [JsiiByValue(fqn: "azurerm.dataAzurermContainerRegistryToken.DataAzurermContainerRegistryTokenTimeouts")]
     public class DataAzurermContainerRegistryTokenTimeouts : azurerm.DataAzurermContainerRegistryToken.IDataAzurermContainerRegistryTokenTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/container_registry_token#read DataAzurermContainerRegistryToken#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/container_registry_token#read DataAzurermContainerRegistryToken#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

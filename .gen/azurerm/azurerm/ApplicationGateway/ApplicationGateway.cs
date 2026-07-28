@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.ApplicationGateway
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway azurerm_application_gateway}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway azurerm_application_gateway}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.ApplicationGateway.ApplicationGateway), fullyQualifiedName: "azurerm.applicationGateway.ApplicationGateway", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayConfig\"}}]")]
     public class ApplicationGateway : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway azurerm_application_gateway} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway azurerm_application_gateway} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ApplicationGateway(Constructs.Construct scope, string id, azurerm.ApplicationGateway.IApplicationGatewayConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,34 +40,10 @@ namespace azurerm.ApplicationGateway
         /// <param name="importToId">The construct id used in the generated config for the ApplicationGateway to import.</param>
         /// <param name="importFromId">The id of the existing ApplicationGateway that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ApplicationGateway to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApplicationGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApplicationGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApplicationGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApplicationGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApplicationGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApplicationGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.ApplicationGateway.ApplicationGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
-        }
-
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayAuthenticationCertificate" />)[]</param>
-        [JsiiMethod(name: "putAuthenticationCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificate\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutAuthenticationCertificate(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case azurerm.ApplicationGateway.IApplicationGatewayAuthenticationCertificate[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApplicationGateway.IApplicationGatewayAuthenticationCertificate).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApplicationGateway.IApplicationGatewayAuthenticationCertificate).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putAutoscaleConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAutoscaleConfiguration\"}}]")]
@@ -592,12 +568,6 @@ namespace azurerm.ApplicationGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.ApplicationGateway.IApplicationGatewayWafConfiguration)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetAuthenticationCertificate")]
-        public virtual void ResetAuthenticationCertificate()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetAutoscaleConfiguration")]
         public virtual void ResetAutoscaleConfiguration()
         {
@@ -618,12 +588,6 @@ namespace azurerm.ApplicationGateway
 
         [JsiiMethod(name: "resetCustomErrorConfiguration")]
         public virtual void ResetCustomErrorConfiguration()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetEnableHttp2")]
-        public virtual void ResetEnableHttp2()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -797,12 +761,6 @@ namespace azurerm.ApplicationGateway
         }
         = GetStaticProperty<string>(typeof(azurerm.ApplicationGateway.ApplicationGateway))!;
 
-        [JsiiProperty(name: "authenticationCertificate", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificateList\"}")]
-        public virtual azurerm.ApplicationGateway.ApplicationGatewayAuthenticationCertificateList AuthenticationCertificate
-        {
-            get => GetInstanceProperty<azurerm.ApplicationGateway.ApplicationGatewayAuthenticationCertificateList>()!;
-        }
-
         [JsiiProperty(name: "autoscaleConfiguration", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAutoscaleConfigurationOutputReference\"}")]
         public virtual azurerm.ApplicationGateway.ApplicationGatewayAutoscaleConfigurationOutputReference AutoscaleConfiguration
         {
@@ -971,16 +929,6 @@ namespace azurerm.ApplicationGateway
             get => GetInstanceProperty<azurerm.ApplicationGateway.ApplicationGatewayWafConfigurationOutputReference>()!;
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayAuthenticationCertificate" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "authenticationCertificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAuthenticationCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? AuthenticationCertificateInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "autoscaleConfigurationInput", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayAutoscaleConfiguration\"}", isOptional: true)]
         public virtual azurerm.ApplicationGateway.IApplicationGatewayAutoscaleConfiguration? AutoscaleConfigurationInput
@@ -1024,16 +972,6 @@ namespace azurerm.ApplicationGateway
         [JsiiOptional]
         [JsiiProperty(name: "customErrorConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayCustomErrorConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? CustomErrorConfigurationInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "enableHttp2Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableHttp2Input
         {
             get => GetInstanceProperty<object?>();
         }
@@ -1320,36 +1258,6 @@ namespace azurerm.ApplicationGateway
         public virtual string[]? ZonesInput
         {
             get => GetInstanceProperty<string[]?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiProperty(name: "enableHttp2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableHttp2
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         /// <remarks>

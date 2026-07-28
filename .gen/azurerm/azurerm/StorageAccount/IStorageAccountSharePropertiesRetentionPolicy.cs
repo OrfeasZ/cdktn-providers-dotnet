@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountSharePropertiesRetentionPolicy), fullyQualifiedName: "azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicy")]
     public interface IStorageAccountSharePropertiesRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Days
@@ -25,7 +25,7 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Days

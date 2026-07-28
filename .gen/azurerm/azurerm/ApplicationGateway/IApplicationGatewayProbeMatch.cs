@@ -7,14 +7,14 @@ namespace azurerm.ApplicationGateway
     [JsiiInterface(nativeType: typeof(IApplicationGatewayProbeMatch), fullyQualifiedName: "azurerm.applicationGateway.ApplicationGatewayProbeMatch")]
     public interface IApplicationGatewayProbeMatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway#status_code ApplicationGateway#status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway#status_code ApplicationGateway#status_code}.</summary>
         [JsiiProperty(name: "statusCode", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] StatusCode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway#body ApplicationGateway#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway#body ApplicationGateway#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Body
@@ -32,14 +32,14 @@ namespace azurerm.ApplicationGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway#status_code ApplicationGateway#status_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway#status_code ApplicationGateway#status_code}.</summary>
             [JsiiProperty(name: "statusCode", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] StatusCode
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/application_gateway#body ApplicationGateway#body}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/application_gateway#body ApplicationGateway#body}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Body

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermTrustedSigningAccount
     [JsiiInterface(nativeType: typeof(IDataAzurermTrustedSigningAccountTimeouts), fullyQualifiedName: "azurerm.dataAzurermTrustedSigningAccount.DataAzurermTrustedSigningAccountTimeouts")]
     public interface IDataAzurermTrustedSigningAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/trusted_signing_account#read DataAzurermTrustedSigningAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/trusted_signing_account#read DataAzurermTrustedSigningAccount#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermTrustedSigningAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/trusted_signing_account#read DataAzurermTrustedSigningAccount#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/trusted_signing_account#read DataAzurermTrustedSigningAccount#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

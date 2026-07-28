@@ -7,7 +7,7 @@ namespace azurerm.SynapseSparkPool
     [JsiiInterface(nativeType: typeof(ISynapseSparkPoolAutoPause), fullyQualifiedName: "azurerm.synapseSparkPool.SynapseSparkPoolAutoPause")]
     public interface ISynapseSparkPoolAutoPause
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#delay_in_minutes SynapseSparkPool#delay_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_spark_pool#delay_in_minutes SynapseSparkPool#delay_in_minutes}.</summary>
         [JsiiProperty(name: "delayInMinutes", typeJson: "{\"primitive\":\"number\"}")]
         double DelayInMinutes
         {
@@ -21,7 +21,7 @@ namespace azurerm.SynapseSparkPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/synapse_spark_pool#delay_in_minutes SynapseSparkPool#delay_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_spark_pool#delay_in_minutes SynapseSparkPool#delay_in_minutes}.</summary>
             [JsiiProperty(name: "delayInMinutes", typeJson: "{\"primitive\":\"number\"}")]
             public double DelayInMinutes
             {

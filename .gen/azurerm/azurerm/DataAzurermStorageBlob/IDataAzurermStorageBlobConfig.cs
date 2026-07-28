@@ -7,14 +7,21 @@ namespace azurerm.DataAzurermStorageBlob
     [JsiiInterface(nativeType: typeof(IDataAzurermStorageBlobConfig), fullyQualifiedName: "azurerm.dataAzurermStorageBlob.DataAzurermStorageBlobConfig")]
     public interface IDataAzurermStorageBlobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#name DataAzurermStorageBlob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#name DataAzurermStorageBlob#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#id DataAzurermStorageBlob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#storage_container_id DataAzurermStorageBlob#storage_container_id}.</summary>
+        [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
+        string StorageContainerId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#id DataAzurermStorageBlob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +36,7 @@ namespace azurerm.DataAzurermStorageBlob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#metadata DataAzurermStorageBlob#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#metadata DataAzurermStorageBlob#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -40,42 +47,9 @@ namespace azurerm.DataAzurermStorageBlob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_account_name DataAzurermStorageBlob#storage_account_name}.</summary>
-        [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? StorageAccountName
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_container_id DataAzurermStorageBlob#storage_container_id}.</summary>
-        [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? StorageContainerId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_container_name DataAzurermStorageBlob#storage_container_name}.</summary>
-        [JsiiProperty(name: "storageContainerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? StorageContainerName
-        {
-            get
-            {
-                return null;
-            }
-        }
-
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#timeouts DataAzurermStorageBlob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#timeouts DataAzurermStorageBlob#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageBlob.DataAzurermStorageBlobTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,14 +68,21 @@ namespace azurerm.DataAzurermStorageBlob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#name DataAzurermStorageBlob#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#name DataAzurermStorageBlob#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#id DataAzurermStorageBlob#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#storage_container_id DataAzurermStorageBlob#storage_container_id}.</summary>
+            [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
+            public string StorageContainerId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#id DataAzurermStorageBlob#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +94,7 @@ namespace azurerm.DataAzurermStorageBlob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#metadata DataAzurermStorageBlob#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#metadata DataAzurermStorageBlob#metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -121,33 +102,9 @@ namespace azurerm.DataAzurermStorageBlob
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_account_name DataAzurermStorageBlob#storage_account_name}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? StorageAccountName
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_container_id DataAzurermStorageBlob#storage_container_id}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? StorageContainerId
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#storage_container_name DataAzurermStorageBlob#storage_container_name}.</summary>
-            [JsiiOptional]
-            [JsiiProperty(name: "storageContainerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? StorageContainerName
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#timeouts DataAzurermStorageBlob#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#timeouts DataAzurermStorageBlob#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageBlob.DataAzurermStorageBlobTimeouts\"}", isOptional: true)]

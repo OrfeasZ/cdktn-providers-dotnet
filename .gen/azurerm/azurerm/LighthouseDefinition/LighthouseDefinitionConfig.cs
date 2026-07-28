@@ -13,7 +13,7 @@ namespace azurerm.LighthouseDefinition
 
         /// <summary>authorization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#authorization LighthouseDefinition#authorization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#authorization LighthouseDefinition#authorization}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LighthouseDefinition.ILighthouseDefinitionAuthorization" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "authorization", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.lighthouseDefinition.LighthouseDefinitionAuthorization\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace azurerm.LighthouseDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#managing_tenant_id LighthouseDefinition#managing_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#managing_tenant_id LighthouseDefinition#managing_tenant_id}.</summary>
         [JsiiProperty(name: "managingTenantId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagingTenantId
         {
@@ -51,7 +51,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#name LighthouseDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#name LighthouseDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -59,7 +59,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#scope LighthouseDefinition#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#scope LighthouseDefinition#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -67,7 +67,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#description LighthouseDefinition#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#description LighthouseDefinition#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -80,7 +80,7 @@ namespace azurerm.LighthouseDefinition
 
         /// <summary>eligible_authorization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#eligible_authorization LighthouseDefinition#eligible_authorization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#eligible_authorization LighthouseDefinition#eligible_authorization}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LighthouseDefinition.ILighthouseDefinitionEligibleAuthorization" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -111,7 +111,7 @@ namespace azurerm.LighthouseDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#id LighthouseDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#id LighthouseDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#lighthouse_definition_id LighthouseDefinition#lighthouse_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#lighthouse_definition_id LighthouseDefinition#lighthouse_definition_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lighthouseDefinitionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LighthouseDefinitionId
@@ -135,7 +135,7 @@ namespace azurerm.LighthouseDefinition
 
         /// <summary>plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#plan LighthouseDefinition#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#plan LighthouseDefinition#plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "plan", typeJson: "{\"fqn\":\"azurerm.lighthouseDefinition.LighthouseDefinitionPlan\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace azurerm.LighthouseDefinition
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/lighthouse_definition#timeouts LighthouseDefinition#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#timeouts LighthouseDefinition#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.lighthouseDefinition.LighthouseDefinitionTimeouts\"}", isOptional: true)]

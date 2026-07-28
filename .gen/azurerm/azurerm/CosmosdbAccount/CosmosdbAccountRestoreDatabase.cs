@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountRestoreDatabase")]
     public class CosmosdbAccountRestoreDatabase : azurerm.CosmosdbAccount.ICosmosdbAccountRestoreDatabase
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#collection_names CosmosdbAccount#collection_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#collection_names CosmosdbAccount#collection_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collectionNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CollectionNames

@@ -7,7 +7,7 @@ namespace azurerm.CognitiveDeployment
     [JsiiInterface(nativeType: typeof(ICognitiveDeploymentConfig), fullyQualifiedName: "azurerm.cognitiveDeployment.CognitiveDeploymentConfig")]
     public interface ICognitiveDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#cognitive_account_id CognitiveDeployment#cognitive_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#cognitive_account_id CognitiveDeployment#cognitive_account_id}.</summary>
         [JsiiProperty(name: "cognitiveAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string CognitiveAccountId
         {
@@ -16,7 +16,7 @@ namespace azurerm.CognitiveDeployment
 
         /// <summary>model block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#model CognitiveDeployment#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#model CognitiveDeployment#model}
         /// </remarks>
         [JsiiProperty(name: "model", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentModel\"}")]
         azurerm.CognitiveDeployment.ICognitiveDeploymentModel Model
@@ -24,7 +24,7 @@ namespace azurerm.CognitiveDeployment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.CognitiveDeployment
 
         /// <summary>sku block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#sku CognitiveDeployment#sku}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#sku CognitiveDeployment#sku}
         /// </remarks>
         [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentSku\"}")]
         azurerm.CognitiveDeployment.ICognitiveDeploymentSku Sku
@@ -41,7 +41,7 @@ namespace azurerm.CognitiveDeployment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#dynamic_throttling_enabled CognitiveDeployment#dynamic_throttling_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#dynamic_throttling_enabled CognitiveDeployment#dynamic_throttling_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace azurerm.CognitiveDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#id CognitiveDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#id CognitiveDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace azurerm.CognitiveDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#rai_policy_name CognitiveDeployment#rai_policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#rai_policy_name CognitiveDeployment#rai_policy_name}.</summary>
         [JsiiProperty(name: "raiPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RaiPolicyName
@@ -83,7 +83,7 @@ namespace azurerm.CognitiveDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#timeouts CognitiveDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#timeouts CognitiveDeployment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace azurerm.CognitiveDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#version_upgrade_option CognitiveDeployment#version_upgrade_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#version_upgrade_option CognitiveDeployment#version_upgrade_option}.</summary>
         [JsiiProperty(name: "versionUpgradeOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VersionUpgradeOption
@@ -113,7 +113,7 @@ namespace azurerm.CognitiveDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#cognitive_account_id CognitiveDeployment#cognitive_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#cognitive_account_id CognitiveDeployment#cognitive_account_id}.</summary>
             [JsiiProperty(name: "cognitiveAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string CognitiveAccountId
             {
@@ -122,7 +122,7 @@ namespace azurerm.CognitiveDeployment
 
             /// <summary>model block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#model CognitiveDeployment#model}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#model CognitiveDeployment#model}
             /// </remarks>
             [JsiiProperty(name: "model", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentModel\"}")]
             public azurerm.CognitiveDeployment.ICognitiveDeploymentModel Model
@@ -130,7 +130,7 @@ namespace azurerm.CognitiveDeployment
                 get => GetInstanceProperty<azurerm.CognitiveDeployment.ICognitiveDeploymentModel>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -139,7 +139,7 @@ namespace azurerm.CognitiveDeployment
 
             /// <summary>sku block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#sku CognitiveDeployment#sku}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#sku CognitiveDeployment#sku}
             /// </remarks>
             [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentSku\"}")]
             public azurerm.CognitiveDeployment.ICognitiveDeploymentSku Sku
@@ -147,7 +147,7 @@ namespace azurerm.CognitiveDeployment
                 get => GetInstanceProperty<azurerm.CognitiveDeployment.ICognitiveDeploymentSku>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#dynamic_throttling_enabled CognitiveDeployment#dynamic_throttling_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#dynamic_throttling_enabled CognitiveDeployment#dynamic_throttling_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -158,7 +158,7 @@ namespace azurerm.CognitiveDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#id CognitiveDeployment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#id CognitiveDeployment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace azurerm.CognitiveDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#rai_policy_name CognitiveDeployment#rai_policy_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#rai_policy_name CognitiveDeployment#rai_policy_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "raiPolicyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RaiPolicyName
@@ -180,7 +180,7 @@ namespace azurerm.CognitiveDeployment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#timeouts CognitiveDeployment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#timeouts CognitiveDeployment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cognitiveDeployment.CognitiveDeploymentTimeouts\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace azurerm.CognitiveDeployment
                 get => GetInstanceProperty<azurerm.CognitiveDeployment.ICognitiveDeploymentTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_deployment#version_upgrade_option CognitiveDeployment#version_upgrade_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_deployment#version_upgrade_option CognitiveDeployment#version_upgrade_option}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "versionUpgradeOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VersionUpgradeOption

@@ -11,7 +11,7 @@ namespace azurerm.StorageManagementPolicy
     {
         /// <summary>actions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_management_policy#actions StorageManagementPolicy#actions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_management_policy#actions StorageManagementPolicy#actions}
         /// </remarks>
         [JsiiProperty(name: "actions", typeJson: "{\"fqn\":\"azurerm.storageManagementPolicy.StorageManagementPolicyRuleActions\"}")]
         public azurerm.StorageManagementPolicy.IStorageManagementPolicyRuleActions Actions
@@ -22,7 +22,7 @@ namespace azurerm.StorageManagementPolicy
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_management_policy#enabled StorageManagementPolicy#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_management_policy#enabled StorageManagementPolicy#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace azurerm.StorageManagementPolicy
 
         /// <summary>filters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_management_policy#filters StorageManagementPolicy#filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_management_policy#filters StorageManagementPolicy#filters}
         /// </remarks>
         [JsiiProperty(name: "filters", typeJson: "{\"fqn\":\"azurerm.storageManagementPolicy.StorageManagementPolicyRuleFilters\"}")]
         public azurerm.StorageManagementPolicy.IStorageManagementPolicyRuleFilters Filters
@@ -64,7 +64,7 @@ namespace azurerm.StorageManagementPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_management_policy#name StorageManagementPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_management_policy#name StorageManagementPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

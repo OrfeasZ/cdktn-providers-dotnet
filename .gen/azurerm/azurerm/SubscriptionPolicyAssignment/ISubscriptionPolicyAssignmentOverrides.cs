@@ -7,7 +7,7 @@ namespace azurerm.SubscriptionPolicyAssignment
     [JsiiInterface(nativeType: typeof(ISubscriptionPolicyAssignmentOverrides), fullyQualifiedName: "azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignmentOverrides")]
     public interface ISubscriptionPolicyAssignmentOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subscription_policy_assignment#value SubscriptionPolicyAssignment#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_policy_assignment#value SubscriptionPolicyAssignment#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -16,7 +16,7 @@ namespace azurerm.SubscriptionPolicyAssignment
 
         /// <summary>selectors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subscription_policy_assignment#selectors SubscriptionPolicyAssignment#selectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_policy_assignment#selectors SubscriptionPolicyAssignment#selectors}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentOverridesSelectors" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "selectors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionPolicyAssignment.SubscriptionPolicyAssignmentOverridesSelectors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azurerm.SubscriptionPolicyAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subscription_policy_assignment#value SubscriptionPolicyAssignment#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_policy_assignment#value SubscriptionPolicyAssignment#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
@@ -45,7 +45,7 @@ namespace azurerm.SubscriptionPolicyAssignment
 
             /// <summary>selectors block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subscription_policy_assignment#selectors SubscriptionPolicyAssignment#selectors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_policy_assignment#selectors SubscriptionPolicyAssignment#selectors}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionPolicyAssignment.ISubscriptionPolicyAssignmentOverridesSelectors" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageBlob
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageBlob.DataAzurermStorageBlobTimeouts")]
     public class DataAzurermStorageBlobTimeouts : azurerm.DataAzurermStorageBlob.IDataAzurermStorageBlobTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_blob#read DataAzurermStorageBlob#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_blob#read DataAzurermStorageBlob#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

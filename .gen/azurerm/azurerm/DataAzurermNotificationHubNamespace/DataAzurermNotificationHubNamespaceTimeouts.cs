@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNotificationHubNamespace
     [JsiiByValue(fqn: "azurerm.dataAzurermNotificationHubNamespace.DataAzurermNotificationHubNamespaceTimeouts")]
     public class DataAzurermNotificationHubNamespaceTimeouts : azurerm.DataAzurermNotificationHubNamespace.IDataAzurermNotificationHubNamespaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/notification_hub_namespace#read DataAzurermNotificationHubNamespace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/notification_hub_namespace#read DataAzurermNotificationHubNamespace#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
     [JsiiByValue(fqn: "azurerm.logicAppIntegrationAccountSession.LogicAppIntegrationAccountSessionConfig")]
     public class LogicAppIntegrationAccountSessionConfig : azurerm.LogicAppIntegrationAccountSession.ILogicAppIntegrationAccountSessionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#content LogicAppIntegrationAccountSession#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#content LogicAppIntegrationAccountSession#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#integration_account_name LogicAppIntegrationAccountSession#integration_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#integration_account_name LogicAppIntegrationAccountSession#integration_account_name}.</summary>
         [JsiiProperty(name: "integrationAccountName", typeJson: "{\"primitive\":\"string\"}")]
         public string IntegrationAccountName
         {
@@ -25,7 +25,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#name LogicAppIntegrationAccountSession#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#name LogicAppIntegrationAccountSession#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#resource_group_name LogicAppIntegrationAccountSession#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#resource_group_name LogicAppIntegrationAccountSession#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#id LogicAppIntegrationAccountSession#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#id LogicAppIntegrationAccountSession#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azurerm.LogicAppIntegrationAccountSession
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_integration_account_session#timeouts LogicAppIntegrationAccountSession#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_integration_account_session#timeouts LogicAppIntegrationAccountSession#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.logicAppIntegrationAccountSession.LogicAppIntegrationAccountSessionTimeouts\"}", isOptional: true)]

@@ -37,8 +37,8 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "disableAutomaticRollbackInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? DisableAutomaticRollbackInput
+        [JsiiProperty(name: "automaticOsUpgradeEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AutomaticOsUpgradeEnabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -47,8 +47,8 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "enableAutomaticOsUpgradeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableAutomaticOsUpgradeInput
+        [JsiiProperty(name: "automaticRollbackEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AutomaticRollbackEnabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -56,8 +56,8 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "disableAutomaticRollback", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object DisableAutomaticRollback
+        [JsiiProperty(name: "automaticOsUpgradeEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AutomaticOsUpgradeEnabled
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -86,8 +86,8 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "enableAutomaticOsUpgrade", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableAutomaticOsUpgrade
+        [JsiiProperty(name: "automaticRollbackEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AutomaticRollbackEnabled
         {
             get => GetInstanceProperty<object>()!;
             set

@@ -9,7 +9,7 @@ namespace azurerm.HdinsightSparkCluster
     [JsiiByValue(fqn: "azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule")]
     public class HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule : azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#days HdinsightSparkCluster#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_spark_cluster#days HdinsightSparkCluster#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Days
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightSparkCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#target_instance_count HdinsightSparkCluster#target_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_spark_cluster#target_instance_count HdinsightSparkCluster#target_instance_count}.</summary>
         [JsiiProperty(name: "targetInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double TargetInstanceCount
         {
@@ -25,7 +25,7 @@ namespace azurerm.HdinsightSparkCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_spark_cluster#time HdinsightSparkCluster#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_spark_cluster#time HdinsightSparkCluster#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         public string Time
         {

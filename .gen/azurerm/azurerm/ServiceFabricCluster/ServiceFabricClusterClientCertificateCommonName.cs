@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonName")]
     public class ServiceFabricClusterClientCertificateCommonName : azurerm.ServiceFabricCluster.IServiceFabricClusterClientCertificateCommonName
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#common_name ServiceFabricCluster#common_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#common_name ServiceFabricCluster#common_name}.</summary>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
         public string CommonName
         {
@@ -19,7 +19,7 @@ namespace azurerm.ServiceFabricCluster
 
         private object _isAdmin;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#is_admin ServiceFabricCluster#is_admin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#is_admin ServiceFabricCluster#is_admin}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#issuer_thumbprint ServiceFabricCluster#issuer_thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#issuer_thumbprint ServiceFabricCluster#issuer_thumbprint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "issuerThumbprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IssuerThumbprint

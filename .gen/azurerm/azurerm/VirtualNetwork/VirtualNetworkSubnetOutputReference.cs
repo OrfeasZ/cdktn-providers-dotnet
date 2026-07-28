@@ -59,6 +59,30 @@ namespace azurerm.VirtualNetwork
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkSubnetServiceEndpoint" />)[]</param>
+        [JsiiMethod(name: "putServiceEndpoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkSubnetServiceEndpoint\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutServiceEndpoint(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case azurerm.VirtualNetwork.IVirtualNetworkSubnetServiceEndpoint[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.VirtualNetwork.IVirtualNetworkSubnetServiceEndpoint).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.VirtualNetwork.IVirtualNetworkSubnetServiceEndpoint).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAddressPrefixes")]
         public virtual void ResetAddressPrefixes()
         {
@@ -113,14 +137,14 @@ namespace azurerm.VirtualNetwork
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceEndpointPolicyIds")]
-        public virtual void ResetServiceEndpointPolicyIds()
+        [JsiiMethod(name: "resetServiceEndpoint")]
+        public virtual void ResetServiceEndpoint()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceEndpoints")]
-        public virtual void ResetServiceEndpoints()
+        [JsiiMethod(name: "resetServiceEndpointPolicyIds")]
+        public virtual void ResetServiceEndpointPolicyIds()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -129,6 +153,12 @@ namespace azurerm.VirtualNetwork
         public virtual azurerm.VirtualNetwork.VirtualNetworkSubnetDelegationList Delegation
         {
             get => GetInstanceProperty<azurerm.VirtualNetwork.VirtualNetworkSubnetDelegationList>()!;
+        }
+
+        [JsiiProperty(name: "serviceEndpoint", typeJson: "{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkSubnetServiceEndpointList\"}")]
+        public virtual azurerm.VirtualNetwork.VirtualNetworkSubnetServiceEndpointList ServiceEndpoint
+        {
+            get => GetInstanceProperty<azurerm.VirtualNetwork.VirtualNetworkSubnetServiceEndpointList>()!;
         }
 
         [JsiiOptional]
@@ -203,16 +233,19 @@ namespace azurerm.VirtualNetwork
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkSubnetServiceEndpoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "serviceEndpointPolicyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ServiceEndpointPolicyIdsInput
+        [JsiiProperty(name: "serviceEndpointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkSubnetServiceEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ServiceEndpointInput
         {
-            get => GetInstanceProperty<string[]?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "serviceEndpointsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ServiceEndpointsInput
+        [JsiiProperty(name: "serviceEndpointPolicyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ServiceEndpointPolicyIdsInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -321,13 +354,6 @@ namespace azurerm.VirtualNetwork
 
         [JsiiProperty(name: "serviceEndpointPolicyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] ServiceEndpointPolicyIds
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "serviceEndpoints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ServiceEndpoints
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

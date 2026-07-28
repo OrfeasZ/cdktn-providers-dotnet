@@ -39,8 +39,8 @@ namespace azurerm.MssqlDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEmailAccountAdmins")]
-        public virtual void ResetEmailAccountAdmins()
+        [JsiiMethod(name: "resetEmailAccountAdminsEnabled")]
+        public virtual void ResetEmailAccountAdminsEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -82,11 +82,14 @@ namespace azurerm.MssqlDatabase
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "emailAccountAdminsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? EmailAccountAdminsInput
+        [JsiiProperty(name: "emailAccountAdminsEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? EmailAccountAdminsEnabledInput
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -131,11 +134,34 @@ namespace azurerm.MssqlDatabase
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "emailAccountAdmins", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string EmailAccountAdmins
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "emailAccountAdminsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object EmailAccountAdminsEnabled
         {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "emailAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

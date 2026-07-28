@@ -9,7 +9,7 @@ namespace azurerm.RedisCache
     [JsiiByValue(fqn: "azurerm.redisCache.RedisCachePatchSchedule")]
     public class RedisCachePatchSchedule : azurerm.RedisCache.IRedisCachePatchSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_cache#day_of_week RedisCache#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/redis_cache#day_of_week RedisCache#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}")]
         public string DayOfWeek
         {
@@ -17,7 +17,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_cache#maintenance_window RedisCache#maintenance_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/redis_cache#maintenance_window RedisCache#maintenance_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceWindow
@@ -26,7 +26,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/redis_cache#start_hour_utc RedisCache#start_hour_utc}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/redis_cache#start_hour_utc RedisCache#start_hour_utc}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startHourUtc", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartHourUtc

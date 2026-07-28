@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbSqlRoleDefinition
     [JsiiByValue(fqn: "azurerm.cosmosdbSqlRoleDefinition.CosmosdbSqlRoleDefinitionPermissions")]
     public class CosmosdbSqlRoleDefinitionPermissions : azurerm.CosmosdbSqlRoleDefinition.ICosmosdbSqlRoleDefinitionPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_sql_role_definition#data_actions CosmosdbSqlRoleDefinition#data_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_sql_role_definition#data_actions CosmosdbSqlRoleDefinition#data_actions}.</summary>
         [JsiiProperty(name: "dataActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DataActions
         {

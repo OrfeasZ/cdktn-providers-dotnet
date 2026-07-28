@@ -9,7 +9,7 @@ namespace azurerm.StorageAccount
     [JsiiByValue(fqn: "azurerm.storageAccount.StorageAccountNetworkRules")]
     public class StorageAccountNetworkRules : azurerm.StorageAccount.IStorageAccountNetworkRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#default_action StorageAccount#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#default_action StorageAccount#default_action}.</summary>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultAction
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#bypass StorageAccount#bypass}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#bypass StorageAccount#bypass}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bypass", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Bypass
@@ -26,7 +26,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#ip_rules StorageAccount#ip_rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#ip_rules StorageAccount#ip_rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpRules
@@ -39,7 +39,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>private_link_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#private_link_access StorageAccount#private_link_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#private_link_access StorageAccount#private_link_access}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountNetworkRulesPrivateLinkAccess" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#virtual_network_subnet_ids StorageAccount#virtual_network_subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#virtual_network_subnet_ids StorageAccount#virtual_network_subnet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkSubnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VirtualNetworkSubnetIds

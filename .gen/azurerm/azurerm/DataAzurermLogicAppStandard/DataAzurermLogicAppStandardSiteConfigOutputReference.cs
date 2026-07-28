@@ -119,12 +119,6 @@ namespace azurerm.DataAzurermLogicAppStandard
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "publicNetworkAccessEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable PublicNetworkAccessEnabled
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "runtimeScaleMonitoringEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable RuntimeScaleMonitoringEnabled
         {

@@ -9,7 +9,7 @@ namespace azurerm.DnsCaaRecord
     [JsiiByValue(fqn: "azurerm.dnsCaaRecord.DnsCaaRecordRecord")]
     public class DnsCaaRecordRecord : azurerm.DnsCaaRecord.IDnsCaaRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_caa_record#flags DnsCaaRecord#flags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_caa_record#flags DnsCaaRecord#flags}.</summary>
         [JsiiProperty(name: "flags", typeJson: "{\"primitive\":\"number\"}")]
         public double Flags
         {
@@ -17,7 +17,7 @@ namespace azurerm.DnsCaaRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_caa_record#tag DnsCaaRecord#tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_caa_record#tag DnsCaaRecord#tag}.</summary>
         [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}")]
         public string Tag
         {
@@ -25,7 +25,7 @@ namespace azurerm.DnsCaaRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_caa_record#value DnsCaaRecord#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dns_caa_record#value DnsCaaRecord#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

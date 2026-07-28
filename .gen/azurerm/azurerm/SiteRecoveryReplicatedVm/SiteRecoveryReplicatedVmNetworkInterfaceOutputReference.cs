@@ -35,32 +35,32 @@ namespace azurerm.SiteRecoveryReplicatedVm
         {
         }
 
-        [JsiiMethod(name: "resetFailoverTestPublicIpAddressId")]
-        public virtual void ResetFailoverTestPublicIpAddressId()
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SiteRecoveryReplicatedVm.ISiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration" />)[]</param>
+        [JsiiMethod(name: "putIpConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIpConfiguration(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case azurerm.SiteRecoveryReplicatedVm.ISiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.SiteRecoveryReplicatedVm.ISiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.SiteRecoveryReplicatedVm.ISiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetFailoverTestStaticIp")]
-        public virtual void ResetFailoverTestStaticIp()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetFailoverTestSubnetName")]
-        public virtual void ResetFailoverTestSubnetName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRecoveryLoadBalancerBackendAddressPoolIds")]
-        public virtual void ResetRecoveryLoadBalancerBackendAddressPoolIds()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRecoveryPublicIpAddressId")]
-        public virtual void ResetRecoveryPublicIpAddressId()
+        [JsiiMethod(name: "resetIpConfiguration")]
+        public virtual void ResetIpConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,51 +71,20 @@ namespace azurerm.SiteRecoveryReplicatedVm
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetTargetStaticIp")]
-        public virtual void ResetTargetStaticIp()
+        [JsiiProperty(name: "ipConfiguration", typeJson: "{\"fqn\":\"azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList\"}")]
+        public virtual azurerm.SiteRecoveryReplicatedVm.SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList IpConfiguration
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<azurerm.SiteRecoveryReplicatedVm.SiteRecoveryReplicatedVmNetworkInterfaceIpConfigurationList>()!;
         }
 
-        [JsiiMethod(name: "resetTargetSubnetName")]
-        public virtual void ResetTargetSubnetName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SiteRecoveryReplicatedVm.ISiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "failoverTestPublicIpAddressIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? FailoverTestPublicIpAddressIdInput
+        [JsiiProperty(name: "ipConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.siteRecoveryReplicatedVm.SiteRecoveryReplicatedVmNetworkInterfaceIpConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IpConfigurationInput
         {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "failoverTestStaticIpInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? FailoverTestStaticIpInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "failoverTestSubnetNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? FailoverTestSubnetNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "recoveryLoadBalancerBackendAddressPoolIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? RecoveryLoadBalancerBackendAddressPoolIdsInput
-        {
-            get => GetInstanceProperty<string[]?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "recoveryPublicIpAddressIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? RecoveryPublicIpAddressIdInput
-        {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -125,71 +94,8 @@ namespace azurerm.SiteRecoveryReplicatedVm
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "targetStaticIpInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? TargetStaticIpInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "targetSubnetNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? TargetSubnetNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "failoverTestPublicIpAddressId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string FailoverTestPublicIpAddressId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "failoverTestStaticIp", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string FailoverTestStaticIp
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "failoverTestSubnetName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string FailoverTestSubnetName
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "recoveryLoadBalancerBackendAddressPoolIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] RecoveryLoadBalancerBackendAddressPoolIds
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "recoveryPublicIpAddressId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RecoveryPublicIpAddressId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "sourceNetworkInterfaceId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceNetworkInterfaceId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "targetStaticIp", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string TargetStaticIp
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "targetSubnetName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string TargetSubnetName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppJob
     [JsiiByValue(fqn: "azurerm.containerAppJob.ContainerAppJobEventTriggerConfigScaleRules")]
     public class ContainerAppJobEventTriggerConfigScaleRules : azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfigScaleRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#custom_rule_type ContainerAppJob#custom_rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#custom_rule_type ContainerAppJob#custom_rule_type}.</summary>
         [JsiiProperty(name: "customRuleType", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomRuleType
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#metadata ContainerAppJob#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#metadata ContainerAppJob#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Metadata
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#name ContainerAppJob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#name ContainerAppJob#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -37,7 +37,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#authentication ContainerAppJob#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#authentication ContainerAppJob#authentication}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfigScaleRulesAuthentication" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>ID of the System or User Managed Identity used to execute scale rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#identity_id ContainerAppJob#identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#identity_id ContainerAppJob#identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

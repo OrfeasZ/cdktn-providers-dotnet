@@ -7,7 +7,7 @@ namespace azurerm.AppServiceVirtualNetworkSwiftConnection
     [JsiiByValue(fqn: "azurerm.appServiceVirtualNetworkSwiftConnection.AppServiceVirtualNetworkSwiftConnectionTimeouts")]
     public class AppServiceVirtualNetworkSwiftConnectionTimeouts : azurerm.AppServiceVirtualNetworkSwiftConnection.IAppServiceVirtualNetworkSwiftConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_virtual_network_swift_connection#create AppServiceVirtualNetworkSwiftConnection#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_service_virtual_network_swift_connection#create AppServiceVirtualNetworkSwiftConnection#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.AppServiceVirtualNetworkSwiftConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_virtual_network_swift_connection#delete AppServiceVirtualNetworkSwiftConnection#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_service_virtual_network_swift_connection#delete AppServiceVirtualNetworkSwiftConnection#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.AppServiceVirtualNetworkSwiftConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_virtual_network_swift_connection#read AppServiceVirtualNetworkSwiftConnection#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_service_virtual_network_swift_connection#read AppServiceVirtualNetworkSwiftConnection#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azurerm.AppServiceVirtualNetworkSwiftConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_service_virtual_network_swift_connection#update AppServiceVirtualNetworkSwiftConnection#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_service_virtual_network_swift_connection#update AppServiceVirtualNetworkSwiftConnection#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

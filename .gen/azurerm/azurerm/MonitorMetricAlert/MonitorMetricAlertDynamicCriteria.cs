@@ -9,7 +9,7 @@ namespace azurerm.MonitorMetricAlert
     [JsiiByValue(fqn: "azurerm.monitorMetricAlert.MonitorMetricAlertDynamicCriteria")]
     public class MonitorMetricAlertDynamicCriteria : azurerm.MonitorMetricAlert.IMonitorMetricAlertDynamicCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#aggregation MonitorMetricAlert#aggregation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#aggregation MonitorMetricAlert#aggregation}.</summary>
         [JsiiProperty(name: "aggregation", typeJson: "{\"primitive\":\"string\"}")]
         public string Aggregation
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#alert_sensitivity MonitorMetricAlert#alert_sensitivity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#alert_sensitivity MonitorMetricAlert#alert_sensitivity}.</summary>
         [JsiiProperty(name: "alertSensitivity", typeJson: "{\"primitive\":\"string\"}")]
         public string AlertSensitivity
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#metric_name MonitorMetricAlert#metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#metric_name MonitorMetricAlert#metric_name}.</summary>
         [JsiiProperty(name: "metricName", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricName
         {
@@ -33,7 +33,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#metric_namespace MonitorMetricAlert#metric_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#metric_namespace MonitorMetricAlert#metric_namespace}.</summary>
         [JsiiProperty(name: "metricNamespace", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricNamespace
         {
@@ -41,7 +41,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#operator MonitorMetricAlert#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#operator MonitorMetricAlert#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -53,7 +53,7 @@ namespace azurerm.MonitorMetricAlert
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#dimension MonitorMetricAlert#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#dimension MonitorMetricAlert#dimension}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorMetricAlert.IMonitorMetricAlertDynamicCriteriaDimension" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -84,7 +84,7 @@ namespace azurerm.MonitorMetricAlert
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#evaluation_failure_count MonitorMetricAlert#evaluation_failure_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#evaluation_failure_count MonitorMetricAlert#evaluation_failure_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationFailureCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EvaluationFailureCount
@@ -93,7 +93,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#evaluation_total_count MonitorMetricAlert#evaluation_total_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#evaluation_total_count MonitorMetricAlert#evaluation_total_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationTotalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EvaluationTotalCount
@@ -102,7 +102,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#ignore_data_before MonitorMetricAlert#ignore_data_before}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#ignore_data_before MonitorMetricAlert#ignore_data_before}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ignoreDataBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IgnoreDataBefore
@@ -113,7 +113,7 @@ namespace azurerm.MonitorMetricAlert
 
         private object? _skipMetricValidation;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_metric_alert#skip_metric_validation MonitorMetricAlert#skip_metric_validation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_metric_alert#skip_metric_validation MonitorMetricAlert#skip_metric_validation}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

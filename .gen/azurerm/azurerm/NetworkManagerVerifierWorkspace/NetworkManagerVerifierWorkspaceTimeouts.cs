@@ -7,7 +7,7 @@ namespace azurerm.NetworkManagerVerifierWorkspace
     [JsiiByValue(fqn: "azurerm.networkManagerVerifierWorkspace.NetworkManagerVerifierWorkspaceTimeouts")]
     public class NetworkManagerVerifierWorkspaceTimeouts : azurerm.NetworkManagerVerifierWorkspace.INetworkManagerVerifierWorkspaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_manager_verifier_workspace#create NetworkManagerVerifierWorkspace#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_manager_verifier_workspace#create NetworkManagerVerifierWorkspace#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.NetworkManagerVerifierWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_manager_verifier_workspace#delete NetworkManagerVerifierWorkspace#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_manager_verifier_workspace#delete NetworkManagerVerifierWorkspace#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.NetworkManagerVerifierWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_manager_verifier_workspace#read NetworkManagerVerifierWorkspace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_manager_verifier_workspace#read NetworkManagerVerifierWorkspace#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azurerm.NetworkManagerVerifierWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_manager_verifier_workspace#update NetworkManagerVerifierWorkspace#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_manager_verifier_workspace#update NetworkManagerVerifierWorkspace#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

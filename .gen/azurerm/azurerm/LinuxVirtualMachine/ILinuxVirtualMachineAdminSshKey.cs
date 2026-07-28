@@ -7,14 +7,14 @@ namespace azurerm.LinuxVirtualMachine
     [JsiiInterface(nativeType: typeof(ILinuxVirtualMachineAdminSshKey), fullyQualifiedName: "azurerm.linuxVirtualMachine.LinuxVirtualMachineAdminSshKey")]
     public interface ILinuxVirtualMachineAdminSshKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         string PublicKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
         {
@@ -28,14 +28,14 @@ namespace azurerm.LinuxVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
             [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
             {

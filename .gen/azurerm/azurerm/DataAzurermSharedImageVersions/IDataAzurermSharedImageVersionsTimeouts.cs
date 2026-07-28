@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSharedImageVersions
     [JsiiInterface(nativeType: typeof(IDataAzurermSharedImageVersionsTimeouts), fullyQualifiedName: "azurerm.dataAzurermSharedImageVersions.DataAzurermSharedImageVersionsTimeouts")]
     public interface IDataAzurermSharedImageVersionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSharedImageVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

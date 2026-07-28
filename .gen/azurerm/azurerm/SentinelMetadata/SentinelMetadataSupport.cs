@@ -9,7 +9,7 @@ namespace azurerm.SentinelMetadata
     [JsiiByValue(fqn: "azurerm.sentinelMetadata.SentinelMetadataSupport")]
     public class SentinelMetadataSupport : azurerm.SentinelMetadata.ISentinelMetadataSupport
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_metadata#tier SentinelMetadata#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_metadata#tier SentinelMetadata#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         public string Tier
         {
@@ -17,7 +17,7 @@ namespace azurerm.SentinelMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_metadata#email SentinelMetadata#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_metadata#email SentinelMetadata#email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Email
@@ -26,7 +26,7 @@ namespace azurerm.SentinelMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_metadata#link SentinelMetadata#link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_metadata#link SentinelMetadata#link}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "link", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Link
@@ -35,7 +35,7 @@ namespace azurerm.SentinelMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_metadata#name SentinelMetadata#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_metadata#name SentinelMetadata#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

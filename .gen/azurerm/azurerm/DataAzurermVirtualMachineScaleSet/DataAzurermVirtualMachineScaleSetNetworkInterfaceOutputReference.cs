@@ -35,6 +35,12 @@ namespace azurerm.DataAzurermVirtualMachineScaleSet
         {
         }
 
+        [JsiiProperty(name: "acceleratedNetworkingEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AcceleratedNetworkingEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "auxiliaryMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuxiliaryMode
         {
@@ -53,22 +59,16 @@ namespace azurerm.DataAzurermVirtualMachineScaleSet
             get => GetInstanceProperty<string[]>()!;
         }
 
-        [JsiiProperty(name: "enableAcceleratedNetworking", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable EnableAcceleratedNetworking
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "enableIpForwarding", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable EnableIpForwarding
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "ipConfiguration", typeJson: "{\"fqn\":\"azurerm.dataAzurermVirtualMachineScaleSet.DataAzurermVirtualMachineScaleSetNetworkInterfaceIpConfigurationList\"}")]
         public virtual azurerm.DataAzurermVirtualMachineScaleSet.DataAzurermVirtualMachineScaleSetNetworkInterfaceIpConfigurationList IpConfiguration
         {
             get => GetInstanceProperty<azurerm.DataAzurermVirtualMachineScaleSet.DataAzurermVirtualMachineScaleSetNetworkInterfaceIpConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "ipForwardingEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IpForwardingEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

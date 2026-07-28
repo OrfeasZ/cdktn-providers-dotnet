@@ -9,7 +9,7 @@ namespace azurerm.SentinelAlertRuleNrt
     [JsiiByValue(fqn: "azurerm.sentinelAlertRuleNrt.SentinelAlertRuleNrtAlertDetailsOverrideDynamicProperty")]
     public class SentinelAlertRuleNrtAlertDetailsOverrideDynamicProperty : azurerm.SentinelAlertRuleNrt.ISentinelAlertRuleNrtAlertDetailsOverrideDynamicProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_nrt#name SentinelAlertRuleNrt#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_alert_rule_nrt#name SentinelAlertRuleNrt#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.SentinelAlertRuleNrt
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_nrt#value SentinelAlertRuleNrt#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_alert_rule_nrt#value SentinelAlertRuleNrt#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

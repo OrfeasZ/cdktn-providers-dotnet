@@ -33,12 +33,6 @@ namespace azurerm.ApiManagement
         {
         }
 
-        [JsiiMethod(name: "resetEnableHttp2")]
-        public virtual void ResetEnableHttp2()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetHttp2Enabled")]
         public virtual void ResetHttp2Enabled()
         {
@@ -49,50 +43,10 @@ namespace azurerm.ApiManagement
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "enableHttp2Input", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableHttp2Input
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
         [JsiiProperty(name: "http2EnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? Http2EnabledInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiProperty(name: "enableHttp2", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableHttp2
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         /// <remarks>

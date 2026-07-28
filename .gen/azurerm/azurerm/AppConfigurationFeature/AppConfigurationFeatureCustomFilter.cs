@@ -9,7 +9,7 @@ namespace azurerm.AppConfigurationFeature
     [JsiiByValue(fqn: "azurerm.appConfigurationFeature.AppConfigurationFeatureCustomFilter")]
     public class AppConfigurationFeatureCustomFilter : azurerm.AppConfigurationFeature.IAppConfigurationFeatureCustomFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#name AppConfigurationFeature#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_configuration_feature#name AppConfigurationFeature#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppConfigurationFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/app_configuration_feature#parameters AppConfigurationFeature#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_configuration_feature#parameters AppConfigurationFeature#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters

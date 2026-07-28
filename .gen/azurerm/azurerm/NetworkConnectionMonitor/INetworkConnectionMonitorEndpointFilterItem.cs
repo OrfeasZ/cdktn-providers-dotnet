@@ -7,7 +7,7 @@ namespace azurerm.NetworkConnectionMonitor
     [JsiiInterface(nativeType: typeof(INetworkConnectionMonitorEndpointFilterItem), fullyQualifiedName: "azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilterItem")]
     public interface INetworkConnectionMonitorEndpointFilterItem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Address
@@ -18,7 +18,7 @@ namespace azurerm.NetworkConnectionMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -36,7 +36,7 @@ namespace azurerm.NetworkConnectionMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Address
@@ -44,7 +44,7 @@ namespace azurerm.NetworkConnectionMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#type NetworkConnectionMonitor#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

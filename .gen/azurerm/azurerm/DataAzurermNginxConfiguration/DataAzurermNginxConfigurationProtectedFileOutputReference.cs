@@ -35,12 +35,6 @@ namespace azurerm.DataAzurermNginxConfiguration
         {
         }
 
-        [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Content
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "contentHash", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ContentHash
         {

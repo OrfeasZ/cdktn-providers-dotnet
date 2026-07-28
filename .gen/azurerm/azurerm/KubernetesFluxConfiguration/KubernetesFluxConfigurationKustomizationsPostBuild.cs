@@ -7,7 +7,7 @@ namespace azurerm.KubernetesFluxConfiguration
     [JsiiByValue(fqn: "azurerm.kubernetesFluxConfiguration.KubernetesFluxConfigurationKustomizationsPostBuild")]
     public class KubernetesFluxConfigurationKustomizationsPostBuild : azurerm.KubernetesFluxConfiguration.IKubernetesFluxConfigurationKustomizationsPostBuild
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_flux_configuration#substitute KubernetesFluxConfiguration#substitute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_flux_configuration#substitute KubernetesFluxConfiguration#substitute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "substitute", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Substitute
@@ -20,7 +20,7 @@ namespace azurerm.KubernetesFluxConfiguration
 
         /// <summary>substitute_from block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_flux_configuration#substitute_from KubernetesFluxConfiguration#substitute_from}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_flux_configuration#substitute_from KubernetesFluxConfiguration#substitute_from}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KubernetesFluxConfiguration.IKubernetesFluxConfigurationKustomizationsPostBuildSubstituteFrom" />)[]</para>
         /// </remarks>
         [JsiiOptional]

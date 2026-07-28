@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermWindowsWebApp
     [JsiiByValue(fqn: "azurerm.dataAzurermWindowsWebApp.DataAzurermWindowsWebAppTimeouts")]
     public class DataAzurermWindowsWebAppTimeouts : azurerm.DataAzurermWindowsWebApp.IDataAzurermWindowsWebAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/windows_web_app#read DataAzurermWindowsWebApp#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/windows_web_app#read DataAzurermWindowsWebApp#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

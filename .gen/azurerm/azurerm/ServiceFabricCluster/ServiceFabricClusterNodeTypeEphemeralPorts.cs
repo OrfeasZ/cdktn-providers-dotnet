@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPorts")]
     public class ServiceFabricClusterNodeTypeEphemeralPorts : azurerm.ServiceFabricCluster.IServiceFabricClusterNodeTypeEphemeralPorts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#end_port ServiceFabricCluster#end_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#end_port ServiceFabricCluster#end_port}.</summary>
         [JsiiProperty(name: "endPort", typeJson: "{\"primitive\":\"number\"}")]
         public double EndPort
         {
@@ -17,7 +17,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#start_port ServiceFabricCluster#start_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#start_port ServiceFabricCluster#start_port}.</summary>
         [JsiiProperty(name: "startPort", typeJson: "{\"primitive\":\"number\"}")]
         public double StartPort
         {

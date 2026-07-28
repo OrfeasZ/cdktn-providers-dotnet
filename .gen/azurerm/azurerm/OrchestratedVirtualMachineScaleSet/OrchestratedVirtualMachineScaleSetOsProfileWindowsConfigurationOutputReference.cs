@@ -111,14 +111,14 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetComputerNamePrefix")]
-        public virtual void ResetComputerNamePrefix()
+        [JsiiMethod(name: "resetAutomaticUpdatesEnabled")]
+        public virtual void ResetAutomaticUpdatesEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEnableAutomaticUpdates")]
-        public virtual void ResetEnableAutomaticUpdates()
+        [JsiiMethod(name: "resetComputerNamePrefix")]
+        public virtual void ResetComputerNamePrefix()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -207,21 +207,21 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "automaticUpdatesEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AutomaticUpdatesEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "computerNamePrefixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ComputerNamePrefixInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "enableAutomaticUpdatesInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableAutomaticUpdatesInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
@@ -299,18 +299,11 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "computerNamePrefix", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ComputerNamePrefix
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "enableAutomaticUpdates", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableAutomaticUpdates
+        [JsiiProperty(name: "automaticUpdatesEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AutomaticUpdatesEnabled
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -334,6 +327,13 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "computerNamePrefix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputerNamePrefix
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

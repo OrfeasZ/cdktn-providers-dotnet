@@ -7,14 +7,14 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiInterface(nativeType: typeof(IHdinsightHbaseClusterStorageAccountGen2), fullyQualifiedName: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterStorageAccountGen2")]
     public interface IHdinsightHbaseClusterStorageAccountGen2
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#filesystem_id HdinsightHbaseCluster#filesystem_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#filesystem_id HdinsightHbaseCluster#filesystem_id}.</summary>
         [JsiiProperty(name: "filesystemId", typeJson: "{\"primitive\":\"string\"}")]
         string FilesystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#is_default HdinsightHbaseCluster#is_default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#is_default HdinsightHbaseCluster#is_default}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,16 +24,16 @@ namespace azurerm.HdinsightHbaseCluster
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#managed_identity_resource_id HdinsightHbaseCluster#managed_identity_resource_id}.</summary>
-        [JsiiProperty(name: "managedIdentityResourceId", typeJson: "{\"primitive\":\"string\"}")]
-        string ManagedIdentityResourceId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#storage_account_id HdinsightHbaseCluster#storage_account_id}.</summary>
+        [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        string StorageAccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#storage_resource_id HdinsightHbaseCluster#storage_resource_id}.</summary>
-        [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}")]
-        string StorageResourceId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#user_assigned_identity_id HdinsightHbaseCluster#user_assigned_identity_id}.</summary>
+        [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
+        string UserAssignedIdentityId
         {
             get;
         }
@@ -45,14 +45,14 @@ namespace azurerm.HdinsightHbaseCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#filesystem_id HdinsightHbaseCluster#filesystem_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#filesystem_id HdinsightHbaseCluster#filesystem_id}.</summary>
             [JsiiProperty(name: "filesystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string FilesystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#is_default HdinsightHbaseCluster#is_default}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#is_default HdinsightHbaseCluster#is_default}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -62,16 +62,16 @@ namespace azurerm.HdinsightHbaseCluster
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#managed_identity_resource_id HdinsightHbaseCluster#managed_identity_resource_id}.</summary>
-            [JsiiProperty(name: "managedIdentityResourceId", typeJson: "{\"primitive\":\"string\"}")]
-            public string ManagedIdentityResourceId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#storage_account_id HdinsightHbaseCluster#storage_account_id}.</summary>
+            [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string StorageAccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#storage_resource_id HdinsightHbaseCluster#storage_resource_id}.</summary>
-            [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}")]
-            public string StorageResourceId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#user_assigned_identity_id HdinsightHbaseCluster#user_assigned_identity_id}.</summary>
+            [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
+            public string UserAssignedIdentityId
             {
                 get => GetInstanceProperty<string>()!;
             }

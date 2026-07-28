@@ -41,12 +41,6 @@ namespace azurerm.DataAzurermApplicationGateway
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "authenticationCertificate", typeJson: "{\"fqn\":\"azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList\"}")]
-        public virtual azurerm.DataAzurermApplicationGateway.DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList AuthenticationCertificate
-        {
-            get => GetInstanceProperty<azurerm.DataAzurermApplicationGateway.DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList>()!;
-        }
-
         [JsiiProperty(name: "certificateChainValidationEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable CertificateChainValidationEnabled
         {

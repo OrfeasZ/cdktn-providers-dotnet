@@ -9,7 +9,7 @@ namespace azurerm.PrivateDnsMxRecord
     [JsiiByValue(fqn: "azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecord")]
     public class PrivateDnsMxRecordRecord : azurerm.PrivateDnsMxRecord.IPrivateDnsMxRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
         [JsiiProperty(name: "exchange", typeJson: "{\"primitive\":\"string\"}")]
         public string Exchange
         {
@@ -17,7 +17,7 @@ namespace azurerm.PrivateDnsMxRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
         [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"number\"}")]
         public double Preference
         {

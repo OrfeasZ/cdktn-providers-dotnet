@@ -35,12 +35,6 @@ namespace azurerm.MonitorDiagnosticSetting
         {
         }
 
-        [JsiiMethod(name: "putRetentionPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.monitorDiagnosticSetting.MonitorDiagnosticSettingEnabledLogRetentionPolicy\"}}]")]
-        public virtual void PutRetentionPolicy(azurerm.MonitorDiagnosticSetting.IMonitorDiagnosticSettingEnabledLogRetentionPolicy @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.MonitorDiagnosticSetting.IMonitorDiagnosticSettingEnabledLogRetentionPolicy)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetCategory")]
         public virtual void ResetCategory()
         {
@@ -51,18 +45,6 @@ namespace azurerm.MonitorDiagnosticSetting
         public virtual void ResetCategoryGroup()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetRetentionPolicy")]
-        public virtual void ResetRetentionPolicy()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.monitorDiagnosticSetting.MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference\"}")]
-        public virtual azurerm.MonitorDiagnosticSetting.MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference RetentionPolicy
-        {
-            get => GetInstanceProperty<azurerm.MonitorDiagnosticSetting.MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -77,13 +59,6 @@ namespace azurerm.MonitorDiagnosticSetting
         public virtual string? CategoryInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "retentionPolicyInput", typeJson: "{\"fqn\":\"azurerm.monitorDiagnosticSetting.MonitorDiagnosticSettingEnabledLogRetentionPolicy\"}", isOptional: true)]
-        public virtual azurerm.MonitorDiagnosticSetting.IMonitorDiagnosticSettingEnabledLogRetentionPolicy? RetentionPolicyInput
-        {
-            get => GetInstanceProperty<azurerm.MonitorDiagnosticSetting.IMonitorDiagnosticSettingEnabledLogRetentionPolicy?>();
         }
 
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]

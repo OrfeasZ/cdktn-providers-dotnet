@@ -7,7 +7,7 @@ namespace azurerm.AutomanageConfiguration
     [JsiiInterface(nativeType: typeof(IAutomanageConfigurationBackup), fullyQualifiedName: "azurerm.automanageConfiguration.AutomanageConfigurationBackup")]
     public interface IAutomanageConfigurationBackup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#instant_rp_retention_range_in_days AutomanageConfiguration#instant_rp_retention_range_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#instant_rp_retention_range_in_days AutomanageConfiguration#instant_rp_retention_range_in_days}.</summary>
         [JsiiProperty(name: "instantRpRetentionRangeInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstantRpRetentionRangeInDays
@@ -18,7 +18,7 @@ namespace azurerm.AutomanageConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#policy_name AutomanageConfiguration#policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#policy_name AutomanageConfiguration#policy_name}.</summary>
         [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PolicyName
@@ -31,7 +31,7 @@ namespace azurerm.AutomanageConfiguration
 
         /// <summary>retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#retention_policy AutomanageConfiguration#retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#retention_policy AutomanageConfiguration#retention_policy}
         /// </remarks>
         [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azurerm.AutomanageConfiguration
 
         /// <summary>schedule_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#schedule_policy AutomanageConfiguration#schedule_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#schedule_policy AutomanageConfiguration#schedule_policy}
         /// </remarks>
         [JsiiProperty(name: "schedulePolicy", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace azurerm.AutomanageConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#time_zone AutomanageConfiguration#time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#time_zone AutomanageConfiguration#time_zone}.</summary>
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeZone
@@ -75,7 +75,7 @@ namespace azurerm.AutomanageConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#instant_rp_retention_range_in_days AutomanageConfiguration#instant_rp_retention_range_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#instant_rp_retention_range_in_days AutomanageConfiguration#instant_rp_retention_range_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instantRpRetentionRangeInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstantRpRetentionRangeInDays
@@ -83,7 +83,7 @@ namespace azurerm.AutomanageConfiguration
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#policy_name AutomanageConfiguration#policy_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#policy_name AutomanageConfiguration#policy_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PolicyName
@@ -93,7 +93,7 @@ namespace azurerm.AutomanageConfiguration
 
             /// <summary>retention_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#retention_policy AutomanageConfiguration#retention_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#retention_policy AutomanageConfiguration#retention_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicy\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace azurerm.AutomanageConfiguration
 
             /// <summary>schedule_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#schedule_policy AutomanageConfiguration#schedule_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#schedule_policy AutomanageConfiguration#schedule_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schedulePolicy", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupSchedulePolicy\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace azurerm.AutomanageConfiguration
                 get => GetInstanceProperty<azurerm.AutomanageConfiguration.IAutomanageConfigurationBackupSchedulePolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/automanage_configuration#time_zone AutomanageConfiguration#time_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#time_zone AutomanageConfiguration#time_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeZone

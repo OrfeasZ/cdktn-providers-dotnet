@@ -107,12 +107,6 @@ namespace azurerm.DataAzurermLinuxWebApp
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "rubyVersion", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string RubyVersion
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"azurerm.dataAzurermLinuxWebApp.DataAzurermLinuxWebAppSiteConfigApplicationStack\"}", isOptional: true)]
         public virtual azurerm.DataAzurermLinuxWebApp.IDataAzurermLinuxWebAppSiteConfigApplicationStack? InternalValue

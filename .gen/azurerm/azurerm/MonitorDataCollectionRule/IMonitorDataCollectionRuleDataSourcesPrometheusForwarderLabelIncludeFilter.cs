@@ -7,14 +7,14 @@ namespace azurerm.MonitorDataCollectionRule
     [JsiiInterface(nativeType: typeof(IMonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter), fullyQualifiedName: "azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter")]
     public interface IMonitorDataCollectionRuleDataSourcesPrometheusForwarderLabelIncludeFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         string Label
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace azurerm.MonitorDataCollectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#label MonitorDataCollectionRule#label}.</summary>
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
             public string Label
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#value MonitorDataCollectionRule#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

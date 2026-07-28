@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.Subnet
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet azurerm_subnet}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet azurerm_subnet}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.Subnet.Subnet), fullyQualifiedName: "azurerm.subnet.Subnet", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.subnet.SubnetConfig\"}}]")]
     public class Subnet : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet azurerm_subnet} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet azurerm_subnet} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Subnet(Constructs.Construct scope, string id, azurerm.Subnet.ISubnetConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.Subnet
         /// <param name="importToId">The construct id used in the generated config for the Subnet to import.</param>
         /// <param name="importFromId">The id of the existing Subnet that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Subnet to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Subnet to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/subnet#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Subnet that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Subnet to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Subnet to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Subnet that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Subnet to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.Subnet.Subnet), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -74,6 +74,30 @@ namespace azurerm.Subnet
         public virtual void PutIpAddressPool(azurerm.Subnet.ISubnetIpAddressPool @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.Subnet.ISubnetIpAddressPool)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Subnet.ISubnetServiceEndpoint" />)[]</param>
+        [JsiiMethod(name: "putServiceEndpoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subnet.SubnetServiceEndpoint\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutServiceEndpoint(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case azurerm.Subnet.ISubnetServiceEndpoint[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.Subnet.ISubnetServiceEndpoint).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.Subnet.ISubnetServiceEndpoint).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.subnet.SubnetTimeouts\"}}]")]
@@ -112,6 +136,18 @@ namespace azurerm.Subnet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNetworkSecurityGroupIdWo")]
+        public virtual void ResetNetworkSecurityGroupIdWo()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkSecurityGroupIdWoVersion")]
+        public virtual void ResetNetworkSecurityGroupIdWoVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPrivateEndpointNetworkPolicies")]
         public virtual void ResetPrivateEndpointNetworkPolicies()
         {
@@ -124,14 +160,26 @@ namespace azurerm.Subnet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceEndpointPolicyIds")]
-        public virtual void ResetServiceEndpointPolicyIds()
+        [JsiiMethod(name: "resetRouteTableIdWo")]
+        public virtual void ResetRouteTableIdWo()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServiceEndpoints")]
-        public virtual void ResetServiceEndpoints()
+        [JsiiMethod(name: "resetRouteTableIdWoVersion")]
+        public virtual void ResetRouteTableIdWoVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceEndpoint")]
+        public virtual void ResetServiceEndpoint()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceEndpointPolicyIds")]
+        public virtual void ResetServiceEndpointPolicyIds()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -177,6 +225,24 @@ namespace azurerm.Subnet
         public virtual azurerm.Subnet.SubnetIpAddressPoolOutputReference IpAddressPool
         {
             get => GetInstanceProperty<azurerm.Subnet.SubnetIpAddressPoolOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkSecurityGroupId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RouteTableId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "serviceEndpoint", typeJson: "{\"fqn\":\"azurerm.subnet.SubnetServiceEndpointList\"}")]
+        public virtual azurerm.Subnet.SubnetServiceEndpointList ServiceEndpoint
+        {
+            get => GetInstanceProperty<azurerm.Subnet.SubnetServiceEndpointList>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.subnet.SubnetTimeoutsOutputReference\"}")]
@@ -234,6 +300,20 @@ namespace azurerm.Subnet
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "networkSecurityGroupIdWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkSecurityGroupIdWoInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkSecurityGroupIdWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? NetworkSecurityGroupIdWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "privateEndpointNetworkPoliciesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrivateEndpointNetworkPoliciesInput
         {
@@ -258,15 +338,32 @@ namespace azurerm.Subnet
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "serviceEndpointPolicyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ServiceEndpointPolicyIdsInput
+        [JsiiProperty(name: "routeTableIdWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RouteTableIdWoInput
         {
-            get => GetInstanceProperty<string[]?>();
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "serviceEndpointsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ServiceEndpointsInput
+        [JsiiProperty(name: "routeTableIdWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? RouteTableIdWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Subnet.ISubnetServiceEndpoint" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceEndpointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subnet.SubnetServiceEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ServiceEndpointInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceEndpointPolicyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ServiceEndpointPolicyIdsInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -346,6 +443,20 @@ namespace azurerm.Subnet
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "networkSecurityGroupIdWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkSecurityGroupIdWo
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "networkSecurityGroupIdWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double NetworkSecurityGroupIdWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "privateEndpointNetworkPolicies", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateEndpointNetworkPolicies
         {
@@ -390,15 +501,22 @@ namespace azurerm.Subnet
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "serviceEndpointPolicyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ServiceEndpointPolicyIds
+        [JsiiProperty(name: "routeTableIdWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RouteTableIdWo
         {
-            get => GetInstanceProperty<string[]>()!;
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "serviceEndpoints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ServiceEndpoints
+        [JsiiProperty(name: "routeTableIdWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RouteTableIdWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "serviceEndpointPolicyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ServiceEndpointPolicyIds
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

@@ -7,7 +7,7 @@ namespace azurerm.ContainerAppJob
     [JsiiByValue(fqn: "azurerm.containerAppJob.ContainerAppJobEventTriggerConfig")]
     public class ContainerAppJobEventTriggerConfig : azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#parallelism ContainerAppJob#parallelism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#parallelism ContainerAppJob#parallelism}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parallelism", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Parallelism
@@ -16,7 +16,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#replica_completion_count ContainerAppJob#replica_completion_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#replica_completion_count ContainerAppJob#replica_completion_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicaCompletionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReplicaCompletionCount
@@ -29,7 +29,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>scale block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#scale ContainerAppJob#scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#scale ContainerAppJob#scale}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobEventTriggerConfigScale" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azurerm.ApiManagement
     [JsiiByValue(fqn: "azurerm.apiManagement.ApiManagementAdditionalLocation")]
     public class ApiManagementAdditionalLocation : azurerm.ApiManagement.IApiManagementAdditionalLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#location ApiManagement#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#location ApiManagement#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#capacity ApiManagement#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#capacity ApiManagement#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity
@@ -28,7 +28,7 @@ namespace azurerm.ApiManagement
 
         private object? _gatewayDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#gateway_disabled ApiManagement#gateway_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#gateway_disabled ApiManagement#gateway_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace azurerm.ApiManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#public_ip_address_id ApiManagement#public_ip_address_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#public_ip_address_id ApiManagement#public_ip_address_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpAddressId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicIpAddressId
@@ -71,7 +71,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>virtual_network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#virtual_network_configuration ApiManagement#virtual_network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#virtual_network_configuration ApiManagement#virtual_network_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkConfiguration", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementAdditionalLocationVirtualNetworkConfiguration\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/api_management#zones ApiManagement#zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management#zones ApiManagement#zones}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Zones

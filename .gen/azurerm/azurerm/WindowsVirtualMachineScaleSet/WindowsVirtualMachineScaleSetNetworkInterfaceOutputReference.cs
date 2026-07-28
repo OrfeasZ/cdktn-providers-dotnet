@@ -59,6 +59,12 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAcceleratedNetworkingEnabled")]
+        public virtual void ResetAcceleratedNetworkingEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAuxiliaryMode")]
         public virtual void ResetAuxiliaryMode()
         {
@@ -77,14 +83,8 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEnableAcceleratedNetworking")]
-        public virtual void ResetEnableAcceleratedNetworking()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetEnableIpForwarding")]
-        public virtual void ResetEnableIpForwarding()
+        [JsiiMethod(name: "resetIpForwardingEnabled")]
+        public virtual void ResetIpForwardingEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -105,6 +105,16 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         public virtual azurerm.WindowsVirtualMachineScaleSet.WindowsVirtualMachineScaleSetNetworkInterfaceIpConfigurationList IpConfiguration
         {
             get => GetInstanceProperty<azurerm.WindowsVirtualMachineScaleSet.WindowsVirtualMachineScaleSetNetworkInterfaceIpConfigurationList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "acceleratedNetworkingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AcceleratedNetworkingEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -129,31 +139,21 @@ namespace azurerm.WindowsVirtualMachineScaleSet
         }
 
         /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "enableAcceleratedNetworkingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableAcceleratedNetworkingInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "enableIpForwardingInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EnableIpForwardingInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsVirtualMachineScaleSet.IWindowsVirtualMachineScaleSetNetworkInterfaceIpConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.windowsVirtualMachineScaleSet.WindowsVirtualMachineScaleSetNetworkInterfaceIpConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? IpConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ipForwardingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IpForwardingEnabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -182,32 +182,11 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiProperty(name: "auxiliaryMode", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AuxiliaryMode
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "auxiliarySku", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AuxiliarySku
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] DnsServers
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "enableAcceleratedNetworking", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableAcceleratedNetworking
+        [JsiiProperty(name: "acceleratedNetworkingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AcceleratedNetworkingEnabled
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -233,11 +212,32 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             }
         }
 
+        [JsiiProperty(name: "auxiliaryMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuxiliaryMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "auxiliarySku", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuxiliarySku
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DnsServers
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "enableIpForwarding", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EnableIpForwarding
+        [JsiiProperty(name: "ipForwardingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IpForwardingEnabled
         {
             get => GetInstanceProperty<object>()!;
             set

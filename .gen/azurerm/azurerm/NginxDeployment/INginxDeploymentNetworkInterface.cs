@@ -7,7 +7,7 @@ namespace azurerm.NginxDeployment
     [JsiiInterface(nativeType: typeof(INginxDeploymentNetworkInterface), fullyQualifiedName: "azurerm.nginxDeployment.NginxDeploymentNetworkInterface")]
     public interface INginxDeploymentNetworkInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
@@ -21,7 +21,7 @@ namespace azurerm.NginxDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {

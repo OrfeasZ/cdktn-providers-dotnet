@@ -9,7 +9,7 @@ namespace azurerm.FluidRelayServer
     [JsiiByValue(fqn: "azurerm.fluidRelayServer.FluidRelayServerConfig")]
     public class FluidRelayServerConfig : azurerm.FluidRelayServer.IFluidRelayServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#location FluidRelayServer#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#location FluidRelayServer#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.FluidRelayServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#name FluidRelayServer#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#name FluidRelayServer#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.FluidRelayServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#resource_group_name FluidRelayServer#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#resource_group_name FluidRelayServer#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -35,7 +35,7 @@ namespace azurerm.FluidRelayServer
 
         /// <summary>customer_managed_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#customer_managed_key FluidRelayServer#customer_managed_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#customer_managed_key FluidRelayServer#customer_managed_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerManagedKey", typeJson: "{\"fqn\":\"azurerm.fluidRelayServer.FluidRelayServerCustomerManagedKey\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.FluidRelayServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#id FluidRelayServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#id FluidRelayServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace azurerm.FluidRelayServer
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#identity FluidRelayServer#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#identity FluidRelayServer#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.fluidRelayServer.FluidRelayServerIdentity\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azurerm.FluidRelayServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#storage_sku FluidRelayServer#storage_sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#storage_sku FluidRelayServer#storage_sku}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageSku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageSku
@@ -79,7 +79,7 @@ namespace azurerm.FluidRelayServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#tags FluidRelayServer#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#tags FluidRelayServer#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -90,7 +90,7 @@ namespace azurerm.FluidRelayServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/fluid_relay_server#timeouts FluidRelayServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/fluid_relay_server#timeouts FluidRelayServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.fluidRelayServer.FluidRelayServerTimeouts\"}", isOptional: true)]

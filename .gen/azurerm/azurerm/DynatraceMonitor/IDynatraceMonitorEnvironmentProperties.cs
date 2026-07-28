@@ -9,7 +9,7 @@ namespace azurerm.DynatraceMonitor
     {
         /// <summary>environment_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dynatrace_monitor#environment_info DynatraceMonitor#environment_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#environment_info DynatraceMonitor#environment_info}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DynatraceMonitor.IDynatraceMonitorEnvironmentPropertiesEnvironmentInfo" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "environmentInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfo\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace azurerm.DynatraceMonitor
 
             /// <summary>environment_info block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dynatrace_monitor#environment_info DynatraceMonitor#environment_info}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#environment_info DynatraceMonitor#environment_info}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DynatraceMonitor.IDynatraceMonitorEnvironmentPropertiesEnvironmentInfo" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "environmentInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfo\"},\"kind\":\"array\"}}]}}")]

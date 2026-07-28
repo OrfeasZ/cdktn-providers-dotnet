@@ -35,12 +35,6 @@ namespace azurerm.ContainerRegistry
         {
         }
 
-        [JsiiMethod(name: "resetRegionalEndpointEnabled")]
-        public virtual void ResetRegionalEndpointEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
         {
@@ -53,21 +47,21 @@ namespace azurerm.ContainerRegistry
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "globalEndpointRoutingEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? GlobalEndpointRoutingEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "locationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LocationInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "regionalEndpointEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? RegionalEndpointEnabledInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -87,18 +81,11 @@ namespace azurerm.ContainerRegistry
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Location
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "regionalEndpointEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object RegionalEndpointEnabled
+        [JsiiProperty(name: "globalEndpointRoutingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object GlobalEndpointRoutingEnabled
         {
             get => GetInstanceProperty<object>()!;
             set
@@ -122,6 +109,13 @@ namespace azurerm.ContainerRegistry
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]

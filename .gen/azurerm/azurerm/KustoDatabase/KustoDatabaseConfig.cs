@@ -9,7 +9,7 @@ namespace azurerm.KustoDatabase
     [JsiiByValue(fqn: "azurerm.kustoDatabase.KustoDatabaseConfig")]
     public class KustoDatabaseConfig : azurerm.KustoDatabase.IKustoDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#cluster_name KustoDatabase#cluster_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#cluster_name KustoDatabase#cluster_name}.</summary>
         [JsiiProperty(name: "clusterName", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterName
         {
@@ -17,7 +17,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#location KustoDatabase#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#location KustoDatabase#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#name KustoDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#name KustoDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#resource_group_name KustoDatabase#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#resource_group_name KustoDatabase#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#hot_cache_period KustoDatabase#hot_cache_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#hot_cache_period KustoDatabase#hot_cache_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hotCachePeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HotCachePeriod
@@ -50,7 +50,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#id KustoDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#id KustoDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace azurerm.KustoDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#soft_delete_period KustoDatabase#soft_delete_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#soft_delete_period KustoDatabase#soft_delete_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softDeletePeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SoftDeletePeriod
@@ -74,7 +74,7 @@ namespace azurerm.KustoDatabase
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_database#timeouts KustoDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_database#timeouts KustoDatabase#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.kustoDatabase.KustoDatabaseTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountGeoLocation")]
     public class CosmosdbAccountGeoLocation : azurerm.CosmosdbAccount.ICosmosdbAccountGeoLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
         [JsiiProperty(name: "failoverPriority", typeJson: "{\"primitive\":\"number\"}")]
         public double FailoverPriority
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -27,7 +27,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _zoneRedundant;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

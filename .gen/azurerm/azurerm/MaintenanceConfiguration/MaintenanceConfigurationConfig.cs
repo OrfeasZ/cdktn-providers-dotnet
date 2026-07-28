@@ -9,7 +9,7 @@ namespace azurerm.MaintenanceConfiguration
     [JsiiByValue(fqn: "azurerm.maintenanceConfiguration.MaintenanceConfigurationConfig")]
     public class MaintenanceConfigurationConfig : azurerm.MaintenanceConfiguration.IMaintenanceConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#location MaintenanceConfiguration#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#location MaintenanceConfiguration#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#name MaintenanceConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#name MaintenanceConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#resource_group_name MaintenanceConfiguration#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#resource_group_name MaintenanceConfiguration#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#scope MaintenanceConfiguration#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#scope MaintenanceConfiguration#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -41,7 +41,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#id MaintenanceConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#id MaintenanceConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#in_guest_user_patch_mode MaintenanceConfiguration#in_guest_user_patch_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#in_guest_user_patch_mode MaintenanceConfiguration#in_guest_user_patch_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inGuestUserPatchMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InGuestUserPatchMode
@@ -65,7 +65,7 @@ namespace azurerm.MaintenanceConfiguration
 
         /// <summary>install_patches block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#install_patches MaintenanceConfiguration#install_patches}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#install_patches MaintenanceConfiguration#install_patches}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "installPatches", typeJson: "{\"fqn\":\"azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatches\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#properties MaintenanceConfiguration#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#properties MaintenanceConfiguration#properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Properties
@@ -84,7 +84,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#tags MaintenanceConfiguration#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#tags MaintenanceConfiguration#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -95,7 +95,7 @@ namespace azurerm.MaintenanceConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#timeouts MaintenanceConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#timeouts MaintenanceConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.maintenanceConfiguration.MaintenanceConfigurationTimeouts\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#visibility MaintenanceConfiguration#visibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#visibility MaintenanceConfiguration#visibility}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Visibility
@@ -116,7 +116,7 @@ namespace azurerm.MaintenanceConfiguration
 
         /// <summary>window block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/maintenance_configuration#window MaintenanceConfiguration#window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/maintenance_configuration#window MaintenanceConfiguration#window}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "window", typeJson: "{\"fqn\":\"azurerm.maintenanceConfiguration.MaintenanceConfigurationWindow\"}", isOptional: true)]

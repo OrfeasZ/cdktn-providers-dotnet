@@ -45,12 +45,6 @@ namespace azurerm.KubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetContainerLogMaxLine")]
-        public virtual void ResetContainerLogMaxLine()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetContainerLogMaxSizeMb")]
         public virtual void ResetContainerLogMaxSizeMb()
         {
@@ -109,13 +103,6 @@ namespace azurerm.KubernetesCluster
         [JsiiOptional]
         [JsiiProperty(name: "containerLogMaxFilesInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ContainerLogMaxFilesInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "containerLogMaxLineInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? ContainerLogMaxLineInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -188,13 +175,6 @@ namespace azurerm.KubernetesCluster
 
         [JsiiProperty(name: "containerLogMaxFiles", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ContainerLogMaxFiles
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "containerLogMaxLine", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double ContainerLogMaxLine
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

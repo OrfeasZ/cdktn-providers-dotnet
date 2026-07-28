@@ -9,7 +9,7 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiByValue(fqn: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterRolesHeadNodeScriptActions")]
     public class HdinsightHbaseClusterRolesHeadNodeScriptActions : azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterRolesHeadNodeScriptActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#uri HdinsightHbaseCluster#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#uri HdinsightHbaseCluster#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {
@@ -25,7 +25,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/hdinsight_hbase_cluster#parameters HdinsightHbaseCluster#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_hbase_cluster#parameters HdinsightHbaseCluster#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Parameters

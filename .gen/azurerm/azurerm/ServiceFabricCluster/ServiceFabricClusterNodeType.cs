@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricCluster.ServiceFabricClusterNodeType")]
     public class ServiceFabricClusterNodeType : azurerm.ServiceFabricCluster.IServiceFabricClusterNodeType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#client_endpoint_port ServiceFabricCluster#client_endpoint_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#client_endpoint_port ServiceFabricCluster#client_endpoint_port}.</summary>
         [JsiiProperty(name: "clientEndpointPort", typeJson: "{\"primitive\":\"number\"}")]
         public double ClientEndpointPort
         {
@@ -17,7 +17,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#http_endpoint_port ServiceFabricCluster#http_endpoint_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#http_endpoint_port ServiceFabricCluster#http_endpoint_port}.</summary>
         [JsiiProperty(name: "httpEndpointPort", typeJson: "{\"primitive\":\"number\"}")]
         public double HttpEndpointPort
         {
@@ -25,7 +25,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#instance_count ServiceFabricCluster#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#instance_count ServiceFabricCluster#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double InstanceCount
         {
@@ -35,7 +35,7 @@ namespace azurerm.ServiceFabricCluster
 
         private object _isPrimary;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#is_primary ServiceFabricCluster#is_primary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#is_primary ServiceFabricCluster#is_primary}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -66,7 +66,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -76,7 +76,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>application_ports block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#application_ports ServiceFabricCluster#application_ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#application_ports ServiceFabricCluster#application_ports}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationPorts", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeApplicationPorts\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#capacities ServiceFabricCluster#capacities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#capacities ServiceFabricCluster#capacities}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Capacities
@@ -95,7 +95,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#durability_level ServiceFabricCluster#durability_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#durability_level ServiceFabricCluster#durability_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "durabilityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DurabilityLevel
@@ -106,7 +106,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>ephemeral_ports block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#ephemeral_ports ServiceFabricCluster#ephemeral_ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#ephemeral_ports ServiceFabricCluster#ephemeral_ports}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralPorts", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterNodeTypeEphemeralPorts\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace azurerm.ServiceFabricCluster
 
         private object? _isStateless;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#is_stateless ServiceFabricCluster#is_stateless}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#is_stateless ServiceFabricCluster#is_stateless}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -152,7 +152,7 @@ namespace azurerm.ServiceFabricCluster
 
         private object? _multipleAvailabilityZones;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#multiple_availability_zones ServiceFabricCluster#multiple_availability_zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#multiple_availability_zones ServiceFabricCluster#multiple_availability_zones}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -184,7 +184,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#placement_properties ServiceFabricCluster#placement_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#placement_properties ServiceFabricCluster#placement_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "placementProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? PlacementProperties
@@ -193,7 +193,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/service_fabric_cluster#reverse_proxy_endpoint_port ServiceFabricCluster#reverse_proxy_endpoint_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#reverse_proxy_endpoint_port ServiceFabricCluster#reverse_proxy_endpoint_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reverseProxyEndpointPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReverseProxyEndpointPort

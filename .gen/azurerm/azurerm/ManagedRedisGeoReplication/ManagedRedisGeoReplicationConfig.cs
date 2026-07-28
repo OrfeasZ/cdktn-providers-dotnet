@@ -9,7 +9,7 @@ namespace azurerm.ManagedRedisGeoReplication
     [JsiiByValue(fqn: "azurerm.managedRedisGeoReplication.ManagedRedisGeoReplicationConfig")]
     public class ManagedRedisGeoReplicationConfig : azurerm.ManagedRedisGeoReplication.IManagedRedisGeoReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis_geo_replication#linked_managed_redis_ids ManagedRedisGeoReplication#linked_managed_redis_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis_geo_replication#linked_managed_redis_ids ManagedRedisGeoReplication#linked_managed_redis_ids}.</summary>
         [JsiiProperty(name: "linkedManagedRedisIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] LinkedManagedRedisIds
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedRedisGeoReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis_geo_replication#managed_redis_id ManagedRedisGeoReplication#managed_redis_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis_geo_replication#managed_redis_id ManagedRedisGeoReplication#managed_redis_id}.</summary>
         [JsiiProperty(name: "managedRedisId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedRedisId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagedRedisGeoReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis_geo_replication#id ManagedRedisGeoReplication#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis_geo_replication#id ManagedRedisGeoReplication#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.ManagedRedisGeoReplication
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis_geo_replication#timeouts ManagedRedisGeoReplication#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis_geo_replication#timeouts ManagedRedisGeoReplication#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managedRedisGeoReplication.ManagedRedisGeoReplicationTimeouts\"}", isOptional: true)]

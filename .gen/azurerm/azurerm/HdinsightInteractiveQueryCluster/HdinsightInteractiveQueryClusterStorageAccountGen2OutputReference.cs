@@ -51,15 +51,15 @@ namespace azurerm.HdinsightInteractiveQueryCluster
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "managedIdentityResourceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ManagedIdentityResourceIdInput
+        [JsiiProperty(name: "storageAccountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StorageAccountIdInput
         {
             get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "storageResourceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageResourceIdInput
+        [JsiiProperty(name: "userAssignedIdentityIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UserAssignedIdentityIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -101,15 +101,15 @@ namespace azurerm.HdinsightInteractiveQueryCluster
             }
         }
 
-        [JsiiProperty(name: "managedIdentityResourceId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ManagedIdentityResourceId
+        [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StorageAccountId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageResourceId
+        [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UserAssignedIdentityId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

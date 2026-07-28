@@ -53,12 +53,6 @@ namespace azurerm.ApiManagement
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetKeyVaultId")]
-        public virtual void ResetKeyVaultId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetNegotiateClientCertificate")]
         public virtual void ResetNegotiateClientCertificate()
         {
@@ -129,13 +123,6 @@ namespace azurerm.ApiManagement
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "keyVaultIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? KeyVaultIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -176,13 +163,6 @@ namespace azurerm.ApiManagement
 
         [JsiiProperty(name: "keyVaultCertificateId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KeyVaultCertificateId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string KeyVaultId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

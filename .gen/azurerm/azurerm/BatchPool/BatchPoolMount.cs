@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     {
         /// <summary>azure_blob_file_system block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#azure_blob_file_system BatchPool#azure_blob_file_system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#azure_blob_file_system BatchPool#azure_blob_file_system}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureBlobFileSystem", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolMountAzureBlobFileSystem\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace azurerm.BatchPool
 
         /// <summary>azure_file_share block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#azure_file_share BatchPool#azure_file_share}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#azure_file_share BatchPool#azure_file_share}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolMountAzureFileShare" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -58,7 +58,7 @@ namespace azurerm.BatchPool
 
         /// <summary>cifs_mount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#cifs_mount BatchPool#cifs_mount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#cifs_mount BatchPool#cifs_mount}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolMountCifsMount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -93,7 +93,7 @@ namespace azurerm.BatchPool
 
         /// <summary>nfs_mount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#nfs_mount BatchPool#nfs_mount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#nfs_mount BatchPool#nfs_mount}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolMountNfsMount" />)[]</para>
         /// </remarks>
         [JsiiOptional]

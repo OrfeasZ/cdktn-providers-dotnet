@@ -57,18 +57,6 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetVirtualMachineSize")]
-        public virtual void ResetVirtualMachineSize()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetVmSizes")]
-        public virtual void ResetVmSizes()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "virtualMachineSize", typeJson: "{\"fqn\":\"azurerm.orchestratedVirtualMachineScaleSet.OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList\"}")]
         public virtual azurerm.OrchestratedVirtualMachineScaleSet.OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList VirtualMachineSize
         {
@@ -92,24 +80,10 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "vmSizesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? VmSizesInput
-        {
-            get => GetInstanceProperty<string[]?>();
-        }
-
         [JsiiProperty(name: "allocationStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AllocationStrategy
         {
             get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "vmSizes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] VmSizes
-        {
-            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

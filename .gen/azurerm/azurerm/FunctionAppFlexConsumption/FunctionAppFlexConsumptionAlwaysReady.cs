@@ -9,7 +9,7 @@ namespace azurerm.FunctionAppFlexConsumption
     [JsiiByValue(fqn: "azurerm.functionAppFlexConsumption.FunctionAppFlexConsumptionAlwaysReady")]
     public class FunctionAppFlexConsumptionAlwaysReady : azurerm.FunctionAppFlexConsumption.IFunctionAppFlexConsumptionAlwaysReady
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.FunctionAppFlexConsumption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InstanceCount

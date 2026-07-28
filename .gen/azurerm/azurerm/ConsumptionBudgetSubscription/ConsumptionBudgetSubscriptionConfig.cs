@@ -9,7 +9,7 @@ namespace azurerm.ConsumptionBudgetSubscription
     [JsiiByValue(fqn: "azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionConfig")]
     public class ConsumptionBudgetSubscriptionConfig : azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#amount ConsumptionBudgetSubscription#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#amount ConsumptionBudgetSubscription#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         public double Amount
         {
@@ -17,7 +17,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#name ConsumptionBudgetSubscription#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#name ConsumptionBudgetSubscription#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>notification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#notification ConsumptionBudgetSubscription#notification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#notification ConsumptionBudgetSubscription#notification}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionNotification" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "notification", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionNotification\"},\"kind\":\"array\"}}]}}")]
@@ -59,7 +59,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#subscription_id ConsumptionBudgetSubscription#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#subscription_id ConsumptionBudgetSubscription#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -69,7 +69,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>time_period block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#time_period ConsumptionBudgetSubscription#time_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#time_period ConsumptionBudgetSubscription#time_period}
         /// </remarks>
         [JsiiProperty(name: "timePeriod", typeJson: "{\"fqn\":\"azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionTimePeriod\"}")]
         public azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionTimePeriod TimePeriod
@@ -78,7 +78,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#etag ConsumptionBudgetSubscription#etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#etag ConsumptionBudgetSubscription#etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "etag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Etag
@@ -89,7 +89,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#filter ConsumptionBudgetSubscription#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#filter ConsumptionBudgetSubscription#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionFilter\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#id ConsumptionBudgetSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#id ConsumptionBudgetSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#time_grain ConsumptionBudgetSubscription#time_grain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#time_grain ConsumptionBudgetSubscription#time_grain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeGrain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeGrain
@@ -123,7 +123,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#timeouts ConsumptionBudgetSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#timeouts ConsumptionBudgetSubscription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionTimeouts\"}", isOptional: true)]

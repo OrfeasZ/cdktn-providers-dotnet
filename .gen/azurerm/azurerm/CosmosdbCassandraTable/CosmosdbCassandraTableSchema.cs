@@ -13,7 +13,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>column block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_cassandra_table#column CosmosdbCassandraTable#column}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_cassandra_table#column CosmosdbCassandraTable#column}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableSchemaColumn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "column", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableSchemaColumn\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>partition_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_cassandra_table#partition_key CosmosdbCassandraTable#partition_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_cassandra_table#partition_key CosmosdbCassandraTable#partition_key}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableSchemaPartitionKey" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "partitionKey", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableSchemaPartitionKey\"},\"kind\":\"array\"}}]}}")]
@@ -81,7 +81,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>cluster_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_cassandra_table#cluster_key CosmosdbCassandraTable#cluster_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_cassandra_table#cluster_key CosmosdbCassandraTable#cluster_key}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableSchemaClusterKey" />)[]</para>
         /// </remarks>
         [JsiiOptional]

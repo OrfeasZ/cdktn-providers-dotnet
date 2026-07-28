@@ -7,7 +7,7 @@ namespace azurerm.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterIngressApplicationGateway), fullyQualifiedName: "azurerm.kubernetesCluster.KubernetesClusterIngressApplicationGateway")]
     public interface IKubernetesClusterIngressApplicationGateway
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#gateway_id KubernetesCluster#gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#gateway_id KubernetesCluster#gateway_id}.</summary>
         [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GatewayId
@@ -18,7 +18,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#gateway_name KubernetesCluster#gateway_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#gateway_name KubernetesCluster#gateway_name}.</summary>
         [JsiiProperty(name: "gatewayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GatewayName
@@ -29,7 +29,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#subnet_cidr KubernetesCluster#subnet_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#subnet_cidr KubernetesCluster#subnet_cidr}.</summary>
         [JsiiProperty(name: "subnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetCidr
@@ -40,7 +40,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -58,7 +58,7 @@ namespace azurerm.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#gateway_id KubernetesCluster#gateway_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#gateway_id KubernetesCluster#gateway_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GatewayId
@@ -66,7 +66,7 @@ namespace azurerm.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#gateway_name KubernetesCluster#gateway_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#gateway_name KubernetesCluster#gateway_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gatewayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GatewayName
@@ -74,7 +74,7 @@ namespace azurerm.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#subnet_cidr KubernetesCluster#subnet_cidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#subnet_cidr KubernetesCluster#subnet_cidr}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetCidr
@@ -82,7 +82,7 @@ namespace azurerm.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

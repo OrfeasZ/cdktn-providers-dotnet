@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebAppSlot
     {
         /// <summary>The OpenID Connect Client ID for the Apple web application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
@@ -19,7 +19,7 @@ namespace azurerm.LinuxWebAppSlot
 
         /// <summary>The app setting name that contains the `client_secret` value used for Apple Login.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#client_secret_setting_name LinuxWebAppSlot#client_secret_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#client_secret_setting_name LinuxWebAppSlot#client_secret_setting_name}
         /// </remarks>
         [JsiiProperty(name: "clientSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
         string ClientSecretSettingName
@@ -36,7 +36,7 @@ namespace azurerm.LinuxWebAppSlot
 
             /// <summary>The OpenID Connect Client ID for the Apple web application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
             /// </remarks>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
@@ -46,7 +46,7 @@ namespace azurerm.LinuxWebAppSlot
 
             /// <summary>The app setting name that contains the `client_secret` value used for Apple Login.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#client_secret_setting_name LinuxWebAppSlot#client_secret_setting_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#client_secret_setting_name LinuxWebAppSlot#client_secret_setting_name}
             /// </remarks>
             [JsiiProperty(name: "clientSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientSecretSettingName

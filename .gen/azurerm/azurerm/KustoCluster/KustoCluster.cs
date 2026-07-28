@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.KustoCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.KustoCluster.KustoCluster), fullyQualifiedName: "azurerm.kustoCluster.KustoCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterConfig\"}}]")]
     public class KustoCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public KustoCluster(Constructs.Construct scope, string id, azurerm.KustoCluster.IKustoClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.KustoCluster
         /// <param name="importToId">The construct id used in the generated config for the KustoCluster to import.</param>
         /// <param name="importFromId">The id of the existing KustoCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the KustoCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the KustoCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing KustoCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the KustoCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the KustoCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kusto_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing KustoCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the KustoCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.KustoCluster.KustoCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -76,30 +76,6 @@ namespace azurerm.KustoCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KustoCluster.IKustoClusterLanguageExtensions" />)[]</param>
-        [JsiiMethod(name: "putLanguageExtensions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterLanguageExtensions\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutLanguageExtensions(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case azurerm.KustoCluster.IKustoClusterLanguageExtensions[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.KustoCluster.IKustoClusterLanguageExtensions).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.KustoCluster.IKustoClusterLanguageExtensions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putOptimizedAutoScale", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterOptimizedAutoScale\"}}]")]
         public virtual void PutOptimizedAutoScale(azurerm.KustoCluster.IKustoClusterOptimizedAutoScale @value)
         {
@@ -116,12 +92,6 @@ namespace azurerm.KustoCluster
         public virtual void PutTimeouts(azurerm.KustoCluster.IKustoClusterTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.KustoCluster.IKustoClusterTimeouts)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "putVirtualNetworkConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration\"}}]")]
-        public virtual void PutVirtualNetworkConfiguration(azurerm.KustoCluster.IKustoClusterVirtualNetworkConfiguration @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.KustoCluster.IKustoClusterVirtualNetworkConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAllowedFqdns")]
@@ -168,12 +138,6 @@ namespace azurerm.KustoCluster
 
         [JsiiMethod(name: "resetLanguageExtension")]
         public virtual void ResetLanguageExtension()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetLanguageExtensions")]
-        public virtual void ResetLanguageExtensions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -232,12 +196,6 @@ namespace azurerm.KustoCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetVirtualNetworkConfiguration")]
-        public virtual void ResetVirtualNetworkConfiguration()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetZones")]
         public virtual void ResetZones()
         {
@@ -281,12 +239,6 @@ namespace azurerm.KustoCluster
             get => GetInstanceProperty<azurerm.KustoCluster.KustoClusterLanguageExtensionList>()!;
         }
 
-        [JsiiProperty(name: "languageExtensions", typeJson: "{\"fqn\":\"azurerm.kustoCluster.KustoClusterLanguageExtensionsList\"}")]
-        public virtual azurerm.KustoCluster.KustoClusterLanguageExtensionsList LanguageExtensions
-        {
-            get => GetInstanceProperty<azurerm.KustoCluster.KustoClusterLanguageExtensionsList>()!;
-        }
-
         [JsiiProperty(name: "optimizedAutoScale", typeJson: "{\"fqn\":\"azurerm.kustoCluster.KustoClusterOptimizedAutoScaleOutputReference\"}")]
         public virtual azurerm.KustoCluster.KustoClusterOptimizedAutoScaleOutputReference OptimizedAutoScale
         {
@@ -309,12 +261,6 @@ namespace azurerm.KustoCluster
         public virtual string Uri
         {
             get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "virtualNetworkConfiguration", typeJson: "{\"fqn\":\"azurerm.kustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference\"}")]
-        public virtual azurerm.KustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference VirtualNetworkConfiguration
-        {
-            get => GetInstanceProperty<azurerm.KustoCluster.KustoClusterVirtualNetworkConfigurationOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -381,16 +327,6 @@ namespace azurerm.KustoCluster
         [JsiiOptional]
         [JsiiProperty(name: "languageExtensionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterLanguageExtension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? LanguageExtensionInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KustoCluster.IKustoClusterLanguageExtensions" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "languageExtensionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.kustoCluster.KustoClusterLanguageExtensions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? LanguageExtensionsInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -499,13 +435,6 @@ namespace azurerm.KustoCluster
         public virtual string[]? TrustedExternalTenantsInput
         {
             get => GetInstanceProperty<string[]?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "virtualNetworkConfigurationInput", typeJson: "{\"fqn\":\"azurerm.kustoCluster.KustoClusterVirtualNetworkConfiguration\"}", isOptional: true)]
-        public virtual azurerm.KustoCluster.IKustoClusterVirtualNetworkConfiguration? VirtualNetworkConfigurationInput
-        {
-            get => GetInstanceProperty<azurerm.KustoCluster.IKustoClusterVirtualNetworkConfiguration?>();
         }
 
         [JsiiOptional]

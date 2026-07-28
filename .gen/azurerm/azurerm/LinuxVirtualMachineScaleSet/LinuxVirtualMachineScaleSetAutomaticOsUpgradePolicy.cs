@@ -9,16 +9,16 @@ namespace azurerm.LinuxVirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicy")]
     public class LinuxVirtualMachineScaleSetAutomaticOsUpgradePolicy : azurerm.LinuxVirtualMachineScaleSet.ILinuxVirtualMachineScaleSetAutomaticOsUpgradePolicy
     {
-        private object _disableAutomaticRollback;
+        private object _automaticOsUpgradeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine_scale_set#disable_automatic_rollback LinuxVirtualMachineScaleSet#disable_automatic_rollback}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine_scale_set#automatic_os_upgrade_enabled LinuxVirtualMachineScaleSet#automatic_os_upgrade_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "disableAutomaticRollback", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public object DisableAutomaticRollback
+        [JsiiProperty(name: "automaticOsUpgradeEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object AutomaticOsUpgradeEnabled
         {
-            get => _disableAutomaticRollback;
+            get => _automaticOsUpgradeEnabled;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -38,20 +38,20 @@ namespace azurerm.LinuxVirtualMachineScaleSet
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _disableAutomaticRollback = value;
+                _automaticOsUpgradeEnabled = value;
             }
         }
 
-        private object _enableAutomaticOsUpgrade;
+        private object _automaticRollbackEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_virtual_machine_scale_set#enable_automatic_os_upgrade LinuxVirtualMachineScaleSet#enable_automatic_os_upgrade}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_virtual_machine_scale_set#automatic_rollback_enabled LinuxVirtualMachineScaleSet#automatic_rollback_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "enableAutomaticOsUpgrade", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public object EnableAutomaticOsUpgrade
+        [JsiiProperty(name: "automaticRollbackEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object AutomaticRollbackEnabled
         {
-            get => _enableAutomaticOsUpgrade;
+            get => _automaticRollbackEnabled;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -71,7 +71,7 @@ namespace azurerm.LinuxVirtualMachineScaleSet
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _enableAutomaticOsUpgrade = value;
+                _automaticRollbackEnabled = value;
             }
         }
     }

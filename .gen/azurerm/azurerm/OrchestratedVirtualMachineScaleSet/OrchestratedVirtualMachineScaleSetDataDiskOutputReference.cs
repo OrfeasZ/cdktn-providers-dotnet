@@ -47,6 +47,18 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDiskIopsReadWrite")]
+        public virtual void ResetDiskIopsReadWrite()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDiskMbpsReadWrite")]
+        public virtual void ResetDiskMbpsReadWrite()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDiskSizeGb")]
         public virtual void ResetDiskSizeGb()
         {
@@ -55,18 +67,6 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
 
         [JsiiMethod(name: "resetLun")]
         public virtual void ResetLun()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetUltraSsdDiskIopsReadWrite")]
-        public virtual void ResetUltraSsdDiskIopsReadWrite()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetUltraSsdDiskMbpsReadWrite")]
-        public virtual void ResetUltraSsdDiskMbpsReadWrite()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -99,6 +99,20 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "diskIopsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DiskIopsReadWriteInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "diskMbpsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DiskMbpsReadWriteInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "diskSizeGbInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DiskSizeGbInput
         {
@@ -117,20 +131,6 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
         public virtual string? StorageAccountTypeInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "ultraSsdDiskIopsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? UltraSsdDiskIopsReadWriteInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "ultraSsdDiskMbpsReadWriteInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? UltraSsdDiskMbpsReadWriteInput
-        {
-            get => GetInstanceProperty<double?>();
         }
 
         /// <remarks>
@@ -164,6 +164,20 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "diskIopsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DiskIopsReadWrite
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "diskMbpsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DiskMbpsReadWrite
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "diskSizeGb", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double DiskSizeGb
         {
@@ -182,20 +196,6 @@ namespace azurerm.OrchestratedVirtualMachineScaleSet
         public virtual string StorageAccountType
         {
             get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "ultraSsdDiskIopsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double UltraSsdDiskIopsReadWrite
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "ultraSsdDiskMbpsReadWrite", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double UltraSsdDiskMbpsReadWrite
-        {
-            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

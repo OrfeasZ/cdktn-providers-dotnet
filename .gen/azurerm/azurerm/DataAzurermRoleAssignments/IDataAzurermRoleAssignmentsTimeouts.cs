@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRoleAssignments
     [JsiiInterface(nativeType: typeof(IDataAzurermRoleAssignmentsTimeouts), fullyQualifiedName: "azurerm.dataAzurermRoleAssignments.DataAzurermRoleAssignmentsTimeouts")]
     public interface IDataAzurermRoleAssignmentsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermRoleAssignments
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/role_assignments#read DataAzurermRoleAssignments#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

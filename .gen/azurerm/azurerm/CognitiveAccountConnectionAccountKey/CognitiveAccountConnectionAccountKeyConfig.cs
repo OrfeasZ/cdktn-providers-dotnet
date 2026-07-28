@@ -9,7 +9,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
     [JsiiByValue(fqn: "azurerm.cognitiveAccountConnectionAccountKey.CognitiveAccountConnectionAccountKeyConfig")]
     public class CognitiveAccountConnectionAccountKeyConfig : azurerm.CognitiveAccountConnectionAccountKey.ICognitiveAccountConnectionAccountKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#account_key CognitiveAccountConnectionAccountKey#account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#account_key CognitiveAccountConnectionAccountKey#account_key}.</summary>
         [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#category CognitiveAccountConnectionAccountKey#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#category CognitiveAccountConnectionAccountKey#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {
@@ -25,7 +25,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#cognitive_account_id CognitiveAccountConnectionAccountKey#cognitive_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#cognitive_account_id CognitiveAccountConnectionAccountKey#cognitive_account_id}.</summary>
         [JsiiProperty(name: "cognitiveAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string CognitiveAccountId
         {
@@ -33,7 +33,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#metadata CognitiveAccountConnectionAccountKey#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#metadata CognitiveAccountConnectionAccountKey#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Metadata
         {
@@ -41,7 +41,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#name CognitiveAccountConnectionAccountKey#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#name CognitiveAccountConnectionAccountKey#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -49,7 +49,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#target CognitiveAccountConnectionAccountKey#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#target CognitiveAccountConnectionAccountKey#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public string Target
         {
@@ -57,7 +57,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#id CognitiveAccountConnectionAccountKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#id CognitiveAccountConnectionAccountKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azurerm.CognitiveAccountConnectionAccountKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cognitive_account_connection_account_key#timeouts CognitiveAccountConnectionAccountKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cognitive_account_connection_account_key#timeouts CognitiveAccountConnectionAccountKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cognitiveAccountConnectionAccountKey.CognitiveAccountConnectionAccountKeyTimeouts\"}", isOptional: true)]

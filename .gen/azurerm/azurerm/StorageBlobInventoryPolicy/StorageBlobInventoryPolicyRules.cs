@@ -9,7 +9,7 @@ namespace azurerm.StorageBlobInventoryPolicy
     [JsiiByValue(fqn: "azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRules")]
     public class StorageBlobInventoryPolicyRules : azurerm.StorageBlobInventoryPolicy.IStorageBlobInventoryPolicyRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#format StorageBlobInventoryPolicy#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#format StorageBlobInventoryPolicy#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageBlobInventoryPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#name StorageBlobInventoryPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#name StorageBlobInventoryPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageBlobInventoryPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#schedule StorageBlobInventoryPolicy#schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#schedule StorageBlobInventoryPolicy#schedule}.</summary>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
         public string Schedule
         {
@@ -33,7 +33,7 @@ namespace azurerm.StorageBlobInventoryPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#schema_fields StorageBlobInventoryPolicy#schema_fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#schema_fields StorageBlobInventoryPolicy#schema_fields}.</summary>
         [JsiiProperty(name: "schemaFields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SchemaFields
         {
@@ -41,7 +41,7 @@ namespace azurerm.StorageBlobInventoryPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#scope StorageBlobInventoryPolicy#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#scope StorageBlobInventoryPolicy#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -49,7 +49,7 @@ namespace azurerm.StorageBlobInventoryPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#storage_container_name StorageBlobInventoryPolicy#storage_container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#storage_container_name StorageBlobInventoryPolicy#storage_container_name}.</summary>
         [JsiiProperty(name: "storageContainerName", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageContainerName
         {
@@ -59,7 +59,7 @@ namespace azurerm.StorageBlobInventoryPolicy
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_blob_inventory_policy#filter StorageBlobInventoryPolicy#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_blob_inventory_policy#filter StorageBlobInventoryPolicy#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"azurerm.storageBlobInventoryPolicy.StorageBlobInventoryPolicyRulesFilter\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.MongoClusterUser
     [JsiiByValue(fqn: "azurerm.mongoClusterUser.MongoClusterUserRole")]
     public class MongoClusterUserRole : azurerm.MongoClusterUser.IMongoClusterUserRole
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster_user#database MongoClusterUser#database}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#database MongoClusterUser#database}.</summary>
         [JsiiProperty(name: "database", typeJson: "{\"primitive\":\"string\"}")]
         public string Database
         {
@@ -17,7 +17,7 @@ namespace azurerm.MongoClusterUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mongo_cluster_user#name MongoClusterUser#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#name MongoClusterUser#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualNetwork
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualNetwork.DataAzurermVirtualNetworkTimeouts")]
     public class DataAzurermVirtualNetworkTimeouts : azurerm.DataAzurermVirtualNetwork.IDataAzurermVirtualNetworkTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/virtual_network#read DataAzurermVirtualNetwork#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/virtual_network#read DataAzurermVirtualNetwork#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

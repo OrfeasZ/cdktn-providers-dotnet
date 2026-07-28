@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountBackup")]
     public class CosmosdbAccountBackup : azurerm.CosmosdbAccount.ICosmosdbAccountBackup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#type CosmosdbAccount#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#type CosmosdbAccount#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#interval_in_minutes CosmosdbAccount#interval_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#interval_in_minutes CosmosdbAccount#interval_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "intervalInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IntervalInMinutes
@@ -26,7 +26,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#retention_in_hours CosmosdbAccount#retention_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#retention_in_hours CosmosdbAccount#retention_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInHours
@@ -35,7 +35,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#storage_redundancy CosmosdbAccount#storage_redundancy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#storage_redundancy CosmosdbAccount#storage_redundancy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageRedundancy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageRedundancy
@@ -44,7 +44,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#tier CosmosdbAccount#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#tier CosmosdbAccount#tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tier

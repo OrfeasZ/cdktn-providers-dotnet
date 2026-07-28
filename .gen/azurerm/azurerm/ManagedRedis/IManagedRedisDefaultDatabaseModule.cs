@@ -7,14 +7,14 @@ namespace azurerm.ManagedRedis
     [JsiiInterface(nativeType: typeof(IManagedRedisDefaultDatabaseModule), fullyQualifiedName: "azurerm.managedRedis.ManagedRedisDefaultDatabaseModule")]
     public interface IManagedRedisDefaultDatabaseModule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis#name ManagedRedis#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis#name ManagedRedis#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis#args ManagedRedis#args}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis#args ManagedRedis#args}.</summary>
         [JsiiProperty(name: "args", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Args
@@ -32,14 +32,14 @@ namespace azurerm.ManagedRedis
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis#name ManagedRedis#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis#name ManagedRedis#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_redis#args ManagedRedis#args}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_redis#args ManagedRedis#args}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "args", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Args

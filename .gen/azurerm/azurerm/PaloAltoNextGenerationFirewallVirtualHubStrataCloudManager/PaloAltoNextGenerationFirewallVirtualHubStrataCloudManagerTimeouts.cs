@@ -7,7 +7,7 @@ namespace azurerm.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager
     [JsiiByValue(fqn: "azurerm.paloAltoNextGenerationFirewallVirtualHubStrataCloudManager.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerTimeouts")]
     public class PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerTimeouts : azurerm.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager.IPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#create PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#create PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#delete PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#delete PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#read PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#read PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azurerm.PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#update PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_strata_cloud_manager#update PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

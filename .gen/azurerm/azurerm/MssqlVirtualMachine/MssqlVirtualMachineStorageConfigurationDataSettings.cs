@@ -9,7 +9,7 @@ namespace azurerm.MssqlVirtualMachine
     [JsiiByValue(fqn: "azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettings")]
     public class MssqlVirtualMachineStorageConfigurationDataSettings : azurerm.MssqlVirtualMachine.IMssqlVirtualMachineStorageConfigurationDataSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_virtual_machine#default_file_path MssqlVirtualMachine#default_file_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_virtual_machine#default_file_path MssqlVirtualMachine#default_file_path}.</summary>
         [JsiiProperty(name: "defaultFilePath", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultFilePath
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_virtual_machine#luns MssqlVirtualMachine#luns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_virtual_machine#luns MssqlVirtualMachine#luns}.</summary>
         [JsiiProperty(name: "luns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public double[] Luns
         {

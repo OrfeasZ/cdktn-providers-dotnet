@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorSecurityPolicy
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorSecurityPolicy.CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain")]
     public class CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain : azurerm.CdnFrontdoorSecurityPolicy.ICdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
         [JsiiProperty(name: "cdnFrontdoorDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string CdnFrontdoorDomainId
         {

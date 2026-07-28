@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppEnvironment
     [JsiiByValue(fqn: "azurerm.containerAppEnvironment.ContainerAppEnvironmentWorkloadProfile")]
     public class ContainerAppEnvironmentWorkloadProfile : azurerm.ContainerAppEnvironment.IContainerAppEnvironmentWorkloadProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment#name ContainerAppEnvironment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_environment#name ContainerAppEnvironment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerAppEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment#workload_profile_type ContainerAppEnvironment#workload_profile_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_environment#workload_profile_type ContainerAppEnvironment#workload_profile_type}.</summary>
         [JsiiProperty(name: "workloadProfileType", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkloadProfileType
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerAppEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment#maximum_count ContainerAppEnvironment#maximum_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_environment#maximum_count ContainerAppEnvironment#maximum_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumCount
@@ -34,7 +34,7 @@ namespace azurerm.ContainerAppEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_environment#minimum_count ContainerAppEnvironment#minimum_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_environment#minimum_count ContainerAppEnvironment#minimum_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumCount

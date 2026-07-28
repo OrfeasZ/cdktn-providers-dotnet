@@ -33,28 +33,9 @@ namespace azurerm.StorageAccount
         {
         }
 
-        [JsiiMethod(name: "resetKeyVaultKeyId")]
-        public virtual void ResetKeyVaultKeyId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetManagedHsmKeyId")]
-        public virtual void ResetManagedHsmKeyId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? KeyVaultKeyIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "managedHsmKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ManagedHsmKeyIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -68,13 +49,6 @@ namespace azurerm.StorageAccount
 
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KeyVaultKeyId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "managedHsmKeyId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ManagedHsmKeyId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.StorageAccount
     [JsiiByValue(fqn: "azurerm.storageAccount.StorageAccountSasPolicy")]
     public class StorageAccountSasPolicy : azurerm.StorageAccount.IStorageAccountSasPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#expiration_period StorageAccount#expiration_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#expiration_period StorageAccount#expiration_period}.</summary>
         [JsiiProperty(name: "expirationPeriod", typeJson: "{\"primitive\":\"string\"}")]
         public string ExpirationPeriod
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#expiration_action StorageAccount#expiration_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#expiration_action StorageAccount#expiration_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expirationAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpirationAction

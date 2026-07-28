@@ -11,7 +11,7 @@ namespace azurerm.NetappAccountEncryption
     {
         /// <summary>The versionless encryption key url.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#encryption_key NetappAccountEncryption#encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#encryption_key NetappAccountEncryption#encryption_key}
         /// </remarks>
         [JsiiProperty(name: "encryptionKey", typeJson: "{\"primitive\":\"string\"}")]
         public string EncryptionKey
@@ -22,7 +22,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>The ID of the NetApp Account where encryption will be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#netapp_account_id NetappAccountEncryption#netapp_account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#netapp_account_id NetappAccountEncryption#netapp_account_id}
         /// </remarks>
         [JsiiProperty(name: "netappAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetappAccountId
@@ -33,7 +33,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>The full resource ID of the cross-tenant key vault. Required when using federated_client_id for cross-tenant scenarios.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#cross_tenant_key_vault_resource_id NetappAccountEncryption#cross_tenant_key_vault_resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#cross_tenant_key_vault_resource_id NetappAccountEncryption#cross_tenant_key_vault_resource_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crossTenantKeyVaultResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>The Client ID of the multi-tenant Entra ID application used to access cross-tenant key vaults.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#federated_client_id NetappAccountEncryption#federated_client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#federated_client_id NetappAccountEncryption#federated_client_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "federatedClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.NetappAccountEncryption
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#id NetappAccountEncryption#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#id NetappAccountEncryption#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>The Principal ID of the System Assigned Identity to use for encryption.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#system_assigned_identity_principal_id NetappAccountEncryption#system_assigned_identity_principal_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#system_assigned_identity_principal_id NetappAccountEncryption#system_assigned_identity_principal_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "systemAssignedIdentityPrincipalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#timeouts NetappAccountEncryption#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#timeouts NetappAccountEncryption#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.netappAccountEncryption.NetappAccountEncryptionTimeouts\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace azurerm.NetappAccountEncryption
 
         /// <summary>The resource ID of the User Assigned Identity to use for encryption.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_account_encryption#user_assigned_identity_id NetappAccountEncryption#user_assigned_identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_account_encryption#user_assigned_identity_id NetappAccountEncryption#user_assigned_identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

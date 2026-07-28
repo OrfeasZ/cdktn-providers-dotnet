@@ -9,7 +9,7 @@ namespace azurerm.NetworkProfile
     [JsiiByValue(fqn: "azurerm.networkProfile.NetworkProfileContainerNetworkInterfaceIpConfiguration")]
     public class NetworkProfileContainerNetworkInterfaceIpConfiguration : azurerm.NetworkProfile.INetworkProfileContainerNetworkInterfaceIpConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_profile#name NetworkProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_profile#name NetworkProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetworkProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/network_profile#subnet_id NetworkProfile#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_profile#subnet_id NetworkProfile#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {

@@ -9,21 +9,9 @@ namespace azurerm.MonitorAadDiagnosticSetting
     [JsiiByValue(fqn: "azurerm.monitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLog")]
     public class MonitorAadDiagnosticSettingEnabledLog : azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_aad_diagnostic_setting#category MonitorAadDiagnosticSetting#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_aad_diagnostic_setting#category MonitorAadDiagnosticSetting#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
-        {
-            get;
-            set;
-        }
-
-        /// <summary>retention_policy block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_aad_diagnostic_setting#retention_policy MonitorAadDiagnosticSetting#retention_policy}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.monitorAadDiagnosticSetting.MonitorAadDiagnosticSettingEnabledLogRetentionPolicy\"}", isOptional: true)]
-        public azurerm.MonitorAadDiagnosticSetting.IMonitorAadDiagnosticSettingEnabledLogRetentionPolicy? RetentionPolicy
         {
             get;
             set;

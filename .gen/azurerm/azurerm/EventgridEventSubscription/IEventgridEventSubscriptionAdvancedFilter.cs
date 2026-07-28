@@ -9,7 +9,7 @@ namespace azurerm.EventgridEventSubscription
     {
         /// <summary>bool_equals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#bool_equals EventgridEventSubscription#bool_equals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#bool_equals EventgridEventSubscription#bool_equals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterBoolEquals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "boolEquals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterBoolEquals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>is_not_null block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#is_not_null EventgridEventSubscription#is_not_null}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#is_not_null EventgridEventSubscription#is_not_null}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterIsNotNull" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "isNotNull", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterIsNotNull\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>is_null_or_undefined block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#is_null_or_undefined EventgridEventSubscription#is_null_or_undefined}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#is_null_or_undefined EventgridEventSubscription#is_null_or_undefined}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterIsNullOrUndefined" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "isNullOrUndefined", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterIsNullOrUndefined\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_greater_than block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_greater_than EventgridEventSubscription#number_greater_than}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_greater_than EventgridEventSubscription#number_greater_than}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberGreaterThan" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberGreaterThan", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberGreaterThan\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_greater_than_or_equals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_greater_than_or_equals EventgridEventSubscription#number_greater_than_or_equals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_greater_than_or_equals EventgridEventSubscription#number_greater_than_or_equals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberGreaterThanOrEquals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_in block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_in EventgridEventSubscription#number_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_in EventgridEventSubscription#number_in}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberIn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberIn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberIn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_in_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_in_range EventgridEventSubscription#number_in_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_in_range EventgridEventSubscription#number_in_range}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberInRange" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberInRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberInRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_less_than block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_less_than EventgridEventSubscription#number_less_than}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_less_than EventgridEventSubscription#number_less_than}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberLessThan" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberLessThan", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberLessThan\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_less_than_or_equals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_less_than_or_equals EventgridEventSubscription#number_less_than_or_equals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_less_than_or_equals EventgridEventSubscription#number_less_than_or_equals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberLessThanOrEquals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_not_in block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_not_in EventgridEventSubscription#number_not_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_not_in EventgridEventSubscription#number_not_in}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberNotIn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberNotIn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberNotIn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -159,7 +159,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>number_not_in_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_not_in_range EventgridEventSubscription#number_not_in_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_not_in_range EventgridEventSubscription#number_not_in_range}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberNotInRange" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "numberNotInRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterNumberNotInRange\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_begins_with block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_begins_with EventgridEventSubscription#string_begins_with}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_begins_with EventgridEventSubscription#string_begins_with}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringBeginsWith" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringBeginsWith", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringBeginsWith\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_contains block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_contains EventgridEventSubscription#string_contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_contains EventgridEventSubscription#string_contains}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringContains" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringContains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringContains\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_ends_with block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_ends_with EventgridEventSubscription#string_ends_with}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_ends_with EventgridEventSubscription#string_ends_with}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringEndsWith" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringEndsWith", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringEndsWith\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_in block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_in EventgridEventSubscription#string_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_in EventgridEventSubscription#string_in}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringIn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringIn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringIn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_not_begins_with block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_begins_with EventgridEventSubscription#string_not_begins_with}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_begins_with EventgridEventSubscription#string_not_begins_with}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotBeginsWith" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringNotBeginsWith", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringNotBeginsWith\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_not_contains block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_contains EventgridEventSubscription#string_not_contains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_contains EventgridEventSubscription#string_not_contains}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotContains" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringNotContains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringNotContains\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_not_ends_with block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_ends_with EventgridEventSubscription#string_not_ends_with}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_ends_with EventgridEventSubscription#string_not_ends_with}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotEndsWith" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringNotEndsWith", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringNotEndsWith\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -279,7 +279,7 @@ namespace azurerm.EventgridEventSubscription
 
         /// <summary>string_not_in block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_in EventgridEventSubscription#string_not_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_in EventgridEventSubscription#string_not_in}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotIn" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "stringNotIn", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterStringNotIn\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>bool_equals block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#bool_equals EventgridEventSubscription#bool_equals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#bool_equals EventgridEventSubscription#bool_equals}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterBoolEquals" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -313,7 +313,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>is_not_null block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#is_not_null EventgridEventSubscription#is_not_null}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#is_not_null EventgridEventSubscription#is_not_null}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterIsNotNull" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -325,7 +325,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>is_null_or_undefined block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#is_null_or_undefined EventgridEventSubscription#is_null_or_undefined}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#is_null_or_undefined EventgridEventSubscription#is_null_or_undefined}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterIsNullOrUndefined" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -337,7 +337,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_greater_than block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_greater_than EventgridEventSubscription#number_greater_than}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_greater_than EventgridEventSubscription#number_greater_than}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberGreaterThan" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -349,7 +349,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_greater_than_or_equals block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_greater_than_or_equals EventgridEventSubscription#number_greater_than_or_equals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_greater_than_or_equals EventgridEventSubscription#number_greater_than_or_equals}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -361,7 +361,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_in block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_in EventgridEventSubscription#number_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_in EventgridEventSubscription#number_in}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberIn" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -373,7 +373,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_in_range block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_in_range EventgridEventSubscription#number_in_range}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_in_range EventgridEventSubscription#number_in_range}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberInRange" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -385,7 +385,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_less_than block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_less_than EventgridEventSubscription#number_less_than}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_less_than EventgridEventSubscription#number_less_than}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberLessThan" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -397,7 +397,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_less_than_or_equals block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_less_than_or_equals EventgridEventSubscription#number_less_than_or_equals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_less_than_or_equals EventgridEventSubscription#number_less_than_or_equals}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -409,7 +409,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_not_in block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_not_in EventgridEventSubscription#number_not_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_not_in EventgridEventSubscription#number_not_in}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberNotIn" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -421,7 +421,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>number_not_in_range block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#number_not_in_range EventgridEventSubscription#number_not_in_range}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#number_not_in_range EventgridEventSubscription#number_not_in_range}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterNumberNotInRange" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -433,7 +433,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_begins_with block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_begins_with EventgridEventSubscription#string_begins_with}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_begins_with EventgridEventSubscription#string_begins_with}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringBeginsWith" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -445,7 +445,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_contains block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_contains EventgridEventSubscription#string_contains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_contains EventgridEventSubscription#string_contains}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringContains" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -457,7 +457,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_ends_with block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_ends_with EventgridEventSubscription#string_ends_with}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_ends_with EventgridEventSubscription#string_ends_with}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringEndsWith" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -469,7 +469,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_in block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_in EventgridEventSubscription#string_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_in EventgridEventSubscription#string_in}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringIn" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -481,7 +481,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_not_begins_with block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_begins_with EventgridEventSubscription#string_not_begins_with}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_begins_with EventgridEventSubscription#string_not_begins_with}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotBeginsWith" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -493,7 +493,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_not_contains block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_contains EventgridEventSubscription#string_not_contains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_contains EventgridEventSubscription#string_not_contains}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotContains" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -505,7 +505,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_not_ends_with block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_ends_with EventgridEventSubscription#string_not_ends_with}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_ends_with EventgridEventSubscription#string_not_ends_with}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotEndsWith" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -517,7 +517,7 @@ namespace azurerm.EventgridEventSubscription
 
             /// <summary>string_not_in block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#string_not_in EventgridEventSubscription#string_not_in}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#string_not_in EventgridEventSubscription#string_not_in}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterStringNotIn" />)[]</para>
             /// </remarks>
             [JsiiOptional]

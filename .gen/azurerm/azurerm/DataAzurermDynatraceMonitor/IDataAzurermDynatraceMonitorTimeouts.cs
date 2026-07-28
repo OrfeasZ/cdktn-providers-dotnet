@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDynatraceMonitor
     [JsiiInterface(nativeType: typeof(IDataAzurermDynatraceMonitorTimeouts), fullyQualifiedName: "azurerm.dataAzurermDynatraceMonitor.DataAzurermDynatraceMonitorTimeouts")]
     public interface IDataAzurermDynatraceMonitorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDynatraceMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

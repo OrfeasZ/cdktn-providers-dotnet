@@ -35,6 +35,12 @@ namespace azurerm.CdnFrontdoorSecret
         {
         }
 
+        [JsiiProperty(name: "expirationDate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExpirationDate
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] SubjectAlternativeNames
         {

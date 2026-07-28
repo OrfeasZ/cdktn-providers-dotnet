@@ -53,12 +53,6 @@ namespace azurerm.DataAzurermCdnFrontdoorCustomDomain
             get => GetInstanceProperty<azurerm.DataAzurermCdnFrontdoorCustomDomain.DataAzurermCdnFrontdoorCustomDomainTlsCipherSuiteList>()!;
         }
 
-        [JsiiProperty(name: "minimumTlsVersion", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string MinimumTlsVersion
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "minimumVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MinimumVersion
         {

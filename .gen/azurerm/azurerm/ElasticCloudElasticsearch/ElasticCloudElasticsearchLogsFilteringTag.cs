@@ -9,7 +9,7 @@ namespace azurerm.ElasticCloudElasticsearch
     [JsiiByValue(fqn: "azurerm.elasticCloudElasticsearch.ElasticCloudElasticsearchLogsFilteringTag")]
     public class ElasticCloudElasticsearchLogsFilteringTag : azurerm.ElasticCloudElasticsearch.IElasticCloudElasticsearchLogsFilteringTag
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_cloud_elasticsearch#action ElasticCloudElasticsearch#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_cloud_elasticsearch#action ElasticCloudElasticsearch#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace azurerm.ElasticCloudElasticsearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_cloud_elasticsearch#name ElasticCloudElasticsearch#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_cloud_elasticsearch#name ElasticCloudElasticsearch#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ElasticCloudElasticsearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_cloud_elasticsearch#value ElasticCloudElasticsearch#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_cloud_elasticsearch#value ElasticCloudElasticsearch#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

@@ -9,7 +9,7 @@ namespace azurerm.AnalysisServicesServer
     [JsiiByValue(fqn: "azurerm.analysisServicesServer.AnalysisServicesServerIpv4FirewallRule")]
     public class AnalysisServicesServerIpv4FirewallRule : azurerm.AnalysisServicesServer.IAnalysisServicesServerIpv4FirewallRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/analysis_services_server#name AnalysisServicesServer#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/analysis_services_server#name AnalysisServicesServer#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.AnalysisServicesServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/analysis_services_server#range_end AnalysisServicesServer#range_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/analysis_services_server#range_end AnalysisServicesServer#range_end}.</summary>
         [JsiiProperty(name: "rangeEnd", typeJson: "{\"primitive\":\"string\"}")]
         public string RangeEnd
         {
@@ -25,7 +25,7 @@ namespace azurerm.AnalysisServicesServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/analysis_services_server#range_start AnalysisServicesServer#range_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/analysis_services_server#range_start AnalysisServicesServer#range_start}.</summary>
         [JsiiProperty(name: "rangeStart", typeJson: "{\"primitive\":\"string\"}")]
         public string RangeStart
         {

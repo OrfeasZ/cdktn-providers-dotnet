@@ -9,7 +9,7 @@ namespace azurerm.NotificationHub
     [JsiiByValue(fqn: "azurerm.notificationHub.NotificationHubConfig")]
     public class NotificationHubConfig : azurerm.NotificationHub.INotificationHubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#location NotificationHub#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#location NotificationHub#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#name NotificationHub#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#name NotificationHub#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#namespace_name NotificationHub#namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#namespace_name NotificationHub#namespace_name}.</summary>
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceName
         {
@@ -33,7 +33,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#resource_group_name NotificationHub#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#resource_group_name NotificationHub#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -43,7 +43,7 @@ namespace azurerm.NotificationHub
 
         /// <summary>apns_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#apns_credential NotificationHub#apns_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#apns_credential NotificationHub#apns_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apnsCredential", typeJson: "{\"fqn\":\"azurerm.notificationHub.NotificationHubApnsCredential\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.NotificationHub
 
         /// <summary>browser_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#browser_credential NotificationHub#browser_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#browser_credential NotificationHub#browser_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "browserCredential", typeJson: "{\"fqn\":\"azurerm.notificationHub.NotificationHubBrowserCredential\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.NotificationHub
 
         /// <summary>gcm_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#gcm_credential NotificationHub#gcm_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#gcm_credential NotificationHub#gcm_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gcmCredential", typeJson: "{\"fqn\":\"azurerm.notificationHub.NotificationHubGcmCredential\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#id NotificationHub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#id NotificationHub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -90,7 +90,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#tags NotificationHub#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#tags NotificationHub#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -101,7 +101,7 @@ namespace azurerm.NotificationHub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/notification_hub#timeouts NotificationHub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#timeouts NotificationHub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.notificationHub.NotificationHubTimeouts\"}", isOptional: true)]

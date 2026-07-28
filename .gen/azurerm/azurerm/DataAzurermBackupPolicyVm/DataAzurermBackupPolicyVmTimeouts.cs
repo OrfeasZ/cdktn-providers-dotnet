@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBackupPolicyVm
     [JsiiByValue(fqn: "azurerm.dataAzurermBackupPolicyVm.DataAzurermBackupPolicyVmTimeouts")]
     public class DataAzurermBackupPolicyVmTimeouts : azurerm.DataAzurermBackupPolicyVm.IDataAzurermBackupPolicyVmTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/backup_policy_vm#read DataAzurermBackupPolicyVm#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/backup_policy_vm#read DataAzurermBackupPolicyVm#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

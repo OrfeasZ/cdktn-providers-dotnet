@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkDnsServers
     [JsiiByValue(fqn: "azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersConfig")]
     public class VirtualNetworkDnsServersConfig : azurerm.VirtualNetworkDnsServers.IVirtualNetworkDnsServersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_dns_servers#virtual_network_id VirtualNetworkDnsServers#virtual_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_dns_servers#virtual_network_id VirtualNetworkDnsServers#virtual_network_id}.</summary>
         [JsiiProperty(name: "virtualNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualNetworkId
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkDnsServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_dns_servers#dns_servers VirtualNetworkDnsServers#dns_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_dns_servers#dns_servers VirtualNetworkDnsServers#dns_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DnsServers
@@ -26,7 +26,7 @@ namespace azurerm.VirtualNetworkDnsServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_dns_servers#id VirtualNetworkDnsServers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_dns_servers#id VirtualNetworkDnsServers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace azurerm.VirtualNetworkDnsServers
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_dns_servers#timeouts VirtualNetworkDnsServers#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_dns_servers#timeouts VirtualNetworkDnsServers#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.virtualNetworkDnsServers.VirtualNetworkDnsServersTimeouts\"}", isOptional: true)]

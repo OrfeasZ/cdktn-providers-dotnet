@@ -51,12 +51,6 @@ namespace azurerm.MysqlFlexibleServer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetManagedHsmKeyId")]
-        public virtual void ResetManagedHsmKeyId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetPrimaryUserAssignedIdentityId")]
         public virtual void ResetPrimaryUserAssignedIdentityId()
         {
@@ -85,13 +79,6 @@ namespace azurerm.MysqlFlexibleServer
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "managedHsmKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ManagedHsmKeyIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "primaryUserAssignedIdentityIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrimaryUserAssignedIdentityIdInput
         {
@@ -114,13 +101,6 @@ namespace azurerm.MysqlFlexibleServer
 
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KeyVaultKeyId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "managedHsmKeyId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ManagedHsmKeyId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

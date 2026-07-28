@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     [JsiiByValue(fqn: "azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTriggerRequests")]
     public class LinuxWebAppSiteConfigAutoHealSettingTriggerRequests : azurerm.LinuxWebApp.ILinuxWebAppSiteConfigAutoHealSettingTriggerRequests
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#count LinuxWebApp#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#count LinuxWebApp#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         public double Count
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#interval LinuxWebApp#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
         {

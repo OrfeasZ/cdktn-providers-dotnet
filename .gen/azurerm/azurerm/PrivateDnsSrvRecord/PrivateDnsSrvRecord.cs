@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.PrivateDnsSrvRecord
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.PrivateDnsSrvRecord.PrivateDnsSrvRecord), fullyQualifiedName: "azurerm.privateDnsSrvRecord.PrivateDnsSrvRecord", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.privateDnsSrvRecord.PrivateDnsSrvRecordConfig\"}}]")]
     public class PrivateDnsSrvRecord : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_srv_record azurerm_private_dns_srv_record} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public PrivateDnsSrvRecord(Constructs.Construct scope, string id, azurerm.PrivateDnsSrvRecord.IPrivateDnsSrvRecordConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.PrivateDnsSrvRecord
         /// <param name="importToId">The construct id used in the generated config for the PrivateDnsSrvRecord to import.</param>
         /// <param name="importFromId">The id of the existing PrivateDnsSrvRecord that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the PrivateDnsSrvRecord to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PrivateDnsSrvRecord to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_dns_srv_record#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PrivateDnsSrvRecord that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PrivateDnsSrvRecord to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PrivateDnsSrvRecord to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_srv_record#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PrivateDnsSrvRecord that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PrivateDnsSrvRecord to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.PrivateDnsSrvRecord.PrivateDnsSrvRecord), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -145,6 +145,13 @@ namespace azurerm.PrivateDnsSrvRecord
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "privateDnsZoneIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PrivateDnsZoneIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.PrivateDnsSrvRecord.IPrivateDnsSrvRecordRecord" />)[]</para>
         /// </remarks>
@@ -153,13 +160,6 @@ namespace azurerm.PrivateDnsSrvRecord
         public virtual object? RecordInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "resourceGroupNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ResourceGroupNameInput
-        {
-            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -186,13 +186,6 @@ namespace azurerm.PrivateDnsSrvRecord
             get => GetInstanceProperty<double?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "zoneNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ZoneNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -207,8 +200,8 @@ namespace azurerm.PrivateDnsSrvRecord
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ResourceGroupName
+        [JsiiProperty(name: "privateDnsZoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrivateDnsZoneId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -225,13 +218,6 @@ namespace azurerm.PrivateDnsSrvRecord
         public virtual double Ttl
         {
             get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "zoneName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ZoneName
-        {
-            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
     }

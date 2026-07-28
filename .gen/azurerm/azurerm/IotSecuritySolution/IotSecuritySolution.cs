@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.IotSecuritySolution
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.IotSecuritySolution.IotSecuritySolution), fullyQualifiedName: "azurerm.iotSecuritySolution.IotSecuritySolution", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionConfig\"}}]")]
     public class IotSecuritySolution : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public IotSecuritySolution(Constructs.Construct scope, string id, azurerm.IotSecuritySolution.IIotSecuritySolutionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.IotSecuritySolution
         /// <param name="importToId">The construct id used in the generated config for the IotSecuritySolution to import.</param>
         /// <param name="importFromId">The id of the existing IotSecuritySolution that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the IotSecuritySolution to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IotSecuritySolution to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/iot_security_solution#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IotSecuritySolution that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IotSecuritySolution to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the IotSecuritySolution to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iot_security_solution#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing IotSecuritySolution that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the IotSecuritySolution to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.IotSecuritySolution.IotSecuritySolution), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,10 +70,10 @@ namespace azurerm.IotSecuritySolution
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putRecommendationsEnabled", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabled\"}}]")]
-        public virtual void PutRecommendationsEnabled(azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendationsEnabled @value)
+        [JsiiMethod(name: "putRecommendations", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendations\"}}]")]
+        public virtual void PutRecommendations(azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendations @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendationsEnabled)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendations)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionTimeouts\"}}]")]
@@ -136,8 +136,8 @@ namespace azurerm.IotSecuritySolution
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRecommendationsEnabled")]
-        public virtual void ResetRecommendationsEnabled()
+        [JsiiMethod(name: "resetRecommendations")]
+        public virtual void ResetRecommendations()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -179,10 +179,10 @@ namespace azurerm.IotSecuritySolution
             get => GetInstanceProperty<azurerm.IotSecuritySolution.IotSecuritySolutionAdditionalWorkspaceList>()!;
         }
 
-        [JsiiProperty(name: "recommendationsEnabled", typeJson: "{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference\"}")]
-        public virtual azurerm.IotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference RecommendationsEnabled
+        [JsiiProperty(name: "recommendations", typeJson: "{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsOutputReference\"}")]
+        public virtual azurerm.IotSecuritySolution.IotSecuritySolutionRecommendationsOutputReference Recommendations
         {
-            get => GetInstanceProperty<azurerm.IotSecuritySolution.IotSecuritySolutionRecommendationsEnabledOutputReference>()!;
+            get => GetInstanceProperty<azurerm.IotSecuritySolution.IotSecuritySolutionRecommendationsOutputReference>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionTimeoutsOutputReference\"}")]
@@ -292,10 +292,10 @@ namespace azurerm.IotSecuritySolution
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "recommendationsEnabledInput", typeJson: "{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendationsEnabled\"}", isOptional: true)]
-        public virtual azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendationsEnabled? RecommendationsEnabledInput
+        [JsiiProperty(name: "recommendationsInput", typeJson: "{\"fqn\":\"azurerm.iotSecuritySolution.IotSecuritySolutionRecommendations\"}", isOptional: true)]
+        public virtual azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendations? RecommendationsInput
         {
-            get => GetInstanceProperty<azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendationsEnabled?>();
+            get => GetInstanceProperty<azurerm.IotSecuritySolution.IIotSecuritySolutionRecommendations?>();
         }
 
         [JsiiOptional]

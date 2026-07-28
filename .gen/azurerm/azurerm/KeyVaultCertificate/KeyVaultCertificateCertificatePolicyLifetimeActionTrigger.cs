@@ -7,7 +7,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiByValue(fqn: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTrigger")]
     public class KeyVaultCertificateCertificatePolicyLifetimeActionTrigger : azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionTrigger
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate#days_before_expiry KeyVaultCertificate#days_before_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#days_before_expiry KeyVaultCertificate#days_before_expiry}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "daysBeforeExpiry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DaysBeforeExpiry
@@ -16,7 +16,7 @@ namespace azurerm.KeyVaultCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/key_vault_certificate#lifetime_percentage KeyVaultCertificate#lifetime_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#lifetime_percentage KeyVaultCertificate#lifetime_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifetimePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LifetimePercentage

@@ -9,7 +9,7 @@ namespace azurerm.ManagedDevopsPool
     [JsiiByValue(fqn: "azurerm.managedDevopsPool.ManagedDevopsPoolVirtualMachineScaleSetFabricStorage")]
     public class ManagedDevopsPoolVirtualMachineScaleSetFabricStorage : azurerm.ManagedDevopsPool.IManagedDevopsPoolVirtualMachineScaleSetFabricStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
         [JsiiProperty(name: "diskSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double DiskSizeInGb
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "caching", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Caching
@@ -26,7 +26,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "driveLetter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DriveLetter
@@ -35,7 +35,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountType

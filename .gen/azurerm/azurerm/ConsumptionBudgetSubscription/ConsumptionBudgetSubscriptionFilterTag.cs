@@ -9,7 +9,7 @@ namespace azurerm.ConsumptionBudgetSubscription
     [JsiiByValue(fqn: "azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionFilterTag")]
     public class ConsumptionBudgetSubscriptionFilterTag : azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionFilterTag
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#name ConsumptionBudgetSubscription#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#name ConsumptionBudgetSubscription#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#values ConsumptionBudgetSubscription#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#values ConsumptionBudgetSubscription#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -25,7 +25,7 @@ namespace azurerm.ConsumptionBudgetSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/consumption_budget_subscription#operator ConsumptionBudgetSubscription#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/consumption_budget_subscription#operator ConsumptionBudgetSubscription#operator}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Operator

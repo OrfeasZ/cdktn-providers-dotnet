@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     [JsiiByValue(fqn: "azurerm.windowsWebApp.WindowsWebAppSiteConfigVirtualApplication")]
     public class WindowsWebAppSiteConfigVirtualApplication : azurerm.WindowsWebApp.IWindowsWebAppSiteConfigVirtualApplication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
         [JsiiProperty(name: "physicalPath", typeJson: "{\"primitive\":\"string\"}")]
         public string PhysicalPath
         {
@@ -19,7 +19,7 @@ namespace azurerm.WindowsWebApp
 
         private object _preload;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#preload WindowsWebApp#preload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#preload WindowsWebApp#preload}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
         [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualPath
         {
@@ -62,7 +62,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>virtual_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#virtual_directory WindowsWebApp#virtual_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#virtual_directory WindowsWebApp#virtual_directory}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppSiteConfigVirtualApplicationVirtualDirectory" />)[]</para>
         /// </remarks>
         [JsiiOptional]

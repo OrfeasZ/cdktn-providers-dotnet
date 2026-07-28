@@ -9,7 +9,7 @@ namespace azurerm.TrafficManagerAzureEndpoint
     [JsiiByValue(fqn: "azurerm.trafficManagerAzureEndpoint.TrafficManagerAzureEndpointSubnet")]
     public class TrafficManagerAzureEndpointSubnet : azurerm.TrafficManagerAzureEndpoint.ITrafficManagerAzureEndpointSubnet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_azure_endpoint#first TrafficManagerAzureEndpoint#first}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_azure_endpoint#first TrafficManagerAzureEndpoint#first}.</summary>
         [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
         public string First
         {
@@ -17,7 +17,7 @@ namespace azurerm.TrafficManagerAzureEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_azure_endpoint#last TrafficManagerAzureEndpoint#last}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_azure_endpoint#last TrafficManagerAzureEndpoint#last}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Last
@@ -26,7 +26,7 @@ namespace azurerm.TrafficManagerAzureEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_azure_endpoint#scope TrafficManagerAzureEndpoint#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/traffic_manager_azure_endpoint#scope TrafficManagerAzureEndpoint#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Scope

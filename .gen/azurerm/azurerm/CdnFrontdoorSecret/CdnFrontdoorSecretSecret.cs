@@ -13,7 +13,7 @@ namespace azurerm.CdnFrontdoorSecret
 
         /// <summary>customer_certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_secret#customer_certificate CdnFrontdoorSecret#customer_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_secret#customer_certificate CdnFrontdoorSecret#customer_certificate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorSecret.ICdnFrontdoorSecretSecretCustomerCertificate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customerCertificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorSecret.CdnFrontdoorSecretSecretCustomerCertificate\"},\"kind\":\"array\"}}]}}")]

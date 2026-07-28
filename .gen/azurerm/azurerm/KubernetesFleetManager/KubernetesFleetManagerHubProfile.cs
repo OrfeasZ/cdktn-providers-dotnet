@@ -9,7 +9,7 @@ namespace azurerm.KubernetesFleetManager
     [JsiiByValue(fqn: "azurerm.kubernetesFleetManager.KubernetesFleetManagerHubProfile")]
     public class KubernetesFleetManagerHubProfile : azurerm.KubernetesFleetManager.IKubernetesFleetManagerHubProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_fleet_manager#dns_prefix KubernetesFleetManager#dns_prefix}.</summary>
         [JsiiProperty(name: "dnsPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsPrefix
         {

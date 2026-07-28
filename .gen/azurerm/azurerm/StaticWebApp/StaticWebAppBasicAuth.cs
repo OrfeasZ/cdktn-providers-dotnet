@@ -9,7 +9,7 @@ namespace azurerm.StaticWebApp
     [JsiiByValue(fqn: "azurerm.staticWebApp.StaticWebAppBasicAuth")]
     public class StaticWebAppBasicAuth : azurerm.StaticWebApp.IStaticWebAppBasicAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_web_app#environments StaticWebApp#environments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/static_web_app#environments StaticWebApp#environments}.</summary>
         [JsiiProperty(name: "environments", typeJson: "{\"primitive\":\"string\"}")]
         public string Environments
         {
@@ -17,7 +17,7 @@ namespace azurerm.StaticWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/static_web_app#password StaticWebApp#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/static_web_app#password StaticWebApp#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {

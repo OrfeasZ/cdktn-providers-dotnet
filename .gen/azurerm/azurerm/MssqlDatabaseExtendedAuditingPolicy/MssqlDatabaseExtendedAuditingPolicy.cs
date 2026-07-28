@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.MssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicy), fullyQualifiedName: "azurerm.mssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicy", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.mssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicyConfig\"}}]")]
     public class MssqlDatabaseExtendedAuditingPolicy : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_database_extended_auditing_policy azurerm_mssql_database_extended_auditing_policy} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public MssqlDatabaseExtendedAuditingPolicy(Constructs.Construct scope, string id, azurerm.MssqlDatabaseExtendedAuditingPolicy.IMssqlDatabaseExtendedAuditingPolicyConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
         /// <param name="importToId">The construct id used in the generated config for the MssqlDatabaseExtendedAuditingPolicy to import.</param>
         /// <param name="importFromId">The id of the existing MssqlDatabaseExtendedAuditingPolicy that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the MssqlDatabaseExtendedAuditingPolicy to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MssqlDatabaseExtendedAuditingPolicy to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_database_extended_auditing_policy#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MssqlDatabaseExtendedAuditingPolicy that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MssqlDatabaseExtendedAuditingPolicy to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the MssqlDatabaseExtendedAuditingPolicy to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_database_extended_auditing_policy#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing MssqlDatabaseExtendedAuditingPolicy that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the MssqlDatabaseExtendedAuditingPolicy to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.MssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
         public virtual void PutTimeouts(azurerm.MssqlDatabaseExtendedAuditingPolicy.IMssqlDatabaseExtendedAuditingPolicyTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.MssqlDatabaseExtendedAuditingPolicy.IMssqlDatabaseExtendedAuditingPolicyTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetBlobStorageEndpoint")]
+        public virtual void ResetBlobStorageEndpoint()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetEnabled")]
@@ -88,12 +94,6 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetStorageEndpoint")]
-        public virtual void ResetStorageEndpoint()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -123,6 +123,13 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
         public virtual azurerm.MssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicyTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<azurerm.MssqlDatabaseExtendedAuditingPolicy.MssqlDatabaseExtendedAuditingPolicyTimeoutsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "blobStorageEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BlobStorageEndpointInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -183,13 +190,6 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "storageEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageEndpointInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azurerm.MssqlDatabaseExtendedAuditingPolicy.IMssqlDatabaseExtendedAuditingPolicyTimeouts" /></para>
         /// </remarks>
@@ -198,6 +198,13 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "blobStorageEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BlobStorageEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
@@ -316,13 +323,6 @@ namespace azurerm.MssqlDatabaseExtendedAuditingPolicy
                 }
                 SetInstanceProperty(value);
             }
-        }
-
-        [JsiiProperty(name: "storageEndpoint", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageEndpoint
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
     }
 }

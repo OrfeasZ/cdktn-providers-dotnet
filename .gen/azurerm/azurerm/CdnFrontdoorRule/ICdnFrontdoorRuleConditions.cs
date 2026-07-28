@@ -7,14 +7,14 @@ namespace azurerm.CdnFrontdoorRule
     [JsiiInterface(nativeType: typeof(ICdnFrontdoorRuleConditions), fullyQualifiedName: "azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditions")]
     public interface ICdnFrontdoorRuleConditions
     {
-        /// <summary>client_port_condition block.</summary>
+        /// <summary>client_port block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#client_port_condition CdnFrontdoorRule#client_port_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#client_port CdnFrontdoorRule#client_port}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "clientPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "clientPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? ClientPortCondition
+        object? ClientPort
         {
             get
             {
@@ -22,14 +22,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>cookies_condition block.</summary>
+        /// <summary>device_type block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#cookies_condition CdnFrontdoorRule#cookies_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#device_type CdnFrontdoorRule#device_type}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "cookiesCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "deviceType", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? CookiesCondition
+        object? DeviceType
         {
             get
             {
@@ -37,14 +37,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>host_name_condition block.</summary>
+        /// <summary>host_name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#host_name_condition CdnFrontdoorRule#host_name_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#host_name CdnFrontdoorRule#host_name}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "hostNameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "hostName", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? HostNameCondition
+        object? HostName
         {
             get
             {
@@ -52,14 +52,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>http_version_condition block.</summary>
+        /// <summary>http_version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#http_version_condition CdnFrontdoorRule#http_version_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#http_version CdnFrontdoorRule#http_version}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "httpVersionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "httpVersion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? HttpVersionCondition
+        object? HttpVersion
         {
             get
             {
@@ -67,14 +67,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>is_device_condition block.</summary>
+        /// <summary>post_argument block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#is_device_condition CdnFrontdoorRule#is_device_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#post_argument CdnFrontdoorRule#post_argument}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "isDeviceCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "postArgument", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? IsDeviceCondition
+        object? PostArgument
         {
             get
             {
@@ -82,14 +82,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>post_args_condition block.</summary>
+        /// <summary>query_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#post_args_condition CdnFrontdoorRule#post_args_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#query_string CdnFrontdoorRule#query_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "postArgsCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? PostArgsCondition
+        object? QueryString
         {
             get
             {
@@ -97,14 +97,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>query_string_condition block.</summary>
+        /// <summary>remote_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#query_string_condition CdnFrontdoorRule#query_string_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#remote_address CdnFrontdoorRule#remote_address}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "queryStringCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "remoteAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? QueryStringCondition
+        object? RemoteAddress
         {
             get
             {
@@ -112,14 +112,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>remote_address_condition block.</summary>
+        /// <summary>request_body block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#remote_address_condition CdnFrontdoorRule#remote_address_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_body CdnFrontdoorRule#request_body}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "remoteAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestBody", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RemoteAddressCondition
+        object? RequestBody
         {
             get
             {
@@ -127,14 +127,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>request_body_condition block.</summary>
+        /// <summary>request_cookies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_body_condition CdnFrontdoorRule#request_body_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_cookies CdnFrontdoorRule#request_cookies}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestBodyCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestCookies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestBodyCondition
+        object? RequestCookies
         {
             get
             {
@@ -142,14 +142,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>request_header_condition block.</summary>
+        /// <summary>request_file_extension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_condition CdnFrontdoorRule#request_header_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_file_extension CdnFrontdoorRule#request_file_extension}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestHeaderCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestFileExtension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestHeaderCondition
+        object? RequestFileExtension
         {
             get
             {
@@ -157,14 +157,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>request_method_condition block.</summary>
+        /// <summary>request_filename block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_method_condition CdnFrontdoorRule#request_method_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_filename CdnFrontdoorRule#request_filename}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestFilename", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilename\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestMethodCondition
+        object? RequestFilename
         {
             get
             {
@@ -172,14 +172,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>request_scheme_condition block.</summary>
+        /// <summary>request_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_scheme_condition CdnFrontdoorRule#request_scheme_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_header CdnFrontdoorRule#request_header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestSchemeCondition
+        object? RequestHeader
         {
             get
             {
@@ -187,14 +187,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>request_uri_condition block.</summary>
+        /// <summary>request_method block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_uri_condition CdnFrontdoorRule#request_uri_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_method CdnFrontdoorRule#request_method}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestUriCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestMethod", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestUriCondition
+        object? RequestMethod
         {
             get
             {
@@ -202,14 +202,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>server_port_condition block.</summary>
+        /// <summary>request_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#server_port_condition CdnFrontdoorRule#server_port_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_path CdnFrontdoorRule#request_path}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "serverPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestPath", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? ServerPortCondition
+        object? RequestPath
         {
             get
             {
@@ -217,14 +217,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>socket_address_condition block.</summary>
+        /// <summary>request_scheme block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#socket_address_condition CdnFrontdoorRule#socket_address_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_scheme CdnFrontdoorRule#request_scheme}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "socketAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestScheme", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestScheme\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? SocketAddressCondition
+        object? RequestScheme
         {
             get
             {
@@ -232,14 +232,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>ssl_protocol_condition block.</summary>
+        /// <summary>request_url block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#ssl_protocol_condition CdnFrontdoorRule#ssl_protocol_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_url CdnFrontdoorRule#request_url}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "sslProtocolCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "requestUrl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? SslProtocolCondition
+        object? RequestUrl
         {
             get
             {
@@ -247,14 +247,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>url_file_extension_condition block.</summary>
+        /// <summary>server_port block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_file_extension_condition CdnFrontdoorRule#url_file_extension_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#server_port CdnFrontdoorRule#server_port}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "urlFileExtensionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "serverPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? UrlFileExtensionCondition
+        object? ServerPort
         {
             get
             {
@@ -262,14 +262,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>url_filename_condition block.</summary>
+        /// <summary>socket_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_filename_condition CdnFrontdoorRule#url_filename_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#socket_address CdnFrontdoorRule#socket_address}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "urlFilenameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "socketAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? UrlFilenameCondition
+        object? SocketAddress
         {
             get
             {
@@ -277,14 +277,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>url_path_condition block.</summary>
+        /// <summary>ssl_protocol block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_path_condition CdnFrontdoorRule#url_path_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#ssl_protocol CdnFrontdoorRule#ssl_protocol}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "urlPathCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "sslProtocol", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? UrlPathCondition
+        object? SslProtocol
         {
             get
             {
@@ -299,230 +299,230 @@ namespace azurerm.CdnFrontdoorRule
             {
             }
 
-            /// <summary>client_port_condition block.</summary>
+            /// <summary>client_port block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#client_port_condition CdnFrontdoorRule#client_port_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#client_port CdnFrontdoorRule#client_port}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "clientPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? ClientPortCondition
+            [JsiiProperty(name: "clientPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ClientPort
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>cookies_condition block.</summary>
+            /// <summary>device_type block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#cookies_condition CdnFrontdoorRule#cookies_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#device_type CdnFrontdoorRule#device_type}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "cookiesCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? CookiesCondition
+            [JsiiProperty(name: "deviceType", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? DeviceType
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>host_name_condition block.</summary>
+            /// <summary>host_name block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#host_name_condition CdnFrontdoorRule#host_name_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#host_name CdnFrontdoorRule#host_name}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "hostNameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? HostNameCondition
+            [JsiiProperty(name: "hostName", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? HostName
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>http_version_condition block.</summary>
+            /// <summary>http_version block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#http_version_condition CdnFrontdoorRule#http_version_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#http_version CdnFrontdoorRule#http_version}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "httpVersionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? HttpVersionCondition
+            [JsiiProperty(name: "httpVersion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? HttpVersion
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>is_device_condition block.</summary>
+            /// <summary>post_argument block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#is_device_condition CdnFrontdoorRule#is_device_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#post_argument CdnFrontdoorRule#post_argument}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "isDeviceCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? IsDeviceCondition
+            [JsiiProperty(name: "postArgument", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? PostArgument
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>post_args_condition block.</summary>
+            /// <summary>query_string block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#post_args_condition CdnFrontdoorRule#post_args_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#query_string CdnFrontdoorRule#query_string}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "postArgsCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? PostArgsCondition
+            [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? QueryString
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>query_string_condition block.</summary>
+            /// <summary>remote_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#query_string_condition CdnFrontdoorRule#query_string_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#remote_address CdnFrontdoorRule#remote_address}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "queryStringCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? QueryStringCondition
+            [JsiiProperty(name: "remoteAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RemoteAddress
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>remote_address_condition block.</summary>
+            /// <summary>request_body block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#remote_address_condition CdnFrontdoorRule#remote_address_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_body CdnFrontdoorRule#request_body}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "remoteAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RemoteAddressCondition
+            [JsiiProperty(name: "requestBody", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestBody
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>request_body_condition block.</summary>
+            /// <summary>request_cookies block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_body_condition CdnFrontdoorRule#request_body_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_cookies CdnFrontdoorRule#request_cookies}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestBodyCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestBodyCondition
+            [JsiiProperty(name: "requestCookies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestCookies
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>request_header_condition block.</summary>
+            /// <summary>request_file_extension block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_condition CdnFrontdoorRule#request_header_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_file_extension CdnFrontdoorRule#request_file_extension}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestHeaderCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestHeaderCondition
+            [JsiiProperty(name: "requestFileExtension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestFileExtension
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>request_method_condition block.</summary>
+            /// <summary>request_filename block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_method_condition CdnFrontdoorRule#request_method_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_filename CdnFrontdoorRule#request_filename}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestMethodCondition
+            [JsiiProperty(name: "requestFilename", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilename\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestFilename
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>request_scheme_condition block.</summary>
+            /// <summary>request_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_scheme_condition CdnFrontdoorRule#request_scheme_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_header CdnFrontdoorRule#request_header}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestSchemeCondition
+            [JsiiProperty(name: "requestHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestHeader
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>request_uri_condition block.</summary>
+            /// <summary>request_method block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_uri_condition CdnFrontdoorRule#request_uri_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_method CdnFrontdoorRule#request_method}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestUriCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestUriCondition
+            [JsiiProperty(name: "requestMethod", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestMethod
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>server_port_condition block.</summary>
+            /// <summary>request_path block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#server_port_condition CdnFrontdoorRule#server_port_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_path CdnFrontdoorRule#request_path}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "serverPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? ServerPortCondition
+            [JsiiProperty(name: "requestPath", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestPath
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>socket_address_condition block.</summary>
+            /// <summary>request_scheme block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#socket_address_condition CdnFrontdoorRule#socket_address_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_scheme CdnFrontdoorRule#request_scheme}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "socketAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? SocketAddressCondition
+            [JsiiProperty(name: "requestScheme", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestScheme\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestScheme
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>ssl_protocol_condition block.</summary>
+            /// <summary>request_url block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#ssl_protocol_condition CdnFrontdoorRule#ssl_protocol_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_url CdnFrontdoorRule#request_url}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "sslProtocolCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? SslProtocolCondition
+            [JsiiProperty(name: "requestUrl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RequestUrl
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>url_file_extension_condition block.</summary>
+            /// <summary>server_port block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_file_extension_condition CdnFrontdoorRule#url_file_extension_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#server_port CdnFrontdoorRule#server_port}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "urlFileExtensionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? UrlFileExtensionCondition
+            [JsiiProperty(name: "serverPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ServerPort
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>url_filename_condition block.</summary>
+            /// <summary>socket_address block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_filename_condition CdnFrontdoorRule#url_filename_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#socket_address CdnFrontdoorRule#socket_address}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "urlFilenameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? UrlFilenameCondition
+            [JsiiProperty(name: "socketAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? SocketAddress
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>url_path_condition block.</summary>
+            /// <summary>ssl_protocol block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_path_condition CdnFrontdoorRule#url_path_condition}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#ssl_protocol CdnFrontdoorRule#ssl_protocol}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "urlPathCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? UrlPathCondition
+            [JsiiProperty(name: "sslProtocol", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? SslProtocol
             {
                 get => GetInstanceProperty<object?>();
             }

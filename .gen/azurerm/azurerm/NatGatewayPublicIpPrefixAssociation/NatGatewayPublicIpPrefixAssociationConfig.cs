@@ -9,7 +9,7 @@ namespace azurerm.NatGatewayPublicIpPrefixAssociation
     [JsiiByValue(fqn: "azurerm.natGatewayPublicIpPrefixAssociation.NatGatewayPublicIpPrefixAssociationConfig")]
     public class NatGatewayPublicIpPrefixAssociationConfig : azurerm.NatGatewayPublicIpPrefixAssociation.INatGatewayPublicIpPrefixAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nat_gateway_public_ip_prefix_association#nat_gateway_id NatGatewayPublicIpPrefixAssociation#nat_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nat_gateway_public_ip_prefix_association#nat_gateway_id NatGatewayPublicIpPrefixAssociation#nat_gateway_id}.</summary>
         [JsiiProperty(name: "natGatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public string NatGatewayId
         {
@@ -17,7 +17,7 @@ namespace azurerm.NatGatewayPublicIpPrefixAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nat_gateway_public_ip_prefix_association#public_ip_prefix_id NatGatewayPublicIpPrefixAssociation#public_ip_prefix_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nat_gateway_public_ip_prefix_association#public_ip_prefix_id NatGatewayPublicIpPrefixAssociation#public_ip_prefix_id}.</summary>
         [JsiiProperty(name: "publicIpPrefixId", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicIpPrefixId
         {
@@ -25,7 +25,7 @@ namespace azurerm.NatGatewayPublicIpPrefixAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nat_gateway_public_ip_prefix_association#id NatGatewayPublicIpPrefixAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nat_gateway_public_ip_prefix_association#id NatGatewayPublicIpPrefixAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.NatGatewayPublicIpPrefixAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nat_gateway_public_ip_prefix_association#timeouts NatGatewayPublicIpPrefixAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nat_gateway_public_ip_prefix_association#timeouts NatGatewayPublicIpPrefixAssociation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.natGatewayPublicIpPrefixAssociation.NatGatewayPublicIpPrefixAssociationTimeouts\"}", isOptional: true)]

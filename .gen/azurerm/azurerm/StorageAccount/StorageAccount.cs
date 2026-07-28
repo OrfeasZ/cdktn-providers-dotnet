@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.StorageAccount
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account azurerm_storage_account}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account azurerm_storage_account}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.StorageAccount.StorageAccount), fullyQualifiedName: "azurerm.storageAccount.StorageAccount", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.storageAccount.StorageAccountConfig\"}}]")]
     public class StorageAccount : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account azurerm_storage_account} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account azurerm_storage_account} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public StorageAccount(Constructs.Construct scope, string id, azurerm.StorageAccount.IStorageAccountConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.StorageAccount
         /// <param name="importToId">The construct id used in the generated config for the StorageAccount to import.</param>
         /// <param name="importFromId">The id of the existing StorageAccount that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the StorageAccount to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the StorageAccount to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing StorageAccount that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the StorageAccount to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the StorageAccount to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing StorageAccount that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the StorageAccount to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.StorageAccount.StorageAccount), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -88,12 +88,6 @@ namespace azurerm.StorageAccount
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.StorageAccount.IStorageAccountNetworkRules)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putQueueProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.storageAccount.StorageAccountQueueProperties\"}}]")]
-        public virtual void PutQueueProperties(azurerm.StorageAccount.IStorageAccountQueueProperties @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.StorageAccount.IStorageAccountQueueProperties)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putRouting", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.storageAccount.StorageAccountRouting\"}}]")]
         public virtual void PutRouting(azurerm.StorageAccount.IStorageAccountRouting @value)
         {
@@ -110,12 +104,6 @@ namespace azurerm.StorageAccount
         public virtual void PutShareProperties(azurerm.StorageAccount.IStorageAccountShareProperties @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.StorageAccount.IStorageAccountShareProperties)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "putStaticWebsite", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.storageAccount.StorageAccountStaticWebsite\"}}]")]
-        public virtual void PutStaticWebsite(azurerm.StorageAccount.IStorageAccountStaticWebsite @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.StorageAccount.IStorageAccountStaticWebsite)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.storageAccount.StorageAccountTimeouts\"}}]")]
@@ -280,12 +268,6 @@ namespace azurerm.StorageAccount
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetQueueProperties")]
-        public virtual void ResetQueueProperties()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetRouting")]
         public virtual void ResetRouting()
         {
@@ -312,12 +294,6 @@ namespace azurerm.StorageAccount
 
         [JsiiMethod(name: "resetShareProperties")]
         public virtual void ResetShareProperties()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetStaticWebsite")]
-        public virtual void ResetStaticWebsite()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -617,12 +593,6 @@ namespace azurerm.StorageAccount
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "queueProperties", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueuePropertiesOutputReference\"}")]
-        public virtual azurerm.StorageAccount.StorageAccountQueuePropertiesOutputReference QueueProperties
-        {
-            get => GetInstanceProperty<azurerm.StorageAccount.StorageAccountQueuePropertiesOutputReference>()!;
-        }
-
         [JsiiProperty(name: "routing", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountRoutingOutputReference\"}")]
         public virtual azurerm.StorageAccount.StorageAccountRoutingOutputReference Routing
         {
@@ -855,12 +825,6 @@ namespace azurerm.StorageAccount
         public virtual azurerm.StorageAccount.StorageAccountSharePropertiesOutputReference ShareProperties
         {
             get => GetInstanceProperty<azurerm.StorageAccount.StorageAccountSharePropertiesOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "staticWebsite", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountStaticWebsiteOutputReference\"}")]
-        public virtual azurerm.StorageAccount.StorageAccountStaticWebsiteOutputReference StaticWebsite
-        {
-            get => GetInstanceProperty<azurerm.StorageAccount.StorageAccountStaticWebsiteOutputReference>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountTimeoutsOutputReference\"}")]
@@ -1110,13 +1074,6 @@ namespace azurerm.StorageAccount
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "queuePropertiesInput", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueueProperties\"}", isOptional: true)]
-        public virtual azurerm.StorageAccount.IStorageAccountQueueProperties? QueuePropertiesInput
-        {
-            get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountQueueProperties?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "resourceGroupNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ResourceGroupNameInput
         {
@@ -1162,13 +1119,6 @@ namespace azurerm.StorageAccount
         public virtual azurerm.StorageAccount.IStorageAccountShareProperties? SharePropertiesInput
         {
             get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountShareProperties?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "staticWebsiteInput", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountStaticWebsite\"}", isOptional: true)]
-        public virtual azurerm.StorageAccount.IStorageAccountStaticWebsite? StaticWebsiteInput
-        {
-            get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountStaticWebsite?>();
         }
 
         [JsiiOptional]

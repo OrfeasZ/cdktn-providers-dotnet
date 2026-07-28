@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.NginxDeployment
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment azurerm_nginx_deployment}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.NginxDeployment.NginxDeployment), fullyQualifiedName: "azurerm.nginxDeployment.NginxDeployment", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentConfig\"}}]")]
     public class NginxDeployment : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment azurerm_nginx_deployment} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public NginxDeployment(Constructs.Construct scope, string id, azurerm.NginxDeployment.INginxDeploymentConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.NginxDeployment
         /// <param name="importToId">The construct id used in the generated config for the NginxDeployment to import.</param>
         /// <param name="importFromId">The id of the existing NginxDeployment that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the NginxDeployment to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NginxDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/nginx_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NginxDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NginxDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the NginxDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing NginxDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the NginxDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.NginxDeployment.NginxDeployment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -106,30 +106,6 @@ namespace azurerm.NginxDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.NginxDeployment.INginxDeploymentIdentity)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NginxDeployment.INginxDeploymentLoggingStorageAccount" />)[]</param>
-        [JsiiMethod(name: "putLoggingStorageAccount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccount\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutLoggingStorageAccount(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case azurerm.NginxDeployment.INginxDeploymentLoggingStorageAccount[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.NginxDeployment.INginxDeploymentLoggingStorageAccount).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.NginxDeployment.INginxDeploymentLoggingStorageAccount).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NginxDeployment.INginxDeploymentNetworkInterface" />)[]</param>
         [JsiiMethod(name: "putNetworkInterface", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentNetworkInterface\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutNetworkInterface(object @value)
@@ -184,12 +160,6 @@ namespace azurerm.NginxDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetDiagnoseSupportEnabled")]
-        public virtual void ResetDiagnoseSupportEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetEmail")]
         public virtual void ResetEmail()
         {
@@ -216,18 +186,6 @@ namespace azurerm.NginxDeployment
 
         [JsiiMethod(name: "resetIdentity")]
         public virtual void ResetIdentity()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetLoggingStorageAccount")]
-        public virtual void ResetLoggingStorageAccount()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetManagedResourceGroup")]
-        public virtual void ResetManagedResourceGroup()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -311,12 +269,6 @@ namespace azurerm.NginxDeployment
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "loggingStorageAccount", typeJson: "{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccountList\"}")]
-        public virtual azurerm.NginxDeployment.NginxDeploymentLoggingStorageAccountList LoggingStorageAccount
-        {
-            get => GetInstanceProperty<azurerm.NginxDeployment.NginxDeploymentLoggingStorageAccountList>()!;
-        }
-
         [JsiiProperty(name: "networkInterface", typeJson: "{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentNetworkInterfaceList\"}")]
         public virtual azurerm.NginxDeployment.NginxDeploymentNetworkInterfaceList NetworkInterface
         {
@@ -365,16 +317,6 @@ namespace azurerm.NginxDeployment
             get => GetInstanceProperty<double?>();
         }
 
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "diagnoseSupportEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? DiagnoseSupportEnabledInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "emailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EmailInput
@@ -416,23 +358,6 @@ namespace azurerm.NginxDeployment
         [JsiiOptional]
         [JsiiProperty(name: "locationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LocationInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NginxDeployment.INginxDeploymentLoggingStorageAccount" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "loggingStorageAccountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.nginxDeployment.NginxDeploymentLoggingStorageAccount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? LoggingStorageAccountInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "managedResourceGroupInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ManagedResourceGroupInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -506,36 +431,6 @@ namespace azurerm.NginxDeployment
             set => SetInstanceProperty(value);
         }
 
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiProperty(name: "diagnoseSupportEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object DiagnoseSupportEnabled
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
-        }
-
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Email
         {
@@ -552,13 +447,6 @@ namespace azurerm.NginxDeployment
 
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Location
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "managedResourceGroup", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ManagedResourceGroup
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

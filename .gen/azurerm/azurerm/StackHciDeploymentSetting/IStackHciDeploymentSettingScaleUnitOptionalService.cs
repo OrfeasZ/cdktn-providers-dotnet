@@ -7,7 +7,7 @@ namespace azurerm.StackHciDeploymentSetting
     [JsiiInterface(nativeType: typeof(IStackHciDeploymentSettingScaleUnitOptionalService), fullyQualifiedName: "azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitOptionalService")]
     public interface IStackHciDeploymentSettingScaleUnitOptionalService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
         [JsiiProperty(name: "customLocation", typeJson: "{\"primitive\":\"string\"}")]
         string CustomLocation
         {
@@ -21,7 +21,7 @@ namespace azurerm.StackHciDeploymentSetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
             [JsiiProperty(name: "customLocation", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomLocation
             {

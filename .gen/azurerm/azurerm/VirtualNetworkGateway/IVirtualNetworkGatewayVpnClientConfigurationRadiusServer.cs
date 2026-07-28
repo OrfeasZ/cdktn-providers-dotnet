@@ -7,21 +7,21 @@ namespace azurerm.VirtualNetworkGateway
     [JsiiInterface(nativeType: typeof(IVirtualNetworkGatewayVpnClientConfigurationRadiusServer), fullyQualifiedName: "azurerm.virtualNetworkGateway.VirtualNetworkGatewayVpnClientConfigurationRadiusServer")]
     public interface IVirtualNetworkGatewayVpnClientConfigurationRadiusServer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         string Address
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
         [JsiiProperty(name: "score", typeJson: "{\"primitive\":\"number\"}")]
         double Score
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
         string Secret
         {
@@ -35,21 +35,21 @@ namespace azurerm.VirtualNetworkGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
             public string Address
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
             [JsiiProperty(name: "score", typeJson: "{\"primitive\":\"number\"}")]
             public double Score
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
             [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
             public string Secret
             {

@@ -7,7 +7,7 @@ namespace azurerm.LinuxWebAppSlot
     [JsiiByValue(fqn: "azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigScmIpRestrictionHeaders")]
     public class LinuxWebAppSlotSiteConfigScmIpRestrictionHeaders : azurerm.LinuxWebAppSlot.ILinuxWebAppSlotSiteConfigScmIpRestrictionHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#x_azure_fdid LinuxWebAppSlot#x_azure_fdid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#x_azure_fdid LinuxWebAppSlot#x_azure_fdid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xAzureFdid", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XAzureFdid
@@ -16,7 +16,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#x_fd_health_probe LinuxWebAppSlot#x_fd_health_probe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#x_fd_health_probe LinuxWebAppSlot#x_fd_health_probe}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xFdHealthProbe", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XFdHealthProbe
@@ -25,7 +25,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#x_forwarded_for LinuxWebAppSlot#x_forwarded_for}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#x_forwarded_for LinuxWebAppSlot#x_forwarded_for}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedFor", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedFor
@@ -34,7 +34,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app_slot#x_forwarded_host LinuxWebAppSlot#x_forwarded_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#x_forwarded_host LinuxWebAppSlot#x_forwarded_host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedHost", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedHost

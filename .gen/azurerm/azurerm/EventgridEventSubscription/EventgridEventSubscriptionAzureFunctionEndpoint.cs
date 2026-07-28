@@ -9,7 +9,7 @@ namespace azurerm.EventgridEventSubscription
     [JsiiByValue(fqn: "azurerm.eventgridEventSubscription.EventgridEventSubscriptionAzureFunctionEndpoint")]
     public class EventgridEventSubscriptionAzureFunctionEndpoint : azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAzureFunctionEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#function_id EventgridEventSubscription#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#function_id EventgridEventSubscription#function_id}.</summary>
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionId
         {
@@ -17,7 +17,7 @@ namespace azurerm.EventgridEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#max_events_per_batch EventgridEventSubscription#max_events_per_batch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#max_events_per_batch EventgridEventSubscription#max_events_per_batch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxEventsPerBatch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxEventsPerBatch
@@ -26,7 +26,7 @@ namespace azurerm.EventgridEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/eventgrid_event_subscription#preferred_batch_size_in_kilobytes EventgridEventSubscription#preferred_batch_size_in_kilobytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#preferred_batch_size_in_kilobytes EventgridEventSubscription#preferred_batch_size_in_kilobytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredBatchSizeInKilobytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PreferredBatchSizeInKilobytes

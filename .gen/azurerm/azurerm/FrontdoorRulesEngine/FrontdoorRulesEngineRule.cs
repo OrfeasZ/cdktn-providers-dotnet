@@ -9,7 +9,7 @@ namespace azurerm.FrontdoorRulesEngine
     [JsiiByValue(fqn: "azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRule")]
     public class FrontdoorRulesEngineRule : azurerm.FrontdoorRulesEngine.IFrontdoorRulesEngineRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_rules_engine#name FrontdoorRulesEngine#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_rules_engine#name FrontdoorRulesEngine#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.FrontdoorRulesEngine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_rules_engine#priority FrontdoorRulesEngine#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_rules_engine#priority FrontdoorRulesEngine#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -27,7 +27,7 @@ namespace azurerm.FrontdoorRulesEngine
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_rules_engine#action FrontdoorRulesEngine#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_rules_engine#action FrontdoorRulesEngine#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleAction\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace azurerm.FrontdoorRulesEngine
 
         /// <summary>match_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor_rules_engine#match_condition FrontdoorRulesEngine#match_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor_rules_engine#match_condition FrontdoorRulesEngine#match_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FrontdoorRulesEngine.IFrontdoorRulesEngineRuleMatchCondition" />)[]</para>
         /// </remarks>
         [JsiiOptional]

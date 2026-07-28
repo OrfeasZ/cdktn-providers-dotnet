@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorOriginGroup.CdnFrontdoorOriginGroupConfig")]
     public class CdnFrontdoorOriginGroupConfig : azurerm.CdnFrontdoorOriginGroup.ICdnFrontdoorOriginGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#cdn_frontdoor_profile_id CdnFrontdoorOriginGroup#cdn_frontdoor_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#cdn_frontdoor_profile_id CdnFrontdoorOriginGroup#cdn_frontdoor_profile_id}.</summary>
         [JsiiProperty(name: "cdnFrontdoorProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string CdnFrontdoorProfileId
         {
@@ -19,7 +19,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
 
         /// <summary>load_balancing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#load_balancing CdnFrontdoorOriginGroup#load_balancing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#load_balancing CdnFrontdoorOriginGroup#load_balancing}
         /// </remarks>
         [JsiiProperty(name: "loadBalancing", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorOriginGroup.CdnFrontdoorOriginGroupLoadBalancing\"}")]
         public azurerm.CdnFrontdoorOriginGroup.ICdnFrontdoorOriginGroupLoadBalancing LoadBalancing
@@ -28,7 +28,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#name CdnFrontdoorOriginGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#name CdnFrontdoorOriginGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -38,7 +38,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
 
         /// <summary>health_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#health_probe CdnFrontdoorOriginGroup#health_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#health_probe CdnFrontdoorOriginGroup#health_probe}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "healthProbe", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorOriginGroup.CdnFrontdoorOriginGroupHealthProbe\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#id CdnFrontdoorOriginGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#id CdnFrontdoorOriginGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#restore_traffic_time_to_healed_or_new_endpoint_in_minutes CdnFrontdoorOriginGroup#restore_traffic_time_to_healed_or_new_endpoint_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#restore_traffic_time_to_healed_or_new_endpoint_in_minutes CdnFrontdoorOriginGroup#restore_traffic_time_to_healed_or_new_endpoint_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreTrafficTimeToHealedOrNewEndpointInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RestoreTrafficTimeToHealedOrNewEndpointInMinutes
@@ -72,7 +72,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
 
         private object? _sessionAffinityEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#session_affinity_enabled CdnFrontdoorOriginGroup#session_affinity_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#session_affinity_enabled CdnFrontdoorOriginGroup#session_affinity_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -106,7 +106,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_origin_group#timeouts CdnFrontdoorOriginGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_origin_group#timeouts CdnFrontdoorOriginGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorOriginGroup.CdnFrontdoorOriginGroupTimeouts\"}", isOptional: true)]

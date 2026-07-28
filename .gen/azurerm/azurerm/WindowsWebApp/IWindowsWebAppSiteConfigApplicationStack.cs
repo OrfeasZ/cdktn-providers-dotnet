@@ -7,7 +7,7 @@ namespace azurerm.WindowsWebApp
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSiteConfigApplicationStack), fullyQualifiedName: "azurerm.windowsWebApp.WindowsWebAppSiteConfigApplicationStack")]
     public interface IWindowsWebAppSiteConfigApplicationStack
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#current_stack WindowsWebApp#current_stack}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#current_stack WindowsWebApp#current_stack}.</summary>
         [JsiiProperty(name: "currentStack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CurrentStack
@@ -18,7 +18,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_image_name WindowsWebApp#docker_image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_image_name WindowsWebApp#docker_image_name}.</summary>
         [JsiiProperty(name: "dockerImageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerImageName
@@ -29,7 +29,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_password WindowsWebApp#docker_registry_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_password WindowsWebApp#docker_registry_password}.</summary>
         [JsiiProperty(name: "dockerRegistryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryPassword
@@ -40,7 +40,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_url WindowsWebApp#docker_registry_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_url WindowsWebApp#docker_registry_url}.</summary>
         [JsiiProperty(name: "dockerRegistryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryUrl
@@ -51,7 +51,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_username WindowsWebApp#docker_registry_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_username WindowsWebApp#docker_registry_username}.</summary>
         [JsiiProperty(name: "dockerRegistryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryUsername
@@ -64,7 +64,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>The version of DotNetCore to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#dotnet_core_version WindowsWebApp#dotnet_core_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#dotnet_core_version WindowsWebApp#dotnet_core_version}
         /// </remarks>
         [JsiiProperty(name: "dotnetCoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#dotnet_version WindowsWebApp#dotnet_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#dotnet_version WindowsWebApp#dotnet_version}.</summary>
         [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DotnetVersion
@@ -87,7 +87,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_container WindowsWebApp#java_container}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_container WindowsWebApp#java_container}.</summary>
         [JsiiProperty(name: "javaContainer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaContainer
@@ -98,7 +98,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_container_version WindowsWebApp#java_container_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_container_version WindowsWebApp#java_container_version}.</summary>
         [JsiiProperty(name: "javaContainerVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaContainerVersion
@@ -111,7 +111,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>Should the application use the embedded web server for the version of Java in use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_embedded_server_enabled WindowsWebApp#java_embedded_server_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_embedded_server_enabled WindowsWebApp#java_embedded_server_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "javaEmbeddedServerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_version WindowsWebApp#java_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_version WindowsWebApp#java_version}.</summary>
         [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaVersion
@@ -135,7 +135,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#node_version WindowsWebApp#node_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#node_version WindowsWebApp#node_version}.</summary>
         [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeVersion
@@ -146,7 +146,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#php_version WindowsWebApp#php_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#php_version WindowsWebApp#php_version}.</summary>
         [JsiiProperty(name: "phpVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhpVersion
@@ -157,7 +157,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#python WindowsWebApp#python}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#python WindowsWebApp#python}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -171,7 +171,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#tomcat_version WindowsWebApp#tomcat_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#tomcat_version WindowsWebApp#tomcat_version}.</summary>
         [JsiiProperty(name: "tomcatVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TomcatVersion
@@ -189,7 +189,7 @@ namespace azurerm.WindowsWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#current_stack WindowsWebApp#current_stack}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#current_stack WindowsWebApp#current_stack}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "currentStack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CurrentStack
@@ -197,7 +197,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_image_name WindowsWebApp#docker_image_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_image_name WindowsWebApp#docker_image_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerImageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerImageName
@@ -205,7 +205,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_password WindowsWebApp#docker_registry_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_password WindowsWebApp#docker_registry_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryPassword
@@ -213,7 +213,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_url WindowsWebApp#docker_registry_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_url WindowsWebApp#docker_registry_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryUrl
@@ -221,7 +221,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#docker_registry_username WindowsWebApp#docker_registry_username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#docker_registry_username WindowsWebApp#docker_registry_username}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryUsername
@@ -231,7 +231,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>The version of DotNetCore to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#dotnet_core_version WindowsWebApp#dotnet_core_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#dotnet_core_version WindowsWebApp#dotnet_core_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dotnetCoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#dotnet_version WindowsWebApp#dotnet_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#dotnet_version WindowsWebApp#dotnet_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DotnetVersion
@@ -248,7 +248,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_container WindowsWebApp#java_container}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_container WindowsWebApp#java_container}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaContainer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaContainer
@@ -256,7 +256,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_container_version WindowsWebApp#java_container_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_container_version WindowsWebApp#java_container_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaContainerVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaContainerVersion
@@ -266,7 +266,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>Should the application use the embedded web server for the version of Java in use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_embedded_server_enabled WindowsWebApp#java_embedded_server_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_embedded_server_enabled WindowsWebApp#java_embedded_server_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -276,7 +276,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#java_version WindowsWebApp#java_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#java_version WindowsWebApp#java_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaVersion
@@ -284,7 +284,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#node_version WindowsWebApp#node_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#node_version WindowsWebApp#node_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeVersion
@@ -292,7 +292,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#php_version WindowsWebApp#php_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#php_version WindowsWebApp#php_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phpVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhpVersion
@@ -300,7 +300,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#python WindowsWebApp#python}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#python WindowsWebApp#python}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -311,7 +311,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#tomcat_version WindowsWebApp#tomcat_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#tomcat_version WindowsWebApp#tomcat_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tomcatVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TomcatVersion

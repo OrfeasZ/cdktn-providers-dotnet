@@ -7,7 +7,7 @@ namespace azurerm.FirewallPolicy
     [JsiiInterface(nativeType: typeof(IFirewallPolicyIntrusionDetection), fullyQualifiedName: "azurerm.firewallPolicy.FirewallPolicyIntrusionDetection")]
     public interface IFirewallPolicyIntrusionDetection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#mode FirewallPolicy#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#mode FirewallPolicy#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Mode
@@ -18,7 +18,7 @@ namespace azurerm.FirewallPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#private_ranges FirewallPolicy#private_ranges}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#private_ranges FirewallPolicy#private_ranges}.</summary>
         [JsiiProperty(name: "privateRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PrivateRanges
@@ -31,7 +31,7 @@ namespace azurerm.FirewallPolicy
 
         /// <summary>signature_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#signature_overrides FirewallPolicy#signature_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#signature_overrides FirewallPolicy#signature_overrides}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FirewallPolicy.IFirewallPolicyIntrusionDetectionSignatureOverrides" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "signatureOverrides", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionSignatureOverrides\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace azurerm.FirewallPolicy
 
         /// <summary>traffic_bypass block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#traffic_bypass FirewallPolicy#traffic_bypass}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#traffic_bypass FirewallPolicy#traffic_bypass}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FirewallPolicy.IFirewallPolicyIntrusionDetectionTrafficBypass" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "trafficBypass", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.firewallPolicy.FirewallPolicyIntrusionDetectionTrafficBypass\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace azurerm.FirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#mode FirewallPolicy#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#mode FirewallPolicy#mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Mode
@@ -74,7 +74,7 @@ namespace azurerm.FirewallPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#private_ranges FirewallPolicy#private_ranges}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#private_ranges FirewallPolicy#private_ranges}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PrivateRanges
@@ -84,7 +84,7 @@ namespace azurerm.FirewallPolicy
 
             /// <summary>signature_overrides block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#signature_overrides FirewallPolicy#signature_overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#signature_overrides FirewallPolicy#signature_overrides}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FirewallPolicy.IFirewallPolicyIntrusionDetectionSignatureOverrides" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -96,7 +96,7 @@ namespace azurerm.FirewallPolicy
 
             /// <summary>traffic_bypass block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/firewall_policy#traffic_bypass FirewallPolicy#traffic_bypass}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/firewall_policy#traffic_bypass FirewallPolicy#traffic_bypass}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FirewallPolicy.IFirewallPolicyIntrusionDetectionTrafficBypass" />)[]</para>
             /// </remarks>
             [JsiiOptional]

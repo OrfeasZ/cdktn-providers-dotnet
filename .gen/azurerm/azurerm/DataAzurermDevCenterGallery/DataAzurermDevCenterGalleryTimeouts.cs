@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDevCenterGallery
     [JsiiByValue(fqn: "azurerm.dataAzurermDevCenterGallery.DataAzurermDevCenterGalleryTimeouts")]
     public class DataAzurermDevCenterGalleryTimeouts : azurerm.DataAzurermDevCenterGallery.IDataAzurermDevCenterGalleryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/dev_center_gallery#read DataAzurermDevCenterGallery#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/dev_center_gallery#read DataAzurermDevCenterGallery#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

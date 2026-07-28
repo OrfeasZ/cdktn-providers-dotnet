@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppJob
     [JsiiByValue(fqn: "azurerm.containerAppJob.ContainerAppJobConfig")]
     public class ContainerAppJobConfig : azurerm.ContainerAppJob.IContainerAppJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#container_app_environment_id ContainerAppJob#container_app_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#container_app_environment_id ContainerAppJob#container_app_environment_id}.</summary>
         [JsiiProperty(name: "containerAppEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerAppEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#location ContainerAppJob#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#location ContainerAppJob#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#name ContainerAppJob#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#name ContainerAppJob#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#replica_timeout_in_seconds ContainerAppJob#replica_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#replica_timeout_in_seconds ContainerAppJob#replica_timeout_in_seconds}.</summary>
         [JsiiProperty(name: "replicaTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double ReplicaTimeoutInSeconds
         {
@@ -41,7 +41,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#resource_group_name ContainerAppJob#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#resource_group_name ContainerAppJob#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -51,7 +51,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#template ContainerAppJob#template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#template ContainerAppJob#template}
         /// </remarks>
         [JsiiProperty(name: "template", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplate\"}")]
         public azurerm.ContainerAppJob.IContainerAppJobTemplate Template
@@ -62,7 +62,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>event_trigger_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#event_trigger_config ContainerAppJob#event_trigger_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#event_trigger_config ContainerAppJob#event_trigger_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventTriggerConfig", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobEventTriggerConfig\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#id ContainerAppJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#id ContainerAppJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#identity ContainerAppJob#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#identity ContainerAppJob#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobIdentity\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>manual_trigger_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#manual_trigger_config ContainerAppJob#manual_trigger_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#manual_trigger_config ContainerAppJob#manual_trigger_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "manualTriggerConfig", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobManualTriggerConfig\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>registry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#registry ContainerAppJob#registry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#registry ContainerAppJob#registry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobRegistry" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -144,7 +144,7 @@ namespace azurerm.ContainerAppJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#replica_retry_limit ContainerAppJob#replica_retry_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#replica_retry_limit ContainerAppJob#replica_retry_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicaRetryLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReplicaRetryLimit
@@ -155,7 +155,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>schedule_trigger_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#schedule_trigger_config ContainerAppJob#schedule_trigger_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#schedule_trigger_config ContainerAppJob#schedule_trigger_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleTriggerConfig", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobScheduleTriggerConfig\"}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>secret block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#secret ContainerAppJob#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#secret ContainerAppJob#secret}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobSecret" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -200,7 +200,7 @@ namespace azurerm.ContainerAppJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#tags ContainerAppJob#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#tags ContainerAppJob#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -211,7 +211,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#timeouts ContainerAppJob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#timeouts ContainerAppJob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTimeouts\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace azurerm.ContainerAppJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_app_job#workload_profile_name ContainerAppJob#workload_profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app_job#workload_profile_name ContainerAppJob#workload_profile_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workloadProfileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkloadProfileName

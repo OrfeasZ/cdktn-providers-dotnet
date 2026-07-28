@@ -7,14 +7,14 @@ namespace azurerm.CdnFrontdoorRule
     [JsiiInterface(nativeType: typeof(ICdnFrontdoorRuleActions), fullyQualifiedName: "azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActions")]
     public interface ICdnFrontdoorRuleActions
     {
-        /// <summary>request_header_action block.</summary>
+        /// <summary>modify_request_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_action CdnFrontdoorRule#request_header_action}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#modify_request_header CdnFrontdoorRule#modify_request_header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "requestHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "modifyRequestHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? RequestHeaderAction
+        object? ModifyRequestHeader
         {
             get
             {
@@ -22,14 +22,14 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>response_header_action block.</summary>
+        /// <summary>modify_response_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#response_header_action CdnFrontdoorRule#response_header_action}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#modify_response_header CdnFrontdoorRule#modify_response_header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "responseHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "modifyResponseHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? ResponseHeaderAction
+        object? ModifyResponseHeader
         {
             get
             {
@@ -37,13 +37,13 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>route_configuration_override_action block.</summary>
+        /// <summary>route_configuration_override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#route_configuration_override_action CdnFrontdoorRule#route_configuration_override_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#route_configuration_override CdnFrontdoorRule#route_configuration_override}
         /// </remarks>
-        [JsiiProperty(name: "routeConfigurationOverrideAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideAction\"}", isOptional: true)]
+        [JsiiProperty(name: "routeConfigurationOverride", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverride\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction? RouteConfigurationOverrideAction
+        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride? RouteConfigurationOverride
         {
             get
             {
@@ -51,13 +51,13 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>url_redirect_action block.</summary>
+        /// <summary>url_redirect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_redirect_action CdnFrontdoorRule#url_redirect_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#url_redirect CdnFrontdoorRule#url_redirect}
         /// </remarks>
-        [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectAction\"}", isOptional: true)]
+        [JsiiProperty(name: "urlRedirect", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirect\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction? UrlRedirectAction
+        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect? UrlRedirect
         {
             get
             {
@@ -65,13 +65,13 @@ namespace azurerm.CdnFrontdoorRule
             }
         }
 
-        /// <summary>url_rewrite_action block.</summary>
+        /// <summary>url_rewrite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_rewrite_action CdnFrontdoorRule#url_rewrite_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#url_rewrite CdnFrontdoorRule#url_rewrite}
         /// </remarks>
-        [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteAction\"}", isOptional: true)]
+        [JsiiProperty(name: "urlRewrite", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewrite\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction? UrlRewriteAction
+        azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite? UrlRewrite
         {
             get
             {
@@ -86,61 +86,61 @@ namespace azurerm.CdnFrontdoorRule
             {
             }
 
-            /// <summary>request_header_action block.</summary>
+            /// <summary>modify_request_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_action CdnFrontdoorRule#request_header_action}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#modify_request_header CdnFrontdoorRule#modify_request_header}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "requestHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? RequestHeaderAction
+            [JsiiProperty(name: "modifyRequestHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ModifyRequestHeader
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>response_header_action block.</summary>
+            /// <summary>modify_response_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#response_header_action CdnFrontdoorRule#response_header_action}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#modify_response_header CdnFrontdoorRule#modify_response_header}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "responseHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? ResponseHeaderAction
+            [JsiiProperty(name: "modifyResponseHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ModifyResponseHeader
             {
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>route_configuration_override_action block.</summary>
+            /// <summary>route_configuration_override block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#route_configuration_override_action CdnFrontdoorRule#route_configuration_override_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#route_configuration_override CdnFrontdoorRule#route_configuration_override}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "routeConfigurationOverrideAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideAction\"}", isOptional: true)]
-            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction? RouteConfigurationOverrideAction
+            [JsiiProperty(name: "routeConfigurationOverride", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverride\"}", isOptional: true)]
+            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride? RouteConfigurationOverride
             {
-                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction?>();
+                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride?>();
             }
 
-            /// <summary>url_redirect_action block.</summary>
+            /// <summary>url_redirect block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_redirect_action CdnFrontdoorRule#url_redirect_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#url_redirect CdnFrontdoorRule#url_redirect}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectAction\"}", isOptional: true)]
-            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction? UrlRedirectAction
+            [JsiiProperty(name: "urlRedirect", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirect\"}", isOptional: true)]
+            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect? UrlRedirect
             {
-                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction?>();
+                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect?>();
             }
 
-            /// <summary>url_rewrite_action block.</summary>
+            /// <summary>url_rewrite block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_rewrite_action CdnFrontdoorRule#url_rewrite_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#url_rewrite CdnFrontdoorRule#url_rewrite}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteAction\"}", isOptional: true)]
-            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction? UrlRewriteAction
+            [JsiiProperty(name: "urlRewrite", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewrite\"}", isOptional: true)]
+            public azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite? UrlRewrite
             {
-                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction?>();
+                get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite?>();
             }
         }
     }

@@ -7,14 +7,14 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolAutoScale), fullyQualifiedName: "azurerm.batchPool.BatchPoolAutoScale")]
     public interface IBatchPoolAutoScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
         [JsiiProperty(name: "formula", typeJson: "{\"primitive\":\"string\"}")]
         string Formula
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
         [JsiiProperty(name: "evaluationInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EvaluationInterval
@@ -32,14 +32,14 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
             [JsiiProperty(name: "formula", typeJson: "{\"primitive\":\"string\"}")]
             public string Formula
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "evaluationInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EvaluationInterval

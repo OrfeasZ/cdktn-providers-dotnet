@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventhubConsumerGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermEventhubConsumerGroup.DataAzurermEventhubConsumerGroupTimeouts")]
     public class DataAzurermEventhubConsumerGroupTimeouts : azurerm.DataAzurermEventhubConsumerGroup.IDataAzurermEventhubConsumerGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/eventhub_consumer_group#read DataAzurermEventhubConsumerGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/eventhub_consumer_group#read DataAzurermEventhubConsumerGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

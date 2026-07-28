@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiByValue(fqn: "azurerm.containerRegistryTask.ContainerRegistryTaskSourceTrigger")]
     public class ContainerRegistryTaskSourceTrigger : azurerm.ContainerRegistryTask.IContainerRegistryTaskSourceTrigger
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#events ContainerRegistryTask#events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#events ContainerRegistryTask#events}.</summary>
         [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Events
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#repository_url ContainerRegistryTask#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#repository_url ContainerRegistryTask#repository_url}.</summary>
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryUrl
         {
@@ -33,7 +33,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#source_type ContainerRegistryTask#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#source_type ContainerRegistryTask#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {
@@ -43,7 +43,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#authentication ContainerRegistryTask#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#authentication ContainerRegistryTask#authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskSourceTriggerAuthentication\"}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#branch ContainerRegistryTask#branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#branch ContainerRegistryTask#branch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Branch
@@ -64,7 +64,7 @@ namespace azurerm.ContainerRegistryTask
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

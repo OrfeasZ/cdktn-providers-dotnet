@@ -7,18 +7,18 @@ namespace azurerm.CdnFrontdoorRule
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditions")]
     public class CdnFrontdoorRuleConditions : azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditions
     {
-        private object? _clientPortCondition;
+        private object? _clientPort;
 
-        /// <summary>client_port_condition block.</summary>
+        /// <summary>client_port block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#client_port_condition CdnFrontdoorRule#client_port_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#client_port CdnFrontdoorRule#client_port}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "clientPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? ClientPortCondition
+        [JsiiProperty(name: "clientPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ClientPort
         {
-            get => _clientPortCondition;
+            get => _clientPort;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -27,7 +27,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -35,25 +35,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _clientPortCondition = value;
+                _clientPort = value;
             }
         }
 
-        private object? _cookiesCondition;
+        private object? _deviceType;
 
-        /// <summary>cookies_condition block.</summary>
+        /// <summary>device_type block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#cookies_condition CdnFrontdoorRule#cookies_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#device_type CdnFrontdoorRule#device_type}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "cookiesCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? CookiesCondition
+        [JsiiProperty(name: "deviceType", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? DeviceType
         {
-            get => _cookiesCondition;
+            get => _deviceType;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -62,7 +62,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -70,25 +70,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _cookiesCondition = value;
+                _deviceType = value;
             }
         }
 
-        private object? _hostNameCondition;
+        private object? _hostName;
 
-        /// <summary>host_name_condition block.</summary>
+        /// <summary>host_name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#host_name_condition CdnFrontdoorRule#host_name_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#host_name CdnFrontdoorRule#host_name}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "hostNameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? HostNameCondition
+        [JsiiProperty(name: "hostName", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? HostName
         {
-            get => _hostNameCondition;
+            get => _hostName;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -97,7 +97,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -105,25 +105,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _hostNameCondition = value;
+                _hostName = value;
             }
         }
 
-        private object? _httpVersionCondition;
+        private object? _httpVersion;
 
-        /// <summary>http_version_condition block.</summary>
+        /// <summary>http_version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#http_version_condition CdnFrontdoorRule#http_version_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#http_version CdnFrontdoorRule#http_version}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "httpVersionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? HttpVersionCondition
+        [JsiiProperty(name: "httpVersion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? HttpVersion
         {
-            get => _httpVersionCondition;
+            get => _httpVersion;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -132,7 +132,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -140,25 +140,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _httpVersionCondition = value;
+                _httpVersion = value;
             }
         }
 
-        private object? _isDeviceCondition;
+        private object? _postArgument;
 
-        /// <summary>is_device_condition block.</summary>
+        /// <summary>post_argument block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#is_device_condition CdnFrontdoorRule#is_device_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#post_argument CdnFrontdoorRule#post_argument}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "isDeviceCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? IsDeviceCondition
+        [JsiiProperty(name: "postArgument", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? PostArgument
         {
-            get => _isDeviceCondition;
+            get => _postArgument;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -167,7 +167,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -175,25 +175,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _isDeviceCondition = value;
+                _postArgument = value;
             }
         }
 
-        private object? _postArgsCondition;
+        private object? _queryString;
 
-        /// <summary>post_args_condition block.</summary>
+        /// <summary>query_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#post_args_condition CdnFrontdoorRule#post_args_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#query_string CdnFrontdoorRule#query_string}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "postArgsCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? PostArgsCondition
+        [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? QueryString
         {
-            get => _postArgsCondition;
+            get => _queryString;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -202,7 +202,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -210,25 +210,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _postArgsCondition = value;
+                _queryString = value;
             }
         }
 
-        private object? _queryStringCondition;
+        private object? _remoteAddress;
 
-        /// <summary>query_string_condition block.</summary>
+        /// <summary>remote_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#query_string_condition CdnFrontdoorRule#query_string_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#remote_address CdnFrontdoorRule#remote_address}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "queryStringCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? QueryStringCondition
+        [JsiiProperty(name: "remoteAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RemoteAddress
         {
-            get => _queryStringCondition;
+            get => _remoteAddress;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -237,7 +237,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -245,25 +245,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _queryStringCondition = value;
+                _remoteAddress = value;
             }
         }
 
-        private object? _remoteAddressCondition;
+        private object? _requestBody;
 
-        /// <summary>remote_address_condition block.</summary>
+        /// <summary>request_body block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#remote_address_condition CdnFrontdoorRule#remote_address_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_body CdnFrontdoorRule#request_body}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "remoteAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RemoteAddressCondition
+        [JsiiProperty(name: "requestBody", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestBody
         {
-            get => _remoteAddressCondition;
+            get => _requestBody;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -272,7 +272,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -280,25 +280,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _remoteAddressCondition = value;
+                _requestBody = value;
             }
         }
 
-        private object? _requestBodyCondition;
+        private object? _requestCookies;
 
-        /// <summary>request_body_condition block.</summary>
+        /// <summary>request_cookies block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_body_condition CdnFrontdoorRule#request_body_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_cookies CdnFrontdoorRule#request_cookies}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestBodyCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RequestBodyCondition
+        [JsiiProperty(name: "requestCookies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestCookies
         {
-            get => _requestBodyCondition;
+            get => _requestCookies;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -307,7 +307,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -315,25 +315,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _requestBodyCondition = value;
+                _requestCookies = value;
             }
         }
 
-        private object? _requestHeaderCondition;
+        private object? _requestFileExtension;
 
-        /// <summary>request_header_condition block.</summary>
+        /// <summary>request_file_extension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_header_condition CdnFrontdoorRule#request_header_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_file_extension CdnFrontdoorRule#request_file_extension}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestHeaderCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RequestHeaderCondition
+        [JsiiProperty(name: "requestFileExtension", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestFileExtension
         {
-            get => _requestHeaderCondition;
+            get => _requestFileExtension;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -342,7 +342,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -350,25 +350,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _requestHeaderCondition = value;
+                _requestFileExtension = value;
             }
         }
 
-        private object? _requestMethodCondition;
+        private object? _requestFilename;
 
-        /// <summary>request_method_condition block.</summary>
+        /// <summary>request_filename block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_method_condition CdnFrontdoorRule#request_method_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_filename CdnFrontdoorRule#request_filename}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RequestMethodCondition
+        [JsiiProperty(name: "requestFilename", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilename\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestFilename
         {
-            get => _requestMethodCondition;
+            get => _requestFilename;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -377,7 +377,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -385,25 +385,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _requestMethodCondition = value;
+                _requestFilename = value;
             }
         }
 
-        private object? _requestSchemeCondition;
+        private object? _requestHeader;
 
-        /// <summary>request_scheme_condition block.</summary>
+        /// <summary>request_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_scheme_condition CdnFrontdoorRule#request_scheme_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_header CdnFrontdoorRule#request_header}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RequestSchemeCondition
+        [JsiiProperty(name: "requestHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestHeader
         {
-            get => _requestSchemeCondition;
+            get => _requestHeader;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -412,7 +412,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -420,25 +420,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _requestSchemeCondition = value;
+                _requestHeader = value;
             }
         }
 
-        private object? _requestUriCondition;
+        private object? _requestMethod;
 
-        /// <summary>request_uri_condition block.</summary>
+        /// <summary>request_method block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#request_uri_condition CdnFrontdoorRule#request_uri_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_method CdnFrontdoorRule#request_method}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestUriCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? RequestUriCondition
+        [JsiiProperty(name: "requestMethod", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestMethod
         {
-            get => _requestUriCondition;
+            get => _requestMethod;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -447,7 +447,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -455,25 +455,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _requestUriCondition = value;
+                _requestMethod = value;
             }
         }
 
-        private object? _serverPortCondition;
+        private object? _requestPath;
 
-        /// <summary>server_port_condition block.</summary>
+        /// <summary>request_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#server_port_condition CdnFrontdoorRule#server_port_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_path CdnFrontdoorRule#request_path}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "serverPortCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? ServerPortCondition
+        [JsiiProperty(name: "requestPath", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestPath
         {
-            get => _serverPortCondition;
+            get => _requestPath;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -482,7 +482,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -490,25 +490,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _serverPortCondition = value;
+                _requestPath = value;
             }
         }
 
-        private object? _socketAddressCondition;
+        private object? _requestScheme;
 
-        /// <summary>socket_address_condition block.</summary>
+        /// <summary>request_scheme block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#socket_address_condition CdnFrontdoorRule#socket_address_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_scheme CdnFrontdoorRule#request_scheme}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "socketAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? SocketAddressCondition
+        [JsiiProperty(name: "requestScheme", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestScheme\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestScheme
         {
-            get => _socketAddressCondition;
+            get => _requestScheme;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -517,7 +517,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -525,25 +525,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _socketAddressCondition = value;
+                _requestScheme = value;
             }
         }
 
-        private object? _sslProtocolCondition;
+        private object? _requestUrl;
 
-        /// <summary>ssl_protocol_condition block.</summary>
+        /// <summary>request_url block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#ssl_protocol_condition CdnFrontdoorRule#ssl_protocol_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#request_url CdnFrontdoorRule#request_url}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "sslProtocolCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? SslProtocolCondition
+        [JsiiProperty(name: "requestUrl", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? RequestUrl
         {
-            get => _sslProtocolCondition;
+            get => _requestUrl;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -552,7 +552,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -560,25 +560,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _sslProtocolCondition = value;
+                _requestUrl = value;
             }
         }
 
-        private object? _urlFileExtensionCondition;
+        private object? _serverPort;
 
-        /// <summary>url_file_extension_condition block.</summary>
+        /// <summary>server_port block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_file_extension_condition CdnFrontdoorRule#url_file_extension_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#server_port CdnFrontdoorRule#server_port}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlFileExtensionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? UrlFileExtensionCondition
+        [JsiiProperty(name: "serverPort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ServerPort
         {
-            get => _urlFileExtensionCondition;
+            get => _serverPort;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -587,7 +587,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -595,25 +595,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _urlFileExtensionCondition = value;
+                _serverPort = value;
             }
         }
 
-        private object? _urlFilenameCondition;
+        private object? _socketAddress;
 
-        /// <summary>url_filename_condition block.</summary>
+        /// <summary>socket_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_filename_condition CdnFrontdoorRule#url_filename_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#socket_address CdnFrontdoorRule#socket_address}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlFilenameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? UrlFilenameCondition
+        [JsiiProperty(name: "socketAddress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? SocketAddress
         {
-            get => _urlFilenameCondition;
+            get => _socketAddress;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -622,7 +622,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -630,25 +630,25 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _urlFilenameCondition = value;
+                _socketAddress = value;
             }
         }
 
-        private object? _urlPathCondition;
+        private object? _sslProtocol;
 
-        /// <summary>url_path_condition block.</summary>
+        /// <summary>ssl_protocol block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_rule#url_path_condition CdnFrontdoorRule#url_path_condition}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#ssl_protocol CdnFrontdoorRule#ssl_protocol}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlPathCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? UrlPathCondition
+        [JsiiProperty(name: "sslProtocol", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? SslProtocol
         {
-            get => _urlPathCondition;
+            get => _sslProtocol;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -657,7 +657,7 @@ namespace azurerm.CdnFrontdoorRule
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition[] cast_cd4240:
+                        case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -665,10 +665,10 @@ namespace azurerm.CdnFrontdoorRule
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _urlPathCondition = value;
+                _sslProtocol = value;
             }
         }
     }

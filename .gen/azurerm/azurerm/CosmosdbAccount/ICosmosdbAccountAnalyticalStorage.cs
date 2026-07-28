@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiInterface(nativeType: typeof(ICosmosdbAccountAnalyticalStorage), fullyQualifiedName: "azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorage")]
     public interface ICosmosdbAccountAnalyticalStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#schema_type CosmosdbAccount#schema_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#schema_type CosmosdbAccount#schema_type}.</summary>
         [JsiiProperty(name: "schemaType", typeJson: "{\"primitive\":\"string\"}")]
         string SchemaType
         {
@@ -21,7 +21,7 @@ namespace azurerm.CosmosdbAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cosmosdb_account#schema_type CosmosdbAccount#schema_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#schema_type CosmosdbAccount#schema_type}.</summary>
             [JsiiProperty(name: "schemaType", typeJson: "{\"primitive\":\"string\"}")]
             public string SchemaType
             {

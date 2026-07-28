@@ -9,7 +9,7 @@ namespace azurerm.Frontdoor
     [JsiiByValue(fqn: "azurerm.frontdoor.FrontdoorFrontendEndpoint")]
     public class FrontdoorFrontendEndpoint : azurerm.Frontdoor.IFrontdoorFrontendEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#host_name Frontdoor#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#host_name Frontdoor#host_name}.</summary>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}")]
         public string HostName
         {
@@ -17,7 +17,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace azurerm.Frontdoor
 
         private object? _sessionAffinityEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#session_affinity_enabled Frontdoor#session_affinity_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#session_affinity_enabled Frontdoor#session_affinity_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#session_affinity_ttl_seconds Frontdoor#session_affinity_ttl_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#session_affinity_ttl_seconds Frontdoor#session_affinity_ttl_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sessionAffinityTtlSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SessionAffinityTtlSeconds
@@ -68,7 +68,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/frontdoor#web_application_firewall_policy_link_id Frontdoor#web_application_firewall_policy_link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#web_application_firewall_policy_link_id Frontdoor#web_application_firewall_policy_link_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webApplicationFirewallPolicyLinkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebApplicationFirewallPolicyLinkId

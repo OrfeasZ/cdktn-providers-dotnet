@@ -35,6 +35,12 @@ namespace azurerm.CognitiveAccountRaiPolicy
         {
         }
 
+        [JsiiMethod(name: "resetSeverityThreshold")]
+        public virtual void ResetSeverityThreshold()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

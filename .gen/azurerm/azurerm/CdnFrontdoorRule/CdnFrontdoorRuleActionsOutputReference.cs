@@ -33,9 +33,9 @@ namespace azurerm.CdnFrontdoorRule
         {
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction" />)[]</param>
-        [JsiiMethod(name: "putRequestHeaderAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderAction\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestHeaderAction(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader" />)[]</param>
+        [JsiiMethod(name: "putModifyRequestHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeader\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutModifyRequestHeader(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -43,23 +43,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction" />)[]</param>
-        [JsiiMethod(name: "putResponseHeaderAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderAction\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutResponseHeaderAction(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader" />)[]</param>
+        [JsiiMethod(name: "putModifyResponseHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeader\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutModifyResponseHeader(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -67,137 +67,137 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putRouteConfigurationOverrideAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideAction\"}}]")]
-        public virtual void PutRouteConfigurationOverrideAction(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction @value)
+        [JsiiMethod(name: "putRouteConfigurationOverride", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverride\"}}]")]
+        public virtual void PutRouteConfigurationOverride(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putUrlRedirectAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectAction\"}}]")]
-        public virtual void PutUrlRedirectAction(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction @value)
+        [JsiiMethod(name: "putUrlRedirect", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirect\"}}]")]
+        public virtual void PutUrlRedirect(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putUrlRewriteAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteAction\"}}]")]
-        public virtual void PutUrlRewriteAction(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction @value)
+        [JsiiMethod(name: "putUrlRewrite", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewrite\"}}]")]
+        public virtual void PutUrlRewrite(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetRequestHeaderAction")]
-        public virtual void ResetRequestHeaderAction()
+        [JsiiMethod(name: "resetModifyRequestHeader")]
+        public virtual void ResetModifyRequestHeader()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetResponseHeaderAction")]
-        public virtual void ResetResponseHeaderAction()
+        [JsiiMethod(name: "resetModifyResponseHeader")]
+        public virtual void ResetModifyResponseHeader()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRouteConfigurationOverrideAction")]
-        public virtual void ResetRouteConfigurationOverrideAction()
+        [JsiiMethod(name: "resetRouteConfigurationOverride")]
+        public virtual void ResetRouteConfigurationOverride()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUrlRedirectAction")]
-        public virtual void ResetUrlRedirectAction()
+        [JsiiMethod(name: "resetUrlRedirect")]
+        public virtual void ResetUrlRedirect()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUrlRewriteAction")]
-        public virtual void ResetUrlRewriteAction()
+        [JsiiMethod(name: "resetUrlRewrite")]
+        public virtual void ResetUrlRewrite()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "requestHeaderAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderActionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderActionList RequestHeaderAction
+        [JsiiProperty(name: "modifyRequestHeader", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeaderList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeaderList ModifyRequestHeader
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderActionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeaderList>()!;
         }
 
-        [JsiiProperty(name: "responseHeaderAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderActionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderActionList ResponseHeaderAction
+        [JsiiProperty(name: "modifyResponseHeader", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeaderList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeaderList ModifyResponseHeader
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderActionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeaderList>()!;
         }
 
-        [JsiiProperty(name: "routeConfigurationOverrideAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference RouteConfigurationOverrideAction
+        [JsiiProperty(name: "routeConfigurationOverride", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference RouteConfigurationOverride
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideOutputReference>()!;
         }
 
-        [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectActionOutputReference\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectActionOutputReference UrlRedirectAction
+        [JsiiProperty(name: "urlRedirect", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectOutputReference\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectOutputReference UrlRedirect
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectActionOutputReference>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectOutputReference>()!;
         }
 
-        [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteActionOutputReference\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteActionOutputReference UrlRewriteAction
+        [JsiiProperty(name: "urlRewrite", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteOutputReference\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteOutputReference UrlRewrite
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteActionOutputReference>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteOutputReference>()!;
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRequestHeaderAction" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyRequestHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestHeaderActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRequestHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestHeaderActionInput
+        [JsiiProperty(name: "modifyRequestHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ModifyRequestHeaderInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsResponseHeaderAction" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsModifyResponseHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "responseHeaderActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsResponseHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? ResponseHeaderActionInput
+        [JsiiProperty(name: "modifyResponseHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsModifyResponseHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ModifyResponseHeaderInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "routeConfigurationOverrideActionInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverrideAction\"}", isOptional: true)]
-        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction? RouteConfigurationOverrideActionInput
+        [JsiiProperty(name: "routeConfigurationOverrideInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsRouteConfigurationOverride\"}", isOptional: true)]
+        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride? RouteConfigurationOverrideInput
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverrideAction?>();
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsRouteConfigurationOverride?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "urlRedirectActionInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirectAction\"}", isOptional: true)]
-        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction? UrlRedirectActionInput
+        [JsiiProperty(name: "urlRedirectInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRedirect\"}", isOptional: true)]
+        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect? UrlRedirectInput
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirectAction?>();
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRedirect?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "urlRewriteActionInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewriteAction\"}", isOptional: true)]
-        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction? UrlRewriteActionInput
+        [JsiiProperty(name: "urlRewriteInput", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewrite\"}", isOptional: true)]
+        public virtual azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite? UrlRewriteInput
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewriteAction?>();
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite?>();
         }
 
         [JsiiOptional]

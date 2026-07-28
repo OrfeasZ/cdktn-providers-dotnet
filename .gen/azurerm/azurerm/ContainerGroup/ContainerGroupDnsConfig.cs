@@ -9,7 +9,7 @@ namespace azurerm.ContainerGroup
     [JsiiByValue(fqn: "azurerm.containerGroup.ContainerGroupDnsConfig")]
     public class ContainerGroupDnsConfig : azurerm.ContainerGroup.IContainerGroupDnsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#nameservers ContainerGroup#nameservers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#nameservers ContainerGroup#nameservers}.</summary>
         [JsiiProperty(name: "nameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Nameservers
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#options ContainerGroup#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#options ContainerGroup#options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Options
@@ -26,7 +26,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_group#search_domains ContainerGroup#search_domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#search_domains ContainerGroup#search_domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SearchDomains

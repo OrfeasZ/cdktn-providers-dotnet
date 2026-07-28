@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
     [JsiiByValue(fqn: "azurerm.dataAzurermPrivateDnsZone.DataAzurermPrivateDnsZoneConfig")]
     public class DataAzurermPrivateDnsZoneConfig : azurerm.DataAzurermPrivateDnsZone.IDataAzurermPrivateDnsZoneConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_zone#name DataAzurermPrivateDnsZone#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_dns_zone#name DataAzurermPrivateDnsZone#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_zone#id DataAzurermPrivateDnsZone#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_dns_zone#id DataAzurermPrivateDnsZone#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_zone#resource_group_name DataAzurermPrivateDnsZone#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_dns_zone#resource_group_name DataAzurermPrivateDnsZone#resource_group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceGroupName
@@ -39,7 +39,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_zone#tags DataAzurermPrivateDnsZone#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_dns_zone#tags DataAzurermPrivateDnsZone#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -50,7 +50,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_dns_zone#timeouts DataAzurermPrivateDnsZone#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_dns_zone#timeouts DataAzurermPrivateDnsZone#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermPrivateDnsZone.DataAzurermPrivateDnsZoneTimeouts\"}", isOptional: true)]

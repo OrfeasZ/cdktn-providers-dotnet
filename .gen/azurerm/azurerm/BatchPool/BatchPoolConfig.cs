@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolConfig")]
     public class BatchPoolConfig : azurerm.BatchPool.IBatchPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#account_name BatchPool#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#account_name BatchPool#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
         {
@@ -17,7 +17,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#node_agent_sku_id BatchPool#node_agent_sku_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#node_agent_sku_id BatchPool#node_agent_sku_id}.</summary>
         [JsiiProperty(name: "nodeAgentSkuId", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeAgentSkuId
         {
@@ -33,7 +33,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#resource_group_name BatchPool#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#resource_group_name BatchPool#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -43,7 +43,7 @@ namespace azurerm.BatchPool
 
         /// <summary>storage_image_reference block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#storage_image_reference BatchPool#storage_image_reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#storage_image_reference BatchPool#storage_image_reference}
         /// </remarks>
         [JsiiProperty(name: "storageImageReference", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolStorageImageReference\"}")]
         public azurerm.BatchPool.IBatchPoolStorageImageReference StorageImageReference
@@ -52,7 +52,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#vm_size BatchPool#vm_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#vm_size BatchPool#vm_size}.</summary>
         [JsiiProperty(name: "vmSize", typeJson: "{\"primitive\":\"string\"}")]
         public string VmSize
         {
@@ -62,7 +62,7 @@ namespace azurerm.BatchPool
 
         /// <summary>auto_scale block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#auto_scale BatchPool#auto_scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#auto_scale BatchPool#auto_scale}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoScale", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolAutoScale\"}", isOptional: true)]
@@ -72,44 +72,9 @@ namespace azurerm.BatchPool
             set;
         }
 
-        private object? _certificate;
-
-        /// <summary>certificate block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#certificate BatchPool#certificate}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolCertificate" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "certificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.batchPool.BatchPoolCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? Certificate
-        {
-            get => _certificate;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case azurerm.BatchPool.IBatchPoolCertificate[] cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.BatchPool.IBatchPoolCertificate).FullName}[]; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                _certificate = value;
-            }
-        }
-
         /// <summary>container_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#container_configuration BatchPool#container_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#container_configuration BatchPool#container_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerConfiguration", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolContainerConfiguration\"}", isOptional: true)]
@@ -123,7 +88,7 @@ namespace azurerm.BatchPool
 
         /// <summary>data_disks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#data_disks BatchPool#data_disks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#data_disks BatchPool#data_disks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolDataDisks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -158,7 +123,7 @@ namespace azurerm.BatchPool
 
         /// <summary>disk_encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#disk_encryption BatchPool#disk_encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#disk_encryption BatchPool#disk_encryption}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolDiskEncryption" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -189,7 +154,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#display_name BatchPool#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#display_name BatchPool#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -202,7 +167,7 @@ namespace azurerm.BatchPool
 
         /// <summary>extensions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#extensions BatchPool#extensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#extensions BatchPool#extensions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolExtensions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -235,7 +200,7 @@ namespace azurerm.BatchPool
 
         /// <summary>fixed_scale block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#fixed_scale BatchPool#fixed_scale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#fixed_scale BatchPool#fixed_scale}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedScale", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolFixedScale\"}", isOptional: true)]
@@ -245,7 +210,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#id BatchPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#id BatchPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -260,7 +225,7 @@ namespace azurerm.BatchPool
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#identity BatchPool#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#identity BatchPool#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolIdentity\"}", isOptional: true)]
@@ -270,7 +235,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#inter_node_communication BatchPool#inter_node_communication}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#inter_node_communication BatchPool#inter_node_communication}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "interNodeCommunication", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InterNodeCommunication
@@ -279,7 +244,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#license_type BatchPool#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#license_type BatchPool#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType
@@ -288,7 +253,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#max_tasks_per_node BatchPool#max_tasks_per_node}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#max_tasks_per_node BatchPool#max_tasks_per_node}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxTasksPerNode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxTasksPerNode
@@ -297,7 +262,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#metadata BatchPool#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#metadata BatchPool#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -310,7 +275,7 @@ namespace azurerm.BatchPool
 
         /// <summary>mount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#mount BatchPool#mount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#mount BatchPool#mount}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolMount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -343,7 +308,7 @@ namespace azurerm.BatchPool
 
         /// <summary>network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#network_configuration BatchPool#network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#network_configuration BatchPool#network_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolNetworkConfiguration\"}", isOptional: true)]
@@ -357,7 +322,7 @@ namespace azurerm.BatchPool
 
         /// <summary>node_placement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#node_placement BatchPool#node_placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#node_placement BatchPool#node_placement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolNodePlacement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -388,7 +353,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#os_disk_placement BatchPool#os_disk_placement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#os_disk_placement BatchPool#os_disk_placement}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "osDiskPlacement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OsDiskPlacement
@@ -399,7 +364,7 @@ namespace azurerm.BatchPool
 
         /// <summary>security_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#security_profile BatchPool#security_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#security_profile BatchPool#security_profile}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityProfile", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolSecurityProfile\"}", isOptional: true)]
@@ -411,7 +376,7 @@ namespace azurerm.BatchPool
 
         /// <summary>start_task block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#start_task BatchPool#start_task}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#start_task BatchPool#start_task}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startTask", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolStartTask\"}", isOptional: true)]
@@ -423,7 +388,7 @@ namespace azurerm.BatchPool
 
         private object? _stopPendingResizeOperation;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#stop_pending_resize_operation BatchPool#stop_pending_resize_operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#stop_pending_resize_operation BatchPool#stop_pending_resize_operation}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -455,7 +420,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#target_node_communication_mode BatchPool#target_node_communication_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#target_node_communication_mode BatchPool#target_node_communication_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetNodeCommunicationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetNodeCommunicationMode
@@ -468,7 +433,7 @@ namespace azurerm.BatchPool
 
         /// <summary>task_scheduling_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#task_scheduling_policy BatchPool#task_scheduling_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#task_scheduling_policy BatchPool#task_scheduling_policy}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolTaskSchedulingPolicy" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -501,7 +466,7 @@ namespace azurerm.BatchPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#timeouts BatchPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#timeouts BatchPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolTimeouts\"}", isOptional: true)]
@@ -515,7 +480,7 @@ namespace azurerm.BatchPool
 
         /// <summary>user_accounts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#user_accounts BatchPool#user_accounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#user_accounts BatchPool#user_accounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolUserAccounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -550,7 +515,7 @@ namespace azurerm.BatchPool
 
         /// <summary>windows block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/batch_pool#windows BatchPool#windows}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#windows BatchPool#windows}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolWindows" />)[]</para>
         /// </remarks>
         [JsiiOptional]

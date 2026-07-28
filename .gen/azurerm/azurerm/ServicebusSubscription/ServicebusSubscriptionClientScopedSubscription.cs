@@ -7,7 +7,7 @@ namespace azurerm.ServicebusSubscription
     [JsiiByValue(fqn: "azurerm.servicebusSubscription.ServicebusSubscriptionClientScopedSubscription")]
     public class ServicebusSubscriptionClientScopedSubscription : azurerm.ServicebusSubscription.IServicebusSubscriptionClientScopedSubscription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/servicebus_subscription#client_id ServicebusSubscription#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/servicebus_subscription#client_id ServicebusSubscription#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -18,7 +18,7 @@ namespace azurerm.ServicebusSubscription
 
         private object? _isClientScopedSubscriptionShareable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/servicebus_subscription#is_client_scoped_subscription_shareable ServicebusSubscription#is_client_scoped_subscription_shareable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/servicebus_subscription#is_client_scoped_subscription_shareable ServicebusSubscription#is_client_scoped_subscription_shareable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

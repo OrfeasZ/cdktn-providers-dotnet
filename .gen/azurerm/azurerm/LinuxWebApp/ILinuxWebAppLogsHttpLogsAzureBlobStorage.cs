@@ -7,14 +7,14 @@ namespace azurerm.LinuxWebApp
     [JsiiInterface(nativeType: typeof(ILinuxWebAppLogsHttpLogsAzureBlobStorage), fullyQualifiedName: "azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorage")]
     public interface ILinuxWebAppLogsHttpLogsAzureBlobStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
         [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
         string SasUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionInDays
@@ -32,14 +32,14 @@ namespace azurerm.LinuxWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
             [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string SasUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionInDays

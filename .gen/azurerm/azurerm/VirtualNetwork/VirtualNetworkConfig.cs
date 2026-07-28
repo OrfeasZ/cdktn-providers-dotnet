@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetwork
     [JsiiByValue(fqn: "azurerm.virtualNetwork.VirtualNetworkConfig")]
     public class VirtualNetworkConfig : azurerm.VirtualNetwork.IVirtualNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#location VirtualNetwork#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#location VirtualNetwork#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#resource_group_name VirtualNetwork#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#resource_group_name VirtualNetwork#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#address_space VirtualNetwork#address_space}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#address_space VirtualNetwork#address_space}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressSpace", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AddressSpace
@@ -42,7 +42,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#bgp_community VirtualNetwork#bgp_community}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#bgp_community VirtualNetwork#bgp_community}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bgpCommunity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BgpCommunity
@@ -53,7 +53,7 @@ namespace azurerm.VirtualNetwork
 
         /// <summary>ddos_protection_plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#ddos_protection_plan VirtualNetwork#ddos_protection_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#ddos_protection_plan VirtualNetwork#ddos_protection_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ddosProtectionPlan", typeJson: "{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkDdosProtectionPlan\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#dns_servers VirtualNetwork#dns_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#dns_servers VirtualNetwork#dns_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DnsServers
@@ -72,7 +72,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#edge_zone VirtualNetwork#edge_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#edge_zone VirtualNetwork#edge_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeZone
@@ -83,7 +83,7 @@ namespace azurerm.VirtualNetwork
 
         /// <summary>encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#encryption VirtualNetwork#encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#encryption VirtualNetwork#encryption}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryption", typeJson: "{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkEncryption\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#flow_timeout_in_minutes VirtualNetwork#flow_timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#flow_timeout_in_minutes VirtualNetwork#flow_timeout_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "flowTimeoutInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FlowTimeoutInMinutes
@@ -102,7 +102,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#id VirtualNetwork#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#id VirtualNetwork#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -119,7 +119,7 @@ namespace azurerm.VirtualNetwork
 
         /// <summary>ip_address_pool block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#ip_address_pool VirtualNetwork#ip_address_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#ip_address_pool VirtualNetwork#ip_address_pool}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkIpAddressPool" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -150,7 +150,7 @@ namespace azurerm.VirtualNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#private_endpoint_vnet_policies VirtualNetwork#private_endpoint_vnet_policies}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#private_endpoint_vnet_policies VirtualNetwork#private_endpoint_vnet_policies}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointVnetPolicies", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateEndpointVnetPolicies
@@ -161,7 +161,7 @@ namespace azurerm.VirtualNetwork
 
         private object? _subnet;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#subnet VirtualNetwork#subnet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#subnet VirtualNetwork#subnet}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkSubnet" />)[]</para>
         /// </remarks>
@@ -193,7 +193,7 @@ namespace azurerm.VirtualNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#tags VirtualNetwork#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#tags VirtualNetwork#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -204,7 +204,7 @@ namespace azurerm.VirtualNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_network#timeouts VirtualNetwork#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#timeouts VirtualNetwork#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.virtualNetwork.VirtualNetworkTimeouts\"}", isOptional: true)]

@@ -35,30 +35,6 @@ namespace azurerm.ApplicationGateway
         {
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsAuthenticationCertificate" />)[]</param>
-        [JsiiMethod(name: "putAuthenticationCertificate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificate\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutAuthenticationCertificate(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsAuthenticationCertificate[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsAuthenticationCertificate).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsAuthenticationCertificate).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putConnectionDraining", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDraining\"}}]")]
         public virtual void PutConnectionDraining(azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsConnectionDraining @value)
         {
@@ -67,12 +43,6 @@ namespace azurerm.ApplicationGateway
 
         [JsiiMethod(name: "resetAffinityCookieName")]
         public virtual void ResetAffinityCookieName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetAuthenticationCertificate")]
-        public virtual void ResetAuthenticationCertificate()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -143,12 +113,6 @@ namespace azurerm.ApplicationGateway
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "authenticationCertificate", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList\"}")]
-        public virtual azurerm.ApplicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList AuthenticationCertificate
-        {
-            get => GetInstanceProperty<azurerm.ApplicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList>()!;
-        }
-
         [JsiiProperty(name: "connectionDraining", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference\"}")]
         public virtual azurerm.ApplicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference ConnectionDraining
         {
@@ -172,16 +136,6 @@ namespace azurerm.ApplicationGateway
         public virtual string? AffinityCookieNameInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsAuthenticationCertificate" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "authenticationCertificateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsAuthenticationCertificate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? AuthenticationCertificateInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

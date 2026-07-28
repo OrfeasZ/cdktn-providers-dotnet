@@ -35,8 +35,8 @@ namespace azurerm.HdinsightSparkCluster
         {
         }
 
-        [JsiiMethod(name: "resetStorageResourceId")]
-        public virtual void ResetStorageResourceId()
+        [JsiiMethod(name: "resetStorageAccountId")]
+        public virtual void ResetStorageAccountId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -52,6 +52,13 @@ namespace azurerm.HdinsightSparkCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "storageAccountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StorageAccountIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "storageAccountKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StorageAccountKeyInput
         {
@@ -59,15 +66,8 @@ namespace azurerm.HdinsightSparkCluster
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "storageContainerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageContainerIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "storageResourceIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageResourceIdInput
+        [JsiiProperty(name: "storageContainerUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StorageContainerUrlInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -102,6 +102,13 @@ namespace azurerm.HdinsightSparkCluster
             }
         }
 
+        [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StorageAccountId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "storageAccountKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageAccountKey
         {
@@ -109,15 +116,8 @@ namespace azurerm.HdinsightSparkCluster
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageContainerId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "storageResourceId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageResourceId
+        [JsiiProperty(name: "storageContainerUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StorageContainerUrl
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

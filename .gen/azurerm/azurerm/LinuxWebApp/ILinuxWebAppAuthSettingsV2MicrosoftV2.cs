@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     {
         /// <summary>The OAuth 2.0 client ID that was created for the app used for authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#client_id LinuxWebApp#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#client_id LinuxWebApp#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
@@ -19,7 +19,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>The app setting name containing the OAuth 2.0 client secret that was created for the app used for authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#client_secret_setting_name LinuxWebApp#client_secret_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#client_secret_setting_name LinuxWebApp#client_secret_setting_name}
         /// </remarks>
         [JsiiProperty(name: "clientSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
         string ClientSecretSettingName
@@ -29,7 +29,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>Specifies a list of Allowed Audiences that will be requested as part of Microsoft Sign-In authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#allowed_audiences LinuxWebApp#allowed_audiences}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#allowed_audiences LinuxWebApp#allowed_audiences}
         /// </remarks>
         [JsiiProperty(name: "allowedAudiences", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>The list of Login scopes that will be requested as part of Microsoft Account authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#login_scopes LinuxWebApp#login_scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#login_scopes LinuxWebApp#login_scopes}
         /// </remarks>
         [JsiiProperty(name: "loginScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace azurerm.LinuxWebApp
 
             /// <summary>The OAuth 2.0 client ID that was created for the app used for authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#client_id LinuxWebApp#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#client_id LinuxWebApp#client_id}
             /// </remarks>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
@@ -74,7 +74,7 @@ namespace azurerm.LinuxWebApp
 
             /// <summary>The app setting name containing the OAuth 2.0 client secret that was created for the app used for authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#client_secret_setting_name LinuxWebApp#client_secret_setting_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#client_secret_setting_name LinuxWebApp#client_secret_setting_name}
             /// </remarks>
             [JsiiProperty(name: "clientSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientSecretSettingName
@@ -84,7 +84,7 @@ namespace azurerm.LinuxWebApp
 
             /// <summary>Specifies a list of Allowed Audiences that will be requested as part of Microsoft Sign-In authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#allowed_audiences LinuxWebApp#allowed_audiences}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#allowed_audiences LinuxWebApp#allowed_audiences}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedAudiences", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azurerm.LinuxWebApp
 
             /// <summary>The list of Login scopes that will be requested as part of Microsoft Account authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/linux_web_app#login_scopes LinuxWebApp#login_scopes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#login_scopes LinuxWebApp#login_scopes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loginScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

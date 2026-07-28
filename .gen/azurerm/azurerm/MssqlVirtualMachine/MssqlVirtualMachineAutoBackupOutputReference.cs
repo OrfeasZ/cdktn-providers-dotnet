@@ -39,12 +39,6 @@ namespace azurerm.MssqlVirtualMachine
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.MssqlVirtualMachine.IMssqlVirtualMachineAutoBackupManualSchedule)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetEncryptionEnabled")]
-        public virtual void ResetEncryptionEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetEncryptionPassword")]
         public virtual void ResetEncryptionPassword()
         {
@@ -67,16 +61,6 @@ namespace azurerm.MssqlVirtualMachine
         public virtual azurerm.MssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualScheduleOutputReference ManualSchedule
         {
             get => GetInstanceProperty<azurerm.MssqlVirtualMachine.MssqlVirtualMachineAutoBackupManualScheduleOutputReference>()!;
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "encryptionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? EncryptionEnabledInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -122,36 +106,6 @@ namespace azurerm.MssqlVirtualMachine
         public virtual object? SystemDatabasesBackupEnabledInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiProperty(name: "encryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object EncryptionEnabled
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         [JsiiProperty(name: "encryptionPassword", typeJson: "{\"primitive\":\"string\"}")]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.DataAzurermStorageShare
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_share azurerm_storage_share}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_share azurerm_storage_share}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.DataAzurermStorageShare.DataAzurermStorageShare), fullyQualifiedName: "azurerm.dataAzurermStorageShare.DataAzurermStorageShare", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.dataAzurermStorageShare.DataAzurermStorageShareConfig\"}}]")]
     public class DataAzurermStorageShare : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_share azurerm_storage_share} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_share azurerm_storage_share} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataAzurermStorageShare(Constructs.Construct scope, string id, azurerm.DataAzurermStorageShare.IDataAzurermStorageShareConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermStorageShare
         /// <param name="importToId">The construct id used in the generated config for the DataAzurermStorageShare to import.</param>
         /// <param name="importFromId">The id of the existing DataAzurermStorageShare that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataAzurermStorageShare to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermStorageShare to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_share#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermStorageShare that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermStorageShare to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermStorageShare to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_share#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermStorageShare that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermStorageShare to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.DataAzurermStorageShare.DataAzurermStorageShare), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -94,18 +94,6 @@ namespace azurerm.DataAzurermStorageShare
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetStorageAccountId")]
-        public virtual void ResetStorageAccountId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetStorageAccountName")]
-        public virtual void ResetStorageAccountName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -145,12 +133,6 @@ namespace azurerm.DataAzurermStorageShare
 
         [JsiiProperty(name: "rbacScopeId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RbacScopeId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "resourceManagerId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string ResourceManagerId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -199,13 +181,6 @@ namespace azurerm.DataAzurermStorageShare
             get => GetInstanceProperty<string?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "storageAccountNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? StorageAccountNameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azurerm.DataAzurermStorageShare.IDataAzurermStorageShareTimeouts" /></para>
         /// </remarks>
@@ -239,13 +214,6 @@ namespace azurerm.DataAzurermStorageShare
 
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageAccountId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string StorageAccountName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

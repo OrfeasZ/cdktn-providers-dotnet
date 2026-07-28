@@ -53,12 +53,6 @@ namespace azurerm.DataAzurermApiManagement
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string KeyVaultId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "negotiateClientCertificate", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable NegotiateClientCertificate
         {

@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermExtendedLocations
     [JsiiByValue(fqn: "azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocationsConfig")]
     public class DataAzurermExtendedLocationsConfig : azurerm.DataAzurermExtendedLocations.IDataAzurermExtendedLocationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/extended_locations#location DataAzurermExtendedLocations#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/extended_locations#location DataAzurermExtendedLocations#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermExtendedLocations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/extended_locations#id DataAzurermExtendedLocations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/extended_locations#id DataAzurermExtendedLocations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azurerm.DataAzurermExtendedLocations
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/extended_locations#timeouts DataAzurermExtendedLocations#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/extended_locations#timeouts DataAzurermExtendedLocations#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermExtendedLocations.DataAzurermExtendedLocationsTimeouts\"}", isOptional: true)]

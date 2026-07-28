@@ -9,7 +9,7 @@ namespace azurerm.MachineLearningWorkspace
     [JsiiByValue(fqn: "azurerm.machineLearningWorkspace.MachineLearningWorkspaceConfig")]
     public class MachineLearningWorkspaceConfig : azurerm.MachineLearningWorkspace.IMachineLearningWorkspaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#application_insights_id MachineLearningWorkspace#application_insights_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#application_insights_id MachineLearningWorkspace#application_insights_id}.</summary>
         [JsiiProperty(name: "applicationInsightsId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationInsightsId
         {
@@ -19,7 +19,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#identity MachineLearningWorkspace#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#identity MachineLearningWorkspace#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceIdentity\"}")]
         public azurerm.MachineLearningWorkspace.IMachineLearningWorkspaceIdentity Identity
@@ -28,7 +28,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#key_vault_id MachineLearningWorkspace#key_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#key_vault_id MachineLearningWorkspace#key_vault_id}.</summary>
         [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultId
         {
@@ -36,7 +36,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#location MachineLearningWorkspace#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#location MachineLearningWorkspace#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -44,7 +44,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#name MachineLearningWorkspace#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#name MachineLearningWorkspace#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -52,7 +52,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#resource_group_name MachineLearningWorkspace#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#resource_group_name MachineLearningWorkspace#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -60,7 +60,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#storage_account_id MachineLearningWorkspace#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#storage_account_id MachineLearningWorkspace#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {
@@ -68,7 +68,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#container_registry_id MachineLearningWorkspace#container_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#container_registry_id MachineLearningWorkspace#container_registry_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerRegistryId
@@ -77,7 +77,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#description MachineLearningWorkspace#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#description MachineLearningWorkspace#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -88,7 +88,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#encryption MachineLearningWorkspace#encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#encryption MachineLearningWorkspace#encryption}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryption", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceEncryption\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>feature_store block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#feature_store MachineLearningWorkspace#feature_store}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#feature_store MachineLearningWorkspace#feature_store}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "featureStore", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceFeatureStore\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#friendly_name MachineLearningWorkspace#friendly_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#friendly_name MachineLearningWorkspace#friendly_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "friendlyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FriendlyName
@@ -121,7 +121,7 @@ namespace azurerm.MachineLearningWorkspace
 
         private object? _highBusinessImpact;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#high_business_impact MachineLearningWorkspace#high_business_impact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#high_business_impact MachineLearningWorkspace#high_business_impact}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -153,7 +153,7 @@ namespace azurerm.MachineLearningWorkspace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#id MachineLearningWorkspace#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#id MachineLearningWorkspace#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#image_build_compute_name MachineLearningWorkspace#image_build_compute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#image_build_compute_name MachineLearningWorkspace#image_build_compute_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageBuildComputeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageBuildComputeName
@@ -175,7 +175,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#kind MachineLearningWorkspace#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#kind MachineLearningWorkspace#kind}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Kind
@@ -186,7 +186,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>managed_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#managed_network MachineLearningWorkspace#managed_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#managed_network MachineLearningWorkspace#managed_network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedNetwork", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceManagedNetwork\"}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#primary_user_assigned_identity MachineLearningWorkspace#primary_user_assigned_identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#primary_user_assigned_identity MachineLearningWorkspace#primary_user_assigned_identity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryUserAssignedIdentity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryUserAssignedIdentity
@@ -207,7 +207,7 @@ namespace azurerm.MachineLearningWorkspace
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#public_network_access_enabled MachineLearningWorkspace#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#public_network_access_enabled MachineLearningWorkspace#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -241,7 +241,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>serverless_compute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#serverless_compute MachineLearningWorkspace#serverless_compute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#serverless_compute MachineLearningWorkspace#serverless_compute}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serverlessCompute", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceServerlessCompute\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace azurerm.MachineLearningWorkspace
 
         private object? _serviceSideEncryptionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#service_side_encryption_enabled MachineLearningWorkspace#service_side_encryption_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#service_side_encryption_enabled MachineLearningWorkspace#service_side_encryption_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -285,7 +285,7 @@ namespace azurerm.MachineLearningWorkspace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#sku_name MachineLearningWorkspace#sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#sku_name MachineLearningWorkspace#sku_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SkuName
@@ -294,7 +294,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#storage_account_access_type MachineLearningWorkspace#storage_account_access_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#storage_account_access_type MachineLearningWorkspace#storage_account_access_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountAccessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountAccessType
@@ -303,7 +303,7 @@ namespace azurerm.MachineLearningWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#tags MachineLearningWorkspace#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#tags MachineLearningWorkspace#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -314,7 +314,7 @@ namespace azurerm.MachineLearningWorkspace
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#timeouts MachineLearningWorkspace#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#timeouts MachineLearningWorkspace#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.machineLearningWorkspace.MachineLearningWorkspaceTimeouts\"}", isOptional: true)]
@@ -326,7 +326,7 @@ namespace azurerm.MachineLearningWorkspace
 
         private object? _v1LegacyModeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/machine_learning_workspace#v1_legacy_mode_enabled MachineLearningWorkspace#v1_legacy_mode_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_workspace#v1_legacy_mode_enabled MachineLearningWorkspace#v1_legacy_mode_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

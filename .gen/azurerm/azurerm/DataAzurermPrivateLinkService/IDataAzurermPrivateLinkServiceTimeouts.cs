@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPrivateLinkService
     [JsiiInterface(nativeType: typeof(IDataAzurermPrivateLinkServiceTimeouts), fullyQualifiedName: "azurerm.dataAzurermPrivateLinkService.DataAzurermPrivateLinkServiceTimeouts")]
     public interface IDataAzurermPrivateLinkServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_link_service#read DataAzurermPrivateLinkService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_link_service#read DataAzurermPrivateLinkService#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPrivateLinkService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/private_link_service#read DataAzurermPrivateLinkService#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/private_link_service#read DataAzurermPrivateLinkService#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

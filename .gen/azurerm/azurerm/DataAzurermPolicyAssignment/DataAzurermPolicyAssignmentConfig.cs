@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermPolicyAssignment
     [JsiiByValue(fqn: "azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentConfig")]
     public class DataAzurermPolicyAssignmentConfig : azurerm.DataAzurermPolicyAssignment.IDataAzurermPolicyAssignmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment#name DataAzurermPolicyAssignment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_assignment#name DataAzurermPolicyAssignment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermPolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment#scope_id DataAzurermPolicyAssignment#scope_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_assignment#scope_id DataAzurermPolicyAssignment#scope_id}.</summary>
         [JsiiProperty(name: "scopeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScopeId
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment#id DataAzurermPolicyAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_assignment#id DataAzurermPolicyAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermPolicyAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment#timeouts DataAzurermPolicyAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_assignment#timeouts DataAzurermPolicyAssignment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeouts\"}", isOptional: true)]

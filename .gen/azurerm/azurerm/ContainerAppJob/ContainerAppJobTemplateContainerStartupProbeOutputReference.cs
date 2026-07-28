@@ -107,12 +107,6 @@ namespace azurerm.ContainerAppJob
             get => GetInstanceProperty<azurerm.ContainerAppJob.ContainerAppJobTemplateContainerStartupProbeHeaderList>()!;
         }
 
-        [JsiiProperty(name: "terminationGracePeriodSeconds", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double TerminationGracePeriodSeconds
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "failureCountThresholdInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? FailureCountThresholdInput

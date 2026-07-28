@@ -7,7 +7,7 @@ namespace azurerm.StackHciDeploymentSetting
     [JsiiInterface(nativeType: typeof(IStackHciDeploymentSettingScaleUnitStorage), fullyQualifiedName: "azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitStorage")]
     public interface IStackHciDeploymentSettingScaleUnitStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#configuration_mode StackHciDeploymentSetting#configuration_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_deployment_setting#configuration_mode StackHciDeploymentSetting#configuration_mode}.</summary>
         [JsiiProperty(name: "configurationMode", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigurationMode
         {
@@ -21,7 +21,7 @@ namespace azurerm.StackHciDeploymentSetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stack_hci_deployment_setting#configuration_mode StackHciDeploymentSetting#configuration_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_deployment_setting#configuration_mode StackHciDeploymentSetting#configuration_mode}.</summary>
             [JsiiProperty(name: "configurationMode", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigurationMode
             {

@@ -5,7 +5,7 @@ namespace azurerm.VpnSite
     /// <remarks>
     /// <h1><c>azurerm_vpn_site</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site"><c>azurerm_vpn_site</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site"><c>azurerm_vpn_site</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

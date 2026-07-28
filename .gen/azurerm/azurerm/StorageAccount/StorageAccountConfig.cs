@@ -9,7 +9,7 @@ namespace azurerm.StorageAccount
     [JsiiByValue(fqn: "azurerm.storageAccount.StorageAccountConfig")]
     public class StorageAccountConfig : azurerm.StorageAccount.IStorageAccountConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#account_replication_type StorageAccount#account_replication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#account_replication_type StorageAccount#account_replication_type}.</summary>
         [JsiiProperty(name: "accountReplicationType", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountReplicationType
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#account_tier StorageAccount#account_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#account_tier StorageAccount#account_tier}.</summary>
         [JsiiProperty(name: "accountTier", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountTier
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#location StorageAccount#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#location StorageAccount#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -33,7 +33,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#name StorageAccount#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#name StorageAccount#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#resource_group_name StorageAccount#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#resource_group_name StorageAccount#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +49,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#access_tier StorageAccount#access_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#access_tier StorageAccount#access_tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessTier
@@ -58,7 +58,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#account_kind StorageAccount#account_kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#account_kind StorageAccount#account_kind}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKind
@@ -67,7 +67,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#allowed_copy_scope StorageAccount#allowed_copy_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#allowed_copy_scope StorageAccount#allowed_copy_scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedCopyScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AllowedCopyScope
@@ -78,7 +78,7 @@ namespace azurerm.StorageAccount
 
         private object? _allowNestedItemsToBePublic;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#allow_nested_items_to_be_public StorageAccount#allow_nested_items_to_be_public}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#allow_nested_items_to_be_public StorageAccount#allow_nested_items_to_be_public}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,7 +112,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>azure_files_authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#azure_files_authentication StorageAccount#azure_files_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#azure_files_authentication StorageAccount#azure_files_authentication}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureFilesAuthentication", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountAzureFilesAuthentication\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>blob_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#blob_properties StorageAccount#blob_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#blob_properties StorageAccount#blob_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "blobProperties", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobProperties\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace azurerm.StorageAccount
 
         private object? _crossTenantReplicationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#cross_tenant_replication_enabled StorageAccount#cross_tenant_replication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#cross_tenant_replication_enabled StorageAccount#cross_tenant_replication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -170,7 +170,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>custom_domain block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#custom_domain StorageAccount#custom_domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#custom_domain StorageAccount#custom_domain}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customDomain", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountCustomDomain\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>customer_managed_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#customer_managed_key StorageAccount#customer_managed_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#customer_managed_key StorageAccount#customer_managed_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerManagedKey", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountCustomerManagedKey\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace azurerm.StorageAccount
 
         private object? _defaultToOauthAuthentication;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#default_to_oauth_authentication StorageAccount#default_to_oauth_authentication}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#default_to_oauth_authentication StorageAccount#default_to_oauth_authentication}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -226,7 +226,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#dns_endpoint_type StorageAccount#dns_endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#dns_endpoint_type StorageAccount#dns_endpoint_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsEndpointType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsEndpointType
@@ -235,7 +235,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#edge_zone StorageAccount#edge_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#edge_zone StorageAccount#edge_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeZone
@@ -246,7 +246,7 @@ namespace azurerm.StorageAccount
 
         private object? _httpsTrafficOnlyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#https_traffic_only_enabled StorageAccount#https_traffic_only_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#https_traffic_only_enabled StorageAccount#https_traffic_only_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -278,7 +278,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#id StorageAccount#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#id StorageAccount#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -293,7 +293,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#identity StorageAccount#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#identity StorageAccount#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountIdentity\"}", isOptional: true)]
@@ -305,7 +305,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>immutability_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#immutability_policy StorageAccount#immutability_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#immutability_policy StorageAccount#immutability_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "immutabilityPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountImmutabilityPolicy\"}", isOptional: true)]
@@ -317,7 +317,7 @@ namespace azurerm.StorageAccount
 
         private object? _infrastructureEncryptionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#infrastructure_encryption_enabled StorageAccount#infrastructure_encryption_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#infrastructure_encryption_enabled StorageAccount#infrastructure_encryption_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -351,7 +351,7 @@ namespace azurerm.StorageAccount
 
         private object? _isHnsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#is_hns_enabled StorageAccount#is_hns_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#is_hns_enabled StorageAccount#is_hns_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -385,7 +385,7 @@ namespace azurerm.StorageAccount
 
         private object? _largeFileShareEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#large_file_share_enabled StorageAccount#large_file_share_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#large_file_share_enabled StorageAccount#large_file_share_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -419,7 +419,7 @@ namespace azurerm.StorageAccount
 
         private object? _localUserEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#local_user_enabled StorageAccount#local_user_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#local_user_enabled StorageAccount#local_user_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -451,7 +451,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#min_tls_version StorageAccount#min_tls_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#min_tls_version StorageAccount#min_tls_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinTlsVersion
@@ -462,7 +462,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>network_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#network_rules StorageAccount#network_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#network_rules StorageAccount#network_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkRules", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountNetworkRules\"}", isOptional: true)]
@@ -474,7 +474,7 @@ namespace azurerm.StorageAccount
 
         private object? _nfsv3Enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#nfsv3_enabled StorageAccount#nfsv3_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#nfsv3_enabled StorageAccount#nfsv3_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -506,7 +506,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#provisioned_billing_model_version StorageAccount#provisioned_billing_model_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#provisioned_billing_model_version StorageAccount#provisioned_billing_model_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisionedBillingModelVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProvisionedBillingModelVersion
@@ -517,7 +517,7 @@ namespace azurerm.StorageAccount
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#public_network_access_enabled StorageAccount#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#public_network_access_enabled StorageAccount#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -549,7 +549,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#queue_encryption_key_type StorageAccount#queue_encryption_key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#queue_encryption_key_type StorageAccount#queue_encryption_key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queueEncryptionKeyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueueEncryptionKeyType
@@ -558,21 +558,9 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>queue_properties block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#queue_properties StorageAccount#queue_properties}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "queueProperties", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountQueueProperties\"}", isOptional: true)]
-        public azurerm.StorageAccount.IStorageAccountQueueProperties? QueueProperties
-        {
-            get;
-            set;
-        }
-
         /// <summary>routing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#routing StorageAccount#routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#routing StorageAccount#routing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "routing", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountRouting\"}", isOptional: true)]
@@ -584,7 +572,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>sas_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#sas_policy StorageAccount#sas_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#sas_policy StorageAccount#sas_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sasPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountSasPolicy\"}", isOptional: true)]
@@ -596,7 +584,7 @@ namespace azurerm.StorageAccount
 
         private object? _sftpEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#sftp_enabled StorageAccount#sftp_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#sftp_enabled StorageAccount#sftp_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -630,7 +618,7 @@ namespace azurerm.StorageAccount
 
         private object? _sharedAccessKeyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#shared_access_key_enabled StorageAccount#shared_access_key_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#shared_access_key_enabled StorageAccount#shared_access_key_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -664,7 +652,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>share_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#share_properties StorageAccount#share_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#share_properties StorageAccount#share_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareProperties", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountShareProperties\"}", isOptional: true)]
@@ -674,19 +662,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>static_website block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#static_website StorageAccount#static_website}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "staticWebsite", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountStaticWebsite\"}", isOptional: true)]
-        public azurerm.StorageAccount.IStorageAccountStaticWebsite? StaticWebsite
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#table_encryption_key_type StorageAccount#table_encryption_key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#table_encryption_key_type StorageAccount#table_encryption_key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableEncryptionKeyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableEncryptionKeyType
@@ -695,7 +671,7 @@ namespace azurerm.StorageAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#tags StorageAccount#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#tags StorageAccount#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -706,7 +682,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/storage_account#timeouts StorageAccount#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#timeouts StorageAccount#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountTimeouts\"}", isOptional: true)]

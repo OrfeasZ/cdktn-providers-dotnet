@@ -9,7 +9,7 @@ namespace azurerm.ManagedDisk
     [JsiiByValue(fqn: "azurerm.managedDisk.ManagedDiskConfig")]
     public class ManagedDiskConfig : azurerm.ManagedDisk.IManagedDiskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#create_option ManagedDisk#create_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#create_option ManagedDisk#create_option}.</summary>
         [JsiiProperty(name: "createOption", typeJson: "{\"primitive\":\"string\"}")]
         public string CreateOption
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#location ManagedDisk#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#location ManagedDisk#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#name ManagedDisk#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#name ManagedDisk#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#resource_group_name ManagedDisk#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#resource_group_name ManagedDisk#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#storage_account_type ManagedDisk#storage_account_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#storage_account_type ManagedDisk#storage_account_type}.</summary>
         [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountType
         {
@@ -49,7 +49,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_access_id ManagedDisk#disk_access_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_access_id ManagedDisk#disk_access_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskAccessId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiskAccessId
@@ -58,7 +58,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_encryption_set_id ManagedDisk#disk_encryption_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_encryption_set_id ManagedDisk#disk_encryption_set_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskEncryptionSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiskEncryptionSetId
@@ -67,7 +67,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_iops_read_only ManagedDisk#disk_iops_read_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_iops_read_only ManagedDisk#disk_iops_read_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskIopsReadOnly", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DiskIopsReadOnly
@@ -76,7 +76,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_iops_read_write ManagedDisk#disk_iops_read_write}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_iops_read_write ManagedDisk#disk_iops_read_write}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskIopsReadWrite", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DiskIopsReadWrite
@@ -85,7 +85,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_mbps_read_only ManagedDisk#disk_mbps_read_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_mbps_read_only ManagedDisk#disk_mbps_read_only}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskMbpsReadOnly", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DiskMbpsReadOnly
@@ -94,7 +94,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_mbps_read_write ManagedDisk#disk_mbps_read_write}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_mbps_read_write ManagedDisk#disk_mbps_read_write}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskMbpsReadWrite", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DiskMbpsReadWrite
@@ -103,7 +103,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#disk_size_gb ManagedDisk#disk_size_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#disk_size_gb ManagedDisk#disk_size_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskSizeGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DiskSizeGb
@@ -112,7 +112,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#edge_zone ManagedDisk#edge_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#edge_zone ManagedDisk#edge_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EdgeZone
@@ -123,7 +123,7 @@ namespace azurerm.ManagedDisk
 
         /// <summary>encryption_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#encryption_settings ManagedDisk#encryption_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#encryption_settings ManagedDisk#encryption_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionSettings", typeJson: "{\"fqn\":\"azurerm.managedDisk.ManagedDiskEncryptionSettings\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#gallery_image_reference_id ManagedDisk#gallery_image_reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#gallery_image_reference_id ManagedDisk#gallery_image_reference_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "galleryImageReferenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GalleryImageReferenceId
@@ -142,7 +142,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#hyper_v_generation ManagedDisk#hyper_v_generation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#hyper_v_generation ManagedDisk#hyper_v_generation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hyperVGeneration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HyperVGeneration
@@ -151,7 +151,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#id ManagedDisk#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#id ManagedDisk#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -164,7 +164,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#image_reference_id ManagedDisk#image_reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#image_reference_id ManagedDisk#image_reference_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageReferenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageReferenceId
@@ -173,7 +173,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#logical_sector_size ManagedDisk#logical_sector_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#logical_sector_size ManagedDisk#logical_sector_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logicalSectorSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LogicalSectorSize
@@ -182,7 +182,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#max_shares ManagedDisk#max_shares}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#max_shares ManagedDisk#max_shares}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxShares", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxShares
@@ -191,7 +191,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#network_access_policy ManagedDisk#network_access_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#network_access_policy ManagedDisk#network_access_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkAccessPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NetworkAccessPolicy
@@ -202,7 +202,7 @@ namespace azurerm.ManagedDisk
 
         private object? _onDemandBurstingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#on_demand_bursting_enabled ManagedDisk#on_demand_bursting_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#on_demand_bursting_enabled ManagedDisk#on_demand_bursting_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -236,7 +236,7 @@ namespace azurerm.ManagedDisk
 
         private object? _optimizedFrequentAttachEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#optimized_frequent_attach_enabled ManagedDisk#optimized_frequent_attach_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#optimized_frequent_attach_enabled ManagedDisk#optimized_frequent_attach_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -268,7 +268,7 @@ namespace azurerm.ManagedDisk
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#os_type ManagedDisk#os_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#os_type ManagedDisk#os_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "osType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OsType
@@ -279,7 +279,7 @@ namespace azurerm.ManagedDisk
 
         private object? _performancePlusEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#performance_plus_enabled ManagedDisk#performance_plus_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#performance_plus_enabled ManagedDisk#performance_plus_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -313,7 +313,7 @@ namespace azurerm.ManagedDisk
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#public_network_access_enabled ManagedDisk#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#public_network_access_enabled ManagedDisk#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -345,7 +345,7 @@ namespace azurerm.ManagedDisk
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#secure_vm_disk_encryption_set_id ManagedDisk#secure_vm_disk_encryption_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#secure_vm_disk_encryption_set_id ManagedDisk#secure_vm_disk_encryption_set_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secureVmDiskEncryptionSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecureVmDiskEncryptionSetId
@@ -354,7 +354,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#security_type ManagedDisk#security_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#security_type ManagedDisk#security_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityType
@@ -363,7 +363,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#source_resource_id ManagedDisk#source_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#source_resource_id ManagedDisk#source_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceResourceId
@@ -372,7 +372,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#source_uri ManagedDisk#source_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#source_uri ManagedDisk#source_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceUri
@@ -381,7 +381,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#storage_account_id ManagedDisk#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#storage_account_id ManagedDisk#storage_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountId
@@ -390,7 +390,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#tags ManagedDisk#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#tags ManagedDisk#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -399,7 +399,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#tier ManagedDisk#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#tier ManagedDisk#tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tier
@@ -410,7 +410,7 @@ namespace azurerm.ManagedDisk
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#timeouts ManagedDisk#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#timeouts ManagedDisk#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managedDisk.ManagedDiskTimeouts\"}", isOptional: true)]
@@ -422,7 +422,7 @@ namespace azurerm.ManagedDisk
 
         private object? _trustedLaunchEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#trusted_launch_enabled ManagedDisk#trusted_launch_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#trusted_launch_enabled ManagedDisk#trusted_launch_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -454,7 +454,7 @@ namespace azurerm.ManagedDisk
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#upload_size_bytes ManagedDisk#upload_size_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#upload_size_bytes ManagedDisk#upload_size_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uploadSizeBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UploadSizeBytes
@@ -463,7 +463,7 @@ namespace azurerm.ManagedDisk
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/managed_disk#zone ManagedDisk#zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/managed_disk#zone ManagedDisk#zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Zone

@@ -7,14 +7,14 @@ namespace azurerm.MssqlElasticpool
     [JsiiInterface(nativeType: typeof(IMssqlElasticpoolPerDatabaseSettings), fullyQualifiedName: "azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettings")]
     public interface IMssqlElasticpoolPerDatabaseSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         double MaxCapacity
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         double MinCapacity
         {
@@ -28,14 +28,14 @@ namespace azurerm.MssqlElasticpool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
             [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxCapacity
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
             [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
             public double MinCapacity
             {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBatchAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeouts")]
     public class DataAzurermBatchAccountTimeouts : azurerm.DataAzurermBatchAccount.IDataAzurermBatchAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     [JsiiByValue(fqn: "azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingTriggerRequests")]
     public class WindowsWebAppSiteConfigAutoHealSettingTriggerRequests : azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingTriggerRequests
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#count WindowsWebApp#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#count WindowsWebApp#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         public double Count
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/windows_web_app#interval WindowsWebApp#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#interval WindowsWebApp#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
         {

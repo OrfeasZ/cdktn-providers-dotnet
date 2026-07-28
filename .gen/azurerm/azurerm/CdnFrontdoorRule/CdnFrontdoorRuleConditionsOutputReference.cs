@@ -33,9 +33,9 @@ namespace azurerm.CdnFrontdoorRule
         {
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition" />)[]</param>
-        [JsiiMethod(name: "putClientPortCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutClientPortCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort" />)[]</param>
+        [JsiiMethod(name: "putClientPort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPort\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutClientPort(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -43,23 +43,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition" />)[]</param>
-        [JsiiMethod(name: "putCookiesCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutCookiesCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType" />)[]</param>
+        [JsiiMethod(name: "putDeviceType", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceType\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDeviceType(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -67,23 +67,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition" />)[]</param>
-        [JsiiMethod(name: "putHostNameCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutHostNameCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName" />)[]</param>
+        [JsiiMethod(name: "putHostName", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostName\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutHostName(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -91,23 +91,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition" />)[]</param>
-        [JsiiMethod(name: "putHttpVersionCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutHttpVersionCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion" />)[]</param>
+        [JsiiMethod(name: "putHttpVersion", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersion\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutHttpVersion(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -115,23 +115,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition" />)[]</param>
-        [JsiiMethod(name: "putIsDeviceCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutIsDeviceCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument" />)[]</param>
+        [JsiiMethod(name: "putPostArgument", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgument\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutPostArgument(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -139,23 +139,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition" />)[]</param>
-        [JsiiMethod(name: "putPostArgsCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutPostArgsCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString" />)[]</param>
+        [JsiiMethod(name: "putQueryString", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryString\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutQueryString(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -163,23 +163,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition" />)[]</param>
-        [JsiiMethod(name: "putQueryStringCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutQueryStringCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress" />)[]</param>
+        [JsiiMethod(name: "putRemoteAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddress\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRemoteAddress(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -187,23 +187,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition" />)[]</param>
-        [JsiiMethod(name: "putRemoteAddressCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRemoteAddressCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody" />)[]</param>
+        [JsiiMethod(name: "putRequestBody", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBody\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestBody(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -211,23 +211,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition" />)[]</param>
-        [JsiiMethod(name: "putRequestBodyCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestBodyCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies" />)[]</param>
+        [JsiiMethod(name: "putRequestCookies", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookies\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestCookies(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -235,23 +235,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition" />)[]</param>
-        [JsiiMethod(name: "putRequestHeaderCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestHeaderCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension" />)[]</param>
+        [JsiiMethod(name: "putRequestFileExtension", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtension\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestFileExtension(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -259,23 +259,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition" />)[]</param>
-        [JsiiMethod(name: "putRequestMethodCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestMethodCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename" />)[]</param>
+        [JsiiMethod(name: "putRequestFilename", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilename\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestFilename(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -283,23 +283,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition" />)[]</param>
-        [JsiiMethod(name: "putRequestSchemeCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestSchemeCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader" />)[]</param>
+        [JsiiMethod(name: "putRequestHeader", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeader\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestHeader(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -307,23 +307,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition" />)[]</param>
-        [JsiiMethod(name: "putRequestUriCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutRequestUriCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod" />)[]</param>
+        [JsiiMethod(name: "putRequestMethod", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethod\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestMethod(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -331,23 +331,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition" />)[]</param>
-        [JsiiMethod(name: "putServerPortCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutServerPortCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath" />)[]</param>
+        [JsiiMethod(name: "putRequestPath", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPath\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestPath(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -355,23 +355,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition" />)[]</param>
-        [JsiiMethod(name: "putSocketAddressCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutSocketAddressCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme" />)[]</param>
+        [JsiiMethod(name: "putRequestScheme", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestScheme\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestScheme(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -379,23 +379,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition" />)[]</param>
-        [JsiiMethod(name: "putSslProtocolCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutSslProtocolCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl" />)[]</param>
+        [JsiiMethod(name: "putRequestUrl", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrl\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRequestUrl(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -403,23 +403,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition" />)[]</param>
-        [JsiiMethod(name: "putUrlFileExtensionCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutUrlFileExtensionCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort" />)[]</param>
+        [JsiiMethod(name: "putServerPort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPort\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutServerPort(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -427,23 +427,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition" />)[]</param>
-        [JsiiMethod(name: "putUrlFilenameCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutUrlFilenameCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress" />)[]</param>
+        [JsiiMethod(name: "putSocketAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddress\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSocketAddress(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -451,23 +451,23 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition" />)[]</param>
-        [JsiiMethod(name: "putUrlPathCondition", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathCondition\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutUrlPathCondition(object @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol" />)[]</param>
+        [JsiiMethod(name: "putSslProtocol", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocol\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSslProtocol(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
             {
@@ -475,434 +475,434 @@ namespace azurerm.CdnFrontdoorRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition[] cast_2ed7d7:
+                    case azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetClientPortCondition")]
-        public virtual void ResetClientPortCondition()
+        [JsiiMethod(name: "resetClientPort")]
+        public virtual void ResetClientPort()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetCookiesCondition")]
-        public virtual void ResetCookiesCondition()
+        [JsiiMethod(name: "resetDeviceType")]
+        public virtual void ResetDeviceType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetHostNameCondition")]
-        public virtual void ResetHostNameCondition()
+        [JsiiMethod(name: "resetHostName")]
+        public virtual void ResetHostName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetHttpVersionCondition")]
-        public virtual void ResetHttpVersionCondition()
+        [JsiiMethod(name: "resetHttpVersion")]
+        public virtual void ResetHttpVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetIsDeviceCondition")]
-        public virtual void ResetIsDeviceCondition()
+        [JsiiMethod(name: "resetPostArgument")]
+        public virtual void ResetPostArgument()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetPostArgsCondition")]
-        public virtual void ResetPostArgsCondition()
+        [JsiiMethod(name: "resetQueryString")]
+        public virtual void ResetQueryString()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetQueryStringCondition")]
-        public virtual void ResetQueryStringCondition()
+        [JsiiMethod(name: "resetRemoteAddress")]
+        public virtual void ResetRemoteAddress()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRemoteAddressCondition")]
-        public virtual void ResetRemoteAddressCondition()
+        [JsiiMethod(name: "resetRequestBody")]
+        public virtual void ResetRequestBody()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRequestBodyCondition")]
-        public virtual void ResetRequestBodyCondition()
+        [JsiiMethod(name: "resetRequestCookies")]
+        public virtual void ResetRequestCookies()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRequestHeaderCondition")]
-        public virtual void ResetRequestHeaderCondition()
+        [JsiiMethod(name: "resetRequestFileExtension")]
+        public virtual void ResetRequestFileExtension()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRequestMethodCondition")]
-        public virtual void ResetRequestMethodCondition()
+        [JsiiMethod(name: "resetRequestFilename")]
+        public virtual void ResetRequestFilename()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRequestSchemeCondition")]
-        public virtual void ResetRequestSchemeCondition()
+        [JsiiMethod(name: "resetRequestHeader")]
+        public virtual void ResetRequestHeader()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetRequestUriCondition")]
-        public virtual void ResetRequestUriCondition()
+        [JsiiMethod(name: "resetRequestMethod")]
+        public virtual void ResetRequestMethod()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetServerPortCondition")]
-        public virtual void ResetServerPortCondition()
+        [JsiiMethod(name: "resetRequestPath")]
+        public virtual void ResetRequestPath()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetSocketAddressCondition")]
-        public virtual void ResetSocketAddressCondition()
+        [JsiiMethod(name: "resetRequestScheme")]
+        public virtual void ResetRequestScheme()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetSslProtocolCondition")]
-        public virtual void ResetSslProtocolCondition()
+        [JsiiMethod(name: "resetRequestUrl")]
+        public virtual void ResetRequestUrl()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUrlFileExtensionCondition")]
-        public virtual void ResetUrlFileExtensionCondition()
+        [JsiiMethod(name: "resetServerPort")]
+        public virtual void ResetServerPort()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUrlFilenameCondition")]
-        public virtual void ResetUrlFilenameCondition()
+        [JsiiMethod(name: "resetSocketAddress")]
+        public virtual void ResetSocketAddress()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetUrlPathCondition")]
-        public virtual void ResetUrlPathCondition()
+        [JsiiMethod(name: "resetSslProtocol")]
+        public virtual void ResetSslProtocol()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "clientPortCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortConditionList ClientPortCondition
+        [JsiiProperty(name: "clientPort", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortList ClientPort
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortList>()!;
         }
 
-        [JsiiProperty(name: "cookiesCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesConditionList CookiesCondition
+        [JsiiProperty(name: "deviceType", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceTypeList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceTypeList DeviceType
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceTypeList>()!;
         }
 
-        [JsiiProperty(name: "hostNameCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameConditionList HostNameCondition
+        [JsiiProperty(name: "hostName", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameList HostName
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameList>()!;
         }
 
-        [JsiiProperty(name: "httpVersionCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionConditionList HttpVersionCondition
+        [JsiiProperty(name: "httpVersion", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionList HttpVersion
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionList>()!;
         }
 
-        [JsiiProperty(name: "isDeviceCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceConditionList IsDeviceCondition
+        [JsiiProperty(name: "postArgument", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgumentList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgumentList PostArgument
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgumentList>()!;
         }
 
-        [JsiiProperty(name: "postArgsCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsConditionList PostArgsCondition
+        [JsiiProperty(name: "queryString", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringList QueryString
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringList>()!;
         }
 
-        [JsiiProperty(name: "queryStringCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringConditionList QueryStringCondition
+        [JsiiProperty(name: "remoteAddress", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressList RemoteAddress
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressList>()!;
         }
 
-        [JsiiProperty(name: "remoteAddressCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressConditionList RemoteAddressCondition
+        [JsiiProperty(name: "requestBody", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyList RequestBody
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyList>()!;
         }
 
-        [JsiiProperty(name: "requestBodyCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyConditionList RequestBodyCondition
+        [JsiiProperty(name: "requestCookies", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookiesList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookiesList RequestCookies
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookiesList>()!;
         }
 
-        [JsiiProperty(name: "requestHeaderCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderConditionList RequestHeaderCondition
+        [JsiiProperty(name: "requestFileExtension", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtensionList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtensionList RequestFileExtension
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtensionList>()!;
         }
 
-        [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodConditionList RequestMethodCondition
+        [JsiiProperty(name: "requestFilename", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilenameList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilenameList RequestFilename
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilenameList>()!;
         }
 
-        [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeConditionList RequestSchemeCondition
+        [JsiiProperty(name: "requestHeader", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderList RequestHeader
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderList>()!;
         }
 
-        [JsiiProperty(name: "requestUriCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriConditionList RequestUriCondition
+        [JsiiProperty(name: "requestMethod", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodList RequestMethod
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodList>()!;
         }
 
-        [JsiiProperty(name: "serverPortCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortConditionList ServerPortCondition
+        [JsiiProperty(name: "requestPath", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPathList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPathList RequestPath
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPathList>()!;
         }
 
-        [JsiiProperty(name: "socketAddressCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressConditionList SocketAddressCondition
+        [JsiiProperty(name: "requestScheme", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeList RequestScheme
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeList>()!;
         }
 
-        [JsiiProperty(name: "sslProtocolCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolConditionList SslProtocolCondition
+        [JsiiProperty(name: "requestUrl", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrlList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrlList RequestUrl
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrlList>()!;
         }
 
-        [JsiiProperty(name: "urlFileExtensionCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionConditionList UrlFileExtensionCondition
+        [JsiiProperty(name: "serverPort", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortList ServerPort
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortList>()!;
         }
 
-        [JsiiProperty(name: "urlFilenameCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameConditionList UrlFilenameCondition
+        [JsiiProperty(name: "socketAddress", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressList SocketAddress
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressList>()!;
         }
 
-        [JsiiProperty(name: "urlPathCondition", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathConditionList\"}")]
-        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathConditionList UrlPathCondition
+        [JsiiProperty(name: "sslProtocol", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolList\"}")]
+        public virtual azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolList SslProtocol
         {
-            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathConditionList>()!;
+            get => GetInstanceProperty<azurerm.CdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolList>()!;
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPortCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsClientPort" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "clientPortConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? ClientPortConditionInput
+        [JsiiProperty(name: "clientPortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsClientPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ClientPortInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsCookiesCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsDeviceType" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "cookiesConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsCookiesCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? CookiesConditionInput
+        [JsiiProperty(name: "deviceTypeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsDeviceType\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DeviceTypeInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostNameCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHostName" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "hostNameConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostNameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? HostNameConditionInput
+        [JsiiProperty(name: "hostNameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHostName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? HostNameInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersionCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsHttpVersion" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "httpVersionConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? HttpVersionConditionInput
+        [JsiiProperty(name: "httpVersionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsHttpVersion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? HttpVersionInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsIsDeviceCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgument" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "isDeviceConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsIsDeviceCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? IsDeviceConditionInput
+        [JsiiProperty(name: "postArgumentInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgument\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? PostArgumentInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsPostArgsCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "postArgsConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsPostArgsCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? PostArgsConditionInput
+        [JsiiProperty(name: "queryStringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? QueryStringInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsQueryStringCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddress" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "queryStringConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsQueryStringCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? QueryStringConditionInput
+        [JsiiProperty(name: "remoteAddressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RemoteAddressInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRemoteAddressCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBody" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "remoteAddressConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRemoteAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RemoteAddressConditionInput
+        [JsiiProperty(name: "requestBodyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBody\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestBodyInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestBodyCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestCookies" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestBodyConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestBodyCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestBodyConditionInput
+        [JsiiProperty(name: "requestCookiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestCookies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestCookiesInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeaderCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFileExtension" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestHeaderConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeaderCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestHeaderConditionInput
+        [JsiiProperty(name: "requestFileExtensionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFileExtension\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestFileExtensionInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethodCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestFilename" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestMethodConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethodCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestMethodConditionInput
+        [JsiiProperty(name: "requestFilenameInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestFilename\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestFilenameInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestSchemeCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestSchemeConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestSchemeCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestSchemeConditionInput
+        [JsiiProperty(name: "requestHeaderInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestHeaderInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUriCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestMethod" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "requestUriConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUriCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? RequestUriConditionInput
+        [JsiiProperty(name: "requestMethodInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestMethod\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestMethodInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPortCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestPath" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "serverPortConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPortCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? ServerPortConditionInput
+        [JsiiProperty(name: "requestPathInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestPath\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestPathInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddressCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestScheme" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "socketAddressConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? SocketAddressConditionInput
+        [JsiiProperty(name: "requestSchemeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestScheme\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestSchemeInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocolCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsRequestUrl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "sslProtocolConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocolCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? SslProtocolConditionInput
+        [JsiiProperty(name: "requestUrlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsRequestUrl\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RequestUrlInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFileExtensionCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsServerPort" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlFileExtensionConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? UrlFileExtensionConditionInput
+        [JsiiProperty(name: "serverPortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsServerPort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ServerPortInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlFilenameCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSocketAddress" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlFilenameConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlFilenameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? UrlFilenameConditionInput
+        [JsiiProperty(name: "socketAddressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSocketAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SocketAddressInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsUrlPathCondition" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleConditionsSslProtocol" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "urlPathConditionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsUrlPathCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? UrlPathConditionInput
+        [JsiiProperty(name: "sslProtocolInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnFrontdoorRule.CdnFrontdoorRuleConditionsSslProtocol\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SslProtocolInput
         {
             get => GetInstanceProperty<object?>();
         }

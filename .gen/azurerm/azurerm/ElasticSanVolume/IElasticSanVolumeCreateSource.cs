@@ -7,14 +7,14 @@ namespace azurerm.ElasticSanVolume
     [JsiiInterface(nativeType: typeof(IElasticSanVolumeCreateSource), fullyQualifiedName: "azurerm.elasticSanVolume.ElasticSanVolumeCreateSource")]
     public interface IElasticSanVolumeCreateSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
         {
@@ -28,14 +28,14 @@ namespace azurerm.ElasticSanVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
             [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
             {

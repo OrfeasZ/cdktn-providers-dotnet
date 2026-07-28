@@ -9,7 +9,7 @@ namespace azurerm.MonitorAutoscaleSetting
     [JsiiByValue(fqn: "azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileCapacity")]
     public class MonitorAutoscaleSettingProfileCapacity : azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingProfileCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_autoscale_setting#default MonitorAutoscaleSetting#default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#default MonitorAutoscaleSetting#default}.</summary>
         [JsiiProperty(name: "default", typeJson: "{\"primitive\":\"number\"}")]
         public double Default
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorAutoscaleSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_autoscale_setting#maximum MonitorAutoscaleSetting#maximum}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#maximum MonitorAutoscaleSetting#maximum}.</summary>
         [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}")]
         public double Maximum
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorAutoscaleSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/monitor_autoscale_setting#minimum MonitorAutoscaleSetting#minimum}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#minimum MonitorAutoscaleSetting#minimum}.</summary>
         [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}")]
         public double Minimum
         {

@@ -7,14 +7,14 @@ namespace azurerm.VirtualHub
     [JsiiInterface(nativeType: typeof(IVirtualHubRoute), fullyQualifiedName: "azurerm.virtualHub.VirtualHubRoute")]
     public interface IVirtualHubRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_hub#address_prefixes VirtualHub#address_prefixes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub#address_prefixes VirtualHub#address_prefixes}.</summary>
         [JsiiProperty(name: "addressPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AddressPrefixes
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_hub#next_hop_ip_address VirtualHub#next_hop_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub#next_hop_ip_address VirtualHub#next_hop_ip_address}.</summary>
         [JsiiProperty(name: "nextHopIpAddress", typeJson: "{\"primitive\":\"string\"}")]
         string NextHopIpAddress
         {
@@ -28,14 +28,14 @@ namespace azurerm.VirtualHub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_hub#address_prefixes VirtualHub#address_prefixes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub#address_prefixes VirtualHub#address_prefixes}.</summary>
             [JsiiProperty(name: "addressPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AddressPrefixes
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/virtual_hub#next_hop_ip_address VirtualHub#next_hop_ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub#next_hop_ip_address VirtualHub#next_hop_ip_address}.</summary>
             [JsiiProperty(name: "nextHopIpAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string NextHopIpAddress
             {

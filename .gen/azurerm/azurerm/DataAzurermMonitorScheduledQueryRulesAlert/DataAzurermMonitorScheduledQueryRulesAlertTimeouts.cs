@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMonitorScheduledQueryRulesAlert
     [JsiiByValue(fqn: "azurerm.dataAzurermMonitorScheduledQueryRulesAlert.DataAzurermMonitorScheduledQueryRulesAlertTimeouts")]
     public class DataAzurermMonitorScheduledQueryRulesAlertTimeouts : azurerm.DataAzurermMonitorScheduledQueryRulesAlert.IDataAzurermMonitorScheduledQueryRulesAlertTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/monitor_scheduled_query_rules_alert#read DataAzurermMonitorScheduledQueryRulesAlert#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/monitor_scheduled_query_rules_alert#read DataAzurermMonitorScheduledQueryRulesAlert#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

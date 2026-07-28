@@ -9,7 +9,7 @@ namespace azurerm.VpnSite
     [JsiiByValue(fqn: "azurerm.vpnSite.VpnSiteLink")]
     public class VpnSiteLink : azurerm.VpnSite.IVpnSiteLink
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#name VpnSite#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#name VpnSite#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace azurerm.VpnSite
 
         /// <summary>bgp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#bgp VpnSite#bgp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#bgp VpnSite#bgp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bgp", typeJson: "{\"fqn\":\"azurerm.vpnSite.VpnSiteLinkBgp\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace azurerm.VpnSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#fqdn VpnSite#fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#fqdn VpnSite#fqdn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Fqdn
@@ -38,7 +38,7 @@ namespace azurerm.VpnSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#ip_address VpnSite#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#ip_address VpnSite#ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddress
@@ -47,7 +47,7 @@ namespace azurerm.VpnSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#provider_name VpnSite#provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#provider_name VpnSite#provider_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "providerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProviderName
@@ -56,7 +56,7 @@ namespace azurerm.VpnSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/vpn_site#speed_in_mbps VpnSite#speed_in_mbps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_site#speed_in_mbps VpnSite#speed_in_mbps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "speedInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SpeedInMbps

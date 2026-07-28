@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowAllowed")]
     public class KubernetesClusterMaintenanceWindowAllowed : azurerm.KubernetesCluster.IKubernetesClusterMaintenanceWindowAllowed
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#day KubernetesCluster#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#day KubernetesCluster#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         public string Day
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kubernetes_cluster#hours KubernetesCluster#hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#hours KubernetesCluster#hours}.</summary>
         [JsiiProperty(name: "hours", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}")]
         public double[] Hours
         {

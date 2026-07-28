@@ -9,25 +9,16 @@ namespace azurerm.ContainerRegistry
     [JsiiByValue(fqn: "azurerm.containerRegistry.ContainerRegistryGeoreplications")]
     public class ContainerRegistryGeoreplications : azurerm.ContainerRegistry.IContainerRegistryGeoreplications
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#location ContainerRegistry#location}.</summary>
-        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
-        public string Location
-        {
-            get;
-            set;
-        }
+        private object _globalEndpointRoutingEnabled;
 
-        private object? _regionalEndpointEnabled;
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#regional_endpoint_enabled ContainerRegistry#regional_endpoint_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#global_endpoint_routing_enabled ContainerRegistry#global_endpoint_routing_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "regionalEndpointEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public object? RegionalEndpointEnabled
+        [JsiiProperty(name: "globalEndpointRoutingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object GlobalEndpointRoutingEnabled
         {
-            get => _regionalEndpointEnabled;
+            get => _globalEndpointRoutingEnabled;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -42,16 +33,24 @@ namespace azurerm.ContainerRegistry
                             // Not enough information to type-check...
                             break;
                         case null:
-                            break;
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _regionalEndpointEnabled = value;
+                _globalEndpointRoutingEnabled = value;
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#tags ContainerRegistry#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#location ContainerRegistry#location}.</summary>
+        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
+        public string Location
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#tags ContainerRegistry#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -62,7 +61,7 @@ namespace azurerm.ContainerRegistry
 
         private object? _zoneRedundancyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry#zone_redundancy_enabled ContainerRegistry#zone_redundancy_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_registry#zone_redundancy_enabled ContainerRegistry#zone_redundancy_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

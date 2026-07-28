@@ -9,7 +9,7 @@ namespace azurerm.SentinelAlertRuleScheduled
     [JsiiByValue(fqn: "azurerm.sentinelAlertRuleScheduled.SentinelAlertRuleScheduledEventGrouping")]
     public class SentinelAlertRuleScheduledEventGrouping : azurerm.SentinelAlertRuleScheduled.ISentinelAlertRuleScheduledEventGrouping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/sentinel_alert_rule_scheduled#aggregation_method SentinelAlertRuleScheduled#aggregation_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_alert_rule_scheduled#aggregation_method SentinelAlertRuleScheduled#aggregation_method}.</summary>
         [JsiiProperty(name: "aggregationMethod", typeJson: "{\"primitive\":\"string\"}")]
         public string AggregationMethod
         {
