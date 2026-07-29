@@ -7,28 +7,28 @@ namespace oci.DatabaseExternalDatabaseConnector
     [JsiiInterface(nativeType: typeof(IDatabaseExternalDatabaseConnectorConnectionString), fullyQualifiedName: "oci.databaseExternalDatabaseConnector.DatabaseExternalDatabaseConnectorConnectionString")]
     public interface IDatabaseExternalDatabaseConnectorConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         string Hostname
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         string Service
         {
@@ -42,28 +42,28 @@ namespace oci.DatabaseExternalDatabaseConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
             public string Hostname
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
             [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
             public string Service
             {

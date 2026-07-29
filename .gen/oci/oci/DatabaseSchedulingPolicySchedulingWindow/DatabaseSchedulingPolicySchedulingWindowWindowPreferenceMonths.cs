@@ -9,7 +9,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
     [JsiiByValue(fqn: "oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths")]
     public class DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths : oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

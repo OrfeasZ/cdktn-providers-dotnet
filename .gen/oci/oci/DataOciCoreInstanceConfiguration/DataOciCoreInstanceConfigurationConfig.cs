@@ -9,7 +9,7 @@ namespace oci.DataOciCoreInstanceConfiguration
     [JsiiByValue(fqn: "oci.dataOciCoreInstanceConfiguration.DataOciCoreInstanceConfigurationConfig")]
     public class DataOciCoreInstanceConfigurationConfig : oci.DataOciCoreInstanceConfiguration.IDataOciCoreInstanceConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
         [JsiiProperty(name: "instanceConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceConfigurationId
         {

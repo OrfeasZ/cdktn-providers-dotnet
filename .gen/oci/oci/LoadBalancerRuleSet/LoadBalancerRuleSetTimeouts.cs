@@ -7,7 +7,7 @@ namespace oci.LoadBalancerRuleSet
     [JsiiByValue(fqn: "oci.loadBalancerRuleSet.LoadBalancerRuleSetTimeouts")]
     public class LoadBalancerRuleSetTimeouts : oci.LoadBalancerRuleSet.ILoadBalancerRuleSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#create LoadBalancerRuleSet#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_rule_set#create LoadBalancerRuleSet#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#delete LoadBalancerRuleSet#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_rule_set#delete LoadBalancerRuleSet#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#update LoadBalancerRuleSet#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_rule_set#update LoadBalancerRuleSet#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

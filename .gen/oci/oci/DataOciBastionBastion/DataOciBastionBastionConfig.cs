@@ -9,7 +9,7 @@ namespace oci.DataOciBastionBastion
     [JsiiByValue(fqn: "oci.dataOciBastionBastion.DataOciBastionBastionConfig")]
     public class DataOciBastionBastionConfig : oci.DataOciBastionBastion.IDataOciBastionBastionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}.</summary>
         [JsiiProperty(name: "bastionId", typeJson: "{\"primitive\":\"string\"}")]
         public string BastionId
         {

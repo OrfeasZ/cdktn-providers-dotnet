@@ -7,14 +7,14 @@ namespace oci.CoreCrossConnect
     [JsiiInterface(nativeType: typeof(ICoreCrossConnectMacsecProperties), fullyQualifiedName: "oci.coreCrossConnect.CoreCrossConnectMacsecProperties")]
     public interface ICoreCrossConnectMacsecProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#state CoreCrossConnect#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#state CoreCrossConnect#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         string State
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#encryption_cipher CoreCrossConnect#encryption_cipher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#encryption_cipher CoreCrossConnect#encryption_cipher}.</summary>
         [JsiiProperty(name: "encryptionCipher", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EncryptionCipher
@@ -25,7 +25,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#is_unprotected_traffic_allowed CoreCrossConnect#is_unprotected_traffic_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#is_unprotected_traffic_allowed CoreCrossConnect#is_unprotected_traffic_allowed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.CoreCrossConnect
 
         /// <summary>primary_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#primary_key CoreCrossConnect#primary_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#primary_key CoreCrossConnect#primary_key}
         /// </remarks>
         [JsiiProperty(name: "primaryKey", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecPropertiesPrimaryKey\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,14 +60,14 @@ namespace oci.CoreCrossConnect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#state CoreCrossConnect#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#state CoreCrossConnect#state}.</summary>
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
             public string State
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#encryption_cipher CoreCrossConnect#encryption_cipher}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#encryption_cipher CoreCrossConnect#encryption_cipher}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionCipher", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EncryptionCipher
@@ -75,7 +75,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#is_unprotected_traffic_allowed CoreCrossConnect#is_unprotected_traffic_allowed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#is_unprotected_traffic_allowed CoreCrossConnect#is_unprotected_traffic_allowed}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -88,7 +88,7 @@ namespace oci.CoreCrossConnect
 
             /// <summary>primary_key block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_cross_connect#primary_key CoreCrossConnect#primary_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_cross_connect#primary_key CoreCrossConnect#primary_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "primaryKey", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecPropertiesPrimaryKey\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>node_type_shape_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#node_type_shape_configs BdsBdsInstance#node_type_shape_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#node_type_shape_configs BdsBdsInstance#node_type_shape_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigsNodeTypeShapeConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

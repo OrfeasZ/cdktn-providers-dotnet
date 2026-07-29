@@ -7,7 +7,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
     [JsiiInterface(nativeType: typeof(IDataSafeSecurityAssessmentFindingTimeouts), fullyQualifiedName: "oci.dataSafeSecurityAssessmentFinding.DataSafeSecurityAssessmentFindingTimeouts")]
     public interface IDataSafeSecurityAssessmentFindingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#create DataSafeSecurityAssessmentFinding#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#create DataSafeSecurityAssessmentFinding#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#delete DataSafeSecurityAssessmentFinding#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#delete DataSafeSecurityAssessmentFinding#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#update DataSafeSecurityAssessmentFinding#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#update DataSafeSecurityAssessmentFinding#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#create DataSafeSecurityAssessmentFinding#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#create DataSafeSecurityAssessmentFinding#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#delete DataSafeSecurityAssessmentFinding#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#delete DataSafeSecurityAssessmentFinding#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DataSafeSecurityAssessmentFinding
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_security_assessment_finding#update DataSafeSecurityAssessmentFinding#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_security_assessment_finding#update DataSafeSecurityAssessmentFinding#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

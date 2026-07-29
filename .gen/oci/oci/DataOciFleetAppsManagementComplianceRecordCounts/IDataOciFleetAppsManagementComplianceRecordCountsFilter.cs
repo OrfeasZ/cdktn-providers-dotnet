@@ -7,21 +7,21 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementComplianceRecordCountsFilter), fullyQualifiedName: "oci.dataOciFleetAppsManagementComplianceRecordCounts.DataOciFleetAppsManagementComplianceRecordCountsFilter")]
     public interface IDataOciFleetAppsManagementComplianceRecordCountsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#name DataOciFleetAppsManagementComplianceRecordCounts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#name DataOciFleetAppsManagementComplianceRecordCounts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#values DataOciFleetAppsManagementComplianceRecordCounts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#values DataOciFleetAppsManagementComplianceRecordCounts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#regex DataOciFleetAppsManagementComplianceRecordCounts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#regex DataOciFleetAppsManagementComplianceRecordCounts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFleetAppsManagementComplianceRecordCounts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#name DataOciFleetAppsManagementComplianceRecordCounts#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#name DataOciFleetAppsManagementComplianceRecordCounts#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#values DataOciFleetAppsManagementComplianceRecordCounts#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#values DataOciFleetAppsManagementComplianceRecordCounts#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_record_counts#regex DataOciFleetAppsManagementComplianceRecordCounts#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_record_counts#regex DataOciFleetAppsManagementComplianceRecordCounts#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

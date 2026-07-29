@@ -7,7 +7,7 @@ namespace oci.ContainerengineCluster
     [JsiiByValue(fqn: "oci.containerengineCluster.ContainerengineClusterImagePolicyConfigKeyDetails")]
     public class ContainerengineClusterImagePolicyConfigKeyDetails : oci.ContainerengineCluster.IContainerengineClusterImagePolicyConfigKeyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster#kms_key_id ContainerengineCluster#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId

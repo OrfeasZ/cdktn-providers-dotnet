@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseDbConnectionBundles
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDbConnectionBundlesConfig), fullyQualifiedName: "oci.dataOciDatabaseDbConnectionBundles.DataOciDatabaseDbConnectionBundlesConfig")]
     public interface IDataOciDatabaseDbConnectionBundlesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#compartment_id DataOciDatabaseDbConnectionBundles#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#compartment_id DataOciDatabaseDbConnectionBundles#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#associated_resource_id DataOciDatabaseDbConnectionBundles#associated_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#associated_resource_id DataOciDatabaseDbConnectionBundles#associated_resource_id}.</summary>
         [JsiiProperty(name: "associatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssociatedResourceId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#db_connection_bundle_type DataOciDatabaseDbConnectionBundles#db_connection_bundle_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#db_connection_bundle_type DataOciDatabaseDbConnectionBundles#db_connection_bundle_type}.</summary>
         [JsiiProperty(name: "dbConnectionBundleType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbConnectionBundleType
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#display_name DataOciDatabaseDbConnectionBundles#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#display_name DataOciDatabaseDbConnectionBundles#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -49,7 +49,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#filter DataOciDatabaseDbConnectionBundles#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#filter DataOciDatabaseDbConnectionBundles#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbConnectionBundles.IDataOciDatabaseDbConnectionBundlesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseDbConnectionBundles.DataOciDatabaseDbConnectionBundlesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#id DataOciDatabaseDbConnectionBundles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#id DataOciDatabaseDbConnectionBundles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#state DataOciDatabaseDbConnectionBundles#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#state DataOciDatabaseDbConnectionBundles#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -95,14 +95,14 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#compartment_id DataOciDatabaseDbConnectionBundles#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#compartment_id DataOciDatabaseDbConnectionBundles#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#associated_resource_id DataOciDatabaseDbConnectionBundles#associated_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#associated_resource_id DataOciDatabaseDbConnectionBundles#associated_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "associatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssociatedResourceId
@@ -110,7 +110,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#db_connection_bundle_type DataOciDatabaseDbConnectionBundles#db_connection_bundle_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#db_connection_bundle_type DataOciDatabaseDbConnectionBundles#db_connection_bundle_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbConnectionBundleType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbConnectionBundleType
@@ -118,7 +118,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#display_name DataOciDatabaseDbConnectionBundles#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#display_name DataOciDatabaseDbConnectionBundles#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -128,7 +128,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#filter DataOciDatabaseDbConnectionBundles#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#filter DataOciDatabaseDbConnectionBundles#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbConnectionBundles.IDataOciDatabaseDbConnectionBundlesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -138,7 +138,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#id DataOciDatabaseDbConnectionBundles#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#id DataOciDatabaseDbConnectionBundles#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_db_connection_bundles#state DataOciDatabaseDbConnectionBundles#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#state DataOciDatabaseDbConnectionBundles#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

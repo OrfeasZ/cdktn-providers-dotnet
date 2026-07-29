@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsPolicy
     [JsiiByValue(fqn: "oci.identityDomainsPolicy.IdentityDomainsPolicyConfig")]
     public class IdentityDomainsPolicyConfig : oci.IdentityDomainsPolicy.IIdentityDomainsPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#idcs_endpoint IdentityDomainsPolicy#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#idcs_endpoint IdentityDomainsPolicy#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#name IdentityDomainsPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#name IdentityDomainsPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace oci.IdentityDomainsPolicy
 
         /// <summary>policy_type block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#policy_type IdentityDomainsPolicy#policy_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#policy_type IdentityDomainsPolicy#policy_type}
         /// </remarks>
         [JsiiProperty(name: "policyType", typeJson: "{\"fqn\":\"oci.identityDomainsPolicy.IdentityDomainsPolicyPolicyType\"}")]
         public oci.IdentityDomainsPolicy.IIdentityDomainsPolicyPolicyType PolicyType
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#schemas IdentityDomainsPolicy#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#schemas IdentityDomainsPolicy#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Schemas
         {
@@ -46,7 +46,7 @@ namespace oci.IdentityDomainsPolicy
 
         private object? _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#active IdentityDomainsPolicy#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#active IdentityDomainsPolicy#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -78,7 +78,7 @@ namespace oci.IdentityDomainsPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#attributes IdentityDomainsPolicy#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#attributes IdentityDomainsPolicy#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -87,7 +87,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#attribute_sets IdentityDomainsPolicy#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#attribute_sets IdentityDomainsPolicy#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -96,7 +96,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#authorization IdentityDomainsPolicy#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#authorization IdentityDomainsPolicy#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -105,7 +105,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#description IdentityDomainsPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#description IdentityDomainsPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -114,7 +114,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#external_id IdentityDomainsPolicy#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#external_id IdentityDomainsPolicy#external_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalId
@@ -123,7 +123,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#ocid IdentityDomainsPolicy#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#ocid IdentityDomainsPolicy#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -132,7 +132,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#policy_groovy IdentityDomainsPolicy#policy_groovy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#policy_groovy IdentityDomainsPolicy#policy_groovy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyGroovy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyGroovy
@@ -141,7 +141,7 @@ namespace oci.IdentityDomainsPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#resource_type_schema_version IdentityDomainsPolicy#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#resource_type_schema_version IdentityDomainsPolicy#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -154,7 +154,7 @@ namespace oci.IdentityDomainsPolicy
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#rules IdentityDomainsPolicy#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#rules IdentityDomainsPolicy#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsPolicy.IIdentityDomainsPolicyRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -189,7 +189,7 @@ namespace oci.IdentityDomainsPolicy
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#tags IdentityDomainsPolicy#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#tags IdentityDomainsPolicy#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsPolicy.IIdentityDomainsPolicyTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -222,7 +222,7 @@ namespace oci.IdentityDomainsPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_policy#timeouts IdentityDomainsPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_policy#timeouts IdentityDomainsPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsPolicy.IdentityDomainsPolicyTimeouts\"}", isOptional: true)]

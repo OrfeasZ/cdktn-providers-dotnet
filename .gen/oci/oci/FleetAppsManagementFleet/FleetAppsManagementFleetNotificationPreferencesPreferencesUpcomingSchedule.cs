@@ -7,7 +7,7 @@ namespace oci.FleetAppsManagementFleet
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleet.FleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingSchedule")]
     public class FleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingSchedule : oci.FleetAppsManagementFleet.IFleetAppsManagementFleetNotificationPreferencesPreferencesUpcomingSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_fleet#notify_before FleetAppsManagementFleet#notify_before}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_fleet#notify_before FleetAppsManagementFleet#notify_before}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notifyBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotifyBefore
@@ -18,7 +18,7 @@ namespace oci.FleetAppsManagementFleet
 
         private object? _onUpcomingSchedule;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_fleet#on_upcoming_schedule FleetAppsManagementFleet#on_upcoming_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_fleet#on_upcoming_schedule FleetAppsManagementFleet#on_upcoming_schedule}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

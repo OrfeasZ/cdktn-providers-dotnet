@@ -9,7 +9,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
     [JsiiByValue(fqn: "oci.managedKafkaKafkaClusterAddon.ManagedKafkaKafkaClusterAddonConfig")]
     public class ManagedKafkaKafkaClusterAddonConfig : oci.ManagedKafkaKafkaClusterAddon.IManagedKafkaKafkaClusterAddonConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#addon_type ManagedKafkaKafkaClusterAddon#addon_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#addon_type ManagedKafkaKafkaClusterAddon#addon_type}.</summary>
         [JsiiProperty(name: "addonType", typeJson: "{\"primitive\":\"string\"}")]
         public string AddonType
         {
@@ -17,7 +17,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#authentication_mechanism ManagedKafkaKafkaClusterAddon#authentication_mechanism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#authentication_mechanism ManagedKafkaKafkaClusterAddon#authentication_mechanism}.</summary>
         [JsiiProperty(name: "authenticationMechanism", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthenticationMechanism
         {
@@ -25,7 +25,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#kafka_cluster_id ManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#kafka_cluster_id ManagedKafkaKafkaClusterAddon#kafka_cluster_id}.</summary>
         [JsiiProperty(name: "kafkaClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string KafkaClusterId
         {
@@ -33,7 +33,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#name ManagedKafkaKafkaClusterAddon#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#name ManagedKafkaKafkaClusterAddon#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#network_cidrs ManagedKafkaKafkaClusterAddon#network_cidrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#network_cidrs ManagedKafkaKafkaClusterAddon#network_cidrs}.</summary>
         [JsiiProperty(name: "networkCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] NetworkCidrs
         {
@@ -49,7 +49,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#description ManagedKafkaKafkaClusterAddon#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#description ManagedKafkaKafkaClusterAddon#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -58,7 +58,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#id ManagedKafkaKafkaClusterAddon#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#id ManagedKafkaKafkaClusterAddon#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.ManagedKafkaKafkaClusterAddon
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster_addon#timeouts ManagedKafkaKafkaClusterAddon#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_addon#timeouts ManagedKafkaKafkaClusterAddon#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.managedKafkaKafkaClusterAddon.ManagedKafkaKafkaClusterAddonTimeouts\"}", isOptional: true)]

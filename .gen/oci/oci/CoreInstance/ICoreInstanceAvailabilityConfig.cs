@@ -7,7 +7,7 @@ namespace oci.CoreInstance
     [JsiiInterface(nativeType: typeof(ICoreInstanceAvailabilityConfig), fullyQualifiedName: "oci.coreInstance.CoreInstanceAvailabilityConfig")]
     public interface ICoreInstanceAvailabilityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
         [JsiiProperty(name: "recoveryAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecoveryAction
@@ -39,7 +39,7 @@ namespace oci.CoreInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance#is_live_migration_preferred CoreInstance#is_live_migration_preferred}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance#recovery_action CoreInstance#recovery_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recoveryAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecoveryAction

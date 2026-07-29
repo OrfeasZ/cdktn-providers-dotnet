@@ -7,21 +7,21 @@ namespace aws.CeCostCategory
     [JsiiInterface(nativeType: typeof(ICeCostCategorySplitChargeRule), fullyQualifiedName: "aws.ceCostCategory.CeCostCategorySplitChargeRule")]
     public interface ICeCostCategorySplitChargeRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#method CeCostCategory#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#method CeCostCategory#method}.</summary>
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
         string Method
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#source CeCostCategory#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#source CeCostCategory#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         string Source
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}.</summary>
         [JsiiProperty(name: "targets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Targets
         {
@@ -30,7 +30,7 @@ namespace aws.CeCostCategory
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategorySplitChargeRuleParameter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "parameter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ceCostCategory.CeCostCategorySplitChargeRuleParameter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -50,21 +50,21 @@ namespace aws.CeCostCategory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#method CeCostCategory#method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#method CeCostCategory#method}.</summary>
             [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
             public string Method
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#source CeCostCategory#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#source CeCostCategory#source}.</summary>
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
             public string Source
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#targets CeCostCategory#targets}.</summary>
             [JsiiProperty(name: "targets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Targets
             {
@@ -73,7 +73,7 @@ namespace aws.CeCostCategory
 
             /// <summary>parameter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ce_cost_category#parameter CeCostCategory#parameter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeCostCategory.ICeCostCategorySplitChargeRuleParameter" />)[]</para>
             /// </remarks>
             [JsiiOptional]

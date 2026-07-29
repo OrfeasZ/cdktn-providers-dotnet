@@ -9,7 +9,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccUpgradeSchedule
     [JsiiByValue(fqn: "oci.dataOciComputeCloudAtCustomerCccUpgradeSchedule.DataOciComputeCloudAtCustomerCccUpgradeScheduleConfig")]
     public class DataOciComputeCloudAtCustomerCccUpgradeScheduleConfig : oci.DataOciComputeCloudAtCustomerCccUpgradeSchedule.IDataOciComputeCloudAtCustomerCccUpgradeScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedule#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedule#ccc_upgrade_schedule_id}.</summary>
         [JsiiProperty(name: "cccUpgradeScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string CccUpgradeScheduleId
         {

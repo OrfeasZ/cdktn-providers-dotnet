@@ -9,7 +9,7 @@ namespace aws.RedshiftIdcApplication
     {
         /// <summary>connect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshiftConnect" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "connect", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.redshiftIdcApplication.RedshiftIdcApplicationServiceIntegrationRedshiftConnect\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.RedshiftIdcApplication
 
             /// <summary>connect block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/redshift_idc_application#connect RedshiftIdcApplication#connect}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftIdcApplication.IRedshiftIdcApplicationServiceIntegrationRedshiftConnect" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.RedisOciCacheConfigSet
     [JsiiInterface(nativeType: typeof(IRedisOciCacheConfigSetConfig), fullyQualifiedName: "oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfig")]
     public interface IRedisOciCacheConfigSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.RedisOciCacheConfigSet
 
         /// <summary>configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
         /// </remarks>
         [JsiiProperty(name: "configurationDetails", typeJson: "{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetails\"}")]
         oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetails ConfigurationDetails
@@ -24,21 +24,21 @@ namespace oci.RedisOciCacheConfigSet
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}.</summary>
         [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -49,7 +49,7 @@ namespace oci.RedisOciCacheConfigSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -60,7 +60,7 @@ namespace oci.RedisOciCacheConfigSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -71,7 +71,7 @@ namespace oci.RedisOciCacheConfigSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace oci.RedisOciCacheConfigSet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace oci.RedisOciCacheConfigSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#compartment_id RedisOciCacheConfigSet#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -116,7 +116,7 @@ namespace oci.RedisOciCacheConfigSet
 
             /// <summary>configuration_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#configuration_details RedisOciCacheConfigSet#configuration_details}
             /// </remarks>
             [JsiiProperty(name: "configurationDetails", typeJson: "{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetails\"}")]
             public oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetails ConfigurationDetails
@@ -124,21 +124,21 @@ namespace oci.RedisOciCacheConfigSet
                 get => GetInstanceProperty<oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#display_name RedisOciCacheConfigSet#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#software_version RedisOciCacheConfigSet#software_version}.</summary>
             [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#defined_tags RedisOciCacheConfigSet#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -146,7 +146,7 @@ namespace oci.RedisOciCacheConfigSet
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#description RedisOciCacheConfigSet#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -154,7 +154,7 @@ namespace oci.RedisOciCacheConfigSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#freeform_tags RedisOciCacheConfigSet#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -162,7 +162,7 @@ namespace oci.RedisOciCacheConfigSet
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#id RedisOciCacheConfigSet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -176,7 +176,7 @@ namespace oci.RedisOciCacheConfigSet
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_set#timeouts RedisOciCacheConfigSet#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheConfigSet.RedisOciCacheConfigSetTimeouts\"}", isOptional: true)]

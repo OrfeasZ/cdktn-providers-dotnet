@@ -41,6 +41,12 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "approverGroupLevelList", typeJson: "{\"fqn\":\"oci.dataOciApiaccesscontrolPrivilegedApiControls.DataOciApiaccesscontrolPrivilegedApiControlsPrivilegedApiControlCollectionItemsApproverGroupLevelListStructList\"}")]
+        public virtual oci.DataOciApiaccesscontrolPrivilegedApiControls.DataOciApiaccesscontrolPrivilegedApiControlsPrivilegedApiControlCollectionItemsApproverGroupLevelListStructList ApproverGroupLevelList
+        {
+            get => GetInstanceProperty<oci.DataOciApiaccesscontrolPrivilegedApiControls.DataOciApiaccesscontrolPrivilegedApiControlsPrivilegedApiControlCollectionItemsApproverGroupLevelListStructList>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
     [JsiiInterface(nativeType: typeof(IDataOciMeteringComputationScheduledRunsConfig), fullyQualifiedName: "oci.dataOciMeteringComputationScheduledRuns.DataOciMeteringComputationScheduledRunsConfig")]
     public interface IDataOciMeteringComputationScheduledRunsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#schedule_id DataOciMeteringComputationScheduledRuns#schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#schedule_id DataOciMeteringComputationScheduledRuns#schedule_id}.</summary>
         [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduleId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#filter DataOciMeteringComputationScheduledRuns#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#filter DataOciMeteringComputationScheduledRuns#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMeteringComputationScheduledRuns.IDataOciMeteringComputationScheduledRunsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMeteringComputationScheduledRuns.DataOciMeteringComputationScheduledRunsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#id DataOciMeteringComputationScheduledRuns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#id DataOciMeteringComputationScheduledRuns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#schedule_id DataOciMeteringComputationScheduledRuns#schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#schedule_id DataOciMeteringComputationScheduledRuns#schedule_id}.</summary>
             [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduleId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#filter DataOciMeteringComputationScheduledRuns#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#filter DataOciMeteringComputationScheduledRuns#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMeteringComputationScheduledRuns.IDataOciMeteringComputationScheduledRunsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciMeteringComputationScheduledRuns
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_scheduled_runs#id DataOciMeteringComputationScheduledRuns#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_scheduled_runs#id DataOciMeteringComputationScheduledRuns#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

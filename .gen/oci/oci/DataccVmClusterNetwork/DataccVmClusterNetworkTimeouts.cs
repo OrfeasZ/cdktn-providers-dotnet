@@ -7,7 +7,7 @@ namespace oci.DataccVmClusterNetwork
     [JsiiByValue(fqn: "oci.dataccVmClusterNetwork.DataccVmClusterNetworkTimeouts")]
     public class DataccVmClusterNetworkTimeouts : oci.DataccVmClusterNetwork.IDataccVmClusterNetworkTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_cluster_network#create DataccVmClusterNetwork#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datacc_vm_cluster_network#create DataccVmClusterNetwork#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_cluster_network#delete DataccVmClusterNetwork#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datacc_vm_cluster_network#delete DataccVmClusterNetwork#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacc_vm_cluster_network#update DataccVmClusterNetwork#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datacc_vm_cluster_network#update DataccVmClusterNetwork#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

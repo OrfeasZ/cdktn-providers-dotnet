@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppSamlServiceProvider), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppSamlServiceProvider")]
     public interface IIdentityDomainsAppSamlServiceProvider
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

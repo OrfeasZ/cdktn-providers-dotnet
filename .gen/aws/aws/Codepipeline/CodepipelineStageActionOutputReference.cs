@@ -35,36 +35,6 @@ namespace aws.Codepipeline
         {
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction" />)[]</param>
-        [JsiiMethod(name: "putOutputArtifactsForComputeAction", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageActionOutputArtifactsForComputeAction\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutOutputArtifactsForComputeAction(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetCommands")]
-        public virtual void ResetCommands()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetConfiguration")]
         public virtual void ResetConfiguration()
         {
@@ -85,18 +55,6 @@ namespace aws.Codepipeline
 
         [JsiiMethod(name: "resetOutputArtifacts")]
         public virtual void ResetOutputArtifacts()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetOutputArtifactsForComputeAction")]
-        public virtual void ResetOutputArtifactsForComputeAction()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetOutputVariables")]
-        public virtual void ResetOutputVariables()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -125,24 +83,11 @@ namespace aws.Codepipeline
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "outputArtifactsForComputeAction", typeJson: "{\"fqn\":\"aws.codepipeline.CodepipelineStageActionOutputArtifactsForComputeActionList\"}")]
-        public virtual aws.Codepipeline.CodepipelineStageActionOutputArtifactsForComputeActionList OutputArtifactsForComputeAction
-        {
-            get => GetInstanceProperty<aws.Codepipeline.CodepipelineStageActionOutputArtifactsForComputeActionList>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "categoryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CategoryInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "commandsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? CommandsInput
-        {
-            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -173,26 +118,9 @@ namespace aws.Codepipeline
             get => GetInstanceProperty<string?>();
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "outputArtifactsForComputeActionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageActionOutputArtifactsForComputeAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? OutputArtifactsForComputeActionInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "outputArtifactsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? OutputArtifactsInput
-        {
-            get => GetInstanceProperty<string[]?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "outputVariablesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? OutputVariablesInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -253,13 +181,6 @@ namespace aws.Codepipeline
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "commands", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] Commands
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "configuration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> Configuration
         {
@@ -290,13 +211,6 @@ namespace aws.Codepipeline
 
         [JsiiProperty(name: "outputArtifacts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] OutputArtifacts
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "outputVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] OutputVariables
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

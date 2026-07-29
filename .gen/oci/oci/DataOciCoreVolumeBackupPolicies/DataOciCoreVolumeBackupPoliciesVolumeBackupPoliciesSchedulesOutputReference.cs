@@ -59,6 +59,18 @@ namespace oci.DataOciCoreVolumeBackupPolicies
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Month
         {
@@ -81,6 +93,12 @@ namespace oci.DataOciCoreVolumeBackupPolicies
         public virtual string Period
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.dataOciCoreVolumeBackupPolicies.DataOciCoreVolumeBackupPoliciesVolumeBackupPoliciesSchedulesRetentionPeriodList\"}")]
+        public virtual oci.DataOciCoreVolumeBackupPolicies.DataOciCoreVolumeBackupPoliciesVolumeBackupPoliciesSchedulesRetentionPeriodList RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.DataOciCoreVolumeBackupPolicies.DataOciCoreVolumeBackupPoliciesVolumeBackupPoliciesSchedulesRetentionPeriodList>()!;
         }
 
         [JsiiProperty(name: "retentionSeconds", typeJson: "{\"primitive\":\"number\"}")]

@@ -7,7 +7,7 @@ namespace oci.DataOciCostadCostAlertSubscription
     [JsiiInterface(nativeType: typeof(IDataOciCostadCostAlertSubscriptionConfig), fullyQualifiedName: "oci.dataOciCostadCostAlertSubscription.DataOciCostadCostAlertSubscriptionConfig")]
     public interface IDataOciCostadCostAlertSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_alert_subscription#cost_alert_subscription_id DataOciCostadCostAlertSubscription#cost_alert_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_alert_subscription#cost_alert_subscription_id DataOciCostadCostAlertSubscription#cost_alert_subscription_id}.</summary>
         [JsiiProperty(name: "costAlertSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string CostAlertSubscriptionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCostadCostAlertSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_alert_subscription#cost_alert_subscription_id DataOciCostadCostAlertSubscription#cost_alert_subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_alert_subscription#cost_alert_subscription_id DataOciCostadCostAlertSubscription#cost_alert_subscription_id}.</summary>
             [JsiiProperty(name: "costAlertSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string CostAlertSubscriptionId
             {

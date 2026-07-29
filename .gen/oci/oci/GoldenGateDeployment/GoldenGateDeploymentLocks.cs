@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeployment
     [JsiiByValue(fqn: "oci.goldenGateDeployment.GoldenGateDeploymentLocks")]
     public class GoldenGateDeploymentLocks : oci.GoldenGateDeployment.IGoldenGateDeploymentLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#type GoldenGateDeployment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#type GoldenGateDeployment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#message GoldenGateDeployment#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#message GoldenGateDeployment#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message

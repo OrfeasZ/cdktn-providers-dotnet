@@ -9,7 +9,7 @@ namespace oci.FileStorageExport
     [JsiiByValue(fqn: "oci.fileStorageExport.FileStorageExportConfig")]
     public class FileStorageExportConfig : oci.FileStorageExport.IFileStorageExportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#export_set_id FileStorageExport#export_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#export_set_id FileStorageExport#export_set_id}.</summary>
         [JsiiProperty(name: "exportSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExportSetId
         {
@@ -17,7 +17,7 @@ namespace oci.FileStorageExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#file_system_id FileStorageExport#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#file_system_id FileStorageExport#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string FileSystemId
         {
@@ -25,7 +25,7 @@ namespace oci.FileStorageExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#path FileStorageExport#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#path FileStorageExport#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -37,7 +37,7 @@ namespace oci.FileStorageExport
 
         /// <summary>export_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#export_options FileStorageExport#export_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#export_options FileStorageExport#export_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageExport.IFileStorageExportExportOptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#id FileStorageExport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#id FileStorageExport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.FileStorageExport
 
         private object? _isIdmapGroupsForSysAuth;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#is_idmap_groups_for_sys_auth FileStorageExport#is_idmap_groups_for_sys_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#is_idmap_groups_for_sys_auth FileStorageExport#is_idmap_groups_for_sys_auth}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -117,7 +117,7 @@ namespace oci.FileStorageExport
 
         private object? _isLockOverride;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#is_lock_override FileStorageExport#is_lock_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#is_lock_override FileStorageExport#is_lock_override}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -153,7 +153,7 @@ namespace oci.FileStorageExport
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#locks FileStorageExport#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#locks FileStorageExport#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FileStorageExport.IFileStorageExportLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace oci.FileStorageExport
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/file_storage_export#timeouts FileStorageExport#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/file_storage_export#timeouts FileStorageExport#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fileStorageExport.FileStorageExportTimeouts\"}", isOptional: true)]

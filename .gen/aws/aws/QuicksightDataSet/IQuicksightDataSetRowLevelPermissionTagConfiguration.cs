@@ -9,7 +9,7 @@ namespace aws.QuicksightDataSet
     {
         /// <summary>tag_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetRowLevelPermissionTagConfigurationTagRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tagRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.QuicksightDataSet
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -38,7 +38,7 @@ namespace aws.QuicksightDataSet
 
             /// <summary>tag_rules block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_set#tag_rules QuicksightDataSet#tag_rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightDataSet.IQuicksightDataSetRowLevelPermissionTagConfigurationTagRules" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "tagRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightDataSet.QuicksightDataSetRowLevelPermissionTagConfigurationTagRules\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace aws.QuicksightDataSet
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_set#status QuicksightDataSet#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

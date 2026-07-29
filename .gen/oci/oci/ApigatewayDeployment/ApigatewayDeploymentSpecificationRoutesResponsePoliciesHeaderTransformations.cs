@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     {
         /// <summary>filter_headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apigateway_deployment#filter_headers ApigatewayDeployment#filter_headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterHeaders", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsFilterHeaders\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>rename_headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apigateway_deployment#rename_headers ApigatewayDeployment#rename_headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "renameHeaders", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsRenameHeaders\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>set_headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apigateway_deployment#set_headers ApigatewayDeployment#set_headers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setHeaders", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRoutesResponsePoliciesHeaderTransformationsSetHeaders\"}", isOptional: true)]

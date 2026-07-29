@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstance
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalClusterInstanceConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalClusterInstance.DataOciDatabaseManagementExternalClusterInstanceConfig")]
     public interface IDataOciDatabaseManagementExternalClusterInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
         [JsiiProperty(name: "externalClusterInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalClusterInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
             [JsiiProperty(name: "externalClusterInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalClusterInstanceId
             {

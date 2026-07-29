@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementInternalOccHandoverResourceBlocks.DataOciCapacityManagementInternalOccHandoverResourceBlocksFilter")]
     public class DataOciCapacityManagementInternalOccHandoverResourceBlocksFilter : oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks.IDataOciCapacityManagementInternalOccHandoverResourceBlocksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#name DataOciCapacityManagementInternalOccHandoverResourceBlocks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#name DataOciCapacityManagementInternalOccHandoverResourceBlocks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#values DataOciCapacityManagementInternalOccHandoverResourceBlocks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#values DataOciCapacityManagementInternalOccHandoverResourceBlocks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCapacityManagementInternalOccHandoverResourceBlocks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#regex DataOciCapacityManagementInternalOccHandoverResourceBlocks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occ_handover_resource_blocks#regex DataOciCapacityManagementInternalOccHandoverResourceBlocks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

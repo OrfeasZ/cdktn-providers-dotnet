@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedAutonomousDatabases.DataOciDistributedDatabaseDistributedAutonomousDatabasesFilter")]
     public class DataOciDistributedDatabaseDistributedAutonomousDatabasesFilter : oci.DataOciDistributedDatabaseDistributedAutonomousDatabases.IDataOciDistributedDatabaseDistributedAutonomousDatabasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_autonomous_databases#name DataOciDistributedDatabaseDistributedAutonomousDatabases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_databases#name DataOciDistributedDatabaseDistributedAutonomousDatabases#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_autonomous_databases#values DataOciDistributedDatabaseDistributedAutonomousDatabases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_databases#values DataOciDistributedDatabaseDistributedAutonomousDatabases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_autonomous_databases#regex DataOciDistributedDatabaseDistributedAutonomousDatabases#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_databases#regex DataOciDistributedDatabaseDistributedAutonomousDatabases#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

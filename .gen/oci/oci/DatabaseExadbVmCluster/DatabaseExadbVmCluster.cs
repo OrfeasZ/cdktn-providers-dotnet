@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseExadbVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_exadb_vm_cluster oci_database_exadb_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadb_vm_cluster oci_database_exadb_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseExadbVmCluster.DatabaseExadbVmCluster), fullyQualifiedName: "oci.databaseExadbVmCluster.DatabaseExadbVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseExadbVmCluster.DatabaseExadbVmClusterConfig\"}}]")]
     public class DatabaseExadbVmCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_exadb_vm_cluster oci_database_exadb_vm_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadb_vm_cluster oci_database_exadb_vm_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseExadbVmCluster(Constructs.Construct scope, string id, oci.DatabaseExadbVmCluster.IDatabaseExadbVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseExadbVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DatabaseExadbVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseExadbVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseExadbVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseExadbVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_exadb_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseExadbVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseExadbVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseExadbVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadb_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseExadbVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseExadbVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseExadbVmCluster.DatabaseExadbVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -154,6 +154,12 @@ namespace oci.DatabaseExadbVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRegisterPkcsTrigger")]
+        public virtual void ResetRegisterPkcsTrigger()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScanListenerPortTcp")]
         public virtual void ResetScanListenerPortTcp()
         {
@@ -190,6 +196,12 @@ namespace oci.DatabaseExadbVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTdeKeyStoreType")]
+        public virtual void ResetTdeKeyStoreType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -198,6 +210,12 @@ namespace oci.DatabaseExadbVmCluster
 
         [JsiiMethod(name: "resetTimeZone")]
         public virtual void ResetTimeZone()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUnregisterPkcsTrigger")]
+        public virtual void ResetUnregisterPkcsTrigger()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -267,6 +285,12 @@ namespace oci.DatabaseExadbVmCluster
         public virtual string ListenerPort
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.databaseExadbVmCluster.DatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DatabaseExadbVmCluster.DatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DatabaseExadbVmCluster.DatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList>()!;
         }
 
         [JsiiProperty(name: "nodeConfig", typeJson: "{\"fqn\":\"oci.databaseExadbVmCluster.DatabaseExadbVmClusterNodeConfigOutputReference\"}")]
@@ -472,6 +496,13 @@ namespace oci.DatabaseExadbVmCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "registerPkcsTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? RegisterPkcsTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "scanListenerPortTcpInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ScanListenerPortTcpInput
         {
@@ -534,6 +565,13 @@ namespace oci.DatabaseExadbVmCluster
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "tdeKeyStoreTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TdeKeyStoreTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.DatabaseExadbVmCluster.IDatabaseExadbVmClusterTimeouts" /></para>
         /// </remarks>
@@ -549,6 +587,13 @@ namespace oci.DatabaseExadbVmCluster
         public virtual string? TimeZoneInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "unregisterPkcsTriggerInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? UnregisterPkcsTriggerInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
@@ -663,6 +708,13 @@ namespace oci.DatabaseExadbVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "scanListenerPortTcp", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ScanListenerPortTcp
         {
@@ -726,10 +778,24 @@ namespace oci.DatabaseExadbVmCluster
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeZone
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
     }

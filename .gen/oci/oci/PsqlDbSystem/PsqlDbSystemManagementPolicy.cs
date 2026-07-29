@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     {
         /// <summary>backup_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#backup_policy PsqlDbSystem#backup_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backupPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicy\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#maintenance_window_start PsqlDbSystem#maintenance_window_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceWindowStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceWindowStart
@@ -30,7 +30,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>pitr_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/psql_db_system#pitr_policy PsqlDbSystem#pitr_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#pitr_policy PsqlDbSystem#pitr_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pitrPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicyPitrPolicy\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         /// <summary>locked block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
         /// </remarks>
         [JsiiProperty(name: "locked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserLocked\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
         [JsiiProperty(name: "maxConcurrentSessions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxConcurrentSessions
@@ -34,7 +34,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>recovery_locked block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
         /// </remarks>
         [JsiiProperty(name: "recoveryLocked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserRecoveryLocked\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>locked block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#locked IdentityDomainsUser#locked}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserLocked\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserLocked?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#max_concurrent_sessions IdentityDomainsUser#max_concurrent_sessions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxConcurrentSessions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxConcurrentSessions
@@ -74,7 +74,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>recovery_locked block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#recovery_locked IdentityDomainsUser#recovery_locked}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recoveryLocked", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUserRecoveryLocked\"}", isOptional: true)]

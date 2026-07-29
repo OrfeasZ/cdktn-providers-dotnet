@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsKmsiSettingConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsKmsiSetting.DataOciIdentityDomainsKmsiSettingConfig")]
     public interface IDataOciIdentityDomainsKmsiSettingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#idcs_endpoint DataOciIdentityDomainsKmsiSetting#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#idcs_endpoint DataOciIdentityDomainsKmsiSetting#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#kmsi_setting_id DataOciIdentityDomainsKmsiSetting#kmsi_setting_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#kmsi_setting_id DataOciIdentityDomainsKmsiSetting#kmsi_setting_id}.</summary>
         [JsiiProperty(name: "kmsiSettingId", typeJson: "{\"primitive\":\"string\"}")]
         string KmsiSettingId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#attributes DataOciIdentityDomainsKmsiSetting#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#attributes DataOciIdentityDomainsKmsiSetting#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#attribute_sets DataOciIdentityDomainsKmsiSetting#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#attribute_sets DataOciIdentityDomainsKmsiSetting#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#authorization DataOciIdentityDomainsKmsiSetting#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#authorization DataOciIdentityDomainsKmsiSetting#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -54,7 +54,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#resource_type_schema_version DataOciIdentityDomainsKmsiSetting#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#resource_type_schema_version DataOciIdentityDomainsKmsiSetting#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -72,21 +72,21 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#idcs_endpoint DataOciIdentityDomainsKmsiSetting#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#idcs_endpoint DataOciIdentityDomainsKmsiSetting#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#kmsi_setting_id DataOciIdentityDomainsKmsiSetting#kmsi_setting_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#kmsi_setting_id DataOciIdentityDomainsKmsiSetting#kmsi_setting_id}.</summary>
             [JsiiProperty(name: "kmsiSettingId", typeJson: "{\"primitive\":\"string\"}")]
             public string KmsiSettingId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#attributes DataOciIdentityDomainsKmsiSetting#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#attributes DataOciIdentityDomainsKmsiSetting#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -94,7 +94,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#attribute_sets DataOciIdentityDomainsKmsiSetting#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#attribute_sets DataOciIdentityDomainsKmsiSetting#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -102,7 +102,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#authorization DataOciIdentityDomainsKmsiSetting#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#authorization DataOciIdentityDomainsKmsiSetting#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -110,7 +110,7 @@ namespace oci.DataOciIdentityDomainsKmsiSetting
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_kmsi_setting#resource_type_schema_version DataOciIdentityDomainsKmsiSetting#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_kmsi_setting#resource_type_schema_version DataOciIdentityDomainsKmsiSetting#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

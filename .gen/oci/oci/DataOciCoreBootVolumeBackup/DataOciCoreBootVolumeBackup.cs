@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciCoreBootVolumeBackup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume_backup oci_core_boot_volume_backup}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_boot_volume_backup oci_core_boot_volume_backup}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackup), fullyQualifiedName: "oci.dataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackupConfig\"}}]")]
     public class DataOciCoreBootVolumeBackup : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume_backup oci_core_boot_volume_backup} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_boot_volume_backup oci_core_boot_volume_backup} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciCoreBootVolumeBackup(Constructs.Construct scope, string id, oci.DataOciCoreBootVolumeBackup.IDataOciCoreBootVolumeBackupConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciCoreBootVolumeBackup
         /// <param name="importToId">The construct id used in the generated config for the DataOciCoreBootVolumeBackup to import.</param>
         /// <param name="importFromId">The id of the existing DataOciCoreBootVolumeBackup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciCoreBootVolumeBackup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCoreBootVolumeBackup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume_backup#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCoreBootVolumeBackup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCoreBootVolumeBackup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciCoreBootVolumeBackup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_boot_volume_backup#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciCoreBootVolumeBackup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciCoreBootVolumeBackup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -113,10 +113,34 @@ namespace oci.DataOciCoreBootVolumeBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isIndefiniteRetentionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsIndefiniteRetentionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.dataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackupRetentionPeriodList\"}")]
+        public virtual oci.DataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackupRetentionPeriodList RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.DataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackupRetentionPeriodList>()!;
         }
 
         [JsiiProperty(name: "sizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
@@ -167,6 +191,12 @@ namespace oci.DataOciCoreBootVolumeBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeRetentionExpiresAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeRetentionExpiresAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {
@@ -175,6 +205,12 @@ namespace oci.DataOciCoreBootVolumeBackup
 
         [JsiiProperty(name: "uniqueSizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UniqueSizeInGbs
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "volumeGroupBackupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VolumeGroupBackupId
         {
             get => GetInstanceProperty<string>()!;
         }

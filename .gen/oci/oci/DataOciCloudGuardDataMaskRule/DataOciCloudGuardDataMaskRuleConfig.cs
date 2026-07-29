@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardDataMaskRule
     [JsiiByValue(fqn: "oci.dataOciCloudGuardDataMaskRule.DataOciCloudGuardDataMaskRuleConfig")]
     public class DataOciCloudGuardDataMaskRuleConfig : oci.DataOciCloudGuardDataMaskRule.IDataOciCloudGuardDataMaskRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_data_mask_rule#data_mask_rule_id DataOciCloudGuardDataMaskRule#data_mask_rule_id}.</summary>
         [JsiiProperty(name: "dataMaskRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataMaskRuleId
         {

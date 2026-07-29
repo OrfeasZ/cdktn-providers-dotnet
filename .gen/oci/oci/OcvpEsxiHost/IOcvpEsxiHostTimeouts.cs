@@ -7,7 +7,7 @@ namespace oci.OcvpEsxiHost
     [JsiiInterface(nativeType: typeof(IOcvpEsxiHostTimeouts), fullyQualifiedName: "oci.ocvpEsxiHost.OcvpEsxiHostTimeouts")]
     public interface IOcvpEsxiHostTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace oci.OcvpEsxiHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

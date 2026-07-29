@@ -7,21 +7,21 @@ namespace oci.DataOciLogAnalyticsNamespaceTemplate
     [JsiiInterface(nativeType: typeof(IDataOciLogAnalyticsNamespaceTemplateConfig), fullyQualifiedName: "oci.dataOciLogAnalyticsNamespaceTemplate.DataOciLogAnalyticsNamespaceTemplateConfig")]
     public interface IDataOciLogAnalyticsNamespaceTemplateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}.</summary>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
         string TemplateId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciLogAnalyticsNamespaceTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#namespace DataOciLogAnalyticsNamespaceTemplate#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#template_id DataOciLogAnalyticsNamespaceTemplate#template_id}.</summary>
             [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
             public string TemplateId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_template#id DataOciLogAnalyticsNamespaceTemplate#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

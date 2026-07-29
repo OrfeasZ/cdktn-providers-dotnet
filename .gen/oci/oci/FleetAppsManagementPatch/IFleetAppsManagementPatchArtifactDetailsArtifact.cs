@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementPatch
     {
         /// <summary>content block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_patch#content FleetAppsManagementPatch#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_patch#content FleetAppsManagementPatch#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetailsArtifactContent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace oci.FleetAppsManagementPatch
 
             /// <summary>content block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_patch#content FleetAppsManagementPatch#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_patch#content FleetAppsManagementPatch#content}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetailsArtifactContent\"}", isOptional: true)]

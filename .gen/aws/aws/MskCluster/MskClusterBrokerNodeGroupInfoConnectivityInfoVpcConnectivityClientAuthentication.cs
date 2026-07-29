@@ -9,7 +9,7 @@ namespace aws.MskCluster
     {
         /// <summary>sasl block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#sasl MskCluster#sasl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sasl", typeJson: "{\"fqn\":\"aws.mskCluster.MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSasl\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.MskCluster
 
         private object? _tls;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/msk_cluster#tls MskCluster#tls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#tls MskCluster#tls}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

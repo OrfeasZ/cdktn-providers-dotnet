@@ -71,6 +71,30 @@ namespace oci.DataOciCoreVolumeGroupBackups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isIndefiniteRetentionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsIndefiniteRetentionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.dataOciCoreVolumeGroupBackups.DataOciCoreVolumeGroupBackupsVolumeGroupBackupsRetentionPeriodList\"}")]
+        public virtual oci.DataOciCoreVolumeGroupBackups.DataOciCoreVolumeGroupBackupsVolumeGroupBackupsRetentionPeriodList RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.DataOciCoreVolumeGroupBackups.DataOciCoreVolumeGroupBackupsVolumeGroupBackupsRetentionPeriodList>()!;
+        }
+
         [JsiiProperty(name: "sizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SizeInGbs
         {
@@ -115,6 +139,12 @@ namespace oci.DataOciCoreVolumeGroupBackups
 
         [JsiiProperty(name: "timeRequestReceived", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeRequestReceived
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeRetentionExpiresAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeRetentionExpiresAt
         {
             get => GetInstanceProperty<string>()!;
         }

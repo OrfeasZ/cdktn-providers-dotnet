@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciGoldenGateConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciGoldenGateConnection.DataOciGoldenGateConnection), fullyQualifiedName: "oci.dataOciGoldenGateConnection.DataOciGoldenGateConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionConfig\"}}]")]
     public class DataOciGoldenGateConnection : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciGoldenGateConnection(Constructs.Construct scope, string id, oci.DataOciGoldenGateConnection.IDataOciGoldenGateConnectionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciGoldenGateConnection
         /// <param name="importToId">The construct id used in the generated config for the DataOciGoldenGateConnection to import.</param>
         /// <param name="importFromId">The id of the existing DataOciGoldenGateConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciGoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciGoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciGoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciGoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciGoldenGateConnection.DataOciGoldenGateConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -93,6 +93,12 @@ namespace oci.DataOciGoldenGateConnection
         public virtual oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAdditionalAttributesList AdditionalAttributes
         {
             get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAdditionalAttributesList>()!;
+        }
+
+        [JsiiProperty(name: "authDetails", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionAuthDetailsList\"}")]
+        public virtual oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAuthDetailsList AuthDetails
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAuthDetailsList>()!;
         }
 
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}")]
@@ -371,6 +377,18 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionLocksList>()!;
         }
 
+        [JsiiProperty(name: "maxInputChars", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxInputChars
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "modelKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModelKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] NsgIds
         {
@@ -427,6 +445,12 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "producerProperties", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProducerProperties
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProviderType
         {
             get => GetInstanceProperty<string>()!;
         }

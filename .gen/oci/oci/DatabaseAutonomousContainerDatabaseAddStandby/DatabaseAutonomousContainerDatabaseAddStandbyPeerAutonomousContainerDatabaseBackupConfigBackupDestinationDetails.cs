@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
     [JsiiByValue(fqn: "oci.databaseAutonomousContainerDatabaseAddStandby.DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfigBackupDestinationDetails")]
     public class DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfigBackupDestinationDetails : oci.DatabaseAutonomousContainerDatabaseAddStandby.IDatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfigBackupDestinationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#type DatabaseAutonomousContainerDatabaseAddStandby#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#type DatabaseAutonomousContainerDatabaseAddStandby#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#backup_retention_policy_on_terminate DatabaseAutonomousContainerDatabaseAddStandby#backup_retention_policy_on_terminate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#backup_retention_policy_on_terminate DatabaseAutonomousContainerDatabaseAddStandby#backup_retention_policy_on_terminate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupRetentionPolicyOnTerminate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupRetentionPolicyOnTerminate
@@ -26,7 +26,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#dbrs_policy_id DatabaseAutonomousContainerDatabaseAddStandby#dbrs_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#dbrs_policy_id DatabaseAutonomousContainerDatabaseAddStandby#dbrs_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbrsPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbrsPolicyId
@@ -35,7 +35,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#internet_proxy DatabaseAutonomousContainerDatabaseAddStandby#internet_proxy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#internet_proxy DatabaseAutonomousContainerDatabaseAddStandby#internet_proxy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "internetProxy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InternetProxy
@@ -59,7 +59,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
 
         private object? _isRetentionLockEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#is_retention_lock_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_retention_lock_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#is_retention_lock_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_retention_lock_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -91,7 +91,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#vpc_password DatabaseAutonomousContainerDatabaseAddStandby#vpc_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#vpc_password DatabaseAutonomousContainerDatabaseAddStandby#vpc_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcPassword
@@ -100,7 +100,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseAddStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_container_database_add_standby#vpc_user DatabaseAutonomousContainerDatabaseAddStandby#vpc_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_container_database_add_standby#vpc_user DatabaseAutonomousContainerDatabaseAddStandby#vpc_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vpcUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VpcUser

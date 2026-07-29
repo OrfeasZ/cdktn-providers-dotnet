@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUser
     [JsiiByValue(fqn: "oci.dataOciOpsiOperationsInsightsWarehouseUser.DataOciOpsiOperationsInsightsWarehouseUserConfig")]
     public class DataOciOpsiOperationsInsightsWarehouseUserConfig : oci.DataOciOpsiOperationsInsightsWarehouseUser.IDataOciOpsiOperationsInsightsWarehouseUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseUserId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationsInsightsWarehouseUserId
         {

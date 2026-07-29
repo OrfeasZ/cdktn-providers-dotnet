@@ -7,7 +7,7 @@ namespace oci.DataOciApigatewayCertificate
     [JsiiInterface(nativeType: typeof(IDataOciApigatewayCertificateConfig), fullyQualifiedName: "oci.dataOciApigatewayCertificate.DataOciApigatewayCertificateConfig")]
     public interface IDataOciApigatewayCertificateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApigatewayCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_certificate#certificate_id DataOciApigatewayCertificate#certificate_id}.</summary>
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateId
             {

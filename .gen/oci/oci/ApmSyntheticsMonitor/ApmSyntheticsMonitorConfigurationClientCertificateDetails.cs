@@ -9,7 +9,7 @@ namespace oci.ApmSyntheticsMonitor
     {
         /// <summary>client_certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_monitor#client_certificate ApmSyntheticsMonitor#client_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_synthetics_monitor#client_certificate ApmSyntheticsMonitor#client_certificate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificate", typeJson: "{\"fqn\":\"oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationClientCertificateDetailsClientCertificate\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.ApmSyntheticsMonitor
 
         /// <summary>private_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_monitor#private_key ApmSyntheticsMonitor#private_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_synthetics_monitor#private_key ApmSyntheticsMonitor#private_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateKey", typeJson: "{\"fqn\":\"oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationClientCertificateDetailsPrivateKey\"}", isOptional: true)]

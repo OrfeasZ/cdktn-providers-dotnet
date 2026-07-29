@@ -7,14 +7,14 @@ namespace oci.ApmTracesScheduledQuery
     [JsiiInterface(nativeType: typeof(IApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric), fullyQualifiedName: "oci.apmTracesScheduledQuery.ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric")]
     public interface IApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}.</summary>
         [JsiiProperty(name: "compartment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Compartment
@@ -25,7 +25,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -36,7 +36,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -75,7 +75,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}.</summary>
         [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceGroup
@@ -86,7 +86,7 @@ namespace oci.ApmTracesScheduledQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Unit
@@ -104,14 +104,14 @@ namespace oci.ApmTracesScheduledQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Compartment
@@ -119,7 +119,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -127,7 +127,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -138,7 +138,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -149,7 +149,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace
@@ -157,7 +157,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceGroup
@@ -165,7 +165,7 @@ namespace oci.ApmTracesScheduledQuery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Unit

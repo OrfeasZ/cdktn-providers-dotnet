@@ -9,7 +9,7 @@ namespace oci.OpsiDatabaseInsight
     [JsiiByValue(fqn: "oci.opsiDatabaseInsight.OpsiDatabaseInsightCredentialDetails")]
     public class OpsiDatabaseInsightCredentialDetails : oci.OpsiDatabaseInsight.IOpsiDatabaseInsightCredentialDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#credential_type OpsiDatabaseInsight#credential_type}.</summary>
         [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialType
         {
@@ -17,7 +17,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#credential_source_name OpsiDatabaseInsight#credential_source_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "credentialSourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CredentialSourceName
@@ -26,7 +26,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#named_credential_id OpsiDatabaseInsight#named_credential_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamedCredentialId
@@ -35,7 +35,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#password_secret_id OpsiDatabaseInsight#password_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PasswordSecretId
@@ -44,7 +44,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#role OpsiDatabaseInsight#role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Role
@@ -53,7 +53,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#user_name OpsiDatabaseInsight#user_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserName
@@ -62,7 +62,7 @@ namespace oci.OpsiDatabaseInsight
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_database_insight#wallet_secret_id OpsiDatabaseInsight#wallet_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_database_insight#wallet_secret_id OpsiDatabaseInsight#wallet_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "walletSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WalletSecretId

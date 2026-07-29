@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiProject
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiProject.DataOciGenerativeAiProjectConfig")]
     public class DataOciGenerativeAiProjectConfig : oci.DataOciGenerativeAiProject.IDataOciGenerativeAiProjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {

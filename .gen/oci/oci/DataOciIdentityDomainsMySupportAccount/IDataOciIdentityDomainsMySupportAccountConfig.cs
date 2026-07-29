@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsMySupportAccount
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsMySupportAccountConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsMySupportAccount.DataOciIdentityDomainsMySupportAccountConfig")]
     public interface IDataOciIdentityDomainsMySupportAccountConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#idcs_endpoint DataOciIdentityDomainsMySupportAccount#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#idcs_endpoint DataOciIdentityDomainsMySupportAccount#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#my_support_account_id DataOciIdentityDomainsMySupportAccount#my_support_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#my_support_account_id DataOciIdentityDomainsMySupportAccount#my_support_account_id}.</summary>
         [JsiiProperty(name: "mySupportAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string MySupportAccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#authorization DataOciIdentityDomainsMySupportAccount#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#authorization DataOciIdentityDomainsMySupportAccount#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#resource_type_schema_version DataOciIdentityDomainsMySupportAccount#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#resource_type_schema_version DataOciIdentityDomainsMySupportAccount#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -50,21 +50,21 @@ namespace oci.DataOciIdentityDomainsMySupportAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#idcs_endpoint DataOciIdentityDomainsMySupportAccount#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#idcs_endpoint DataOciIdentityDomainsMySupportAccount#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#my_support_account_id DataOciIdentityDomainsMySupportAccount#my_support_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#my_support_account_id DataOciIdentityDomainsMySupportAccount#my_support_account_id}.</summary>
             [JsiiProperty(name: "mySupportAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string MySupportAccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#authorization DataOciIdentityDomainsMySupportAccount#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#authorization DataOciIdentityDomainsMySupportAccount#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -72,7 +72,7 @@ namespace oci.DataOciIdentityDomainsMySupportAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_support_account#resource_type_schema_version DataOciIdentityDomainsMySupportAccount#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_support_account#resource_type_schema_version DataOciIdentityDomainsMySupportAccount#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

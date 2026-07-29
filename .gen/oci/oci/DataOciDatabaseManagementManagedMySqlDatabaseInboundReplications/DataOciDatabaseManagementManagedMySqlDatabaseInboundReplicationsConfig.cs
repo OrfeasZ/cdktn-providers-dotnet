@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedMySqlDatabaseInboundReplications.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsConfig")]
     public class DataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsConfig : oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications.IDataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#managed_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#managed_my_sql_database_id}.</summary>
         [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedMySqlDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#filter DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#filter DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications.IDataOciDatabaseManagementManagedMySqlDatabaseInboundReplicationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#id DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_inbound_replications#id DataOciDatabaseManagementManagedMySqlDatabaseInboundReplications#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

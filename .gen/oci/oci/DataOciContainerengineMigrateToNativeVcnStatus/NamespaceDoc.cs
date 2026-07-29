@@ -5,7 +5,7 @@ namespace oci.DataOciContainerengineMigrateToNativeVcnStatus
     /// <remarks>
     /// <h1><c>data_oci_containerengine_migrate_to_native_vcn_status</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/containerengine_migrate_to_native_vcn_status"><c>data_oci_containerengine_migrate_to_native_vcn_status</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/containerengine_migrate_to_native_vcn_status"><c>data_oci_containerengine_migrate_to_native_vcn_status</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

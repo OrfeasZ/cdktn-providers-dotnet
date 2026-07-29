@@ -9,7 +9,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
     [JsiiByValue(fqn: "oci.resourceAnalyticsMonitoredRegion.ResourceAnalyticsMonitoredRegionConfig")]
     public class ResourceAnalyticsMonitoredRegionConfig : oci.ResourceAnalyticsMonitoredRegion.IResourceAnalyticsMonitoredRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#region_id ResourceAnalyticsMonitoredRegion#region_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#region_id ResourceAnalyticsMonitoredRegion#region_id}.</summary>
         [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionId
         {
@@ -17,7 +17,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#resource_analytics_instance_id ResourceAnalyticsMonitoredRegion#resource_analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#resource_analytics_instance_id ResourceAnalyticsMonitoredRegion#resource_analytics_instance_id}.</summary>
         [JsiiProperty(name: "resourceAnalyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceAnalyticsInstanceId
         {
@@ -25,7 +25,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#id ResourceAnalyticsMonitoredRegion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#id ResourceAnalyticsMonitoredRegion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#timeouts ResourceAnalyticsMonitoredRegion#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#timeouts ResourceAnalyticsMonitoredRegion#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.resourceAnalyticsMonitoredRegion.ResourceAnalyticsMonitoredRegionTimeouts\"}", isOptional: true)]

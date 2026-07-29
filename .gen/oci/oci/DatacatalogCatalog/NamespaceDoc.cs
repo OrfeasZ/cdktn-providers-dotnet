@@ -5,7 +5,7 @@ namespace oci.DatacatalogCatalog
     /// <remarks>
     /// <h1><c>oci_datacatalog_catalog</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datacatalog_catalog"><c>oci_datacatalog_catalog</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datacatalog_catalog"><c>oci_datacatalog_catalog</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

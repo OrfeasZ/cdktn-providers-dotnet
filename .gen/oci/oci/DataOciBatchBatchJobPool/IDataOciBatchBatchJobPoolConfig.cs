@@ -7,7 +7,7 @@ namespace oci.DataOciBatchBatchJobPool
     [JsiiInterface(nativeType: typeof(IDataOciBatchBatchJobPoolConfig), fullyQualifiedName: "oci.dataOciBatchBatchJobPool.DataOciBatchBatchJobPoolConfig")]
     public interface IDataOciBatchBatchJobPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
         [JsiiProperty(name: "batchJobPoolId", typeJson: "{\"primitive\":\"string\"}")]
         string BatchJobPoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBatchBatchJobPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
             [JsiiProperty(name: "batchJobPoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string BatchJobPoolId
             {

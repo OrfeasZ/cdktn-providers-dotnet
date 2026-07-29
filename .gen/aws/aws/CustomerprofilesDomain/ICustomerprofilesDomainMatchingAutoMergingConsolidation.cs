@@ -7,7 +7,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiInterface(nativeType: typeof(ICustomerprofilesDomainMatchingAutoMergingConsolidation), fullyQualifiedName: "aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMergingConsolidation")]
     public interface ICustomerprofilesDomainMatchingAutoMergingConsolidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/customerprofiles_domain#matching_attributes_list CustomerprofilesDomain#matching_attributes_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#matching_attributes_list CustomerprofilesDomain#matching_attributes_list}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.CustomerprofilesDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/customerprofiles_domain#matching_attributes_list CustomerprofilesDomain#matching_attributes_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#matching_attributes_list CustomerprofilesDomain#matching_attributes_list}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
             /// </remarks>

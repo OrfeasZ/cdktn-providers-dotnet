@@ -9,7 +9,7 @@ namespace oci.CoreVolume
     [JsiiByValue(fqn: "oci.coreVolume.CoreVolumeAutotunePolicies")]
     public class CoreVolumeAutotunePolicies : oci.CoreVolume.ICoreVolumeAutotunePolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume#autotune_type CoreVolume#autotune_type}.</summary>
         [JsiiProperty(name: "autotuneType", typeJson: "{\"primitive\":\"string\"}")]
         public string AutotuneType
         {
@@ -17,7 +17,7 @@ namespace oci.CoreVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume#max_vpus_per_gb CoreVolume#max_vpus_per_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxVpusPerGb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxVpusPerGb

@@ -9,7 +9,7 @@ namespace oci.DatabaseKeyStore
     [JsiiByValue(fqn: "oci.databaseKeyStore.DatabaseKeyStoreTypeDetails")]
     public class DatabaseKeyStoreTypeDetails : oci.DatabaseKeyStore.IDatabaseKeyStoreTypeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_key_store#admin_username DatabaseKeyStore#admin_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_key_store#admin_username DatabaseKeyStore#admin_username}.</summary>
         [JsiiProperty(name: "adminUsername", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminUsername
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_key_store#connection_ips DatabaseKeyStore#connection_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_key_store#connection_ips DatabaseKeyStore#connection_ips}.</summary>
         [JsiiProperty(name: "connectionIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ConnectionIps
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_key_store#secret_id DatabaseKeyStore#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_key_store#secret_id DatabaseKeyStore#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_key_store#type DatabaseKeyStore#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_key_store#type DatabaseKeyStore#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseKeyStore
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_key_store#vault_id DatabaseKeyStore#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_key_store#vault_id DatabaseKeyStore#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultId
         {

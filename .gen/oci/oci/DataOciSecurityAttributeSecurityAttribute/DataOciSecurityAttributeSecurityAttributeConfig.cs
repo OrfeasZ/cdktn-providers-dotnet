@@ -9,7 +9,7 @@ namespace oci.DataOciSecurityAttributeSecurityAttribute
     [JsiiByValue(fqn: "oci.dataOciSecurityAttributeSecurityAttribute.DataOciSecurityAttributeSecurityAttributeConfig")]
     public class DataOciSecurityAttributeSecurityAttributeConfig : oci.DataOciSecurityAttributeSecurityAttribute.IDataOciSecurityAttributeSecurityAttributeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/security_attribute_security_attribute#security_attribute_name DataOciSecurityAttributeSecurityAttribute#security_attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/security_attribute_security_attribute#security_attribute_name DataOciSecurityAttributeSecurityAttribute#security_attribute_name}.</summary>
         [JsiiProperty(name: "securityAttributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityAttributeName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciSecurityAttributeSecurityAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/security_attribute_security_attribute#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttribute#security_attribute_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/security_attribute_security_attribute#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttribute#security_attribute_namespace_id}.</summary>
         [JsiiProperty(name: "securityAttributeNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityAttributeNamespaceId
         {

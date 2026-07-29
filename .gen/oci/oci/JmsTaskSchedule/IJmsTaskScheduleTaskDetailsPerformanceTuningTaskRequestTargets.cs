@@ -7,7 +7,7 @@ namespace oci.JmsTaskSchedule
     [JsiiInterface(nativeType: typeof(IJmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargets), fullyQualifiedName: "oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargets")]
     public interface IJmsTaskScheduleTaskDetailsPerformanceTuningTaskRequestTargets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}.</summary>
         [JsiiProperty(name: "applicationInstallationKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApplicationInstallationKey
@@ -18,7 +18,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApplicationKey
@@ -29,7 +29,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}.</summary>
         [JsiiProperty(name: "containerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContainerKey
@@ -40,7 +40,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}.</summary>
         [JsiiProperty(name: "jreKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JreKey
@@ -51,7 +51,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ManagedInstanceId
@@ -69,7 +69,7 @@ namespace oci.JmsTaskSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#application_installation_key JmsTaskSchedule#application_installation_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applicationInstallationKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApplicationInstallationKey
@@ -77,7 +77,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#application_key JmsTaskSchedule#application_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApplicationKey
@@ -85,7 +85,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#container_key JmsTaskSchedule#container_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "containerKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContainerKey
@@ -93,7 +93,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#jre_key JmsTaskSchedule#jre_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jreKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JreKey
@@ -101,7 +101,7 @@ namespace oci.JmsTaskSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ManagedInstanceId

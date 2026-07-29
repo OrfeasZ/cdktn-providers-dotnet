@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAdvancedClusterFileSystem
     [JsiiByValue(fqn: "oci.dataOciDatabaseAdvancedClusterFileSystem.DataOciDatabaseAdvancedClusterFileSystemConfig")]
     public class DataOciDatabaseAdvancedClusterFileSystemConfig : oci.DataOciDatabaseAdvancedClusterFileSystem.IDataOciDatabaseAdvancedClusterFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_advanced_cluster_file_system#advanced_cluster_file_system_id DataOciDatabaseAdvancedClusterFileSystem#advanced_cluster_file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_advanced_cluster_file_system#advanced_cluster_file_system_id DataOciDatabaseAdvancedClusterFileSystem#advanced_cluster_file_system_id}.</summary>
         [JsiiProperty(name: "advancedClusterFileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string AdvancedClusterFileSystemId
         {

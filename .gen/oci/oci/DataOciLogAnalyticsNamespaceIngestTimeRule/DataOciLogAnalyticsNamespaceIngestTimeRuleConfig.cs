@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsNamespaceIngestTimeRule
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsNamespaceIngestTimeRule.DataOciLogAnalyticsNamespaceIngestTimeRuleConfig")]
     public class DataOciLogAnalyticsNamespaceIngestTimeRuleConfig : oci.DataOciLogAnalyticsNamespaceIngestTimeRule.IDataOciLogAnalyticsNamespaceIngestTimeRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_ingest_time_rule#ingest_time_rule_id DataOciLogAnalyticsNamespaceIngestTimeRule#ingest_time_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_ingest_time_rule#ingest_time_rule_id DataOciLogAnalyticsNamespaceIngestTimeRule#ingest_time_rule_id}.</summary>
         [JsiiProperty(name: "ingestTimeRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string IngestTimeRuleId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsNamespaceIngestTimeRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/log_analytics_namespace_ingest_time_rule#namespace DataOciLogAnalyticsNamespaceIngestTimeRule#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/log_analytics_namespace_ingest_time_rule#namespace DataOciLogAnalyticsNamespaceIngestTimeRule#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {

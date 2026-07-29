@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstance
     [JsiiByValue(fqn: "oci.bdsBdsInstance.BdsBdsInstanceKafkaBrokerNode")]
     public class BdsBdsInstanceKafkaBrokerNode : oci.BdsBdsInstance.IBdsBdsInstanceKafkaBrokerNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#number_of_kafka_nodes BdsBdsInstance#number_of_kafka_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#number_of_kafka_nodes BdsBdsInstance#number_of_kafka_nodes}.</summary>
         [JsiiProperty(name: "numberOfKafkaNodes", typeJson: "{\"primitive\":\"number\"}")]
         public double NumberOfKafkaNodes
         {
@@ -17,7 +17,7 @@ namespace oci.BdsBdsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public string Shape
         {
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#subnet_id BdsBdsInstance#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -33,7 +33,7 @@ namespace oci.BdsBdsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#block_volume_size_in_gbs BdsBdsInstance#block_volume_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockVolumeSizeInGbs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockVolumeSizeInGbs
@@ -44,7 +44,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#shape_config BdsBdsInstance#shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceKafkaBrokerNodeShapeConfig\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAzureVaultAssociation.DbmulticloudOracleDbAzureVaultAssociationConfig")]
     public class DbmulticloudOracleDbAzureVaultAssociationConfig : oci.DbmulticloudOracleDbAzureVaultAssociation.IDbmulticloudOracleDbAzureVaultAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#compartment_id DbmulticloudOracleDbAzureVaultAssociation#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#compartment_id DbmulticloudOracleDbAzureVaultAssociation#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#display_name DbmulticloudOracleDbAzureVaultAssociation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#display_name DbmulticloudOracleDbAzureVaultAssociation#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#oracle_db_azure_connector_id DbmulticloudOracleDbAzureVaultAssociation#oracle_db_azure_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#oracle_db_azure_connector_id DbmulticloudOracleDbAzureVaultAssociation#oracle_db_azure_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureConnectorId
         {
@@ -33,7 +33,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#oracle_db_azure_vault_id DbmulticloudOracleDbAzureVaultAssociation#oracle_db_azure_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#oracle_db_azure_vault_id DbmulticloudOracleDbAzureVaultAssociation#oracle_db_azure_vault_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureVaultId
         {
@@ -41,7 +41,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#defined_tags DbmulticloudOracleDbAzureVaultAssociation#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#defined_tags DbmulticloudOracleDbAzureVaultAssociation#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#freeform_tags DbmulticloudOracleDbAzureVaultAssociation#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#freeform_tags DbmulticloudOracleDbAzureVaultAssociation#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -59,7 +59,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#id DbmulticloudOracleDbAzureVaultAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#id DbmulticloudOracleDbAzureVaultAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#timeouts DbmulticloudOracleDbAzureVaultAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#timeouts DbmulticloudOracleDbAzureVaultAssociation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureVaultAssociation.DbmulticloudOracleDbAzureVaultAssociationTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainer
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureBlobContainer.DataOciDbmulticloudOracleDbAzureBlobContainerConfig")]
     public class DataOciDbmulticloudOracleDbAzureBlobContainerConfig : oci.DataOciDbmulticloudOracleDbAzureBlobContainer.IDataOciDbmulticloudOracleDbAzureBlobContainerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureBlobContainerId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureBlobContainerId
         {

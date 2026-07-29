@@ -71,12 +71,6 @@ namespace aws.DataAwsLaunchTemplate
             get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "enaQueueCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double EnaQueueCount
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiProperty(name: "interfaceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InterfaceType
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetAgentConfiguration
     [JsiiByValue(fqn: "oci.dataOciJmsFleetAgentConfiguration.DataOciJmsFleetAgentConfigurationConfig")]
     public class DataOciJmsFleetAgentConfigurationConfig : oci.DataOciJmsFleetAgentConfiguration.IDataOciJmsFleetAgentConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_agent_configuration#fleet_id DataOciJmsFleetAgentConfiguration#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_agent_configuration#fleet_id DataOciJmsFleetAgentConfiguration#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {

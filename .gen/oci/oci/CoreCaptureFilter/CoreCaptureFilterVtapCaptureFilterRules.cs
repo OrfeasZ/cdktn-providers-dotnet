@@ -9,7 +9,7 @@ namespace oci.CoreCaptureFilter
     [JsiiByValue(fqn: "oci.coreCaptureFilter.CoreCaptureFilterVtapCaptureFilterRules")]
     public class CoreCaptureFilterVtapCaptureFilterRules : oci.CoreCaptureFilter.ICoreCaptureFilterVtapCaptureFilterRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#traffic_direction CoreCaptureFilter#traffic_direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#traffic_direction CoreCaptureFilter#traffic_direction}.</summary>
         [JsiiProperty(name: "trafficDirection", typeJson: "{\"primitive\":\"string\"}")]
         public string TrafficDirection
         {
@@ -17,7 +17,7 @@ namespace oci.CoreCaptureFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#destination_cidr CoreCaptureFilter#destination_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationCidr
@@ -28,7 +28,7 @@ namespace oci.CoreCaptureFilter
 
         /// <summary>icmp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#icmp_options CoreCaptureFilter#icmp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "icmpOptions", typeJson: "{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterVtapCaptureFilterRulesIcmpOptions\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace oci.CoreCaptureFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#protocol CoreCaptureFilter#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -47,7 +47,7 @@ namespace oci.CoreCaptureFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#rule_action CoreCaptureFilter#rule_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleAction
@@ -56,7 +56,7 @@ namespace oci.CoreCaptureFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#source_cidr CoreCaptureFilter#source_cidr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceCidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceCidr
@@ -67,7 +67,7 @@ namespace oci.CoreCaptureFilter
 
         /// <summary>tcp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#tcp_options CoreCaptureFilter#tcp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcpOptions", typeJson: "{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterVtapCaptureFilterRulesTcpOptions\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace oci.CoreCaptureFilter
 
         /// <summary>udp_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_capture_filter#udp_options CoreCaptureFilter#udp_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "udpOptions", typeJson: "{\"fqn\":\"oci.coreCaptureFilter.CoreCaptureFilterVtapCaptureFilterRulesUdpOptions\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DnsZone
     [JsiiByValue(fqn: "oci.dnsZone.DnsZoneExternalMasters")]
     public class DnsZoneExternalMasters : oci.DnsZone.IDnsZoneExternalMasters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_zone#address DnsZone#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dns_zone#address DnsZone#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace oci.DnsZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_zone#port DnsZone#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dns_zone#port DnsZone#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -26,7 +26,7 @@ namespace oci.DnsZone
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dns_zone#tsig_key_id DnsZone#tsig_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dns_zone#tsig_key_id DnsZone#tsig_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tsigKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TsigKeyId

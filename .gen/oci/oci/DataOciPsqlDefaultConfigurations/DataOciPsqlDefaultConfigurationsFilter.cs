@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlDefaultConfigurations
     [JsiiByValue(fqn: "oci.dataOciPsqlDefaultConfigurations.DataOciPsqlDefaultConfigurationsFilter")]
     public class DataOciPsqlDefaultConfigurationsFilter : oci.DataOciPsqlDefaultConfigurations.IDataOciPsqlDefaultConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_default_configurations#name DataOciPsqlDefaultConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_default_configurations#name DataOciPsqlDefaultConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciPsqlDefaultConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_default_configurations#values DataOciPsqlDefaultConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_default_configurations#values DataOciPsqlDefaultConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciPsqlDefaultConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_default_configurations#regex DataOciPsqlDefaultConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_default_configurations#regex DataOciPsqlDefaultConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

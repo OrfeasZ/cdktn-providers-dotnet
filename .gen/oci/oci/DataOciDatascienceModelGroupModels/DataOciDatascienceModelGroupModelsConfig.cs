@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelGroupModels
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelGroupModels.DataOciDatascienceModelGroupModelsConfig")]
     public class DataOciDatascienceModelGroupModelsConfig : oci.DataOciDatascienceModelGroupModels.IDataOciDatascienceModelGroupModelsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#compartment_id DataOciDatascienceModelGroupModels#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#compartment_id DataOciDatascienceModelGroupModels#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelGroupModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#model_group_id DataOciDatascienceModelGroupModels#model_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#model_group_id DataOciDatascienceModelGroupModels#model_group_id}.</summary>
         [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatascienceModelGroupModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#created_by DataOciDatascienceModelGroupModels#created_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#created_by DataOciDatascienceModelGroupModels#created_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createdBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreatedBy
@@ -34,7 +34,7 @@ namespace oci.DataOciDatascienceModelGroupModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#display_name DataOciDatascienceModelGroupModels#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#display_name DataOciDatascienceModelGroupModels#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -47,7 +47,7 @@ namespace oci.DataOciDatascienceModelGroupModels
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#filter DataOciDatascienceModelGroupModels#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#filter DataOciDatascienceModelGroupModels#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelGroupModels.IDataOciDatascienceModelGroupModelsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace oci.DataOciDatascienceModelGroupModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#id DataOciDatascienceModelGroupModels#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#id DataOciDatascienceModelGroupModels#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.DataOciDatascienceModelGroupModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_group_models#state DataOciDatascienceModelGroupModels#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_group_models#state DataOciDatascienceModelGroupModels#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

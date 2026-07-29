@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeSupportedCloudRegions.DataOciCloudBridgeSupportedCloudRegionsConfig")]
     public class DataOciCloudBridgeSupportedCloudRegionsConfig : oci.DataOciCloudBridgeSupportedCloudRegions.IDataOciCloudBridgeSupportedCloudRegionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_supported_cloud_regions#asset_source_type DataOciCloudBridgeSupportedCloudRegions#asset_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#asset_source_type DataOciCloudBridgeSupportedCloudRegions#asset_source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assetSourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssetSourceType
@@ -20,7 +20,7 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_supported_cloud_regions#filter DataOciCloudBridgeSupportedCloudRegions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#filter DataOciCloudBridgeSupportedCloudRegions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudBridgeSupportedCloudRegions.IDataOciCloudBridgeSupportedCloudRegionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_supported_cloud_regions#id DataOciCloudBridgeSupportedCloudRegions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#id DataOciCloudBridgeSupportedCloudRegions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name_contains DataOciCloudBridgeSupportedCloudRegions#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name_contains DataOciCloudBridgeSupportedCloudRegions#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains

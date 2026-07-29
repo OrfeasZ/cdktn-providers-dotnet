@@ -7,21 +7,21 @@ namespace oci.DataOciCloudGuardSecurityRecipes
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardSecurityRecipesFilter), fullyQualifiedName: "oci.dataOciCloudGuardSecurityRecipes.DataOciCloudGuardSecurityRecipesFilter")]
     public interface IDataOciCloudGuardSecurityRecipesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#name DataOciCloudGuardSecurityRecipes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#name DataOciCloudGuardSecurityRecipes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#values DataOciCloudGuardSecurityRecipes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#values DataOciCloudGuardSecurityRecipes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#regex DataOciCloudGuardSecurityRecipes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#regex DataOciCloudGuardSecurityRecipes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCloudGuardSecurityRecipes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#name DataOciCloudGuardSecurityRecipes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#name DataOciCloudGuardSecurityRecipes#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#values DataOciCloudGuardSecurityRecipes#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#values DataOciCloudGuardSecurityRecipes#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_recipes#regex DataOciCloudGuardSecurityRecipes#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_recipes#regex DataOciCloudGuardSecurityRecipes#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

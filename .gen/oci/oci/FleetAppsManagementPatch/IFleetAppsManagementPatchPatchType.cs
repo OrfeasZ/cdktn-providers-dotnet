@@ -7,7 +7,7 @@ namespace oci.FleetAppsManagementPatch
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementPatchPatchType), fullyQualifiedName: "oci.fleetAppsManagementPatch.FleetAppsManagementPatchPatchType")]
     public interface IFleetAppsManagementPatchPatchType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_patch#platform_configuration_id FleetAppsManagementPatch#platform_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_patch#platform_configuration_id FleetAppsManagementPatch#platform_configuration_id}.</summary>
         [JsiiProperty(name: "platformConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string PlatformConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.FleetAppsManagementPatch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_patch#platform_configuration_id FleetAppsManagementPatch#platform_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_patch#platform_configuration_id FleetAppsManagementPatch#platform_configuration_id}.</summary>
             [JsiiProperty(name: "platformConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string PlatformConfigurationId
             {

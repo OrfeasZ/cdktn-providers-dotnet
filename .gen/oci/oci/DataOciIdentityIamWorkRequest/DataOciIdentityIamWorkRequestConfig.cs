@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityIamWorkRequest
     [JsiiByValue(fqn: "oci.dataOciIdentityIamWorkRequest.DataOciIdentityIamWorkRequestConfig")]
     public class DataOciIdentityIamWorkRequestConfig : oci.DataOciIdentityIamWorkRequest.IDataOciIdentityIamWorkRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request#iam_work_request_id DataOciIdentityIamWorkRequest#iam_work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request#iam_work_request_id DataOciIdentityIamWorkRequest#iam_work_request_id}.</summary>
         [JsiiProperty(name: "iamWorkRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string IamWorkRequestId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityIamWorkRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request#id DataOciIdentityIamWorkRequest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request#id DataOciIdentityIamWorkRequest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

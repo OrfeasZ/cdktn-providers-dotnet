@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.databaseMigrationMigration.DatabaseMigrationMigrationAdvancedParameters")]
     public class DatabaseMigrationMigrationAdvancedParameters : oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationAdvancedParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#data_type DatabaseMigrationMigration#data_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#data_type DatabaseMigrationMigration#data_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataType
@@ -16,7 +16,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -25,7 +25,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#value DatabaseMigrationMigration#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#value DatabaseMigrationMigration#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceBdsCertificateConfiguration
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceBdsCertificateConfiguration.DataOciBdsBdsInstanceBdsCertificateConfigurationConfig")]
     public class DataOciBdsBdsInstanceBdsCertificateConfigurationConfig : oci.DataOciBdsBdsInstanceBdsCertificateConfiguration.IDataOciBdsBdsInstanceBdsCertificateConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_bds_certificate_configuration#bds_certificate_configuration_id DataOciBdsBdsInstanceBdsCertificateConfiguration#bds_certificate_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_bds_certificate_configuration#bds_certificate_configuration_id DataOciBdsBdsInstanceBdsCertificateConfiguration#bds_certificate_configuration_id}.</summary>
         [JsiiProperty(name: "bdsCertificateConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsCertificateConfigurationId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceBdsCertificateConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_bds_certificate_configuration#bds_instance_id DataOciBdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_bds_certificate_configuration#bds_instance_id DataOciBdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {

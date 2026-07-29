@@ -9,7 +9,7 @@ namespace aws.AlbListenerRule
     [JsiiByValue(fqn: "aws.albListenerRule.AlbListenerRuleActionForwardStickiness")]
     public class AlbListenerRuleActionForwardStickiness : aws.AlbListenerRule.IAlbListenerRuleActionForwardStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#duration AlbListenerRule#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         public double Duration
         {
@@ -19,7 +19,7 @@ namespace aws.AlbListenerRule
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#enabled AlbListenerRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

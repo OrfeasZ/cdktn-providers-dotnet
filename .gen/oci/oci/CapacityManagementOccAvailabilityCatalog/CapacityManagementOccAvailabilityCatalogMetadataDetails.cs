@@ -9,7 +9,7 @@ namespace oci.CapacityManagementOccAvailabilityCatalog
     [JsiiByValue(fqn: "oci.capacityManagementOccAvailabilityCatalog.CapacityManagementOccAvailabilityCatalogMetadataDetails")]
     public class CapacityManagementOccAvailabilityCatalogMetadataDetails : oci.CapacityManagementOccAvailabilityCatalog.ICapacityManagementOccAvailabilityCatalogMetadataDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
         [JsiiProperty(name: "formatVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string FormatVersion
         {

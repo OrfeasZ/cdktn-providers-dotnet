@@ -7,21 +7,21 @@ namespace oci.DataOciDelegateAccessControlDelegationControlResources
     [JsiiInterface(nativeType: typeof(IDataOciDelegateAccessControlDelegationControlResourcesFilter), fullyQualifiedName: "oci.dataOciDelegateAccessControlDelegationControlResources.DataOciDelegateAccessControlDelegationControlResourcesFilter")]
     public interface IDataOciDelegateAccessControlDelegationControlResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#name DataOciDelegateAccessControlDelegationControlResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#name DataOciDelegateAccessControlDelegationControlResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#values DataOciDelegateAccessControlDelegationControlResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#values DataOciDelegateAccessControlDelegationControlResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#regex DataOciDelegateAccessControlDelegationControlResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#regex DataOciDelegateAccessControlDelegationControlResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDelegateAccessControlDelegationControlResources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#name DataOciDelegateAccessControlDelegationControlResources#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#name DataOciDelegateAccessControlDelegationControlResources#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#values DataOciDelegateAccessControlDelegationControlResources#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#values DataOciDelegateAccessControlDelegationControlResources#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_control_resources#regex DataOciDelegateAccessControlDelegationControlResources#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control_resources#regex DataOciDelegateAccessControlDelegationControlResources#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

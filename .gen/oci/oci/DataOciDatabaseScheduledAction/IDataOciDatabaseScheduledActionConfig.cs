@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseScheduledAction
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseScheduledActionConfig), fullyQualifiedName: "oci.dataOciDatabaseScheduledAction.DataOciDatabaseScheduledActionConfig")]
     public interface IDataOciDatabaseScheduledActionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
         [JsiiProperty(name: "scheduledActionId", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduledActionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseScheduledAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_action#scheduled_action_id DataOciDatabaseScheduledAction#scheduled_action_id}.</summary>
             [JsiiProperty(name: "scheduledActionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduledActionId
             {

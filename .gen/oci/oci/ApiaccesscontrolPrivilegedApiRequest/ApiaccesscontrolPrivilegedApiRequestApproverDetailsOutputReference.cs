@@ -47,6 +47,12 @@ namespace oci.ApiaccesscontrolPrivilegedApiRequest
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "approverGroupLevel", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ApproverGroupLevel
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "approverId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApproverId
         {

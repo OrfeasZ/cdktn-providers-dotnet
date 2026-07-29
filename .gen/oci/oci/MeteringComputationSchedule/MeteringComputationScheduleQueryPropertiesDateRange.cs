@@ -9,7 +9,7 @@ namespace oci.MeteringComputationSchedule
     [JsiiByValue(fqn: "oci.meteringComputationSchedule.MeteringComputationScheduleQueryPropertiesDateRange")]
     public class MeteringComputationScheduleQueryPropertiesDateRange : oci.MeteringComputationSchedule.IMeteringComputationScheduleQueryPropertiesDateRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_schedule#date_range_type MeteringComputationSchedule#date_range_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_schedule#date_range_type MeteringComputationSchedule#date_range_type}.</summary>
         [JsiiProperty(name: "dateRangeType", typeJson: "{\"primitive\":\"string\"}")]
         public string DateRangeType
         {
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_schedule#dynamic_date_range_type MeteringComputationSchedule#dynamic_date_range_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_schedule#dynamic_date_range_type MeteringComputationSchedule#dynamic_date_range_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dynamicDateRangeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DynamicDateRangeType
@@ -26,7 +26,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_schedule#time_usage_ended MeteringComputationSchedule#time_usage_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_schedule#time_usage_ended MeteringComputationSchedule#time_usage_ended}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeUsageEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeUsageEnded
@@ -35,7 +35,7 @@ namespace oci.MeteringComputationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_schedule#time_usage_started MeteringComputationSchedule#time_usage_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_schedule#time_usage_started MeteringComputationSchedule#time_usage_started}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeUsageStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeUsageStarted

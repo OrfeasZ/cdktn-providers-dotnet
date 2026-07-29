@@ -11,7 +11,7 @@ namespace aws.PrometheusScraper
 
         /// <summary>amp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
         /// </remarks>
         [JsiiOptional]

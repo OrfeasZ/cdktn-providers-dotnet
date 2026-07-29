@@ -9,7 +9,7 @@ namespace aws.S3TablesTable
     {
         /// <summary>iceberg block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIceberg" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "iceberg", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3TablesTable.S3TablesTableMetadataIceberg\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.S3TablesTable
 
             /// <summary>iceberg block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIceberg" />)[]</para>
             /// </remarks>
             [JsiiOptional]

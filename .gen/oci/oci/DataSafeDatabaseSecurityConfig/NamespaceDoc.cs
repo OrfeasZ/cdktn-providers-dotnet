@@ -5,7 +5,7 @@ namespace oci.DataSafeDatabaseSecurityConfig
     /// <remarks>
     /// <h1><c>oci_data_safe_database_security_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_database_security_config"><c>oci_data_safe_database_security_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_database_security_config"><c>oci_data_safe_database_security_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

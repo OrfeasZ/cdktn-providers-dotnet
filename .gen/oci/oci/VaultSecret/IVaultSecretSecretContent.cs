@@ -7,14 +7,14 @@ namespace oci.VaultSecret
     [JsiiInterface(nativeType: typeof(IVaultSecretSecretContent), fullyQualifiedName: "oci.vaultSecret.VaultSecretSecretContent")]
     public interface IVaultSecretSecretContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         string ContentType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Content
@@ -25,7 +25,7 @@ namespace oci.VaultSecret
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -36,7 +36,7 @@ namespace oci.VaultSecret
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Stage
@@ -54,14 +54,14 @@ namespace oci.VaultSecret
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#content_type VaultSecret#content_type}.</summary>
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#content VaultSecret#content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Content
@@ -69,7 +69,7 @@ namespace oci.VaultSecret
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#name VaultSecret#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -77,7 +77,7 @@ namespace oci.VaultSecret
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#stage VaultSecret#stage}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Stage

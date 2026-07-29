@@ -9,7 +9,7 @@ namespace oci.SelfSubscription
     [JsiiByValue(fqn: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsMeters")]
     public class SelfSubscriptionSubscriptionDetailsBillingDetailsMeters : oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetailsMeters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
         [JsiiProperty(name: "rateAllocation", typeJson: "{\"primitive\":\"number\"}")]
         public double RateAllocation
         {
@@ -29,7 +29,7 @@ namespace oci.SelfSubscription
 
         /// <summary>extended_metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetailsMetersExtendedMetadata" />)[]</para>
         /// </remarks>
         [JsiiOptional]

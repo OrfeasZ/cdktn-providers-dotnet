@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeMaskingAnalytics.DataOciDataSafeMaskingAnalyticsConfig")]
     public class DataOciDataSafeMaskingAnalyticsConfig : oci.DataOciDataSafeMaskingAnalytics.IDataOciDataSafeMaskingAnalyticsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#compartment_id DataOciDataSafeMaskingAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#compartment_id DataOciDataSafeMaskingAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#compartment_id_in_subtree DataOciDataSafeMaskingAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#compartment_id_in_subtree DataOciDataSafeMaskingAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#filter DataOciDataSafeMaskingAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#filter DataOciDataSafeMaskingAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingAnalytics.IDataOciDataSafeMaskingAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -86,7 +86,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#group_by DataOciDataSafeMaskingAnalytics#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#group_by DataOciDataSafeMaskingAnalytics#group_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupBy
@@ -95,7 +95,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#id DataOciDataSafeMaskingAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#id DataOciDataSafeMaskingAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#masking_policy_id DataOciDataSafeMaskingAnalytics#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#masking_policy_id DataOciDataSafeMaskingAnalytics#masking_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaskingPolicyId
@@ -117,7 +117,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#sensitive_type_id DataOciDataSafeMaskingAnalytics#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#sensitive_type_id DataOciDataSafeMaskingAnalytics#sensitive_type_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveTypeId
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#target_database_group_id DataOciDataSafeMaskingAnalytics#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#target_database_group_id DataOciDataSafeMaskingAnalytics#target_database_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetDatabaseGroupId
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#target_id DataOciDataSafeMaskingAnalytics#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#target_id DataOciDataSafeMaskingAnalytics#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

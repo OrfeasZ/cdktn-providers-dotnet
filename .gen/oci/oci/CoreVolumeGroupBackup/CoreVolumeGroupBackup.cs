@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreVolumeGroupBackup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group_backup oci_core_volume_group_backup}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group_backup oci_core_volume_group_backup}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreVolumeGroupBackup.CoreVolumeGroupBackup), fullyQualifiedName: "oci.coreVolumeGroupBackup.CoreVolumeGroupBackup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"oci.coreVolumeGroupBackup.CoreVolumeGroupBackupConfig\"}}]")]
     public class CoreVolumeGroupBackup : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group_backup oci_core_volume_group_backup} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group_backup oci_core_volume_group_backup} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreVolumeGroupBackup(Constructs.Construct scope, string id, oci.CoreVolumeGroupBackup.ICoreVolumeGroupBackupConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace oci.CoreVolumeGroupBackup
         /// <param name="importToId">The construct id used in the generated config for the CoreVolumeGroupBackup to import.</param>
         /// <param name="importFromId">The id of the existing CoreVolumeGroupBackup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreVolumeGroupBackup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreVolumeGroupBackup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group_backup#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreVolumeGroupBackup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreVolumeGroupBackup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreVolumeGroupBackup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group_backup#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreVolumeGroupBackup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreVolumeGroupBackup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreVolumeGroupBackup.CoreVolumeGroupBackup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putRetentionPeriod", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriod\"}}]")]
+        public virtual void PutRetentionPeriod(oci.CoreVolumeGroupBackup.ICoreVolumeGroupBackupRetentionPeriod @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreVolumeGroupBackup.ICoreVolumeGroupBackupRetentionPeriod)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putSourceDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreVolumeGroupBackup.CoreVolumeGroupBackupSourceDetails\"}}]")]
@@ -84,6 +90,30 @@ namespace oci.CoreVolumeGroupBackup
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsIndefiniteRetentionEnabled")]
+        public virtual void ResetIsIndefiniteRetentionEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsPreventDeletionEnabled")]
+        public virtual void ResetIsPreventDeletionEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsRetentionLockEnabled")]
+        public virtual void ResetIsRetentionLockEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRetentionPeriod")]
+        public virtual void ResetRetentionPeriod()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -135,6 +165,12 @@ namespace oci.CoreVolumeGroupBackup
         public virtual string ExpirationTime
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.coreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriodOutputReference\"}")]
+        public virtual oci.CoreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriodOutputReference RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.CoreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriodOutputReference>()!;
         }
 
         [JsiiProperty(name: "sizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
@@ -191,6 +227,12 @@ namespace oci.CoreVolumeGroupBackup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeRetentionExpiresAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeRetentionExpiresAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "uniqueSizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UniqueSizeInGbs
         {
@@ -242,6 +284,43 @@ namespace oci.CoreVolumeGroupBackup
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isIndefiniteRetentionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsIndefiniteRetentionEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isPreventDeletionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsPreventDeletionEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isRetentionLockEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsRetentionLockEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "retentionPeriodInput", typeJson: "{\"fqn\":\"oci.coreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriod\"}", isOptional: true)]
+        public virtual oci.CoreVolumeGroupBackup.ICoreVolumeGroupBackupRetentionPeriod? RetentionPeriodInput
+        {
+            get => GetInstanceProperty<oci.CoreVolumeGroupBackup.ICoreVolumeGroupBackupRetentionPeriod?>();
         }
 
         [JsiiOptional]
@@ -308,6 +387,96 @@ namespace oci.CoreVolumeGroupBackup
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isIndefiniteRetentionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsIndefiniteRetentionEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]

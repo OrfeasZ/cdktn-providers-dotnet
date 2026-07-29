@@ -9,7 +9,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
     [JsiiByValue(fqn: "oci.logAnalyticsLogAnalyticsEntityType.LogAnalyticsLogAnalyticsEntityTypeConfig")]
     public class LogAnalyticsLogAnalyticsEntityTypeConfig : oci.LogAnalyticsLogAnalyticsEntityType.ILogAnalyticsLogAnalyticsEntityTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#name LogAnalyticsLogAnalyticsEntityType#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#name LogAnalyticsLogAnalyticsEntityType#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#namespace LogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#namespace LogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#category LogAnalyticsLogAnalyticsEntityType#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#category LogAnalyticsLogAnalyticsEntityType#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Category
@@ -34,7 +34,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#id LogAnalyticsLogAnalyticsEntityType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#id LogAnalyticsLogAnalyticsEntityType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
 
         /// <summary>properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#properties LogAnalyticsLogAnalyticsEntityType#properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#properties LogAnalyticsLogAnalyticsEntityType#properties}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsLogAnalyticsEntityType.ILogAnalyticsLogAnalyticsEntityTypeProperties" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -84,7 +84,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_log_analytics_entity_type#timeouts LogAnalyticsLogAnalyticsEntityType#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#timeouts LogAnalyticsLogAnalyticsEntityType#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsLogAnalyticsEntityType.LogAnalyticsLogAnalyticsEntityTypeTimeouts\"}", isOptional: true)]

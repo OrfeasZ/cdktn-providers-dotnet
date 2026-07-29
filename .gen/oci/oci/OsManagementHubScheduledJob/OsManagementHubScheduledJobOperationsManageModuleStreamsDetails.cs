@@ -11,7 +11,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>disable block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_scheduled_job#disable OsManagementHubScheduledJob#disable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_scheduled_job#disable OsManagementHubScheduledJob#disable}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsDisable" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>enable block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_scheduled_job#enable OsManagementHubScheduledJob#enable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_scheduled_job#enable OsManagementHubScheduledJob#enable}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsEnable" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>install block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_scheduled_job#install OsManagementHubScheduledJob#install}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_scheduled_job#install OsManagementHubScheduledJob#install}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsInstall" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.OsManagementHubScheduledJob
 
         /// <summary>remove block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_scheduled_job#remove OsManagementHubScheduledJob#remove}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_scheduled_job#remove OsManagementHubScheduledJob#remove}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubScheduledJob.IOsManagementHubScheduledJobOperationsManageModuleStreamsDetailsRemove" />)[]</para>
         /// </remarks>
         [JsiiOptional]

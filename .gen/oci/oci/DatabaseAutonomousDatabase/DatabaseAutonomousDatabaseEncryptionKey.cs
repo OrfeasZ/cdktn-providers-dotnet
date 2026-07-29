@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseEncryptionKey")]
     public class DatabaseAutonomousDatabaseEncryptionKey : oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseEncryptionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#arn_role DatabaseAutonomousDatabase#arn_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#arn_role DatabaseAutonomousDatabase#arn_role}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arnRole", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArnRole
@@ -16,7 +16,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#autonomous_database_provider DatabaseAutonomousDatabase#autonomous_database_provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#autonomous_database_provider DatabaseAutonomousDatabase#autonomous_database_provider}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autonomousDatabaseProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutonomousDatabaseProvider
@@ -25,7 +25,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#certificate_directory_name DatabaseAutonomousDatabase#certificate_directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#certificate_directory_name DatabaseAutonomousDatabase#certificate_directory_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateDirectoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateDirectoryName
@@ -34,7 +34,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#certificate_id DatabaseAutonomousDatabase#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#certificate_id DatabaseAutonomousDatabase#certificate_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateId
@@ -43,7 +43,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#directory_name DatabaseAutonomousDatabase#directory_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#directory_name DatabaseAutonomousDatabase#directory_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "directoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DirectoryName
@@ -52,7 +52,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#external_id DatabaseAutonomousDatabase#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#external_id DatabaseAutonomousDatabase#external_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalId
@@ -61,7 +61,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#key_arn DatabaseAutonomousDatabase#key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#key_arn DatabaseAutonomousDatabase#key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyArn
@@ -70,7 +70,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#key_name DatabaseAutonomousDatabase#key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#key_name DatabaseAutonomousDatabase#key_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyName
@@ -79,7 +79,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#key_ring DatabaseAutonomousDatabase#key_ring}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#key_ring DatabaseAutonomousDatabase#key_ring}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyRing", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyRing
@@ -88,7 +88,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#kms_key_id DatabaseAutonomousDatabase#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#kms_key_id DatabaseAutonomousDatabase#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -97,7 +97,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#kms_rest_endpoint DatabaseAutonomousDatabase#kms_rest_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#kms_rest_endpoint DatabaseAutonomousDatabase#kms_rest_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsRestEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsRestEndpoint
@@ -106,7 +106,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#location DatabaseAutonomousDatabase#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#location DatabaseAutonomousDatabase#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
@@ -115,7 +115,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#okv_kms_key DatabaseAutonomousDatabase#okv_kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#okv_kms_key DatabaseAutonomousDatabase#okv_kms_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "okvKmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OkvKmsKey
@@ -124,7 +124,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#okv_uri DatabaseAutonomousDatabase#okv_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#okv_uri DatabaseAutonomousDatabase#okv_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "okvUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OkvUri
@@ -133,7 +133,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#project DatabaseAutonomousDatabase#project}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#project DatabaseAutonomousDatabase#project}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "project", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Project
@@ -142,7 +142,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#service_endpoint_uri DatabaseAutonomousDatabase#service_endpoint_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#service_endpoint_uri DatabaseAutonomousDatabase#service_endpoint_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceEndpointUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceEndpointUri
@@ -151,7 +151,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#vault_id DatabaseAutonomousDatabase#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#vault_id DatabaseAutonomousDatabase#vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultId
@@ -160,7 +160,7 @@ namespace oci.DatabaseAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_autonomous_database#vault_uri DatabaseAutonomousDatabase#vault_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_autonomous_database#vault_uri DatabaseAutonomousDatabase#vault_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultUri

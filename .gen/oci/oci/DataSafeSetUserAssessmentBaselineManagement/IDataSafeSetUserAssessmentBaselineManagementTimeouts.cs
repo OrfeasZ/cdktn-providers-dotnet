@@ -7,7 +7,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
     [JsiiInterface(nativeType: typeof(IDataSafeSetUserAssessmentBaselineManagementTimeouts), fullyQualifiedName: "oci.dataSafeSetUserAssessmentBaselineManagement.DataSafeSetUserAssessmentBaselineManagementTimeouts")]
     public interface IDataSafeSetUserAssessmentBaselineManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#create DataSafeSetUserAssessmentBaselineManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#delete DataSafeSetUserAssessmentBaselineManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DataSafeSetUserAssessmentBaselineManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_set_user_assessment_baseline_management#update DataSafeSetUserAssessmentBaselineManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

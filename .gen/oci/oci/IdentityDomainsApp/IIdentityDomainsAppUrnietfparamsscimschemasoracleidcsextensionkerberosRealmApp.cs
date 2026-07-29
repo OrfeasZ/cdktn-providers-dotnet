@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionkerberosRealmApp), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionkerberosRealmApp")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionkerberosRealmApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}.</summary>
         [JsiiProperty(name: "defaultEncryptionSaltType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultEncryptionSaltType
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}.</summary>
         [JsiiProperty(name: "masterKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MasterKey
@@ -29,7 +29,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}.</summary>
         [JsiiProperty(name: "maxRenewableAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxRenewableAge
@@ -40,7 +40,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}.</summary>
         [JsiiProperty(name: "maxTicketLife", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxTicketLife
@@ -51,7 +51,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}.</summary>
         [JsiiProperty(name: "realmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RealmName
@@ -62,7 +62,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}.</summary>
         [JsiiProperty(name: "supportedEncryptionSaltTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SupportedEncryptionSaltTypes
@@ -73,7 +73,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}.</summary>
         [JsiiProperty(name: "ticketFlags", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TicketFlags
@@ -91,7 +91,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#default_encryption_salt_type IdentityDomainsApp#default_encryption_salt_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultEncryptionSaltType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultEncryptionSaltType
@@ -99,7 +99,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#master_key IdentityDomainsApp#master_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "masterKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MasterKey
@@ -107,7 +107,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_renewable_age IdentityDomainsApp#max_renewable_age}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxRenewableAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxRenewableAge
@@ -115,7 +115,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_ticket_life IdentityDomainsApp#max_ticket_life}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxTicketLife", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxTicketLife
@@ -123,7 +123,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#realm_name IdentityDomainsApp#realm_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "realmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RealmName
@@ -131,7 +131,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#supported_encryption_salt_types IdentityDomainsApp#supported_encryption_salt_types}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "supportedEncryptionSaltTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SupportedEncryptionSaltTypes
@@ -139,7 +139,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#ticket_flags IdentityDomainsApp#ticket_flags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ticketFlags", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TicketFlags

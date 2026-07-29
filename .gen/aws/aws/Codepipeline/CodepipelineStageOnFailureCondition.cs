@@ -13,7 +13,7 @@ namespace aws.Codepipeline
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/codepipeline#rule Codepipeline#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codepipeline#rule Codepipeline#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageOnFailureConditionRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageOnFailureConditionRule\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace aws.Codepipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "result", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Result

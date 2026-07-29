@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsNotificationSetting
     [JsiiByValue(fqn: "oci.identityDomainsNotificationSetting.IdentityDomainsNotificationSettingEventSettings")]
     public class IdentityDomainsNotificationSettingEventSettings : oci.IdentityDomainsNotificationSetting.IIdentityDomainsNotificationSettingEventSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_notification_setting#event_id IdentityDomainsNotificationSetting#event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_notification_setting#event_id IdentityDomainsNotificationSetting#event_id}.</summary>
         [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
         public string EventId
         {
@@ -19,7 +19,7 @@ namespace oci.IdentityDomainsNotificationSetting
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_notification_setting#enabled IdentityDomainsNotificationSetting#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_notification_setting#enabled IdentityDomainsNotificationSetting#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

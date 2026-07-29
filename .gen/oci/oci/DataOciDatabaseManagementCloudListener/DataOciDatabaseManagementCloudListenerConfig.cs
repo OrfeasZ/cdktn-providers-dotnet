@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudListener
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudListener.DataOciDatabaseManagementCloudListenerConfig")]
     public class DataOciDatabaseManagementCloudListenerConfig : oci.DataOciDatabaseManagementCloudListener.IDataOciDatabaseManagementCloudListenerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_listener#cloud_listener_id DataOciDatabaseManagementCloudListener#cloud_listener_id}.</summary>
         [JsiiProperty(name: "cloudListenerId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudListenerId
         {

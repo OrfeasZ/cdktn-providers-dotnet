@@ -9,7 +9,7 @@ namespace oci.AiDocumentProcessorJob
     [JsiiByValue(fqn: "oci.aiDocumentProcessorJob.AiDocumentProcessorJobConfig")]
     public class AiDocumentProcessorJobConfig : oci.AiDocumentProcessorJob.IAiDocumentProcessorJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#compartment_id AiDocumentProcessorJob#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#compartment_id AiDocumentProcessorJob#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>input_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#input_location AiDocumentProcessorJob#input_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#input_location AiDocumentProcessorJob#input_location}
         /// </remarks>
         [JsiiProperty(name: "inputLocation", typeJson: "{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobInputLocation\"}")]
         public oci.AiDocumentProcessorJob.IAiDocumentProcessorJobInputLocation InputLocation
@@ -30,7 +30,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>output_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#output_location AiDocumentProcessorJob#output_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#output_location AiDocumentProcessorJob#output_location}
         /// </remarks>
         [JsiiProperty(name: "outputLocation", typeJson: "{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobOutputLocation\"}")]
         public oci.AiDocumentProcessorJob.IAiDocumentProcessorJobOutputLocation OutputLocation
@@ -41,7 +41,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>processor_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#processor_config AiDocumentProcessorJob#processor_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#processor_config AiDocumentProcessorJob#processor_config}
         /// </remarks>
         [JsiiProperty(name: "processorConfig", typeJson: "{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfig\"}")]
         public oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfig ProcessorConfig
@@ -50,7 +50,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#display_name AiDocumentProcessorJob#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#display_name AiDocumentProcessorJob#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#id AiDocumentProcessorJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#id AiDocumentProcessorJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ai_document_processor_job#timeouts AiDocumentProcessorJob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_document_processor_job#timeouts AiDocumentProcessorJob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobTimeouts\"}", isOptional: true)]

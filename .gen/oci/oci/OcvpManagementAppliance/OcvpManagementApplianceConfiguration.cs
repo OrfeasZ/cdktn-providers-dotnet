@@ -11,7 +11,7 @@ namespace oci.OcvpManagementAppliance
     {
         private object _isLogIngestionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_management_appliance#is_log_ingestion_enabled OcvpManagementAppliance#is_log_ingestion_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace oci.OcvpManagementAppliance
 
         private object _isMetricsCollectionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_management_appliance#is_metrics_collection_enabled OcvpManagementAppliance#is_metrics_collection_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace oci.OcvpManagementAppliance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_management_appliance#metrics OcvpManagementAppliance#metrics}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Metrics
@@ -84,7 +84,7 @@ namespace oci.OcvpManagementAppliance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_management_appliance#support_bundle_bucket_id OcvpManagementAppliance#support_bundle_bucket_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "supportBundleBucketId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SupportBundleBucketId

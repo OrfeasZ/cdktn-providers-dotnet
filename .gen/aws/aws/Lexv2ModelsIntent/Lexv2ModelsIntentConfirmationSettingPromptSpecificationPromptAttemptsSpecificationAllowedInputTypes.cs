@@ -11,7 +11,7 @@ namespace aws.Lexv2ModelsIntent
     {
         private object _allowAudioInput;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/lexv2models_intent#allow_audio_input Lexv2ModelsIntent#allow_audio_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lexv2models_intent#allow_audio_input Lexv2ModelsIntent#allow_audio_input}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace aws.Lexv2ModelsIntent
 
         private object _allowDtmfInput;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/lexv2models_intent#allow_dtmf_input Lexv2ModelsIntent#allow_dtmf_input}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lexv2models_intent#allow_dtmf_input Lexv2ModelsIntent#allow_dtmf_input}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

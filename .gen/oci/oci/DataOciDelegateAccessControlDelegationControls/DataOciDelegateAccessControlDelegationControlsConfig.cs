@@ -9,7 +9,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
     [JsiiByValue(fqn: "oci.dataOciDelegateAccessControlDelegationControls.DataOciDelegateAccessControlDelegationControlsConfig")]
     public class DataOciDelegateAccessControlDelegationControlsConfig : oci.DataOciDelegateAccessControlDelegationControls.IDataOciDelegateAccessControlDelegationControlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#compartment_id DataOciDelegateAccessControlDelegationControls#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#compartment_id DataOciDelegateAccessControlDelegationControls#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#display_name DataOciDelegateAccessControlDelegationControls#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#display_name DataOciDelegateAccessControlDelegationControls#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#filter DataOciDelegateAccessControlDelegationControls#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#filter DataOciDelegateAccessControlDelegationControls#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDelegateAccessControlDelegationControls.IDataOciDelegateAccessControlDelegationControlsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#id DataOciDelegateAccessControlDelegationControls#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#id DataOciDelegateAccessControlDelegationControls#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#resource_id DataOciDelegateAccessControlDelegationControls#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#resource_id DataOciDelegateAccessControlDelegationControls#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -83,7 +83,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#resource_type DataOciDelegateAccessControlDelegationControls#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#resource_type DataOciDelegateAccessControlDelegationControls#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -92,7 +92,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/delegate_access_control_delegation_controls#state DataOciDelegateAccessControlDelegationControls#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_controls#state DataOciDelegateAccessControlDelegationControls#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -7,21 +7,21 @@ namespace oci.DataOciOcvpRetrievePassword
     [JsiiInterface(nativeType: typeof(IDataOciOcvpRetrievePasswordConfig), fullyQualifiedName: "oci.dataOciOcvpRetrievePassword.DataOciOcvpRetrievePasswordConfig")]
     public interface IDataOciOcvpRetrievePasswordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#sddc_id DataOciOcvpRetrievePassword#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#sddc_id DataOciOcvpRetrievePassword#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         string SddcId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#type DataOciOcvpRetrievePassword#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#type DataOciOcvpRetrievePassword#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#id DataOciOcvpRetrievePassword#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#id DataOciOcvpRetrievePassword#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciOcvpRetrievePassword
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#sddc_id DataOciOcvpRetrievePassword#sddc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#sddc_id DataOciOcvpRetrievePassword#sddc_id}.</summary>
             [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
             public string SddcId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#type DataOciOcvpRetrievePassword#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#type DataOciOcvpRetrievePassword#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_retrieve_password#id DataOciOcvpRetrievePassword#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_retrieve_password#id DataOciOcvpRetrievePassword#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

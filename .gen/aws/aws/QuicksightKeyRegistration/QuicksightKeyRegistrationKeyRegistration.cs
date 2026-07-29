@@ -9,7 +9,7 @@ namespace aws.QuicksightKeyRegistration
     [JsiiByValue(fqn: "aws.quicksightKeyRegistration.QuicksightKeyRegistrationKeyRegistration")]
     public class QuicksightKeyRegistrationKeyRegistration : aws.QuicksightKeyRegistration.IQuicksightKeyRegistrationKeyRegistration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_key_registration#key_arn QuicksightKeyRegistration#key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_key_registration#key_arn QuicksightKeyRegistration#key_arn}.</summary>
         [JsiiProperty(name: "keyArn", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyArn
         {
@@ -19,7 +19,7 @@ namespace aws.QuicksightKeyRegistration
 
         private object? _defaultKey;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/quicksight_key_registration#default_key QuicksightKeyRegistration#default_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_key_registration#default_key QuicksightKeyRegistration#default_key}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

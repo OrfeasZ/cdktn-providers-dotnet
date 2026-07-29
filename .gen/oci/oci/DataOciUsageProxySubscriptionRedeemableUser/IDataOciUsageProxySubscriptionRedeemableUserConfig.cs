@@ -7,14 +7,14 @@ namespace oci.DataOciUsageProxySubscriptionRedeemableUser
     [JsiiInterface(nativeType: typeof(IDataOciUsageProxySubscriptionRedeemableUserConfig), fullyQualifiedName: "oci.dataOciUsageProxySubscriptionRedeemableUser.DataOciUsageProxySubscriptionRedeemableUserConfig")]
     public interface IDataOciUsageProxySubscriptionRedeemableUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/usage_proxy_subscription_redeemable_user#subscription_id DataOciUsageProxySubscriptionRedeemableUser#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/usage_proxy_subscription_redeemable_user#subscription_id DataOciUsageProxySubscriptionRedeemableUser#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/usage_proxy_subscription_redeemable_user#tenancy_id DataOciUsageProxySubscriptionRedeemableUser#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/usage_proxy_subscription_redeemable_user#tenancy_id DataOciUsageProxySubscriptionRedeemableUser#tenancy_id}.</summary>
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
         string TenancyId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciUsageProxySubscriptionRedeemableUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/usage_proxy_subscription_redeemable_user#subscription_id DataOciUsageProxySubscriptionRedeemableUser#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/usage_proxy_subscription_redeemable_user#subscription_id DataOciUsageProxySubscriptionRedeemableUser#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/usage_proxy_subscription_redeemable_user#tenancy_id DataOciUsageProxySubscriptionRedeemableUser#tenancy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/usage_proxy_subscription_redeemable_user#tenancy_id DataOciUsageProxySubscriptionRedeemableUser#tenancy_id}.</summary>
             [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}")]
             public string TenancyId
             {

@@ -83,10 +83,34 @@ namespace oci.DataOciCoreBootVolumeBackups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isIndefiniteRetentionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsIndefiniteRetentionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.dataOciCoreBootVolumeBackups.DataOciCoreBootVolumeBackupsBootVolumeBackupsRetentionPeriodList\"}")]
+        public virtual oci.DataOciCoreBootVolumeBackups.DataOciCoreBootVolumeBackupsBootVolumeBackupsRetentionPeriodList RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.DataOciCoreBootVolumeBackups.DataOciCoreBootVolumeBackupsBootVolumeBackupsRetentionPeriodList>()!;
         }
 
         [JsiiProperty(name: "sizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
@@ -137,6 +161,12 @@ namespace oci.DataOciCoreBootVolumeBackups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeRetentionExpiresAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeRetentionExpiresAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {
@@ -145,6 +175,12 @@ namespace oci.DataOciCoreBootVolumeBackups
 
         [JsiiProperty(name: "uniqueSizeInGbs", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UniqueSizeInGbs
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "volumeGroupBackupId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VolumeGroupBackupId
         {
             get => GetInstanceProperty<string>()!;
         }

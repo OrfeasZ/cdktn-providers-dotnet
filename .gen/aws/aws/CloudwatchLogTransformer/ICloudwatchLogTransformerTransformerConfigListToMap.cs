@@ -7,21 +7,21 @@ namespace aws.CloudwatchLogTransformer
     [JsiiInterface(nativeType: typeof(ICloudwatchLogTransformerTransformerConfigListToMap), fullyQualifiedName: "aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigListToMap")]
     public interface ICloudwatchLogTransformerTransformerConfigListToMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         string Source
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace aws.CloudwatchLogTransformer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}.</summary>
         [JsiiProperty(name: "flattenedElement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FlattenedElement
@@ -46,7 +46,7 @@ namespace aws.CloudwatchLogTransformer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Target
@@ -57,7 +57,7 @@ namespace aws.CloudwatchLogTransformer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}.</summary>
         [JsiiProperty(name: "valueKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValueKey
@@ -75,21 +75,21 @@ namespace aws.CloudwatchLogTransformer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#key CloudwatchLogTransformer#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#source CloudwatchLogTransformer#source}.</summary>
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
             public string Source
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flatten CloudwatchLogTransformer#flatten}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -100,7 +100,7 @@ namespace aws.CloudwatchLogTransformer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#flattened_element CloudwatchLogTransformer#flattened_element}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "flattenedElement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FlattenedElement
@@ -108,7 +108,7 @@ namespace aws.CloudwatchLogTransformer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#target CloudwatchLogTransformer#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Target
@@ -116,7 +116,7 @@ namespace aws.CloudwatchLogTransformer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#value_key CloudwatchLogTransformer#value_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "valueKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValueKey

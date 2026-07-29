@@ -9,7 +9,7 @@ namespace oci.CloudBridgeAsset
     {
         /// <summary>association block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#association CloudBridgeAsset#association}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#association CloudBridgeAsset#association}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "association", typeJson: "{\"fqn\":\"oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2NetworkInterfacesPrivateIpAddressesAssociation\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.CloudBridgeAsset
 
         private object? _isPrimary;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#is_primary CloudBridgeAsset#is_primary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#is_primary CloudBridgeAsset#is_primary}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#private_dns_name CloudBridgeAsset#private_dns_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#private_dns_name CloudBridgeAsset#private_dns_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateDnsName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateDnsName
@@ -62,7 +62,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#private_ip_address CloudBridgeAsset#private_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#private_ip_address CloudBridgeAsset#private_ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateIpAddress

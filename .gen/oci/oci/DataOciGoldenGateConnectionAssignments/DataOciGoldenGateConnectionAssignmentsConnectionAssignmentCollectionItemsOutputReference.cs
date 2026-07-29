@@ -53,6 +53,12 @@ namespace oci.DataOciGoldenGateConnectionAssignments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectionType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DeploymentId
         {

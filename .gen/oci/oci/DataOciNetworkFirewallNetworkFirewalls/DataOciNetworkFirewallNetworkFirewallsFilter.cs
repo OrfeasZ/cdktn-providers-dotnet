@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewalls
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewalls.DataOciNetworkFirewallNetworkFirewallsFilter")]
     public class DataOciNetworkFirewallNetworkFirewallsFilter : oci.DataOciNetworkFirewallNetworkFirewalls.IDataOciNetworkFirewallNetworkFirewallsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewalls#name DataOciNetworkFirewallNetworkFirewalls#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewalls#name DataOciNetworkFirewallNetworkFirewalls#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewalls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewalls#values DataOciNetworkFirewallNetworkFirewalls#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewalls#values DataOciNetworkFirewallNetworkFirewalls#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewalls
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewalls#regex DataOciNetworkFirewallNetworkFirewalls#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewalls#regex DataOciNetworkFirewallNetworkFirewalls#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

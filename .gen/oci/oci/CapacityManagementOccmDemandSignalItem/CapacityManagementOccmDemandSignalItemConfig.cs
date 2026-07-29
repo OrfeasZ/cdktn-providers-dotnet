@@ -9,7 +9,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
     [JsiiByValue(fqn: "oci.capacityManagementOccmDemandSignalItem.CapacityManagementOccmDemandSignalItemConfig")]
     public class CapacityManagementOccmDemandSignalItemConfig : oci.CapacityManagementOccmDemandSignalItem.ICapacityManagementOccmDemandSignalItemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#compartment_id CapacityManagementOccmDemandSignalItem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#compartment_id CapacityManagementOccmDemandSignalItem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#demand_quantity CapacityManagementOccmDemandSignalItem#demand_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#demand_quantity CapacityManagementOccmDemandSignalItem#demand_quantity}.</summary>
         [JsiiProperty(name: "demandQuantity", typeJson: "{\"primitive\":\"string\"}")]
         public string DemandQuantity
         {
@@ -25,7 +25,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_catalog_resource_id CapacityManagementOccmDemandSignalItem#demand_signal_catalog_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_catalog_resource_id CapacityManagementOccmDemandSignalItem#demand_signal_catalog_resource_id}.</summary>
         [JsiiProperty(name: "demandSignalCatalogResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DemandSignalCatalogResourceId
         {
@@ -33,7 +33,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_id CapacityManagementOccmDemandSignalItem#demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#demand_signal_id CapacityManagementOccmDemandSignalItem#demand_signal_id}.</summary>
         [JsiiProperty(name: "demandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         public string DemandSignalId
         {
@@ -41,7 +41,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#region CapacityManagementOccmDemandSignalItem#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#region CapacityManagementOccmDemandSignalItem#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -49,7 +49,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#request_type CapacityManagementOccmDemandSignalItem#request_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#request_type CapacityManagementOccmDemandSignalItem#request_type}.</summary>
         [JsiiProperty(name: "requestType", typeJson: "{\"primitive\":\"string\"}")]
         public string RequestType
         {
@@ -57,7 +57,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#resource_properties CapacityManagementOccmDemandSignalItem#resource_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#resource_properties CapacityManagementOccmDemandSignalItem#resource_properties}.</summary>
         [JsiiProperty(name: "resourceProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> ResourceProperties
         {
@@ -65,7 +65,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#time_needed_before CapacityManagementOccmDemandSignalItem#time_needed_before}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#time_needed_before CapacityManagementOccmDemandSignalItem#time_needed_before}.</summary>
         [JsiiProperty(name: "timeNeededBefore", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeNeededBefore
         {
@@ -73,7 +73,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#availability_domain CapacityManagementOccmDemandSignalItem#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#availability_domain CapacityManagementOccmDemandSignalItem#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -82,7 +82,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#defined_tags CapacityManagementOccmDemandSignalItem#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#defined_tags CapacityManagementOccmDemandSignalItem#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -91,7 +91,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#freeform_tags CapacityManagementOccmDemandSignalItem#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#freeform_tags CapacityManagementOccmDemandSignalItem#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -100,7 +100,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#id CapacityManagementOccmDemandSignalItem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#id CapacityManagementOccmDemandSignalItem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#notes CapacityManagementOccmDemandSignalItem#notes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#notes CapacityManagementOccmDemandSignalItem#notes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Notes
@@ -122,7 +122,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#target_compartment_id CapacityManagementOccmDemandSignalItem#target_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#target_compartment_id CapacityManagementOccmDemandSignalItem#target_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetCompartmentId
@@ -133,7 +133,7 @@ namespace oci.CapacityManagementOccmDemandSignalItem
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/capacity_management_occm_demand_signal_item#timeouts CapacityManagementOccmDemandSignalItem#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occm_demand_signal_item#timeouts CapacityManagementOccmDemandSignalItem#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.capacityManagementOccmDemandSignalItem.CapacityManagementOccmDemandSignalItemTimeouts\"}", isOptional: true)]

@@ -7,21 +7,21 @@ namespace oci.OspGatewaySubscription
     [JsiiInterface(nativeType: typeof(IOspGatewaySubscriptionConfig), fullyQualifiedName: "oci.ospGatewaySubscription.OspGatewaySubscriptionConfig")]
     public interface IOspGatewaySubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}.</summary>
         [JsiiProperty(name: "ospHomeRegion", typeJson: "{\"primitive\":\"string\"}")]
         string OspHomeRegion
         {
@@ -30,7 +30,7 @@ namespace oci.OspGatewaySubscription
 
         /// <summary>subscription block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
         /// </remarks>
         [JsiiProperty(name: "subscription", typeJson: "{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscription\"}")]
         oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscription Subscription
@@ -38,14 +38,14 @@ namespace oci.OspGatewaySubscription
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace oci.OspGatewaySubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,21 +81,21 @@ namespace oci.OspGatewaySubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#compartment_id OspGatewaySubscription#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#email OspGatewaySubscription#email}.</summary>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#osp_home_region OspGatewaySubscription#osp_home_region}.</summary>
             [JsiiProperty(name: "ospHomeRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string OspHomeRegion
             {
@@ -104,7 +104,7 @@ namespace oci.OspGatewaySubscription
 
             /// <summary>subscription block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#subscription OspGatewaySubscription#subscription}
             /// </remarks>
             [JsiiProperty(name: "subscription", typeJson: "{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionSubscription\"}")]
             public oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscription Subscription
@@ -112,14 +112,14 @@ namespace oci.OspGatewaySubscription
                 get => GetInstanceProperty<oci.OspGatewaySubscription.IOspGatewaySubscriptionSubscription>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#subscription_id OspGatewaySubscription#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#id OspGatewaySubscription#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -133,7 +133,7 @@ namespace oci.OspGatewaySubscription
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/osp_gateway_subscription#timeouts OspGatewaySubscription#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ospGatewaySubscription.OspGatewaySubscriptionTimeouts\"}", isOptional: true)]

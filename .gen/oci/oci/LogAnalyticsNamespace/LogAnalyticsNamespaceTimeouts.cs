@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespace
     [JsiiByValue(fqn: "oci.logAnalyticsNamespace.LogAnalyticsNamespaceTimeouts")]
     public class LogAnalyticsNamespaceTimeouts : oci.LogAnalyticsNamespace.ILogAnalyticsNamespaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace#create LogAnalyticsNamespace#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace#create LogAnalyticsNamespace#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/log_analytics_namespace#update LogAnalyticsNamespace#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace#update LogAnalyticsNamespace#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

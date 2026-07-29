@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGlobalImageCapabilitySchemasVersions.DataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter")]
     public class DataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter : oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions.IDataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#name DataOciCoreComputeGlobalImageCapabilitySchemasVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#name DataOciCoreComputeGlobalImageCapabilitySchemasVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#values DataOciCoreComputeGlobalImageCapabilitySchemasVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#values DataOciCoreComputeGlobalImageCapabilitySchemasVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#regex DataOciCoreComputeGlobalImageCapabilitySchemasVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#regex DataOciCoreComputeGlobalImageCapabilitySchemasVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

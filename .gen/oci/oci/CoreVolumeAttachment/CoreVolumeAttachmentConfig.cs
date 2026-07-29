@@ -9,7 +9,7 @@ namespace oci.CoreVolumeAttachment
     [JsiiByValue(fqn: "oci.coreVolumeAttachment.CoreVolumeAttachmentConfig")]
     public class CoreVolumeAttachmentConfig : oci.CoreVolumeAttachment.ICoreVolumeAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#attachment_type CoreVolumeAttachment#attachment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#attachment_type CoreVolumeAttachment#attachment_type}.</summary>
         [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}")]
         public string AttachmentType
         {
@@ -17,7 +17,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#instance_id CoreVolumeAttachment#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#instance_id CoreVolumeAttachment#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -25,7 +25,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#volume_id CoreVolumeAttachment#volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#volume_id CoreVolumeAttachment#volume_id}.</summary>
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeId
         {
@@ -33,7 +33,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#compartment_id CoreVolumeAttachment#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#compartment_id CoreVolumeAttachment#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -42,7 +42,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#device CoreVolumeAttachment#device}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#device CoreVolumeAttachment#device}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "device", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Device
@@ -51,7 +51,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#display_name CoreVolumeAttachment#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#display_name CoreVolumeAttachment#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -60,7 +60,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#encryption_in_transit_type CoreVolumeAttachment#encryption_in_transit_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#encryption_in_transit_type CoreVolumeAttachment#encryption_in_transit_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionInTransitType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionInTransitType
@@ -69,7 +69,7 @@ namespace oci.CoreVolumeAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#id CoreVolumeAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#id CoreVolumeAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace oci.CoreVolumeAttachment
 
         private object? _isAgentAutoIscsiLoginEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#is_agent_auto_iscsi_login_enabled CoreVolumeAttachment#is_agent_auto_iscsi_login_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#is_agent_auto_iscsi_login_enabled CoreVolumeAttachment#is_agent_auto_iscsi_login_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -118,7 +118,7 @@ namespace oci.CoreVolumeAttachment
 
         private object? _isPvEncryptionInTransitEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#is_pv_encryption_in_transit_enabled CoreVolumeAttachment#is_pv_encryption_in_transit_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#is_pv_encryption_in_transit_enabled CoreVolumeAttachment#is_pv_encryption_in_transit_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -152,7 +152,7 @@ namespace oci.CoreVolumeAttachment
 
         private object? _isReadOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#is_read_only CoreVolumeAttachment#is_read_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#is_read_only CoreVolumeAttachment#is_read_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -186,7 +186,7 @@ namespace oci.CoreVolumeAttachment
 
         private object? _isShareable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#is_shareable CoreVolumeAttachment#is_shareable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#is_shareable CoreVolumeAttachment#is_shareable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -220,7 +220,7 @@ namespace oci.CoreVolumeAttachment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#timeouts CoreVolumeAttachment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#timeouts CoreVolumeAttachment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreVolumeAttachment.CoreVolumeAttachmentTimeouts\"}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace oci.CoreVolumeAttachment
 
         private object? _useChap;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_attachment#use_chap CoreVolumeAttachment#use_chap}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_attachment#use_chap CoreVolumeAttachment#use_chap}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

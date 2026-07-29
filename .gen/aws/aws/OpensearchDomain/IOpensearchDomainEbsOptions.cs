@@ -7,7 +7,7 @@ namespace aws.OpensearchDomain
     [JsiiInterface(nativeType: typeof(IOpensearchDomainEbsOptions), fullyQualifiedName: "aws.opensearchDomain.OpensearchDomainEbsOptions")]
     public interface IOpensearchDomainEbsOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace aws.OpensearchDomain
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}.</summary>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Iops
@@ -28,7 +28,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}.</summary>
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Throughput
@@ -39,7 +39,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}.</summary>
         [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? VolumeSize
@@ -50,7 +50,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}.</summary>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VolumeType
@@ -68,7 +68,7 @@ namespace aws.OpensearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#ebs_enabled OpensearchDomain#ebs_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#iops OpensearchDomain#iops}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Iops
@@ -86,7 +86,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#throughput OpensearchDomain#throughput}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Throughput
@@ -94,7 +94,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#volume_size OpensearchDomain#volume_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? VolumeSize
@@ -102,7 +102,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#volume_type OpensearchDomain#volume_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VolumeType

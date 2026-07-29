@@ -7,14 +7,14 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
     [JsiiInterface(nativeType: typeof(IContainerengineClusterPublicApiEndpointDecommissionManagerConfig), fullyQualifiedName: "oci.containerengineClusterPublicApiEndpointDecommissionManager.ContainerengineClusterPublicApiEndpointDecommissionManagerConfig")]
     public interface IContainerengineClusterPublicApiEndpointDecommissionManagerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#cluster_id ContainerengineClusterPublicApiEndpointDecommissionManager#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#cluster_id ContainerengineClusterPublicApiEndpointDecommissionManager#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#is_public_api_endpoint_decommissioned ContainerengineClusterPublicApiEndpointDecommissionManager#is_public_api_endpoint_decommissioned}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#is_public_api_endpoint_decommissioned ContainerengineClusterPublicApiEndpointDecommissionManager#is_public_api_endpoint_decommissioned}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#id ContainerengineClusterPublicApiEndpointDecommissionManager#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#id ContainerengineClusterPublicApiEndpointDecommissionManager#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#rollback_deadline_delay ContainerengineClusterPublicApiEndpointDecommissionManager#rollback_deadline_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#rollback_deadline_delay ContainerengineClusterPublicApiEndpointDecommissionManager#rollback_deadline_delay}.</summary>
         [JsiiProperty(name: "rollbackDeadlineDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RollbackDeadlineDelay
@@ -52,7 +52,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#timeouts ContainerengineClusterPublicApiEndpointDecommissionManager#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#timeouts ContainerengineClusterPublicApiEndpointDecommissionManager#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.containerengineClusterPublicApiEndpointDecommissionManager.ContainerengineClusterPublicApiEndpointDecommissionManagerTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,14 +71,14 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#cluster_id ContainerengineClusterPublicApiEndpointDecommissionManager#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#cluster_id ContainerengineClusterPublicApiEndpointDecommissionManager#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#is_public_api_endpoint_decommissioned ContainerengineClusterPublicApiEndpointDecommissionManager#is_public_api_endpoint_decommissioned}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#is_public_api_endpoint_decommissioned ContainerengineClusterPublicApiEndpointDecommissionManager#is_public_api_endpoint_decommissioned}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -88,7 +88,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#id ContainerengineClusterPublicApiEndpointDecommissionManager#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#id ContainerengineClusterPublicApiEndpointDecommissionManager#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,7 +100,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#rollback_deadline_delay ContainerengineClusterPublicApiEndpointDecommissionManager#rollback_deadline_delay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#rollback_deadline_delay ContainerengineClusterPublicApiEndpointDecommissionManager#rollback_deadline_delay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rollbackDeadlineDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RollbackDeadlineDelay
@@ -110,7 +110,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#timeouts ContainerengineClusterPublicApiEndpointDecommissionManager#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#timeouts ContainerengineClusterPublicApiEndpointDecommissionManager#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.containerengineClusterPublicApiEndpointDecommissionManager.ContainerengineClusterPublicApiEndpointDecommissionManagerTimeouts\"}", isOptional: true)]

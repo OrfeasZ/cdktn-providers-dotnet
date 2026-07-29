@@ -7,7 +7,7 @@ namespace oci.DatascienceModel
     [JsiiByValue(fqn: "oci.datascienceModel.DatascienceModelCustomMetadataListStruct")]
     public class DatascienceModelCustomMetadataListStruct : oci.DatascienceModel.IDatascienceModelCustomMetadataListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#category DatascienceModel#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#category DatascienceModel#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Category
@@ -16,7 +16,7 @@ namespace oci.DatascienceModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#description DatascienceModel#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#description DatascienceModel#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -27,7 +27,7 @@ namespace oci.DatascienceModel
 
         private object? _hasArtifact;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#has_artifact DatascienceModel#has_artifact}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace oci.DatascienceModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#key DatascienceModel#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#key DatascienceModel#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -68,7 +68,7 @@ namespace oci.DatascienceModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#keywords DatascienceModel#keywords}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#keywords DatascienceModel#keywords}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keywords", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Keywords
@@ -77,7 +77,7 @@ namespace oci.DatascienceModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model#value DatascienceModel#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model#value DatascienceModel#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

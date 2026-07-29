@@ -7,7 +7,7 @@ namespace oci.OdaOdaPrivateEndpointAttachment
     [JsiiByValue(fqn: "oci.odaOdaPrivateEndpointAttachment.OdaOdaPrivateEndpointAttachmentTimeouts")]
     public class OdaOdaPrivateEndpointAttachmentTimeouts : oci.OdaOdaPrivateEndpointAttachment.IOdaOdaPrivateEndpointAttachmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/oda_oda_private_endpoint_attachment#create OdaOdaPrivateEndpointAttachment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/oda_oda_private_endpoint_attachment#create OdaOdaPrivateEndpointAttachment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OdaOdaPrivateEndpointAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/oda_oda_private_endpoint_attachment#delete OdaOdaPrivateEndpointAttachment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/oda_oda_private_endpoint_attachment#delete OdaOdaPrivateEndpointAttachment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OdaOdaPrivateEndpointAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/oda_oda_private_endpoint_attachment#update OdaOdaPrivateEndpointAttachment#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/oda_oda_private_endpoint_attachment#update OdaOdaPrivateEndpointAttachment#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

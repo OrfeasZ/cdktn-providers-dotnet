@@ -9,7 +9,7 @@ namespace aws.DataAwsS3BucketNotification
     [JsiiByValue(fqn: "aws.dataAwsS3BucketNotification.DataAwsS3BucketNotificationConfig")]
     public class DataAwsS3BucketNotificationConfig : aws.DataAwsS3BucketNotification.IDataAwsS3BucketNotificationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/data-sources/s3_bucket_notification#bucket DataAwsS3BucketNotification#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/s3_bucket_notification#bucket DataAwsS3BucketNotification#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsS3BucketNotification
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/data-sources/s3_bucket_notification#region DataAwsS3BucketNotification#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/s3_bucket_notification#region DataAwsS3BucketNotification#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

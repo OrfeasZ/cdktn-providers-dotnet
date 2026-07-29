@@ -7,14 +7,14 @@ namespace oci.DatascienceModelGroup
     [JsiiInterface(nativeType: typeof(IDatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetails), fullyQualifiedName: "oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetails")]
     public interface IDatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}.</summary>
         [JsiiProperty(name: "baseModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BaseModelId
@@ -27,7 +27,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>custom_metadata_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetailsCustomMetadataListStruct" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customMetadataList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetailsCustomMetadataListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,14 +47,14 @@ namespace oci.DatascienceModelGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "baseModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BaseModelId
@@ -64,7 +64,7 @@ namespace oci.DatascienceModelGroup
 
             /// <summary>custom_metadata_list block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceModelGroup.IDatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetailsCustomMetadataListStruct" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,7 @@ namespace oci.DatascienceModelGroup
     [JsiiByValue(fqn: "oci.datascienceModelGroup.DatascienceModelGroupConfig")]
     public class DatascienceModelGroupConfig : oci.DatascienceModelGroup.IDatascienceModelGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#compartment_id DatascienceModelGroup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#compartment_id DatascienceModelGroup#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#create_type DatascienceModelGroup#create_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#create_type DatascienceModelGroup#create_type}.</summary>
         [JsiiProperty(name: "createType", typeJson: "{\"primitive\":\"string\"}")]
         public string CreateType
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#project_id DatascienceModelGroup#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#project_id DatascienceModelGroup#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -42,7 +42,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +51,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -60,7 +60,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -69,7 +69,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#id DatascienceModelGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#id DatascienceModelGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>member_model_entries block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#member_model_entries DatascienceModelGroup#member_model_entries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#member_model_entries DatascienceModelGroup#member_model_entries}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memberModelEntries", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupMemberModelEntries\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>model_group_clone_source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#model_group_clone_source_details DatascienceModelGroup#model_group_clone_source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#model_group_clone_source_details DatascienceModelGroup#model_group_clone_source_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelGroupCloneSourceDetails", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupModelGroupCloneSourceDetails\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>model_group_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelGroupDetails", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupModelGroupDetails\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelGroupVersionHistoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelGroupVersionHistoryId
@@ -129,7 +129,7 @@ namespace oci.DatascienceModelGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#timeouts DatascienceModelGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#timeouts DatascienceModelGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelGroup.DatascienceModelGroupTimeouts\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace oci.DatascienceModelGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionLabel

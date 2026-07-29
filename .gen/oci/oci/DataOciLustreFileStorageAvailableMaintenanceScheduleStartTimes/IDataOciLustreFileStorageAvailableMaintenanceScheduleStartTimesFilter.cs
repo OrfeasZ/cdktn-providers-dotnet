@@ -7,21 +7,21 @@ namespace oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes
     [JsiiInterface(nativeType: typeof(IDataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter), fullyQualifiedName: "oci.dataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter")]
     public interface IDataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsMyAuthToken
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsMyAuthTokenConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsMyAuthToken.DataOciIdentityDomainsMyAuthTokenConfig")]
     public interface IDataOciIdentityDomainsMyAuthTokenConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#idcs_endpoint DataOciIdentityDomainsMyAuthToken#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#idcs_endpoint DataOciIdentityDomainsMyAuthToken#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#my_auth_token_id DataOciIdentityDomainsMyAuthToken#my_auth_token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#my_auth_token_id DataOciIdentityDomainsMyAuthToken#my_auth_token_id}.</summary>
         [JsiiProperty(name: "myAuthTokenId", typeJson: "{\"primitive\":\"string\"}")]
         string MyAuthTokenId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#authorization DataOciIdentityDomainsMyAuthToken#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#authorization DataOciIdentityDomainsMyAuthToken#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsMyAuthToken
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#resource_type_schema_version DataOciIdentityDomainsMyAuthToken#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#resource_type_schema_version DataOciIdentityDomainsMyAuthToken#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -50,21 +50,21 @@ namespace oci.DataOciIdentityDomainsMyAuthToken
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#idcs_endpoint DataOciIdentityDomainsMyAuthToken#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#idcs_endpoint DataOciIdentityDomainsMyAuthToken#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#my_auth_token_id DataOciIdentityDomainsMyAuthToken#my_auth_token_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#my_auth_token_id DataOciIdentityDomainsMyAuthToken#my_auth_token_id}.</summary>
             [JsiiProperty(name: "myAuthTokenId", typeJson: "{\"primitive\":\"string\"}")]
             public string MyAuthTokenId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#authorization DataOciIdentityDomainsMyAuthToken#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#authorization DataOciIdentityDomainsMyAuthToken#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -72,7 +72,7 @@ namespace oci.DataOciIdentityDomainsMyAuthToken
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_auth_token#resource_type_schema_version DataOciIdentityDomainsMyAuthToken#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_auth_token#resource_type_schema_version DataOciIdentityDomainsMyAuthToken#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

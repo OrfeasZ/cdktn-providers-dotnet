@@ -11,7 +11,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>audio_selector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#audio_selector MedialiveChannel#audio_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#audio_selector MedialiveChannel#audio_selector}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsAudioSelector" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>caption_selector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#caption_selector MedialiveChannel#caption_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#caption_selector MedialiveChannel#caption_selector}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachmentsInputSettingsCaptionSelector" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -77,7 +77,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#deblock_filter MedialiveChannel#deblock_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#deblock_filter MedialiveChannel#deblock_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deblockFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeblockFilter
@@ -86,7 +86,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#denoise_filter MedialiveChannel#denoise_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#denoise_filter MedialiveChannel#denoise_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "denoiseFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DenoiseFilter
@@ -95,7 +95,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#filter_strength MedialiveChannel#filter_strength}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#filter_strength MedialiveChannel#filter_strength}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterStrength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FilterStrength
@@ -104,7 +104,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#input_filter MedialiveChannel#input_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#input_filter MedialiveChannel#input_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputFilter
@@ -115,7 +115,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>network_input_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#network_input_settings MedialiveChannel#network_input_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#network_input_settings MedialiveChannel#network_input_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkInputSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsNetworkInputSettings\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#scte35_pid MedialiveChannel#scte35_pid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#scte35_pid MedialiveChannel#scte35_pid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scte35Pid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Scte35Pid
@@ -134,7 +134,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#smpte2038_data_preference MedialiveChannel#smpte2038_data_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#smpte2038_data_preference MedialiveChannel#smpte2038_data_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "smpte2038DataPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Smpte2038DataPreference
@@ -143,7 +143,7 @@ namespace aws.MedialiveChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#source_end_behavior MedialiveChannel#source_end_behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#source_end_behavior MedialiveChannel#source_end_behavior}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceEndBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceEndBehavior
@@ -154,7 +154,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>video_selector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#video_selector MedialiveChannel#video_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#video_selector MedialiveChannel#video_selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "videoSelector", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachmentsInputSettingsVideoSelector\"}", isOptional: true)]

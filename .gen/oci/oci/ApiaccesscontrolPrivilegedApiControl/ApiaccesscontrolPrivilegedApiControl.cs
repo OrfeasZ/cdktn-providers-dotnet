@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ApiaccesscontrolPrivilegedApiControl
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apiaccesscontrol_privileged_api_control oci_apiaccesscontrol_privileged_api_control}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apiaccesscontrol_privileged_api_control oci_apiaccesscontrol_privileged_api_control}.</summary>
     [JsiiClass(nativeType: typeof(oci.ApiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControl), fullyQualifiedName: "oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControl", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlConfig\"}}]")]
     public class ApiaccesscontrolPrivilegedApiControl : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apiaccesscontrol_privileged_api_control oci_apiaccesscontrol_privileged_api_control} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apiaccesscontrol_privileged_api_control oci_apiaccesscontrol_privileged_api_control} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ApiaccesscontrolPrivilegedApiControl(Constructs.Construct scope, string id, oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
         /// <param name="importToId">The construct id used in the generated config for the ApiaccesscontrolPrivilegedApiControl to import.</param>
         /// <param name="importFromId">The id of the existing ApiaccesscontrolPrivilegedApiControl that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ApiaccesscontrolPrivilegedApiControl to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApiaccesscontrolPrivilegedApiControl to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apiaccesscontrol_privileged_api_control#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApiaccesscontrolPrivilegedApiControl that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApiaccesscontrolPrivilegedApiControl to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApiaccesscontrolPrivilegedApiControl to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apiaccesscontrol_privileged_api_control#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApiaccesscontrolPrivilegedApiControl that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApiaccesscontrolPrivilegedApiControl to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ApiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct" />)[]</param>
+        [JsiiMethod(name: "putApproverGroupLevelList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutApproverGroupLevelList(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlPrivilegedOperationListStruct" />)[]</param>
@@ -74,6 +98,12 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
         public virtual void PutTimeouts(oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetApproverGroupLevelList")]
+        public virtual void ResetApproverGroupLevelList()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDefinedTags")]
@@ -112,6 +142,12 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetResources")]
+        public virtual void ResetResources()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
         {
@@ -136,6 +172,12 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             get;
         }
         = GetStaticProperty<string>(typeof(oci.ApiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControl))!;
+
+        [JsiiProperty(name: "approverGroupLevelList", typeJson: "{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStructList\"}")]
+        public virtual oci.ApiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStructList ApproverGroupLevelList
+        {
+            get => GetInstanceProperty<oci.ApiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStructList>()!;
+        }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
@@ -196,6 +238,16 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
         public virtual string[]? ApproverGroupIdListInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "approverGroupLevelListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ApproverGroupLevelListInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

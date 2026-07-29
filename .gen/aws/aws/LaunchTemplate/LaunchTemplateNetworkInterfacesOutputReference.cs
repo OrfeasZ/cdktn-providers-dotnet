@@ -83,12 +83,6 @@ namespace aws.LaunchTemplate
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetEnaQueueCount")]
-        public virtual void ResetEnaQueueCount()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetEnaSrdSpecification")]
         public virtual void ResetEnaSrdSpecification()
         {
@@ -240,13 +234,6 @@ namespace aws.LaunchTemplate
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "enaQueueCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? EnaQueueCountInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "enaSrdSpecificationInput", typeJson: "{\"fqn\":\"aws.launchTemplate.LaunchTemplateNetworkInterfacesEnaSrdSpecification\"}", isOptional: true)]
         public virtual aws.LaunchTemplate.ILaunchTemplateNetworkInterfacesEnaSrdSpecification? EnaSrdSpecificationInput
         {
@@ -388,13 +375,6 @@ namespace aws.LaunchTemplate
 
         [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double DeviceIndex
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "enaQueueCount", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double EnaQueueCount
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);

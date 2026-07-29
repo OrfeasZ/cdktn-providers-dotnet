@@ -9,7 +9,7 @@ namespace oci.CoreVolumeGroup
     [JsiiByValue(fqn: "oci.coreVolumeGroup.CoreVolumeGroupVolumeGroupReplicas")]
     public class CoreVolumeGroupVolumeGroupReplicas : oci.CoreVolumeGroup.ICoreVolumeGroupVolumeGroupReplicas
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group#availability_domain CoreVolumeGroup#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group#availability_domain CoreVolumeGroup#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string AvailabilityDomain
         {
@@ -17,7 +17,7 @@ namespace oci.CoreVolumeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group#display_name CoreVolumeGroup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group#display_name CoreVolumeGroup#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -26,7 +26,7 @@ namespace oci.CoreVolumeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_volume_group#xrr_kms_key_id CoreVolumeGroup#xrr_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_group#xrr_kms_key_id CoreVolumeGroup#xrr_kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xrrKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XrrKmsKeyId

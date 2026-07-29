@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelDeploymentModelStates.DataOciDatascienceModelDeploymentModelStatesConfig")]
     public class DataOciDatascienceModelDeploymentModelStatesConfig : oci.DataOciDatascienceModelDeploymentModelStates.IDataOciDatascienceModelDeploymentModelStatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#compartment_id DataOciDatascienceModelDeploymentModelStates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#compartment_id DataOciDatascienceModelDeploymentModelStates#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#model_deployment_id DataOciDatascienceModelDeploymentModelStates#model_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#model_deployment_id DataOciDatascienceModelDeploymentModelStates#model_deployment_id}.</summary>
         [JsiiProperty(name: "modelDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelDeploymentId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#display_name DataOciDatascienceModelDeploymentModelStates#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#display_name DataOciDatascienceModelDeploymentModelStates#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#filter DataOciDatascienceModelDeploymentModelStates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#filter DataOciDatascienceModelDeploymentModelStates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelDeploymentModelStates.IDataOciDatascienceModelDeploymentModelStatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#id DataOciDatascienceModelDeploymentModelStates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#id DataOciDatascienceModelDeploymentModelStates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#inference_key DataOciDatascienceModelDeploymentModelStates#inference_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#inference_key DataOciDatascienceModelDeploymentModelStates#inference_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InferenceKey
@@ -91,7 +91,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#model_id DataOciDatascienceModelDeploymentModelStates#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#model_id DataOciDatascienceModelDeploymentModelStates#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId
@@ -100,7 +100,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_model_deployment_model_states#project_id DataOciDatascienceModelDeploymentModelStates#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_deployment_model_states#project_id DataOciDatascienceModelDeploymentModelStates#project_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProjectId

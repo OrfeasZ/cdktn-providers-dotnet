@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionViewerMtlsConfigTrustStoreConfig")]
     public class CloudfrontDistributionViewerMtlsConfigTrustStoreConfig : aws.CloudfrontDistribution.ICloudfrontDistributionViewerMtlsConfigTrustStoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudfront_distribution#trust_store_id CloudfrontDistribution#trust_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_distribution#trust_store_id CloudfrontDistribution#trust_store_id}.</summary>
         [JsiiProperty(name: "trustStoreId", typeJson: "{\"primitive\":\"string\"}")]
         public string TrustStoreId
         {
@@ -19,7 +19,7 @@ namespace aws.CloudfrontDistribution
 
         private object? _advertiseTrustStoreCaNames;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudfront_distribution#advertise_trust_store_ca_names CloudfrontDistribution#advertise_trust_store_ca_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_distribution#advertise_trust_store_ca_names CloudfrontDistribution#advertise_trust_store_ca_names}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.CloudfrontDistribution
 
         private object? _ignoreCertificateExpiry;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cloudfront_distribution#ignore_certificate_expiry CloudfrontDistribution#ignore_certificate_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_distribution#ignore_certificate_expiry CloudfrontDistribution#ignore_certificate_expiry}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

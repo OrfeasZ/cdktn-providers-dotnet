@@ -7,7 +7,7 @@ namespace oci.DataSafeDatabaseSecurityConfig
     [JsiiByValue(fqn: "oci.dataSafeDatabaseSecurityConfig.DataSafeDatabaseSecurityConfigTimeouts")]
     public class DataSafeDatabaseSecurityConfigTimeouts : oci.DataSafeDatabaseSecurityConfig.IDataSafeDatabaseSecurityConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_database_security_config#create DataSafeDatabaseSecurityConfig#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_database_security_config#create DataSafeDatabaseSecurityConfig#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeDatabaseSecurityConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_database_security_config#delete DataSafeDatabaseSecurityConfig#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_database_security_config#delete DataSafeDatabaseSecurityConfig#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeDatabaseSecurityConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_database_security_config#update DataSafeDatabaseSecurityConfig#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_database_security_config#update DataSafeDatabaseSecurityConfig#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

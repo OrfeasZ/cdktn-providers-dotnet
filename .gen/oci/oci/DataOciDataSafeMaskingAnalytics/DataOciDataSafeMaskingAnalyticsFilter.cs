@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeMaskingAnalytics.DataOciDataSafeMaskingAnalyticsFilter")]
     public class DataOciDataSafeMaskingAnalyticsFilter : oci.DataOciDataSafeMaskingAnalytics.IDataOciDataSafeMaskingAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#name DataOciDataSafeMaskingAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#name DataOciDataSafeMaskingAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#values DataOciDataSafeMaskingAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#values DataOciDataSafeMaskingAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeMaskingAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_analytics#regex DataOciDataSafeMaskingAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_analytics#regex DataOciDataSafeMaskingAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

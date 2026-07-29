@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroup
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSensitiveTypeGroupConfig), fullyQualifiedName: "oci.dataOciDataSafeSensitiveTypeGroup.DataOciDataSafeSensitiveTypeGroupConfig")]
     public interface IDataOciDataSafeSensitiveTypeGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_sensitive_type_group#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroup#sensitive_type_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_sensitive_type_group#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroup#sensitive_type_group_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string SensitiveTypeGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_sensitive_type_group#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroup#sensitive_type_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_sensitive_type_group#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroup#sensitive_type_group_id}.</summary>
             [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string SensitiveTypeGroupId
             {

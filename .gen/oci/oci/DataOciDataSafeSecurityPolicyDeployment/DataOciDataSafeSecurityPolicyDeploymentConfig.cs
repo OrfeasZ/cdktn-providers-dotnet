@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeployment
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyDeployment.DataOciDataSafeSecurityPolicyDeploymentConfig")]
     public class DataOciDataSafeSecurityPolicyDeploymentConfig : oci.DataOciDataSafeSecurityPolicyDeployment.IDataOciDataSafeSecurityPolicyDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_deployment#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeployment#security_policy_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_deployment#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeployment#security_policy_deployment_id}.</summary>
         [JsiiProperty(name: "securityPolicyDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityPolicyDeploymentId
         {

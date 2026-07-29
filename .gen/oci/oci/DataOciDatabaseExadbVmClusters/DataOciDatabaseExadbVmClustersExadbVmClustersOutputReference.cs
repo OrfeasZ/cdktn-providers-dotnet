@@ -167,6 +167,12 @@ namespace oci.DataOciDatabaseExadbVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.dataOciDatabaseExadbVmClusters.DataOciDatabaseExadbVmClustersExadbVmClustersMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DataOciDatabaseExadbVmClusters.DataOciDatabaseExadbVmClustersExadbVmClustersMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseExadbVmClusters.DataOciDatabaseExadbVmClustersExadbVmClustersMultiCloudIdentityConnectorConfigsList>()!;
+        }
+
         [JsiiProperty(name: "nodeConfig", typeJson: "{\"fqn\":\"oci.dataOciDatabaseExadbVmClusters.DataOciDatabaseExadbVmClustersExadbVmClustersNodeConfigList\"}")]
         public virtual oci.DataOciDatabaseExadbVmClusters.DataOciDatabaseExadbVmClustersExadbVmClustersNodeConfigList NodeConfig
         {
@@ -189,6 +195,12 @@ namespace oci.DataOciDatabaseExadbVmClusters
         public virtual string PrivateZoneId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "scanDnsName", typeJson: "{\"primitive\":\"string\"}")]
@@ -275,6 +287,12 @@ namespace oci.DataOciDatabaseExadbVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {
@@ -285,6 +303,12 @@ namespace oci.DataOciDatabaseExadbVmClusters
         public virtual string TimeZone
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "vipIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

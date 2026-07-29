@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetContainers
     [JsiiByValue(fqn: "oci.dataOciJmsFleetContainers.DataOciJmsFleetContainersConfig")]
     public class DataOciJmsFleetContainersConfig : oci.DataOciJmsFleetContainers.IDataOciJmsFleetContainersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#fleet_id DataOciJmsFleetContainers#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#fleet_id DataOciJmsFleetContainers#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#application_name DataOciJmsFleetContainers#application_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#application_name DataOciJmsFleetContainers#application_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationName
@@ -26,7 +26,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#display_name DataOciJmsFleetContainers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#display_name DataOciJmsFleetContainers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciJmsFleetContainers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#filter DataOciJmsFleetContainers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#filter DataOciJmsFleetContainers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetContainers.IDataOciJmsFleetContainersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciJmsFleetContainers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#id DataOciJmsFleetContainers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#id DataOciJmsFleetContainers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#jre_security_status DataOciJmsFleetContainers#jre_security_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#jre_security_status DataOciJmsFleetContainers#jre_security_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jreSecurityStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JreSecurityStatus
@@ -92,7 +92,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#jre_version DataOciJmsFleetContainers#jre_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#jre_version DataOciJmsFleetContainers#jre_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JreVersion
@@ -101,7 +101,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#managed_instance_id DataOciJmsFleetContainers#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#managed_instance_id DataOciJmsFleetContainers#managed_instance_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagedInstanceId
@@ -110,7 +110,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#time_started_greater_than_or_equal_to DataOciJmsFleetContainers#time_started_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#time_started_greater_than_or_equal_to DataOciJmsFleetContainers#time_started_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeStartedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeStartedGreaterThanOrEqualTo
@@ -119,7 +119,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_fleet_containers#time_started_less_than_or_equal_to DataOciJmsFleetContainers#time_started_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_containers#time_started_less_than_or_equal_to DataOciJmsFleetContainers#time_started_less_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeStartedLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeStartedLessThanOrEqualTo

@@ -7,14 +7,14 @@ namespace oci.FleetAppsManagementTaskRecord
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementTaskRecordDetailsExecutionDetails), fullyQualifiedName: "oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetails")]
     public interface IFleetAppsManagementTaskRecordDetailsExecutionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}.</summary>
         [JsiiProperty(name: "executionType", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CatalogId
@@ -25,7 +25,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}.</summary>
         [JsiiProperty(name: "command", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Command
@@ -36,7 +36,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}.</summary>
         [JsiiProperty(name: "configFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigFile
@@ -49,7 +49,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
         /// <summary>content block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetailsContent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementTaskRecord.IFleetAppsManagementTaskRecordDetailsExecutionDetailsCredentials" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetailsCredentials\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Endpoint
@@ -87,7 +87,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -101,7 +101,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -115,7 +115,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -129,7 +129,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}.</summary>
         [JsiiProperty(name: "systemVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SystemVariables
@@ -140,7 +140,7 @@ namespace oci.FleetAppsManagementTaskRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}.</summary>
         [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetCompartmentId
@@ -153,7 +153,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
         /// <summary>variables block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
         /// </remarks>
         [JsiiProperty(name: "variables", typeJson: "{\"fqn\":\"oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetailsVariables\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -172,14 +172,14 @@ namespace oci.FleetAppsManagementTaskRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#execution_type FleetAppsManagementTaskRecord#execution_type}.</summary>
             [JsiiProperty(name: "executionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#catalog_id FleetAppsManagementTaskRecord#catalog_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CatalogId
@@ -187,7 +187,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#command FleetAppsManagementTaskRecord#command}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "command", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Command
@@ -195,7 +195,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#config_file FleetAppsManagementTaskRecord#config_file}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigFile
@@ -205,7 +205,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
             /// <summary>content block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#content FleetAppsManagementTaskRecord#content}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetailsContent\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
             /// <summary>credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#credentials FleetAppsManagementTaskRecord#credentials}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementTaskRecord.IFleetAppsManagementTaskRecordDetailsExecutionDetailsCredentials" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -226,7 +226,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#endpoint FleetAppsManagementTaskRecord#endpoint}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Endpoint
@@ -234,7 +234,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_executable_content FleetAppsManagementTaskRecord#is_executable_content}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -245,7 +245,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_locked FleetAppsManagementTaskRecord#is_locked}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -256,7 +256,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#is_read_output_variable_enabled FleetAppsManagementTaskRecord#is_read_output_variable_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -267,7 +267,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#system_variables FleetAppsManagementTaskRecord#system_variables}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SystemVariables
@@ -275,7 +275,7 @@ namespace oci.FleetAppsManagementTaskRecord
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#target_compartment_id FleetAppsManagementTaskRecord#target_compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetCompartmentId
@@ -285,7 +285,7 @@ namespace oci.FleetAppsManagementTaskRecord
 
             /// <summary>variables block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_task_record#variables FleetAppsManagementTaskRecord#variables}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "variables", typeJson: "{\"fqn\":\"oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsExecutionDetailsVariables\"}", isOptional: true)]

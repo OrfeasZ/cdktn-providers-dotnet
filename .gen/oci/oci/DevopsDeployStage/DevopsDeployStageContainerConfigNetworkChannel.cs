@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageContainerConfigNetworkChannel")]
     public class DevopsDeployStageContainerConfigNetworkChannel : oci.DevopsDeployStage.IDevopsDeployStageContainerConfigNetworkChannel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#network_channel_type DevopsDeployStage#network_channel_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_deploy_stage#network_channel_type DevopsDeployStage#network_channel_type}.</summary>
         [JsiiProperty(name: "networkChannelType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkChannelType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#subnet_id DevopsDeployStage#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_deploy_stage#subnet_id DevopsDeployStage#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#nsg_ids DevopsDeployStage#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_deploy_stage#nsg_ids DevopsDeployStage#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds

@@ -7,7 +7,7 @@ namespace oci.OperatorAccessControlOperatorControl
     [JsiiByValue(fqn: "oci.operatorAccessControlOperatorControl.OperatorAccessControlOperatorControlTimeouts")]
     public class OperatorAccessControlOperatorControlTimeouts : oci.OperatorAccessControlOperatorControl.IOperatorAccessControlOperatorControlTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/operator_access_control_operator_control#create OperatorAccessControlOperatorControl#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/operator_access_control_operator_control#create OperatorAccessControlOperatorControl#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OperatorAccessControlOperatorControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/operator_access_control_operator_control#delete OperatorAccessControlOperatorControl#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/operator_access_control_operator_control#delete OperatorAccessControlOperatorControl#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OperatorAccessControlOperatorControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/operator_access_control_operator_control#update OperatorAccessControlOperatorControl#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/operator_access_control_operator_control#update OperatorAccessControlOperatorControl#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

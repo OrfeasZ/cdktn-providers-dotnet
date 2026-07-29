@@ -9,7 +9,7 @@ namespace aws.AppstreamImageBuilder
     [JsiiByValue(fqn: "aws.appstreamImageBuilder.AppstreamImageBuilderConfig")]
     public class AppstreamImageBuilderConfig : aws.AppstreamImageBuilder.IAppstreamImageBuilderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#instance_type AppstreamImageBuilder#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceType
         {
@@ -17,7 +17,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#name AppstreamImageBuilder#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace aws.AppstreamImageBuilder
 
         /// <summary>access_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#access_endpoint AppstreamImageBuilder#access_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#access_endpoint AppstreamImageBuilder#access_endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppstreamImageBuilder.IAppstreamImageBuilderAccessEndpoint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace aws.AppstreamImageBuilder
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#appstream_agent_version AppstreamImageBuilder#appstream_agent_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "appstreamAgentVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AppstreamAgentVersion
@@ -69,7 +69,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#description AppstreamImageBuilder#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -78,7 +78,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#display_name AppstreamImageBuilder#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -89,7 +89,7 @@ namespace aws.AppstreamImageBuilder
 
         /// <summary>domain_join_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#domain_join_info AppstreamImageBuilder#domain_join_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domainJoinInfo", typeJson: "{\"fqn\":\"aws.appstreamImageBuilder.AppstreamImageBuilderDomainJoinInfo\"}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace aws.AppstreamImageBuilder
 
         private object? _enableDefaultInternetAccess;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#enable_default_internet_access AppstreamImageBuilder#enable_default_internet_access}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -133,7 +133,7 @@ namespace aws.AppstreamImageBuilder
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#iam_role_arn AppstreamImageBuilder#iam_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iamRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IamRoleArn
@@ -142,7 +142,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#id AppstreamImageBuilder#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#id AppstreamImageBuilder#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#image_arn AppstreamImageBuilder#image_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageArn
@@ -164,7 +164,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#image_name AppstreamImageBuilder#image_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageName
@@ -175,7 +175,7 @@ namespace aws.AppstreamImageBuilder
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#region AppstreamImageBuilder#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#region AppstreamImageBuilder#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#tags AppstreamImageBuilder#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -194,7 +194,7 @@ namespace aws.AppstreamImageBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#tags_all AppstreamImageBuilder#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#tags_all AppstreamImageBuilder#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -205,7 +205,7 @@ namespace aws.AppstreamImageBuilder
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appstream_image_builder#vpc_config AppstreamImageBuilder#vpc_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.appstreamImageBuilder.AppstreamImageBuilderVpcConfig\"}", isOptional: true)]

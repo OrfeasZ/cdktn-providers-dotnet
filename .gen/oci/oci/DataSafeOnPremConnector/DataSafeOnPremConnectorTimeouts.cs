@@ -7,7 +7,7 @@ namespace oci.DataSafeOnPremConnector
     [JsiiByValue(fqn: "oci.dataSafeOnPremConnector.DataSafeOnPremConnectorTimeouts")]
     public class DataSafeOnPremConnectorTimeouts : oci.DataSafeOnPremConnector.IDataSafeOnPremConnectorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_on_prem_connector#create DataSafeOnPremConnector#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_on_prem_connector#create DataSafeOnPremConnector#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeOnPremConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_on_prem_connector#delete DataSafeOnPremConnector#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_on_prem_connector#delete DataSafeOnPremConnector#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeOnPremConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_on_prem_connector#update DataSafeOnPremConnector#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_on_prem_connector#update DataSafeOnPremConnector#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

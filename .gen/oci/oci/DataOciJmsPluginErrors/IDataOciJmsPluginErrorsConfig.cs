@@ -7,7 +7,7 @@ namespace oci.DataOciJmsPluginErrors
     [JsiiInterface(nativeType: typeof(IDataOciJmsPluginErrorsConfig), fullyQualifiedName: "oci.dataOciJmsPluginErrors.DataOciJmsPluginErrorsConfig")]
     public interface IDataOciJmsPluginErrorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace oci.DataOciJmsPluginErrors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsPluginErrors.IDataOciJmsPluginErrorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsPluginErrors.DataOciJmsPluginErrorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ManagedInstanceId
@@ -73,7 +73,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeFirstSeenGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeFirstSeenGreaterThanOrEqualTo
@@ -84,7 +84,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeFirstSeenLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeFirstSeenLessThanOrEqualTo
@@ -95,7 +95,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeLastSeenGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeLastSeenGreaterThanOrEqualTo
@@ -106,7 +106,7 @@ namespace oci.DataOciJmsPluginErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeLastSeenLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeLastSeenLessThanOrEqualTo
@@ -124,7 +124,7 @@ namespace oci.DataOciJmsPluginErrors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#compartment_id DataOciJmsPluginErrors#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -132,7 +132,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#compartment_id_in_subtree DataOciJmsPluginErrors#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -145,7 +145,7 @@ namespace oci.DataOciJmsPluginErrors
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#filter DataOciJmsPluginErrors#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsPluginErrors.IDataOciJmsPluginErrorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -155,7 +155,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#id DataOciJmsPluginErrors#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -167,7 +167,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#managed_instance_id DataOciJmsPluginErrors#managed_instance_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ManagedInstanceId
@@ -175,7 +175,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_first_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeFirstSeenGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeFirstSeenGreaterThanOrEqualTo
@@ -183,7 +183,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_first_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_first_seen_less_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeFirstSeenLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeFirstSeenLessThanOrEqualTo
@@ -191,7 +191,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_last_seen_greater_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeLastSeenGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeLastSeenGreaterThanOrEqualTo
@@ -199,7 +199,7 @@ namespace oci.DataOciJmsPluginErrors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_plugin_errors#time_last_seen_less_than_or_equal_to DataOciJmsPluginErrors#time_last_seen_less_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeLastSeenLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeLastSeenLessThanOrEqualTo

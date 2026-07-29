@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardSecurityPolicies
     [JsiiByValue(fqn: "oci.dataOciCloudGuardSecurityPolicies.DataOciCloudGuardSecurityPoliciesFilter")]
     public class DataOciCloudGuardSecurityPoliciesFilter : oci.DataOciCloudGuardSecurityPolicies.IDataOciCloudGuardSecurityPoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_policies#name DataOciCloudGuardSecurityPolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_policies#name DataOciCloudGuardSecurityPolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudGuardSecurityPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_policies#values DataOciCloudGuardSecurityPolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_policies#values DataOciCloudGuardSecurityPolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCloudGuardSecurityPolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_security_policies#regex DataOciCloudGuardSecurityPolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_security_policies#regex DataOciCloudGuardSecurityPolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

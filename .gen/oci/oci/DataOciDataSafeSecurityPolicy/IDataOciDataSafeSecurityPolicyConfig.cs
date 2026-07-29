@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSecurityPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityPolicy.DataOciDataSafeSecurityPolicyConfig")]
     public interface IDataOciDataSafeSecurityPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy#security_policy_id DataOciDataSafeSecurityPolicy#security_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy#security_policy_id DataOciDataSafeSecurityPolicy#security_policy_id}.</summary>
         [JsiiProperty(name: "securityPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSecurityPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy#security_policy_id DataOciDataSafeSecurityPolicy#security_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy#security_policy_id DataOciDataSafeSecurityPolicy#security_policy_id}.</summary>
             [JsiiProperty(name: "securityPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityPolicyId
             {

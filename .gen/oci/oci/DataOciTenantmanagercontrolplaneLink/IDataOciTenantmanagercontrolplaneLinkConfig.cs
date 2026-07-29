@@ -7,14 +7,14 @@ namespace oci.DataOciTenantmanagercontrolplaneLink
     [JsiiInterface(nativeType: typeof(IDataOciTenantmanagercontrolplaneLinkConfig), fullyQualifiedName: "oci.dataOciTenantmanagercontrolplaneLink.DataOciTenantmanagercontrolplaneLinkConfig")]
     public interface IDataOciTenantmanagercontrolplaneLinkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/tenantmanagercontrolplane_link#link_id DataOciTenantmanagercontrolplaneLink#link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_link#link_id DataOciTenantmanagercontrolplaneLink#link_id}.</summary>
         [JsiiProperty(name: "linkId", typeJson: "{\"primitive\":\"string\"}")]
         string LinkId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/tenantmanagercontrolplane_link#id DataOciTenantmanagercontrolplaneLink#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_link#id DataOciTenantmanagercontrolplaneLink#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciTenantmanagercontrolplaneLink
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/tenantmanagercontrolplane_link#link_id DataOciTenantmanagercontrolplaneLink#link_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_link#link_id DataOciTenantmanagercontrolplaneLink#link_id}.</summary>
             [JsiiProperty(name: "linkId", typeJson: "{\"primitive\":\"string\"}")]
             public string LinkId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/tenantmanagercontrolplane_link#id DataOciTenantmanagercontrolplaneLink#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_link#id DataOciTenantmanagercontrolplaneLink#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

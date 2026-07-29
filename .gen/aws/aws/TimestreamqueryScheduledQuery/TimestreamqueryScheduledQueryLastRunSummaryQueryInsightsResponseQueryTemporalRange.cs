@@ -11,7 +11,7 @@ namespace aws.TimestreamqueryScheduledQuery
 
         /// <summary>max block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/timestreamquery_scheduled_query#max TimestreamqueryScheduledQuery#max}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreamqueryScheduledQuery.ITimestreamqueryScheduledQueryLastRunSummaryQueryInsightsResponseQueryTemporalRangeMax" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMyApiKey
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMyApiKey.DataOciIdentityDomainsMyApiKeyConfig")]
     public class DataOciIdentityDomainsMyApiKeyConfig : oci.DataOciIdentityDomainsMyApiKey.IDataOciIdentityDomainsMyApiKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_api_key#idcs_endpoint DataOciIdentityDomainsMyApiKey#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_api_key#idcs_endpoint DataOciIdentityDomainsMyApiKey#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMyApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_api_key#my_api_key_id DataOciIdentityDomainsMyApiKey#my_api_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_api_key#my_api_key_id DataOciIdentityDomainsMyApiKey#my_api_key_id}.</summary>
         [JsiiProperty(name: "myApiKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string MyApiKeyId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsMyApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_api_key#authorization DataOciIdentityDomainsMyApiKey#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_api_key#authorization DataOciIdentityDomainsMyApiKey#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsMyApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_domains_my_api_key#resource_type_schema_version DataOciIdentityDomainsMyApiKey#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_my_api_key#resource_type_schema_version DataOciIdentityDomainsMyApiKey#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

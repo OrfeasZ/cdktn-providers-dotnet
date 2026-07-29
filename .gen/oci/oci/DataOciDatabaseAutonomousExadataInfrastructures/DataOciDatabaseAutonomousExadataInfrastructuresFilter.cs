@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructures
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousExadataInfrastructures.DataOciDatabaseAutonomousExadataInfrastructuresFilter")]
     public class DataOciDatabaseAutonomousExadataInfrastructuresFilter : oci.DataOciDatabaseAutonomousExadataInfrastructures.IDataOciDatabaseAutonomousExadataInfrastructuresFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructures#name DataOciDatabaseAutonomousExadataInfrastructures#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_exadata_infrastructures#name DataOciDatabaseAutonomousExadataInfrastructures#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructures
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructures#values DataOciDatabaseAutonomousExadataInfrastructures#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_exadata_infrastructures#values DataOciDatabaseAutonomousExadataInfrastructures#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAutonomousExadataInfrastructures
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_autonomous_exadata_infrastructures#regex DataOciDatabaseAutonomousExadataInfrastructures#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_exadata_infrastructures#regex DataOciDatabaseAutonomousExadataInfrastructures#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

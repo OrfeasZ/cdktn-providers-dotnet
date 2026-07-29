@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsCloudGateServer
     [JsiiByValue(fqn: "oci.identityDomainsCloudGateServer.IdentityDomainsCloudGateServerCloudGate")]
     public class IdentityDomainsCloudGateServerCloudGate : oci.IdentityDomainsCloudGateServer.IIdentityDomainsCloudGateServerCloudGate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_cloud_gate_server#value IdentityDomainsCloudGateServer#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_cloud_gate_server#value IdentityDomainsCloudGateServer#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

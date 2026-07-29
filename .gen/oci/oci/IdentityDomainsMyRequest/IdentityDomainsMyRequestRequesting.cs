@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMyRequest
     [JsiiByValue(fqn: "oci.identityDomainsMyRequest.IdentityDomainsMyRequestRequesting")]
     public class IdentityDomainsMyRequestRequesting : oci.IdentityDomainsMyRequest.IIdentityDomainsMyRequestRequesting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_request#type IdentityDomainsMyRequest#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_request#type IdentityDomainsMyRequest#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsMyRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_request#value IdentityDomainsMyRequest#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

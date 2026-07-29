@@ -7,7 +7,7 @@ namespace oci.CoreInstanceConsoleConnection
     [JsiiByValue(fqn: "oci.coreInstanceConsoleConnection.CoreInstanceConsoleConnectionTimeouts")]
     public class CoreInstanceConsoleConnectionTimeouts : oci.CoreInstanceConsoleConnection.ICoreInstanceConsoleConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_console_connection#create CoreInstanceConsoleConnection#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance_console_connection#create CoreInstanceConsoleConnection#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_console_connection#delete CoreInstanceConsoleConnection#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance_console_connection#delete CoreInstanceConsoleConnection#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_console_connection#update CoreInstanceConsoleConnection#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance_console_connection#update CoreInstanceConsoleConnection#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

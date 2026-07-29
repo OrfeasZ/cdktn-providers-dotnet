@@ -83,30 +83,6 @@ namespace aws.BedrockagentcoreMemoryStrategy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemoryStrategy.IBedrockagentcoreMemoryStrategyConfigurationReflection" />)[]</param>
-        [JsiiMethod(name: "putReflection", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationReflection\"},\"kind\":\"array\"}}]}}}]")]
-        public virtual void PutReflection(object @value)
-        {
-            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-            {
-                switch (@value)
-                {
-                    case Io.Cdktn.IResolvable cast_2ed7d7:
-                        break;
-                    case aws.BedrockagentcoreMemoryStrategy.IBedrockagentcoreMemoryStrategyConfigurationReflection[] cast_2ed7d7:
-                        break;
-                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
-                        // Not enough information to type-check...
-                        break;
-                    case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemoryStrategy.IBedrockagentcoreMemoryStrategyConfigurationReflection).FullName}[]; received null", nameof(@value));
-                    default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreMemoryStrategy.IBedrockagentcoreMemoryStrategyConfigurationReflection).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
-                }
-            }
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetConsolidation")]
         public virtual void ResetConsolidation()
         {
@@ -115,12 +91,6 @@ namespace aws.BedrockagentcoreMemoryStrategy
 
         [JsiiMethod(name: "resetExtraction")]
         public virtual void ResetExtraction()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetReflection")]
-        public virtual void ResetReflection()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -135,12 +105,6 @@ namespace aws.BedrockagentcoreMemoryStrategy
         public virtual aws.BedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationExtractionList Extraction
         {
             get => GetInstanceProperty<aws.BedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationExtractionList>()!;
-        }
-
-        [JsiiProperty(name: "reflection", typeJson: "{\"fqn\":\"aws.bedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationReflectionList\"}")]
-        public virtual aws.BedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationReflectionList Reflection
-        {
-            get => GetInstanceProperty<aws.BedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationReflectionList>()!;
         }
 
         /// <remarks>
@@ -159,16 +123,6 @@ namespace aws.BedrockagentcoreMemoryStrategy
         [JsiiOptional]
         [JsiiProperty(name: "extractionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationExtraction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ExtractionInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemoryStrategy.IBedrockagentcoreMemoryStrategyConfigurationReflection" />)[]</para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "reflectionInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreMemoryStrategy.BedrockagentcoreMemoryStrategyConfigurationReflection\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? ReflectionInput
         {
             get => GetInstanceProperty<object?>();
         }

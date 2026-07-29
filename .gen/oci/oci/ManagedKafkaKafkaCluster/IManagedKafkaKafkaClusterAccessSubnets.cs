@@ -7,7 +7,7 @@ namespace oci.ManagedKafkaKafkaCluster
     [JsiiInterface(nativeType: typeof(IManagedKafkaKafkaClusterAccessSubnets), fullyQualifiedName: "oci.managedKafkaKafkaCluster.ManagedKafkaKafkaClusterAccessSubnets")]
     public interface IManagedKafkaKafkaClusterAccessSubnets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Subnets
         {
@@ -21,7 +21,7 @@ namespace oci.ManagedKafkaKafkaCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
             [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Subnets
             {

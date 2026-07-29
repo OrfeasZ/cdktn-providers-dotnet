@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentityProofingProvider
     [JsiiByValue(fqn: "oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderClaimMapping")]
     public class IdentityDomainsIdentityProofingProviderClaimMapping : oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderClaimMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#attr_match IdentityDomainsIdentityProofingProvider#attr_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_identity_proofing_provider#attr_match IdentityDomainsIdentityProofingProvider#attr_match}.</summary>
         [JsiiProperty(name: "attrMatch", typeJson: "{\"primitive\":\"string\"}")]
         public string AttrMatch
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentityProofingProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_identity_proofing_provider#verifiable_claim IdentityDomainsIdentityProofingProvider#verifiable_claim}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_identity_proofing_provider#verifiable_claim IdentityDomainsIdentityProofingProvider#verifiable_claim}.</summary>
         [JsiiProperty(name: "verifiableClaim", typeJson: "{\"primitive\":\"string\"}")]
         public string VerifiableClaim
         {

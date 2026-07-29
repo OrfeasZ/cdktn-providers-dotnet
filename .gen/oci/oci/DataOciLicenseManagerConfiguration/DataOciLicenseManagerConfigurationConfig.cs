@@ -9,7 +9,7 @@ namespace oci.DataOciLicenseManagerConfiguration
     [JsiiByValue(fqn: "oci.dataOciLicenseManagerConfiguration.DataOciLicenseManagerConfigurationConfig")]
     public class DataOciLicenseManagerConfigurationConfig : oci.DataOciLicenseManagerConfiguration.IDataOciLicenseManagerConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/license_manager_configuration#compartment_id DataOciLicenseManagerConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

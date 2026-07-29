@@ -7,7 +7,7 @@ namespace oci.LoadBalancerRuleSet
     [JsiiByValue(fqn: "oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsIpMaxConnections")]
     public class LoadBalancerRuleSetItemsIpMaxConnections : oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsIpMaxConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#ip_addresses LoadBalancerRuleSet#ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_rule_set#ip_addresses LoadBalancerRuleSet#ip_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpAddresses
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_rule_set#max_connections LoadBalancerRuleSet#max_connections}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_rule_set#max_connections LoadBalancerRuleSet#max_connections}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxConnections", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxConnections

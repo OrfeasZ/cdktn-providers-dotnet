@@ -7,7 +7,7 @@ namespace aws.BedrockagentPrompt
     [JsiiInterface(nativeType: typeof(IBedrockagentPromptVariantTemplateConfigurationChatMessage), fullyQualifiedName: "aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationChatMessage")]
     public interface IBedrockagentPromptVariantTemplateConfigurationChatMessage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         string Role
         {
@@ -16,7 +16,7 @@ namespace aws.BedrockagentPrompt
 
         /// <summary>content block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationChatMessageContent" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentPrompt.BedrockagentPromptVariantTemplateConfigurationChatMessageContent\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace aws.BedrockagentPrompt
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt#role BedrockagentPrompt#role}.</summary>
             [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
             public string Role
             {
@@ -45,7 +45,7 @@ namespace aws.BedrockagentPrompt
 
             /// <summary>content block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_prompt#content BedrockagentPrompt#content}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentPrompt.IBedrockagentPromptVariantTemplateConfigurationChatMessageContent" />)[]</para>
             /// </remarks>
             [JsiiOptional]

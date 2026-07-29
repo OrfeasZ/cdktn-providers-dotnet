@@ -7,7 +7,7 @@ namespace oci.DataflowSqlEndpoint
     [JsiiInterface(nativeType: typeof(IDataflowSqlEndpointNetworkConfigurationAccessControlRules), fullyQualifiedName: "oci.dataflowSqlEndpoint.DataflowSqlEndpointNetworkConfigurationAccessControlRules")]
     public interface IDataflowSqlEndpointNetworkConfigurationAccessControlRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
         [JsiiProperty(name: "ipNotation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpNotation
@@ -18,7 +18,7 @@ namespace oci.DataflowSqlEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -29,7 +29,7 @@ namespace oci.DataflowSqlEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
         [JsiiProperty(name: "vcnIps", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VcnIps
@@ -47,7 +47,7 @@ namespace oci.DataflowSqlEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipNotation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpNotation
@@ -55,7 +55,7 @@ namespace oci.DataflowSqlEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value
@@ -63,7 +63,7 @@ namespace oci.DataflowSqlEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vcnIps", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VcnIps

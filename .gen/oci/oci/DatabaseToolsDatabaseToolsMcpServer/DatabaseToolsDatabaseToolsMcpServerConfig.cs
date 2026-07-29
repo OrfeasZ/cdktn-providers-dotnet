@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
     [JsiiByValue(fqn: "oci.databaseToolsDatabaseToolsMcpServer.DatabaseToolsDatabaseToolsMcpServerConfig")]
     public class DatabaseToolsDatabaseToolsMcpServerConfig : oci.DatabaseToolsDatabaseToolsMcpServer.IDatabaseToolsDatabaseToolsMcpServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#compartment_id DatabaseToolsDatabaseToolsMcpServer#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#compartment_id DatabaseToolsDatabaseToolsMcpServer#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#database_tools_connection_id DatabaseToolsDatabaseToolsMcpServer#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#database_tools_connection_id DatabaseToolsDatabaseToolsMcpServer#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#display_name DatabaseToolsDatabaseToolsMcpServer#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#display_name DatabaseToolsDatabaseToolsMcpServer#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#domain_id DatabaseToolsDatabaseToolsMcpServer#domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#domain_id DatabaseToolsDatabaseToolsMcpServer#domain_id}.</summary>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainId
         {
@@ -43,7 +43,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
 
         /// <summary>storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#storage DatabaseToolsDatabaseToolsMcpServer#storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#storage DatabaseToolsDatabaseToolsMcpServer#storage}
         /// </remarks>
         [JsiiProperty(name: "storage", typeJson: "{\"fqn\":\"oci.databaseToolsDatabaseToolsMcpServer.DatabaseToolsDatabaseToolsMcpServerStorage\"}")]
         public oci.DatabaseToolsDatabaseToolsMcpServer.IDatabaseToolsDatabaseToolsMcpServerStorage Storage
@@ -52,7 +52,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#type DatabaseToolsDatabaseToolsMcpServer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#type DatabaseToolsDatabaseToolsMcpServer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -60,7 +60,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#access_token_expiry_in_seconds DatabaseToolsDatabaseToolsMcpServer#access_token_expiry_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#access_token_expiry_in_seconds DatabaseToolsDatabaseToolsMcpServer#access_token_expiry_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessTokenExpiryInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AccessTokenExpiryInSeconds
@@ -73,7 +73,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
 
         /// <summary>custom_roles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#custom_roles DatabaseToolsDatabaseToolsMcpServer#custom_roles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#custom_roles DatabaseToolsDatabaseToolsMcpServer#custom_roles}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpServer.IDatabaseToolsDatabaseToolsMcpServerCustomRoles" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#defined_tags DatabaseToolsDatabaseToolsMcpServer#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#defined_tags DatabaseToolsDatabaseToolsMcpServer#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -113,7 +113,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#description DatabaseToolsDatabaseToolsMcpServer#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#description DatabaseToolsDatabaseToolsMcpServer#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -122,7 +122,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#freeform_tags DatabaseToolsDatabaseToolsMcpServer#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#freeform_tags DatabaseToolsDatabaseToolsMcpServer#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -131,7 +131,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#id DatabaseToolsDatabaseToolsMcpServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#id DatabaseToolsDatabaseToolsMcpServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#locks DatabaseToolsDatabaseToolsMcpServer#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#locks DatabaseToolsDatabaseToolsMcpServer#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseToolsDatabaseToolsMcpServer.IDatabaseToolsDatabaseToolsMcpServerLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -179,7 +179,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#refresh_token_expiry_in_seconds DatabaseToolsDatabaseToolsMcpServer#refresh_token_expiry_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#refresh_token_expiry_in_seconds DatabaseToolsDatabaseToolsMcpServer#refresh_token_expiry_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refreshTokenExpiryInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RefreshTokenExpiryInSeconds
@@ -188,7 +188,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#runtime_identity DatabaseToolsDatabaseToolsMcpServer#runtime_identity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#runtime_identity DatabaseToolsDatabaseToolsMcpServer#runtime_identity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeIdentity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuntimeIdentity
@@ -199,7 +199,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_mcp_server#timeouts DatabaseToolsDatabaseToolsMcpServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_mcp_server#timeouts DatabaseToolsDatabaseToolsMcpServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsDatabaseToolsMcpServer.DatabaseToolsDatabaseToolsMcpServerTimeouts\"}", isOptional: true)]

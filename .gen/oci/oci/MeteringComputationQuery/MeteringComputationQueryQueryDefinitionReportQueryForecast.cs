@@ -9,7 +9,7 @@ namespace oci.MeteringComputationQuery
     [JsiiByValue(fqn: "oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQueryForecast")]
     public class MeteringComputationQueryQueryDefinitionReportQueryForecast : oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQueryForecast
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_query#time_forecast_ended MeteringComputationQuery#time_forecast_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_query#time_forecast_ended MeteringComputationQuery#time_forecast_ended}.</summary>
         [JsiiProperty(name: "timeForecastEnded", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeForecastEnded
         {
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_query#forecast_type MeteringComputationQuery#forecast_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_query#forecast_type MeteringComputationQuery#forecast_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "forecastType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ForecastType
@@ -26,7 +26,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/metering_computation_query#time_forecast_started MeteringComputationQuery#time_forecast_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_query#time_forecast_started MeteringComputationQuery#time_forecast_started}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeForecastStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeForecastStarted

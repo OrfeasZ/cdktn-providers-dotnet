@@ -5,7 +5,7 @@ namespace oci.EmailEmailIpPool
     /// <remarks>
     /// <h1><c>oci_email_email_ip_pool</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/email_email_ip_pool"><c>oci_email_email_ip_pool</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/email_email_ip_pool"><c>oci_email_email_ip_pool</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

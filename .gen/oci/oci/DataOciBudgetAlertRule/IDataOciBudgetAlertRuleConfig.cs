@@ -7,14 +7,14 @@ namespace oci.DataOciBudgetAlertRule
     [JsiiInterface(nativeType: typeof(IDataOciBudgetAlertRuleConfig), fullyQualifiedName: "oci.dataOciBudgetAlertRule.DataOciBudgetAlertRuleConfig")]
     public interface IDataOciBudgetAlertRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_alert_rule#alert_rule_id DataOciBudgetAlertRule#alert_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_alert_rule#alert_rule_id DataOciBudgetAlertRule#alert_rule_id}.</summary>
         [JsiiProperty(name: "alertRuleId", typeJson: "{\"primitive\":\"string\"}")]
         string AlertRuleId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_alert_rule#budget_id DataOciBudgetAlertRule#budget_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_alert_rule#budget_id DataOciBudgetAlertRule#budget_id}.</summary>
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
         string BudgetId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciBudgetAlertRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_alert_rule#alert_rule_id DataOciBudgetAlertRule#alert_rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_alert_rule#alert_rule_id DataOciBudgetAlertRule#alert_rule_id}.</summary>
             [JsiiProperty(name: "alertRuleId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlertRuleId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_alert_rule#budget_id DataOciBudgetAlertRule#budget_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_alert_rule#budget_id DataOciBudgetAlertRule#budget_id}.</summary>
             [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
             public string BudgetId
             {

@@ -9,7 +9,7 @@ namespace oci.SchServiceConnector
     [JsiiByValue(fqn: "oci.schServiceConnector.SchServiceConnectorTargetDimensionsDimensionValue")]
     public class SchServiceConnectorTargetDimensionsDimensionValue : oci.SchServiceConnector.ISchServiceConnectorTargetDimensionsDimensionValue
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -17,7 +17,7 @@ namespace oci.SchServiceConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#path SchServiceConnector#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#path SchServiceConnector#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -26,7 +26,7 @@ namespace oci.SchServiceConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#value SchServiceConnector#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#value SchServiceConnector#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

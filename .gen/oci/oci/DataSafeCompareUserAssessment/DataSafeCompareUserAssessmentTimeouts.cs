@@ -7,7 +7,7 @@ namespace oci.DataSafeCompareUserAssessment
     [JsiiByValue(fqn: "oci.dataSafeCompareUserAssessment.DataSafeCompareUserAssessmentTimeouts")]
     public class DataSafeCompareUserAssessmentTimeouts : oci.DataSafeCompareUserAssessment.IDataSafeCompareUserAssessmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_compare_user_assessment#create DataSafeCompareUserAssessment#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_compare_user_assessment#create DataSafeCompareUserAssessment#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeCompareUserAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_compare_user_assessment#delete DataSafeCompareUserAssessment#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_compare_user_assessment#delete DataSafeCompareUserAssessment#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeCompareUserAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_safe_compare_user_assessment#update DataSafeCompareUserAssessment#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_compare_user_assessment#update DataSafeCompareUserAssessment#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

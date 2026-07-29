@@ -9,7 +9,7 @@ namespace oci.DataOciNosqlIndex
     [JsiiByValue(fqn: "oci.dataOciNosqlIndex.DataOciNosqlIndexConfig")]
     public class DataOciNosqlIndexConfig : oci.DataOciNosqlIndex.IDataOciNosqlIndexConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNosqlIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         public string IndexName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciNosqlIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
         [JsiiProperty(name: "tableNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         public string TableNameOrId
         {

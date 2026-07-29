@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourceSoftwarePackages.DataOciOsManagementHubSoftwareSourceSoftwarePackagesConfig")]
     public class DataOciOsManagementHubSoftwareSourceSoftwarePackagesConfig : oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages.IDataOciOsManagementHubSoftwareSourceSoftwarePackagesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#software_source_id DataOciOsManagementHubSoftwareSourceSoftwarePackages#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#software_source_id DataOciOsManagementHubSoftwareSourceSoftwarePackages#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#display_name DataOciOsManagementHubSoftwareSourceSoftwarePackages#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#display_name DataOciOsManagementHubSoftwareSourceSoftwarePackages#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -26,7 +26,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#display_name_contains DataOciOsManagementHubSoftwareSourceSoftwarePackages#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#display_name_contains DataOciOsManagementHubSoftwareSourceSoftwarePackages#display_name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayNameContains
@@ -39,7 +39,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#filter DataOciOsManagementHubSoftwareSourceSoftwarePackages#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#filter DataOciOsManagementHubSoftwareSourceSoftwarePackages#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages.IDataOciOsManagementHubSoftwareSourceSoftwarePackagesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#id DataOciOsManagementHubSoftwareSourceSoftwarePackages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#id DataOciOsManagementHubSoftwareSourceSoftwarePackages#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackages
 
         private object? _isLatest;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_software_packages#is_latest DataOciOsManagementHubSoftwareSourceSoftwarePackages#is_latest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_software_packages#is_latest DataOciOsManagementHubSoftwareSourceSoftwarePackages#is_latest}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

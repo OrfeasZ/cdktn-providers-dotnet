@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedMySqlDatabaseQueryDetailConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedMySqlDatabaseQueryDetail.DataOciDatabaseManagementManagedMySqlDatabaseQueryDetailConfig")]
     public interface IDataOciDatabaseManagementManagedMySqlDatabaseQueryDetailConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}.</summary>
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}")]
         string Digest
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}.</summary>
         [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedMySqlDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#digest DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#digest}.</summary>
             [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}")]
             public string Digest
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#managed_my_sql_database_id}.</summary>
             [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedMySqlDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_query_detail#id DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

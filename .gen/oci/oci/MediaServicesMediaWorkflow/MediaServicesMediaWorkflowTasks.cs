@@ -9,7 +9,7 @@ namespace oci.MediaServicesMediaWorkflow
     [JsiiByValue(fqn: "oci.mediaServicesMediaWorkflow.MediaServicesMediaWorkflowTasks")]
     public class MediaServicesMediaWorkflowTasks : oci.MediaServicesMediaWorkflow.IMediaServicesMediaWorkflowTasks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#key MediaServicesMediaWorkflow#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#key MediaServicesMediaWorkflow#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#parameters MediaServicesMediaWorkflow#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#parameters MediaServicesMediaWorkflow#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}")]
         public string Parameters
         {
@@ -25,7 +25,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#type MediaServicesMediaWorkflow#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#type MediaServicesMediaWorkflow#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#version MediaServicesMediaWorkflow#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#version MediaServicesMediaWorkflow#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
         {
@@ -41,7 +41,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#enable_parameter_reference MediaServicesMediaWorkflow#enable_parameter_reference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#enable_parameter_reference MediaServicesMediaWorkflow#enable_parameter_reference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableParameterReference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnableParameterReference
@@ -50,7 +50,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#enable_when_referenced_parameter_equals MediaServicesMediaWorkflow#enable_when_referenced_parameter_equals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#enable_when_referenced_parameter_equals MediaServicesMediaWorkflow#enable_when_referenced_parameter_equals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableWhenReferencedParameterEquals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? EnableWhenReferencedParameterEquals
@@ -59,7 +59,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/media_services_media_workflow#prerequisites MediaServicesMediaWorkflow#prerequisites}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/media_services_media_workflow#prerequisites MediaServicesMediaWorkflow#prerequisites}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prerequisites", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Prerequisites

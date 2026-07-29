@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsConnectionPropertySet.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider")]
     public class DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider : oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet.IDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Configs

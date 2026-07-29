@@ -143,6 +143,12 @@ namespace oci.DataOciCoreVirtualCircuits
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "providerRemoteRegion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProviderRemoteRegion
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "providerServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProviderServiceId
         {
@@ -179,6 +185,12 @@ namespace oci.DataOciCoreVirtualCircuits
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "remoteAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RemoteAccountId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "routingPolicy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] RoutingPolicy
         {
@@ -187,6 +199,12 @@ namespace oci.DataOciCoreVirtualCircuits
 
         [JsiiProperty(name: "serviceType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ServiceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sharedConnectionUuid", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SharedConnectionUuid
         {
             get => GetInstanceProperty<string>()!;
         }

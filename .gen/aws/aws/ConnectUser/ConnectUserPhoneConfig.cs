@@ -9,7 +9,7 @@ namespace aws.ConnectUser
     [JsiiByValue(fqn: "aws.connectUser.ConnectUserPhoneConfig")]
     public class ConnectUserPhoneConfig : aws.ConnectUser.IConnectUserPhoneConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/connect_user#phone_type ConnectUser#phone_type}.</summary>
         [JsiiProperty(name: "phoneType", typeJson: "{\"primitive\":\"string\"}")]
         public string PhoneType
         {
@@ -17,7 +17,7 @@ namespace aws.ConnectUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/connect_user#after_contact_work_time_limit ConnectUser#after_contact_work_time_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "afterContactWorkTimeLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AfterContactWorkTimeLimit
@@ -28,7 +28,7 @@ namespace aws.ConnectUser
 
         private object? _autoAccept;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/connect_user#auto_accept ConnectUser#auto_accept}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace aws.ConnectUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/connect_user#desk_phone_number ConnectUser#desk_phone_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deskPhoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeskPhoneNumber

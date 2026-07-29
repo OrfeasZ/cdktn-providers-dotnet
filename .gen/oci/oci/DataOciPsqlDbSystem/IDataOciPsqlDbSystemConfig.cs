@@ -7,14 +7,14 @@ namespace oci.DataOciPsqlDbSystem
     [JsiiInterface(nativeType: typeof(IDataOciPsqlDbSystemConfig), fullyQualifiedName: "oci.dataOciPsqlDbSystem.DataOciPsqlDbSystemConfig")]
     public interface IDataOciPsqlDbSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string DbSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
         [JsiiProperty(name: "excludedFields", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExcludedFields
@@ -32,14 +32,14 @@ namespace oci.DataOciPsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_db_system#db_system_id DataOciPsqlDbSystem#db_system_id}.</summary>
             [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psql_db_system#excluded_fields DataOciPsqlDbSystem#excluded_fields}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "excludedFields", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExcludedFields

@@ -7,7 +7,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
     [JsiiInterface(nativeType: typeof(IRedisOciCacheConfigSetlistAssociatedOciCacheClusterTimeouts), fullyQualifiedName: "oci.redisOciCacheConfigSetlistAssociatedOciCacheCluster.RedisOciCacheConfigSetlistAssociatedOciCacheClusterTimeouts")]
     public interface IRedisOciCacheConfigSetlistAssociatedOciCacheClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#create RedisOciCacheConfigSetlistAssociatedOciCacheCluster#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#create RedisOciCacheConfigSetlistAssociatedOciCacheCluster#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#delete RedisOciCacheConfigSetlistAssociatedOciCacheCluster#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#delete RedisOciCacheConfigSetlistAssociatedOciCacheCluster#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#update RedisOciCacheConfigSetlistAssociatedOciCacheCluster#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#update RedisOciCacheConfigSetlistAssociatedOciCacheCluster#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#create RedisOciCacheConfigSetlistAssociatedOciCacheCluster#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#create RedisOciCacheConfigSetlistAssociatedOciCacheCluster#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#delete RedisOciCacheConfigSetlistAssociatedOciCacheCluster#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#delete RedisOciCacheConfigSetlistAssociatedOciCacheCluster#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#update RedisOciCacheConfigSetlistAssociatedOciCacheCluster#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster#update RedisOciCacheConfigSetlistAssociatedOciCacheCluster#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

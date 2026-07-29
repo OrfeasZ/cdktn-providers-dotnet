@@ -5,7 +5,7 @@ namespace oci.DataOciIotDigitalTwinInstances
     /// <remarks>
     /// <h1><c>data_oci_iot_digital_twin_instances</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/iot_digital_twin_instances"><c>data_oci_iot_digital_twin_instances</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/iot_digital_twin_instances"><c>data_oci_iot_digital_twin_instances</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

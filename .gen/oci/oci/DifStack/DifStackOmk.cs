@@ -9,7 +9,7 @@ namespace oci.DifStack
     [JsiiByValue(fqn: "oci.difStack.DifStackOmk")]
     public class DifStackOmk : oci.DifStack.IDifStackOmk
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#cluster_id DifStack#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#cluster_id DifStack#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -17,7 +17,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#cluster_namespace_id DifStack#cluster_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#cluster_namespace_id DifStack#cluster_namespace_id}.</summary>
         [JsiiProperty(name: "clusterNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterNamespaceId
         {
@@ -25,7 +25,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#instance_id DifStack#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -33,7 +33,7 @@ namespace oci.DifStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#namespace_name DifStack#namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#namespace_name DifStack#namespace_name}.</summary>
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceName
         {
@@ -45,7 +45,7 @@ namespace oci.DifStack
 
         /// <summary>component_value_overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#component_value_overrides DifStack#component_value_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#component_value_overrides DifStack#component_value_overrides}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackOmkComponentValueOverrides" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -76,7 +76,7 @@ namespace oci.DifStack
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#manifest_object_storage_path DifStack#manifest_object_storage_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#manifest_object_storage_path DifStack#manifest_object_storage_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "manifestObjectStoragePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManifestObjectStoragePath
@@ -89,7 +89,7 @@ namespace oci.DifStack
 
         /// <summary>secrets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/dif_stack#secrets DifStack#secrets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dif_stack#secrets DifStack#secrets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DifStack.IDifStackOmkSecrets" />)[]</para>
         /// </remarks>
         [JsiiOptional]

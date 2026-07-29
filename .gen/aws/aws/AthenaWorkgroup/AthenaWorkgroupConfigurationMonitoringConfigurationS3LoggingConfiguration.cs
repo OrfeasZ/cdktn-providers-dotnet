@@ -11,7 +11,7 @@ namespace aws.AthenaWorkgroup
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/athena_workgroup#enabled AthenaWorkgroup#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/athena_workgroup#enabled AthenaWorkgroup#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace aws.AthenaWorkgroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/athena_workgroup#kms_key AthenaWorkgroup#kms_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKey
@@ -51,7 +51,7 @@ namespace aws.AthenaWorkgroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/athena_workgroup#log_location AthenaWorkgroup#log_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/athena_workgroup#log_location AthenaWorkgroup#log_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogLocation

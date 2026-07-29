@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaces
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaces.DataOciDataintegrationWorkspacesFilter")]
     public class DataOciDataintegrationWorkspacesFilter : oci.DataOciDataintegrationWorkspaces.IDataOciDataintegrationWorkspacesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataintegration_workspaces#name DataOciDataintegrationWorkspaces#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspaces#name DataOciDataintegrationWorkspaces#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaces
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataintegration_workspaces#values DataOciDataintegrationWorkspaces#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspaces#values DataOciDataintegrationWorkspaces#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataintegrationWorkspaces
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dataintegration_workspaces#regex DataOciDataintegrationWorkspaces#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspaces#regex DataOciDataintegrationWorkspaces#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

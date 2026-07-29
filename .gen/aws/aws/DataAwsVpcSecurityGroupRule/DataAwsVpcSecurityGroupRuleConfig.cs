@@ -11,7 +11,7 @@ namespace aws.DataAwsVpcSecurityGroupRule
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/data-sources/vpc_security_group_rule#filter DataAwsVpcSecurityGroupRule#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc_security_group_rule#filter DataAwsVpcSecurityGroupRule#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsVpcSecurityGroupRule.IDataAwsVpcSecurityGroupRuleFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.DataAwsVpcSecurityGroupRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/data-sources/vpc_security_group_rule#region DataAwsVpcSecurityGroupRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc_security_group_rule#region DataAwsVpcSecurityGroupRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.DataAwsVpcSecurityGroupRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/data-sources/vpc_security_group_rule#security_group_rule_id DataAwsVpcSecurityGroupRule#security_group_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/data-sources/vpc_security_group_rule#security_group_rule_id DataAwsVpcSecurityGroupRule#security_group_rule_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupRuleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityGroupRuleId

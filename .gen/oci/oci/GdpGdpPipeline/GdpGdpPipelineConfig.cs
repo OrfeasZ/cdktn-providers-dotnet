@@ -13,7 +13,7 @@ namespace oci.GdpGdpPipeline
 
         /// <summary>bucket_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#bucket_details GdpGdpPipeline#bucket_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#bucket_details GdpGdpPipeline#bucket_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GdpGdpPipeline.IGdpGdpPipelineBucketDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "bucketDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.gdpGdpPipeline.GdpGdpPipelineBucketDetails\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace oci.GdpGdpPipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#compartment_id GdpGdpPipeline#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#compartment_id GdpGdpPipeline#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -51,7 +51,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#display_name GdpGdpPipeline#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#display_name GdpGdpPipeline#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -59,7 +59,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#peering_region GdpGdpPipeline#peering_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#peering_region GdpGdpPipeline#peering_region}.</summary>
         [JsiiProperty(name: "peeringRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string PeeringRegion
         {
@@ -67,7 +67,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#pipeline_type GdpGdpPipeline#pipeline_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#pipeline_type GdpGdpPipeline#pipeline_type}.</summary>
         [JsiiProperty(name: "pipelineType", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineType
         {
@@ -75,7 +75,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#approval_key_vault_id GdpGdpPipeline#approval_key_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#approval_key_vault_id GdpGdpPipeline#approval_key_vault_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "approvalKeyVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApprovalKeyVaultId
@@ -84,7 +84,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#authorization_details GdpGdpPipeline#authorization_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#authorization_details GdpGdpPipeline#authorization_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthorizationDetails
@@ -93,7 +93,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#defined_tags GdpGdpPipeline#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#defined_tags GdpGdpPipeline#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -102,7 +102,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#description GdpGdpPipeline#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#description GdpGdpPipeline#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -111,7 +111,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#env GdpGdpPipeline#env}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#env GdpGdpPipeline#env}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "env", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Env
@@ -120,7 +120,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#file_types GdpGdpPipeline#file_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#file_types GdpGdpPipeline#file_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FileTypes
@@ -129,7 +129,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#freeform_tags GdpGdpPipeline#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#freeform_tags GdpGdpPipeline#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -138,7 +138,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#id GdpGdpPipeline#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ namespace oci.GdpGdpPipeline
 
         private object? _isApprovalNeeded;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#is_approval_needed GdpGdpPipeline#is_approval_needed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#is_approval_needed GdpGdpPipeline#is_approval_needed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -187,7 +187,7 @@ namespace oci.GdpGdpPipeline
 
         private object? _isChunkingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#is_chunking_enabled GdpGdpPipeline#is_chunking_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#is_chunking_enabled GdpGdpPipeline#is_chunking_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -221,7 +221,7 @@ namespace oci.GdpGdpPipeline
 
         private object? _isFileOverrideInDestinationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#is_file_override_in_destination_enabled GdpGdpPipeline#is_file_override_in_destination_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#is_file_override_in_destination_enabled GdpGdpPipeline#is_file_override_in_destination_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -255,7 +255,7 @@ namespace oci.GdpGdpPipeline
 
         private object? _isScanningEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#is_scanning_enabled GdpGdpPipeline#is_scanning_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#is_scanning_enabled GdpGdpPipeline#is_scanning_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -287,7 +287,7 @@ namespace oci.GdpGdpPipeline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#service_log_group_id GdpGdpPipeline#service_log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#service_log_group_id GdpGdpPipeline#service_log_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceLogGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceLogGroupId
@@ -296,7 +296,7 @@ namespace oci.GdpGdpPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#state GdpGdpPipeline#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#state GdpGdpPipeline#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -307,7 +307,7 @@ namespace oci.GdpGdpPipeline
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/gdp_gdp_pipeline#timeouts GdpGdpPipeline#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/gdp_gdp_pipeline#timeouts GdpGdpPipeline#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.gdpGdpPipeline.GdpGdpPipelineTimeouts\"}", isOptional: true)]

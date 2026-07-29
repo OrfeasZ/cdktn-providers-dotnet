@@ -7,14 +7,14 @@ namespace oci.BdsBdsInstance
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceBdsClusterVersionSummary), fullyQualifiedName: "oci.bdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummary")]
     public interface IBdsBdsInstanceBdsClusterVersionSummary
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}.</summary>
         [JsiiProperty(name: "bdsVersion", typeJson: "{\"primitive\":\"string\"}")]
         string BdsVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}.</summary>
         [JsiiProperty(name: "odhVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OdhVersion
@@ -32,14 +32,14 @@ namespace oci.BdsBdsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#bds_version BdsBdsInstance#bds_version}.</summary>
             [JsiiProperty(name: "bdsVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/bds_bds_instance#odh_version BdsBdsInstance#odh_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "odhVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OdhVersion

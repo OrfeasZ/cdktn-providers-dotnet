@@ -7,7 +7,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuCollection
     [JsiiInterface(nativeType: typeof(IDataOciFleetSoftwareUpdateFsuCollectionConfig), fullyQualifiedName: "oci.dataOciFleetSoftwareUpdateFsuCollection.DataOciFleetSoftwareUpdateFsuCollectionConfig")]
     public interface IDataOciFleetSoftwareUpdateFsuCollectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
         [JsiiProperty(name: "fsuCollectionId", typeJson: "{\"primitive\":\"string\"}")]
         string FsuCollectionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuCollection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_collection#fsu_collection_id DataOciFleetSoftwareUpdateFsuCollection#fsu_collection_id}.</summary>
             [JsiiProperty(name: "fsuCollectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string FsuCollectionId
             {

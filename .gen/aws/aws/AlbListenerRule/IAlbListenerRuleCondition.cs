@@ -9,7 +9,7 @@ namespace aws.AlbListenerRule
     {
         /// <summary>host_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#host_header AlbListenerRule#host_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#host_header AlbListenerRule#host_header}
         /// </remarks>
         [JsiiProperty(name: "hostHeader", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHostHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.AlbListenerRule
 
         /// <summary>http_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#http_header AlbListenerRule#http_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#http_header AlbListenerRule#http_header}
         /// </remarks>
         [JsiiProperty(name: "httpHeader", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHttpHeader\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.AlbListenerRule
 
         /// <summary>http_request_method block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#http_request_method AlbListenerRule#http_request_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#http_request_method AlbListenerRule#http_request_method}
         /// </remarks>
         [JsiiProperty(name: "httpRequestMethod", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHttpRequestMethod\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.AlbListenerRule
 
         /// <summary>path_pattern block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#path_pattern AlbListenerRule#path_pattern}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#path_pattern AlbListenerRule#path_pattern}
         /// </remarks>
         [JsiiProperty(name: "pathPattern", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionPathPattern\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace aws.AlbListenerRule
 
         /// <summary>query_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#query_string AlbListenerRule#query_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#query_string AlbListenerRule#query_string}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListenerRule.IAlbListenerRuleConditionQueryString" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queryString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionQueryString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.AlbListenerRule
 
         /// <summary>source_ip block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#source_ip AlbListenerRule#source_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#source_ip AlbListenerRule#source_ip}
         /// </remarks>
         [JsiiProperty(name: "sourceIp", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionSourceIp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>host_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#host_header AlbListenerRule#host_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#host_header AlbListenerRule#host_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostHeader", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHostHeader\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>http_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#http_header AlbListenerRule#http_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#http_header AlbListenerRule#http_header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpHeader", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHttpHeader\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>http_request_method block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#http_request_method AlbListenerRule#http_request_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#http_request_method AlbListenerRule#http_request_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpRequestMethod", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionHttpRequestMethod\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>path_pattern block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#path_pattern AlbListenerRule#path_pattern}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#path_pattern AlbListenerRule#path_pattern}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pathPattern", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionPathPattern\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>query_string block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#query_string AlbListenerRule#query_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#query_string AlbListenerRule#query_string}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListenerRule.IAlbListenerRuleConditionQueryString" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -157,7 +157,7 @@ namespace aws.AlbListenerRule
 
             /// <summary>source_ip block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/alb_listener_rule#source_ip AlbListenerRule#source_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#source_ip AlbListenerRule#source_ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceIp", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleConditionSourceIp\"}", isOptional: true)]

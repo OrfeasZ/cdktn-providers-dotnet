@@ -9,7 +9,7 @@ namespace oci.DataOciOptimizerResourceActions
     [JsiiByValue(fqn: "oci.dataOciOptimizerResourceActions.DataOciOptimizerResourceActionsFilter")]
     public class DataOciOptimizerResourceActionsFilter : oci.DataOciOptimizerResourceActions.IDataOciOptimizerResourceActionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/optimizer_resource_actions#name DataOciOptimizerResourceActions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/optimizer_resource_actions#name DataOciOptimizerResourceActions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOptimizerResourceActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/optimizer_resource_actions#values DataOciOptimizerResourceActions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/optimizer_resource_actions#values DataOciOptimizerResourceActions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOptimizerResourceActions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/optimizer_resource_actions#regex DataOciOptimizerResourceActions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/optimizer_resource_actions#regex DataOciOptimizerResourceActions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

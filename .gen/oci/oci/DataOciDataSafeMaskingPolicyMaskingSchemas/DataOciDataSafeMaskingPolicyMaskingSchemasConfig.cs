@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeMaskingPolicyMaskingSchemas
     [JsiiByValue(fqn: "oci.dataOciDataSafeMaskingPolicyMaskingSchemas.DataOciDataSafeMaskingPolicyMaskingSchemasConfig")]
     public class DataOciDataSafeMaskingPolicyMaskingSchemasConfig : oci.DataOciDataSafeMaskingPolicyMaskingSchemas.IDataOciDataSafeMaskingPolicyMaskingSchemasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_policy_masking_schemas#masking_policy_id DataOciDataSafeMaskingPolicyMaskingSchemas#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_policy_masking_schemas#masking_policy_id DataOciDataSafeMaskingPolicyMaskingSchemas#masking_policy_id}.</summary>
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string MaskingPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeMaskingPolicyMaskingSchemas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_policy_masking_schemas#filter DataOciDataSafeMaskingPolicyMaskingSchemas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_policy_masking_schemas#filter DataOciDataSafeMaskingPolicyMaskingSchemas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeMaskingPolicyMaskingSchemas.IDataOciDataSafeMaskingPolicyMaskingSchemasFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeMaskingPolicyMaskingSchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_policy_masking_schemas#id DataOciDataSafeMaskingPolicyMaskingSchemas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_policy_masking_schemas#id DataOciDataSafeMaskingPolicyMaskingSchemas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeMaskingPolicyMaskingSchemas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_masking_policy_masking_schemas#schema_name DataOciDataSafeMaskingPolicyMaskingSchemas#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_masking_policy_masking_schemas#schema_name DataOciDataSafeMaskingPolicyMaskingSchemas#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SchemaName

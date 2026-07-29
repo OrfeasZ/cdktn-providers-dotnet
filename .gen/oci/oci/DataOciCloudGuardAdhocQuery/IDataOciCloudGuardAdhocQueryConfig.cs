@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardAdhocQuery
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardAdhocQueryConfig), fullyQualifiedName: "oci.dataOciCloudGuardAdhocQuery.DataOciCloudGuardAdhocQueryConfig")]
     public interface IDataOciCloudGuardAdhocQueryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
         [JsiiProperty(name: "adhocQueryId", typeJson: "{\"primitive\":\"string\"}")]
         string AdhocQueryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardAdhocQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_adhoc_query#adhoc_query_id DataOciCloudGuardAdhocQuery#adhoc_query_id}.</summary>
             [JsiiProperty(name: "adhocQueryId", typeJson: "{\"primitive\":\"string\"}")]
             public string AdhocQueryId
             {

@@ -9,7 +9,7 @@ namespace oci.VisualBuilderVbInstance
     [JsiiByValue(fqn: "oci.visualBuilderVbInstance.VisualBuilderVbInstanceCustomEndpoint")]
     public class VisualBuilderVbInstanceCustomEndpoint : oci.VisualBuilderVbInstance.IVisualBuilderVbInstanceCustomEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/visual_builder_vb_instance#hostname VisualBuilderVbInstance#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace oci.VisualBuilderVbInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/visual_builder_vb_instance#certificate_secret_id VisualBuilderVbInstance#certificate_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateSecretId

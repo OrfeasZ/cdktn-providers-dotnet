@@ -11,7 +11,7 @@ namespace aws.EcsDaemon
 
         /// <summary>alarms block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon#alarms EcsDaemon#alarms}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsDaemon.IEcsDaemonDeploymentConfigurationAlarms" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.EcsDaemon
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon#bake_time_in_minutes EcsDaemon#bake_time_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bakeTimeInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BakeTimeInMinutes
@@ -51,7 +51,7 @@ namespace aws.EcsDaemon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon#drain_percent EcsDaemon#drain_percent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "drainPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DrainPercent

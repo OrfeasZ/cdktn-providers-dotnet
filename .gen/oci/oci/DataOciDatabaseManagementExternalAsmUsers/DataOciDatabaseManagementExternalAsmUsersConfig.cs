@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmUsers
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalAsmUsers.DataOciDatabaseManagementExternalAsmUsersConfig")]
     public class DataOciDatabaseManagementExternalAsmUsersConfig : oci.DataOciDatabaseManagementExternalAsmUsers.IDataOciDatabaseManagementExternalAsmUsersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_asm_users#external_asm_id DataOciDatabaseManagementExternalAsmUsers#external_asm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_asm_users#external_asm_id DataOciDatabaseManagementExternalAsmUsers#external_asm_id}.</summary>
         [JsiiProperty(name: "externalAsmId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalAsmId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmUsers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_asm_users#filter DataOciDatabaseManagementExternalAsmUsers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_asm_users#filter DataOciDatabaseManagementExternalAsmUsers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalAsmUsers.IDataOciDatabaseManagementExternalAsmUsersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_asm_users#id DataOciDatabaseManagementExternalAsmUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_asm_users#id DataOciDatabaseManagementExternalAsmUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmUsers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_asm_users#opc_named_credential_id DataOciDatabaseManagementExternalAsmUsers#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_asm_users#opc_named_credential_id DataOciDatabaseManagementExternalAsmUsers#opc_named_credential_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OpcNamedCredentialId

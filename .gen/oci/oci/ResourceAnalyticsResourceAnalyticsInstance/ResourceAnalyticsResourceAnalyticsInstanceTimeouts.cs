@@ -7,7 +7,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
     [JsiiByValue(fqn: "oci.resourceAnalyticsResourceAnalyticsInstance.ResourceAnalyticsResourceAnalyticsInstanceTimeouts")]
     public class ResourceAnalyticsResourceAnalyticsInstanceTimeouts : oci.ResourceAnalyticsResourceAnalyticsInstance.IResourceAnalyticsResourceAnalyticsInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance#create ResourceAnalyticsResourceAnalyticsInstance#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_resource_analytics_instance#create ResourceAnalyticsResourceAnalyticsInstance#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance#delete ResourceAnalyticsResourceAnalyticsInstance#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_resource_analytics_instance#delete ResourceAnalyticsResourceAnalyticsInstance#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance#read ResourceAnalyticsResourceAnalyticsInstance#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_resource_analytics_instance#read ResourceAnalyticsResourceAnalyticsInstance#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_resource_analytics_instance#update ResourceAnalyticsResourceAnalyticsInstance#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_resource_analytics_instance#update ResourceAnalyticsResourceAnalyticsInstance#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

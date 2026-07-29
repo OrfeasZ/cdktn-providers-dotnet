@@ -9,7 +9,7 @@ namespace oci.ManagementAgentNamedCredential
     [JsiiByValue(fqn: "oci.managementAgentNamedCredential.ManagementAgentNamedCredentialProperties")]
     public class ManagementAgentNamedCredentialProperties : oci.ManagementAgentNamedCredential.IManagementAgentNamedCredentialProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/management_agent_named_credential#name ManagementAgentNamedCredential#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/management_agent_named_credential#value ManagementAgentNamedCredential#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -25,7 +25,7 @@ namespace oci.ManagementAgentNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/management_agent_named_credential#value_category ManagementAgentNamedCredential#value_category}.</summary>
         [JsiiProperty(name: "valueCategory", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueCategory
         {

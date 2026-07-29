@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     [JsiiByValue(fqn: "oci.identityDomainsUser.IdentityDomainsUserConfig")]
     public class IdentityDomainsUserConfig : oci.IdentityDomainsUser.IIdentityDomainsUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#idcs_endpoint IdentityDomainsUser#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#idcs_endpoint IdentityDomainsUser#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#schemas IdentityDomainsUser#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#schemas IdentityDomainsUser#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Schemas
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#user_name IdentityDomainsUser#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#user_name IdentityDomainsUser#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {
@@ -35,7 +35,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#active IdentityDomainsUser#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#active IdentityDomainsUser#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -71,7 +71,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>addresses block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#addresses IdentityDomainsUser#addresses}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#addresses IdentityDomainsUser#addresses}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserAddresses" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -102,7 +102,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#attributes IdentityDomainsUser#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#attributes IdentityDomainsUser#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -111,7 +111,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#attribute_sets IdentityDomainsUser#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#attribute_sets IdentityDomainsUser#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -120,7 +120,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#authorization IdentityDomainsUser#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#authorization IdentityDomainsUser#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -129,7 +129,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#description IdentityDomainsUser#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#description IdentityDomainsUser#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -138,7 +138,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#display_name IdentityDomainsUser#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#display_name IdentityDomainsUser#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -151,7 +151,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>emails block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#emails IdentityDomainsUser#emails}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#emails IdentityDomainsUser#emails}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEmails" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>entitlements block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#entitlements IdentityDomainsUser#entitlements}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#entitlements IdentityDomainsUser#entitlements}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserEntitlements" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -217,7 +217,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#external_id IdentityDomainsUser#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#external_id IdentityDomainsUser#external_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalId
@@ -228,7 +228,7 @@ namespace oci.IdentityDomainsUser
 
         private object? _forceDelete;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#force_delete IdentityDomainsUser#force_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#force_delete IdentityDomainsUser#force_delete}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -264,7 +264,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>ims block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#ims IdentityDomainsUser#ims}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#ims IdentityDomainsUser#ims}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserIms" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -295,7 +295,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#locale IdentityDomainsUser#locale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#locale IdentityDomainsUser#locale}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Locale
@@ -306,7 +306,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#name IdentityDomainsUser#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#name IdentityDomainsUser#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserName\"}", isOptional: true)]
@@ -316,7 +316,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#nick_name IdentityDomainsUser#nick_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#nick_name IdentityDomainsUser#nick_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nickName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NickName
@@ -325,7 +325,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#ocid IdentityDomainsUser#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#ocid IdentityDomainsUser#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -334,7 +334,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#password IdentityDomainsUser#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#password IdentityDomainsUser#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -347,7 +347,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>phone_numbers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#phone_numbers IdentityDomainsUser#phone_numbers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#phone_numbers IdentityDomainsUser#phone_numbers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhoneNumbers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -382,7 +382,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>photos block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#photos IdentityDomainsUser#photos}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#photos IdentityDomainsUser#photos}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserPhotos" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -413,7 +413,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#preferred_language IdentityDomainsUser#preferred_language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#preferred_language IdentityDomainsUser#preferred_language}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredLanguage
@@ -422,7 +422,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#profile_url IdentityDomainsUser#profile_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#profile_url IdentityDomainsUser#profile_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "profileUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProfileUrl
@@ -431,7 +431,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#resource_type_schema_version IdentityDomainsUser#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#resource_type_schema_version IdentityDomainsUser#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -444,7 +444,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>roles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#roles IdentityDomainsUser#roles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#roles IdentityDomainsUser#roles}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserRoles" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -479,7 +479,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#tags IdentityDomainsUser#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#tags IdentityDomainsUser#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -512,7 +512,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#timeouts IdentityDomainsUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#timeouts IdentityDomainsUser#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserTimeouts\"}", isOptional: true)]
@@ -522,7 +522,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#timezone IdentityDomainsUser#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#timezone IdentityDomainsUser#timezone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Timezone
@@ -531,7 +531,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#title IdentityDomainsUser#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#title IdentityDomainsUser#title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Title
@@ -542,7 +542,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasextensionenterprise20user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasextensionenterprise20user IdentityDomainsUser#urnietfparamsscimschemasextensionenterprise20user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasextensionenterprise20user IdentityDomainsUser#urnietfparamsscimschemasextensionenterprise20user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasextensionenterprise20User", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasextensionenterprise20User\"}", isOptional: true)]
@@ -554,7 +554,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionadaptive_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionadaptive_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionadaptive_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionadaptive_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionadaptive_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionadaptiveUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUser\"}", isOptional: true)]
@@ -566,7 +566,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensioncapabilities_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensioncapabilities_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensioncapabilities_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensioncapabilities_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensioncapabilities_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensioncapabilitiesUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensioncapabilitiesUser\"}", isOptional: true)]
@@ -578,7 +578,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensiondb_credentials_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensiondb_credentials_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensiondb_credentials_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensiondb_credentials_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensiondb_credentials_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensiondbCredentialsUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensiondbCredentialsUser\"}", isOptional: true)]
@@ -590,7 +590,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionkerberos_user_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionkerberos_user_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionkerberos_user_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionkerberos_user_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionkerberos_user_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionkerberosUserUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionkerberosUserUser\"}", isOptional: true)]
@@ -602,7 +602,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionmfa_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionmfa_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionmfa_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionmfa_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionmfa_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionmfaUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUser\"}", isOptional: true)]
@@ -614,7 +614,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextension_oci_tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextension_oci_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextension_oci_tags IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextension_oci_tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionOciTags", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionOciTags\"}", isOptional: true)]
@@ -626,7 +626,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionpasswordless_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionpasswordless_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionpasswordless_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionpasswordless_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionpasswordless_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionpasswordlessUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionpasswordlessUser\"}", isOptional: true)]
@@ -638,7 +638,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionposix_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionposix_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionposix_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionposix_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionposix_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionposixUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionposixUser\"}", isOptional: true)]
@@ -650,7 +650,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionsecurity_questions_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsecurity_questions_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsecurity_questions_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsecurity_questions_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsecurity_questions_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUser\"}", isOptional: true)]
@@ -662,7 +662,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionself_change_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionself_change_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionself_change_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionselfChangeUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionselfChangeUser\"}", isOptional: true)]
@@ -674,7 +674,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionself_registration_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionself_registration_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionself_registration_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionself_registration_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionself_registration_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionselfRegistrationUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionselfRegistrationUser\"}", isOptional: true)]
@@ -686,7 +686,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionsff_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsff_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsff_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsff_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsff_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionsffUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsffUser\"}", isOptional: true)]
@@ -698,7 +698,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionsocial_account_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsocial_account_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsocial_account_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionsocial_account_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionsocial_account_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionsocialAccountUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsocialAccountUser\"}", isOptional: true)]
@@ -710,7 +710,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionterms_of_use_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionterms_of_use_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionterms_of_use_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionterms_of_use_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionterms_of_use_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensiontermsOfUseUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensiontermsOfUseUser\"}", isOptional: true)]
@@ -722,7 +722,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionuser_state_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionuser_state_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionuser_state_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionuser_state_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionuser_state_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionuserStateUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserStateUser\"}", isOptional: true)]
@@ -734,7 +734,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionuser_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionuser_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionuser_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#urnietfparamsscimschemasoracleidcsextensionuser_user IdentityDomainsUser#urnietfparamsscimschemasoracleidcsextensionuser_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionuserUser", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionuserUser\"}", isOptional: true)]
@@ -744,7 +744,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#user_type IdentityDomainsUser#user_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#user_type IdentityDomainsUser#user_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserType
@@ -757,7 +757,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>x509certificates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#x509certificates IdentityDomainsUser#x509certificates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#x509certificates IdentityDomainsUser#x509certificates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserX509Certificates" />)[]</para>
         /// </remarks>
         [JsiiOptional]

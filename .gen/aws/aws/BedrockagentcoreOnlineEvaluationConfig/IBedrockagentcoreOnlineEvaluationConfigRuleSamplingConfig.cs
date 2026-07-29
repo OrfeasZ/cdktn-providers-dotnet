@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreOnlineEvaluationConfig
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreOnlineEvaluationConfigRuleSamplingConfig), fullyQualifiedName: "aws.bedrockagentcoreOnlineEvaluationConfig.BedrockagentcoreOnlineEvaluationConfigRuleSamplingConfig")]
     public interface IBedrockagentcoreOnlineEvaluationConfigRuleSamplingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}.</summary>
         [JsiiProperty(name: "samplingPercentage", typeJson: "{\"primitive\":\"number\"}")]
         double SamplingPercentage
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreOnlineEvaluationConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_online_evaluation_config#sampling_percentage BedrockagentcoreOnlineEvaluationConfig#sampling_percentage}.</summary>
             [JsiiProperty(name: "samplingPercentage", typeJson: "{\"primitive\":\"number\"}")]
             public double SamplingPercentage
             {

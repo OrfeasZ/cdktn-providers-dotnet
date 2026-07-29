@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementRunbookVersion
     {
         private object? _shouldNotifyOnPause;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_pause FleetAppsManagementRunbookVersion#should_notify_on_pause}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         private object? _shouldNotifyOnTaskFailure;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_failure FleetAppsManagementRunbookVersion#should_notify_on_task_failure}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         private object? _shouldNotifyOnTaskSuccess;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_runbook_version#should_notify_on_task_success FleetAppsManagementRunbookVersion#should_notify_on_task_success}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

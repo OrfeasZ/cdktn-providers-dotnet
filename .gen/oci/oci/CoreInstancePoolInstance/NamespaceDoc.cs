@@ -5,7 +5,7 @@ namespace oci.CoreInstancePoolInstance
     /// <remarks>
     /// <h1><c>oci_core_instance_pool_instance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_instance_pool_instance"><c>oci_core_instance_pool_instance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_instance_pool_instance"><c>oci_core_instance_pool_instance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

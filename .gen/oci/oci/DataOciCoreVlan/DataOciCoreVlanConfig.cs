@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVlan
     [JsiiByValue(fqn: "oci.dataOciCoreVlan.DataOciCoreVlanConfig")]
     public class DataOciCoreVlanConfig : oci.DataOciCoreVlan.IDataOciCoreVlanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_vlan#vlan_id DataOciCoreVlan#vlan_id}.</summary>
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}")]
         public string VlanId
         {

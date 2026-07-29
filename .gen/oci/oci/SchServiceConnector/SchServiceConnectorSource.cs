@@ -9,7 +9,7 @@ namespace oci.SchServiceConnector
     [JsiiByValue(fqn: "oci.schServiceConnector.SchServiceConnectorSource")]
     public class SchServiceConnectorSource : oci.SchServiceConnector.ISchServiceConnectorSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -17,7 +17,7 @@ namespace oci.SchServiceConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#config_map SchServiceConnector#config_map}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#config_map SchServiceConnector#config_map}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configMap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfigMap
@@ -28,7 +28,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>cursor block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#cursor SchServiceConnector#cursor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#cursor SchServiceConnector#cursor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cursor", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceCursor\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>log_sources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#log_sources SchServiceConnector#log_sources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#log_sources SchServiceConnector#log_sources}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceLogSources" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -77,7 +77,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>monitoring_sources block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#monitoring_sources SchServiceConnector#monitoring_sources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#monitoring_sources SchServiceConnector#monitoring_sources}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSources" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -108,7 +108,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#plugin_name SchServiceConnector#plugin_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#plugin_name SchServiceConnector#plugin_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pluginName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PluginName
@@ -117,7 +117,7 @@ namespace oci.SchServiceConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreamId

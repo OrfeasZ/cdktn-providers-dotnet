@@ -7,7 +7,7 @@ namespace oci.DataOciBudgetBudget
     [JsiiInterface(nativeType: typeof(IDataOciBudgetBudgetConfig), fullyQualifiedName: "oci.dataOciBudgetBudget.DataOciBudgetBudgetConfig")]
     public interface IDataOciBudgetBudgetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
         string BudgetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBudgetBudget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
             [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
             public string BudgetId
             {

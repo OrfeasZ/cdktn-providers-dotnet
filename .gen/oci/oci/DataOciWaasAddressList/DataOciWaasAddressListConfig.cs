@@ -9,7 +9,7 @@ namespace oci.DataOciWaasAddressList
     [JsiiByValue(fqn: "oci.dataOciWaasAddressList.DataOciWaasAddressListConfig")]
     public class DataOciWaasAddressListConfig : oci.DataOciWaasAddressList.IDataOciWaasAddressListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/waas_address_list#address_list_id DataOciWaasAddressList#address_list_id}.</summary>
         [JsiiProperty(name: "addressListId", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressListId
         {

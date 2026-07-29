@@ -11,7 +11,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>cloudwatch_dashboard block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/fis_experiment_template#cloudwatch_dashboard FisExperimentTemplate#cloudwatch_dashboard}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fis_experiment_template#cloudwatch_dashboard FisExperimentTemplate#cloudwatch_dashboard}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateExperimentReportConfigurationDataSourcesCloudwatchDashboard" />)[]</para>
         /// </remarks>
         [JsiiOptional]

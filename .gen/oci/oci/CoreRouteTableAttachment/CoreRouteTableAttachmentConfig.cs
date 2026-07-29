@@ -9,7 +9,7 @@ namespace oci.CoreRouteTableAttachment
     [JsiiByValue(fqn: "oci.coreRouteTableAttachment.CoreRouteTableAttachmentConfig")]
     public class CoreRouteTableAttachmentConfig : oci.CoreRouteTableAttachment.ICoreRouteTableAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_route_table_attachment#route_table_id CoreRouteTableAttachment#route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_route_table_attachment#route_table_id CoreRouteTableAttachment#route_table_id}.</summary>
         [JsiiProperty(name: "routeTableId", typeJson: "{\"primitive\":\"string\"}")]
         public string RouteTableId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreRouteTableAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_route_table_attachment#subnet_id CoreRouteTableAttachment#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_route_table_attachment#subnet_id CoreRouteTableAttachment#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -25,7 +25,7 @@ namespace oci.CoreRouteTableAttachment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_route_table_attachment#id CoreRouteTableAttachment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_route_table_attachment#id CoreRouteTableAttachment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.CoreRouteTableAttachment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_route_table_attachment#timeouts CoreRouteTableAttachment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_route_table_attachment#timeouts CoreRouteTableAttachment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreRouteTableAttachment.CoreRouteTableAttachmentTimeouts\"}", isOptional: true)]

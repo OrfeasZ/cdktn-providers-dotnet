@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineAddon
     [JsiiByValue(fqn: "oci.dataOciContainerengineAddon.DataOciContainerengineAddonConfig")]
     public class DataOciContainerengineAddonConfig : oci.DataOciContainerengineAddon.IDataOciContainerengineAddonConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/containerengine_addon#addon_name DataOciContainerengineAddon#addon_name}.</summary>
         [JsiiProperty(name: "addonName", typeJson: "{\"primitive\":\"string\"}")]
         public string AddonName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciContainerengineAddon
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/containerengine_addon#cluster_id DataOciContainerengineAddon#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {

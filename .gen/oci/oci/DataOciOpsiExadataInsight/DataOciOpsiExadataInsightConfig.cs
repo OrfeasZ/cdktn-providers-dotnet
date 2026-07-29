@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiExadataInsight
     [JsiiByValue(fqn: "oci.dataOciOpsiExadataInsight.DataOciOpsiExadataInsightConfig")]
     public class DataOciOpsiExadataInsightConfig : oci.DataOciOpsiExadataInsight.IDataOciOpsiExadataInsightConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
         [JsiiProperty(name: "exadataInsightId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExadataInsightId
         {

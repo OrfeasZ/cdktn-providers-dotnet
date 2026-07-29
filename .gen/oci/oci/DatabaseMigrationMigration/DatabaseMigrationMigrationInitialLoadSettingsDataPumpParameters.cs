@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsDataPumpParameters")]
     public class DatabaseMigrationMigrationInitialLoadSettingsDataPumpParameters : oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsDataPumpParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#estimate DatabaseMigrationMigration#estimate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#estimate DatabaseMigrationMigration#estimate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "estimate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Estimate
@@ -16,7 +16,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#exclude_parameters DatabaseMigrationMigration#exclude_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#exclude_parameters DatabaseMigrationMigration#exclude_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludeParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExcludeParameters
@@ -25,7 +25,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#export_parallelism_degree DatabaseMigrationMigration#export_parallelism_degree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#export_parallelism_degree DatabaseMigrationMigration#export_parallelism_degree}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exportParallelismDegree", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExportParallelismDegree
@@ -34,7 +34,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#import_parallelism_degree DatabaseMigrationMigration#import_parallelism_degree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#import_parallelism_degree DatabaseMigrationMigration#import_parallelism_degree}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "importParallelismDegree", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ImportParallelismDegree
@@ -45,7 +45,7 @@ namespace oci.DatabaseMigrationMigration
 
         private object? _isCluster;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#is_cluster DatabaseMigrationMigration#is_cluster}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#is_cluster DatabaseMigrationMigration#is_cluster}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_migration_migration#table_exists_action DatabaseMigrationMigration#table_exists_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_migration#table_exists_action DatabaseMigrationMigration#table_exists_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableExistsAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableExistsAction

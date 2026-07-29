@@ -9,7 +9,7 @@ namespace oci.DataOciIotDigitalTwinModel
     [JsiiByValue(fqn: "oci.dataOciIotDigitalTwinModel.DataOciIotDigitalTwinModelConfig")]
     public class DataOciIotDigitalTwinModelConfig : oci.DataOciIotDigitalTwinModel.IDataOciIotDigitalTwinModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/iot_digital_twin_model#digital_twin_model_id DataOciIotDigitalTwinModel#digital_twin_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/iot_digital_twin_model#digital_twin_model_id DataOciIotDigitalTwinModel#digital_twin_model_id}.</summary>
         [JsiiProperty(name: "digitalTwinModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string DigitalTwinModelId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedDeployments.DataOciGenerativeAiHostedDeploymentsConfig")]
     public class DataOciGenerativeAiHostedDeploymentsConfig : oci.DataOciGenerativeAiHostedDeployments.IDataOciGenerativeAiHostedDeploymentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#compartment_id DataOciGenerativeAiHostedDeployments#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#compartment_id DataOciGenerativeAiHostedDeployments#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#application_id DataOciGenerativeAiHostedDeployments#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#application_id DataOciGenerativeAiHostedDeployments#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -26,7 +26,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#display_name DataOciGenerativeAiHostedDeployments#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#display_name DataOciGenerativeAiHostedDeployments#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#filter DataOciGenerativeAiHostedDeployments#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#filter DataOciGenerativeAiHostedDeployments#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiHostedDeployments.IDataOciGenerativeAiHostedDeploymentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#id DataOciGenerativeAiHostedDeployments#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#id DataOciGenerativeAiHostedDeployments#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/generative_ai_hosted_deployments#state DataOciGenerativeAiHostedDeployments#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployments#state DataOciGenerativeAiHostedDeployments#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

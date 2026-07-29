@@ -9,7 +9,7 @@ namespace oci.DatascienceJobRun
     [JsiiByValue(fqn: "oci.datascienceJobRun.DatascienceJobRunJobConfigurationOverrideDetails")]
     public class DatascienceJobRunJobConfigurationOverrideDetails : oci.DatascienceJobRun.IDatascienceJobRunJobConfigurationOverrideDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job_run#job_type DatascienceJobRun#job_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_job_run#job_type DatascienceJobRun#job_type}.</summary>
         [JsiiProperty(name: "jobType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job_run#command_line_arguments DatascienceJobRun#command_line_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_job_run#command_line_arguments DatascienceJobRun#command_line_arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commandLineArguments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommandLineArguments
@@ -26,7 +26,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job_run#environment_variables DatascienceJobRun#environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_job_run#environment_variables DatascienceJobRun#environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? EnvironmentVariables
@@ -35,7 +35,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job_run#maximum_runtime_in_minutes DatascienceJobRun#maximum_runtime_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_job_run#maximum_runtime_in_minutes DatascienceJobRun#maximum_runtime_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumRuntimeInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumRuntimeInMinutes
@@ -46,7 +46,7 @@ namespace oci.DatascienceJobRun
 
         /// <summary>startup_probe_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/datascience_job_run#startup_probe_details DatascienceJobRun#startup_probe_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_job_run#startup_probe_details DatascienceJobRun#startup_probe_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startupProbeDetails", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobConfigurationOverrideDetailsStartupProbeDetails\"}", isOptional: true)]

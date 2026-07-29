@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsMySmtpCredential
     [JsiiByValue(fqn: "oci.identityDomainsMySmtpCredential.IdentityDomainsMySmtpCredentialTimeouts")]
     public class IdentityDomainsMySmtpCredentialTimeouts : oci.IdentityDomainsMySmtpCredential.IIdentityDomainsMySmtpCredentialTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_smtp_credential#create IdentityDomainsMySmtpCredential#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_smtp_credential#create IdentityDomainsMySmtpCredential#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_smtp_credential#delete IdentityDomainsMySmtpCredential#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_smtp_credential#delete IdentityDomainsMySmtpCredential#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_my_smtp_credential#update IdentityDomainsMySmtpCredential#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_smtp_credential#update IdentityDomainsMySmtpCredential#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

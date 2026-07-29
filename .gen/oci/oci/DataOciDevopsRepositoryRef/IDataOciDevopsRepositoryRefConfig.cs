@@ -7,14 +7,14 @@ namespace oci.DataOciDevopsRepositoryRef
     [JsiiInterface(nativeType: typeof(IDataOciDevopsRepositoryRefConfig), fullyQualifiedName: "oci.dataOciDevopsRepositoryRef.DataOciDevopsRepositoryRefConfig")]
     public interface IDataOciDevopsRepositoryRefConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_repository_ref#ref_name DataOciDevopsRepositoryRef#ref_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_ref#ref_name DataOciDevopsRepositoryRef#ref_name}.</summary>
         [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}")]
         string RefName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_repository_ref#repository_id DataOciDevopsRepositoryRef#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_ref#repository_id DataOciDevopsRepositoryRef#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDevopsRepositoryRef
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_repository_ref#ref_name DataOciDevopsRepositoryRef#ref_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_ref#ref_name DataOciDevopsRepositoryRef#ref_name}.</summary>
             [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}")]
             public string RefName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_repository_ref#repository_id DataOciDevopsRepositoryRef#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_ref#repository_id DataOciDevopsRepositoryRef#repository_id}.</summary>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
             {

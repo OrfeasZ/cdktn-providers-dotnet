@@ -5,7 +5,7 @@ namespace oci.DatabaseDbNodeConsoleConnection
     /// <remarks>
     /// <h1><c>oci_database_db_node_console_connection</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_node_console_connection"><c>oci_database_db_node_console_connection</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_node_console_connection"><c>oci_database_db_node_console_connection</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

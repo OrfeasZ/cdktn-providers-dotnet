@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
     [JsiiByValue(fqn: "oci.dataOciMulticloudOmHubMulticloudResources.DataOciMulticloudOmHubMulticloudResourcesFilter")]
     public class DataOciMulticloudOmHubMulticloudResourcesFilter : oci.DataOciMulticloudOmHubMulticloudResources.IDataOciMulticloudOmHubMulticloudResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_om_hub_multicloud_resources#name DataOciMulticloudOmHubMulticloudResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_om_hub_multicloud_resources#name DataOciMulticloudOmHubMulticloudResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_om_hub_multicloud_resources#values DataOciMulticloudOmHubMulticloudResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_om_hub_multicloud_resources#values DataOciMulticloudOmHubMulticloudResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_om_hub_multicloud_resources#regex DataOciMulticloudOmHubMulticloudResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_om_hub_multicloud_resources#regex DataOciMulticloudOmHubMulticloudResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

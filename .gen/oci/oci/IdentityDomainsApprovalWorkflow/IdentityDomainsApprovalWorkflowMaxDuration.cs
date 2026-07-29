@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApprovalWorkflow
     [JsiiByValue(fqn: "oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowMaxDuration")]
     public class IdentityDomainsApprovalWorkflowMaxDuration : oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowMaxDuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_approval_workflow#unit IdentityDomainsApprovalWorkflow#unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_approval_workflow#unit IdentityDomainsApprovalWorkflow#unit}.</summary>
         [JsiiProperty(name: "unit", typeJson: "{\"primitive\":\"string\"}")]
         public string Unit
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsApprovalWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_approval_workflow#value IdentityDomainsApprovalWorkflow#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_approval_workflow#value IdentityDomainsApprovalWorkflow#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         public double Value
         {

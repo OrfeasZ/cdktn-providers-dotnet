@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionMapping
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneSubscriptionMapping.DataOciTenantmanagercontrolplaneSubscriptionMappingConfig")]
     public class DataOciTenantmanagercontrolplaneSubscriptionMappingConfig : oci.DataOciTenantmanagercontrolplaneSubscriptionMapping.IDataOciTenantmanagercontrolplaneSubscriptionMappingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
         [JsiiProperty(name: "subscriptionMappingId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionMappingId
         {

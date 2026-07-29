@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateConnections
     [JsiiByValue(fqn: "oci.dataOciGoldenGateConnections.DataOciGoldenGateConnectionsConfig")]
     public class DataOciGoldenGateConnectionsConfig : oci.DataOciGoldenGateConnections.IDataOciGoldenGateConnectionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#compartment_id DataOciGoldenGateConnections#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#compartment_id DataOciGoldenGateConnections#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#assignable_deployment_id DataOciGoldenGateConnections#assignable_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#assignable_deployment_id DataOciGoldenGateConnections#assignable_deployment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignableDeploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssignableDeploymentId
@@ -26,7 +26,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#assignable_deployment_type DataOciGoldenGateConnections#assignable_deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#assignable_deployment_type DataOciGoldenGateConnections#assignable_deployment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignableDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssignableDeploymentType
@@ -35,7 +35,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#assigned_deployment_id DataOciGoldenGateConnections#assigned_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#assigned_deployment_id DataOciGoldenGateConnections#assigned_deployment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assignedDeploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssignedDeploymentId
@@ -44,7 +44,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#connection_type DataOciGoldenGateConnections#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#connection_type DataOciGoldenGateConnections#connection_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ConnectionType
@@ -53,7 +53,16 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#display_name DataOciGoldenGateConnections#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#connection_type_not_equal_to DataOciGoldenGateConnections#connection_type_not_equal_to}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "connectionTypeNotEqualTo", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? ConnectionTypeNotEqualTo
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#display_name DataOciGoldenGateConnections#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -66,7 +75,7 @@ namespace oci.DataOciGoldenGateConnections
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#filter DataOciGoldenGateConnections#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#filter DataOciGoldenGateConnections#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateConnections.IDataOciGoldenGateConnectionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -97,7 +106,7 @@ namespace oci.DataOciGoldenGateConnections
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#id DataOciGoldenGateConnections#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#id DataOciGoldenGateConnections#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +119,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#state DataOciGoldenGateConnections#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#state DataOciGoldenGateConnections#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -119,7 +128,7 @@ namespace oci.DataOciGoldenGateConnections
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_connections#technology_type DataOciGoldenGateConnections#technology_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_connections#technology_type DataOciGoldenGateConnections#technology_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "technologyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TechnologyType

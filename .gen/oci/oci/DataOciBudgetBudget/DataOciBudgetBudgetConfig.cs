@@ -9,7 +9,7 @@ namespace oci.DataOciBudgetBudget
     [JsiiByValue(fqn: "oci.dataOciBudgetBudget.DataOciBudgetBudgetConfig")]
     public class DataOciBudgetBudgetConfig : oci.DataOciBudgetBudget.IDataOciBudgetBudgetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/budget_budget#budget_id DataOciBudgetBudget#budget_id}.</summary>
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
         public string BudgetId
         {

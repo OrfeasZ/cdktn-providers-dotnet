@@ -5,7 +5,7 @@ namespace oci.DataOciCloudBridgeInventories
     /// <remarks>
     /// <h1><c>data_oci_cloud_bridge_inventories</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_bridge_inventories"><c>data_oci_cloud_bridge_inventories</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_inventories"><c>data_oci_cloud_bridge_inventories</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

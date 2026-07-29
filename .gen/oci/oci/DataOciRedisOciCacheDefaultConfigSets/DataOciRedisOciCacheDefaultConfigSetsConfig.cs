@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheDefaultConfigSets.DataOciRedisOciCacheDefaultConfigSetsConfig")]
     public class DataOciRedisOciCacheDefaultConfigSetsConfig : oci.DataOciRedisOciCacheDefaultConfigSets.IDataOciRedisOciCacheDefaultConfigSetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#compartment_id DataOciRedisOciCacheDefaultConfigSets#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#compartment_id DataOciRedisOciCacheDefaultConfigSets#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#display_name DataOciRedisOciCacheDefaultConfigSets#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#display_name DataOciRedisOciCacheDefaultConfigSets#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#filter DataOciRedisOciCacheDefaultConfigSets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#filter DataOciRedisOciCacheDefaultConfigSets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciRedisOciCacheDefaultConfigSets.IDataOciRedisOciCacheDefaultConfigSetsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#id DataOciRedisOciCacheDefaultConfigSets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#id DataOciRedisOciCacheDefaultConfigSets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#software_version DataOciRedisOciCacheDefaultConfigSets#software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#software_version DataOciRedisOciCacheDefaultConfigSets#software_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SoftwareVersion
@@ -83,7 +83,7 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_default_config_sets#state DataOciRedisOciCacheDefaultConfigSets#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#state DataOciRedisOciCacheDefaultConfigSets#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

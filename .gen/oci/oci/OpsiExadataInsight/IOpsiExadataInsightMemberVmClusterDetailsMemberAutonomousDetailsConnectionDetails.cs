@@ -7,7 +7,7 @@ namespace oci.OpsiExadataInsight
     [JsiiInterface(nativeType: typeof(IOpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionDetails), fullyQualifiedName: "oci.opsiExadataInsight.OpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionDetails")]
     public interface IOpsiExadataInsightMemberVmClusterDetailsMemberAutonomousDetailsConnectionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}.</summary>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostName
@@ -18,7 +18,7 @@ namespace oci.OpsiExadataInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -29,7 +29,7 @@ namespace oci.OpsiExadataInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Protocol
@@ -40,7 +40,7 @@ namespace oci.OpsiExadataInsight
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceName
@@ -58,7 +58,7 @@ namespace oci.OpsiExadataInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#host_name OpsiExadataInsight#host_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostName
@@ -66,7 +66,7 @@ namespace oci.OpsiExadataInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#port OpsiExadataInsight#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port
@@ -74,7 +74,7 @@ namespace oci.OpsiExadataInsight
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#protocol OpsiExadataInsight#protocol}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Protocol
@@ -82,7 +82,7 @@ namespace oci.OpsiExadataInsight
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opsi_exadata_insight#service_name OpsiExadataInsight#service_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceName

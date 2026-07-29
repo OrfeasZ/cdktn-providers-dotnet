@@ -9,7 +9,7 @@ namespace oci.DataLabelingServiceDataset
     [JsiiByValue(fqn: "oci.dataLabelingServiceDataset.DataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadata")]
     public class DataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadata : oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetDatasetFormatDetailsTextFileTypeMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#column_index DataLabelingServiceDataset#column_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#column_index DataLabelingServiceDataset#column_index}.</summary>
         [JsiiProperty(name: "columnIndex", typeJson: "{\"primitive\":\"number\"}")]
         public double ColumnIndex
         {
@@ -17,7 +17,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#format_type DataLabelingServiceDataset#format_type}.</summary>
         [JsiiProperty(name: "formatType", typeJson: "{\"primitive\":\"string\"}")]
         public string FormatType
         {
@@ -25,7 +25,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#column_delimiter DataLabelingServiceDataset#column_delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#column_delimiter DataLabelingServiceDataset#column_delimiter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "columnDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ColumnDelimiter
@@ -34,7 +34,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#column_name DataLabelingServiceDataset#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#column_name DataLabelingServiceDataset#column_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ColumnName
@@ -43,7 +43,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#escape_character DataLabelingServiceDataset#escape_character}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#escape_character DataLabelingServiceDataset#escape_character}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "escapeCharacter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EscapeCharacter
@@ -52,7 +52,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/data_labeling_service_dataset#line_delimiter DataLabelingServiceDataset#line_delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_labeling_service_dataset#line_delimiter DataLabelingServiceDataset#line_delimiter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lineDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LineDelimiter

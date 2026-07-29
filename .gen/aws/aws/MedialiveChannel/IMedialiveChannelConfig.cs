@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelConfig), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelConfig")]
     public interface IMedialiveChannelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}.</summary>
         [JsiiProperty(name: "channelClass", typeJson: "{\"primitive\":\"string\"}")]
         string ChannelClass
         {
@@ -16,7 +16,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>destinations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destinations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelDestinations\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>encoder_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
         /// </remarks>
         [JsiiProperty(name: "encoderSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettings\"}")]
         aws.MedialiveChannel.IMedialiveChannelEncoderSettings EncoderSettings
@@ -37,7 +37,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>input_attachments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachments" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "inputAttachments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachments\"},\"kind\":\"array\"}}]}}")]
@@ -48,7 +48,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>input_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
         /// </remarks>
         [JsiiProperty(name: "inputSpecification", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputSpecification\"}")]
         aws.MedialiveChannel.IMedialiveChannelInputSpecification InputSpecification
@@ -56,7 +56,7 @@ namespace aws.MedialiveChannel
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -65,7 +65,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>cdi_input_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
         /// </remarks>
         [JsiiProperty(name: "cdiInputSpecification", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelCdiInputSpecification\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}.</summary>
         [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogLevel
@@ -105,7 +105,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>maintenance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
         /// </remarks>
         [JsiiProperty(name: "maintenance", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelMaintenance\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +119,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#region MedialiveChannel#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#region MedialiveChannel#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoleArn
@@ -142,7 +142,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -156,7 +156,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -167,7 +167,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -180,7 +180,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -194,7 +194,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>vpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
         /// </remarks>
         [JsiiProperty(name: "vpc", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelVpc\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -213,7 +213,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#channel_class MedialiveChannel#channel_class}.</summary>
             [JsiiProperty(name: "channelClass", typeJson: "{\"primitive\":\"string\"}")]
             public string ChannelClass
             {
@@ -222,7 +222,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>destinations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#destinations MedialiveChannel#destinations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelDestinations" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "destinations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelDestinations\"},\"kind\":\"array\"}}]}}")]
@@ -233,7 +233,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>encoder_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#encoder_settings MedialiveChannel#encoder_settings}
             /// </remarks>
             [JsiiProperty(name: "encoderSettings", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettings\"}")]
             public aws.MedialiveChannel.IMedialiveChannelEncoderSettings EncoderSettings
@@ -243,7 +243,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>input_attachments block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#input_attachments MedialiveChannel#input_attachments}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelInputAttachments" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "inputAttachments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputAttachments\"},\"kind\":\"array\"}}]}}")]
@@ -254,7 +254,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>input_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#input_specification MedialiveChannel#input_specification}
             /// </remarks>
             [JsiiProperty(name: "inputSpecification", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelInputSpecification\"}")]
             public aws.MedialiveChannel.IMedialiveChannelInputSpecification InputSpecification
@@ -262,7 +262,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelInputSpecification>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#name MedialiveChannel#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -271,7 +271,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>cdi_input_specification block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#cdi_input_specification MedialiveChannel#cdi_input_specification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cdiInputSpecification", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelCdiInputSpecification\"}", isOptional: true)]
@@ -280,7 +280,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelCdiInputSpecification?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#id MedialiveChannel#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -292,7 +292,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#log_level MedialiveChannel#log_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogLevel
@@ -302,7 +302,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>maintenance block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#maintenance MedialiveChannel#maintenance}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenance", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelMaintenance\"}", isOptional: true)]
@@ -313,7 +313,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#region MedialiveChannel#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#region MedialiveChannel#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -322,7 +322,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#role_arn MedialiveChannel#role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoleArn
@@ -330,7 +330,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#start_channel MedialiveChannel#start_channel}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -341,7 +341,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#tags MedialiveChannel#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -349,7 +349,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#tags_all MedialiveChannel#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -359,7 +359,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#timeouts MedialiveChannel#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelTimeouts\"}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>vpc block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/medialive_channel#vpc MedialiveChannel#vpc}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpc", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelVpc\"}", isOptional: true)]

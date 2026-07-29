@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelsSensitiveColumn
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveDataModelsSensitiveColumn.DataOciDataSafeSensitiveDataModelsSensitiveColumnConfig")]
     public class DataOciDataSafeSensitiveDataModelsSensitiveColumnConfig : oci.DataOciDataSafeSensitiveDataModelsSensitiveColumn.IDataOciDataSafeSensitiveDataModelsSensitiveColumnConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_sensitive_data_models_sensitive_column#sensitive_column_key DataOciDataSafeSensitiveDataModelsSensitiveColumn#sensitive_column_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_sensitive_data_models_sensitive_column#sensitive_column_key DataOciDataSafeSensitiveDataModelsSensitiveColumn#sensitive_column_key}.</summary>
         [JsiiProperty(name: "sensitiveColumnKey", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveColumnKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSensitiveDataModelsSensitiveColumn
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_sensitive_data_models_sensitive_column#sensitive_data_model_id DataOciDataSafeSensitiveDataModelsSensitiveColumn#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_sensitive_data_models_sensitive_column#sensitive_data_model_id DataOciDataSafeSensitiveDataModelsSensitiveColumn#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveDataModelId
         {

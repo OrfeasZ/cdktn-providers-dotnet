@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentStatus
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentStatus.DataOciFusionAppsFusionEnvironmentStatusConfig")]
     public class DataOciFusionAppsFusionEnvironmentStatusConfig : oci.DataOciFusionAppsFusionEnvironmentStatus.IDataOciFusionAppsFusionEnvironmentStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fusion_apps_fusion_environment_status#fusion_environment_id DataOciFusionAppsFusionEnvironmentStatus#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fusion_apps_fusion_environment_status#fusion_environment_id DataOciFusionAppsFusionEnvironmentStatus#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentStatus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fusion_apps_fusion_environment_status#id DataOciFusionAppsFusionEnvironmentStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fusion_apps_fusion_environment_status#id DataOciFusionAppsFusionEnvironmentStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

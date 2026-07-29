@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpEsxiHost
     [JsiiInterface(nativeType: typeof(IDataOciOcvpEsxiHostConfig), fullyQualifiedName: "oci.dataOciOcvpEsxiHost.DataOciOcvpEsxiHostConfig")]
     public interface IDataOciOcvpEsxiHostConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}.</summary>
         [JsiiProperty(name: "esxiHostId", typeJson: "{\"primitive\":\"string\"}")]
         string EsxiHostId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpEsxiHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}.</summary>
             [JsiiProperty(name: "esxiHostId", typeJson: "{\"primitive\":\"string\"}")]
             public string EsxiHostId
             {

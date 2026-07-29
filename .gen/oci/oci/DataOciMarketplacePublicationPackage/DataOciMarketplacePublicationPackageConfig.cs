@@ -9,7 +9,7 @@ namespace oci.DataOciMarketplacePublicationPackage
     [JsiiByValue(fqn: "oci.dataOciMarketplacePublicationPackage.DataOciMarketplacePublicationPackageConfig")]
     public class DataOciMarketplacePublicationPackageConfig : oci.DataOciMarketplacePublicationPackage.IDataOciMarketplacePublicationPackageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/marketplace_publication_package#package_version DataOciMarketplacePublicationPackage#package_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/marketplace_publication_package#package_version DataOciMarketplacePublicationPackage#package_version}.</summary>
         [JsiiProperty(name: "packageVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string PackageVersion
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMarketplacePublicationPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/marketplace_publication_package#publication_id DataOciMarketplacePublicationPackage#publication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/marketplace_publication_package#publication_id DataOciMarketplacePublicationPackage#publication_id}.</summary>
         [JsiiProperty(name: "publicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicationId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciMarketplacePublicationPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/marketplace_publication_package#id DataOciMarketplacePublicationPackage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/marketplace_publication_package#id DataOciMarketplacePublicationPackage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

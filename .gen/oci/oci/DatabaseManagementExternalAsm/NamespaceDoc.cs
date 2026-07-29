@@ -5,7 +5,7 @@ namespace oci.DatabaseManagementExternalAsm
     /// <remarks>
     /// <h1><c>oci_database_management_external_asm</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_asm"><c>oci_database_management_external_asm</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_asm"><c>oci_database_management_external_asm</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

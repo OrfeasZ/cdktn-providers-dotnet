@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     [JsiiByValue(fqn: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUserSecQuestions")]
     public class IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUserSecQuestions : oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUserSecQuestions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#answer IdentityDomainsUser#answer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#answer IdentityDomainsUser#answer}.</summary>
         [JsiiProperty(name: "answer", typeJson: "{\"primitive\":\"string\"}")]
         public string Answer
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#value IdentityDomainsUser#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#hint_text IdentityDomainsUser#hint_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#hint_text IdentityDomainsUser#hint_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hintText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HintText

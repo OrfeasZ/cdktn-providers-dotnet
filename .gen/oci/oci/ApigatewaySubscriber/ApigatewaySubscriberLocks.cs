@@ -9,7 +9,7 @@ namespace oci.ApigatewaySubscriber
     [JsiiByValue(fqn: "oci.apigatewaySubscriber.ApigatewaySubscriberLocks")]
     public class ApigatewaySubscriberLocks : oci.ApigatewaySubscriber.IApigatewaySubscriberLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_subscriber#type ApigatewaySubscriber#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apigateway_subscriber#type ApigatewaySubscriber#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewaySubscriber
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apigateway_subscriber#message ApigatewaySubscriber#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apigateway_subscriber#message ApigatewaySubscriber#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message

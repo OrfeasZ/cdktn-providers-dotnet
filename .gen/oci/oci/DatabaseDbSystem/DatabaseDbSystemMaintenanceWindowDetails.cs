@@ -7,7 +7,7 @@ namespace oci.DatabaseDbSystem
     [JsiiByValue(fqn: "oci.databaseDbSystem.DatabaseDbSystemMaintenanceWindowDetails")]
     public class DatabaseDbSystemMaintenanceWindowDetails : oci.DatabaseDbSystem.IDatabaseDbSystemMaintenanceWindowDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#custom_action_timeout_in_mins DatabaseDbSystem#custom_action_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#custom_action_timeout_in_mins DatabaseDbSystem#custom_action_timeout_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customActionTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CustomActionTimeoutInMins
@@ -20,7 +20,7 @@ namespace oci.DatabaseDbSystem
 
         /// <summary>days_of_week block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#days_of_week DatabaseDbSystem#days_of_week}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#days_of_week DatabaseDbSystem#days_of_week}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDbSystem.IDatabaseDbSystemMaintenanceWindowDetailsDaysOfWeek" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DatabaseDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#hours_of_day DatabaseDbSystem#hours_of_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#hours_of_day DatabaseDbSystem#hours_of_day}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hoursOfDay", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? HoursOfDay
@@ -62,7 +62,7 @@ namespace oci.DatabaseDbSystem
 
         private object? _isCustomActionTimeoutEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#is_custom_action_timeout_enabled DatabaseDbSystem#is_custom_action_timeout_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#is_custom_action_timeout_enabled DatabaseDbSystem#is_custom_action_timeout_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace oci.DatabaseDbSystem
 
         private object? _isMonthlyPatchingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#is_monthly_patching_enabled DatabaseDbSystem#is_monthly_patching_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#is_monthly_patching_enabled DatabaseDbSystem#is_monthly_patching_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -128,7 +128,7 @@ namespace oci.DatabaseDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#lead_time_in_weeks DatabaseDbSystem#lead_time_in_weeks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#lead_time_in_weeks DatabaseDbSystem#lead_time_in_weeks}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "leadTimeInWeeks", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LeadTimeInWeeks
@@ -141,7 +141,7 @@ namespace oci.DatabaseDbSystem
 
         /// <summary>months block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#months DatabaseDbSystem#months}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#months DatabaseDbSystem#months}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDbSystem.IDatabaseDbSystemMaintenanceWindowDetailsMonths" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -172,7 +172,7 @@ namespace oci.DatabaseDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#patching_mode DatabaseDbSystem#patching_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#patching_mode DatabaseDbSystem#patching_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchingMode
@@ -181,7 +181,7 @@ namespace oci.DatabaseDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#preference DatabaseDbSystem#preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#preference DatabaseDbSystem#preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Preference
@@ -192,7 +192,7 @@ namespace oci.DatabaseDbSystem
 
         private object? _skipRu;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#skip_ru DatabaseDbSystem#skip_ru}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#skip_ru DatabaseDbSystem#skip_ru}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (either bool or <see cref="Io.Cdktn.IResolvable" />)[]</para>
         /// </remarks>
@@ -241,7 +241,7 @@ namespace oci.DatabaseDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_db_system#weeks_of_month DatabaseDbSystem#weeks_of_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#weeks_of_month DatabaseDbSystem#weeks_of_month}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weeksOfMonth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? WeeksOfMonth

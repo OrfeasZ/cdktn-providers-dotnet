@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiByValue(fqn: "oci.cloudBridgeAsset.CloudBridgeAssetAwsEc2NetworkInterfacesSecurityGroups")]
     public class CloudBridgeAssetAwsEc2NetworkInterfacesSecurityGroups : oci.CloudBridgeAsset.ICloudBridgeAssetAwsEc2NetworkInterfacesSecurityGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#group_key CloudBridgeAsset#group_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#group_key CloudBridgeAsset#group_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupKey
@@ -16,7 +16,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#group_name CloudBridgeAsset#group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupName

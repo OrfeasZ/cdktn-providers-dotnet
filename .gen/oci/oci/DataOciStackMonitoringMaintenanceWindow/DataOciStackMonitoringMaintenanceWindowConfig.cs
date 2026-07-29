@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringMaintenanceWindow
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringMaintenanceWindow.DataOciStackMonitoringMaintenanceWindowConfig")]
     public class DataOciStackMonitoringMaintenanceWindowConfig : oci.DataOciStackMonitoringMaintenanceWindow.IDataOciStackMonitoringMaintenanceWindowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/stack_monitoring_maintenance_window#maintenance_window_id DataOciStackMonitoringMaintenanceWindow#maintenance_window_id}.</summary>
         [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
         public string MaintenanceWindowId
         {

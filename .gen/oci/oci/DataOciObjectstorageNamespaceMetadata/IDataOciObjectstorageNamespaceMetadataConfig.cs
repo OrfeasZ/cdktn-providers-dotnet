@@ -7,14 +7,14 @@ namespace oci.DataOciObjectstorageNamespaceMetadata
     [JsiiInterface(nativeType: typeof(IDataOciObjectstorageNamespaceMetadataConfig), fullyQualifiedName: "oci.dataOciObjectstorageNamespaceMetadata.DataOciObjectstorageNamespaceMetadataConfig")]
     public interface IDataOciObjectstorageNamespaceMetadataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/objectstorage_namespace_metadata#namespace DataOciObjectstorageNamespaceMetadata#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/objectstorage_namespace_metadata#namespace DataOciObjectstorageNamespaceMetadata#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/objectstorage_namespace_metadata#id DataOciObjectstorageNamespaceMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/objectstorage_namespace_metadata#id DataOciObjectstorageNamespaceMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciObjectstorageNamespaceMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/objectstorage_namespace_metadata#namespace DataOciObjectstorageNamespaceMetadata#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/objectstorage_namespace_metadata#namespace DataOciObjectstorageNamespaceMetadata#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/objectstorage_namespace_metadata#id DataOciObjectstorageNamespaceMetadata#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/objectstorage_namespace_metadata#id DataOciObjectstorageNamespaceMetadata#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

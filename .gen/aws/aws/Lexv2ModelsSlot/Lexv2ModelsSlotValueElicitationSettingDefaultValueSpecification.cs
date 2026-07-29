@@ -11,7 +11,7 @@ namespace aws.Lexv2ModelsSlot
 
         /// <summary>default_value_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/lexv2models_slot#default_value_list Lexv2ModelsSlot#default_value_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lexv2models_slot#default_value_list Lexv2ModelsSlot#default_value_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsSlot.ILexv2ModelsSlotValueElicitationSettingDefaultValueSpecificationDefaultValueListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]

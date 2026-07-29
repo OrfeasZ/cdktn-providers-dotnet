@@ -9,7 +9,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
     [JsiiByValue(fqn: "oci.dataOciAiLanguageModelEvaluationResults.DataOciAiLanguageModelEvaluationResultsFilter")]
     public class DataOciAiLanguageModelEvaluationResultsFilter : oci.DataOciAiLanguageModelEvaluationResults.IDataOciAiLanguageModelEvaluationResultsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#name DataOciAiLanguageModelEvaluationResultsA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_language_model_evaluation_results#name DataOciAiLanguageModelEvaluationResultsA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#values DataOciAiLanguageModelEvaluationResultsA#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_language_model_evaluation_results#values DataOciAiLanguageModelEvaluationResultsA#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciAiLanguageModelEvaluationResults
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_language_model_evaluation_results#regex DataOciAiLanguageModelEvaluationResultsA#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_language_model_evaluation_results#regex DataOciAiLanguageModelEvaluationResultsA#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

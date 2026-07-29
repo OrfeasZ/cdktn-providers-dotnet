@@ -7,35 +7,35 @@ namespace oci.FleetAppsManagementSchedulerDefinition
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementSchedulerDefinitionRunBooksInputParametersArgumentsContent), fullyQualifiedName: "oci.fleetAppsManagementSchedulerDefinition.FleetAppsManagementSchedulerDefinitionRunBooksInputParametersArgumentsContent")]
     public interface IFleetAppsManagementSchedulerDefinitionRunBooksInputParametersArgumentsContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#bucket FleetAppsManagementSchedulerDefinition#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#bucket FleetAppsManagementSchedulerDefinition#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#checksum FleetAppsManagementSchedulerDefinition#checksum}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#checksum FleetAppsManagementSchedulerDefinition#checksum}.</summary>
         [JsiiProperty(name: "checksum", typeJson: "{\"primitive\":\"string\"}")]
         string Checksum
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#namespace FleetAppsManagementSchedulerDefinition#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#namespace FleetAppsManagementSchedulerDefinition#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#object FleetAppsManagementSchedulerDefinition#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#object FleetAppsManagementSchedulerDefinition#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         string Object
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#source_type FleetAppsManagementSchedulerDefinition#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#source_type FleetAppsManagementSchedulerDefinition#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
         {
@@ -49,35 +49,35 @@ namespace oci.FleetAppsManagementSchedulerDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#bucket FleetAppsManagementSchedulerDefinition#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#bucket FleetAppsManagementSchedulerDefinition#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#checksum FleetAppsManagementSchedulerDefinition#checksum}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#checksum FleetAppsManagementSchedulerDefinition#checksum}.</summary>
             [JsiiProperty(name: "checksum", typeJson: "{\"primitive\":\"string\"}")]
             public string Checksum
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#namespace FleetAppsManagementSchedulerDefinition#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#namespace FleetAppsManagementSchedulerDefinition#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#object FleetAppsManagementSchedulerDefinition#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#object FleetAppsManagementSchedulerDefinition#object}.</summary>
             [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
             public string Object
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/fleet_apps_management_scheduler_definition#source_type FleetAppsManagementSchedulerDefinition#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_scheduler_definition#source_type FleetAppsManagementSchedulerDefinition#source_type}.</summary>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
             {

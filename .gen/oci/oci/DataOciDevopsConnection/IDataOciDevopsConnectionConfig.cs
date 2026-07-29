@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsConnection
     [JsiiInterface(nativeType: typeof(IDataOciDevopsConnectionConfig), fullyQualifiedName: "oci.dataOciDevopsConnection.DataOciDevopsConnectionConfig")]
     public interface IDataOciDevopsConnectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_connection#connection_id DataOciDevopsConnection#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_connection#connection_id DataOciDevopsConnection#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_connection#connection_id DataOciDevopsConnection#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_connection#connection_id DataOciDevopsConnection#connection_id}.</summary>
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionId
             {

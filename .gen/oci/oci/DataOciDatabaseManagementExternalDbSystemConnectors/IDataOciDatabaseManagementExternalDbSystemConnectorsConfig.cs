@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalDbSystemConnectorsConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalDbSystemConnectors.DataOciDatabaseManagementExternalDbSystemConnectorsConfig")]
     public interface IDataOciDatabaseManagementExternalDbSystemConnectorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#compartment_id DataOciDatabaseManagementExternalDbSystemConnectors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#compartment_id DataOciDatabaseManagementExternalDbSystemConnectors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#display_name DataOciDatabaseManagementExternalDbSystemConnectors#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#display_name DataOciDatabaseManagementExternalDbSystemConnectors#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#external_db_system_id DataOciDatabaseManagementExternalDbSystemConnectors#external_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#external_db_system_id DataOciDatabaseManagementExternalDbSystemConnectors#external_db_system_id}.</summary>
         [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExternalDbSystemId
@@ -42,7 +42,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#filter DataOciDatabaseManagementExternalDbSystemConnectors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#filter DataOciDatabaseManagementExternalDbSystemConnectors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalDbSystemConnectors.IDataOciDatabaseManagementExternalDbSystemConnectorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementExternalDbSystemConnectors.DataOciDatabaseManagementExternalDbSystemConnectorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#id DataOciDatabaseManagementExternalDbSystemConnectors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#id DataOciDatabaseManagementExternalDbSystemConnectors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#compartment_id DataOciDatabaseManagementExternalDbSystemConnectors#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#compartment_id DataOciDatabaseManagementExternalDbSystemConnectors#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -85,7 +85,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#display_name DataOciDatabaseManagementExternalDbSystemConnectors#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#display_name DataOciDatabaseManagementExternalDbSystemConnectors#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -93,7 +93,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#external_db_system_id DataOciDatabaseManagementExternalDbSystemConnectors#external_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#external_db_system_id DataOciDatabaseManagementExternalDbSystemConnectors#external_db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExternalDbSystemId
@@ -103,7 +103,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#filter DataOciDatabaseManagementExternalDbSystemConnectors#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#filter DataOciDatabaseManagementExternalDbSystemConnectors#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalDbSystemConnectors.IDataOciDatabaseManagementExternalDbSystemConnectorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -113,7 +113,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_db_system_connectors#id DataOciDatabaseManagementExternalDbSystemConnectors#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_connectors#id DataOciDatabaseManagementExternalDbSystemConnectors#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

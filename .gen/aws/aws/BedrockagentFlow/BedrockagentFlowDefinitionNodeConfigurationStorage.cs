@@ -11,7 +11,7 @@ namespace aws.BedrockagentFlow
 
         /// <summary>service_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#service_configuration BedrockagentFlow#service_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfigurationStorageServiceConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

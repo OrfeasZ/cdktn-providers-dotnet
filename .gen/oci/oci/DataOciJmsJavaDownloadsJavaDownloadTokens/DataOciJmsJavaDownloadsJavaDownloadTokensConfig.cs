@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaDownloadTokens.DataOciJmsJavaDownloadsJavaDownloadTokensConfig")]
     public class DataOciJmsJavaDownloadsJavaDownloadTokensConfig : oci.DataOciJmsJavaDownloadsJavaDownloadTokens.IDataOciJmsJavaDownloadsJavaDownloadTokensConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#compartment_id DataOciJmsJavaDownloadsJavaDownloadTokens#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#compartment_id DataOciJmsJavaDownloadsJavaDownloadTokens#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#display_name DataOciJmsJavaDownloadsJavaDownloadTokens#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#display_name DataOciJmsJavaDownloadsJavaDownloadTokens#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -26,7 +26,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#family_version DataOciJmsJavaDownloadsJavaDownloadTokens#family_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#family_version DataOciJmsJavaDownloadsJavaDownloadTokens#family_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "familyVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FamilyVersion
@@ -39,7 +39,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#filter DataOciJmsJavaDownloadsJavaDownloadTokens#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#filter DataOciJmsJavaDownloadsJavaDownloadTokens#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaDownloadTokens.IDataOciJmsJavaDownloadsJavaDownloadTokensFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#id DataOciJmsJavaDownloadsJavaDownloadTokens#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#id DataOciJmsJavaDownloadsJavaDownloadTokens#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#search_by_user DataOciJmsJavaDownloadsJavaDownloadTokens#search_by_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#search_by_user DataOciJmsJavaDownloadsJavaDownloadTokens#search_by_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchByUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SearchByUser
@@ -92,7 +92,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#state DataOciJmsJavaDownloadsJavaDownloadTokens#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#state DataOciJmsJavaDownloadsJavaDownloadTokens#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -101,7 +101,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadTokens
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/jms_java_downloads_java_download_tokens#value DataOciJmsJavaDownloadsJavaDownloadTokens#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_tokens#value DataOciJmsJavaDownloadsJavaDownloadTokens#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

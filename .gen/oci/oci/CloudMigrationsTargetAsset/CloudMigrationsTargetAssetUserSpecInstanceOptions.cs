@@ -9,7 +9,7 @@ namespace oci.CloudMigrationsTargetAsset
     {
         private object? _areLegacyImdsEndpointsDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_migrations_target_asset#are_legacy_imds_endpoints_disabled CloudMigrationsTargetAsset#are_legacy_imds_endpoints_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_migrations_target_asset#are_legacy_imds_endpoints_disabled CloudMigrationsTargetAsset#are_legacy_imds_endpoints_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

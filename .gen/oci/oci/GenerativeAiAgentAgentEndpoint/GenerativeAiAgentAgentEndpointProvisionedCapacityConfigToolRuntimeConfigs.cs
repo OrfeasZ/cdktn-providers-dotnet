@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     [JsiiByValue(fqn: "oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointProvisionedCapacityConfigToolRuntimeConfigs")]
     public class GenerativeAiAgentAgentEndpointProvisionedCapacityConfigToolRuntimeConfigs : oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointProvisionedCapacityConfigToolRuntimeConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_agent_endpoint#tool_runtime_config_type GenerativeAiAgentAgentEndpoint#tool_runtime_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_agent_endpoint#tool_runtime_config_type GenerativeAiAgentAgentEndpoint#tool_runtime_config_type}.</summary>
         [JsiiProperty(name: "toolRuntimeConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string ToolRuntimeConfigType
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

@@ -7,14 +7,14 @@ namespace oci.BatchBatchTaskProfile
     [JsiiInterface(nativeType: typeof(IBatchBatchTaskProfileConfig), fullyQualifiedName: "oci.batchBatchTaskProfile.BatchBatchTaskProfileConfig")]
     public interface IBatchBatchTaskProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#compartment_id BatchBatchTaskProfile#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#compartment_id BatchBatchTaskProfile#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#defined_tags BatchBatchTaskProfile#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#defined_tags BatchBatchTaskProfile#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -25,7 +25,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#description BatchBatchTaskProfile#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#description BatchBatchTaskProfile#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -36,7 +36,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#display_name BatchBatchTaskProfile#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#display_name BatchBatchTaskProfile#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -49,7 +49,7 @@ namespace oci.BatchBatchTaskProfile
 
         /// <summary>extended_information block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#extended_information BatchBatchTaskProfile#extended_information}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#extended_information BatchBatchTaskProfile#extended_information}
         /// </remarks>
         [JsiiProperty(name: "extendedInformation", typeJson: "{\"fqn\":\"oci.batchBatchTaskProfile.BatchBatchTaskProfileExtendedInformation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#freeform_tags BatchBatchTaskProfile#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#freeform_tags BatchBatchTaskProfile#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -72,7 +72,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#id BatchBatchTaskProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#id BatchBatchTaskProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_disk_size_in_gbs BatchBatchTaskProfile#min_disk_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_disk_size_in_gbs BatchBatchTaskProfile#min_disk_size_in_gbs}.</summary>
         [JsiiProperty(name: "minDiskSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinDiskSizeInGbs
@@ -98,7 +98,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_memory_in_gbs BatchBatchTaskProfile#min_memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_memory_in_gbs BatchBatchTaskProfile#min_memory_in_gbs}.</summary>
         [JsiiProperty(name: "minMemoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinMemoryInGbs
@@ -109,7 +109,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_ocpus BatchBatchTaskProfile#min_ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_ocpus BatchBatchTaskProfile#min_ocpus}.</summary>
         [JsiiProperty(name: "minOcpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinOcpus
@@ -122,7 +122,7 @@ namespace oci.BatchBatchTaskProfile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#timeouts BatchBatchTaskProfile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#timeouts BatchBatchTaskProfile#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.batchBatchTaskProfile.BatchBatchTaskProfileTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,14 +141,14 @@ namespace oci.BatchBatchTaskProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#compartment_id BatchBatchTaskProfile#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#compartment_id BatchBatchTaskProfile#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#defined_tags BatchBatchTaskProfile#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#defined_tags BatchBatchTaskProfile#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -156,7 +156,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#description BatchBatchTaskProfile#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#description BatchBatchTaskProfile#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -164,7 +164,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#display_name BatchBatchTaskProfile#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#display_name BatchBatchTaskProfile#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -174,7 +174,7 @@ namespace oci.BatchBatchTaskProfile
 
             /// <summary>extended_information block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#extended_information BatchBatchTaskProfile#extended_information}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#extended_information BatchBatchTaskProfile#extended_information}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "extendedInformation", typeJson: "{\"fqn\":\"oci.batchBatchTaskProfile.BatchBatchTaskProfileExtendedInformation\"}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<oci.BatchBatchTaskProfile.IBatchBatchTaskProfileExtendedInformation?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#freeform_tags BatchBatchTaskProfile#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#freeform_tags BatchBatchTaskProfile#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -191,7 +191,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#id BatchBatchTaskProfile#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#id BatchBatchTaskProfile#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -203,7 +203,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_disk_size_in_gbs BatchBatchTaskProfile#min_disk_size_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_disk_size_in_gbs BatchBatchTaskProfile#min_disk_size_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minDiskSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinDiskSizeInGbs
@@ -211,7 +211,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_memory_in_gbs BatchBatchTaskProfile#min_memory_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_memory_in_gbs BatchBatchTaskProfile#min_memory_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minMemoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinMemoryInGbs
@@ -219,7 +219,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#min_ocpus BatchBatchTaskProfile#min_ocpus}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#min_ocpus BatchBatchTaskProfile#min_ocpus}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minOcpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinOcpus
@@ -229,7 +229,7 @@ namespace oci.BatchBatchTaskProfile
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/batch_batch_task_profile#timeouts BatchBatchTaskProfile#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/batch_batch_task_profile#timeouts BatchBatchTaskProfile#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.batchBatchTaskProfile.BatchBatchTaskProfileTimeouts\"}", isOptional: true)]

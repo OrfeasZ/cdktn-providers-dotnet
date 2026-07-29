@@ -11,7 +11,7 @@ namespace oci.JmsTaskSchedule
 
         /// <summary>targets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsDeployedApplicationMigrationTaskRequestTargets" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServer
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalExadataStorageServerConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalExadataStorageServer.DataOciDatabaseManagementExternalExadataStorageServerConfig")]
     public interface IDataOciDatabaseManagementExternalExadataStorageServerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalExadataStorageServerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalExadataStorageServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_exadata_storage_server#external_exadata_storage_server_id DataOciDatabaseManagementExternalExadataStorageServer#external_exadata_storage_server_id}.</summary>
             [JsiiProperty(name: "externalExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalExadataStorageServerId
             {

@@ -9,7 +9,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
     [JsiiByValue(fqn: "oci.networkFirewallNetworkFirewallPolicyApplicationGroup.NetworkFirewallNetworkFirewallPolicyApplicationGroupConfig")]
     public class NetworkFirewallNetworkFirewallPolicyApplicationGroupConfig : oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup.INetworkFirewallNetworkFirewallPolicyApplicationGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#apps NetworkFirewallNetworkFirewallPolicyApplicationGroup#apps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#apps NetworkFirewallNetworkFirewallPolicyApplicationGroup#apps}.</summary>
         [JsiiProperty(name: "apps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Apps
         {
@@ -17,7 +17,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#name NetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#name NetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {
@@ -33,7 +33,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#description NetworkFirewallNetworkFirewallPolicyApplicationGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#description NetworkFirewallNetworkFirewallPolicyApplicationGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -42,7 +42,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#id NetworkFirewallNetworkFirewallPolicyApplicationGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#id NetworkFirewallNetworkFirewallPolicyApplicationGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyApplicationGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/network_firewall_network_firewall_policy_application_group#timeouts NetworkFirewallNetworkFirewallPolicyApplicationGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/network_firewall_network_firewall_policy_application_group#timeouts NetworkFirewallNetworkFirewallPolicyApplicationGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyApplicationGroup.NetworkFirewallNetworkFirewallPolicyApplicationGroupTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.BatchJobQueue
     [JsiiByValue(fqn: "aws.batchJobQueue.BatchJobQueueConfig")]
     public class BatchJobQueueConfig : aws.BatchJobQueue.IBatchJobQueueConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#name BatchJobQueue#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#name BatchJobQueue#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#priority BatchJobQueue#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -25,7 +25,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#state BatchJobQueue#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State
         {
@@ -37,7 +37,7 @@ namespace aws.BatchJobQueue
 
         /// <summary>compute_environment_order block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#compute_environment_order BatchJobQueue#compute_environment_order}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueComputeEnvironmentOrder" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.BatchJobQueue
 
         /// <summary>job_state_time_limit_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#job_state_time_limit_action BatchJobQueue#job_state_time_limit_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#job_state_time_limit_action BatchJobQueue#job_state_time_limit_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchJobQueue.IBatchJobQueueJobStateTimeLimitAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -105,7 +105,7 @@ namespace aws.BatchJobQueue
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#region BatchJobQueue#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#region BatchJobQueue#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#scheduling_policy_arn BatchJobQueue#scheduling_policy_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulingPolicyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchedulingPolicyArn
@@ -124,7 +124,7 @@ namespace aws.BatchJobQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#tags BatchJobQueue#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -135,7 +135,7 @@ namespace aws.BatchJobQueue
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/batch_job_queue#timeouts BatchJobQueue#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/batch_job_queue#timeouts BatchJobQueue#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.batchJobQueue.BatchJobQueueTimeouts\"}", isOptional: true)]

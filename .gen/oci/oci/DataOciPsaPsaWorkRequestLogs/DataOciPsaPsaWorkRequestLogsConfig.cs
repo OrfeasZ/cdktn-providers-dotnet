@@ -9,7 +9,7 @@ namespace oci.DataOciPsaPsaWorkRequestLogs
     [JsiiByValue(fqn: "oci.dataOciPsaPsaWorkRequestLogs.DataOciPsaPsaWorkRequestLogsConfig")]
     public class DataOciPsaPsaWorkRequestLogsConfig : oci.DataOciPsaPsaWorkRequestLogs.IDataOciPsaPsaWorkRequestLogsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psa_psa_work_request_logs#work_request_id DataOciPsaPsaWorkRequestLogs#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psa_psa_work_request_logs#work_request_id DataOciPsaPsaWorkRequestLogs#work_request_id}.</summary>
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkRequestId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPsaPsaWorkRequestLogs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psa_psa_work_request_logs#filter DataOciPsaPsaWorkRequestLogs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psa_psa_work_request_logs#filter DataOciPsaPsaWorkRequestLogs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciPsaPsaWorkRequestLogs.IDataOciPsaPsaWorkRequestLogsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciPsaPsaWorkRequestLogs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/psa_psa_work_request_logs#id DataOciPsaPsaWorkRequestLogs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/psa_psa_work_request_logs#id DataOciPsaPsaWorkRequestLogs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

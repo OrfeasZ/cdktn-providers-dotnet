@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsBuildPipeline
     [JsiiByValue(fqn: "oci.dataOciDevopsBuildPipeline.DataOciDevopsBuildPipelineConfig")]
     public class DataOciDevopsBuildPipelineConfig : oci.DataOciDevopsBuildPipeline.IDataOciDevopsBuildPipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/devops_build_pipeline#build_pipeline_id DataOciDevopsBuildPipeline#build_pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_build_pipeline#build_pipeline_id DataOciDevopsBuildPipeline#build_pipeline_id}.</summary>
         [JsiiProperty(name: "buildPipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildPipelineId
         {

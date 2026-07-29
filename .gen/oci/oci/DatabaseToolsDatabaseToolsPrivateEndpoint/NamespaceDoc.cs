@@ -5,7 +5,7 @@ namespace oci.DatabaseToolsDatabaseToolsPrivateEndpoint
     /// <remarks>
     /// <h1><c>oci_database_tools_database_tools_private_endpoint</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_tools_database_tools_private_endpoint"><c>oci_database_tools_database_tools_private_endpoint</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_database_tools_private_endpoint"><c>oci_database_tools_database_tools_private_endpoint</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageContainerConfigShapeConfig")]
     public class DevopsDeployStageContainerConfigShapeConfig : oci.DevopsDeployStage.IDevopsDeployStageContainerConfigShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#ocpus DevopsDeployStage#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_deploy_stage#ocpus DevopsDeployStage#ocpus}.</summary>
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}")]
         public double Ocpus
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployStage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_deploy_stage#memory_in_gbs DevopsDeployStage#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_deploy_stage#memory_in_gbs DevopsDeployStage#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs

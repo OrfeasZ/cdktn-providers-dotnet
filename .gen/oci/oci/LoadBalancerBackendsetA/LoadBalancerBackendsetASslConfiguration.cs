@@ -7,7 +7,7 @@ namespace oci.LoadBalancerBackendsetA
     [JsiiByValue(fqn: "oci.loadBalancerBackendsetA.LoadBalancerBackendsetASslConfiguration")]
     public class LoadBalancerBackendsetASslConfiguration : oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetASslConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#certificate_ids LoadBalancerBackendsetA#certificate_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#certificate_ids LoadBalancerBackendsetA#certificate_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CertificateIds
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#certificate_name LoadBalancerBackendsetA#certificate_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#certificate_name LoadBalancerBackendsetA#certificate_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateName
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#cipher_suite_name LoadBalancerBackendsetA#cipher_suite_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#cipher_suite_name LoadBalancerBackendsetA#cipher_suite_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cipherSuiteName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CipherSuiteName
@@ -34,7 +34,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#protocols LoadBalancerBackendsetA#protocols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#protocols LoadBalancerBackendsetA#protocols}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Protocols
@@ -43,7 +43,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#server_order_preference LoadBalancerBackendsetA#server_order_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#server_order_preference LoadBalancerBackendsetA#server_order_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverOrderPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerOrderPreference
@@ -52,7 +52,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#trusted_certificate_authority_ids LoadBalancerBackendsetA#trusted_certificate_authority_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#trusted_certificate_authority_ids LoadBalancerBackendsetA#trusted_certificate_authority_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustedCertificateAuthorityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TrustedCertificateAuthorityIds
@@ -61,7 +61,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#verify_depth LoadBalancerBackendsetA#verify_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#verify_depth LoadBalancerBackendsetA#verify_depth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verifyDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VerifyDepth
@@ -72,7 +72,7 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _verifyPeerCertificate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/load_balancer_backendset#verify_peer_certificate LoadBalancerBackendsetA#verify_peer_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_backendset#verify_peer_certificate LoadBalancerBackendsetA#verify_peer_certificate}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.CoreDefaultSecurityList
     [JsiiByValue(fqn: "oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange")]
     public class CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange : oci.CoreDefaultSecurityList.ICoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         public double Max
         {
@@ -17,7 +17,7 @@ namespace oci.CoreDefaultSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         public double Min
         {

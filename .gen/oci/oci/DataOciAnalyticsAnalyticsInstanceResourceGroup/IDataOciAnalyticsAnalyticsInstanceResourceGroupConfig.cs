@@ -7,14 +7,14 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroup
     [JsiiInterface(nativeType: typeof(IDataOciAnalyticsAnalyticsInstanceResourceGroupConfig), fullyQualifiedName: "oci.dataOciAnalyticsAnalyticsInstanceResourceGroup.DataOciAnalyticsAnalyticsInstanceResourceGroupConfig")]
     public interface IDataOciAnalyticsAnalyticsInstanceResourceGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_id}.</summary>
         [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string AnalyticsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_resource_group_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_resource_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_resource_group_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_resource_group_id}.</summary>
         [JsiiProperty(name: "analyticsInstanceResourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string AnalyticsInstanceResourceGroupId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_id}.</summary>
             [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string AnalyticsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_resource_group_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_resource_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/analytics_analytics_instance_resource_group#analytics_instance_resource_group_id DataOciAnalyticsAnalyticsInstanceResourceGroup#analytics_instance_resource_group_id}.</summary>
             [JsiiProperty(name: "analyticsInstanceResourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string AnalyticsInstanceResourceGroupId
             {

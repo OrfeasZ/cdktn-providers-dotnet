@@ -9,7 +9,7 @@ namespace oci.IdentityCustomerSecretKey
     [JsiiByValue(fqn: "oci.identityCustomerSecretKey.IdentityCustomerSecretKeyConfig")]
     public class IdentityCustomerSecretKeyConfig : oci.IdentityCustomerSecretKey.IIdentityCustomerSecretKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_customer_secret_key#display_name IdentityCustomerSecretKey#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_customer_secret_key#display_name IdentityCustomerSecretKey#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_customer_secret_key#user_id IdentityCustomerSecretKey#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_customer_secret_key#user_id IdentityCustomerSecretKey#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_customer_secret_key#id IdentityCustomerSecretKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_customer_secret_key#id IdentityCustomerSecretKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.IdentityCustomerSecretKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_customer_secret_key#timeouts IdentityCustomerSecretKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_customer_secret_key#timeouts IdentityCustomerSecretKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityCustomerSecretKey.IdentityCustomerSecretKeyTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.VaultSecret
     [JsiiByValue(fqn: "oci.vaultSecret.VaultSecretSecretGenerationContext")]
     public class VaultSecretSecretGenerationContext : oci.VaultSecret.IVaultSecretSecretGenerationContext
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#generation_template VaultSecret#generation_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#generation_template VaultSecret#generation_template}.</summary>
         [JsiiProperty(name: "generationTemplate", typeJson: "{\"primitive\":\"string\"}")]
         public string GenerationTemplate
         {
@@ -17,7 +17,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#generation_type VaultSecret#generation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#generation_type VaultSecret#generation_type}.</summary>
         [JsiiProperty(name: "generationType", typeJson: "{\"primitive\":\"string\"}")]
         public string GenerationType
         {
@@ -25,7 +25,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#passphrase_length VaultSecret#passphrase_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#passphrase_length VaultSecret#passphrase_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passphraseLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PassphraseLength
@@ -34,7 +34,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/vault_secret#secret_template VaultSecret#secret_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/vault_secret#secret_template VaultSecret#secret_template}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretTemplate

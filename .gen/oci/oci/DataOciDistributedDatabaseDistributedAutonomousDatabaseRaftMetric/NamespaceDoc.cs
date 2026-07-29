@@ -5,7 +5,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric
     /// <remarks>
     /// <h1><c>data_oci_distributed_database_distributed_autonomous_database_raft_metric</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric"><c>data_oci_distributed_database_distributed_autonomous_database_raft_metric</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric"><c>data_oci_distributed_database_distributed_autonomous_database_raft_metric</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

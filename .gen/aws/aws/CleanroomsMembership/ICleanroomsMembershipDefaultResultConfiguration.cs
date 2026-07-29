@@ -9,7 +9,7 @@ namespace aws.CleanroomsMembership
     {
         /// <summary>output_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cleanrooms_membership#output_configuration CleanroomsMembership#output_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#output_configuration CleanroomsMembership#output_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfiguration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outputConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipDefaultResultConfigurationOutputConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace aws.CleanroomsMembership
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cleanrooms_membership#role_arn CleanroomsMembership#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#role_arn CleanroomsMembership#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RoleArn
@@ -42,7 +42,7 @@ namespace aws.CleanroomsMembership
 
             /// <summary>output_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cleanrooms_membership#output_configuration CleanroomsMembership#output_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#output_configuration CleanroomsMembership#output_configuration}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfiguration" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -52,7 +52,7 @@ namespace aws.CleanroomsMembership
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cleanrooms_membership#role_arn CleanroomsMembership#role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#role_arn CleanroomsMembership#role_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RoleArn

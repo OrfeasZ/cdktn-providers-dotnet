@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAuditTrail
     [JsiiByValue(fqn: "oci.dataOciDataSafeAuditTrail.DataOciDataSafeAuditTrailConfig")]
     public class DataOciDataSafeAuditTrailConfig : oci.DataOciDataSafeAuditTrail.IDataOciDataSafeAuditTrailConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
         [JsiiProperty(name: "auditTrailId", typeJson: "{\"primitive\":\"string\"}")]
         public string AuditTrailId
         {

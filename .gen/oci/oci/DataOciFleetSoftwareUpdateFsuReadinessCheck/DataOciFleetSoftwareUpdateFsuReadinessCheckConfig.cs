@@ -9,7 +9,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessCheck
     [JsiiByValue(fqn: "oci.dataOciFleetSoftwareUpdateFsuReadinessCheck.DataOciFleetSoftwareUpdateFsuReadinessCheckConfig")]
     public class DataOciFleetSoftwareUpdateFsuReadinessCheckConfig : oci.DataOciFleetSoftwareUpdateFsuReadinessCheck.IDataOciFleetSoftwareUpdateFsuReadinessCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_readiness_check#fsu_readiness_check_id DataOciFleetSoftwareUpdateFsuReadinessCheck#fsu_readiness_check_id}.</summary>
         [JsiiProperty(name: "fsuReadinessCheckId", typeJson: "{\"primitive\":\"string\"}")]
         public string FsuReadinessCheckId
         {

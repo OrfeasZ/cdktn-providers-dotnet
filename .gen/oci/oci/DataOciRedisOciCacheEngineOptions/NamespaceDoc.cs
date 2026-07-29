@@ -5,7 +5,7 @@ namespace oci.DataOciRedisOciCacheEngineOptions
     /// <remarks>
     /// <h1><c>data_oci_redis_oci_cache_engine_options</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/redis_oci_cache_engine_options"><c>data_oci_redis_oci_cache_engine_options</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_engine_options"><c>data_oci_redis_oci_cache_engine_options</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

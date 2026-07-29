@@ -9,7 +9,7 @@ namespace oci.DataOciOperatorAccessControlOperatorControl
     [JsiiByValue(fqn: "oci.dataOciOperatorAccessControlOperatorControl.DataOciOperatorAccessControlOperatorControlConfig")]
     public class DataOciOperatorAccessControlOperatorControlConfig : oci.DataOciOperatorAccessControlOperatorControl.IDataOciOperatorAccessControlOperatorControlConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/operator_access_control_operator_control#operator_control_id DataOciOperatorAccessControlOperatorControl#operator_control_id}.</summary>
         [JsiiProperty(name: "operatorControlId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperatorControlId
         {

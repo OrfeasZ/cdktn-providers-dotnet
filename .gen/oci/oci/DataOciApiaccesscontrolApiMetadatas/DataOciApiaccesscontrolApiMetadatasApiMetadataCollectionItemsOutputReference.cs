@@ -41,6 +41,12 @@ namespace oci.DataOciApiaccesscontrolApiMetadatas
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "attributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Attributes
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

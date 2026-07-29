@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionStreamSource
     [JsiiByValue(fqn: "oci.dataOciAiVisionStreamSource.DataOciAiVisionStreamSourceConfig")]
     public class DataOciAiVisionStreamSourceConfig : oci.DataOciAiVisionStreamSource.IDataOciAiVisionStreamSourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ai_vision_stream_source#stream_source_id DataOciAiVisionStreamSource#stream_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_vision_stream_source#stream_source_id DataOciAiVisionStreamSource#stream_source_id}.</summary>
         [JsiiProperty(name: "streamSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamSourceId
         {

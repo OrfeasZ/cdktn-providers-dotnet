@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstances
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalClusterInstances.DataOciDatabaseManagementExternalClusterInstancesConfig")]
     public class DataOciDatabaseManagementExternalClusterInstancesConfig : oci.DataOciDatabaseManagementExternalClusterInstances.IDataOciDatabaseManagementExternalClusterInstancesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instances#compartment_id DataOciDatabaseManagementExternalClusterInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instances#compartment_id DataOciDatabaseManagementExternalClusterInstances#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instances#display_name DataOciDatabaseManagementExternalClusterInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instances#display_name DataOciDatabaseManagementExternalClusterInstances#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instances#external_cluster_id DataOciDatabaseManagementExternalClusterInstances#external_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instances#external_cluster_id DataOciDatabaseManagementExternalClusterInstances#external_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalClusterId
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instances#filter DataOciDatabaseManagementExternalClusterInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instances#filter DataOciDatabaseManagementExternalClusterInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementExternalClusterInstances.IDataOciDatabaseManagementExternalClusterInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_external_cluster_instances#id DataOciDatabaseManagementExternalClusterInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_cluster_instances#id DataOciDatabaseManagementExternalClusterInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

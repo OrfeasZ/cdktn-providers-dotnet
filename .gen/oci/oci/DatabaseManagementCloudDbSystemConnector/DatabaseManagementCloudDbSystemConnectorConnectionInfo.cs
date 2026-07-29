@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemConnector.DatabaseManagementCloudDbSystemConnectorConnectionInfo")]
     public class DatabaseManagementCloudDbSystemConnectorConnectionInfo : oci.DatabaseManagementCloudDbSystemConnector.IDatabaseManagementCloudDbSystemConnectorConnectionInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_connector#component_type DatabaseManagementCloudDbSystemConnector#component_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_connector#component_type DatabaseManagementCloudDbSystemConnector#component_type}.</summary>
         [JsiiProperty(name: "componentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentType
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
 
         /// <summary>connection_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_connector#connection_credentials DatabaseManagementCloudDbSystemConnector#connection_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_connector#connection_credentials DatabaseManagementCloudDbSystemConnector#connection_credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseManagementCloudDbSystemConnector.IDatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionCredentials" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
 
         /// <summary>connection_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_connector#connection_string DatabaseManagementCloudDbSystemConnector#connection_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_connector#connection_string DatabaseManagementCloudDbSystemConnector#connection_string}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseManagementCloudDbSystemConnector.IDatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionString" />)[]</para>
         /// </remarks>
         [JsiiOptional]

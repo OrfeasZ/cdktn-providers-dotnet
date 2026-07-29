@@ -7,14 +7,14 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalDbSystemDiscoveryPatchOperations), fullyQualifiedName: "oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperations")]
     public interface IDatabaseManagementExternalDbSystemDiscoveryPatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         string Operation
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         string Selection
         {
@@ -23,7 +23,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
 
         /// <summary>value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValue\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,14 +42,14 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#operation DatabaseManagementExternalDbSystemDiscovery#operation}.</summary>
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
             public string Operation
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#selection DatabaseManagementExternalDbSystemDiscovery#selection}.</summary>
             [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
             public string Selection
             {
@@ -58,7 +58,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
 
             /// <summary>value block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_db_system_discovery#value DatabaseManagementExternalDbSystemDiscovery#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValue\"}", isOptional: true)]

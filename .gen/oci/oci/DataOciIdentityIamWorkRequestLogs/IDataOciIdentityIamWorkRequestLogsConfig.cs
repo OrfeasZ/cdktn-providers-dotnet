@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
     [JsiiInterface(nativeType: typeof(IDataOciIdentityIamWorkRequestLogsConfig), fullyQualifiedName: "oci.dataOciIdentityIamWorkRequestLogs.DataOciIdentityIamWorkRequestLogsConfig")]
     public interface IDataOciIdentityIamWorkRequestLogsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#iam_work_request_id DataOciIdentityIamWorkRequestLogs#iam_work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#iam_work_request_id DataOciIdentityIamWorkRequestLogs#iam_work_request_id}.</summary>
         [JsiiProperty(name: "iamWorkRequestId", typeJson: "{\"primitive\":\"string\"}")]
         string IamWorkRequestId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#filter DataOciIdentityIamWorkRequestLogs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#filter DataOciIdentityIamWorkRequestLogs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityIamWorkRequestLogs.IDataOciIdentityIamWorkRequestLogsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIdentityIamWorkRequestLogs.DataOciIdentityIamWorkRequestLogsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#id DataOciIdentityIamWorkRequestLogs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#id DataOciIdentityIamWorkRequestLogs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#iam_work_request_id DataOciIdentityIamWorkRequestLogs#iam_work_request_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#iam_work_request_id DataOciIdentityIamWorkRequestLogs#iam_work_request_id}.</summary>
             [JsiiProperty(name: "iamWorkRequestId", typeJson: "{\"primitive\":\"string\"}")]
             public string IamWorkRequestId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#filter DataOciIdentityIamWorkRequestLogs#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#filter DataOciIdentityIamWorkRequestLogs#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIdentityIamWorkRequestLogs.IDataOciIdentityIamWorkRequestLogsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_iam_work_request_logs#id DataOciIdentityIamWorkRequestLogs#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_iam_work_request_logs#id DataOciIdentityIamWorkRequestLogs#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

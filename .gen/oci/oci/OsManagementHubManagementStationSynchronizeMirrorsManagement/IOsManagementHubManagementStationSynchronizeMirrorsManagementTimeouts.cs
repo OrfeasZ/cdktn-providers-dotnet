@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts), fullyQualifiedName: "oci.osManagementHubManagementStationSynchronizeMirrorsManagement.OsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts")]
     public interface IOsManagementHubManagementStationSynchronizeMirrorsManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#create OsManagementHubManagementStationSynchronizeMirrorsManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#delete OsManagementHubManagementStationSynchronizeMirrorsManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.OsManagementHubManagementStationSynchronizeMirrorsManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_management_station_synchronize_mirrors_management#update OsManagementHubManagementStationSynchronizeMirrorsManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -35,6 +35,12 @@ namespace oci.CoreVolumeBackupPolicy
         {
         }
 
+        [JsiiMethod(name: "putRetentionPeriod", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreVolumeBackupPolicy.CoreVolumeBackupPolicySchedulesRetentionPeriod\"}}]")]
+        public virtual void PutRetentionPeriod(oci.CoreVolumeBackupPolicy.ICoreVolumeBackupPolicySchedulesRetentionPeriod @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreVolumeBackupPolicy.ICoreVolumeBackupPolicySchedulesRetentionPeriod)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetDayOfMonth")]
         public virtual void ResetDayOfMonth()
         {
@@ -49,6 +55,18 @@ namespace oci.CoreVolumeBackupPolicy
 
         [JsiiMethod(name: "resetHourOfDay")]
         public virtual void ResetHourOfDay()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsPreventDeletionEnabled")]
+        public virtual void ResetIsPreventDeletionEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsRetentionLockEnabled")]
+        public virtual void ResetIsRetentionLockEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,10 +89,22 @@ namespace oci.CoreVolumeBackupPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRetentionPeriod")]
+        public virtual void ResetRetentionPeriod()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeZone")]
         public virtual void ResetTimeZone()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.coreVolumeBackupPolicy.CoreVolumeBackupPolicySchedulesRetentionPeriodOutputReference\"}")]
+        public virtual oci.CoreVolumeBackupPolicy.CoreVolumeBackupPolicySchedulesRetentionPeriodOutputReference RetentionPeriod
+        {
+            get => GetInstanceProperty<oci.CoreVolumeBackupPolicy.CoreVolumeBackupPolicySchedulesRetentionPeriodOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -105,6 +135,26 @@ namespace oci.CoreVolumeBackupPolicy
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isPreventDeletionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsPreventDeletionEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isRetentionLockEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsRetentionLockEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "monthInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MonthInput
@@ -131,6 +181,13 @@ namespace oci.CoreVolumeBackupPolicy
         public virtual string? PeriodInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "retentionPeriodInput", typeJson: "{\"fqn\":\"oci.coreVolumeBackupPolicy.CoreVolumeBackupPolicySchedulesRetentionPeriod\"}", isOptional: true)]
+        public virtual oci.CoreVolumeBackupPolicy.ICoreVolumeBackupPolicySchedulesRetentionPeriod? RetentionPeriodInput
+        {
+            get => GetInstanceProperty<oci.CoreVolumeBackupPolicy.ICoreVolumeBackupPolicySchedulesRetentionPeriod?>();
         }
 
         [JsiiOptional]
@@ -173,6 +230,66 @@ namespace oci.CoreVolumeBackupPolicy
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isPreventDeletionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsPreventDeletionEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isRetentionLockEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsRetentionLockEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"string\"}")]

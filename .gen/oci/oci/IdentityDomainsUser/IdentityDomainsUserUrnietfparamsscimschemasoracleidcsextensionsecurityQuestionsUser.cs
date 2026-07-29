@@ -11,7 +11,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>sec_questions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#sec_questions IdentityDomainsUser#sec_questions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#sec_questions IdentityDomainsUser#sec_questions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsecurityQuestionsUserSecQuestions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

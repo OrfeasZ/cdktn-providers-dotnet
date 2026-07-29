@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesConfig")]
     public class DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesConfig : oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries.IDataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#security_policy_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#security_policy_report_id DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#security_policy_report_id}.</summary>
         [JsiiProperty(name: "securityPolicyReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityPolicyReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#filter DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#filter DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries.IDataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#id DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#id DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#scim_query DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#scim_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#scim_query DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#scim_query}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScimQuery

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyConfigs.DataOciDataSafeSecurityPolicyConfigsFilter")]
     public class DataOciDataSafeSecurityPolicyConfigsFilter : oci.DataOciDataSafeSecurityPolicyConfigs.IDataOciDataSafeSecurityPolicyConfigsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_configs#name DataOciDataSafeSecurityPolicyConfigs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#name DataOciDataSafeSecurityPolicyConfigs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_configs#values DataOciDataSafeSecurityPolicyConfigs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#values DataOciDataSafeSecurityPolicyConfigs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_security_policy_configs#regex DataOciDataSafeSecurityPolicyConfigs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#regex DataOciDataSafeSecurityPolicyConfigs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

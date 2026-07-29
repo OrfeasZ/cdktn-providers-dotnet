@@ -9,7 +9,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessChecks
     [JsiiByValue(fqn: "oci.dataOciFleetSoftwareUpdateFsuReadinessChecks.DataOciFleetSoftwareUpdateFsuReadinessChecksFilter")]
     public class DataOciFleetSoftwareUpdateFsuReadinessChecksFilter : oci.DataOciFleetSoftwareUpdateFsuReadinessChecks.IDataOciFleetSoftwareUpdateFsuReadinessChecksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#name DataOciFleetSoftwareUpdateFsuReadinessChecks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#values DataOciFleetSoftwareUpdateFsuReadinessChecks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuReadinessChecks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_readiness_checks#regex DataOciFleetSoftwareUpdateFsuReadinessChecks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

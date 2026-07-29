@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsPrivateEndpoint.DataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig")]
     public interface IDataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
         [JsiiProperty(name: "databaseToolsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
             [JsiiProperty(name: "databaseToolsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsPrivateEndpointId
             {

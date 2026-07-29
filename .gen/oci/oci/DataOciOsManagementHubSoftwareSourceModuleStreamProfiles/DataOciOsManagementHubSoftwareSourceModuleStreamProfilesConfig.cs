@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourceModuleStreamProfiles.DataOciOsManagementHubSoftwareSourceModuleStreamProfilesConfig")]
     public class DataOciOsManagementHubSoftwareSourceModuleStreamProfilesConfig : oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles.IDataOciOsManagementHubSoftwareSourceModuleStreamProfilesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#filter DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#filter DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles.IDataOciOsManagementHubSoftwareSourceModuleStreamProfilesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#id DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#id DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#module_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#module_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "moduleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModuleName
@@ -74,7 +74,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +83,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profiles#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfiles#stream_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreamName

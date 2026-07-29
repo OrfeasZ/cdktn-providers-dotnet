@@ -7,7 +7,7 @@ namespace oci.LustreFileStorageObjectStorageLink
     [JsiiByValue(fqn: "oci.lustreFileStorageObjectStorageLink.LustreFileStorageObjectStorageLinkTimeouts")]
     public class LustreFileStorageObjectStorageLinkTimeouts : oci.LustreFileStorageObjectStorageLink.ILustreFileStorageObjectStorageLinkTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/lustre_file_storage_object_storage_link#create LustreFileStorageObjectStorageLink#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_object_storage_link#create LustreFileStorageObjectStorageLink#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LustreFileStorageObjectStorageLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/lustre_file_storage_object_storage_link#delete LustreFileStorageObjectStorageLink#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_object_storage_link#delete LustreFileStorageObjectStorageLink#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LustreFileStorageObjectStorageLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/lustre_file_storage_object_storage_link#update LustreFileStorageObjectStorageLink#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_object_storage_link#update LustreFileStorageObjectStorageLink#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

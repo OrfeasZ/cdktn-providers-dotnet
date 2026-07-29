@@ -9,7 +9,7 @@ namespace oci.ApmConfigConfig
     {
         /// <summary>config_map block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "configMap", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigConfigConfigMap\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.ApmConfigConfig
 
             /// <summary>config_map block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_config_config#config_map ApmConfigConfig#config_map}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap" />)[]</para>
             /// </remarks>
             [JsiiOptional]

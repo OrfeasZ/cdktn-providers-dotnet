@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementCompliancePolicyRule
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementCompliancePolicyRule.DataOciFleetAppsManagementCompliancePolicyRuleConfig")]
     public class DataOciFleetAppsManagementCompliancePolicyRuleConfig : oci.DataOciFleetAppsManagementCompliancePolicyRule.IDataOciFleetAppsManagementCompliancePolicyRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_compliance_policy_rule#compliance_policy_rule_id DataOciFleetAppsManagementCompliancePolicyRule#compliance_policy_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_compliance_policy_rule#compliance_policy_rule_id DataOciFleetAppsManagementCompliancePolicyRule#compliance_policy_rule_id}.</summary>
         [JsiiProperty(name: "compliancePolicyRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompliancePolicyRuleId
         {

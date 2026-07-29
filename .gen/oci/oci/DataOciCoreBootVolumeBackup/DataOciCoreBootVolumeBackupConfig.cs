@@ -9,7 +9,7 @@ namespace oci.DataOciCoreBootVolumeBackup
     [JsiiByValue(fqn: "oci.dataOciCoreBootVolumeBackup.DataOciCoreBootVolumeBackupConfig")]
     public class DataOciCoreBootVolumeBackupConfig : oci.DataOciCoreBootVolumeBackup.IDataOciCoreBootVolumeBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_boot_volume_backup#boot_volume_backup_id DataOciCoreBootVolumeBackup#boot_volume_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_boot_volume_backup#boot_volume_backup_id DataOciCoreBootVolumeBackup#boot_volume_backup_id}.</summary>
         [JsiiProperty(name: "bootVolumeBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string BootVolumeBackupId
         {

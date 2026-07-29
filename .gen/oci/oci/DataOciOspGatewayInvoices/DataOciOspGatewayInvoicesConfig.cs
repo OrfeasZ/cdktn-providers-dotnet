@@ -9,7 +9,7 @@ namespace oci.DataOciOspGatewayInvoices
     [JsiiByValue(fqn: "oci.dataOciOspGatewayInvoices.DataOciOspGatewayInvoicesConfig")]
     public class DataOciOspGatewayInvoicesConfig : oci.DataOciOspGatewayInvoices.IDataOciOspGatewayInvoicesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#compartment_id DataOciOspGatewayInvoices#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#compartment_id DataOciOspGatewayInvoices#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#osp_home_region DataOciOspGatewayInvoices#osp_home_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#osp_home_region DataOciOspGatewayInvoices#osp_home_region}.</summary>
         [JsiiProperty(name: "ospHomeRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string OspHomeRegion
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciOspGatewayInvoices
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#filter DataOciOspGatewayInvoices#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#filter DataOciOspGatewayInvoices#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOspGatewayInvoices.IDataOciOspGatewayInvoicesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciOspGatewayInvoices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#id DataOciOspGatewayInvoices#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#id DataOciOspGatewayInvoices#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#invoice_id DataOciOspGatewayInvoices#invoice_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#invoice_id DataOciOspGatewayInvoices#invoice_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invoiceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InvoiceId
@@ -82,7 +82,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#search_text DataOciOspGatewayInvoices#search_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#search_text DataOciOspGatewayInvoices#search_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SearchText
@@ -91,7 +91,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#status DataOciOspGatewayInvoices#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#status DataOciOspGatewayInvoices#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Status
@@ -100,7 +100,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#time_invoice_end DataOciOspGatewayInvoices#time_invoice_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#time_invoice_end DataOciOspGatewayInvoices#time_invoice_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeInvoiceEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeInvoiceEnd
@@ -109,7 +109,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#time_invoice_start DataOciOspGatewayInvoices#time_invoice_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#time_invoice_start DataOciOspGatewayInvoices#time_invoice_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeInvoiceStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeInvoiceStart
@@ -118,7 +118,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#time_payment_end DataOciOspGatewayInvoices#time_payment_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#time_payment_end DataOciOspGatewayInvoices#time_payment_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timePaymentEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimePaymentEnd
@@ -127,7 +127,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#time_payment_start DataOciOspGatewayInvoices#time_payment_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#time_payment_start DataOciOspGatewayInvoices#time_payment_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timePaymentStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimePaymentStart
@@ -136,7 +136,7 @@ namespace oci.DataOciOspGatewayInvoices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/osp_gateway_invoices#type DataOciOspGatewayInvoices#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/osp_gateway_invoices#type DataOciOspGatewayInvoices#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Type

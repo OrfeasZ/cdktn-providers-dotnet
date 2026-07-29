@@ -9,7 +9,7 @@ namespace aws.OpensearchDomain
     {
         /// <summary>cold_storage_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
         /// </remarks>
         [JsiiProperty(name: "coldStorageOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfigColdStorageOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}.</summary>
         [JsiiProperty(name: "dedicatedMasterCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DedicatedMasterCount
@@ -32,7 +32,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -46,7 +46,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}.</summary>
         [JsiiProperty(name: "dedicatedMasterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DedicatedMasterType
@@ -57,7 +57,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -68,7 +68,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceType
@@ -79,7 +79,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>node_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainClusterConfigNodeOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nodeOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfigNodeOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}.</summary>
         [JsiiProperty(name: "warmCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? WarmCount
@@ -119,7 +119,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -133,7 +133,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}.</summary>
         [JsiiProperty(name: "warmType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WarmType
@@ -146,7 +146,7 @@ namespace aws.OpensearchDomain
 
         /// <summary>zone_awareness_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
         /// </remarks>
         [JsiiProperty(name: "zoneAwarenessConfig", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfigZoneAwarenessConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -158,7 +158,7 @@ namespace aws.OpensearchDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -181,7 +181,7 @@ namespace aws.OpensearchDomain
 
             /// <summary>cold_storage_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#cold_storage_options OpensearchDomain#cold_storage_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "coldStorageOptions", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfigColdStorageOptions\"}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<aws.OpensearchDomain.IOpensearchDomainClusterConfigColdStorageOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_count OpensearchDomain#dedicated_master_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dedicatedMasterCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DedicatedMasterCount
@@ -198,7 +198,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_enabled OpensearchDomain#dedicated_master_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -209,7 +209,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#dedicated_master_type OpensearchDomain#dedicated_master_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dedicatedMasterType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DedicatedMasterType
@@ -217,7 +217,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#instance_count OpensearchDomain#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount
@@ -225,7 +225,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#instance_type OpensearchDomain#instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceType
@@ -233,7 +233,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#multi_az_with_standby_enabled OpensearchDomain#multi_az_with_standby_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -246,7 +246,7 @@ namespace aws.OpensearchDomain
 
             /// <summary>node_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#node_options OpensearchDomain#node_options}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OpensearchDomain.IOpensearchDomainClusterConfigNodeOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -256,7 +256,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_count OpensearchDomain#warm_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "warmCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? WarmCount
@@ -264,7 +264,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_enabled OpensearchDomain#warm_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -275,7 +275,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#warm_type OpensearchDomain#warm_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "warmType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WarmType
@@ -285,7 +285,7 @@ namespace aws.OpensearchDomain
 
             /// <summary>zone_awareness_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#zone_awareness_config OpensearchDomain#zone_awareness_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneAwarenessConfig", typeJson: "{\"fqn\":\"aws.opensearchDomain.OpensearchDomainClusterConfigZoneAwarenessConfig\"}", isOptional: true)]
@@ -294,7 +294,7 @@ namespace aws.OpensearchDomain
                 get => GetInstanceProperty<aws.OpensearchDomain.IOpensearchDomainClusterConfigZoneAwarenessConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/opensearch_domain#zone_awareness_enabled OpensearchDomain#zone_awareness_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

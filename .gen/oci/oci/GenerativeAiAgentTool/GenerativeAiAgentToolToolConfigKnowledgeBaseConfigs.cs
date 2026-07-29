@@ -7,7 +7,7 @@ namespace oci.GenerativeAiAgentTool
     [JsiiByValue(fqn: "oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs")]
     public class GenerativeAiAgentToolToolConfigKnowledgeBaseConfigs : oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigKnowledgeBaseConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_tool#knowledge_base_id GenerativeAiAgentTool#knowledge_base_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#knowledge_base_id GenerativeAiAgentTool#knowledge_base_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "knowledgeBaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KnowledgeBaseId

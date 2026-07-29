@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationCustomTable
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationCustomTable.DataOciMeteringComputationCustomTableConfig")]
     public class DataOciMeteringComputationCustomTableConfig : oci.DataOciMeteringComputationCustomTable.IDataOciMeteringComputationCustomTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/metering_computation_custom_table#custom_table_id DataOciMeteringComputationCustomTable#custom_table_id}.</summary>
         [JsiiProperty(name: "customTableId", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomTableId
         {

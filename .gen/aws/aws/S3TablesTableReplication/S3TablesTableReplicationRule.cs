@@ -11,7 +11,7 @@ namespace aws.S3TablesTableReplication
 
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3tables_table_replication#destination S3TablesTableReplication#destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableReplication.IS3TablesTableReplicationRuleDestination" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.DataOciDatasciencePrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDatasciencePrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDatasciencePrivateEndpoint.DataOciDatasciencePrivateEndpointConfig")]
     public interface IDataOciDatasciencePrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dataSciencePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string DataSciencePrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatasciencePrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_private_endpoint#data_science_private_endpoint_id DataOciDatasciencePrivateEndpoint#data_science_private_endpoint_id}.</summary>
             [JsiiProperty(name: "dataSciencePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string DataSciencePrivateEndpointId
             {

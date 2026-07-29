@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseScheduledActions
     [JsiiByValue(fqn: "oci.dataOciDatabaseScheduledActions.DataOciDatabaseScheduledActionsConfig")]
     public class DataOciDatabaseScheduledActionsConfig : oci.DataOciDatabaseScheduledActions.IDataOciDatabaseScheduledActionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#compartment_id DataOciDatabaseScheduledActions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#compartment_id DataOciDatabaseScheduledActions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseScheduledActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#display_name DataOciDatabaseScheduledActions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#display_name DataOciDatabaseScheduledActions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseScheduledActions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#filter DataOciDatabaseScheduledActions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#filter DataOciDatabaseScheduledActions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseScheduledActions.IDataOciDatabaseScheduledActionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseScheduledActions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#id DataOciDatabaseScheduledActions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#id DataOciDatabaseScheduledActions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseScheduledActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#scheduling_plan_id DataOciDatabaseScheduledActions#scheduling_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#scheduling_plan_id DataOciDatabaseScheduledActions#scheduling_plan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schedulingPlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchedulingPlanId
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseScheduledActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#service_type DataOciDatabaseScheduledActions#service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#service_type DataOciDatabaseScheduledActions#service_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceType
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseScheduledActions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_scheduled_actions#state DataOciDatabaseScheduledActions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_actions#state DataOciDatabaseScheduledActions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

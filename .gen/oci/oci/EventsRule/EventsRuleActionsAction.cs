@@ -9,7 +9,7 @@ namespace oci.EventsRule
     [JsiiByValue(fqn: "oci.eventsRule.EventsRuleActionsAction")]
     public class EventsRuleActionsAction : oci.EventsRule.IEventsRuleActionsAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#action_type EventsRule#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#action_type EventsRule#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionType
         {
@@ -19,7 +19,7 @@ namespace oci.EventsRule
 
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#is_enabled EventsRule#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#is_enabled EventsRule#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.EventsRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#description EventsRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#description EventsRule#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -59,7 +59,7 @@ namespace oci.EventsRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#function_id EventsRule#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#function_id EventsRule#function_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FunctionId
@@ -68,7 +68,7 @@ namespace oci.EventsRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#stream_id EventsRule#stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#stream_id EventsRule#stream_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StreamId
@@ -77,7 +77,7 @@ namespace oci.EventsRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/events_rule#topic_id EventsRule#topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/events_rule#topic_id EventsRule#topic_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TopicId

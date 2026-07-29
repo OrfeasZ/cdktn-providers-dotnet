@@ -7,7 +7,7 @@ namespace oci.CloudGuardTarget
     [JsiiByValue(fqn: "oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipesResponderRulesDetails")]
     public class CloudGuardTargetTargetResponderRecipesResponderRulesDetails : oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRulesDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_guard_target#condition CloudGuardTarget#condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Condition
@@ -20,7 +20,7 @@ namespace oci.CloudGuardTarget
 
         /// <summary>configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_guard_target#configurations CloudGuardTarget#configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRulesDetailsConfigurations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.CloudGuardTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_guard_target#mode CloudGuardTarget#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode

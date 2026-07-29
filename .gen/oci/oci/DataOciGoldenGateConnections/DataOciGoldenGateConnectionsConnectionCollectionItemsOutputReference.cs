@@ -65,6 +65,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAdditionalAttributesList>()!;
         }
 
+        [JsiiProperty(name: "authDetails", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAuthDetailsList\"}")]
+        public virtual oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAuthDetailsList AuthDetails
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAuthDetailsList>()!;
+        }
+
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthenticationMode
         {
@@ -341,6 +347,18 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsLocksList>()!;
         }
 
+        [JsiiProperty(name: "maxInputChars", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxInputChars
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "modelKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModelKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] NsgIds
         {
@@ -397,6 +415,12 @@ namespace oci.DataOciGoldenGateConnections
 
         [JsiiProperty(name: "producerProperties", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProducerProperties
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProviderType
         {
             get => GetInstanceProperty<string>()!;
         }

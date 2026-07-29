@@ -9,7 +9,7 @@ namespace oci.DataOciSelfSubscription
     [JsiiByValue(fqn: "oci.dataOciSelfSubscription.DataOciSelfSubscriptionConfig")]
     public class DataOciSelfSubscriptionConfig : oci.DataOciSelfSubscription.IDataOciSelfSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/self_subscription#subscription_id DataOciSelfSubscription#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/self_subscription#subscription_id DataOciSelfSubscription#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {

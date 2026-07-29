@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabases.DataOciDatabaseManagementManagedDatabasesConfig")]
     public class DataOciDatabaseManagementManagedDatabasesConfig : oci.DataOciDatabaseManagementManagedDatabases.IDataOciDatabaseManagementManagedDatabasesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#compartment_id DataOciDatabaseManagementManagedDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#compartment_id DataOciDatabaseManagementManagedDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#deployment_type DataOciDatabaseManagementManagedDatabases#deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#deployment_type DataOciDatabaseManagementManagedDatabases#deployment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeploymentType
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#external_exadata_infrastructure_id DataOciDatabaseManagementManagedDatabases#external_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#external_exadata_infrastructure_id DataOciDatabaseManagementManagedDatabases#external_exadata_infrastructure_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalExadataInfrastructureId
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#filter DataOciDatabaseManagementManagedDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#filter DataOciDatabaseManagementManagedDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabases.IDataOciDatabaseManagementManagedDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#id DataOciDatabaseManagementManagedDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#id DataOciDatabaseManagementManagedDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#management_option DataOciDatabaseManagementManagedDatabases#management_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#management_option DataOciDatabaseManagementManagedDatabases#management_option}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managementOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagementOption
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_management_managed_databases#name DataOciDatabaseManagementManagedDatabases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_databases#name DataOciDatabaseManagementManagedDatabases#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

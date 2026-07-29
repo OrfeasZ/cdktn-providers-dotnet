@@ -11,7 +11,7 @@ namespace aws.CleanroomsMembership
     {
         private object _isResponsible;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

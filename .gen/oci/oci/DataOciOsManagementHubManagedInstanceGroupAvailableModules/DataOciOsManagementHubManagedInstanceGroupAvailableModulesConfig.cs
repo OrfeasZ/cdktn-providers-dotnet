@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstanceGroupAvailableModules.DataOciOsManagementHubManagedInstanceGroupAvailableModulesConfig")]
     public class DataOciOsManagementHubManagedInstanceGroupAvailableModulesConfig : oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules.IDataOciOsManagementHubManagedInstanceGroupAvailableModulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableModules#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroupAvailableModules#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableModules#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#compartment_id DataOciOsManagementHubManagedInstanceGroupAvailableModules#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -30,7 +30,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#filter DataOciOsManagementHubManagedInstanceGroupAvailableModules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#filter DataOciOsManagementHubManagedInstanceGroupAvailableModules#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules.IDataOciOsManagementHubManagedInstanceGroupAvailableModulesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#id DataOciOsManagementHubManagedInstanceGroupAvailableModules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#id DataOciOsManagementHubManagedInstanceGroupAvailableModules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#name DataOciOsManagementHubManagedInstanceGroupAvailableModules#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#name DataOciOsManagementHubManagedInstanceGroupAvailableModules#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +83,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceGroupAvailableModules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#name_contains DataOciOsManagementHubManagedInstanceGroupAvailableModules#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_managed_instance_group_available_modules#name_contains DataOciOsManagementHubManagedInstanceGroupAvailableModules#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains

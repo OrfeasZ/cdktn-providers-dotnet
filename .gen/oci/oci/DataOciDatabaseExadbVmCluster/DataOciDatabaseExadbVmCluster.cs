@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciDatabaseExadbVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_exadb_vm_cluster oci_database_exadb_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster oci_database_exadb_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmCluster), fullyQualifiedName: "oci.dataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterConfig\"}}]")]
     public class DataOciDatabaseExadbVmCluster : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_exadb_vm_cluster oci_database_exadb_vm_cluster} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster oci_database_exadb_vm_cluster} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciDatabaseExadbVmCluster(Constructs.Construct scope, string id, oci.DataOciDatabaseExadbVmCluster.IDataOciDatabaseExadbVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseExadbVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DataOciDatabaseExadbVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DataOciDatabaseExadbVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciDatabaseExadbVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseExadbVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_exadb_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseExadbVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseExadbVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseExadbVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseExadbVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseExadbVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -197,6 +197,12 @@ namespace oci.DataOciDatabaseExadbVmCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "multiCloudIdentityConnectorConfigs", typeJson: "{\"fqn\":\"oci.dataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList\"}")]
+        public virtual oci.DataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList MultiCloudIdentityConnectorConfigs
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterMultiCloudIdentityConnectorConfigsList>()!;
+        }
+
         [JsiiProperty(name: "nodeConfig", typeJson: "{\"fqn\":\"oci.dataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterNodeConfigList\"}")]
         public virtual oci.DataOciDatabaseExadbVmCluster.DataOciDatabaseExadbVmClusterNodeConfigList NodeConfig
         {
@@ -219,6 +225,12 @@ namespace oci.DataOciDatabaseExadbVmCluster
         public virtual string PrivateZoneId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "registerPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RegisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "scanDnsName", typeJson: "{\"primitive\":\"string\"}")]
@@ -305,6 +317,12 @@ namespace oci.DataOciDatabaseExadbVmCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tdeKeyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TdeKeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeCreated
         {
@@ -315,6 +333,12 @@ namespace oci.DataOciDatabaseExadbVmCluster
         public virtual string TimeZone
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "unregisterPkcsTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double UnregisterPkcsTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "vipIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

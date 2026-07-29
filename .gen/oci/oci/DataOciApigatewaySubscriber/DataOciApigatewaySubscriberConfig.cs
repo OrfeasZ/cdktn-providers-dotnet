@@ -9,7 +9,7 @@ namespace oci.DataOciApigatewaySubscriber
     [JsiiByValue(fqn: "oci.dataOciApigatewaySubscriber.DataOciApigatewaySubscriberConfig")]
     public class DataOciApigatewaySubscriberConfig : oci.DataOciApigatewaySubscriber.IDataOciApigatewaySubscriberConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
         [JsiiProperty(name: "subscriberId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriberId
         {

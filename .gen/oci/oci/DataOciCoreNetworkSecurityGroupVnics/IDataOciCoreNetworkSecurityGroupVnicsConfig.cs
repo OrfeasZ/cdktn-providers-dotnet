@@ -7,7 +7,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
     [JsiiInterface(nativeType: typeof(IDataOciCoreNetworkSecurityGroupVnicsConfig), fullyQualifiedName: "oci.dataOciCoreNetworkSecurityGroupVnics.DataOciCoreNetworkSecurityGroupVnicsConfig")]
     public interface IDataOciCoreNetworkSecurityGroupVnicsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}.</summary>
         [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkSecurityGroupId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreNetworkSecurityGroupVnics.IDataOciCoreNetworkSecurityGroupVnicsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreNetworkSecurityGroupVnics.DataOciCoreNetworkSecurityGroupVnicsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}.</summary>
             [JsiiProperty(name: "networkSecurityGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkSecurityGroupId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreNetworkSecurityGroupVnics.IDataOciCoreNetworkSecurityGroupVnicsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciCoreNetworkSecurityGroupVnics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

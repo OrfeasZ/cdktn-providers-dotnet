@@ -9,7 +9,7 @@ namespace oci.FunctionsFunction
     [JsiiByValue(fqn: "oci.functionsFunction.FunctionsFunctionSourceDetails")]
     public class FunctionsFunctionSourceDetails : oci.FunctionsFunction.IFunctionsFunctionSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
         [JsiiProperty(name: "pbfListingId", typeJson: "{\"primitive\":\"string\"}")]
         public string PbfListingId
         {
@@ -17,7 +17,7 @@ namespace oci.FunctionsFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {

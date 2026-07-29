@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDeploymentBackups
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDeploymentBackups.DataOciGoldenGateDeploymentBackupsFilter")]
     public class DataOciGoldenGateDeploymentBackupsFilter : oci.DataOciGoldenGateDeploymentBackups.IDataOciGoldenGateDeploymentBackupsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_deployment_backups#name DataOciGoldenGateDeploymentBackups#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_deployment_backups#name DataOciGoldenGateDeploymentBackups#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateDeploymentBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_deployment_backups#values DataOciGoldenGateDeploymentBackups#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_deployment_backups#values DataOciGoldenGateDeploymentBackups#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGoldenGateDeploymentBackups
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/golden_gate_deployment_backups#regex DataOciGoldenGateDeploymentBackups#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_deployment_backups#regex DataOciGoldenGateDeploymentBackups#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsInstanceIdentityConfigurationConfig), fullyQualifiedName: "oci.dataOciBdsBdsInstanceIdentityConfiguration.DataOciBdsBdsInstanceIdentityConfigurationConfig")]
     public interface IDataOciBdsBdsInstanceIdentityConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_identity_configuration#bds_instance_id DataOciBdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_identity_configuration#bds_instance_id DataOciBdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_identity_configuration#identity_configuration_id DataOciBdsBdsInstanceIdentityConfiguration#identity_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_identity_configuration#identity_configuration_id DataOciBdsBdsInstanceIdentityConfiguration#identity_configuration_id}.</summary>
         [JsiiProperty(name: "identityConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityConfigurationId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciBdsBdsInstanceIdentityConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_identity_configuration#bds_instance_id DataOciBdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_identity_configuration#bds_instance_id DataOciBdsBdsInstanceIdentityConfiguration#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/bds_bds_instance_identity_configuration#identity_configuration_id DataOciBdsBdsInstanceIdentityConfiguration#identity_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_identity_configuration#identity_configuration_id DataOciBdsBdsInstanceIdentityConfiguration#identity_configuration_id}.</summary>
             [JsiiProperty(name: "identityConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityConfigurationId
             {

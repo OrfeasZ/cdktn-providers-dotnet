@@ -7,7 +7,7 @@ namespace oci.MonitoringAlarm
     [JsiiByValue(fqn: "oci.monitoringAlarm.MonitoringAlarmOverrides")]
     public class MonitoringAlarmOverrides : oci.MonitoringAlarm.IMonitoringAlarmOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/monitoring_alarm#body MonitoringAlarm#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm#body MonitoringAlarm#body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Body
@@ -16,7 +16,7 @@ namespace oci.MonitoringAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/monitoring_alarm#pending_duration MonitoringAlarm#pending_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm#pending_duration MonitoringAlarm#pending_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pendingDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PendingDuration
@@ -25,7 +25,7 @@ namespace oci.MonitoringAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/monitoring_alarm#query MonitoringAlarm#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm#query MonitoringAlarm#query}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Query
@@ -34,7 +34,7 @@ namespace oci.MonitoringAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/monitoring_alarm#rule_name MonitoringAlarm#rule_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm#rule_name MonitoringAlarm#rule_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleName
@@ -43,7 +43,7 @@ namespace oci.MonitoringAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/monitoring_alarm#severity MonitoringAlarm#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm#severity MonitoringAlarm#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Severity

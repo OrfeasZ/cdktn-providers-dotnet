@@ -9,7 +9,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
     [JsiiByValue(fqn: "oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationConfig")]
     public class LoggingUnifiedAgentConfigurationConfig : oci.LoggingUnifiedAgentConfiguration.ILoggingUnifiedAgentConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#compartment_id LoggingUnifiedAgentConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#description LoggingUnifiedAgentConfiguration#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#description LoggingUnifiedAgentConfiguration#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -25,7 +25,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#display_name LoggingUnifiedAgentConfiguration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#display_name LoggingUnifiedAgentConfiguration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -35,7 +35,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
 
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#is_enabled LoggingUnifiedAgentConfiguration#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#is_enabled LoggingUnifiedAgentConfiguration#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
 
         /// <summary>service_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#service_configuration LoggingUnifiedAgentConfiguration#service_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#service_configuration LoggingUnifiedAgentConfiguration#service_configuration}
         /// </remarks>
         [JsiiProperty(name: "serviceConfiguration", typeJson: "{\"fqn\":\"oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationServiceConfiguration\"}")]
         public oci.LoggingUnifiedAgentConfiguration.ILoggingUnifiedAgentConfigurationServiceConfiguration ServiceConfiguration
@@ -77,7 +77,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#defined_tags LoggingUnifiedAgentConfiguration#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#defined_tags LoggingUnifiedAgentConfiguration#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -86,7 +86,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#freeform_tags LoggingUnifiedAgentConfiguration#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#freeform_tags LoggingUnifiedAgentConfiguration#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -97,7 +97,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
 
         /// <summary>group_association block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#group_association LoggingUnifiedAgentConfiguration#group_association}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#group_association LoggingUnifiedAgentConfiguration#group_association}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupAssociation", typeJson: "{\"fqn\":\"oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationGroupAssociation\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#id LoggingUnifiedAgentConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#id LoggingUnifiedAgentConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -122,7 +122,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/logging_unified_agent_configuration#timeouts LoggingUnifiedAgentConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/logging_unified_agent_configuration#timeouts LoggingUnifiedAgentConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationTimeouts\"}", isOptional: true)]

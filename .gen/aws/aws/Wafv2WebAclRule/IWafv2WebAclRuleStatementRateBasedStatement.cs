@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAclRule
     {
         /// <summary>Setting that indicates how to aggregate the request counts. Valid values: IP, FORWARDED_IP, CUSTOM_KEYS, CONSTANT.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#aggregate_key_type Wafv2WebAclRuleA#aggregate_key_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#aggregate_key_type Wafv2WebAclRuleA#aggregate_key_type}
         /// </remarks>
         [JsiiProperty(name: "aggregateKeyType", typeJson: "{\"primitive\":\"string\"}")]
         string AggregateKeyType
@@ -19,7 +19,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>Rate limit threshold (10-2000000000).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#limit Wafv2WebAclRuleA#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#limit Wafv2WebAclRuleA#limit}
         /// </remarks>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
         double Limit
@@ -29,7 +29,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>custom_keys block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#custom_keys Wafv2WebAclRuleA#custom_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#custom_keys Wafv2WebAclRuleA#custom_keys}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeys" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customKeys", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementCustomKeys\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>Time window for AWS WAF to use to check the rate (60, 120, 300, 600).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#evaluation_window_sec Wafv2WebAclRuleA#evaluation_window_sec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#evaluation_window_sec Wafv2WebAclRuleA#evaluation_window_sec}
         /// </remarks>
         [JsiiProperty(name: "evaluationWindowSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>forwarded_ip_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#forwarded_ip_config Wafv2WebAclRuleA#forwarded_ip_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#forwarded_ip_config Wafv2WebAclRuleA#forwarded_ip_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementForwardedIpConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "forwardedIpConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementForwardedIpConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>scope_down_statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#scope_down_statement Wafv2WebAclRuleA#scope_down_statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#scope_down_statement Wafv2WebAclRuleA#scope_down_statement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementScopeDownStatement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scopeDownStatement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementRateBasedStatementScopeDownStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Setting that indicates how to aggregate the request counts. Valid values: IP, FORWARDED_IP, CUSTOM_KEYS, CONSTANT.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#aggregate_key_type Wafv2WebAclRuleA#aggregate_key_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#aggregate_key_type Wafv2WebAclRuleA#aggregate_key_type}
             /// </remarks>
             [JsiiProperty(name: "aggregateKeyType", typeJson: "{\"primitive\":\"string\"}")]
             public string AggregateKeyType
@@ -105,7 +105,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Rate limit threshold (10-2000000000).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#limit Wafv2WebAclRuleA#limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#limit Wafv2WebAclRuleA#limit}
             /// </remarks>
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
             public double Limit
@@ -115,7 +115,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>custom_keys block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#custom_keys Wafv2WebAclRuleA#custom_keys}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#custom_keys Wafv2WebAclRuleA#custom_keys}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementCustomKeys" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -127,7 +127,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Time window for AWS WAF to use to check the rate (60, 120, 300, 600).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#evaluation_window_sec Wafv2WebAclRuleA#evaluation_window_sec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#evaluation_window_sec Wafv2WebAclRuleA#evaluation_window_sec}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "evaluationWindowSec", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>forwarded_ip_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#forwarded_ip_config Wafv2WebAclRuleA#forwarded_ip_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#forwarded_ip_config Wafv2WebAclRuleA#forwarded_ip_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementForwardedIpConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -150,7 +150,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>scope_down_statement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/wafv2_web_acl_rule#scope_down_statement Wafv2WebAclRuleA#scope_down_statement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#scope_down_statement Wafv2WebAclRuleA#scope_down_statement}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementRateBasedStatementScopeDownStatement" />)[]</para>
             /// </remarks>
             [JsiiOptional]

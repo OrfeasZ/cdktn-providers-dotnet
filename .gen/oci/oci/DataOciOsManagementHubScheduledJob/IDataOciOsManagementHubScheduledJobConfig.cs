@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubScheduledJob
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubScheduledJobConfig), fullyQualifiedName: "oci.dataOciOsManagementHubScheduledJob.DataOciOsManagementHubScheduledJobConfig")]
     public interface IDataOciOsManagementHubScheduledJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_scheduled_job#scheduled_job_id DataOciOsManagementHubScheduledJob#scheduled_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_scheduled_job#scheduled_job_id DataOciOsManagementHubScheduledJob#scheduled_job_id}.</summary>
         [JsiiProperty(name: "scheduledJobId", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduledJobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubScheduledJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/os_management_hub_scheduled_job#scheduled_job_id DataOciOsManagementHubScheduledJob#scheduled_job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_scheduled_job#scheduled_job_id DataOciOsManagementHubScheduledJob#scheduled_job_id}.</summary>
             [JsiiProperty(name: "scheduledJobId", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduledJobId
             {

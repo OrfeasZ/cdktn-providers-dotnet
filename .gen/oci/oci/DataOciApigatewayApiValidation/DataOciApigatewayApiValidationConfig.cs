@@ -9,7 +9,7 @@ namespace oci.DataOciApigatewayApiValidation
     [JsiiByValue(fqn: "oci.dataOciApigatewayApiValidation.DataOciApigatewayApiValidationConfig")]
     public class DataOciApigatewayApiValidationConfig : oci.DataOciApigatewayApiValidation.IDataOciApigatewayApiValidationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apigateway_api_validation#api_id DataOciApigatewayApiValidation#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_api_validation#api_id DataOciApigatewayApiValidation#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApigatewayApiValidation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/apigateway_api_validation#id DataOciApigatewayApiValidation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_api_validation#id DataOciApigatewayApiValidation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

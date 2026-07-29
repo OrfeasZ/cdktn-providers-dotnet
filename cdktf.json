@@ -5,7 +5,7 @@
   "sendCrashReports": "false",
   "terraformProviders": [
     "vancluever/acme@2.48.3",
-    "hashicorp/aws@6.57.0",
+    "hashicorp/aws@6.56.0",
     "cloudflare/cloudflare@5.22.0",
     "digitalocean/digitalocean@2.96.0",
     "hashicorp/random@3.9.0",
@@ -16,7 +16,7 @@
     "hashicorp/null@3.3.0",
     "tailscale/tailscale@0.29.2",
     "dmacvicar/libvirt@0.9.8",
-    "oracle/oci@8.24.0",
+    "oracle/oci@8.25.0",
     "hashicorp/azurerm@5.0.0",
     "Azure/azapi@2.11.0",
     "hashicorp/azuread@3.9.0",

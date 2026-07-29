@@ -7,7 +7,7 @@ namespace oci.DataOciOnsSubscription
     [JsiiInterface(nativeType: typeof(IDataOciOnsSubscriptionConfig), fullyQualifiedName: "oci.dataOciOnsSubscription.DataOciOnsSubscriptionConfig")]
     public interface IDataOciOnsSubscriptionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOnsSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDistributedDatabaseDistributedDatabasePrivateEndpoint.DataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig")]
     public interface IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
         [JsiiProperty(name: "distributedDatabasePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string DistributedDatabasePrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
             [JsiiProperty(name: "distributedDatabasePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string DistributedDatabasePrivateEndpointId
             {

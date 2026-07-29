@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsKmsiSetting
     [JsiiByValue(fqn: "oci.identityDomainsKmsiSetting.IdentityDomainsKmsiSettingTags")]
     public class IdentityDomainsKmsiSettingTags : oci.IdentityDomainsKmsiSetting.IIdentityDomainsKmsiSettingTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_kmsi_setting#key IdentityDomainsKmsiSetting#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_kmsi_setting#key IdentityDomainsKmsiSetting#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsKmsiSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_kmsi_setting#value IdentityDomainsKmsiSetting#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_kmsi_setting#value IdentityDomainsKmsiSetting#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

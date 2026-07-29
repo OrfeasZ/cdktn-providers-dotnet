@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardResponderRecipe
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardResponderRecipeConfig), fullyQualifiedName: "oci.dataOciCloudGuardResponderRecipe.DataOciCloudGuardResponderRecipeConfig")]
     public interface IDataOciCloudGuardResponderRecipeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
         [JsiiProperty(name: "responderRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         string ResponderRecipeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardResponderRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
             [JsiiProperty(name: "responderRecipeId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResponderRecipeId
             {

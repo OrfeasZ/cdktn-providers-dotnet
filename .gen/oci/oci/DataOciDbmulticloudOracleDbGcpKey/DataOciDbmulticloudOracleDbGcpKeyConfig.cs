@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKey
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbGcpKey.DataOciDbmulticloudOracleDbGcpKeyConfig")]
     public class DataOciDbmulticloudOracleDbGcpKeyConfig : oci.DataOciDbmulticloudOracleDbGcpKey.IDataOciDbmulticloudOracleDbGcpKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key#oracle_db_gcp_key_id DataOciDbmulticloudOracleDbGcpKey#oracle_db_gcp_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key#oracle_db_gcp_key_id DataOciDbmulticloudOracleDbGcpKey#oracle_db_gcp_key_id}.</summary>
         [JsiiProperty(name: "oracleDbGcpKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbGcpKeyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key#id DataOciDbmulticloudOracleDbGcpKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key#id DataOciDbmulticloudOracleDbGcpKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

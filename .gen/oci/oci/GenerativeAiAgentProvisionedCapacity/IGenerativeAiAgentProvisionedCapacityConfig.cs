@@ -7,28 +7,28 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentProvisionedCapacityConfig), fullyQualifiedName: "oci.generativeAiAgentProvisionedCapacity.GenerativeAiAgentProvisionedCapacityConfig")]
     public interface IGenerativeAiAgentProvisionedCapacityConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#compartment_id GenerativeAiAgentProvisionedCapacity#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#compartment_id GenerativeAiAgentProvisionedCapacity#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#display_name GenerativeAiAgentProvisionedCapacity#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#display_name GenerativeAiAgentProvisionedCapacity#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#number_of_units GenerativeAiAgentProvisionedCapacity#number_of_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#number_of_units GenerativeAiAgentProvisionedCapacity#number_of_units}.</summary>
         [JsiiProperty(name: "numberOfUnits", typeJson: "{\"primitive\":\"number\"}")]
         double NumberOfUnits
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#defined_tags GenerativeAiAgentProvisionedCapacity#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#defined_tags GenerativeAiAgentProvisionedCapacity#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +39,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#description GenerativeAiAgentProvisionedCapacity#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#description GenerativeAiAgentProvisionedCapacity#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -50,7 +50,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#freeform_tags GenerativeAiAgentProvisionedCapacity#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#freeform_tags GenerativeAiAgentProvisionedCapacity#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -61,7 +61,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#id GenerativeAiAgentProvisionedCapacity#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#id GenerativeAiAgentProvisionedCapacity#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,7 +78,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#timeouts GenerativeAiAgentProvisionedCapacity#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#timeouts GenerativeAiAgentProvisionedCapacity#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiAgentProvisionedCapacity.GenerativeAiAgentProvisionedCapacityTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,28 +97,28 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#compartment_id GenerativeAiAgentProvisionedCapacity#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#compartment_id GenerativeAiAgentProvisionedCapacity#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#display_name GenerativeAiAgentProvisionedCapacity#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#display_name GenerativeAiAgentProvisionedCapacity#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#number_of_units GenerativeAiAgentProvisionedCapacity#number_of_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#number_of_units GenerativeAiAgentProvisionedCapacity#number_of_units}.</summary>
             [JsiiProperty(name: "numberOfUnits", typeJson: "{\"primitive\":\"number\"}")]
             public double NumberOfUnits
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#defined_tags GenerativeAiAgentProvisionedCapacity#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#defined_tags GenerativeAiAgentProvisionedCapacity#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -126,7 +126,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#description GenerativeAiAgentProvisionedCapacity#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#description GenerativeAiAgentProvisionedCapacity#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -134,7 +134,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#freeform_tags GenerativeAiAgentProvisionedCapacity#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#freeform_tags GenerativeAiAgentProvisionedCapacity#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -142,7 +142,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#id GenerativeAiAgentProvisionedCapacity#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#id GenerativeAiAgentProvisionedCapacity#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +156,7 @@ namespace oci.GenerativeAiAgentProvisionedCapacity
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/generative_ai_agent_provisioned_capacity#timeouts GenerativeAiAgentProvisionedCapacity#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_provisioned_capacity#timeouts GenerativeAiAgentProvisionedCapacity#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiAgentProvisionedCapacity.GenerativeAiAgentProvisionedCapacityTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace oci.GoldenGateDeployment
     [JsiiInterface(nativeType: typeof(IGoldenGateDeploymentPlacements), fullyQualifiedName: "oci.goldenGateDeployment.GoldenGateDeploymentPlacements")]
     public interface IGoldenGateDeploymentPlacements
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -18,7 +18,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
         [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FaultDomain
@@ -36,7 +36,7 @@ namespace oci.GoldenGateDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -44,7 +44,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FaultDomain

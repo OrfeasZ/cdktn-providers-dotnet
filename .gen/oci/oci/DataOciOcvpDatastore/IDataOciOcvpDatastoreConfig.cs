@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpDatastore
     [JsiiInterface(nativeType: typeof(IDataOciOcvpDatastoreConfig), fullyQualifiedName: "oci.dataOciOcvpDatastore.DataOciOcvpDatastoreConfig")]
     public interface IDataOciOcvpDatastoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
         [JsiiProperty(name: "datastoreId", typeJson: "{\"primitive\":\"string\"}")]
         string DatastoreId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpDatastore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
             [JsiiProperty(name: "datastoreId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatastoreId
             {

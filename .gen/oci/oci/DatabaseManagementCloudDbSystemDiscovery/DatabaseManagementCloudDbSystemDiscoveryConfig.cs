@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryConfig")]
     public class DatabaseManagementCloudDbSystemDiscoveryConfig : oci.DatabaseManagementCloudDbSystemDiscovery.IDatabaseManagementCloudDbSystemDiscoveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#agent_id DatabaseManagementCloudDbSystemDiscovery#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#compartment_id DatabaseManagementCloudDbSystemDiscovery#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#dbaas_parent_infrastructure_id DatabaseManagementCloudDbSystemDiscovery#dbaas_parent_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#dbaas_parent_infrastructure_id DatabaseManagementCloudDbSystemDiscovery#dbaas_parent_infrastructure_id}.</summary>
         [JsiiProperty(name: "dbaasParentInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbaasParentInfrastructureId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#deployment_type DatabaseManagementCloudDbSystemDiscovery#deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#deployment_type DatabaseManagementCloudDbSystemDiscovery#deployment_type}.</summary>
         [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentType
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#defined_tags DatabaseManagementCloudDbSystemDiscovery#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#defined_tags DatabaseManagementCloudDbSystemDiscovery#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#display_name DatabaseManagementCloudDbSystemDiscovery#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#freeform_tags DatabaseManagementCloudDbSystemDiscovery#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#freeform_tags DatabaseManagementCloudDbSystemDiscovery#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#id DatabaseManagementCloudDbSystemDiscovery#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#id DatabaseManagementCloudDbSystemDiscovery#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#patch_operations DatabaseManagementCloudDbSystemDiscovery#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#patch_operations DatabaseManagementCloudDbSystemDiscovery#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseManagementCloudDbSystemDiscovery.IDatabaseManagementCloudDbSystemDiscoveryPatchOperations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -118,7 +118,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system_discovery#timeouts DatabaseManagementCloudDbSystemDiscovery#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system_discovery#timeouts DatabaseManagementCloudDbSystemDiscovery#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryTimeouts\"}", isOptional: true)]

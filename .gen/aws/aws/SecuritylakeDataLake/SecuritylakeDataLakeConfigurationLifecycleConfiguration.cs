@@ -11,7 +11,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>expiration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationExpiration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>transition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/securitylake_data_lake#transition SecuritylakeDataLake#transition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/securitylake_data_lake#transition SecuritylakeDataLake#transition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfigurationTransition" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.DevopsProject
     [JsiiInterface(nativeType: typeof(IDevopsProjectNotificationConfig), fullyQualifiedName: "oci.devopsProject.DevopsProjectNotificationConfig")]
     public interface IDevopsProjectNotificationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_project#topic_id DevopsProject#topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_project#topic_id DevopsProject#topic_id}.</summary>
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
         string TopicId
         {
@@ -21,7 +21,7 @@ namespace oci.DevopsProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/devops_project#topic_id DevopsProject#topic_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_project#topic_id DevopsProject#topic_id}.</summary>
             [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicId
             {

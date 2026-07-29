@@ -41,6 +41,12 @@ namespace oci.DataOciApiaccesscontrolApiMetadataByEntityTypes
             get => GetInstanceProperty<oci.DataOciApiaccesscontrolApiMetadataByEntityTypes.DataOciApiaccesscontrolApiMetadataByEntityTypesApiMetadataByEntityTypeCollectionItemsApiMetadatasList>()!;
         }
 
+        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "definedTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap DefinedTags
         {

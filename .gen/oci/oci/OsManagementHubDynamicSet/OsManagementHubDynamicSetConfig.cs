@@ -9,7 +9,7 @@ namespace oci.OsManagementHubDynamicSet
     [JsiiByValue(fqn: "oci.osManagementHubDynamicSet.OsManagementHubDynamicSetConfig")]
     public class OsManagementHubDynamicSetConfig : oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#compartment_id OsManagementHubDynamicSet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#compartment_id OsManagementHubDynamicSet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.OsManagementHubDynamicSet
 
         /// <summary>matching_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#matching_rule OsManagementHubDynamicSet#matching_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#matching_rule OsManagementHubDynamicSet#matching_rule}
         /// </remarks>
         [JsiiProperty(name: "matchingRule", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSet.OsManagementHubDynamicSetMatchingRule\"}")]
         public oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetMatchingRule MatchingRule
@@ -28,7 +28,7 @@ namespace oci.OsManagementHubDynamicSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#match_type OsManagementHubDynamicSet#match_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#match_type OsManagementHubDynamicSet#match_type}.</summary>
         [JsiiProperty(name: "matchType", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchType
         {
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubDynamicSet
 
         /// <summary>target_compartments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#target_compartments OsManagementHubDynamicSet#target_compartments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#target_compartments OsManagementHubDynamicSet#target_compartments}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetTargetCompartments" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targetCompartments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubDynamicSet.OsManagementHubDynamicSetTargetCompartments\"},\"kind\":\"array\"}}]}}")]
@@ -70,7 +70,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#defined_tags OsManagementHubDynamicSet#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#defined_tags OsManagementHubDynamicSet#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -79,7 +79,7 @@ namespace oci.OsManagementHubDynamicSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#description OsManagementHubDynamicSet#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#description OsManagementHubDynamicSet#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -88,7 +88,7 @@ namespace oci.OsManagementHubDynamicSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#display_name OsManagementHubDynamicSet#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#display_name OsManagementHubDynamicSet#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -97,7 +97,7 @@ namespace oci.OsManagementHubDynamicSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#freeform_tags OsManagementHubDynamicSet#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#freeform_tags OsManagementHubDynamicSet#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -106,7 +106,7 @@ namespace oci.OsManagementHubDynamicSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#id OsManagementHubDynamicSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#id OsManagementHubDynamicSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ namespace oci.OsManagementHubDynamicSet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/os_management_hub_dynamic_set#timeouts OsManagementHubDynamicSet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_dynamic_set#timeouts OsManagementHubDynamicSet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSet.OsManagementHubDynamicSetTimeouts\"}", isOptional: true)]

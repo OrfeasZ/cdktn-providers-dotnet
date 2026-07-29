@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomainServerBackups
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomainServerBackups.DataOciWlmsWlsDomainServerBackupsConfig")]
     public class DataOciWlmsWlsDomainServerBackupsConfig : oci.DataOciWlmsWlsDomainServerBackups.IDataOciWlmsWlsDomainServerBackupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/wlms_wls_domain_server_backups#server_id DataOciWlmsWlsDomainServerBackups#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server_backups#server_id DataOciWlmsWlsDomainServerBackups#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsWlsDomainServerBackups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/wlms_wls_domain_server_backups#wls_domain_id DataOciWlmsWlsDomainServerBackups#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server_backups#wls_domain_id DataOciWlmsWlsDomainServerBackups#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string WlsDomainId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciWlmsWlsDomainServerBackups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/wlms_wls_domain_server_backups#filter DataOciWlmsWlsDomainServerBackups#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server_backups#filter DataOciWlmsWlsDomainServerBackups#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainServerBackups.IDataOciWlmsWlsDomainServerBackupsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciWlmsWlsDomainServerBackups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/wlms_wls_domain_server_backups#id DataOciWlmsWlsDomainServerBackups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server_backups#id DataOciWlmsWlsDomainServerBackups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

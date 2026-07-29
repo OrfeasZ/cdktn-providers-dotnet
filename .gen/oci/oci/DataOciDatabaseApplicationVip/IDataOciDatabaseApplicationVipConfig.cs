@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseApplicationVip
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseApplicationVipConfig), fullyQualifiedName: "oci.dataOciDatabaseApplicationVip.DataOciDatabaseApplicationVipConfig")]
     public interface IDataOciDatabaseApplicationVipConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
         [JsiiProperty(name: "applicationVipId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationVipId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseApplicationVip
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_application_vip#application_vip_id DataOciDatabaseApplicationVip#application_vip_id}.</summary>
             [JsiiProperty(name: "applicationVipId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationVipId
             {

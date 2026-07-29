@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerExecutions.DataOciFleetAppsManagementSchedulerExecutionsFilter")]
     public class DataOciFleetAppsManagementSchedulerExecutionsFilter : oci.DataOciFleetAppsManagementSchedulerExecutions.IDataOciFleetAppsManagementSchedulerExecutionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#name DataOciFleetAppsManagementSchedulerExecutions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_scheduler_executions#name DataOciFleetAppsManagementSchedulerExecutions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#values DataOciFleetAppsManagementSchedulerExecutions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_scheduler_executions#values DataOciFleetAppsManagementSchedulerExecutions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerExecutions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/fleet_apps_management_scheduler_executions#regex DataOciFleetAppsManagementSchedulerExecutions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_scheduler_executions#regex DataOciFleetAppsManagementSchedulerExecutions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

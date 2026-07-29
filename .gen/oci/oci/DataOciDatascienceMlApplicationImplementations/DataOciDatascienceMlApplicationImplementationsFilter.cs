@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementations
     [JsiiByValue(fqn: "oci.dataOciDatascienceMlApplicationImplementations.DataOciDatascienceMlApplicationImplementationsFilter")]
     public class DataOciDatascienceMlApplicationImplementationsFilter : oci.DataOciDatascienceMlApplicationImplementations.IDataOciDatascienceMlApplicationImplementationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementations#name DataOciDatascienceMlApplicationImplementations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_ml_application_implementations#name DataOciDatascienceMlApplicationImplementations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementations#values DataOciDatascienceMlApplicationImplementations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_ml_application_implementations#values DataOciDatascienceMlApplicationImplementations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/datascience_ml_application_implementations#regex DataOciDatascienceMlApplicationImplementations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_ml_application_implementations#regex DataOciDatascienceMlApplicationImplementations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

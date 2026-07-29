@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUser
     [JsiiInterface(nativeType: typeof(IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUser), fullyQualifiedName: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUser")]
     public interface IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#risk_level IdentityDomainsUser#risk_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#risk_level IdentityDomainsUser#risk_level}.</summary>
         [JsiiProperty(name: "riskLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RiskLevel
@@ -20,7 +20,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>risk_scores block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#risk_scores IdentityDomainsUser#risk_scores}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#risk_scores IdentityDomainsUser#risk_scores}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "riskScores", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.IdentityDomainsUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#risk_level IdentityDomainsUser#risk_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#risk_level IdentityDomainsUser#risk_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "riskLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RiskLevel
@@ -50,7 +50,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>risk_scores block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_user#risk_scores IdentityDomainsUser#risk_scores}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#risk_scores IdentityDomainsUser#risk_scores}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionadaptiveUserRiskScores" />)[]</para>
             /// </remarks>
             [JsiiOptional]

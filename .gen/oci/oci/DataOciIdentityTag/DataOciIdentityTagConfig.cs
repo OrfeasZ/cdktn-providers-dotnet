@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityTag
     [JsiiByValue(fqn: "oci.dataOciIdentityTag.DataOciIdentityTagConfig")]
     public class DataOciIdentityTagConfig : oci.DataOciIdentityTag.IDataOciIdentityTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
         [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
         public string TagName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
         [JsiiProperty(name: "tagNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TagNamespaceId
         {

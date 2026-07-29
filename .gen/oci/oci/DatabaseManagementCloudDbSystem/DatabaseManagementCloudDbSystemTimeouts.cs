@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystem
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemTimeouts")]
     public class DatabaseManagementCloudDbSystemTimeouts : oci.DatabaseManagementCloudDbSystem.IDatabaseManagementCloudDbSystemTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system#create DatabaseManagementCloudDbSystem#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system#create DatabaseManagementCloudDbSystem#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system#delete DatabaseManagementCloudDbSystem#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system#delete DatabaseManagementCloudDbSystem#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/database_management_cloud_db_system#update DatabaseManagementCloudDbSystem#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_db_system#update DatabaseManagementCloudDbSystem#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

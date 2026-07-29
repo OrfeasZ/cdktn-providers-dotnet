@@ -5,7 +5,7 @@ namespace oci.ApmSyntheticsOnPremiseVantagePointWorker
     /// <remarks>
     /// <h1><c>oci_apm_synthetics_on_premise_vantage_point_worker</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/apm_synthetics_on_premise_vantage_point_worker"><c>oci_apm_synthetics_on_premise_vantage_point_worker</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_synthetics_on_premise_vantage_point_worker"><c>oci_apm_synthetics_on_premise_vantage_point_worker</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

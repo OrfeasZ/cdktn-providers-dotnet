@@ -7,14 +7,14 @@ namespace oci.DataOciNetworkLoadBalancerListener
     [JsiiInterface(nativeType: typeof(IDataOciNetworkLoadBalancerListenerConfig), fullyQualifiedName: "oci.dataOciNetworkLoadBalancerListener.DataOciNetworkLoadBalancerListenerConfig")]
     public interface IDataOciNetworkLoadBalancerListenerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}.</summary>
         [JsiiProperty(name: "listenerName", typeJson: "{\"primitive\":\"string\"}")]
         string ListenerName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkLoadBalancerId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciNetworkLoadBalancerListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_load_balancer_listener#listener_name DataOciNetworkLoadBalancerListener#listener_name}.</summary>
             [JsiiProperty(name: "listenerName", typeJson: "{\"primitive\":\"string\"}")]
             public string ListenerName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_load_balancer_listener#network_load_balancer_id DataOciNetworkLoadBalancerListener#network_load_balancer_id}.</summary>
             [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkLoadBalancerId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
     [JsiiInterface(nativeType: typeof(IDataOciCostadCostAnomalyMonitorsConfig), fullyQualifiedName: "oci.dataOciCostadCostAnomalyMonitors.DataOciCostadCostAnomalyMonitorsConfig")]
     public interface IDataOciCostadCostAnomalyMonitorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#compartment_id DataOciCostadCostAnomalyMonitors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#compartment_id DataOciCostadCostAnomalyMonitors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#filter DataOciCostadCostAnomalyMonitors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#filter DataOciCostadCostAnomalyMonitors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCostadCostAnomalyMonitors.IDataOciCostadCostAnomalyMonitorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCostadCostAnomalyMonitors.DataOciCostadCostAnomalyMonitorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#id DataOciCostadCostAnomalyMonitors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#id DataOciCostadCostAnomalyMonitors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -55,7 +55,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#region DataOciCostadCostAnomalyMonitors#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#region DataOciCostadCostAnomalyMonitors#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Region
@@ -66,7 +66,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#state DataOciCostadCostAnomalyMonitors#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#state DataOciCostadCostAnomalyMonitors#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -77,7 +77,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#target_tenant_id DataOciCostadCostAnomalyMonitors#target_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#target_tenant_id DataOciCostadCostAnomalyMonitors#target_tenant_id}.</summary>
         [JsiiProperty(name: "targetTenantId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TargetTenantId
@@ -95,7 +95,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#compartment_id DataOciCostadCostAnomalyMonitors#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#compartment_id DataOciCostadCostAnomalyMonitors#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -104,7 +104,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#filter DataOciCostadCostAnomalyMonitors#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#filter DataOciCostadCostAnomalyMonitors#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCostadCostAnomalyMonitors.IDataOciCostadCostAnomalyMonitorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -114,7 +114,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#id DataOciCostadCostAnomalyMonitors#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#id DataOciCostadCostAnomalyMonitors#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -134,7 +134,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#region DataOciCostadCostAnomalyMonitors#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#region DataOciCostadCostAnomalyMonitors#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Region
@@ -142,7 +142,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#state DataOciCostadCostAnomalyMonitors#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#state DataOciCostadCostAnomalyMonitors#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -150,7 +150,7 @@ namespace oci.DataOciCostadCostAnomalyMonitors
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/costad_cost_anomaly_monitors#target_tenant_id DataOciCostadCostAnomalyMonitors#target_tenant_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#target_tenant_id DataOciCostadCostAnomalyMonitors#target_tenant_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetTenantId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TargetTenantId

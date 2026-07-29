@@ -7,21 +7,21 @@ namespace oci.DataOciMulticloudExternalLocationSummariesMetadata
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudExternalLocationSummariesMetadataFilter), fullyQualifiedName: "oci.dataOciMulticloudExternalLocationSummariesMetadata.DataOciMulticloudExternalLocationSummariesMetadataFilter")]
     public interface IDataOciMulticloudExternalLocationSummariesMetadataFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#name DataOciMulticloudExternalLocationSummariesMetadata#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#name DataOciMulticloudExternalLocationSummariesMetadata#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#values DataOciMulticloudExternalLocationSummariesMetadata#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#values DataOciMulticloudExternalLocationSummariesMetadata#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#regex DataOciMulticloudExternalLocationSummariesMetadata#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#regex DataOciMulticloudExternalLocationSummariesMetadata#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciMulticloudExternalLocationSummariesMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#name DataOciMulticloudExternalLocationSummariesMetadata#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#name DataOciMulticloudExternalLocationSummariesMetadata#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#values DataOciMulticloudExternalLocationSummariesMetadata#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#values DataOciMulticloudExternalLocationSummariesMetadata#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/multicloud_external_location_summaries_metadata#regex DataOciMulticloudExternalLocationSummariesMetadata#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_external_location_summaries_metadata#regex DataOciMulticloudExternalLocationSummariesMetadata#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

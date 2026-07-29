@@ -9,7 +9,7 @@ namespace oci.DataOciCoreImageShapes
     [JsiiByValue(fqn: "oci.dataOciCoreImageShapes.DataOciCoreImageShapesConfig")]
     public class DataOciCoreImageShapesConfig : oci.DataOciCoreImageShapes.IDataOciCoreImageShapesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_image_shapes#image_id DataOciCoreImageShapes#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_image_shapes#image_id DataOciCoreImageShapes#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreImageShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_image_shapes#filter DataOciCoreImageShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_image_shapes#filter DataOciCoreImageShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreImageShapes.IDataOciCoreImageShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCoreImageShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/core_image_shapes#id DataOciCoreImageShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_image_shapes#id DataOciCoreImageShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.CostadCostAlertSubscription
     [JsiiByValue(fqn: "oci.costadCostAlertSubscription.CostadCostAlertSubscriptionTimeouts")]
     public class CostadCostAlertSubscriptionTimeouts : oci.CostadCostAlertSubscription.ICostadCostAlertSubscriptionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_alert_subscription#create CostadCostAlertSubscription#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/costad_cost_alert_subscription#create CostadCostAlertSubscription#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_alert_subscription#delete CostadCostAlertSubscription#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/costad_cost_alert_subscription#delete CostadCostAlertSubscription#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/costad_cost_alert_subscription#update CostadCostAlertSubscription#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/costad_cost_alert_subscription#update CostadCostAlertSubscription#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.WafWebAppFirewallPolicy
     [JsiiInterface(nativeType: typeof(IWafWebAppFirewallPolicyRequestAccessControl), fullyQualifiedName: "oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyRequestAccessControl")]
     public interface IWafWebAppFirewallPolicyRequestAccessControl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}.</summary>
         [JsiiProperty(name: "defaultActionName", typeJson: "{\"primitive\":\"string\"}")]
         string DefaultActionName
         {
@@ -16,7 +16,7 @@ namespace oci.WafWebAppFirewallPolicy
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyRequestAccessControlRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyRequestAccessControlRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.WafWebAppFirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/waf_web_app_firewall_policy#default_action_name WafWebAppFirewallPolicy#default_action_name}.</summary>
             [JsiiProperty(name: "defaultActionName", typeJson: "{\"primitive\":\"string\"}")]
             public string DefaultActionName
             {
@@ -45,7 +45,7 @@ namespace oci.WafWebAppFirewallPolicy
 
             /// <summary>rules block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyRequestAccessControlRules" />)[]</para>
             /// </remarks>
             [JsiiOptional]

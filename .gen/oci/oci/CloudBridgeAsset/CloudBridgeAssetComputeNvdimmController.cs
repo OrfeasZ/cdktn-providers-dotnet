@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiByValue(fqn: "oci.cloudBridgeAsset.CloudBridgeAssetComputeNvdimmController")]
     public class CloudBridgeAssetComputeNvdimmController : oci.CloudBridgeAsset.ICloudBridgeAssetComputeNvdimmController
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "busNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BusNumber
@@ -16,7 +16,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Label

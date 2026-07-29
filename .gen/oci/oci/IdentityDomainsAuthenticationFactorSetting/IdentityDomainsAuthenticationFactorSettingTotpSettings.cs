@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
     [JsiiByValue(fqn: "oci.identityDomainsAuthenticationFactorSetting.IdentityDomainsAuthenticationFactorSettingTotpSettings")]
     public class IdentityDomainsAuthenticationFactorSettingTotpSettings : oci.IdentityDomainsAuthenticationFactorSetting.IIdentityDomainsAuthenticationFactorSettingTotpSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#email_otp_validity_duration_in_mins IdentityDomainsAuthenticationFactorSetting#email_otp_validity_duration_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#email_otp_validity_duration_in_mins IdentityDomainsAuthenticationFactorSetting#email_otp_validity_duration_in_mins}.</summary>
         [JsiiProperty(name: "emailOtpValidityDurationInMins", typeJson: "{\"primitive\":\"number\"}")]
         public double EmailOtpValidityDurationInMins
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#email_passcode_length IdentityDomainsAuthenticationFactorSetting#email_passcode_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#email_passcode_length IdentityDomainsAuthenticationFactorSetting#email_passcode_length}.</summary>
         [JsiiProperty(name: "emailPasscodeLength", typeJson: "{\"primitive\":\"number\"}")]
         public double EmailPasscodeLength
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#hashing_algorithm IdentityDomainsAuthenticationFactorSetting#hashing_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#hashing_algorithm IdentityDomainsAuthenticationFactorSetting#hashing_algorithm}.</summary>
         [JsiiProperty(name: "hashingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string HashingAlgorithm
         {
@@ -33,7 +33,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#jwt_validity_duration_in_secs IdentityDomainsAuthenticationFactorSetting#jwt_validity_duration_in_secs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#jwt_validity_duration_in_secs IdentityDomainsAuthenticationFactorSetting#jwt_validity_duration_in_secs}.</summary>
         [JsiiProperty(name: "jwtValidityDurationInSecs", typeJson: "{\"primitive\":\"number\"}")]
         public double JwtValidityDurationInSecs
         {
@@ -41,7 +41,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#key_refresh_interval_in_days IdentityDomainsAuthenticationFactorSetting#key_refresh_interval_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#key_refresh_interval_in_days IdentityDomainsAuthenticationFactorSetting#key_refresh_interval_in_days}.</summary>
         [JsiiProperty(name: "keyRefreshIntervalInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double KeyRefreshIntervalInDays
         {
@@ -49,7 +49,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#passcode_length IdentityDomainsAuthenticationFactorSetting#passcode_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#passcode_length IdentityDomainsAuthenticationFactorSetting#passcode_length}.</summary>
         [JsiiProperty(name: "passcodeLength", typeJson: "{\"primitive\":\"number\"}")]
         public double PasscodeLength
         {
@@ -57,7 +57,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#sms_otp_validity_duration_in_mins IdentityDomainsAuthenticationFactorSetting#sms_otp_validity_duration_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#sms_otp_validity_duration_in_mins IdentityDomainsAuthenticationFactorSetting#sms_otp_validity_duration_in_mins}.</summary>
         [JsiiProperty(name: "smsOtpValidityDurationInMins", typeJson: "{\"primitive\":\"number\"}")]
         public double SmsOtpValidityDurationInMins
         {
@@ -65,7 +65,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#sms_passcode_length IdentityDomainsAuthenticationFactorSetting#sms_passcode_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#sms_passcode_length IdentityDomainsAuthenticationFactorSetting#sms_passcode_length}.</summary>
         [JsiiProperty(name: "smsPasscodeLength", typeJson: "{\"primitive\":\"number\"}")]
         public double SmsPasscodeLength
         {
@@ -73,7 +73,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#time_step_in_secs IdentityDomainsAuthenticationFactorSetting#time_step_in_secs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#time_step_in_secs IdentityDomainsAuthenticationFactorSetting#time_step_in_secs}.</summary>
         [JsiiProperty(name: "timeStepInSecs", typeJson: "{\"primitive\":\"number\"}")]
         public double TimeStepInSecs
         {
@@ -81,7 +81,7 @@ namespace oci.IdentityDomainsAuthenticationFactorSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_authentication_factor_setting#time_step_tolerance IdentityDomainsAuthenticationFactorSetting#time_step_tolerance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_authentication_factor_setting#time_step_tolerance IdentityDomainsAuthenticationFactorSetting#time_step_tolerance}.</summary>
         [JsiiProperty(name: "timeStepTolerance", typeJson: "{\"primitive\":\"number\"}")]
         public double TimeStepTolerance
         {

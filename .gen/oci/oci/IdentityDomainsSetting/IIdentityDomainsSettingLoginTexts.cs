@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsSetting
     [JsiiInterface(nativeType: typeof(IIdentityDomainsSettingLoginTexts), fullyQualifiedName: "oci.identityDomainsSetting.IdentityDomainsSettingLoginTexts")]
     public interface IIdentityDomainsSettingLoginTexts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_setting#locale IdentityDomainsSetting#locale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#locale IdentityDomainsSetting#locale}.</summary>
         [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}")]
         string Locale
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace oci.IdentityDomainsSetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_setting#locale IdentityDomainsSetting#locale}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#locale IdentityDomainsSetting#locale}.</summary>
             [JsiiProperty(name: "locale", typeJson: "{\"primitive\":\"string\"}")]
             public string Locale
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#value IdentityDomainsSetting#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

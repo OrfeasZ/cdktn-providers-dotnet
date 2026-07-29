@@ -7,7 +7,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
     [JsiiByValue(fqn: "oci.resourceAnalyticsMonitoredRegion.ResourceAnalyticsMonitoredRegionTimeouts")]
     public class ResourceAnalyticsMonitoredRegionTimeouts : oci.ResourceAnalyticsMonitoredRegion.IResourceAnalyticsMonitoredRegionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#create ResourceAnalyticsMonitoredRegion#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#create ResourceAnalyticsMonitoredRegion#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#delete ResourceAnalyticsMonitoredRegion#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#delete ResourceAnalyticsMonitoredRegion#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#read ResourceAnalyticsMonitoredRegion#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#read ResourceAnalyticsMonitoredRegion#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace oci.ResourceAnalyticsMonitoredRegion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/resource_analytics_monitored_region#update ResourceAnalyticsMonitoredRegion#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/resource_analytics_monitored_region#update ResourceAnalyticsMonitoredRegion#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

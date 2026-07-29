@@ -7,28 +7,28 @@ namespace aws.AuditmanagerControl
     [JsiiInterface(nativeType: typeof(IAuditmanagerControlControlMappingSources), fullyQualifiedName: "aws.auditmanagerControl.AuditmanagerControlControlMappingSources")]
     public interface IAuditmanagerControlControlMappingSources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_name AuditmanagerControl#source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_name AuditmanagerControl#source_name}.</summary>
         [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
         string SourceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_set_up_option AuditmanagerControl#source_set_up_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_set_up_option AuditmanagerControl#source_set_up_option}.</summary>
         [JsiiProperty(name: "sourceSetUpOption", typeJson: "{\"primitive\":\"string\"}")]
         string SourceSetUpOption
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_type AuditmanagerControl#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_type AuditmanagerControl#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_description AuditmanagerControl#source_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_description AuditmanagerControl#source_description}.</summary>
         [JsiiProperty(name: "sourceDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDescription
@@ -39,7 +39,7 @@ namespace aws.AuditmanagerControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_frequency AuditmanagerControl#source_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_frequency AuditmanagerControl#source_frequency}.</summary>
         [JsiiProperty(name: "sourceFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceFrequency
@@ -50,7 +50,7 @@ namespace aws.AuditmanagerControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace aws.AuditmanagerControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#troubleshooting_text AuditmanagerControl#troubleshooting_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#troubleshooting_text AuditmanagerControl#troubleshooting_text}.</summary>
         [JsiiProperty(name: "troubleshootingText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TroubleshootingText
@@ -82,28 +82,28 @@ namespace aws.AuditmanagerControl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_name AuditmanagerControl#source_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_name AuditmanagerControl#source_name}.</summary>
             [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_set_up_option AuditmanagerControl#source_set_up_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_set_up_option AuditmanagerControl#source_set_up_option}.</summary>
             [JsiiProperty(name: "sourceSetUpOption", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceSetUpOption
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_type AuditmanagerControl#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_type AuditmanagerControl#source_type}.</summary>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_description AuditmanagerControl#source_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_description AuditmanagerControl#source_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDescription
@@ -111,7 +111,7 @@ namespace aws.AuditmanagerControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_frequency AuditmanagerControl#source_frequency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_frequency AuditmanagerControl#source_frequency}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceFrequency
@@ -119,7 +119,7 @@ namespace aws.AuditmanagerControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#source_keyword AuditmanagerControl#source_keyword}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AuditmanagerControl.IAuditmanagerControlControlMappingSourcesSourceKeyword" />)[]</para>
             /// </remarks>
@@ -130,7 +130,7 @@ namespace aws.AuditmanagerControl
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/auditmanager_control#troubleshooting_text AuditmanagerControl#troubleshooting_text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/auditmanager_control#troubleshooting_text AuditmanagerControl#troubleshooting_text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "troubleshootingText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TroubleshootingText

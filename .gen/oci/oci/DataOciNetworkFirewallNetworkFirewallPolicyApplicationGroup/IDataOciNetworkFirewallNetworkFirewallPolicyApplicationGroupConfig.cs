@@ -7,14 +7,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup
     [JsiiInterface(nativeType: typeof(IDataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig), fullyQualifiedName: "oci.dataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig")]
     public interface IDataOciNetworkFirewallNetworkFirewallPolicyApplicationGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#name DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/network_firewall_network_firewall_policy_application_group#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyApplicationGroup#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {

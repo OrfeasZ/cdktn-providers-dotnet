@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeCompatibleFormatsForSensitiveTypeConfig), fullyQualifiedName: "oci.dataOciDataSafeCompatibleFormatsForSensitiveType.DataOciDataSafeCompatibleFormatsForSensitiveTypeConfig")]
     public interface IDataOciDataSafeCompatibleFormatsForSensitiveTypeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#access_level DataOciDataSafeCompatibleFormatsForSensitiveType#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#access_level DataOciDataSafeCompatibleFormatsForSensitiveType#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id_in_subtree DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id_in_subtree DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#id DataOciDataSafeCompatibleFormatsForSensitiveType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#id DataOciDataSafeCompatibleFormatsForSensitiveType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,14 +61,14 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#access_level DataOciDataSafeCompatibleFormatsForSensitiveType#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#access_level DataOciDataSafeCompatibleFormatsForSensitiveType#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -76,7 +76,7 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id_in_subtree DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#compartment_id_in_subtree DataOciDataSafeCompatibleFormatsForSensitiveType#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeCompatibleFormatsForSensitiveType
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#id DataOciDataSafeCompatibleFormatsForSensitiveType#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_compatible_formats_for_sensitive_type#id DataOciDataSafeCompatibleFormatsForSensitiveType#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

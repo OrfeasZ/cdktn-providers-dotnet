@@ -7,7 +7,7 @@ namespace oci.KmsKey
     [JsiiInterface(nativeType: typeof(IKmsKeyExternalKeyReference), fullyQualifiedName: "oci.kmsKey.KmsKeyExternalKeyReference")]
     public interface IKmsKeyExternalKeyReference
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_key#external_key_id KmsKey#external_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_key#external_key_id KmsKey#external_key_id}.</summary>
         [JsiiProperty(name: "externalKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalKeyId
         {
@@ -21,7 +21,7 @@ namespace oci.KmsKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.24.0/docs/resources/kms_key#external_key_id KmsKey#external_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_key#external_key_id KmsKey#external_key_id}.</summary>
             [JsiiProperty(name: "externalKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalKeyId
             {
