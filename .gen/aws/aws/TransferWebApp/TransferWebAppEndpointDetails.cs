@@ -11,7 +11,7 @@ namespace aws.TransferWebApp
 
         /// <summary>vpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/transfer_web_app#vpc TransferWebApp#vpc}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TransferWebApp.ITransferWebAppEndpointDetailsVpc" />)[]</para>
         /// </remarks>
         [JsiiOptional]

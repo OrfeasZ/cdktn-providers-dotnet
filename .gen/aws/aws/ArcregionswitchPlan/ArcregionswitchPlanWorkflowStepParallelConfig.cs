@@ -11,7 +11,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/arcregionswitch_plan#step ArcregionswitchPlan#step}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepParallelConfigStep" />)[]</para>
         /// </remarks>
         [JsiiOptional]

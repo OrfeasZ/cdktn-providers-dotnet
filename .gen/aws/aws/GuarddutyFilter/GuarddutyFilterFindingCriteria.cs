@@ -13,7 +13,7 @@ namespace aws.GuarddutyFilter
 
         /// <summary>criterion block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/guardduty_filter#criterion GuarddutyFilter#criterion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/guardduty_filter#criterion GuarddutyFilter#criterion}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GuarddutyFilter.IGuarddutyFilterFindingCriteriaCriterion" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "criterion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.guarddutyFilter.GuarddutyFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}")]

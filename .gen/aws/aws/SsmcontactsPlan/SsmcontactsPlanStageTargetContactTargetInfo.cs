@@ -11,7 +11,7 @@ namespace aws.SsmcontactsPlan
     {
         private object _isEssential;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ssmcontacts_plan#is_essential SsmcontactsPlan#is_essential}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace aws.SsmcontactsPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/ssmcontacts_plan#contact_id SsmcontactsPlan#contact_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contactId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContactId

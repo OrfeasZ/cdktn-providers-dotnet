@@ -11,7 +11,7 @@ namespace aws.AppmeshVirtualRouter
 
         /// <summary>listener block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appmesh_virtual_router#listener AppmeshVirtualRouter#listener}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/appmesh_virtual_router#listener AppmeshVirtualRouter#listener}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualRouter.IAppmeshVirtualRouterSpecListener" />)[]</para>
         /// </remarks>
         [JsiiOptional]

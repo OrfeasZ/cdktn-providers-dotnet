@@ -9,7 +9,7 @@ namespace aws.CodeartifactRepository
     [JsiiByValue(fqn: "aws.codeartifactRepository.CodeartifactRepositoryUpstream")]
     public class CodeartifactRepositoryUpstream : aws.CodeartifactRepository.ICodeartifactRepositoryUpstream
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/codeartifact_repository#repository_name CodeartifactRepository#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryName
         {

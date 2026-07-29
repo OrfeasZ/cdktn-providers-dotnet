@@ -9,7 +9,7 @@ namespace aws.EmrCluster
     [JsiiByValue(fqn: "aws.emrCluster.EmrClusterMasterInstanceFleetInstanceTypeConfigs")]
     public class EmrClusterMasterInstanceFleetInstanceTypeConfigs : aws.EmrCluster.IEmrClusterMasterInstanceFleetInstanceTypeConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#instance_type EmrCluster#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceType
         {
@@ -17,7 +17,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#bid_price EmrCluster#bid_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bidPrice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BidPrice
@@ -26,7 +26,7 @@ namespace aws.EmrCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#bid_price_as_percentage_of_on_demand_price EmrCluster#bid_price_as_percentage_of_on_demand_price}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bidPriceAsPercentageOfOnDemandPrice", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BidPriceAsPercentageOfOnDemandPrice
@@ -39,7 +39,7 @@ namespace aws.EmrCluster
 
         /// <summary>configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#configurations EmrCluster#configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceFleetInstanceTypeConfigsConfigurations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -74,7 +74,7 @@ namespace aws.EmrCluster
 
         /// <summary>ebs_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#ebs_config EmrCluster#ebs_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EmrCluster.IEmrClusterMasterInstanceFleetInstanceTypeConfigsEbsConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -105,7 +105,7 @@ namespace aws.EmrCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/emr_cluster#weighted_capacity EmrCluster#weighted_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weightedCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? WeightedCapacity

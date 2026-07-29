@@ -9,7 +9,7 @@ namespace aws.NetworkflowmonitorScope
     [JsiiByValue(fqn: "aws.networkflowmonitorScope.NetworkflowmonitorScopeTarget")]
     public class NetworkflowmonitorScopeTarget : aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkflowmonitorScope
 
         /// <summary>target_identifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkflowmonitorScope.INetworkflowmonitorScopeTargetTargetIdentifier" />)[]</para>
         /// </remarks>
         [JsiiOptional]
