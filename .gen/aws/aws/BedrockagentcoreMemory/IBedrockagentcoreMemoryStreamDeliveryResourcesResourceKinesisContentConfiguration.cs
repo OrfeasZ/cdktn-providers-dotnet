@@ -7,14 +7,14 @@ namespace aws.BedrockagentcoreMemory
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisContentConfiguration), fullyQualifiedName: "aws.bedrockagentcoreMemory.BedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisContentConfiguration")]
     public interface IBedrockagentcoreMemoryStreamDeliveryResourcesResourceKinesisContentConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -32,14 +32,14 @@ namespace aws.BedrockagentcoreMemory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_memory#level BedrockagentcoreMemory#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level

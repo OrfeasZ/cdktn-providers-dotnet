@@ -9,7 +9,7 @@ namespace aws.BudgetsBudget
     [JsiiByValue(fqn: "aws.budgetsBudget.BudgetsBudgetConfig")]
     public class BudgetsBudgetConfig : aws.BudgetsBudget.IBudgetsBudgetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#budget_type BudgetsBudget#budget_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#budget_type BudgetsBudget#budget_type}.</summary>
         [JsiiProperty(name: "budgetType", typeJson: "{\"primitive\":\"string\"}")]
         public string BudgetType
         {
@@ -17,7 +17,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#time_unit BudgetsBudget#time_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#time_unit BudgetsBudget#time_unit}.</summary>
         [JsiiProperty(name: "timeUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeUnit
         {
@@ -25,7 +25,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#account_id BudgetsBudget#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#account_id BudgetsBudget#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -36,7 +36,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>auto_adjust_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#auto_adjust_data BudgetsBudget#auto_adjust_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#auto_adjust_data BudgetsBudget#auto_adjust_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoAdjustData", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetAutoAdjustData\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#billing_view_arn BudgetsBudget#billing_view_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#billing_view_arn BudgetsBudget#billing_view_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "billingViewArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BillingViewArn
@@ -59,7 +59,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>cost_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#cost_filter BudgetsBudget#cost_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#cost_filter BudgetsBudget#cost_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetCostFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -92,7 +92,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>cost_types block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#cost_types BudgetsBudget#cost_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#cost_types BudgetsBudget#cost_types}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "costTypes", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetCostTypes\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>filter_expression block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#filter_expression BudgetsBudget#filter_expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#filter_expression BudgetsBudget#filter_expression}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filterExpression", typeJson: "{\"fqn\":\"aws.budgetsBudget.BudgetsBudgetFilterExpression\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#id BudgetsBudget#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#id BudgetsBudget#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#limit_amount BudgetsBudget#limit_amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#limit_amount BudgetsBudget#limit_amount}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limitAmount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LimitAmount
@@ -136,7 +136,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#limit_unit BudgetsBudget#limit_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#limit_unit BudgetsBudget#limit_unit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LimitUnit
@@ -145,7 +145,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#metrics BudgetsBudget#metrics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#metrics BudgetsBudget#metrics}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metrics", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Metrics
@@ -154,7 +154,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#name BudgetsBudget#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#name BudgetsBudget#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -163,7 +163,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#name_prefix BudgetsBudget#name_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#name_prefix BudgetsBudget#name_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamePrefix
@@ -176,7 +176,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>notification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#notification BudgetsBudget#notification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#notification BudgetsBudget#notification}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetNotification" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -211,7 +211,7 @@ namespace aws.BudgetsBudget
 
         /// <summary>planned_limit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#planned_limit BudgetsBudget#planned_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#planned_limit BudgetsBudget#planned_limit}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudget.IBudgetsBudgetPlannedLimit" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -242,7 +242,7 @@ namespace aws.BudgetsBudget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#tags BudgetsBudget#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#tags BudgetsBudget#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -251,7 +251,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#tags_all BudgetsBudget#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#tags_all BudgetsBudget#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -260,7 +260,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#time_period_end BudgetsBudget#time_period_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#time_period_end BudgetsBudget#time_period_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timePeriodEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimePeriodEnd
@@ -269,7 +269,7 @@ namespace aws.BudgetsBudget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/budgets_budget#time_period_start BudgetsBudget#time_period_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget#time_period_start BudgetsBudget#time_period_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timePeriodStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimePeriodStart

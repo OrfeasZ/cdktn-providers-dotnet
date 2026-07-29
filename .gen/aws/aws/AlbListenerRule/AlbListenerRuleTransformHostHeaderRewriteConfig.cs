@@ -9,7 +9,7 @@ namespace aws.AlbListenerRule
     {
         /// <summary>rewrite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/alb_listener_rule#rewrite AlbListenerRule#rewrite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/alb_listener_rule#rewrite AlbListenerRule#rewrite}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rewrite", typeJson: "{\"fqn\":\"aws.albListenerRule.AlbListenerRuleTransformHostHeaderRewriteConfigRewrite\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.EcsTaskDefinition
     [JsiiByValue(fqn: "aws.ecsTaskDefinition.EcsTaskDefinitionVolume")]
     public class EcsTaskDefinitionVolume : aws.EcsTaskDefinition.IEcsTaskDefinitionVolume
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace aws.EcsTaskDefinition
 
         private object? _configureAtLaunch;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#configure_at_launch EcsTaskDefinition#configure_at_launch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#configure_at_launch EcsTaskDefinition#configure_at_launch}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.EcsTaskDefinition
 
         /// <summary>docker_volume_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#docker_volume_configuration EcsTaskDefinition#docker_volume_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#docker_volume_configuration EcsTaskDefinition#docker_volume_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerVolumeConfiguration", typeJson: "{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolumeDockerVolumeConfiguration\"}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace aws.EcsTaskDefinition
 
         /// <summary>efs_volume_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#efs_volume_configuration EcsTaskDefinition#efs_volume_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#efs_volume_configuration EcsTaskDefinition#efs_volume_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "efsVolumeConfiguration", typeJson: "{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolumeEfsVolumeConfiguration\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.EcsTaskDefinition
 
         /// <summary>fsx_windows_file_server_volume_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#fsx_windows_file_server_volume_configuration EcsTaskDefinition#fsx_windows_file_server_volume_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#fsx_windows_file_server_volume_configuration EcsTaskDefinition#fsx_windows_file_server_volume_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fsxWindowsFileServerVolumeConfiguration", typeJson: "{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolumeFsxWindowsFileServerVolumeConfiguration\"}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace aws.EcsTaskDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostPath
@@ -98,7 +98,7 @@ namespace aws.EcsTaskDefinition
 
         /// <summary>s3files_volume_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_task_definition#s3files_volume_configuration EcsTaskDefinition#s3files_volume_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_task_definition#s3files_volume_configuration EcsTaskDefinition#s3files_volume_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3FilesVolumeConfiguration", typeJson: "{\"fqn\":\"aws.ecsTaskDefinition.EcsTaskDefinitionVolumeS3FilesVolumeConfiguration\"}", isOptional: true)]

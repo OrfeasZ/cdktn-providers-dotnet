@@ -7,7 +7,7 @@ namespace aws.SchedulerSchedule
     [JsiiInterface(nativeType: typeof(ISchedulerScheduleTargetEcsParameters), fullyQualifiedName: "aws.schedulerSchedule.SchedulerScheduleTargetEcsParameters")]
     public interface ISchedulerScheduleTargetEcsParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}.</summary>
         [JsiiProperty(name: "taskDefinitionArn", typeJson: "{\"primitive\":\"string\"}")]
         string TaskDefinitionArn
         {
@@ -16,7 +16,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>capacity_provider_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersCapacityProviderStrategy" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "capacityProviderStrategy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersCapacityProviderStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -57,7 +57,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#group SchedulerSchedule#group}.</summary>
         [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Group
@@ -68,7 +68,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}.</summary>
         [JsiiProperty(name: "launchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LaunchType
@@ -81,7 +81,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
         /// </remarks>
         [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersNetworkConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>placement_constraints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementConstraints" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "placementConstraints", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementConstraints\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace aws.SchedulerSchedule
 
         /// <summary>placement_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "placementStrategy", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersPlacementStrategy\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}.</summary>
         [JsiiProperty(name: "platformVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlatformVersion
@@ -134,7 +134,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}.</summary>
         [JsiiProperty(name: "propagateTags", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PropagateTags
@@ -145,7 +145,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}.</summary>
         [JsiiProperty(name: "referenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReferenceId
@@ -156,7 +156,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -167,7 +167,7 @@ namespace aws.SchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}.</summary>
         [JsiiProperty(name: "taskCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TaskCount
@@ -185,7 +185,7 @@ namespace aws.SchedulerSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#task_definition_arn SchedulerSchedule#task_definition_arn}.</summary>
             [JsiiProperty(name: "taskDefinitionArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskDefinitionArn
             {
@@ -194,7 +194,7 @@ namespace aws.SchedulerSchedule
 
             /// <summary>capacity_provider_strategy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#capacity_provider_strategy SchedulerSchedule#capacity_provider_strategy}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersCapacityProviderStrategy" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -204,7 +204,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#enable_ecs_managed_tags SchedulerSchedule#enable_ecs_managed_tags}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -215,7 +215,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#enable_execute_command SchedulerSchedule#enable_execute_command}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -226,7 +226,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#group SchedulerSchedule#group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#group SchedulerSchedule#group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Group
@@ -234,7 +234,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#launch_type SchedulerSchedule#launch_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "launchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LaunchType
@@ -244,7 +244,7 @@ namespace aws.SchedulerSchedule
 
             /// <summary>network_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#network_configuration SchedulerSchedule#network_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"aws.schedulerSchedule.SchedulerScheduleTargetEcsParametersNetworkConfiguration\"}", isOptional: true)]
@@ -255,7 +255,7 @@ namespace aws.SchedulerSchedule
 
             /// <summary>placement_constraints block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#placement_constraints SchedulerSchedule#placement_constraints}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementConstraints" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -267,7 +267,7 @@ namespace aws.SchedulerSchedule
 
             /// <summary>placement_strategy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#placement_strategy SchedulerSchedule#placement_strategy}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SchedulerSchedule.ISchedulerScheduleTargetEcsParametersPlacementStrategy" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -277,7 +277,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#platform_version SchedulerSchedule#platform_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "platformVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlatformVersion
@@ -285,7 +285,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#propagate_tags SchedulerSchedule#propagate_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "propagateTags", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PropagateTags
@@ -293,7 +293,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#reference_id SchedulerSchedule#reference_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "referenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReferenceId
@@ -301,7 +301,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#tags SchedulerSchedule#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -309,7 +309,7 @@ namespace aws.SchedulerSchedule
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/scheduler_schedule#task_count SchedulerSchedule#task_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "taskCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TaskCount

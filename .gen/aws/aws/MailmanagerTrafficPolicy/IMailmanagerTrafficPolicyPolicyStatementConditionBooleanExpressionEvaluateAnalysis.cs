@@ -1,0 +1,46 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.MailmanagerTrafficPolicy
+{
+    [JsiiInterface(nativeType: typeof(IMailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis), fullyQualifiedName: "aws.mailmanagerTrafficPolicy.MailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis")]
+    public interface IMailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
+        [JsiiProperty(name: "analyzer", typeJson: "{\"primitive\":\"string\"}")]
+        string Analyzer
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
+        [JsiiProperty(name: "resultField", typeJson: "{\"primitive\":\"string\"}")]
+        string ResultField
+        {
+            get;
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IMailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis), fullyQualifiedName: "aws.mailmanagerTrafficPolicy.MailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis")]
+        internal sealed class _Proxy : DeputyBase, aws.MailmanagerTrafficPolicy.IMailmanagerTrafficPolicyPolicyStatementConditionBooleanExpressionEvaluateAnalysis
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
+            [JsiiProperty(name: "analyzer", typeJson: "{\"primitive\":\"string\"}")]
+            public string Analyzer
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
+            [JsiiProperty(name: "resultField", typeJson: "{\"primitive\":\"string\"}")]
+            public string ResultField
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+        }
+    }
+}

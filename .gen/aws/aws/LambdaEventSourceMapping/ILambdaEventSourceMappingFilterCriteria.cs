@@ -9,7 +9,7 @@ namespace aws.LambdaEventSourceMapping
     {
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_event_source_mapping#filter LambdaEventSourceMapping#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_event_source_mapping#filter LambdaEventSourceMapping#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LambdaEventSourceMapping.ILambdaEventSourceMappingFilterCriteriaFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lambdaEventSourceMapping.LambdaEventSourceMappingFilterCriteriaFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.LambdaEventSourceMapping
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_event_source_mapping#filter LambdaEventSourceMapping#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_event_source_mapping#filter LambdaEventSourceMapping#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LambdaEventSourceMapping.ILambdaEventSourceMappingFilterCriteriaFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]

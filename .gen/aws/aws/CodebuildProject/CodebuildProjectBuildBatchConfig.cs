@@ -9,7 +9,7 @@ namespace aws.CodebuildProject
     [JsiiByValue(fqn: "aws.codebuildProject.CodebuildProjectBuildBatchConfig")]
     public class CodebuildProjectBuildBatchConfig : aws.CodebuildProject.ICodebuildProjectBuildBatchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codebuild_project#service_role CodebuildProject#service_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/codebuild_project#service_role CodebuildProject#service_role}.</summary>
         [JsiiProperty(name: "serviceRole", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceRole
         {
@@ -19,7 +19,7 @@ namespace aws.CodebuildProject
 
         private object? _combineArtifacts;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codebuild_project#combine_artifacts CodebuildProject#combine_artifacts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/codebuild_project#combine_artifacts CodebuildProject#combine_artifacts}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.CodebuildProject
 
         /// <summary>restrictions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codebuild_project#restrictions CodebuildProject#restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/codebuild_project#restrictions CodebuildProject#restrictions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "restrictions", typeJson: "{\"fqn\":\"aws.codebuildProject.CodebuildProjectBuildBatchConfigRestrictions\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.CodebuildProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/codebuild_project#timeout_in_mins CodebuildProject#timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/codebuild_project#timeout_in_mins CodebuildProject#timeout_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInMins

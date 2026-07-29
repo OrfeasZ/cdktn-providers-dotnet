@@ -9,7 +9,7 @@ namespace aws.ArcregionswitchPlan
     [JsiiByValue(fqn: "aws.arcregionswitchPlan.ArcregionswitchPlanReportConfigurationReportOutputS3Configuration")]
     public class ArcregionswitchPlanReportConfigurationReportOutputS3Configuration : aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfigurationReportOutputS3Configuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#bucket_owner ArcregionswitchPlan#bucket_owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/arcregionswitch_plan#bucket_owner ArcregionswitchPlan#bucket_owner}.</summary>
         [JsiiProperty(name: "bucketOwner", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketOwner
         {
@@ -17,7 +17,7 @@ namespace aws.ArcregionswitchPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/arcregionswitch_plan#bucket_path ArcregionswitchPlan#bucket_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/arcregionswitch_plan#bucket_path ArcregionswitchPlan#bucket_path}.</summary>
         [JsiiProperty(name: "bucketPath", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketPath
         {

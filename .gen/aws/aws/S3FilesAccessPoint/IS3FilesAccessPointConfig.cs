@@ -9,7 +9,7 @@ namespace aws.S3FilesAccessPoint
     {
         /// <summary>File system ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
         /// </remarks>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemId
@@ -19,7 +19,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>posix_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointPosixUser" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "posixUser", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointPosixUser\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>root_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectory" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rootDirectory", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointRootDirectory\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace aws.S3FilesAccessPoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -74,7 +74,7 @@ namespace aws.S3FilesAccessPoint
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>File system ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
             /// </remarks>
             [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemId
@@ -105,7 +105,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>posix_user block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointPosixUser" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -117,7 +117,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#region S3FilesAccessPoint#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>root_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3FilesAccessPoint.IS3FilesAccessPointRootDirectory" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -138,7 +138,7 @@ namespace aws.S3FilesAccessPoint
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -148,7 +148,7 @@ namespace aws.S3FilesAccessPoint
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3files_access_point#timeouts S3FilesAccessPoint#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.s3FilesAccessPoint.S3FilesAccessPointTimeouts\"}", isOptional: true)]

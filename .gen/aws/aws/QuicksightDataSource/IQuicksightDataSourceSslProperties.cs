@@ -7,7 +7,7 @@ namespace aws.QuicksightDataSource
     [JsiiInterface(nativeType: typeof(IQuicksightDataSourceSslProperties), fullyQualifiedName: "aws.quicksightDataSource.QuicksightDataSourceSslProperties")]
     public interface IQuicksightDataSourceSslProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.QuicksightDataSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/quicksight_data_source#disable_ssl QuicksightDataSource#disable_ssl}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

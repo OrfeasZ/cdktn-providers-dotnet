@@ -7,7 +7,7 @@ namespace aws.CloudfrontMultitenantDistribution
     [JsiiInterface(nativeType: typeof(ICloudfrontMultitenantDistributionOriginOriginShield), fullyQualifiedName: "aws.cloudfrontMultitenantDistribution.CloudfrontMultitenantDistributionOriginOriginShield")]
     public interface ICloudfrontMultitenantDistributionOriginOriginShield
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace aws.CloudfrontMultitenantDistribution
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_multitenant_distribution#origin_shield_region CloudfrontMultitenantDistribution#origin_shield_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cloudfront_multitenant_distribution#origin_shield_region CloudfrontMultitenantDistribution#origin_shield_region}.</summary>
         [JsiiProperty(name: "originShieldRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OriginShieldRegion
@@ -35,7 +35,7 @@ namespace aws.CloudfrontMultitenantDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cloudfront_multitenant_distribution#enabled CloudfrontMultitenantDistribution#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.CloudfrontMultitenantDistribution
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudfront_multitenant_distribution#origin_shield_region CloudfrontMultitenantDistribution#origin_shield_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cloudfront_multitenant_distribution#origin_shield_region CloudfrontMultitenantDistribution#origin_shield_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "originShieldRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OriginShieldRegion

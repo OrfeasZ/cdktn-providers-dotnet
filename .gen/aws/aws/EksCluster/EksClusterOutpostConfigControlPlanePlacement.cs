@@ -7,7 +7,7 @@ namespace aws.EksCluster
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterOutpostConfigControlPlanePlacement")]
     public class EksClusterOutpostConfigControlPlanePlacement : aws.EksCluster.IEksClusterOutpostConfigControlPlanePlacement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_cluster#group_name EksCluster#group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupName
@@ -16,7 +16,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SpreadLevel

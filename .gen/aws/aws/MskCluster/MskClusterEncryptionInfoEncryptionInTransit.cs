@@ -7,7 +7,7 @@ namespace aws.MskCluster
     [JsiiByValue(fqn: "aws.mskCluster.MskClusterEncryptionInfoEncryptionInTransit")]
     public class MskClusterEncryptionInfoEncryptionInTransit : aws.MskCluster.IMskClusterEncryptionInfoEncryptionInTransit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#client_broker MskCluster#client_broker}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/msk_cluster#client_broker MskCluster#client_broker}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientBroker", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientBroker
@@ -18,7 +18,7 @@ namespace aws.MskCluster
 
         private object? _inCluster;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#in_cluster MskCluster#in_cluster}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/msk_cluster#in_cluster MskCluster#in_cluster}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

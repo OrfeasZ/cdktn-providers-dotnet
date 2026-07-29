@@ -2,7 +2,7 @@
   "cdktf": "0.23.3",
   "providers": {
     "acme": "2.48.3",
-    "aws": "6.56.0",
+    "aws": "6.57.1",
     "azapi": "2.11.0",
     "azuread": "3.9.0",
     "azuredevops": "1.16.0",

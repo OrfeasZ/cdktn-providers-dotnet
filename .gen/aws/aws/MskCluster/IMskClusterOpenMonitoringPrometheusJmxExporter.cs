@@ -7,7 +7,7 @@ namespace aws.MskCluster
     [JsiiInterface(nativeType: typeof(IMskClusterOpenMonitoringPrometheusJmxExporter), fullyQualifiedName: "aws.mskCluster.MskClusterOpenMonitoringPrometheusJmxExporter")]
     public interface IMskClusterOpenMonitoringPrometheusJmxExporter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.MskCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

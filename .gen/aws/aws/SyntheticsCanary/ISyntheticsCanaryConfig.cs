@@ -7,35 +7,35 @@ namespace aws.SyntheticsCanary
     [JsiiInterface(nativeType: typeof(ISyntheticsCanaryConfig), fullyQualifiedName: "aws.syntheticsCanary.SyntheticsCanaryConfig")]
     public interface ISyntheticsCanaryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}.</summary>
         [JsiiProperty(name: "artifactS3Location", typeJson: "{\"primitive\":\"string\"}")]
         string ArtifactS3Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}.</summary>
         [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionRoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.</summary>
         [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}")]
         string Handler
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#name SyntheticsCanary#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}.</summary>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         string RuntimeVersion
         {
@@ -44,7 +44,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanarySchedule\"}")]
         aws.SyntheticsCanary.ISyntheticsCanarySchedule Schedule
@@ -54,7 +54,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>artifact_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
         /// </remarks>
         [JsiiProperty(name: "artifactConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryArtifactConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#delete_lambda SyntheticsCanary#delete_lambda}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#delete_lambda SyntheticsCanary#delete_lambda}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -80,7 +80,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}.</summary>
         [JsiiProperty(name: "failureRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FailureRetentionPeriod
@@ -91,7 +91,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#id SyntheticsCanary#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#id SyntheticsCanary#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#region SyntheticsCanary#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#region SyntheticsCanary#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>run_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
         /// </remarks>
         [JsiiProperty(name: "runConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryRunConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Bucket
@@ -145,7 +145,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.</summary>
         [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Key
@@ -156,7 +156,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_version SyntheticsCanary#s3_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_version SyntheticsCanary#s3_version}.</summary>
         [JsiiProperty(name: "s3Version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Version
@@ -167,7 +167,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#start_canary SyntheticsCanary#start_canary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#start_canary SyntheticsCanary#start_canary}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -181,7 +181,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}.</summary>
         [JsiiProperty(name: "successRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SuccessRetentionPeriod
@@ -192,7 +192,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -203,7 +203,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#tags_all SyntheticsCanary#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#tags_all SyntheticsCanary#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -216,7 +216,7 @@ namespace aws.SyntheticsCanary
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
         /// </remarks>
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryVpcConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +228,7 @@ namespace aws.SyntheticsCanary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#zip_file SyntheticsCanary#zip_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#zip_file SyntheticsCanary#zip_file}.</summary>
         [JsiiProperty(name: "zipFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ZipFile
@@ -246,35 +246,35 @@ namespace aws.SyntheticsCanary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#artifact_s3_location SyntheticsCanary#artifact_s3_location}.</summary>
             [JsiiProperty(name: "artifactS3Location", typeJson: "{\"primitive\":\"string\"}")]
             public string ArtifactS3Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#execution_role_arn SyntheticsCanary#execution_role_arn}.</summary>
             [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionRoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#handler SyntheticsCanary#handler}.</summary>
             [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}")]
             public string Handler
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#name SyntheticsCanary#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#name SyntheticsCanary#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#runtime_version SyntheticsCanary#runtime_version}.</summary>
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string RuntimeVersion
             {
@@ -283,7 +283,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#schedule SyntheticsCanary#schedule}
             /// </remarks>
             [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanarySchedule\"}")]
             public aws.SyntheticsCanary.ISyntheticsCanarySchedule Schedule
@@ -293,7 +293,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>artifact_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#artifact_config SyntheticsCanary#artifact_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "artifactConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryArtifactConfig\"}", isOptional: true)]
@@ -302,7 +302,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<aws.SyntheticsCanary.ISyntheticsCanaryArtifactConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#delete_lambda SyntheticsCanary#delete_lambda}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#delete_lambda SyntheticsCanary#delete_lambda}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -313,7 +313,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#failure_retention_period SyntheticsCanary#failure_retention_period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "failureRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FailureRetentionPeriod
@@ -321,7 +321,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#id SyntheticsCanary#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#id SyntheticsCanary#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -335,7 +335,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#region SyntheticsCanary#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#region SyntheticsCanary#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>run_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#run_config SyntheticsCanary#run_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "runConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryRunConfig\"}", isOptional: true)]
@@ -355,7 +355,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<aws.SyntheticsCanary.ISyntheticsCanaryRunConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_bucket SyntheticsCanary#s3_bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Bucket
@@ -363,7 +363,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_key SyntheticsCanary#s3_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Key
@@ -371,7 +371,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#s3_version SyntheticsCanary#s3_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#s3_version SyntheticsCanary#s3_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Version
@@ -379,7 +379,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#start_canary SyntheticsCanary#start_canary}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#start_canary SyntheticsCanary#start_canary}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -390,7 +390,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#success_retention_period SyntheticsCanary#success_retention_period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "successRetentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SuccessRetentionPeriod
@@ -398,7 +398,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#tags SyntheticsCanary#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -406,7 +406,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#tags_all SyntheticsCanary#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#tags_all SyntheticsCanary#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -416,7 +416,7 @@ namespace aws.SyntheticsCanary
 
             /// <summary>vpc_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#vpc_config SyntheticsCanary#vpc_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.syntheticsCanary.SyntheticsCanaryVpcConfig\"}", isOptional: true)]
@@ -425,7 +425,7 @@ namespace aws.SyntheticsCanary
                 get => GetInstanceProperty<aws.SyntheticsCanary.ISyntheticsCanaryVpcConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/synthetics_canary#zip_file SyntheticsCanary#zip_file}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/synthetics_canary#zip_file SyntheticsCanary#zip_file}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "zipFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ZipFile

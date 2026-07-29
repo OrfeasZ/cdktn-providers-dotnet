@@ -9,7 +9,7 @@ namespace aws.BcmdataexportsExport
     [JsiiByValue(fqn: "aws.bcmdataexportsExport.BcmdataexportsExportExportDataQuery")]
     public class BcmdataexportsExportExportDataQuery : aws.BcmdataexportsExport.IBcmdataexportsExportExportDataQuery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bcmdataexports_export#query_statement BcmdataexportsExport#query_statement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bcmdataexports_export#query_statement BcmdataexportsExport#query_statement}.</summary>
         [JsiiProperty(name: "queryStatement", typeJson: "{\"primitive\":\"string\"}")]
         public string QueryStatement
         {
@@ -19,7 +19,7 @@ namespace aws.BcmdataexportsExport
 
         private object? _tableConfigurations;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bcmdataexports_export#table_configurations BcmdataexportsExport#table_configurations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bcmdataexports_export#table_configurations BcmdataexportsExport#table_configurations}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;</para>
         /// </remarks>

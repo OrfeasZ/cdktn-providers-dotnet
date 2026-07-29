@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>data_protection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl#data_protection Wafv2WebAcl#data_protection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl#data_protection Wafv2WebAcl#data_protection}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclDataProtectionConfigDataProtection" />)[]</para>
         /// </remarks>
         [JsiiOptional]

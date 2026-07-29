@@ -9,7 +9,7 @@ namespace aws.LexIntent
     {
         /// <summary>message block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lex_intent#message LexIntent#message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lex_intent#message LexIntent#message}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentRejectionStatementMessage" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentRejectionStatementMessage\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.LexIntent
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
         [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResponseCard
@@ -38,7 +38,7 @@ namespace aws.LexIntent
 
             /// <summary>message block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lex_intent#message LexIntent#message}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lex_intent#message LexIntent#message}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LexIntent.ILexIntentRejectionStatementMessage" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "message", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lexIntent.LexIntentRejectionStatementMessage\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace aws.LexIntent
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lex_intent#response_card LexIntent#response_card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "responseCard", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResponseCard

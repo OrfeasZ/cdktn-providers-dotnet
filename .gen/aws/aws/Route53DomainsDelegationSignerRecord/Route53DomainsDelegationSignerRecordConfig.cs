@@ -9,7 +9,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
     [JsiiByValue(fqn: "aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordConfig")]
     public class Route53DomainsDelegationSignerRecordConfig : aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53domains_delegation_signer_record#domain_name Route53DomainsDelegationSignerRecord#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53domains_delegation_signer_record#domain_name Route53DomainsDelegationSignerRecord#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -21,7 +21,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
 
         /// <summary>signing_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53domains_delegation_signer_record#signing_attributes Route53DomainsDelegationSignerRecord#signing_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53domains_delegation_signer_record#signing_attributes Route53DomainsDelegationSignerRecord#signing_attributes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53DomainsDelegationSignerRecord.IRoute53DomainsDelegationSignerRecordSigningAttributes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.Route53DomainsDelegationSignerRecord
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53domains_delegation_signer_record#timeouts Route53DomainsDelegationSignerRecord#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53domains_delegation_signer_record#timeouts Route53DomainsDelegationSignerRecord#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.route53DomainsDelegationSignerRecord.Route53DomainsDelegationSignerRecordTimeouts\"}", isOptional: true)]

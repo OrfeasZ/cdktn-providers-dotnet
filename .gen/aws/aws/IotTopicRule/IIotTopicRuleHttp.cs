@@ -7,14 +7,14 @@ namespace aws.IotTopicRule
     [JsiiInterface(nativeType: typeof(IIotTopicRuleHttp), fullyQualifiedName: "aws.iotTopicRule.IotTopicRuleHttp")]
     public interface IIotTopicRuleHttp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
         [JsiiProperty(name: "confirmationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfirmationUrl
@@ -27,7 +27,7 @@ namespace aws.IotTopicRule
 
         /// <summary>http_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttpHttpHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "httpHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.iotTopicRule.IotTopicRuleHttpHttpHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,14 +47,14 @@ namespace aws.IotTopicRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#url IotTopicRule#url}.</summary>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#confirmation_url IotTopicRule#confirmation_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "confirmationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfirmationUrl
@@ -64,7 +64,7 @@ namespace aws.IotTopicRule
 
             /// <summary>http_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/iot_topic_rule#http_header IotTopicRule#http_header}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttpHttpHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]

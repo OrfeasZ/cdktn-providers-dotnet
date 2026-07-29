@@ -7,7 +7,7 @@ namespace aws.EksCluster
     [JsiiInterface(nativeType: typeof(IEksClusterOutpostConfigEtcdPlacement), fullyQualifiedName: "aws.eksCluster.EksClusterOutpostConfigEtcdPlacement")]
     public interface IEksClusterOutpostConfigEtcdPlacement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
         [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpreadLevel
@@ -25,7 +25,7 @@ namespace aws.EksCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_cluster#spread_level EksCluster#spread_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spreadLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpreadLevel

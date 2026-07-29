@@ -9,7 +9,7 @@ namespace aws.BedrockUseCaseForModelAccess
     [JsiiByValue(fqn: "aws.bedrockUseCaseForModelAccess.BedrockUseCaseForModelAccessConfig")]
     public class BedrockUseCaseForModelAccessConfig : aws.BedrockUseCaseForModelAccess.IBedrockUseCaseForModelAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
         [JsiiProperty(name: "formData", typeJson: "{\"primitive\":\"string\"}")]
         public string FormData
         {

@@ -7,7 +7,7 @@ namespace aws.EcsDaemonTaskDefinition
     [JsiiInterface(nativeType: typeof(IEcsDaemonTaskDefinitionVolumeHost), fullyQualifiedName: "aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionVolumeHost")]
     public interface IEcsDaemonTaskDefinitionVolumeHost
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.</summary>
         [JsiiProperty(name: "sourcePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourcePath
@@ -25,7 +25,7 @@ namespace aws.EcsDaemonTaskDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#source_path EcsDaemonTaskDefinition#source_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourcePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourcePath

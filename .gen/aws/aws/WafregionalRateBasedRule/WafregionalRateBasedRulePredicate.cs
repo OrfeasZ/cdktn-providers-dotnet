@@ -9,7 +9,7 @@ namespace aws.WafregionalRateBasedRule
     [JsiiByValue(fqn: "aws.wafregionalRateBasedRule.WafregionalRateBasedRulePredicate")]
     public class WafregionalRateBasedRulePredicate : aws.WafregionalRateBasedRule.IWafregionalRateBasedRulePredicate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafregional_rate_based_rule#data_id WafregionalRateBasedRule#data_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafregional_rate_based_rule#data_id WafregionalRateBasedRule#data_id}.</summary>
         [JsiiProperty(name: "dataId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataId
         {
@@ -19,7 +19,7 @@ namespace aws.WafregionalRateBasedRule
 
         private object _negated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafregional_rate_based_rule#negated WafregionalRateBasedRule#negated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafregional_rate_based_rule#negated WafregionalRateBasedRule#negated}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.WafregionalRateBasedRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafregional_rate_based_rule#type WafregionalRateBasedRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafregional_rate_based_rule#type WafregionalRateBasedRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

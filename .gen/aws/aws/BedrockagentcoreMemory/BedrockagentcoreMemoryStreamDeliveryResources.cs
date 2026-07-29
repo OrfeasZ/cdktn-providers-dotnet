@@ -11,7 +11,7 @@ namespace aws.BedrockagentcoreMemory
 
         /// <summary>resource block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_memory#resource BedrockagentcoreMemory#resource}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_memory#resource BedrockagentcoreMemory#resource}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryStreamDeliveryResourcesResource" />)[]</para>
         /// </remarks>
         [JsiiOptional]

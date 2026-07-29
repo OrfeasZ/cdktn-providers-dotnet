@@ -7,7 +7,7 @@ namespace aws.AppsyncChannelNamespace
     [JsiiInterface(nativeType: typeof(IAppsyncChannelNamespaceHandlerConfigsOnSubscribe), fullyQualifiedName: "aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnSubscribe")]
     public interface IAppsyncChannelNamespaceHandlerConfigsOnSubscribe
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
         string Behavior
         {
@@ -16,7 +16,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <summary>integration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "integration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace aws.AppsyncChannelNamespace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#behavior AppsyncChannelNamespace#behavior}.</summary>
             [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}")]
             public string Behavior
             {
@@ -45,7 +45,7 @@ namespace aws.AppsyncChannelNamespace
 
             /// <summary>integration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#integration AppsyncChannelNamespace#integration}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration" />)[]</para>
             /// </remarks>
             [JsiiOptional]

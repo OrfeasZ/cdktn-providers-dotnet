@@ -7,7 +7,7 @@ namespace aws.ShieldProactiveEngagement
     [JsiiInterface(nativeType: typeof(IShieldProactiveEngagementConfig), fullyQualifiedName: "aws.shieldProactiveEngagement.ShieldProactiveEngagementConfig")]
     public interface IShieldProactiveEngagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/shield_proactive_engagement#enabled ShieldProactiveEngagement#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/shield_proactive_engagement#enabled ShieldProactiveEngagement#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace aws.ShieldProactiveEngagement
 
         /// <summary>emergency_contact block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/shield_proactive_engagement#emergency_contact ShieldProactiveEngagement#emergency_contact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/shield_proactive_engagement#emergency_contact ShieldProactiveEngagement#emergency_contact}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ShieldProactiveEngagement.IShieldProactiveEngagementEmergencyContact" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "emergencyContact", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.shieldProactiveEngagement.ShieldProactiveEngagementEmergencyContact\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace aws.ShieldProactiveEngagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/shield_proactive_engagement#enabled ShieldProactiveEngagement#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/shield_proactive_engagement#enabled ShieldProactiveEngagement#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -51,7 +51,7 @@ namespace aws.ShieldProactiveEngagement
 
             /// <summary>emergency_contact block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/shield_proactive_engagement#emergency_contact ShieldProactiveEngagement#emergency_contact}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/shield_proactive_engagement#emergency_contact ShieldProactiveEngagement#emergency_contact}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ShieldProactiveEngagement.IShieldProactiveEngagementEmergencyContact" />)[]</para>
             /// </remarks>
             [JsiiOptional]

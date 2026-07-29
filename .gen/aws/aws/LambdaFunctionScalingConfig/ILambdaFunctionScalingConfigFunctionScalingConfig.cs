@@ -9,7 +9,7 @@ namespace aws.LambdaFunctionScalingConfig
     {
         /// <summary>Maximum number of execution environments that can be provisioned for the function.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_function_scaling_config#max_execution_environments LambdaFunctionScalingConfig#max_execution_environments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_function_scaling_config#max_execution_environments LambdaFunctionScalingConfig#max_execution_environments}
         /// </remarks>
         [JsiiProperty(name: "maxExecutionEnvironments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.LambdaFunctionScalingConfig
 
         /// <summary>Minimum number of execution environments to maintain for the function.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_function_scaling_config#min_execution_environments LambdaFunctionScalingConfig#min_execution_environments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_function_scaling_config#min_execution_environments LambdaFunctionScalingConfig#min_execution_environments}
         /// </remarks>
         [JsiiProperty(name: "minExecutionEnvironments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.LambdaFunctionScalingConfig
 
             /// <summary>Maximum number of execution environments that can be provisioned for the function.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_function_scaling_config#max_execution_environments LambdaFunctionScalingConfig#max_execution_environments}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_function_scaling_config#max_execution_environments LambdaFunctionScalingConfig#max_execution_environments}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxExecutionEnvironments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace aws.LambdaFunctionScalingConfig
 
             /// <summary>Minimum number of execution environments to maintain for the function.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lambda_function_scaling_config#min_execution_environments LambdaFunctionScalingConfig#min_execution_environments}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lambda_function_scaling_config#min_execution_environments LambdaFunctionScalingConfig#min_execution_environments}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minExecutionEnvironments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

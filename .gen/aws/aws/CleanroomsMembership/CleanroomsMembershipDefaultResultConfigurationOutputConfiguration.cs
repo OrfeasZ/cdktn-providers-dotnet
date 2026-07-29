@@ -11,7 +11,7 @@ namespace aws.CleanroomsMembership
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cleanrooms_membership#s3 CleanroomsMembership#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cleanrooms_membership#s3 CleanroomsMembership#s3}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipDefaultResultConfigurationOutputConfigurationS3" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -5,7 +5,7 @@ namespace aws.SagemakerHubContentReference
     /// <remarks>
     /// <h1><c>aws_sagemaker_hub_content_reference</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/sagemaker_hub_content_reference"><c>aws_sagemaker_hub_content_reference</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/sagemaker_hub_content_reference"><c>aws_sagemaker_hub_content_reference</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

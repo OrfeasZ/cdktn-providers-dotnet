@@ -7,7 +7,7 @@ namespace aws.CustomerprofilesDomain
     [JsiiInterface(nativeType: typeof(ICustomerprofilesDomainMatching), fullyQualifiedName: "aws.customerprofilesDomain.CustomerprofilesDomainMatching")]
     public interface ICustomerprofilesDomainMatching
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>auto_merging block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#auto_merging CustomerprofilesDomain#auto_merging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#auto_merging CustomerprofilesDomain#auto_merging}
         /// </remarks>
         [JsiiProperty(name: "autoMerging", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMerging\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>exporting_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#exporting_config CustomerprofilesDomain#exporting_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#exporting_config CustomerprofilesDomain#exporting_config}
         /// </remarks>
         [JsiiProperty(name: "exportingConfig", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace aws.CustomerprofilesDomain
 
         /// <summary>job_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#job_schedule CustomerprofilesDomain#job_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#job_schedule CustomerprofilesDomain#job_schedule}
         /// </remarks>
         [JsiiProperty(name: "jobSchedule", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace aws.CustomerprofilesDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#enabled CustomerprofilesDomain#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace aws.CustomerprofilesDomain
 
             /// <summary>auto_merging block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#auto_merging CustomerprofilesDomain#auto_merging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#auto_merging CustomerprofilesDomain#auto_merging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoMerging", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingAutoMerging\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.CustomerprofilesDomain
 
             /// <summary>exporting_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#exporting_config CustomerprofilesDomain#exporting_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#exporting_config CustomerprofilesDomain#exporting_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exportingConfig", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingExportingConfig\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace aws.CustomerprofilesDomain
 
             /// <summary>job_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/customerprofiles_domain#job_schedule CustomerprofilesDomain#job_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/customerprofiles_domain#job_schedule CustomerprofilesDomain#job_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jobSchedule", typeJson: "{\"fqn\":\"aws.customerprofilesDomain.CustomerprofilesDomainMatchingJobSchedule\"}", isOptional: true)]

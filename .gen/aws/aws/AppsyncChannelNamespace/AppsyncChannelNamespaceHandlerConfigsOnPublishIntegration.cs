@@ -9,7 +9,7 @@ namespace aws.AppsyncChannelNamespace
     [JsiiByValue(fqn: "aws.appsyncChannelNamespace.AppsyncChannelNamespaceHandlerConfigsOnPublishIntegration")]
     public class AppsyncChannelNamespaceHandlerConfigsOnPublishIntegration : aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublishIntegration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#data_source_name AppsyncChannelNamespace#data_source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#data_source_name AppsyncChannelNamespace#data_source_name}.</summary>
         [JsiiProperty(name: "dataSourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceName
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncChannelNamespace
 
         /// <summary>lambda_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appsync_channel_namespace#lambda_config AppsyncChannelNamespace#lambda_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appsync_channel_namespace#lambda_config AppsyncChannelNamespace#lambda_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncChannelNamespace.IAppsyncChannelNamespaceHandlerConfigsOnPublishIntegrationLambdaConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

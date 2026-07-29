@@ -7,21 +7,21 @@ namespace aws.FsxFileCache
     [JsiiInterface(nativeType: typeof(IFsxFileCacheDataRepositoryAssociation), fullyQualifiedName: "aws.fsxFileCache.FsxFileCacheDataRepositoryAssociation")]
     public interface IFsxFileCacheDataRepositoryAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}.</summary>
         [JsiiProperty(name: "dataRepositoryPath", typeJson: "{\"primitive\":\"string\"}")]
         string DataRepositoryPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}.</summary>
         [JsiiProperty(name: "fileCachePath", typeJson: "{\"primitive\":\"string\"}")]
         string FileCachePath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}.</summary>
         [JsiiProperty(name: "dataRepositorySubdirectories", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DataRepositorySubdirectories
@@ -34,7 +34,7 @@ namespace aws.FsxFileCache
 
         /// <summary>nfs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociationNfs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nfs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxFileCache.FsxFileCacheDataRepositoryAssociationNfs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace aws.FsxFileCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#tags FsxFileCache#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -65,21 +65,21 @@ namespace aws.FsxFileCache
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#data_repository_path FsxFileCache#data_repository_path}.</summary>
             [JsiiProperty(name: "dataRepositoryPath", typeJson: "{\"primitive\":\"string\"}")]
             public string DataRepositoryPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#file_cache_path FsxFileCache#file_cache_path}.</summary>
             [JsiiProperty(name: "fileCachePath", typeJson: "{\"primitive\":\"string\"}")]
             public string FileCachePath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#data_repository_subdirectories FsxFileCache#data_repository_subdirectories}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataRepositorySubdirectories", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DataRepositorySubdirectories
@@ -89,7 +89,7 @@ namespace aws.FsxFileCache
 
             /// <summary>nfs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#nfs FsxFileCache#nfs}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxFileCache.IFsxFileCacheDataRepositoryAssociationNfs" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -99,7 +99,7 @@ namespace aws.FsxFileCache
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/fsx_file_cache#tags FsxFileCache#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_file_cache#tags FsxFileCache#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags

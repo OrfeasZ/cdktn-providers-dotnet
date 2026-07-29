@@ -7,14 +7,14 @@ namespace aws.EcsDaemonTaskDefinition
     [JsiiInterface(nativeType: typeof(IEcsDaemonTaskDefinitionContainerDefinitionLogConfigurationSecretOption), fullyQualifiedName: "aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionContainerDefinitionLogConfigurationSecretOption")]
     public interface IEcsDaemonTaskDefinitionContainerDefinitionLogConfigurationSecretOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#value_from EcsDaemonTaskDefinition#value_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#value_from EcsDaemonTaskDefinition#value_from}.</summary>
         [JsiiProperty(name: "valueFrom", typeJson: "{\"primitive\":\"string\"}")]
         string ValueFrom
         {
@@ -28,14 +28,14 @@ namespace aws.EcsDaemonTaskDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#name EcsDaemonTaskDefinition#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/ecs_daemon_task_definition#value_from EcsDaemonTaskDefinition#value_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/ecs_daemon_task_definition#value_from EcsDaemonTaskDefinition#value_from}.</summary>
             [JsiiProperty(name: "valueFrom", typeJson: "{\"primitive\":\"string\"}")]
             public string ValueFrom
             {

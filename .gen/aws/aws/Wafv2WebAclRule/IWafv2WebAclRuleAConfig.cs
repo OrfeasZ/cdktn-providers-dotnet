@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAclRule
     {
         /// <summary>Rule name, unique within the Web ACL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>Rule priority. Rules with lower priority are evaluated first.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
@@ -29,7 +29,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>ARN of the Web ACL to add the rule to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#web_acl_arn Wafv2WebAclRuleA#web_acl_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#web_acl_arn Wafv2WebAclRuleA#web_acl_arn}
         /// </remarks>
         [JsiiProperty(name: "webAclArn", typeJson: "{\"primitive\":\"string\"}")]
         string WebAclArn
@@ -39,7 +39,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#action Wafv2WebAclRuleA#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#action Wafv2WebAclRuleA#action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleActionA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>captcha_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#captcha_config Wafv2WebAclRuleA#captcha_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#captcha_config Wafv2WebAclRuleA#captcha_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleCaptchaConfigA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "captchaConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleCaptchaConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>challenge_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#challenge_config Wafv2WebAclRuleA#challenge_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#challenge_config Wafv2WebAclRuleA#challenge_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleChallengeConfigA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "challengeConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleChallengeConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>override_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#override_action Wafv2WebAclRuleA#override_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#override_action Wafv2WebAclRuleA#override_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleOverrideActionA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "overrideAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleOverrideActionA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#region Wafv2WebAclRuleA#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#region Wafv2WebAclRuleA#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>rule_label block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#rule_label Wafv2WebAclRuleA#rule_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#rule_label Wafv2WebAclRuleA#rule_label}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleRuleLabelA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ruleLabel", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleRuleLabelA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "statement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#timeouts Wafv2WebAclRuleA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#timeouts Wafv2WebAclRuleA#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>visibility_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#visibility_config Wafv2WebAclRuleA#visibility_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#visibility_config Wafv2WebAclRuleA#visibility_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleVisibilityConfigA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "visibilityConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleVisibilityConfigA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Rule name, unique within the Web ACL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#name Wafv2WebAclRuleA#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -189,7 +189,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Rule priority. Rules with lower priority are evaluated first.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#priority Wafv2WebAclRuleA#priority}
             /// </remarks>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
@@ -199,7 +199,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>ARN of the Web ACL to add the rule to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#web_acl_arn Wafv2WebAclRuleA#web_acl_arn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#web_acl_arn Wafv2WebAclRuleA#web_acl_arn}
             /// </remarks>
             [JsiiProperty(name: "webAclArn", typeJson: "{\"primitive\":\"string\"}")]
             public string WebAclArn
@@ -209,7 +209,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#action Wafv2WebAclRuleA#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#action Wafv2WebAclRuleA#action}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -221,7 +221,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>captcha_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#captcha_config Wafv2WebAclRuleA#captcha_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#captcha_config Wafv2WebAclRuleA#captcha_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleCaptchaConfigA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -233,7 +233,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>challenge_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#challenge_config Wafv2WebAclRuleA#challenge_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#challenge_config Wafv2WebAclRuleA#challenge_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleChallengeConfigA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -245,7 +245,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>override_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#override_action Wafv2WebAclRuleA#override_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#override_action Wafv2WebAclRuleA#override_action}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleOverrideActionA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -257,7 +257,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#region Wafv2WebAclRuleA#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#region Wafv2WebAclRuleA#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -268,7 +268,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>rule_label block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#rule_label Wafv2WebAclRuleA#rule_label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#rule_label Wafv2WebAclRuleA#rule_label}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleRuleLabelA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -280,7 +280,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>statement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -292,7 +292,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#timeouts Wafv2WebAclRuleA#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#timeouts Wafv2WebAclRuleA#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleTimeouts\"}", isOptional: true)]
@@ -303,7 +303,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>visibility_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_web_acl_rule#visibility_config Wafv2WebAclRuleA#visibility_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_web_acl_rule#visibility_config Wafv2WebAclRuleA#visibility_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleVisibilityConfigA" />)[]</para>
             /// </remarks>
             [JsiiOptional]

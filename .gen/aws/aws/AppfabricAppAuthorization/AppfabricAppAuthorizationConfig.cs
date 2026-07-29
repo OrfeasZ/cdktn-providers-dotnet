@@ -9,7 +9,7 @@ namespace aws.AppfabricAppAuthorization
     [JsiiByValue(fqn: "aws.appfabricAppAuthorization.AppfabricAppAuthorizationConfig")]
     public class AppfabricAppAuthorizationConfig : aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#app AppfabricAppAuthorization#app}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#app AppfabricAppAuthorization#app}.</summary>
         [JsiiProperty(name: "app", typeJson: "{\"primitive\":\"string\"}")]
         public string App
         {
@@ -17,7 +17,7 @@ namespace aws.AppfabricAppAuthorization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#app_bundle_arn AppfabricAppAuthorization#app_bundle_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#app_bundle_arn AppfabricAppAuthorization#app_bundle_arn}.</summary>
         [JsiiProperty(name: "appBundleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string AppBundleArn
         {
@@ -25,7 +25,7 @@ namespace aws.AppfabricAppAuthorization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#auth_type AppfabricAppAuthorization#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#auth_type AppfabricAppAuthorization#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthType
         {
@@ -37,7 +37,7 @@ namespace aws.AppfabricAppAuthorization
 
         /// <summary>credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#credential AppfabricAppAuthorization#credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#credential AppfabricAppAuthorization#credential}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationCredential" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace aws.AppfabricAppAuthorization
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#region AppfabricAppAuthorization#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#region AppfabricAppAuthorization#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace aws.AppfabricAppAuthorization
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#tags AppfabricAppAuthorization#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#tags AppfabricAppAuthorization#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -93,7 +93,7 @@ namespace aws.AppfabricAppAuthorization
 
         /// <summary>tenant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#tenant AppfabricAppAuthorization#tenant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#tenant AppfabricAppAuthorization#tenant}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppfabricAppAuthorization.IAppfabricAppAuthorizationTenant" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -126,7 +126,7 @@ namespace aws.AppfabricAppAuthorization
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/appfabric_app_authorization#timeouts AppfabricAppAuthorization#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/appfabric_app_authorization#timeouts AppfabricAppAuthorization#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.appfabricAppAuthorization.AppfabricAppAuthorizationTimeouts\"}", isOptional: true)]

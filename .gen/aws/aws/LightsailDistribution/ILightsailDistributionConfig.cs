@@ -9,7 +9,7 @@ namespace aws.LightsailDistribution
     {
         /// <summary>The bundle ID to use for the distribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
         /// </remarks>
         [JsiiProperty(name: "bundleId", typeJson: "{\"primitive\":\"string\"}")]
         string BundleId
@@ -19,7 +19,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>default_cache_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
         /// </remarks>
         [JsiiProperty(name: "defaultCacheBehavior", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionDefaultCacheBehavior\"}")]
         aws.LightsailDistribution.ILightsailDistributionDefaultCacheBehavior DefaultCacheBehavior
@@ -29,7 +29,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>The name of the distribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#name LightsailDistribution#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -39,7 +39,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>origin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
         /// </remarks>
         [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionOrigin\"}")]
         aws.LightsailDistribution.ILightsailDistributionOrigin Origin
@@ -49,7 +49,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>cache_behavior block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#cache_behavior LightsailDistribution#cache_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#cache_behavior LightsailDistribution#cache_behavior}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailDistribution.ILightsailDistributionCacheBehavior" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cacheBehavior", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionCacheBehavior\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>cache_behavior_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
         /// </remarks>
         [JsiiProperty(name: "cacheBehaviorSettings", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>The name of the SSL/TLS certificate attached to the distribution, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
         /// </remarks>
         [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace aws.LightsailDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#id LightsailDistribution#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#id LightsailDistribution#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>The IP address type of the distribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
         /// </remarks>
         [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>Indicates whether the distribution is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#region LightsailDistribution#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#region LightsailDistribution#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -148,7 +148,7 @@ namespace aws.LightsailDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -159,7 +159,7 @@ namespace aws.LightsailDistribution
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#tags_all LightsailDistribution#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#tags_all LightsailDistribution#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -172,7 +172,7 @@ namespace aws.LightsailDistribution
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#timeouts LightsailDistribution#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#timeouts LightsailDistribution#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -193,7 +193,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The bundle ID to use for the distribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#bundle_id LightsailDistribution#bundle_id}
             /// </remarks>
             [JsiiProperty(name: "bundleId", typeJson: "{\"primitive\":\"string\"}")]
             public string BundleId
@@ -203,7 +203,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>default_cache_behavior block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#default_cache_behavior LightsailDistribution#default_cache_behavior}
             /// </remarks>
             [JsiiProperty(name: "defaultCacheBehavior", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionDefaultCacheBehavior\"}")]
             public aws.LightsailDistribution.ILightsailDistributionDefaultCacheBehavior DefaultCacheBehavior
@@ -213,7 +213,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The name of the distribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#name LightsailDistribution#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#name LightsailDistribution#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -223,7 +223,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>origin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#origin LightsailDistribution#origin}
             /// </remarks>
             [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionOrigin\"}")]
             public aws.LightsailDistribution.ILightsailDistributionOrigin Origin
@@ -233,7 +233,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>cache_behavior block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#cache_behavior LightsailDistribution#cache_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#cache_behavior LightsailDistribution#cache_behavior}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailDistribution.ILightsailDistributionCacheBehavior" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -245,7 +245,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>cache_behavior_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#cache_behavior_settings LightsailDistribution#cache_behavior_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheBehaviorSettings", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionCacheBehaviorSettings\"}", isOptional: true)]
@@ -256,7 +256,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The name of the SSL/TLS certificate attached to the distribution, if any.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#certificate_name LightsailDistribution#certificate_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace aws.LightsailDistribution
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#id LightsailDistribution#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#id LightsailDistribution#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -279,7 +279,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>The IP address type of the distribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#ip_address_type LightsailDistribution#ip_address_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>Indicates whether the distribution is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#is_enabled LightsailDistribution#is_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -302,7 +302,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#region LightsailDistribution#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#region LightsailDistribution#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -311,7 +311,7 @@ namespace aws.LightsailDistribution
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#tags LightsailDistribution#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -319,7 +319,7 @@ namespace aws.LightsailDistribution
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#tags_all LightsailDistribution#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#tags_all LightsailDistribution#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -329,7 +329,7 @@ namespace aws.LightsailDistribution
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/lightsail_distribution#timeouts LightsailDistribution#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lightsail_distribution#timeouts LightsailDistribution#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lightsailDistribution.LightsailDistributionTimeouts\"}", isOptional: true)]

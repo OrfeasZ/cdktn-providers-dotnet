@@ -9,7 +9,7 @@ namespace aws.VpclatticeListener
     {
         /// <summary>fixed_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpclattice_listener#fixed_response VpclatticeListener#fixed_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/vpclattice_listener#fixed_response VpclatticeListener#fixed_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"aws.vpclatticeListener.VpclatticeListenerDefaultActionFixedResponse\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace aws.VpclatticeListener
 
         /// <summary>forward block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/vpclattice_listener#forward VpclatticeListener#forward}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/vpclattice_listener#forward VpclatticeListener#forward}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VpclatticeListener.IVpclatticeListenerDefaultActionForward" />)[]</para>
         /// </remarks>
         [JsiiOptional]

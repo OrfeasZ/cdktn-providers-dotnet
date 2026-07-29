@@ -11,7 +11,7 @@ namespace aws.BcmdataexportsExport
 
         /// <summary>s3_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BcmdataexportsExport.IBcmdataexportsExportExportDestinationConfigurationsS3Destination" />)[]</para>
         /// </remarks>
         [JsiiOptional]

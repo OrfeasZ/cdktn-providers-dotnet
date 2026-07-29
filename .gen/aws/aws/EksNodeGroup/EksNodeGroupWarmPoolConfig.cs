@@ -7,7 +7,7 @@ namespace aws.EksNodeGroup
     [JsiiByValue(fqn: "aws.eksNodeGroup.EksNodeGroupWarmPoolConfig")]
     public class EksNodeGroupWarmPoolConfig : aws.EksNodeGroup.IEksNodeGroupWarmPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group#max_group_prepared_capacity EksNodeGroup#max_group_prepared_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_node_group#max_group_prepared_capacity EksNodeGroup#max_group_prepared_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxGroupPreparedCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxGroupPreparedCapacity
@@ -16,7 +16,7 @@ namespace aws.EksNodeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_node_group#min_size EksNodeGroup#min_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinSize
@@ -25,7 +25,7 @@ namespace aws.EksNodeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group#pool_state EksNodeGroup#pool_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_node_group#pool_state EksNodeGroup#pool_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "poolState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PoolState
@@ -36,7 +36,7 @@ namespace aws.EksNodeGroup
 
         private object? _reuseOnScaleIn;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/eks_node_group#reuse_on_scale_in EksNodeGroup#reuse_on_scale_in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/eks_node_group#reuse_on_scale_in EksNodeGroup#reuse_on_scale_in}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

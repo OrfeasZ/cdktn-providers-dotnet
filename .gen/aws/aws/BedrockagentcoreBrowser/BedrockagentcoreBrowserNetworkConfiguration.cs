@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreBrowser
     [JsiiByValue(fqn: "aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserNetworkConfiguration")]
     public class BedrockagentcoreBrowserNetworkConfiguration : aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_browser#network_mode BedrockagentcoreBrowser#network_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_browser#network_mode BedrockagentcoreBrowser#network_mode}.</summary>
         [JsiiProperty(name: "networkMode", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkMode
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreBrowser
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_browser#vpc_config BedrockagentcoreBrowser#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_browser#vpc_config BedrockagentcoreBrowser#vpc_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserNetworkConfigurationVpcConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

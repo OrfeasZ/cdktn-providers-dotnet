@@ -7,21 +7,21 @@ namespace aws.Route53Record
     [JsiiInterface(nativeType: typeof(IRoute53RecordConfig), fullyQualifiedName: "aws.route53Record.Route53RecordConfig")]
     public interface IRoute53RecordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#name Route53Record#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#name Route53Record#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#type Route53Record#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#type Route53Record#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#zone_id Route53Record#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#zone_id Route53Record#zone_id}.</summary>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
@@ -30,7 +30,7 @@ namespace aws.Route53Record
 
         /// <summary>alias block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#alias Route53Record#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#alias Route53Record#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordAlias\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#allow_overwrite Route53Record#allow_overwrite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#allow_overwrite Route53Record#allow_overwrite}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -58,7 +58,7 @@ namespace aws.Route53Record
 
         /// <summary>cidr_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#cidr_routing_policy Route53Record#cidr_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#cidr_routing_policy Route53Record#cidr_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "cidrRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordCidrRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace aws.Route53Record
 
         /// <summary>failover_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#failover_routing_policy Route53Record#failover_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#failover_routing_policy Route53Record#failover_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "failoverRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordFailoverRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace aws.Route53Record
 
         /// <summary>geolocation_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#geolocation_routing_policy Route53Record#geolocation_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#geolocation_routing_policy Route53Record#geolocation_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "geolocationRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordGeolocationRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace aws.Route53Record
 
         /// <summary>geoproximity_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#geoproximity_routing_policy Route53Record#geoproximity_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#geoproximity_routing_policy Route53Record#geoproximity_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "geoproximityRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#health_check_id Route53Record#health_check_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#health_check_id Route53Record#health_check_id}.</summary>
         [JsiiProperty(name: "healthCheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HealthCheckId
@@ -123,7 +123,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#id Route53Record#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#id Route53Record#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +140,7 @@ namespace aws.Route53Record
 
         /// <summary>latency_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#latency_routing_policy Route53Record#latency_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#latency_routing_policy Route53Record#latency_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "latencyRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordLatencyRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#multivalue_answer_routing_policy Route53Record#multivalue_answer_routing_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#multivalue_answer_routing_policy Route53Record#multivalue_answer_routing_policy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -166,7 +166,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#records Route53Record#records}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#records Route53Record#records}.</summary>
         [JsiiProperty(name: "records", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Records
@@ -177,7 +177,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#set_identifier Route53Record#set_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#set_identifier Route53Record#set_identifier}.</summary>
         [JsiiProperty(name: "setIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SetIdentifier
@@ -190,7 +190,7 @@ namespace aws.Route53Record
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#timeouts Route53Record#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#timeouts Route53Record#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -202,7 +202,7 @@ namespace aws.Route53Record
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#ttl Route53Record#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#ttl Route53Record#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ttl
@@ -215,7 +215,7 @@ namespace aws.Route53Record
 
         /// <summary>weighted_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#weighted_routing_policy Route53Record#weighted_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#weighted_routing_policy Route53Record#weighted_routing_policy}
         /// </remarks>
         [JsiiProperty(name: "weightedRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordWeightedRoutingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -234,21 +234,21 @@ namespace aws.Route53Record
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#name Route53Record#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#name Route53Record#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#type Route53Record#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#type Route53Record#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#zone_id Route53Record#zone_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#zone_id Route53Record#zone_id}.</summary>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
@@ -257,7 +257,7 @@ namespace aws.Route53Record
 
             /// <summary>alias block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#alias Route53Record#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#alias Route53Record#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordAlias\"}", isOptional: true)]
@@ -266,7 +266,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<aws.Route53Record.IRoute53RecordAlias?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#allow_overwrite Route53Record#allow_overwrite}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#allow_overwrite Route53Record#allow_overwrite}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -279,7 +279,7 @@ namespace aws.Route53Record
 
             /// <summary>cidr_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#cidr_routing_policy Route53Record#cidr_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#cidr_routing_policy Route53Record#cidr_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cidrRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordCidrRoutingPolicy\"}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace aws.Route53Record
 
             /// <summary>failover_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#failover_routing_policy Route53Record#failover_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#failover_routing_policy Route53Record#failover_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "failoverRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordFailoverRoutingPolicy\"}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace aws.Route53Record
 
             /// <summary>geolocation_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#geolocation_routing_policy Route53Record#geolocation_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#geolocation_routing_policy Route53Record#geolocation_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "geolocationRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordGeolocationRoutingPolicy\"}", isOptional: true)]
@@ -312,7 +312,7 @@ namespace aws.Route53Record
 
             /// <summary>geoproximity_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#geoproximity_routing_policy Route53Record#geoproximity_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#geoproximity_routing_policy Route53Record#geoproximity_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "geoproximityRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordGeoproximityRoutingPolicy\"}", isOptional: true)]
@@ -321,7 +321,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<aws.Route53Record.IRoute53RecordGeoproximityRoutingPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#health_check_id Route53Record#health_check_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#health_check_id Route53Record#health_check_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HealthCheckId
@@ -329,7 +329,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#id Route53Record#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#id Route53Record#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -343,7 +343,7 @@ namespace aws.Route53Record
 
             /// <summary>latency_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#latency_routing_policy Route53Record#latency_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#latency_routing_policy Route53Record#latency_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "latencyRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordLatencyRoutingPolicy\"}", isOptional: true)]
@@ -352,7 +352,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<aws.Route53Record.IRoute53RecordLatencyRoutingPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#multivalue_answer_routing_policy Route53Record#multivalue_answer_routing_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#multivalue_answer_routing_policy Route53Record#multivalue_answer_routing_policy}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -363,7 +363,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#records Route53Record#records}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#records Route53Record#records}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "records", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Records
@@ -371,7 +371,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#set_identifier Route53Record#set_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#set_identifier Route53Record#set_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "setIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SetIdentifier
@@ -381,7 +381,7 @@ namespace aws.Route53Record
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#timeouts Route53Record#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#timeouts Route53Record#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordTimeouts\"}", isOptional: true)]
@@ -390,7 +390,7 @@ namespace aws.Route53Record
                 get => GetInstanceProperty<aws.Route53Record.IRoute53RecordTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#ttl Route53Record#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#ttl Route53Record#ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ttl
@@ -400,7 +400,7 @@ namespace aws.Route53Record
 
             /// <summary>weighted_routing_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/route53_record#weighted_routing_policy Route53Record#weighted_routing_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/route53_record#weighted_routing_policy Route53Record#weighted_routing_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "weightedRoutingPolicy", typeJson: "{\"fqn\":\"aws.route53Record.Route53RecordWeightedRoutingPolicy\"}", isOptional: true)]

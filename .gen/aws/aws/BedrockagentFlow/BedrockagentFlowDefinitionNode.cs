@@ -9,7 +9,7 @@ namespace aws.BedrockagentFlow
     [JsiiByValue(fqn: "aws.bedrockagentFlow.BedrockagentFlowDefinitionNode")]
     public class BedrockagentFlowDefinitionNode : aws.BedrockagentFlow.IBedrockagentFlowDefinitionNode
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagent_flow#name BedrockagentFlow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagent_flow#type BedrockagentFlow#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -29,7 +29,7 @@ namespace aws.BedrockagentFlow
 
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagent_flow#configuration BedrockagentFlow#configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -64,7 +64,7 @@ namespace aws.BedrockagentFlow
 
         /// <summary>input block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagent_flow#input BedrockagentFlow#input}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeInput" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -99,7 +99,7 @@ namespace aws.BedrockagentFlow
 
         /// <summary>output block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagent_flow#output BedrockagentFlow#output}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentFlow.IBedrockagentFlowDefinitionNodeOutput" />)[]</para>
         /// </remarks>
         [JsiiOptional]

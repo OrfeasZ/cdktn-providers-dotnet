@@ -7,7 +7,7 @@ namespace aws.S3Bucket
     [JsiiInterface(nativeType: typeof(IS3BucketConfig), fullyQualifiedName: "aws.s3Bucket.S3BucketConfig")]
     public interface IS3BucketConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}.</summary>
         [JsiiProperty(name: "accelerationStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccelerationStatus
@@ -18,7 +18,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#acl S3Bucket#acl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#acl S3Bucket#acl}.</summary>
         [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Acl
@@ -29,7 +29,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket S3Bucket#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -40,7 +40,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.</summary>
         [JsiiProperty(name: "bucketNamespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BucketNamespace
@@ -51,7 +51,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}.</summary>
         [JsiiProperty(name: "bucketPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BucketPrefix
@@ -64,7 +64,7 @@ namespace aws.S3Bucket
 
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#cors_rule S3Bucket#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#cors_rule S3Bucket#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketCorsRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "corsRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -93,7 +93,7 @@ namespace aws.S3Bucket
 
         /// <summary>grant block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#grant S3Bucket#grant}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#grant S3Bucket#grant}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketGrant" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "grant", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketGrant\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#id S3Bucket#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#id S3Bucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ namespace aws.S3Bucket
 
         /// <summary>lifecycle_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#lifecycle_rule S3Bucket#lifecycle_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#lifecycle_rule S3Bucket#lifecycle_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "lifecycleRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.s3Bucket.S3BucketLifecycleRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace aws.S3Bucket
 
         /// <summary>logging block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#logging S3Bucket#logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#logging S3Bucket#logging}
         /// </remarks>
         [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketLogging\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace aws.S3Bucket
 
         /// <summary>object_lock_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
         /// </remarks>
         [JsiiProperty(name: "objectLockConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketObjectLockConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -164,7 +164,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -178,7 +178,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#policy S3Bucket#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#policy S3Bucket#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Policy
@@ -191,7 +191,7 @@ namespace aws.S3Bucket
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#region S3Bucket#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#region S3Bucket#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -205,7 +205,7 @@ namespace aws.S3Bucket
 
         /// <summary>replication_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
         /// </remarks>
         [JsiiProperty(name: "replicationConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketReplicationConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -217,7 +217,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#request_payer S3Bucket#request_payer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#request_payer S3Bucket#request_payer}.</summary>
         [JsiiProperty(name: "requestPayer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RequestPayer
@@ -230,7 +230,7 @@ namespace aws.S3Bucket
 
         /// <summary>server_side_encryption_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
         /// </remarks>
         [JsiiProperty(name: "serverSideEncryptionConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketServerSideEncryptionConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -242,7 +242,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#tags S3Bucket#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#tags S3Bucket#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -253,7 +253,7 @@ namespace aws.S3Bucket
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#tags_all S3Bucket#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#tags_all S3Bucket#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -266,7 +266,7 @@ namespace aws.S3Bucket
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -280,7 +280,7 @@ namespace aws.S3Bucket
 
         /// <summary>versioning block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#versioning S3Bucket#versioning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#versioning S3Bucket#versioning}
         /// </remarks>
         [JsiiProperty(name: "versioning", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketVersioning\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -294,7 +294,7 @@ namespace aws.S3Bucket
 
         /// <summary>website block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#website S3Bucket#website}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#website S3Bucket#website}
         /// </remarks>
         [JsiiProperty(name: "website", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketWebsite\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -313,7 +313,7 @@ namespace aws.S3Bucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accelerationStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccelerationStatus
@@ -321,7 +321,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#acl S3Bucket#acl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#acl S3Bucket#acl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Acl
@@ -329,7 +329,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket S3Bucket#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -337,7 +337,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketNamespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BucketNamespace
@@ -345,7 +345,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BucketPrefix
@@ -355,7 +355,7 @@ namespace aws.S3Bucket
 
             /// <summary>cors_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#cors_rule S3Bucket#cors_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#cors_rule S3Bucket#cors_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketCorsRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -365,7 +365,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -378,7 +378,7 @@ namespace aws.S3Bucket
 
             /// <summary>grant block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#grant S3Bucket#grant}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#grant S3Bucket#grant}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketGrant" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -388,7 +388,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#id S3Bucket#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#id S3Bucket#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -402,7 +402,7 @@ namespace aws.S3Bucket
 
             /// <summary>lifecycle_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#lifecycle_rule S3Bucket#lifecycle_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#lifecycle_rule S3Bucket#lifecycle_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3Bucket.IS3BucketLifecycleRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -414,7 +414,7 @@ namespace aws.S3Bucket
 
             /// <summary>logging block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#logging S3Bucket#logging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#logging S3Bucket#logging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketLogging\"}", isOptional: true)]
@@ -425,7 +425,7 @@ namespace aws.S3Bucket
 
             /// <summary>object_lock_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "objectLockConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketObjectLockConfiguration\"}", isOptional: true)]
@@ -434,7 +434,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<aws.S3Bucket.IS3BucketObjectLockConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -445,7 +445,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#policy S3Bucket#policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#policy S3Bucket#policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Policy
@@ -455,7 +455,7 @@ namespace aws.S3Bucket
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#region S3Bucket#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#region S3Bucket#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -466,7 +466,7 @@ namespace aws.S3Bucket
 
             /// <summary>replication_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replicationConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketReplicationConfiguration\"}", isOptional: true)]
@@ -475,7 +475,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<aws.S3Bucket.IS3BucketReplicationConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#request_payer S3Bucket#request_payer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#request_payer S3Bucket#request_payer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "requestPayer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RequestPayer
@@ -485,7 +485,7 @@ namespace aws.S3Bucket
 
             /// <summary>server_side_encryption_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverSideEncryptionConfiguration", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketServerSideEncryptionConfiguration\"}", isOptional: true)]
@@ -494,7 +494,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<aws.S3Bucket.IS3BucketServerSideEncryptionConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#tags S3Bucket#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#tags S3Bucket#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -502,7 +502,7 @@ namespace aws.S3Bucket
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#tags_all S3Bucket#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#tags_all S3Bucket#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -512,7 +512,7 @@ namespace aws.S3Bucket
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#timeouts S3Bucket#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketTimeouts\"}", isOptional: true)]
@@ -523,7 +523,7 @@ namespace aws.S3Bucket
 
             /// <summary>versioning block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#versioning S3Bucket#versioning}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#versioning S3Bucket#versioning}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "versioning", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketVersioning\"}", isOptional: true)]
@@ -534,7 +534,7 @@ namespace aws.S3Bucket
 
             /// <summary>website block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/s3_bucket#website S3Bucket#website}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3_bucket#website S3Bucket#website}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "website", typeJson: "{\"fqn\":\"aws.s3Bucket.S3BucketWebsite\"}", isOptional: true)]

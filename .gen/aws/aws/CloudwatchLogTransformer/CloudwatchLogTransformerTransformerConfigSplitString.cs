@@ -11,7 +11,7 @@ namespace aws.CloudwatchLogTransformer
 
         /// <summary>entry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigSplitStringEntry" />)[]</para>
         /// </remarks>
         [JsiiOptional]

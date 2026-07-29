@@ -7,14 +7,14 @@ namespace aws.BedrockagentcoreEvaluator
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategorical), fullyQualifiedName: "aws.bedrockagentcoreEvaluator.BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategorical")]
     public interface IBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleCategorical
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.</summary>
         [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"string\"}")]
         string Definition
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         string Label
         {
@@ -28,14 +28,14 @@ namespace aws.BedrockagentcoreEvaluator
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_evaluator#definition BedrockagentcoreEvaluator#definition}.</summary>
             [JsiiProperty(name: "definition", typeJson: "{\"primitive\":\"string\"}")]
             public string Definition
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_evaluator#label BedrockagentcoreEvaluator#label}.</summary>
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
             public string Label
             {

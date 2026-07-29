@@ -11,7 +11,7 @@ namespace aws.DataexchangeRevisionAssets
 
         /// <summary>asset_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/dataexchange_revision_assets#asset_source DataexchangeRevisionAssets#asset_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/dataexchange_revision_assets#asset_source DataexchangeRevisionAssets#asset_source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeRevisionAssets.IDataexchangeRevisionAssetsAssetImportAssetsFromS3AssetSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]

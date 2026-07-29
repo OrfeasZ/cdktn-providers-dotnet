@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreCodeInterpreter
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreCodeInterpreterCertificateLocationSecretsManager), fullyQualifiedName: "aws.bedrockagentcoreCodeInterpreter.BedrockagentcoreCodeInterpreterCertificateLocationSecretsManager")]
     public interface IBedrockagentcoreCodeInterpreterCertificateLocationSecretsManager
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_code_interpreter#secret_arn BedrockagentcoreCodeInterpreter#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_code_interpreter#secret_arn BedrockagentcoreCodeInterpreter#secret_arn}.</summary>
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
         string SecretArn
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreCodeInterpreter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/bedrockagentcore_code_interpreter#secret_arn BedrockagentcoreCodeInterpreter#secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrockagentcore_code_interpreter#secret_arn BedrockagentcoreCodeInterpreter#secret_arn}.</summary>
             [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretArn
             {

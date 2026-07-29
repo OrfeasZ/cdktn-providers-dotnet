@@ -7,14 +7,14 @@ namespace aws.Wafv2RuleGroup
     [JsiiInterface(nativeType: typeof(IWafv2RuleGroupRuleActionBlockCustomResponse), fullyQualifiedName: "aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionBlockCustomResponse")]
     public interface IWafv2RuleGroupRuleActionBlockCustomResponse
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#response_code Wafv2RuleGroup#response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#response_code Wafv2RuleGroup#response_code}.</summary>
         [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}")]
         double ResponseCode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#custom_response_body_key Wafv2RuleGroup#custom_response_body_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#custom_response_body_key Wafv2RuleGroup#custom_response_body_key}.</summary>
         [JsiiProperty(name: "customResponseBodyKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomResponseBodyKey
@@ -27,7 +27,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>response_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#response_header Wafv2RuleGroup#response_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#response_header Wafv2RuleGroup#response_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionBlockCustomResponseResponseHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "responseHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionBlockCustomResponseResponseHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,14 +47,14 @@ namespace aws.Wafv2RuleGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#response_code Wafv2RuleGroup#response_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#response_code Wafv2RuleGroup#response_code}.</summary>
             [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}")]
             public double ResponseCode
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#custom_response_body_key Wafv2RuleGroup#custom_response_body_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#custom_response_body_key Wafv2RuleGroup#custom_response_body_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customResponseBodyKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomResponseBodyKey
@@ -64,7 +64,7 @@ namespace aws.Wafv2RuleGroup
 
             /// <summary>response_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.56.0/docs/resources/wafv2_rule_group#response_header Wafv2RuleGroup#response_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/wafv2_rule_group#response_header Wafv2RuleGroup#response_header}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionBlockCustomResponseResponseHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]
