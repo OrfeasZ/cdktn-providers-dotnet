@@ -9,7 +9,7 @@ namespace digitalocean.NfsAccessPoint
     {
         /// <summary>access_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#access_policy NfsAccessPoint#access_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#access_policy NfsAccessPoint#access_policy}
         /// </remarks>
         [JsiiProperty(name: "accessPolicy", typeJson: "{\"fqn\":\"digitalocean.nfsAccessPoint.NfsAccessPointAccessPolicy\"}")]
         digitalocean.NfsAccessPoint.INfsAccessPointAccessPolicy AccessPolicy
@@ -17,35 +17,35 @@ namespace digitalocean.NfsAccessPoint
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#name NfsAccessPoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#name NfsAccessPoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#path NfsAccessPoint#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#path NfsAccessPoint#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#share_id NfsAccessPoint#share_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#share_id NfsAccessPoint#share_id}.</summary>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         string ShareId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#vpc_id NfsAccessPoint#vpc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#vpc_id NfsAccessPoint#vpc_id}.</summary>
         [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
         string VpcId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#id NfsAccessPoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#id NfsAccessPoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace digitalocean.NfsAccessPoint
 
             /// <summary>access_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#access_policy NfsAccessPoint#access_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#access_policy NfsAccessPoint#access_policy}
             /// </remarks>
             [JsiiProperty(name: "accessPolicy", typeJson: "{\"fqn\":\"digitalocean.nfsAccessPoint.NfsAccessPointAccessPolicy\"}")]
             public digitalocean.NfsAccessPoint.INfsAccessPointAccessPolicy AccessPolicy
@@ -77,35 +77,35 @@ namespace digitalocean.NfsAccessPoint
                 get => GetInstanceProperty<digitalocean.NfsAccessPoint.INfsAccessPointAccessPolicy>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#name NfsAccessPoint#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#name NfsAccessPoint#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#path NfsAccessPoint#path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#path NfsAccessPoint#path}.</summary>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#share_id NfsAccessPoint#share_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#share_id NfsAccessPoint#share_id}.</summary>
             [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
             public string ShareId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#vpc_id NfsAccessPoint#vpc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#vpc_id NfsAccessPoint#vpc_id}.</summary>
             [JsiiProperty(name: "vpcId", typeJson: "{\"primitive\":\"string\"}")]
             public string VpcId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/nfs_access_point#id NfsAccessPoint#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#id NfsAccessPoint#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

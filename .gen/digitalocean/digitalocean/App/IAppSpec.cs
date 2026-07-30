@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>The name of the app. Must be unique across all apps in the same account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#name App#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#name App#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace digitalocean.App
 
         /// <summary>alert block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#alert App#alert}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#alert App#alert}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecAlert" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "alert", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecAlert\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace digitalocean.App
 
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#database App#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#database App#database}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecDatabase" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "database", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecDatabase\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace digitalocean.App
 
         /// <summary>Whether to disable the edge cache for the app. Default is false, which enables the edge cache.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#disable_edge_cache App#disable_edge_cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#disable_edge_cache App#disable_edge_cache}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableEdgeCache", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace digitalocean.App
 
         /// <summary>Email obfuscation configuration for the app. Default is false, which keeps the email obfuscated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#disable_email_obfuscation App#disable_email_obfuscation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#disable_email_obfuscation App#disable_email_obfuscation}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableEmailObfuscation", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace digitalocean.App
 
         /// <summary>domain block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#domain App#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#domain App#domain}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecDomain" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecDomain\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace digitalocean.App
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#domains App#domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#domains App#domains}.</summary>
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Domains
@@ -105,7 +105,7 @@ namespace digitalocean.App
 
         /// <summary>egress block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#egress App#egress}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#egress App#egress}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecEgress" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "egress", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecEgress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace digitalocean.App
         /// <remarks>
         /// Default is false. Set to true to enable enhanced threat control, putting additional security measures for Layer 7 DDoS attacks.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#enhanced_threat_control_enabled App#enhanced_threat_control_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#enhanced_threat_control_enabled App#enhanced_threat_control_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enhancedThreatControlEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace digitalocean.App
 
         /// <summary>env block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#env App#env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#env App#env}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecEnv" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "env", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace digitalocean.App
 
         /// <summary>List of features which is applied to the app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#features App#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#features App#features}
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +166,7 @@ namespace digitalocean.App
 
         /// <summary>function block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#function App#function}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#function App#function}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecFunction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "function", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecFunction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -181,7 +181,7 @@ namespace digitalocean.App
 
         /// <summary>ingress block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#ingress App#ingress}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#ingress App#ingress}
         /// </remarks>
         [JsiiProperty(name: "ingress", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecIngress\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -195,7 +195,7 @@ namespace digitalocean.App
 
         /// <summary>job block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#job App#job}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#job App#job}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJob" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "job", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecJob\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace digitalocean.App
 
         /// <summary>maintenance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#maintenance App#maintenance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#maintenance App#maintenance}
         /// </remarks>
         [JsiiProperty(name: "maintenance", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecMaintenance\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -224,7 +224,7 @@ namespace digitalocean.App
 
         /// <summary>The slug for the DigitalOcean data center region hosting the app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#region App#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#region App#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -238,7 +238,7 @@ namespace digitalocean.App
 
         /// <summary>service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#service App#service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#service App#service}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecService" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "service", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecService\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace digitalocean.App
 
         /// <summary>static_site block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#static_site App#static_site}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#static_site App#static_site}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSite" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "staticSite", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecStaticSite\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -268,7 +268,7 @@ namespace digitalocean.App
 
         /// <summary>vpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#vpc App#vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#vpc App#vpc}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecVpc" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "vpc", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecVpc\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -283,7 +283,7 @@ namespace digitalocean.App
 
         /// <summary>worker block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#worker App#worker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#worker App#worker}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorker" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "worker", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.app.AppSpecWorker\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -305,7 +305,7 @@ namespace digitalocean.App
 
             /// <summary>The name of the app. Must be unique across all apps in the same account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#name App#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#name App#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -315,7 +315,7 @@ namespace digitalocean.App
 
             /// <summary>alert block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#alert App#alert}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#alert App#alert}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecAlert" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -327,7 +327,7 @@ namespace digitalocean.App
 
             /// <summary>database block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#database App#database}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#database App#database}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecDatabase" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -339,7 +339,7 @@ namespace digitalocean.App
 
             /// <summary>Whether to disable the edge cache for the app. Default is false, which enables the edge cache.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#disable_edge_cache App#disable_edge_cache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#disable_edge_cache App#disable_edge_cache}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -351,7 +351,7 @@ namespace digitalocean.App
 
             /// <summary>Email obfuscation configuration for the app. Default is false, which keeps the email obfuscated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#disable_email_obfuscation App#disable_email_obfuscation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#disable_email_obfuscation App#disable_email_obfuscation}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -363,7 +363,7 @@ namespace digitalocean.App
 
             /// <summary>domain block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#domain App#domain}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#domain App#domain}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecDomain" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -373,7 +373,7 @@ namespace digitalocean.App
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#domains App#domains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#domains App#domains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Domains
@@ -383,7 +383,7 @@ namespace digitalocean.App
 
             /// <summary>egress block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#egress App#egress}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#egress App#egress}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecEgress" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -397,7 +397,7 @@ namespace digitalocean.App
             /// <remarks>
             /// Default is false. Set to true to enable enhanced threat control, putting additional security measures for Layer 7 DDoS attacks.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#enhanced_threat_control_enabled App#enhanced_threat_control_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#enhanced_threat_control_enabled App#enhanced_threat_control_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -409,7 +409,7 @@ namespace digitalocean.App
 
             /// <summary>env block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#env App#env}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#env App#env}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecEnv" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -421,7 +421,7 @@ namespace digitalocean.App
 
             /// <summary>List of features which is applied to the app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#features App#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#features App#features}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -432,7 +432,7 @@ namespace digitalocean.App
 
             /// <summary>function block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#function App#function}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#function App#function}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecFunction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -444,7 +444,7 @@ namespace digitalocean.App
 
             /// <summary>ingress block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#ingress App#ingress}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#ingress App#ingress}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ingress", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecIngress\"}", isOptional: true)]
@@ -455,7 +455,7 @@ namespace digitalocean.App
 
             /// <summary>job block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#job App#job}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#job App#job}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecJob" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -467,7 +467,7 @@ namespace digitalocean.App
 
             /// <summary>maintenance block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#maintenance App#maintenance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#maintenance App#maintenance}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenance", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecMaintenance\"}", isOptional: true)]
@@ -478,7 +478,7 @@ namespace digitalocean.App
 
             /// <summary>The slug for the DigitalOcean data center region hosting the app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#region App#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#region App#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -489,7 +489,7 @@ namespace digitalocean.App
 
             /// <summary>service block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#service App#service}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#service App#service}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecService" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -501,7 +501,7 @@ namespace digitalocean.App
 
             /// <summary>static_site block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#static_site App#static_site}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#static_site App#static_site}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecStaticSite" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -513,7 +513,7 @@ namespace digitalocean.App
 
             /// <summary>vpc block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#vpc App#vpc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#vpc App#vpc}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecVpc" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -525,7 +525,7 @@ namespace digitalocean.App
 
             /// <summary>worker block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/resources/app#worker App#worker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#worker App#worker}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecWorker" />)[]</para>
             /// </remarks>
             [JsiiOptional]

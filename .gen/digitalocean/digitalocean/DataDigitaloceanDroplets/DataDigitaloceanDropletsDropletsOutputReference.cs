@@ -53,6 +53,12 @@ namespace digitalocean.DataDigitaloceanDroplets
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "gpuPartitionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GpuPartitionMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Id
         {

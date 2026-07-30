@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanFirewall
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanFirewall.DataDigitaloceanFirewallConfig")]
     public class DataDigitaloceanFirewallConfig : digitalocean.DataDigitaloceanFirewall.IDataDigitaloceanFirewallConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#firewall_id DataDigitaloceanFirewall#firewall_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#firewall_id DataDigitaloceanFirewall#firewall_id}.</summary>
         [JsiiProperty(name: "firewallId", typeJson: "{\"primitive\":\"string\"}")]
         public string FirewallId
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#droplet_ids DataDigitaloceanFirewall#droplet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#droplet_ids DataDigitaloceanFirewall#droplet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dropletIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? DropletIds
@@ -26,7 +26,7 @@ namespace digitalocean.DataDigitaloceanFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#id DataDigitaloceanFirewall#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#id DataDigitaloceanFirewall#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace digitalocean.DataDigitaloceanFirewall
 
         /// <summary>inbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#inbound_rule DataDigitaloceanFirewall#inbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#inbound_rule DataDigitaloceanFirewall#inbound_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanFirewall.IDataDigitaloceanFirewallInboundRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace digitalocean.DataDigitaloceanFirewall
 
         /// <summary>outbound_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#outbound_rule DataDigitaloceanFirewall#outbound_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#outbound_rule DataDigitaloceanFirewall#outbound_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanFirewall.IDataDigitaloceanFirewallOutboundRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -109,7 +109,7 @@ namespace digitalocean.DataDigitaloceanFirewall
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.96.0/docs/data-sources/firewall#tags DataDigitaloceanFirewall#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/firewall#tags DataDigitaloceanFirewall#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags

@@ -47,6 +47,12 @@ namespace digitalocean.DataDigitaloceanSizes
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "gpuInfo", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanSizes.DataDigitaloceanSizesSizesGpuInfoList\"}")]
+        public virtual digitalocean.DataDigitaloceanSizes.DataDigitaloceanSizesSizesGpuInfoList GpuInfo
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanSizes.DataDigitaloceanSizesSizesGpuInfoList>()!;
+        }
+
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Memory
         {
