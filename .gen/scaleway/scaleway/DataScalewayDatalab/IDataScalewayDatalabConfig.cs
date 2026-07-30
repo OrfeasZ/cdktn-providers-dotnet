@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayDatalab
     {
         /// <summary>The ID of the Datalab instance to look up.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#datalab_id DataScalewayDatalab#datalab_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#datalab_id DataScalewayDatalab#datalab_id}
         /// </remarks>
         [JsiiProperty(name: "datalabId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DataScalewayDatalab
 
         /// <summary>The name of the Datalab instance to look up.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#name DataScalewayDatalab#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#name DataScalewayDatalab#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.DataScalewayDatalab
 
         /// <summary>The project ID the Datalab belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#project_id DataScalewayDatalab#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#project_id DataScalewayDatalab#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace scaleway.DataScalewayDatalab
 
         /// <summary>The region the Datalab is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#region DataScalewayDatalab#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#region DataScalewayDatalab#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace scaleway.DataScalewayDatalab
 
             /// <summary>The ID of the Datalab instance to look up.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#datalab_id DataScalewayDatalab#datalab_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#datalab_id DataScalewayDatalab#datalab_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "datalabId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace scaleway.DataScalewayDatalab
 
             /// <summary>The name of the Datalab instance to look up.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#name DataScalewayDatalab#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#name DataScalewayDatalab#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace scaleway.DataScalewayDatalab
 
             /// <summary>The project ID the Datalab belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#project_id DataScalewayDatalab#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#project_id DataScalewayDatalab#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace scaleway.DataScalewayDatalab
 
             /// <summary>The region the Datalab is in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/datalab#region DataScalewayDatalab#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/datalab#region DataScalewayDatalab#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

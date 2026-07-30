@@ -9,7 +9,7 @@ namespace scaleway.BillingBudget
     {
         /// <summary>Cost limit for the budget in cents.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#consumption_limit BillingBudget#consumption_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#consumption_limit BillingBudget#consumption_limit}
         /// </remarks>
         [JsiiProperty(name: "consumptionLimit", typeJson: "{\"primitive\":\"number\"}")]
         double ConsumptionLimit
@@ -19,7 +19,7 @@ namespace scaleway.BillingBudget
 
         /// <summary>Whether the budget is enabled or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#enabled BillingBudget#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#enabled BillingBudget#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.BillingBudget
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#organization_id BillingBudget#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#organization_id BillingBudget#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace scaleway.BillingBudget
 
             /// <summary>Cost limit for the budget in cents.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#consumption_limit BillingBudget#consumption_limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#consumption_limit BillingBudget#consumption_limit}
             /// </remarks>
             [JsiiProperty(name: "consumptionLimit", typeJson: "{\"primitive\":\"number\"}")]
             public double ConsumptionLimit
@@ -65,7 +65,7 @@ namespace scaleway.BillingBudget
 
             /// <summary>Whether the budget is enabled or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#enabled BillingBudget#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#enabled BillingBudget#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -77,7 +77,7 @@ namespace scaleway.BillingBudget
 
             /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/billing_budget#organization_id BillingBudget#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget#organization_id BillingBudget#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

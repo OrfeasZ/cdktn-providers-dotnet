@@ -5,7 +5,7 @@ namespace scaleway.KeyManagerKeyMaterial
     /// <remarks>
     /// <h1><c>scaleway_key_manager_key_material</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/key_manager_key_material"><c>scaleway_key_manager_key_material</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/key_manager_key_material"><c>scaleway_key_manager_key_material</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

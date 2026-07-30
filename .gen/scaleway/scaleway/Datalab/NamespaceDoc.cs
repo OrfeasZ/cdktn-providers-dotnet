@@ -5,7 +5,7 @@ namespace scaleway.Datalab
     /// <remarks>
     /// <h1><c>scaleway_datalab</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/datalab"><c>scaleway_datalab</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab"><c>scaleway_datalab</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

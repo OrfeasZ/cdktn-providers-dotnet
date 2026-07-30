@@ -9,7 +9,7 @@ namespace scaleway.Datalab
     {
         /// <summary>The volume size in bytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/datalab#size Datalab#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#size Datalab#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.Datalab
 
         /// <summary>The volume type. Defaults to `sbs_5k`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/datalab#type Datalab#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#type Datalab#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.Datalab
 
             /// <summary>The volume size in bytes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/datalab#size Datalab#size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#size Datalab#size}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.Datalab
 
             /// <summary>The volume type. Defaults to `sbs_5k`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/datalab#type Datalab#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#type Datalab#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

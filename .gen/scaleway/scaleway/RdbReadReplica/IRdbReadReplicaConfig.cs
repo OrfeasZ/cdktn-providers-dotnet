@@ -9,7 +9,7 @@ namespace scaleway.RdbReadReplica
     {
         /// <summary>Id of the rdb instance to replicate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#instance_id RdbReadReplica#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#instance_id RdbReadReplica#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
@@ -19,7 +19,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>direct_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#direct_access RdbReadReplica#direct_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#direct_access RdbReadReplica#direct_access}
         /// </remarks>
         [JsiiProperty(name: "directAccess", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaDirectAccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace scaleway.RdbReadReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#id RdbReadReplica#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#id RdbReadReplica#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#private_network RdbReadReplica#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#private_network RdbReadReplica#private_network}
         /// </remarks>
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaPrivateNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#region RdbReadReplica#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#region RdbReadReplica#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>Defines whether to create the replica in the same availability zone as the main instance nodes or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#same_zone RdbReadReplica#same_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#same_zone RdbReadReplica#same_zone}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "sameZone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace scaleway.RdbReadReplica
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#timeouts RdbReadReplica#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#timeouts RdbReadReplica#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>Id of the rdb instance to replicate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#instance_id RdbReadReplica#instance_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#instance_id RdbReadReplica#instance_id}
             /// </remarks>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
@@ -122,7 +122,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>direct_access block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#direct_access RdbReadReplica#direct_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#direct_access RdbReadReplica#direct_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "directAccess", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaDirectAccess\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace scaleway.RdbReadReplica
                 get => GetInstanceProperty<scaleway.RdbReadReplica.IRdbReadReplicaDirectAccess?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#id RdbReadReplica#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#id RdbReadReplica#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>private_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#private_network RdbReadReplica#private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#private_network RdbReadReplica#private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaPrivateNetwork\"}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#region RdbReadReplica#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#region RdbReadReplica#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>Defines whether to create the replica in the same availability zone as the main instance nodes or not.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#same_zone RdbReadReplica#same_zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#same_zone RdbReadReplica#same_zone}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -179,7 +179,7 @@ namespace scaleway.RdbReadReplica
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_read_replica#timeouts RdbReadReplica#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_read_replica#timeouts RdbReadReplica#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbReadReplica.RdbReadReplicaTimeouts\"}", isOptional: true)]

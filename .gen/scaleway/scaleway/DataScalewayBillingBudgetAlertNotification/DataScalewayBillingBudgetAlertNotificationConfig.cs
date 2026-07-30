@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayBillingBudgetAlertNotification
     {
         /// <summary>The ID of the budget alert notification to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert_notification#notification_id DataScalewayBillingBudgetAlertNotification#notification_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert_notification#notification_id DataScalewayBillingBudgetAlertNotification#notification_id}
         /// </remarks>
         [JsiiProperty(name: "notificationId", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayBillingBudgetAlertNotification
 
         /// <summary>The ID of the budget alert. If not provided, it will be retrieved from the notification.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert_notification#budget_alert_id DataScalewayBillingBudgetAlertNotification#budget_alert_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert_notification#budget_alert_id DataScalewayBillingBudgetAlertNotification#budget_alert_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "budgetAlertId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayBillingBudgetAlertNotification
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert_notification#organization_id DataScalewayBillingBudgetAlertNotification#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert_notification#organization_id DataScalewayBillingBudgetAlertNotification#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

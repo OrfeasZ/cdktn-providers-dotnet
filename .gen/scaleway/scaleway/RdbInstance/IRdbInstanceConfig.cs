@@ -9,7 +9,7 @@ namespace scaleway.RdbInstance
     {
         /// <summary>The type of database instance you want to create.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#node_type RdbInstance#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#node_type RdbInstance#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         string NodeType
@@ -19,7 +19,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Boolean to store logical backups in the same region as the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_same_region RdbInstance#backup_same_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_same_region RdbInstance#backup_same_region}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "backupSameRegion", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Backup schedule frequency in hours.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_schedule_frequency RdbInstance#backup_schedule_frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_schedule_frequency RdbInstance#backup_schedule_frequency}
         /// </remarks>
         [JsiiProperty(name: "backupScheduleFrequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Backup schedule retention in days.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_schedule_retention RdbInstance#backup_schedule_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_schedule_retention RdbInstance#backup_schedule_retention}
         /// </remarks>
         [JsiiProperty(name: "backupScheduleRetention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Disable automated backup for the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#disable_backup RdbInstance#disable_backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#disable_backup RdbInstance#disable_backup}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableBackup", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Enable or disable encryption at rest for the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#encryption_at_rest RdbInstance#encryption_at_rest}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#encryption_at_rest RdbInstance#encryption_at_rest}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "encryptionAtRest", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Database's engine version name (e.g., 'PostgreSQL-16', 'MySQL-8'). Changing this value triggers a blue/green upgrade using MajorUpgradeWorkflow with automatic endpoint migration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#engine RdbInstance#engine}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#engine RdbInstance#engine}
         /// </remarks>
         [JsiiProperty(name: "engine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace scaleway.RdbInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#id RdbInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#id RdbInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Map of engine settings to be set at database initialisation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#init_settings RdbInstance#init_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#init_settings RdbInstance#init_settings}
         /// </remarks>
         [JsiiProperty(name: "initSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Enable or disable high availability for the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#is_ha_cluster RdbInstance#is_ha_cluster}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#is_ha_cluster RdbInstance#is_ha_cluster}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isHaCluster", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>load_balancer block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#load_balancer RdbInstance#load_balancer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#load_balancer RdbInstance#load_balancer}
         /// </remarks>
         [JsiiProperty(name: "loadBalancer", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceLoadBalancer\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -164,7 +164,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>logs_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#logs_policy RdbInstance#logs_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#logs_policy RdbInstance#logs_policy}
         /// </remarks>
         [JsiiProperty(name: "logsPolicy", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceLogsPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -178,7 +178,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Name of the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#name RdbInstance#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#name RdbInstance#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -192,7 +192,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Password for the first user of the database instance. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password RdbInstance#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password RdbInstance#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -206,7 +206,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Password for the first user of the database instance in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password_wo RdbInstance#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password_wo RdbInstance#password_wo}
         /// </remarks>
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -220,7 +220,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password_wo_version RdbInstance#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password_wo_version RdbInstance#password_wo_version}
         /// </remarks>
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -234,7 +234,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>private_ip block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#private_ip RdbInstance#private_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#private_ip RdbInstance#private_ip}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RdbInstance.IRdbInstancePrivateIp" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "privateIp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.rdbInstance.RdbInstancePrivateIp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#private_network RdbInstance#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#private_network RdbInstance#private_network}
         /// </remarks>
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstancePrivateNetwork\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -263,7 +263,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#project_id RdbInstance#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#project_id RdbInstance#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -277,7 +277,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#region RdbInstance#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#region RdbInstance#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -291,7 +291,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Map of engine settings to be set on a running instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#settings RdbInstance#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#settings RdbInstance#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -307,7 +307,7 @@ namespace scaleway.RdbInstance
         /// <remarks>
         /// This allows restoring a database instance to the state captured in the specified snapshot. Conflicts with the <c>engine</c> attribute.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#snapshot_id RdbInstance#snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#snapshot_id RdbInstance#snapshot_id}
         /// </remarks>
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,7 +321,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>List of tags ["tag1", "tag2", ...] attached to a database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#tags RdbInstance#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#tags RdbInstance#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -335,7 +335,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#timeouts RdbInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#timeouts RdbInstance#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -349,7 +349,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Identifier for the first user of the database instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#user_name RdbInstance#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#user_name RdbInstance#user_name}
         /// </remarks>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -363,7 +363,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Volume size (in GB) when volume_type is not lssd.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#volume_size_in_gb RdbInstance#volume_size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#volume_size_in_gb RdbInstance#volume_size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -377,7 +377,7 @@ namespace scaleway.RdbInstance
 
         /// <summary>Type of volume where data are stored.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#volume_type RdbInstance#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#volume_type RdbInstance#volume_type}
         /// </remarks>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -398,7 +398,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>The type of database instance you want to create.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#node_type RdbInstance#node_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#node_type RdbInstance#node_type}
             /// </remarks>
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeType
@@ -408,7 +408,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Boolean to store logical backups in the same region as the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_same_region RdbInstance#backup_same_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_same_region RdbInstance#backup_same_region}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -420,7 +420,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Backup schedule frequency in hours.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_schedule_frequency RdbInstance#backup_schedule_frequency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_schedule_frequency RdbInstance#backup_schedule_frequency}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backupScheduleFrequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -431,7 +431,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Backup schedule retention in days.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#backup_schedule_retention RdbInstance#backup_schedule_retention}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#backup_schedule_retention RdbInstance#backup_schedule_retention}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backupScheduleRetention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -442,7 +442,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Disable automated backup for the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#disable_backup RdbInstance#disable_backup}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#disable_backup RdbInstance#disable_backup}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -454,7 +454,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Enable or disable encryption at rest for the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#encryption_at_rest RdbInstance#encryption_at_rest}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#encryption_at_rest RdbInstance#encryption_at_rest}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -466,7 +466,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Database's engine version name (e.g., 'PostgreSQL-16', 'MySQL-8'). Changing this value triggers a blue/green upgrade using MajorUpgradeWorkflow with automatic endpoint migration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#engine RdbInstance#engine}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#engine RdbInstance#engine}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "engine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -475,7 +475,7 @@ namespace scaleway.RdbInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#id RdbInstance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#id RdbInstance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -489,7 +489,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Map of engine settings to be set at database initialisation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#init_settings RdbInstance#init_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#init_settings RdbInstance#init_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "initSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -500,7 +500,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Enable or disable high availability for the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#is_ha_cluster RdbInstance#is_ha_cluster}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#is_ha_cluster RdbInstance#is_ha_cluster}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -512,7 +512,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>load_balancer block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#load_balancer RdbInstance#load_balancer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#load_balancer RdbInstance#load_balancer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancer", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceLoadBalancer\"}", isOptional: true)]
@@ -523,7 +523,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>logs_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#logs_policy RdbInstance#logs_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#logs_policy RdbInstance#logs_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logsPolicy", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceLogsPolicy\"}", isOptional: true)]
@@ -534,7 +534,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Name of the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#name RdbInstance#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#name RdbInstance#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -545,7 +545,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Password for the first user of the database instance. Only one of `password` or `password_wo` should be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password RdbInstance#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password RdbInstance#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -556,7 +556,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Password for the first user of the database instance in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password_wo RdbInstance#password_wo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password_wo RdbInstance#password_wo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -567,7 +567,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#password_wo_version RdbInstance#password_wo_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#password_wo_version RdbInstance#password_wo_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -578,7 +578,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>private_ip block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#private_ip RdbInstance#private_ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#private_ip RdbInstance#private_ip}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RdbInstance.IRdbInstancePrivateIp" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -590,7 +590,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>private_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#private_network RdbInstance#private_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#private_network RdbInstance#private_network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstancePrivateNetwork\"}", isOptional: true)]
@@ -601,7 +601,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#project_id RdbInstance#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#project_id RdbInstance#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -612,7 +612,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#region RdbInstance#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#region RdbInstance#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -623,7 +623,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Map of engine settings to be set on a running instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#settings RdbInstance#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#settings RdbInstance#settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -636,7 +636,7 @@ namespace scaleway.RdbInstance
             /// <remarks>
             /// This allows restoring a database instance to the state captured in the specified snapshot. Conflicts with the <c>engine</c> attribute.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#snapshot_id RdbInstance#snapshot_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#snapshot_id RdbInstance#snapshot_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -647,7 +647,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>List of tags ["tag1", "tag2", ...] attached to a database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#tags RdbInstance#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#tags RdbInstance#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -658,7 +658,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#timeouts RdbInstance#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#timeouts RdbInstance#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.rdbInstance.RdbInstanceTimeouts\"}", isOptional: true)]
@@ -669,7 +669,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Identifier for the first user of the database instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#user_name RdbInstance#user_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#user_name RdbInstance#user_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -680,7 +680,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Volume size (in GB) when volume_type is not lssd.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#volume_size_in_gb RdbInstance#volume_size_in_gb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#volume_size_in_gb RdbInstance#volume_size_in_gb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -691,7 +691,7 @@ namespace scaleway.RdbInstance
 
             /// <summary>Type of volume where data are stored.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/rdb_instance#volume_type RdbInstance#volume_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/rdb_instance#volume_type RdbInstance#volume_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

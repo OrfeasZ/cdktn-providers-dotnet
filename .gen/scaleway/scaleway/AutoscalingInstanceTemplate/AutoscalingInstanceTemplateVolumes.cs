@@ -11,7 +11,7 @@ namespace scaleway.AutoscalingInstanceTemplate
     {
         /// <summary>The name of the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#name AutoscalingInstanceTemplate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#name AutoscalingInstanceTemplate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Type of the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#volume_type AutoscalingInstanceTemplate#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#volume_type AutoscalingInstanceTemplate#volume_type}
         /// </remarks>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeType
@@ -35,7 +35,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>Force the Instance to boot on this volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#boot AutoscalingInstanceTemplate#boot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#boot AutoscalingInstanceTemplate#boot}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>from_empty block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#from_empty AutoscalingInstanceTemplate#from_empty}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#from_empty AutoscalingInstanceTemplate#from_empty}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fromEmpty", typeJson: "{\"fqn\":\"scaleway.autoscalingInstanceTemplate.AutoscalingInstanceTemplateVolumesFromEmpty\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>from_snapshot block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#from_snapshot AutoscalingInstanceTemplate#from_snapshot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#from_snapshot AutoscalingInstanceTemplate#from_snapshot}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fromSnapshot", typeJson: "{\"fqn\":\"scaleway.autoscalingInstanceTemplate.AutoscalingInstanceTemplateVolumesFromSnapshot\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>The maximum IO/s expected, according to the different options available in stock (`5000 | 15000`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#perf_iops AutoscalingInstanceTemplate#perf_iops}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#perf_iops AutoscalingInstanceTemplate#perf_iops}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "perfIops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace scaleway.AutoscalingInstanceTemplate
 
         /// <summary>List of tags assigned to the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/autoscaling_instance_template#tags AutoscalingInstanceTemplate#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_template#tags AutoscalingInstanceTemplate#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

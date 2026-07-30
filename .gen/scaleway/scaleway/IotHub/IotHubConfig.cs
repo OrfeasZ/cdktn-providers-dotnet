@@ -11,7 +11,7 @@ namespace scaleway.IotHub
     {
         /// <summary>The name of the hub.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#name IotHub#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#name IotHub#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace scaleway.IotHub
 
         /// <summary>The product plan of the hub.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#product_plan IotHub#product_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#product_plan IotHub#product_plan}
         /// </remarks>
         [JsiiProperty(name: "productPlan", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductPlan
@@ -35,7 +35,7 @@ namespace scaleway.IotHub
 
         /// <summary>Wether to enable the device auto provisioning or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#device_auto_provisioning IotHub#device_auto_provisioning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#device_auto_provisioning IotHub#device_auto_provisioning}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace scaleway.IotHub
 
         /// <summary>Whether to enable the hub events or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#disable_events IotHub#disable_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#disable_events IotHub#disable_events}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -105,7 +105,7 @@ namespace scaleway.IotHub
 
         /// <summary>Whether to enable the hub or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#enabled IotHub#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#enabled IotHub#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -138,7 +138,7 @@ namespace scaleway.IotHub
 
         /// <summary>Topic prefix for the hub events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#events_topic_prefix IotHub#events_topic_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#events_topic_prefix IotHub#events_topic_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventsTopicPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace scaleway.IotHub
 
         /// <summary>Custom user provided certificate authority.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#hub_ca IotHub#hub_ca}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#hub_ca IotHub#hub_ca}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hubCa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace scaleway.IotHub
 
         /// <summary>Challenge certificate for the user provided hub CA.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#hub_ca_challenge IotHub#hub_ca_challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#hub_ca_challenge IotHub#hub_ca_challenge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hubCaChallenge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace scaleway.IotHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#id IotHub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#id IotHub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +187,7 @@ namespace scaleway.IotHub
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#project_id IotHub#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#project_id IotHub#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace scaleway.IotHub
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#region IotHub#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#region IotHub#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace scaleway.IotHub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/iot_hub#timeouts IotHub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/iot_hub#timeouts IotHub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.iotHub.IotHubTimeouts\"}", isOptional: true)]

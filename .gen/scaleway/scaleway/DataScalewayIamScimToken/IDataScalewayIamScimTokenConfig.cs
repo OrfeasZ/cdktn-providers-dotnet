@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayIamScimToken
     {
         /// <summary>The ID of the SCIM token to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#token_id DataScalewayIamScimToken#token_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#token_id DataScalewayIamScimToken#token_id}
         /// </remarks>
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}")]
         string TokenId
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayIamScimToken
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#organization_id DataScalewayIamScimToken#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#organization_id DataScalewayIamScimToken#organization_id}
         /// </remarks>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayIamScimToken
 
         /// <summary>The SCIM configuration ID. If not provided, the SCIM configuration for the organization is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#scim_id DataScalewayIamScimToken#scim_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#scim_id DataScalewayIamScimToken#scim_id}
         /// </remarks>
         [JsiiProperty(name: "scimId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace scaleway.DataScalewayIamScimToken
 
             /// <summary>The ID of the SCIM token to retrieve.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#token_id DataScalewayIamScimToken#token_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#token_id DataScalewayIamScimToken#token_id}
             /// </remarks>
             [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}")]
             public string TokenId
@@ -64,7 +64,7 @@ namespace scaleway.DataScalewayIamScimToken
 
             /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#organization_id DataScalewayIamScimToken#organization_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#organization_id DataScalewayIamScimToken#organization_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.DataScalewayIamScimToken
 
             /// <summary>The SCIM configuration ID. If not provided, the SCIM configuration for the organization is used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/iam_scim_token#scim_id DataScalewayIamScimToken#scim_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/iam_scim_token#scim_id DataScalewayIamScimToken#scim_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scimId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

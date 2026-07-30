@@ -11,7 +11,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Query logs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#query_logs CockpitToken#query_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#query_logs CockpitToken#query_logs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Query metrics.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#query_metrics CockpitToken#query_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#query_metrics CockpitToken#query_metrics}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Query traces.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#query_traces CockpitToken#query_traces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#query_traces CockpitToken#query_traces}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Setup alerts.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#setup_alerts CockpitToken#setup_alerts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#setup_alerts CockpitToken#setup_alerts}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -151,7 +151,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Setup logs rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#setup_logs_rules CockpitToken#setup_logs_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#setup_logs_rules CockpitToken#setup_logs_rules}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Setup metrics rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#setup_metrics_rules CockpitToken#setup_metrics_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#setup_metrics_rules CockpitToken#setup_metrics_rules}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -221,7 +221,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Write logs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#write_logs CockpitToken#write_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#write_logs CockpitToken#write_logs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -256,7 +256,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Write metrics.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#write_metrics CockpitToken#write_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#write_metrics CockpitToken#write_metrics}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -291,7 +291,7 @@ namespace scaleway.CockpitToken
 
         /// <summary>Write traces.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/resources/cockpit_token#write_traces CockpitToken#write_traces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/cockpit_token#write_traces CockpitToken#write_traces}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

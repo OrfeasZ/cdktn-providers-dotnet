@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayBillingBudgetAlert
     {
         /// <summary>The ID of the budget alert to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert#alert_id DataScalewayBillingBudgetAlert#alert_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert#alert_id DataScalewayBillingBudgetAlert#alert_id}
         /// </remarks>
         [JsiiProperty(name: "alertId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlertId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayBillingBudgetAlert
 
         /// <summary>The ID of the budget. If not provided, it will be retrieved from the alert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert#budget_id DataScalewayBillingBudgetAlert#budget_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert#budget_id DataScalewayBillingBudgetAlert#budget_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewayBillingBudgetAlert
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.79.0/docs/data-sources/billing_budget_alert#organization_id DataScalewayBillingBudgetAlert#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/billing_budget_alert#organization_id DataScalewayBillingBudgetAlert#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
