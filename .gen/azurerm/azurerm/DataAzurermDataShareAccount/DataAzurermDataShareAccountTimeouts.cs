@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDataShareAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermDataShareAccount.DataAzurermDataShareAccountTimeouts")]
     public class DataAzurermDataShareAccountTimeouts : azurerm.DataAzurermDataShareAccount.IDataAzurermDataShareAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/data_share_account#read DataAzurermDataShareAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_share_account#read DataAzurermDataShareAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

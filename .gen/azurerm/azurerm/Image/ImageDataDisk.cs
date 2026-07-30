@@ -11,7 +11,7 @@ namespace azurerm.Image
     {
         /// <summary>The type of storage disk.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#storage_type Image#storage_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#storage_type Image#storage_type}
         /// </remarks>
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageType
@@ -20,7 +20,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#blob_uri Image#blob_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#blob_uri Image#blob_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blobUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlobUri
@@ -29,7 +29,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#caching Image#caching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#caching Image#caching}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "caching", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Caching
@@ -38,7 +38,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#disk_encryption_set_id Image#disk_encryption_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#disk_encryption_set_id Image#disk_encryption_set_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskEncryptionSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiskEncryptionSetId
@@ -47,7 +47,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#lun Image#lun}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#lun Image#lun}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lun", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Lun
@@ -56,7 +56,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#managed_disk_id Image#managed_disk_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#managed_disk_id Image#managed_disk_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedDiskId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagedDiskId
@@ -65,7 +65,7 @@ namespace azurerm.Image
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/image#size_gb Image#size_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/image#size_gb Image#size_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sizeGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SizeGb

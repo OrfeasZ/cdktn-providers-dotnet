@@ -9,7 +9,7 @@ namespace azurerm.NotificationHub
     [JsiiByValue(fqn: "azurerm.notificationHub.NotificationHubBrowserCredential")]
     public class NotificationHubBrowserCredential : azurerm.NotificationHub.INotificationHubBrowserCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#subject NotificationHub#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#subject NotificationHub#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         public string Subject
         {
@@ -17,7 +17,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#vapid_private_key NotificationHub#vapid_private_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#vapid_private_key NotificationHub#vapid_private_key}.</summary>
         [JsiiProperty(name: "vapidPrivateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string VapidPrivateKey
         {
@@ -25,7 +25,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/notification_hub#vapid_public_key NotificationHub#vapid_public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#vapid_public_key NotificationHub#vapid_public_key}.</summary>
         [JsiiProperty(name: "vapidPublicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string VapidPublicKey
         {

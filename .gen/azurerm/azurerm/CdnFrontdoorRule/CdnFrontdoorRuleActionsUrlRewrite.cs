@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorRule
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorRule.CdnFrontdoorRuleActionsUrlRewrite")]
     public class CdnFrontdoorRuleActionsUrlRewrite : azurerm.CdnFrontdoorRule.ICdnFrontdoorRuleActionsUrlRewrite
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#destination_path CdnFrontdoorRule#destination_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#destination_path CdnFrontdoorRule#destination_path}.</summary>
         [JsiiProperty(name: "destinationPath", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationPath
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnFrontdoorRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#source_pattern CdnFrontdoorRule#source_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#source_pattern CdnFrontdoorRule#source_pattern}.</summary>
         [JsiiProperty(name: "sourcePattern", typeJson: "{\"primitive\":\"string\"}")]
         public string SourcePattern
         {
@@ -27,7 +27,7 @@ namespace azurerm.CdnFrontdoorRule
 
         private object? _preserveUnmatchedPathEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cdn_frontdoor_rule#preserve_unmatched_path_enabled CdnFrontdoorRule#preserve_unmatched_path_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_rule#preserve_unmatched_path_enabled CdnFrontdoorRule#preserve_unmatched_path_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace azurerm.MssqlFailoverGroup
     [JsiiInterface(nativeType: typeof(IMssqlFailoverGroupReadWriteEndpointFailoverPolicy), fullyQualifiedName: "azurerm.mssqlFailoverGroup.MssqlFailoverGroupReadWriteEndpointFailoverPolicy")]
     public interface IMssqlFailoverGroupReadWriteEndpointFailoverPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
         [JsiiProperty(name: "graceMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GraceMinutes
@@ -32,14 +32,14 @@ namespace azurerm.MssqlFailoverGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group#mode MssqlFailoverGroup#mode}.</summary>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_failover_group#grace_minutes MssqlFailoverGroup#grace_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "graceMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GraceMinutes

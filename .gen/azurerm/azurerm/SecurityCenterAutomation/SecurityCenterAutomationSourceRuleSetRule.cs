@@ -9,7 +9,7 @@ namespace azurerm.SecurityCenterAutomation
     [JsiiByValue(fqn: "azurerm.securityCenterAutomation.SecurityCenterAutomationSourceRuleSetRule")]
     public class SecurityCenterAutomationSourceRuleSetRule : azurerm.SecurityCenterAutomation.ISecurityCenterAutomationSourceRuleSetRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#expected_value SecurityCenterAutomation#expected_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation#expected_value SecurityCenterAutomation#expected_value}.</summary>
         [JsiiProperty(name: "expectedValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ExpectedValue
         {
@@ -17,7 +17,7 @@ namespace azurerm.SecurityCenterAutomation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#operator SecurityCenterAutomation#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation#operator SecurityCenterAutomation#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -25,7 +25,7 @@ namespace azurerm.SecurityCenterAutomation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#property_path SecurityCenterAutomation#property_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation#property_path SecurityCenterAutomation#property_path}.</summary>
         [JsiiProperty(name: "propertyPath", typeJson: "{\"primitive\":\"string\"}")]
         public string PropertyPath
         {
@@ -33,7 +33,7 @@ namespace azurerm.SecurityCenterAutomation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation#property_type SecurityCenterAutomation#property_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation#property_type SecurityCenterAutomation#property_type}.</summary>
         [JsiiProperty(name: "propertyType", typeJson: "{\"primitive\":\"string\"}")]
         public string PropertyType
         {

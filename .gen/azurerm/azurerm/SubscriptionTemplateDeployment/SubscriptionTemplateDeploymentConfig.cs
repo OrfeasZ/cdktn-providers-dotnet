@@ -9,7 +9,7 @@ namespace azurerm.SubscriptionTemplateDeployment
     [JsiiByValue(fqn: "azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentConfig")]
     public class SubscriptionTemplateDeploymentConfig : azurerm.SubscriptionTemplateDeployment.ISubscriptionTemplateDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#location SubscriptionTemplateDeployment#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#location SubscriptionTemplateDeployment#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#name SubscriptionTemplateDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#name SubscriptionTemplateDeployment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#debug_level SubscriptionTemplateDeployment#debug_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#debug_level SubscriptionTemplateDeployment#debug_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "debugLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DebugLevel
@@ -34,7 +34,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#id SubscriptionTemplateDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#id SubscriptionTemplateDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#parameters_content SubscriptionTemplateDeployment#parameters_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#parameters_content SubscriptionTemplateDeployment#parameters_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parametersContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParametersContent
@@ -56,7 +56,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#tags SubscriptionTemplateDeployment#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#tags SubscriptionTemplateDeployment#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -65,7 +65,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#template_content SubscriptionTemplateDeployment#template_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#template_content SubscriptionTemplateDeployment#template_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateContent
@@ -74,7 +74,7 @@ namespace azurerm.SubscriptionTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#template_spec_version_id SubscriptionTemplateDeployment#template_spec_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#template_spec_version_id SubscriptionTemplateDeployment#template_spec_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateSpecVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateSpecVersionId
@@ -85,7 +85,7 @@ namespace azurerm.SubscriptionTemplateDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_template_deployment#timeouts SubscriptionTemplateDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_template_deployment#timeouts SubscriptionTemplateDeployment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.subscriptionTemplateDeployment.SubscriptionTemplateDeploymentTimeouts\"}", isOptional: true)]

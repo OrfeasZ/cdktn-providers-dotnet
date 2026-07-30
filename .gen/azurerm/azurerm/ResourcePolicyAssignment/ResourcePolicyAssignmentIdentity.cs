@@ -9,7 +9,7 @@ namespace azurerm.ResourcePolicyAssignment
     [JsiiByValue(fqn: "azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentIdentity")]
     public class ResourcePolicyAssignmentIdentity : azurerm.ResourcePolicyAssignment.IResourcePolicyAssignmentIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#type ResourcePolicyAssignment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#type ResourcePolicyAssignment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.ResourcePolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#identity_ids ResourcePolicyAssignment#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#identity_ids ResourcePolicyAssignment#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

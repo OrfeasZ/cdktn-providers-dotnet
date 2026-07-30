@@ -9,7 +9,7 @@ namespace azurerm.BotChannelLine
     [JsiiByValue(fqn: "azurerm.botChannelLine.BotChannelLineLineChannel")]
     public class BotChannelLineLineChannel : azurerm.BotChannelLine.IBotChannelLineLineChannel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/bot_channel_line#access_token BotChannelLine#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_line#access_token BotChannelLine#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessToken
         {
@@ -17,7 +17,7 @@ namespace azurerm.BotChannelLine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/bot_channel_line#secret BotChannelLine#secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/bot_channel_line#secret BotChannelLine#secret}.</summary>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
         public string Secret
         {

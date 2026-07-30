@@ -7,7 +7,7 @@ namespace azurerm.Provider
     [JsiiInterface(nativeType: typeof(IAzurermProviderFeaturesStorage), fullyQualifiedName: "azurerm.provider.AzurermProviderFeaturesStorage")]
     public interface IAzurermProviderFeaturesStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace azurerm.Provider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#data_plane_available AzurermProvider#data_plane_available}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

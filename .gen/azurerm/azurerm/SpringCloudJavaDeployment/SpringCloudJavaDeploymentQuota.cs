@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudJavaDeployment
     [JsiiByValue(fqn: "azurerm.springCloudJavaDeployment.SpringCloudJavaDeploymentQuota")]
     public class SpringCloudJavaDeploymentQuota : azurerm.SpringCloudJavaDeployment.ISpringCloudJavaDeploymentQuota
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_java_deployment#cpu SpringCloudJavaDeployment#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_java_deployment#cpu SpringCloudJavaDeployment#cpu}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Cpu
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudJavaDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_java_deployment#memory SpringCloudJavaDeployment#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_java_deployment#memory SpringCloudJavaDeployment#memory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Memory

@@ -9,7 +9,7 @@ namespace azurerm.VmwarePrivateCloud
     [JsiiByValue(fqn: "azurerm.vmwarePrivateCloud.VmwarePrivateCloudManagementCluster")]
     public class VmwarePrivateCloudManagementCluster : azurerm.VmwarePrivateCloud.IVmwarePrivateCloudManagementCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vmware_private_cloud#size VmwarePrivateCloud#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_private_cloud#size VmwarePrivateCloud#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {

@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermPolicySetDefinition
     /// <remarks>
     /// <h1><c>data_azurerm_policy_set_definition</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_set_definition"><c>data_azurerm_policy_set_definition</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/policy_set_definition"><c>data_azurerm_policy_set_definition</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

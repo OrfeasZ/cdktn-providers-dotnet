@@ -7,7 +7,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterMonitorMetrics")]
     public class KubernetesClusterMonitorMetrics : azurerm.KubernetesCluster.IKubernetesClusterMonitorMetrics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#annotations_allowed KubernetesCluster#annotations_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#annotations_allowed KubernetesCluster#annotations_allowed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "annotationsAllowed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AnnotationsAllowed
@@ -16,7 +16,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#labels_allowed KubernetesCluster#labels_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#labels_allowed KubernetesCluster#labels_allowed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labelsAllowed", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LabelsAllowed

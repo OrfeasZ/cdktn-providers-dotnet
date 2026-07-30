@@ -9,7 +9,7 @@ namespace azurerm.MssqlElasticpool
     [JsiiByValue(fqn: "azurerm.mssqlElasticpool.MssqlElasticpoolConfig")]
     public class MssqlElasticpoolConfig : azurerm.MssqlElasticpool.IMssqlElasticpoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#location MssqlElasticpool#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#location MssqlElasticpool#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#name MssqlElasticpool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#name MssqlElasticpool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace azurerm.MssqlElasticpool
 
         /// <summary>per_database_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#per_database_settings MssqlElasticpool#per_database_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#per_database_settings MssqlElasticpool#per_database_settings}
         /// </remarks>
         [JsiiProperty(name: "perDatabaseSettings", typeJson: "{\"fqn\":\"azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettings\"}")]
         public azurerm.MssqlElasticpool.IMssqlElasticpoolPerDatabaseSettings PerDatabaseSettings
@@ -36,7 +36,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#resource_group_name MssqlElasticpool#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#resource_group_name MssqlElasticpool#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -44,7 +44,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#server_name MssqlElasticpool#server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#server_name MssqlElasticpool#server_name}.</summary>
         [JsiiProperty(name: "serverName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerName
         {
@@ -54,7 +54,7 @@ namespace azurerm.MssqlElasticpool
 
         /// <summary>sku block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#sku MssqlElasticpool#sku}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#sku MssqlElasticpool#sku}
         /// </remarks>
         [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.mssqlElasticpool.MssqlElasticpoolSku\"}")]
         public azurerm.MssqlElasticpool.IMssqlElasticpoolSku Sku
@@ -63,7 +63,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#enclave_type MssqlElasticpool#enclave_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#enclave_type MssqlElasticpool#enclave_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enclaveType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnclaveType
@@ -72,7 +72,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#high_availability_replica_count MssqlElasticpool#high_availability_replica_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#high_availability_replica_count MssqlElasticpool#high_availability_replica_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "highAvailabilityReplicaCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HighAvailabilityReplicaCount
@@ -81,7 +81,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#id MssqlElasticpool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#id MssqlElasticpool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#license_type MssqlElasticpool#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#license_type MssqlElasticpool#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType
@@ -103,7 +103,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#maintenance_configuration_name MssqlElasticpool#maintenance_configuration_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#maintenance_configuration_name MssqlElasticpool#maintenance_configuration_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceConfigurationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceConfigurationName
@@ -112,7 +112,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#max_size_bytes MssqlElasticpool#max_size_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#max_size_bytes MssqlElasticpool#max_size_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxSizeBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxSizeBytes
@@ -121,7 +121,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#max_size_gb MssqlElasticpool#max_size_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#max_size_gb MssqlElasticpool#max_size_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxSizeGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxSizeGb
@@ -130,7 +130,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#tags MssqlElasticpool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#tags MssqlElasticpool#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -141,7 +141,7 @@ namespace azurerm.MssqlElasticpool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#timeouts MssqlElasticpool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#timeouts MssqlElasticpool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mssqlElasticpool.MssqlElasticpoolTimeouts\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace azurerm.MssqlElasticpool
 
         private object? _zoneRedundant;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#zone_redundant MssqlElasticpool#zone_redundant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#zone_redundant MssqlElasticpool#zone_redundant}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

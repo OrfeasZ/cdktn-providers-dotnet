@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _disableGeneratedRule;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#disable_generated_rule AzurermProvider#disable_generated_rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#disable_generated_rule AzurermProvider#disable_generated_rule}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

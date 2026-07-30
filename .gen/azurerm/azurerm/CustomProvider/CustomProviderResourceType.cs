@@ -9,7 +9,7 @@ namespace azurerm.CustomProvider
     [JsiiByValue(fqn: "azurerm.customProvider.CustomProviderResourceType")]
     public class CustomProviderResourceType : azurerm.CustomProvider.ICustomProviderResourceType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/custom_provider#endpoint CustomProvider#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/custom_provider#endpoint CustomProvider#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string Endpoint
         {
@@ -17,7 +17,7 @@ namespace azurerm.CustomProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/custom_provider#name CustomProvider#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/custom_provider#name CustomProvider#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.CustomProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/custom_provider#routing_type CustomProvider#routing_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/custom_provider#routing_type CustomProvider#routing_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoutingType

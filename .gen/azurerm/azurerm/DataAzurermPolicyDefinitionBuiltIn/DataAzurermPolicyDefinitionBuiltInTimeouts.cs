@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPolicyDefinitionBuiltIn
     [JsiiByValue(fqn: "azurerm.dataAzurermPolicyDefinitionBuiltIn.DataAzurermPolicyDefinitionBuiltInTimeouts")]
     public class DataAzurermPolicyDefinitionBuiltInTimeouts : azurerm.DataAzurermPolicyDefinitionBuiltIn.IDataAzurermPolicyDefinitionBuiltInTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/policy_definition_built_in#read DataAzurermPolicyDefinitionBuiltIn#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/policy_definition_built_in#read DataAzurermPolicyDefinitionBuiltIn#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

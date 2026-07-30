@@ -11,7 +11,7 @@ namespace azurerm.Provider
 
         /// <summary>api_management block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#api_management AzurermProvider#api_management}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#api_management AzurermProvider#api_management}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesApiManagement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azurerm.Provider
 
         /// <summary>app_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#app_configuration AzurermProvider#app_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#app_configuration AzurermProvider#app_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesAppConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace azurerm.Provider
 
         /// <summary>application_insights block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#application_insights AzurermProvider#application_insights}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#application_insights AzurermProvider#application_insights}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesApplicationInsights" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace azurerm.Provider
 
         /// <summary>cognitive_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#cognitive_account AzurermProvider#cognitive_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#cognitive_account AzurermProvider#cognitive_account}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesCognitiveAccount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -151,7 +151,7 @@ namespace azurerm.Provider
 
         /// <summary>databricks_workspace block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#databricks_workspace AzurermProvider#databricks_workspace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#databricks_workspace AzurermProvider#databricks_workspace}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesDatabricksWorkspace" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace azurerm.Provider
 
         /// <summary>enhanced_validation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#enhanced_validation AzurermProvider#enhanced_validation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#enhanced_validation AzurermProvider#enhanced_validation}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesEnhancedValidation" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -221,7 +221,7 @@ namespace azurerm.Provider
 
         /// <summary>key_vault block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#key_vault AzurermProvider#key_vault}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#key_vault AzurermProvider#key_vault}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesKeyVault" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -256,7 +256,7 @@ namespace azurerm.Provider
 
         /// <summary>log_analytics_workspace block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#log_analytics_workspace AzurermProvider#log_analytics_workspace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#log_analytics_workspace AzurermProvider#log_analytics_workspace}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesLogAnalyticsWorkspace" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -291,7 +291,7 @@ namespace azurerm.Provider
 
         /// <summary>machine_learning block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#machine_learning AzurermProvider#machine_learning}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#machine_learning AzurermProvider#machine_learning}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesMachineLearning" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -326,7 +326,7 @@ namespace azurerm.Provider
 
         /// <summary>managed_disk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#managed_disk AzurermProvider#managed_disk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#managed_disk AzurermProvider#managed_disk}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesManagedDisk" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -361,7 +361,7 @@ namespace azurerm.Provider
 
         /// <summary>netapp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#netapp AzurermProvider#netapp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#netapp AzurermProvider#netapp}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesNetapp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -396,7 +396,7 @@ namespace azurerm.Provider
 
         /// <summary>Whether to set the resource ID into state before polling asynchronous operations for completion. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#persist_id_on_create_before_polling_for_completion AzurermProvider#persist_id_on_create_before_polling_for_completion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#persist_id_on_create_before_polling_for_completion AzurermProvider#persist_id_on_create_before_polling_for_completion}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -431,7 +431,7 @@ namespace azurerm.Provider
 
         /// <summary>postgresql_flexible_server block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#postgresql_flexible_server AzurermProvider#postgresql_flexible_server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#postgresql_flexible_server AzurermProvider#postgresql_flexible_server}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesPostgresqlFlexibleServer" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -466,7 +466,7 @@ namespace azurerm.Provider
 
         /// <summary>recovery_service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#recovery_service AzurermProvider#recovery_service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#recovery_service AzurermProvider#recovery_service}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesRecoveryService" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -501,7 +501,7 @@ namespace azurerm.Provider
 
         /// <summary>recovery_services_vaults block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#recovery_services_vaults AzurermProvider#recovery_services_vaults}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#recovery_services_vaults AzurermProvider#recovery_services_vaults}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesRecoveryServicesVaults" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -536,7 +536,7 @@ namespace azurerm.Provider
 
         /// <summary>resource_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#resource_group AzurermProvider#resource_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_group AzurermProvider#resource_group}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesResourceGroup" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -571,7 +571,7 @@ namespace azurerm.Provider
 
         /// <summary>servicebus block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#servicebus AzurermProvider#servicebus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#servicebus AzurermProvider#servicebus}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesServicebus" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -608,7 +608,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// Defaults to <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#skip_import_check_on_create_and_allow_overwriting_existing_resources AzurermProvider#skip_import_check_on_create_and_allow_overwriting_existing_resources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#skip_import_check_on_create_and_allow_overwriting_existing_resources AzurermProvider#skip_import_check_on_create_and_allow_overwriting_existing_resources}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -643,7 +643,7 @@ namespace azurerm.Provider
 
         /// <summary>storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#storage AzurermProvider#storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#storage AzurermProvider#storage}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesStorage" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -678,7 +678,7 @@ namespace azurerm.Provider
 
         /// <summary>subscription block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#subscription AzurermProvider#subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#subscription AzurermProvider#subscription}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesSubscription" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -713,7 +713,7 @@ namespace azurerm.Provider
 
         /// <summary>template_deployment block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#template_deployment AzurermProvider#template_deployment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#template_deployment AzurermProvider#template_deployment}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesTemplateDeployment" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -748,7 +748,7 @@ namespace azurerm.Provider
 
         /// <summary>virtual_machine block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#virtual_machine AzurermProvider#virtual_machine}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#virtual_machine AzurermProvider#virtual_machine}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesVirtualMachine" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -783,7 +783,7 @@ namespace azurerm.Provider
 
         /// <summary>virtual_machine_scale_set block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#virtual_machine_scale_set AzurermProvider#virtual_machine_scale_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#virtual_machine_scale_set AzurermProvider#virtual_machine_scale_set}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeaturesVirtualMachineScaleSet" />)[]</para>
         /// </remarks>
         [JsiiOptional]

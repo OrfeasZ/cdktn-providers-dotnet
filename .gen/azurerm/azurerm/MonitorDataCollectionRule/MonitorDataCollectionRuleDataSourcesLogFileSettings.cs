@@ -11,7 +11,7 @@ namespace azurerm.MonitorDataCollectionRule
     {
         /// <summary>text block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_data_collection_rule#text MonitorDataCollectionRule#text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#text MonitorDataCollectionRule#text}
         /// </remarks>
         [JsiiProperty(name: "text", typeJson: "{\"fqn\":\"azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesLogFileSettingsText\"}")]
         public azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesLogFileSettingsText Text

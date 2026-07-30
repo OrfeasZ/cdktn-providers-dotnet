@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNetworkServiceTags
     [JsiiByValue(fqn: "azurerm.dataAzurermNetworkServiceTags.DataAzurermNetworkServiceTagsTimeouts")]
     public class DataAzurermNetworkServiceTagsTimeouts : azurerm.DataAzurermNetworkServiceTags.IDataAzurermNetworkServiceTagsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.ArcKubernetesCluster
     [JsiiInterface(nativeType: typeof(IArcKubernetesClusterIdentity), fullyQualifiedName: "azurerm.arcKubernetesCluster.ArcKubernetesClusterIdentity")]
     public interface IArcKubernetesClusterIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.ArcKubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/arc_kubernetes_cluster#type ArcKubernetesCluster#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

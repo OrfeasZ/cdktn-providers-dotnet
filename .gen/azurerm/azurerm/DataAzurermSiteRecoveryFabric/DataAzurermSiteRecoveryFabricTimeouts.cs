@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSiteRecoveryFabric
     [JsiiByValue(fqn: "azurerm.dataAzurermSiteRecoveryFabric.DataAzurermSiteRecoveryFabricTimeouts")]
     public class DataAzurermSiteRecoveryFabricTimeouts : azurerm.DataAzurermSiteRecoveryFabric.IDataAzurermSiteRecoveryFabricTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/site_recovery_fabric#read DataAzurermSiteRecoveryFabric#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/site_recovery_fabric#read DataAzurermSiteRecoveryFabric#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

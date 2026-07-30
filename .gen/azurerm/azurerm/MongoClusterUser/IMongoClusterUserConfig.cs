@@ -7,28 +7,28 @@ namespace azurerm.MongoClusterUser
     [JsiiInterface(nativeType: typeof(IMongoClusterUserConfig), fullyQualifiedName: "azurerm.mongoClusterUser.MongoClusterUserConfig")]
     public interface IMongoClusterUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#identity_provider_type MongoClusterUser#identity_provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#identity_provider_type MongoClusterUser#identity_provider_type}.</summary>
         [JsiiProperty(name: "identityProviderType", typeJson: "{\"primitive\":\"string\"}")]
         string IdentityProviderType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#mongo_cluster_id MongoClusterUser#mongo_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#mongo_cluster_id MongoClusterUser#mongo_cluster_id}.</summary>
         [JsiiProperty(name: "mongoClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string MongoClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#object_id MongoClusterUser#object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#object_id MongoClusterUser#object_id}.</summary>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#principal_type MongoClusterUser#principal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#principal_type MongoClusterUser#principal_type}.</summary>
         [JsiiProperty(name: "principalType", typeJson: "{\"primitive\":\"string\"}")]
         string PrincipalType
         {
@@ -37,7 +37,7 @@ namespace azurerm.MongoClusterUser
 
         /// <summary>role block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#role MongoClusterUser#role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#role MongoClusterUser#role}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MongoClusterUser.IMongoClusterUserRole" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "role", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.mongoClusterUser.MongoClusterUserRole\"},\"kind\":\"array\"}}]}}")]
@@ -46,7 +46,7 @@ namespace azurerm.MongoClusterUser
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#id MongoClusterUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#id MongoClusterUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace azurerm.MongoClusterUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#timeouts MongoClusterUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#timeouts MongoClusterUser#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mongoClusterUser.MongoClusterUserTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,28 +82,28 @@ namespace azurerm.MongoClusterUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#identity_provider_type MongoClusterUser#identity_provider_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#identity_provider_type MongoClusterUser#identity_provider_type}.</summary>
             [JsiiProperty(name: "identityProviderType", typeJson: "{\"primitive\":\"string\"}")]
             public string IdentityProviderType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#mongo_cluster_id MongoClusterUser#mongo_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#mongo_cluster_id MongoClusterUser#mongo_cluster_id}.</summary>
             [JsiiProperty(name: "mongoClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string MongoClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#object_id MongoClusterUser#object_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#object_id MongoClusterUser#object_id}.</summary>
             [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#principal_type MongoClusterUser#principal_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#principal_type MongoClusterUser#principal_type}.</summary>
             [JsiiProperty(name: "principalType", typeJson: "{\"primitive\":\"string\"}")]
             public string PrincipalType
             {
@@ -112,7 +112,7 @@ namespace azurerm.MongoClusterUser
 
             /// <summary>role block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#role MongoClusterUser#role}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#role MongoClusterUser#role}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MongoClusterUser.IMongoClusterUserRole" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "role", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.mongoClusterUser.MongoClusterUserRole\"},\"kind\":\"array\"}}]}}")]
@@ -121,7 +121,7 @@ namespace azurerm.MongoClusterUser
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#id MongoClusterUser#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#id MongoClusterUser#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -135,7 +135,7 @@ namespace azurerm.MongoClusterUser
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mongo_cluster_user#timeouts MongoClusterUser#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster_user#timeouts MongoClusterUser#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mongoClusterUser.MongoClusterUserTimeouts\"}", isOptional: true)]

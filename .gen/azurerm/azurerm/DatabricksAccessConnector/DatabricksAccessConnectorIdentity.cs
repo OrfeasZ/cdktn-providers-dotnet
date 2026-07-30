@@ -9,7 +9,7 @@ namespace azurerm.DatabricksAccessConnector
     [JsiiByValue(fqn: "azurerm.databricksAccessConnector.DatabricksAccessConnectorIdentity")]
     public class DatabricksAccessConnectorIdentity : azurerm.DatabricksAccessConnector.IDatabricksAccessConnectorIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/databricks_access_connector#type DatabricksAccessConnector#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/databricks_access_connector#type DatabricksAccessConnector#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.DatabricksAccessConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/databricks_access_connector#identity_ids DatabricksAccessConnector#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/databricks_access_connector#identity_ids DatabricksAccessConnector#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

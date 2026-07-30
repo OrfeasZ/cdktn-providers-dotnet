@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSharedImageVersions
     [JsiiByValue(fqn: "azurerm.dataAzurermSharedImageVersions.DataAzurermSharedImageVersionsTimeouts")]
     public class DataAzurermSharedImageVersionsTimeouts : azurerm.DataAzurermSharedImageVersions.IDataAzurermSharedImageVersionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_versions#read DataAzurermSharedImageVersions#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

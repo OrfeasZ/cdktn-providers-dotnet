@@ -7,14 +7,14 @@ namespace azurerm.VirtualMachineExtension
     [JsiiInterface(nativeType: typeof(IVirtualMachineExtensionProtectedSettingsFromKeyVault), fullyQualifiedName: "azurerm.virtualMachineExtension.VirtualMachineExtensionProtectedSettingsFromKeyVault")]
     public interface IVirtualMachineExtensionProtectedSettingsFromKeyVault
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_extension#secret_url VirtualMachineExtension#secret_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension#secret_url VirtualMachineExtension#secret_url}.</summary>
         [JsiiProperty(name: "secretUrl", typeJson: "{\"primitive\":\"string\"}")]
         string SecretUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_extension#source_vault_id VirtualMachineExtension#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension#source_vault_id VirtualMachineExtension#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceVaultId
         {
@@ -28,14 +28,14 @@ namespace azurerm.VirtualMachineExtension
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_extension#secret_url VirtualMachineExtension#secret_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension#secret_url VirtualMachineExtension#secret_url}.</summary>
             [JsiiProperty(name: "secretUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_extension#source_vault_id VirtualMachineExtension#source_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_extension#source_vault_id VirtualMachineExtension#source_vault_id}.</summary>
             [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceVaultId
             {

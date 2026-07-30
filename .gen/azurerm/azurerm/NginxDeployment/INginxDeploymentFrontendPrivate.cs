@@ -7,21 +7,21 @@ namespace azurerm.NginxDeployment
     [JsiiInterface(nativeType: typeof(INginxDeploymentFrontendPrivate), fullyQualifiedName: "azurerm.nginxDeployment.NginxDeploymentFrontendPrivate")]
     public interface INginxDeploymentFrontendPrivate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#allocation_method NginxDeployment#allocation_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#allocation_method NginxDeployment#allocation_method}.</summary>
         [JsiiProperty(name: "allocationMethod", typeJson: "{\"primitive\":\"string\"}")]
         string AllocationMethod
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         string IpAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
@@ -35,21 +35,21 @@ namespace azurerm.NginxDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#allocation_method NginxDeployment#allocation_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#allocation_method NginxDeployment#allocation_method}.</summary>
             [JsiiProperty(name: "allocationMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string AllocationMethod
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
             [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string IpAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#subnet_id NginxDeployment#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {

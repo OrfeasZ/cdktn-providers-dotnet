@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiByValue(fqn: "azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsApplicationLogsAzureBlobStorage")]
     public class WindowsWebAppSlotLogsApplicationLogsAzureBlobStorage : azurerm.WindowsWebAppSlot.IWindowsWebAppSlotLogsApplicationLogsAzureBlobStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app_slot#level WindowsWebAppSlot#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#level WindowsWebAppSlot#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}")]
         public string Level
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app_slot#retention_in_days WindowsWebAppSlot#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#retention_in_days WindowsWebAppSlot#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionInDays
         {
@@ -25,7 +25,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app_slot#sas_url WindowsWebAppSlot#sas_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#sas_url WindowsWebAppSlot#sas_url}.</summary>
         [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SasUrl
         {

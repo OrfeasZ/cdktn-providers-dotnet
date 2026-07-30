@@ -9,7 +9,7 @@ namespace azurerm.MonitorAutoscaleSetting
     {
         /// <summary>email block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#email MonitorAutoscaleSetting#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#email MonitorAutoscaleSetting#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingNotificationEmail\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
         /// <summary>webhook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#webhook MonitorAutoscaleSetting#webhook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#webhook MonitorAutoscaleSetting#webhook}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingNotificationWebhook" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "webhook", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingNotificationWebhook\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
             /// <summary>email block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#email MonitorAutoscaleSetting#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#email MonitorAutoscaleSetting#email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingNotificationEmail\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
             /// <summary>webhook block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#webhook MonitorAutoscaleSetting#webhook}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#webhook MonitorAutoscaleSetting#webhook}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingNotificationWebhook" />)[]</para>
             /// </remarks>
             [JsiiOptional]

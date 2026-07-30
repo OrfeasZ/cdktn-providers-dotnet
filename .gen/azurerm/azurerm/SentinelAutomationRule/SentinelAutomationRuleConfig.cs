@@ -9,7 +9,7 @@ namespace azurerm.SentinelAutomationRule
     [JsiiByValue(fqn: "azurerm.sentinelAutomationRule.SentinelAutomationRuleConfig")]
     public class SentinelAutomationRuleConfig : azurerm.SentinelAutomationRule.ISentinelAutomationRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#display_name SentinelAutomationRule#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#display_name SentinelAutomationRule#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#log_analytics_workspace_id SentinelAutomationRule#log_analytics_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#log_analytics_workspace_id SentinelAutomationRule#log_analytics_workspace_id}.</summary>
         [JsiiProperty(name: "logAnalyticsWorkspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsWorkspaceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#name SentinelAutomationRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#name SentinelAutomationRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         public double Order
         {
@@ -45,7 +45,7 @@ namespace azurerm.SentinelAutomationRule
 
         /// <summary>action_incident block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#action_incident SentinelAutomationRule#action_incident}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#action_incident SentinelAutomationRule#action_incident}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SentinelAutomationRule.ISentinelAutomationRuleActionIncident" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.SentinelAutomationRule
 
         /// <summary>action_incident_task block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#action_incident_task SentinelAutomationRule#action_incident_task}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#action_incident_task SentinelAutomationRule#action_incident_task}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SentinelAutomationRule.ISentinelAutomationRuleActionIncidentTask" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace azurerm.SentinelAutomationRule
 
         /// <summary>action_playbook block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#action_playbook SentinelAutomationRule#action_playbook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#action_playbook SentinelAutomationRule#action_playbook}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SentinelAutomationRule.ISentinelAutomationRuleActionPlaybook" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -146,7 +146,7 @@ namespace azurerm.SentinelAutomationRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#condition_json SentinelAutomationRule#condition_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#condition_json SentinelAutomationRule#condition_json}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conditionJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConditionJson
@@ -157,7 +157,7 @@ namespace azurerm.SentinelAutomationRule
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#enabled SentinelAutomationRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#enabled SentinelAutomationRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -189,7 +189,7 @@ namespace azurerm.SentinelAutomationRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#expiration SentinelAutomationRule#expiration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#expiration SentinelAutomationRule#expiration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Expiration
@@ -198,7 +198,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#id SentinelAutomationRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#id SentinelAutomationRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +213,7 @@ namespace azurerm.SentinelAutomationRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#timeouts SentinelAutomationRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#timeouts SentinelAutomationRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.sentinelAutomationRule.SentinelAutomationRuleTimeouts\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#triggers_on SentinelAutomationRule#triggers_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#triggers_on SentinelAutomationRule#triggers_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "triggersOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TriggersOn
@@ -232,7 +232,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/sentinel_automation_rule#triggers_when SentinelAutomationRule#triggers_when}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/sentinel_automation_rule#triggers_when SentinelAutomationRule#triggers_when}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "triggersWhen", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TriggersWhen

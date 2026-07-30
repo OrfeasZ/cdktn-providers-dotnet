@@ -11,7 +11,7 @@ namespace azurerm.MonitorAutoscaleSetting
     {
         /// <summary>capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#capacity MonitorAutoscaleSetting#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#capacity MonitorAutoscaleSetting#capacity}
         /// </remarks>
         [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileCapacity\"}")]
         public azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingProfileCapacity Capacity
@@ -20,7 +20,7 @@ namespace azurerm.MonitorAutoscaleSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#name MonitorAutoscaleSetting#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#name MonitorAutoscaleSetting#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -30,7 +30,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
         /// <summary>fixed_date block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#fixed_date MonitorAutoscaleSetting#fixed_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#fixed_date MonitorAutoscaleSetting#fixed_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedDate", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileFixedDate\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
         /// <summary>recurrence block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#recurrence MonitorAutoscaleSetting#recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#recurrence MonitorAutoscaleSetting#recurrence}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recurrence", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileRecurrence\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting#rule MonitorAutoscaleSetting#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#rule MonitorAutoscaleSetting#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingProfileRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azurerm.LogicAppActionHttp
     [JsiiByValue(fqn: "azurerm.logicAppActionHttp.LogicAppActionHttpRunAfter")]
     public class LogicAppActionHttpRunAfter : azurerm.LogicAppActionHttp.ILogicAppActionHttpRunAfter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_http#action_name LogicAppActionHttp#action_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_http#action_name LogicAppActionHttp#action_name}.</summary>
         [JsiiProperty(name: "actionName", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionName
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogicAppActionHttp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_http#action_result LogicAppActionHttp#action_result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_http#action_result LogicAppActionHttp#action_result}.</summary>
         [JsiiProperty(name: "actionResult", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionResult
         {

@@ -9,7 +9,7 @@ namespace azurerm.EventgridEventSubscription
     [JsiiByValue(fqn: "azurerm.eventgridEventSubscription.EventgridEventSubscriptionDeliveryProperty")]
     public class EventgridEventSubscriptionDeliveryProperty : azurerm.EventgridEventSubscription.IEventgridEventSubscriptionDeliveryProperty
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#header_name EventgridEventSubscription#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#header_name EventgridEventSubscription#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
         public string HeaderName
         {
@@ -17,7 +17,7 @@ namespace azurerm.EventgridEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#type EventgridEventSubscription#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#type EventgridEventSubscription#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -27,7 +27,7 @@ namespace azurerm.EventgridEventSubscription
 
         private object? _secret;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#secret EventgridEventSubscription#secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#secret EventgridEventSubscription#secret}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace azurerm.EventgridEventSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#source_field EventgridEventSubscription#source_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#source_field EventgridEventSubscription#source_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceField
@@ -68,7 +68,7 @@ namespace azurerm.EventgridEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/eventgrid_event_subscription#value EventgridEventSubscription#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#value EventgridEventSubscription#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

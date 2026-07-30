@@ -7,14 +7,14 @@ namespace azurerm.CosmosdbGremlinGraph
     [JsiiInterface(nativeType: typeof(ICosmosdbGremlinGraphIndexPolicyCompositeIndexIndex), fullyQualifiedName: "azurerm.cosmosdbGremlinGraph.CosmosdbGremlinGraphIndexPolicyCompositeIndexIndex")]
     public interface ICosmosdbGremlinGraphIndexPolicyCompositeIndexIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
         string Order
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
         {
@@ -28,14 +28,14 @@ namespace azurerm.CosmosdbGremlinGraph
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_gremlin_graph#order CosmosdbGremlinGraph#order}.</summary>
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
             public string Order
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_gremlin_graph#path CosmosdbGremlinGraph#path}.</summary>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path
             {

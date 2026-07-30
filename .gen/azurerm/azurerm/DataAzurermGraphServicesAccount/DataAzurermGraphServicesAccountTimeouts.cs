@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermGraphServicesAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermGraphServicesAccount.DataAzurermGraphServicesAccountTimeouts")]
     public class DataAzurermGraphServicesAccountTimeouts : azurerm.DataAzurermGraphServicesAccount.IDataAzurermGraphServicesAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/graph_services_account#read DataAzurermGraphServicesAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/graph_services_account#read DataAzurermGraphServicesAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

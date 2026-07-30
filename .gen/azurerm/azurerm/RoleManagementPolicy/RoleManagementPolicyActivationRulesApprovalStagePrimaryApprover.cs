@@ -11,7 +11,7 @@ namespace azurerm.RoleManagementPolicy
     {
         /// <summary>The ID of the object to act as an approver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#object_id RoleManagementPolicy#object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#object_id RoleManagementPolicy#object_id}
         /// </remarks>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectId
@@ -22,7 +22,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>The type of object acting as an approver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#type RoleManagementPolicy#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#type RoleManagementPolicy#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type

@@ -9,7 +9,7 @@ namespace azurerm.DynatraceMonitor
     [JsiiByValue(fqn: "azurerm.dynatraceMonitor.DynatraceMonitorPlan")]
     public class DynatraceMonitorPlan : azurerm.DynatraceMonitor.IDynatraceMonitorPlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#plan DynatraceMonitor#plan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dynatrace_monitor#plan DynatraceMonitor#plan}.</summary>
         [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}")]
         public string Plan
         {
@@ -17,7 +17,7 @@ namespace azurerm.DynatraceMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#billing_cycle DynatraceMonitor#billing_cycle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dynatrace_monitor#billing_cycle DynatraceMonitor#billing_cycle}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "billingCycle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BillingCycle
@@ -26,7 +26,7 @@ namespace azurerm.DynatraceMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dynatrace_monitor#usage_type DynatraceMonitor#usage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dynatrace_monitor#usage_type DynatraceMonitor#usage_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UsageType

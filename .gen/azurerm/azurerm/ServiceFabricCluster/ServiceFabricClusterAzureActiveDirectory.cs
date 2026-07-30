@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectory")]
     public class ServiceFabricClusterAzureActiveDirectory : azurerm.ServiceFabricCluster.IServiceFabricClusterAzureActiveDirectory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#client_application_id ServiceFabricCluster#client_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#client_application_id ServiceFabricCluster#client_application_id}.</summary>
         [JsiiProperty(name: "clientApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientApplicationId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#cluster_application_id ServiceFabricCluster#cluster_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#cluster_application_id ServiceFabricCluster#cluster_application_id}.</summary>
         [JsiiProperty(name: "clusterApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterApplicationId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ServiceFabricCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/service_fabric_cluster#tenant_id ServiceFabricCluster#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#tenant_id ServiceFabricCluster#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantId
         {

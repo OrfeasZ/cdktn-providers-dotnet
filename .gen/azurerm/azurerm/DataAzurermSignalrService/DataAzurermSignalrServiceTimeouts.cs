@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSignalrService
     [JsiiByValue(fqn: "azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeouts")]
     public class DataAzurermSignalrServiceTimeouts : azurerm.DataAzurermSignalrService.IDataAzurermSignalrServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

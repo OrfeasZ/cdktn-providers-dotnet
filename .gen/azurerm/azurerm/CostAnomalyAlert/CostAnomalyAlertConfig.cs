@@ -9,7 +9,7 @@ namespace azurerm.CostAnomalyAlert
     [JsiiByValue(fqn: "azurerm.costAnomalyAlert.CostAnomalyAlertConfig")]
     public class CostAnomalyAlertConfig : azurerm.CostAnomalyAlert.ICostAnomalyAlertConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#display_name CostAnomalyAlert#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#display_name CostAnomalyAlert#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#email_addresses CostAnomalyAlert#email_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#email_addresses CostAnomalyAlert#email_addresses}.</summary>
         [JsiiProperty(name: "emailAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EmailAddresses
         {
@@ -25,7 +25,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#email_subject CostAnomalyAlert#email_subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#email_subject CostAnomalyAlert#email_subject}.</summary>
         [JsiiProperty(name: "emailSubject", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailSubject
         {
@@ -33,7 +33,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#name CostAnomalyAlert#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#name CostAnomalyAlert#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#id CostAnomalyAlert#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#id CostAnomalyAlert#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#message CostAnomalyAlert#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#message CostAnomalyAlert#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message
@@ -63,7 +63,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#notification_email CostAnomalyAlert#notification_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#notification_email CostAnomalyAlert#notification_email}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notificationEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotificationEmail
@@ -72,7 +72,7 @@ namespace azurerm.CostAnomalyAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#subscription_id CostAnomalyAlert#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#subscription_id CostAnomalyAlert#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId
@@ -83,7 +83,7 @@ namespace azurerm.CostAnomalyAlert
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cost_anomaly_alert#timeouts CostAnomalyAlert#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cost_anomaly_alert#timeouts CostAnomalyAlert#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.costAnomalyAlert.CostAnomalyAlertTimeouts\"}", isOptional: true)]

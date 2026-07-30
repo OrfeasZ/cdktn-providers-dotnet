@@ -7,7 +7,7 @@ namespace azurerm.DevTestSchedule
     [JsiiInterface(nativeType: typeof(IDevTestScheduleNotificationSettings), fullyQualifiedName: "azurerm.devTestSchedule.DevTestScheduleNotificationSettings")]
     public interface IDevTestScheduleNotificationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -18,7 +18,7 @@ namespace azurerm.DevTestSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
         [JsiiProperty(name: "timeInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TimeInMinutes
@@ -29,7 +29,7 @@ namespace azurerm.DevTestSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
         [JsiiProperty(name: "webhookUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WebhookUrl
@@ -47,7 +47,7 @@ namespace azurerm.DevTestSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -55,7 +55,7 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TimeInMinutes
@@ -63,7 +63,7 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "webhookUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WebhookUrl

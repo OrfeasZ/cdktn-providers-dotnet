@@ -9,7 +9,7 @@ namespace azurerm.Subnet
     [JsiiByValue(fqn: "azurerm.subnet.SubnetServiceEndpoint")]
     public class SubnetServiceEndpoint : azurerm.Subnet.ISubnetServiceEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet#service Subnet#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet#service Subnet#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         public string Service
         {
@@ -17,7 +17,7 @@ namespace azurerm.Subnet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet#network_identifier Subnet#network_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet#network_identifier Subnet#network_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NetworkIdentifier

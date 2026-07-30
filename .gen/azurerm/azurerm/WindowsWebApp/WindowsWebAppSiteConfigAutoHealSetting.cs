@@ -11,7 +11,7 @@ namespace azurerm.WindowsWebApp
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#action WindowsWebApp#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#action WindowsWebApp#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingAction\"}")]
         public azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingAction Action
@@ -22,7 +22,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#trigger WindowsWebApp#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#trigger WindowsWebApp#trigger}
         /// </remarks>
         [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingTrigger\"}")]
         public azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingTrigger Trigger

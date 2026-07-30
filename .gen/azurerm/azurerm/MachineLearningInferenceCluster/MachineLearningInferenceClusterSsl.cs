@@ -7,7 +7,7 @@ namespace azurerm.MachineLearningInferenceCluster
     [JsiiByValue(fqn: "azurerm.machineLearningInferenceCluster.MachineLearningInferenceClusterSsl")]
     public class MachineLearningInferenceClusterSsl : azurerm.MachineLearningInferenceCluster.IMachineLearningInferenceClusterSsl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_inference_cluster#cert MachineLearningInferenceCluster#cert}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_inference_cluster#cert MachineLearningInferenceCluster#cert}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Cert
@@ -16,7 +16,7 @@ namespace azurerm.MachineLearningInferenceCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_inference_cluster#cname MachineLearningInferenceCluster#cname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_inference_cluster#cname MachineLearningInferenceCluster#cname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Cname
@@ -25,7 +25,7 @@ namespace azurerm.MachineLearningInferenceCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_inference_cluster#key MachineLearningInferenceCluster#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_inference_cluster#key MachineLearningInferenceCluster#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -34,7 +34,7 @@ namespace azurerm.MachineLearningInferenceCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_inference_cluster#leaf_domain_label MachineLearningInferenceCluster#leaf_domain_label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_inference_cluster#leaf_domain_label MachineLearningInferenceCluster#leaf_domain_label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "leafDomainLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LeafDomainLabel
@@ -45,7 +45,7 @@ namespace azurerm.MachineLearningInferenceCluster
 
         private object? _overwriteExistingDomain;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_inference_cluster#overwrite_existing_domain MachineLearningInferenceCluster#overwrite_existing_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_inference_cluster#overwrite_existing_domain MachineLearningInferenceCluster#overwrite_existing_domain}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

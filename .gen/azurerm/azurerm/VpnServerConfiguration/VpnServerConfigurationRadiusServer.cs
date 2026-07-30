@@ -9,7 +9,7 @@ namespace azurerm.VpnServerConfiguration
     [JsiiByValue(fqn: "azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServer")]
     public class VpnServerConfigurationRadiusServer : azurerm.VpnServerConfiguration.IVpnServerConfigurationRadiusServer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_server_configuration#address VpnServerConfiguration#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#address VpnServerConfiguration#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_server_configuration#score VpnServerConfiguration#score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#score VpnServerConfiguration#score}.</summary>
         [JsiiProperty(name: "score", typeJson: "{\"primitive\":\"number\"}")]
         public double Score
         {
@@ -25,7 +25,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/vpn_server_configuration#secret VpnServerConfiguration#secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#secret VpnServerConfiguration#secret}.</summary>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
         public string Secret
         {

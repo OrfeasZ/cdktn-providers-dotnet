@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermManagedDevopsPool
     [JsiiByValue(fqn: "azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPoolTimeouts")]
     public class DataAzurermManagedDevopsPoolTimeouts : azurerm.DataAzurermManagedDevopsPool.IDataAzurermManagedDevopsPoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/managed_devops_pool#read DataAzurermManagedDevopsPool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_devops_pool#read DataAzurermManagedDevopsPool#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

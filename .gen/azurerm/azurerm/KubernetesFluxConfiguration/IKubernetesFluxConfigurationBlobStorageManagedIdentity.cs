@@ -7,7 +7,7 @@ namespace azurerm.KubernetesFluxConfiguration
     [JsiiInterface(nativeType: typeof(IKubernetesFluxConfigurationBlobStorageManagedIdentity), fullyQualifiedName: "azurerm.kubernetesFluxConfiguration.KubernetesFluxConfigurationBlobStorageManagedIdentity")]
     public interface IKubernetesFluxConfigurationBlobStorageManagedIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_flux_configuration#client_id KubernetesFluxConfiguration#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_flux_configuration#client_id KubernetesFluxConfiguration#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
         {
@@ -21,7 +21,7 @@ namespace azurerm.KubernetesFluxConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_flux_configuration#client_id KubernetesFluxConfiguration#client_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_flux_configuration#client_id KubernetesFluxConfiguration#client_id}.</summary>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
             {

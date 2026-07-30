@@ -9,7 +9,7 @@ namespace azurerm.LbBackendAddressPool
     [JsiiByValue(fqn: "azurerm.lbBackendAddressPool.LbBackendAddressPoolTunnelInterface")]
     public class LbBackendAddressPoolTunnelInterface : azurerm.LbBackendAddressPool.ILbBackendAddressPoolTunnelInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lb_backend_address_pool#identifier LbBackendAddressPool#identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool#identifier LbBackendAddressPool#identifier}.</summary>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"number\"}")]
         public double Identifier
         {
@@ -17,7 +17,7 @@ namespace azurerm.LbBackendAddressPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lb_backend_address_pool#port LbBackendAddressPool#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool#port LbBackendAddressPool#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -25,7 +25,7 @@ namespace azurerm.LbBackendAddressPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lb_backend_address_pool#protocol LbBackendAddressPool#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool#protocol LbBackendAddressPool#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -33,7 +33,7 @@ namespace azurerm.LbBackendAddressPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lb_backend_address_pool#type LbBackendAddressPool#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool#type LbBackendAddressPool#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

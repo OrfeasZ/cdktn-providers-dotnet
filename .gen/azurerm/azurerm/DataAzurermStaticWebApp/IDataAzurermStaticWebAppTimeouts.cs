@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStaticWebApp
     [JsiiInterface(nativeType: typeof(IDataAzurermStaticWebAppTimeouts), fullyQualifiedName: "azurerm.dataAzurermStaticWebApp.DataAzurermStaticWebAppTimeouts")]
     public interface IDataAzurermStaticWebAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/static_web_app#read DataAzurermStaticWebApp#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/static_web_app#read DataAzurermStaticWebApp#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStaticWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/static_web_app#read DataAzurermStaticWebApp#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/static_web_app#read DataAzurermStaticWebApp#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudGateway
     [JsiiByValue(fqn: "azurerm.springCloudGateway.SpringCloudGatewayApiMetadata")]
     public class SpringCloudGatewayApiMetadata : azurerm.SpringCloudGateway.ISpringCloudGatewayApiMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_gateway#description SpringCloudGateway#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#description SpringCloudGateway#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_gateway#documentation_url SpringCloudGateway#documentation_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#documentation_url SpringCloudGateway#documentation_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DocumentationUrl
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_gateway#server_url SpringCloudGateway#server_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#server_url SpringCloudGateway#server_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerUrl
@@ -34,7 +34,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_gateway#title SpringCloudGateway#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#title SpringCloudGateway#title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Title
@@ -43,7 +43,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_gateway#version SpringCloudGateway#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#version SpringCloudGateway#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

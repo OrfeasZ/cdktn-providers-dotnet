@@ -9,7 +9,7 @@ namespace azurerm.SearchSharedPrivateLinkService
     [JsiiByValue(fqn: "azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceConfig")]
     public class SearchSharedPrivateLinkServiceConfig : azurerm.SearchSharedPrivateLinkService.ISearchSharedPrivateLinkServiceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#name SearchSharedPrivateLinkService#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#name SearchSharedPrivateLinkService#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.SearchSharedPrivateLinkService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#search_service_id SearchSharedPrivateLinkService#search_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#search_service_id SearchSharedPrivateLinkService#search_service_id}.</summary>
         [JsiiProperty(name: "searchServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SearchServiceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.SearchSharedPrivateLinkService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#subresource_name SearchSharedPrivateLinkService#subresource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#subresource_name SearchSharedPrivateLinkService#subresource_name}.</summary>
         [JsiiProperty(name: "subresourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SubresourceName
         {
@@ -33,7 +33,7 @@ namespace azurerm.SearchSharedPrivateLinkService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#target_resource_id SearchSharedPrivateLinkService#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#target_resource_id SearchSharedPrivateLinkService#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -41,7 +41,7 @@ namespace azurerm.SearchSharedPrivateLinkService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#id SearchSharedPrivateLinkService#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#id SearchSharedPrivateLinkService#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace azurerm.SearchSharedPrivateLinkService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#request_message SearchSharedPrivateLinkService#request_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#request_message SearchSharedPrivateLinkService#request_message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestMessage
@@ -65,7 +65,7 @@ namespace azurerm.SearchSharedPrivateLinkService
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/search_shared_private_link_service#timeouts SearchSharedPrivateLinkService#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/search_shared_private_link_service#timeouts SearchSharedPrivateLinkService#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.searchSharedPrivateLinkService.SearchSharedPrivateLinkServiceTimeouts\"}", isOptional: true)]

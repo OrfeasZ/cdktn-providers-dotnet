@@ -9,7 +9,7 @@ namespace azurerm.ResourcePolicyAssignment
     [JsiiByValue(fqn: "azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentNonComplianceMessage")]
     public class ResourcePolicyAssignmentNonComplianceMessage : azurerm.ResourcePolicyAssignment.IResourcePolicyAssignmentNonComplianceMessage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#content ResourcePolicyAssignment#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#content ResourcePolicyAssignment#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.ResourcePolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#policy_definition_reference_id ResourcePolicyAssignment#policy_definition_reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#policy_definition_reference_id ResourcePolicyAssignment#policy_definition_reference_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyDefinitionReferenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyDefinitionReferenceId

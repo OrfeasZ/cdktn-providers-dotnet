@@ -7,7 +7,7 @@ namespace azurerm.WindowsWebApp
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSiteConfigVirtualApplicationVirtualDirectory), fullyQualifiedName: "azurerm.windowsWebApp.WindowsWebAppSiteConfigVirtualApplicationVirtualDirectory")]
     public interface IWindowsWebAppSiteConfigVirtualApplicationVirtualDirectory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
         [JsiiProperty(name: "physicalPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhysicalPath
@@ -18,7 +18,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
         [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VirtualPath
@@ -36,7 +36,7 @@ namespace azurerm.WindowsWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#physical_path WindowsWebApp#physical_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "physicalPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhysicalPath
@@ -44,7 +44,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#virtual_path WindowsWebApp#virtual_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VirtualPath

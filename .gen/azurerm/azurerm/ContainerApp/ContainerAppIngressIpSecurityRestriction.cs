@@ -11,7 +11,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The action. Allow or Deny.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app#action ContainerApp#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#action ContainerApp#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
@@ -22,7 +22,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The incoming IP address or range of IP addresses (in CIDR notation).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app#ip_address_range ContainerApp#ip_address_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#ip_address_range ContainerApp#ip_address_range}
         /// </remarks>
         [JsiiProperty(name: "ipAddressRange", typeJson: "{\"primitive\":\"string\"}")]
         public string IpAddressRange
@@ -33,7 +33,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>Name for the IP restriction rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app#name ContainerApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -44,7 +44,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>Describe the IP restriction rule that is being sent to the container-app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_app#description ContainerApp#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#description ContainerApp#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

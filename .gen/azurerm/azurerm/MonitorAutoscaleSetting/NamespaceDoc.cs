@@ -5,7 +5,7 @@ namespace azurerm.MonitorAutoscaleSetting
     /// <remarks>
     /// <h1><c>azurerm_monitor_autoscale_setting</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_autoscale_setting"><c>azurerm_monitor_autoscale_setting</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting"><c>azurerm_monitor_autoscale_setting</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

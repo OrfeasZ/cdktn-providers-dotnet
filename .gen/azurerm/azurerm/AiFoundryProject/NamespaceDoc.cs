@@ -5,7 +5,7 @@ namespace azurerm.AiFoundryProject
     /// <remarks>
     /// <h1><c>azurerm_ai_foundry_project</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/ai_foundry_project"><c>azurerm_ai_foundry_project</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/ai_foundry_project"><c>azurerm_ai_foundry_project</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

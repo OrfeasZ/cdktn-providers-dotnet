@@ -9,7 +9,7 @@ namespace azurerm.AutomationJobSchedule
     [JsiiByValue(fqn: "azurerm.automationJobSchedule.AutomationJobScheduleConfig")]
     public class AutomationJobScheduleConfig : azurerm.AutomationJobSchedule.IAutomationJobScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#automation_account_name AutomationJobSchedule#automation_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#automation_account_name AutomationJobSchedule#automation_account_name}.</summary>
         [JsiiProperty(name: "automationAccountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AutomationAccountName
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#resource_group_name AutomationJobSchedule#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#resource_group_name AutomationJobSchedule#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -25,7 +25,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#runbook_name AutomationJobSchedule#runbook_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#runbook_name AutomationJobSchedule#runbook_name}.</summary>
         [JsiiProperty(name: "runbookName", typeJson: "{\"primitive\":\"string\"}")]
         public string RunbookName
         {
@@ -33,7 +33,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#schedule_name AutomationJobSchedule#schedule_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#schedule_name AutomationJobSchedule#schedule_name}.</summary>
         [JsiiProperty(name: "scheduleName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleName
         {
@@ -41,7 +41,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#id AutomationJobSchedule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#id AutomationJobSchedule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -54,7 +54,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#job_schedule_id AutomationJobSchedule#job_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#job_schedule_id AutomationJobSchedule#job_schedule_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobScheduleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobScheduleId
@@ -63,7 +63,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#parameters AutomationJobSchedule#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#parameters AutomationJobSchedule#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -72,7 +72,7 @@ namespace azurerm.AutomationJobSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#run_on AutomationJobSchedule#run_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#run_on AutomationJobSchedule#run_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunOn
@@ -83,7 +83,7 @@ namespace azurerm.AutomationJobSchedule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_job_schedule#timeouts AutomationJobSchedule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_job_schedule#timeouts AutomationJobSchedule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.automationJobSchedule.AutomationJobScheduleTimeouts\"}", isOptional: true)]

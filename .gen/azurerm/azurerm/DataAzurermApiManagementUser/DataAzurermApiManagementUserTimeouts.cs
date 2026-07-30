@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermApiManagementUser
     [JsiiByValue(fqn: "azurerm.dataAzurermApiManagementUser.DataAzurermApiManagementUserTimeouts")]
     public class DataAzurermApiManagementUserTimeouts : azurerm.DataAzurermApiManagementUser.IDataAzurermApiManagementUserTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

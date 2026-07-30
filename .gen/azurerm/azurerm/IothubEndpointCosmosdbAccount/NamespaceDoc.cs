@@ -5,7 +5,7 @@ namespace azurerm.IothubEndpointCosmosdbAccount
     /// <remarks>
     /// <h1><c>azurerm_iothub_endpoint_cosmosdb_account</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iothub_endpoint_cosmosdb_account"><c>azurerm_iothub_endpoint_cosmosdb_account</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_endpoint_cosmosdb_account"><c>azurerm_iothub_endpoint_cosmosdb_account</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

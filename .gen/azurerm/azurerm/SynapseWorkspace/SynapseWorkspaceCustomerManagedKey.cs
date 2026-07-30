@@ -9,7 +9,7 @@ namespace azurerm.SynapseWorkspace
     [JsiiByValue(fqn: "azurerm.synapseWorkspace.SynapseWorkspaceCustomerManagedKey")]
     public class SynapseWorkspaceCustomerManagedKey : azurerm.SynapseWorkspace.ISynapseWorkspaceCustomerManagedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_workspace#key_versionless_id SynapseWorkspace#key_versionless_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace#key_versionless_id SynapseWorkspace#key_versionless_id}.</summary>
         [JsiiProperty(name: "keyVersionlessId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVersionlessId
         {
@@ -17,7 +17,7 @@ namespace azurerm.SynapseWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_workspace#key_name SynapseWorkspace#key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace#key_name SynapseWorkspace#key_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyName
@@ -26,7 +26,7 @@ namespace azurerm.SynapseWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/synapse_workspace#user_assigned_identity_id SynapseWorkspace#user_assigned_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_workspace#user_assigned_identity_id SynapseWorkspace#user_assigned_identity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserAssignedIdentityId

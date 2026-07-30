@@ -9,7 +9,7 @@ namespace azurerm.LbOutboundRule
     [JsiiByValue(fqn: "azurerm.lbOutboundRule.LbOutboundRuleFrontendIpConfiguration")]
     public class LbOutboundRuleFrontendIpConfiguration : azurerm.LbOutboundRule.ILbOutboundRuleFrontendIpConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lb_outbound_rule#name LbOutboundRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_outbound_rule#name LbOutboundRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

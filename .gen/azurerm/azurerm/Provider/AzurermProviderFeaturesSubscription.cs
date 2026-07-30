@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _preventCancellationOnDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs#prevent_cancellation_on_destroy AzurermProvider#prevent_cancellation_on_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#prevent_cancellation_on_destroy AzurermProvider#prevent_cancellation_on_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

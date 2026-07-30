@@ -9,7 +9,7 @@ namespace azurerm.AutomationRunbook
     [JsiiByValue(fqn: "azurerm.automationRunbook.AutomationRunbookDraftContentLink")]
     public class AutomationRunbookDraftContentLink : azurerm.AutomationRunbook.IAutomationRunbookDraftContentLink
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         public string Uri
         {
@@ -19,7 +19,7 @@ namespace azurerm.AutomationRunbook
 
         /// <summary>hash block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#hash AutomationRunbook#hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#hash AutomationRunbook#hash}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookDraftContentLinkHash\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version

@@ -9,7 +9,7 @@ namespace azurerm.DevTestSchedule
     [JsiiByValue(fqn: "azurerm.devTestSchedule.DevTestScheduleHourlyRecurrence")]
     public class DevTestScheduleHourlyRecurrence : azurerm.DevTestSchedule.IDevTestScheduleHourlyRecurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#minute DevTestSchedule#minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#minute DevTestSchedule#minute}.</summary>
         [JsiiProperty(name: "minute", typeJson: "{\"primitive\":\"number\"}")]
         public double Minute
         {

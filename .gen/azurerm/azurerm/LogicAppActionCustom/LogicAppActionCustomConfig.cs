@@ -9,7 +9,7 @@ namespace azurerm.LogicAppActionCustom
     [JsiiByValue(fqn: "azurerm.logicAppActionCustom.LogicAppActionCustomConfig")]
     public class LogicAppActionCustomConfig : azurerm.LogicAppActionCustom.ILogicAppActionCustomConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_custom#body LogicAppActionCustom#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_custom#body LogicAppActionCustom#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogicAppActionCustom
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_custom#logic_app_id LogicAppActionCustom#logic_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_custom#logic_app_id LogicAppActionCustom#logic_app_id}.</summary>
         [JsiiProperty(name: "logicAppId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogicAppId
         {
@@ -25,7 +25,7 @@ namespace azurerm.LogicAppActionCustom
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_custom#name LogicAppActionCustom#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_custom#name LogicAppActionCustom#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.LogicAppActionCustom
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_custom#id LogicAppActionCustom#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_custom#id LogicAppActionCustom#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.LogicAppActionCustom
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/logic_app_action_custom#timeouts LogicAppActionCustom#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_action_custom#timeouts LogicAppActionCustom#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.logicAppActionCustom.LogicAppActionCustomTimeouts\"}", isOptional: true)]

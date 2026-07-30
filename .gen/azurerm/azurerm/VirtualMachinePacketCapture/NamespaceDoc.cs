@@ -5,7 +5,7 @@ namespace azurerm.VirtualMachinePacketCapture
     /// <remarks>
     /// <h1><c>azurerm_virtual_machine_packet_capture</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_packet_capture"><c>azurerm_virtual_machine_packet_capture</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture"><c>azurerm_virtual_machine_packet_capture</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

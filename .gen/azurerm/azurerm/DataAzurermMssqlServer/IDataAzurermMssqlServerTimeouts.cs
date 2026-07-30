@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMssqlServer
     [JsiiInterface(nativeType: typeof(IDataAzurermMssqlServerTimeouts), fullyQualifiedName: "azurerm.dataAzurermMssqlServer.DataAzurermMssqlServerTimeouts")]
     public interface IDataAzurermMssqlServerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/mssql_server#read DataAzurermMssqlServer#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/mssql_server#read DataAzurermMssqlServer#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermMssqlServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/mssql_server#read DataAzurermMssqlServer#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/mssql_server#read DataAzurermMssqlServer#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

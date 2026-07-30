@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachine
     [JsiiByValue(fqn: "azurerm.virtualMachine.VirtualMachineOsProfileSecrets")]
     public class VirtualMachineOsProfileSecrets : azurerm.VirtualMachine.IVirtualMachineOsProfileSecrets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine#source_vault_id VirtualMachine#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#source_vault_id VirtualMachine#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {
@@ -21,7 +21,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>vault_certificates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine#vault_certificates VirtualMachine#vault_certificates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#vault_certificates VirtualMachine#vault_certificates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualMachine.IVirtualMachineOsProfileSecretsVaultCertificates" />)[]</para>
         /// </remarks>
         [JsiiOptional]

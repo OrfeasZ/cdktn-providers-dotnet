@@ -7,21 +7,21 @@ namespace azurerm.DevTestSchedule
     [JsiiInterface(nativeType: typeof(IDevTestScheduleConfig), fullyQualifiedName: "azurerm.devTestSchedule.DevTestScheduleConfig")]
     public interface IDevTestScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#lab_name DevTestSchedule#lab_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#lab_name DevTestSchedule#lab_name}.</summary>
         [JsiiProperty(name: "labName", typeJson: "{\"primitive\":\"string\"}")]
         string LabName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#location DevTestSchedule#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#location DevTestSchedule#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#name DevTestSchedule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#name DevTestSchedule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -30,7 +30,7 @@ namespace azurerm.DevTestSchedule
 
         /// <summary>notification_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#notification_settings DevTestSchedule#notification_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#notification_settings DevTestSchedule#notification_settings}
         /// </remarks>
         [JsiiProperty(name: "notificationSettings", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleNotificationSettings\"}")]
         azurerm.DevTestSchedule.IDevTestScheduleNotificationSettings NotificationSettings
@@ -38,21 +38,21 @@ namespace azurerm.DevTestSchedule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#resource_group_name DevTestSchedule#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#resource_group_name DevTestSchedule#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#task_type DevTestSchedule#task_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#task_type DevTestSchedule#task_type}.</summary>
         [JsiiProperty(name: "taskType", typeJson: "{\"primitive\":\"string\"}")]
         string TaskType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#time_zone_id DevTestSchedule#time_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time_zone_id DevTestSchedule#time_zone_id}.</summary>
         [JsiiProperty(name: "timeZoneId", typeJson: "{\"primitive\":\"string\"}")]
         string TimeZoneId
         {
@@ -61,7 +61,7 @@ namespace azurerm.DevTestSchedule
 
         /// <summary>daily_recurrence block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#daily_recurrence DevTestSchedule#daily_recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#daily_recurrence DevTestSchedule#daily_recurrence}
         /// </remarks>
         [JsiiProperty(name: "dailyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleDailyRecurrence\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azurerm.DevTestSchedule
 
         /// <summary>hourly_recurrence block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#hourly_recurrence DevTestSchedule#hourly_recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#hourly_recurrence DevTestSchedule#hourly_recurrence}
         /// </remarks>
         [JsiiProperty(name: "hourlyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleHourlyRecurrence\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace azurerm.DevTestSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#id DevTestSchedule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#id DevTestSchedule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace azurerm.DevTestSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -113,7 +113,7 @@ namespace azurerm.DevTestSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#tags DevTestSchedule#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#tags DevTestSchedule#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -126,7 +126,7 @@ namespace azurerm.DevTestSchedule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#timeouts DevTestSchedule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#timeouts DevTestSchedule#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace azurerm.DevTestSchedule
 
         /// <summary>weekly_recurrence block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#weekly_recurrence DevTestSchedule#weekly_recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#weekly_recurrence DevTestSchedule#weekly_recurrence}
         /// </remarks>
         [JsiiProperty(name: "weeklyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrence\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,21 +159,21 @@ namespace azurerm.DevTestSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#lab_name DevTestSchedule#lab_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#lab_name DevTestSchedule#lab_name}.</summary>
             [JsiiProperty(name: "labName", typeJson: "{\"primitive\":\"string\"}")]
             public string LabName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#location DevTestSchedule#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#location DevTestSchedule#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#name DevTestSchedule#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#name DevTestSchedule#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -182,7 +182,7 @@ namespace azurerm.DevTestSchedule
 
             /// <summary>notification_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#notification_settings DevTestSchedule#notification_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#notification_settings DevTestSchedule#notification_settings}
             /// </remarks>
             [JsiiProperty(name: "notificationSettings", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleNotificationSettings\"}")]
             public azurerm.DevTestSchedule.IDevTestScheduleNotificationSettings NotificationSettings
@@ -190,21 +190,21 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<azurerm.DevTestSchedule.IDevTestScheduleNotificationSettings>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#resource_group_name DevTestSchedule#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#resource_group_name DevTestSchedule#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#task_type DevTestSchedule#task_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#task_type DevTestSchedule#task_type}.</summary>
             [JsiiProperty(name: "taskType", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#time_zone_id DevTestSchedule#time_zone_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time_zone_id DevTestSchedule#time_zone_id}.</summary>
             [JsiiProperty(name: "timeZoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeZoneId
             {
@@ -213,7 +213,7 @@ namespace azurerm.DevTestSchedule
 
             /// <summary>daily_recurrence block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#daily_recurrence DevTestSchedule#daily_recurrence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#daily_recurrence DevTestSchedule#daily_recurrence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dailyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleDailyRecurrence\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace azurerm.DevTestSchedule
 
             /// <summary>hourly_recurrence block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#hourly_recurrence DevTestSchedule#hourly_recurrence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#hourly_recurrence DevTestSchedule#hourly_recurrence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hourlyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleHourlyRecurrence\"}", isOptional: true)]
@@ -233,7 +233,7 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<azurerm.DevTestSchedule.IDevTestScheduleHourlyRecurrence?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#id DevTestSchedule#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#id DevTestSchedule#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -245,7 +245,7 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -253,7 +253,7 @@ namespace azurerm.DevTestSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#tags DevTestSchedule#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#tags DevTestSchedule#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -263,7 +263,7 @@ namespace azurerm.DevTestSchedule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#timeouts DevTestSchedule#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#timeouts DevTestSchedule#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleTimeouts\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace azurerm.DevTestSchedule
 
             /// <summary>weekly_recurrence block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#weekly_recurrence DevTestSchedule#weekly_recurrence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#weekly_recurrence DevTestSchedule#weekly_recurrence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "weeklyRecurrence", typeJson: "{\"fqn\":\"azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrence\"}", isOptional: true)]

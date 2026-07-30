@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementApi
     [JsiiByValue(fqn: "azurerm.apiManagementApi.ApiManagementApiImport")]
     public class ApiManagementApiImport : azurerm.ApiManagementApi.IApiManagementApiImport
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_api#content_format ApiManagementApi#content_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#content_format ApiManagementApi#content_format}.</summary>
         [JsiiProperty(name: "contentFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentFormat
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_api#content_value ApiManagementApi#content_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#content_value ApiManagementApi#content_value}.</summary>
         [JsiiProperty(name: "contentValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentValue
         {
@@ -27,7 +27,7 @@ namespace azurerm.ApiManagementApi
 
         /// <summary>wsdl_selector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_api#wsdl_selector ApiManagementApi#wsdl_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#wsdl_selector ApiManagementApi#wsdl_selector}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "wsdlSelector", typeJson: "{\"fqn\":\"azurerm.apiManagementApi.ApiManagementApiImportWsdlSelector\"}", isOptional: true)]

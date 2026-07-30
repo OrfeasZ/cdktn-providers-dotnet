@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkGatewayConnection
     [JsiiByValue(fqn: "azurerm.virtualNetworkGatewayConnection.VirtualNetworkGatewayConnectionCustomBgpAddresses")]
     public class VirtualNetworkGatewayConnectionCustomBgpAddresses : azurerm.VirtualNetworkGatewayConnection.IVirtualNetworkGatewayConnectionCustomBgpAddresses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
         [JsiiProperty(name: "primary", typeJson: "{\"primitive\":\"string\"}")]
         public string Primary
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Secondary

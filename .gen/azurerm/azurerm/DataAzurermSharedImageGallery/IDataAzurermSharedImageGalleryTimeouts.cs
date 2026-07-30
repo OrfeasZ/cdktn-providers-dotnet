@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSharedImageGallery
     [JsiiInterface(nativeType: typeof(IDataAzurermSharedImageGalleryTimeouts), fullyQualifiedName: "azurerm.dataAzurermSharedImageGallery.DataAzurermSharedImageGalleryTimeouts")]
     public interface IDataAzurermSharedImageGalleryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/shared_image_gallery#read DataAzurermSharedImageGallery#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_gallery#read DataAzurermSharedImageGallery#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSharedImageGallery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/shared_image_gallery#read DataAzurermSharedImageGallery#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/shared_image_gallery#read DataAzurermSharedImageGallery#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

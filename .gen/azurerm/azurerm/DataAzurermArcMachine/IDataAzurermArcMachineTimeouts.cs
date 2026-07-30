@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermArcMachine
     [JsiiInterface(nativeType: typeof(IDataAzurermArcMachineTimeouts), fullyQualifiedName: "azurerm.dataAzurermArcMachine.DataAzurermArcMachineTimeouts")]
     public interface IDataAzurermArcMachineTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/arc_machine#read DataAzurermArcMachine#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/arc_machine#read DataAzurermArcMachine#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermArcMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/arc_machine#read DataAzurermArcMachine#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/arc_machine#read DataAzurermArcMachine#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

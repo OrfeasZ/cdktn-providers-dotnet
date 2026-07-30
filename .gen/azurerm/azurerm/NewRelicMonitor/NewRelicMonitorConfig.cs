@@ -9,7 +9,7 @@ namespace azurerm.NewRelicMonitor
     [JsiiByValue(fqn: "azurerm.newRelicMonitor.NewRelicMonitorConfig")]
     public class NewRelicMonitorConfig : azurerm.NewRelicMonitor.INewRelicMonitorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#location NewRelicMonitor#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#location NewRelicMonitor#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#name NewRelicMonitor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#name NewRelicMonitor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace azurerm.NewRelicMonitor
 
         /// <summary>plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#plan NewRelicMonitor#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#plan NewRelicMonitor#plan}
         /// </remarks>
         [JsiiProperty(name: "plan", typeJson: "{\"fqn\":\"azurerm.newRelicMonitor.NewRelicMonitorPlan\"}")]
         public azurerm.NewRelicMonitor.INewRelicMonitorPlan Plan
@@ -36,7 +36,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#resource_group_name NewRelicMonitor#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#resource_group_name NewRelicMonitor#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -46,7 +46,7 @@ namespace azurerm.NewRelicMonitor
 
         /// <summary>user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#user NewRelicMonitor#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#user NewRelicMonitor#user}
         /// </remarks>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"azurerm.newRelicMonitor.NewRelicMonitorUser\"}")]
         public azurerm.NewRelicMonitor.INewRelicMonitorUser User
@@ -55,7 +55,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#account_creation_source NewRelicMonitor#account_creation_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#account_creation_source NewRelicMonitor#account_creation_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountCreationSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountCreationSource
@@ -64,7 +64,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#account_id NewRelicMonitor#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#account_id NewRelicMonitor#account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
@@ -73,7 +73,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#id NewRelicMonitor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#id NewRelicMonitor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace azurerm.NewRelicMonitor
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#identity NewRelicMonitor#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#identity NewRelicMonitor#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.newRelicMonitor.NewRelicMonitorIdentity\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#ingestion_key NewRelicMonitor#ingestion_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#ingestion_key NewRelicMonitor#ingestion_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ingestionKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IngestionKey
@@ -107,7 +107,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#organization_id NewRelicMonitor#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#organization_id NewRelicMonitor#organization_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrganizationId
@@ -116,7 +116,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#org_creation_source NewRelicMonitor#org_creation_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#org_creation_source NewRelicMonitor#org_creation_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "orgCreationSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OrgCreationSource
@@ -127,7 +127,7 @@ namespace azurerm.NewRelicMonitor
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#timeouts NewRelicMonitor#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#timeouts NewRelicMonitor#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.newRelicMonitor.NewRelicMonitorTimeouts\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace azurerm.NewRelicMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/new_relic_monitor#user_id NewRelicMonitor#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/new_relic_monitor#user_id NewRelicMonitor#user_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserId

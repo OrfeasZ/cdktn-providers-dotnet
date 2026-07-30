@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermCommunicationService
     [JsiiByValue(fqn: "azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeouts")]
     public class DataAzurermCommunicationServiceTimeouts : azurerm.DataAzurermCommunicationService.IDataAzurermCommunicationServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

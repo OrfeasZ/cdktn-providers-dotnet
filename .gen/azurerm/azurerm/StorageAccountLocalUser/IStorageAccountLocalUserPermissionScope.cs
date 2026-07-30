@@ -9,7 +9,7 @@ namespace azurerm.StorageAccountLocalUser
     {
         /// <summary>permissions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#permissions StorageAccountLocalUser#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#permissions StorageAccountLocalUser#permissions}
         /// </remarks>
         [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissions\"}")]
         azurerm.StorageAccountLocalUser.IStorageAccountLocalUserPermissionScopePermissions Permissions
@@ -17,14 +17,14 @@ namespace azurerm.StorageAccountLocalUser
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#resource_name StorageAccountLocalUser#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#resource_name StorageAccountLocalUser#resource_name}.</summary>
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#service StorageAccountLocalUser#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#service StorageAccountLocalUser#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         string Service
         {
@@ -40,7 +40,7 @@ namespace azurerm.StorageAccountLocalUser
 
             /// <summary>permissions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#permissions StorageAccountLocalUser#permissions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#permissions StorageAccountLocalUser#permissions}
             /// </remarks>
             [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"azurerm.storageAccountLocalUser.StorageAccountLocalUserPermissionScopePermissions\"}")]
             public azurerm.StorageAccountLocalUser.IStorageAccountLocalUserPermissionScopePermissions Permissions
@@ -48,14 +48,14 @@ namespace azurerm.StorageAccountLocalUser
                 get => GetInstanceProperty<azurerm.StorageAccountLocalUser.IStorageAccountLocalUserPermissionScopePermissions>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#resource_name StorageAccountLocalUser#resource_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#resource_name StorageAccountLocalUser#resource_name}.</summary>
             [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account_local_user#service StorageAccountLocalUser#service}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account_local_user#service StorageAccountLocalUser#service}.</summary>
             [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
             public string Service
             {

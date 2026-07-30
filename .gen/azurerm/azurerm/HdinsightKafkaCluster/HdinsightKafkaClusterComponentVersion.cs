@@ -9,7 +9,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiByValue(fqn: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterComponentVersion")]
     public class HdinsightKafkaClusterComponentVersion : azurerm.HdinsightKafkaCluster.IHdinsightKafkaClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
         [JsiiProperty(name: "kafka", typeJson: "{\"primitive\":\"string\"}")]
         public string Kafka
         {

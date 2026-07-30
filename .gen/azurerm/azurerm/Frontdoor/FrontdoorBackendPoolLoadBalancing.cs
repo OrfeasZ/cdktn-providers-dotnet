@@ -9,7 +9,7 @@ namespace azurerm.Frontdoor
     [JsiiByValue(fqn: "azurerm.frontdoor.FrontdoorBackendPoolLoadBalancing")]
     public class FrontdoorBackendPoolLoadBalancing : azurerm.Frontdoor.IFrontdoorBackendPoolLoadBalancing
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalLatencyMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AdditionalLatencyMilliseconds
@@ -26,7 +26,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sampleSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SampleSize
@@ -35,7 +35,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "successfulSamplesRequired", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SuccessfulSamplesRequired

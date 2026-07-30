@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermApplicationSecurityGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermApplicationSecurityGroup.DataAzurermApplicationSecurityGroupTimeouts")]
     public class DataAzurermApplicationSecurityGroupTimeouts : azurerm.DataAzurermApplicationSecurityGroup.IDataAzurermApplicationSecurityGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/application_security_group#read DataAzurermApplicationSecurityGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/application_security_group#read DataAzurermApplicationSecurityGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

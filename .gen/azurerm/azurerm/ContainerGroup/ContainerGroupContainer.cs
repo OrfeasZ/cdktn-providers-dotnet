@@ -9,7 +9,7 @@ namespace azurerm.ContainerGroup
     [JsiiByValue(fqn: "azurerm.containerGroup.ContainerGroupContainer")]
     public class ContainerGroupContainer : azurerm.ContainerGroup.IContainerGroupContainer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#cpu ContainerGroup#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#cpu ContainerGroup#cpu}.</summary>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"number\"}")]
         public double Cpu
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#image ContainerGroup#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#image ContainerGroup#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         public string Image
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#memory ContainerGroup#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#memory ContainerGroup#memory}.</summary>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}")]
         public double Memory
         {
@@ -33,7 +33,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#name ContainerGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#name ContainerGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#commands ContainerGroup#commands}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#commands ContainerGroup#commands}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commands", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Commands
@@ -50,7 +50,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#cpu_limit ContainerGroup#cpu_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#cpu_limit ContainerGroup#cpu_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpuLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CpuLimit
@@ -59,7 +59,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#environment_variables ContainerGroup#environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#environment_variables ContainerGroup#environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? EnvironmentVariables
@@ -70,7 +70,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>liveness_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#liveness_probe ContainerGroup#liveness_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#liveness_probe ContainerGroup#liveness_probe}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "livenessProbe", typeJson: "{\"fqn\":\"azurerm.containerGroup.ContainerGroupContainerLivenessProbe\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#memory_limit ContainerGroup#memory_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#memory_limit ContainerGroup#memory_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryLimit
@@ -93,7 +93,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>ports block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#ports ContainerGroup#ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#ports ContainerGroup#ports}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerGroup.IContainerGroupContainerPorts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -126,7 +126,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>readiness_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#readiness_probe ContainerGroup#readiness_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#readiness_probe ContainerGroup#readiness_probe}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readinessProbe", typeJson: "{\"fqn\":\"azurerm.containerGroup.ContainerGroupContainerReadinessProbe\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace azurerm.ContainerGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#secure_environment_variables ContainerGroup#secure_environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#secure_environment_variables ContainerGroup#secure_environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secureEnvironmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecureEnvironmentVariables
@@ -149,7 +149,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>security block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#security ContainerGroup#security}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#security ContainerGroup#security}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerGroup.IContainerGroupContainerSecurity" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -184,7 +184,7 @@ namespace azurerm.ContainerGroup
 
         /// <summary>volume block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/container_group#volume ContainerGroup#volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_group#volume ContainerGroup#volume}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerGroup.IContainerGroupContainerVolume" />)[]</para>
         /// </remarks>
         [JsiiOptional]

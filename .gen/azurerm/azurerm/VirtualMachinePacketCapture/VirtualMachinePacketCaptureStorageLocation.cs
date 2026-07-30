@@ -7,7 +7,7 @@ namespace azurerm.VirtualMachinePacketCapture
     [JsiiByValue(fqn: "azurerm.virtualMachinePacketCapture.VirtualMachinePacketCaptureStorageLocation")]
     public class VirtualMachinePacketCaptureStorageLocation : azurerm.VirtualMachinePacketCapture.IVirtualMachinePacketCaptureStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_packet_capture#file_path VirtualMachinePacketCapture#file_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture#file_path VirtualMachinePacketCapture#file_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilePath
@@ -16,7 +16,7 @@ namespace azurerm.VirtualMachinePacketCapture
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_machine_packet_capture#storage_account_id VirtualMachinePacketCapture#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_packet_capture#storage_account_id VirtualMachinePacketCapture#storage_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountId

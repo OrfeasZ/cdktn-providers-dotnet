@@ -9,7 +9,7 @@ namespace azurerm.DevTestSchedule
     [JsiiByValue(fqn: "azurerm.devTestSchedule.DevTestScheduleWeeklyRecurrence")]
     public class DevTestScheduleWeeklyRecurrence : azurerm.DevTestSchedule.IDevTestScheduleWeeklyRecurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         public string Time
         {
@@ -17,7 +17,7 @@ namespace azurerm.DevTestSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_schedule#week_days DevTestSchedule#week_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#week_days DevTestSchedule#week_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weekDays", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? WeekDays

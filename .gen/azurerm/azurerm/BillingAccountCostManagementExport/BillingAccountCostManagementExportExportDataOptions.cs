@@ -9,7 +9,7 @@ namespace azurerm.BillingAccountCostManagementExport
     [JsiiByValue(fqn: "azurerm.billingAccountCostManagementExport.BillingAccountCostManagementExportExportDataOptions")]
     public class BillingAccountCostManagementExportExportDataOptions : azurerm.BillingAccountCostManagementExport.IBillingAccountCostManagementExportExportDataOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/billing_account_cost_management_export#time_frame BillingAccountCostManagementExport#time_frame}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/billing_account_cost_management_export#time_frame BillingAccountCostManagementExport#time_frame}.</summary>
         [JsiiProperty(name: "timeFrame", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeFrame
         {
@@ -17,7 +17,7 @@ namespace azurerm.BillingAccountCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/billing_account_cost_management_export#type BillingAccountCostManagementExport#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/billing_account_cost_management_export#type BillingAccountCostManagementExport#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

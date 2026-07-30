@@ -7,7 +7,7 @@ namespace azurerm.AppConfigurationFeature
     [JsiiByValue(fqn: "azurerm.appConfigurationFeature.AppConfigurationFeatureTimewindowFilter")]
     public class AppConfigurationFeatureTimewindowFilter : azurerm.AppConfigurationFeature.IAppConfigurationFeatureTimewindowFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_configuration_feature#end AppConfigurationFeature#end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? End
@@ -16,7 +16,7 @@ namespace azurerm.AppConfigurationFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_configuration_feature#start AppConfigurationFeature#start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Start

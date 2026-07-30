@@ -7,7 +7,7 @@ namespace azurerm.AutomationRunbook
     [JsiiInterface(nativeType: typeof(IAutomationRunbookJobSchedule), fullyQualifiedName: "azurerm.automationRunbook.AutomationRunbookJobSchedule")]
     public interface IAutomationRunbookJobSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#job_schedule_id AutomationRunbook#job_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#job_schedule_id AutomationRunbook#job_schedule_id}.</summary>
         [JsiiProperty(name: "jobScheduleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JobScheduleId
@@ -18,7 +18,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#parameters AutomationRunbook#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#parameters AutomationRunbook#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -29,7 +29,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#run_on AutomationRunbook#run_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#run_on AutomationRunbook#run_on}.</summary>
         [JsiiProperty(name: "runOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RunOn
@@ -40,7 +40,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#schedule_name AutomationRunbook#schedule_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#schedule_name AutomationRunbook#schedule_name}.</summary>
         [JsiiProperty(name: "scheduleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScheduleName
@@ -58,7 +58,7 @@ namespace azurerm.AutomationRunbook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#job_schedule_id AutomationRunbook#job_schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#job_schedule_id AutomationRunbook#job_schedule_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "jobScheduleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JobScheduleId
@@ -66,7 +66,7 @@ namespace azurerm.AutomationRunbook
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#parameters AutomationRunbook#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#parameters AutomationRunbook#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -74,7 +74,7 @@ namespace azurerm.AutomationRunbook
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#run_on AutomationRunbook#run_on}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#run_on AutomationRunbook#run_on}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RunOn
@@ -82,7 +82,7 @@ namespace azurerm.AutomationRunbook
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_runbook#schedule_name AutomationRunbook#schedule_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_runbook#schedule_name AutomationRunbook#schedule_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scheduleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScheduleName

@@ -7,14 +7,14 @@ namespace azurerm.NetappVolumeBucket
     [JsiiInterface(nativeType: typeof(INetappVolumeBucketFileSystemNfsUser), fullyQualifiedName: "azurerm.netappVolumeBucket.NetappVolumeBucketFileSystemNfsUser")]
     public interface INetappVolumeBucketFileSystemNfsUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume_bucket#group_id NetappVolumeBucket#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume_bucket#group_id NetappVolumeBucket#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"number\"}")]
         double GroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume_bucket#user_id NetappVolumeBucket#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume_bucket#user_id NetappVolumeBucket#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"number\"}")]
         double UserId
         {
@@ -28,14 +28,14 @@ namespace azurerm.NetappVolumeBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume_bucket#group_id NetappVolumeBucket#group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume_bucket#group_id NetappVolumeBucket#group_id}.</summary>
             [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"number\"}")]
             public double GroupId
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume_bucket#user_id NetappVolumeBucket#user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume_bucket#user_id NetappVolumeBucket#user_id}.</summary>
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"number\"}")]
             public double UserId
             {

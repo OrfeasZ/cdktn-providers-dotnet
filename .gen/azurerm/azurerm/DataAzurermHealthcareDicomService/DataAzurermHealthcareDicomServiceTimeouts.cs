@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermHealthcareDicomService
     [JsiiByValue(fqn: "azurerm.dataAzurermHealthcareDicomService.DataAzurermHealthcareDicomServiceTimeouts")]
     public class DataAzurermHealthcareDicomServiceTimeouts : azurerm.DataAzurermHealthcareDicomService.IDataAzurermHealthcareDicomServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/healthcare_dicom_service#read DataAzurermHealthcareDicomService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/healthcare_dicom_service#read DataAzurermHealthcareDicomService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

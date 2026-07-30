@@ -9,7 +9,7 @@ namespace azurerm.VirtualHubRouteTable
     [JsiiByValue(fqn: "azurerm.virtualHubRouteTable.VirtualHubRouteTableRoute")]
     public class VirtualHubRouteTableRoute : azurerm.VirtualHubRouteTable.IVirtualHubRouteTableRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub_route_table#destinations VirtualHubRouteTable#destinations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_route_table#destinations VirtualHubRouteTable#destinations}.</summary>
         [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Destinations
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualHubRouteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub_route_table#destinations_type VirtualHubRouteTable#destinations_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_route_table#destinations_type VirtualHubRouteTable#destinations_type}.</summary>
         [JsiiProperty(name: "destinationsType", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationsType
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualHubRouteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub_route_table#name VirtualHubRouteTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_route_table#name VirtualHubRouteTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.VirtualHubRouteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub_route_table#next_hop VirtualHubRouteTable#next_hop}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_route_table#next_hop VirtualHubRouteTable#next_hop}.</summary>
         [JsiiProperty(name: "nextHop", typeJson: "{\"primitive\":\"string\"}")]
         public string NextHop
         {
@@ -41,7 +41,7 @@ namespace azurerm.VirtualHubRouteTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_hub_route_table#next_hop_type VirtualHubRouteTable#next_hop_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_route_table#next_hop_type VirtualHubRouteTable#next_hop_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nextHopType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NextHopType

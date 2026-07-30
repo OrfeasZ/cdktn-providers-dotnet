@@ -7,7 +7,7 @@ namespace azurerm.ApiManagementCustomDomain
     [JsiiInterface(nativeType: typeof(IApiManagementCustomDomainConfig), fullyQualifiedName: "azurerm.apiManagementCustomDomain.ApiManagementCustomDomainConfig")]
     public interface IApiManagementCustomDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#api_management_id ApiManagementCustomDomain#api_management_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#api_management_id ApiManagementCustomDomain#api_management_id}.</summary>
         [JsiiProperty(name: "apiManagementId", typeJson: "{\"primitive\":\"string\"}")]
         string ApiManagementId
         {
@@ -16,7 +16,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>developer_portal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#developer_portal ApiManagementCustomDomain#developer_portal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#developer_portal ApiManagementCustomDomain#developer_portal}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainDeveloperPortal" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "developerPortal", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainDeveloperPortal\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>gateway block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#gateway ApiManagementCustomDomain#gateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#gateway ApiManagementCustomDomain#gateway}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainGateway" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "gateway", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainGateway\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace azurerm.ApiManagementCustomDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#id ApiManagementCustomDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#id ApiManagementCustomDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>management block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#management ApiManagementCustomDomain#management}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#management ApiManagementCustomDomain#management}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainManagement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "management", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainManagement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>portal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#portal ApiManagementCustomDomain#portal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#portal ApiManagementCustomDomain#portal}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainPortal" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "portal", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainPortal\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>scm block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#scm ApiManagementCustomDomain#scm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#scm ApiManagementCustomDomain#scm}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainScm" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scm", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainScm\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace azurerm.ApiManagementCustomDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#timeouts ApiManagementCustomDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#timeouts ApiManagementCustomDomain#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace azurerm.ApiManagementCustomDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#api_management_id ApiManagementCustomDomain#api_management_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#api_management_id ApiManagementCustomDomain#api_management_id}.</summary>
             [JsiiProperty(name: "apiManagementId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiManagementId
             {
@@ -134,7 +134,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>developer_portal block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#developer_portal ApiManagementCustomDomain#developer_portal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#developer_portal ApiManagementCustomDomain#developer_portal}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainDeveloperPortal" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -146,7 +146,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>gateway block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#gateway ApiManagementCustomDomain#gateway}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#gateway ApiManagementCustomDomain#gateway}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainGateway" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -156,7 +156,7 @@ namespace azurerm.ApiManagementCustomDomain
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#id ApiManagementCustomDomain#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#id ApiManagementCustomDomain#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>management block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#management ApiManagementCustomDomain#management}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#management ApiManagementCustomDomain#management}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainManagement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -182,7 +182,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>portal block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#portal ApiManagementCustomDomain#portal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#portal ApiManagementCustomDomain#portal}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainPortal" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -194,7 +194,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>scm block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#scm ApiManagementCustomDomain#scm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#scm ApiManagementCustomDomain#scm}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementCustomDomain.IApiManagementCustomDomainScm" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -206,7 +206,7 @@ namespace azurerm.ApiManagementCustomDomain
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/api_management_custom_domain#timeouts ApiManagementCustomDomain#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_custom_domain#timeouts ApiManagementCustomDomain#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementCustomDomain.ApiManagementCustomDomainTimeouts\"}", isOptional: true)]

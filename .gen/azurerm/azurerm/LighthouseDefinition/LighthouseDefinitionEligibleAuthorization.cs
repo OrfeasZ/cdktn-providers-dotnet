@@ -9,7 +9,7 @@ namespace azurerm.LighthouseDefinition
     [JsiiByValue(fqn: "azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorization")]
     public class LighthouseDefinitionEligibleAuthorization : azurerm.LighthouseDefinition.ILighthouseDefinitionEligibleAuthorization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#principal_id LighthouseDefinition#principal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lighthouse_definition#principal_id LighthouseDefinition#principal_id}.</summary>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrincipalId
         {
@@ -17,7 +17,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#role_definition_id LighthouseDefinition#role_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lighthouse_definition#role_definition_id LighthouseDefinition#role_definition_id}.</summary>
         [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleDefinitionId
         {
@@ -27,7 +27,7 @@ namespace azurerm.LighthouseDefinition
 
         /// <summary>just_in_time_access_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#just_in_time_access_policy LighthouseDefinition#just_in_time_access_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lighthouse_definition#just_in_time_access_policy LighthouseDefinition#just_in_time_access_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "justInTimeAccessPolicy", typeJson: "{\"fqn\":\"azurerm.lighthouseDefinition.LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicy\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azurerm.LighthouseDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/lighthouse_definition#principal_display_name LighthouseDefinition#principal_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lighthouse_definition#principal_display_name LighthouseDefinition#principal_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "principalDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrincipalDisplayName

@@ -5,7 +5,7 @@ namespace azurerm.VirtualDesktopApplication
     /// <remarks>
     /// <h1><c>azurerm_virtual_desktop_application</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_desktop_application"><c>azurerm_virtual_desktop_application</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_desktop_application"><c>azurerm_virtual_desktop_application</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

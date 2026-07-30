@@ -7,7 +7,7 @@ namespace azurerm.ResourcePolicyAssignment
     [JsiiInterface(nativeType: typeof(IResourcePolicyAssignmentOverridesSelectors), fullyQualifiedName: "azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectors")]
     public interface IResourcePolicyAssignmentOverridesSelectors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#in ResourcePolicyAssignment#in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#in ResourcePolicyAssignment#in}.</summary>
         [JsiiProperty(name: "in", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? In
@@ -18,7 +18,7 @@ namespace azurerm.ResourcePolicyAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#kind ResourcePolicyAssignment#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#kind ResourcePolicyAssignment#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Kind
@@ -29,7 +29,7 @@ namespace azurerm.ResourcePolicyAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#not_in ResourcePolicyAssignment#not_in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#not_in ResourcePolicyAssignment#not_in}.</summary>
         [JsiiProperty(name: "notIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotIn
@@ -47,7 +47,7 @@ namespace azurerm.ResourcePolicyAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#in ResourcePolicyAssignment#in}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#in ResourcePolicyAssignment#in}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "in", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? In
@@ -55,7 +55,7 @@ namespace azurerm.ResourcePolicyAssignment
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#kind ResourcePolicyAssignment#kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#kind ResourcePolicyAssignment#kind}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Kind
@@ -63,7 +63,7 @@ namespace azurerm.ResourcePolicyAssignment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/resource_policy_assignment#not_in ResourcePolicyAssignment#not_in}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_assignment#not_in ResourcePolicyAssignment#not_in}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotIn

@@ -7,7 +7,7 @@ namespace azurerm.LinuxWebAppSlot
     [JsiiInterface(nativeType: typeof(ILinuxWebAppSlotSiteConfigApplicationStack), fullyQualifiedName: "azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigApplicationStack")]
     public interface ILinuxWebAppSlotSiteConfigApplicationStack
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_image_name LinuxWebAppSlot#docker_image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_image_name LinuxWebAppSlot#docker_image_name}.</summary>
         [JsiiProperty(name: "dockerImageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerImageName
@@ -18,7 +18,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_password LinuxWebAppSlot#docker_registry_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_password LinuxWebAppSlot#docker_registry_password}.</summary>
         [JsiiProperty(name: "dockerRegistryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryPassword
@@ -29,7 +29,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_url LinuxWebAppSlot#docker_registry_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_url LinuxWebAppSlot#docker_registry_url}.</summary>
         [JsiiProperty(name: "dockerRegistryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryUrl
@@ -40,7 +40,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_username LinuxWebAppSlot#docker_registry_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_username LinuxWebAppSlot#docker_registry_username}.</summary>
         [JsiiProperty(name: "dockerRegistryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DockerRegistryUsername
@@ -51,7 +51,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#dotnet_version LinuxWebAppSlot#dotnet_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#dotnet_version LinuxWebAppSlot#dotnet_version}.</summary>
         [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DotnetVersion
@@ -62,7 +62,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#go_version LinuxWebAppSlot#go_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#go_version LinuxWebAppSlot#go_version}.</summary>
         [JsiiProperty(name: "goVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GoVersion
@@ -73,7 +73,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_server LinuxWebAppSlot#java_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_server LinuxWebAppSlot#java_server}.</summary>
         [JsiiProperty(name: "javaServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaServer
@@ -84,7 +84,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_server_version LinuxWebAppSlot#java_server_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_server_version LinuxWebAppSlot#java_server_version}.</summary>
         [JsiiProperty(name: "javaServerVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaServerVersion
@@ -95,7 +95,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_version LinuxWebAppSlot#java_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_version LinuxWebAppSlot#java_version}.</summary>
         [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? JavaVersion
@@ -106,7 +106,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#node_version LinuxWebAppSlot#node_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#node_version LinuxWebAppSlot#node_version}.</summary>
         [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeVersion
@@ -117,7 +117,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#php_version LinuxWebAppSlot#php_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#php_version LinuxWebAppSlot#php_version}.</summary>
         [JsiiProperty(name: "phpVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhpVersion
@@ -128,7 +128,7 @@ namespace azurerm.LinuxWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#python_version LinuxWebAppSlot#python_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#python_version LinuxWebAppSlot#python_version}.</summary>
         [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PythonVersion
@@ -146,7 +146,7 @@ namespace azurerm.LinuxWebAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_image_name LinuxWebAppSlot#docker_image_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_image_name LinuxWebAppSlot#docker_image_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerImageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerImageName
@@ -154,7 +154,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_password LinuxWebAppSlot#docker_registry_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_password LinuxWebAppSlot#docker_registry_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryPassword
@@ -162,7 +162,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_url LinuxWebAppSlot#docker_registry_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_url LinuxWebAppSlot#docker_registry_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryUrl
@@ -170,7 +170,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#docker_registry_username LinuxWebAppSlot#docker_registry_username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#docker_registry_username LinuxWebAppSlot#docker_registry_username}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dockerRegistryUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DockerRegistryUsername
@@ -178,7 +178,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#dotnet_version LinuxWebAppSlot#dotnet_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#dotnet_version LinuxWebAppSlot#dotnet_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DotnetVersion
@@ -186,7 +186,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#go_version LinuxWebAppSlot#go_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#go_version LinuxWebAppSlot#go_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "goVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GoVersion
@@ -194,7 +194,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_server LinuxWebAppSlot#java_server}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_server LinuxWebAppSlot#java_server}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaServer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaServer
@@ -202,7 +202,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_server_version LinuxWebAppSlot#java_server_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_server_version LinuxWebAppSlot#java_server_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaServerVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaServerVersion
@@ -210,7 +210,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#java_version LinuxWebAppSlot#java_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#java_version LinuxWebAppSlot#java_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? JavaVersion
@@ -218,7 +218,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#node_version LinuxWebAppSlot#node_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#node_version LinuxWebAppSlot#node_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeVersion
@@ -226,7 +226,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#php_version LinuxWebAppSlot#php_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#php_version LinuxWebAppSlot#php_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phpVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhpVersion
@@ -234,7 +234,7 @@ namespace azurerm.LinuxWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app_slot#python_version LinuxWebAppSlot#python_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#python_version LinuxWebAppSlot#python_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PythonVersion

@@ -7,7 +7,7 @@ namespace azurerm.Iothub
     [JsiiByValue(fqn: "azurerm.iothub.IothubCloudToDevice")]
     public class IothubCloudToDevice : azurerm.Iothub.IIothubCloudToDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iothub#default_ttl Iothub#default_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#default_ttl Iothub#default_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTtl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultTtl
@@ -20,7 +20,7 @@ namespace azurerm.Iothub
 
         /// <summary>feedback block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iothub#feedback Iothub#feedback}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#feedback Iothub#feedback}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Iothub.IIothubCloudToDeviceFeedback" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace azurerm.Iothub
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/iothub#max_delivery_count Iothub#max_delivery_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#max_delivery_count Iothub#max_delivery_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxDeliveryCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxDeliveryCount

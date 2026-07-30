@@ -9,7 +9,7 @@ namespace azurerm.DevTestVirtualNetwork
     {
         /// <summary>shared_public_ip_address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_virtual_network#shared_public_ip_address DevTestVirtualNetwork#shared_public_ip_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_virtual_network#shared_public_ip_address DevTestVirtualNetwork#shared_public_ip_address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sharedPublicIpAddress", typeJson: "{\"fqn\":\"azurerm.devTestVirtualNetwork.DevTestVirtualNetworkSubnetSharedPublicIpAddress\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace azurerm.DevTestVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_virtual_network#use_in_virtual_machine_creation DevTestVirtualNetwork#use_in_virtual_machine_creation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_virtual_network#use_in_virtual_machine_creation DevTestVirtualNetwork#use_in_virtual_machine_creation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "useInVirtualMachineCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UseInVirtualMachineCreation
@@ -28,7 +28,7 @@ namespace azurerm.DevTestVirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/dev_test_virtual_network#use_public_ip_address DevTestVirtualNetwork#use_public_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_virtual_network#use_public_ip_address DevTestVirtualNetwork#use_public_ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usePublicIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UsePublicIpAddress

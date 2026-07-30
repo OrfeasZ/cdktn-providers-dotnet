@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNetworkManager
     [JsiiByValue(fqn: "azurerm.dataAzurermNetworkManager.DataAzurermNetworkManagerTimeouts")]
     public class DataAzurermNetworkManagerTimeouts : azurerm.DataAzurermNetworkManager.IDataAzurermNetworkManagerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/network_manager#read DataAzurermNetworkManager#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/network_manager#read DataAzurermNetworkManager#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

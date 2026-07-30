@@ -7,14 +7,14 @@ namespace azurerm.ExtendedLocationCustomLocation
     [JsiiInterface(nativeType: typeof(IExtendedLocationCustomLocationAuthentication), fullyQualifiedName: "azurerm.extendedLocationCustomLocation.ExtendedLocationCustomLocationAuthentication")]
     public interface IExtendedLocationCustomLocationAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/extended_location_custom_location#value ExtendedLocationCustomLocation#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/extended_location_custom_location#value ExtendedLocationCustomLocation#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/extended_location_custom_location#type ExtendedLocationCustomLocation#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/extended_location_custom_location#type ExtendedLocationCustomLocation#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -32,14 +32,14 @@ namespace azurerm.ExtendedLocationCustomLocation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/extended_location_custom_location#value ExtendedLocationCustomLocation#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/extended_location_custom_location#value ExtendedLocationCustomLocation#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/extended_location_custom_location#type ExtendedLocationCustomLocation#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/extended_location_custom_location#type ExtendedLocationCustomLocation#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

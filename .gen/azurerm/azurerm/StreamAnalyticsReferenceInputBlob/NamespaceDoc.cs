@@ -5,7 +5,7 @@ namespace azurerm.StreamAnalyticsReferenceInputBlob
     /// <remarks>
     /// <h1><c>azurerm_stream_analytics_reference_input_blob</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stream_analytics_reference_input_blob"><c>azurerm_stream_analytics_reference_input_blob</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_reference_input_blob"><c>azurerm_stream_analytics_reference_input_blob</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

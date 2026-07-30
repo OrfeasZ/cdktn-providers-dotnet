@@ -5,7 +5,7 @@ namespace azurerm.SecurityCenterAutomation
     /// <remarks>
     /// <h1><c>azurerm_security_center_automation</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_automation"><c>azurerm_security_center_automation</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_automation"><c>azurerm_security_center_automation</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

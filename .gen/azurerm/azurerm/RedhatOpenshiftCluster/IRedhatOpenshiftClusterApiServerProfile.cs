@@ -7,7 +7,7 @@ namespace azurerm.RedhatOpenshiftCluster
     [JsiiInterface(nativeType: typeof(IRedhatOpenshiftClusterApiServerProfile), fullyQualifiedName: "azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterApiServerProfile")]
     public interface IRedhatOpenshiftClusterApiServerProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}")]
         string Visibility
         {
@@ -21,7 +21,7 @@ namespace azurerm.RedhatOpenshiftCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
             [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}")]
             public string Visibility
             {

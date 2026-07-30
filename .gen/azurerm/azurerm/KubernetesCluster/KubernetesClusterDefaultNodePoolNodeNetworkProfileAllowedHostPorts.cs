@@ -7,7 +7,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts")]
     public class KubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts : azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolNodeNetworkProfileAllowedHostPorts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#port_end KubernetesCluster#port_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#port_end KubernetesCluster#port_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "portEnd", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PortEnd
@@ -16,7 +16,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#port_start KubernetesCluster#port_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#port_start KubernetesCluster#port_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "portStart", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PortStart
@@ -25,7 +25,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/kubernetes_cluster#protocol KubernetesCluster#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#protocol KubernetesCluster#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol

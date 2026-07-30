@@ -9,7 +9,7 @@ namespace azurerm.NetworkConnectionMonitor
     [JsiiByValue(fqn: "azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpoint")]
     public class NetworkConnectionMonitorEndpoint : azurerm.NetworkConnectionMonitor.INetworkConnectionMonitorEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#name NetworkConnectionMonitor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#name NetworkConnectionMonitor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#address NetworkConnectionMonitor#address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Address
@@ -26,7 +26,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#coverage_level NetworkConnectionMonitor#coverage_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#coverage_level NetworkConnectionMonitor#coverage_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "coverageLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CoverageLevel
@@ -35,7 +35,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#excluded_ip_addresses NetworkConnectionMonitor#excluded_ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#excluded_ip_addresses NetworkConnectionMonitor#excluded_ip_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "excludedIpAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExcludedIpAddresses
@@ -46,7 +46,7 @@ namespace azurerm.NetworkConnectionMonitor
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#filter NetworkConnectionMonitor#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#filter NetworkConnectionMonitor#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"azurerm.networkConnectionMonitor.NetworkConnectionMonitorEndpointFilter\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#included_ip_addresses NetworkConnectionMonitor#included_ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#included_ip_addresses NetworkConnectionMonitor#included_ip_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "includedIpAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IncludedIpAddresses
@@ -65,7 +65,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#target_resource_id NetworkConnectionMonitor#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#target_resource_id NetworkConnectionMonitor#target_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetResourceId
@@ -74,7 +74,7 @@ namespace azurerm.NetworkConnectionMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_connection_monitor#target_resource_type NetworkConnectionMonitor#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_connection_monitor#target_resource_type NetworkConnectionMonitor#target_resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetResourceType

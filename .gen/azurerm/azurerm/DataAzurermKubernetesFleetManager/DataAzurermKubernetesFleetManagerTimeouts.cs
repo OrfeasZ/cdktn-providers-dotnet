@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKubernetesFleetManager
     [JsiiByValue(fqn: "azurerm.dataAzurermKubernetesFleetManager.DataAzurermKubernetesFleetManagerTimeouts")]
     public class DataAzurermKubernetesFleetManagerTimeouts : azurerm.DataAzurermKubernetesFleetManager.IDataAzurermKubernetesFleetManagerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/kubernetes_fleet_manager#read DataAzurermKubernetesFleetManager#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kubernetes_fleet_manager#read DataAzurermKubernetesFleetManager#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

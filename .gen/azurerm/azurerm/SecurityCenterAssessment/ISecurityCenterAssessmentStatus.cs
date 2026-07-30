@@ -7,14 +7,14 @@ namespace azurerm.SecurityCenterAssessment
     [JsiiInterface(nativeType: typeof(ISecurityCenterAssessmentStatus), fullyQualifiedName: "azurerm.securityCenterAssessment.SecurityCenterAssessmentStatus")]
     public interface ISecurityCenterAssessmentStatus
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#code SecurityCenterAssessment#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#code SecurityCenterAssessment#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}")]
         string Code
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#cause SecurityCenterAssessment#cause}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#cause SecurityCenterAssessment#cause}.</summary>
         [JsiiProperty(name: "cause", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Cause
@@ -25,7 +25,7 @@ namespace azurerm.SecurityCenterAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#description SecurityCenterAssessment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#description SecurityCenterAssessment#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -43,14 +43,14 @@ namespace azurerm.SecurityCenterAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#code SecurityCenterAssessment#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#code SecurityCenterAssessment#code}.</summary>
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}")]
             public string Code
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#cause SecurityCenterAssessment#cause}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#cause SecurityCenterAssessment#cause}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cause", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Cause
@@ -58,7 +58,7 @@ namespace azurerm.SecurityCenterAssessment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/security_center_assessment#description SecurityCenterAssessment#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/security_center_assessment#description SecurityCenterAssessment#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description

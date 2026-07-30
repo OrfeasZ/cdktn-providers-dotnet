@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupAutomationRunbookReceiver")]
     public class MonitorActionGroupAutomationRunbookReceiver : azurerm.MonitorActionGroup.IMonitorActionGroupAutomationRunbookReceiver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#automation_account_id MonitorActionGroup#automation_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#automation_account_id MonitorActionGroup#automation_account_id}.</summary>
         [JsiiProperty(name: "automationAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutomationAccountId
         {
@@ -19,7 +19,7 @@ namespace azurerm.MonitorActionGroup
 
         private object _isGlobalRunbook;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#is_global_runbook MonitorActionGroup#is_global_runbook}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#is_global_runbook MonitorActionGroup#is_global_runbook}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace azurerm.MonitorActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -58,7 +58,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#runbook_name MonitorActionGroup#runbook_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#runbook_name MonitorActionGroup#runbook_name}.</summary>
         [JsiiProperty(name: "runbookName", typeJson: "{\"primitive\":\"string\"}")]
         public string RunbookName
         {
@@ -66,7 +66,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#service_uri MonitorActionGroup#service_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#service_uri MonitorActionGroup#service_uri}.</summary>
         [JsiiProperty(name: "serviceUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceUri
         {
@@ -74,7 +74,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#webhook_resource_id MonitorActionGroup#webhook_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#webhook_resource_id MonitorActionGroup#webhook_resource_id}.</summary>
         [JsiiProperty(name: "webhookResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebhookResourceId
         {
@@ -84,7 +84,7 @@ namespace azurerm.MonitorActionGroup
 
         private object? _useCommonAlertSchema;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace azurerm.HealthcareFhirService
     [JsiiInterface(nativeType: typeof(IHealthcareFhirServiceOciArtifact), fullyQualifiedName: "azurerm.healthcareFhirService.HealthcareFhirServiceOciArtifact")]
     public interface IHealthcareFhirServiceOciArtifact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#login_server HealthcareFhirService#login_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#login_server HealthcareFhirService#login_server}.</summary>
         [JsiiProperty(name: "loginServer", typeJson: "{\"primitive\":\"string\"}")]
         string LoginServer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#digest HealthcareFhirService#digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#digest HealthcareFhirService#digest}.</summary>
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Digest
@@ -25,7 +25,7 @@ namespace azurerm.HealthcareFhirService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#image_name HealthcareFhirService#image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#image_name HealthcareFhirService#image_name}.</summary>
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageName
@@ -43,14 +43,14 @@ namespace azurerm.HealthcareFhirService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#login_server HealthcareFhirService#login_server}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#login_server HealthcareFhirService#login_server}.</summary>
             [JsiiProperty(name: "loginServer", typeJson: "{\"primitive\":\"string\"}")]
             public string LoginServer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#digest HealthcareFhirService#digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#digest HealthcareFhirService#digest}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Digest
@@ -58,7 +58,7 @@ namespace azurerm.HealthcareFhirService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/healthcare_fhir_service#image_name HealthcareFhirService#image_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/healthcare_fhir_service#image_name HealthcareFhirService#image_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageName

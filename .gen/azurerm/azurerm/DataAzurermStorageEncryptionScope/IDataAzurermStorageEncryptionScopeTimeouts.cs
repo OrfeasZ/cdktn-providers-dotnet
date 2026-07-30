@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageEncryptionScope
     [JsiiInterface(nativeType: typeof(IDataAzurermStorageEncryptionScopeTimeouts), fullyQualifiedName: "azurerm.dataAzurermStorageEncryptionScope.DataAzurermStorageEncryptionScopeTimeouts")]
     public interface IDataAzurermStorageEncryptionScopeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_encryption_scope#read DataAzurermStorageEncryptionScope#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_encryption_scope#read DataAzurermStorageEncryptionScope#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStorageEncryptionScope
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/storage_encryption_scope#read DataAzurermStorageEncryptionScope#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_encryption_scope#read DataAzurermStorageEncryptionScope#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermTrafficManagerProfile
     [JsiiByValue(fqn: "azurerm.dataAzurermTrafficManagerProfile.DataAzurermTrafficManagerProfileTimeouts")]
     public class DataAzurermTrafficManagerProfileTimeouts : azurerm.DataAzurermTrafficManagerProfile.IDataAzurermTrafficManagerProfileTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryLinkedServiceOdata
     [JsiiByValue(fqn: "azurerm.dataFactoryLinkedServiceOdata.DataFactoryLinkedServiceOdataBasicAuthentication")]
     public class DataFactoryLinkedServiceOdataBasicAuthentication : azurerm.DataFactoryLinkedServiceOdata.IDataFactoryLinkedServiceOdataBasicAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/data_factory_linked_service_odata#password DataFactoryLinkedServiceOdata#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_odata#password DataFactoryLinkedServiceOdata#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryLinkedServiceOdata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/data_factory_linked_service_odata#username DataFactoryLinkedServiceOdata#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_linked_service_odata#username DataFactoryLinkedServiceOdata#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

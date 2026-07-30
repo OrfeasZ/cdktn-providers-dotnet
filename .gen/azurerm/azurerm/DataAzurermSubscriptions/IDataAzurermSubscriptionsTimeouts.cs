@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSubscriptions
     [JsiiInterface(nativeType: typeof(IDataAzurermSubscriptionsTimeouts), fullyQualifiedName: "azurerm.dataAzurermSubscriptions.DataAzurermSubscriptionsTimeouts")]
     public interface IDataAzurermSubscriptionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/subscriptions#read DataAzurermSubscriptions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/subscriptions#read DataAzurermSubscriptions#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSubscriptions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/subscriptions#read DataAzurermSubscriptions#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/subscriptions#read DataAzurermSubscriptions#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

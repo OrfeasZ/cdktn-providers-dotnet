@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiByValue(fqn: "azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsHttpLogsFileSystem")]
     public class WindowsWebAppSlotLogsHttpLogsFileSystem : azurerm.WindowsWebAppSlot.IWindowsWebAppSlotLogsHttpLogsFileSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app_slot#retention_in_days WindowsWebAppSlot#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#retention_in_days WindowsWebAppSlot#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionInDays
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/windows_web_app_slot#retention_in_mb WindowsWebAppSlot#retention_in_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#retention_in_mb WindowsWebAppSlot#retention_in_mb}.</summary>
         [JsiiProperty(name: "retentionInMb", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionInMb
         {

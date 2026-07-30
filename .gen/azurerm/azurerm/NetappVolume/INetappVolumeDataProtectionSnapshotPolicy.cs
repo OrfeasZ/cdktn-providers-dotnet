@@ -7,7 +7,7 @@ namespace azurerm.NetappVolume
     [JsiiInterface(nativeType: typeof(INetappVolumeDataProtectionSnapshotPolicy), fullyQualifiedName: "azurerm.netappVolume.NetappVolumeDataProtectionSnapshotPolicy")]
     public interface INetappVolumeDataProtectionSnapshotPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume#snapshot_policy_id NetappVolume#snapshot_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume#snapshot_policy_id NetappVolume#snapshot_policy_id}.</summary>
         [JsiiProperty(name: "snapshotPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SnapshotPolicyId
         {
@@ -21,7 +21,7 @@ namespace azurerm.NetappVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/netapp_volume#snapshot_policy_id NetappVolume#snapshot_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume#snapshot_policy_id NetappVolume#snapshot_policy_id}.</summary>
             [JsiiProperty(name: "snapshotPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SnapshotPolicyId
             {

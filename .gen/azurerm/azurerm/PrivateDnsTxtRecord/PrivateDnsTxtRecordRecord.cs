@@ -9,7 +9,7 @@ namespace azurerm.PrivateDnsTxtRecord
     [JsiiByValue(fqn: "azurerm.privateDnsTxtRecord.PrivateDnsTxtRecordRecord")]
     public class PrivateDnsTxtRecordRecord : azurerm.PrivateDnsTxtRecord.IPrivateDnsTxtRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/private_dns_txt_record#value PrivateDnsTxtRecord#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_dns_txt_record#value PrivateDnsTxtRecord#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

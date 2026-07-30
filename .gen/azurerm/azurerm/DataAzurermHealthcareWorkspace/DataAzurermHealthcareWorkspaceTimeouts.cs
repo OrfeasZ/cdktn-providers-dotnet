@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermHealthcareWorkspace
     [JsiiByValue(fqn: "azurerm.dataAzurermHealthcareWorkspace.DataAzurermHealthcareWorkspaceTimeouts")]
     public class DataAzurermHealthcareWorkspaceTimeouts : azurerm.DataAzurermHealthcareWorkspace.IDataAzurermHealthcareWorkspaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.WebPubsubHub
     [JsiiInterface(nativeType: typeof(IWebPubsubHubEventHandlerAuth), fullyQualifiedName: "azurerm.webPubsubHub.WebPubsubHubEventHandlerAuth")]
     public interface IWebPubsubHubEventHandlerAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/web_pubsub_hub#managed_identity_id WebPubsubHub#managed_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#managed_identity_id WebPubsubHub#managed_identity_id}.</summary>
         [JsiiProperty(name: "managedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedIdentityId
         {
@@ -21,7 +21,7 @@ namespace azurerm.WebPubsubHub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/web_pubsub_hub#managed_identity_id WebPubsubHub#managed_identity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#managed_identity_id WebPubsubHub#managed_identity_id}.</summary>
             [JsiiProperty(name: "managedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedIdentityId
             {

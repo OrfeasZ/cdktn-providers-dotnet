@@ -9,7 +9,7 @@ namespace azurerm.AutomanageConfiguration
     {
         /// <summary>daily_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#daily_schedule AutomanageConfiguration#daily_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#daily_schedule AutomanageConfiguration#daily_schedule}
         /// </remarks>
         [JsiiProperty(name: "dailySchedule", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailySchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace azurerm.AutomanageConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#retention_policy_type AutomanageConfiguration#retention_policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#retention_policy_type AutomanageConfiguration#retention_policy_type}.</summary>
         [JsiiProperty(name: "retentionPolicyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RetentionPolicyType
@@ -34,7 +34,7 @@ namespace azurerm.AutomanageConfiguration
 
         /// <summary>weekly_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#weekly_schedule AutomanageConfiguration#weekly_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#weekly_schedule AutomanageConfiguration#weekly_schedule}
         /// </remarks>
         [JsiiProperty(name: "weeklySchedule", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklySchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace azurerm.AutomanageConfiguration
 
             /// <summary>daily_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#daily_schedule AutomanageConfiguration#daily_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#daily_schedule AutomanageConfiguration#daily_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dailySchedule", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailySchedule\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azurerm.AutomanageConfiguration
                 get => GetInstanceProperty<azurerm.AutomanageConfiguration.IAutomanageConfigurationBackupRetentionPolicyDailySchedule?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#retention_policy_type AutomanageConfiguration#retention_policy_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#retention_policy_type AutomanageConfiguration#retention_policy_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPolicyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RetentionPolicyType
@@ -74,7 +74,7 @@ namespace azurerm.AutomanageConfiguration
 
             /// <summary>weekly_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automanage_configuration#weekly_schedule AutomanageConfiguration#weekly_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration#weekly_schedule AutomanageConfiguration#weekly_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "weeklySchedule", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyWeeklySchedule\"}", isOptional: true)]

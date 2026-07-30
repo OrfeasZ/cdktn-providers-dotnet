@@ -9,7 +9,7 @@ namespace azurerm.NginxConfiguration
     [JsiiByValue(fqn: "azurerm.nginxConfiguration.NginxConfigurationProtectedFile")]
     public class NginxConfigurationProtectedFile : azurerm.NginxConfiguration.INginxConfigurationProtectedFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_configuration#content NginxConfiguration#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_configuration#content NginxConfiguration#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.NginxConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_configuration#virtual_path NginxConfiguration#virtual_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_configuration#virtual_path NginxConfiguration#virtual_path}.</summary>
         [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualPath
         {

@@ -7,14 +7,14 @@ namespace azurerm.SpringCloudApp
     [JsiiInterface(nativeType: typeof(ISpringCloudAppPersistentDisk), fullyQualifiedName: "azurerm.springCloudApp.SpringCloudAppPersistentDisk")]
     public interface ISpringCloudAppPersistentDisk
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MountPath
@@ -32,14 +32,14 @@ namespace azurerm.SpringCloudApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#size_in_gb SpringCloudApp#size_in_gb}.</summary>
             [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MountPath

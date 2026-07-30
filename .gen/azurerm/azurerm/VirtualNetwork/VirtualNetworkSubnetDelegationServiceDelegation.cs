@@ -7,7 +7,7 @@ namespace azurerm.VirtualNetwork
     [JsiiByValue(fqn: "azurerm.virtualNetwork.VirtualNetworkSubnetDelegationServiceDelegation")]
     public class VirtualNetworkSubnetDelegationServiceDelegation : azurerm.VirtualNetwork.IVirtualNetworkSubnetDelegationServiceDelegation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#actions VirtualNetwork#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network#actions VirtualNetwork#actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Actions
@@ -16,7 +16,7 @@ namespace azurerm.VirtualNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

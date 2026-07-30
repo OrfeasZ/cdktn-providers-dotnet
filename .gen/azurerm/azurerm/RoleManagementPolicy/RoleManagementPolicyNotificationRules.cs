@@ -9,7 +9,7 @@ namespace azurerm.RoleManagementPolicy
     {
         /// <summary>active_assignments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#active_assignments RoleManagementPolicy#active_assignments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#active_assignments RoleManagementPolicy#active_assignments}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeAssignments", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesActiveAssignments\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>eligible_activations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#eligible_activations RoleManagementPolicy#eligible_activations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#eligible_activations RoleManagementPolicy#eligible_activations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eligibleActivations", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesEligibleActivations\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>eligible_assignments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#eligible_assignments RoleManagementPolicy#eligible_assignments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#eligible_assignments RoleManagementPolicy#eligible_assignments}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eligibleAssignments", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesEligibleAssignments\"}", isOptional: true)]

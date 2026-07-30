@@ -5,7 +5,7 @@ namespace azurerm.StorageTableEntity
     /// <remarks>
     /// <h1><c>azurerm_storage_table_entity</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_table_entity"><c>azurerm_storage_table_entity</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_table_entity"><c>azurerm_storage_table_entity</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

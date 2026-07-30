@@ -9,7 +9,7 @@ namespace azurerm.StorageAccount
     {
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountSharePropertiesCorsRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "corsRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.storageAccount.StorageAccountSharePropertiesCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#retention_policy StorageAccount#retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#retention_policy StorageAccount#retention_policy}
         /// </remarks>
         [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>smb block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#smb StorageAccount#smb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#smb StorageAccount#smb}
         /// </remarks>
         [JsiiProperty(name: "smb", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountSharePropertiesSmb\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>cors_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountSharePropertiesCorsRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -71,7 +71,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>retention_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#retention_policy StorageAccount#retention_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#retention_policy StorageAccount#retention_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountSharePropertiesRetentionPolicy\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>smb block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_account#smb StorageAccount#smb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#smb StorageAccount#smb}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "smb", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountSharePropertiesSmb\"}", isOptional: true)]

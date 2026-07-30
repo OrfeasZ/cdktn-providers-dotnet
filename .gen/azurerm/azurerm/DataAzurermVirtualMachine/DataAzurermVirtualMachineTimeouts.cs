@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualMachine
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualMachine.DataAzurermVirtualMachineTimeouts")]
     public class DataAzurermVirtualMachineTimeouts : azurerm.DataAzurermVirtualMachine.IDataAzurermVirtualMachineTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/virtual_machine#read DataAzurermVirtualMachine#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_machine#read DataAzurermVirtualMachine#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

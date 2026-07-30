@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     [JsiiByValue(fqn: "azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorage")]
     public class LinuxWebAppLogsHttpLogsAzureBlobStorage : azurerm.LinuxWebApp.ILinuxWebAppLogsHttpLogsAzureBlobStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#sas_url LinuxWebApp#sas_url}.</summary>
         [JsiiProperty(name: "sasUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SasUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionInDays

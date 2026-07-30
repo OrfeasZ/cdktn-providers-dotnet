@@ -11,7 +11,7 @@ namespace azurerm.LinuxFunctionApp
     {
         /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/linux_function_app#client_id LinuxFunctionApp#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_function_app#client_id LinuxFunctionApp#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId

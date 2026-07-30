@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventhubAuthorizationRule
     [JsiiByValue(fqn: "azurerm.dataAzurermEventhubAuthorizationRule.DataAzurermEventhubAuthorizationRuleTimeouts")]
     public class DataAzurermEventhubAuthorizationRuleTimeouts : azurerm.DataAzurermEventhubAuthorizationRule.IDataAzurermEventhubAuthorizationRuleTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/eventhub_authorization_rule#read DataAzurermEventhubAuthorizationRule#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_authorization_rule#read DataAzurermEventhubAuthorizationRule#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

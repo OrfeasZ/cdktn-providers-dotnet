@@ -9,7 +9,7 @@ namespace azurerm.CapacityReservation
     [JsiiByValue(fqn: "azurerm.capacityReservation.CapacityReservationSku")]
     public class CapacityReservationSku : azurerm.CapacityReservation.ICapacityReservationSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/capacity_reservation#capacity CapacityReservation#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/capacity_reservation#capacity CapacityReservation#capacity}.</summary>
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}")]
         public double Capacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.CapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/capacity_reservation#name CapacityReservation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/capacity_reservation#name CapacityReservation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

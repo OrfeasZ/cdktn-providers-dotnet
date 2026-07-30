@@ -11,7 +11,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>Must the assignment have an expiry date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#expiration_required RoleManagementPolicy#expiration_required}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#expiration_required RoleManagementPolicy#expiration_required}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>The duration after which assignments expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/role_management_policy#expire_after RoleManagementPolicy#expire_after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_management_policy#expire_after RoleManagementPolicy#expire_after}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expireAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

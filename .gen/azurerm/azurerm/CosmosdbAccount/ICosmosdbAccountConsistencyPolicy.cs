@@ -7,14 +7,14 @@ namespace azurerm.CosmosdbAccount
     [JsiiInterface(nativeType: typeof(ICosmosdbAccountConsistencyPolicy), fullyQualifiedName: "azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicy")]
     public interface ICosmosdbAccountConsistencyPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
         [JsiiProperty(name: "consistencyLevel", typeJson: "{\"primitive\":\"string\"}")]
         string ConsistencyLevel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
         [JsiiProperty(name: "maxIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxIntervalInSeconds
@@ -25,7 +25,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
         [JsiiProperty(name: "maxStalenessPrefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxStalenessPrefix
@@ -43,14 +43,14 @@ namespace azurerm.CosmosdbAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#consistency_level CosmosdbAccount#consistency_level}.</summary>
             [JsiiProperty(name: "consistencyLevel", typeJson: "{\"primitive\":\"string\"}")]
             public string ConsistencyLevel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#max_interval_in_seconds CosmosdbAccount#max_interval_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxIntervalInSeconds
@@ -58,7 +58,7 @@ namespace azurerm.CosmosdbAccount
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#max_staleness_prefix CosmosdbAccount#max_staleness_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxStalenessPrefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxStalenessPrefix

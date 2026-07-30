@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolAutoScale")]
     public class BatchPoolAutoScale : azurerm.BatchPool.IBatchPoolAutoScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool#formula BatchPool#formula}.</summary>
         [JsiiProperty(name: "formula", typeJson: "{\"primitive\":\"string\"}")]
         public string Formula
         {
@@ -17,7 +17,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool#evaluation_interval BatchPool#evaluation_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EvaluationInterval

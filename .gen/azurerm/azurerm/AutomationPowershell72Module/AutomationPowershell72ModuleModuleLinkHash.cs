@@ -9,7 +9,7 @@ namespace azurerm.AutomationPowershell72Module
     [JsiiByValue(fqn: "azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHash")]
     public class AutomationPowershell72ModuleModuleLinkHash : azurerm.AutomationPowershell72Module.IAutomationPowershell72ModuleModuleLinkHash
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_powershell72_module#algorithm AutomationPowershell72Module#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_powershell72_module#algorithm AutomationPowershell72Module#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string Algorithm
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationPowershell72Module
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/automation_powershell72_module#value AutomationPowershell72Module#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_powershell72_module#value AutomationPowershell72Module#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

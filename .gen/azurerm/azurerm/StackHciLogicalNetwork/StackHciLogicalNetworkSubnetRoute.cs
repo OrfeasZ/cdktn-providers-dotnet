@@ -9,7 +9,7 @@ namespace azurerm.StackHciLogicalNetwork
     [JsiiByValue(fqn: "azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetRoute")]
     public class StackHciLogicalNetworkSubnetRoute : azurerm.StackHciLogicalNetwork.IStackHciLogicalNetworkSubnetRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_logical_network#address_prefix StackHciLogicalNetwork#address_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_logical_network#address_prefix StackHciLogicalNetwork#address_prefix}.</summary>
         [JsiiProperty(name: "addressPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressPrefix
         {
@@ -17,7 +17,7 @@ namespace azurerm.StackHciLogicalNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_logical_network#next_hop_ip_address StackHciLogicalNetwork#next_hop_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_logical_network#next_hop_ip_address StackHciLogicalNetwork#next_hop_ip_address}.</summary>
         [JsiiProperty(name: "nextHopIpAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string NextHopIpAddress
         {
@@ -25,7 +25,7 @@ namespace azurerm.StackHciLogicalNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_logical_network#name StackHciLogicalNetwork#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_logical_network#name StackHciLogicalNetwork#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

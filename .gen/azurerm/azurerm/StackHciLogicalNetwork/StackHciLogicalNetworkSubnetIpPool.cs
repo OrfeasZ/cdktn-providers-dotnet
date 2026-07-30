@@ -9,7 +9,7 @@ namespace azurerm.StackHciLogicalNetwork
     [JsiiByValue(fqn: "azurerm.stackHciLogicalNetwork.StackHciLogicalNetworkSubnetIpPool")]
     public class StackHciLogicalNetworkSubnetIpPool : azurerm.StackHciLogicalNetwork.IStackHciLogicalNetworkSubnetIpPool
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_logical_network#end StackHciLogicalNetwork#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_logical_network#end StackHciLogicalNetwork#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         public string End
         {
@@ -17,7 +17,7 @@ namespace azurerm.StackHciLogicalNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/stack_hci_logical_network#start StackHciLogicalNetwork#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_logical_network#start StackHciLogicalNetwork#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         public string Start
         {

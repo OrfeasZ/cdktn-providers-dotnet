@@ -9,7 +9,7 @@ namespace azurerm.MssqlElasticpool
     [JsiiByValue(fqn: "azurerm.mssqlElasticpool.MssqlElasticpoolPerDatabaseSettings")]
     public class MssqlElasticpoolPerDatabaseSettings : azurerm.MssqlElasticpool.IMssqlElasticpoolPerDatabaseSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#max_capacity MssqlElasticpool#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxCapacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_elasticpool#min_capacity MssqlElasticpool#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MinCapacity
         {

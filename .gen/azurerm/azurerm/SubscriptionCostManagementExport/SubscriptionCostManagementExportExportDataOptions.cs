@@ -9,7 +9,7 @@ namespace azurerm.SubscriptionCostManagementExport
     [JsiiByValue(fqn: "azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExportExportDataOptions")]
     public class SubscriptionCostManagementExportExportDataOptions : azurerm.SubscriptionCostManagementExport.ISubscriptionCostManagementExportExportDataOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
         [JsiiProperty(name: "timeFrame", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeFrame
         {
@@ -17,7 +17,7 @@ namespace azurerm.SubscriptionCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

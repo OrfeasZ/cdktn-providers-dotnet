@@ -7,7 +7,7 @@ namespace azurerm.MachineLearningComputeInstance
     [JsiiInterface(nativeType: typeof(IMachineLearningComputeInstanceSsh), fullyQualifiedName: "azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceSsh")]
     public interface IMachineLearningComputeInstanceSsh
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_compute_instance#public_key MachineLearningComputeInstance#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_instance#public_key MachineLearningComputeInstance#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         string PublicKey
         {
@@ -21,7 +21,7 @@ namespace azurerm.MachineLearningComputeInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/machine_learning_compute_instance#public_key MachineLearningComputeInstance#public_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_instance#public_key MachineLearningComputeInstance#public_key}.</summary>
             [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicKey
             {

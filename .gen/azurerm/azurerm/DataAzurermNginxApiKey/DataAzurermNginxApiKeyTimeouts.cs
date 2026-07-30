@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNginxApiKey
     [JsiiByValue(fqn: "azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeouts")]
     public class DataAzurermNginxApiKeyTimeouts : azurerm.DataAzurermNginxApiKey.IDataAzurermNginxApiKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/nginx_api_key#read DataAzurermNginxApiKey#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_api_key#read DataAzurermNginxApiKey#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

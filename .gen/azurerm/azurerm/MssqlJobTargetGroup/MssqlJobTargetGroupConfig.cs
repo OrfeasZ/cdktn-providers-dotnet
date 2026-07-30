@@ -9,7 +9,7 @@ namespace azurerm.MssqlJobTargetGroup
     [JsiiByValue(fqn: "azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupConfig")]
     public class MssqlJobTargetGroupConfig : azurerm.MssqlJobTargetGroup.IMssqlJobTargetGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_job_target_group#job_agent_id MssqlJobTargetGroup#job_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_target_group#job_agent_id MssqlJobTargetGroup#job_agent_id}.</summary>
         [JsiiProperty(name: "jobAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string JobAgentId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_job_target_group#name MssqlJobTargetGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_target_group#name MssqlJobTargetGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_job_target_group#id MssqlJobTargetGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_target_group#id MssqlJobTargetGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -42,7 +42,7 @@ namespace azurerm.MssqlJobTargetGroup
 
         /// <summary>job_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_job_target_group#job_target MssqlJobTargetGroup#job_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_target_group#job_target MssqlJobTargetGroup#job_target}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MssqlJobTargetGroup.IMssqlJobTargetGroupJobTarget" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -75,7 +75,7 @@ namespace azurerm.MssqlJobTargetGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mssql_job_target_group#timeouts MssqlJobTargetGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mssql_job_target_group#timeouts MssqlJobTargetGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupTimeouts\"}", isOptional: true)]

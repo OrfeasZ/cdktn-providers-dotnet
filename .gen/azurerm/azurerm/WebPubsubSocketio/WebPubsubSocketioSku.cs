@@ -9,7 +9,7 @@ namespace azurerm.WebPubsubSocketio
     [JsiiByValue(fqn: "azurerm.webPubsubSocketio.WebPubsubSocketioSku")]
     public class WebPubsubSocketioSku : azurerm.WebPubsubSocketio.IWebPubsubSocketioSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/web_pubsub_socketio#name WebPubsubSocketio#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_socketio#name WebPubsubSocketio#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.WebPubsubSocketio
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/web_pubsub_socketio#capacity WebPubsubSocketio#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_socketio#capacity WebPubsubSocketio#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity

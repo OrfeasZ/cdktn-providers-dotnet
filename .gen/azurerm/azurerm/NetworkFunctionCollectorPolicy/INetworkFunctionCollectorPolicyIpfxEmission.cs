@@ -7,7 +7,7 @@ namespace azurerm.NetworkFunctionCollectorPolicy
     [JsiiInterface(nativeType: typeof(INetworkFunctionCollectorPolicyIpfxEmission), fullyQualifiedName: "azurerm.networkFunctionCollectorPolicy.NetworkFunctionCollectorPolicyIpfxEmission")]
     public interface INetworkFunctionCollectorPolicyIpfxEmission
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_function_collector_policy#destination_types NetworkFunctionCollectorPolicy#destination_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_function_collector_policy#destination_types NetworkFunctionCollectorPolicy#destination_types}.</summary>
         [JsiiProperty(name: "destinationTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DestinationTypes
         {
@@ -21,7 +21,7 @@ namespace azurerm.NetworkFunctionCollectorPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/network_function_collector_policy#destination_types NetworkFunctionCollectorPolicy#destination_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_function_collector_policy#destination_types NetworkFunctionCollectorPolicy#destination_types}.</summary>
             [JsiiProperty(name: "destinationTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DestinationTypes
             {

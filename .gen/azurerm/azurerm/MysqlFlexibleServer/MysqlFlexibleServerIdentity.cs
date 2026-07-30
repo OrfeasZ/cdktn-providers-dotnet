@@ -9,7 +9,7 @@ namespace azurerm.MysqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.mysqlFlexibleServer.MysqlFlexibleServerIdentity")]
     public class MysqlFlexibleServerIdentity : azurerm.MysqlFlexibleServer.IMysqlFlexibleServerIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_server#identity_ids MysqlFlexibleServer#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server#identity_ids MysqlFlexibleServer#identity_ids}.</summary>
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] IdentityIds
         {
@@ -17,7 +17,7 @@ namespace azurerm.MysqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/mysql_flexible_server#type MysqlFlexibleServer#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mysql_flexible_server#type MysqlFlexibleServer#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

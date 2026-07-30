@@ -9,7 +9,7 @@ namespace azurerm.StorageShare
     [JsiiByValue(fqn: "azurerm.storageShare.StorageShareAcl")]
     public class StorageShareAcl : azurerm.StorageShare.IStorageShareAcl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_share#id StorageShare#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share#id StorageShare#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ namespace azurerm.StorageShare
 
         /// <summary>access_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/storage_share#access_policy StorageShare#access_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share#access_policy StorageShare#access_policy}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageShare.IStorageShareAclAccessPolicy" />)[]</para>
         /// </remarks>
         [JsiiOptional]

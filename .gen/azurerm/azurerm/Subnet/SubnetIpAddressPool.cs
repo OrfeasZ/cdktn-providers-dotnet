@@ -9,7 +9,7 @@ namespace azurerm.Subnet
     [JsiiByValue(fqn: "azurerm.subnet.SubnetIpAddressPool")]
     public class SubnetIpAddressPool : azurerm.Subnet.ISubnetIpAddressPool
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet#id Subnet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet#id Subnet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ namespace azurerm.Subnet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/subnet#number_of_ip_addresses Subnet#number_of_ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subnet#number_of_ip_addresses Subnet#number_of_ip_addresses}.</summary>
         [JsiiProperty(name: "numberOfIpAddresses", typeJson: "{\"primitive\":\"string\"}")]
         public string NumberOfIpAddresses
         {

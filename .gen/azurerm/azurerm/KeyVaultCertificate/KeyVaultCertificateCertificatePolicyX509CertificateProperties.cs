@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiByValue(fqn: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificateProperties")]
     public class KeyVaultCertificateCertificatePolicyX509CertificateProperties : azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyX509CertificateProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#key_usage KeyVaultCertificate#key_usage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#key_usage KeyVaultCertificate#key_usage}.</summary>
         [JsiiProperty(name: "keyUsage", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] KeyUsage
         {
@@ -17,7 +17,7 @@ namespace azurerm.KeyVaultCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#subject KeyVaultCertificate#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#subject KeyVaultCertificate#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         public string Subject
         {
@@ -25,7 +25,7 @@ namespace azurerm.KeyVaultCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#validity_in_months KeyVaultCertificate#validity_in_months}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#validity_in_months KeyVaultCertificate#validity_in_months}.</summary>
         [JsiiProperty(name: "validityInMonths", typeJson: "{\"primitive\":\"number\"}")]
         public double ValidityInMonths
         {
@@ -33,7 +33,7 @@ namespace azurerm.KeyVaultCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#extended_key_usage KeyVaultCertificate#extended_key_usage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#extended_key_usage KeyVaultCertificate#extended_key_usage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extendedKeyUsage", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ExtendedKeyUsage
@@ -44,7 +44,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>subject_alternative_names block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/key_vault_certificate#subject_alternative_names KeyVaultCertificate#subject_alternative_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#subject_alternative_names KeyVaultCertificate#subject_alternative_names}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subjectAlternativeNames", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificatePropertiesSubjectAlternativeNames\"}", isOptional: true)]

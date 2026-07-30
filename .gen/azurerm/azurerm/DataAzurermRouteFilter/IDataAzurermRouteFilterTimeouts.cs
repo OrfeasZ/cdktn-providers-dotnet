@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRouteFilter
     [JsiiInterface(nativeType: typeof(IDataAzurermRouteFilterTimeouts), fullyQualifiedName: "azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeouts")]
     public interface IDataAzurermRouteFilterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermRouteFilter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

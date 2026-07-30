@@ -7,7 +7,7 @@ namespace azurerm.NginxDeployment
     [JsiiInterface(nativeType: typeof(INginxDeploymentFrontendPublic), fullyQualifiedName: "azurerm.nginxDeployment.NginxDeploymentFrontendPublic")]
     public interface INginxDeploymentFrontendPublic
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IpAddress
@@ -25,7 +25,7 @@ namespace azurerm.NginxDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.0/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nginx_deployment#ip_address NginxDeployment#ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipAddress", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IpAddress
