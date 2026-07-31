@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/spaces_buckets#filter DataDigitaloceanSpacesBuckets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/spaces_buckets#filter DataDigitaloceanSpacesBuckets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanSpacesBuckets.IDataDigitaloceanSpacesBucketsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/spaces_buckets#id DataDigitaloceanSpacesBuckets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/spaces_buckets#id DataDigitaloceanSpacesBuckets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanSpacesBuckets
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/spaces_buckets#sort DataDigitaloceanSpacesBuckets#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/spaces_buckets#sort DataDigitaloceanSpacesBuckets#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanSpacesBuckets.IDataDigitaloceanSpacesBucketsSort" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>cpu block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#cpu App#cpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/app#cpu App#cpu}
         /// </remarks>
         [JsiiProperty(name: "cpu", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecWorkerAutoscalingMetricsCpu\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace digitalocean.App
 
             /// <summary>cpu block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#cpu App#cpu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/app#cpu App#cpu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cpu", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecWorkerAutoscalingMetricsCpu\"}", isOptional: true)]

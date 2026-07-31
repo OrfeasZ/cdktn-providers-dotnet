@@ -7,21 +7,21 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanDedicatedInferencesFilter), fullyQualifiedName: "digitalocean.dataDigitaloceanDedicatedInferences.DataDigitaloceanDedicatedInferencesFilter")]
     public interface IDataDigitaloceanDedicatedInferencesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#values DataDigitaloceanDedicatedInferences#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#values DataDigitaloceanDedicatedInferences#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#all DataDigitaloceanDedicatedInferences#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#all DataDigitaloceanDedicatedInferences#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#match_by DataDigitaloceanDedicatedInferences#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#match_by DataDigitaloceanDedicatedInferences#match_by}.</summary>
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MatchBy
@@ -53,21 +53,21 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#key DataDigitaloceanDedicatedInferences#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#values DataDigitaloceanDedicatedInferences#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#values DataDigitaloceanDedicatedInferences#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#all DataDigitaloceanDedicatedInferences#all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#all DataDigitaloceanDedicatedInferences#all}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferences
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inferences#match_by DataDigitaloceanDedicatedInferences#match_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inferences#match_by DataDigitaloceanDedicatedInferences#match_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MatchBy

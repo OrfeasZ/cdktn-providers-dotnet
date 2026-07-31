@@ -2,27 +2,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace digitalocean.DataDigitaloceanMicrodropletImages
+namespace digitalocean.DatabaseAdvancedMysqlConfig
 {
-    [JsiiInterface(nativeType: typeof(IDataDigitaloceanMicrodropletImagesConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesConfig")]
-    public interface IDataDigitaloceanMicrodropletImagesConfig : Io.Cdktn.ITerraformMetaArguments
+    [JsiiInterface(nativeType: typeof(IDatabaseAdvancedMysqlConfigConfig), fullyQualifiedName: "digitalocean.databaseAdvancedMysqlConfig.DatabaseAdvancedMysqlConfigConfig")]
+    public interface IDatabaseAdvancedMysqlConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>filter block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#filter DataDigitaloceanMicrodropletImages#filter}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesFilter" />)[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? Filter
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#cluster_id DatabaseAdvancedMysqlConfig#cluster_id}.</summary>
+        [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
+        string ClusterId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#id DataDigitaloceanMicrodropletImages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#id DatabaseAdvancedMysqlConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,14 +29,10 @@ namespace digitalocean.DataDigitaloceanMicrodropletImages
             }
         }
 
-        /// <summary>sort block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#sort DataDigitaloceanMicrodropletImages#sort}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesSort" />)[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#mysql_parameters DatabaseAdvancedMysqlConfig#mysql_parameters}.</summary>
+        [JsiiProperty(name: "mysqlParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? Sort
+        System.Collections.Generic.IDictionary<string, string>? MysqlParameters
         {
             get
             {
@@ -52,26 +40,21 @@ namespace digitalocean.DataDigitaloceanMicrodropletImages
             }
         }
 
-        [JsiiTypeProxy(nativeType: typeof(IDataDigitaloceanMicrodropletImagesConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesConfig")]
-        internal sealed class _Proxy : DeputyBase, digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesConfig
+        [JsiiTypeProxy(nativeType: typeof(IDatabaseAdvancedMysqlConfigConfig), fullyQualifiedName: "digitalocean.databaseAdvancedMysqlConfig.DatabaseAdvancedMysqlConfigConfig")]
+        internal sealed class _Proxy : DeputyBase, digitalocean.DatabaseAdvancedMysqlConfig.IDatabaseAdvancedMysqlConfigConfig
         {
             private _Proxy(ByRefValue reference): base(reference)
             {
             }
 
-            /// <summary>filter block.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#filter DataDigitaloceanMicrodropletImages#filter}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesFilter" />)[]</para>
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? Filter
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#cluster_id DatabaseAdvancedMysqlConfig#cluster_id}.</summary>
+            [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ClusterId
             {
-                get => GetInstanceProperty<object?>();
+                get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#id DataDigitaloceanMicrodropletImages#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#id DatabaseAdvancedMysqlConfig#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,16 +66,12 @@ namespace digitalocean.DataDigitaloceanMicrodropletImages
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>sort block.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#sort DataDigitaloceanMicrodropletImages#sort}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesSort" />)[]</para>
-            /// </remarks>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#mysql_parameters DatabaseAdvancedMysqlConfig#mysql_parameters}.</summary>
             [JsiiOptional]
-            [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? Sort
+            [JsiiProperty(name: "mysqlParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+            public System.Collections.Generic.IDictionary<string, string>? MysqlParameters
             {
-                get => GetInstanceProperty<object?>();
+                get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
             /// <remarks>

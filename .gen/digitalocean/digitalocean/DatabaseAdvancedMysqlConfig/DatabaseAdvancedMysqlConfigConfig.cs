@@ -2,15 +2,23 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace digitalocean.DataDigitaloceanMicrodropletImage
+namespace digitalocean.DatabaseAdvancedMysqlConfig
 {
-    [JsiiByValue(fqn: "digitalocean.dataDigitaloceanMicrodropletImage.DataDigitaloceanMicrodropletImageConfig")]
-    public class DataDigitaloceanMicrodropletImageConfig : digitalocean.DataDigitaloceanMicrodropletImage.IDataDigitaloceanMicrodropletImageConfig
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "digitalocean.databaseAdvancedMysqlConfig.DatabaseAdvancedMysqlConfigConfig")]
+    public class DatabaseAdvancedMysqlConfigConfig : digitalocean.DatabaseAdvancedMysqlConfig.IDatabaseAdvancedMysqlConfigConfig
     {
-        /// <summary>MicroDroplet image ID.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#cluster_id DatabaseAdvancedMysqlConfig#cluster_id}.</summary>
+        [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ClusterId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#id DatabaseAdvancedMysqlConfig#id}.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_image#id DataDigitaloceanMicrodropletImage#id}
-        ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
@@ -22,13 +30,10 @@ namespace digitalocean.DataDigitaloceanMicrodropletImage
             set;
         }
 
-        /// <summary>MicroDroplet image name.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_image#name DataDigitaloceanMicrodropletImage#name}
-        /// </remarks>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/database_advanced_mysql_config#mysql_parameters DatabaseAdvancedMysqlConfig#mysql_parameters}.</summary>
         [JsiiOptional]
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Name
+        [JsiiProperty(name: "mysqlParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? MysqlParameters
         {
             get;
             set;

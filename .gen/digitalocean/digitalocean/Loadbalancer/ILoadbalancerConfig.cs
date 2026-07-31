@@ -7,14 +7,14 @@ namespace digitalocean.Loadbalancer
     [JsiiInterface(nativeType: typeof(ILoadbalancerConfig), fullyQualifiedName: "digitalocean.loadbalancer.LoadbalancerConfig")]
     public interface ILoadbalancerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#name Loadbalancer#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#name Loadbalancer#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Algorithm
@@ -25,7 +25,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#disable_lets_encrypt_dns_records Loadbalancer#disable_lets_encrypt_dns_records}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#disable_lets_encrypt_dns_records Loadbalancer#disable_lets_encrypt_dns_records}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>domains block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#domains Loadbalancer#domains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#domains Loadbalancer#domains}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerDomains" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "domains", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerDomains\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#droplet_ids Loadbalancer#droplet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#droplet_ids Loadbalancer#droplet_ids}.</summary>
         [JsiiProperty(name: "dropletIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double[]? DropletIds
@@ -65,7 +65,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#droplet_tag Loadbalancer#droplet_tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#droplet_tag Loadbalancer#droplet_tag}.</summary>
         [JsiiProperty(name: "dropletTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DropletTag
@@ -76,7 +76,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#enable_backend_keepalive Loadbalancer#enable_backend_keepalive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#enable_backend_keepalive Loadbalancer#enable_backend_keepalive}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -90,7 +90,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#enable_proxy_protocol Loadbalancer#enable_proxy_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#enable_proxy_protocol Loadbalancer#enable_proxy_protocol}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -106,7 +106,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>firewall block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#firewall Loadbalancer#firewall}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#firewall Loadbalancer#firewall}
         /// </remarks>
         [JsiiProperty(name: "firewall", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerFirewall\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>forwarding_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerForwardingRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "forwardingRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerForwardingRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>glb_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#glb_settings Loadbalancer#glb_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#glb_settings Loadbalancer#glb_settings}
         /// </remarks>
         [JsiiProperty(name: "glbSettings", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerGlbSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>healthcheck block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
         /// </remarks>
         [JsiiProperty(name: "healthcheck", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerHealthcheck\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -161,7 +161,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#http_idle_timeout_seconds Loadbalancer#http_idle_timeout_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#http_idle_timeout_seconds Loadbalancer#http_idle_timeout_seconds}.</summary>
         [JsiiProperty(name: "httpIdleTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? HttpIdleTimeoutSeconds
@@ -172,7 +172,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#id Loadbalancer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#id Loadbalancer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,7 +189,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>the type of network the load balancer is accessible from (EXTERNAL or INTERNAL).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#network Loadbalancer#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#network Loadbalancer#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -203,7 +203,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>The network stack determines the allocation of ipv4/ipv6 addresses to the load balancer. Enum: 'IPV4' 'DUALSTACK'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#network_stack Loadbalancer#network_stack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#network_stack Loadbalancer#network_stack}
         /// </remarks>
         [JsiiProperty(name: "networkStack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -215,7 +215,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProjectId
@@ -226,7 +226,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -240,7 +240,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#region Loadbalancer#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#region Loadbalancer#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -251,7 +251,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#size Loadbalancer#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#size Loadbalancer#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Size
@@ -262,7 +262,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#size_unit Loadbalancer#size_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#size_unit Loadbalancer#size_unit}.</summary>
         [JsiiProperty(name: "sizeUnit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SizeUnit
@@ -275,7 +275,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>sticky_sessions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#sticky_sessions Loadbalancer#sticky_sessions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#sticky_sessions Loadbalancer#sticky_sessions}
         /// </remarks>
         [JsiiProperty(name: "stickySessions", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerStickySessions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>list of load balancer IDs to put behind a global load balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#target_load_balancer_ids Loadbalancer#target_load_balancer_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#target_load_balancer_ids Loadbalancer#target_load_balancer_ids}
         /// </remarks>
         [JsiiProperty(name: "targetLoadBalancerIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -303,7 +303,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>The tls cipher policy to be used for the load balancer. Enum: 'DEFAULT' 'STRONG'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#tls_cipher_policy Loadbalancer#tls_cipher_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#tls_cipher_policy Loadbalancer#tls_cipher_policy}
         /// </remarks>
         [JsiiProperty(name: "tlsCipherPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -317,7 +317,7 @@ namespace digitalocean.Loadbalancer
 
         /// <summary>the type of the load balancer (GLOBAL, REGIONAL, or REGIONAL_NETWORK).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#type Loadbalancer#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#type Loadbalancer#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -329,7 +329,7 @@ namespace digitalocean.Loadbalancer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#vpc_uuid Loadbalancer#vpc_uuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#vpc_uuid Loadbalancer#vpc_uuid}.</summary>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VpcUuid
@@ -347,14 +347,14 @@ namespace digitalocean.Loadbalancer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#name Loadbalancer#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#name Loadbalancer#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#algorithm Loadbalancer#algorithm}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Algorithm
@@ -362,7 +362,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#disable_lets_encrypt_dns_records Loadbalancer#disable_lets_encrypt_dns_records}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#disable_lets_encrypt_dns_records Loadbalancer#disable_lets_encrypt_dns_records}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -375,7 +375,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>domains block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#domains Loadbalancer#domains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#domains Loadbalancer#domains}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerDomains" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -385,7 +385,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#droplet_ids Loadbalancer#droplet_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#droplet_ids Loadbalancer#droplet_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dropletIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
             public double[]? DropletIds
@@ -393,7 +393,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<double[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#droplet_tag Loadbalancer#droplet_tag}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#droplet_tag Loadbalancer#droplet_tag}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dropletTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DropletTag
@@ -401,7 +401,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#enable_backend_keepalive Loadbalancer#enable_backend_keepalive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#enable_backend_keepalive Loadbalancer#enable_backend_keepalive}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -412,7 +412,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#enable_proxy_protocol Loadbalancer#enable_proxy_protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#enable_proxy_protocol Loadbalancer#enable_proxy_protocol}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -425,7 +425,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>firewall block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#firewall Loadbalancer#firewall}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#firewall Loadbalancer#firewall}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "firewall", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerFirewall\"}", isOptional: true)]
@@ -436,7 +436,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>forwarding_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#forwarding_rule Loadbalancer#forwarding_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.Loadbalancer.ILoadbalancerForwardingRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -448,7 +448,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>glb_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#glb_settings Loadbalancer#glb_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#glb_settings Loadbalancer#glb_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "glbSettings", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerGlbSettings\"}", isOptional: true)]
@@ -459,7 +459,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>healthcheck block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#healthcheck Loadbalancer#healthcheck}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthcheck", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerHealthcheck\"}", isOptional: true)]
@@ -468,7 +468,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<digitalocean.Loadbalancer.ILoadbalancerHealthcheck?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#http_idle_timeout_seconds Loadbalancer#http_idle_timeout_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#http_idle_timeout_seconds Loadbalancer#http_idle_timeout_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "httpIdleTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? HttpIdleTimeoutSeconds
@@ -476,7 +476,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#id Loadbalancer#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#id Loadbalancer#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -490,7 +490,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>the type of network the load balancer is accessible from (EXTERNAL or INTERNAL).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#network Loadbalancer#network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#network Loadbalancer#network}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -501,7 +501,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>The network stack determines the allocation of ipv4/ipv6 addresses to the load balancer. Enum: 'IPV4' 'DUALSTACK'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#network_stack Loadbalancer#network_stack}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#network_stack Loadbalancer#network_stack}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkStack", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -510,7 +510,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#project_id Loadbalancer#project_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProjectId
@@ -518,7 +518,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#redirect_http_to_https Loadbalancer#redirect_http_to_https}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -529,7 +529,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#region Loadbalancer#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#region Loadbalancer#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region
@@ -537,7 +537,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#size Loadbalancer#size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#size Loadbalancer#size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Size
@@ -545,7 +545,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#size_unit Loadbalancer#size_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#size_unit Loadbalancer#size_unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sizeUnit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SizeUnit
@@ -555,7 +555,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>sticky_sessions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#sticky_sessions Loadbalancer#sticky_sessions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#sticky_sessions Loadbalancer#sticky_sessions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stickySessions", typeJson: "{\"fqn\":\"digitalocean.loadbalancer.LoadbalancerStickySessions\"}", isOptional: true)]
@@ -566,7 +566,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>list of load balancer IDs to put behind a global load balancer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#target_load_balancer_ids Loadbalancer#target_load_balancer_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#target_load_balancer_ids Loadbalancer#target_load_balancer_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetLoadBalancerIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -577,7 +577,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>The tls cipher policy to be used for the load balancer. Enum: 'DEFAULT' 'STRONG'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#tls_cipher_policy Loadbalancer#tls_cipher_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#tls_cipher_policy Loadbalancer#tls_cipher_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tlsCipherPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -588,7 +588,7 @@ namespace digitalocean.Loadbalancer
 
             /// <summary>the type of the load balancer (GLOBAL, REGIONAL, or REGIONAL_NETWORK).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#type Loadbalancer#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#type Loadbalancer#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -597,7 +597,7 @@ namespace digitalocean.Loadbalancer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/loadbalancer#vpc_uuid Loadbalancer#vpc_uuid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/loadbalancer#vpc_uuid Loadbalancer#vpc_uuid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VpcUuid

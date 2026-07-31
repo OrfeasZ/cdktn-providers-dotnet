@@ -7,7 +7,7 @@ namespace digitalocean.DataDigitaloceanApp
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanAppConfig), fullyQualifiedName: "digitalocean.dataDigitaloceanApp.DataDigitaloceanAppConfig")]
     public interface IDataDigitaloceanAppConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
         {
@@ -16,7 +16,7 @@ namespace digitalocean.DataDigitaloceanApp
 
         /// <summary>dedicated_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppDedicatedIps" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dedicatedIps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanApp.DataDigitaloceanAppDedicatedIps\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace digitalocean.DataDigitaloceanApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace digitalocean.DataDigitaloceanApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#app_id DataDigitaloceanApp#app_id}.</summary>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
             {
@@ -60,7 +60,7 @@ namespace digitalocean.DataDigitaloceanApp
 
             /// <summary>dedicated_ips block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#dedicated_ips DataDigitaloceanApp#dedicated_ips}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanApp.IDataDigitaloceanAppDedicatedIps" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace digitalocean.DataDigitaloceanApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/app#id DataDigitaloceanApp#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
