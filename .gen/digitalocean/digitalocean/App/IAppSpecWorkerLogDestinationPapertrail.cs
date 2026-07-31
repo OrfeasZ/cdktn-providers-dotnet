@@ -9,7 +9,7 @@ namespace digitalocean.App
     {
         /// <summary>Papertrail syslog endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#endpoint App#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#endpoint App#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         string Endpoint
@@ -26,7 +26,7 @@ namespace digitalocean.App
 
             /// <summary>Papertrail syslog endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#endpoint App#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#endpoint App#endpoint}
             /// </remarks>
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string Endpoint

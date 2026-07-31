@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletImages
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanMicrodropletImages.DataDigitaloceanMicrodropletImagesSort")]
     public class DataDigitaloceanMicrodropletImagesSort : digitalocean.DataDigitaloceanMicrodropletImages.IDataDigitaloceanMicrodropletImagesSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_images#key DataDigitaloceanMicrodropletImages#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#key DataDigitaloceanMicrodropletImages#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_images#direction DataDigitaloceanMicrodropletImages#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_images#direction DataDigitaloceanMicrodropletImages#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

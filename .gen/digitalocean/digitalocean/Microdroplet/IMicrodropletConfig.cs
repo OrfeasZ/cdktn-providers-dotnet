@@ -9,7 +9,7 @@ namespace digitalocean.Microdroplet
     {
         /// <summary>MicroDroplet image UUID or URN.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#image Microdroplet#image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#image Microdroplet#image}
         /// </remarks>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         string Image
@@ -19,7 +19,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Name of the MicroDroplet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#name Microdroplet#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#name Microdroplet#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>DigitalOcean region slug where the MicroDroplet is deployed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#region Microdroplet#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#region Microdroplet#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
@@ -39,7 +39,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>MicroDroplet size slug.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#size Microdroplet#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#size Microdroplet#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
         string Size
@@ -49,7 +49,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>auto_pause block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#auto_pause Microdroplet#auto_pause}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#auto_pause Microdroplet#auto_pause}
         /// </remarks>
         [JsiiProperty(name: "autoPause", typeJson: "{\"fqn\":\"digitalocean.microdroplet.MicrodropletAutoPause\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace digitalocean.Microdroplet
         /// <remarks>
         /// Forces recreation on change: the MicroDroplets API has no in-place update path for auto_resume.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#auto_resume Microdroplet#auto_resume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#auto_resume Microdroplet#auto_resume}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "autoResume", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Environment variables passed to the MicroDroplet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#environment Microdroplet#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#environment Microdroplet#environment}
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Port the MicroDroplet exposes over HTTP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#http_port Microdroplet#http_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#http_port Microdroplet#http_port}
         /// </remarks>
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>HTTP protocol: 'http' or 'http2'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#http_protocol Microdroplet#http_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#http_protocol Microdroplet#http_protocol}
         /// </remarks>
         [JsiiProperty(name: "httpProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace digitalocean.Microdroplet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#id Microdroplet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#id Microdroplet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Networking mode: 'public' or 'vpc'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#networking Microdroplet#networking}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#networking Microdroplet#networking}
         /// </remarks>
         [JsiiProperty(name: "networking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,7 +151,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Desired lifecycle state: 'running' or 'paused'. Changes are applied by calling the microdroplet pause / resume action endpoints.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#state Microdroplet#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#state Microdroplet#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace digitalocean.Microdroplet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#tags Microdroplet#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#tags Microdroplet#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Tags
@@ -176,7 +176,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#timeouts Microdroplet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#timeouts Microdroplet#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.microdroplet.MicrodropletTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -190,7 +190,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>UUID of the VPC to attach the MicroDroplet to. Only valid when networking is 'vpc'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#vpc_uuid Microdroplet#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#vpc_uuid Microdroplet#vpc_uuid}
         /// </remarks>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -211,7 +211,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>MicroDroplet image UUID or URN.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#image Microdroplet#image}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#image Microdroplet#image}
             /// </remarks>
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
             public string Image
@@ -221,7 +221,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>Name of the MicroDroplet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#name Microdroplet#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#name Microdroplet#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -231,7 +231,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>DigitalOcean region slug where the MicroDroplet is deployed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#region Microdroplet#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#region Microdroplet#region}
             /// </remarks>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
@@ -241,7 +241,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>MicroDroplet size slug.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#size Microdroplet#size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#size Microdroplet#size}
             /// </remarks>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}")]
             public string Size
@@ -251,7 +251,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>auto_pause block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#auto_pause Microdroplet#auto_pause}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#auto_pause Microdroplet#auto_pause}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoPause", typeJson: "{\"fqn\":\"digitalocean.microdroplet.MicrodropletAutoPause\"}", isOptional: true)]
@@ -264,7 +264,7 @@ namespace digitalocean.Microdroplet
             /// <remarks>
             /// Forces recreation on change: the MicroDroplets API has no in-place update path for auto_resume.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#auto_resume Microdroplet#auto_resume}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#auto_resume Microdroplet#auto_resume}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -276,7 +276,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>Environment variables passed to the MicroDroplet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#environment Microdroplet#environment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#environment Microdroplet#environment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -287,7 +287,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>Port the MicroDroplet exposes over HTTP.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#http_port Microdroplet#http_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#http_port Microdroplet#http_port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -298,7 +298,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>HTTP protocol: 'http' or 'http2'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#http_protocol Microdroplet#http_protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#http_protocol Microdroplet#http_protocol}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -307,7 +307,7 @@ namespace digitalocean.Microdroplet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#id Microdroplet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#id Microdroplet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -321,7 +321,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>Networking mode: 'public' or 'vpc'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#networking Microdroplet#networking}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#networking Microdroplet#networking}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -332,7 +332,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>Desired lifecycle state: 'running' or 'paused'. Changes are applied by calling the microdroplet pause / resume action endpoints.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#state Microdroplet#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#state Microdroplet#state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -341,7 +341,7 @@ namespace digitalocean.Microdroplet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#tags Microdroplet#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#tags Microdroplet#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Tags
@@ -351,7 +351,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#timeouts Microdroplet#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#timeouts Microdroplet#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.microdroplet.MicrodropletTimeouts\"}", isOptional: true)]
@@ -362,7 +362,7 @@ namespace digitalocean.Microdroplet
 
             /// <summary>UUID of the VPC to attach the MicroDroplet to. Only valid when networking is 'vpc'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#vpc_uuid Microdroplet#vpc_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#vpc_uuid Microdroplet#vpc_uuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

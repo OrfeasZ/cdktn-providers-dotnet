@@ -13,7 +13,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Whether auto-pause is enabled. Forces recreation on change (no in-place API path).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#enabled Microdroplet#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#enabled Microdroplet#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -45,7 +45,7 @@ namespace digitalocean.Microdroplet
 
         /// <summary>Idle timeout as a Go duration string (e.g. '5m', '30s'). Forces recreation on change (no in-place API path).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/microdroplet#idle_timeout Microdroplet#idle_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/microdroplet#idle_timeout Microdroplet#idle_timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idleTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

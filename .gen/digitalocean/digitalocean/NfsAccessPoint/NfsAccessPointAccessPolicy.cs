@@ -7,7 +7,7 @@ namespace digitalocean.NfsAccessPoint
     [JsiiByValue(fqn: "digitalocean.nfsAccessPoint.NfsAccessPointAccessPolicy")]
     public class NfsAccessPointAccessPolicy : digitalocean.NfsAccessPoint.INfsAccessPointAccessPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#anongid NfsAccessPoint#anongid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/nfs_access_point#anongid NfsAccessPoint#anongid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "anongid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Anongid
@@ -16,7 +16,7 @@ namespace digitalocean.NfsAccessPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#anonuid NfsAccessPoint#anonuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/nfs_access_point#anonuid NfsAccessPoint#anonuid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "anonuid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Anonuid
@@ -27,7 +27,7 @@ namespace digitalocean.NfsAccessPoint
 
         private object? _identityEnforcementEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#identity_enforcement_enabled NfsAccessPoint#identity_enforcement_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/nfs_access_point#identity_enforcement_enabled NfsAccessPoint#identity_enforcement_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace digitalocean.NfsAccessPoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#protocols NfsAccessPoint#protocols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/nfs_access_point#protocols NfsAccessPoint#protocols}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Protocols
@@ -68,7 +68,7 @@ namespace digitalocean.NfsAccessPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/nfs_access_point#squash_config NfsAccessPoint#squash_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/nfs_access_point#squash_config NfsAccessPoint#squash_config}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "squashConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SquashConfig

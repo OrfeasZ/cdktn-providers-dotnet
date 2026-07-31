@@ -11,7 +11,7 @@ namespace digitalocean.App
     {
         /// <summary>The average target CPU utilization for the component.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#percent App#percent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#percent App#percent}
         /// </remarks>
         [JsiiProperty(name: "percent", typeJson: "{\"primitive\":\"number\"}")]
         public double Percent

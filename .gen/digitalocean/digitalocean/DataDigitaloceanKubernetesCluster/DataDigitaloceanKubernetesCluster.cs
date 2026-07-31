@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.DataDigitaloceanKubernetesCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), fullyQualifiedName: "digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterConfig\"}}]")]
     public class DataDigitaloceanKubernetesCluster : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/kubernetes_cluster digitalocean_kubernetes_cluster} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataDigitaloceanKubernetesCluster(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         /// <param name="importToId">The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.</param>
         /// <param name="importFromId">The id of the existing DataDigitaloceanKubernetesCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanKubernetesCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanKubernetesCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanKubernetesCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -56,6 +56,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual void PutAmdGpuDevicePlugin(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDevicePlugin @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDevicePlugin)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putAmdGpuDraDriver", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDraDriver\"}}]")]
+        public virtual void PutAmdGpuDraDriver(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDraDriver @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDraDriver)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration" />)[]</param>
@@ -94,6 +100,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNvidiaGpuDraDriver", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDraDriver\"}}]")]
+        public virtual void PutNvidiaGpuDraDriver(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDraDriver @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDraDriver)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putP2POciRegistryPlugin", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPlugin\"}}]")]
         public virtual void PutP2POciRegistryPlugin(digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterP2POciRegistryPlugin @value)
         {
@@ -130,6 +142,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAmdGpuDraDriver")]
+        public virtual void ResetAmdGpuDraDriver()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetClusterAutoscalerConfiguration")]
         public virtual void ResetClusterAutoscalerConfiguration()
         {
@@ -156,6 +174,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
 
         [JsiiMethod(name: "resetNvidiaGpuDevicePlugin")]
         public virtual void ResetNvidiaGpuDevicePlugin()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNvidiaGpuDraDriver")]
+        public virtual void ResetNvidiaGpuDraDriver()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -219,6 +243,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDevicePluginOutputReference AmdGpuDevicePlugin
         {
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDevicePluginOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "amdGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDraDriverOutputReference\"}")]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDraDriverOutputReference AmdGpuDraDriver
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDraDriverOutputReference>()!;
         }
 
         [JsiiProperty(name: "autoUpgrade", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -297,6 +327,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference NvidiaGpuDevicePlugin
         {
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDevicePluginOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "nvidiaGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDraDriverOutputReference\"}")]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDraDriverOutputReference NvidiaGpuDraDriver
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDraDriverOutputReference>()!;
         }
 
         [JsiiProperty(name: "p2POciRegistryPlugin", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterP2POciRegistryPluginOutputReference\"}")]
@@ -391,6 +427,13 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDevicePlugin?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "amdGpuDraDriverInput", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterAmdGpuDraDriver\"}", isOptional: true)]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDraDriver? AmdGpuDraDriverInput
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterAmdGpuDraDriver?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterClusterAutoscalerConfiguration" />)[]</para>
         /// </remarks>
@@ -434,6 +477,13 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
         public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin? NvidiaGpuDevicePluginInput
         {
             get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDevicePlugin?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "nvidiaGpuDraDriverInput", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanKubernetesCluster.DataDigitaloceanKubernetesClusterNvidiaGpuDraDriver\"}", isOptional: true)]
+        public virtual digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDraDriver? NvidiaGpuDraDriverInput
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanKubernetesCluster.IDataDigitaloceanKubernetesClusterNvidiaGpuDraDriver?>();
         }
 
         [JsiiOptional]

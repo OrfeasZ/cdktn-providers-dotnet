@@ -7,7 +7,7 @@ namespace digitalocean.SpacesBucket
     [JsiiInterface(nativeType: typeof(ISpacesBucketVersioning), fullyQualifiedName: "digitalocean.spacesBucket.SpacesBucketVersioning")]
     public interface ISpacesBucketVersioning
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace digitalocean.SpacesBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/spaces_bucket#enabled SpacesBucket#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

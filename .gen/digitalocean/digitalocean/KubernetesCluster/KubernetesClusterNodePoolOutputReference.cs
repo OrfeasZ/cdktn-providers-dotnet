@@ -63,6 +63,12 @@ namespace digitalocean.KubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetGpuPartitionMode")]
+        public virtual void ResetGpuPartitionMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLabels")]
         public virtual void ResetLabels()
         {
@@ -131,6 +137,13 @@ namespace digitalocean.KubernetesCluster
         public virtual object? AutoScaleInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "gpuPartitionModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? GpuPartitionModeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -220,6 +233,13 @@ namespace digitalocean.KubernetesCluster
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "gpuPartitionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GpuPartitionMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]

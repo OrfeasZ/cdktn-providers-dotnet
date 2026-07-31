@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletCheckpoints
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanMicrodropletCheckpoints.DataDigitaloceanMicrodropletCheckpointsFilter")]
     public class DataDigitaloceanMicrodropletCheckpointsFilter : digitalocean.DataDigitaloceanMicrodropletCheckpoints.IDataDigitaloceanMicrodropletCheckpointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_checkpoints#key DataDigitaloceanMicrodropletCheckpoints#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_checkpoints#key DataDigitaloceanMicrodropletCheckpoints#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletCheckpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_checkpoints#values DataDigitaloceanMicrodropletCheckpoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_checkpoints#values DataDigitaloceanMicrodropletCheckpoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletCheckpoints
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_checkpoints#all DataDigitaloceanMicrodropletCheckpoints#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_checkpoints#all DataDigitaloceanMicrodropletCheckpoints#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanMicrodropletCheckpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/microdroplet_checkpoints#match_by DataDigitaloceanMicrodropletCheckpoints#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/microdroplet_checkpoints#match_by DataDigitaloceanMicrodropletCheckpoints#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

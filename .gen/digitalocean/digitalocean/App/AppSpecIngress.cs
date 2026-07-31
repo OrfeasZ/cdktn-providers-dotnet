@@ -11,7 +11,7 @@ namespace digitalocean.App
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#rule App#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#rule App#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.App.IAppSpecIngressRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace digitalocean.App
 
         /// <summary>secure_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/resources/app#secure_header App#secure_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/resources/app#secure_header App#secure_header}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secureHeader", typeJson: "{\"fqn\":\"digitalocean.app.AppSpecIngressSecureHeader\"}", isOptional: true)]

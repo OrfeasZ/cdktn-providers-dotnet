@@ -47,6 +47,12 @@ namespace digitalocean.DataDigitaloceanKubernetesCluster
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "gpuPartitionMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GpuPartitionMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

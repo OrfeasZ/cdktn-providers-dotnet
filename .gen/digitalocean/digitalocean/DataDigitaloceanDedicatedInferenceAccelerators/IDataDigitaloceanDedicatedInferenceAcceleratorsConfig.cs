@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
     {
         /// <summary>The ID of the dedicated inference endpoint to list accelerators for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#dedicated_inference_id DataDigitaloceanDedicatedInferenceAccelerators#dedicated_inference_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#dedicated_inference_id DataDigitaloceanDedicatedInferenceAccelerators#dedicated_inference_id}
         /// </remarks>
         [JsiiProperty(name: "dedicatedInferenceId", typeJson: "{\"primitive\":\"string\"}")]
         string DedicatedInferenceId
@@ -19,7 +19,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#filter DataDigitaloceanDedicatedInferenceAccelerators#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#filter DataDigitaloceanDedicatedInferenceAccelerators#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.IDataDigitaloceanDedicatedInferenceAcceleratorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanDedicatedInferenceAccelerators.DataDigitaloceanDedicatedInferenceAcceleratorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#id DataDigitaloceanDedicatedInferenceAccelerators#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#id DataDigitaloceanDedicatedInferenceAccelerators#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#sort DataDigitaloceanDedicatedInferenceAccelerators#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#sort DataDigitaloceanDedicatedInferenceAccelerators#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.IDataDigitaloceanDedicatedInferenceAcceleratorsSort" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanDedicatedInferenceAccelerators.DataDigitaloceanDedicatedInferenceAcceleratorsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
 
             /// <summary>The ID of the dedicated inference endpoint to list accelerators for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#dedicated_inference_id DataDigitaloceanDedicatedInferenceAccelerators#dedicated_inference_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#dedicated_inference_id DataDigitaloceanDedicatedInferenceAccelerators#dedicated_inference_id}
             /// </remarks>
             [JsiiProperty(name: "dedicatedInferenceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DedicatedInferenceId
@@ -81,7 +81,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#filter DataDigitaloceanDedicatedInferenceAccelerators#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#filter DataDigitaloceanDedicatedInferenceAccelerators#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.IDataDigitaloceanDedicatedInferenceAcceleratorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -91,7 +91,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#id DataDigitaloceanDedicatedInferenceAccelerators#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#id DataDigitaloceanDedicatedInferenceAccelerators#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceAccelerators
 
             /// <summary>sort block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.97.0/docs/data-sources/dedicated_inference_accelerators#sort DataDigitaloceanDedicatedInferenceAccelerators#sort}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.98.0/docs/data-sources/dedicated_inference_accelerators#sort DataDigitaloceanDedicatedInferenceAccelerators#sort}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceAccelerators.IDataDigitaloceanDedicatedInferenceAcceleratorsSort" />)[]</para>
             /// </remarks>
             [JsiiOptional]
