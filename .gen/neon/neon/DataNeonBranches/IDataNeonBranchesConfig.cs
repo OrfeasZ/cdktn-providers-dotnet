@@ -9,7 +9,7 @@ namespace neon.DataNeonBranches
     {
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branches#project_id DataNeonBranches#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branches#project_id DataNeonBranches#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -17,7 +17,7 @@ namespace neon.DataNeonBranches
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branches#id DataNeonBranches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branches#id DataNeonBranches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace neon.DataNeonBranches
 
             /// <summary>Project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branches#project_id DataNeonBranches#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branches#project_id DataNeonBranches#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
@@ -49,7 +49,7 @@ namespace neon.DataNeonBranches
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branches#id DataNeonBranches#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branches#id DataNeonBranches#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

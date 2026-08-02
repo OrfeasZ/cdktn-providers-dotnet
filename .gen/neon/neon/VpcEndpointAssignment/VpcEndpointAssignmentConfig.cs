@@ -11,7 +11,7 @@ namespace neon.VpcEndpointAssignment
     {
         /// <summary>A descriptive label for the VPC endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/vpc_endpoint_assignment#label VpcEndpointAssignment#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/vpc_endpoint_assignment#label VpcEndpointAssignment#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         public string Label
@@ -22,7 +22,7 @@ namespace neon.VpcEndpointAssignment
 
         /// <summary>The Neon organization ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/vpc_endpoint_assignment#org_id VpcEndpointAssignment#org_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/vpc_endpoint_assignment#org_id VpcEndpointAssignment#org_id}
         /// </remarks>
         [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}")]
         public string OrgId
@@ -33,7 +33,7 @@ namespace neon.VpcEndpointAssignment
 
         /// <summary>The Neon region ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/vpc_endpoint_assignment#region_id VpcEndpointAssignment#region_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/vpc_endpoint_assignment#region_id VpcEndpointAssignment#region_id}
         /// </remarks>
         [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RegionId
@@ -44,7 +44,7 @@ namespace neon.VpcEndpointAssignment
 
         /// <summary>The VPC endpoint ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/vpc_endpoint_assignment#vpc_endpoint_id VpcEndpointAssignment#vpc_endpoint_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/vpc_endpoint_assignment#vpc_endpoint_id VpcEndpointAssignment#vpc_endpoint_id}
         /// </remarks>
         [JsiiProperty(name: "vpcEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcEndpointId
@@ -53,7 +53,7 @@ namespace neon.VpcEndpointAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/vpc_endpoint_assignment#id VpcEndpointAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/vpc_endpoint_assignment#id VpcEndpointAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

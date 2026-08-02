@@ -11,7 +11,7 @@ namespace neon.JwksUrl
     {
         /// <summary>The URL that lists the JWKS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#jwks_url JwksUrl#jwks_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#jwks_url JwksUrl#jwks_url}
         /// </remarks>
         [JsiiProperty(name: "jwksUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string JwksUrl
@@ -22,7 +22,7 @@ namespace neon.JwksUrl
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#project_id JwksUrl#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#project_id JwksUrl#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -33,7 +33,7 @@ namespace neon.JwksUrl
 
         /// <summary>The name of the authentication provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#provider_name JwksUrl#provider_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#provider_name JwksUrl#provider_name}
         /// </remarks>
         [JsiiProperty(name: "providerName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderName
@@ -44,7 +44,7 @@ namespace neon.JwksUrl
 
         /// <summary>The roles the JWKS should be mapped to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#role_names JwksUrl#role_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#role_names JwksUrl#role_names}
         /// </remarks>
         [JsiiProperty(name: "roleNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] RoleNames
@@ -55,7 +55,7 @@ namespace neon.JwksUrl
 
         /// <summary>Branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#branch_id JwksUrl#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#branch_id JwksUrl#branch_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace neon.JwksUrl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#id JwksUrl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#id JwksUrl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace neon.JwksUrl
 
         /// <summary>The name of the required JWT Audience to be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/jwks_url#jwt_audience JwksUrl#jwt_audience}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/jwks_url#jwt_audience JwksUrl#jwt_audience}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jwtAudience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

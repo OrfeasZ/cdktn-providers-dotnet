@@ -9,7 +9,7 @@ namespace neon.DataNeonBranchRoles
     {
         /// <summary>Branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#branch_id DataNeonBranchRoles#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#branch_id DataNeonBranchRoles#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         string BranchId
@@ -19,7 +19,7 @@ namespace neon.DataNeonBranchRoles
 
         /// <summary>Project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#project_id DataNeonBranchRoles#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#project_id DataNeonBranchRoles#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
@@ -27,7 +27,7 @@ namespace neon.DataNeonBranchRoles
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#id DataNeonBranchRoles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#id DataNeonBranchRoles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace neon.DataNeonBranchRoles
 
         /// <summary>roles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#roles DataNeonBranchRoles#roles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#roles DataNeonBranchRoles#roles}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "roles", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace neon.DataNeonBranchRoles
 
             /// <summary>Branch ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#branch_id DataNeonBranchRoles#branch_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#branch_id DataNeonBranchRoles#branch_id}
             /// </remarks>
             [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
             public string BranchId
@@ -76,7 +76,7 @@ namespace neon.DataNeonBranchRoles
 
             /// <summary>Project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#project_id DataNeonBranchRoles#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#project_id DataNeonBranchRoles#project_id}
             /// </remarks>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
@@ -84,7 +84,7 @@ namespace neon.DataNeonBranchRoles
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#id DataNeonBranchRoles#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#id DataNeonBranchRoles#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace neon.DataNeonBranchRoles
 
             /// <summary>roles block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/data-sources/branch_roles#roles DataNeonBranchRoles#roles}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/data-sources/branch_roles#roles DataNeonBranchRoles#roles}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</para>
             /// </remarks>
             [JsiiOptional]

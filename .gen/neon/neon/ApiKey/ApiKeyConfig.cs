@@ -11,7 +11,7 @@ namespace neon.ApiKey
     {
         /// <summary>The name of the API Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/api_key#name ApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/api_key#name ApiKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

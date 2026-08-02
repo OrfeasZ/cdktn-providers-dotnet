@@ -9,7 +9,7 @@ namespace neon.OrgApiKey
     {
         /// <summary>The name of the API Key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#name OrgApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#name OrgApiKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace neon.OrgApiKey
 
         /// <summary>The organisation ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
         /// </remarks>
         [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}")]
         string OrgId
@@ -29,7 +29,7 @@ namespace neon.OrgApiKey
 
         /// <summary>The project ID to which this key will grant the access to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace neon.OrgApiKey
 
             /// <summary>The name of the API Key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#name OrgApiKey#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#name OrgApiKey#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -60,7 +60,7 @@ namespace neon.OrgApiKey
 
             /// <summary>The organisation ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
             /// </remarks>
             [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}")]
             public string OrgId
@@ -70,7 +70,7 @@ namespace neon.OrgApiKey
 
             /// <summary>The project ID to which this key will grant the access to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

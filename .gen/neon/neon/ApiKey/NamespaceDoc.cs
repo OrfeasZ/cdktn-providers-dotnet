@@ -5,7 +5,7 @@ namespace neon.ApiKey
     /// <remarks>
     /// <h1><c>neon_api_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.14.0/docs/resources/api_key"><c>neon_api_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/api_key"><c>neon_api_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
