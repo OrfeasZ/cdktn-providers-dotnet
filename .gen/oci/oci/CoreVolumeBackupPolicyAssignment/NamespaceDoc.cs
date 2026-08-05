@@ -5,7 +5,7 @@ namespace oci.CoreVolumeBackupPolicyAssignment
     /// <remarks>
     /// <h1><c>oci_core_volume_backup_policy_assignment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_volume_backup_policy_assignment"><c>oci_core_volume_backup_policy_assignment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume_backup_policy_assignment"><c>oci_core_volume_backup_policy_assignment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

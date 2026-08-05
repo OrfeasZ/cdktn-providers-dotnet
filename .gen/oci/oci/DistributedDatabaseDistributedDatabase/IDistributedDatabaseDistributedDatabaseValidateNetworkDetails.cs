@@ -7,7 +7,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
     [JsiiInterface(nativeType: typeof(IDistributedDatabaseDistributedDatabaseValidateNetworkDetails), fullyQualifiedName: "oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseValidateNetworkDetails")]
     public interface IDistributedDatabaseDistributedDatabaseValidateNetworkDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#is_surrogate DistributedDatabaseDistributedDatabase#is_surrogate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#is_surrogate DistributedDatabaseDistributedDatabase#is_surrogate}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#resource_name DistributedDatabaseDistributedDatabase#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#resource_name DistributedDatabaseDistributedDatabase#resource_name}.</summary>
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceName
@@ -32,7 +32,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#shard_group DistributedDatabaseDistributedDatabase#shard_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#shard_group DistributedDatabaseDistributedDatabase#shard_group}.</summary>
         [JsiiProperty(name: "shardGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShardGroup
@@ -50,7 +50,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#is_surrogate DistributedDatabaseDistributedDatabase#is_surrogate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#is_surrogate DistributedDatabaseDistributedDatabase#is_surrogate}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#resource_name DistributedDatabaseDistributedDatabase#resource_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#resource_name DistributedDatabaseDistributedDatabase#resource_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceName
@@ -69,7 +69,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/distributed_database_distributed_database#shard_group DistributedDatabaseDistributedDatabase#shard_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#shard_group DistributedDatabaseDistributedDatabase#shard_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shardGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShardGroup

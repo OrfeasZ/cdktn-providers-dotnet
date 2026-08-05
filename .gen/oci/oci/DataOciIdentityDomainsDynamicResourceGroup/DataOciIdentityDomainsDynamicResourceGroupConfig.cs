@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsDynamicResourceGroup.DataOciIdentityDomainsDynamicResourceGroupConfig")]
     public class DataOciIdentityDomainsDynamicResourceGroupConfig : oci.DataOciIdentityDomainsDynamicResourceGroup.IDataOciIdentityDomainsDynamicResourceGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#dynamic_resource_group_id DataOciIdentityDomainsDynamicResourceGroup#dynamic_resource_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#dynamic_resource_group_id DataOciIdentityDomainsDynamicResourceGroup#dynamic_resource_group_id}.</summary>
         [JsiiProperty(name: "dynamicResourceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string DynamicResourceGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#idcs_endpoint DataOciIdentityDomainsDynamicResourceGroup#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#idcs_endpoint DataOciIdentityDomainsDynamicResourceGroup#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#attributes DataOciIdentityDomainsDynamicResourceGroup#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#attributes DataOciIdentityDomainsDynamicResourceGroup#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#attribute_sets DataOciIdentityDomainsDynamicResourceGroup#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#attribute_sets DataOciIdentityDomainsDynamicResourceGroup#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#authorization DataOciIdentityDomainsDynamicResourceGroup#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#authorization DataOciIdentityDomainsDynamicResourceGroup#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsDynamicResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_domains_dynamic_resource_group#resource_type_schema_version DataOciIdentityDomainsDynamicResourceGroup#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_dynamic_resource_group#resource_type_schema_version DataOciIdentityDomainsDynamicResourceGroup#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

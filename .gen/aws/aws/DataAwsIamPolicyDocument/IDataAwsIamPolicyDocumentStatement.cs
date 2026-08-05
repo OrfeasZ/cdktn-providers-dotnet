@@ -7,7 +7,7 @@ namespace aws.DataAwsIamPolicyDocument
     [JsiiInterface(nativeType: typeof(IDataAwsIamPolicyDocumentStatement), fullyQualifiedName: "aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatement")]
     public interface IDataAwsIamPolicyDocumentStatement
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#actions DataAwsIamPolicyDocument#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#actions DataAwsIamPolicyDocument#actions}.</summary>
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Actions
@@ -20,7 +20,7 @@ namespace aws.DataAwsIamPolicyDocument
 
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#condition DataAwsIamPolicyDocument#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#condition DataAwsIamPolicyDocument#condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "condition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace aws.DataAwsIamPolicyDocument
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#effect DataAwsIamPolicyDocument#effect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#effect DataAwsIamPolicyDocument#effect}.</summary>
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Effect
@@ -44,7 +44,7 @@ namespace aws.DataAwsIamPolicyDocument
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_actions DataAwsIamPolicyDocument#not_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_actions DataAwsIamPolicyDocument#not_actions}.</summary>
         [JsiiProperty(name: "notActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotActions
@@ -57,7 +57,7 @@ namespace aws.DataAwsIamPolicyDocument
 
         /// <summary>not_principals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_principals DataAwsIamPolicyDocument#not_principals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_principals DataAwsIamPolicyDocument#not_principals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "notPrincipals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementNotPrincipals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace aws.DataAwsIamPolicyDocument
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_resources DataAwsIamPolicyDocument#not_resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_resources DataAwsIamPolicyDocument#not_resources}.</summary>
         [JsiiProperty(name: "notResources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NotResources
@@ -83,7 +83,7 @@ namespace aws.DataAwsIamPolicyDocument
 
         /// <summary>principals block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#principals DataAwsIamPolicyDocument#principals}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#principals DataAwsIamPolicyDocument#principals}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementPrincipals" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "principals", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsIamPolicyDocument.DataAwsIamPolicyDocumentStatementPrincipals\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.DataAwsIamPolicyDocument
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#resources DataAwsIamPolicyDocument#resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#resources DataAwsIamPolicyDocument#resources}.</summary>
         [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Resources
@@ -107,7 +107,7 @@ namespace aws.DataAwsIamPolicyDocument
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#sid DataAwsIamPolicyDocument#sid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#sid DataAwsIamPolicyDocument#sid}.</summary>
         [JsiiProperty(name: "sid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Sid
@@ -125,7 +125,7 @@ namespace aws.DataAwsIamPolicyDocument
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#actions DataAwsIamPolicyDocument#actions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#actions DataAwsIamPolicyDocument#actions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Actions
@@ -135,7 +135,7 @@ namespace aws.DataAwsIamPolicyDocument
 
             /// <summary>condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#condition DataAwsIamPolicyDocument#condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#condition DataAwsIamPolicyDocument#condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -145,7 +145,7 @@ namespace aws.DataAwsIamPolicyDocument
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#effect DataAwsIamPolicyDocument#effect}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#effect DataAwsIamPolicyDocument#effect}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Effect
@@ -153,7 +153,7 @@ namespace aws.DataAwsIamPolicyDocument
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_actions DataAwsIamPolicyDocument#not_actions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_actions DataAwsIamPolicyDocument#not_actions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotActions
@@ -163,7 +163,7 @@ namespace aws.DataAwsIamPolicyDocument
 
             /// <summary>not_principals block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_principals DataAwsIamPolicyDocument#not_principals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_principals DataAwsIamPolicyDocument#not_principals}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementNotPrincipals" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -173,7 +173,7 @@ namespace aws.DataAwsIamPolicyDocument
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#not_resources DataAwsIamPolicyDocument#not_resources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#not_resources DataAwsIamPolicyDocument#not_resources}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "notResources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NotResources
@@ -183,7 +183,7 @@ namespace aws.DataAwsIamPolicyDocument
 
             /// <summary>principals block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#principals DataAwsIamPolicyDocument#principals}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#principals DataAwsIamPolicyDocument#principals}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsIamPolicyDocument.IDataAwsIamPolicyDocumentStatementPrincipals" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -193,7 +193,7 @@ namespace aws.DataAwsIamPolicyDocument
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#resources DataAwsIamPolicyDocument#resources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#resources DataAwsIamPolicyDocument#resources}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Resources
@@ -201,7 +201,7 @@ namespace aws.DataAwsIamPolicyDocument
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/iam_policy_document#sid DataAwsIamPolicyDocument#sid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/iam_policy_document#sid DataAwsIamPolicyDocument#sid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Sid

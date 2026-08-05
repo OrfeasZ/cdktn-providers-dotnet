@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalMySqlDatabaseConnectors.DataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter")]
     public class DataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter : oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors.IDataOciDatabaseManagementExternalMySqlDatabaseConnectorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_my_sql_database_connectors#name DataOciDatabaseManagementExternalMySqlDatabaseConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_my_sql_database_connectors#name DataOciDatabaseManagementExternalMySqlDatabaseConnectors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_my_sql_database_connectors#values DataOciDatabaseManagementExternalMySqlDatabaseConnectors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_my_sql_database_connectors#values DataOciDatabaseManagementExternalMySqlDatabaseConnectors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnectors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_my_sql_database_connectors#regex DataOciDatabaseManagementExternalMySqlDatabaseConnectors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_my_sql_database_connectors#regex DataOciDatabaseManagementExternalMySqlDatabaseConnectors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

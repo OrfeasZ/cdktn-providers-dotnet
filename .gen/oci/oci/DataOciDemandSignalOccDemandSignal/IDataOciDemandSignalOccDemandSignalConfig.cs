@@ -7,7 +7,7 @@ namespace oci.DataOciDemandSignalOccDemandSignal
     [JsiiInterface(nativeType: typeof(IDataOciDemandSignalOccDemandSignalConfig), fullyQualifiedName: "oci.dataOciDemandSignalOccDemandSignal.DataOciDemandSignalOccDemandSignalConfig")]
     public interface IDataOciDemandSignalOccDemandSignalConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
         [JsiiProperty(name: "occDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         string OccDemandSignalId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDemandSignalOccDemandSignal
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
             [JsiiProperty(name: "occDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccDemandSignalId
             {

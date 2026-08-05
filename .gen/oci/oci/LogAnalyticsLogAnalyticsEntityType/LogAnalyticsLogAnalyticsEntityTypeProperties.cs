@@ -9,7 +9,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
     [JsiiByValue(fqn: "oci.logAnalyticsLogAnalyticsEntityType.LogAnalyticsLogAnalyticsEntityTypeProperties")]
     public class LogAnalyticsLogAnalyticsEntityTypeProperties : oci.LogAnalyticsLogAnalyticsEntityType.ILogAnalyticsLogAnalyticsEntityTypeProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#name LogAnalyticsLogAnalyticsEntityType#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_entity_type#name LogAnalyticsLogAnalyticsEntityType#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_log_analytics_entity_type#description LogAnalyticsLogAnalyticsEntityType#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_entity_type#description LogAnalyticsLogAnalyticsEntityType#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

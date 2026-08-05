@@ -7,28 +7,28 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
     [JsiiInterface(nativeType: typeof(IJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig), fullyQualifiedName: "oci.jmsJavaDownloadsJavaLicenseAcceptanceRecord.JmsJavaDownloadsJavaLicenseAcceptanceRecordConfig")]
     public interface IJmsJavaDownloadsJavaLicenseAcceptanceRecordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#compartment_id JmsJavaDownloadsJavaLicenseAcceptanceRecord#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#compartment_id JmsJavaDownloadsJavaLicenseAcceptanceRecord#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_acceptance_status JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_acceptance_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_acceptance_status JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_acceptance_status}.</summary>
         [JsiiProperty(name: "licenseAcceptanceStatus", typeJson: "{\"primitive\":\"string\"}")]
         string LicenseAcceptanceStatus
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_type JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_type JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_type}.</summary>
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}")]
         string LicenseType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#defined_tags JmsJavaDownloadsJavaLicenseAcceptanceRecord#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#defined_tags JmsJavaDownloadsJavaLicenseAcceptanceRecord#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +39,7 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#id JmsJavaDownloadsJavaLicenseAcceptanceRecord#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#id JmsJavaDownloadsJavaLicenseAcceptanceRecord#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#timeouts JmsJavaDownloadsJavaLicenseAcceptanceRecord#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#timeouts JmsJavaDownloadsJavaLicenseAcceptanceRecord#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsJavaDownloadsJavaLicenseAcceptanceRecord.JmsJavaDownloadsJavaLicenseAcceptanceRecordTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,28 +75,28 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#compartment_id JmsJavaDownloadsJavaLicenseAcceptanceRecord#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#compartment_id JmsJavaDownloadsJavaLicenseAcceptanceRecord#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_acceptance_status JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_acceptance_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_acceptance_status JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_acceptance_status}.</summary>
             [JsiiProperty(name: "licenseAcceptanceStatus", typeJson: "{\"primitive\":\"string\"}")]
             public string LicenseAcceptanceStatus
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_type JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#license_type JmsJavaDownloadsJavaLicenseAcceptanceRecord#license_type}.</summary>
             [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}")]
             public string LicenseType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#defined_tags JmsJavaDownloadsJavaLicenseAcceptanceRecord#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#defined_tags JmsJavaDownloadsJavaLicenseAcceptanceRecord#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -104,7 +104,7 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#id JmsJavaDownloadsJavaLicenseAcceptanceRecord#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#id JmsJavaDownloadsJavaLicenseAcceptanceRecord#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.JmsJavaDownloadsJavaLicenseAcceptanceRecord
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_java_downloads_java_license_acceptance_record#timeouts JmsJavaDownloadsJavaLicenseAcceptanceRecord#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_java_downloads_java_license_acceptance_record#timeouts JmsJavaDownloadsJavaLicenseAcceptanceRecord#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsJavaDownloadsJavaLicenseAcceptanceRecord.JmsJavaDownloadsJavaLicenseAcceptanceRecordTimeouts\"}", isOptional: true)]

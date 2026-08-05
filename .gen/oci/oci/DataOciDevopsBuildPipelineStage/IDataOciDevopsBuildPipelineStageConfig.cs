@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsBuildPipelineStage
     [JsiiInterface(nativeType: typeof(IDataOciDevopsBuildPipelineStageConfig), fullyQualifiedName: "oci.dataOciDevopsBuildPipelineStage.DataOciDevopsBuildPipelineStageConfig")]
     public interface IDataOciDevopsBuildPipelineStageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}.</summary>
         [JsiiProperty(name: "buildPipelineStageId", typeJson: "{\"primitive\":\"string\"}")]
         string BuildPipelineStageId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsBuildPipelineStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_build_pipeline_stage#build_pipeline_stage_id DataOciDevopsBuildPipelineStage#build_pipeline_stage_id}.</summary>
             [JsiiProperty(name: "buildPipelineStageId", typeJson: "{\"primitive\":\"string\"}")]
             public string BuildPipelineStageId
             {

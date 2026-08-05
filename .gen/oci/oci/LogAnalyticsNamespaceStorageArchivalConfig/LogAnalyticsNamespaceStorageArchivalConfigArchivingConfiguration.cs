@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceStorageArchivalConfig.LogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration")]
     public class LogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration : oci.LogAnalyticsNamespaceStorageArchivalConfig.ILogAnalyticsNamespaceStorageArchivalConfigArchivingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace_storage_archival_config#active_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#active_storage_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_archival_config#active_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#active_storage_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "activeStorageDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActiveStorageDuration
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace_storage_archival_config#archival_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#archival_storage_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_archival_config#archival_storage_duration LogAnalyticsNamespaceStorageArchivalConfig#archival_storage_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "archivalStorageDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArchivalStorageDuration
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceStorageArchivalConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace_storage_archival_config#time_oldest_active_bucket_ended LogAnalyticsNamespaceStorageArchivalConfig#time_oldest_active_bucket_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_archival_config#time_oldest_active_bucket_ended LogAnalyticsNamespaceStorageArchivalConfig#time_oldest_active_bucket_ended}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeOldestActiveBucketEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeOldestActiveBucketEnded

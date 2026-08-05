@@ -7,7 +7,7 @@ namespace aws.DataAwsS3Buckets
     [JsiiByValue(fqn: "aws.dataAwsS3Buckets.DataAwsS3BucketsConfig")]
     public class DataAwsS3BucketsConfig : aws.DataAwsS3Buckets.IDataAwsS3BucketsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/s3_buckets#bucket_region DataAwsS3Buckets#bucket_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_buckets#bucket_region DataAwsS3Buckets#bucket_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucketRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BucketRegion
@@ -16,7 +16,7 @@ namespace aws.DataAwsS3Buckets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/s3_buckets#max_buckets DataAwsS3Buckets#max_buckets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_buckets#max_buckets DataAwsS3Buckets#max_buckets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxBuckets", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxBuckets
@@ -25,7 +25,7 @@ namespace aws.DataAwsS3Buckets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/s3_buckets#prefix DataAwsS3Buckets#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_buckets#prefix DataAwsS3Buckets#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix
@@ -36,7 +36,7 @@ namespace aws.DataAwsS3Buckets
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/s3_buckets#region DataAwsS3Buckets#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/s3_buckets#region DataAwsS3Buckets#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

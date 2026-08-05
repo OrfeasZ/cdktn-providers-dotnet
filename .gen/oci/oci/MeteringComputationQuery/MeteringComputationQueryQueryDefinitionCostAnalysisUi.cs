@@ -7,7 +7,7 @@ namespace oci.MeteringComputationQuery
     [JsiiByValue(fqn: "oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionCostAnalysisUi")]
     public class MeteringComputationQueryQueryDefinitionCostAnalysisUi : oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionCostAnalysisUi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_query#graph MeteringComputationQuery#graph}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/metering_computation_query#graph MeteringComputationQuery#graph}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "graph", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Graph
@@ -18,7 +18,7 @@ namespace oci.MeteringComputationQuery
 
         private object? _isCumulativeGraph;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/metering_computation_query#is_cumulative_graph MeteringComputationQuery#is_cumulative_graph}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/metering_computation_query#is_cumulative_graph MeteringComputationQuery#is_cumulative_graph}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

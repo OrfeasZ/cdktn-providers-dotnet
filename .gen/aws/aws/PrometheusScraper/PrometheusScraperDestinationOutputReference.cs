@@ -59,8 +59,38 @@ namespace aws.PrometheusScraper
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch" />)[]</param>
+        [JsiiMethod(name: "putCloudwatch", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationCloudwatch\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCloudwatch(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAmp")]
         public virtual void ResetAmp()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCloudwatch")]
+        public virtual void ResetCloudwatch()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,12 +101,28 @@ namespace aws.PrometheusScraper
             get => GetInstanceProperty<aws.PrometheusScraper.PrometheusScraperDestinationAmpList>()!;
         }
 
+        [JsiiProperty(name: "cloudwatch", typeJson: "{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationCloudwatchList\"}")]
+        public virtual aws.PrometheusScraper.PrometheusScraperDestinationCloudwatchList Cloudwatch
+        {
+            get => GetInstanceProperty<aws.PrometheusScraper.PrometheusScraperDestinationCloudwatchList>()!;
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ampInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationAmp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? AmpInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "cloudwatchInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.prometheusScraper.PrometheusScraperDestinationCloudwatch\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CloudwatchInput
         {
             get => GetInstanceProperty<object?>();
         }

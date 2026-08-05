@@ -7,14 +7,14 @@ namespace oci.RedisRedisCluster
     [JsiiInterface(nativeType: typeof(IRedisRedisClusterImportFromObjectStorageDetails), fullyQualifiedName: "oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetails")]
     public interface IRedisRedisClusterImportFromObjectStorageDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#bucket RedisRedisCluster#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#bucket RedisRedisCluster#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#namespace RedisRedisCluster#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#namespace RedisRedisCluster#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -23,7 +23,7 @@ namespace oci.RedisRedisCluster
 
         /// <summary>objects block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#objects RedisRedisCluster#objects}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#objects RedisRedisCluster#objects}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RedisRedisCluster.IRedisRedisClusterImportFromObjectStorageDetailsObjects" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "objects", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetailsObjects\"},\"kind\":\"array\"}}]}}")]
@@ -39,14 +39,14 @@ namespace oci.RedisRedisCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#bucket RedisRedisCluster#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#bucket RedisRedisCluster#bucket}.</summary>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#namespace RedisRedisCluster#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#namespace RedisRedisCluster#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
@@ -55,7 +55,7 @@ namespace oci.RedisRedisCluster
 
             /// <summary>objects block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster#objects RedisRedisCluster#objects}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster#objects RedisRedisCluster#objects}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.RedisRedisCluster.IRedisRedisClusterImportFromObjectStorageDetailsObjects" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "objects", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetailsObjects\"},\"kind\":\"array\"}}]}}")]

@@ -7,7 +7,7 @@ namespace oci.CoreDefaultSecurityList
     [JsiiByValue(fqn: "oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesTcpOptions")]
     public class CoreDefaultSecurityListEgressSecurityRulesTcpOptions : oci.CoreDefaultSecurityList.ICoreDefaultSecurityListEgressSecurityRulesTcpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max
@@ -16,7 +16,7 @@ namespace oci.CoreDefaultSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Min
@@ -27,7 +27,7 @@ namespace oci.CoreDefaultSecurityList
 
         /// <summary>source_port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesTcpOptionsSourcePortRange\"}", isOptional: true)]

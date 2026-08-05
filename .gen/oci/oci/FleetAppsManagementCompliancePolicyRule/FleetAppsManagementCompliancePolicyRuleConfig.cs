@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
     [JsiiByValue(fqn: "oci.fleetAppsManagementCompliancePolicyRule.FleetAppsManagementCompliancePolicyRuleConfig")]
     public class FleetAppsManagementCompliancePolicyRuleConfig : oci.FleetAppsManagementCompliancePolicyRule.IFleetAppsManagementCompliancePolicyRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#compliance_policy_id FleetAppsManagementCompliancePolicyRule#compliance_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#compliance_policy_id FleetAppsManagementCompliancePolicyRule#compliance_policy_id}.</summary>
         [JsiiProperty(name: "compliancePolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompliancePolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#display_name FleetAppsManagementCompliancePolicyRule#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#display_name FleetAppsManagementCompliancePolicyRule#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -27,7 +27,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
 
         /// <summary>patch_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_selection FleetAppsManagementCompliancePolicyRule#patch_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_selection FleetAppsManagementCompliancePolicyRule#patch_selection}
         /// </remarks>
         [JsiiProperty(name: "patchSelection", typeJson: "{\"fqn\":\"oci.fleetAppsManagementCompliancePolicyRule.FleetAppsManagementCompliancePolicyRulePatchSelection\"}")]
         public oci.FleetAppsManagementCompliancePolicyRule.IFleetAppsManagementCompliancePolicyRulePatchSelection PatchSelection
@@ -36,7 +36,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_type_id FleetAppsManagementCompliancePolicyRule#patch_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#patch_type_id FleetAppsManagementCompliancePolicyRule#patch_type_id}.</summary>
         [JsiiProperty(name: "patchTypeId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PatchTypeId
         {
@@ -46,7 +46,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
 
         /// <summary>product_version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#product_version FleetAppsManagementCompliancePolicyRule#product_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#product_version FleetAppsManagementCompliancePolicyRule#product_version}
         /// </remarks>
         [JsiiProperty(name: "productVersion", typeJson: "{\"fqn\":\"oci.fleetAppsManagementCompliancePolicyRule.FleetAppsManagementCompliancePolicyRuleProductVersion\"}")]
         public oci.FleetAppsManagementCompliancePolicyRule.IFleetAppsManagementCompliancePolicyRuleProductVersion ProductVersion
@@ -55,7 +55,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#defined_tags FleetAppsManagementCompliancePolicyRule#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#defined_tags FleetAppsManagementCompliancePolicyRule#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -64,7 +64,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#freeform_tags FleetAppsManagementCompliancePolicyRule#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#freeform_tags FleetAppsManagementCompliancePolicyRule#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -73,7 +73,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#grace_period FleetAppsManagementCompliancePolicyRule#grace_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#grace_period FleetAppsManagementCompliancePolicyRule#grace_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gracePeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GracePeriod
@@ -82,7 +82,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#id FleetAppsManagementCompliancePolicyRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#id FleetAppsManagementCompliancePolicyRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,7 +95,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#severity FleetAppsManagementCompliancePolicyRule#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#severity FleetAppsManagementCompliancePolicyRule#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Severity
@@ -106,7 +106,7 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_compliance_policy_rule#timeouts FleetAppsManagementCompliancePolicyRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#timeouts FleetAppsManagementCompliancePolicyRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fleetAppsManagementCompliancePolicyRule.FleetAppsManagementCompliancePolicyRuleTimeouts\"}", isOptional: true)]

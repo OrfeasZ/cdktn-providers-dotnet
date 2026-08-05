@@ -7,7 +7,7 @@ namespace oci.AiVisionStreamGroup
     [JsiiByValue(fqn: "oci.aiVisionStreamGroup.AiVisionStreamGroupStreamOverlaps")]
     public class AiVisionStreamGroupStreamOverlaps : oci.AiVisionStreamGroup.IAiVisionStreamGroupStreamOverlaps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "overlappingStreams", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? OverlappingStreams

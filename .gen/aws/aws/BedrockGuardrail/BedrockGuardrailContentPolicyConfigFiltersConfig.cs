@@ -9,7 +9,7 @@ namespace aws.BedrockGuardrail
     [JsiiByValue(fqn: "aws.bedrockGuardrail.BedrockGuardrailContentPolicyConfigFiltersConfig")]
     public class BedrockGuardrailContentPolicyConfigFiltersConfig : aws.BedrockGuardrail.IBedrockGuardrailContentPolicyConfigFiltersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#input_strength BedrockGuardrail#input_strength}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#input_strength BedrockGuardrail#input_strength}.</summary>
         [JsiiProperty(name: "inputStrength", typeJson: "{\"primitive\":\"string\"}")]
         public string InputStrength
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#output_strength BedrockGuardrail#output_strength}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#output_strength BedrockGuardrail#output_strength}.</summary>
         [JsiiProperty(name: "outputStrength", typeJson: "{\"primitive\":\"string\"}")]
         public string OutputStrength
         {
@@ -25,7 +25,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#type BedrockGuardrail#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#input_action BedrockGuardrail#input_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InputAction
@@ -44,7 +44,7 @@ namespace aws.BedrockGuardrail
 
         private object? _inputEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#input_enabled BedrockGuardrail#input_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -76,7 +76,7 @@ namespace aws.BedrockGuardrail
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#input_modalities BedrockGuardrail#input_modalities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#input_modalities BedrockGuardrail#input_modalities}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? InputModalities
@@ -85,7 +85,7 @@ namespace aws.BedrockGuardrail
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#output_action BedrockGuardrail#output_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outputAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutputAction
@@ -96,7 +96,7 @@ namespace aws.BedrockGuardrail
 
         private object? _outputEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#output_enabled BedrockGuardrail#output_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -128,7 +128,7 @@ namespace aws.BedrockGuardrail
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_guardrail#output_modalities BedrockGuardrail#output_modalities}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_guardrail#output_modalities BedrockGuardrail#output_modalities}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? OutputModalities

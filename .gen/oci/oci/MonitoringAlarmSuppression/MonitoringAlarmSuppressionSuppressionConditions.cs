@@ -9,7 +9,7 @@ namespace oci.MonitoringAlarmSuppression
     [JsiiByValue(fqn: "oci.monitoringAlarmSuppression.MonitoringAlarmSuppressionSuppressionConditions")]
     public class MonitoringAlarmSuppressionSuppressionConditions : oci.MonitoringAlarmSuppression.IMonitoringAlarmSuppressionSuppressionConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm_suppression#condition_type MonitoringAlarmSuppressionA#condition_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/monitoring_alarm_suppression#condition_type MonitoringAlarmSuppressionA#condition_type}.</summary>
         [JsiiProperty(name: "conditionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConditionType
         {
@@ -17,7 +17,7 @@ namespace oci.MonitoringAlarmSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm_suppression#suppression_duration MonitoringAlarmSuppressionA#suppression_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/monitoring_alarm_suppression#suppression_duration MonitoringAlarmSuppressionA#suppression_duration}.</summary>
         [JsiiProperty(name: "suppressionDuration", typeJson: "{\"primitive\":\"string\"}")]
         public string SuppressionDuration
         {
@@ -25,7 +25,7 @@ namespace oci.MonitoringAlarmSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/monitoring_alarm_suppression#suppression_recurrence MonitoringAlarmSuppressionA#suppression_recurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/monitoring_alarm_suppression#suppression_recurrence MonitoringAlarmSuppressionA#suppression_recurrence}.</summary>
         [JsiiProperty(name: "suppressionRecurrence", typeJson: "{\"primitive\":\"string\"}")]
         public string SuppressionRecurrence
         {

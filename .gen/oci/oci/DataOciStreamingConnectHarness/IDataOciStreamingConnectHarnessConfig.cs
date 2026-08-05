@@ -7,7 +7,7 @@ namespace oci.DataOciStreamingConnectHarness
     [JsiiInterface(nativeType: typeof(IDataOciStreamingConnectHarnessConfig), fullyQualifiedName: "oci.dataOciStreamingConnectHarness.DataOciStreamingConnectHarnessConfig")]
     public interface IDataOciStreamingConnectHarnessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
         [JsiiProperty(name: "connectHarnessId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectHarnessId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStreamingConnectHarness
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
             [JsiiProperty(name: "connectHarnessId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectHarnessId
             {

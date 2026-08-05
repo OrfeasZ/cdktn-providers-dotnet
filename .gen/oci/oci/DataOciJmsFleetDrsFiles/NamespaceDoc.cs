@@ -5,7 +5,7 @@ namespace oci.DataOciJmsFleetDrsFiles
     /// <remarks>
     /// <h1><c>data_oci_jms_fleet_drs_files</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_fleet_drs_files"><c>data_oci_jms_fleet_drs_files</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_drs_files"><c>data_oci_jms_fleet_drs_files</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

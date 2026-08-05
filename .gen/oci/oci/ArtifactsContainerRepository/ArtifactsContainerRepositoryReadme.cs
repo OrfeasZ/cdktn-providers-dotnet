@@ -9,7 +9,7 @@ namespace oci.ArtifactsContainerRepository
     [JsiiByValue(fqn: "oci.artifactsContainerRepository.ArtifactsContainerRepositoryReadme")]
     public class ArtifactsContainerRepositoryReadme : oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryReadme
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_repository#content ArtifactsContainerRepository#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_repository#format ArtifactsContainerRepository#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {

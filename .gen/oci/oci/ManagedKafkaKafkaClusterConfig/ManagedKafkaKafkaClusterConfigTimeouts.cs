@@ -7,7 +7,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
     [JsiiByValue(fqn: "oci.managedKafkaKafkaClusterConfig.ManagedKafkaKafkaClusterConfigTimeouts")]
     public class ManagedKafkaKafkaClusterConfigTimeouts : oci.ManagedKafkaKafkaClusterConfig.IManagedKafkaKafkaClusterConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_config#create ManagedKafkaKafkaClusterConfigA#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#create ManagedKafkaKafkaClusterConfigA#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_config#delete ManagedKafkaKafkaClusterConfigA#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#delete ManagedKafkaKafkaClusterConfigA#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/managed_kafka_kafka_cluster_config#update ManagedKafkaKafkaClusterConfigA#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#update ManagedKafkaKafkaClusterConfigA#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

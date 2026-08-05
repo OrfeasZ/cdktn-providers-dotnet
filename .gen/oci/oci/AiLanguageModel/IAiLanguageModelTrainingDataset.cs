@@ -7,14 +7,14 @@ namespace oci.AiLanguageModel
     [JsiiInterface(nativeType: typeof(IAiLanguageModelTrainingDataset), fullyQualifiedName: "oci.aiLanguageModel.AiLanguageModelTrainingDataset")]
     public interface IAiLanguageModelTrainingDataset
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
         [JsiiProperty(name: "datasetType", typeJson: "{\"primitive\":\"string\"}")]
         string DatasetType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatasetId
@@ -27,7 +27,7 @@ namespace oci.AiLanguageModel
 
         /// <summary>location_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
         /// </remarks>
         [JsiiProperty(name: "locationDetails", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTrainingDatasetLocationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,14 +46,14 @@ namespace oci.AiLanguageModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
             [JsiiProperty(name: "datasetType", typeJson: "{\"primitive\":\"string\"}")]
             public string DatasetType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatasetId
@@ -63,7 +63,7 @@ namespace oci.AiLanguageModel
 
             /// <summary>location_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locationDetails", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTrainingDatasetLocationDetails\"}", isOptional: true)]

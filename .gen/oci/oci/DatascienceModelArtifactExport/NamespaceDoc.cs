@@ -5,7 +5,7 @@ namespace oci.DatascienceModelArtifactExport
     /// <remarks>
     /// <h1><c>oci_datascience_model_artifact_export</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_model_artifact_export"><c>oci_datascience_model_artifact_export</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export"><c>oci_datascience_model_artifact_export</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

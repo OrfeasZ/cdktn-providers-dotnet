@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
     /// <remarks>
     /// <h1><c>data_oci_database_tools_runtime_database_tools_connection_property_set</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set"><c>data_oci_database_tools_runtime_database_tools_connection_property_set</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_property_set"><c>data_oci_database_tools_runtime_database_tools_connection_property_set</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

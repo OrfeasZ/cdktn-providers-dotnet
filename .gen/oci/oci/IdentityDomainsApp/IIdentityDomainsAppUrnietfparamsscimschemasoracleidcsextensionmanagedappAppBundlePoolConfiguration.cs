@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundlePoolConfiguration), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundlePoolConfiguration")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppBundlePoolConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}.</summary>
         [JsiiProperty(name: "maxIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxIdle
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}.</summary>
         [JsiiProperty(name: "maxObjects", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxObjects
@@ -29,7 +29,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}.</summary>
         [JsiiProperty(name: "maxWait", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxWait
@@ -40,7 +40,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}.</summary>
         [JsiiProperty(name: "minEvictableIdleTimeMillis", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinEvictableIdleTimeMillis
@@ -51,7 +51,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}.</summary>
         [JsiiProperty(name: "minIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinIdle
@@ -69,7 +69,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_idle IdentityDomainsApp#max_idle}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxIdle
@@ -77,7 +77,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_objects IdentityDomainsApp#max_objects}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxObjects", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxObjects
@@ -85,7 +85,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#max_wait IdentityDomainsApp#max_wait}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxWait", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxWait
@@ -93,7 +93,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#min_evictable_idle_time_millis IdentityDomainsApp#min_evictable_idle_time_millis}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minEvictableIdleTimeMillis", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinEvictableIdleTimeMillis
@@ -101,7 +101,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#min_idle IdentityDomainsApp#min_idle}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minIdle", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinIdle

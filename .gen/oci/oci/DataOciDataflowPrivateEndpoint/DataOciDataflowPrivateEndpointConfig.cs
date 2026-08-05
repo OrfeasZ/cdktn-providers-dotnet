@@ -9,7 +9,7 @@ namespace oci.DataOciDataflowPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDataflowPrivateEndpoint.DataOciDataflowPrivateEndpointConfig")]
     public class DataOciDataflowPrivateEndpointConfig : oci.DataOciDataflowPrivateEndpoint.IDataOciDataflowPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataflow_private_endpoint#private_endpoint_id DataOciDataflowPrivateEndpoint#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateEndpointId
         {

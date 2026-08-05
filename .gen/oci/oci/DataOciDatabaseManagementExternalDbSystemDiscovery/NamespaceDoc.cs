@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscovery
     /// <remarks>
     /// <h1><c>data_oci_database_management_external_db_system_discovery</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system_discovery"><c>data_oci_database_management_external_db_system_discovery</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_system_discovery"><c>data_oci_database_management_external_db_system_discovery</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

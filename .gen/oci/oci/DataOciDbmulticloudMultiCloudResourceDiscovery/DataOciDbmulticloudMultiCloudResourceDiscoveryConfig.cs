@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscovery
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudMultiCloudResourceDiscovery.DataOciDbmulticloudMultiCloudResourceDiscoveryConfig")]
     public class DataOciDbmulticloudMultiCloudResourceDiscoveryConfig : oci.DataOciDbmulticloudMultiCloudResourceDiscovery.IDataOciDbmulticloudMultiCloudResourceDiscoveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
         [JsiiProperty(name: "multiCloudResourceDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         public string MultiCloudResourceDiscoveryId
         {

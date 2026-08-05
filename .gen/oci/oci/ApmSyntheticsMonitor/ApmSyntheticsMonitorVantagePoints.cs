@@ -9,7 +9,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiByValue(fqn: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorVantagePoints")]
     public class ApmSyntheticsMonitorVantagePoints : oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorVantagePoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_synthetics_monitor#name ApmSyntheticsMonitor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#name ApmSyntheticsMonitor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.ApmSyntheticsMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/apm_synthetics_monitor#display_name ApmSyntheticsMonitor#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#display_name ApmSyntheticsMonitor#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

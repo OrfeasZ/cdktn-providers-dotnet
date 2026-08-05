@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#credential_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#credential_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#credential_key}.</summary>
         [JsiiProperty(name: "credentialKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#user_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#user_key DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#user_key}.</summary>
         [JsiiProperty(name: "userKey", typeJson: "{\"primitive\":\"string\"}")]
         public string UserKey
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_user_credential#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionUserCredential#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

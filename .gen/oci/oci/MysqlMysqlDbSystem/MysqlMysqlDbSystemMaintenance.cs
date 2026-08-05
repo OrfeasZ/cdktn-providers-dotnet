@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiByValue(fqn: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemMaintenance")]
     public class MysqlMysqlDbSystemMaintenance : oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#window_start_time MysqlMysqlDbSystem#window_start_time}.</summary>
         [JsiiProperty(name: "windowStartTime", typeJson: "{\"primitive\":\"string\"}")]
         public string WindowStartTime
         {
@@ -21,7 +21,7 @@ namespace oci.MysqlMysqlDbSystem
 
         /// <summary>maintenance_disabled_windows block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_mysql_db_system#maintenance_disabled_windows MysqlMysqlDbSystem#maintenance_disabled_windows}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#maintenance_disabled_windows MysqlMysqlDbSystem#maintenance_disabled_windows}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemMaintenanceMaintenanceDisabledWindows" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.MysqlMysqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_mysql_db_system#maintenance_schedule_type MysqlMysqlDbSystem#maintenance_schedule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#maintenance_schedule_type MysqlMysqlDbSystem#maintenance_schedule_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceScheduleType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceScheduleType
@@ -61,7 +61,7 @@ namespace oci.MysqlMysqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_mysql_db_system#version_preference MysqlMysqlDbSystem#version_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#version_preference MysqlMysqlDbSystem#version_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionPreference
@@ -70,7 +70,7 @@ namespace oci.MysqlMysqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_mysql_db_system#version_track_preference MysqlMysqlDbSystem#version_track_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#version_track_preference MysqlMysqlDbSystem#version_track_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionTrackPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionTrackPreference

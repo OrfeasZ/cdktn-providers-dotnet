@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentManagementAgent
     [JsiiByValue(fqn: "oci.dataOciManagementAgentManagementAgent.DataOciManagementAgentManagementAgentConfig")]
     public class DataOciManagementAgentManagementAgentConfig : oci.DataOciManagementAgentManagementAgent.IDataOciManagementAgentManagementAgentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementAgentId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseKeyStore
     [JsiiByValue(fqn: "oci.dataOciDatabaseKeyStore.DataOciDatabaseKeyStoreConfig")]
     public class DataOciDatabaseKeyStoreConfig : oci.DataOciDatabaseKeyStore.IDataOciDatabaseKeyStoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
         [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyStoreId
         {

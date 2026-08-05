@@ -7,7 +7,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControl
     [JsiiInterface(nativeType: typeof(IDataOciDelegateAccessControlDelegationControlConfig), fullyQualifiedName: "oci.dataOciDelegateAccessControlDelegationControl.DataOciDelegateAccessControlDelegationControlConfig")]
     public interface IDataOciDelegateAccessControlDelegationControlConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control#delegation_control_id DataOciDelegateAccessControlDelegationControl#delegation_control_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_delegation_control#delegation_control_id DataOciDelegateAccessControlDelegationControl#delegation_control_id}.</summary>
         [JsiiProperty(name: "delegationControlId", typeJson: "{\"primitive\":\"string\"}")]
         string DelegationControlId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDelegateAccessControlDelegationControl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/delegate_access_control_delegation_control#delegation_control_id DataOciDelegateAccessControlDelegationControl#delegation_control_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_delegation_control#delegation_control_id DataOciDelegateAccessControlDelegationControl#delegation_control_id}.</summary>
             [JsiiProperty(name: "delegationControlId", typeJson: "{\"primitive\":\"string\"}")]
             public string DelegationControlId
             {

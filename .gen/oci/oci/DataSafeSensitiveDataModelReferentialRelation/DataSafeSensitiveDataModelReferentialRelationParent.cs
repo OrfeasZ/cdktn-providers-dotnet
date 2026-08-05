@@ -9,7 +9,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
     [JsiiByValue(fqn: "oci.dataSafeSensitiveDataModelReferentialRelation.DataSafeSensitiveDataModelReferentialRelationParent")]
     public class DataSafeSensitiveDataModelReferentialRelationParent : oci.DataSafeSensitiveDataModelReferentialRelation.IDataSafeSensitiveDataModelReferentialRelationParent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#app_name DataSafeSensitiveDataModelReferentialRelation#app_name}.</summary>
         [JsiiProperty(name: "appName", typeJson: "{\"primitive\":\"string\"}")]
         public string AppName
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#column_group DataSafeSensitiveDataModelReferentialRelation#column_group}.</summary>
         [JsiiProperty(name: "columnGroup", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ColumnGroup
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object DataSafeSensitiveDataModelReferentialRelation#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -33,7 +33,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#object_type DataSafeSensitiveDataModelReferentialRelation#object_type}.</summary>
         [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectType
         {
@@ -41,7 +41,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#schema_name DataSafeSensitiveDataModelReferentialRelation#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}")]
         public string SchemaName
         {
@@ -49,7 +49,7 @@ namespace oci.DataSafeSensitiveDataModelReferentialRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_data_model_referential_relation#sensitive_type_ids DataSafeSensitiveDataModelReferentialRelation#sensitive_type_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SensitiveTypeIds

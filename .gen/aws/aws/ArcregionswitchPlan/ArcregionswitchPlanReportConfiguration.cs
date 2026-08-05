@@ -11,7 +11,7 @@ namespace aws.ArcregionswitchPlan
 
         /// <summary>report_output block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/arcregionswitch_plan#report_output ArcregionswitchPlan#report_output}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanReportConfigurationReportOutput" />)[]</para>
         /// </remarks>
         [JsiiOptional]

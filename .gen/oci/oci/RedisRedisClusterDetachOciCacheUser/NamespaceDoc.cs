@@ -5,7 +5,7 @@ namespace oci.RedisRedisClusterDetachOciCacheUser
     /// <remarks>
     /// <h1><c>oci_redis_redis_cluster_detach_oci_cache_user</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_redis_cluster_detach_oci_cache_user"><c>oci_redis_redis_cluster_detach_oci_cache_user</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_redis_cluster_detach_oci_cache_user"><c>oci_redis_redis_cluster_detach_oci_cache_user</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

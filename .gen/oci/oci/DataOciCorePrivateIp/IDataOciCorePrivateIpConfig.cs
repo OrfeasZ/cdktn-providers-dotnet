@@ -7,7 +7,7 @@ namespace oci.DataOciCorePrivateIp
     [JsiiInterface(nativeType: typeof(IDataOciCorePrivateIpConfig), fullyQualifiedName: "oci.dataOciCorePrivateIp.DataOciCorePrivateIpConfig")]
     public interface IDataOciCorePrivateIpConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
         [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateIpId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCorePrivateIp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_private_ip#private_ip_id DataOciCorePrivateIp#private_ip_id}.</summary>
             [JsiiProperty(name: "privateIpId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateIpId
             {

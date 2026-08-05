@@ -7,21 +7,21 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalCatalogResources
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementInternalOccmDemandSignalCatalogResourcesFilter), fullyQualifiedName: "oci.dataOciCapacityManagementInternalOccmDemandSignalCatalogResources.DataOciCapacityManagementInternalOccmDemandSignalCatalogResourcesFilter")]
     public interface IDataOciCapacityManagementInternalOccmDemandSignalCatalogResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#name DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#name DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#values DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#values DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#regex DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#regex DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalCatalogResources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#name DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#name DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#values DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#values DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#regex DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalog_resources#regex DataOciCapacityManagementInternalOccmDemandSignalCatalogResources#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

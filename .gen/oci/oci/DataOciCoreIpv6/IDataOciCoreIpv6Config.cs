@@ -7,7 +7,7 @@ namespace oci.DataOciCoreIpv6
     [JsiiInterface(nativeType: typeof(IDataOciCoreIpv6Config), fullyQualifiedName: "oci.dataOciCoreIpv6.DataOciCoreIpv6Config")]
     public interface IDataOciCoreIpv6Config : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
         [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}")]
         string Ipv6Id
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreIpv6
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_ipv6#ipv6id DataOciCoreIpv6#ipv6id}.</summary>
             [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"string\"}")]
             public string Ipv6Id
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedDatabases.DataOciDistributedDatabaseDistributedDatabasesConfig")]
     public class DataOciDistributedDatabaseDistributedDatabasesConfig : oci.DataOciDistributedDatabaseDistributedDatabases.IDataOciDistributedDatabaseDistributedDatabasesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#compartment_id DataOciDistributedDatabaseDistributedDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#compartment_id DataOciDistributedDatabaseDistributedDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#db_deployment_type DataOciDistributedDatabaseDistributedDatabases#db_deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#db_deployment_type DataOciDistributedDatabaseDistributedDatabases#db_deployment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbDeploymentType
@@ -26,7 +26,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#display_name DataOciDistributedDatabaseDistributedDatabases#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#display_name DataOciDistributedDatabaseDistributedDatabases#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#filter DataOciDistributedDatabaseDistributedDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#filter DataOciDistributedDatabaseDistributedDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDistributedDatabaseDistributedDatabases.IDataOciDistributedDatabaseDistributedDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#id DataOciDistributedDatabaseDistributedDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#id DataOciDistributedDatabaseDistributedDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#metadata DataOciDistributedDatabaseDistributedDatabases#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#metadata DataOciDistributedDatabaseDistributedDatabases#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Metadata
@@ -92,7 +92,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#private_endpoint_id DataOciDistributedDatabaseDistributedDatabases#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#private_endpoint_id DataOciDistributedDatabaseDistributedDatabases#private_endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateEndpointId
@@ -101,7 +101,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_databases#state DataOciDistributedDatabaseDistributedDatabases#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_databases#state DataOciDistributedDatabaseDistributedDatabases#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

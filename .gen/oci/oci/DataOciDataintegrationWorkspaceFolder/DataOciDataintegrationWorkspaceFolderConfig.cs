@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceFolder
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceFolder.DataOciDataintegrationWorkspaceFolderConfig")]
     public class DataOciDataintegrationWorkspaceFolderConfig : oci.DataOciDataintegrationWorkspaceFolder.IDataOciDataintegrationWorkspaceFolderConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspace_folder#folder_key DataOciDataintegrationWorkspaceFolder#folder_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataintegration_workspace_folder#folder_key DataOciDataintegrationWorkspaceFolder#folder_key}.</summary>
         [JsiiProperty(name: "folderKey", typeJson: "{\"primitive\":\"string\"}")]
         public string FolderKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceFolder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspace_folder#workspace_id DataOciDataintegrationWorkspaceFolder#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataintegration_workspace_folder#workspace_id DataOciDataintegrationWorkspaceFolder#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscovery
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudMultiCloudResourceDiscoveryConfig), fullyQualifiedName: "oci.dataOciDbmulticloudMultiCloudResourceDiscovery.DataOciDbmulticloudMultiCloudResourceDiscoveryConfig")]
     public interface IDataOciDbmulticloudMultiCloudResourceDiscoveryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
         [JsiiProperty(name: "multiCloudResourceDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         string MultiCloudResourceDiscoveryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudMultiCloudResourceDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_multi_cloud_resource_discovery#multi_cloud_resource_discovery_id DataOciDbmulticloudMultiCloudResourceDiscovery#multi_cloud_resource_discovery_id}.</summary>
             [JsiiProperty(name: "multiCloudResourceDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
             public string MultiCloudResourceDiscoveryId
             {

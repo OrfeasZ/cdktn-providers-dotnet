@@ -9,7 +9,7 @@ namespace oci.DataOciApiPlatformApiPlatformInstance
     [JsiiByValue(fqn: "oci.dataOciApiPlatformApiPlatformInstance.DataOciApiPlatformApiPlatformInstanceConfig")]
     public class DataOciApiPlatformApiPlatformInstanceConfig : oci.DataOciApiPlatformApiPlatformInstance.IDataOciApiPlatformApiPlatformInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/api_platform_api_platform_instance#api_platform_instance_id DataOciApiPlatformApiPlatformInstance#api_platform_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/api_platform_api_platform_instance#api_platform_instance_id DataOciApiPlatformApiPlatformInstance#api_platform_instance_id}.</summary>
         [JsiiProperty(name: "apiPlatformInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiPlatformInstanceId
         {

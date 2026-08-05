@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
     [JsiiByValue(fqn: "oci.dataOciMulticloudMulticloudpolicies.DataOciMulticloudMulticloudpoliciesFilter")]
     public class DataOciMulticloudMulticloudpoliciesFilter : oci.DataOciMulticloudMulticloudpolicies.IDataOciMulticloudMulticloudpoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudpolicies#name DataOciMulticloudMulticloudpolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudpolicies#name DataOciMulticloudMulticloudpolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudpolicies#values DataOciMulticloudMulticloudpolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudpolicies#values DataOciMulticloudMulticloudpolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMulticloudMulticloudpolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudpolicies#regex DataOciMulticloudMulticloudpolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudpolicies#regex DataOciMulticloudMulticloudpolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

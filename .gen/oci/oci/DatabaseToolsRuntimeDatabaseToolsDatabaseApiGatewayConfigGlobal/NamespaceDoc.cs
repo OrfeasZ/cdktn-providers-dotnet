@@ -5,7 +5,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
     /// <remarks>
     /// <h1><c>oci_database_tools_runtime_database_tools_database_api_gateway_config_global</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global"><c>oci_database_tools_runtime_database_tools_database_api_gateway_config_global</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global"><c>oci_database_tools_runtime_database_tools_database_api_gateway_config_global</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

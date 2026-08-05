@@ -9,7 +9,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
     [JsiiByValue(fqn: "oci.dataSafeSensitiveTypeGroupGroupedSensitiveType.DataSafeSensitiveTypeGroupGroupedSensitiveTypePatchOperations")]
     public class DataSafeSensitiveTypeGroupGroupedSensitiveTypePatchOperations : oci.DataSafeSensitiveTypeGroupGroupedSensitiveType.IDataSafeSensitiveTypeGroupGroupedSensitiveTypePatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#operation DataSafeSensitiveTypeGroupGroupedSensitiveType#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#operation DataSafeSensitiveTypeGroupGroupedSensitiveType#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         public string Operation
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#selection DataSafeSensitiveTypeGroupGroupedSensitiveType#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#selection DataSafeSensitiveTypeGroupGroupedSensitiveType#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         public string Selection
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeSensitiveTypeGroupGroupedSensitiveType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#value DataSafeSensitiveTypeGroupGroupedSensitiveType#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group_grouped_sensitive_type#value DataSafeSensitiveTypeGroupGroupedSensitiveType#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Value
         {

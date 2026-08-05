@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
     /// <remarks>
     /// <h1><c>data_oci_database_migration_assessment_assessor_checks</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks"><c>data_oci_database_migration_assessment_assessor_checks</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks"><c>data_oci_database_migration_assessment_assessor_checks</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

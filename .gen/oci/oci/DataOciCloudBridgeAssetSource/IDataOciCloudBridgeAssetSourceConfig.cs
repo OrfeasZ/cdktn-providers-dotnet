@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeAssetSource
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeAssetSourceConfig), fullyQualifiedName: "oci.dataOciCloudBridgeAssetSource.DataOciCloudBridgeAssetSourceConfig")]
     public interface IDataOciCloudBridgeAssetSourceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_asset_source#asset_source_id DataOciCloudBridgeAssetSource#asset_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_asset_source#asset_source_id DataOciCloudBridgeAssetSource#asset_source_id}.</summary>
         [JsiiProperty(name: "assetSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string AssetSourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudBridgeAssetSource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_asset_source#asset_source_id DataOciCloudBridgeAssetSource#asset_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_asset_source#asset_source_id DataOciCloudBridgeAssetSource#asset_source_id}.</summary>
             [JsiiProperty(name: "assetSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssetSourceId
             {

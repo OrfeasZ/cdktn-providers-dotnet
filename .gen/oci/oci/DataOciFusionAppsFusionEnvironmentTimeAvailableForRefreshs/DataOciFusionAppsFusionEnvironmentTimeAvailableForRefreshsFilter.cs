@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs.DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshsFilter")]
     public class DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshsFilter : oci.DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs.IDataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#name DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#name DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#values DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#values DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#regex DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_time_available_for_refreshs#regex DataOciFusionAppsFusionEnvironmentTimeAvailableForRefreshs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

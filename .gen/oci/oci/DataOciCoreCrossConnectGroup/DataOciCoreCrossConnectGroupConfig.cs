@@ -9,7 +9,7 @@ namespace oci.DataOciCoreCrossConnectGroup
     [JsiiByValue(fqn: "oci.dataOciCoreCrossConnectGroup.DataOciCoreCrossConnectGroupConfig")]
     public class DataOciCoreCrossConnectGroupConfig : oci.DataOciCoreCrossConnectGroup.IDataOciCoreCrossConnectGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_cross_connect_group#cross_connect_group_id DataOciCoreCrossConnectGroup#cross_connect_group_id}.</summary>
         [JsiiProperty(name: "crossConnectGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string CrossConnectGroupId
         {

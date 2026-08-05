@@ -5,7 +5,7 @@ namespace oci.IdentityDomainsMyApiKey
     /// <remarks>
     /// <h1><c>oci_identity_domains_my_api_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_my_api_key"><c>oci_identity_domains_my_api_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_api_key"><c>oci_identity_domains_my_api_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

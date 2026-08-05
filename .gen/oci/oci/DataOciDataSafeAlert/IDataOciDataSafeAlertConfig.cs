@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAlert
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAlertConfig), fullyQualifiedName: "oci.dataOciDataSafeAlert.DataOciDataSafeAlertConfig")]
     public interface IDataOciDataSafeAlertConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_alert#alert_id DataOciDataSafeAlert#alert_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_alert#alert_id DataOciDataSafeAlert#alert_id}.</summary>
         [JsiiProperty(name: "alertId", typeJson: "{\"primitive\":\"string\"}")]
         string AlertId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAlert
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_alert#alert_id DataOciDataSafeAlert#alert_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_alert#alert_id DataOciDataSafeAlert#alert_id}.</summary>
             [JsiiProperty(name: "alertId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlertId
             {

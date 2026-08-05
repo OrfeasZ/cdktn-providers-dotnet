@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsConnectionPropertySet.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig")]
     public class DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig : oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet.IDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#property_set_key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#property_set_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#property_set_key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#property_set_key}.</summary>
         [JsiiProperty(name: "propertySetKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PropertySetKey
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#authentication_substitutions DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#authentication_substitutions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#authentication_substitutions DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#authentication_substitutions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationSubstitutions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AuthenticationSubstitutions
@@ -42,7 +42,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#autonomous_database_resource_principal_status DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#autonomous_database_resource_principal_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#autonomous_database_resource_principal_status DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#autonomous_database_resource_principal_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autonomousDatabaseResourcePrincipalStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutonomousDatabaseResourcePrincipalStatus
@@ -51,7 +51,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#credential_key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#credential_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#credential_key DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#credential_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "credentialKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CredentialKey
@@ -60,7 +60,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#function_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#function_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#function_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FunctionId
@@ -69,7 +69,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
 
         /// <summary>identity_provider block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#identity_provider DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#identity_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#identity_provider DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#identity_provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityProvider", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsConnectionPropertySet.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#instance_dbms_credential_enabled DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#instance_dbms_credential_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#instance_dbms_credential_enabled DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#instance_dbms_credential_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceDbmsCredentialEnabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceDbmsCredentialEnabled
@@ -103,7 +103,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#invoke_endpoint DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#invoke_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#invoke_endpoint DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#invoke_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "invokeEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InvokeEndpoint
@@ -112,7 +112,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_bucket_compartment_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_bucket_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_bucket_compartment_id DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_bucket_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectStorageBucketCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectStorageBucketCompartmentId
@@ -121,7 +121,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_endpoint DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_endpoint DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectStorageEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectStorageEndpoint
@@ -130,7 +130,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_namespace DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#object_storage_namespace DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#object_storage_namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectStorageNamespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectStorageNamespace
@@ -139,7 +139,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#print_server_type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#print_server_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#print_server_type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#print_server_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "printServerType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrintServerType
@@ -150,7 +150,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#timeouts DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#timeouts DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsConnectionPropertySet.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetTimeouts\"}", isOptional: true)]

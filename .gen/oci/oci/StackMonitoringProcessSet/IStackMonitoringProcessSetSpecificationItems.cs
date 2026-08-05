@@ -7,7 +7,7 @@ namespace oci.StackMonitoringProcessSet
     [JsiiInterface(nativeType: typeof(IStackMonitoringProcessSetSpecificationItems), fullyQualifiedName: "oci.stackMonitoringProcessSet.StackMonitoringProcessSetSpecificationItems")]
     public interface IStackMonitoringProcessSetSpecificationItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Label
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringProcessSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
         [JsiiProperty(name: "processCommand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProcessCommand
@@ -29,7 +29,7 @@ namespace oci.StackMonitoringProcessSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
         [JsiiProperty(name: "processLineRegexPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProcessLineRegexPattern
@@ -40,7 +40,7 @@ namespace oci.StackMonitoringProcessSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
         [JsiiProperty(name: "processUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProcessUser
@@ -58,7 +58,7 @@ namespace oci.StackMonitoringProcessSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Label
@@ -66,7 +66,7 @@ namespace oci.StackMonitoringProcessSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "processCommand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProcessCommand
@@ -74,7 +74,7 @@ namespace oci.StackMonitoringProcessSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "processLineRegexPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProcessLineRegexPattern
@@ -82,7 +82,7 @@ namespace oci.StackMonitoringProcessSet
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "processUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProcessUser

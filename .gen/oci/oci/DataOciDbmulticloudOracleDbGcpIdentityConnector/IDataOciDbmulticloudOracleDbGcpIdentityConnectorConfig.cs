@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpIdentityConnector
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbGcpIdentityConnectorConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbGcpIdentityConnector.DataOciDbmulticloudOracleDbGcpIdentityConnectorConfig")]
     public interface IDataOciDbmulticloudOracleDbGcpIdentityConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbGcpIdentityConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbGcpIdentityConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudOracleDbGcpIdentityConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connector#oracle_db_gcp_identity_connector_id DataOciDbmulticloudOracleDbGcpIdentityConnector#oracle_db_gcp_identity_connector_id}.</summary>
             [JsiiProperty(name: "oracleDbGcpIdentityConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbGcpIdentityConnectorId
             {

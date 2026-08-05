@@ -7,7 +7,7 @@ namespace aws.SagemakerSpace
     [JsiiInterface(nativeType: typeof(ISagemakerSpaceOwnershipSettings), fullyQualifiedName: "aws.sagemakerSpace.SagemakerSpaceOwnershipSettings")]
     public interface ISagemakerSpaceOwnershipSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/sagemaker_space#owner_user_profile_name SagemakerSpace#owner_user_profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_space#owner_user_profile_name SagemakerSpace#owner_user_profile_name}.</summary>
         [JsiiProperty(name: "ownerUserProfileName", typeJson: "{\"primitive\":\"string\"}")]
         string OwnerUserProfileName
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerSpace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/sagemaker_space#owner_user_profile_name SagemakerSpace#owner_user_profile_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_space#owner_user_profile_name SagemakerSpace#owner_user_profile_name}.</summary>
             [JsiiProperty(name: "ownerUserProfileName", typeJson: "{\"primitive\":\"string\"}")]
             public string OwnerUserProfileName
             {

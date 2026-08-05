@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationJobAdvisorReportChecks
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationJobAdvisorReportChecks.DataOciDatabaseMigrationJobAdvisorReportChecksFilter")]
     public class DataOciDatabaseMigrationJobAdvisorReportChecksFilter : oci.DataOciDatabaseMigrationJobAdvisorReportChecks.IDataOciDatabaseMigrationJobAdvisorReportChecksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_job_advisor_report_checks#name DataOciDatabaseMigrationJobAdvisorReportChecks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_job_advisor_report_checks#name DataOciDatabaseMigrationJobAdvisorReportChecks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationJobAdvisorReportChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_job_advisor_report_checks#values DataOciDatabaseMigrationJobAdvisorReportChecks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_job_advisor_report_checks#values DataOciDatabaseMigrationJobAdvisorReportChecks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationJobAdvisorReportChecks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_job_advisor_report_checks#regex DataOciDatabaseMigrationJobAdvisorReportChecks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_job_advisor_report_checks#regex DataOciDatabaseMigrationJobAdvisorReportChecks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

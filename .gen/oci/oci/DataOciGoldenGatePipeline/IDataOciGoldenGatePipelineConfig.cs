@@ -7,7 +7,7 @@ namespace oci.DataOciGoldenGatePipeline
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGatePipelineConfig), fullyQualifiedName: "oci.dataOciGoldenGatePipeline.DataOciGoldenGatePipelineConfig")]
     public interface IDataOciGoldenGatePipelineConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         string PipelineId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGoldenGatePipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
             public string PipelineId
             {

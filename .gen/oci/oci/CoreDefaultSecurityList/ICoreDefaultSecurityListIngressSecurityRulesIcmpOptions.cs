@@ -7,14 +7,14 @@ namespace oci.CoreDefaultSecurityList
     [JsiiInterface(nativeType: typeof(ICoreDefaultSecurityListIngressSecurityRulesIcmpOptions), fullyQualifiedName: "oci.coreDefaultSecurityList.CoreDefaultSecurityListIngressSecurityRulesIcmpOptions")]
     public interface ICoreDefaultSecurityListIngressSecurityRulesIcmpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
         double Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Code
@@ -32,14 +32,14 @@ namespace oci.CoreDefaultSecurityList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#type CoreDefaultSecurityList#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
             public double Type
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_security_list#code CoreDefaultSecurityList#code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Code

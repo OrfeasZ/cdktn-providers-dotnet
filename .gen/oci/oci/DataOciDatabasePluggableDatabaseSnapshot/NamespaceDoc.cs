@@ -5,7 +5,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshot
     /// <remarks>
     /// <h1><c>data_oci_database_pluggable_database_snapshot</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_pluggable_database_snapshot"><c>data_oci_database_pluggable_database_snapshot</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_pluggable_database_snapshot"><c>data_oci_database_pluggable_database_snapshot</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

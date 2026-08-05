@@ -7,7 +7,7 @@ namespace oci.DatabaseMigrationConnection
     [JsiiByValue(fqn: "oci.databaseMigrationConnection.DatabaseMigrationConnectionAdditionalAttributes")]
     public class DatabaseMigrationConnectionAdditionalAttributes : oci.DatabaseMigrationConnection.IDatabaseMigrationConnectionAdditionalAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_connection#name DatabaseMigrationConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#name DatabaseMigrationConnection#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_connection#value DatabaseMigrationConnection#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#value DatabaseMigrationConnection#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

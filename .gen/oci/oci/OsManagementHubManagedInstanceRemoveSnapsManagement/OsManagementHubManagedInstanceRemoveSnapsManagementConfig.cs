@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceRemoveSnapsManagement.OsManagementHubManagedInstanceRemoveSnapsManagementConfig")]
     public class OsManagementHubManagedInstanceRemoveSnapsManagementConfig : oci.OsManagementHubManagedInstanceRemoveSnapsManagement.IOsManagementHubManagedInstanceRemoveSnapsManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#managed_instance_id OsManagementHubManagedInstanceRemoveSnapsManagement#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#managed_instance_id OsManagementHubManagedInstanceRemoveSnapsManagement#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
 
         /// <summary>snap_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#snap_details OsManagementHubManagedInstanceRemoveSnapsManagement#snap_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#snap_details OsManagementHubManagedInstanceRemoveSnapsManagement#snap_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubManagedInstanceRemoveSnapsManagement.IOsManagementHubManagedInstanceRemoveSnapsManagementSnapDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "snapDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubManagedInstanceRemoveSnapsManagement.OsManagementHubManagedInstanceRemoveSnapsManagementSnapDetails\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#id OsManagementHubManagedInstanceRemoveSnapsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#id OsManagementHubManagedInstanceRemoveSnapsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#timeouts OsManagementHubManagedInstanceRemoveSnapsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#timeouts OsManagementHubManagedInstanceRemoveSnapsManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceRemoveSnapsManagement.OsManagementHubManagedInstanceRemoveSnapsManagementTimeouts\"}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#work_request_details OsManagementHubManagedInstanceRemoveSnapsManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#work_request_details OsManagementHubManagedInstanceRemoveSnapsManagement#work_request_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceRemoveSnapsManagement.OsManagementHubManagedInstanceRemoveSnapsManagementWorkRequestDetails\"}", isOptional: true)]

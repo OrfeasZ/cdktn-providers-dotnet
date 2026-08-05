@@ -9,7 +9,7 @@ namespace oci.DataOciDatabasePluggableDatabase
     [JsiiByValue(fqn: "oci.dataOciDatabasePluggableDatabase.DataOciDatabasePluggableDatabaseConfig")]
     public class DataOciDatabasePluggableDatabaseConfig : oci.DataOciDatabasePluggableDatabase.IDataOciDatabasePluggableDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_pluggable_database#pluggable_database_id DataOciDatabasePluggableDatabase#pluggable_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_pluggable_database#pluggable_database_id DataOciDatabasePluggableDatabase#pluggable_database_id}.</summary>
         [JsiiProperty(name: "pluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string PluggableDatabaseId
         {

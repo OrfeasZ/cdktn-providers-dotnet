@@ -7,7 +7,7 @@ namespace oci.DatabaseDbSystem
     [JsiiInterface(nativeType: typeof(IDatabaseDbSystemMaintenanceWindowDetailsMonths), fullyQualifiedName: "oci.databaseDbSystem.DatabaseDbSystemMaintenanceWindowDetailsMonths")]
     public interface IDatabaseDbSystemMaintenanceWindowDetailsMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

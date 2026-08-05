@@ -7,7 +7,7 @@ namespace oci.JmsTaskSchedule
     [JsiiByValue(fqn: "oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsJfrTaskRequest")]
     public class JmsTaskScheduleTaskDetailsJfrTaskRequest : oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsJfrTaskRequest
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#jfc_profile_name JmsTaskSchedule#jfc_profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#jfc_profile_name JmsTaskSchedule#jfc_profile_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jfcProfileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JfcProfileName
@@ -16,7 +16,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#jfc_v1 JmsTaskSchedule#jfc_v1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#jfc_v1 JmsTaskSchedule#jfc_v1}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jfcV1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JfcV1
@@ -25,7 +25,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#jfc_v2 JmsTaskSchedule#jfc_v2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#jfc_v2 JmsTaskSchedule#jfc_v2}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jfcV2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JfcV2
@@ -34,7 +34,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#recording_duration_in_minutes JmsTaskSchedule#recording_duration_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recordingDurationInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RecordingDurationInMinutes
@@ -43,7 +43,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#recording_size_in_mb JmsTaskSchedule#recording_size_in_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#recording_size_in_mb JmsTaskSchedule#recording_size_in_mb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recordingSizeInMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RecordingSizeInMb
@@ -56,7 +56,7 @@ namespace oci.JmsTaskSchedule
 
         /// <summary>targets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#targets JmsTaskSchedule#targets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsJfrTaskRequestTargets" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_task_schedule#waiting_period_in_minutes JmsTaskSchedule#waiting_period_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "waitingPeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? WaitingPeriodInMinutes

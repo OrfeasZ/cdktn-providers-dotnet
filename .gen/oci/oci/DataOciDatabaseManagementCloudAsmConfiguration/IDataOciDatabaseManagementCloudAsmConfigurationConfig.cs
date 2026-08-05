@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseManagementCloudAsmConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudAsmConfigurationConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudAsmConfiguration.DataOciDatabaseManagementCloudAsmConfigurationConfig")]
     public interface IDataOciDatabaseManagementCloudAsmConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#cloud_asm_id DataOciDatabaseManagementCloudAsmConfiguration#cloud_asm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#cloud_asm_id DataOciDatabaseManagementCloudAsmConfiguration#cloud_asm_id}.</summary>
         [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudAsmId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#id DataOciDatabaseManagementCloudAsmConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#id DataOciDatabaseManagementCloudAsmConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#opc_named_credential_id DataOciDatabaseManagementCloudAsmConfiguration#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#opc_named_credential_id DataOciDatabaseManagementCloudAsmConfiguration#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -47,14 +47,14 @@ namespace oci.DataOciDatabaseManagementCloudAsmConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#cloud_asm_id DataOciDatabaseManagementCloudAsmConfiguration#cloud_asm_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#cloud_asm_id DataOciDatabaseManagementCloudAsmConfiguration#cloud_asm_id}.</summary>
             [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudAsmId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#id DataOciDatabaseManagementCloudAsmConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#id DataOciDatabaseManagementCloudAsmConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciDatabaseManagementCloudAsmConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_asm_configuration#opc_named_credential_id DataOciDatabaseManagementCloudAsmConfiguration#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_asm_configuration#opc_named_credential_id DataOciDatabaseManagementCloudAsmConfiguration#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId

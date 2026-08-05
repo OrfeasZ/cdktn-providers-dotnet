@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
     [JsiiByValue(fqn: "oci.dataOciGoldenGatePipelineSchemas.DataOciGoldenGatePipelineSchemasConfig")]
     public class DataOciGoldenGatePipelineSchemasConfig : oci.DataOciGoldenGatePipelineSchemas.IDataOciGoldenGatePipelineSchemasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline_schemas#pipeline_id DataOciGoldenGatePipelineSchemas#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline_schemas#pipeline_id DataOciGoldenGatePipelineSchemas#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline_schemas#display_name DataOciGoldenGatePipelineSchemas#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline_schemas#display_name DataOciGoldenGatePipelineSchemas#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline_schemas#filter DataOciGoldenGatePipelineSchemas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline_schemas#filter DataOciGoldenGatePipelineSchemas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGatePipelineSchemas.IDataOciGoldenGatePipelineSchemasFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGoldenGatePipelineSchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_pipeline_schemas#id DataOciGoldenGatePipelineSchemas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_pipeline_schemas#id DataOciGoldenGatePipelineSchemas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

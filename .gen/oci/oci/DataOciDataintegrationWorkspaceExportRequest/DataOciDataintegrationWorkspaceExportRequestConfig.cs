@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceExportRequest
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceExportRequest.DataOciDataintegrationWorkspaceExportRequestConfig")]
     public class DataOciDataintegrationWorkspaceExportRequestConfig : oci.DataOciDataintegrationWorkspaceExportRequest.IDataOciDataintegrationWorkspaceExportRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspace_export_request#export_request_key DataOciDataintegrationWorkspaceExportRequest#export_request_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataintegration_workspace_export_request#export_request_key DataOciDataintegrationWorkspaceExportRequest#export_request_key}.</summary>
         [JsiiProperty(name: "exportRequestKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ExportRequestKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceExportRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dataintegration_workspace_export_request#workspace_id DataOciDataintegrationWorkspaceExportRequest#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataintegration_workspace_export_request#workspace_id DataOciDataintegrationWorkspaceExportRequest#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

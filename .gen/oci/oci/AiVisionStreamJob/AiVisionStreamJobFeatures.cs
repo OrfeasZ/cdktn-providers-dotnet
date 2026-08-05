@@ -9,7 +9,7 @@ namespace oci.AiVisionStreamJob
     [JsiiByValue(fqn: "oci.aiVisionStreamJob.AiVisionStreamJobFeatures")]
     public class AiVisionStreamJobFeatures : oci.AiVisionStreamJob.IAiVisionStreamJobFeatures
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_vision_stream_job#feature_type AiVisionStreamJob#feature_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#feature_type AiVisionStreamJob#feature_type}.</summary>
         [JsiiProperty(name: "featureType", typeJson: "{\"primitive\":\"string\"}")]
         public string FeatureType
         {
@@ -17,7 +17,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxResults", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxResults
@@ -28,7 +28,7 @@ namespace oci.AiVisionStreamJob
 
         private object? _shouldReturnLandmarks;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -64,7 +64,7 @@ namespace oci.AiVisionStreamJob
 
         /// <summary>tracking_types block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ai_vision_stream_job#tracking_types AiVisionStreamJob#tracking_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#tracking_types AiVisionStreamJob#tracking_types}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiVisionStreamJob.IAiVisionStreamJobFeaturesTrackingTypes" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciDatabaseAutonomousContainerDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_container_database oci_database_autonomous_container_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_container_database oci_database_autonomous_container_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabase), fullyQualifiedName: "oci.dataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabaseConfig\"}}]")]
     public class DataOciDatabaseAutonomousContainerDatabase : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_container_database oci_database_autonomous_container_database} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_container_database oci_database_autonomous_container_database} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciDatabaseAutonomousContainerDatabase(Constructs.Construct scope, string id, oci.DataOciDatabaseAutonomousContainerDatabase.IDataOciDatabaseAutonomousContainerDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
         /// <param name="importToId">The construct id used in the generated config for the DataOciDatabaseAutonomousContainerDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DataOciDatabaseAutonomousContainerDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciDatabaseAutonomousContainerDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseAutonomousContainerDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_autonomous_container_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseAutonomousContainerDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseAutonomousContainerDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseAutonomousContainerDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_container_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseAutonomousContainerDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseAutonomousContainerDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -77,6 +77,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "autonomousDatabasesToClone", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AutonomousDatabasesToClone
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "autonomousExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AutonomousExadataInfrastructureId
         {
@@ -111,6 +117,18 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
         public virtual oci.DataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabaseBackupDestinationPropertiesListStructList BackupDestinationPropertiesList
         {
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabaseBackupDestinationPropertiesListStructList>()!;
+        }
+
+        [JsiiProperty(name: "cloneBandWidth", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CloneBandWidth
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cloneType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CloneType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "cloudAutonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
@@ -479,8 +497,20 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "shouldUseLatestAvailableBackupTimeStamp", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ShouldUseLatestAvailableBackupTimeStamp
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Source
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceAutonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAutonomousContainerDatabaseId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -523,6 +553,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
 
         [JsiiProperty(name: "timeSnapshotStandbyRevert", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeSnapshotStandbyRevert
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeStampToUseForCloning", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeStampToUseForCloning
         {
             get => GetInstanceProperty<string>()!;
         }

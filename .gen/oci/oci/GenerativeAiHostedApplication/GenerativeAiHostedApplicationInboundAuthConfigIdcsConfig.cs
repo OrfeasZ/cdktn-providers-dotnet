@@ -9,7 +9,7 @@ namespace oci.GenerativeAiHostedApplication
     [JsiiByValue(fqn: "oci.generativeAiHostedApplication.GenerativeAiHostedApplicationInboundAuthConfigIdcsConfig")]
     public class GenerativeAiHostedApplicationInboundAuthConfigIdcsConfig : oci.GenerativeAiHostedApplication.IGenerativeAiHostedApplicationInboundAuthConfigIdcsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#domain_url GenerativeAiHostedApplication#domain_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#domain_url GenerativeAiHostedApplication#domain_url}.</summary>
         [JsiiProperty(name: "domainUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainUrl
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiHostedApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#scope GenerativeAiHostedApplication#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#scope GenerativeAiHostedApplication#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiHostedApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#audience GenerativeAiHostedApplication#audience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#audience GenerativeAiHostedApplication#audience}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Audience

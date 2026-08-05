@@ -9,7 +9,7 @@ namespace oci.DataOciDatacatalogDataAsset
     [JsiiByValue(fqn: "oci.dataOciDatacatalogDataAsset.DataOciDatacatalogDataAssetConfig")]
     public class DataOciDatacatalogDataAssetConfig : oci.DataOciDatacatalogDataAsset.IDataOciDatacatalogDataAssetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datacatalog_data_asset#catalog_id DataOciDatacatalogDataAsset#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacatalog_data_asset#catalog_id DataOciDatacatalogDataAsset#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}")]
         public string CatalogId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datacatalog_data_asset#data_asset_key DataOciDatacatalogDataAsset#data_asset_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacatalog_data_asset#data_asset_key DataOciDatacatalogDataAsset#data_asset_key}.</summary>
         [JsiiProperty(name: "dataAssetKey", typeJson: "{\"primitive\":\"string\"}")]
         public string DataAssetKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatacatalogDataAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datacatalog_data_asset#fields DataOciDatacatalogDataAsset#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacatalog_data_asset#fields DataOciDatacatalogDataAsset#fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Fields

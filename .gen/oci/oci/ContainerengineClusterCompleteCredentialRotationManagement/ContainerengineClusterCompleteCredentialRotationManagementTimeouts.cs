@@ -7,7 +7,7 @@ namespace oci.ContainerengineClusterCompleteCredentialRotationManagement
     [JsiiByValue(fqn: "oci.containerengineClusterCompleteCredentialRotationManagement.ContainerengineClusterCompleteCredentialRotationManagementTimeouts")]
     public class ContainerengineClusterCompleteCredentialRotationManagementTimeouts : oci.ContainerengineClusterCompleteCredentialRotationManagement.IContainerengineClusterCompleteCredentialRotationManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#create ContainerengineClusterCompleteCredentialRotationManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#create ContainerengineClusterCompleteCredentialRotationManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ContainerengineClusterCompleteCredentialRotationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#delete ContainerengineClusterCompleteCredentialRotationManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#delete ContainerengineClusterCompleteCredentialRotationManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ContainerengineClusterCompleteCredentialRotationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#update ContainerengineClusterCompleteCredentialRotationManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_complete_credential_rotation_management#update ContainerengineClusterCompleteCredentialRotationManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

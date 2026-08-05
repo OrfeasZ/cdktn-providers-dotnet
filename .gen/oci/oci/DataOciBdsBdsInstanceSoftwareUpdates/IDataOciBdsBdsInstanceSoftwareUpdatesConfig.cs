@@ -7,7 +7,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsInstanceSoftwareUpdatesConfig), fullyQualifiedName: "oci.dataOciBdsBdsInstanceSoftwareUpdates.DataOciBdsBdsInstanceSoftwareUpdatesConfig")]
     public interface IDataOciBdsBdsInstanceSoftwareUpdatesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdates#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdates#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#filter DataOciBdsBdsInstanceSoftwareUpdates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#filter DataOciBdsBdsInstanceSoftwareUpdates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceSoftwareUpdates.IDataOciBdsBdsInstanceSoftwareUpdatesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciBdsBdsInstanceSoftwareUpdates.DataOciBdsBdsInstanceSoftwareUpdatesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#id DataOciBdsBdsInstanceSoftwareUpdates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#id DataOciBdsBdsInstanceSoftwareUpdates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdates#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#bds_instance_id DataOciBdsBdsInstanceSoftwareUpdates#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#filter DataOciBdsBdsInstanceSoftwareUpdates#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#filter DataOciBdsBdsInstanceSoftwareUpdates#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceSoftwareUpdates.IDataOciBdsBdsInstanceSoftwareUpdatesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciBdsBdsInstanceSoftwareUpdates
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/bds_bds_instance_software_updates#id DataOciBdsBdsInstanceSoftwareUpdates#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_software_updates#id DataOciBdsBdsInstanceSoftwareUpdates#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

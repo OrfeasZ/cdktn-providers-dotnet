@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroup
     [JsiiByValue(fqn: "oci.dataOciDataSafeTargetDatabaseGroup.DataOciDataSafeTargetDatabaseGroupConfig")]
     public class DataOciDataSafeTargetDatabaseGroupConfig : oci.DataOciDataSafeTargetDatabaseGroup.IDataOciDataSafeTargetDatabaseGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetDatabaseGroupId
         {

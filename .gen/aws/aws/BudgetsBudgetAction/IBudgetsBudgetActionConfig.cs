@@ -9,7 +9,7 @@ namespace aws.BudgetsBudgetAction
     {
         /// <summary>action_threshold block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#action_threshold BudgetsBudgetAction#action_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#action_threshold BudgetsBudgetAction#action_threshold}
         /// </remarks>
         [JsiiProperty(name: "actionThreshold", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionActionThreshold\"}")]
         aws.BudgetsBudgetAction.IBudgetsBudgetActionActionThreshold ActionThreshold
@@ -17,21 +17,21 @@ namespace aws.BudgetsBudgetAction
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#action_type BudgetsBudgetAction#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#action_type BudgetsBudgetAction#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         string ActionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#approval_model BudgetsBudgetAction#approval_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#approval_model BudgetsBudgetAction#approval_model}.</summary>
         [JsiiProperty(name: "approvalModel", typeJson: "{\"primitive\":\"string\"}")]
         string ApprovalModel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#budget_name BudgetsBudgetAction#budget_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#budget_name BudgetsBudgetAction#budget_name}.</summary>
         [JsiiProperty(name: "budgetName", typeJson: "{\"primitive\":\"string\"}")]
         string BudgetName
         {
@@ -40,7 +40,7 @@ namespace aws.BudgetsBudgetAction
 
         /// <summary>definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#definition BudgetsBudgetAction#definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#definition BudgetsBudgetAction#definition}
         /// </remarks>
         [JsiiProperty(name: "definition", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionDefinition\"}")]
         aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinition Definition
@@ -48,14 +48,14 @@ namespace aws.BudgetsBudgetAction
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#execution_role_arn BudgetsBudgetAction#execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#execution_role_arn BudgetsBudgetAction#execution_role_arn}.</summary>
         [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionRoleArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#notification_type BudgetsBudgetAction#notification_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#notification_type BudgetsBudgetAction#notification_type}.</summary>
         [JsiiProperty(name: "notificationType", typeJson: "{\"primitive\":\"string\"}")]
         string NotificationType
         {
@@ -64,7 +64,7 @@ namespace aws.BudgetsBudgetAction
 
         /// <summary>subscriber block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#subscriber BudgetsBudgetAction#subscriber}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#subscriber BudgetsBudgetAction#subscriber}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudgetAction.IBudgetsBudgetActionSubscriber" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "subscriber", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber\"},\"kind\":\"array\"}}]}}")]
@@ -73,7 +73,7 @@ namespace aws.BudgetsBudgetAction
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#account_id BudgetsBudgetAction#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#account_id BudgetsBudgetAction#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountId
@@ -84,7 +84,7 @@ namespace aws.BudgetsBudgetAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#id BudgetsBudgetAction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#id BudgetsBudgetAction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace aws.BudgetsBudgetAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#tags BudgetsBudgetAction#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#tags BudgetsBudgetAction#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -110,7 +110,7 @@ namespace aws.BudgetsBudgetAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#tags_all BudgetsBudgetAction#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#tags_all BudgetsBudgetAction#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -123,7 +123,7 @@ namespace aws.BudgetsBudgetAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#timeouts BudgetsBudgetAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#timeouts BudgetsBudgetAction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,7 +144,7 @@ namespace aws.BudgetsBudgetAction
 
             /// <summary>action_threshold block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#action_threshold BudgetsBudgetAction#action_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#action_threshold BudgetsBudgetAction#action_threshold}
             /// </remarks>
             [JsiiProperty(name: "actionThreshold", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionActionThreshold\"}")]
             public aws.BudgetsBudgetAction.IBudgetsBudgetActionActionThreshold ActionThreshold
@@ -152,21 +152,21 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<aws.BudgetsBudgetAction.IBudgetsBudgetActionActionThreshold>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#action_type BudgetsBudgetAction#action_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#action_type BudgetsBudgetAction#action_type}.</summary>
             [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ActionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#approval_model BudgetsBudgetAction#approval_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#approval_model BudgetsBudgetAction#approval_model}.</summary>
             [JsiiProperty(name: "approvalModel", typeJson: "{\"primitive\":\"string\"}")]
             public string ApprovalModel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#budget_name BudgetsBudgetAction#budget_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#budget_name BudgetsBudgetAction#budget_name}.</summary>
             [JsiiProperty(name: "budgetName", typeJson: "{\"primitive\":\"string\"}")]
             public string BudgetName
             {
@@ -175,7 +175,7 @@ namespace aws.BudgetsBudgetAction
 
             /// <summary>definition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#definition BudgetsBudgetAction#definition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#definition BudgetsBudgetAction#definition}
             /// </remarks>
             [JsiiProperty(name: "definition", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionDefinition\"}")]
             public aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinition Definition
@@ -183,14 +183,14 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<aws.BudgetsBudgetAction.IBudgetsBudgetActionDefinition>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#execution_role_arn BudgetsBudgetAction#execution_role_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#execution_role_arn BudgetsBudgetAction#execution_role_arn}.</summary>
             [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionRoleArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#notification_type BudgetsBudgetAction#notification_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#notification_type BudgetsBudgetAction#notification_type}.</summary>
             [JsiiProperty(name: "notificationType", typeJson: "{\"primitive\":\"string\"}")]
             public string NotificationType
             {
@@ -199,7 +199,7 @@ namespace aws.BudgetsBudgetAction
 
             /// <summary>subscriber block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#subscriber BudgetsBudgetAction#subscriber}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#subscriber BudgetsBudgetAction#subscriber}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BudgetsBudgetAction.IBudgetsBudgetActionSubscriber" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "subscriber", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionSubscriber\"},\"kind\":\"array\"}}]}}")]
@@ -208,7 +208,7 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#account_id BudgetsBudgetAction#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#account_id BudgetsBudgetAction#account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountId
@@ -216,7 +216,7 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#id BudgetsBudgetAction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#id BudgetsBudgetAction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,7 +228,7 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#tags BudgetsBudgetAction#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#tags BudgetsBudgetAction#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -236,7 +236,7 @@ namespace aws.BudgetsBudgetAction
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#tags_all BudgetsBudgetAction#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#tags_all BudgetsBudgetAction#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -246,7 +246,7 @@ namespace aws.BudgetsBudgetAction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/budgets_budget_action#timeouts BudgetsBudgetAction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/budgets_budget_action#timeouts BudgetsBudgetAction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.budgetsBudgetAction.BudgetsBudgetActionTimeouts\"}", isOptional: true)]

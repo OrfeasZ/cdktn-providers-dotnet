@@ -9,7 +9,7 @@ namespace oci.GenerativeAiHostedApplication
     [JsiiByValue(fqn: "oci.generativeAiHostedApplication.GenerativeAiHostedApplicationInboundAuthConfig")]
     public class GenerativeAiHostedApplicationInboundAuthConfig : oci.GenerativeAiHostedApplication.IGenerativeAiHostedApplicationInboundAuthConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#inbound_auth_config_type GenerativeAiHostedApplication#inbound_auth_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#inbound_auth_config_type GenerativeAiHostedApplication#inbound_auth_config_type}.</summary>
         [JsiiProperty(name: "inboundAuthConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string InboundAuthConfigType
         {
@@ -19,7 +19,7 @@ namespace oci.GenerativeAiHostedApplication
 
         /// <summary>idcs_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#idcs_config GenerativeAiHostedApplication#idcs_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#idcs_config GenerativeAiHostedApplication#idcs_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idcsConfig", typeJson: "{\"fqn\":\"oci.generativeAiHostedApplication.GenerativeAiHostedApplicationInboundAuthConfigIdcsConfig\"}", isOptional: true)]

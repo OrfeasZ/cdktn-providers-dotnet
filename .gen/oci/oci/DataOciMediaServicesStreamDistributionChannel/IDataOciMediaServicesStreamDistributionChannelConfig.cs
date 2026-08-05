@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesStreamDistributionChannel
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesStreamDistributionChannelConfig), fullyQualifiedName: "oci.dataOciMediaServicesStreamDistributionChannel.DataOciMediaServicesStreamDistributionChannelConfig")]
     public interface IDataOciMediaServicesStreamDistributionChannelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
         [JsiiProperty(name: "streamDistributionChannelId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamDistributionChannelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesStreamDistributionChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
             [JsiiProperty(name: "streamDistributionChannelId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamDistributionChannelId
             {

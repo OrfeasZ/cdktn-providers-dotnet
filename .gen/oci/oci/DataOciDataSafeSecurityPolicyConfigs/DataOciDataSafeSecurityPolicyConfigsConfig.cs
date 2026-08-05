@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyConfigs.DataOciDataSafeSecurityPolicyConfigsConfig")]
     public class DataOciDataSafeSecurityPolicyConfigsConfig : oci.DataOciDataSafeSecurityPolicyConfigs.IDataOciDataSafeSecurityPolicyConfigsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#compartment_id DataOciDataSafeSecurityPolicyConfigs#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#compartment_id DataOciDataSafeSecurityPolicyConfigs#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#access_level DataOciDataSafeSecurityPolicyConfigs#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#access_level DataOciDataSafeSecurityPolicyConfigs#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -28,7 +28,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#compartment_id_in_subtree DataOciDataSafeSecurityPolicyConfigs#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#compartment_id_in_subtree DataOciDataSafeSecurityPolicyConfigs#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#display_name DataOciDataSafeSecurityPolicyConfigs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#display_name DataOciDataSafeSecurityPolicyConfigs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -73,7 +73,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#filter DataOciDataSafeSecurityPolicyConfigs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#filter DataOciDataSafeSecurityPolicyConfigs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityPolicyConfigs.IDataOciDataSafeSecurityPolicyConfigsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#id DataOciDataSafeSecurityPolicyConfigs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#id DataOciDataSafeSecurityPolicyConfigs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#security_policy_config_id DataOciDataSafeSecurityPolicyConfigs#security_policy_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#security_policy_config_id DataOciDataSafeSecurityPolicyConfigs#security_policy_config_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityPolicyConfigId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityPolicyConfigId
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#security_policy_id DataOciDataSafeSecurityPolicyConfigs#security_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#security_policy_id DataOciDataSafeSecurityPolicyConfigs#security_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityPolicyId
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#state DataOciDataSafeSecurityPolicyConfigs#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#state DataOciDataSafeSecurityPolicyConfigs#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -144,7 +144,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#time_created_greater_than_or_equal_to DataOciDataSafeSecurityPolicyConfigs#time_created_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#time_created_greater_than_or_equal_to DataOciDataSafeSecurityPolicyConfigs#time_created_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreatedGreaterThanOrEqualTo
@@ -153,7 +153,7 @@ namespace oci.DataOciDataSafeSecurityPolicyConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_policy_configs#time_created_less_than DataOciDataSafeSecurityPolicyConfigs#time_created_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_policy_configs#time_created_less_than DataOciDataSafeSecurityPolicyConfigs#time_created_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreatedLessThan

@@ -9,7 +9,7 @@ namespace oci.DataOciApigatewayApi
     [JsiiByValue(fqn: "oci.dataOciApigatewayApi.DataOciApigatewayApiConfig")]
     public class DataOciApigatewayApiConfig : oci.DataOciApigatewayApi.IDataOciApigatewayApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_api#api_id DataOciApigatewayApi#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apigateway_api#api_id DataOciApigatewayApi#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {

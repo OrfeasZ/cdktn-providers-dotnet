@@ -9,7 +9,7 @@ namespace oci.CoreBootVolumeBackup
     [JsiiByValue(fqn: "oci.coreBootVolumeBackup.CoreBootVolumeBackupSourceDetails")]
     public class CoreBootVolumeBackupSourceDetails : oci.CoreBootVolumeBackup.ICoreBootVolumeBackupSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_boot_volume_backup#boot_volume_backup_id CoreBootVolumeBackup#boot_volume_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#boot_volume_backup_id CoreBootVolumeBackup#boot_volume_backup_id}.</summary>
         [JsiiProperty(name: "bootVolumeBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string BootVolumeBackupId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_boot_volume_backup#region CoreBootVolumeBackup#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#region CoreBootVolumeBackup#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -25,7 +25,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_boot_volume_backup#kms_key_id CoreBootVolumeBackup#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#kms_key_id CoreBootVolumeBackup#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId

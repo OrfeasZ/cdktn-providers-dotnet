@@ -7,7 +7,7 @@ namespace aws.DataAwsPollyVoices
     [JsiiByValue(fqn: "aws.dataAwsPollyVoices.DataAwsPollyVoicesConfig")]
     public class DataAwsPollyVoicesConfig : aws.DataAwsPollyVoices.IDataAwsPollyVoicesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/polly_voices#engine DataAwsPollyVoices#engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/polly_voices#engine DataAwsPollyVoices#engine}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "engine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Engine
@@ -18,7 +18,7 @@ namespace aws.DataAwsPollyVoices
 
         private object? _includeAdditionalLanguageCodes;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/polly_voices#include_additional_language_codes DataAwsPollyVoices#include_additional_language_codes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/polly_voices#include_additional_language_codes DataAwsPollyVoices#include_additional_language_codes}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.DataAwsPollyVoices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/polly_voices#language_code DataAwsPollyVoices#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/polly_voices#language_code DataAwsPollyVoices#language_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LanguageCode
@@ -61,7 +61,7 @@ namespace aws.DataAwsPollyVoices
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/polly_voices#region DataAwsPollyVoices#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/polly_voices#region DataAwsPollyVoices#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.DataAwsPollyVoices
 
         /// <summary>voices block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/data-sources/polly_voices#voices DataAwsPollyVoices#voices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/data-sources/polly_voices#voices DataAwsPollyVoices#voices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsPollyVoices.IDataAwsPollyVoicesVoices" />)[]</para>
         /// </remarks>
         [JsiiOptional]

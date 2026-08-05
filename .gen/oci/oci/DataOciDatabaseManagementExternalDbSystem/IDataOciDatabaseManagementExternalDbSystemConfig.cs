@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystem
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalDbSystemConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalDbSystem.DataOciDatabaseManagementExternalDbSystemConfig")]
     public interface IDataOciDatabaseManagementExternalDbSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
         [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalDbSystemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_system#external_db_system_id DataOciDatabaseManagementExternalDbSystem#external_db_system_id}.</summary>
             [JsiiProperty(name: "externalDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalDbSystemId
             {

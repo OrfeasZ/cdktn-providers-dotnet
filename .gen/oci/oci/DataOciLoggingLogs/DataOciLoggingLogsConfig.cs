@@ -9,7 +9,7 @@ namespace oci.DataOciLoggingLogs
     [JsiiByValue(fqn: "oci.dataOciLoggingLogs.DataOciLoggingLogsConfig")]
     public class DataOciLoggingLogsConfig : oci.DataOciLoggingLogs.IDataOciLoggingLogsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#log_group_id DataOciLoggingLogs#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#log_group_id DataOciLoggingLogs#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoggingLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#display_name DataOciLoggingLogs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#display_name DataOciLoggingLogs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciLoggingLogs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#filter DataOciLoggingLogs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#filter DataOciLoggingLogs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLoggingLogs.IDataOciLoggingLogsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciLoggingLogs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#id DataOciLoggingLogs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#id DataOciLoggingLogs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciLoggingLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#log_type DataOciLoggingLogs#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#log_type DataOciLoggingLogs#log_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogType
@@ -83,7 +83,7 @@ namespace oci.DataOciLoggingLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#source_resource DataOciLoggingLogs#source_resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#source_resource DataOciLoggingLogs#source_resource}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceResource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceResource
@@ -92,7 +92,7 @@ namespace oci.DataOciLoggingLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#source_service DataOciLoggingLogs#source_service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#source_service DataOciLoggingLogs#source_service}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceService", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceService
@@ -101,7 +101,7 @@ namespace oci.DataOciLoggingLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/logging_logs#state DataOciLoggingLogs#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_logs#state DataOciLoggingLogs#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

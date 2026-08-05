@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsConfig")]
     public class DataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsConfig : oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.IDataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#digest DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#digest DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#digest}.</summary>
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}")]
         public string Digest
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#managed_my_sql_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#managed_my_sql_database_id DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#managed_my_sql_database_id}.</summary>
         [JsiiProperty(name: "managedMySqlDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedMySqlDatabaseId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#filter DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#filter DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.IDataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#id DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#id DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

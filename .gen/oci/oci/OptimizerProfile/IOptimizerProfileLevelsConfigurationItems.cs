@@ -7,7 +7,7 @@ namespace oci.OptimizerProfile
     [JsiiInterface(nativeType: typeof(IOptimizerProfileLevelsConfigurationItems), fullyQualifiedName: "oci.optimizerProfile.OptimizerProfileLevelsConfigurationItems")]
     public interface IOptimizerProfileLevelsConfigurationItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/optimizer_profile#level OptimizerProfile#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/optimizer_profile#level OptimizerProfile#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -18,7 +18,7 @@ namespace oci.OptimizerProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}.</summary>
         [JsiiProperty(name: "recommendationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecommendationId
@@ -36,7 +36,7 @@ namespace oci.OptimizerProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/optimizer_profile#level OptimizerProfile#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/optimizer_profile#level OptimizerProfile#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level
@@ -44,7 +44,7 @@ namespace oci.OptimizerProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/optimizer_profile#recommendation_id OptimizerProfile#recommendation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recommendationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecommendationId

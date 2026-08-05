@@ -7,14 +7,14 @@ namespace oci.DataOciDevopsRepositoryAuthor
     [JsiiInterface(nativeType: typeof(IDataOciDevopsRepositoryAuthorConfig), fullyQualifiedName: "oci.dataOciDevopsRepositoryAuthor.DataOciDevopsRepositoryAuthorConfig")]
     public interface IDataOciDevopsRepositoryAuthorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#repository_id DataOciDevopsRepositoryAuthor#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#repository_id DataOciDevopsRepositoryAuthor#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#id DataOciDevopsRepositoryAuthor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#id DataOciDevopsRepositoryAuthor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciDevopsRepositoryAuthor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#ref_name DataOciDevopsRepositoryAuthor#ref_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#ref_name DataOciDevopsRepositoryAuthor#ref_name}.</summary>
         [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefName
@@ -47,14 +47,14 @@ namespace oci.DataOciDevopsRepositoryAuthor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#repository_id DataOciDevopsRepositoryAuthor#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#repository_id DataOciDevopsRepositoryAuthor#repository_id}.</summary>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#id DataOciDevopsRepositoryAuthor#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#id DataOciDevopsRepositoryAuthor#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciDevopsRepositoryAuthor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_repository_author#ref_name DataOciDevopsRepositoryAuthor#ref_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_author#ref_name DataOciDevopsRepositoryAuthor#ref_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefName

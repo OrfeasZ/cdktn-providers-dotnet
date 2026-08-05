@@ -7,14 +7,14 @@ namespace oci.OcvpCluster
     [JsiiInterface(nativeType: typeof(IOcvpClusterDatastores), fullyQualifiedName: "oci.ocvpCluster.OcvpClusterDatastores")]
     public interface IOcvpClusterDatastores
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_cluster#block_volume_ids OcvpCluster#block_volume_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ocvp_cluster#block_volume_ids OcvpCluster#block_volume_ids}.</summary>
         [JsiiProperty(name: "blockVolumeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] BlockVolumeIds
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_cluster#datastore_type OcvpCluster#datastore_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ocvp_cluster#datastore_type OcvpCluster#datastore_type}.</summary>
         [JsiiProperty(name: "datastoreType", typeJson: "{\"primitive\":\"string\"}")]
         string DatastoreType
         {
@@ -28,14 +28,14 @@ namespace oci.OcvpCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_cluster#block_volume_ids OcvpCluster#block_volume_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ocvp_cluster#block_volume_ids OcvpCluster#block_volume_ids}.</summary>
             [JsiiProperty(name: "blockVolumeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] BlockVolumeIds
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/ocvp_cluster#datastore_type OcvpCluster#datastore_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ocvp_cluster#datastore_type OcvpCluster#datastore_type}.</summary>
             [JsiiProperty(name: "datastoreType", typeJson: "{\"primitive\":\"string\"}")]
             public string DatastoreType
             {

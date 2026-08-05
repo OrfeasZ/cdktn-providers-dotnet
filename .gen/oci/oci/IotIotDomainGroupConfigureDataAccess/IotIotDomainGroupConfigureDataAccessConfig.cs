@@ -9,7 +9,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
     [JsiiByValue(fqn: "oci.iotIotDomainGroupConfigureDataAccess.IotIotDomainGroupConfigureDataAccessConfig")]
     public class IotIotDomainGroupConfigureDataAccessConfig : oci.IotIotDomainGroupConfigureDataAccess.IIotIotDomainGroupConfigureDataAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_iot_domain_group_configure_data_access#db_allow_listed_vcn_ids IotIotDomainGroupConfigureDataAccess#db_allow_listed_vcn_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_iot_domain_group_configure_data_access#db_allow_listed_vcn_ids IotIotDomainGroupConfigureDataAccess#db_allow_listed_vcn_ids}.</summary>
         [JsiiProperty(name: "dbAllowListedVcnIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DbAllowListedVcnIds
         {
@@ -17,7 +17,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_iot_domain_group_configure_data_access#iot_domain_group_id IotIotDomainGroupConfigureDataAccess#iot_domain_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_iot_domain_group_configure_data_access#iot_domain_group_id IotIotDomainGroupConfigureDataAccess#iot_domain_group_id}.</summary>
         [JsiiProperty(name: "iotDomainGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainGroupId
         {
@@ -25,7 +25,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_iot_domain_group_configure_data_access#id IotIotDomainGroupConfigureDataAccess#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_iot_domain_group_configure_data_access#id IotIotDomainGroupConfigureDataAccess#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.IotIotDomainGroupConfigureDataAccess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_iot_domain_group_configure_data_access#timeouts IotIotDomainGroupConfigureDataAccess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_iot_domain_group_configure_data_access#timeouts IotIotDomainGroupConfigureDataAccess#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotDomainGroupConfigureDataAccess.IotIotDomainGroupConfigureDataAccessTimeouts\"}", isOptional: true)]

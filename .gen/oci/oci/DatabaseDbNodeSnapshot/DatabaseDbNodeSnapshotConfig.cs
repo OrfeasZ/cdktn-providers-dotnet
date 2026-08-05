@@ -9,7 +9,7 @@ namespace oci.DatabaseDbNodeSnapshot
     [JsiiByValue(fqn: "oci.databaseDbNodeSnapshot.DatabaseDbNodeSnapshotConfig")]
     public class DatabaseDbNodeSnapshotConfig : oci.DatabaseDbNodeSnapshot.IDatabaseDbNodeSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_node_snapshot#dbnode_snapshot_id DatabaseDbNodeSnapshot#dbnode_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_node_snapshot#dbnode_snapshot_id DatabaseDbNodeSnapshot#dbnode_snapshot_id}.</summary>
         [JsiiProperty(name: "dbnodeSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbnodeSnapshotId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseDbNodeSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_node_snapshot#mount_dbnode_id DatabaseDbNodeSnapshot#mount_dbnode_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_node_snapshot#mount_dbnode_id DatabaseDbNodeSnapshot#mount_dbnode_id}.</summary>
         [JsiiProperty(name: "mountDbnodeId", typeJson: "{\"primitive\":\"string\"}")]
         public string MountDbnodeId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbNodeSnapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_node_snapshot#id DatabaseDbNodeSnapshot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_node_snapshot#id DatabaseDbNodeSnapshot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DatabaseDbNodeSnapshot
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_db_node_snapshot#timeouts DatabaseDbNodeSnapshot#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_node_snapshot#timeouts DatabaseDbNodeSnapshot#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDbNodeSnapshot.DatabaseDbNodeSnapshotTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineVirtualNodePool
     [JsiiByValue(fqn: "oci.dataOciContainerengineVirtualNodePool.DataOciContainerengineVirtualNodePoolConfig")]
     public class DataOciContainerengineVirtualNodePoolConfig : oci.DataOciContainerengineVirtualNodePool.IDataOciContainerengineVirtualNodePoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
         [JsiiProperty(name: "virtualNodePoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualNodePoolId
         {

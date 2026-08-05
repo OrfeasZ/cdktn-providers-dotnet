@@ -7,7 +7,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainer
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAzureBlobContainerConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAzureBlobContainer.DataOciDbmulticloudOracleDbAzureBlobContainerConfig")]
     public interface IDataOciDbmulticloudOracleDbAzureBlobContainerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureBlobContainerId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbAzureBlobContainerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobContainer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_container#oracle_db_azure_blob_container_id DataOciDbmulticloudOracleDbAzureBlobContainer#oracle_db_azure_blob_container_id}.</summary>
             [JsiiProperty(name: "oracleDbAzureBlobContainerId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbAzureBlobContainerId
             {

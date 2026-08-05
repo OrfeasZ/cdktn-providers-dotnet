@@ -7,21 +7,21 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
     [JsiiInterface(nativeType: typeof(IDatabaseExadataInfrastructureConfigureExascaleManagementConfig), fullyQualifiedName: "oci.databaseExadataInfrastructureConfigureExascaleManagement.DatabaseExadataInfrastructureConfigureExascaleManagementConfig")]
     public interface IDatabaseExadataInfrastructureConfigureExascaleManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string ExadataInfrastructureId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}.</summary>
         [JsiiProperty(name: "totalStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double TotalStorageInGbs
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseExadataInfrastructureConfigureExascaleManagement.DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_vm_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_vm_storage_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_vm_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_vm_storage_in_gbs}.</summary>
         [JsiiProperty(name: "totalVmStorageInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TotalVmStorageInGbs
@@ -68,21 +68,21 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#exadata_infrastructure_id DatabaseExadataInfrastructureConfigureExascaleManagement#exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExadataInfrastructureId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_storage_in_gbs}.</summary>
             [JsiiProperty(name: "totalStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double TotalStorageInGbs
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#id DatabaseExadataInfrastructureConfigureExascaleManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -96,7 +96,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#timeouts DatabaseExadataInfrastructureConfigureExascaleManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseExadataInfrastructureConfigureExascaleManagement.DatabaseExadataInfrastructureConfigureExascaleManagementTimeouts\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace oci.DatabaseExadataInfrastructureConfigureExascaleManagement
                 get => GetInstanceProperty<oci.DatabaseExadataInfrastructureConfigureExascaleManagement.IDatabaseExadataInfrastructureConfigureExascaleManagementTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_vm_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_vm_storage_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure_configure_exascale_management#total_vm_storage_in_gbs DatabaseExadataInfrastructureConfigureExascaleManagement#total_vm_storage_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "totalVmStorageInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TotalVmStorageInGbs

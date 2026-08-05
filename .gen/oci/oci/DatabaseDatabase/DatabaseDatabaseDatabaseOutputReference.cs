@@ -33,6 +33,12 @@ namespace oci.DatabaseDatabase
         {
         }
 
+        [JsiiMethod(name: "putAutoFailoverConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfiguration\"}}]")]
+        public virtual void PutAutoFailoverConfiguration(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putDbBackupConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfig\"}}]")]
         public virtual void PutDbBackupConfig(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfig @value)
         {
@@ -89,6 +95,12 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetAdminPassword")]
         public virtual void ResetAdminPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutoFailoverConfiguration")]
+        public virtual void ResetAutoFailoverConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -285,6 +297,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "autoFailoverConfiguration", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfigurationOutputReference\"}")]
+        public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfigurationOutputReference AutoFailoverConfiguration
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "dbBackupConfig", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigOutputReference\"}")]
         public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigOutputReference DbBackupConfig
         {
@@ -326,6 +344,13 @@ namespace oci.DatabaseDatabase
         public virtual string? AdminPasswordInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoFailoverConfigurationInput", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfiguration\"}", isOptional: true)]
+        public virtual oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration? AutoFailoverConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration?>();
         }
 
         [JsiiOptional]

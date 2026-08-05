@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbConnectionBundles.DataOciDatabaseDbConnectionBundlesFilter")]
     public class DataOciDatabaseDbConnectionBundlesFilter : oci.DataOciDatabaseDbConnectionBundles.IDataOciDatabaseDbConnectionBundlesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#name DataOciDatabaseDbConnectionBundles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_connection_bundles#name DataOciDatabaseDbConnectionBundles#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#values DataOciDatabaseDbConnectionBundles#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_connection_bundles#values DataOciDatabaseDbConnectionBundles#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseDbConnectionBundles
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_connection_bundles#regex DataOciDatabaseDbConnectionBundles#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_connection_bundles#regex DataOciDatabaseDbConnectionBundles#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciRecoveryProtectionPolicy
     [JsiiByValue(fqn: "oci.dataOciRecoveryProtectionPolicy.DataOciRecoveryProtectionPolicyConfig")]
     public class DataOciRecoveryProtectionPolicyConfig : oci.DataOciRecoveryProtectionPolicy.IDataOciRecoveryProtectionPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
         [JsiiProperty(name: "protectionPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProtectionPolicyId
         {

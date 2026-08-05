@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementDbManagementPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementDbManagementPrivateEndpoint.DataOciDatabaseManagementDbManagementPrivateEndpointConfig")]
     public class DataOciDatabaseManagementDbManagementPrivateEndpointConfig : oci.DataOciDatabaseManagementDbManagementPrivateEndpoint.IDataOciDatabaseManagementDbManagementPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_db_management_private_endpoint#db_management_private_endpoint_id DataOciDatabaseManagementDbManagementPrivateEndpoint#db_management_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dbManagementPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbManagementPrivateEndpointId
         {

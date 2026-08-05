@@ -9,7 +9,7 @@ namespace aws.MskReplicator
     {
         /// <summary>replicator_log_delivery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/msk_replicator#replicator_log_delivery MskReplicator#replicator_log_delivery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/msk_replicator#replicator_log_delivery MskReplicator#replicator_log_delivery}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicatorLogDelivery", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorLogDeliveryReplicatorLogDelivery\"}", isOptional: true)]

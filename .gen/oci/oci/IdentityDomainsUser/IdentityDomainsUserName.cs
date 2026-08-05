@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUser
     [JsiiByValue(fqn: "oci.identityDomainsUser.IdentityDomainsUserName")]
     public class IdentityDomainsUserName : oci.IdentityDomainsUser.IIdentityDomainsUserName
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#family_name IdentityDomainsUser#family_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#family_name IdentityDomainsUser#family_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "familyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FamilyName
@@ -16,7 +16,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#formatted IdentityDomainsUser#formatted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#formatted IdentityDomainsUser#formatted}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "formatted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Formatted
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#given_name IdentityDomainsUser#given_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#given_name IdentityDomainsUser#given_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GivenName
@@ -34,7 +34,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#honorific_prefix IdentityDomainsUser#honorific_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#honorific_prefix IdentityDomainsUser#honorific_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "honorificPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HonorificPrefix
@@ -43,7 +43,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#honorific_suffix IdentityDomainsUser#honorific_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#honorific_suffix IdentityDomainsUser#honorific_suffix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "honorificSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HonorificSuffix
@@ -52,7 +52,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_user#middle_name IdentityDomainsUser#middle_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#middle_name IdentityDomainsUser#middle_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "middleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MiddleName

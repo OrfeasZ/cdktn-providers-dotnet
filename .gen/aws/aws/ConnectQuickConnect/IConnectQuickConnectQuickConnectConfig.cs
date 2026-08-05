@@ -7,7 +7,7 @@ namespace aws.ConnectQuickConnect
     [JsiiInterface(nativeType: typeof(IConnectQuickConnectQuickConnectConfig), fullyQualifiedName: "aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfig")]
     public interface IConnectQuickConnectQuickConnectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.</summary>
         [JsiiProperty(name: "quickConnectType", typeJson: "{\"primitive\":\"string\"}")]
         string QuickConnectType
         {
@@ -16,7 +16,7 @@ namespace aws.ConnectQuickConnect
 
         /// <summary>phone_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigPhoneConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "phoneConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigPhoneConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.ConnectQuickConnect
 
         /// <summary>queue_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigQueueConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queueConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.ConnectQuickConnect
 
         /// <summary>user_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigUserConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "userConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.connectQuickConnect.ConnectQuickConnectQuickConnectConfigUserConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace aws.ConnectQuickConnect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#quick_connect_type ConnectQuickConnect#quick_connect_type}.</summary>
             [JsiiProperty(name: "quickConnectType", typeJson: "{\"primitive\":\"string\"}")]
             public string QuickConnectType
             {
@@ -75,7 +75,7 @@ namespace aws.ConnectQuickConnect
 
             /// <summary>phone_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#phone_config ConnectQuickConnect#phone_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigPhoneConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -87,7 +87,7 @@ namespace aws.ConnectQuickConnect
 
             /// <summary>queue_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#queue_config ConnectQuickConnect#queue_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigQueueConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -99,7 +99,7 @@ namespace aws.ConnectQuickConnect
 
             /// <summary>user_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/connect_quick_connect#user_config ConnectQuickConnect#user_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConnectQuickConnect.IConnectQuickConnectQuickConnectConfigUserConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]

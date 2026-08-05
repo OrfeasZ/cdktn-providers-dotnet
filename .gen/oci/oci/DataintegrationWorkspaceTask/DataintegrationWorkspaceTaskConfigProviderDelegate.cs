@@ -11,7 +11,7 @@ namespace oci.DataintegrationWorkspaceTask
 
         /// <summary>bindings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataintegration_workspace_task#bindings DataintegrationWorkspaceTask#bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_task#bindings DataintegrationWorkspaceTask#bindings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataintegrationWorkspaceTask.IDataintegrationWorkspaceTaskConfigProviderDelegateBindings" />)[]</para>
         /// </remarks>
         [JsiiOptional]

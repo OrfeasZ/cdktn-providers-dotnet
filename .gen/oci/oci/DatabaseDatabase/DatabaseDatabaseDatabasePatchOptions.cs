@@ -9,7 +9,7 @@ namespace oci.DatabaseDatabase
     {
         private object? _shouldSkipClosedPdbs;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_database#should_skip_closed_pdbs DatabaseDatabase#should_skip_closed_pdbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#should_skip_closed_pdbs DatabaseDatabase#should_skip_closed_pdbs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace oci.DatabaseDatabase
 
         private object? _shouldSkipDataPatch;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_database#should_skip_data_patch DatabaseDatabase#should_skip_data_patch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#should_skip_data_patch DatabaseDatabase#should_skip_data_patch}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

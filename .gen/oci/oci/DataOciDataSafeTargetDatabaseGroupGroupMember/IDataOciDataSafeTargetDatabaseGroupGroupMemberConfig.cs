@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeTargetDatabaseGroupGroupMember
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeTargetDatabaseGroupGroupMemberConfig), fullyQualifiedName: "oci.dataOciDataSafeTargetDatabaseGroupGroupMember.DataOciDataSafeTargetDatabaseGroupGroupMemberConfig")]
     public interface IDataOciDataSafeTargetDatabaseGroupGroupMemberConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_group_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_group_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_group_id}.</summary>
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetDatabaseGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#id DataOciDataSafeTargetDatabaseGroupGroupMember#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#id DataOciDataSafeTargetDatabaseGroupGroupMember#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroupGroupMember
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_id}.</summary>
         [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDatabaseId
@@ -47,14 +47,14 @@ namespace oci.DataOciDataSafeTargetDatabaseGroupGroupMember
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_group_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_group_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_group_id}.</summary>
             [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetDatabaseGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#id DataOciDataSafeTargetDatabaseGroupGroupMember#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#id DataOciDataSafeTargetDatabaseGroupGroupMember#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroupGroupMember
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group_group_member#target_database_id DataOciDataSafeTargetDatabaseGroupGroupMember#target_database_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDatabaseId

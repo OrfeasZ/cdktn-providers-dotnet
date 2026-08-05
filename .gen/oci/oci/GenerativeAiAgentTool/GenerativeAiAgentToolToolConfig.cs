@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentTool
     [JsiiByValue(fqn: "oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfig")]
     public class GenerativeAiAgentToolToolConfig : oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#tool_config_type GenerativeAiAgentTool#tool_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#tool_config_type GenerativeAiAgentTool#tool_config_type}.</summary>
         [JsiiProperty(name: "toolConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string ToolConfigType
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#agent_endpoint_id GenerativeAiAgentTool#agent_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#agent_endpoint_id GenerativeAiAgentTool#agent_endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentEndpointId
@@ -28,7 +28,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>api_schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#api_schema GenerativeAiAgentTool#api_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#api_schema GenerativeAiAgentTool#api_schema}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiSchema", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigApiSchema\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>database_connection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#database_connection GenerativeAiAgentTool#database_connection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#database_connection GenerativeAiAgentTool#database_connection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseConnection", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigDatabaseConnection\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>database_schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#database_schema GenerativeAiAgentTool#database_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#database_schema GenerativeAiAgentTool#database_schema}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseSchema", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigDatabaseSchema\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#dialect GenerativeAiAgentTool#dialect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#dialect GenerativeAiAgentTool#dialect}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dialect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Dialect
@@ -73,7 +73,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>embedding_llm_customization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#embedding_llm_customization GenerativeAiAgentTool#embedding_llm_customization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#embedding_llm_customization GenerativeAiAgentTool#embedding_llm_customization}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "embeddingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigEmbeddingLlmCustomization\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>function block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#function GenerativeAiAgentTool#function}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#function GenerativeAiAgentTool#function}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "function", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigFunction\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>generation_llm_customization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#generation_llm_customization GenerativeAiAgentTool#generation_llm_customization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#generation_llm_customization GenerativeAiAgentTool#generation_llm_customization}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "generationLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigGenerationLlmCustomization\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>http_endpoint_auth_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_config GenerativeAiAgentTool#http_endpoint_auth_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_config GenerativeAiAgentTool#http_endpoint_auth_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpEndpointAuthConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigHttpEndpointAuthConfig\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>icl_examples block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#icl_examples GenerativeAiAgentTool#icl_examples}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#icl_examples GenerativeAiAgentTool#icl_examples}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iclExamples", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigIclExamples\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>knowledge_base_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#knowledge_base_configs GenerativeAiAgentTool#knowledge_base_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#knowledge_base_configs GenerativeAiAgentTool#knowledge_base_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigKnowledgeBaseConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -166,7 +166,7 @@ namespace oci.GenerativeAiAgentTool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#model_size GenerativeAiAgentTool#model_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#model_size GenerativeAiAgentTool#model_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelSize", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelSize
@@ -177,7 +177,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>reasoning_llm_customization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#reasoning_llm_customization GenerativeAiAgentTool#reasoning_llm_customization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#reasoning_llm_customization GenerativeAiAgentTool#reasoning_llm_customization}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reasoningLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigReasoningLlmCustomization\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>reranking_llm_customization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#reranking_llm_customization GenerativeAiAgentTool#reranking_llm_customization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#reranking_llm_customization GenerativeAiAgentTool#reranking_llm_customization}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rerankingLlmCustomization", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigRerankingLlmCustomization\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#runtime_version GenerativeAiAgentTool#runtime_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#runtime_version GenerativeAiAgentTool#runtime_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuntimeVersion
@@ -210,7 +210,7 @@ namespace oci.GenerativeAiAgentTool
 
         private object? _shouldEnableSelfCorrection;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#should_enable_self_correction GenerativeAiAgentTool#should_enable_self_correction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#should_enable_self_correction GenerativeAiAgentTool#should_enable_self_correction}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -244,7 +244,7 @@ namespace oci.GenerativeAiAgentTool
 
         private object? _shouldEnableSqlExecution;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#should_enable_sql_execution GenerativeAiAgentTool#should_enable_sql_execution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#should_enable_sql_execution GenerativeAiAgentTool#should_enable_sql_execution}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -276,7 +276,7 @@ namespace oci.GenerativeAiAgentTool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#subnet_id GenerativeAiAgentTool#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#subnet_id GenerativeAiAgentTool#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -287,7 +287,7 @@ namespace oci.GenerativeAiAgentTool
 
         /// <summary>table_and_column_description block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#table_and_column_description GenerativeAiAgentTool#table_and_column_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#table_and_column_description GenerativeAiAgentTool#table_and_column_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tableAndColumnDescription", typeJson: "{\"fqn\":\"oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigTableAndColumnDescription\"}", isOptional: true)]

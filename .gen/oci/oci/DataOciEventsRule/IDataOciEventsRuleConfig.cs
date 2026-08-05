@@ -7,7 +7,7 @@ namespace oci.DataOciEventsRule
     [JsiiInterface(nativeType: typeof(IDataOciEventsRuleConfig), fullyQualifiedName: "oci.dataOciEventsRule.DataOciEventsRuleConfig")]
     public interface IDataOciEventsRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
         string RuleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEventsRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/events_rule#rule_id DataOciEventsRule#rule_id}.</summary>
             [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
             public string RuleId
             {

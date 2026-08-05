@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalMySqlDatabaseConnector
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalMySqlDatabaseConnector.DataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig")]
     public class DataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig : oci.DataOciDatabaseManagementExternalMySqlDatabaseConnector.IDataOciDatabaseManagementExternalMySqlDatabaseConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_my_sql_database_connector#external_my_sql_database_connector_id DataOciDatabaseManagementExternalMySqlDatabaseConnector#external_my_sql_database_connector_id}.</summary>
         [JsiiProperty(name: "externalMySqlDatabaseConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalMySqlDatabaseConnectorId
         {

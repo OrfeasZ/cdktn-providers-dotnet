@@ -5,7 +5,7 @@ namespace oci.DataOciApigatewayGateways
     /// <remarks>
     /// <h1><c>data_oci_apigateway_gateways</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apigateway_gateways"><c>data_oci_apigateway_gateways</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apigateway_gateways"><c>data_oci_apigateway_gateways</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DevopsBuildPipeline
     [JsiiByValue(fqn: "oci.devopsBuildPipeline.DevopsBuildPipelineBuildPipelineParametersItems")]
     public class DevopsBuildPipelineBuildPipelineParametersItems : oci.DevopsBuildPipeline.IDevopsBuildPipelineBuildPipelineParametersItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline#default_value DevopsBuildPipeline#default_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline#default_value DevopsBuildPipeline#default_value}.</summary>
         [JsiiProperty(name: "defaultValue", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultValue
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsBuildPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline#name DevopsBuildPipeline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline#name DevopsBuildPipeline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace oci.DevopsBuildPipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline#description DevopsBuildPipeline#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

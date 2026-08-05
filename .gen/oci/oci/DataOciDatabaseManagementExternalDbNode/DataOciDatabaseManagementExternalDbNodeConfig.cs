@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbNode
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbNode.DataOciDatabaseManagementExternalDbNodeConfig")]
     public class DataOciDatabaseManagementExternalDbNodeConfig : oci.DataOciDatabaseManagementExternalDbNode.IDataOciDatabaseManagementExternalDbNodeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_external_db_node#external_db_node_id DataOciDatabaseManagementExternalDbNode#external_db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_node#external_db_node_id DataOciDatabaseManagementExternalDbNode#external_db_node_id}.</summary>
         [JsiiProperty(name: "externalDbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbNodeId
         {

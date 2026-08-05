@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiProject
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiProjectConfig), fullyQualifiedName: "oci.dataOciGenerativeAiProject.DataOciGenerativeAiProjectConfig")]
     public interface IDataOciGenerativeAiProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_project#project_id DataOciGenerativeAiProject#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {

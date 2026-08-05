@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlMysqlBackup
     [JsiiByValue(fqn: "oci.dataOciMysqlMysqlBackup.DataOciMysqlMysqlBackupConfig")]
     public class DataOciMysqlMysqlBackupConfig : oci.DataOciMysqlMysqlBackup.IDataOciMysqlMysqlBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_mysql_backup#backup_id DataOciMysqlMysqlBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         public string BackupId
         {

@@ -7,14 +7,14 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceRemoveSnapsManagementSnapDetails), fullyQualifiedName: "oci.osManagementHubManagedInstanceRemoveSnapsManagement.OsManagementHubManagedInstanceRemoveSnapsManagementSnapDetails")]
     public interface IOsManagementHubManagedInstanceRemoveSnapsManagementSnapDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#name OsManagementHubManagedInstanceRemoveSnapsManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#name OsManagementHubManagedInstanceRemoveSnapsManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#revision OsManagementHubManagedInstanceRemoveSnapsManagement#revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#revision OsManagementHubManagedInstanceRemoveSnapsManagement#revision}.</summary>
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Revision
@@ -32,14 +32,14 @@ namespace oci.OsManagementHubManagedInstanceRemoveSnapsManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#name OsManagementHubManagedInstanceRemoveSnapsManagement#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#name OsManagementHubManagedInstanceRemoveSnapsManagement#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#revision OsManagementHubManagedInstanceRemoveSnapsManagement#revision}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_remove_snaps_management#revision OsManagementHubManagedInstanceRemoveSnapsManagement#revision}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Revision

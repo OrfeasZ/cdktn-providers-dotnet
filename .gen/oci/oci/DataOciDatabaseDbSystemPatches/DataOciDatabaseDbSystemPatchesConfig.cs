@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbSystemPatches
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbSystemPatches.DataOciDatabaseDbSystemPatchesConfig")]
     public class DataOciDatabaseDbSystemPatchesConfig : oci.DataOciDatabaseDbSystemPatches.IDataOciDatabaseDbSystemPatchesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_system_patches#db_system_id DataOciDatabaseDbSystemPatches#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_patches#db_system_id DataOciDatabaseDbSystemPatches#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseDbSystemPatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_system_patches#filter DataOciDatabaseDbSystemPatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_patches#filter DataOciDatabaseDbSystemPatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbSystemPatches.IDataOciDatabaseDbSystemPatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseDbSystemPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_system_patches#id DataOciDatabaseDbSystemPatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_patches#id DataOciDatabaseDbSystemPatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

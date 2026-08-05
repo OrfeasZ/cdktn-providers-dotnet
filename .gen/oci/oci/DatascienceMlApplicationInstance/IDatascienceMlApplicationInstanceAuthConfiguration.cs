@@ -7,7 +7,7 @@ namespace oci.DatascienceMlApplicationInstance
     [JsiiInterface(nativeType: typeof(IDatascienceMlApplicationInstanceAuthConfiguration), fullyQualifiedName: "oci.datascienceMlApplicationInstance.DatascienceMlApplicationInstanceAuthConfiguration")]
     public interface IDatascienceMlApplicationInstanceAuthConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace oci.DatascienceMlApplicationInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#type DatascienceMlApplicationInstance#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

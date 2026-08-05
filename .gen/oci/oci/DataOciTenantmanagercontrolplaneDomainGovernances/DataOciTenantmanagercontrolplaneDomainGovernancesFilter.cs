@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneDomainGovernances
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneDomainGovernances.DataOciTenantmanagercontrolplaneDomainGovernancesFilter")]
     public class DataOciTenantmanagercontrolplaneDomainGovernancesFilter : oci.DataOciTenantmanagercontrolplaneDomainGovernances.IDataOciTenantmanagercontrolplaneDomainGovernancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneDomainGovernances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#values DataOciTenantmanagercontrolplaneDomainGovernances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#values DataOciTenantmanagercontrolplaneDomainGovernances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneDomainGovernances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#regex DataOciTenantmanagercontrolplaneDomainGovernances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#regex DataOciTenantmanagercontrolplaneDomainGovernances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.RedisOciCacheUserGetRedisCluster
     [JsiiInterface(nativeType: typeof(IRedisOciCacheUserGetRedisClusterConfig), fullyQualifiedName: "oci.redisOciCacheUserGetRedisCluster.RedisOciCacheUserGetRedisClusterConfig")]
     public interface IRedisOciCacheUserGetRedisClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#oci_cache_user_id RedisOciCacheUserGetRedisCluster#oci_cache_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#oci_cache_user_id RedisOciCacheUserGetRedisCluster#oci_cache_user_id}.</summary>
         [JsiiProperty(name: "ociCacheUserId", typeJson: "{\"primitive\":\"string\"}")]
         string OciCacheUserId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#compartment_id RedisOciCacheUserGetRedisCluster#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#compartment_id RedisOciCacheUserGetRedisCluster#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#display_name RedisOciCacheUserGetRedisCluster#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#display_name RedisOciCacheUserGetRedisCluster#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -36,7 +36,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#id RedisOciCacheUserGetRedisCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#id RedisOciCacheUserGetRedisCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#timeouts RedisOciCacheUserGetRedisCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#timeouts RedisOciCacheUserGetRedisCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheUserGetRedisCluster.RedisOciCacheUserGetRedisClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,14 +72,14 @@ namespace oci.RedisOciCacheUserGetRedisCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#oci_cache_user_id RedisOciCacheUserGetRedisCluster#oci_cache_user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#oci_cache_user_id RedisOciCacheUserGetRedisCluster#oci_cache_user_id}.</summary>
             [JsiiProperty(name: "ociCacheUserId", typeJson: "{\"primitive\":\"string\"}")]
             public string OciCacheUserId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#compartment_id RedisOciCacheUserGetRedisCluster#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#compartment_id RedisOciCacheUserGetRedisCluster#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -87,7 +87,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#display_name RedisOciCacheUserGetRedisCluster#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#display_name RedisOciCacheUserGetRedisCluster#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -95,7 +95,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#id RedisOciCacheUserGetRedisCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#id RedisOciCacheUserGetRedisCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/redis_oci_cache_user_get_redis_cluster#timeouts RedisOciCacheUserGetRedisCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user_get_redis_cluster#timeouts RedisOciCacheUserGetRedisCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheUserGetRedisCluster.RedisOciCacheUserGetRedisClusterTimeouts\"}", isOptional: true)]

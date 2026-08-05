@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedDeployment
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedDeployment.DataOciGenerativeAiHostedDeploymentConfig")]
     public class DataOciGenerativeAiHostedDeploymentConfig : oci.DataOciGenerativeAiHostedDeployment.IDataOciGenerativeAiHostedDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
         [JsiiProperty(name: "hostedDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostedDeploymentId
         {

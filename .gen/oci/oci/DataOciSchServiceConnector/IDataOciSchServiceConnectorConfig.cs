@@ -7,7 +7,7 @@ namespace oci.DataOciSchServiceConnector
     [JsiiInterface(nativeType: typeof(IDataOciSchServiceConnectorConfig), fullyQualifiedName: "oci.dataOciSchServiceConnector.DataOciSchServiceConnectorConfig")]
     public interface IDataOciSchServiceConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
         [JsiiProperty(name: "serviceConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciSchServiceConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
             [JsiiProperty(name: "serviceConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceConnectorId
             {

@@ -5,7 +5,7 @@ namespace oci.DatabaseExternalContainerDatabaseManagement
     /// <remarks>
     /// <h1><c>oci_database_external_container_database_management</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_external_container_database_management"><c>oci_database_external_container_database_management</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_external_container_database_management"><c>oci_database_external_container_database_management</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

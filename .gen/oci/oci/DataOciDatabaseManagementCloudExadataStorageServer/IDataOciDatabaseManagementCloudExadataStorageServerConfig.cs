@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServer
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudExadataStorageServerConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudExadataStorageServer.DataOciDatabaseManagementCloudExadataStorageServerConfig")]
     public interface IDataOciDatabaseManagementCloudExadataStorageServerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "cloudExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudExadataStorageServerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DataOciDatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
             [JsiiProperty(name: "cloudExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudExadataStorageServerId
             {

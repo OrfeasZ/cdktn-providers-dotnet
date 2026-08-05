@@ -11,7 +11,7 @@ namespace aws.CodebuildProject
     {
         private object _fetchSubmodules;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/codebuild_project#fetch_submodules CodebuildProject#fetch_submodules}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

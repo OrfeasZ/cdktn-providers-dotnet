@@ -9,7 +9,7 @@ namespace oci.DataOciEmailEmailDomain
     [JsiiByValue(fqn: "oci.dataOciEmailEmailDomain.DataOciEmailEmailDomainConfig")]
     public class DataOciEmailEmailDomainConfig : oci.DataOciEmailEmailDomain.IDataOciEmailEmailDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}.</summary>
         [JsiiProperty(name: "emailDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailDomainId
         {

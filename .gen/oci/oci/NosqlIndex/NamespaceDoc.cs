@@ -5,7 +5,7 @@ namespace oci.NosqlIndex
     /// <remarks>
     /// <h1><c>oci_nosql_index</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/nosql_index"><c>oci_nosql_index</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_index"><c>oci_nosql_index</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

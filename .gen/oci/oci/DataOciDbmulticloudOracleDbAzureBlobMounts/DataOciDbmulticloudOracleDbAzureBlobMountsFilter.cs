@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMounts
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureBlobMounts.DataOciDbmulticloudOracleDbAzureBlobMountsFilter")]
     public class DataOciDbmulticloudOracleDbAzureBlobMountsFilter : oci.DataOciDbmulticloudOracleDbAzureBlobMounts.IDataOciDbmulticloudOracleDbAzureBlobMountsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#name DataOciDbmulticloudOracleDbAzureBlobMounts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#name DataOciDbmulticloudOracleDbAzureBlobMounts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#values DataOciDbmulticloudOracleDbAzureBlobMounts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#values DataOciDbmulticloudOracleDbAzureBlobMounts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMounts
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#regex DataOciDbmulticloudOracleDbAzureBlobMounts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mounts#regex DataOciDbmulticloudOracleDbAzureBlobMounts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

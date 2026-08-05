@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthority
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementCertificateAuthorityConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementCertificateAuthority.DataOciCertificatesManagementCertificateAuthorityConfig")]
     public interface IDataOciCertificatesManagementCertificateAuthorityConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/certificates_management_certificate_authority#certificate_authority_id DataOciCertificatesManagementCertificateAuthority#certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/certificates_management_certificate_authority#certificate_authority_id DataOciCertificatesManagementCertificateAuthority#certificate_authority_id}.</summary>
         [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateAuthorityId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCertificatesManagementCertificateAuthority
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/certificates_management_certificate_authority#certificate_authority_id DataOciCertificatesManagementCertificateAuthority#certificate_authority_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/certificates_management_certificate_authority#certificate_authority_id DataOciCertificatesManagementCertificateAuthority#certificate_authority_id}.</summary>
             [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateAuthorityId
             {

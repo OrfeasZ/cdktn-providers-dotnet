@@ -5,7 +5,7 @@ namespace oci.DataOciCloudGuardDetectorRecipes
     /// <remarks>
     /// <h1><c>data_oci_cloud_guard_detector_recipes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_guard_detector_recipes"><c>data_oci_cloud_guard_detector_recipes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_detector_recipes"><c>data_oci_cloud_guard_detector_recipes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

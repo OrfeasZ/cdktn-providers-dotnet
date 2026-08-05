@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams")]
     public class LogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams : oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace_scheduled_task#key_field LogAnalyticsNamespaceScheduledTask#key_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_scheduled_task#key_field LogAnalyticsNamespaceScheduledTask#key_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyField
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/log_analytics_namespace_scheduled_task#value_field LogAnalyticsNamespaceScheduledTask#value_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_scheduled_task#value_field LogAnalyticsNamespaceScheduledTask#value_field}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "valueField", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ValueField

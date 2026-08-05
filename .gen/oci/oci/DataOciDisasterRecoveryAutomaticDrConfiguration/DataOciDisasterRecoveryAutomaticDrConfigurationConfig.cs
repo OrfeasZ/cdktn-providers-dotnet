@@ -9,7 +9,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfiguration
     [JsiiByValue(fqn: "oci.dataOciDisasterRecoveryAutomaticDrConfiguration.DataOciDisasterRecoveryAutomaticDrConfigurationConfig")]
     public class DataOciDisasterRecoveryAutomaticDrConfigurationConfig : oci.DataOciDisasterRecoveryAutomaticDrConfiguration.IDataOciDisasterRecoveryAutomaticDrConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
         [JsiiProperty(name: "automaticDrConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutomaticDrConfigurationId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsDeployment
     [JsiiByValue(fqn: "oci.dataOciDevopsDeployment.DataOciDevopsDeploymentConfig")]
     public class DataOciDevopsDeploymentConfig : oci.DataOciDevopsDeployment.IDataOciDevopsDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/devops_deployment#deployment_id DataOciDevopsDeployment#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_deployment#deployment_id DataOciDevopsDeployment#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {

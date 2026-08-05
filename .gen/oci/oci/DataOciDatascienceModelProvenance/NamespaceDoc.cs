@@ -5,7 +5,7 @@ namespace oci.DataOciDatascienceModelProvenance
     /// <remarks>
     /// <h1><c>data_oci_datascience_model_provenance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_model_provenance"><c>data_oci_datascience_model_provenance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model_provenance"><c>data_oci_datascience_model_provenance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

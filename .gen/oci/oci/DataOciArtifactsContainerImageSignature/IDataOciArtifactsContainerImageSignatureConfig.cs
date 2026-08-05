@@ -7,7 +7,7 @@ namespace oci.DataOciArtifactsContainerImageSignature
     [JsiiInterface(nativeType: typeof(IDataOciArtifactsContainerImageSignatureConfig), fullyQualifiedName: "oci.dataOciArtifactsContainerImageSignature.DataOciArtifactsContainerImageSignatureConfig")]
     public interface IDataOciArtifactsContainerImageSignatureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
         [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}")]
         string ImageSignatureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciArtifactsContainerImageSignature
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/artifacts_container_image_signature#image_signature_id DataOciArtifactsContainerImageSignature#image_signature_id}.</summary>
             [JsiiProperty(name: "imageSignatureId", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageSignatureId
             {

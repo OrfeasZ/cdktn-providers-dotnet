@@ -9,7 +9,7 @@ namespace oci.DatabaseMigrationAssessment
     [JsiiByValue(fqn: "oci.databaseMigrationAssessment.DatabaseMigrationAssessmentExcludeObjects")]
     public class DatabaseMigrationAssessmentExcludeObjects : oci.DatabaseMigrationAssessment.IDatabaseMigrationAssessmentExcludeObjects
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_assessment#object DatabaseMigrationAssessment#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment#object DatabaseMigrationAssessment#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -19,7 +19,7 @@ namespace oci.DatabaseMigrationAssessment
 
         private object? _isOmitExcludedTableFromReplication;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_assessment#is_omit_excluded_table_from_replication DatabaseMigrationAssessment#is_omit_excluded_table_from_replication}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment#is_omit_excluded_table_from_replication DatabaseMigrationAssessment#is_omit_excluded_table_from_replication}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace oci.DatabaseMigrationAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_assessment#owner DatabaseMigrationAssessment#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment#owner DatabaseMigrationAssessment#owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Owner
@@ -60,7 +60,7 @@ namespace oci.DatabaseMigrationAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_assessment#schema DatabaseMigrationAssessment#schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment#schema DatabaseMigrationAssessment#schema}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Schema
@@ -69,7 +69,7 @@ namespace oci.DatabaseMigrationAssessment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_migration_assessment#type DatabaseMigrationAssessment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment#type DatabaseMigrationAssessment#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

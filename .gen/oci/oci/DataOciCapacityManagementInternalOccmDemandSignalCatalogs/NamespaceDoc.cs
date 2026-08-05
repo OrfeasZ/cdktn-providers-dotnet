@@ -5,7 +5,7 @@ namespace oci.DataOciCapacityManagementInternalOccmDemandSignalCatalogs
     /// <remarks>
     /// <h1><c>data_oci_capacity_management_internal_occm_demand_signal_catalogs</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalogs"><c>data_oci_capacity_management_internal_occm_demand_signal_catalogs</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_occm_demand_signal_catalogs"><c>data_oci_capacity_management_internal_occm_demand_signal_catalogs</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.ServiceCatalogPrivateApplication
     [JsiiByValue(fqn: "oci.serviceCatalogPrivateApplication.ServiceCatalogPrivateApplicationTimeouts")]
     public class ServiceCatalogPrivateApplicationTimeouts : oci.ServiceCatalogPrivateApplication.IServiceCatalogPrivateApplicationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/service_catalog_private_application#create ServiceCatalogPrivateApplication#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/service_catalog_private_application#create ServiceCatalogPrivateApplication#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ServiceCatalogPrivateApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/service_catalog_private_application#delete ServiceCatalogPrivateApplication#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/service_catalog_private_application#delete ServiceCatalogPrivateApplication#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ServiceCatalogPrivateApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/service_catalog_private_application#update ServiceCatalogPrivateApplication#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/service_catalog_private_application#update ServiceCatalogPrivateApplication#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

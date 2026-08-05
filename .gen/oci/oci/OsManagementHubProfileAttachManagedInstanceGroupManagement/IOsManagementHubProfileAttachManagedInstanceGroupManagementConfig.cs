@@ -7,21 +7,21 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubProfileAttachManagedInstanceGroupManagementConfig), fullyQualifiedName: "oci.osManagementHubProfileAttachManagedInstanceGroupManagement.OsManagementHubProfileAttachManagedInstanceGroupManagementConfig")]
     public interface IOsManagementHubProfileAttachManagedInstanceGroupManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#managed_instance_group_id OsManagementHubProfileAttachManagedInstanceGroupManagement#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#managed_instance_group_id OsManagementHubProfileAttachManagedInstanceGroupManagement#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#profile_id OsManagementHubProfileAttachManagedInstanceGroupManagement#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#profile_id OsManagementHubProfileAttachManagedInstanceGroupManagement#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#id OsManagementHubProfileAttachManagedInstanceGroupManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#id OsManagementHubProfileAttachManagedInstanceGroupManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#timeouts OsManagementHubProfileAttachManagedInstanceGroupManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#timeouts OsManagementHubProfileAttachManagedInstanceGroupManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubProfileAttachManagedInstanceGroupManagement.OsManagementHubProfileAttachManagedInstanceGroupManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#managed_instance_group_id OsManagementHubProfileAttachManagedInstanceGroupManagement#managed_instance_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#managed_instance_group_id OsManagementHubProfileAttachManagedInstanceGroupManagement#managed_instance_group_id}.</summary>
             [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#profile_id OsManagementHubProfileAttachManagedInstanceGroupManagement#profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#profile_id OsManagementHubProfileAttachManagedInstanceGroupManagement#profile_id}.</summary>
             [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#id OsManagementHubProfileAttachManagedInstanceGroupManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#id OsManagementHubProfileAttachManagedInstanceGroupManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.OsManagementHubProfileAttachManagedInstanceGroupManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#timeouts OsManagementHubProfileAttachManagedInstanceGroupManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_managed_instance_group_management#timeouts OsManagementHubProfileAttachManagedInstanceGroupManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubProfileAttachManagedInstanceGroupManagement.OsManagementHubProfileAttachManagedInstanceGroupManagementTimeouts\"}", isOptional: true)]

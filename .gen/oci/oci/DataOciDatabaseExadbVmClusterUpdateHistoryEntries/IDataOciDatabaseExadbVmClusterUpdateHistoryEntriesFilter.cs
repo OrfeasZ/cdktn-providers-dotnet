@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseExadbVmClusterUpdateHistoryEntries
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExadbVmClusterUpdateHistoryEntriesFilter), fullyQualifiedName: "oci.dataOciDatabaseExadbVmClusterUpdateHistoryEntries.DataOciDatabaseExadbVmClusterUpdateHistoryEntriesFilter")]
     public interface IDataOciDatabaseExadbVmClusterUpdateHistoryEntriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#name DataOciDatabaseExadbVmClusterUpdateHistoryEntries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#name DataOciDatabaseExadbVmClusterUpdateHistoryEntries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#values DataOciDatabaseExadbVmClusterUpdateHistoryEntries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#values DataOciDatabaseExadbVmClusterUpdateHistoryEntries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#regex DataOciDatabaseExadbVmClusterUpdateHistoryEntries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#regex DataOciDatabaseExadbVmClusterUpdateHistoryEntries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseExadbVmClusterUpdateHistoryEntries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#name DataOciDatabaseExadbVmClusterUpdateHistoryEntries#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#name DataOciDatabaseExadbVmClusterUpdateHistoryEntries#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#values DataOciDatabaseExadbVmClusterUpdateHistoryEntries#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#values DataOciDatabaseExadbVmClusterUpdateHistoryEntries#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#regex DataOciDatabaseExadbVmClusterUpdateHistoryEntries#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exadb_vm_cluster_update_history_entries#regex DataOciDatabaseExadbVmClusterUpdateHistoryEntries#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

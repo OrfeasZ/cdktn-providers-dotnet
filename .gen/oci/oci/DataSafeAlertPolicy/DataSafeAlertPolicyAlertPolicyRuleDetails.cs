@@ -9,7 +9,7 @@ namespace oci.DataSafeAlertPolicy
     [JsiiByValue(fqn: "oci.dataSafeAlertPolicy.DataSafeAlertPolicyAlertPolicyRuleDetails")]
     public class DataSafeAlertPolicyAlertPolicyRuleDetails : oci.DataSafeAlertPolicy.IDataSafeAlertPolicyAlertPolicyRuleDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_alert_policy#expression DataSafeAlertPolicy#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_alert_policy#expression DataSafeAlertPolicy#expression}.</summary>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         public string Expression
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeAlertPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_alert_policy#description DataSafeAlertPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_alert_policy#description DataSafeAlertPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace oci.DataSafeAlertPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/data_safe_alert_policy#display_name DataSafeAlertPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_alert_policy#display_name DataSafeAlertPolicy#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

@@ -7,7 +7,7 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiInterface(nativeType: typeof(IIotDigitalTwinAdapterInboundEnvelope), fullyQualifiedName: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelope")]
     public interface IIotDigitalTwinAdapterInboundEnvelope
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}.</summary>
         [JsiiProperty(name: "referenceEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string ReferenceEndpoint
         {
@@ -16,7 +16,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>envelope_mapping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
         /// </remarks>
         [JsiiProperty(name: "envelopeMapping", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>reference_payload block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
         /// </remarks>
         [JsiiProperty(name: "referencePayload", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelopeReferencePayload\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace oci.IotDigitalTwinAdapter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#reference_endpoint IotDigitalTwinAdapter#reference_endpoint}.</summary>
             [JsiiProperty(name: "referenceEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string ReferenceEndpoint
             {
@@ -58,7 +58,7 @@ namespace oci.IotDigitalTwinAdapter
 
             /// <summary>envelope_mapping block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#envelope_mapping IotDigitalTwinAdapter#envelope_mapping}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "envelopeMapping", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelopeEnvelopeMapping\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace oci.IotDigitalTwinAdapter
 
             /// <summary>reference_payload block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#reference_payload IotDigitalTwinAdapter#reference_payload}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "referencePayload", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelopeReferencePayload\"}", isOptional: true)]

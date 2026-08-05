@@ -7,7 +7,7 @@ namespace oci.DataOciCoreImage
     [JsiiInterface(nativeType: typeof(IDataOciCoreImageConfig), fullyQualifiedName: "oci.dataOciCoreImage.DataOciCoreImageConfig")]
     public interface IDataOciCoreImageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         string ImageId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_image#image_id DataOciCoreImage#image_id}.</summary>
             [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
             public string ImageId
             {

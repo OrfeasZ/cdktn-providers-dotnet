@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedMySqlDatabaseDigestErrors.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter")]
     public interface IDataOciDatabaseManagementManagedMySqlDatabaseDigestErrorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#name DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#values DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_digest_errors#regex DataOciDatabaseManagementManagedMySqlDatabaseDigestErrors#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

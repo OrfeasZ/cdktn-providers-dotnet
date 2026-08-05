@@ -7,7 +7,7 @@ namespace oci.DataOciAiVisionStreamGroup
     [JsiiInterface(nativeType: typeof(IDataOciAiVisionStreamGroupConfig), fullyQualifiedName: "oci.dataOciAiVisionStreamGroup.DataOciAiVisionStreamGroupConfig")]
     public interface IDataOciAiVisionStreamGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
         [JsiiProperty(name: "streamGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiVisionStreamGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_vision_stream_group#stream_group_id DataOciAiVisionStreamGroup#stream_group_id}.</summary>
             [JsiiProperty(name: "streamGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamGroupId
             {

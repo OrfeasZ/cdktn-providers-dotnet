@@ -9,7 +9,7 @@ namespace oci.DataOciDatasciencePipeline
     [JsiiByValue(fqn: "oci.dataOciDatasciencePipeline.DataOciDatasciencePipelineConfig")]
     public class DataOciDatasciencePipelineConfig : oci.DataOciDatasciencePipeline.IDataOciDatasciencePipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_pipeline#pipeline_id DataOciDatasciencePipeline#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_pipeline#pipeline_id DataOciDatasciencePipeline#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
         {

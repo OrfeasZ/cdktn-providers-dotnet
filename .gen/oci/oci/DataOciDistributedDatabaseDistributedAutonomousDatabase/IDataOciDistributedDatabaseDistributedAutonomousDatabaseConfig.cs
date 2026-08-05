@@ -7,7 +7,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDistributedDatabaseDistributedAutonomousDatabaseConfig), fullyQualifiedName: "oci.dataOciDistributedDatabaseDistributedAutonomousDatabase.DataOciDistributedDatabaseDistributedAutonomousDatabaseConfig")]
     public interface IDataOciDistributedDatabaseDistributedAutonomousDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
         [JsiiProperty(name: "distributedAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string DistributedAutonomousDatabaseId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
 
         /// <summary>Optional query parameter forwarded to the GET /distributedAutonomousDatabases API as `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
         /// </remarks>
         [JsiiProperty(name: "metadataQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_autonomous_database#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabase#distributed_autonomous_database_id}.</summary>
             [JsiiProperty(name: "distributedAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string DistributedAutonomousDatabaseId
             {
@@ -44,7 +44,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabase
 
             /// <summary>Optional query parameter forwarded to the GET /distributedAutonomousDatabases API as `metadata`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_autonomous_database#metadata_query DataOciDistributedDatabaseDistributedAutonomousDatabase#metadata_query}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadataQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

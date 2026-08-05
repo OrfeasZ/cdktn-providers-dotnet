@@ -7,7 +7,7 @@ namespace oci.ApiPlatformApiPlatformInstance
     [JsiiByValue(fqn: "oci.apiPlatformApiPlatformInstance.ApiPlatformApiPlatformInstanceTimeouts")]
     public class ApiPlatformApiPlatformInstanceTimeouts : oci.ApiPlatformApiPlatformInstance.IApiPlatformApiPlatformInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ApiPlatformApiPlatformInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

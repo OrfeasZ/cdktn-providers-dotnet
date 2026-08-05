@@ -9,7 +9,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAwsIdentityConnector.DbmulticloudOracleDbAwsIdentityConnectorConfig")]
     public class DbmulticloudOracleDbAwsIdentityConnectorConfig : oci.DbmulticloudOracleDbAwsIdentityConnector.IDbmulticloudOracleDbAwsIdentityConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_location DbmulticloudOracleDbAwsIdentityConnector#aws_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_location DbmulticloudOracleDbAwsIdentityConnector#aws_location}.</summary>
         [JsiiProperty(name: "awsLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string AwsLocation
         {
@@ -17,7 +17,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#compartment_id DbmulticloudOracleDbAwsIdentityConnector#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#compartment_id DbmulticloudOracleDbAwsIdentityConnector#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#display_name DbmulticloudOracleDbAwsIdentityConnector#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#display_name DbmulticloudOracleDbAwsIdentityConnector#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#issuer_url DbmulticloudOracleDbAwsIdentityConnector#issuer_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#issuer_url DbmulticloudOracleDbAwsIdentityConnector#issuer_url}.</summary>
         [JsiiProperty(name: "issuerUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string IssuerUrl
         {
@@ -41,7 +41,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#oidc_scope DbmulticloudOracleDbAwsIdentityConnector#oidc_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#oidc_scope DbmulticloudOracleDbAwsIdentityConnector#oidc_scope}.</summary>
         [JsiiProperty(name: "oidcScope", typeJson: "{\"primitive\":\"string\"}")]
         public string OidcScope
         {
@@ -49,7 +49,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#resource_id DbmulticloudOracleDbAwsIdentityConnector#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#resource_id DbmulticloudOracleDbAwsIdentityConnector#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -61,7 +61,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
 
         /// <summary>service_role_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_role_details DbmulticloudOracleDbAwsIdentityConnector#service_role_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#service_role_details DbmulticloudOracleDbAwsIdentityConnector#service_role_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DbmulticloudOracleDbAwsIdentityConnector.IDbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "serviceRoleDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dbmulticloudOracleDbAwsIdentityConnector.DbmulticloudOracleDbAwsIdentityConnectorServiceRoleDetails\"},\"kind\":\"array\"}}]}}")]
@@ -91,7 +91,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_account_id DbmulticloudOracleDbAwsIdentityConnector#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_account_id DbmulticloudOracleDbAwsIdentityConnector#aws_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsAccountId
@@ -100,7 +100,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_sts_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#aws_sts_private_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#aws_sts_private_endpoint DbmulticloudOracleDbAwsIdentityConnector#aws_sts_private_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "awsStsPrivateEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AwsStsPrivateEndpoint
@@ -109,7 +109,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#defined_tags DbmulticloudOracleDbAwsIdentityConnector#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#defined_tags DbmulticloudOracleDbAwsIdentityConnector#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -118,7 +118,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#freeform_tags DbmulticloudOracleDbAwsIdentityConnector#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#freeform_tags DbmulticloudOracleDbAwsIdentityConnector#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -127,7 +127,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#id DbmulticloudOracleDbAwsIdentityConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#id DbmulticloudOracleDbAwsIdentityConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ namespace oci.DbmulticloudOracleDbAwsIdentityConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#timeouts DbmulticloudOracleDbAwsIdentityConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_identity_connector#timeouts DbmulticloudOracleDbAwsIdentityConnector#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAwsIdentityConnector.DbmulticloudOracleDbAwsIdentityConnectorTimeouts\"}", isOptional: true)]

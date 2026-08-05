@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAlertPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAlertPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeAlertPolicy.DataOciDataSafeAlertPolicyConfig")]
     public interface IDataOciDataSafeAlertPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
         [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string AlertPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAlertPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
             [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlertPolicyId
             {

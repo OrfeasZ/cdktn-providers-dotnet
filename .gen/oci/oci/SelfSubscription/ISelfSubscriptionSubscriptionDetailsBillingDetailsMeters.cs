@@ -7,14 +7,14 @@ namespace oci.SelfSubscription
     [JsiiInterface(nativeType: typeof(ISelfSubscriptionSubscriptionDetailsBillingDetailsMeters), fullyQualifiedName: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsMeters")]
     public interface ISelfSubscriptionSubscriptionDetailsBillingDetailsMeters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
         [JsiiProperty(name: "rateAllocation", typeJson: "{\"primitive\":\"number\"}")]
         double RateAllocation
         {
@@ -23,7 +23,7 @@ namespace oci.SelfSubscription
 
         /// <summary>extended_metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetailsMetersExtendedMetadata" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "extendedMetadata", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsMetersExtendedMetadata\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,14 +43,14 @@ namespace oci.SelfSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#name SelfSubscription#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
             [JsiiProperty(name: "rateAllocation", typeJson: "{\"primitive\":\"number\"}")]
             public double RateAllocation
             {
@@ -59,7 +59,7 @@ namespace oci.SelfSubscription
 
             /// <summary>extended_metadata block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/self_subscription#extended_metadata SelfSubscription#extended_metadata}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetailsMetersExtendedMetadata" />)[]</para>
             /// </remarks>
             [JsiiOptional]

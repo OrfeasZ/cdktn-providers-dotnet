@@ -5,7 +5,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
     /// <remarks>
     /// <h1><c>data_oci_disaster_recovery_automatic_dr_configurations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/disaster_recovery_automatic_dr_configurations"><c>data_oci_disaster_recovery_automatic_dr_configurations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/disaster_recovery_automatic_dr_configurations"><c>data_oci_disaster_recovery_automatic_dr_configurations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

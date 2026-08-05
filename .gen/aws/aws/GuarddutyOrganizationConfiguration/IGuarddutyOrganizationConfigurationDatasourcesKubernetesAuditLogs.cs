@@ -7,7 +7,7 @@ namespace aws.GuarddutyOrganizationConfiguration
     [JsiiInterface(nativeType: typeof(IGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs), fullyQualifiedName: "aws.guarddutyOrganizationConfiguration.GuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs")]
     public interface IGuarddutyOrganizationConfigurationDatasourcesKubernetesAuditLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.GuarddutyOrganizationConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/guardduty_organization_configuration#enable GuarddutyOrganizationConfiguration#enable}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

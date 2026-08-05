@@ -9,7 +9,7 @@ namespace aws.FinspaceKxCluster
     [JsiiByValue(fqn: "aws.finspaceKxCluster.FinspaceKxClusterDatabase")]
     public class FinspaceKxClusterDatabase : aws.FinspaceKxCluster.IFinspaceKxClusterDatabase
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/finspace_kx_cluster#database_name FinspaceKxCluster#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/finspace_kx_cluster#database_name FinspaceKxCluster#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
         {
@@ -21,7 +21,7 @@ namespace aws.FinspaceKxCluster
 
         /// <summary>cache_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/finspace_kx_cluster#cache_configurations FinspaceKxCluster#cache_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/finspace_kx_cluster#cache_configurations FinspaceKxCluster#cache_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FinspaceKxCluster.IFinspaceKxClusterDatabaseCacheConfigurations" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace aws.FinspaceKxCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/finspace_kx_cluster#changeset_id FinspaceKxCluster#changeset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/finspace_kx_cluster#changeset_id FinspaceKxCluster#changeset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "changesetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChangesetId
@@ -61,7 +61,7 @@ namespace aws.FinspaceKxCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/finspace_kx_cluster#dataview_name FinspaceKxCluster#dataview_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/finspace_kx_cluster#dataview_name FinspaceKxCluster#dataview_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataviewName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataviewName

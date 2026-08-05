@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsSetting
     [JsiiByValue(fqn: "oci.identityDomainsSetting.IdentityDomainsSettingPurgeConfigs")]
     public class IdentityDomainsSettingPurgeConfigs : oci.IdentityDomainsSetting.IIdentityDomainsSettingPurgeConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#resource_name IdentityDomainsSetting#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_setting#resource_name IdentityDomainsSetting#resource_name}.</summary>
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceName
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_setting#retention_period IdentityDomainsSetting#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_setting#retention_period IdentityDomainsSetting#retention_period}.</summary>
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionPeriod
         {

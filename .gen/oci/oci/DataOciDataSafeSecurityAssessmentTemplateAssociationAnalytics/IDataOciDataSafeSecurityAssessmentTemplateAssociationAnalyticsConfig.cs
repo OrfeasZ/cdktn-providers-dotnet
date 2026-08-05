@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsConfig")]
     public interface IDataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#access_level DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#access_level DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#filter DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#filter DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.IDataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_database_group_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_database_group_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_database_group_id}.</summary>
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDatabaseGroupId
@@ -80,7 +80,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_assessment_id}.</summary>
         [JsiiProperty(name: "templateAssessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TemplateAssessmentId
@@ -102,7 +102,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_baseline_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_baseline_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_baseline_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_baseline_assessment_id}.</summary>
         [JsiiProperty(name: "templateBaselineAssessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TemplateBaselineAssessmentId
@@ -120,14 +120,14 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#access_level DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#access_level DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -148,7 +148,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#filter DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#filter DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.IDataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -158,7 +158,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_database_group_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_database_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_database_group_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_database_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDatabaseGroupId
@@ -178,7 +178,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#target_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -186,7 +186,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_assessment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "templateAssessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TemplateAssessmentId
@@ -194,7 +194,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_baseline_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_baseline_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#template_baseline_assessment_id DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#template_baseline_assessment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "templateBaselineAssessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TemplateBaselineAssessmentId

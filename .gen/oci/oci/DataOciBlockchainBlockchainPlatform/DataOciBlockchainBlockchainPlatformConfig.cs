@@ -9,7 +9,7 @@ namespace oci.DataOciBlockchainBlockchainPlatform
     [JsiiByValue(fqn: "oci.dataOciBlockchainBlockchainPlatform.DataOciBlockchainBlockchainPlatformConfig")]
     public class DataOciBlockchainBlockchainPlatformConfig : oci.DataOciBlockchainBlockchainPlatform.IDataOciBlockchainBlockchainPlatformConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
         [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         public string BlockchainPlatformId
         {

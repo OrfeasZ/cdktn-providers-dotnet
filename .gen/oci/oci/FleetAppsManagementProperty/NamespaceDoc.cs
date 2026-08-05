@@ -5,7 +5,7 @@ namespace oci.FleetAppsManagementProperty
     /// <remarks>
     /// <h1><c>oci_fleet_apps_management_property</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_property"><c>oci_fleet_apps_management_property</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_property"><c>oci_fleet_apps_management_property</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

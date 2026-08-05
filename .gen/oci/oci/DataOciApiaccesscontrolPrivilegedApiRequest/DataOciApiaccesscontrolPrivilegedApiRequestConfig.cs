@@ -9,7 +9,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequest
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolPrivilegedApiRequest.DataOciApiaccesscontrolPrivilegedApiRequestConfig")]
     public class DataOciApiaccesscontrolPrivilegedApiRequestConfig : oci.DataOciApiaccesscontrolPrivilegedApiRequest.IDataOciApiaccesscontrolPrivilegedApiRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
         [JsiiProperty(name: "privilegedApiRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivilegedApiRequestId
         {

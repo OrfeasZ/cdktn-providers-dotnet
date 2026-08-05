@@ -9,7 +9,7 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiByValue(fqn: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterConfig")]
     public class IotDigitalTwinAdapterConfig : oci.IotDigitalTwinAdapter.IIotDigitalTwinAdapterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#iot_domain_id IotDigitalTwinAdapter#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#iot_domain_id IotDigitalTwinAdapter#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#defined_tags IotDigitalTwinAdapter#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#defined_tags IotDigitalTwinAdapter#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#description IotDigitalTwinAdapter#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -35,7 +35,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_id IotDigitalTwinAdapter#digital_twin_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_id IotDigitalTwinAdapter#digital_twin_model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "digitalTwinModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DigitalTwinModelId
@@ -44,7 +44,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_spec_uri IotDigitalTwinAdapter#digital_twin_model_spec_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#digital_twin_model_spec_uri IotDigitalTwinAdapter#digital_twin_model_spec_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "digitalTwinModelSpecUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DigitalTwinModelSpecUri
@@ -53,7 +53,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#display_name IotDigitalTwinAdapter#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#display_name IotDigitalTwinAdapter#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -62,7 +62,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#freeform_tags IotDigitalTwinAdapter#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#freeform_tags IotDigitalTwinAdapter#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -71,7 +71,7 @@ namespace oci.IotDigitalTwinAdapter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#id IotDigitalTwinAdapter#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#id IotDigitalTwinAdapter#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>inbound_envelope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#inbound_envelope IotDigitalTwinAdapter#inbound_envelope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#inbound_envelope IotDigitalTwinAdapter#inbound_envelope}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inboundEnvelope", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundEnvelope\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>inbound_routes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#inbound_routes IotDigitalTwinAdapter#inbound_routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#inbound_routes IotDigitalTwinAdapter#inbound_routes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IotDigitalTwinAdapter.IIotDigitalTwinAdapterInboundRoutes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -133,7 +133,7 @@ namespace oci.IotDigitalTwinAdapter
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/iot_digital_twin_adapter#timeouts IotDigitalTwinAdapter#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#timeouts IotDigitalTwinAdapter#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterTimeouts\"}", isOptional: true)]

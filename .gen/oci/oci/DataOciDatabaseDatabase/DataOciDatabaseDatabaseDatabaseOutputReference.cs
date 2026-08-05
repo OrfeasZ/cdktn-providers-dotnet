@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "autoFailoverConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseAutoFailoverConfigurationList\"}")]
+        public virtual oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseAutoFailoverConfigurationList AutoFailoverConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseDatabase.DataOciDatabaseDatabaseDatabaseAutoFailoverConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string BackupId
         {

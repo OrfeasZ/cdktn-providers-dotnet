@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVolume
     [JsiiByValue(fqn: "oci.dataOciCoreVolume.DataOciCoreVolumeConfig")]
     public class DataOciCoreVolumeConfig : oci.DataOciCoreVolume.IDataOciCoreVolumeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeId
         {

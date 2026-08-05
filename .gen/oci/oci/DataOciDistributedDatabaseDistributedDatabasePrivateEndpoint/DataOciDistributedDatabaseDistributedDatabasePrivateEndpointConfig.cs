@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedDatabasePrivateEndpoint.DataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig")]
     public class DataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig : oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint.IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/distributed_database_distributed_database_private_endpoint#distributed_database_private_endpoint_id DataOciDistributedDatabaseDistributedDatabasePrivateEndpoint#distributed_database_private_endpoint_id}.</summary>
         [JsiiProperty(name: "distributedDatabasePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DistributedDatabasePrivateEndpointId
         {

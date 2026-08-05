@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemOdspInsightDetails), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemOdspInsightDetails")]
     public interface IPsqlDbSystemOdspInsightDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         string Kind
         {
@@ -16,7 +16,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>odsp_insight_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#odsp_insight_list PsqlDbSystem#odsp_insight_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#odsp_insight_list PsqlDbSystem#odsp_insight_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetailsOdspInsightListStruct" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "odspInsightList", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetailsOdspInsightListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
             [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
             public string Kind
             {
@@ -45,7 +45,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>odsp_insight_list block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/psql_db_system#odsp_insight_list PsqlDbSystem#odsp_insight_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#odsp_insight_list PsqlDbSystem#odsp_insight_list}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemOdspInsightDetailsOdspInsightListStruct" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudClusterInstance
     [JsiiByValue(fqn: "oci.databaseManagementCloudClusterInstance.DatabaseManagementCloudClusterInstanceTimeouts")]
     public class DatabaseManagementCloudClusterInstanceTimeouts : oci.DatabaseManagementCloudClusterInstance.IDatabaseManagementCloudClusterInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_cluster_instance#create DatabaseManagementCloudClusterInstance#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_cluster_instance#create DatabaseManagementCloudClusterInstance#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudClusterInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_cluster_instance#delete DatabaseManagementCloudClusterInstance#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_cluster_instance#delete DatabaseManagementCloudClusterInstance#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudClusterInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_cloud_cluster_instance#update DatabaseManagementCloudClusterInstance#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_cluster_instance#update DatabaseManagementCloudClusterInstance#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

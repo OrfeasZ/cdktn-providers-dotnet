@@ -7,7 +7,7 @@ namespace oci.DataflowSqlEndpoint
     [JsiiByValue(fqn: "oci.dataflowSqlEndpoint.DataflowSqlEndpointNetworkConfigurationAccessControlRules")]
     public class DataflowSqlEndpointNetworkConfigurationAccessControlRules : oci.DataflowSqlEndpoint.IDataflowSqlEndpointNetworkConfigurationAccessControlRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_sql_endpoint#ip_notation DataflowSqlEndpoint#ip_notation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipNotation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpNotation
@@ -16,7 +16,7 @@ namespace oci.DataflowSqlEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_sql_endpoint#value DataflowSqlEndpoint#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value
@@ -25,7 +25,7 @@ namespace oci.DataflowSqlEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_sql_endpoint#vcn_ips DataflowSqlEndpoint#vcn_ips}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vcnIps", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VcnIps

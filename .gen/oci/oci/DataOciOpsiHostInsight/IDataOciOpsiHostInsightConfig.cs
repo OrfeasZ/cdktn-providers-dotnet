@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiHostInsight
     [JsiiInterface(nativeType: typeof(IDataOciOpsiHostInsightConfig), fullyQualifiedName: "oci.dataOciOpsiHostInsight.DataOciOpsiHostInsightConfig")]
     public interface IDataOciOpsiHostInsightConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
         [JsiiProperty(name: "hostInsightId", typeJson: "{\"primitive\":\"string\"}")]
         string HostInsightId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpsiHostInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
             [JsiiProperty(name: "hostInsightId", typeJson: "{\"primitive\":\"string\"}")]
             public string HostInsightId
             {

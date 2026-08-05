@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadReports
     [JsiiByValue(fqn: "oci.dataOciJmsJavaDownloadsJavaDownloadReports.DataOciJmsJavaDownloadsJavaDownloadReportsFilter")]
     public class DataOciJmsJavaDownloadsJavaDownloadReportsFilter : oci.DataOciJmsJavaDownloadsJavaDownloadReports.IDataOciJmsJavaDownloadsJavaDownloadReportsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_reports#name DataOciJmsJavaDownloadsJavaDownloadReports#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_downloads_java_download_reports#name DataOciJmsJavaDownloadsJavaDownloadReports#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadReports
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_reports#values DataOciJmsJavaDownloadsJavaDownloadReports#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_downloads_java_download_reports#values DataOciJmsJavaDownloadsJavaDownloadReports#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaDownloadReports
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/jms_java_downloads_java_download_reports#regex DataOciJmsJavaDownloadsJavaDownloadReports#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_downloads_java_download_reports#regex DataOciJmsJavaDownloadsJavaDownloadReports#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

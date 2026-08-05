@@ -7,7 +7,7 @@ namespace oci.SchServiceConnector
     [JsiiByValue(fqn: "oci.schServiceConnector.SchServiceConnectorSourceMonitoringSources")]
     public class SchServiceConnectorSourceMonitoringSources : oci.SchServiceConnector.ISchServiceConnectorSourceMonitoringSources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>namespace_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/sch_service_connector#namespace_details SchServiceConnector#namespace_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/sch_service_connector#namespace_details SchServiceConnector#namespace_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceDetails", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSourceMonitoringSourcesNamespaceDetails\"}", isOptional: true)]

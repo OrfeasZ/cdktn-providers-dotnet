@@ -5,7 +5,7 @@ namespace oci.RecoveryRecoveryServiceSubnet
     /// <remarks>
     /// <h1><c>oci_recovery_recovery_service_subnet</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/recovery_recovery_service_subnet"><c>oci_recovery_recovery_service_subnet</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/recovery_recovery_service_subnet"><c>oci_recovery_recovery_service_subnet</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

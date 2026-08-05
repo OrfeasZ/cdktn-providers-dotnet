@@ -9,7 +9,7 @@ namespace oci.ContainerengineNodePool
     {
         /// <summary>create_vnic_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
         /// </remarks>
         [JsiiProperty(name: "createVnicDetails", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnicsCreateVnicDetails\"}")]
         oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnicsCreateVnicDetails CreateVnicDetails
@@ -17,7 +17,7 @@ namespace oci.ContainerengineNodePool
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -28,7 +28,7 @@ namespace oci.ContainerengineNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
         [JsiiProperty(name: "nicIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NicIndex
@@ -48,7 +48,7 @@ namespace oci.ContainerengineNodePool
 
             /// <summary>create_vnic_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#create_vnic_details ContainerengineNodePool#create_vnic_details}
             /// </remarks>
             [JsiiProperty(name: "createVnicDetails", typeJson: "{\"fqn\":\"oci.containerengineNodePool.ContainerengineNodePoolSecondaryVnicsCreateVnicDetails\"}")]
             public oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnicsCreateVnicDetails CreateVnicDetails
@@ -56,7 +56,7 @@ namespace oci.ContainerengineNodePool
                 get => GetInstanceProperty<oci.ContainerengineNodePool.IContainerengineNodePoolSecondaryVnicsCreateVnicDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#display_name ContainerengineNodePool#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -64,7 +64,7 @@ namespace oci.ContainerengineNodePool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_node_pool#nic_index ContainerengineNodePool#nic_index}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nicIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NicIndex

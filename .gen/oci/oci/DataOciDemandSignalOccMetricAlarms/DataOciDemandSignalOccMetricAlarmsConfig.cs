@@ -9,7 +9,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarms
     [JsiiByValue(fqn: "oci.dataOciDemandSignalOccMetricAlarms.DataOciDemandSignalOccMetricAlarmsConfig")]
     public class DataOciDemandSignalOccMetricAlarmsConfig : oci.DataOciDemandSignalOccMetricAlarms.IDataOciDemandSignalOccMetricAlarmsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_metric_alarms#compartment_id DataOciDemandSignalOccMetricAlarms#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_metric_alarms#compartment_id DataOciDemandSignalOccMetricAlarms#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarms
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_metric_alarms#display_name DataOciDemandSignalOccMetricAlarms#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_metric_alarms#display_name DataOciDemandSignalOccMetricAlarms#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarms
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_metric_alarms#filter DataOciDemandSignalOccMetricAlarms#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_metric_alarms#filter DataOciDemandSignalOccMetricAlarms#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDemandSignalOccMetricAlarms.IDataOciDemandSignalOccMetricAlarmsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarms
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_metric_alarms#id DataOciDemandSignalOccMetricAlarms#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_metric_alarms#id DataOciDemandSignalOccMetricAlarms#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarms
 
         private object? _isActive;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/demand_signal_occ_metric_alarms#is_active DataOciDemandSignalOccMetricAlarms#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/demand_signal_occ_metric_alarms#is_active DataOciDemandSignalOccMetricAlarms#is_active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

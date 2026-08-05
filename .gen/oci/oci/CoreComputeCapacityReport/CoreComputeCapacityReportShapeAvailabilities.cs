@@ -9,7 +9,7 @@ namespace oci.CoreComputeCapacityReport
     [JsiiByValue(fqn: "oci.coreComputeCapacityReport.CoreComputeCapacityReportShapeAvailabilities")]
     public class CoreComputeCapacityReportShapeAvailabilities : oci.CoreComputeCapacityReport.ICoreComputeCapacityReportShapeAvailabilities
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_compute_capacity_report#instance_shape CoreComputeCapacityReport#instance_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_compute_capacity_report#instance_shape CoreComputeCapacityReport#instance_shape}.</summary>
         [JsiiProperty(name: "instanceShape", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceShape
         {
@@ -17,7 +17,7 @@ namespace oci.CoreComputeCapacityReport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_compute_capacity_report#fault_domain CoreComputeCapacityReport#fault_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_compute_capacity_report#fault_domain CoreComputeCapacityReport#fault_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FaultDomain
@@ -28,7 +28,7 @@ namespace oci.CoreComputeCapacityReport
 
         /// <summary>instance_shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_compute_capacity_report#instance_shape_config CoreComputeCapacityReport#instance_shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_compute_capacity_report#instance_shape_config CoreComputeCapacityReport#instance_shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceShapeConfig", typeJson: "{\"fqn\":\"oci.coreComputeCapacityReport.CoreComputeCapacityReportShapeAvailabilitiesInstanceShapeConfig\"}", isOptional: true)]

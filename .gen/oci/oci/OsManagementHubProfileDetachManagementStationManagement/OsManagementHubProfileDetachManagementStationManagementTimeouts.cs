@@ -7,7 +7,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileDetachManagementStationManagement.OsManagementHubProfileDetachManagementStationManagementTimeouts")]
     public class OsManagementHubProfileDetachManagementStationManagementTimeouts : oci.OsManagementHubProfileDetachManagementStationManagement.IOsManagementHubProfileDetachManagementStationManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_detach_management_station_management#create OsManagementHubProfileDetachManagementStationManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_detach_management_station_management#create OsManagementHubProfileDetachManagementStationManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_detach_management_station_management#delete OsManagementHubProfileDetachManagementStationManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_detach_management_station_management#delete OsManagementHubProfileDetachManagementStationManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileDetachManagementStationManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/os_management_hub_profile_detach_management_station_management#update OsManagementHubProfileDetachManagementStationManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_detach_management_station_management#update OsManagementHubProfileDetachManagementStationManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

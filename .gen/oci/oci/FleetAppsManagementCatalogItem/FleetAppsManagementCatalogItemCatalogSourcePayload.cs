@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementCatalogItem
     [JsiiByValue(fqn: "oci.fleetAppsManagementCatalogItem.FleetAppsManagementCatalogItemCatalogSourcePayload")]
     public class FleetAppsManagementCatalogItemCatalogSourcePayload : oci.FleetAppsManagementCatalogItem.IFleetAppsManagementCatalogItemCatalogSourcePayload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#config_source_type FleetAppsManagementCatalogItem#config_source_type}.</summary>
         [JsiiProperty(name: "configSourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigSourceType
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#access_uri FleetAppsManagementCatalogItem#access_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#access_uri FleetAppsManagementCatalogItem#access_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessUri
@@ -26,7 +26,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#branch_name FleetAppsManagementCatalogItem#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#branch_name FleetAppsManagementCatalogItem#branch_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BranchName
@@ -35,7 +35,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#bucket FleetAppsManagementCatalogItem#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#bucket FleetAppsManagementCatalogItem#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -44,7 +44,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#configuration_source_provider_id FleetAppsManagementCatalogItem#configuration_source_provider_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#configuration_source_provider_id FleetAppsManagementCatalogItem#configuration_source_provider_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configurationSourceProviderId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfigurationSourceProviderId
@@ -53,7 +53,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#description FleetAppsManagementCatalogItem#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -62,7 +62,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#listing_id FleetAppsManagementCatalogItem#listing_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ListingId
@@ -71,7 +71,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#long_description FleetAppsManagementCatalogItem#long_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#long_description FleetAppsManagementCatalogItem#long_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "longDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LongDescription
@@ -80,7 +80,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#namespace FleetAppsManagementCatalogItem#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#namespace FleetAppsManagementCatalogItem#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -89,7 +89,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#object FleetAppsManagementCatalogItem#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#object FleetAppsManagementCatalogItem#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Object
@@ -98,7 +98,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#repository_url FleetAppsManagementCatalogItem#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#repository_url FleetAppsManagementCatalogItem#repository_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryUrl
@@ -107,7 +107,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#template_display_name FleetAppsManagementCatalogItem#template_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#template_display_name FleetAppsManagementCatalogItem#template_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateDisplayName
@@ -116,7 +116,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#time_expires FleetAppsManagementCatalogItem#time_expires}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#time_expires FleetAppsManagementCatalogItem#time_expires}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeExpires", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeExpires
@@ -125,7 +125,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#version FleetAppsManagementCatalogItem#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#version FleetAppsManagementCatalogItem#version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Version
@@ -134,7 +134,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#working_directory FleetAppsManagementCatalogItem#working_directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#working_directory FleetAppsManagementCatalogItem#working_directory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workingDirectory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkingDirectory
@@ -143,7 +143,7 @@ namespace oci.FleetAppsManagementCatalogItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/fleet_apps_management_catalog_item#zip_file_base64encoded FleetAppsManagementCatalogItem#zip_file_base64encoded}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_catalog_item#zip_file_base64encoded FleetAppsManagementCatalogItem#zip_file_base64encoded}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zipFileBase64Encoded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ZipFileBase64Encoded

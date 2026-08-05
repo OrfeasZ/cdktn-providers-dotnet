@@ -5,7 +5,7 @@ namespace oci.DataOciFleetSoftwareUpdateFsuCycle
     /// <remarks>
     /// <h1><c>data_oci_fleet_software_update_fsu_cycle</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_software_update_fsu_cycle"><c>data_oci_fleet_software_update_fsu_cycle</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_software_update_fsu_cycle"><c>data_oci_fleet_software_update_fsu_cycle</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

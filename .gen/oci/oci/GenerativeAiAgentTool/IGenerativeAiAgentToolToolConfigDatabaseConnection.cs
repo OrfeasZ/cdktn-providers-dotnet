@@ -7,14 +7,14 @@ namespace oci.GenerativeAiAgentTool
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentToolToolConfigDatabaseConnection), fullyQualifiedName: "oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigDatabaseConnection")]
     public interface IGenerativeAiAgentToolToolConfigDatabaseConnection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionType
         {
@@ -28,14 +28,14 @@ namespace oci.GenerativeAiAgentTool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#connection_id GenerativeAiAgentTool#connection_id}.</summary>
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_tool#connection_type GenerativeAiAgentTool#connection_type}.</summary>
             [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionType
             {

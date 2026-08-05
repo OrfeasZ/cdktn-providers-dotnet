@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityGroup
     [JsiiByValue(fqn: "oci.dataOciIdentityGroup.DataOciIdentityGroupConfig")]
     public class DataOciIdentityGroupConfig : oci.DataOciIdentityGroup.IDataOciIdentityGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_group#group_id DataOciIdentityGroup#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
         {

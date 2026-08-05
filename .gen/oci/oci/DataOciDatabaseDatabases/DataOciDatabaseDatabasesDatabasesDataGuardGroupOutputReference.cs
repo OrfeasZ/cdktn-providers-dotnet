@@ -35,6 +35,12 @@ namespace oci.DataOciDatabaseDatabases
         {
         }
 
+        [JsiiProperty(name: "managedAutoFailOverReadiness", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ManagedAutoFailOverReadiness
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "members", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesDataGuardGroupMembersList\"}")]
         public virtual oci.DataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesDataGuardGroupMembersList Members
         {

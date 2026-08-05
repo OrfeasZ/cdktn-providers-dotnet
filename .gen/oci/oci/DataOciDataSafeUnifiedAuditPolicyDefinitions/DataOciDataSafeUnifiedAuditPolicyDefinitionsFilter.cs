@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
     [JsiiByValue(fqn: "oci.dataOciDataSafeUnifiedAuditPolicyDefinitions.DataOciDataSafeUnifiedAuditPolicyDefinitionsFilter")]
     public class DataOciDataSafeUnifiedAuditPolicyDefinitionsFilter : oci.DataOciDataSafeUnifiedAuditPolicyDefinitions.IDataOciDataSafeUnifiedAuditPolicyDefinitionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policy_definitions#name DataOciDataSafeUnifiedAuditPolicyDefinitions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policy_definitions#name DataOciDataSafeUnifiedAuditPolicyDefinitions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policy_definitions#values DataOciDataSafeUnifiedAuditPolicyDefinitions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policy_definitions#values DataOciDataSafeUnifiedAuditPolicyDefinitions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicyDefinitions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policy_definitions#regex DataOciDataSafeUnifiedAuditPolicyDefinitions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policy_definitions#regex DataOciDataSafeUnifiedAuditPolicyDefinitions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

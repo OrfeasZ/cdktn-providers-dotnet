@@ -9,7 +9,7 @@ namespace oci.GenerativeAiHostedApplication
     [JsiiByValue(fqn: "oci.generativeAiHostedApplication.GenerativeAiHostedApplicationNetworkingConfigInboundNetworkingConfig")]
     public class GenerativeAiHostedApplicationNetworkingConfigInboundNetworkingConfig : oci.GenerativeAiHostedApplication.IGenerativeAiHostedApplicationNetworkingConfigInboundNetworkingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#endpoint_mode GenerativeAiHostedApplication#endpoint_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#endpoint_mode GenerativeAiHostedApplication#endpoint_mode}.</summary>
         [JsiiProperty(name: "endpointMode", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointMode
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiHostedApplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/generative_ai_hosted_application#private_endpoint_id GenerativeAiHostedApplication#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_hosted_application#private_endpoint_id GenerativeAiHostedApplication#private_endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateEndpointId

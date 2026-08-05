@@ -7,7 +7,7 @@ namespace oci.DataOciHealthChecksHttpMonitor
     [JsiiInterface(nativeType: typeof(IDataOciHealthChecksHttpMonitorConfig), fullyQualifiedName: "oci.dataOciHealthChecksHttpMonitor.DataOciHealthChecksHttpMonitorConfig")]
     public interface IDataOciHealthChecksHttpMonitorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
         [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciHealthChecksHttpMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/health_checks_http_monitor#monitor_id DataOciHealthChecksHttpMonitor#monitor_id}.</summary>
             [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitorId
             {

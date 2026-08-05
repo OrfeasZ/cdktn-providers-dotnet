@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessmentAssessorChecks.DataOciDatabaseMigrationAssessmentAssessorChecksConfig")]
     public class DataOciDatabaseMigrationAssessmentAssessorChecksConfig : oci.DataOciDatabaseMigrationAssessmentAssessorChecks.IDataOciDatabaseMigrationAssessmentAssessorChecksConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#assessment_id DataOciDatabaseMigrationAssessmentAssessorChecks#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#assessment_id DataOciDatabaseMigrationAssessmentAssessorChecks#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#assessor_name DataOciDatabaseMigrationAssessmentAssessorChecks#assessor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#assessor_name DataOciDatabaseMigrationAssessmentAssessorChecks#assessor_name}.</summary>
         [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
         public string AssessorName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#compartment_id DataOciDatabaseMigrationAssessmentAssessorChecks#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#compartment_id DataOciDatabaseMigrationAssessmentAssessorChecks#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#display_name DataOciDatabaseMigrationAssessmentAssessorChecks#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#display_name DataOciDatabaseMigrationAssessmentAssessorChecks#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -46,7 +46,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#filter DataOciDatabaseMigrationAssessmentAssessorChecks#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#filter DataOciDatabaseMigrationAssessmentAssessorChecks#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationAssessmentAssessorChecks.IDataOciDatabaseMigrationAssessmentAssessorChecksFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -77,7 +77,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorChecks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_migration_assessment_assessor_checks#id DataOciDatabaseMigrationAssessmentAssessorChecks#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_assessment_assessor_checks#id DataOciDatabaseMigrationAssessmentAssessorChecks#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

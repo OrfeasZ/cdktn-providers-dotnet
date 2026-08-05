@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter")]
     public class DataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter : oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics.IDataOciDataSafeSecurityAssessmentTemplateAssociationAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#name DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#name DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#values DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#values DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#regex DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_security_assessment_template_association_analytics#regex DataOciDataSafeSecurityAssessmentTemplateAssociationAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

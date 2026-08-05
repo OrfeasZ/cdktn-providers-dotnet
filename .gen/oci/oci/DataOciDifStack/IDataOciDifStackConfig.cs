@@ -7,7 +7,7 @@ namespace oci.DataOciDifStack
     [JsiiInterface(nativeType: typeof(IDataOciDifStackConfig), fullyQualifiedName: "oci.dataOciDifStack.DataOciDifStackConfig")]
     public interface IDataOciDifStackConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
         [JsiiProperty(name: "stackId", typeJson: "{\"primitive\":\"string\"}")]
         string StackId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDifStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
             [JsiiProperty(name: "stackId", typeJson: "{\"primitive\":\"string\"}")]
             public string StackId
             {

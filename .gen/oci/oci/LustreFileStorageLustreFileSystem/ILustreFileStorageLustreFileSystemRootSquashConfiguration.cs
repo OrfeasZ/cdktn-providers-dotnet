@@ -7,7 +7,7 @@ namespace oci.LustreFileStorageLustreFileSystem
     [JsiiInterface(nativeType: typeof(ILustreFileStorageLustreFileSystemRootSquashConfiguration), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemRootSquashConfiguration")]
     public interface ILustreFileStorageLustreFileSystemRootSquashConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}.</summary>
         [JsiiProperty(name: "clientExceptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ClientExceptions
@@ -18,7 +18,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}.</summary>
         [JsiiProperty(name: "identitySquash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentitySquash
@@ -29,7 +29,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}.</summary>
         [JsiiProperty(name: "squashGid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SquashGid
@@ -40,7 +40,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}.</summary>
         [JsiiProperty(name: "squashUid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SquashUid
@@ -58,7 +58,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#client_exceptions LustreFileStorageLustreFileSystem#client_exceptions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientExceptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ClientExceptions
@@ -66,7 +66,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#identity_squash LustreFileStorageLustreFileSystem#identity_squash}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identitySquash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentitySquash
@@ -74,7 +74,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#squash_gid LustreFileStorageLustreFileSystem#squash_gid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "squashGid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SquashGid
@@ -82,7 +82,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/lustre_file_storage_lustre_file_system#squash_uid LustreFileStorageLustreFileSystem#squash_uid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "squashUid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SquashUid

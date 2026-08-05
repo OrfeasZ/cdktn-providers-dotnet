@@ -9,7 +9,7 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiByValue(fqn: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters")]
     public class OpensearchOpensearchClusterOutboundClusterConfigOutboundClusters : oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterOutboundClusterConfigOutboundClusters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#seed_cluster_id OpensearchOpensearchCluster#seed_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#seed_cluster_id OpensearchOpensearchCluster#seed_cluster_id}.</summary>
         [JsiiProperty(name: "seedClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string SeedClusterId
         {
@@ -27,7 +27,7 @@ namespace oci.OpensearchOpensearchCluster
 
         private object? _isSkipUnavailable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#is_skip_unavailable OpensearchOpensearchCluster#is_skip_unavailable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#is_skip_unavailable OpensearchOpensearchCluster#is_skip_unavailable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#mode OpensearchOpensearchCluster#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#mode OpensearchOpensearchCluster#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -68,7 +68,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#ping_schedule OpensearchOpensearchCluster#ping_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#ping_schedule OpensearchOpensearchCluster#ping_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pingSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PingSchedule

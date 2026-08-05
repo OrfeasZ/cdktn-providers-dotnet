@@ -9,7 +9,7 @@ namespace oci.DatascienceMlApplicationInstance
     [JsiiByValue(fqn: "oci.datascienceMlApplicationInstance.DatascienceMlApplicationInstanceConfig")]
     public class DatascienceMlApplicationInstanceConfig : oci.DatascienceMlApplicationInstance.IDatascienceMlApplicationInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#compartment_id DatascienceMlApplicationInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#compartment_id DatascienceMlApplicationInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#ml_application_id DatascienceMlApplicationInstance#ml_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#ml_application_id DatascienceMlApplicationInstance#ml_application_id}.</summary>
         [JsiiProperty(name: "mlApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string MlApplicationId
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#ml_application_implementation_id DatascienceMlApplicationInstance#ml_application_implementation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#ml_application_implementation_id DatascienceMlApplicationInstance#ml_application_implementation_id}.</summary>
         [JsiiProperty(name: "mlApplicationImplementationId", typeJson: "{\"primitive\":\"string\"}")]
         public string MlApplicationImplementationId
         {
@@ -35,7 +35,7 @@ namespace oci.DatascienceMlApplicationInstance
 
         /// <summary>auth_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#auth_configuration DatascienceMlApplicationInstance#auth_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#auth_configuration DatascienceMlApplicationInstance#auth_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authConfiguration", typeJson: "{\"fqn\":\"oci.datascienceMlApplicationInstance.DatascienceMlApplicationInstanceAuthConfiguration\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace oci.DatascienceMlApplicationInstance
 
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#configuration DatascienceMlApplicationInstance#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#configuration DatascienceMlApplicationInstance#configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceMlApplicationInstance.IDatascienceMlApplicationInstanceConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace oci.DatascienceMlApplicationInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#defined_tags DatascienceMlApplicationInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#defined_tags DatascienceMlApplicationInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -89,7 +89,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#display_name DatascienceMlApplicationInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#display_name DatascienceMlApplicationInstance#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -98,7 +98,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#freeform_tags DatascienceMlApplicationInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#freeform_tags DatascienceMlApplicationInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -107,7 +107,7 @@ namespace oci.DatascienceMlApplicationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#id DatascienceMlApplicationInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#id DatascienceMlApplicationInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -122,7 +122,7 @@ namespace oci.DatascienceMlApplicationInstance
 
         private object? _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#is_enabled DatascienceMlApplicationInstance#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#is_enabled DatascienceMlApplicationInstance#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -156,7 +156,7 @@ namespace oci.DatascienceMlApplicationInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/datascience_ml_application_instance#timeouts DatascienceMlApplicationInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_ml_application_instance#timeouts DatascienceMlApplicationInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceMlApplicationInstance.DatascienceMlApplicationInstanceTimeouts\"}", isOptional: true)]

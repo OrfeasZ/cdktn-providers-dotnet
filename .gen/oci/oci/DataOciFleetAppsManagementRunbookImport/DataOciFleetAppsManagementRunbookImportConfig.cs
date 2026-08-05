@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementRunbookImport
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementRunbookImport.DataOciFleetAppsManagementRunbookImportConfig")]
     public class DataOciFleetAppsManagementRunbookImportConfig : oci.DataOciFleetAppsManagementRunbookImport.IDataOciFleetAppsManagementRunbookImportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_import#import_id DataOciFleetAppsManagementRunbookImport#import_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_import#import_id DataOciFleetAppsManagementRunbookImport#import_id}.</summary>
         [JsiiProperty(name: "importId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImportId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementRunbookImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_import#runbook_id DataOciFleetAppsManagementRunbookImport#runbook_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_import#runbook_id DataOciFleetAppsManagementRunbookImport#runbook_id}.</summary>
         [JsiiProperty(name: "runbookId", typeJson: "{\"primitive\":\"string\"}")]
         public string RunbookId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciFleetAppsManagementRunbookImport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_import#id DataOciFleetAppsManagementRunbookImport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_import#id DataOciFleetAppsManagementRunbookImport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

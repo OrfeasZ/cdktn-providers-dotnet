@@ -35,6 +35,12 @@ namespace oci.DatabaseDatabaseUpgrade
         {
         }
 
+        [JsiiProperty(name: "managedAutoFailOverReadiness", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ManagedAutoFailOverReadiness
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "members", typeJson: "{\"fqn\":\"oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeDataGuardGroupMembersList\"}")]
         public virtual oci.DatabaseDatabaseUpgrade.DatabaseDatabaseUpgradeDataGuardGroupMembersList Members
         {

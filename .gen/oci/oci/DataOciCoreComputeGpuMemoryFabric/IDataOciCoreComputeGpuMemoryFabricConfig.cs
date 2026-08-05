@@ -7,7 +7,7 @@ namespace oci.DataOciCoreComputeGpuMemoryFabric
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeGpuMemoryFabricConfig), fullyQualifiedName: "oci.dataOciCoreComputeGpuMemoryFabric.DataOciCoreComputeGpuMemoryFabricConfig")]
     public interface IDataOciCoreComputeGpuMemoryFabricConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
         [JsiiProperty(name: "computeGpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeGpuMemoryFabricId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreComputeGpuMemoryFabric
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id DataOciCoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
             [JsiiProperty(name: "computeGpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeGpuMemoryFabricId
             {

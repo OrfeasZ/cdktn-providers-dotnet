@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlChannel
     [JsiiByValue(fqn: "oci.dataOciMysqlChannel.DataOciMysqlChannelConfig")]
     public class DataOciMysqlChannelConfig : oci.DataOciMysqlChannel.IDataOciMysqlChannelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}.</summary>
         [JsiiProperty(name: "channelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ChannelId
         {

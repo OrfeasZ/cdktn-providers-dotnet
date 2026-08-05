@@ -5,7 +5,7 @@ namespace oci.DisasterRecoveryDrPlanExecution
     /// <remarks>
     /// <h1><c>oci_disaster_recovery_dr_plan_execution</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/disaster_recovery_dr_plan_execution"><c>oci_disaster_recovery_dr_plan_execution</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_dr_plan_execution"><c>oci_disaster_recovery_dr_plan_execution</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubDynamicSetManagedInstances
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubDynamicSetManagedInstances.DataOciOsManagementHubDynamicSetManagedInstancesFilter")]
     public class DataOciOsManagementHubDynamicSetManagedInstancesFilter : oci.DataOciOsManagementHubDynamicSetManagedInstances.IDataOciOsManagementHubDynamicSetManagedInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#name DataOciOsManagementHubDynamicSetManagedInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#name DataOciOsManagementHubDynamicSetManagedInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubDynamicSetManagedInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#values DataOciOsManagementHubDynamicSetManagedInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#values DataOciOsManagementHubDynamicSetManagedInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOsManagementHubDynamicSetManagedInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#regex DataOciOsManagementHubDynamicSetManagedInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_dynamic_set_managed_instances#regex DataOciOsManagementHubDynamicSetManagedInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

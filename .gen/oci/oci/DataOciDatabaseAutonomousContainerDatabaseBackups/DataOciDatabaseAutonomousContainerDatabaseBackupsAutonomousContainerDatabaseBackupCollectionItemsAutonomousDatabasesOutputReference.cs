@@ -47,6 +47,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseBackups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string State
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousContainerDatabaseBackups.DataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsAutonomousDatabases\"}", isOptional: true)]
         public virtual oci.DataOciDatabaseAutonomousContainerDatabaseBackups.IDataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsAutonomousDatabases? InternalValue

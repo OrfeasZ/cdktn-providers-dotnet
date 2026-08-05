@@ -7,35 +7,35 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfile
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubSoftwareSourceModuleStreamProfileConfig), fullyQualifiedName: "oci.dataOciOsManagementHubSoftwareSourceModuleStreamProfile.DataOciOsManagementHubSoftwareSourceModuleStreamProfileConfig")]
     public interface IDataOciOsManagementHubSoftwareSourceModuleStreamProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#module_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#module_name}.</summary>
         [JsiiProperty(name: "moduleName", typeJson: "{\"primitive\":\"string\"}")]
         string ModuleName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#profile_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#profile_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#profile_name}.</summary>
         [JsiiProperty(name: "profileName", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareSourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#stream_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#stream_name}.</summary>
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
         string StreamName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,35 +57,35 @@ namespace oci.DataOciOsManagementHubSoftwareSourceModuleStreamProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#module_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#module_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#module_name}.</summary>
             [JsiiProperty(name: "moduleName", typeJson: "{\"primitive\":\"string\"}")]
             public string ModuleName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#profile_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#profile_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#profile_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#profile_name}.</summary>
             [JsiiProperty(name: "profileName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#software_source_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#software_source_id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#software_source_id}.</summary>
             [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareSourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#stream_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#stream_name DataOciOsManagementHubSoftwareSourceModuleStreamProfile#stream_name}.</summary>
             [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_module_stream_profile#id DataOciOsManagementHubSoftwareSourceModuleStreamProfile#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

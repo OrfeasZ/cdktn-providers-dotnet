@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiHostInsight
     [JsiiByValue(fqn: "oci.dataOciOpsiHostInsight.DataOciOpsiHostInsightConfig")]
     public class DataOciOpsiHostInsightConfig : oci.DataOciOpsiHostInsight.IDataOciOpsiHostInsightConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_host_insight#host_insight_id DataOciOpsiHostInsight#host_insight_id}.</summary>
         [JsiiProperty(name: "hostInsightId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostInsightId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceProject
     [JsiiByValue(fqn: "oci.dataOciDatascienceProject.DataOciDatascienceProjectConfig")]
     public class DataOciDatascienceProjectConfig : oci.DataOciDatascienceProject.IDataOciDatascienceProjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {

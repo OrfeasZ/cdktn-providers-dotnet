@@ -9,7 +9,7 @@ namespace aws.S3TablesTableReplication
     [JsiiByValue(fqn: "aws.s3TablesTableReplication.S3TablesTableReplicationConfig")]
     public class S3TablesTableReplicationConfig : aws.S3TablesTableReplication.IS3TablesTableReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3tables_table_replication#role S3TablesTableReplication#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_replication#role S3TablesTableReplication#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -17,7 +17,7 @@ namespace aws.S3TablesTableReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3tables_table_replication#table_arn S3TablesTableReplication#table_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_replication#table_arn S3TablesTableReplication#table_arn}.</summary>
         [JsiiProperty(name: "tableArn", typeJson: "{\"primitive\":\"string\"}")]
         public string TableArn
         {
@@ -27,7 +27,7 @@ namespace aws.S3TablesTableReplication
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3tables_table_replication#region S3TablesTableReplication#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_replication#region S3TablesTableReplication#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace aws.S3TablesTableReplication
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/s3tables_table_replication#rule S3TablesTableReplication#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/s3tables_table_replication#rule S3TablesTableReplication#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTableReplication.IS3TablesTableReplicationRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace oci.UsageProxySubscriptionRedeemableUser
     [JsiiByValue(fqn: "oci.usageProxySubscriptionRedeemableUser.UsageProxySubscriptionRedeemableUserItems")]
     public class UsageProxySubscriptionRedeemableUserItems : oci.UsageProxySubscriptionRedeemableUser.IUsageProxySubscriptionRedeemableUserItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/usage_proxy_subscription_redeemable_user#email_id UsageProxySubscriptionRedeemableUser#email_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/usage_proxy_subscription_redeemable_user#email_id UsageProxySubscriptionRedeemableUser#email_id}.</summary>
         [JsiiProperty(name: "emailId", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailId
         {
@@ -17,7 +17,7 @@ namespace oci.UsageProxySubscriptionRedeemableUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/usage_proxy_subscription_redeemable_user#first_name UsageProxySubscriptionRedeemableUser#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/usage_proxy_subscription_redeemable_user#first_name UsageProxySubscriptionRedeemableUser#first_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FirstName
@@ -26,7 +26,7 @@ namespace oci.UsageProxySubscriptionRedeemableUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/usage_proxy_subscription_redeemable_user#last_name UsageProxySubscriptionRedeemableUser#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/usage_proxy_subscription_redeemable_user#last_name UsageProxySubscriptionRedeemableUser#last_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LastName

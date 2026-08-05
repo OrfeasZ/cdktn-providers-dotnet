@@ -7,28 +7,28 @@ namespace oci.DataOciMulticloudResourceAnchor
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudResourceAnchorConfig), fullyQualifiedName: "oci.dataOciMulticloudResourceAnchor.DataOciMulticloudResourceAnchorConfig")]
     public interface IDataOciMulticloudResourceAnchorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
         [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceAnchorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionServiceName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#should_fetch_compartment_name DataOciMulticloudResourceAnchor#should_fetch_compartment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#should_fetch_compartment_name DataOciMulticloudResourceAnchor#should_fetch_compartment_name}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,28 +49,28 @@ namespace oci.DataOciMulticloudResourceAnchor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#resource_anchor_id DataOciMulticloudResourceAnchor#resource_anchor_id}.</summary>
             [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceAnchorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#subscription_id DataOciMulticloudResourceAnchor#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#subscription_service_name DataOciMulticloudResourceAnchor#subscription_service_name}.</summary>
             [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionServiceName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_resource_anchor#should_fetch_compartment_name DataOciMulticloudResourceAnchor#should_fetch_compartment_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_resource_anchor#should_fetch_compartment_name DataOciMulticloudResourceAnchor#should_fetch_compartment_name}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

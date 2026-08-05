@@ -7,21 +7,21 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeSupportedCloudRegionsFilter), fullyQualifiedName: "oci.dataOciCloudBridgeSupportedCloudRegions.DataOciCloudBridgeSupportedCloudRegionsFilter")]
     public interface IDataOciCloudBridgeSupportedCloudRegionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name DataOciCloudBridgeSupportedCloudRegions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name DataOciCloudBridgeSupportedCloudRegions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#values DataOciCloudBridgeSupportedCloudRegions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#values DataOciCloudBridgeSupportedCloudRegions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#regex DataOciCloudBridgeSupportedCloudRegions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#regex DataOciCloudBridgeSupportedCloudRegions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCloudBridgeSupportedCloudRegions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name DataOciCloudBridgeSupportedCloudRegions#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#name DataOciCloudBridgeSupportedCloudRegions#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#values DataOciCloudBridgeSupportedCloudRegions#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#values DataOciCloudBridgeSupportedCloudRegions#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/cloud_bridge_supported_cloud_regions#regex DataOciCloudBridgeSupportedCloudRegions#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_bridge_supported_cloud_regions#regex DataOciCloudBridgeSupportedCloudRegions#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAzureVaultAssociation.DbmulticloudOracleDbAzureVaultAssociationTimeouts")]
     public class DbmulticloudOracleDbAzureVaultAssociationTimeouts : oci.DbmulticloudOracleDbAzureVaultAssociation.IDbmulticloudOracleDbAzureVaultAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#create DbmulticloudOracleDbAzureVaultAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#create DbmulticloudOracleDbAzureVaultAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#delete DbmulticloudOracleDbAzureVaultAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#delete DbmulticloudOracleDbAzureVaultAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAzureVaultAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#update DbmulticloudOracleDbAzureVaultAssociation#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_azure_vault_association#update DbmulticloudOracleDbAzureVaultAssociation#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

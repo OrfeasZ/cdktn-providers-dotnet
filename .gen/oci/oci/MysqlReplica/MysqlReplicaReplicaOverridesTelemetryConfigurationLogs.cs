@@ -9,7 +9,7 @@ namespace oci.MysqlReplica
     [JsiiByValue(fqn: "oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfigurationLogs")]
     public class MysqlReplicaReplicaOverridesTelemetryConfigurationLogs : oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfigurationLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_replica#destination MysqlReplica#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_replica#destination MysqlReplica#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -21,7 +21,7 @@ namespace oci.MysqlReplica
 
         /// <summary>destination_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_replica#destination_configurations MysqlReplica#destination_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_replica#destination_configurations MysqlReplica#destination_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlReplica.IMysqlReplicaReplicaOverridesTelemetryConfigurationLogsDestinationConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destinationConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.mysqlReplica.MysqlReplicaReplicaOverridesTelemetryConfigurationLogsDestinationConfigurations\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.MysqlReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/mysql_replica#log_types MysqlReplica#log_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_replica#log_types MysqlReplica#log_types}.</summary>
         [JsiiProperty(name: "logTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] LogTypes
         {

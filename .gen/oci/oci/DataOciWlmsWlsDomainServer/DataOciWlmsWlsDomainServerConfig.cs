@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomainServer
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomainServer.DataOciWlmsWlsDomainServerConfig")]
     public class DataOciWlmsWlsDomainServerConfig : oci.DataOciWlmsWlsDomainServer.IDataOciWlmsWlsDomainServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server#server_id DataOciWlmsWlsDomainServer#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server#server_id DataOciWlmsWlsDomainServer#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsWlsDomainServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server#wls_domain_id DataOciWlmsWlsDomainServer#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server#wls_domain_id DataOciWlmsWlsDomainServer#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string WlsDomainId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciWlmsWlsDomainServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/wlms_wls_domain_server#id DataOciWlmsWlsDomainServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server#id DataOciWlmsWlsDomainServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

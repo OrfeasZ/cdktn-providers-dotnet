@@ -7,49 +7,49 @@ namespace oci.IdentityDomainsMappedAttribute
     [JsiiInterface(nativeType: typeof(IIdentityDomainsMappedAttributeConfig), fullyQualifiedName: "oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeConfig")]
     public interface IIdentityDomainsMappedAttributeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#direction IdentityDomainsMappedAttribute#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#direction IdentityDomainsMappedAttribute#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         string Direction
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#idcs_endpoint IdentityDomainsMappedAttribute#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#idcs_endpoint IdentityDomainsMappedAttribute#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#idcs_resource_type IdentityDomainsMappedAttribute#idcs_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#idcs_resource_type IdentityDomainsMappedAttribute#idcs_resource_type}.</summary>
         [JsiiProperty(name: "idcsResourceType", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsResourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#mapped_attribute_id IdentityDomainsMappedAttribute#mapped_attribute_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#mapped_attribute_id IdentityDomainsMappedAttribute#mapped_attribute_id}.</summary>
         [JsiiProperty(name: "mappedAttributeId", typeJson: "{\"primitive\":\"string\"}")]
         string MappedAttributeId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ref_resource_id IdentityDomainsMappedAttribute#ref_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ref_resource_id IdentityDomainsMappedAttribute#ref_resource_id}.</summary>
         [JsiiProperty(name: "refResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string RefResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ref_resource_type IdentityDomainsMappedAttribute#ref_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ref_resource_type IdentityDomainsMappedAttribute#ref_resource_type}.</summary>
         [JsiiProperty(name: "refResourceType", typeJson: "{\"primitive\":\"string\"}")]
         string RefResourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#schemas IdentityDomainsMappedAttribute#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#schemas IdentityDomainsMappedAttribute#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Schemas
         {
@@ -58,7 +58,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
         /// <summary>attribute_mappings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attribute_mappings IdentityDomainsMappedAttribute#attribute_mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attribute_mappings IdentityDomainsMappedAttribute#attribute_mappings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeAttributeMappings" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "attributeMappings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeAttributeMappings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attributes IdentityDomainsMappedAttribute#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attributes IdentityDomainsMappedAttribute#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -82,7 +82,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attribute_sets IdentityDomainsMappedAttribute#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attribute_sets IdentityDomainsMappedAttribute#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -93,7 +93,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#authorization IdentityDomainsMappedAttribute#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#authorization IdentityDomainsMappedAttribute#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -104,7 +104,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ocid IdentityDomainsMappedAttribute#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ocid IdentityDomainsMappedAttribute#ocid}.</summary>
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ocid
@@ -115,7 +115,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#resource_type_schema_version IdentityDomainsMappedAttribute#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#resource_type_schema_version IdentityDomainsMappedAttribute#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -128,7 +128,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#tags IdentityDomainsMappedAttribute#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#tags IdentityDomainsMappedAttribute#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#timeouts IdentityDomainsMappedAttribute#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#timeouts IdentityDomainsMappedAttribute#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -162,49 +162,49 @@ namespace oci.IdentityDomainsMappedAttribute
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#direction IdentityDomainsMappedAttribute#direction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#direction IdentityDomainsMappedAttribute#direction}.</summary>
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
             public string Direction
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#idcs_endpoint IdentityDomainsMappedAttribute#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#idcs_endpoint IdentityDomainsMappedAttribute#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#idcs_resource_type IdentityDomainsMappedAttribute#idcs_resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#idcs_resource_type IdentityDomainsMappedAttribute#idcs_resource_type}.</summary>
             [JsiiProperty(name: "idcsResourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsResourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#mapped_attribute_id IdentityDomainsMappedAttribute#mapped_attribute_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#mapped_attribute_id IdentityDomainsMappedAttribute#mapped_attribute_id}.</summary>
             [JsiiProperty(name: "mappedAttributeId", typeJson: "{\"primitive\":\"string\"}")]
             public string MappedAttributeId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ref_resource_id IdentityDomainsMappedAttribute#ref_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ref_resource_id IdentityDomainsMappedAttribute#ref_resource_id}.</summary>
             [JsiiProperty(name: "refResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string RefResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ref_resource_type IdentityDomainsMappedAttribute#ref_resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ref_resource_type IdentityDomainsMappedAttribute#ref_resource_type}.</summary>
             [JsiiProperty(name: "refResourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string RefResourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#schemas IdentityDomainsMappedAttribute#schemas}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#schemas IdentityDomainsMappedAttribute#schemas}.</summary>
             [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Schemas
             {
@@ -213,7 +213,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
             /// <summary>attribute_mappings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attribute_mappings IdentityDomainsMappedAttribute#attribute_mappings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attribute_mappings IdentityDomainsMappedAttribute#attribute_mappings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeAttributeMappings" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -223,7 +223,7 @@ namespace oci.IdentityDomainsMappedAttribute
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attributes IdentityDomainsMappedAttribute#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attributes IdentityDomainsMappedAttribute#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -231,7 +231,7 @@ namespace oci.IdentityDomainsMappedAttribute
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#attribute_sets IdentityDomainsMappedAttribute#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#attribute_sets IdentityDomainsMappedAttribute#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -239,7 +239,7 @@ namespace oci.IdentityDomainsMappedAttribute
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#authorization IdentityDomainsMappedAttribute#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#authorization IdentityDomainsMappedAttribute#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -247,7 +247,7 @@ namespace oci.IdentityDomainsMappedAttribute
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#ocid IdentityDomainsMappedAttribute#ocid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#ocid IdentityDomainsMappedAttribute#ocid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ocid
@@ -255,7 +255,7 @@ namespace oci.IdentityDomainsMappedAttribute
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#resource_type_schema_version IdentityDomainsMappedAttribute#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#resource_type_schema_version IdentityDomainsMappedAttribute#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion
@@ -265,7 +265,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
             /// <summary>tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#tags IdentityDomainsMappedAttribute#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#tags IdentityDomainsMappedAttribute#tags}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -277,7 +277,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_mapped_attribute#timeouts IdentityDomainsMappedAttribute#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#timeouts IdentityDomainsMappedAttribute#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeTimeouts\"}", isOptional: true)]

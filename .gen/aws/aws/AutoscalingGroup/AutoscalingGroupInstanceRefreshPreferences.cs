@@ -9,7 +9,7 @@ namespace aws.AutoscalingGroup
     {
         /// <summary>alarm_specification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#alarm_specification AutoscalingGroup#alarm_specification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#alarm_specification AutoscalingGroup#alarm_specification}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alarmSpecification", typeJson: "{\"fqn\":\"aws.autoscalingGroup.AutoscalingGroupInstanceRefreshPreferencesAlarmSpecification\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.AutoscalingGroup
 
         private object? _autoRollback;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#auto_rollback AutoscalingGroup#auto_rollback}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#auto_rollback AutoscalingGroup#auto_rollback}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.AutoscalingGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#checkpoint_delay AutoscalingGroup#checkpoint_delay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#checkpoint_delay AutoscalingGroup#checkpoint_delay}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "checkpointDelay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CheckpointDelay
@@ -62,7 +62,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#checkpoint_percentages AutoscalingGroup#checkpoint_percentages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#checkpoint_percentages AutoscalingGroup#checkpoint_percentages}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "checkpointPercentages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         public double[]? CheckpointPercentages
@@ -71,7 +71,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#instance_warmup AutoscalingGroup#instance_warmup}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#instance_warmup AutoscalingGroup#instance_warmup}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "instanceWarmup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstanceWarmup
@@ -80,7 +80,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#max_healthy_percentage AutoscalingGroup#max_healthy_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxHealthyPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxHealthyPercentage
@@ -89,7 +89,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#min_healthy_percentage AutoscalingGroup#min_healthy_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minHealthyPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinHealthyPercentage
@@ -98,7 +98,7 @@ namespace aws.AutoscalingGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#scale_in_protected_instances AutoscalingGroup#scale_in_protected_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#scale_in_protected_instances AutoscalingGroup#scale_in_protected_instances}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scaleInProtectedInstances", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScaleInProtectedInstances
@@ -109,7 +109,7 @@ namespace aws.AutoscalingGroup
 
         private object? _skipMatching;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#skip_matching AutoscalingGroup#skip_matching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#skip_matching AutoscalingGroup#skip_matching}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -141,7 +141,7 @@ namespace aws.AutoscalingGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/autoscaling_group#standby_instances AutoscalingGroup#standby_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#standby_instances AutoscalingGroup#standby_instances}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "standbyInstances", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StandbyInstances

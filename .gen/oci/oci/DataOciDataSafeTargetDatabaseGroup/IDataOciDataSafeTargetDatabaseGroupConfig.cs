@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroup
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeTargetDatabaseGroupConfig), fullyQualifiedName: "oci.dataOciDataSafeTargetDatabaseGroup.DataOciDataSafeTargetDatabaseGroupConfig")]
     public interface IDataOciDataSafeTargetDatabaseGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetDatabaseGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_database_group#target_database_group_id DataOciDataSafeTargetDatabaseGroup#target_database_group_id}.</summary>
             [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetDatabaseGroupId
             {

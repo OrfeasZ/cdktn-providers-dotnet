@@ -9,7 +9,7 @@ namespace oci.DataOciOptimizerEnrollmentStatus
     [JsiiByValue(fqn: "oci.dataOciOptimizerEnrollmentStatus.DataOciOptimizerEnrollmentStatusConfig")]
     public class DataOciOptimizerEnrollmentStatusConfig : oci.DataOciOptimizerEnrollmentStatus.IDataOciOptimizerEnrollmentStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/optimizer_enrollment_status#enrollment_status_id DataOciOptimizerEnrollmentStatus#enrollment_status_id}.</summary>
         [JsiiProperty(name: "enrollmentStatusId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnrollmentStatusId
         {

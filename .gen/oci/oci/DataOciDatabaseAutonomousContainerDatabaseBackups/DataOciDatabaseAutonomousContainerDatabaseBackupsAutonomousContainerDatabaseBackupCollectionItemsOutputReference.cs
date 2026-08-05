@@ -53,8 +53,20 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseBackups
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousContainerDatabaseBackups.DataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsAutonomousDatabasesList>()!;
         }
 
+        [JsiiProperty(name: "backupDestinationDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousContainerDatabaseBackups.DataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsBackupDestinationDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousContainerDatabaseBackups.DataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsBackupDestinationDetailsList BackupDestinationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousContainerDatabaseBackups.DataOciDatabaseAutonomousContainerDatabaseBackupsAutonomousContainerDatabaseBackupCollectionItemsBackupDestinationDetailsList>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DbVersion
         {
             get => GetInstanceProperty<string>()!;
         }

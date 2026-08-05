@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
     [JsiiByValue(fqn: "oci.databaseManagementExternalMySqlDatabaseConnector.DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails")]
     public class DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails : oci.DatabaseManagementExternalMySqlDatabaseConnector.IDatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#credential_type DatabaseManagementExternalMySqlDatabaseConnector#credential_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#credential_type DatabaseManagementExternalMySqlDatabaseConnector#credential_type}.</summary>
         [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#display_name DatabaseManagementExternalMySqlDatabaseConnector#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#display_name DatabaseManagementExternalMySqlDatabaseConnector#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#external_database_id DatabaseManagementExternalMySqlDatabaseConnector#external_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#external_database_id DatabaseManagementExternalMySqlDatabaseConnector#external_database_id}.</summary>
         [JsiiProperty(name: "externalDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDatabaseId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#host_name DatabaseManagementExternalMySqlDatabaseConnector#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#host_name DatabaseManagementExternalMySqlDatabaseConnector#host_name}.</summary>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}")]
         public string HostName
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#macs_agent_id DatabaseManagementExternalMySqlDatabaseConnector#macs_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#macs_agent_id DatabaseManagementExternalMySqlDatabaseConnector#macs_agent_id}.</summary>
         [JsiiProperty(name: "macsAgentId", typeJson: "{\"primitive\":\"string\"}")]
         public string MacsAgentId
         {
@@ -49,7 +49,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#network_protocol DatabaseManagementExternalMySqlDatabaseConnector#network_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#network_protocol DatabaseManagementExternalMySqlDatabaseConnector#network_protocol}.</summary>
         [JsiiProperty(name: "networkProtocol", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkProtocol
         {
@@ -57,7 +57,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#port DatabaseManagementExternalMySqlDatabaseConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#port DatabaseManagementExternalMySqlDatabaseConnector#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -65,7 +65,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_management_external_my_sql_database_connector#ssl_secret_id DatabaseManagementExternalMySqlDatabaseConnector#ssl_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_my_sql_database_connector#ssl_secret_id DatabaseManagementExternalMySqlDatabaseConnector#ssl_secret_id}.</summary>
         [JsiiProperty(name: "sslSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SslSecretId
         {

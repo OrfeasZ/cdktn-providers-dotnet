@@ -9,7 +9,7 @@ namespace oci.DatabaseSchedulingPolicySchedulingWindow
     [JsiiByValue(fqn: "oci.databaseSchedulingPolicySchedulingWindow.DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek")]
     public class DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek : oci.DatabaseSchedulingPolicySchedulingWindow.IDatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

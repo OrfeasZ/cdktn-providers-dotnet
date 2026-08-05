@@ -7,7 +7,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciResourcemanagerPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciResourcemanagerPrivateEndpoint.DataOciResourcemanagerPrivateEndpointConfig")]
     public interface IDataOciResourcemanagerPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
             [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateEndpointId
             {

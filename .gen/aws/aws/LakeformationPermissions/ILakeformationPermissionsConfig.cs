@@ -7,21 +7,21 @@ namespace aws.LakeformationPermissions
     [JsiiInterface(nativeType: typeof(ILakeformationPermissionsConfig), fullyQualifiedName: "aws.lakeformationPermissions.LakeformationPermissionsConfig")]
     public interface ILakeformationPermissionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#permissions LakeformationPermissions#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#permissions LakeformationPermissions#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Permissions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#principal LakeformationPermissions#principal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#principal LakeformationPermissions#principal}.</summary>
         [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
         string Principal
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#catalog_id LakeformationPermissions#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#catalog_id LakeformationPermissions#catalog_id}.</summary>
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CatalogId
@@ -32,7 +32,7 @@ namespace aws.LakeformationPermissions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#catalog_resource LakeformationPermissions#catalog_resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#catalog_resource LakeformationPermissions#catalog_resource}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -48,7 +48,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>database block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#database LakeformationPermissions#database}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#database LakeformationPermissions#database}
         /// </remarks>
         [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDatabase\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>data_cells_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#data_cells_filter LakeformationPermissions#data_cells_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#data_cells_filter LakeformationPermissions#data_cells_filter}
         /// </remarks>
         [JsiiProperty(name: "dataCellsFilter", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>data_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#data_location LakeformationPermissions#data_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#data_location LakeformationPermissions#data_location}
         /// </remarks>
         [JsiiProperty(name: "dataLocation", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDataLocation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace aws.LakeformationPermissions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#id LakeformationPermissions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#id LakeformationPermissions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>lf_tag block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#lf_tag LakeformationPermissions#lf_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#lf_tag LakeformationPermissions#lf_tag}
         /// </remarks>
         [JsiiProperty(name: "lfTag", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsLfTag\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +119,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>lf_tag_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#lf_tag_policy LakeformationPermissions#lf_tag_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#lf_tag_policy LakeformationPermissions#lf_tag_policy}
         /// </remarks>
         [JsiiProperty(name: "lfTagPolicy", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace aws.LakeformationPermissions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#permissions_with_grant_option LakeformationPermissions#permissions_with_grant_option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#permissions_with_grant_option LakeformationPermissions#permissions_with_grant_option}.</summary>
         [JsiiProperty(name: "permissionsWithGrantOption", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PermissionsWithGrantOption
@@ -144,7 +144,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#region LakeformationPermissions#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#region LakeformationPermissions#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -158,7 +158,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>table block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#table LakeformationPermissions#table}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#table LakeformationPermissions#table}
         /// </remarks>
         [JsiiProperty(name: "table", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsTable\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -172,7 +172,7 @@ namespace aws.LakeformationPermissions
 
         /// <summary>table_with_columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#table_with_columns LakeformationPermissions#table_with_columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#table_with_columns LakeformationPermissions#table_with_columns}
         /// </remarks>
         [JsiiProperty(name: "tableWithColumns", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsTableWithColumns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -191,21 +191,21 @@ namespace aws.LakeformationPermissions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#permissions LakeformationPermissions#permissions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#permissions LakeformationPermissions#permissions}.</summary>
             [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Permissions
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#principal LakeformationPermissions#principal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#principal LakeformationPermissions#principal}.</summary>
             [JsiiProperty(name: "principal", typeJson: "{\"primitive\":\"string\"}")]
             public string Principal
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#catalog_id LakeformationPermissions#catalog_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#catalog_id LakeformationPermissions#catalog_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CatalogId
@@ -213,7 +213,7 @@ namespace aws.LakeformationPermissions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#catalog_resource LakeformationPermissions#catalog_resource}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#catalog_resource LakeformationPermissions#catalog_resource}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -226,7 +226,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>database block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#database LakeformationPermissions#database}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#database LakeformationPermissions#database}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "database", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDatabase\"}", isOptional: true)]
@@ -237,7 +237,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>data_cells_filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#data_cells_filter LakeformationPermissions#data_cells_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#data_cells_filter LakeformationPermissions#data_cells_filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataCellsFilter", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDataCellsFilter\"}", isOptional: true)]
@@ -248,7 +248,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>data_location block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#data_location LakeformationPermissions#data_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#data_location LakeformationPermissions#data_location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dataLocation", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsDataLocation\"}", isOptional: true)]
@@ -257,7 +257,7 @@ namespace aws.LakeformationPermissions
                 get => GetInstanceProperty<aws.LakeformationPermissions.ILakeformationPermissionsDataLocation?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#id LakeformationPermissions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#id LakeformationPermissions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -271,7 +271,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>lf_tag block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#lf_tag LakeformationPermissions#lf_tag}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#lf_tag LakeformationPermissions#lf_tag}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lfTag", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsLfTag\"}", isOptional: true)]
@@ -282,7 +282,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>lf_tag_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#lf_tag_policy LakeformationPermissions#lf_tag_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#lf_tag_policy LakeformationPermissions#lf_tag_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lfTagPolicy", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsLfTagPolicy\"}", isOptional: true)]
@@ -291,7 +291,7 @@ namespace aws.LakeformationPermissions
                 get => GetInstanceProperty<aws.LakeformationPermissions.ILakeformationPermissionsLfTagPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#permissions_with_grant_option LakeformationPermissions#permissions_with_grant_option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#permissions_with_grant_option LakeformationPermissions#permissions_with_grant_option}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "permissionsWithGrantOption", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PermissionsWithGrantOption
@@ -301,7 +301,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#region LakeformationPermissions#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#region LakeformationPermissions#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -312,7 +312,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>table block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#table LakeformationPermissions#table}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#table LakeformationPermissions#table}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "table", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsTable\"}", isOptional: true)]
@@ -323,7 +323,7 @@ namespace aws.LakeformationPermissions
 
             /// <summary>table_with_columns block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/lakeformation_permissions#table_with_columns LakeformationPermissions#table_with_columns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/lakeformation_permissions#table_with_columns LakeformationPermissions#table_with_columns}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tableWithColumns", typeJson: "{\"fqn\":\"aws.lakeformationPermissions.LakeformationPermissionsTableWithColumns\"}", isOptional: true)]

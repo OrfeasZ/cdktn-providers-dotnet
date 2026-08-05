@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExternalContainerDatabase
     [JsiiByValue(fqn: "oci.dataOciDatabaseExternalContainerDatabase.DataOciDatabaseExternalContainerDatabaseConfig")]
     public class DataOciDatabaseExternalContainerDatabaseConfig : oci.DataOciDatabaseExternalContainerDatabase.IDataOciDatabaseExternalContainerDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_external_container_database#external_container_database_id DataOciDatabaseExternalContainerDatabase#external_container_database_id}.</summary>
         [JsiiProperty(name: "externalContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalContainerDatabaseId
         {

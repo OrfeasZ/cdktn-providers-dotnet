@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
     [JsiiByValue(fqn: "oci.dataOciDatabaseScheduledActionParams.DataOciDatabaseScheduledActionParamsConfig")]
     public class DataOciDatabaseScheduledActionParamsConfig : oci.DataOciDatabaseScheduledActionParams.IDataOciDatabaseScheduledActionParamsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_action_params#type DataOciDatabaseScheduledActionParams#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduled_action_params#type DataOciDatabaseScheduledActionParams#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_action_params#filter DataOciDatabaseScheduledActionParams#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduled_action_params#filter DataOciDatabaseScheduledActionParams#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseScheduledActionParams.IDataOciDatabaseScheduledActionParamsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseScheduledActionParams
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_scheduled_action_params#id DataOciDatabaseScheduledActionParams#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduled_action_params#id DataOciDatabaseScheduledActionParams#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

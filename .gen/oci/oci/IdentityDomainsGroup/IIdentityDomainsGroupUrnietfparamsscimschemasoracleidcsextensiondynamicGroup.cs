@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsGroup
     [JsiiInterface(nativeType: typeof(IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondynamicGroup), fullyQualifiedName: "oci.identityDomainsGroup.IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondynamicGroup")]
     public interface IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensiondynamicGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}.</summary>
         [JsiiProperty(name: "membershipRule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MembershipRule
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}.</summary>
         [JsiiProperty(name: "membershipType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MembershipType
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_group#membership_rule IdentityDomainsGroup#membership_rule}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "membershipRule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MembershipRule
@@ -44,7 +44,7 @@ namespace oci.IdentityDomainsGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_group#membership_type IdentityDomainsGroup#membership_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "membershipType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MembershipType

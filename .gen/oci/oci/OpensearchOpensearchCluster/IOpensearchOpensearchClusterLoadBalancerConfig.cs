@@ -7,14 +7,14 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiInterface(nativeType: typeof(IOpensearchOpensearchClusterLoadBalancerConfig), fullyQualifiedName: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfig")]
     public interface IOpensearchOpensearchClusterLoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_service_type OpensearchOpensearchCluster#load_balancer_service_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_service_type OpensearchOpensearchCluster#load_balancer_service_type}.</summary>
         [JsiiProperty(name: "loadBalancerServiceType", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerServiceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_max_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_max_bandwidth_in_mbps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_max_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_max_bandwidth_in_mbps}.</summary>
         [JsiiProperty(name: "loadBalancerMaxBandwidthInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LoadBalancerMaxBandwidthInMbps
@@ -25,7 +25,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_min_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_min_bandwidth_in_mbps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_min_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_min_bandwidth_in_mbps}.</summary>
         [JsiiProperty(name: "loadBalancerMinBandwidthInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LoadBalancerMinBandwidthInMbps
@@ -43,14 +43,14 @@ namespace oci.OpensearchOpensearchCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_service_type OpensearchOpensearchCluster#load_balancer_service_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_service_type OpensearchOpensearchCluster#load_balancer_service_type}.</summary>
             [JsiiProperty(name: "loadBalancerServiceType", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerServiceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_max_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_max_bandwidth_in_mbps}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_max_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_max_bandwidth_in_mbps}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerMaxBandwidthInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LoadBalancerMaxBandwidthInMbps
@@ -58,7 +58,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/opensearch_opensearch_cluster#load_balancer_min_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_min_bandwidth_in_mbps}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/opensearch_opensearch_cluster#load_balancer_min_bandwidth_in_mbps OpensearchOpensearchCluster#load_balancer_min_bandwidth_in_mbps}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerMinBandwidthInMbps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LoadBalancerMinBandwidthInMbps

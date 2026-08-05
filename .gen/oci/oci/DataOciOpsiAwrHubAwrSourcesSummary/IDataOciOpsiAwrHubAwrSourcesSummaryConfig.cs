@@ -7,14 +7,14 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
     [JsiiInterface(nativeType: typeof(IDataOciOpsiAwrHubAwrSourcesSummaryConfig), fullyQualifiedName: "oci.dataOciOpsiAwrHubAwrSourcesSummary.DataOciOpsiAwrHubAwrSourcesSummaryConfig")]
     public interface IDataOciOpsiAwrHubAwrSourcesSummaryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#awr_hub_id DataOciOpsiAwrHubAwrSourcesSummary#awr_hub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#awr_hub_id DataOciOpsiAwrHubAwrSourcesSummary#awr_hub_id}.</summary>
         [JsiiProperty(name: "awrHubId", typeJson: "{\"primitive\":\"string\"}")]
         string AwrHubId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#compartment_id DataOciOpsiAwrHubAwrSourcesSummary#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#compartment_id DataOciOpsiAwrHubAwrSourcesSummary#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#id DataOciOpsiAwrHubAwrSourcesSummary#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#id DataOciOpsiAwrHubAwrSourcesSummary#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#name DataOciOpsiAwrHubAwrSourcesSummary#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#name DataOciOpsiAwrHubAwrSourcesSummary#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -58,14 +58,14 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#awr_hub_id DataOciOpsiAwrHubAwrSourcesSummary#awr_hub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#awr_hub_id DataOciOpsiAwrHubAwrSourcesSummary#awr_hub_id}.</summary>
             [JsiiProperty(name: "awrHubId", typeJson: "{\"primitive\":\"string\"}")]
             public string AwrHubId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#compartment_id DataOciOpsiAwrHubAwrSourcesSummary#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#compartment_id DataOciOpsiAwrHubAwrSourcesSummary#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -73,7 +73,7 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#id DataOciOpsiAwrHubAwrSourcesSummary#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#id DataOciOpsiAwrHubAwrSourcesSummary#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataOciOpsiAwrHubAwrSourcesSummary
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#name DataOciOpsiAwrHubAwrSourcesSummary#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_sources_summary#name DataOciOpsiAwrHubAwrSourcesSummary#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

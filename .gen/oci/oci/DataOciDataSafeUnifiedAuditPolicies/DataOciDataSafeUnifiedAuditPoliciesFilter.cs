@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicies
     [JsiiByValue(fqn: "oci.dataOciDataSafeUnifiedAuditPolicies.DataOciDataSafeUnifiedAuditPoliciesFilter")]
     public class DataOciDataSafeUnifiedAuditPoliciesFilter : oci.DataOciDataSafeUnifiedAuditPolicies.IDataOciDataSafeUnifiedAuditPoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policies#name DataOciDataSafeUnifiedAuditPolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policies#name DataOciDataSafeUnifiedAuditPolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policies#values DataOciDataSafeUnifiedAuditPolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policies#values DataOciDataSafeUnifiedAuditPolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/data_safe_unified_audit_policies#regex DataOciDataSafeUnifiedAuditPolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_unified_audit_policies#regex DataOciDataSafeUnifiedAuditPolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

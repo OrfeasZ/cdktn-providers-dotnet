@@ -9,7 +9,7 @@ namespace oci.GoldenGateDeploymentBackup
     [JsiiByValue(fqn: "oci.goldenGateDeploymentBackup.GoldenGateDeploymentBackupLocks")]
     public class GoldenGateDeploymentBackupLocks : oci.GoldenGateDeploymentBackup.IGoldenGateDeploymentBackupLocks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment_backup#type GoldenGateDeploymentBackup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateDeploymentBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment_backup#message GoldenGateDeploymentBackup#message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Message

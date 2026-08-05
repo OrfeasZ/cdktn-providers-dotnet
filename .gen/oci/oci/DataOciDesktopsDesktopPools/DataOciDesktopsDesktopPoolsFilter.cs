@@ -9,7 +9,7 @@ namespace oci.DataOciDesktopsDesktopPools
     [JsiiByValue(fqn: "oci.dataOciDesktopsDesktopPools.DataOciDesktopsDesktopPoolsFilter")]
     public class DataOciDesktopsDesktopPoolsFilter : oci.DataOciDesktopsDesktopPools.IDataOciDesktopsDesktopPoolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/desktops_desktop_pools#name DataOciDesktopsDesktopPools#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/desktops_desktop_pools#name DataOciDesktopsDesktopPools#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDesktopsDesktopPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/desktops_desktop_pools#values DataOciDesktopsDesktopPools#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/desktops_desktop_pools#values DataOciDesktopsDesktopPools#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDesktopsDesktopPools
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/desktops_desktop_pools#regex DataOciDesktopsDesktopPools#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/desktops_desktop_pools#regex DataOciDesktopsDesktopPools#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

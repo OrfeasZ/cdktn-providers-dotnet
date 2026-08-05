@@ -47,6 +47,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "autonomousDatabasesToClone", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AutonomousDatabasesToClone
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "autonomousExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AutonomousExadataInfrastructureId
         {
@@ -81,6 +87,18 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabases
         public virtual oci.DataOciDatabaseAutonomousContainerDatabases.DataOciDatabaseAutonomousContainerDatabasesAutonomousContainerDatabasesBackupDestinationPropertiesListStructList BackupDestinationPropertiesList
         {
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousContainerDatabases.DataOciDatabaseAutonomousContainerDatabasesAutonomousContainerDatabasesBackupDestinationPropertiesListStructList>()!;
+        }
+
+        [JsiiProperty(name: "cloneBandWidth", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CloneBandWidth
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cloneType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CloneType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "cloudAutonomousVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
@@ -449,8 +467,20 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "shouldUseLatestAvailableBackupTimeStamp", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ShouldUseLatestAvailableBackupTimeStamp
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Source
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceAutonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAutonomousContainerDatabaseId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -493,6 +523,12 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabases
 
         [JsiiProperty(name: "timeSnapshotStandbyRevert", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeSnapshotStandbyRevert
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeStampToUseForCloning", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeStampToUseForCloning
         {
             get => GetInstanceProperty<string>()!;
         }

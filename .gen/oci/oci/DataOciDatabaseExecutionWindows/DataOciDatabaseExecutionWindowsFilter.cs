@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExecutionWindows
     [JsiiByValue(fqn: "oci.dataOciDatabaseExecutionWindows.DataOciDatabaseExecutionWindowsFilter")]
     public class DataOciDatabaseExecutionWindowsFilter : oci.DataOciDatabaseExecutionWindows.IDataOciDatabaseExecutionWindowsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_execution_windows#name DataOciDatabaseExecutionWindows#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_execution_windows#name DataOciDatabaseExecutionWindows#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseExecutionWindows
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_execution_windows#values DataOciDatabaseExecutionWindows#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_execution_windows#values DataOciDatabaseExecutionWindows#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseExecutionWindows
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_execution_windows#regex DataOciDatabaseExecutionWindows#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_execution_windows#regex DataOciDatabaseExecutionWindows#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

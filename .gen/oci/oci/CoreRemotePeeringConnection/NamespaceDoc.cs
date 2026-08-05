@@ -5,7 +5,7 @@ namespace oci.CoreRemotePeeringConnection
     /// <remarks>
     /// <h1><c>oci_core_remote_peering_connection</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/core_remote_peering_connection"><c>oci_core_remote_peering_connection</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_remote_peering_connection"><c>oci_core_remote_peering_connection</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

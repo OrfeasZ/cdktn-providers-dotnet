@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.ApiGatewayRestApi
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api}.</summary>
     [JsiiClass(nativeType: typeof(aws.ApiGatewayRestApi.ApiGatewayRestApi), fullyQualifiedName: "aws.apiGatewayRestApi.ApiGatewayRestApi", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.apiGatewayRestApi.ApiGatewayRestApiConfig\"}}]")]
     public class ApiGatewayRestApi : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_rest_api aws_api_gateway_rest_api} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ApiGatewayRestApi(Constructs.Construct scope, string id, aws.ApiGatewayRestApi.IApiGatewayRestApiConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.ApiGatewayRestApi
         /// <param name="importToId">The construct id used in the generated config for the ApiGatewayRestApi to import.</param>
         /// <param name="importFromId">The id of the existing ApiGatewayRestApi that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ApiGatewayRestApi to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApiGatewayRestApi to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/api_gateway_rest_api#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApiGatewayRestApi that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApiGatewayRestApi to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ApiGatewayRestApi to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_rest_api#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ApiGatewayRestApi that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ApiGatewayRestApi to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ApiGatewayRestApi.ApiGatewayRestApi), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace aws.ApiGatewayRestApi
         public virtual void PutEndpointConfiguration(aws.ApiGatewayRestApi.IApiGatewayRestApiEndpointConfiguration @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ApiGatewayRestApi.IApiGatewayRestApiEndpointConfiguration)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.apiGatewayRestApi.ApiGatewayRestApiTimeouts\"}}]")]
+        public virtual void PutTimeouts(aws.ApiGatewayRestApi.IApiGatewayRestApiTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ApiGatewayRestApi.IApiGatewayRestApiTimeouts)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetApiKeySource")]
@@ -154,6 +160,12 @@ namespace aws.ApiGatewayRestApi
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -201,6 +213,12 @@ namespace aws.ApiGatewayRestApi
         public virtual string RootResourceId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.apiGatewayRestApi.ApiGatewayRestApiTimeoutsOutputReference\"}")]
+        public virtual aws.ApiGatewayRestApi.ApiGatewayRestApiTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<aws.ApiGatewayRestApi.ApiGatewayRestApiTimeoutsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -333,6 +351,16 @@ namespace aws.ApiGatewayRestApi
         public virtual System.Collections.Generic.IDictionary<string, string>? TagsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="aws.ApiGatewayRestApi.IApiGatewayRestApiTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"aws.apiGatewayRestApi.ApiGatewayRestApiTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "apiKeySource", typeJson: "{\"primitive\":\"string\"}")]

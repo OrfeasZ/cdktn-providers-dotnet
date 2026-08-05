@@ -35,6 +35,30 @@ namespace aws.GlueCatalogTableOptimizer
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfiguration" />)[]</param>
+        [JsiiMethod(name: "putCompactionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCompactionConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfiguration" />)[]</param>
         [JsiiMethod(name: "putOrphanFileDeletionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOrphanFileDeletionConfiguration(object @value)
@@ -83,6 +107,12 @@ namespace aws.GlueCatalogTableOptimizer
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCompactionConfiguration")]
+        public virtual void ResetCompactionConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOrphanFileDeletionConfiguration")]
         public virtual void ResetOrphanFileDeletionConfiguration()
         {
@@ -95,6 +125,12 @@ namespace aws.GlueCatalogTableOptimizer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "compactionConfiguration", typeJson: "{\"fqn\":\"aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfigurationList\"}")]
+        public virtual aws.GlueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfigurationList CompactionConfiguration
+        {
+            get => GetInstanceProperty<aws.GlueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "orphanFileDeletionConfiguration", typeJson: "{\"fqn\":\"aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurationList\"}")]
         public virtual aws.GlueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationOrphanFileDeletionConfigurationList OrphanFileDeletionConfiguration
         {
@@ -105,6 +141,16 @@ namespace aws.GlueCatalogTableOptimizer
         public virtual aws.GlueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationRetentionConfigurationList RetentionConfiguration
         {
             get => GetInstanceProperty<aws.GlueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationRetentionConfigurationList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "compactionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CompactionConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

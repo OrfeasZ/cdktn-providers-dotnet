@@ -7,21 +7,21 @@ namespace oci.DataOciCostadCostAnomalyMonitors
     [JsiiInterface(nativeType: typeof(IDataOciCostadCostAnomalyMonitorsFilter), fullyQualifiedName: "oci.dataOciCostadCostAnomalyMonitors.DataOciCostadCostAnomalyMonitorsFilter")]
     public interface IDataOciCostadCostAnomalyMonitorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCostadCostAnomalyMonitors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#name DataOciCostadCostAnomalyMonitors#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#values DataOciCostadCostAnomalyMonitors#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/costad_cost_anomaly_monitors#regex DataOciCostadCostAnomalyMonitors#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

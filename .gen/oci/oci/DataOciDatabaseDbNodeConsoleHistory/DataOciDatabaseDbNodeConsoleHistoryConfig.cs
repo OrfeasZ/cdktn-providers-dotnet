@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbNodeConsoleHistory.DataOciDatabaseDbNodeConsoleHistoryConfig")]
     public class DataOciDatabaseDbNodeConsoleHistoryConfig : oci.DataOciDatabaseDbNodeConsoleHistory.IDataOciDatabaseDbNodeConsoleHistoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_node_console_history#console_history_id DataOciDatabaseDbNodeConsoleHistory#console_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_node_console_history#console_history_id DataOciDatabaseDbNodeConsoleHistory#console_history_id}.</summary>
         [JsiiProperty(name: "consoleHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsoleHistoryId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDbNodeConsoleHistory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_db_node_console_history#db_node_id DataOciDatabaseDbNodeConsoleHistory#db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_node_console_history#db_node_id DataOciDatabaseDbNodeConsoleHistory#db_node_id}.</summary>
         [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbNodeId
         {

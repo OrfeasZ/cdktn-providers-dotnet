@@ -13,7 +13,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>output_groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#output_groups MedialiveChannel#output_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#output_groups MedialiveChannel#output_groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsOutputGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "outputGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsOutputGroups\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>timecode_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#timecode_config MedialiveChannel#timecode_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#timecode_config MedialiveChannel#timecode_config}
         /// </remarks>
         [JsiiProperty(name: "timecodeConfig", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsTimecodeConfig\"}")]
         public aws.MedialiveChannel.IMedialiveChannelEncoderSettingsTimecodeConfig TimecodeConfig
@@ -58,7 +58,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>audio_descriptions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#audio_descriptions MedialiveChannel#audio_descriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#audio_descriptions MedialiveChannel#audio_descriptions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -91,7 +91,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>avail_blanking block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#avail_blanking MedialiveChannel#avail_blanking}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#avail_blanking MedialiveChannel#avail_blanking}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "availBlanking", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAvailBlanking\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>caption_descriptions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#caption_descriptions MedialiveChannel#caption_descriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#caption_descriptions MedialiveChannel#caption_descriptions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsCaptionDescriptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -138,7 +138,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>global_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#global_configuration MedialiveChannel#global_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#global_configuration MedialiveChannel#global_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "globalConfiguration", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsGlobalConfiguration\"}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>motion_graphics_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#motion_graphics_configuration MedialiveChannel#motion_graphics_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#motion_graphics_configuration MedialiveChannel#motion_graphics_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "motionGraphicsConfiguration", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsMotionGraphicsConfiguration\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>nielsen_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#nielsen_configuration MedialiveChannel#nielsen_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#nielsen_configuration MedialiveChannel#nielsen_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nielsenConfiguration", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsNielsenConfiguration\"}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace aws.MedialiveChannel
 
         /// <summary>video_descriptions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/medialive_channel#video_descriptions MedialiveChannel#video_descriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/medialive_channel#video_descriptions MedialiveChannel#video_descriptions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsVideoDescriptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

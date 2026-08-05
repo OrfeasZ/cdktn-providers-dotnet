@@ -5,7 +5,7 @@ namespace oci.LoadBalancerListener
     /// <remarks>
     /// <h1><c>oci_load_balancer_listener</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/load_balancer_listener"><c>oci_load_balancer_listener</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_listener"><c>oci_load_balancer_listener</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

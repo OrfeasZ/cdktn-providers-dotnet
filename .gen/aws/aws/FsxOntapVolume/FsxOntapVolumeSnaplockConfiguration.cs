@@ -9,7 +9,7 @@ namespace aws.FsxOntapVolume
     [JsiiByValue(fqn: "aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfiguration")]
     public class FsxOntapVolumeSnaplockConfiguration : aws.FsxOntapVolume.IFsxOntapVolumeSnaplockConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#snaplock_type FsxOntapVolume#snaplock_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#snaplock_type FsxOntapVolume#snaplock_type}.</summary>
         [JsiiProperty(name: "snaplockType", typeJson: "{\"primitive\":\"string\"}")]
         public string SnaplockType
         {
@@ -19,7 +19,7 @@ namespace aws.FsxOntapVolume
 
         private object? _auditLogVolume;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#audit_log_volume FsxOntapVolume#audit_log_volume}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#audit_log_volume FsxOntapVolume#audit_log_volume}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.FsxOntapVolume
 
         /// <summary>autocommit_period block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#autocommit_period FsxOntapVolume#autocommit_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#autocommit_period FsxOntapVolume#autocommit_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autocommitPeriod", typeJson: "{\"fqn\":\"aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationAutocommitPeriod\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.FsxOntapVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#privileged_delete FsxOntapVolume#privileged_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#privileged_delete FsxOntapVolume#privileged_delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privilegedDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivilegedDelete
@@ -74,7 +74,7 @@ namespace aws.FsxOntapVolume
 
         /// <summary>retention_period block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#retention_period FsxOntapVolume#retention_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#retention_period FsxOntapVolume#retention_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"aws.fsxOntapVolume.FsxOntapVolumeSnaplockConfigurationRetentionPeriod\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.FsxOntapVolume
 
         private object? _volumeAppendModeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/fsx_ontap_volume#volume_append_mode_enabled FsxOntapVolume#volume_append_mode_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/fsx_ontap_volume#volume_append_mode_enabled FsxOntapVolume#volume_append_mode_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

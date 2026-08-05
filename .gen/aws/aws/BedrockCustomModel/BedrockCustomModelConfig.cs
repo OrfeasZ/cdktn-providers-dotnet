@@ -9,7 +9,7 @@ namespace aws.BedrockCustomModel
     [JsiiByValue(fqn: "aws.bedrockCustomModel.BedrockCustomModelConfig")]
     public class BedrockCustomModelConfig : aws.BedrockCustomModel.IBedrockCustomModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#base_model_identifier BedrockCustomModel#base_model_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#base_model_identifier BedrockCustomModel#base_model_identifier}.</summary>
         [JsiiProperty(name: "baseModelIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string BaseModelIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#custom_model_name BedrockCustomModel#custom_model_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#custom_model_name BedrockCustomModel#custom_model_name}.</summary>
         [JsiiProperty(name: "customModelName", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomModelName
         {
@@ -25,7 +25,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#hyperparameters BedrockCustomModel#hyperparameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#hyperparameters BedrockCustomModel#hyperparameters}.</summary>
         [JsiiProperty(name: "hyperparameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Hyperparameters
         {
@@ -33,7 +33,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#job_name BedrockCustomModel#job_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#job_name BedrockCustomModel#job_name}.</summary>
         [JsiiProperty(name: "jobName", typeJson: "{\"primitive\":\"string\"}")]
         public string JobName
         {
@@ -41,7 +41,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#role_arn BedrockCustomModel#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#role_arn BedrockCustomModel#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -49,7 +49,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#customization_type BedrockCustomModel#customization_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#customization_type BedrockCustomModel#customization_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customizationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomizationType
@@ -58,7 +58,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#custom_model_kms_key_id BedrockCustomModel#custom_model_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#custom_model_kms_key_id BedrockCustomModel#custom_model_kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customModelKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomModelKmsKeyId
@@ -71,7 +71,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>output_data_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#output_data_config BedrockCustomModel#output_data_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#output_data_config BedrockCustomModel#output_data_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelOutputDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +104,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#region BedrockCustomModel#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#region BedrockCustomModel#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace aws.BedrockCustomModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#tags BedrockCustomModel#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#tags BedrockCustomModel#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -125,7 +125,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#timeouts BedrockCustomModel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#timeouts BedrockCustomModel#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.bedrockCustomModel.BedrockCustomModelTimeouts\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>training_data_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#training_data_config BedrockCustomModel#training_data_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#training_data_config BedrockCustomModel#training_data_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelTrainingDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -174,7 +174,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>validation_data_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#validation_data_config BedrockCustomModel#validation_data_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#validation_data_config BedrockCustomModel#validation_data_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -209,7 +209,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/bedrock_custom_model#vpc_config BedrockCustomModel#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_custom_model#vpc_config BedrockCustomModel#vpc_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelVpcConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

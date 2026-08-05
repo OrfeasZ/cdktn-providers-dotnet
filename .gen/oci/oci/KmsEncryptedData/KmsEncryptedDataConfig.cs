@@ -9,7 +9,7 @@ namespace oci.KmsEncryptedData
     [JsiiByValue(fqn: "oci.kmsEncryptedData.KmsEncryptedDataConfig")]
     public class KmsEncryptedDataConfig : oci.KmsEncryptedData.IKmsEncryptedDataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#crypto_endpoint KmsEncryptedData#crypto_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#crypto_endpoint KmsEncryptedData#crypto_endpoint}.</summary>
         [JsiiProperty(name: "cryptoEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string CryptoEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#key_id KmsEncryptedData#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#key_id KmsEncryptedData#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -25,7 +25,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#plaintext KmsEncryptedData#plaintext}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#plaintext KmsEncryptedData#plaintext}.</summary>
         [JsiiProperty(name: "plaintext", typeJson: "{\"primitive\":\"string\"}")]
         public string Plaintext
         {
@@ -33,7 +33,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#associated_data KmsEncryptedData#associated_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#associated_data KmsEncryptedData#associated_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AssociatedData
@@ -42,7 +42,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#encryption_algorithm KmsEncryptedData#encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#encryption_algorithm KmsEncryptedData#encryption_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionAlgorithm
@@ -51,7 +51,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#id KmsEncryptedData#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#id KmsEncryptedData#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#key_version_id KmsEncryptedData#key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#key_version_id KmsEncryptedData#key_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVersionId
@@ -73,7 +73,7 @@ namespace oci.KmsEncryptedData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#logging_context KmsEncryptedData#logging_context}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#logging_context KmsEncryptedData#logging_context}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loggingContext", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? LoggingContext
@@ -84,7 +84,7 @@ namespace oci.KmsEncryptedData
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/kms_encrypted_data#timeouts KmsEncryptedData#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_encrypted_data#timeouts KmsEncryptedData#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsEncryptedData.KmsEncryptedDataTimeouts\"}", isOptional: true)]

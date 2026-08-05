@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiOperationsInsightsPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciOpsiOperationsInsightsPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciOpsiOperationsInsightsPrivateEndpoint.DataOciOpsiOperationsInsightsPrivateEndpointConfig")]
     public interface IDataOciOpsiOperationsInsightsPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_operations_insights_private_endpoint#operations_insights_private_endpoint_id DataOciOpsiOperationsInsightsPrivateEndpoint#operations_insights_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_private_endpoint#operations_insights_private_endpoint_id DataOciOpsiOperationsInsightsPrivateEndpoint#operations_insights_private_endpoint_id}.</summary>
         [JsiiProperty(name: "operationsInsightsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string OperationsInsightsPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpsiOperationsInsightsPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/opsi_operations_insights_private_endpoint#operations_insights_private_endpoint_id DataOciOpsiOperationsInsightsPrivateEndpoint#operations_insights_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_private_endpoint#operations_insights_private_endpoint_id DataOciOpsiOperationsInsightsPrivateEndpoint#operations_insights_private_endpoint_id}.</summary>
             [JsiiProperty(name: "operationsInsightsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperationsInsightsPrivateEndpointId
             {

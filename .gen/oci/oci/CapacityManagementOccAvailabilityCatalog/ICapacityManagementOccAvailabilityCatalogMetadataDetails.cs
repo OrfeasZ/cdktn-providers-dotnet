@@ -7,7 +7,7 @@ namespace oci.CapacityManagementOccAvailabilityCatalog
     [JsiiInterface(nativeType: typeof(ICapacityManagementOccAvailabilityCatalogMetadataDetails), fullyQualifiedName: "oci.capacityManagementOccAvailabilityCatalog.CapacityManagementOccAvailabilityCatalogMetadataDetails")]
     public interface ICapacityManagementOccAvailabilityCatalogMetadataDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
         [JsiiProperty(name: "formatVersion", typeJson: "{\"primitive\":\"string\"}")]
         string FormatVersion
         {
@@ -21,7 +21,7 @@ namespace oci.CapacityManagementOccAvailabilityCatalog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/capacity_management_occ_availability_catalog#format_version CapacityManagementOccAvailabilityCatalog#format_version}.</summary>
             [JsiiProperty(name: "formatVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string FormatVersion
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciIotIotDomainGroup
     [JsiiInterface(nativeType: typeof(IDataOciIotIotDomainGroupConfig), fullyQualifiedName: "oci.dataOciIotIotDomainGroup.DataOciIotIotDomainGroupConfig")]
     public interface IDataOciIotIotDomainGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
         [JsiiProperty(name: "iotDomainGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string IotDomainGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIotIotDomainGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
             [JsiiProperty(name: "iotDomainGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string IotDomainGroupId
             {

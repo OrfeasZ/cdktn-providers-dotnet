@@ -7,21 +7,21 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
     [JsiiInterface(nativeType: typeof(IDataOciRedisOciCacheDefaultConfigSetsFilter), fullyQualifiedName: "oci.dataOciRedisOciCacheDefaultConfigSets.DataOciRedisOciCacheDefaultConfigSetsFilter")]
     public interface IDataOciRedisOciCacheDefaultConfigSetsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#name DataOciRedisOciCacheDefaultConfigSets#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#name DataOciRedisOciCacheDefaultConfigSets#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#values DataOciRedisOciCacheDefaultConfigSets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#values DataOciRedisOciCacheDefaultConfigSets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#regex DataOciRedisOciCacheDefaultConfigSets#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#regex DataOciRedisOciCacheDefaultConfigSets#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciRedisOciCacheDefaultConfigSets
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#name DataOciRedisOciCacheDefaultConfigSets#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#name DataOciRedisOciCacheDefaultConfigSets#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#values DataOciRedisOciCacheDefaultConfigSets#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#values DataOciRedisOciCacheDefaultConfigSets#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/redis_oci_cache_default_config_sets#regex DataOciRedisOciCacheDefaultConfigSets#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/redis_oci_cache_default_config_sets#regex DataOciRedisOciCacheDefaultConfigSets#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

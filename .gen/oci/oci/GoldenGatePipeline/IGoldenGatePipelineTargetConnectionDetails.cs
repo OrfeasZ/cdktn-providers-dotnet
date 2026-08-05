@@ -7,7 +7,7 @@ namespace oci.GoldenGatePipeline
     [JsiiInterface(nativeType: typeof(IGoldenGatePipelineTargetConnectionDetails), fullyQualifiedName: "oci.goldenGatePipeline.GoldenGatePipelineTargetConnectionDetails")]
     public interface IGoldenGatePipelineTargetConnectionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionId
         {
@@ -21,7 +21,7 @@ namespace oci.GoldenGatePipeline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_pipeline#connection_id GoldenGatePipeline#connection_id}.</summary>
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionId
             {

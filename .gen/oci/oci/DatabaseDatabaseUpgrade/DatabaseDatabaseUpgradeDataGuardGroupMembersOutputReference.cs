@@ -77,10 +77,22 @@ namespace oci.DatabaseDatabaseUpgrade
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "failoverTargets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] FailoverTargets
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "isActiveDataGuardEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsActiveDataGuardEnabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "managedAutoFailover", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ManagedAutoFailover
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]

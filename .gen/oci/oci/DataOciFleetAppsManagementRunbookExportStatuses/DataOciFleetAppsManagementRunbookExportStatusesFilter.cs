@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementRunbookExportStatuses
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementRunbookExportStatuses.DataOciFleetAppsManagementRunbookExportStatusesFilter")]
     public class DataOciFleetAppsManagementRunbookExportStatusesFilter : oci.DataOciFleetAppsManagementRunbookExportStatuses.IDataOciFleetAppsManagementRunbookExportStatusesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#name DataOciFleetAppsManagementRunbookExportStatuses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#name DataOciFleetAppsManagementRunbookExportStatuses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementRunbookExportStatuses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#values DataOciFleetAppsManagementRunbookExportStatuses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#values DataOciFleetAppsManagementRunbookExportStatuses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementRunbookExportStatuses
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#regex DataOciFleetAppsManagementRunbookExportStatuses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_runbook_export_statuses#regex DataOciFleetAppsManagementRunbookExportStatuses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

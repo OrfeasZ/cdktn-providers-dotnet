@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystem
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbSystem.DataOciDatabaseManagementCloudDbSystemConfig")]
     public class DataOciDatabaseManagementCloudDbSystemConfig : oci.DataOciDatabaseManagementCloudDbSystem.IDataOciDatabaseManagementCloudDbSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_db_system#cloud_db_system_id DataOciDatabaseManagementCloudDbSystem#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_system#cloud_db_system_id DataOciDatabaseManagementCloudDbSystem#cloud_db_system_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudDbSystemId
         {

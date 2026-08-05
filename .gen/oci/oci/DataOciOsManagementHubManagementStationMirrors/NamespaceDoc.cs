@@ -5,7 +5,7 @@ namespace oci.DataOciOsManagementHubManagementStationMirrors
     /// <remarks>
     /// <h1><c>data_oci_os_management_hub_management_station_mirrors</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/os_management_hub_management_station_mirrors"><c>data_oci_os_management_hub_management_station_mirrors</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_management_station_mirrors"><c>data_oci_os_management_hub_management_station_mirrors</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

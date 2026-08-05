@@ -7,7 +7,7 @@ namespace oci.DevopsBuildPipelineStage
     [JsiiInterface(nativeType: typeof(IDevopsBuildPipelineStageDeliverArtifactCollectionItems), fullyQualifiedName: "oci.devopsBuildPipelineStage.DevopsBuildPipelineStageDeliverArtifactCollectionItems")]
     public interface IDevopsBuildPipelineStageDeliverArtifactCollectionItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline_stage#artifact_id DevopsBuildPipelineStage#artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline_stage#artifact_id DevopsBuildPipelineStage#artifact_id}.</summary>
         [JsiiProperty(name: "artifactId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ArtifactId
@@ -18,7 +18,7 @@ namespace oci.DevopsBuildPipelineStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline_stage#artifact_name DevopsBuildPipelineStage#artifact_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline_stage#artifact_name DevopsBuildPipelineStage#artifact_name}.</summary>
         [JsiiProperty(name: "artifactName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ArtifactName
@@ -36,7 +36,7 @@ namespace oci.DevopsBuildPipelineStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline_stage#artifact_id DevopsBuildPipelineStage#artifact_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline_stage#artifact_id DevopsBuildPipelineStage#artifact_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "artifactId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ArtifactId
@@ -44,7 +44,7 @@ namespace oci.DevopsBuildPipelineStage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/resources/devops_build_pipeline_stage#artifact_name DevopsBuildPipelineStage#artifact_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_build_pipeline_stage#artifact_name DevopsBuildPipelineStage#artifact_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "artifactName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ArtifactName

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudCluster
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudClusterConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudCluster.DataOciDatabaseManagementCloudClusterConfig")]
     public interface IDataOciDatabaseManagementCloudClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_cluster#cloud_cluster_id DataOciDatabaseManagementCloudCluster#cloud_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_cluster#cloud_cluster_id DataOciDatabaseManagementCloudCluster#cloud_cluster_id}.</summary>
         [JsiiProperty(name: "cloudClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/database_management_cloud_cluster#cloud_cluster_id DataOciDatabaseManagementCloudCluster#cloud_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_cluster#cloud_cluster_id DataOciDatabaseManagementCloudCluster#cloud_cluster_id}.</summary>
             [JsiiProperty(name: "cloudClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudClusterId
             {

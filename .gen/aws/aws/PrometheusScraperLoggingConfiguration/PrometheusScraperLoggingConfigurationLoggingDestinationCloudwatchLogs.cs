@@ -1,0 +1,20 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.PrometheusScraperLoggingConfiguration
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "aws.prometheusScraperLoggingConfiguration.PrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs")]
+    public class PrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs : aws.PrometheusScraperLoggingConfiguration.IPrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper_logging_configuration#log_group_arn PrometheusScraperLoggingConfiguration#log_group_arn}.</summary>
+        [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
+        public string LogGroupArn
+        {
+            get;
+            set;
+        }
+    }
+}

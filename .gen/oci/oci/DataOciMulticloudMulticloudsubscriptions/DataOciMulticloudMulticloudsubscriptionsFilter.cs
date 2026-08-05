@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
     [JsiiByValue(fqn: "oci.dataOciMulticloudMulticloudsubscriptions.DataOciMulticloudMulticloudsubscriptionsFilter")]
     public class DataOciMulticloudMulticloudsubscriptionsFilter : oci.DataOciMulticloudMulticloudsubscriptions.IDataOciMulticloudMulticloudsubscriptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudsubscriptions#name DataOciMulticloudMulticloudsubscriptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudsubscriptions#name DataOciMulticloudMulticloudsubscriptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudsubscriptions#values DataOciMulticloudMulticloudsubscriptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudsubscriptions#values DataOciMulticloudMulticloudsubscriptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMulticloudMulticloudsubscriptions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/multicloud_multicloudsubscriptions#regex DataOciMulticloudMulticloudsubscriptions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_multicloudsubscriptions#regex DataOciMulticloudMulticloudsubscriptions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

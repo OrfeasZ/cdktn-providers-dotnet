@@ -7,7 +7,7 @@ namespace aws.PinpointEmailTemplate
     [JsiiInterface(nativeType: typeof(IPinpointEmailTemplateConfig), fullyQualifiedName: "aws.pinpointEmailTemplate.PinpointEmailTemplateConfig")]
     public interface IPinpointEmailTemplateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#template_name PinpointEmailTemplate#template_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#template_name PinpointEmailTemplate#template_name}.</summary>
         [JsiiProperty(name: "templateName", typeJson: "{\"primitive\":\"string\"}")]
         string TemplateName
         {
@@ -16,7 +16,7 @@ namespace aws.PinpointEmailTemplate
 
         /// <summary>email_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#email_template PinpointEmailTemplate#email_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#email_template PinpointEmailTemplate#email_template}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "emailTemplate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.pinpointEmailTemplate.PinpointEmailTemplateEmailTemplate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.PinpointEmailTemplate
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#region PinpointEmailTemplate#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#region PinpointEmailTemplate#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace aws.PinpointEmailTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#tags PinpointEmailTemplate#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#tags PinpointEmailTemplate#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -61,7 +61,7 @@ namespace aws.PinpointEmailTemplate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#template_name PinpointEmailTemplate#template_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#template_name PinpointEmailTemplate#template_name}.</summary>
             [JsiiProperty(name: "templateName", typeJson: "{\"primitive\":\"string\"}")]
             public string TemplateName
             {
@@ -70,7 +70,7 @@ namespace aws.PinpointEmailTemplate
 
             /// <summary>email_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#email_template PinpointEmailTemplate#email_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#email_template PinpointEmailTemplate#email_template}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PinpointEmailTemplate.IPinpointEmailTemplateEmailTemplate" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -82,7 +82,7 @@ namespace aws.PinpointEmailTemplate
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#region PinpointEmailTemplate#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#region PinpointEmailTemplate#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace aws.PinpointEmailTemplate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.57.1/docs/resources/pinpoint_email_template#tags PinpointEmailTemplate#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pinpoint_email_template#tags PinpointEmailTemplate#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags

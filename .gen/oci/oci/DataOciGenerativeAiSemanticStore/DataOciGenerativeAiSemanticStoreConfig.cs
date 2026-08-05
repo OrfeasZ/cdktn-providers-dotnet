@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiSemanticStore
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiSemanticStore.DataOciGenerativeAiSemanticStoreConfig")]
     public class DataOciGenerativeAiSemanticStoreConfig : oci.DataOciGenerativeAiSemanticStore.IDataOciGenerativeAiSemanticStoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/generative_ai_semantic_store#semantic_store_id DataOciGenerativeAiSemanticStore#semantic_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_semantic_store#semantic_store_id DataOciGenerativeAiSemanticStore#semantic_store_id}.</summary>
         [JsiiProperty(name: "semanticStoreId", typeJson: "{\"primitive\":\"string\"}")]
         public string SemanticStoreId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreCrossConnectStatus
     [JsiiByValue(fqn: "oci.dataOciCoreCrossConnectStatus.DataOciCoreCrossConnectStatusConfig")]
     public class DataOciCoreCrossConnectStatusConfig : oci.DataOciCoreCrossConnectStatus.IDataOciCoreCrossConnectStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_cross_connect_status#cross_connect_id DataOciCoreCrossConnectStatus#cross_connect_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_cross_connect_status#cross_connect_id DataOciCoreCrossConnectStatus#cross_connect_id}.</summary>
         [JsiiProperty(name: "crossConnectId", typeJson: "{\"primitive\":\"string\"}")]
         public string CrossConnectId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreCrossConnectStatus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/core_cross_connect_status#id DataOciCoreCrossConnectStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_cross_connect_status#id DataOciCoreCrossConnectStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistration
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateDatabaseRegistrationConfig), fullyQualifiedName: "oci.dataOciGoldenGateDatabaseRegistration.DataOciGoldenGateDatabaseRegistrationConfig")]
     public interface IDataOciGoldenGateDatabaseRegistrationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
         [JsiiProperty(name: "databaseRegistrationId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseRegistrationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.25.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
             [JsiiProperty(name: "databaseRegistrationId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseRegistrationId
             {
