@@ -7,19 +7,9 @@ namespace cloudflare.DataCloudflareCustomCsr
     [JsiiInterface(nativeType: typeof(IDataCloudflareCustomCsrConfig), fullyQualifiedName: "cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrConfig")]
     public interface IDataCloudflareCustomCsrConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Custom CSR identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
-        /// </remarks>
-        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
-        string CustomCsrId
-        {
-            get;
-        }
-
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,9 +21,34 @@ namespace cloudflare.DataCloudflareCustomCsr
             }
         }
 
+        /// <summary>Custom CSR identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
+        /// </remarks>
+        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CustomCsrId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#filter DataCloudflareCustomCsr#filter}.</summary>
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilter\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter? Filter
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,19 +67,9 @@ namespace cloudflare.DataCloudflareCustomCsr
             {
             }
 
-            /// <summary>Custom CSR identifier tag.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
-            /// </remarks>
-            [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
-            public string CustomCsrId
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
             /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,9 +78,28 @@ namespace cloudflare.DataCloudflareCustomCsr
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Custom CSR identifier tag.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CustomCsrId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#filter DataCloudflareCustomCsr#filter}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilter\"}", isOptional: true)]
+            public cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter? Filter
+            {
+                get => GetInstanceProperty<cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter?>();
+            }
+
             /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

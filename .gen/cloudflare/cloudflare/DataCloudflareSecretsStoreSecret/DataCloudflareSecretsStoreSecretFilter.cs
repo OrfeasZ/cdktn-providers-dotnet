@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareSecretsStoreSecret
     [JsiiByValue(fqn: "cloudflare.dataCloudflareSecretsStoreSecret.DataCloudflareSecretsStoreSecretFilter")]
     public class DataCloudflareSecretsStoreSecretFilter : cloudflare.DataCloudflareSecretsStoreSecret.IDataCloudflareSecretsStoreSecretFilter
     {
-        /// <summary>Direction to sort objects Available values: "asc", "desc".</summary>
+        /// <summary>Direction to sort objects. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store_secret#direction DataCloudflareSecretsStoreSecret#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store_secret#direction DataCloudflareSecretsStoreSecret#direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace cloudflare.DataCloudflareSecretsStoreSecret
             set;
         }
 
-        /// <summary>Order secrets by values in the given field Available values: "name", "comment", "created", "modified", "status".</summary>
+        /// <summary>Order secrets by values in the given field. Available values: "name", "comment", "created", "modified", "status".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store_secret#order DataCloudflareSecretsStoreSecret#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store_secret#order DataCloudflareSecretsStoreSecret#order}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,44 +31,21 @@ namespace cloudflare.DataCloudflareSecretsStoreSecret
             set;
         }
 
-        private object? _scopes;
-
         /// <summary>Only secrets with the given scopes will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store_secret#scopes DataCloudflareSecretsStoreSecret#scopes}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store_secret#scopes DataCloudflareSecretsStoreSecret#scopes}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "scopes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? Scopes
+        [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? Scopes
         {
-            get => _scopes;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case string[][] cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            break;
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                _scopes = value;
-            }
+            get;
+            set;
         }
 
         /// <summary>Search secrets using a filter string, filtering across name and comment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store_secret#search DataCloudflareSecretsStoreSecret#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store_secret#search DataCloudflareSecretsStoreSecret#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

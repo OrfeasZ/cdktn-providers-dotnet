@@ -71,14 +71,11 @@ namespace cloudflare.DataCloudflareSecretsStoreSecret
             get => GetInstanceProperty<string?>();
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
-        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "scopesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public virtual object? ScopesInput
+        [JsiiProperty(name: "scopesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? ScopesInput
         {
-            get => GetInstanceProperty<object?>();
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -102,34 +99,11 @@ namespace cloudflare.DataCloudflareSecretsStoreSecret
             set => SetInstanceProperty(value);
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "scopes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}")]
-        public virtual object Scopes
+        [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Scopes
         {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case string[][] cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}")]

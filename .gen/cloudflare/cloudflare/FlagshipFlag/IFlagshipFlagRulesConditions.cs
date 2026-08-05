@@ -7,7 +7,7 @@ namespace cloudflare.FlagshipFlag
     [JsiiInterface(nativeType: typeof(IFlagshipFlagRulesConditions), fullyQualifiedName: "cloudflare.flagshipFlag.FlagshipFlagRulesConditions")]
     public interface IFlagshipFlagRulesConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attribute
@@ -18,7 +18,7 @@ namespace cloudflare.FlagshipFlag
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#clauses FlagshipFlag#clauses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#clauses FlagshipFlag#clauses}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRulesConditionsClauses" />)[]</para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Available values: "AND", "OR".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#logical_operator FlagshipFlag#logical_operator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#logical_operator FlagshipFlag#logical_operator}
         /// </remarks>
         [JsiiProperty(name: "logicalOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Available values: "equals", "not_equals", "greater_than", "less_than", "greater_than_or_equals", "less_than_or_equals", "contains", "starts_with", "ends_with", "in", "not_in".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#operator FlagshipFlag#operator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#operator FlagshipFlag#operator}
         /// </remarks>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace cloudflare.FlagshipFlag
         /// <remarks>
         /// Must be an array for <c>in</c> and <c>not_in</c>; numeric and ISO-8601 datetime strings are accepted by the ordering operators.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#value FlagshipFlag#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#value FlagshipFlag#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace cloudflare.FlagshipFlag
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attribute
@@ -91,7 +91,7 @@ namespace cloudflare.FlagshipFlag
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#clauses FlagshipFlag#clauses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#clauses FlagshipFlag#clauses}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRulesConditionsClauses" />)[]</para>
             /// </remarks>
@@ -104,7 +104,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Available values: "AND", "OR".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#logical_operator FlagshipFlag#logical_operator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#logical_operator FlagshipFlag#logical_operator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logicalOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Available values: "equals", "not_equals", "greater_than", "less_than", "greater_than_or_equals", "less_than_or_equals", "contains", "starts_with", "ends_with", "in", "not_in".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#operator FlagshipFlag#operator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#operator FlagshipFlag#operator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace cloudflare.FlagshipFlag
             /// <remarks>
             /// Must be an array for <c>in</c> and <c>not_in</c>; numeric and ISO-8601 datetime strings are accepted by the ordering operators.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#value FlagshipFlag#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#value FlagshipFlag#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

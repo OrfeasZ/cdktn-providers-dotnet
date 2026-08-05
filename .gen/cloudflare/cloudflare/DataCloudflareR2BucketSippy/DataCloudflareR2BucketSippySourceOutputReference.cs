@@ -45,6 +45,12 @@ namespace cloudflare.DataCloudflareR2BucketSippy
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "container", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Container
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "r2BucketSippyProvider", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string R2BucketSippyProvider
         {

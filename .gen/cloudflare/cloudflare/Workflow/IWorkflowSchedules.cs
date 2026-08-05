@@ -7,7 +7,7 @@ namespace cloudflare.Workflow
     [JsiiInterface(nativeType: typeof(IWorkflowSchedules), fullyQualifiedName: "cloudflare.workflow.WorkflowSchedules")]
     public interface IWorkflowSchedules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/workflow#cron Workflow#cron}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workflow#cron Workflow#cron}.</summary>
         [JsiiProperty(name: "cron", typeJson: "{\"primitive\":\"string\"}")]
         string Cron
         {
@@ -21,7 +21,7 @@ namespace cloudflare.Workflow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/workflow#cron Workflow#cron}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workflow#cron Workflow#cron}.</summary>
             [JsiiProperty(name: "cron", typeJson: "{\"primitive\":\"string\"}")]
             public string Cron
             {

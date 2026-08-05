@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
     {
         /// <summary>Virtual IP address (IPv4 or IPv6).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_tunnel_warp_connector_config#address ZeroTrustTunnelWarpConnectorConfigA#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_tunnel_warp_connector_config#address ZeroTrustTunnelWarpConnectorConfigA#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         string Address
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
 
             /// <summary>Virtual IP address (IPv4 or IPv6).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_tunnel_warp_connector_config#address ZeroTrustTunnelWarpConnectorConfigA#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_tunnel_warp_connector_config#address ZeroTrustTunnelWarpConnectorConfigA#address}
             /// </remarks>
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
             public string Address

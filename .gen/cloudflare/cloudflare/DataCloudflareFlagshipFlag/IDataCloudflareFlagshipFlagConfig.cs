@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
     {
         /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
         /// <summary>App identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -29,7 +29,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
         /// <summary>Flag key (slug).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
         /// </remarks>
         [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}")]
         string FlagKey
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>Cloudflare account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -56,7 +56,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>App identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -66,7 +66,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>Flag key (slug).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
             /// </remarks>
             [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}")]
             public string FlagKey

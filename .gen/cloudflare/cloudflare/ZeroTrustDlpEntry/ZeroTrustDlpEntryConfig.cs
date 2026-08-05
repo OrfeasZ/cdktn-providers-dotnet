@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDlpEntry
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpEntry.ZeroTrustDlpEntryConfig")]
     public class ZeroTrustDlpEntryConfig : cloudflare.ZeroTrustDlpEntry.IZeroTrustDlpEntryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#account_id ZeroTrustDlpEntry#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#account_id ZeroTrustDlpEntry#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustDlpEntry
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#enabled ZeroTrustDlpEntry#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#enabled ZeroTrustDlpEntry#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace cloudflare.ZeroTrustDlpEntry
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#name ZeroTrustDlpEntry#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#name ZeroTrustDlpEntry#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -58,7 +58,7 @@ namespace cloudflare.ZeroTrustDlpEntry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#pattern ZeroTrustDlpEntry#pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#pattern ZeroTrustDlpEntry#pattern}.</summary>
         [JsiiProperty(name: "pattern", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDlpEntry.ZeroTrustDlpEntryPattern\"}")]
         public cloudflare.ZeroTrustDlpEntry.IZeroTrustDlpEntryPattern Pattern
         {
@@ -66,7 +66,7 @@ namespace cloudflare.ZeroTrustDlpEntry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#description ZeroTrustDlpEntry#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#description ZeroTrustDlpEntry#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -75,7 +75,7 @@ namespace cloudflare.ZeroTrustDlpEntry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#profile_id ZeroTrustDlpEntry#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#profile_id ZeroTrustDlpEntry#profile_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProfileId
@@ -86,7 +86,7 @@ namespace cloudflare.ZeroTrustDlpEntry
 
         /// <summary>Available values: "custom", "predefined", "integration".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_entry#type ZeroTrustDlpEntry#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_entry#type ZeroTrustDlpEntry#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

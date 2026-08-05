@@ -7,7 +7,7 @@ namespace cloudflare.NotificationPolicy
     [JsiiInterface(nativeType: typeof(INotificationPolicyMechanisms), fullyQualifiedName: "cloudflare.notificationPolicy.NotificationPolicyMechanisms")]
     public interface INotificationPolicyMechanisms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" />)[]</para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace cloudflare.NotificationPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsPagerduty" />)[]</para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace cloudflare.NotificationPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsWebhooks" />)[]</para>
         /// </remarks>
@@ -56,7 +56,7 @@ namespace cloudflare.NotificationPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" />)[]</para>
             /// </remarks>
@@ -67,7 +67,7 @@ namespace cloudflare.NotificationPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsPagerduty" />)[]</para>
             /// </remarks>
@@ -78,7 +78,7 @@ namespace cloudflare.NotificationPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsWebhooks" />)[]</para>
             /// </remarks>

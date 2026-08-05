@@ -7,14 +7,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTagCategory
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDlpDataTagCategoryConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDlpDataTagCategory.DataCloudflareZeroTrustDlpDataTagCategoryConfig")]
     public interface IDataCloudflareZeroTrustDlpDataTagCategoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tag_category#account_id DataCloudflareZeroTrustDlpDataTagCategory#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tag_category#account_id DataCloudflareZeroTrustDlpDataTagCategory#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tag_category#category_id DataCloudflareZeroTrustDlpDataTagCategory#category_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tag_category#category_id DataCloudflareZeroTrustDlpDataTagCategory#category_id}.</summary>
         [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
         string CategoryId
         {
@@ -28,14 +28,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTagCategory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tag_category#account_id DataCloudflareZeroTrustDlpDataTagCategory#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tag_category#account_id DataCloudflareZeroTrustDlpDataTagCategory#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tag_category#category_id DataCloudflareZeroTrustDlpDataTagCategory#category_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tag_category#category_id DataCloudflareZeroTrustDlpDataTagCategory#category_id}.</summary>
             [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string CategoryId
             {

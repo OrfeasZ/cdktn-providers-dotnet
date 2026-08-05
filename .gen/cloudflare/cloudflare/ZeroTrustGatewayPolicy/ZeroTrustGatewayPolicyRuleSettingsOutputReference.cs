@@ -171,6 +171,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDeleteHeaders")]
+        public virtual void ResetDeleteHeaders()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDnsResolvers")]
         public virtual void ResetDnsResolvers()
         {
@@ -263,6 +269,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         [JsiiMethod(name: "resetResolveDnsThroughCloudflare")]
         public virtual void ResetResolveDnsThroughCloudflare()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSetHeaders")]
+        public virtual void ResetSetHeaders()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -444,6 +456,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "deleteHeadersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? DeleteHeadersInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsDnsResolvers" /></para>
         /// </remarks>
@@ -599,6 +618,16 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "setHeadersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
+        public virtual object? SetHeadersInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsUntrustedCert" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -733,6 +762,13 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "deleteHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DeleteHeaders
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>
@@ -893,6 +929,36 @@ namespace cloudflare.ZeroTrustGatewayPolicy
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
+        /// </remarks>
+        [JsiiProperty(name: "setHeaders", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}")]
+        public virtual object SetHeaders
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case System.Collections.Generic.IDictionary<string, string[]> cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, string[]>; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, string[]>; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 SetInstanceProperty(value);

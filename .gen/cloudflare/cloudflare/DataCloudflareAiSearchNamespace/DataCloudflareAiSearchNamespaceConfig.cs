@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareAiSearchNamespace
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAiSearchNamespace.DataCloudflareAiSearchNamespaceConfig")]
     public class DataCloudflareAiSearchNamespaceConfig : cloudflare.DataCloudflareAiSearchNamespace.IDataCloudflareAiSearchNamespaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/ai_search_namespace#account_id DataCloudflareAiSearchNamespace#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/ai_search_namespace#account_id DataCloudflareAiSearchNamespace#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareAiSearchNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/ai_search_namespace#name DataCloudflareAiSearchNamespace#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/ai_search_namespace#name DataCloudflareAiSearchNamespace#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDlpSensitivityGroup
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpSensitivityGroup.ZeroTrustDlpSensitivityGroupConfig")]
     public class ZeroTrustDlpSensitivityGroupConfig : cloudflare.ZeroTrustDlpSensitivityGroup.IZeroTrustDlpSensitivityGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_sensitivity_group#account_id ZeroTrustDlpSensitivityGroup#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_sensitivity_group#account_id ZeroTrustDlpSensitivityGroup#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.ZeroTrustDlpSensitivityGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_sensitivity_group#name ZeroTrustDlpSensitivityGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_sensitivity_group#name ZeroTrustDlpSensitivityGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace cloudflare.ZeroTrustDlpSensitivityGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_sensitivity_group#description ZeroTrustDlpSensitivityGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_sensitivity_group#description ZeroTrustDlpSensitivityGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

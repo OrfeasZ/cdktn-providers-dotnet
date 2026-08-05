@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareAiGateway
     {
         /// <summary>Search by id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/ai_gateway#search DataCloudflareAiGateway#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/ai_gateway#search DataCloudflareAiGateway#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

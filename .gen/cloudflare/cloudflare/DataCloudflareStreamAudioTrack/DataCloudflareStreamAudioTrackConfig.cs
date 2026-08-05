@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareStreamAudioTrack
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/stream_audio_track#account_id DataCloudflareStreamAudioTrack#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/stream_audio_track#account_id DataCloudflareStreamAudioTrack#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareStreamAudioTrack
 
         /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/stream_audio_track#identifier DataCloudflareStreamAudioTrack#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/stream_audio_track#identifier DataCloudflareStreamAudioTrack#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Identifier

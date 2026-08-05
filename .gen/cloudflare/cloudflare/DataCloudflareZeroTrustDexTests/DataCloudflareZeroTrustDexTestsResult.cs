@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
 
         /// <summary>DEX rules targeted by this test.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dex_tests#target_policies DataCloudflareZeroTrustDexTests#target_policies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dex_tests#target_policies DataCloudflareZeroTrustDexTests#target_policies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.DataCloudflareZeroTrustDexTests.IDataCloudflareZeroTrustDexTestsResultTargetPolicies" />)[]</para>
         /// </remarks>
         [JsiiOptional]

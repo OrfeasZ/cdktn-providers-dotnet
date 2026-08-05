@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>The port that the targets use for the chosen communication protocol. A port cannot be assigned to multiple protocols.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#port ZeroTrustAccessApplication#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#port ZeroTrustAccessApplication#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>The communication protocol your application secures. Available values: "SSH", "RDP".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#protocol ZeroTrustAccessApplication#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#protocol ZeroTrustAccessApplication#protocol}
         /// </remarks>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
@@ -29,7 +29,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Contains a map of target attribute keys to target attribute values.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "targetAttributes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}")]
@@ -47,7 +47,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>The port that the targets use for the chosen communication protocol. A port cannot be assigned to multiple protocols.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#port ZeroTrustAccessApplication#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#port ZeroTrustAccessApplication#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -57,7 +57,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>The communication protocol your application secures. Available values: "SSH", "RDP".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#protocol ZeroTrustAccessApplication#protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#protocol ZeroTrustAccessApplication#protocol}
             /// </remarks>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
@@ -67,7 +67,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>Contains a map of target attribute keys to target attribute values.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiProperty(name: "targetAttributes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}")]

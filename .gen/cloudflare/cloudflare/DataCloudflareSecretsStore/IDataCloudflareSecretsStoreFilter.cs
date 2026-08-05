@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareSecretsStore
     [JsiiInterface(nativeType: typeof(IDataCloudflareSecretsStoreFilter), fullyQualifiedName: "cloudflare.dataCloudflareSecretsStore.DataCloudflareSecretsStoreFilter")]
     public interface IDataCloudflareSecretsStoreFilter
     {
-        /// <summary>Direction to sort objects Available values: "asc", "desc".</summary>
+        /// <summary>Direction to sort objects. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store#direction DataCloudflareSecretsStore#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store#direction DataCloudflareSecretsStore#direction}
         /// </remarks>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace cloudflare.DataCloudflareSecretsStore
             }
         }
 
-        /// <summary>Order secrets by values in the given field Available values: "name", "comment", "created", "modified", "status".</summary>
+        /// <summary>Order stores by values in the given field. Available values: "name", "created", "modified".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store#order DataCloudflareSecretsStore#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store#order DataCloudflareSecretsStore#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,9 +42,9 @@ namespace cloudflare.DataCloudflareSecretsStore
             {
             }
 
-            /// <summary>Direction to sort objects Available values: "asc", "desc".</summary>
+            /// <summary>Direction to sort objects. Available values: "asc", "desc".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store#direction DataCloudflareSecretsStore#direction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store#direction DataCloudflareSecretsStore#direction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,9 +53,9 @@ namespace cloudflare.DataCloudflareSecretsStore
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Order secrets by values in the given field Available values: "name", "comment", "created", "modified", "status".</summary>
+            /// <summary>Order stores by values in the given field. Available values: "name", "created", "modified".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/secrets_store#order DataCloudflareSecretsStore#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/secrets_store#order DataCloudflareSecretsStore#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.NotificationPolicy
     {
         private object? _email;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#email NotificationPolicy#email}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsEmail" />)[]</para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace cloudflare.NotificationPolicy
 
         private object? _pagerduty;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#pagerduty NotificationPolicy#pagerduty}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsPagerduty" />)[]</para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace cloudflare.NotificationPolicy
 
         private object? _webhooks;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/notification_policy#webhooks NotificationPolicy#webhooks}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.NotificationPolicy.INotificationPolicyMechanismsWebhooks" />)[]</para>
         /// </remarks>

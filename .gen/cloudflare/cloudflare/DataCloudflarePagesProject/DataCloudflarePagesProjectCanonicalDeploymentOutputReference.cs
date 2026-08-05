@@ -111,6 +111,12 @@ namespace cloudflare.DataCloudflarePagesProject
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "skipReason", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SkipReason
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectCanonicalDeploymentSourceOutputReference\"}")]
         public virtual cloudflare.DataCloudflarePagesProject.DataCloudflarePagesProjectCanonicalDeploymentSourceOutputReference Source
         {

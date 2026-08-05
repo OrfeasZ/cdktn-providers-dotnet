@@ -51,6 +51,12 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "defaultDomainEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable DefaultDomainEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Enabled
         {

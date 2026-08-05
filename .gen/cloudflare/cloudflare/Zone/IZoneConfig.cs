@@ -7,7 +7,7 @@ namespace cloudflare.Zone
     [JsiiInterface(nativeType: typeof(IZoneConfig), fullyQualifiedName: "cloudflare.zone.ZoneConfig")]
     public interface IZoneConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#account Zone#account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#account Zone#account}.</summary>
         [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"cloudflare.zone.ZoneAccount\"}")]
         cloudflare.Zone.IZoneAccount Account
         {
@@ -18,7 +18,7 @@ namespace cloudflare.Zone
         /// <remarks>
         /// Per <a href="https://datatracker.ietf.org/doc/html/rfc1035#section-2.3.4">RFC 1035</a> the overall zone name can be up to 253 characters, with each segment ("label") not exceeding 63 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#name Zone#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#name Zone#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -32,7 +32,7 @@ namespace cloudflare.Zone
         /// true value means the zone will not receive security or performance
         /// benefits.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#paused Zone#paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#paused Zone#paused}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace cloudflare.Zone
         /// typically a partner-hosted zone or a CNAME setup.
         /// Available values: "full", "partial", "secondary", "internal".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#type Zone#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#type Zone#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace cloudflare.Zone
 
         /// <summary>An array of domains used for custom name servers. This is only available for Business and Enterprise plans.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#vanity_name_servers Zone#vanity_name_servers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#vanity_name_servers Zone#vanity_name_servers}
         /// </remarks>
         [JsiiProperty(name: "vanityNameServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace cloudflare.Zone
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#account Zone#account}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#account Zone#account}.</summary>
             [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"cloudflare.zone.ZoneAccount\"}")]
             public cloudflare.Zone.IZoneAccount Account
             {
@@ -95,7 +95,7 @@ namespace cloudflare.Zone
             /// <remarks>
             /// Per <a href="https://datatracker.ietf.org/doc/html/rfc1035#section-2.3.4">RFC 1035</a> the overall zone name can be up to 253 characters, with each segment ("label") not exceeding 63 characters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#name Zone#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#name Zone#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -109,7 +109,7 @@ namespace cloudflare.Zone
             /// true value means the zone will not receive security or performance
             /// benefits.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#paused Zone#paused}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#paused Zone#paused}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -125,7 +125,7 @@ namespace cloudflare.Zone
             /// typically a partner-hosted zone or a CNAME setup.
             /// Available values: "full", "partial", "secondary", "internal".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#type Zone#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#type Zone#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace cloudflare.Zone
 
             /// <summary>An array of domains used for custom name servers. This is only available for Business and Enterprise plans.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone#vanity_name_servers Zone#vanity_name_servers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone#vanity_name_servers Zone#vanity_name_servers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vanityNameServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

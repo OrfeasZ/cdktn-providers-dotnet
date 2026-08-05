@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessPolicy
     {
         /// <summary>The common name to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_policy#common_name ZeroTrustAccessPolicy#common_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_policy#common_name ZeroTrustAccessPolicy#common_name}
         /// </remarks>
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}")]
         public string CommonName

@@ -13,7 +13,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>List actions patterns.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#actions EmailRoutingRule#actions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#actions EmailRoutingRule#actions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleActions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleActions\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Matching patterns to forward to your actions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#matchers EmailRoutingRule#matchers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#matchers EmailRoutingRule#matchers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.EmailRoutingRule.IEmailRoutingRuleMatchers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "matchers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.emailRoutingRule.EmailRoutingRuleMatchers\"},\"kind\":\"array\"}}]}}")]
@@ -79,7 +79,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#zone_id EmailRoutingRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#zone_id EmailRoutingRule#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -92,7 +92,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Routing rule status.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#enabled EmailRoutingRule#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#enabled EmailRoutingRule#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -125,7 +125,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Routing rule name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#name EmailRoutingRule#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#name EmailRoutingRule#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Public tag (script_tag) of the Worker that owns this rule. Required when `source` is `wrangler`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#owner_worker_tag EmailRoutingRule#owner_worker_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#owner_worker_tag EmailRoutingRule#owner_worker_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ownerWorkerTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace cloudflare.EmailRoutingRule
 
         /// <summary>Priority of the routing rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#priority EmailRoutingRule#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#priority EmailRoutingRule#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace cloudflare.EmailRoutingRule
         /// to <c>api</c> when omitted on write.
         /// Available values: "api", "wrangler".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/email_routing_rule#source EmailRoutingRule#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/email_routing_rule#source EmailRoutingRule#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

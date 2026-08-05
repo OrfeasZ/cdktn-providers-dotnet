@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfileLocalDomainFallback
     [JsiiByValue(fqn: "cloudflare.zeroTrustDeviceDefaultProfileLocalDomainFallback.ZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig")]
     public class ZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig : cloudflare.ZeroTrustDeviceDefaultProfileLocalDomainFallback.IZeroTrustDeviceDefaultProfileLocalDomainFallbackConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_device_default_profile_local_domain_fallback#account_id ZeroTrustDeviceDefaultProfileLocalDomainFallback#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_device_default_profile_local_domain_fallback#account_id ZeroTrustDeviceDefaultProfileLocalDomainFallback#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustDeviceDefaultProfileLocalDomainFallback
 
         private object _domains;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_device_default_profile_local_domain_fallback#domains ZeroTrustDeviceDefaultProfileLocalDomainFallback#domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_device_default_profile_local_domain_fallback#domains ZeroTrustDeviceDefaultProfileLocalDomainFallback#domains}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceDefaultProfileLocalDomainFallback.IZeroTrustDeviceDefaultProfileLocalDomainFallbackDomains" />)[]</para>
         /// </remarks>

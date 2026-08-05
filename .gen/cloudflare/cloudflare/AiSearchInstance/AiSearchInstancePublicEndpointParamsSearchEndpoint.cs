@@ -11,7 +11,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Disable search endpoint for this public endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ai_search_instance#disabled AiSearchInstance#disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_search_instance#disabled AiSearchInstance#disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

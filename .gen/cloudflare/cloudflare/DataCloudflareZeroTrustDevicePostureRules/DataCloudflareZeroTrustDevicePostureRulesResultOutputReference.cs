@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareZeroTrustDevicePostureRules
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Enabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Expiration
         {

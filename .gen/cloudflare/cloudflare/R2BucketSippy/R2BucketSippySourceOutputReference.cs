@@ -39,6 +39,18 @@ namespace cloudflare.R2BucketSippy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAccountKey")]
+        public virtual void ResetAccountKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAccountName")]
+        public virtual void ResetAccountName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetBucket")]
         public virtual void ResetBucket()
         {
@@ -63,6 +75,12 @@ namespace cloudflare.R2BucketSippy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetContainer")]
+        public virtual void ResetContainer()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPrivateKey")]
         public virtual void ResetPrivateKey()
         {
@@ -71,6 +89,12 @@ namespace cloudflare.R2BucketSippy
 
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSasToken")]
+        public virtual void ResetSasToken()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -84,6 +108,20 @@ namespace cloudflare.R2BucketSippy
         [JsiiOptional]
         [JsiiProperty(name: "accessKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccessKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "accountKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AccountKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "accountNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AccountNameInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -117,6 +155,13 @@ namespace cloudflare.R2BucketSippy
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "containerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ContainerInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "privateKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? PrivateKeyInput
         {
@@ -131,6 +176,13 @@ namespace cloudflare.R2BucketSippy
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sasTokenInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SasTokenInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "secretAccessKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SecretAccessKeyInput
         {
@@ -139,6 +191,20 @@ namespace cloudflare.R2BucketSippy
 
         [JsiiProperty(name: "accessKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccessKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -172,6 +238,13 @@ namespace cloudflare.R2BucketSippy
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "container", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Container
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateKey
         {
@@ -181,6 +254,13 @@ namespace cloudflare.R2BucketSippy
 
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sasToken", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SasToken
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareMoqRelay
 
         /// <summary>Sort order by `created`. When true, results are returned oldest-first (ascending); otherwise newest-first (descending, the default).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/moq_relay#asc DataCloudflareMoqRelay#asc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#asc DataCloudflareMoqRelay#asc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace cloudflare.DataCloudflareMoqRelay
         /// RFC 3339 timestamp (typically the <c>created</c> value of the last item
         /// on the current page, to fetch the next page).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/moq_relay#created_after DataCloudflareMoqRelay#created_after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#created_after DataCloudflareMoqRelay#created_after}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createdAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace cloudflare.DataCloudflareMoqRelay
         /// RFC 3339 timestamp (typically the <c>created</c> value of the first item
         /// on the current page, to fetch the previous page).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/moq_relay#created_before DataCloudflareMoqRelay#created_before}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#created_before DataCloudflareMoqRelay#created_before}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createdBefore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace cloudflare.DataCloudflareMoqRelay
 
         /// <summary>Maximum number of relays to return per page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/moq_relay#per_page DataCloudflareMoqRelay#per_page}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#per_page DataCloudflareMoqRelay#per_page}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

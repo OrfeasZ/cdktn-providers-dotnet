@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareOriginCloudRegion
     [JsiiByValue(fqn: "cloudflare.dataCloudflareOriginCloudRegion.DataCloudflareOriginCloudRegionConfig")]
     public class DataCloudflareOriginCloudRegionConfig : cloudflare.DataCloudflareOriginCloudRegion.IDataCloudflareOriginCloudRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/origin_cloud_region#origin_ip DataCloudflareOriginCloudRegion#origin_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/origin_cloud_region#origin_ip DataCloudflareOriginCloudRegion#origin_ip}.</summary>
         [JsiiProperty(name: "originIp", typeJson: "{\"primitive\":\"string\"}")]
         public string OriginIp
         {
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareOriginCloudRegion
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/origin_cloud_region#zone_id DataCloudflareOriginCloudRegion#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/origin_cloud_region#zone_id DataCloudflareOriginCloudRegion#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

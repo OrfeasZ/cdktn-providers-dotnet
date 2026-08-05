@@ -7,14 +7,14 @@ namespace cloudflare.AiGateway
     [JsiiInterface(nativeType: typeof(IAiGatewayStripe), fullyQualifiedName: "cloudflare.aiGateway.AiGatewayStripe")]
     public interface IAiGatewayStripe
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         string Authorization
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayStripeUsageEvents" />)[]</para>
         /// </remarks>
@@ -31,14 +31,14 @@ namespace cloudflare.AiGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
             public string Authorization
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayStripeUsageEvents" />)[]</para>
             /// </remarks>

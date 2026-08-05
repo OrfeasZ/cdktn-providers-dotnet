@@ -83,6 +83,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "exports", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultExportsMap\"}")]
+        public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultExportsMap Exports
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultExportsMap>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

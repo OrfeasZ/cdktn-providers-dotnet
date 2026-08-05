@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Created
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "data", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultDataOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustDexTests.DataCloudflareZeroTrustDexTestsResultDataOutputReference Data
         {
@@ -115,6 +121,12 @@ namespace cloudflare.DataCloudflareZeroTrustDexTests
 
         [JsiiProperty(name: "testId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TestId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Updated
         {
             get => GetInstanceProperty<string>()!;
         }

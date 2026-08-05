@@ -11,7 +11,7 @@ namespace cloudflare.StreamLiveInput
         /// <remarks>
         /// Enter allowed origin domains in an array and use <c>*</c> for wildcard subdomains. An empty array allows videos to be viewed on any origin.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#allowed_origins StreamLiveInput#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#allowed_origins StreamLiveInput#allowed_origins}
         /// </remarks>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>Disables reporting the number of live viewers when this property is set to `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#hide_live_viewer_count StreamLiveInput#hide_live_viewer_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#hide_live_viewer_count StreamLiveInput#hide_live_viewer_count}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "hideLiveViewerCount", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace cloudflare.StreamLiveInput
         /// Set this value to <c>off</c> to prevent a recording. Set the value to <c>automatic</c> to begin a recording and transition to on-demand after Stream Live stops receiving input.
         /// Available values: "off", "automatic".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#mode StreamLiveInput#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#mode StreamLiveInput#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.StreamLiveInput
         /// <remarks>
         /// Also enforces access controls on any video recording of the livestream with the live input.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#require_signed_urls StreamLiveInput#require_signed_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#require_signed_urls StreamLiveInput#require_signed_urls}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requireSignedUrls", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace cloudflare.StreamLiveInput
         /// <remarks>
         /// <c>0</c> is recommended for most use cases and indicates the platform default should be used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#timeout_seconds StreamLiveInput#timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#timeout_seconds StreamLiveInput#timeout_seconds}
         /// </remarks>
         [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.StreamLiveInput
             /// <remarks>
             /// Enter allowed origin domains in an array and use <c>*</c> for wildcard subdomains. An empty array allows videos to be viewed on any origin.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#allowed_origins StreamLiveInput#allowed_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#allowed_origins StreamLiveInput#allowed_origins}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace cloudflare.StreamLiveInput
 
             /// <summary>Disables reporting the number of live viewers when this property is set to `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#hide_live_viewer_count StreamLiveInput#hide_live_viewer_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#hide_live_viewer_count StreamLiveInput#hide_live_viewer_count}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -125,7 +125,7 @@ namespace cloudflare.StreamLiveInput
             /// Set this value to <c>off</c> to prevent a recording. Set the value to <c>automatic</c> to begin a recording and transition to on-demand after Stream Live stops receiving input.
             /// Available values: "off", "automatic".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#mode StreamLiveInput#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#mode StreamLiveInput#mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace cloudflare.StreamLiveInput
             /// <remarks>
             /// Also enforces access controls on any video recording of the livestream with the live input.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#require_signed_urls StreamLiveInput#require_signed_urls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#require_signed_urls StreamLiveInput#require_signed_urls}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -152,7 +152,7 @@ namespace cloudflare.StreamLiveInput
             /// <remarks>
             /// <c>0</c> is recommended for most use cases and indicates the platform default should be used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_live_input#timeout_seconds StreamLiveInput#timeout_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#timeout_seconds StreamLiveInput#timeout_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

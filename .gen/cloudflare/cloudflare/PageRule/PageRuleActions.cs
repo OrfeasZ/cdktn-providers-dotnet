@@ -9,7 +9,7 @@ namespace cloudflare.PageRule
     {
         private object? _alwaysUseHttps;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#always_use_https PageRule#always_use_https}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#always_use_https PageRule#always_use_https}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#automatic_https_rewrites PageRule#automatic_https_rewrites}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#automatic_https_rewrites PageRule#automatic_https_rewrites}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "automaticHttpsRewrites", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AutomaticHttpsRewrites
@@ -50,7 +50,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#browser_cache_ttl PageRule#browser_cache_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#browser_cache_ttl PageRule#browser_cache_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "browserCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BrowserCacheTtl
@@ -59,7 +59,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#browser_check PageRule#browser_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#browser_check PageRule#browser_check}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "browserCheck", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BrowserCheck
@@ -68,7 +68,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#bypass_cache_on_cookie PageRule#bypass_cache_on_cookie}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#bypass_cache_on_cookie PageRule#bypass_cache_on_cookie}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bypassCacheOnCookie", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BypassCacheOnCookie
@@ -77,7 +77,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_by_device_type PageRule#cache_by_device_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_by_device_type PageRule#cache_by_device_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheByDeviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheByDeviceType
@@ -86,7 +86,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_deception_armor PageRule#cache_deception_armor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_deception_armor PageRule#cache_deception_armor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheDeceptionArmor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheDeceptionArmor
@@ -95,7 +95,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_key_fields PageRule#cache_key_fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_key_fields PageRule#cache_key_fields}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheKeyFields", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsCacheKeyFields\"}", isOptional: true)]
         public cloudflare.PageRule.IPageRuleActionsCacheKeyFields? CacheKeyFields
@@ -104,7 +104,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_level PageRule#cache_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_level PageRule#cache_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheLevel
@@ -113,7 +113,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_on_cookie PageRule#cache_on_cookie}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_on_cookie PageRule#cache_on_cookie}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheOnCookie", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheOnCookie
@@ -122,7 +122,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#cache_ttl_by_status PageRule#cache_ttl_by_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#cache_ttl_by_status PageRule#cache_ttl_by_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cacheTtlByStatus", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? CacheTtlByStatus
@@ -133,7 +133,7 @@ namespace cloudflare.PageRule
 
         private object? _disableApps;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#disable_apps PageRule#disable_apps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#disable_apps PageRule#disable_apps}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -167,7 +167,7 @@ namespace cloudflare.PageRule
 
         private object? _disablePerformance;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#disable_performance PageRule#disable_performance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#disable_performance PageRule#disable_performance}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -201,7 +201,7 @@ namespace cloudflare.PageRule
 
         private object? _disableSecurity;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#disable_security PageRule#disable_security}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#disable_security PageRule#disable_security}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -235,7 +235,7 @@ namespace cloudflare.PageRule
 
         private object? _disableZaraz;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#disable_zaraz PageRule#disable_zaraz}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#disable_zaraz PageRule#disable_zaraz}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -267,7 +267,7 @@ namespace cloudflare.PageRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#edge_cache_ttl PageRule#edge_cache_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#edge_cache_ttl PageRule#edge_cache_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "edgeCacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EdgeCacheTtl
@@ -276,7 +276,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#email_obfuscation PageRule#email_obfuscation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#email_obfuscation PageRule#email_obfuscation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "emailObfuscation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EmailObfuscation
@@ -285,7 +285,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#explicit_cache_control PageRule#explicit_cache_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#explicit_cache_control PageRule#explicit_cache_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "explicitCacheControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExplicitCacheControl
@@ -294,7 +294,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#forwarding_url PageRule#forwarding_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#forwarding_url PageRule#forwarding_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "forwardingUrl", typeJson: "{\"fqn\":\"cloudflare.pageRule.PageRuleActionsForwardingUrl\"}", isOptional: true)]
         public cloudflare.PageRule.IPageRuleActionsForwardingUrl? ForwardingUrl
@@ -303,7 +303,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#host_header_override PageRule#host_header_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#host_header_override PageRule#host_header_override}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostHeaderOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostHeaderOverride
@@ -312,7 +312,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#ip_geolocation PageRule#ip_geolocation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#ip_geolocation PageRule#ip_geolocation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipGeolocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpGeolocation
@@ -321,7 +321,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#mirage PageRule#mirage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#mirage PageRule#mirage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mirage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mirage
@@ -330,7 +330,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#opportunistic_encryption PageRule#opportunistic_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#opportunistic_encryption PageRule#opportunistic_encryption}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "opportunisticEncryption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OpportunisticEncryption
@@ -339,7 +339,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#origin_error_page_pass_thru PageRule#origin_error_page_pass_thru}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#origin_error_page_pass_thru PageRule#origin_error_page_pass_thru}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originErrorPagePassThru", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginErrorPagePassThru
@@ -348,7 +348,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#polish PageRule#polish}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#polish PageRule#polish}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "polish", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Polish
@@ -357,7 +357,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#resolve_override PageRule#resolve_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#resolve_override PageRule#resolve_override}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resolveOverride", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResolveOverride
@@ -366,7 +366,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#respect_strong_etag PageRule#respect_strong_etag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#respect_strong_etag PageRule#respect_strong_etag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "respectStrongEtag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RespectStrongEtag
@@ -375,7 +375,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#response_buffering PageRule#response_buffering}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#response_buffering PageRule#response_buffering}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseBuffering", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseBuffering
@@ -384,7 +384,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#rocket_loader PageRule#rocket_loader}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#rocket_loader PageRule#rocket_loader}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rocketLoader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RocketLoader
@@ -393,7 +393,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#security_level PageRule#security_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#security_level PageRule#security_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityLevel
@@ -402,7 +402,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#sort_query_string_for_cache PageRule#sort_query_string_for_cache}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#sort_query_string_for_cache PageRule#sort_query_string_for_cache}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortQueryStringForCache", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortQueryStringForCache
@@ -411,7 +411,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#ssl PageRule#ssl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#ssl PageRule#ssl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ssl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ssl
@@ -420,7 +420,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#true_client_ip_header PageRule#true_client_ip_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#true_client_ip_header PageRule#true_client_ip_header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trueClientIpHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrueClientIpHeader
@@ -429,7 +429,7 @@ namespace cloudflare.PageRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/page_rule#waf PageRule#waf}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/page_rule#waf PageRule#waf}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "waf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Waf

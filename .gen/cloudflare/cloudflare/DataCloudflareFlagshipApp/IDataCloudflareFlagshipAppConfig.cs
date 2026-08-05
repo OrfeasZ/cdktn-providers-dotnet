@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareFlagshipApp
     {
         /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareFlagshipApp
 
         /// <summary>App identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareFlagshipApp
 
             /// <summary>Cloudflare account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareFlagshipApp
 
             /// <summary>App identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId

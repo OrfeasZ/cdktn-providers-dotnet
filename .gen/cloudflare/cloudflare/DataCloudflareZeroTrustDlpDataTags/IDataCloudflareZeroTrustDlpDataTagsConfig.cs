@@ -7,14 +7,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTags
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustDlpDataTagsConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustDlpDataTags.DataCloudflareZeroTrustDlpDataTagsConfig")]
     public interface IDataCloudflareZeroTrustDlpDataTagsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#account_id DataCloudflareZeroTrustDlpDataTags#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#account_id DataCloudflareZeroTrustDlpDataTags#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#category_id DataCloudflareZeroTrustDlpDataTags#category_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#category_id DataCloudflareZeroTrustDlpDataTags#category_id}.</summary>
         [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
         string CategoryId
         {
@@ -23,7 +23,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTags
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#max_items DataCloudflareZeroTrustDlpDataTags#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#max_items DataCloudflareZeroTrustDlpDataTags#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,14 +42,14 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTags
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#account_id DataCloudflareZeroTrustDlpDataTags#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#account_id DataCloudflareZeroTrustDlpDataTags#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#category_id DataCloudflareZeroTrustDlpDataTags#category_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#category_id DataCloudflareZeroTrustDlpDataTags#category_id}.</summary>
             [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string CategoryId
             {
@@ -58,7 +58,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpDataTags
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/zero_trust_dlp_data_tags#max_items DataCloudflareZeroTrustDlpDataTags#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_data_tags#max_items DataCloudflareZeroTrustDlpDataTags#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

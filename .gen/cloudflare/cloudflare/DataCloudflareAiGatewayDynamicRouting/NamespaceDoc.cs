@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareAiGatewayDynamicRouting
     /// <remarks>
     /// <h1><c>data_cloudflare_ai_gateway_dynamic_routing</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/ai_gateway_dynamic_routing"><c>data_cloudflare_ai_gateway_dynamic_routing</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/ai_gateway_dynamic_routing"><c>data_cloudflare_ai_gateway_dynamic_routing</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

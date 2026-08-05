@@ -47,6 +47,12 @@ namespace cloudflare.TokenValidationConfig
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetK")]
+        public virtual void ResetK()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetN")]
         public virtual void ResetN()
         {
@@ -89,6 +95,13 @@ namespace cloudflare.TokenValidationConfig
         [JsiiOptional]
         [JsiiProperty(name: "kidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? KidInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -137,6 +150,13 @@ namespace cloudflare.TokenValidationConfig
 
         [JsiiProperty(name: "e", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string E
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "k", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string K
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -87,6 +87,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicy
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsCheckSessionOutputReference>()!;
         }
 
+        [JsiiProperty(name: "deleteHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] DeleteHeaders
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "dnsResolvers", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsDnsResolversOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsDnsResolversOutputReference DnsResolvers
         {
@@ -181,6 +187,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicy
         public virtual Io.Cdktn.IResolvable ResolveDnsThroughCloudflare
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "setHeaders", typeJson: "{\"fqn\":\"cdktn.StringListMap\"}")]
+        public virtual Io.Cdktn.StringListMap SetHeaders
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringListMap>()!;
         }
 
         [JsiiProperty(name: "untrustedCert", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicy.DataCloudflareZeroTrustGatewayPolicyRuleSettingsUntrustedCertOutputReference\"}")]

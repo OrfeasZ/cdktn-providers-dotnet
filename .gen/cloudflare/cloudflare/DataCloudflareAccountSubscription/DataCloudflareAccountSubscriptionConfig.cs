@@ -7,13 +7,25 @@ namespace cloudflare.DataCloudflareAccountSubscription
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAccountSubscription.DataCloudflareAccountSubscriptionConfig")]
     public class DataCloudflareAccountSubscriptionConfig : cloudflare.DataCloudflareAccountSubscription.IDataCloudflareAccountSubscriptionConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/account_subscription#account_id DataCloudflareAccountSubscription#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/account_subscription#account_id DataCloudflareAccountSubscription#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/account_subscription#zone_id DataCloudflareAccountSubscription#zone_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ZoneId
         {
             get;
             set;

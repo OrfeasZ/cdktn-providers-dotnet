@@ -7,7 +7,7 @@ namespace cloudflare.TokenValidationConfig
     [JsiiInterface(nativeType: typeof(ITokenValidationConfigCredentials), fullyQualifiedName: "cloudflare.tokenValidationConfig.TokenValidationConfigCredentials")]
     public interface ITokenValidationConfigCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace cloudflare.TokenValidationConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
             /// </remarks>

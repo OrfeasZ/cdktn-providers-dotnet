@@ -83,6 +83,12 @@ namespace cloudflare.DataCloudflareHyperdriveConfigs
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "restartedOn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestartedOn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareHyperdriveConfigs.DataCloudflareHyperdriveConfigsResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareHyperdriveConfigs.IDataCloudflareHyperdriveConfigsResult? InternalValue

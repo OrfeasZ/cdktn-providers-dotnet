@@ -7,7 +7,7 @@ namespace cloudflare.MoqRelay
     [JsiiInterface(nativeType: typeof(IMoqRelayConfigLingeringSubscribe), fullyQualifiedName: "cloudflare.moqRelay.MoqRelayConfigLingeringSubscribe")]
     public interface IMoqRelayConfigLingeringSubscribe
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/moq_relay#enabled MoqRelay#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#enabled MoqRelay#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -23,7 +23,7 @@ namespace cloudflare.MoqRelay
 
         /// <summary>Relay-level ceiling on lingering subscribe timeout (ms). Default 30000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/moq_relay#max_timeout_ms MoqRelay#max_timeout_ms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#max_timeout_ms MoqRelay#max_timeout_ms}
         /// </remarks>
         [JsiiProperty(name: "maxTimeoutMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace cloudflare.MoqRelay
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/moq_relay#enabled MoqRelay#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#enabled MoqRelay#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -55,7 +55,7 @@ namespace cloudflare.MoqRelay
 
             /// <summary>Relay-level ceiling on lingering subscribe timeout (ms). Default 30000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/moq_relay#max_timeout_ms MoqRelay#max_timeout_ms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#max_timeout_ms MoqRelay#max_timeout_ms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxTimeoutMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

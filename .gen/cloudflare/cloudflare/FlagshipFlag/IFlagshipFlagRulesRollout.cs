@@ -11,7 +11,7 @@ namespace cloudflare.FlagshipFlag
         /// <remarks>
         /// For multi-way splits, use cumulative upper bounds across rules (e.g. 30, 70, 100).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#percentage FlagshipFlag#percentage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#percentage FlagshipFlag#percentage}
         /// </remarks>
         [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}")]
         double Percentage
@@ -21,7 +21,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Context attribute used for sticky bucketing. Defaults to `targetingKey`. If absent at evaluation time, bucketing is random per request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}
         /// </remarks>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.FlagshipFlag
             /// <remarks>
             /// For multi-way splits, use cumulative upper bounds across rules (e.g. 30, 70, 100).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#percentage FlagshipFlag#percentage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#percentage FlagshipFlag#percentage}
             /// </remarks>
             [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}")]
             public double Percentage
@@ -54,7 +54,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Context attribute used for sticky bucketing. Defaults to `targetingKey`. If absent at evaluation time, bucketing is random per request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#attribute FlagshipFlag#attribute}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.QueueConsumer
     {
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#account_id QueueConsumer#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#account_id QueueConsumer#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.QueueConsumer
 
         /// <summary>A Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#queue_id QueueConsumer#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#queue_id QueueConsumer#queue_id}
         /// </remarks>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         string QueueId
@@ -29,7 +29,7 @@ namespace cloudflare.QueueConsumer
 
         /// <summary>Available values: "worker", "http_pull".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#type QueueConsumer#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#type QueueConsumer#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -37,7 +37,7 @@ namespace cloudflare.QueueConsumer
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#dead_letter_queue QueueConsumer#dead_letter_queue}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#dead_letter_queue QueueConsumer#dead_letter_queue}.</summary>
         [JsiiProperty(name: "deadLetterQueue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeadLetterQueue
@@ -50,7 +50,7 @@ namespace cloudflare.QueueConsumer
 
         /// <summary>Name of a Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#script_name QueueConsumer#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#script_name QueueConsumer#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace cloudflare.QueueConsumer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#settings QueueConsumer#settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#settings QueueConsumer#settings}.</summary>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.QueueConsumer.IQueueConsumerSettings? Settings
@@ -82,7 +82,7 @@ namespace cloudflare.QueueConsumer
 
             /// <summary>A Resource identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#account_id QueueConsumer#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#account_id QueueConsumer#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -92,7 +92,7 @@ namespace cloudflare.QueueConsumer
 
             /// <summary>A Resource identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#queue_id QueueConsumer#queue_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#queue_id QueueConsumer#queue_id}
             /// </remarks>
             [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
             public string QueueId
@@ -102,7 +102,7 @@ namespace cloudflare.QueueConsumer
 
             /// <summary>Available values: "worker", "http_pull".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#type QueueConsumer#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#type QueueConsumer#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -110,7 +110,7 @@ namespace cloudflare.QueueConsumer
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#dead_letter_queue QueueConsumer#dead_letter_queue}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#dead_letter_queue QueueConsumer#dead_letter_queue}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deadLetterQueue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeadLetterQueue
@@ -120,7 +120,7 @@ namespace cloudflare.QueueConsumer
 
             /// <summary>Name of a Worker.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#script_name QueueConsumer#script_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#script_name QueueConsumer#script_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace cloudflare.QueueConsumer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/queue_consumer#settings QueueConsumer#settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/queue_consumer#settings QueueConsumer#settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettings\"}", isOptional: true)]
             public cloudflare.QueueConsumer.IQueueConsumerSettings? Settings

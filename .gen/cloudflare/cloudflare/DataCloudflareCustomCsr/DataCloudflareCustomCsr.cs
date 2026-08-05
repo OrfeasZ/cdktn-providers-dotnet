@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareCustomCsr
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr cloudflare_custom_csr}.</summary>
-    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareCustomCsr.DataCloudflareCustomCsr), fullyQualifiedName: "cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsr", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr cloudflare_custom_csr}.</summary>
+    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareCustomCsr.DataCloudflareCustomCsr), fullyQualifiedName: "cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsr", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrConfig\"}}]")]
     public class DataCloudflareCustomCsr : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr cloudflare_custom_csr} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr cloudflare_custom_csr} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public DataCloudflareCustomCsr(Constructs.Construct scope, string id, cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrConfig config): base(_MakeDeputyProps(scope, id, config))
+        public DataCloudflareCustomCsr(Constructs.Construct scope, string id, cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,14 +40,32 @@ namespace cloudflare.DataCloudflareCustomCsr
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareCustomCsr to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareCustomCsr that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareCustomCsr to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareCustomCsr to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareCustomCsr that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareCustomCsr to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareCustomCsr to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareCustomCsr that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareCustomCsr to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareCustomCsr.DataCloudflareCustomCsr), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilter\"}}]")]
+        public virtual void PutFilter(cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAccountId")]
         public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCustomCsrId")]
+        public virtual void ResetCustomCsrId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -113,6 +131,12 @@ namespace cloudflare.DataCloudflareCustomCsr
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilterOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareCustomCsr.DataCloudflareCustomCsrFilterOutputReference Filter
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareCustomCsr.DataCloudflareCustomCsrFilterOutputReference>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -173,6 +197,16 @@ namespace cloudflare.DataCloudflareCustomCsr
         public virtual string? CustomCsrIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilter\"}]}}", isOptional: true)]
+        public virtual object? FilterInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

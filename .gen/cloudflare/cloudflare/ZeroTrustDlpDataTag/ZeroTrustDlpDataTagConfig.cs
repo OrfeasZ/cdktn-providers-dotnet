@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDlpDataTag
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpDataTag.ZeroTrustDlpDataTagConfig")]
     public class ZeroTrustDlpDataTagConfig : cloudflare.ZeroTrustDlpDataTag.IZeroTrustDlpDataTagConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_data_tag#account_id ZeroTrustDlpDataTag#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_data_tag#account_id ZeroTrustDlpDataTag#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.ZeroTrustDlpDataTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_data_tag#category_id ZeroTrustDlpDataTag#category_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_data_tag#category_id ZeroTrustDlpDataTag#category_id}.</summary>
         [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string CategoryId
         {
@@ -25,7 +25,7 @@ namespace cloudflare.ZeroTrustDlpDataTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_data_tag#name ZeroTrustDlpDataTag#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_data_tag#name ZeroTrustDlpDataTag#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace cloudflare.ZeroTrustDlpDataTag
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_dlp_data_tag#description ZeroTrustDlpDataTag#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_data_tag#description ZeroTrustDlpDataTag#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

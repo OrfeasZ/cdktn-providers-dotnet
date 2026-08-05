@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareWorkersScripts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "exports", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultExportsMap\"}")]
+        public virtual cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultExportsMap Exports
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersScripts.DataCloudflareWorkersScriptsResultExportsMap>()!;
+        }
+
         [JsiiProperty(name: "handlers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Handlers
         {

@@ -11,7 +11,7 @@ namespace cloudflare.ZoneLockdown
         /// <remarks>
         /// You can include any number of <c>ip</c> or <c>ip_range</c> configurations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#configurations ZoneLockdown#configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#configurations ZoneLockdown#configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZoneLockdown.IZoneLockdownConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "configurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zoneLockdown.ZoneLockdownConfigurations\"},\"kind\":\"array\"}}]}}")]
@@ -24,7 +24,7 @@ namespace cloudflare.ZoneLockdown
         /// <remarks>
         /// You can use wildcards. Each entered URL will be escaped before use, which means you can only use simple wildcard patterns.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#urls ZoneLockdown#urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#urls ZoneLockdown#urls}
         /// </remarks>
         [JsiiProperty(name: "urls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Urls
@@ -34,7 +34,7 @@ namespace cloudflare.ZoneLockdown
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#zone_id ZoneLockdown#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#zone_id ZoneLockdown#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -44,7 +44,7 @@ namespace cloudflare.ZoneLockdown
 
         /// <summary>An informative summary of the rule. This value is sanitized and any tags will be removed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#description ZoneLockdown#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#description ZoneLockdown#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace cloudflare.ZoneLockdown
 
         /// <summary>When true, indicates that the rule is currently paused.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#paused ZoneLockdown#paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#paused ZoneLockdown#paused}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "paused", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace cloudflare.ZoneLockdown
         /// <remarks>
         /// A lower number indicates higher priority. If not provided, any rules with a configured priority will be processed before rules without a priority.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#priority ZoneLockdown#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#priority ZoneLockdown#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace cloudflare.ZoneLockdown
             /// <remarks>
             /// You can include any number of <c>ip</c> or <c>ip_range</c> configurations.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#configurations ZoneLockdown#configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#configurations ZoneLockdown#configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZoneLockdown.IZoneLockdownConfigurations" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "configurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.zoneLockdown.ZoneLockdownConfigurations\"},\"kind\":\"array\"}}]}}")]
@@ -111,7 +111,7 @@ namespace cloudflare.ZoneLockdown
             /// <remarks>
             /// You can use wildcards. Each entered URL will be escaped before use, which means you can only use simple wildcard patterns.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#urls ZoneLockdown#urls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#urls ZoneLockdown#urls}
             /// </remarks>
             [JsiiProperty(name: "urls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Urls
@@ -121,7 +121,7 @@ namespace cloudflare.ZoneLockdown
 
             /// <summary>Defines an identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#zone_id ZoneLockdown#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#zone_id ZoneLockdown#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -131,7 +131,7 @@ namespace cloudflare.ZoneLockdown
 
             /// <summary>An informative summary of the rule. This value is sanitized and any tags will be removed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#description ZoneLockdown#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#description ZoneLockdown#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace cloudflare.ZoneLockdown
 
             /// <summary>When true, indicates that the rule is currently paused.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#paused ZoneLockdown#paused}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#paused ZoneLockdown#paused}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -156,7 +156,7 @@ namespace cloudflare.ZoneLockdown
             /// <remarks>
             /// A lower number indicates higher priority. If not provided, any rules with a configured priority will be processed before rules without a priority.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zone_lockdown#priority ZoneLockdown#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_lockdown#priority ZoneLockdown#priority}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

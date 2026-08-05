@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal
         {
         }
 
+        [JsiiProperty(name: "authConfigSummary", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersAuthConfigSummaryOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersAuthConfigSummaryOutputReference AuthConfigSummary
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortal.DataCloudflareZeroTrustAccessAiControlsMcpPortalServersAuthConfigSummaryOutputReference>()!;
+        }
+
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthType
         {

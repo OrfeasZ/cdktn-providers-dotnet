@@ -9,9 +9,9 @@ namespace cloudflare.TokenValidationConfig
     [JsiiByValue(fqn: "cloudflare.tokenValidationConfig.TokenValidationConfigCredentialsKeys")]
     public class TokenValidationConfigCredentialsKeys : cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys
     {
-        /// <summary>Algorithm Available values: "RS256", "RS384", "RS512", "PS256", "PS384", "PS512", "ES256", "ES384".</summary>
+        /// <summary>Algorithm Available values: "RS256", "RS384", "RS512", "PS256", "PS384", "PS512", "ES256", "ES384", "HS256", "HS384", "HS512".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#alg TokenValidationConfig#alg}
         /// </remarks>
         [JsiiProperty(name: "alg", typeJson: "{\"primitive\":\"string\"}")]
         public string Alg
@@ -22,7 +22,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Key ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#kid TokenValidationConfig#kid}
         /// </remarks>
         [JsiiProperty(name: "kid", typeJson: "{\"primitive\":\"string\"}")]
         public string Kid
@@ -31,9 +31,9 @@ namespace cloudflare.TokenValidationConfig
             set;
         }
 
-        /// <summary>Key Type Available values: "RSA", "EC".</summary>
+        /// <summary>Key Type Available values: "RSA", "EC", "oct".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#kty TokenValidationConfig#kty}
         /// </remarks>
         [JsiiProperty(name: "kty", typeJson: "{\"primitive\":\"string\"}")]
         public string Kty
@@ -44,7 +44,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Curve Available values: "P-256", "P-384".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#crv TokenValidationConfig#crv}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crv", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>RSA exponent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#e TokenValidationConfig#e}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "e", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -66,9 +66,21 @@ namespace cloudflare.TokenValidationConfig
             set;
         }
 
+        /// <summary>Symmetric key material. Required for create and PUT update requests.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#k TokenValidationConfig#k}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "k", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? K
+        {
+            get;
+            set;
+        }
+
         /// <summary>RSA modulus.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#n TokenValidationConfig#n}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "n", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +92,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>X EC coordinate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#x TokenValidationConfig#x}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "x", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -92,7 +104,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Y EC coordinate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#y TokenValidationConfig#y}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "y", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

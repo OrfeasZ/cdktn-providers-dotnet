@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to create (POST) operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#create ZeroTrustAccessApplication#create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#create ZeroTrustAccessApplication#create}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to DELETE operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#delete ZeroTrustAccessApplication#delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#delete ZeroTrustAccessApplication#delete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to update (PATCH/PUT) operations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/zero_trust_access_application#update ZeroTrustAccessApplication#update}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#update ZeroTrustAccessApplication#update}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

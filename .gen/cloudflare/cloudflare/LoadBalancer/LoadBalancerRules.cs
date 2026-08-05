@@ -11,7 +11,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// If the condition evaluates to true, the overrides or fixed_response in this rule will be applied. An empty condition is always true. For more details on condition expressions, please see https://developers.cloudflare.com/load-balancing/understand-basics/load-balancing-rules/expressions.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#condition LoadBalancer#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#condition LoadBalancer#condition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>Disable this specific rule. It will no longer be evaluated by this load balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#disabled LoadBalancer#disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#disabled LoadBalancer#disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// If a fixed_response is supplied the rule will be marked as terminates.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#fixed_response LoadBalancer#fixed_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#fixed_response LoadBalancer#fixed_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fixedResponse", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesFixedResponse\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>Name of this rule. Only used for human readability.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#name LoadBalancer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#name LoadBalancer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// All fields are optional.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#overrides LoadBalancer#overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#overrides LoadBalancer#overrides}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"cloudflare.loadBalancer.LoadBalancerRulesOverrides\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// Lower values are executed first. Values do not need to be sequential. If no value is provided for any rule the array order of the rules field will be used to assign a priority.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#priority LoadBalancer#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#priority LoadBalancer#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace cloudflare.LoadBalancer
 
         /// <summary>If this rule's condition is true, this causes rule evaluation to stop after processing this rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/load_balancer#terminates LoadBalancer#terminates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#terminates LoadBalancer#terminates}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

@@ -4,25 +4,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareCustomCsr
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrConfig")]
     public class DataCloudflareCustomCsrConfig : cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrConfig
     {
-        /// <summary>Custom CSR identifier tag.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
-        /// </remarks>
-        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
-        public string CustomCsrId
-        {
-            get;
-            set;
-        }
-
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#account_id DataCloudflareCustomCsr#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,9 +19,30 @@ namespace cloudflare.DataCloudflareCustomCsr
             set;
         }
 
+        /// <summary>Custom CSR identifier tag.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#custom_csr_id DataCloudflareCustomCsr#custom_csr_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? CustomCsrId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#filter DataCloudflareCustomCsr#filter}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareCustomCsr.DataCloudflareCustomCsrFilter\"}", isOptional: true)]
+        public cloudflare.DataCloudflareCustomCsr.IDataCloudflareCustomCsrFilter? Filter
+        {
+            get;
+            set;
+        }
+
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/custom_csr#zone_id DataCloudflareCustomCsr#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

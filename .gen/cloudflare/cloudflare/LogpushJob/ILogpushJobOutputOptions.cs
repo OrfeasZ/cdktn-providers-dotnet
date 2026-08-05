@@ -9,7 +9,7 @@ namespace cloudflare.LogpushJob
     {
         /// <summary>String to be prepended before each batch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#batch_prefix LogpushJob#batch_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#batch_prefix LogpushJob#batch_prefix}
         /// </remarks>
         [JsiiProperty(name: "batchPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>String to be appended after each batch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#batch_suffix LogpushJob#batch_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#batch_suffix LogpushJob#batch_suffix}
         /// </remarks>
         [JsiiProperty(name: "batchSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>If set to true, will cause all occurrences of `${` in the generated files to be replaced with `x{`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#cve_2021_44228 LogpushJob#cve_2021_44228}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#cve_2021_44228 LogpushJob#cve_2021_44228}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "cve202144228", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>String to join fields. This field be ignored when `record_template` is set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#field_delimiter LogpushJob#field_delimiter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#field_delimiter LogpushJob#field_delimiter}
         /// </remarks>
         [JsiiProperty(name: "fieldDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// For the moment, there is no option to add all fields at once, so you must specify all the fields names you are interested in.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#field_names LogpushJob#field_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#field_names LogpushJob#field_names}
         /// </remarks>
         [JsiiProperty(name: "fieldNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>If set to true, subrequests will be merged into the parent request. Only supported for the `http_requests` dataset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#merge_subrequests LogpushJob#merge_subrequests}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#merge_subrequests LogpushJob#merge_subrequests}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "mergeSubrequests", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace cloudflare.LogpushJob
         /// This sets default values for the rest of the settings, depending on the chosen output type. Some formatting rules, like string quoting, are different between output types.
         /// Available values: "ndjson", "csv".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#output_type LogpushJob#output_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#output_type LogpushJob#output_type}
         /// </remarks>
         [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>String to be inserted in-between the records as separator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_delimiter LogpushJob#record_delimiter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_delimiter LogpushJob#record_delimiter}
         /// </remarks>
         [JsiiProperty(name: "recordDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>String to be prepended before each record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_prefix LogpushJob#record_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_prefix LogpushJob#record_prefix}
         /// </remarks>
         [JsiiProperty(name: "recordPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,7 +142,7 @@ namespace cloudflare.LogpushJob
 
         /// <summary>String to be appended after each record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_suffix LogpushJob#record_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_suffix LogpushJob#record_suffix}
         /// </remarks>
         [JsiiProperty(name: "recordSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -158,7 +158,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// All fields used in the template must be present in <c>field_names</c> as well, otherwise they will end up as null. Format as a Go <c>text/template</c> without any standard functions, like conditionals, loops, sub-templates, etc.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_template LogpushJob#record_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_template LogpushJob#record_template}
         /// </remarks>
         [JsiiProperty(name: "recordTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -174,7 +174,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// Sampling is applied on top of filtering, and regardless of the current <c>sample_interval</c> of the data.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#sample_rate LogpushJob#sample_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#sample_rate LogpushJob#sample_rate}
         /// </remarks>
         [JsiiProperty(name: "sampleRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -190,7 +190,7 @@ namespace cloudflare.LogpushJob
         /// <remarks>
         /// Available values: "unixnano", "unix", "rfc3339", "rfc3339ms", "rfc3339ns".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#timestamp_format LogpushJob#timestamp_format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#timestamp_format LogpushJob#timestamp_format}
         /// </remarks>
         [JsiiProperty(name: "timestampFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -211,7 +211,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to be prepended before each batch.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#batch_prefix LogpushJob#batch_prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#batch_prefix LogpushJob#batch_prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "batchPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -222,7 +222,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to be appended after each batch.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#batch_suffix LogpushJob#batch_suffix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#batch_suffix LogpushJob#batch_suffix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "batchSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -233,7 +233,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>If set to true, will cause all occurrences of `${` in the generated files to be replaced with `x{`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#cve_2021_44228 LogpushJob#cve_2021_44228}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#cve_2021_44228 LogpushJob#cve_2021_44228}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -245,7 +245,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to join fields. This field be ignored when `record_template` is set.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#field_delimiter LogpushJob#field_delimiter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#field_delimiter LogpushJob#field_delimiter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fieldDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// For the moment, there is no option to add all fields at once, so you must specify all the fields names you are interested in.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#field_names LogpushJob#field_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#field_names LogpushJob#field_names}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fieldNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>If set to true, subrequests will be merged into the parent request. Only supported for the `http_requests` dataset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#merge_subrequests LogpushJob#merge_subrequests}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#merge_subrequests LogpushJob#merge_subrequests}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -284,7 +284,7 @@ namespace cloudflare.LogpushJob
             /// This sets default values for the rest of the settings, depending on the chosen output type. Some formatting rules, like string quoting, are different between output types.
             /// Available values: "ndjson", "csv".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#output_type LogpushJob#output_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#output_type LogpushJob#output_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outputType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -295,7 +295,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to be inserted in-between the records as separator.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_delimiter LogpushJob#record_delimiter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_delimiter LogpushJob#record_delimiter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -306,7 +306,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to be prepended before each record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_prefix LogpushJob#record_prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_prefix LogpushJob#record_prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,7 +317,7 @@ namespace cloudflare.LogpushJob
 
             /// <summary>String to be appended after each record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_suffix LogpushJob#record_suffix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_suffix LogpushJob#record_suffix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -330,7 +330,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// All fields used in the template must be present in <c>field_names</c> as well, otherwise they will end up as null. Format as a Go <c>text/template</c> without any standard functions, like conditionals, loops, sub-templates, etc.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#record_template LogpushJob#record_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#record_template LogpushJob#record_template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recordTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -343,7 +343,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// Sampling is applied on top of filtering, and regardless of the current <c>sample_interval</c> of the data.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#sample_rate LogpushJob#sample_rate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#sample_rate LogpushJob#sample_rate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sampleRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -356,7 +356,7 @@ namespace cloudflare.LogpushJob
             /// <remarks>
             /// Available values: "unixnano", "unix", "rfc3339", "rfc3339ms", "rfc3339ns".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/logpush_job#timestamp_format LogpushJob#timestamp_format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/logpush_job#timestamp_format LogpushJob#timestamp_format}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestampFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

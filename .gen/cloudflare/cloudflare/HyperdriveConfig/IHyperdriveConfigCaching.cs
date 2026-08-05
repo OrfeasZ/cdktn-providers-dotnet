@@ -9,7 +9,7 @@ namespace cloudflare.HyperdriveConfig
     {
         /// <summary>Set to true to disable caching of SQL responses. Default is false.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#disabled HyperdriveConfig#disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#disabled HyperdriveConfig#disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace cloudflare.HyperdriveConfig
 
         /// <summary>Specify the maximum duration (in seconds) items should persist in the cache. Defaults to 60 seconds if not specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#max_age HyperdriveConfig#max_age}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#max_age HyperdriveConfig#max_age}
         /// </remarks>
         [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace cloudflare.HyperdriveConfig
 
         /// <summary>Specify the number of seconds the cache may serve a stale response. Defaults to 15 seconds if not specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#stale_while_revalidate HyperdriveConfig#stale_while_revalidate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#stale_while_revalidate HyperdriveConfig#stale_while_revalidate}
         /// </remarks>
         [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.HyperdriveConfig
 
             /// <summary>Set to true to disable caching of SQL responses. Default is false.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#disabled HyperdriveConfig#disabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#disabled HyperdriveConfig#disabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -71,7 +71,7 @@ namespace cloudflare.HyperdriveConfig
 
             /// <summary>Specify the maximum duration (in seconds) items should persist in the cache. Defaults to 60 seconds if not specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#max_age HyperdriveConfig#max_age}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#max_age HyperdriveConfig#max_age}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace cloudflare.HyperdriveConfig
 
             /// <summary>Specify the number of seconds the cache may serve a stale response. Defaults to 15 seconds if not specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/hyperdrive_config#stale_while_revalidate HyperdriveConfig#stale_while_revalidate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/hyperdrive_config#stale_while_revalidate HyperdriveConfig#stale_while_revalidate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "staleWhileRevalidate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

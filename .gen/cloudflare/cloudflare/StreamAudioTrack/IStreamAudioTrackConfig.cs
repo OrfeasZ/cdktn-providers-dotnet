@@ -9,7 +9,7 @@ namespace cloudflare.StreamAudioTrack
     {
         /// <summary>The account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#account_id StreamAudioTrack#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#account_id StreamAudioTrack#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.StreamAudioTrack
 
         /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#identifier StreamAudioTrack#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#identifier StreamAudioTrack#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
         string Identifier
@@ -29,7 +29,7 @@ namespace cloudflare.StreamAudioTrack
 
         /// <summary>The unique identifier for an additional audio track.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#audio_identifier StreamAudioTrack#audio_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#audio_identifier StreamAudioTrack#audio_identifier}
         /// </remarks>
         [JsiiProperty(name: "audioIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace cloudflare.StreamAudioTrack
 
         /// <summary>Denotes whether the audio track will be played by default in a player.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#default StreamAudioTrack#default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#default StreamAudioTrack#default}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "default", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace cloudflare.StreamAudioTrack
 
         /// <summary>A string to uniquely identify the track amongst other audio track labels for the specified video.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#label StreamAudioTrack#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#label StreamAudioTrack#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace cloudflare.StreamAudioTrack
 
             /// <summary>The account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#account_id StreamAudioTrack#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#account_id StreamAudioTrack#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -89,7 +89,7 @@ namespace cloudflare.StreamAudioTrack
 
             /// <summary>A Cloudflare-generated unique identifier for a media item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#identifier StreamAudioTrack#identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#identifier StreamAudioTrack#identifier}
             /// </remarks>
             [JsiiProperty(name: "identifier", typeJson: "{\"primitive\":\"string\"}")]
             public string Identifier
@@ -99,7 +99,7 @@ namespace cloudflare.StreamAudioTrack
 
             /// <summary>The unique identifier for an additional audio track.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#audio_identifier StreamAudioTrack#audio_identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#audio_identifier StreamAudioTrack#audio_identifier}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audioIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace cloudflare.StreamAudioTrack
 
             /// <summary>Denotes whether the audio track will be played by default in a player.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#default StreamAudioTrack#default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#default StreamAudioTrack#default}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace cloudflare.StreamAudioTrack
 
             /// <summary>A string to uniquely identify the track amongst other audio track labels for the specified video.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.22.0/docs/resources/stream_audio_track#label StreamAudioTrack#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_audio_track#label StreamAudioTrack#label}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

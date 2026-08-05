@@ -8,7 +8,7 @@
     "azuredevops": "1.16.0",
     "azurerm": "5.0.1",
     "azurestack": "1.0.0",
-    "cloudflare": "5.22.0",
+    "cloudflare": "5.23.0",
     "digitalocean": "2.99.0",
     "hcloud": "1.68.0",
     "libvirt": "0.9.8",
