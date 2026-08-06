@@ -9,7 +9,7 @@ namespace digitalocean.UptimeAlert
     {
         /// <summary>List of email addresses to sent notifications to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/uptime_alert#email UptimeAlert#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/uptime_alert#email UptimeAlert#email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace digitalocean.UptimeAlert
 
         /// <summary>slack block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/uptime_alert#slack UptimeAlert#slack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/uptime_alert#slack UptimeAlert#slack}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.UptimeAlert.IUptimeAlertNotificationsSlack" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.VpcNatGateway
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vpc_nat_gateway digitalocean_vpc_nat_gateway}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vpc_nat_gateway digitalocean_vpc_nat_gateway}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.VpcNatGateway.VpcNatGateway), fullyQualifiedName: "digitalocean.vpcNatGateway.VpcNatGateway", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayConfig\"}}]")]
     public class VpcNatGateway : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vpc_nat_gateway digitalocean_vpc_nat_gateway} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vpc_nat_gateway digitalocean_vpc_nat_gateway} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public VpcNatGateway(Constructs.Construct scope, string id, digitalocean.VpcNatGateway.IVpcNatGatewayConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace digitalocean.VpcNatGateway
         /// <param name="importToId">The construct id used in the generated config for the VpcNatGateway to import.</param>
         /// <param name="importFromId">The id of the existing VpcNatGateway that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the VpcNatGateway to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the VpcNatGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vpc_nat_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing VpcNatGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the VpcNatGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the VpcNatGateway to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vpc_nat_gateway#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing VpcNatGateway that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the VpcNatGateway to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.VpcNatGateway.VpcNatGateway), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putEgresses", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgresses\"}}]")]
+        public virtual void PutEgresses(digitalocean.VpcNatGateway.IVpcNatGatewayEgresses @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.VpcNatGateway.IVpcNatGatewayEgresses)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayVpcs" />)[]</param>
@@ -68,6 +74,12 @@ namespace digitalocean.VpcNatGateway
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetEgresses")]
+        public virtual void ResetEgresses()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetIcmpTimeoutSeconds")]
@@ -119,10 +131,10 @@ namespace digitalocean.VpcNatGateway
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "egresses", typeJson: "{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgressesList\"}")]
-        public virtual digitalocean.VpcNatGateway.VpcNatGatewayEgressesList Egresses
+        [JsiiProperty(name: "egresses", typeJson: "{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgressesOutputReference\"}")]
+        public virtual digitalocean.VpcNatGateway.VpcNatGatewayEgressesOutputReference Egresses
         {
-            get => GetInstanceProperty<digitalocean.VpcNatGateway.VpcNatGatewayEgressesList>()!;
+            get => GetInstanceProperty<digitalocean.VpcNatGateway.VpcNatGatewayEgressesOutputReference>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
@@ -147,6 +159,13 @@ namespace digitalocean.VpcNatGateway
         public virtual digitalocean.VpcNatGateway.VpcNatGatewayVpcsList Vpcs
         {
             get => GetInstanceProperty<digitalocean.VpcNatGateway.VpcNatGatewayVpcsList>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "egressesInput", typeJson: "{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgresses\"}", isOptional: true)]
+        public virtual digitalocean.VpcNatGateway.IVpcNatGatewayEgresses? EgressesInput
+        {
+            get => GetInstanceProperty<digitalocean.VpcNatGateway.IVpcNatGatewayEgresses?>();
         }
 
         [JsiiOptional]

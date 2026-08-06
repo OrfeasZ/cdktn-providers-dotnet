@@ -7,7 +7,7 @@ namespace digitalocean.VectorDatabase
     [JsiiByValue(fqn: "digitalocean.vectorDatabase.VectorDatabaseConfigA")]
     public class VectorDatabaseConfigA : digitalocean.VectorDatabase.IVectorDatabaseConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vector_database#default_quantization VectorDatabase#default_quantization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultQuantization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultQuantization
@@ -18,7 +18,7 @@ namespace digitalocean.VectorDatabase
 
         private object? _enableAutoSchema;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vector_database#enable_auto_schema VectorDatabase#enable_auto_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace digitalocean.VectorDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vector_database#weaviate_version VectorDatabase#weaviate_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weaviateVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeaviateVersion

@@ -13,7 +13,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>model_deployments block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#model_deployments DedicatedInference#model_deployments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#model_deployments DedicatedInference#model_deployments}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DedicatedInference.IDedicatedInferenceModelDeployments" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modelDeployments", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceModelDeployments\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>A human-readable name for the dedicated inference endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#name DedicatedInference#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#name DedicatedInference#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -56,7 +56,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The region slug where the dedicated inference endpoint will be deployed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#region DedicatedInference#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#region DedicatedInference#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
@@ -69,7 +69,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>Whether to enable a public HTTPS endpoint for the dedicated inference endpoint. This field is immutable after creation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#enable_public_endpoint DedicatedInference#enable_public_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#enable_public_endpoint DedicatedInference#enable_public_endpoint}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -102,7 +102,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>A HuggingFace token for accessing gated models.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#hugging_face_token DedicatedInference#hugging_face_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#hugging_face_token DedicatedInference#hugging_face_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "huggingFaceToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace digitalocean.DedicatedInference
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#id DedicatedInference#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#id DedicatedInference#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#timeouts DedicatedInference#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#timeouts DedicatedInference#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.dedicatedInference.DedicatedInferenceTimeouts\"}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace digitalocean.DedicatedInference
 
         /// <summary>The UUID of the VPC to deploy the dedicated inference endpoint into.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/resources/dedicated_inference#vpc_uuid DedicatedInference#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/dedicated_inference#vpc_uuid DedicatedInference#vpc_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

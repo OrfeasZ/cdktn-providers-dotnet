@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/gradientai_agents#filter DataDigitaloceanGradientaiAgents#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agents#filter DataDigitaloceanGradientaiAgents#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgents.IDataDigitaloceanGradientaiAgentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/gradientai_agents#id DataDigitaloceanGradientaiAgents#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agents#id DataDigitaloceanGradientaiAgents#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
 
         private object? _onlyDeployed;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/gradientai_agents#only_deployed DataDigitaloceanGradientaiAgents#only_deployed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agents#only_deployed DataDigitaloceanGradientaiAgents#only_deployed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -93,7 +93,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgents
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/gradientai_agents#sort DataDigitaloceanGradientaiAgents#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agents#sort DataDigitaloceanGradientaiAgents#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgents.IDataDigitaloceanGradientaiAgentsSort" />)[]</para>
         /// </remarks>
         [JsiiOptional]

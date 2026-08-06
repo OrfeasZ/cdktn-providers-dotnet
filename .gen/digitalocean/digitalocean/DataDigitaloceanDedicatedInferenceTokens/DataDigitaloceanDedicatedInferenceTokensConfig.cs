@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
     {
         /// <summary>The ID of the dedicated inference endpoint to list tokens for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inference_tokens#dedicated_inference_id DataDigitaloceanDedicatedInferenceTokens#dedicated_inference_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/dedicated_inference_tokens#dedicated_inference_id DataDigitaloceanDedicatedInferenceTokens#dedicated_inference_id}
         /// </remarks>
         [JsiiProperty(name: "dedicatedInferenceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DedicatedInferenceId
@@ -24,7 +24,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inference_tokens#filter DataDigitaloceanDedicatedInferenceTokens#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/dedicated_inference_tokens#filter DataDigitaloceanDedicatedInferenceTokens#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceTokens.IDataDigitaloceanDedicatedInferenceTokensFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -55,7 +55,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inference_tokens#id DataDigitaloceanDedicatedInferenceTokens#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/dedicated_inference_tokens#id DataDigitaloceanDedicatedInferenceTokens#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace digitalocean.DataDigitaloceanDedicatedInferenceTokens
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.0/docs/data-sources/dedicated_inference_tokens#sort DataDigitaloceanDedicatedInferenceTokens#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/dedicated_inference_tokens#sort DataDigitaloceanDedicatedInferenceTokens#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanDedicatedInferenceTokens.IDataDigitaloceanDedicatedInferenceTokensSort" />)[]</para>
         /// </remarks>
         [JsiiOptional]

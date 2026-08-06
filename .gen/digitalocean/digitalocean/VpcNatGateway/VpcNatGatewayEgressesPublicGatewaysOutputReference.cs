@@ -35,18 +35,55 @@ namespace digitalocean.VpcNatGateway
         {
         }
 
+        [JsiiMethod(name: "resetIpv4")]
+        public virtual void ResetIpv4()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ipv4Input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? Ipv4Input
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "ipv4", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ipv4
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgressesPublicGateways\"}", isOptional: true)]
-        public virtual digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgressesPublicGateways\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
         {
-            get => GetInstanceProperty<digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways?>();
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }
